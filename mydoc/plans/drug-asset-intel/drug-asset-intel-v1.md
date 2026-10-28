@@ -23,7 +23,7 @@
 
 | Order | ID | Change | 类型 | Ref | Depends on | Status |
 |---|---|---|---|---|---|---|
-| 1 | A | 项目骨架与数据模型 | 代码 | `project-skeleton` | — | planned |
+| 1 | A | 项目骨架与数据模型 | 代码 | `project-skeleton` | — | in-progress（spec 已就绪，待审阅） |
 | 2 | B | 基础材料导入与 Stage 0 排除 | 代码 + 研究 | `baseline-ingest` | A | planned |
 | 3 | C | 官方结构化数据拉取（CT.gov + EDGAR） | 代码 | `public-data-ingest` | B | planned |
 | 3 | D | LLM 抽取管道 | 代码 | `llm-extraction` | A | planned |
@@ -114,3 +114,4 @@
 
 - 2026-10-28 · 69dd30f7-bc86-4fc2-b36d-dea57ab87358 · v1 起草（draft）
 - 2026-10-28 · 69dd30f7-bc86-4fc2-b36d-dea57ab87358 · v1 用户确认（confirmed）
+- 2026-10-28 · 69dd30f7-bc86-4fc2-b36d-dea57ab87358 · A OpenSpec 产物完成（proposal / specs / design / tasks），strict 校验通过
