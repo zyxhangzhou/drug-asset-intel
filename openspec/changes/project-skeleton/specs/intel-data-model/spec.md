@@ -18,11 +18,15 @@
 - **THEN** 可以从标的公司逐级查询到该临床试验，也可以从试验反查到所属标的公司
 
 ### Requirement: Source registry
-系统 SHALL 维护来源登记，每条来源具有唯一的来源ID、URL 或本地文件路径、来源类型、发布日期（可为未知）与抓取时间。
+系统 SHALL 维护来源登记，每条来源具有唯一的来源ID、URL、来源类型、发布日期（可为未知）与抓取时间；被抓取存档的文档另记本地存档路径与内容哈希。来源类型取值：mnc_material、sec_filing、sec_xbrl、ctgov、openfda、fda_web、company_ir、press_release、publication、market_data、other。
 
 #### Scenario: Source keeps external identifiers
 - **WHEN** 登记一条来自对方材料、ID 为 `MRK-1` 的来源
 - **THEN** 来源ID 原样保存为 `MRK-1`，可以通过该 ID 查到其 URL 与发布日期
+
+#### Scenario: Archived document is verifiable
+- **WHEN** 登记一条已抓取存档的 8-K 新闻稿来源
+- **THEN** 该来源记录本地存档路径与内容哈希，按路径读取的文件哈希与记录一致
 
 #### Scenario: Unknown publish date
 - **WHEN** 登记一条无法确定发布日期的来源

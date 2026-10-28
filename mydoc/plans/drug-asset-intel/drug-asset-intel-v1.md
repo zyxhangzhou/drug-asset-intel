@@ -1,3 +1,5 @@
+> Superseded by [v2](drug-asset-intel-v2.md) on 2026-10-29 — 文档类来源的获取与存档补入 A / B / C / D / F。
+
 # 全球创新药资产情报平台 — v1
 
 - Status: confirmed
