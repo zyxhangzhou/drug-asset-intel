@@ -35,3 +35,7 @@
 
 Python 版本与依赖用 uv 管理（`uv sync`、`uv run ...`）；不直接调用系统 `python3` / `pip`。
 完整方案见 `docs/plan.md`。启动 / 测试命令、schema、代码风格待实现后补充。
+
+## 工作流
+
+规格驱动：变更拆解与顺序在 `mydoc/plans/drug-asset-intel/`（change-plan，读 README 指向的最新版本）；代码类变更用 OpenSpec（`openspec/changes/<name>/`，name 对应计划里的 Ref 列）。研究类变更只在计划里写任务与数据验收标准。变更状态变化时，同一回合更新计划的 Status 与 Status log。

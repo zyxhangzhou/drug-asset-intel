@@ -1,0 +1,40 @@
+schema: spec-driven
+
+context: |
+  Language: zh
+  All artifacts must be written in zh.
+  Keep OpenSpec structural headings and SHALL/MUST keywords in English.
+  Project: 全球创新药资产情报平台（横店资本 FDE 技术作业，截止 2026-11-04）。
+  Data-integrity rules in CLAUDE.md apply to every change. Overall design: docs/plan.md.
+  Change breakdown and order: mydoc/plans/drug-asset-intel/ (latest version); a change name here matches the Ref column there.
+  Stack: Python 3.12 via uv, FastAPI, SQLite, Vite + React + Ant Design, Docker.
+
+rules:
+  proposal:
+    - Keep proposals under 400 words; state what is out of scope
+    - Name the change ID from the change plan (e.g. "Plan change A")
+  tasks:
+    - Chunk tasks to at most 2 hours each
+    - Mark research or manual-review tasks with a [人工] prefix
+
+# Per-artifact rules (optional)
+# Add custom rules for specific artifacts.
+# Example:
+#   rules:
+#     proposal:
+#       - Keep proposals under 500 words
+#       - Always state what is out of scope
+#     tasks:
+#       - Break tasks into chunks of max 2 hours
+
+# Per-operation guidance (optional)
+# Add advisory guidance for how apply and archive work should be conducted.
+# This is separate from artifact rules above.
+# Example:
+#   operations:
+#     apply:
+#       guidance:
+#         - Keep test summaries concise
+#     archive:
+#       guidance:
+#         - Summarize the archive outcome before finishing
