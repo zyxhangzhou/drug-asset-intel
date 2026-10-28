@@ -2,21 +2,21 @@
 
 ## 1. Python 项目与工具链
 
-- [ ] 1.1 用 uv 初始化 Python 3.12 项目（`src/intel/` 包布局），加入 FastAPI、SQLModel、Uvicorn、pytest、ruff；验证 `uv run pytest` 与 `uv run ruff check` 可执行
-- [ ] 1.2 添加 `.env.example`（`INTEL_DB_PATH`、`SEC_USER_AGENT`、`LLM_BASE_URL`、`LLM_MODEL`、`LLM_API_KEY`、`LLM_VERIFY_*` 占位）与配置加载模块；测试验证代码读取的每个配置项都出现在 `.env.example` 中
+- [x] 1.1 用 uv 初始化 Python 3.12 项目（`src/intel/` 包布局），加入 FastAPI、SQLModel、Uvicorn、pytest、ruff；验证 `uv run pytest` 与 `uv run ruff check` 可执行
+- [x] 1.2 添加 `.env.example`（`INTEL_DB_PATH`、`SEC_USER_AGENT`、`LLM_BASE_URL`、`LLM_MODEL`、`LLM_API_KEY`、`LLM_VERIFY_*` 占位）与配置加载模块；测试验证代码读取的每个配置项都出现在 `.env.example` 中
 
 ## 2. 数据模型与溯源
 
-- [ ] 2.1 定义受控枚举（研发阶段、置信度、声明类别、产生方式、催化事件类型）；测试验证非法取值被拒绝且错误信息列出允许取值
-- [ ] 2.2 定义 10 个领域实体与 Source、Claim、snapshot_meta 表，并标注业务字段元数据；测试验证从标的公司可逐级查到试验、从试验可反查标的
-- [ ] 2.3 实现 Claim 写入校验（来源须已登记、inference 须带置信度、llm 须带原文片段）；三条规则各有通过 / 拒绝测试
-- [ ] 2.4 实现 `intel init-db` 命令（可重复执行、不丢数据）；测试验证两次执行后表与已有数据都在
-- [ ] 2.5 实现 `intel check-provenance` 命令；测试覆盖"有值无声明 → 列出并非零退出"与"空值不算缺口"
+- [x] 2.1 定义受控枚举（研发阶段、置信度、声明类别、产生方式、催化事件类型）；测试验证非法取值被拒绝且错误信息列出允许取值
+- [x] 2.2 定义 10 个领域实体与 Source、Claim、snapshot_meta 表，并标注业务字段元数据；测试验证从标的公司可逐级查到试验、从试验可反查标的
+- [x] 2.3 实现 Claim 写入校验（来源须已登记、inference 须带置信度、llm 须带原文片段）；三条规则各有通过 / 拒绝测试
+- [x] 2.4 实现 `intel init-db` 命令（可重复执行、不丢数据）；测试验证两次执行后表与已有数据都在
+- [x] 2.5 实现 `intel check-provenance` 命令；测试覆盖"有值无声明 → 列出并非零退出"与"空值不算缺口"
 
 ## 3. API
 
-- [ ] 3.1 实现只读快照连接（`mode=ro`）与快照缺失时的启动错误；测试验证写入失败、快照不存在时报错含路径
-- [ ] 3.2 实现 `/api/health` 与 `/api/meta`；用 TestClient 测试空快照返回生成时间且各实体计数为 0
+- [x] 3.1 实现只读快照连接（`mode=ro`）与快照缺失时的启动错误；测试验证写入失败、快照不存在时报错含路径
+- [x] 3.2 实现 `/api/health` 与 `/api/meta`；用 TestClient 测试空快照返回生成时间且各实体计数为 0
 
 ## 4. 前端壳
 
