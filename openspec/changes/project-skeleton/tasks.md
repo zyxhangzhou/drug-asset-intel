@@ -20,13 +20,13 @@
 
 ## 4. 前端壳
 
-- [ ] 4.1 用 Vite 初始化 `web/`（React + TypeScript + Ant Design），开发代理 `/api`；验证 `npm run build` 成功
-- [ ] 4.2 首页调用 `/api/meta`，显示快照时间与各实体记录数；在本地启动后打开页面验证显示正确
+- [x] 4.1 用 Vite 初始化 `web/`（React + TypeScript + Ant Design），开发代理 `/api`；验证 `npm run build` 成功
+- [x] 4.2 首页调用 `/api/meta`，显示快照时间与各实体记录数；在本地启动后打开页面验证显示正确
 
 ## 5. 容器与集成
 
-- [ ] 5.1 编写多阶段 `Dockerfile` 与 `compose.yaml`，FastAPI 托管 `web/dist`；验证 `docker compose up --build` 后 `/api/health` 返回 200、首页显示元信息
-- [ ] 5.2 生成空快照 `data/processed/intel.db` 并提交；更新 `CLAUDE.md` 的目录与常用命令小节，验证文档中的命令照抄可运行
+- [x] 5.1 编写多阶段 `Dockerfile` 与 `compose.yaml`，FastAPI 托管 `web/dist`；验证 `docker compose up --build` 后 `/api/health` 返回 200、首页显示元信息
+- [x] 5.2 生成空快照 `data/processed/intel.db` 并提交；更新 `CLAUDE.md` 的目录与常用命令小节，验证文档中的命令照抄可运行
 
 ## Workflow follow-up
 

@@ -20,10 +20,16 @@
 
 ## 目录
 
+- `src/intel/` Python 包：数据模型与溯源规则（`models.py`、`db.py`）、API（`api.py`）、命令行（`cli.py`）；后续管道加子包
+- `tests/` pytest
+- `web/` 前端（Vite + React + TS + Ant Design），开发时代理 `/api` 到 8000 端口
 - `data/raw/` 抓取的原始响应与文档快照（带抓取时间）
-- `data/processed/` 清洗、归一化后的数据
+- `data/processed/intel.db` 数据快照，提交进仓库；应用只读它，管道重建它
 - `docs/` 方案、架构、筛选方法、AI 使用说明、核验记录、已知限制
-- `app/` 应用样板
+
+## 数据模型要点
+
+业务值存在各实体表的类型化列里；来源存在 `Claim`（指向 `entity_type, entity_id, field`）与 `Source`。每张实体表的 `BUSINESS_FIELDS` 列出必须有声明支撑的字段。写入规则在 `db.py` 的 `before_flush` 里强制执行：声明须引用已登记来源、推断须带置信度、LLM 声明须带原文片段与模型名、枚举字段只收受控取值。写完数据跑 `intel check-provenance`，非零退出就是有值没来源。
 
 ## 约定
 
@@ -34,7 +40,19 @@
 ## 技术栈
 
 Python 版本与依赖用 uv 管理（`uv sync`、`uv run ...`）；不直接调用系统 `python3` / `pip`。
-完整方案见 `docs/plan.md`。启动 / 测试命令、schema、代码风格待实现后补充。
+完整方案见 `docs/plan.md`。
+
+```bash
+uv sync                                   # 安装依赖
+uv run pytest                             # 测试
+uv run ruff check . && uv run ruff format .
+uv run intel init-db                      # 建库（可重复执行）
+uv run intel check-provenance             # 溯源完整性检查
+uv run intel serve                        # API，http://127.0.0.1:8000
+cd web && npm install && npm run dev      # 前端开发服务器（代理 /api）
+cd web && npm run build                   # 构建前端，intel serve 会托管 web/dist
+docker compose up --build                 # 一条命令启动完整应用，http://localhost:8000
+```
 
 ## 工作流
 

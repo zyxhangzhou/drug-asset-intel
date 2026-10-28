@@ -33,7 +33,7 @@
 
 | Order | ID | Change | 类型 | Ref | Depends on | Status |
 |---|---|---|---|---|---|---|
-| 1 | A | 项目骨架与数据模型 | 代码 | `project-skeleton` | — | in-progress（spec 已就绪，待审阅） |
+| 1 | A | 项目骨架与数据模型 | 代码 | `project-skeleton` | — | implemented（13/13 任务，待 verify + archive） |
 | 2 | B | 基础材料导入与 Stage 0 排除 | 代码 + 研究 | `baseline-ingest` | A | planned |
 | 3 | C | 官方结构化数据拉取（CT.gov + EDGAR + openFDA） | 代码 | `public-data-ingest` | B | planned |
 | 3 | D | 文档获取存档与 LLM 抽取管道 | 代码 | `llm-extraction` | A | planned |
@@ -129,3 +129,4 @@
 - 2026-10-28 · 69dd30f7-bc86-4fc2-b36d-dea57ab87358 · v1 起草（draft）
 - 2026-10-28 · 69dd30f7-bc86-4fc2-b36d-dea57ab87358 · v1 用户确认（confirmed）
 - 2026-10-28 · 69dd30f7-bc86-4fc2-b36d-dea57ab87358 · A OpenSpec 产物完成（proposal / specs / design / tasks），strict 校验通过
+- 2026-10-29 · 69dd30f7-bc86-4fc2-b36d-dea57ab87358 · A 实现完成：28 个测试通过，docker compose 启动验证通过
