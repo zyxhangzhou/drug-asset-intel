@@ -16,9 +16,9 @@ Step = Callable[[BuildContext], None]
 
 
 def default_steps() -> list[Step]:
-    from intel.ingest import ctgov, mnc, openfda, universe
+    from intel.ingest import ctgov, financials, mnc, openfda, universe
 
-    return [mnc.ingest, universe.ingest, openfda.ingest, ctgov.ingest]
+    return [mnc.ingest, universe.ingest, openfda.ingest, ctgov.ingest, financials.ingest]
 
 
 @dataclass

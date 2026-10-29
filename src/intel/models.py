@@ -307,7 +307,7 @@ class FinancialSnapshot(SQLModel, table=True):
     BUSINESS_FIELDS: ClassVar[tuple[str, ...]] = (
         "cash_and_investments",
         "total_debt",
-        "quarterly_operating_cash_flow",
+        "operating_cash_flow_ytd",
         "runway_months",
         "shares_outstanding",
         "share_price",
@@ -321,7 +321,8 @@ class FinancialSnapshot(SQLModel, table=True):
     currency: str = "USD"
     cash_and_investments: float | None = None
     total_debt: float | None = None
-    quarterly_operating_cash_flow: float | None = None
+    operating_cash_flow_ytd: float | None = None  # as filed: fiscal year to date
+    operating_cash_flow_months: int | None = None  # length of that period
     runway_months: float | None = None
     shares_outstanding: float | None = None
     share_price: float | None = None

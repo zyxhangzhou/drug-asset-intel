@@ -42,7 +42,7 @@ def cmd_build(db: Path) -> int:
     return 0
 
 
-BATCH_SOURCES = ("ctgov",)
+BATCH_SOURCES = ("ctgov", "xbrl", "prices")
 SINGLE_SOURCES = ("openfda",)
 
 
@@ -72,14 +72,20 @@ def cmd_fetch(what: str, refresh: bool, only: list[str] | None) -> int:
 
 def _fetch_batch(what, inputs, client, refresh, only) -> int:
     from intel.fetch import CTGOV_DELAY, Throttled
-    from intel.ingest import ctgov
+    from intel.ingest import ctgov, financials
     from intel.ingest.pool import candidate_pool
 
     companies = [c for c in candidate_pool(inputs) if not only or c.ticker in only]
-    module = {"ctgov": ctgov}[what]
-    delay = {"ctgov": CTGOV_DELAY}[what]
-    result = module.fetch(inputs, Throttled(client, delay=delay), companies, refresh)
-    log = result.write_log(inputs.raw_dir / what)
+    match what:
+        case "ctgov":
+            result = ctgov.fetch(inputs, Throttled(client, delay=CTGOV_DELAY), companies, refresh)
+        case "xbrl":
+            result = financials.fetch_xbrl(
+                inputs, Throttled(client), companies, load_settings(), refresh
+            )
+        case "prices":
+            result = financials.fetch_prices(inputs, Throttled(client), companies, refresh)
+    log = result.write_log(inputs.raw_dir / {"xbrl": "sec", "prices": "nasdaq"}.get(what, what))
     print(
         f"{what}: fetched {len(result.fetched)}, cached {len(result.skipped)}, "
         f"failed {len(result.failed)} (log: {log})"

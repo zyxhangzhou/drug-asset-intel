@@ -64,7 +64,7 @@ B 交付了构建框架：`intel fetch` 联网、只写 `data/raw/`；`intel bui
 
 | 字段 | 取值规则 |
 |---|---|
-| 现金及投资 | 合并标签优先：`CashCashEquivalentsAndShortTermInvestments`、`CashCashEquivalentsAndMarketableSecuritiesCurrent`（自定义扩展标签不使用）。没有合并标签时相加：`CashAndCashEquivalentsAtCarryingValue`，加上第一个命中的流动性投资标签（`ShortTermInvestments` / `MarketableSecuritiesCurrent` / `AvailableForSaleSecuritiesDebtSecuritiesCurrent`），再加第一个命中的非流动投资标签（`MarketableSecuritiesNoncurrent` / `AvailableForSaleSecuritiesDebtSecuritiesNoncurrent` / `LongTermInvestments`） |
+| 现金及投资 | 合并标签优先：`CashCashEquivalentsAndShortTermInvestments`、`CashCashEquivalentsAndMarketableSecuritiesCurrent`。没有合并标签时，以 `CashAndCashEquivalentsAtCarryingValue` 为基础，加上投资：先取流动、非流动分项（各取清单中第一个命中的，如 `ShortTermInvestments`、`DebtSecuritiesAvailableForSaleExcludingAccruedInterestCurrent`、`LongTermInvestments`）；两者都没有时，才用不分流动性的合计标签（`AvailableForSaleSecuritiesDebtSecurities`、`Investments` 等）。合计与分项不同时计入。清单在实测中扩充过：RLAY、INCY 使用的标签最初不在清单中
 | 债务 | 优先 `LongTermDebt`（含一年内到期部分）；否则 `LongTermDebtNoncurrent` + `LongTermDebtCurrent`；否则 `ConvertibleNotesPayable` / `ConvertibleDebtNoncurrent`。都没有时字段留空，不填 0：留空表示没有申报，与"零债务"不同 |
 | 经营现金流 | `NetCashProvidedByUsedInOperatingActivities` |
 | 流通股 | `dei:EntityCommonStockSharesOutstanding` |
