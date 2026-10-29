@@ -21,7 +21,7 @@
 
 - [x] 4.1 导入 149 家指数清单；读取 SEC 缓存写入 CIK 与声明，未映射的进缺口；缓存不存在时整体记缺口，构建不失败。测试：使用小型 fixture 对照文件，覆盖已映射、未映射、缓存缺失三种情况。
 - [x] 4.2 实现 Stage 0 CSV 读取：只应用已核实的行，生成带来源的声明，打印未核实行数。测试：已核实的 acquired 行生成 fact 声明；未核实的行不生效；候选池数加排除数等于 149。
-- [ ] 4.3 [人工] AI 起草 `data/manual/stage0_exclusions.csv`（类别、理由、一手来源 URL），交用户逐行核实并填写 `verified_by`。验收：每行都有可打开的一手来源；用户核实完毕。
+- [x] 4.3 [人工] AI 起草 `data/manual/stage0_exclusions.csv`（类别、理由、一手来源 URL），交用户逐行核实并填写 `verified_by`。验收：每行都有可打开的一手来源；用户核实完毕。
 
 ## 5. 链接检查
 
@@ -29,8 +29,8 @@
 
 ## 6. 真实数据构建与验收
 
-- [ ] 6.1 [人工] 用户在 `.env` 中设置 `SEC_USER_AGENT`；执行 `intel fetch sec-tickers`、`intel fetch links` 和 `intel build`；提交快照、缺口清单与原始缓存。验收：`intel check-provenance` 退出码为 0；构建输出中买方 10 家、来源 45 条、标的 149 家；缺口清单汇总已审阅。
-- [ ] 6.2 更新 `CLAUDE.md` 命令小节（fetch / build），并在 `docs/ai-log.md` 记录本变更中 AI 的工作（导入映射、排除名单起草及核实结果）。验收：文档中的命令照抄即可运行。
+- [x] 6.1 [人工] 用户在 `.env` 中设置 `SEC_USER_AGENT`；执行 `intel fetch sec-tickers`、`intel fetch links` 和 `intel build`；提交快照、缺口清单与原始缓存。验收：`intel check-provenance` 退出码为 0；构建输出中买方 10 家、标的 149 家（实际来源 59 条：对方 43 + 两个工作簿 + SEC 对照表 + Stage 0 新增 13）；缺口清单汇总已审阅。
+- [x] 6.2 更新 `CLAUDE.md` 命令小节（fetch / build），并在 `docs/ai-log.md` 记录本变更中 AI 的工作（导入映射、排除名单起草及核实结果）。验收：文档中的命令照抄即可运行。
 
 ## Workflow follow-up
 

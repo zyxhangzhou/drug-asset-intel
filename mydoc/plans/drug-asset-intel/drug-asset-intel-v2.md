@@ -34,7 +34,7 @@
 | Order | ID | Change | 类型 | Ref | Depends on | Status |
 |---|---|---|---|---|---|---|
 | 1 | A | 项目骨架与数据模型 | 代码 | `project-skeleton` | — | archived（`openspec/changes/archive/2026-10-29-project-skeleton`，主 spec：`app-runtime`、`intel-data-model`） |
-| 2 | B | 基础材料导入与 Stage 0 排除 | 代码 + 研究 | `baseline-ingest` | A | in progress（待用户核实 Stage 0 名单） |
+| 2 | B | 基础材料导入与 Stage 0 排除 | 代码 + 研究 | `baseline-ingest` | A | archived（`openspec/changes/archive/2026-10-29-baseline-ingest`） |
 | 3 | C | 官方结构化数据拉取（CT.gov + EDGAR + openFDA） | 代码 | `public-data-ingest` | B | planned |
 | 3 | D | 文档获取存档与 LLM 抽取管道 | 代码 | `llm-extraction` | A | planned |
 | 4 | E | 评分、买方匹配与候选名单 | 代码 + 研究 | `scoring-shortlist` | B, C | planned |
@@ -52,8 +52,8 @@
 
 | 题面 | 要求 | 由哪些变更完成 | 收尾变更 | 进度 |
 |---|---|---|---|---|
-| 二·第一部分 | 学习 10 家买方偏好 | B（导入对方材料，逐格保留来源与事实 / 推断口径） | B | 已导入，待 B 归档 |
-| 二·第一部分 | 结合 149 家最新公开信息筛出 20–30 家 | B（Stage 0 排除）→ C（试验、财务、审批数据）→ E（五维评分、买方匹配） | E | Stage 0 草案待人工核实 |
+| 二·第一部分 | 学习 10 家买方偏好 | B（导入对方材料，逐格保留来源与事实 / 推断口径） | B | 已完成 |
+| 二·第一部分 | 结合 149 家最新公开信息筛出 20–30 家 | B（Stage 0 排除）→ C（试验、财务、审批数据）→ E（五维评分、买方匹配） | E | Stage 0 完成：排除 16 家，候选池 133 家 |
 | 二·第一部分 | 说明筛选逻辑、评价维度、判断依据，区分事实与推断 | E（方法文档初稿）→ I（定稿） | I | 未开始 |
 | 二·第二部分 1 | 公司基本信息及入选理由 | B（公司名、CIK）+ E（入选理由） | E | 基本信息已有 |
 | 二·第二部分 2–3 | 核心管线、作用机制、适应症、各适应症研发阶段 | C（CT.gov 试验 → 适应症与阶段）+ D / F（文档抽取：作用机制、核心管线） | F | 未开始 |
@@ -167,3 +167,4 @@
 - 2026-10-29 · 69dd30f7-bc86-4fc2-b36d-dea57ab87358 · B OpenSpec 产物完成（proposal / 4 个 spec / design / tasks），strict 校验通过；新增 buyer-profiles、target-universe、snapshot-build 三个能力
 - 2026-10-29 · 69dd30f7-bc86-4fc2-b36d-dea57ab87358 · B 实现 12/15：导入、构建、抓取完成，61 个测试通过；Stage 0 草案 16 家待人工核实；SEC CIK 抓取等 .env 配置
 - 2026-10-29 · 69dd30f7-bc86-4fc2-b36d-dea57ab87358 · 新增「题面覆盖与进度」表（题面各项 → 变更 → 收尾变更）；SEC CIK 抓取完成：146/149 映射，未映射的 3 家正是 Stage 0 草案中的已收购公司（APGE、NUVL、CPRX）
+- 2026-10-29 · 69dd30f7-bc86-4fc2-b36d-dea57ab87358 · B 用户核实 Stage 0（16 家全部认可）；verify 无严重问题，归档并同步主 spec（新增 buyer-profiles、target-universe、snapshot-build；intel-data-model 修改 3 条、新增 1 条）

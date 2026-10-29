@@ -71,7 +71,7 @@ A 已提供数据模型、`before_flush` 写入校验与 `check-provenance`。�
 
 ### 6. 来源日期与链接状态
 
-- `Source` 增加 `published_date_text`（原文）、`link_status`（`LinkStatus` 枚举）、`link_checked_at`。
+- `Source` 增加 `published_date_text`（原文）、`link_status`（`LinkStatus` 枚举）、`link_checked_at`；另增加 `publisher`、`doc_kind`、`note`，原样保存来源登记的「公司」「资料类型」「要点」三列。
 - 只有 `YYYY-MM-DD` 格式才解析成 `published_date`。
 - `fetch links` 先用 HEAD 请求，不支持时回退到 GET。超时 15 秒，请求间隔 0.5 秒，结果写入 `data/raw/links/mnc_sources.json`；`build` 读取这份结果填写状态。
 - 403 归为 blocked 而不是 broken，因为药企官网常拒绝脚本访问。
