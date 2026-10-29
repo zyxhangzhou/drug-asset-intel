@@ -24,6 +24,7 @@
 - `tests/` pytest
 - `web/` 前端（Vite + React + TS + Ant Design），开发时代理 `/api` 到 8000 端口
 - `data/raw/` 抓取的原始响应与文档快照（带抓取时间）
+- `data/manual/` 人工核实文件（如 Stage 0 排除名单，`verified_by` 非空才生效）
 - `data/processed/intel.db` 数据快照，提交进仓库；应用只读它，管道重建它
 - `docs/` 方案、架构、筛选方法、AI 使用说明、核验记录、已知限制
 
@@ -46,7 +47,10 @@ Python 版本与依赖用 uv 管理（`uv sync`、`uv run ...`）；不直接调
 uv sync                                   # 安装依赖
 uv run pytest                             # 测试
 uv run ruff check . && uv run ruff format .
-uv run intel init-db                      # 建库（可重复执行）
+uv run intel fetch sec-tickers            # 联网抓取，只写 data/raw/（需 .env 中 SEC_USER_AGENT）
+uv run intel fetch links                  # 检查对方来源链接，结果写 data/raw/links/
+uv run intel build                        # 离线从材料 + 缓存 + data/manual/ 重建快照，输出 gaps.csv
+uv run intel init-db                      # 建空库（可重复执行）
 uv run intel check-provenance             # 溯源完整性检查
 uv run intel serve                        # API，http://127.0.0.1:8000
 cd web && npm install && npm run dev      # 前端开发服务器（代理 /api）

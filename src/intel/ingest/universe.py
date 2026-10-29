@@ -154,7 +154,7 @@ def _apply_stage0(ctx: BuildContext, targets: dict[str, Target]) -> None:
             row["source_id"],
             kind=kind,
             confidence=Confidence(row["confidence"]) if row["confidence"] else None,
-            note=f"Stage 0 {row['category']}；核实人 {row['verified_by']}",
+            note=f"Stage 0 {row['category']}；AI 起草，人工核实：{row['verified_by']}",
         )
 
 
