@@ -37,7 +37,7 @@
 | 2 | B | 基础材料导入与 Stage 0 排除 | 代码 + 研究 | `baseline-ingest` | A | archived（`openspec/changes/archive/2026-10-29-baseline-ingest`） |
 | 3 | C | 官方结构化数据拉取（CT.gov + EDGAR + openFDA） | 代码 | `public-data-ingest` | B | archived（`openspec/changes/archive/2026-10-29-public-data-ingest`） |
 | 3 | D | 文档获取存档与 LLM 抽取管道 | 代码 | `llm-extraction` | A | planned |
-| 4 | E | 评分、买方匹配与候选名单 | 代码 + 研究 | `scoring-shortlist` | B, C | planned |
+| 4 | E | 评分、买方匹配与候选名单 | 代码 + 研究 | `scoring-shortlist` | B, C | in progress（OpenSpec 已建，细则见 docs/scoring-rules.md） |
 | 5 | F | 深度填充 3–5 家 | 研究 | — | D, E | planned |
 | 5 | G | Web 应用样板 | 代码 | `web-app` | B, C, E | planned |
 | 6 | H | Excel 导出与抽样核验 | 代码 + 研究 | `export-verify` | F, G | planned |
@@ -172,3 +172,4 @@
 - 2026-10-29 · 69dd30f7-bc86-4fc2-b36d-dea57ab87358 · C OpenSpec 产物完成（trial-registry、company-financials、fda-approvals 三个新能力；试点测得 XBRL 全量缓存约 270 MB，改为裁剪缓存）
 - 2026-10-29 · 69dd30f7-bc86-4fc2-b36d-dea57ab87358 · C 实现完成：132/133 家有试验（TRAX 无登记），133 家有财务快照，51 个获批产品，3587 条来源，check-provenance 为 0；市值交叉核对发现并修复流通股过期问题；待用户抽查 5 家
 - 2026-10-29 · 69dd30f7-bc86-4fc2-b36d-dea57ab87358 · C 归档：人工抽查 VKTX / RLAY / MDGL / MRNA / IMVT 全部一致；SEC 来源链接改为申报索引页；spec 同步到 trial-registry、company-financials、fda-approvals、snapshot-build、intel-data-model
+- 2026-10-30 · 69dd30f7-bc86-4fc2-b36d-dea57ab87358 · E 开始：评分细则经用户批准（docs/scoring-rules.md），OpenSpec `scoring-shortlist` 已建
