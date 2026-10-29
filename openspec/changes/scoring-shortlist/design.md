@@ -40,7 +40,7 @@
 
 ### 2. 治疗领域：项目词表 + 两张人工映射表
 
-- 词表（固定代码）：`oncology`、`heme_malignancy`、`immunology`、`obesity_metabolic`、`liver`、`cardiovascular`、`renal`、`neuroscience`、`infectious`、`respiratory`、`ophthalmology`、`rare_genetic`、`hematology`、`other`。
+- 词表（固定代码）：`oncology`、`heme_malignancy`、`immunology`、`obesity_metabolic`、`liver`、`cardiovascular`、`renal`、`neuroscience`、`infectious`、`respiratory`、`ophthalmology`、`rare_genetic`、`attr`（ATTR / 淀粉样变性）、`hematology`。
 - `data/manual/ta_keywords.csv`（`ta`、`keyword`、`note`）：适应症文本小写后包含关键词即归入该领域，可归入多个。写入 `ProgramIndication.therapeutic_area`（推断，中，备注列出命中的关键词）。
 - `data/manual/buyer_preference_map.csv`（`buyer`、`rank`、`ta_codes`、`stage_min`、`stage_max`、`note`、`verified_by`）：把 30 条治疗领域偏好对到词表代码，并把 `ideal_stage` 文本落成阶段区间。由 AI 起草、人工确认。
 - 备选：重抓 CT.gov 的 MeSH 树。放弃原因：要重跑约 30 分钟抓取，且 MeSH 类目仍需映射到买方的自由文本标签。
