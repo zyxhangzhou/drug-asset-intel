@@ -1,0 +1,32 @@
+# Scoring parameters for change E. Rules: docs/scoring-rules.md.
+# Weights are normalized, so they need not sum to 100.
+
+[weights]
+buyer_fit = 30
+stage_match = 20
+clinical = 20
+catalyst = 15
+dealability = 15
+
+# Enterprise value tiers in USD: EV below `below` scores `score`; anything larger scores 0.
+[[ev_tiers]]
+below = 2_000_000_000
+score = 4
+
+[[ev_tiers]]
+below = 5_000_000_000
+score = 3
+
+[[ev_tiers]]
+below = 15_000_000_000
+score = 2
+
+[[ev_tiers]]
+below = 40_000_000_000
+score = 1
+
+[screening]
+catalyst_window_months = 24
+longlist_size = 40
+shortlist_max = 30
+funding_pressure_months = 12

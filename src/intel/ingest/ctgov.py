@@ -59,6 +59,18 @@ NON_PROGRAM = re.compile(
     r"soc|usual care|matching|no intervention)\b",
     re.I,
 )
+# Generic comparator or background-therapy names: a regimen class, not anyone's asset.
+GENERIC_THERAPY = re.compile(
+    r"\b(chemotherapy|chemo|corticosteroids?|steroid regimen|antibiotics?|"
+    r"(investigator|physician)'?s? choice|best available (therapy|treatment)|"
+    r"standard (of care|disease-directed|therapy)|immunomodulatory\b.*\btherapy|\bim\)? therapy|"
+    r"rescue medication|"
+    r"m?-?folf\w*|aromatase inhibitor therapy|immune effector cell therapy|"
+    r"(regimen selection|treatment) phase group|"
+    r"(licensed|commercial|eua or approved)\b.*\bvaccine|"
+    r"^(seasonal |inactivated |egg-based |adjuvanted )*(quadrivalent )?influenza vaccine)",
+    re.I,
+)
 NON_INDICATION = re.compile(r"\bhealthy\b", re.I)
 DERIVED_NOTE = "由 CT.gov 登记推导；登记阶段不等于公司公告的研发阶段，可能含联用 / 对照药"
 MAX_RESULT_CHARS = 1500
@@ -375,7 +387,12 @@ def _eligible_interventions(study: dict, keep: ProgramFilter) -> list[list[str]]
     """Name keys (primary first, then other names) of each intervention that is a program."""
     out = []
     for i in study["protocolSection"].get("armsInterventionsModule", {}).get("interventions") or []:
-        if i.get("type") not in PROGRAM_TYPES or NON_PROGRAM.search(i.get("name", "")):
+        name = i.get("name", "")
+        if (
+            i.get("type") not in PROGRAM_TYPES
+            or NON_PROGRAM.search(name)
+            or GENERIC_THERAPY.search(name)
+        ):
             continue
         primary = normalize_intervention(i["name"])
         if not keep.is_program(primary):

@@ -305,3 +305,21 @@ def test_ctgov_fetch_paginates_and_dedupes(tmp_path):
     assert (
         len(json.loads(meta_path(ctgov.search_cache(inputs, "VKTX")).read_text())["requests"]) == 2
     )
+
+
+@pytest.mark.parametrize(
+    ("name", "generic"),
+    [
+        ("Corticosteroids", True),
+        ("Best Available Therapy", True),
+        ("Investigator's Choice Treatment", True),
+        ("Adjuvant Immunomodulatory (IM) Therapy", True),
+        ("Licensed Seasonal Influenza Vaccine", True),
+        ("mFOLFOX6 Regimen", True),
+        ("VK2735", False),
+        ("mRNA-1010", False),
+        ("Pembrolizumab", False),
+    ],
+)
+def test_generic_therapy_is_not_a_program(name, generic):
+    assert bool(ctgov.GENERIC_THERAPY.search(name)) is generic

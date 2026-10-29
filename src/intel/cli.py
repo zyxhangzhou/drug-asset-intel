@@ -42,6 +42,27 @@ def cmd_build(db: Path) -> int:
     return 0
 
 
+def cmd_check_scoring(db: Path) -> int:
+    from intel.scoring import ScoringConfig, checks
+
+    weights = ScoringConfig.load().weights
+    with Session(rw_engine(db)) as session:
+        recs = checks.primaries(session)
+        unsupported = checks.unsupported_high_scores(session, recs)
+        bias = checks.coverage_bias(checks.rank(recs, weights))
+        moves = checks.sensitivity(recs, weights)
+    for line in unsupported:
+        print(f"unsupported: {line}")
+    for line in bias:
+        print(f"low coverage in top 10: {line}")
+    for dim, delta, moved in moves:
+        print(f"sensitivity: {dim} {delta:+.0%}: {moved} leave the top 20")
+    print(
+        f"{len(unsupported)} unsupported high score(s); {len(bias)} low-coverage top company(ies)"
+    )
+    return 1 if unsupported or bias else 0
+
+
 BATCH_SOURCES = ("ctgov", "xbrl", "prices")
 SINGLE_SOURCES = ("openfda",)
 
@@ -106,7 +127,7 @@ def main(argv: list[str] | None = None) -> int:
     settings = load_settings()
     parser = argparse.ArgumentParser(prog="intel")
     sub = parser.add_subparsers(dest="command", required=True)
-    for name in ("init-db", "check-provenance", "build"):
+    for name in ("init-db", "check-provenance", "check-scoring", "build"):
         p = sub.add_parser(name)
         p.add_argument("--db", type=Path, default=settings.db_path)
     fetch = sub.add_parser("fetch")
@@ -123,6 +144,8 @@ def main(argv: list[str] | None = None) -> int:
             return cmd_init_db(args.db)
         case "check-provenance":
             return cmd_check_provenance(args.db)
+        case "check-scoring":
+            return cmd_check_scoring(args.db)
         case "build":
             return cmd_build(args.db)
         case "fetch":

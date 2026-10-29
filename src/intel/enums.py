@@ -72,3 +72,26 @@ class LinkStatus(StrEnum):
     blocked = "blocked"
     broken = "broken"
     local_file = "local_file"
+
+
+class ResearchStatus(StrEnum):
+    auto = "auto"  # 自动初筛
+    reviewed = "reviewed"  # 已复核
+    deep = "deep"  # 深度研究
+
+
+class RightsStatus(StrEnum):
+    full = "full"
+    partial = "partial"  # some regions licensed out
+    restricted = "restricted"  # option, ROFR / ROFN, co-development or co-commercialization
+
+
+class EventImportance(StrEnum):
+    high = "high"
+    medium = "medium"
+    low = "low"
+
+
+class EventCertainty(StrEnum):
+    disclosed = "disclosed"  # company gave a quarter or finer
+    estimated = "estimated"  # registry primary completion date only

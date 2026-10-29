@@ -23,6 +23,7 @@ class Inputs:
     assignment_dir: Path = Path("docs/assignment")
     raw_dir: Path = Path("data/raw")
     manual_dir: Path = Path("data/manual")
+    scoring_config: Path = Path("config/scoring.toml")
 
     @property
     def mnc_workbook(self) -> Path:
@@ -44,6 +45,22 @@ class Inputs:
     def stage0_exclusions(self) -> Path:
         return self.manual_dir / "stage0_exclusions.csv"
 
+    @property
+    def ta_keywords(self) -> Path:
+        return self.manual_dir / "ta_keywords.csv"
+
+    @property
+    def buyer_preference_map(self) -> Path:
+        return self.manual_dir / "buyer_preference_map.csv"
+
+    @property
+    def reviews_dir(self) -> Path:
+        return self.manual_dir / "reviews"
+
+    @property
+    def manual_sources(self) -> Path:
+        return self.manual_dir / "sources.csv"
+
 
 @dataclass(frozen=True)
 class Gap:
@@ -63,6 +80,8 @@ class BuildContext:
     inputs: Inputs
     gaps: list[Gap] = field(default_factory=list)
     notes: list[str] = field(default_factory=list)
+    # CSV outputs written next to the snapshot: file name -> rows (first row is the header).
+    outputs: dict[str, list[list[object]]] = field(default_factory=dict)
 
     def gap(self, entity: str, key: str, fld: str, reason: str, location: str) -> None:
         self.gaps.append(Gap(entity, key, fld, reason, location))

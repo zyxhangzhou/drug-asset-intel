@@ -14,10 +14,14 @@ from intel.enums import (
     CatalystType,
     ClaimKind,
     Confidence,
+    EventCertainty,
+    EventImportance,
     ExclusionCategory,
     LinkStatus,
     PreferenceDimension,
     ProducedBy,
+    ResearchStatus,
+    RightsStatus,
     SourceType,
     Stage,
 )
@@ -204,6 +208,7 @@ class Target(SQLModel, table=True):
     catalysts: list["Catalyst"] = Relationship(back_populates="target")
     financials: list["FinancialSnapshot"] = Relationship(back_populates="target")
     matches: list["Match"] = Relationship(back_populates="target")
+    recommendations: list["Recommendation"] = Relationship(back_populates="target")
 
 
 class Program(SQLModel, table=True):
@@ -364,6 +369,69 @@ class Match(SQLModel, table=True):
     target: Target = Relationship(back_populates="matches")
 
 
+class Recommendation(SQLModel, table=True):
+    """One (asset, indication, buyer) pair scored on the five dimensions of docs/scoring-rules.md.
+
+    The company score is the score of its primary pair; the other pairs are detail only.
+    Computed columns (conservative, optimistic, coverage, research_status) are derived from
+    the scored fields and need no claim.
+    """
+
+    BUSINESS_FIELDS: ClassVar[tuple[str, ...]] = (
+        "buyer_fit",
+        "stage_match",
+        "clinical",
+        "catalyst",
+        "dealability",
+        "need_item",
+        "match_note",
+        "deal_form",
+        "design",
+        "comparability",
+        "result",
+        "limitation",
+        "next_event",
+        "event_timing",
+        "enterprise_value",
+        "rights_status",
+        "funding_flag",
+        "thesis",
+    )
+    id: int | None = Field(default=None, primary_key=True)
+    target_id: int = Field(foreign_key="target.id", index=True)
+    program_indication_id: int | None = Field(default=None, foreign_key="program_indication.id")
+    buyer_preference_id: int | None = Field(default=None, foreign_key="buyer_preference.id")
+    is_primary: bool = False
+    buyer_fit: int | None = None
+    stage_match: int | None = None
+    clinical: int | None = None
+    catalyst: int | None = None
+    dealability: int | None = None
+    need_item: str | None = None
+    match_note: str | None = None
+    deal_form: str | None = None
+    design: str | None = None
+    comparability: str | None = None
+    result: str | None = None
+    limitation: str | None = None
+    next_event: str | None = None
+    event_timing: str | None = None
+    event_importance: EventImportance | None = None
+    event_certainty: EventCertainty | None = None
+    enterprise_value: float | None = None
+    rights_status: RightsStatus | None = None  # empty = 待核实
+    funding_flag: str | None = None
+    thesis: str | None = None
+    conservative: float = 0.0
+    optimistic: float = 0.0
+    coverage: float = 0.0
+    research_status: ResearchStatus = ResearchStatus.auto
+
+    target: Target = Relationship(back_populates="recommendations")
+    indication: ProgramIndication | None = Relationship()
+    preference: BuyerPreference | None = Relationship()
+
+
 DOMAIN_TABLES: tuple[type[SQLModel], ...] = (
     Buyer,
     BuyerPreference,
@@ -378,4 +446,5 @@ DOMAIN_TABLES: tuple[type[SQLModel], ...] = (
     FinancialSnapshot,
     ApprovedProduct,
     Match,
+    Recommendation,
 )

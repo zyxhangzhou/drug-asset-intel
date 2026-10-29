@@ -1,5 +1,6 @@
 """Rebuild the snapshot from local inputs only: materials, raw caches and manual files."""
 
+import csv
 import os
 from collections import Counter
 from collections.abc import Callable, Sequence
@@ -17,8 +18,17 @@ Step = Callable[[BuildContext], None]
 
 def default_steps() -> list[Step]:
     from intel.ingest import ctgov, financials, mnc, openfda, universe
+    from intel.scoring import screen, taxonomy
 
-    return [mnc.ingest, universe.ingest, openfda.ingest, ctgov.ingest, financials.ingest]
+    return [
+        mnc.ingest,
+        universe.ingest,
+        openfda.ingest,
+        ctgov.ingest,
+        financials.ingest,
+        taxonomy.ingest,
+        screen.ingest,
+    ]
 
 
 @dataclass
@@ -56,4 +66,7 @@ def build_snapshot(
     finally:
         tmp.unlink(missing_ok=True)
     write_gaps(gaps_path or db_path.with_name("gaps.csv"), ctx.gaps)
+    for name, rows in ctx.outputs.items():
+        with db_path.with_name(name).open("w", newline="", encoding="utf-8") as fh:
+            csv.writer(fh).writerows(rows)
     return BuildReport(gaps=ctx.gaps, notes=ctx.notes)
