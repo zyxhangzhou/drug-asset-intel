@@ -153,7 +153,7 @@
 
 ## Open questions
 
-- [NEEDS DECISION] 股价来源（非官方行情的具体选择）— 在 C 中由 Claude 提出、用户确认。
+- [RESOLVED 2026-10-29] 股价来源：Nasdaq 官网历史行情接口（api.nasdaq.com），取快照日收盘价，来源类型 market_data，标为非官方。曾选 Stooq，实测已加 JavaScript 验证、脚本无法下载，不予绕过，改选 Nasdaq。
 
 ## Status log
 
@@ -168,3 +168,4 @@
 - 2026-10-29 · 69dd30f7-bc86-4fc2-b36d-dea57ab87358 · B 实现 12/15：导入、构建、抓取完成，61 个测试通过；Stage 0 草案 16 家待人工核实；SEC CIK 抓取等 .env 配置
 - 2026-10-29 · 69dd30f7-bc86-4fc2-b36d-dea57ab87358 · 新增「题面覆盖与进度」表（题面各项 → 变更 → 收尾变更）；SEC CIK 抓取完成：146/149 映射，未映射的 3 家正是 Stage 0 草案中的已收购公司（APGE、NUVL、CPRX）
 - 2026-10-29 · 69dd30f7-bc86-4fc2-b36d-dea57ab87358 · B 用户核实 Stage 0（16 家全部认可）；verify 无严重问题，归档并同步主 spec（新增 buyer-profiles、target-universe、snapshot-build；intel-data-model 修改 3 条、新增 1 条）
+- 2026-10-29 · 69dd30f7-bc86-4fc2-b36d-dea57ab87358 · 股价来源定案：Nasdaq 历史行情接口（Stooq 实测需浏览器验证，放弃）
