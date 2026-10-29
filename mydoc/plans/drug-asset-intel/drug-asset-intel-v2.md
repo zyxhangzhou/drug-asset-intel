@@ -35,7 +35,7 @@
 |---|---|---|---|---|---|---|
 | 1 | A | 项目骨架与数据模型 | 代码 | `project-skeleton` | — | archived（`openspec/changes/archive/2026-10-29-project-skeleton`，主 spec：`app-runtime`、`intel-data-model`） |
 | 2 | B | 基础材料导入与 Stage 0 排除 | 代码 + 研究 | `baseline-ingest` | A | archived（`openspec/changes/archive/2026-10-29-baseline-ingest`） |
-| 3 | C | 官方结构化数据拉取（CT.gov + EDGAR + openFDA） | 代码 | `public-data-ingest` | B | planned |
+| 3 | C | 官方结构化数据拉取（CT.gov + EDGAR + openFDA） | 代码 | `public-data-ingest` | B | in progress（OpenSpec 产物完成） |
 | 3 | D | 文档获取存档与 LLM 抽取管道 | 代码 | `llm-extraction` | A | planned |
 | 4 | E | 评分、买方匹配与候选名单 | 代码 + 研究 | `scoring-shortlist` | B, C | planned |
 | 5 | F | 深度填充 3–5 家 | 研究 | — | D, E | planned |
@@ -169,3 +169,4 @@
 - 2026-10-29 · 69dd30f7-bc86-4fc2-b36d-dea57ab87358 · 新增「题面覆盖与进度」表（题面各项 → 变更 → 收尾变更）；SEC CIK 抓取完成：146/149 映射，未映射的 3 家正是 Stage 0 草案中的已收购公司（APGE、NUVL、CPRX）
 - 2026-10-29 · 69dd30f7-bc86-4fc2-b36d-dea57ab87358 · B 用户核实 Stage 0（16 家全部认可）；verify 无严重问题，归档并同步主 spec（新增 buyer-profiles、target-universe、snapshot-build；intel-data-model 修改 3 条、新增 1 条）
 - 2026-10-29 · 69dd30f7-bc86-4fc2-b36d-dea57ab87358 · 股价来源定案：Nasdaq 历史行情接口（Stooq 实测需浏览器验证，放弃）
+- 2026-10-29 · 69dd30f7-bc86-4fc2-b36d-dea57ab87358 · C OpenSpec 产物完成（trial-registry、company-financials、fda-approvals 三个新能力；试点测得 XBRL 全量缓存约 270 MB，改为裁剪缓存）
