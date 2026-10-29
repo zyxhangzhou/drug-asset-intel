@@ -1,0 +1,108 @@
+{
+ "nctId": "NCT03260894",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "0.0",
+         "upperLimit": "8.4",
+         "value": "1.6"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "0.0",
+         "upperLimit": "5.5",
+         "value": "0.0"
+        }
+       ]
+      }
+     ],
+     "title": "Complete Response (CR)"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "18.9",
+         "upperLimit": "42.4",
+         "value": "29.7"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "18.6",
+         "upperLimit": "41.8",
+         "value": "29.2"
+        }
+       ]
+      }
+     ],
+     "title": "Partial Response (PR)"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "20.2",
+         "upperLimit": "44.1",
+         "value": "31.3"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "18.6",
+         "upperLimit": "41.8",
+         "value": "29.2"
+        }
+       ]
+      }
+     ],
+     "title": "Objective Response (CR+PR)"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "64"
+      },
+      {
+       "groupId": "OG001",
+       "value": "65"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "ORR was defined as the percentage of participants who had complete response (CR) or partial response (PR) per RECIST v1.1 by investigator determination.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Pembrolizumab 200 mg administered intravenously every 3 weeks. Epacadostat 100 mg administered orally twice daily.",
+     "id": "OG000",
+     "title": "Pembrolizumab + Epacadostat"
+    },
+    {
+     "description": "Standard of care (SoC) (sunitinib or pazopanib monotherapy). Sunitinib 50 mg administered orally once daily;4 weeks on, 2 weeks off for 6-wk cycle. Pazopanib 800 mg administered orally once daily.",
+     "id": "OG001",
+     "title": "SoC (Sunitinib or Pazopanib)"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "The Intention-to-Treat (ITT) population consisted of all randomized participants",
+   "reportingStatus": "POSTED",
+   "timeFrame": "up to approximately 8 months",
+   "title": "Objective Response Rate (ORR) of Pembrolizumab + Epacadostat Versus Standard of Care (SOC)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

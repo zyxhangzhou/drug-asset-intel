@@ -45,7 +45,7 @@ B 交付了构建框架：`intel fetch` 联网、只写 `data/raw/`；`intel bui
 | CT.gov | 请求时用 `fields` 参数只取 identification、status、sponsor、design、conditions、armsInterventions、`hasResults` | `data/raw/ctgov/<TICKER>.json` |
 | CT.gov 试验结果 | 对 `hasResults` 为真的试验，再单独请求 `resultsSection.outcomeMeasuresModule` | `data/raw/ctgov/results/<NCT>.json` |
 | Nasdaq | 快照日前 10 个交易日 | `data/raw/nasdaq/<TICKER>.json` |
-| openFDA | 原样保存（体量小） | `data/raw/openfda/<TICKER>.json` |
+| openFDA | 全量导出只保留 NDA / BLA 及所需字段（约 3.5 MB） | `data/raw/openfda/drugsfda_nda_bla.json` |
 
 - 旁注文件 `.meta.json` 记录请求 URL、抓取时间和完整响应的 sha256。
 - 已有缓存默认跳过；加 `--refresh` 才重新抓取。
@@ -58,7 +58,7 @@ B 交付了构建框架：`intel fetch` 联网、只写 `data/raw/`；`intel bui
   - `data/manual/sponsor_aliases.csv`（列：`ticker`、`alias`、`note`）。
 - 规范化：转小写，去掉标点与后缀。
 - 检索时每个别名各查一次，合并结果、按 NCT 去重，再按规范化后的牵头申办方名称精确过滤。
-- openFDA 用同一套别名，查询 `sponsor_name` 时转大写。
+- openFDA 用同一套别名匹配 `sponsor_name`：比较时去掉 Pharmaceuticals、Therapeutics 等通用尾词（openFDA 常写成 `MADRIGAL`）。
 
 ### 4. XBRL 标签清单
 
@@ -83,7 +83,14 @@ B 交付了构建框架：`intel fetch` 联网、只写 `data/raw/`；`intel bui
 - **适应症**：取原始 condition 文本，排除 "Healthy" 类条目；每个（管线, 适应症）一行。
 - **阶段**：取该适应症下试验的最高登记阶段。
 - **试验关联**：试验关联到它第一个干预与第一个适应症对应的管线适应症；无法关联的试验只挂在公司下。
-- **已知缺陷**：联用药、对照药可能被当成公司管线，例如在别家试验里的 pembrolizumab。处理办法：全部标为推断（中置信度）；在 E 筛选和 F 深挖时人工剔除，剔除结果写进排除文件。
+- **联用药 / 对照药**：用 openFDA 全量导出识别。如果干预名（或名中任一词，去掉盐型后缀后）是其他公司持有批准的活性成分或品牌，就不算本公司管线。试点中这一步去掉了 RLAY 名下的 fulvestrant、palbociclib、abemaciclib。
+- **同药多名**：用试验登记的 `otherNames` 和 FDA 的"品牌 → 成分"关系做并查集合并。试点中 MDGL 的 MGL-3196 / resmetirom / Rezdiffra 合并成了一条。
+- **适应症**：每项试验只取第一个登记适应症，避免同一癌种被拆成大量同义条目。
+- **残留误差**：
+  - 试验未登记别名时，代号和通用名仍会分开（如 RLY-2608 与 zovegalisib）；
+  - 未获批的别家在研药仍可能被算入。
+
+  这两类都标为推断；在 E / F 中人工剔除，剔除结果写进排除文件。
 
 ### 6. 阶段映射
 

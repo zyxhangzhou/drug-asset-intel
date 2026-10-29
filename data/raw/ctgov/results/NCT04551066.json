@@ -1,0 +1,78 @@
+{
+ "nctId": "NCT04551066",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.71",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "2.26",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.4224",
+     "pValueComment": "calculated from Cochran Mantel-Haenszel test stratified by Baseline platelet count ≥100 x 10\\^9/Liters versus 50 to \\<100 x 10\\^9/Liters inclusive",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "1.27",
+     "statisticalMethod": "Cochran-Mantel-Haenszel"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "52.8"
+        },
+        {
+         "groupId": "OG001",
+         "value": "46.7"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "89"
+      },
+      {
+       "groupId": "OG001",
+       "value": "92"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Participants had an MRI of the upper and lower abdomen and pelvis to determine the spleen volume. A CT scan was substituted for participants who were not candidates for MRI or when MRI was not readily available. Determination of spleen length below the left costal margin was measured by palpation, using a flexible ruler provided by the sponsor.",
+   "groups": [
+    {
+     "description": "Participants were randomized to receive parsaclisib plus ruxolitinib beginning on Day 1 and continued on this regimen as long as it was tolerated and the participants did not meet any discontinuation criteria. Participants with a Baseline platelet count ≥100 × 10\\^9/Liter received ruxolitinib 15 milligrams (mg) twice daily (BID). Participants with a Baseline platelet count of 50 to \\< 100 × 10\\^9/Liters inclusive received ruxolitinib 5 mg BID. Participants were also stratified according to the Dynamic International Prognostic Scoring System (DIPSS) risk category (high versus intermediate-2 versus intermediate-1). Participants received parsaclisib at a dose of 5 mg once daily (QD).",
+     "id": "OG000",
+     "title": "Parsaclisib Plus Ruxolitinib"
+    },
+    {
+     "description": "Participants were randomized to receive placebo plus ruxolitinib beginning on Day 1 and continued on this regimen until they left the study. Participants with a Baseline platelet count ≥100 × 10\\^9/Liter received ruxolitinib 15 mg BID. Participants with a Baseline platelet count of 50 to \\< 100 × 10\\^9/Liters inclusive received ruxolitinib 5 mg BID. Participants were also stratified according to the DIPSS risk category (high versus intermediate-2 versus intermediate-1). Participants received matching placebo at a dose of 5 mg QD. After 24 weeks, participants randomized to receive placebo plus ruxolitinib could have switched to treatment with parsaclisib plus ruxolitinib per the regimen received during the first 24 weeks of the study. Treatment continued for as long as the regimen was tolerated and the participant did not meet any discontinuation criteria.",
+     "id": "OG001",
+     "title": "Placebo Plus Ruxolitinib"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Intent-to-Treat (ITT) Population: all randomized participants. Treatment groups were defined according to the treatment assignment at randomization regardless of the actual study drug the participant took during their participation. Participants who had both Baseline and Week 24 measurements, or discontinued treatment before 27APR2023, or reached Week 24 before 27APR2023 but were missing Week 24 assessments were analyzed.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline; Week 24",
+   "title": "Percentage of Participants Achieving ≥35% Reduction in Spleen Volume From Baseline to Week 24 as Measured by Magnetic Resonance Imaging [MRI] (or Computed Tomography [CT] Scan in Applicable Participants)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

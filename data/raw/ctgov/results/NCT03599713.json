@@ -1,0 +1,59 @@
+{
+ "nctId": "NCT03599713",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "39.5",
+         "upperLimit": "64.9",
+         "value": "52.3"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "65"
+      },
+      {
+       "groupId": "OG001",
+       "value": "0"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "ORR was defined as the percentage of participants with a confirmed overall response of complete response (CR) or partial response (PR), per Response Evaluation Criteria in Solid Tumors (RECIST) version 1.1 (v1.1), as determined by Independent Central Radiographic Review (ICR), at any post-Baseline visit until the first progressive disease (PD) or new anti-cancer therapy. CR: disappearance of all target and non-target lesions and no appearance of any new lesions. Any pathological lymph nodes (whether target or non-target) must have a reduction in the short axis to \\<10 millimeters (mm). PR: complete disappearance or at least a 30% decrease in the sum of the diameters of target lesions, taking as a reference the baseline sum diameters, no new lesions, and no progression of non-target lesions.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants with recurrent, advanced locoregional disease or distant metastatic disease who did not receive any prior chemotherapy received retifanlimab 500 milligrams (mg), administered by intravenous (IV) infusion over 60 minutes on Day 1 of each 28-day cycle (Q4W).",
+     "id": "OG000",
+     "title": "Chemotherapy: Naïve"
+    },
+    {
+     "description": "Participants with disease not responding to prior chemotherapy received retifanlimab 500 mg, administered by IV infusion over 60 minutes on Day 1 Q4W.",
+     "id": "OG001",
+     "title": "Chemotherapy: Refractory"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Full Analysis Set (FAS): all participants enrolled in the study who received at least 1 dose of study drug as of 15 October 2020 (selected to allow for at least 60 chemotherapy-naïve participants to be followed for at least 6 months after first response assessment). Analysis was based on the chemotherapy-naïve subset of the FAS. Confidence intervals (CIs) were calculated based on the exact method for binomial distributions.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "up to 26.8 months",
+   "title": "Objective Response Rate (ORR)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

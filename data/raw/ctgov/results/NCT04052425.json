@@ -1,0 +1,78 @@
+{
+ "nctId": "NCT04052425",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "2.341",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "11.903",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "< 0.0001",
+     "pValueComment": "The model included the treatment group (1.5% BID and vehicle) and stratification factors (skin type and region).",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "5.28",
+     "statisticalMethod": "exact logistic regression"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "29.8"
+        },
+        {
+         "groupId": "OG001",
+         "value": "7.4"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "221"
+      },
+      {
+       "groupId": "OG001",
+       "value": "109"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "An F-VASI75 responder achieved at least 75% improvement from Baseline in F-VASI, measured by the percentage of vitiligo involvement (percentage of body surface area \\[BSA\\]) and the degree of depigmentation: 0% (no depigmentation), 10% (only specks of depigmentation), 25% (pigmented area exceeded depigmented area), 50% (depigmented and pigmented area was equal), 75% (depigmented area exceeded pigmented area), 90% (specks of pigment), or 100% (no pigment). The percentage of BSA (hand unit) vitiligo involvement was estimated to the nearest 0.1% by the Investigator using the Palmar Method. The Investigator used his/her hand to mimic the participant's hand size to evaluate the percentage of BSA vitiligo involvement. F-VASI was then derived by multiplying the values assessed for the vitiligo involvement by the percentage of affected skin for each site on the face and summing the values of all sites (possible range: 0-3; lower scores indicate increased improvement).",
+   "groups": [
+    {
+     "description": "Participants applied ruxolitinib 1.5% cream twice daily (BID) for 24 weeks.",
+     "id": "OG000",
+     "title": "Double-Blind Period: Ruxolitinib Cream 1.5% BID"
+    },
+    {
+     "description": "Participants applied matching vehicle cream BID for 24 weeks.",
+     "id": "OG001",
+     "title": "Double-Blind Period: Vehicle Cream BID"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Intent-to-Treat Population: all randomized participants. Treatment groups for this population were defined according to the treatment assignment at the time of randomization. Missing F-VASI scores were imputed by Multiple Imputation with Fully Conditional Specification. The multiple imputation method used treatment and observed stratification factors as predicators.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline; Week 24",
+   "title": "Percentage of Participants Achieving a ≥ 75% Improvement From Baseline in the Face Vitiligo Area Scoring Index (F-VASI75) Score at Week 24",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

@@ -1,0 +1,105 @@
+{
+ "nctId": "NCT04377620",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.201",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "1.028",
+     "groupIds": [
+      "OG000"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0292",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "0.46",
+     "statisticalComment": "logistic regression mixed model includes treatment group and ARDS severity as fixed covariates and investigational site as a random effect.",
+     "statisticalMethod": "Mixed Models Analysis"
+    },
+    {
+     "ciLowerLimit": "0.171",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "1.023",
+     "groupIds": [
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0280",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "0.42",
+     "statisticalComment": "logistic regression mixed model includes treatment group and ARDS severity as fixed covariates and investigational site as a random effect.",
+     "statisticalMethod": "Mixed Models Analysis"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "50.6"
+        },
+        {
+         "groupId": "OG001",
+         "value": "52.9"
+        },
+        {
+         "groupId": "OG002",
+         "value": "70.2"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "77"
+      },
+      {
+       "groupId": "OG001",
+       "value": "85"
+      },
+      {
+       "groupId": "OG002",
+       "value": "47"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "To evaluate the 28-day mortality rate of ruxolitinib 5 mg BID + SoC therapy and ruxolitinib 15 mg BID + SoC compared with placebo + SoC therapy, in participants with COVID-19-associated ARDS who require mechanical ventilation.",
+   "groups": [
+    {
+     "description": "Ruxolitinib 15mg was administered BID approximately 12 hours apart without regard to food/feeding via enteric feeding tube or oral.",
+     "id": "OG000",
+     "title": "Ruxolitininb 15mg + Standard of Care (SoC)"
+    },
+    {
+     "description": "Ruxolitinib 5mg was administered BID approximately 12 hours apart without regard to food/feeding via enteric feeding tube or oral.",
+     "id": "OG001",
+     "title": "Ruxolitinib 5mg + Standard of Care (SoC)"
+    },
+    {
+     "description": "Matching Placebo was administered BID approximately 12 hours apart without regard to food/feeding via enteric feeding tube or oral.",
+     "id": "OG002",
+     "title": "Placebo + Standard of Care (SoC)"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "ITT population is defined according to the treatment assignment at the time of randomization regardless of the actual study drug the participant might take during his/her participation in the study.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Study start to Day 29",
+   "title": "Percentage of Participants Who Have Died Due to Any Cause",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Percentage"
+  }
+ ]
+}

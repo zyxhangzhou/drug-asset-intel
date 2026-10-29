@@ -1,0 +1,144 @@
+{
+ "nctId": "NCT04818346",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-34.49",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-8.32",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "6.62",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0015",
+     "paramType": "Least squares mean difference",
+     "paramValue": "-21.41",
+     "statisticalMethod": "Mixed Model Repeated Measures (MMRM)"
+    },
+    {
+     "ciLowerLimit": "-33.63",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-6.51",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "6.86",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0040",
+     "paramType": "Least squares mean difference",
+     "paramValue": "-20.07",
+     "statisticalMethod": "MMRM"
+    },
+    {
+     "ciLowerLimit": "-31.40",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-4.64",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "6.77",
+     "groupIds": [
+      "OG000",
+      "OG003"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0086",
+     "paramType": "Least squares mean difference",
+     "paramValue": "-18.02",
+     "statisticalMethod": "MMRM"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "4.81",
+         "value": "2.29"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "4.56",
+         "value": "-19.12"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "4.87",
+         "value": "-17.78"
+        },
+        {
+         "groupId": "OG003",
+         "spread": "4.74",
+         "value": "-15.73"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "33"
+      },
+      {
+       "groupId": "OG001",
+       "value": "38"
+      },
+      {
+       "groupId": "OG002",
+       "value": "33"
+      },
+      {
+       "groupId": "OG003",
+       "value": "36"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The T-VASI was calculated based on values from the whole body, which was split into 6 separate and mutually exclusive regions (possible range: 0-100; higher values=worse outcome). The percentage of vitiligo involvement was estimated in hand units (% body surface area \\[BSA\\]; investigator assessed), based on the participant's hand size. The degree of depigmentation for each body site was determined and estimated to the nearest percentage: 0%, 10%, 25%, 50%, 75%, 90%, or 100%. The T-VASI was derived by multiplying the values assessed for the vitiligo involvement by the percentage of affected skin for each body site and summing the values of all body sites. Percent change was calculated as (\\[post-Baseline value minus the Baseline value\\] / Baseline value) x 100.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Participants received matching placebo QD for 24 weeks (placebo-controlled period). Participants who completed the Week 24 visit received oral povorcitinib 75 mg QD for an additional 28 weeks (double-blind extension period).",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Participants received oral povorcitinib 15 milligrams (mg) once daily (QD) for 24 weeks (placebo-controlled period). Participants who completed the Week 24 visit received oral povorcitinib 75 mg QD for 28 weeks (double-blind extension period).",
+     "id": "OG001",
+     "title": "Povorcitinib 15 mg"
+    },
+    {
+     "description": "Participants received oral povorcitinib 45 mg QD for 24 weeks (placebo-controlled period). Participants who completed the Week 24 visit received oral povorcitinib 45 mg QD for an additional 28 weeks (double-blind extension period).",
+     "id": "OG002",
+     "title": "Povorcitinib 45 mg"
+    },
+    {
+     "description": "Participants received oral povorcitinib 75 mg QD for 24 weeks (placebo-controlled period). Participants who completed the Week 24 visit received oral povorcitinib 75 mg QD for an additional 28 weeks (double-blind extension period).",
+     "id": "OG003",
+     "title": "Povorcitinib 75 mg"
+    }
+   ],
+   "paramType": "GEOMETRIC_LEAST_SQUARES_MEAN",
+   "populationDescription": "Intent-to-Treat Population: all randomized participants. Treatment groups for this population were defined according to the treatment assignment at randomization. Mixed-effect model for repeated measures (MMRM) model: (percent change from Baseline = treatment + stratification factor \\[T-BSA involvement 8%-20%/\\>20%\\] + visit + treatment\\*visit + Baseline measurement + Baseline measurement\\*visit). Only participants with available data were analyzed.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline; Week 24",
+   "title": "Percent Change From Baseline in Total Vitiligo Area Scoring Index (T-VASI) at Week 24",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percent change"
+  }
+ ]
+}

@@ -1,0 +1,84 @@
+{
+ "nctId": "NCT04472429",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.47",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.84",
+     "estimateComment": "A stratified Cox regression with Efron's method for tie handling was used to estimate the hazard ratio.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0006",
+     "pValueComment": "tested at the 1-sided 2.5% level",
+     "paramType": "Hazard Ratio (HR)",
+     "paramValue": "0.63",
+     "statisticalMethod": "stratified log-rank test"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "7.5",
+         "upperLimit": "11.3",
+         "value": "9.3"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "7.1",
+         "upperLimit": "7.7",
+         "value": "7.4"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "154"
+      },
+      {
+       "groupId": "OG001",
+       "value": "154"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "PFS was defined as the time from the date of randomization to the date of the first documented disease progression (PD), according to Response Evaluation Criteria in Solid Tumors version 1.1 (RECIST v1.1) by blinded independent central review committee (BICR), or death due to any cause, whichever occurred first. PD: progression of a target or non-target lesion or presence of a new lesion.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants received retifanlimab 500 milligrams (mg) every 4 weeks (Q4W) for up to thirteen 28-day cycles (1 year) in the absence of disease progression, intolerable toxicity, death, withdrawal of consent, being lost to follow-up, or premature discontinuation of all assigned study drug administration or for any other reason. Participants also received the standard-of-care chemotherapy regimen of up to 6 induction cycles (24 weeks) of carboplatin (AUC5 on Day 1) and paclitaxel (80 mg per meters squared \\[mg/m\\^2\\] on Days 1, 8, and 15).",
+     "id": "OG000",
+     "title": "Retifanlimab 500 mg Q4W + Chemotherapy"
+    },
+    {
+     "description": "Participants received matching placebo Q4W for up to thirteen 28-day cycles (1 year) in the absence of disease progression, intolerable toxicity, death, withdrawal of consent, being lost to follow-up, or premature discontinuation of all assigned study drug administration or for any other reason.",
+     "id": "OG001",
+     "title": "Placebo + Chemotherapy"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "Full Analysis Set: all randomized participants. Participants were analyzed according to the treatment and strata they had been assigned during randomization. Median PFS time was estimated using the Kaplan-Meier method. The confidence interval for median PFS time was calculated using the method of Brookmeyer and Crowley.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "up to 33.9 months",
+   "title": "Progression-free Survival (PFS)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "months"
+  }
+ ]
+}

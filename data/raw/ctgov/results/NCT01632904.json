@@ -1,0 +1,77 @@
+{
+ "nctId": "NCT01632904",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.82",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "4.04",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+     "pValue": "0.139",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "1.82",
+     "statisticalMethod": "Chi-squared"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "43.4"
+        },
+        {
+         "groupId": "OG001",
+         "value": "29.6"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "53"
+      },
+      {
+       "groupId": "OG001",
+       "value": "54"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Symptoms of polycythemia vera were assessed using a modified Myeloproliferative Neoplasm Symptom Assessment Form (MPN-SAF) electronic diary. Using the diary, patients rated the following symptoms on a scale from 0 (absent) to 10 (worst imaginable): tiredness, itching, muscle aches, night sweats, and sweats while awake. The total symptom score ranged from 0-50 and was calculated as the sum of the 5 symptom scores. A higher score indicates worse symptoms.",
+   "groups": [
+    {
+     "description": "Ruxolitinib will be orally self-administered at a starting dose of 10 mg (two 5 mg tablets) twice a day. Dose increases of 5 mg (1 tablet) in twice-daily increments are permitted after 4 weeks and again after 8 weeks of therapy for subjects who meet prespecified criteria for inadequate efficacy.\n\nHU-placebo All placebo will be self-administered, and dosing will be the same as with the blinded dose.\n\nWhen adjustments are made to the ruxolitinib dose, the dose of HU-placebo will be adjusted concurrently.",
+     "id": "OG000",
+     "title": "Ruxolitinib"
+    },
+    {
+     "description": "Hydroxyurea (HU) (500 mg capsules) will be orally self-administered at the dose that the subject was receiving previously. The dose may be increased after 4 weeks and again after 8 weeks of therapy to optimize efficacy for subjects meeting prespecified criteria.\n\nRuxolitinib-placebo All placebo will be self-administered, and dosing will be the same as with the blinded dose.\n\nWhen adjustments are made to the HU dose, the dose of ruxolitinib-placebo will be adjusted concurrently.",
+     "id": "OG001",
+     "title": "Hydroxyurea"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Intent-to-Treat (ITT); all subjects randomized in the study. For the overall TSS-C score, only those subjects with a baseline score of 0 and a Week 16 score of 0 or missing were excluded from the analysis.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "From Baseline to Week 16",
+   "title": "Percentage of Subjects Achieving a ≥ 50% Improvement From Baseline in Total Symptom Score-Cytokine (TSS-C) at Week 16, as Measured by the Modified Myeloproliferative Neoplasm Symptom Assessment Form (MPN-SAF) Diary",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Percentage of participants"
+  }
+ ]
+}

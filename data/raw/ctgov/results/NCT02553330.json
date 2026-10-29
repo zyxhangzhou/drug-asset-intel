@@ -1,0 +1,155 @@
+{
+ "nctId": "NCT02553330",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Week 4"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Week 8"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "3"
+        }
+       ]
+      }
+     ],
+     "title": "Week 12"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "4"
+        }
+       ]
+      }
+     ],
+     "title": "Week 18"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "6"
+        }
+       ]
+      }
+     ],
+     "title": "Week 24"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "12"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Percentage of subjects achieving a SALT 50 (defined as a ≥ 50% improvement from baseline in SALT). SALT score is on a percent scale where 0% is no hair loss and 100 % is total hair loss.",
+   "groups": [
+    {
+     "description": "Part A: Open-label treatment is 24 weeks, an optional open-label treatment extension is 24 weeks if eligible, and follow-up is an additional 12 weeks",
+     "id": "OG000",
+     "title": "Part A: Ruxolitinib Cream"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Part A evaluable population in treatment period includes all subjects exposed to at least 1 dose of study drug in that period.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to Week 24",
+   "title": "Part A: Percentage of Participants Achieving a ≥ 50% Improvement in SALT50 Response in Terminal Hair (Pigmented and Nonpigmented).",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "5"
+        },
+        {
+         "groupId": "OG001",
+         "value": "5"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "39"
+      },
+      {
+       "groupId": "OG001",
+       "value": "39"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Percentage of subjects achieving a SALT 50 (defined as a ≥ 50% improvement from baseline in SALT). SALT score is on a percent scale where 0% is no hair loss and 100 % is total hair loss.",
+   "groups": [
+    {
+     "description": "Part B: Double-blind treatment is 24 weeks and/or optional treatment with Ruxolitinib Phosphate Cream if eligible and follow-up is an additional 12 weeks",
+     "id": "OG000",
+     "title": "Part B : Placebo Cream"
+    },
+    {
+     "description": "Part B: Double-blind treatment is 24 weeks, an optional open-label treatment extension is 24 weeks if eligible, and follow-up is an additional 12 weeks.",
+     "id": "OG001",
+     "title": "Part B: Ruxolitinib Cream"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Intent to Treat population in the Part B treatment period i.e all participants who are randomized",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Week 24",
+   "title": "Part B : Percentage of Participants Achieving a SALT50 Response in Terminal Hair (Pigmented and Nonpigmented)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

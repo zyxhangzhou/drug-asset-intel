@@ -1,0 +1,76 @@
+{
+ "nctId": "NCT04003610",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "comment": "The upper and lower limits of the confidence interval were not estimable because too few participants had disease progression or died.",
+         "groupId": "OG001",
+         "lowerLimit": "NA",
+         "upperLimit": "NA",
+         "value": "1.81"
+        },
+        {
+         "comment": "The upper limit of the confidence interval was not estimable because too few participants had disease progression or died.",
+         "groupId": "OG002",
+         "lowerLimit": "1.51",
+         "upperLimit": "NA",
+         "value": "2.12"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "0"
+      },
+      {
+       "groupId": "OG001",
+       "value": "1"
+      },
+      {
+       "groupId": "OG002",
+       "value": "6"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "PFS was defined as the time from the randomization date until the date of disease progression (as measured by a blinded independent central review \\[BICR\\] per Response Evaluation Criteria in Solid Tumors version 1.1 \\[RECIST v1.1\\]) or death due to any cause, whichever occurred first.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Pemigatinib was self-administered at 13.5 milligrams (mg) once daily (QD) orally (PO) until disease progression during each 21-day treatment cycle. Participants not reaching the target serum phosphate level (\\> 5.5 mg/deciliter \\[dL\\]) during Cycle 1 despite being study drug compliant increased the daily pemigatinib dose to 18 mg starting at Cycle 2 as long as they were not experiencing an ongoing Grade 2 or higher treatment-related adverse event (AE).",
+     "id": "OG000",
+     "title": "Pemigatinib 13.5 mg"
+    },
+    {
+     "description": "Pemigatinib was self-administered at 13.5 mg QD PO until disease progression during each 21-day treatment cycle. Participants not reaching the target serum phosphate level (\\> 5.5 mg/dL) during Cycle 1 despite being study drug compliant increased the daily pemigatinib dose to 18 mg starting at Cycle 2 as long as they were not experiencing an ongoing Grade 2 or higher treatment-related AE. Pembrolizumab 200 mg was administered intravenously (IV) on Day 1 of each 21-day treatment cycle for up to 35 cycles or disease progression.",
+     "id": "OG001",
+     "title": "Pemigatinib 13.5 mg Plus Pembrolizumab 200 mg"
+    },
+    {
+     "description": "Participants received either gemcitabine plus carboplatin or pembrolizumab as standard of care. Participants received gemcitabine 1000 mg/meters squared (m\\^2) IV over 30 minutes on Days 1 and 8 of each 3-week treatment cycle, followed by carboplatin (dosed to target area under the concentration-time curve \\[AUC\\] of 5 mg/milliliters \\[mL\\]/minute \\[min\\] or 4.5 mg/mL/min if required per local guidelines) on Day 1 or Day 2 of each 3-week treatment cycle. Treatment continued for 4 to 6 cycles (or per institutional standards) until disease progression or intolerable toxicity. Pembrolizumab 200 mg was administered IV on Day 1 of each 21-day treatment cycle for up to 35 cycles or disease progression.",
+     "id": "OG002",
+     "title": "Gemcitabine 1000 mg/m^2 Plus Carboplatin or Pembrolizumab 200 mg"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "Intent-to-Treat (ITT) Population: all participants who were randomized into the study. Treatment groups for this population were to be determined according to the treatment assignment at the time of randomization. The 95% confidence intervals were calculated using the Brookmeyer and Crowley's method.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "up to 130 days",
+   "title": "Progression-free Survival (PFS)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "months"
+  }
+ ]
+}

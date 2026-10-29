@@ -1,0 +1,162 @@
+{
+ "nctId": "NCT06238817",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "5.692",
+     "ciPctValue": "95",
+     "ciUpperLimit": "22.260",
+     "estimateComment": "stratified by baseline EASI score and geographic region",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<0.0001",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "11.26",
+     "statisticalComment": "stratified by baseline EASI score and geographic region",
+     "statisticalMethod": "Cochran-Mantel-Haenszel"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "10.8",
+         "upperLimit": "28.7",
+         "value": "18.5"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "62.3",
+         "upperLimit": "77.0",
+         "value": "70.0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "81"
+      },
+      {
+       "groupId": "OG001",
+       "value": "160"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "EASI75 was defined as achieving a ≥75% improvement in the EASI score compared to the baseline score. The EASI scoring system is a validated scoring system that grades the physical signs of atopic dermatitis (AD) to provide a measure of AD severity (ranging from 0 to 72). The disease severity strata for the EASI are: 0 = clear; 0.1 to 1.0 = almost clear; 1.1 to 7.0 = mild; 7.1 to 21.0 = moderate; 21.1 to 50.0 = severe; 50.1 to 72.0 = very severe.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants applied vehicle cream twice daily (BID) for 8 weeks to all areas identified for treatment at baseline even if the atopic dermatitis improved and lesions decreased in size. New areas could also have been treated after consultation with the investigator up to a maximum of 20% body surface area (BSA).",
+     "id": "OG000",
+     "title": "Vehicle Cream"
+    },
+    {
+     "description": "Participants applied ruxolitinib 1.5% cream BID for 8 weeks to all areas identified for treatment at baseline even if the atopic dermatitis improved and lesions decreased in size. New areas could also have been treated after consultation with the investigator up to a maximum of 20% BSA.",
+     "id": "OG001",
+     "title": "Ruxolitinib 1.5% Cream"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Intent-to-Treat (ITT) Population: all participants who were randomized to the study. Treatment groups were defined according to the treatment assignment at the time of randomization, regardless of the actual study treatment applied. The confidence interval was calculated based on exact methods for binomial distribution. Nonresponder imputation: missing postbaseline values were imputed as nonresponders at Week 8.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline; Week 8",
+   "title": "Percentage of Participants Achieving a ≥75% Improvement in the Eczema Area and Severity Index Score (EASI75) at Week 8",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "4.904",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "20.975",
+     "estimateComment": "stratified by baseline EASI score and geographic region",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<0.0001",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "10.14",
+     "statisticalComment": "stratified by baseline EASI score and geographic region",
+     "statisticalMethod": "Cochran-Mantel-Haenszel"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "7.0",
+         "upperLimit": "23.0",
+         "value": "13.6"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "53.2",
+         "upperLimit": "68.8",
+         "value": "61.3"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "81"
+      },
+      {
+       "groupId": "OG001",
+       "value": "160"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "IGA-TS was defined as achieving an IGA score of 0 or 1 with a ≥2-grade improvement from baseline. The IGA is an overall eczema severity rating on a 0 to 4 scale. 0: clear; no erythema or induration/papulation, no oozing/crusting; there may be minor residual discoloration. 1: almost clear; may be trace faint pink erythema, with almost no induration/papulation, and no oozing/crusting. 2: mild; may be faint pink erythema, with mild induration/papulation and no oozing/crusting. 3: moderate; may be pink-red erythema with moderate induration/papulation and may be some oozing/crusting. 4: severe; may be deep or bright red erythema with severe induration/papulation and with oozing/crusting.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants applied vehicle cream twice daily (BID) for 8 weeks to all areas identified for treatment at baseline even if the atopic dermatitis improved and lesions decreased in size. New areas could also have been treated after consultation with the investigator up to a maximum of 20% body surface area (BSA).",
+     "id": "OG000",
+     "title": "Vehicle Cream"
+    },
+    {
+     "description": "Participants applied ruxolitinib 1.5% cream BID for 8 weeks to all areas identified for treatment at baseline even if the atopic dermatitis improved and lesions decreased in size. New areas could also have been treated after consultation with the investigator up to a maximum of 20% BSA.",
+     "id": "OG001",
+     "title": "Ruxolitinib 1.5% Cream"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "ITT Population. The confidence interval was calculated based on exact methods for binomial distribution. Nonresponder imputation: missing postbaseline values were imputed as nonresponders at Week 8.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline; Week 8",
+   "title": "Percentage of Participants With Investigator's Global Assessment Treatment Success (IGA-TS) at Week 8",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

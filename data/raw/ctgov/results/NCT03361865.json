@@ -1,0 +1,65 @@
+{
+ "nctId": "NCT03361865",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "22.46",
+         "upperLimit": "55.24",
+         "value": "31.8"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "15.33",
+         "upperLimit": "43.67",
+         "value": "24.5"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "44"
+      },
+      {
+       "groupId": "OG001",
+       "value": "49"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "ORR was defined as the percentage of participants who had a confirmed complete response (CR) or partial response (PR) per RECIST v1.1 by investigator determination. Responses are based on Investigator assessments per RECIST 1.1 without confirmation using all scans up to the cutoff date.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Pembrolizumab administered intravenously every 3 weeks. Epacadostat administered orally twice daily.",
+     "id": "OG000",
+     "title": "Pembrolizumab 200 mg + Epacadostat 100 mg BID"
+    },
+    {
+     "description": "Pembrolizumab administered intravenously every 3 weeks. Matching placebo administered orally twice daily.",
+     "id": "OG001",
+     "title": "Pembrolizumab 200 mg + Placebo BID"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "The Intention-to-Treat (ITT) population consisted of all randomized participants.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Week 9",
+   "title": "Objective Response Rate (ORR) With Pembrolizumab + Epacadostat Versus Pembrolizumab + Placebo",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

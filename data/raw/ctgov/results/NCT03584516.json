@@ -1,0 +1,167 @@
+{
+ "nctId": "NCT03584516",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "1"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "11"
+      },
+      {
+       "groupId": "OG001",
+       "value": "10"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "A DLT was defined as the occurrence of any protocol-defined toxicity with onset up to and including Day 28, except those with a clear alternative explanation. Participants who received at least 21 of 28 doses of study drug at the level assigned or had a DLT were considered evaluable for determining tolerability of the dose. Participants who did not achieve this duration of exposure and did not have a DLT were to be replaced for purposes of toxicity identification.",
+   "groups": [
+    {
+     "description": "Participants were treated with oral itacitinib 200 milligrams (mg) once daily (QD) + corticosteroids (CS) for a maximum of 36 months. CS were given at a starting dose of 0.5 to 1.0 mg/kilogram (kg) QD (prednisone or methylprednisolone equivalent to prednisone dose). Itacitinib treatment was to continue until treatment failure (chronic graft-versus-host disease \\[cGVHD\\] progression, death, or initiation of new systemic cGVHD therapy), unacceptable toxicity, or withdrawal of consent, for a maximum of 36 months.",
+     "id": "OG000",
+     "title": "Part 1: Itacitinib 200 mg QD + CS"
+    },
+    {
+     "description": "Participants were treated with oral itacitinib 300 mg QD + CS for a maximum of 36 months. CS were given at a starting dose of 0.5 to 1.0 mg/kg QD (prednisone or methylprednisolone equivalent to prednisone dose). Itacitinib treatment was to continue until treatment failure (cGVHD progression, death, or initiation of new systemic cGVHD therapy), unacceptable toxicity, or withdrawal of consent, for a maximum of 36 months.",
+     "id": "OG001",
+     "title": "Part 1: Itacitinib 300 mg QD + CS"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Safety Analysis Set: all enrolled/randomized participants who received at least 1 dose of study drug and/or reference therapy. Treatment groups for this population were determined according to the actual treatment the participant received regardless of assigned study drug treatment.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "up to Day 28",
+   "title": "Part 1: Number of Participants With Dose-limiting Toxicities (DLTs)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "34"
+        },
+        {
+         "groupId": "OG001",
+         "value": "38"
+        },
+        {
+         "groupId": "OG002",
+         "value": "28"
+        },
+        {
+         "groupId": "OG003",
+         "value": "32"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "35"
+      },
+      {
+       "groupId": "OG001",
+       "value": "39"
+      },
+      {
+       "groupId": "OG002",
+       "value": "29"
+      },
+      {
+       "groupId": "OG003",
+       "value": "36"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "An adverse event (AE) was defined as any untoward medical occurrence associated with the use of a drug in humans, whether or not considered drug related. An AE could therefore have been any unfavorable and unintended sign (including an abnormal laboratory finding), symptom, or disease (new or exacerbated) temporally associated with the use of study treatment. A TEAE was defined as any AE either reported for the first time or the worsening of a pre-existing event after the first dose of study drug.",
+   "groups": [
+    {
+     "description": "Participants were treated with oral itacitinib 300 mg QD + CS. CS were given at a starting dose of 0.5 to 1.0 mg/kg QD (prednisone or methylprednisolone equivalent to prednisone dose). Itacitinib treatment was to continue until treatment failure (cGVHD progression, death, or initiation of new systemic cGVHD therapy), unacceptable toxicity, or withdrawal of consent, for a maximum of 36 months.",
+     "id": "OG000",
+     "title": "Part 1 Expansion: Itacitinib 300 mg QD + CS"
+    },
+    {
+     "description": "Participants were treated with oral itacitinib 400 mg QD + CS. CS were given at a starting dose of 0.5 to 1.0 mg/kg QD (prednisone or methylprednisolone equivalent to prednisone dose). Itacitinib treatment was to continue until treatment failure (cGVHD progression, death, or initiation of new systemic cGVHD therapy), unacceptable toxicity, or withdrawal of consent, for a maximum of 36 months.",
+     "id": "OG001",
+     "title": "Part 1 Expansion: Itacitinib 400 mg QD + CS"
+    },
+    {
+     "description": "Participants were treated with oral itacitinib 300 mg twice daily (BID) + CS. CS were given at a starting dose of 0.5 to 1.0 mg/kg QD (prednisone or methylprednisolone equivalent to prednisone dose). The itacitanib dose could have been decreased to 200 mg BID if a boundary was reached during safety run-in. This treatment group was discontinued due to concern of a potential increase in relapse rate. Participants in this treatment group who were ongoing were allowed to reduce to 400 mg QD plus CS. Itacitinib treatment was to continue until treatment failure (cGVHD progression, death, or initiation of new systemic cGVHD therapy), unacceptable toxicity, or withdrawal of consent, for a maximum of 36 months.",
+     "id": "OG002",
+     "title": "Part 1 Expansion: Itacitinib 300 mg BID + CS"
+    },
+    {
+     "description": "Participants were treated with CS alone. CS were given at a starting dose of 0.5 to 1.0 mg/kg QD (prednisone or methylprednisolone equivalent to prednisone dose). Treatment was to continue until treatment failure (cGVHD progression, death, or initiation of new systemic cGVHD therapy), unacceptable toxicity, or withdrawal of consent, for a maximum of 36 months.",
+     "id": "OG003",
+     "title": "Part 1 Expansion: CS Monotherapy"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Safety Analysis Set",
+   "reportingStatus": "POSTED",
+   "timeFrame": "until at least 30 days after the last dose of study treatment (up to 1103 days)",
+   "title": "Part 1 Expansion: Number of Participants With Any Treatment-emergent Adverse Event (TEAE)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "0"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Response rate was defined as the percentage of participants that had complete response (CR) or partial response (PR), per National Institutes of Health (NIH) Consensus Criteria, as determined by the investigator, within 14 days of the post-Baseline visit date until new anti-GVHD therapy or overall response-progression or relapse/progression of underlying disease. CR was defined as the complete resolution of all signs and symptoms of cGvHD in all evaluable organs. PR was defined as an improvement in at least one organ without progression in other organs.",
+   "groups": [
+    {
+     "description": "Participants were to be treated with oral itacitinib QD at the recommended Part 2 dose + CS. CS were to be given at a starting dose of 0.5 to 1.0 mg/kg QD (prednisone or methylprednisolone equivalent to prednisone dose).",
+     "id": "OG000",
+     "title": "Part 2: Itacitinib QD + CS"
+    }
+   ],
+   "populationDescription": "Part 2 was not enrolled because the benefit:risk ratio did not support moving the combination of itacitinib with CS to a later phase of development in first-line cGVHD.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Month 6",
+   "title": "Part 2: Response Rate at Month 6",
+   "type": "PRIMARY"
+  }
+ ]
+}

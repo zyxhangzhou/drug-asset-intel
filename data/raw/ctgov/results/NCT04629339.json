@@ -1,0 +1,110 @@
+{
+ "nctId": "NCT04629339",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "0.0",
+         "upperLimit": "97.5",
+         "value": "0.0"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "2.5",
+         "upperLimit": "100.0",
+         "value": "100.0"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "0.0",
+         "upperLimit": "45.9",
+         "value": "0.0"
+        },
+        {
+         "groupId": "OG003",
+         "lowerLimit": "0.4",
+         "upperLimit": "57.9",
+         "value": "14.3"
+        },
+        {
+         "groupId": "OG004",
+         "lowerLimit": "2.5",
+         "upperLimit": "100.0",
+         "value": "100.0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "1"
+      },
+      {
+       "groupId": "OG001",
+       "value": "1"
+      },
+      {
+       "groupId": "OG002",
+       "value": "6"
+      },
+      {
+       "groupId": "OG003",
+       "value": "7"
+      },
+      {
+       "groupId": "OG004",
+       "value": "1"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "ORR was defined as the percentage of participants with a best overall response of complete response (CR) or partial response (PR), confirmed by ≥1 repeat assessment ≥28 days later, according to Response Evaluation Criteria in Solid Tumors version 1.1 (RECIST v1.1), as determined by the investigator. CR: disappearance of all target and non-target lesions and no appearance of any new lesions. Any pathological lymph nodes (whether target or non-target) must have a reduction in the short axis to \\<10 millimeters (mm). PR: at least a 30% decrease in the sum of the diameters of target lesions, taking as a reference the baseline sum diameters, no new lesions, and no progression of non-target lesions.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants with non-small cell lung cancer (NSCLC) received INCB086550 orally in 28-day cycles at a dose of 400 milligrams (mg) twice daily (BID) for up to 2 years as long as they received benefit and didn't meet any criteria for study withdrawal. Participants who achieved a complete response could have continued to receive INCB086550 for an additional 4 cycles (with a minimum of 1 year of treatment) upon medical monitor consultation.",
+     "id": "OG000",
+     "title": "NSCLC 400 mg BID"
+    },
+    {
+     "description": "Participants with urothelial carcinoma (UC) received INCB086550 orally in 28-day cycles at a dose of 400 mg BID for up to 2 years as long as they received benefit and didn't meet any criteria for study withdrawal. Participants who achieved a complete response could have continued to receive INCB086550 for an additional 4 cycles (with a minimum of 1 year of treatment) upon medical monitor consultation.",
+     "id": "OG001",
+     "title": "UC 400 mg BID"
+    },
+    {
+     "description": "Participants with renal cell carcinoma (RC) received INCB086550 orally in 28-day cycles at a dose of 400 mg BID for up to 2 years as long as they received benefit and didn't meet any criteria for study withdrawal. Participants who achieved a complete response could have continued to receive INCB086550 for an additional 4 cycles (with a minimum of 1 year of treatment) upon medical monitor consultation.",
+     "id": "OG002",
+     "title": "RCC 400 mg BID"
+    },
+    {
+     "description": "Participants with melanoma received INCB086550 orally in 28-day cycles at a dose of 400 mg BID for up to 2 years as long as they received benefit and didn't meet any criteria for study withdrawal. Participants who achieved a complete response could have continued to receive INCB086550 for an additional 4 cycles (with a minimum of 1 year of treatment) upon medical monitor consultation.",
+     "id": "OG003",
+     "title": "Melanoma 400 mg BID"
+    },
+    {
+     "description": "Participants with melanoma received intermittent INCB086550 orally in 28-day cycles at a dose of 400 mg BID. Participants received INCB086550 for 1 week followed by 1 week off for up to 2 years as long as they received benefit and didn't meet any criteria for study withdrawal. Participants who achieved a complete response could have continued to receive INCB086550 for an additional 4 cycles (with a minimum of 1 year of treatment) upon medical monitor consultation.",
+     "id": "OG004",
+     "title": "Melanoma 400 mg BID Intermittent Dose"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Full Analysis Set: all study participants who received ≥1 dose of study drug. Participants were analyzed according to the treatment group/dose to which they were assigned. Confidence intervals were calculated using the Clopper-Pearson method.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "up to 733 days",
+   "title": "Objective Response Rate (ORR)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

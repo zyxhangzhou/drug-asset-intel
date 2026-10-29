@@ -1,0 +1,60 @@
+{
+ "nctId": "NCT03123588",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0.17"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "6"
+      },
+      {
+       "groupId": "OG001",
+       "value": "6"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Defined as proportion of subjects who achieve a simultaneous reduction of platelet counts to \\< 600 × 10\\^9/L with a reduction of WBC counts to \\< 10 × 10\\^9/L for at least 80% of biweekly measurements for a consecutive 12-week period between Weeks 32 and 52.",
+   "groups": [
+    {
+     "description": "Ruxolitinib or placebo will be administered orally twice a day at a starting dose of 10 mg.",
+     "id": "OG000",
+     "title": "Group A : Ruxolitinib and Anagrelide Placebo"
+    },
+    {
+     "description": "Anagrelide or placebo will be administered orally twice a day at a starting dose of 1 mg. Use of anagrelide will be consistent with approved prescribing information.",
+     "id": "OG001",
+     "title": "Group B : Anagrelide and Ruxolitinib PLacebo"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "The intent-to-treat (ITT) population will include subjects randomized in the study",
+   "reportingStatus": "POSTED",
+   "timeFrame": "52 weeks",
+   "title": "Proportion of Subjects Who Achieve Platelet and White Blood Cell (WBC) Control",
+   "type": "PRIMARY",
+   "unitOfMeasure": "proportion of participants"
+  }
+ ]
+}

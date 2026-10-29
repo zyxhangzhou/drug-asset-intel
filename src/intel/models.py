@@ -71,6 +71,7 @@ class SnapshotMeta(SQLModel, table=True):
     id: int = Field(default=1, primary_key=True)
     generated_at: datetime
     generator: str
+    snapshot_date: date | None = None
 
 
 class Buyer(SQLModel, table=True):
@@ -198,6 +199,8 @@ class Target(SQLModel, table=True):
     selection_rationale: str | None = None
 
     programs: list["Program"] = Relationship(back_populates="target")
+    trials: list["Trial"] = Relationship(back_populates="target")
+    approvals: list["ApprovedProduct"] = Relationship(back_populates="target")
     catalysts: list["Catalyst"] = Relationship(back_populates="target")
     financials: list["FinancialSnapshot"] = Relationship(back_populates="target")
     matches: list["Match"] = Relationship(back_populates="target")
@@ -234,8 +237,9 @@ class Trial(SQLModel, table=True):
         "phase",
         "status",
         "design",
-        "enrollment_target",
-        "enrollment_actual",
+        "conditions",
+        "interventions",
+        "enrollment",
         "start_date",
         "primary_completion_date",
         "completion_date",
@@ -243,18 +247,24 @@ class Trial(SQLModel, table=True):
     )
     id: int | None = Field(default=None, primary_key=True)
     nct_id: str = Field(unique=True)
+    target_id: int = Field(foreign_key="target.id", index=True)
     indication_id: int | None = Field(default=None, foreign_key="program_indication.id", index=True)
     title: str | None = None
     phase: Stage | None = None
     status: str | None = None
     design: str | None = None
-    enrollment_target: int | None = None
-    enrollment_actual: int | None = None
-    start_date: date | None = None
-    primary_completion_date: date | None = None
-    completion_date: date | None = None
+    conditions: str | None = None
+    interventions: str | None = None
+    enrollment: int | None = None
+    enrollment_type: str | None = None  # ESTIMATED / ACTUAL, as registered
+    # Registry dates are kept as registered (YYYY-MM-DD or YYYY-MM); a month is never padded.
+    start_date: str | None = None
+    primary_completion_date: str | None = None
+    primary_completion_type: str | None = None  # ESTIMATED / ACTUAL, as registered
+    completion_date: str | None = None
     expected_readout: str | None = None
 
+    target: Target = Relationship(back_populates="trials")
     indication: ProgramIndication | None = Relationship(back_populates="trials")
     results: list["TrialResult"] = Relationship(back_populates="trial")
 
@@ -264,6 +274,7 @@ class TrialResult(SQLModel, table=True):
     BUSINESS_FIELDS: ClassVar[tuple[str, ...]] = (
         "endpoint",
         "result",
+        "analysis",
         "comparator",
         "advantage_vs_soc",
     )
@@ -271,6 +282,7 @@ class TrialResult(SQLModel, table=True):
     trial_id: int = Field(foreign_key="trial.id", index=True)
     endpoint: str | None = None
     result: str | None = None
+    analysis: str | None = None
     comparator: str | None = None
     advantage_vs_soc: str | None = None
 
@@ -320,6 +332,24 @@ class FinancialSnapshot(SQLModel, table=True):
     target: Target = Relationship(back_populates="financials")
 
 
+class ApprovedProduct(SQLModel, table=True):
+    __tablename__ = "approved_product"
+    BUSINESS_FIELDS: ClassVar[tuple[str, ...]] = (
+        "application_number",
+        "brand_name",
+        "active_ingredients",
+        "first_approval_date",
+    )
+    id: int | None = Field(default=None, primary_key=True)
+    target_id: int = Field(foreign_key="target.id", index=True)
+    application_number: str | None = None
+    brand_name: str | None = None
+    active_ingredients: str | None = None
+    first_approval_date: date | None = None
+
+    target: Target = Relationship(back_populates="approvals")
+
+
 class Match(SQLModel, table=True):
     BUSINESS_FIELDS: ClassVar[tuple[str, ...]] = ("score", "rationale")
     id: int | None = Field(default=None, primary_key=True)
@@ -345,5 +375,6 @@ DOMAIN_TABLES: tuple[type[SQLModel], ...] = (
     TrialResult,
     Catalyst,
     FinancialSnapshot,
+    ApprovedProduct,
     Match,
 )

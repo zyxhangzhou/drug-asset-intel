@@ -1,0 +1,531 @@
+{
+ "nctId": "NCT01348490",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "groupIds": [
+      "OG000"
+     ],
+     "nonInferiorityComment": "1-sample t-test with null hypothesis mean \\>= 0",
+     "nonInferiorityType": "OTHER",
+     "pValue": "0.0250",
+     "pValueComment": "1-sample t-test was used.",
+     "statisticalMethod": "t-test, 1 sided"
+    },
+    {
+     "groupIds": [
+      "OG001"
+     ],
+     "nonInferiorityComment": "1-sample t-test with null hypothesis mean \\>= 0",
+     "nonInferiorityType": "OTHER",
+     "pValue": "0.0163",
+     "pValueComment": "1-sample t-test was used.",
+     "statisticalMethod": "t-test, 1 sided"
+    },
+    {
+     "groupIds": [
+      "OG002"
+     ],
+     "nonInferiorityComment": "1-sample t-test with null hypothesis mean \\>= 0",
+     "nonInferiorityType": "OTHER",
+     "pValue": "<0.0001",
+     "pValueComment": "1-sample t-test was used.",
+     "statisticalMethod": "t-test, 1 sided"
+    },
+    {
+     "groupIds": [
+      "OG003"
+     ],
+     "nonInferiorityComment": "1-sample t-test with null hypothesis mean \\>= 0",
+     "nonInferiorityType": "OTHER",
+     "pValue": "0.2019",
+     "pValueComment": "1-sample t-test was used.",
+     "statisticalMethod": "t-test, 1 sided"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "18.68",
+         "value": "-11.6"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.63",
+         "value": "-17.4"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "22.86",
+         "value": "-22.4"
+        },
+        {
+         "groupId": "OG003",
+         "spread": "22.29",
+         "value": "-13.4"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "16"
+      },
+      {
+       "groupId": "OG001",
+       "value": "2"
+      },
+      {
+       "groupId": "OG002",
+       "value": "27"
+      },
+      {
+       "groupId": "OG003",
+       "value": "6"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Magnetic resonance imaging (MRI) of the upper and lower abdomen and pelvis was performed to assess spleen volumes. Computed tomography (CT) scan was performed if participant was not a candidate for MRI or if MRI was not readily available. MRI was performed with a body coil. Spleen volume was obtained by outlining the circumference of the organ and determining the volume using the validated technique of least squares. The MRI (or CT scan in applicable participants) was performed on the first or second day of the baseline period (ie, Day -7 or Day -6), and the site radiologist sent the scan to the central imaging laboratory that same day. The CT scans were processed by the same central laboratory used for MRIs.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants received the final titrated dose of ruxolitinib 5 mg QD or 5 mg BID.",
+     "id": "OG000",
+     "title": "5 mg QD or 5 mg BID"
+    },
+    {
+     "description": "Participants received the final titrated dose of ruxolitinib 5 mg AM plus 10 mg PM.",
+     "id": "OG001",
+     "title": "5 mg AM/ 10 mg PM"
+    },
+    {
+     "description": "Participants received the final titrated dose of ruxolitinib 10 mg BID.",
+     "id": "OG002",
+     "title": "10 mg BID"
+    },
+    {
+     "description": "Participants received the final titrated dose of ruxolitinib 10 mg AM plus 15 mg PM or 15 mg BID.",
+     "id": "OG003",
+     "title": "10 mg AM/ 15 mg PM or 15 mg BID"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Intent-to-treat (ITT) population included all participants enrolled and treated in the study.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline and Week 24",
+   "title": "Percent Change From Baseline in Spleen Volume at Week 24 by Final Titrated Dose",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Percentage change from baseline"
+  },
+  {
+   "analyses": [
+    {
+     "groupIds": [
+      "OG000"
+     ],
+     "nonInferiorityType": "OTHER",
+     "pValue": "0.6887",
+     "pValueComment": "1-sample t-test was used.",
+     "statisticalMethod": "t-test, 1 sided"
+    },
+    {
+     "groupIds": [
+      "OG002"
+     ],
+     "nonInferiorityType": "OTHER",
+     "pValue": "<0.0001",
+     "pValueComment": "1-sample t-test was used.",
+     "statisticalMethod": "t-test, 1 sided"
+    },
+    {
+     "groupIds": [
+      "OG003"
+     ],
+     "nonInferiorityType": "OTHER",
+     "pValue": "0.8701",
+     "pValueComment": "1-sample t-test was used.",
+     "statisticalMethod": "t-test, 1 sided"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "64.207",
+         "value": "-6.35"
+        },
+        {
+         "comment": "Standard deviation was not calculated due to only having a single participant.",
+         "groupId": "OG001",
+         "spread": "NA",
+         "value": "-39.51"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "46.886",
+         "value": "-47.54"
+        },
+        {
+         "groupId": "OG003",
+         "spread": "113.17",
+         "value": "7.95"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "17"
+      },
+      {
+       "groupId": "OG001",
+       "value": "1"
+      },
+      {
+       "groupId": "OG002",
+       "value": "29"
+      },
+      {
+       "groupId": "OG003",
+       "value": "6"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Symptoms of myelofibrosis were assessed using a modified Myelofibrosis Symptom Assessment Form (MFSAF) Version 2.0 diary. Using the diary, patients rated the following symptoms on a scale from 0 (absent) to 10 (worst imaginable): night sweats, itching, abdominal discomfort, pain under ribs on left, feeling of fullness (early satiety), and muscle/bone pain. The total symptom score ranged from 0-60 and was calculated as the sum of the 6 symptom scores. A higher score indicates worse symptoms.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants received the final titrated dose of ruxolitinib 5 mg QD or 5 mg BID.",
+     "id": "OG000",
+     "title": "5 mg QD or 5 mg BID"
+    },
+    {
+     "description": "Participants received the final titrated dose of ruxolitinib 5 mg AM plus 10 mg PM.",
+     "id": "OG001",
+     "title": "5 mg AM/ 10 mg PM"
+    },
+    {
+     "description": "Participants received the final titrated dose of ruxolitinib 10 mg BID.",
+     "id": "OG002",
+     "title": "10 mg BID"
+    },
+    {
+     "description": "Participants received the final titrated dose of ruxolitinib 10 mg AM plus 15 mg PM or 15 mg BID.",
+     "id": "OG003",
+     "title": "10 mg AM/ 15 mg PM or 15 mg BID"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "ITT population included all participants enrolled and treated in the study. For the 5 mg AM/ 10 mg PM arm, the t-test was not calculated due to only having a single participant.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline and Week 24",
+   "title": "Percent Change From Baseline in Total Symptom Score (TSS) as Measured by the Modified Myelofibrosis Symptom Assessment Form (MFSAF) V2.0 Diary at Week 24 by Final Titrated Dose",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Percentage change from baseline"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "93.3"
+        },
+        {
+         "groupId": "OG001",
+         "value": "74.2"
+        },
+        {
+         "groupId": "OG002",
+         "value": "61.1"
+        },
+        {
+         "groupId": "OG003",
+         "value": "77.3"
+        },
+        {
+         "groupId": "OG004",
+         "value": "55.6"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "15"
+      },
+      {
+       "groupId": "OG001",
+       "value": "66"
+      },
+      {
+       "groupId": "OG002",
+       "value": "54"
+      },
+      {
+       "groupId": "OG003",
+       "value": "44"
+      },
+      {
+       "groupId": "OG004",
+       "value": "9"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "TEAE was defined as adverse events that began or worsened from baseline after the first administration of the study drug.\n\nParticipants were analyzed based on the number of subjects who received a dose within the dose group. The percentages for each column are calculated using this N. Participants who had more than 1 event in an AE category (eg, treatment-related TEAE) are counted once at each dose level the event occurred.",
+   "groups": [
+    {
+     "description": "Participants received ruxolitinib up to 0-5mg.",
+     "id": "OG000",
+     "title": ">0 - 5 mg"
+    },
+    {
+     "description": "Participants received ruxolitinib in the range of 6 mg to 10 mg.",
+     "id": "OG001",
+     "title": ">5 - 10 mg"
+    },
+    {
+     "description": "Participants received ruxolitinib in the range of 11 to 15 mg.",
+     "id": "OG002",
+     "title": ">10 - 15 mg"
+    },
+    {
+     "description": "Participants received ruxolitinib in the range of 16 to 20 mg.",
+     "id": "OG003",
+     "title": ">15 - 20 mg"
+    },
+    {
+     "description": "Participants received ruxolitinib, more than 20 mg.",
+     "id": "OG004",
+     "title": ">20 mg"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Safety evaluable population included participants who received at least 1 dose of study drug.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to Week 156",
+   "title": "Percentage of Participants With Treatment-emergent Adverse Events (TEAE)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "23.1"
+        },
+        {
+         "groupId": "OG001",
+         "value": "3.0"
+        },
+        {
+         "groupId": "OG002",
+         "value": "5.7"
+        },
+        {
+         "groupId": "OG003",
+         "value": "4.7"
+        },
+        {
+         "groupId": "OG004",
+         "value": "0.0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "13"
+      },
+      {
+       "groupId": "OG001",
+       "value": "66"
+      },
+      {
+       "groupId": "OG002",
+       "value": "53"
+      },
+      {
+       "groupId": "OG003",
+       "value": "43"
+      },
+      {
+       "groupId": "OG004",
+       "value": "8"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Participants with platelet count between 50 and 100 × 10\\^9/L at the screening and/or baseline visit were enrolled in the study. Thrombocytopenia is defined as a condition with low blood platelet count. Grade 4 thrombocytopenia was platelet count \\< 25 × 10\\^9/L.\n\nParticipants were analyzed based on the number of subjects who received a dose within the dose group. The percentages for each column are calculated using this N. Participants who had more than 1 event in an AE category (eg, treatment-related TEAE) are counted once at each dose level the event occurred.",
+   "groups": [
+    {
+     "description": "Participants received ruxolitinib up to 5 mg.",
+     "id": "OG000",
+     "title": ">0 - 5 mg"
+    },
+    {
+     "description": "Participants received ruxolitinib in the range of 5 to 10 mg.",
+     "id": "OG001",
+     "title": ">5 - 10 mg"
+    },
+    {
+     "description": "Participants received ruxolitinib in the range of 10 to 15 mg.",
+     "id": "OG002",
+     "title": ">10 - 15 mg"
+    },
+    {
+     "description": "Participants received ruxolitinib in the range of 15 to 20 mg.",
+     "id": "OG003",
+     "title": ">15 - 20 mg"
+    },
+    {
+     "description": "Participants received ruxolitinib, more than 20 mg.",
+     "id": "OG004",
+     "title": ">20 mg"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Safety evaluable population included participants who received at least 1 dose of study drug.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to Week 156",
+   "title": "Percentage of Participants With New Onset Grade 4 Thrombocytopenia Events as Assessed by Common Terminology Criteria for Adverse Events Version 4.03 (CTCAE V4.03)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "6.7"
+        },
+        {
+         "groupId": "OG001",
+         "value": "3.0"
+        },
+        {
+         "groupId": "OG002",
+         "value": "1.9"
+        },
+        {
+         "groupId": "OG003",
+         "value": "2.3"
+        },
+        {
+         "groupId": "OG004",
+         "value": "11.1"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "15"
+      },
+      {
+       "groupId": "OG001",
+       "value": "66"
+      },
+      {
+       "groupId": "OG002",
+       "value": "54"
+      },
+      {
+       "groupId": "OG003",
+       "value": "44"
+      },
+      {
+       "groupId": "OG004",
+       "value": "9"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Hemorrhages were defined as any lower level terms by MedDRA included in the Standardized MedDRA Query (SMQ) for hemorrhage terms.\n\nParticipants were analyzed based on the number of subjects who received a dose within the dose group. The percentages for each column are calculated using this N. Participants who had more than 1 event in an AE category (eg, treatment-related TEAE) are counted once at each dose level the event occurred.",
+   "groups": [
+    {
+     "description": "Participants received ruxolitinib up to 5 mg.",
+     "id": "OG000",
+     "title": ">0 - 5 mg"
+    },
+    {
+     "description": "Participants received ruxolitinib in the range of 5 to 10 mg.",
+     "id": "OG001",
+     "title": ">5 - 10 mg"
+    },
+    {
+     "description": "Participants received ruxolitinib in the range of 10 to 15 mg.",
+     "id": "OG002",
+     "title": ">10 - 15 mg"
+    },
+    {
+     "description": "Participants received ruxolitinib in the range of 15 to 20 mg.",
+     "id": "OG003",
+     "title": ">15 - 20 mg"
+    },
+    {
+     "description": "Participants received ruxolitinib, more than 20 mg.",
+     "id": "OG004",
+     "title": ">20 mg"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Safety evaluable population included participants who received at least 1 dose of study drug.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to Week 156",
+   "title": "Percentage of Participants With New Onset Grade 2 or Higher Hemorrhage as Assessed by CTCAE V4.03",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

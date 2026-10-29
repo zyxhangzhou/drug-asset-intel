@@ -1,0 +1,84 @@
+{
+ "nctId": "NCT03322566",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-32.0",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-4.3",
+     "estimateComment": "Stratified by PD-L1 TPS ( \\<50% vs. \\>=50% ) and predominant tumor histology (squamous vs non-squamous);because of small sample size, the strata 'TPS \\>= 50 percent Non-squamous' and 'TPS \\>= 50% Squamous' were combined into one stratum.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.9948",
+     "pValueComment": "One-sided p-value for testing. H0: difference in % = 0 versus H1: difference in % \\> 0.",
+     "paramType": "Difference in Percentages",
+     "paramValue": "-18.5",
+     "statisticalMethod": "Stratified Miettinen and Nurminen method"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "17.7",
+         "upperLimit": "36.7",
+         "value": "26.4"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "34.1",
+         "upperLimit": "55.9",
+         "value": "44.8"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "91"
+      },
+      {
+       "groupId": "OG001",
+       "value": "87"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "ORR is defined as the percentage of participants who have a confirmed complete response (CR) or partial response (PR) per Response Evaluation Criteria in Solid Tumors (RECIST 1.1) based on blinded independent central review (BICR).",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participant received pembrolizumab 200 mg intravenous (IV) infusion, every 3 weeks (Q3W) on Day 1 of each 21 day cycle for up to 35 cycles + epacadostat 100 mg tablets, orally, twice daily (BID) in each 21 day cycle for up to 35 cycles + platinum-doublet chemotherapy (pemetrexed 500 mg/m\\^2 IV infusion, Q3W + cisplatin 75 mg/m\\^2 IV infusion, Q3W or carboplatin 5-6 mg/mL/min IV infusion Q3W for 4 cycles followed by pemetrexed maintenance; or paclitaxel 200 mg /m\\^2 IV infusion, Q3W + carboplatin 5-6 mg/mL/min IV infusion Q3W for 4 cycles).",
+     "id": "OG000",
+     "title": "Pembrolizumab + Chemotherapy + Epacadostat"
+    },
+    {
+     "description": "Participant received pembrolizumab 200 mg IV infusion, Q3W on Day 1 of each 21 day cycle for up to 35 cycles + epacadostat matching placebo tablets, orally, BID in each 21 day cycle for up to 35 cycles + platinum-doublet chemotherapy (pemetrexed 500 mg/m\\^2 IV infusion, Q3W + cisplatin 75 mg/m\\^2 IV infusion, Q3W or carboplatin 5-6 mg/mL/min IV infusion Q3W for 4 cycles followed by pemetrexed maintenance; or paclitaxel 200 mg /m\\^2 IV infusion, Q3W + carboplatin 5-6 mg/mL/min IV infusion Q3W for 4 cycles).",
+     "id": "OG001",
+     "title": "Pembrolizumab + Chemotherapy + Placebo"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "ITT population consisted of all participants randomized in treatment arm Pembrolizumab+Epacadostat+Chemotherapy and treatment arm Pembrolizumab+Chemothrapy. This is not a primary outcome measure for treatment arm Pembrolizumab+Epacadostat per protocol.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Assessed every 12 weeks up to 24 months",
+   "title": "Objective Response Rate (ORR) of Pembrolizumab + Chemotherapy + Epacadostat Versus Pembrolizumab + Chemotherapy + Placebo",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

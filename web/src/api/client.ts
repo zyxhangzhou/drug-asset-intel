@@ -1,6 +1,7 @@
 export interface SnapshotMeta {
   generated_at: string | null
   generator: string | null
+  snapshot_date: string | null
   counts: Record<string, number>
 }
 

@@ -1,0 +1,65 @@
+{
+ "nctId": "NCT03374488",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "12.49",
+         "upperLimit": "43.26",
+         "value": "21.4"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "3.11",
+         "upperLimit": "26.06",
+         "value": "9.5"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "42"
+      },
+      {
+       "groupId": "OG001",
+       "value": "42"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "ORR was defined as the percentage of participants who had a complete response (CR), disappearance of all target lesions or partial response (PR), \\>=30% decrease in the sum of the longest diameter of target lesions per RECIST v1.1 by investigator determination.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Pembrolizumab administered intravenously Day 1 of each cycle every 3 weeks. Epacadostat administered orally twice daily.",
+     "id": "OG000",
+     "title": "Pembrolizumab 200 mg + Epacadostat 100 mg BID"
+    },
+    {
+     "description": "Pembrolizumab administered intravenously Day 1 of each cycle every 3 weeks. Matching placebo administered orally twice daily.",
+     "id": "OG001",
+     "title": "Pembrolizumab 200 mg + Placebo BID"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "The Intention-to-Treat (ITT) population consisted of all randomized participants. Responses are based on Investigator assessments per RECIST 1.1 without confirmation using all scans up to week 9 (day 63) + 14 days.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "up to 9 weeks +14 days",
+   "title": "Objective Response Rate (ORR) With Pembrolizumab + Epacadostat Versus Pembrolizumab + Placebo",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

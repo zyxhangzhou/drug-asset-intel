@@ -1,0 +1,77 @@
+{
+ "nctId": "NCT02924376",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "27.94",
+         "upperLimit": "46.86",
+         "value": "37.0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "108"
+      },
+      {
+       "groupId": "OG001",
+       "value": "0"
+      },
+      {
+       "groupId": "OG002",
+       "value": "0"
+      },
+      {
+       "groupId": "OG003",
+       "value": "0"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "ORR was defined as the percentage of participants with a best overall response of complete response (CR) or partial response (PR) at any post-Baseline visit prior to first progressive disease (PD), per Response Evaluation Criteria in Solid Tumors (RECIST) version 1.1 (v1.1). CR: disappearance of all target and non-target lesions and no appearance of any new lesions. Any pathological lymph nodes (whether target or non-target) must have a reduction in the short axis to \\<10 millimeters (mm). PR: complete disappearance or at least a 30% decrease in the sum of the diameters of target lesions, taking as a reference the baseline sum diameters, no new lesions, and no progression of non-target lesions. ORR was based on central genomics laboratory results. Response was based on review of scans by an independent centralized radiological review committee.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants with fibroblast growth factor (FGF) receptor 2 (FGFR2) rearrangements or fusions self-administered oral pemigatinib at a starting dose of 13.5 milligrams (mg) once daily (QD) on a 2-weeks-on therapy/1-week-off schedule in 21-day cycles. Pemigatinib was administered until documented disease progression or unacceptable toxicity.",
+     "id": "OG000",
+     "title": "Cohort A: FGFR2 Rearrangements or Fusions"
+    },
+    {
+     "description": "Participants with all other FGF/FGFR alterations self-administered oral pemigatinib at a starting dose of 13.5 mg QD on a 2-weeks-on therapy/1-week-off schedule in 21-day cycles. Pemigatinib was administered until documented disease progression or unacceptable toxicity.",
+     "id": "OG001",
+     "title": "Cohort B: FGF/FGFR Alterations Other Than FGFR2 Rearrangements or Fusions"
+    },
+    {
+     "description": "Participants with no FGF/FGFR alterations self-administered oral pemigatinib at a starting dose of 13.5 mg QD on a 2-weeks-on therapy/1-week-off schedule in 21-day cycles (United States only). Pemigatinib was administered until documented disease progression or unacceptable toxicity.",
+     "id": "OG002",
+     "title": "Cohort C: Negative for FGF/FGFR Alterations"
+    },
+    {
+     "description": "Participants with an FGF/FGFR status for whom the local laboratory FGF/FGFR results could not be confirmed centrally self-administered oral pemigatinib at a starting dose of 13.5 mg QD on a 2-weeks-on therapy/1-week-off schedule in 21-day cycles. Pemigatinib was administered until documented disease progression or unacceptable toxicity.",
+     "id": "OG003",
+     "title": "Other"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Efficacy Evaluable Population (EEP): all participants who received ≥1 dose of pemigatinib and had a known FGF/FGFR alteration or, in the United States, were negative for FGF/FGFR alterations based on central genomics laboratory results. Two participants were assigned to a group labeled \"Other\" and were excluded from the EEP because the local laboratory FGF/FGFR results could not be confirmed centrally. Confidence intervals were calculated based on the exact method for binomial distribution.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "up to 1527 days",
+   "title": "Objective Response Rate (ORR) in Participants With FGFR2 Rearrangements or Fusions",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

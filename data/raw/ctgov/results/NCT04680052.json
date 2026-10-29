@@ -1,0 +1,244 @@
+{
+ "nctId": "NCT04680052",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "comment": "The upper limit of the confidence interval was not estimable because too few participants had disease progression or died.",
+         "groupId": "OG000",
+         "lowerLimit": "19.22",
+         "upperLimit": "NA",
+         "value": "22.37"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "11.53",
+         "upperLimit": "16.39",
+         "value": "13.93"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "273"
+      },
+      {
+       "groupId": "OG001",
+       "value": "275"
+      },
+      {
+       "groupId": "OG002",
+       "value": "0"
+      },
+      {
+       "groupId": "OG003",
+       "value": "0"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "PD, positron emission tomography (PET): score 4 (uptake moderately \\> liver) or 5 (uptake markedly higher than liver and/or new lesions) for lymph node/extra lymphatic sites with increase in intensity of Baseline uptake and/or new fluorodeoxyglucose (FDG)-avid foci consistent with lymphoma at interim/end-of-treatment assessment; new/recurrent FDG-avid foci in bone marrow; new FDG-avid foci consistent with lymphoma versus other etiology in new lesions. PD, computed tomography (CT): abnormal individual node/lesion with longest diameter (LDi ) \\>1.5 centimeters (cm) and increase by ≥50% from the product of the perpendicular diameters (PPD) nadir and increase in LDi or shortest diameter (SDi) from nadir; new/clear progression of preexisting nontarget lesions; new/recurrent splenomegaly and bone marrow involvement; regrowth of previously resolved lesions. New node \\>1.5 cm in any axis. New extranodal site \\>1.0 cm in any axis; if \\<1.0 cm, presence is unequivocal and attributable to lymphoma.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants with follicular lymphoma (FL) were randomized to receive tafasitamab 12 milligrams per kilogram (mg/kg) intravenously (IV), administered on Days 1, 8, 15, and 22 of Cycles 1 to 3 and on Days 1 and 15 of Cycles 4 to 12. Participants also received oral lenalidomide (including generics) 20 mg once daily (QD), administered at approximately the same time every day on Days 1 to 21 of Cycles 1 to 12, and rituximab (including biosimilars) 375 mg/meters squared (m\\^2) IV, administered on Days 1, 8, 15, and 22 of Cycle 1 and on Day 1 of Cycles 2 to 5. A treatment cycle was defined as 28 calendar days.",
+     "id": "OG000",
+     "title": "FL: Tafasitamab + Rituximab + Lenalidomide"
+    },
+    {
+     "description": "Participants with FL were randomized to receive placebo 0.9% saline solution IV, administered on Days 1, 8, 15, and 22 of Cycles 1 to 3 and on Days 1 and 15 of Cycles 4 to 12. Participants also received oral lenalidomide (including generics) 20 mg QD, administered at approximately the same time every day on Days 1 to 21 of Cycles 1 to 12, and rituximab (including biosimilars) 375 mg/m\\^2 IV, administered on Days 1, 8, 15, and 22 of Cycle 1 and on Day 1 of Cycles 2 to 5. A treatment cycle was defined as 28 calendar days.",
+     "id": "OG001",
+     "title": "FL: Placebo + Rituximab + Lenalidomide"
+    },
+    {
+     "description": "Participants with marginal zone lymphoma (MZL) were randomized to receive tafasitamab 12 mg/kg IV, administered on Days 1, 8, 15, and 22 of Cycles 1 to 3 and on Days 1 and 15 of Cycles 4 to 12. Participants also received oral lenalidomide (including generics) 20 mg QD, administered at approximately the same time every day on Days 1 to 21 of Cycles 1 to 12, and rituximab (including biosimilars) 375 mg/m\\^2 IV, administered on Days 1, 8, 15, and 22 of Cycle 1 and on Day 1 of Cycles 2 to 5. A treatment cycle was defined as 28 calendar days.",
+     "id": "OG002",
+     "title": "MZL: Tafasitamab + Rituximab + Lenalidomide"
+    },
+    {
+     "description": "Participants with MZL were randomized to receive placebo 0.9% saline solution IV, administered on Days 1, 8, 15, and 22 of Cycles 1 to 3 and on Days 1 and 15 of Cycles 4 to 12. Participants also received oral lenalidomide (including generics) 20 mg QD, administered at approximately the same time every day on Days 1 to 21 of Cycles 1 to 12, and rituximab (including biosimilars) 375 mg/m\\^2 IV, administered on Days 1, 8, 15, and 22 of Cycle 1 and on Day 1 of Cycles 2 to 5. A treatment cycle was defined as 28 calendar days.",
+     "id": "OG003",
+     "title": "MZL: Placebo + Rituximab + Lenalidomide"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "Follicular Lymphoma (FL) Full Analysis Set: all randomized participants with FL. The 2-sided 95% confidence intervals were calculated using the method of Brookmeyer and Crowley with log-log transformation. Censored participants were included in the analysis.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "up to approximately 34 months",
+   "title": "FL Population: Progression-free Survival (PFS) by Investigator Assessment, Using the Lugano 2014 Criteria, Defined as the Time From Randomization to the First Documented Disease Progression (PD), or Death From Any Cause, Whichever Occurred First",
+   "type": "PRIMARY",
+   "unitOfMeasure": "months"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.324",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.580",
+     "estimateComment": "The hazard ratio was estimated using a stratified Cox proportional hazards model.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<0.0001",
+     "paramType": "Hazard Ratio (HR)",
+     "paramValue": "0.434",
+     "statisticalMethod": "stratified Log Rank"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "88.3",
+         "upperLimit": "95.1",
+         "value": "92.4"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "72.7",
+         "upperLimit": "82.7",
+         "value": "78.2"
+        }
+       ]
+      }
+     ],
+     "title": "6 months"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "72.8",
+         "upperLimit": "84.0",
+         "value": "79.0"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "47.1",
+         "upperLimit": "60.5",
+         "value": "54.0"
+        }
+       ]
+      }
+     ],
+     "title": "12 months"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "53.4",
+         "upperLimit": "69.3",
+         "value": "61.9"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "30.8",
+         "upperLimit": "46.1",
+         "value": "38.5"
+        }
+       ]
+      }
+     ],
+     "title": "18 months"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "28.4",
+         "upperLimit": "54.6",
+         "value": "41.7"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "23.6",
+         "upperLimit": "40.2",
+         "value": "31.8"
+        }
+       ]
+      }
+     ],
+     "title": "2 years"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "273"
+      },
+      {
+       "groupId": "OG001",
+       "value": "275"
+      },
+      {
+       "groupId": "OG002",
+       "value": "0"
+      },
+      {
+       "groupId": "OG003",
+       "value": "0"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "PD, PET: score 4 (uptake moderately \\> liver) or 5 (uptake markedly higher than liver and/or new lesions) for lymph node/extra lymphatic sites with increase in intensity of Baseline uptake and/or new FDG-avid foci consistent with lymphoma at interim/end-of-treatment assessment; new/recurrent FDG-avid foci in bone marrow; new FDG-avid foci consistent with lymphoma versus other etiology in new lesions. PD, CT: abnormal individual node/lesion with LDi \\>1.5 cm and increase by ≥50% from the PPD nadir and increase in LDi or SDi from nadir; new/clear progression of preexisting nontarget lesions; new/recurrent splenomegaly and bone marrow involvement; regrowth of previously resolved lesions. New node \\>1.5 cm in any axis. New extranodal site \\>1.0 cm in any axis; if \\<1.0 cm, presence is unequivocal and attributable to lymphoma. Kaplan-Meier estimates indicate the percent probability of a participant being alive at the indicated time after treatment start.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants with follicular lymphoma (FL) were randomized to receive tafasitamab 12 milligrams per kilogram (mg/kg) intravenously (IV), administered on Days 1, 8, 15, and 22 of Cycles 1 to 3 and on Days 1 and 15 of Cycles 4 to 12. Participants also received oral lenalidomide (including generics) 20 mg once daily (QD), administered at approximately the same time every day on Days 1 to 21 of Cycles 1 to 12, and rituximab (including biosimilars) 375 mg/meters squared (m\\^2) IV, administered on Days 1, 8, 15, and 22 of Cycle 1 and on Day 1 of Cycles 2 to 5. A treatment cycle was defined as 28 calendar days.",
+     "id": "OG000",
+     "title": "FL: Tafasitamab + Rituximab + Lenalidomide"
+    },
+    {
+     "description": "Participants with FL were randomized to receive placebo 0.9% saline solution IV, administered on Days 1, 8, 15, and 22 of Cycles 1 to 3 and on Days 1 and 15 of Cycles 4 to 12. Participants also received oral lenalidomide (including generics) 20 mg QD, administered at approximately the same time every day on Days 1 to 21 of Cycles 1 to 12, and rituximab (including biosimilars) 375 mg/m\\^2 IV, administered on Days 1, 8, 15, and 22 of Cycle 1 and on Day 1 of Cycles 2 to 5. A treatment cycle was defined as 28 calendar days.",
+     "id": "OG001",
+     "title": "FL: Placebo + Rituximab + Lenalidomide"
+    },
+    {
+     "description": "Participants with marginal zone lymphoma (MZL) were randomized to receive tafasitamab 12 mg/kg IV, administered on Days 1, 8, 15, and 22 of Cycles 1 to 3 and on Days 1 and 15 of Cycles 4 to 12. Participants also received oral lenalidomide (including generics) 20 mg QD, administered at approximately the same time every day on Days 1 to 21 of Cycles 1 to 12, and rituximab (including biosimilars) 375 mg/m\\^2 IV, administered on Days 1, 8, 15, and 22 of Cycle 1 and on Day 1 of Cycles 2 to 5. A treatment cycle was defined as 28 calendar days.",
+     "id": "OG002",
+     "title": "MZL: Tafasitamab + Rituximab + Lenalidomide"
+    },
+    {
+     "description": "Participants with MZL were randomized to receive placebo 0.9% saline solution IV, administered on Days 1, 8, 15, and 22 of Cycles 1 to 3 and on Days 1 and 15 of Cycles 4 to 12. Participants also received oral lenalidomide (including generics) 20 mg QD, administered at approximately the same time every day on Days 1 to 21 of Cycles 1 to 12, and rituximab (including biosimilars) 375 mg/m\\^2 IV, administered on Days 1, 8, 15, and 22 of Cycle 1 and on Day 1 of Cycles 2 to 5. A treatment cycle was defined as 28 calendar days.",
+     "id": "OG003",
+     "title": "MZL: Placebo + Rituximab + Lenalidomide"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "FL Full Analysis Set. Censored participants were included in the analysis. The number of participants analyzed for the Kaplan-Meier estimate at each time point refers to the total number of participants in the analysis set.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "up to 2 years",
+   "title": "FL Population: Kaplan-Meier Estimates of PFS by Investigator Assessment, Using the Lugano 2014 Criteria, Defined as the Time From Randomization to the First Documented PD, or Death From Any Cause, Whichever Occurred First",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percent probability"
+  }
+ ]
+}

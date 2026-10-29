@@ -1,0 +1,121 @@
+{
+ "nctId": "NCT03144687",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "563.5",
+         "value": "88.7"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "571.3",
+         "value": "-207"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "9"
+      },
+      {
+       "groupId": "OG001",
+       "value": "5"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Spleen volume was measured using magnetic resonance imaging (MRI) or CT scan in participants who were not candidates for MRI or when MRI was not readily available. The MRIs or CTs were read in the central imaging laboratory. Spleen volume was obtained by outlining the circumference of the organ and determining the volume using the technique of least squares. The same method (MRI or CT) was used for a given participant unless a new contraindication to the use of MRI (eg, pacemaker insertion) occurred. A positive value indicates an increase in spleen volume and a negative value indicates a decrease in spleen volume.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants with MF who were tolerating a ruxolitinib dose of less than 20 milligrams (mg) daily with no dose increase or no dose modification in the 8 weeks before screening visit received a combination of itacitinib at the dose of 200 mg, orally, once daily (QD) and ruxolitinib, orally, twice daily (BID) at their previous stable dose (must had been \\< 20 mg daily). Participants continued study treatment until disease progression, unacceptable toxicity, withdrawal of consent, or other Protocol-specified criteria to stop treatment were met.",
+     "id": "OG000",
+     "title": "Cohort A"
+    },
+    {
+     "description": "Participants with MF who progressed after initial reduction in spleen with ruxolitinib treatment, progressed or discontinued for hematologic toxicities received treatment with itacitinib alone at the dose of 600 mg QD. Participants continued study treatment until disease progression, unacceptable toxicity, withdrawal of consent, or other Protocol-specified criteria to stop treatment were met.",
+     "id": "OG001",
+     "title": "Cohort B"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Full Analysis Set included all enrolled participants who received at least 1 dose of itacitinib. Here, Overall Number of participants analyzed (\"N\") signifies participants who were evaluable for this outcome measure.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline and Week 24",
+   "title": "Change in Spleen Volume at Week 24 Compared to Baseline",
+   "type": "PRIMARY",
+   "unitOfMeasure": "cubic centimeter (cm^3)"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "27.49",
+         "value": "6.9"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "34.67",
+         "value": "-3.0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "9"
+      },
+      {
+       "groupId": "OG001",
+       "value": "5"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Spleen volume was measured using MRI or CT scan in participants who were not candidates for MRI or when MRI was not readily available. The MRIs or CTs were read in the central imaging laboratory. Spleen volume was obtained by outlining the circumference of the organ and determining the volume using the technique of least squares. The same method (MRI or CT) was used for a given participant unless a new contraindication to the use of MRI (eg, pacemaker insertion) occurred. A positive value indicates an increase in spleen volume and a negative value indicates a decrease in spleen volume.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants with MF who were tolerating a ruxolitinib dose of less than 20 milligrams (mg) daily with no dose increase or no dose modification in the 8 weeks before screening visit received a combination of itacitinib at the dose of 200 mg, orally, once daily (QD) and ruxolitinib, orally, twice daily (BID) at their previous stable dose (must had been \\< 20 mg daily). Participants continued study treatment until disease progression, unacceptable toxicity, withdrawal of consent, or other Protocol-specified criteria to stop treatment were met.",
+     "id": "OG000",
+     "title": "Cohort A"
+    },
+    {
+     "description": "Participants with MF who progressed after initial reduction in spleen with ruxolitinib treatment, progressed or discontinued for hematologic toxicities received treatment with itacitinib alone at the dose of 600 mg QD. Participants continued study treatment until disease progression, unacceptable toxicity, withdrawal of consent, or other Protocol-specified criteria to stop treatment were met.",
+     "id": "OG001",
+     "title": "Cohort B"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Full Analysis Set included all enrolled participants who received at least 1 dose of itacitinib. Here, \"N\" signifies participants who were evaluable for this outcome measure.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline and Week 24",
+   "title": "Percentage Change in Spleen Volume at Week 24 Compared to Baseline",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage change"
+  }
+ ]
+}

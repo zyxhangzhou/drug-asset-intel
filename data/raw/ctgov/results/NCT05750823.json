@@ -1,0 +1,47 @@
+{
+ "nctId": "NCT05750823",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "27.0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "37"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The VNS is a patient-reported measure of vitiligo treatment success that has a 5-point scale. The participant was asked to respond to the following query: \"Compared with before treatment, how noticeable is the vitiligo now? Responses: (1) more noticeable, (2) as noticeable, (3) slightly less noticeable, (4) a lot less noticeable, or (5) no longer noticeable. The baseline genital photograph was shown to the participant for reference. A VNS score of 4 or 5 can be interpreted as representing treatment success.",
+   "groups": [
+    {
+     "description": "Participants with nonsegmental vitiligo with genital involvement applied ruxolitinib 1.5% cream twice daily (BID) to all depigmented areas (up to 10% body surface area \\[BSA\\]) for up to 48 weeks.",
+     "id": "OG000",
+     "title": "Ruxolitinib 1.5% Cream BID"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Full Analysis Set: all participants enrolled in the study who applied ruxolitinib cream at least once. Only participants with available data were analyzed.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline; Week 48",
+   "title": "Percentage of Participants Achieving a Genital Vitiligo Noticeability Scale (VNS) of \"4 - A Lot Less Noticeable\" or \"5 - No Longer Noticeable\" at Week 48",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

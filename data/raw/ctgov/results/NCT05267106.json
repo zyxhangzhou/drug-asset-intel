@@ -1,0 +1,75 @@
+{
+ "nctId": "NCT05267106",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "1.49",
+         "upperLimit": "13.27",
+         "value": "5.4"
+        }
+       ]
+      }
+     ],
+     "title": "Confirmed tumor responses"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "3.03",
+         "upperLimit": "16.82",
+         "value": "8.1"
+        }
+       ]
+      }
+     ],
+     "title": "Unconfirmed tumor responses"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "74"
+      },
+      {
+       "groupId": "OG001",
+       "value": "0"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "ORR was defined as the percentage of participants who achieved a best overall response of complete response (CR) or partial response (PR) based on Response Assessment in Neuro-Oncology (RANO) as determined by an independent centralized radiological review committee. CR requires all of the following: disappearance of all enhancing measurable/nonmeasurable disease sustained for ≥4 weeks; no new lesions; stable/improved nonenhancing lesions; off corticosteroids/on physiologic replacement doses only and stable/improved clinically. PR requires all of the following: ≥50% decrease, compared with baseline, in the sum of products of perpendicular diameters of all measurable enhancing lesions sustained for ≥4 weeks; no progression of nonmeasurable disease; no new lesions; stable or improved nonenhancing lesions on same/lower dose of corticosteroids compared with baseline scan; on a corticosteroid dose not greater than the dose at time of baseline scan and stable/improved clinically.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants with recurrent glioblastoma with defined activating fibroblast growth factor receptor (FGFR) gene alterations received pemigatinib 13.5 milligrams (mg) once daily (QD) on a 2-week on-therapy and 1-week off-therapy schedule as long as they were receiving benefit and had not met any criteria for treatment discontinuation. Defined activating gene alterations included FGFR 1-3 fusions or rearrangements with intact FGFR kinase domain, or a defined set of FGFR 1-3 activating mutations or in-frame deletions.",
+     "id": "OG000",
+     "title": "Recurrent Glioblastoma"
+    },
+    {
+     "description": "Participants with recurrent non-glioblastoma central nervous system (CNS) tumors with defined activating FGFR gene alterations received pemigatinib 13.5 milligrams (mg) once daily (QD) on a 2-week on-therapy and 1-week off-therapy schedule as long as they were receiving benefit and had not met any criteria for treatment discontinuation. Defined activating gene alterations included FGFR 1-3 fusions or rearrangements with intact FGFR kinase domain, or a defined set of FGFR 1-3 activating mutations or in-frame deletions.",
+     "id": "OG001",
+     "title": "Recurrent Non-glioblastoma CNS Tumors"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Full Analysis Set: all enrolled participants who received at least 1 dose of pemigatinib. The 95% confidence interval (CI) was calculated based on the exact method for binomial distribution.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "up to 651 days",
+   "title": "Objective Response Rate (ORR) in Participants With Recurrent Glioblastoma Based on Independent Central Review",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

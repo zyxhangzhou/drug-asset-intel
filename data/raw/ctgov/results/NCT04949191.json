@@ -1,0 +1,86 @@
+{
+ "nctId": "NCT04949191",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1"
+        },
+        {
+         "groupId": "OG001",
+         "value": "5"
+        },
+        {
+         "groupId": "OG002",
+         "value": "1"
+        },
+        {
+         "groupId": "OG003",
+         "value": "1"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "2"
+      },
+      {
+       "groupId": "OG001",
+       "value": "5"
+      },
+      {
+       "groupId": "OG002",
+       "value": "2"
+      },
+      {
+       "groupId": "OG003",
+       "value": "1"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "An adverse event (AE) was defined as any untoward medical occurrence associated with the use of a drug in humans, whether or not it was considered drug related. An AE could therefore have been any unfavorable or unintended sign (including an abnormal laboratory finding), symptom, or disease (new or exacerbated) temporally associated with the use of study treatment. TEAEs were defined as AEs either reported for the first time or the worsening of pre-existing events after the first dose of study drug and until 30 days after the last dose of study drug.",
+   "groups": [
+    {
+     "description": "Participants originally enrolled in a parent study (54828-201 \\[NCT02872714\\], 54828-202 \\[NCT02924376\\], or 54828-207 \\[NCT03822117\\]), who received clinical benefit from pemigatinib, and who did not have access to pemigatinib outside of a clinical trial self-administered oral pemigatinib 6 milligrams (mg) once daily (QD), either continuously in 21-day cycles or on a 2-weeks-on therapy/1-week-off therapy schedule in 21-day cycles. Pemigatinib was administered at the same dose received in the parent studies until documented disease progression or unacceptable toxicity.",
+     "id": "OG000",
+     "title": "Pemigatinib 6 mg Monotherapy"
+    },
+    {
+     "description": "Participants originally enrolled in a parent study (54828-201 \\[NCT02872714\\], 54828-202 \\[NCT02924376\\], or 54828-207 \\[NCT03822117\\]), who received clinical benefit from pemigatinib, and who did not have access to pemigatinib outside of a clinical trial self-administered oral pemigatinib 9 mg QD, either continuously in 21-day cycles or on a 2-weeks-on therapy/1-week-off therapy schedule in 21-day cycles. Pemigatinib was administered at the same dose received in the parent studies until documented disease progression or unacceptable toxicity.",
+     "id": "OG001",
+     "title": "Pemigatinib 9 mg Monotherapy"
+    },
+    {
+     "description": "Participants originally enrolled in a parent study (54828-201 \\[NCT02872714\\], 54828-202 \\[NCT02924376\\], or 54828-207 \\[NCT03822117\\]), who received clinical benefit from pemigatinib, and who did not have access to pemigatinib outside of a clinical trial self-administered oral pemigatinib 13.5 mg QD, either continuously in 21-day cycles or on a 2-weeks-on therapy/1-week-off therapy schedule in 21-day cycles. Pemigatinib was administered at the same dose received in the parent studies until documented disease progression or unacceptable toxicity.",
+     "id": "OG002",
+     "title": "Pemigatinib 13.5 mg Monotherapy"
+    },
+    {
+     "description": "Participants originally enrolled in parent study 54828-101 (NCT02393248), who received clinical benefit from the combination of pemigatinib plus pembrolizumab, and who did not have access to the combination outside of a clinical trial received received the combination of pemigatinib and pembrolizumab. Participants received pembrolizumab intravenously at 200 mg once every 3 weeks on Day 1 of each 21-day cycle. The dose could have been adjusted for toxicity management per commercial labeling. The investigator could have interrupted, modified, or discontinued pembrolizumab with medical monitor approval. Participants self-administered oral pemigatinib 13.5 mg QD on a 2-weeks-on therapy and 1-week-off therapy schedule. The treatment cycle consisted of: Days 1 through 14: pemigatinib QD; Days 15 through 21: treatment break. It was permissible to continue pemigatinib administration during the toxicity break of pembrolizumab.",
+     "id": "OG003",
+     "title": "Pemigatinib Combination"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Safety Population: all participants who received at least 1 dose of study treatment in this study",
+   "reportingStatus": "POSTED",
+   "timeFrame": "up to at least 30 days after the last dose of study treatment or until toxicities resolve, return to baseline, or are deemed irreversible, whichever was longer (up to 1010 days)",
+   "title": "Number of Participants With Any Treatment-emergent Adverse Event (TEAE)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

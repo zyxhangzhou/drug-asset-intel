@@ -1,0 +1,50 @@
+{
+ "nctId": "NCT02998476",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "14.7",
+         "upperLimit": "39.0",
+         "value": "25.5"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "55"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Defined as the percentage of subjects with a complete or partial response as defined by Lugano Classification criteria for lymphomas (Cheson et al 2014) as determined by IRC.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Parsaclisib in subjects who were not previously treated with a BTK inhibitor.",
+     "id": "OG000",
+     "title": "Group A Parsaclisib (no Prior BTK Inhibitor)"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "The full analysis set includes all subjects enrolled in the study who received at least 1 dose of INCB050465",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Every 9 weeks through Week 27, then every 18 weeks thereafter until disease progression, up to 26 months",
+   "title": "Objective Response Rate Based on Lugano Classification Criteria in Group A",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage"
+  }
+ ]
+}

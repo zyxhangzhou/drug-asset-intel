@@ -1,0 +1,65 @@
+{
+ "nctId": "NCT03126019",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "42.7",
+         "upperLimit": "83.6",
+         "value": "65.2"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "68.4",
+         "upperLimit": "85.3",
+         "value": "77.7"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "23"
+      },
+      {
+       "groupId": "OG001",
+       "value": "103"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "ORR=percentage of participants with complete response(CR) or partial response(PR) per revised response criteria for lymphomas,determined by independent review committee(IRC).Criteria for CR:1.Target nodes/nodal masses of lymph nodes,extralymphatic sites regressed to≤1.5cm in longest dimension transverse diameter of lesion(LDi);2.Absence of non-measured lesion;3.Organ enlargement regressed to normal;4.No new lesions;5.Normal bone marrow morphology;if indeterminate,immunohistochemistry negative.Criteria for PR:1.Lymph nodes,extralymphatic sites- ≥50%decrease in sum of product of perpendicular diameters for multiple lesions(SPD)of up to 6 target measurable nodes,extranodal sites;if lesion is too small to measure on computed tomography(CT),assign5mm×5mm as default;if no longer visible,0×0mm.Node\\>5mm×5mm but smaller than normal,use actual measurement.2.Absent/regressed non-measured lesions,no increase.3.Organ enlargement-Spleen regressed by\\>50%in length beyond normal.4.No new lesions.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants received parsaclisib 20 milligrams (mg) once daily (QD) for 8 weeks followed by 20 mg once weekly (QW) for up to approximately 52 weeks.",
+     "id": "OG000",
+     "title": "Treatment A: Parsaclisib 20 mg QD for 8 Weeks Followed by 20 mg QW"
+    },
+    {
+     "description": "Participants received parsaclisib 20 mg QD for 8 weeks followed by 2.5 mg QD for up to approximately 52 weeks.",
+     "id": "OG001",
+     "title": "Treatment B: Parsaclisib 20 mg QD for 8 Weeks Followed by 2.5 mg QD"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Full Analysis Set: all participants enrolled in the study who received at least 1 dose of parsaclisib",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to approximately 148 weeks",
+   "title": "Objective Response Rate With Parsaclisib Based on Lugano Classification Response Criteria",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

@@ -1,0 +1,217 @@
+{
+ "nctId": "NCT00902486",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.77",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "6.15",
+     "estimateComment": "LOGISTIC regression model for odds ratio estimates : LOGIT(Response 0/1) = Treatment + Biologics",
+     "groupDescription": "The prespecified primary analysis for ACR 20 was the Cochran-Armitage trend test looking for a dose-response relationship. The treatment effect was also assessed using a logistic regression model including background therapy (more than 8 weeks of biologics or not) and treatment.",
+     "groupIds": [
+      "OG000",
+      "OG001",
+      "OG002",
+      "OG003"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+     "pValue": "0.0619",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "2.17",
+     "statisticalMethod": "Cochran-Armitage trend test"
+    },
+    {
+     "groupDescription": "Sensitivity analysis for pairwise comparisons of 4 mg QD versus placebo.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "OTHER",
+     "pValue": "0.1978",
+     "statisticalMethod": "Fisher Exact"
+    },
+    {
+     "groupDescription": "Sensitivity analysis for pairwise comparisons of 7 mg QD versus placebo.",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "OTHER",
+     "pValue": "0.0437",
+     "statisticalMethod": "Fisher Exact"
+    },
+    {
+     "groupDescription": "Sensitivity analysis for pairwise comparisons of 10 mg QD versus placebo.",
+     "groupIds": [
+      "OG000",
+      "OG003"
+     ],
+     "nonInferiorityType": "OTHER",
+     "pValue": "0.1236",
+     "statisticalMethod": "Fisher Exact"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "10"
+        },
+        {
+         "groupId": "OG001",
+         "value": "16"
+        },
+        {
+         "groupId": "OG002",
+         "value": "19"
+        },
+        {
+         "groupId": "OG003",
+         "value": "16"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "31"
+      },
+      {
+       "groupId": "OG001",
+       "value": "31"
+      },
+      {
+       "groupId": "OG002",
+       "value": "32"
+      },
+      {
+       "groupId": "OG003",
+       "value": "30"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The ACR 20 is defined as ≥ 20% improvement in tender joint count plus ≥ 20% improvement in swollen joint count plus ≥ 20% improvement in 3 of the following 5 criteria: participants' assessment of pain, participants' global assessment of disease activity (PGA), Physician's global assessment of disease activity (PHGA), participants' self-assessed disability Health Assessment Questionnaire (HAQ), and Erythrocyte sedimentation rate (ESR) or C-reactive protein (CRP), whichever shows the greatest change.",
+   "groups": [
+    {
+     "description": "INCB028050 was administered qd, orally in matching placebo capsules. All participants were treated with only 1 capsule daily, without regard to meal time.",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "INCB028050 was administered qd, orally in 4 mg capsules. All participants were treated with only 1 capsule daily, without regard to meal time.",
+     "id": "OG001",
+     "title": "INCB028050 4 mg QD"
+    },
+    {
+     "description": "INCB028050 was administered qd, orally in 7 mg capsules. All participants were treated with only 1 capsule daily, without regard to meal time.",
+     "id": "OG002",
+     "title": "INCB028050 7 mg QD"
+    },
+    {
+     "description": "INCB028050 was administered qd, orally in 10 mg capsules. All participants were treated with only 1 capsule daily, without regard to meal time.",
+     "id": "OG003",
+     "title": "INCB028050 10 mg QD"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Modified Intent-to-Treat (mITT) population included all participants that enrolled, took at least 1 dose of study medication, and had both pre-dose and at least 1 post-baseline Rheumatoid arthritis (RA) assessment before Week 12.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Week 12",
+   "title": "The Percentage of Participants Achieving American College of Rheumatology (ACR) 20 Improvement",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "19"
+        },
+        {
+         "groupId": "OG001",
+         "value": "15"
+        },
+        {
+         "groupId": "OG002",
+         "value": "20"
+        },
+        {
+         "groupId": "OG003",
+         "value": "23"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "31"
+      },
+      {
+       "groupId": "OG001",
+       "value": "31"
+      },
+      {
+       "groupId": "OG002",
+       "value": "32"
+      },
+      {
+       "groupId": "OG003",
+       "value": "31"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "groups": [
+    {
+     "description": "INCB028050 was administered qd, orally in matching placebo capsules. All participants were treated with only 1 capsule daily, without regard to meal time.",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "INCB028050 was administered qd, orally in 4 mg capsules. All participants were treated with only 1 capsule daily, without regard to meal time.",
+     "id": "OG001",
+     "title": "INCB028050 4 mg QD"
+    },
+    {
+     "description": "INCB028050 was administered qd, orally in 7 mg capsules. All participants were treated with only 1 capsule daily, without regard to meal time.",
+     "id": "OG002",
+     "title": "INCB028050 7 mg QD"
+    },
+    {
+     "description": "INCB028050 was administered qd, orally in 10 mg capsules. All participants were treated with only 1 capsule daily, without regard to meal time.",
+     "id": "OG003",
+     "title": "INCB028050 10 mg QD"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Safety Evaluable Participants included all participants who were enrolled and took at least 1 dose of study medication.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "From Baseline through week 12",
+   "title": "Participants With at Least 1 Adverse Event From Baseline Through Week 12",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

@@ -1,0 +1,95 @@
+{
+ "nctId": "NCT03679767",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "23.9",
+         "upperLimit": "57.9",
+         "value": "40.0"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "16.4",
+         "upperLimit": "57.3",
+         "value": "34.8"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "20.7",
+         "upperLimit": "57.7",
+         "value": "37.9"
+        },
+        {
+         "groupId": "OG003",
+         "lowerLimit": "10.7",
+         "upperLimit": "41.2",
+         "value": "23.5"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "35"
+      },
+      {
+       "groupId": "OG001",
+       "value": "23"
+      },
+      {
+       "groupId": "OG002",
+       "value": "29"
+      },
+      {
+       "groupId": "OG003",
+       "value": "34"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "ORR was defined as the percentage of participants with a best overall response of complete response (CR) or partial response (PR), per Response Evaluation Criteria in Solid Tumors (RECIST) version 1.1 (v1.1), as determined by the investigator, at any post-Baseline visit until new anti-cancer therapy or first Progressive Disease. CR: disappearance of all target and non-target lesions and no appearance of any new lesions. Any pathological lymph nodes (whether target or non-target) must have a reduction in the short axis to \\<10 millimeters (mm). PR: complete disappearance or at least a 30% decrease in the sum of the diameters of target lesions, taking as a reference the baseline sum diameters, no new lesions, and no progression of non-target lesions.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants with melanoma received retifanlimab 500 milligrams (mg), administered by intravenous (IV) infusion over 30 minutes on Day 1 of each 28-day cycle (Q4W).",
+     "id": "OG000",
+     "title": "Melanoma"
+    },
+    {
+     "description": "Participants with non-small cell lung cancer received retifanlimab 500 mg, administered by IV infusion over 30 minutes on Day 1 Q4W.",
+     "id": "OG001",
+     "title": "Non-small Cell Lung Cancer"
+    },
+    {
+     "description": "Participants with urethelial carcinoma received retifanlimab 500 mg, administered by IV infusion over 30 minutes on Day 1 Q4W.",
+     "id": "OG002",
+     "title": "Urethelial Carcinoma"
+    },
+    {
+     "description": "Participants with renal cell carcinoma received retifanlimab 500 mg, administered by IV infusion over 30 minutes on Day 1 Q4W.",
+     "id": "OG003",
+     "title": "Renal Cell Carcinoma"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Full Analysis Set (FAS) Population: all study participants who had received at least 1 dose of study drug. Participants were to be analyzed based on disease-specific diagnosis. Confidence intervals were calculated based on the exact method for binomial distributions.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "up to 25.9 months",
+   "title": "Overall Response Rate (ORR)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

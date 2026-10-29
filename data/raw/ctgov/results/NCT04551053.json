@@ -1,0 +1,79 @@
+{
+ "nctId": "NCT04551053",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.65",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "5.02",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityComment": "p-value for superiority is half of the CMH p-value.",
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.2567",
+     "pValueComment": "CMH test for un-equality stratified by Dynamic International Prognostic Scoring System (DIPSS) category (intermediate 1 versus intermediate 2 and high) and Baseline platelet count (≥100 × 10\\^9/Liters \\[L\\] versus 50 to \\<100 × 10\\^9/L inclusive)",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "1.80",
+     "statisticalMethod": "Cochran-Mantel-Haenszel"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "16.7"
+        },
+        {
+         "groupId": "OG001",
+         "value": "9.7"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "72"
+      },
+      {
+       "groupId": "OG001",
+       "value": "72"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Participants had an MRI of the upper and lower abdomen and pelvis to determine the spleen volume. A CT scan was substituted for participants who were not candidates for MRI or when MRI was not readily available.",
+   "groups": [
+    {
+     "description": "Participants were randomized to receive parsaclisib plus ruxolitinib beginning on Day 1. Participants received parsaclisib at a dose of 5 milligrams (mg) once daily (QD). Participants also received the stable dose of ruxolitinib they were taking for the 8 weeks prior to Day 1. Treatment with parsaclisib plus ruxolitinib continued for as long as the participant tolerated the regimen and did not meet any discontinuation criteria.",
+     "id": "OG000",
+     "title": "Parsaclisib Plus Ruxolitinib"
+    },
+    {
+     "description": "Participants were randomized to receive placebo plus ruxolitinib beginning on Day 1 and continuing until Week 24. Participants received matching placebo at a dose of 5 mg QD and received the stable dose of ruxolitinib they were taking for the 8 weeks prior to Day 1. After 24 weeks, participants randomized to receive placebo plus ruxolitinib had to switch to treatment with parsaclisib plus ruxolitinib or discontinue treatment. Treatment continued for as long as the regimen was tolerated and the participant did not meet any discontinuation criteria. Participants who demonstrated worsening symptomatic splenomegaly could have switched to treatment with parsaclisib plus ruxolitinib early.",
+     "id": "OG001",
+     "title": "Placebo Plus Ruxolitinib"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Intent-to-Treat (ITT) Population: all randomized participants. Participants were analyzed if they had both Baseline and Week 24 measurements, or discontinued treatment before 03MAR2023 or switched treatment before Week 24, or reached Week 24 before 03MAR2023 but were missing Week 24 assessments. For participants who switched to parsaclisib plus ruxolitinib treatment early, data was truncated at the time of switch.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline; Week 24",
+   "title": "Percentage of Participants Achieving ≥25% Reduction in Spleen Volume From Baseline to Week 24 as Measured by Magnetic Resonance Imaging (MRI) (or Computed Tomography [CT] Scan in Applicable Participants)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

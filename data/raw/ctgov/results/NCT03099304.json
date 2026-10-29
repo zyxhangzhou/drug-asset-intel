@@ -1,0 +1,165 @@
+{
+ "nctId": "NCT03099304",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "1.73",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "640.85",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0057",
+     "pValueComment": "The exact logistic regression model includes treatment and stratification factor (age ≤30 versus \\>30).",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "13.79",
+     "statisticalMethod": "exact logistic regression"
+    },
+    {
+     "ciLowerLimit": "1.24",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "487.28",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0243",
+     "pValueComment": "The exact logistic regression model includes treatment and stratification factor (age ≤30 versus \\>30).",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "10.30",
+     "statisticalMethod": "exact logistic regression"
+    },
+    {
+     "ciLowerLimit": "3.74",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "1305.2",
+     "groupIds": [
+      "OG000",
+      "OG003"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<0.0001",
+     "pValueComment": "The exact logistic regression model includes treatment and stratification factor (age ≤30 versus \\>30).",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "28.48",
+     "statisticalMethod": "exact logistic regression"
+    },
+    {
+     "ciLowerLimit": "3.28",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "1121.4",
+     "groupIds": [
+      "OG000",
+      "OG004"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0001",
+     "pValueComment": "The exact logistic regression model includes treatment and stratification factor (age ≤30 versus \\>30).",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "24.66",
+     "statisticalMethod": "exact logistic regression"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "3.1"
+        },
+        {
+         "groupId": "OG001",
+         "value": "32.3"
+        },
+        {
+         "groupId": "OG002",
+         "value": "25.8"
+        },
+        {
+         "groupId": "OG003",
+         "value": "50.0"
+        },
+        {
+         "groupId": "OG004",
+         "value": "45.5"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "32"
+      },
+      {
+       "groupId": "OG001",
+       "value": "31"
+      },
+      {
+       "groupId": "OG002",
+       "value": "31"
+      },
+      {
+       "groupId": "OG003",
+       "value": "30"
+      },
+      {
+       "groupId": "OG004",
+       "value": "33"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "An F-VASI50 responder achieved at least 50% improvement from Baseline in F-VASI, measured by the percentage of vitiligo involvement (percentage of body surface area \\[BSA\\]) and the degree of depigmentation: 0% (no depigmentation), 10% (only specks of depigmentation), 25% (pigmented area exceeded depigmented area), 50% (depigmented and pigmented area was equal), 75% (depigmented area exceeded pigmented area), 90% (specks of pigment), or 100% (no pigment). The percentage of BSA (hand unit) vitiligo involvement was estimated to the nearest 0.1% by the Investigator using the Palmar Method. The Investigator used his/her hand to mimic the participant's hand size to evaluate the percentage of BSA vitiligo involvement. F-VASI was then derived by multiplying the values assessed for the vitiligo involvement by the percentage of affected skin for each site on the face and summing the values of all sites (possible range: 0-3; lower scores indicate increased improvement).",
+   "groups": [
+    {
+     "description": "Vehicle cream BID for 24 weeks (double-blind, vehicle-controlled treatment period), followed by re-randomization to ruxolitinib cream 1.5% BID, 1.5% once daily (QD), or 0.5% QD for Weeks 24 to 52 (continued double-blind treatment period), followed by ruxolitinib cream 1.5% BID in a 104-week open-label extension period.",
+     "id": "OG000",
+     "title": "Vehicle Twice Daily (BID)"
+    },
+    {
+     "description": "Ruxolitinib cream 0.15% QD in the morning (vehicle cream in the evening) for 24 or 52 weeks. Those who did not achieve a 25% improvement in F-VASI score were re-randomized to receive ruxolitinib cream 0.5% QD in the morning (vehicle cream in the evening), 1.5% QD in the morning (vehicle cream in the evening), or 1.5% BID for Weeks 24 to 52 (continued double-blind treatment period). All participants applied ruxolitinib cream 1.5% BID in the 104-week open-label extension period.",
+     "id": "OG001",
+     "title": "Ruxolitinib Cream 0.15% QD"
+    },
+    {
+     "description": "Ruxolitinib cream 0.5% QD in the morning (vehicle cream in the evening) for 52 weeks (combined vehicle-controlled and continued double-blind periods), followed by ruxolitinib cream 1.5% BID in a 104-week open-label extension period.",
+     "id": "OG002",
+     "title": "Ruxolitinib Cream 0.5% QD"
+    },
+    {
+     "description": "Ruxolitinib cream 1.5% QD in the morning (vehicle cream in the evening) for 52 weeks (combined vehicle-controlled and continued double-blind periods), followed by ruxolitinib cream 1.5% BID in a 104-week open-label extension period.",
+     "id": "OG003",
+     "title": "Ruxolitinib Cream 1.5% QD"
+    },
+    {
+     "description": "Ruxolitinib cream 1.5% BID for 52 weeks (combined vehicle-controlled and continued double-blind periods), followed by ruxolitinib cream 1.5% BID in a 104-week open-label extension period.",
+     "id": "OG004",
+     "title": "Ruxolitinib Cream 1.5% BID"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Intent-to-Treat (ITT) Population: all randomized participants. Treatment groups were to be defined according to the treatment assignment at the time of randomization regardless of the actual ruxolitinib cream or vehicle cream participants might have applied during their participation in the study. Missing post-Baseline values were considered as not having achieved responses for visits up to Week 52.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline; Week 24",
+   "title": "Percentage of Participants Treated With Ruxolitinib Cream Who Achieved a ≥ 50% Improvement From Baseline in Facial Assessment of the Vitiligo Area and Severity Index Score (F-VASI50) Compared With Participants Treated With Vehicle at Week 24",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

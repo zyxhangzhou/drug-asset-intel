@@ -1,0 +1,160 @@
+{
+ "nctId": "NCT02752074",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.83",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "1.21",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "OTHER",
+     "pValue": "0.51711",
+     "pValueComment": "One-sided p-value based on log-rank test.",
+     "paramType": "Hazard Ratio (HR)",
+     "paramValue": "1.00",
+     "statisticalMethod": "Log Rank"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "2.9",
+         "upperLimit": "6.8",
+         "value": "4.7"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "2.9",
+         "upperLimit": "6.8",
+         "value": "4.9"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "354"
+      },
+      {
+       "groupId": "OG001",
+       "value": "352"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Progression-free survival, defined as the time from date of randomization until the earliest date of disease progression, as determined by independent central review of objective radiographic disease assessments per RECIST 1.1, or death from any cause, whichever comes first.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Pembrolizumab will be administered intravenously every 3 weeks starting at Day 1 (Week 1). Epacadostat will be administered orally daily starting at Day 1 (Week 1).",
+     "id": "OG000",
+     "title": "Pembrolizumab + Epacadostat"
+    },
+    {
+     "description": "Pembrolizumab will be administered intravenously every 3 weeks starting at Day 1 (Week 1). Placebo will be administered orally daily starting at Day 1 (Week 1).",
+     "id": "OG001",
+     "title": "Pembrolizumab + Placebo"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "Intent to Treat (ITT) population: consists of all randomized participants.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Assessed every 9 weeks for duration of study participation which is estimated to be 24 months",
+   "title": "Progression-free Survival",
+   "type": "PRIMARY",
+   "unitOfMeasure": "months"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.86",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "1.49",
+     "groupIds": [
+      "OG000"
+     ],
+     "nonInferiorityType": "OTHER",
+     "pValue": "0.80666",
+     "pValueComment": "One-sided p-value based on log-rank test.",
+     "paramType": "Hazard Ratio (HR)",
+     "paramValue": "1.13",
+     "statisticalMethod": "Log Rank"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "79.8",
+         "upperLimit": "87.5",
+         "value": "84.1"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "83.2",
+         "upperLimit": "90.3",
+         "value": "87.2"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "354"
+      },
+      {
+       "groupId": "OG001",
+       "value": "352"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Defined as time from date of randomization to date of death due to any cause. OS was calculated using product-limit (Kaplan-Meier) method for censored data.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Pembrolizumab will be administered intravenously every 3 weeks starting at Day 1 (Week 1). Epacadostat will be administered orally daily starting at Day 1 (Week 1).",
+     "id": "OG000",
+     "title": "Pembrolizumab + Epacadostat"
+    },
+    {
+     "description": "Pembrolizumab will be administered intravenously every 3 weeks starting at Day 1 (Week 1). Placebo will be administered orally daily starting at Day 1 (Week 1).",
+     "id": "OG001",
+     "title": "Pembrolizumab + Placebo"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "Intent to Treat (ITT) population: consists of all randomized participants. OS was analyzed at the time of primary analysis at 6 months. An overall OS was not conducted after the primary analysis since all participants were unblinded, transitioned to monotherapy pembrolizumab and survival follow-up was discontinued.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Assessed every 9 weeks of study participation which is estimated to be 24 months. The OS rate at Month 6 was calculated.",
+   "title": "Overall Survival (OS) Rate at 6 Months",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percent probability"
+  }
+ ]
+}

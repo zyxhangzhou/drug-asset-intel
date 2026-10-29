@@ -1,0 +1,86 @@
+{
+ "nctId": "NCT04839380",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "1.363",
+         "value": "6.72"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "46"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Baseline"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "1.847",
+         "value": "-3.37"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "45"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Change from Baseline at Day 2"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "46"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The intensity of pruritus (itch) was recorded daily using the PP-NRS (24-hour recall period). Participants were asked to assign a numerical score representing their itch at the worst moment during the previous 24 hours on a scale of 0 to 10, with 0 being no itch and 10 being the worst itch imaginable. Change from Baseline was calculated as the post-Baseline value minus the Baseline value. Baseline was defined as the average of all non-missing PP-NRS scores reported during the 7-day run-in period.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants applied ruxolitinib 1.5% cream twice daily (BID) for 28 days.",
+     "id": "OG000",
+     "title": "Ruxolitinib 1.5% Cream BID"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Modified Intent-to Treat (mITT) Population: all participants who had both a Baseline and at least 1 post-Baseline PP-NRS or modified PP-NRS (mPP-NRS) assessment within the treatment period. Only participants with available data were analyzed.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline; Day 2",
+   "title": "Change From Baseline in the Peak-Pruritus Numerical Rating Scale (PP-NRS) Score at Day 2 (24-hour Recall Period After First Application)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "scores on a scale"
+  }
+ ]
+}

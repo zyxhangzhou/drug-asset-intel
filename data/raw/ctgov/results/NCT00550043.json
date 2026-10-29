@@ -1,0 +1,128 @@
+{
+ "nctId": "NCT00550043",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "66.7"
+        },
+        {
+         "groupId": "OG001",
+         "value": "16.7"
+        },
+        {
+         "groupId": "OG002",
+         "value": "66.7"
+        },
+        {
+         "groupId": "OG003",
+         "value": "40.0"
+        },
+        {
+         "groupId": "OG004",
+         "value": "40.0"
+        }
+       ]
+      }
+     ],
+     "title": "No Response"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "33.3"
+        },
+        {
+         "groupId": "OG001",
+         "value": "83.3"
+        },
+        {
+         "groupId": "OG002",
+         "value": "33.3"
+        },
+        {
+         "groupId": "OG003",
+         "value": "60.0"
+        },
+        {
+         "groupId": "OG004",
+         "value": "60.0"
+        }
+       ]
+      }
+     ],
+     "title": "Response"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "9"
+      },
+      {
+       "groupId": "OG001",
+       "value": "12"
+      },
+      {
+       "groupId": "OG002",
+       "value": "9"
+      },
+      {
+       "groupId": "OG003",
+       "value": "10"
+      },
+      {
+       "groupId": "OG004",
+       "value": "10"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The ACR 20 is defined as ≥ 20% improvement in tender joint count plus ≥ 20% improvement in swollen joint count plus ≥ 20% improvement in 3 of the following 5 criteria: subject's assessment of pain, Subject's global assessment of disease activity (PGA), Physician's global assessment of disease activity (PHGA), subject's self-assessed disability Health Assessment Questionnaire (HAQ), and Erythrocyte sedimentation rate (ESR) or C-reactive protein (CRP), whichever shows the greatest change.",
+   "groups": [
+    {
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "INCB018424 15 mg BID",
+     "id": "OG001",
+     "title": "Cohort 1: Treatment Group A"
+    },
+    {
+     "description": "INCB018424 5 mg BID",
+     "id": "OG002",
+     "title": "Cohort 2: Treatment Group B"
+    },
+    {
+     "description": "INCB018424 25 mg BID",
+     "id": "OG003",
+     "title": "Cohort 2: Treatment Group C"
+    },
+    {
+     "description": "INCB018424 50 mg QD",
+     "id": "OG004",
+     "title": "Cohort 2: Treatment Group D"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "modified intent-to-treat (mITT) Population: subjects enrolled, took 1 dose of study drug, had predose and at least 1 post baseline Rheumatoid arthritis (RA) assessments. Subjects discontinuing before the last scheduled efficacy evaluation had data imputed for time points after discontinuation; they had their last observation carried forward (LOCF).",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Day 28",
+   "title": "The Percentage of Subjects Achieving American College of Rheumatology (ACR) 20 Improvement",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Percentage of participants"
+  }
+ ]
+}

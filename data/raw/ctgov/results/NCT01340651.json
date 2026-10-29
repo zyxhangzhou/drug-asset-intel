@@ -1,0 +1,115 @@
+{
+ "nctId": "NCT01340651",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "78.0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "41"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "groups": [
+    {
+     "description": "Participants began administration with 25 mg ruxolitinib sustained release (SR) once daily (QD). After 8 weeks, if there was inadequate efficacy, the dose level could be titrated to 50 mg SR QD or 25 mg SR every other day (QOD) alternating with 50 mg SR QOD.",
+     "id": "OG000",
+     "title": "Ruxolitinib"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Safety population: All enrolled participants who took at least 1 dose of study drug.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline to Week 16",
+   "title": "Percentage of Participants With at Least 1 Adverse Event From Baseline Through Week 16",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Percentage of participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "17.1"
+        }
+       ]
+      }
+     ],
+     "title": "Clinical improvement"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "80.5"
+        }
+       ]
+      }
+     ],
+     "title": "Stable disease"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "2.4"
+        }
+       ]
+      }
+     ],
+     "title": "Progressive disease"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "41"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The investigator graded OR according to the International Working Group for Myelofibrosis Research and Therapy criteria for treatment response. As bone marrow biopsies were not taken after baseline, the best achievable response was clinical improvement which required 1 of the following in the absence of progressive disease (PD): (1) A ≥ 2 g/dL increase in hemoglobin level or (2) either a palpable ≥ 50% reduction of splenomegaly of a spleen ≥ 10 cm at baseline or a spleen palpable at \\> 5 cm at baseline becoming not palpable. PD required 1 of the following: (1) Progressive splenomegaly defined by the appearance of previously absent splenomegaly that was palpable at \\> 5 cm below the left costal margin or a ≥ 100% increase in palpable distance for baseline splenomegaly of 5-10 cm or a ≥ 50% increase in palpable distance for baseline splenomegaly of \\> 10 cm or (2) an increase in peripheral blood blast percentage to ≥ 20% that lasted for ≥ 8 weeks. Stable disease: None of the above.",
+   "groups": [
+    {
+     "description": "Participants began administration with 25 mg ruxolitinib sustained release (SR) once daily (QD). After 8 weeks, if there was inadequate efficacy, the dose level could be titrated to 50 mg SR QD or 25 mg SR every other day (QOD) alternating with 50 mg SR QOD.",
+     "id": "OG000",
+     "title": "Ruxolitinib"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Intent-to-treat population: All enrolled participants.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline to Week 16",
+   "title": "Overall Response (OR) at Week 16",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Percentage of participants"
+  }
+ ]
+}

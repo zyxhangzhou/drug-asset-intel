@@ -1,0 +1,47 @@
+{
+ "nctId": "NCT03569371",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "7"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "10"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "A TEAE is any adverse event (AE) either reported for the first time or worsening of a pre-existing event after first dose of study drug.",
+   "groups": [
+    {
+     "description": "Participants were treated with 15 mg QD of INCB054707 orally.",
+     "id": "OG000",
+     "title": "INCB054707"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "The Full Analysis Set population include all subjects enrolled in the study who received at least 1 dose of INCB054707",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to approximately 12 weeks.",
+   "title": "Number of Participants With Treatment-emergent Adverse Events (TEAEs)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

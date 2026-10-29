@@ -1,0 +1,85 @@
+{
+ "nctId": "NCT02119650",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.509",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "80",
+     "ciUpperLimit": "1.51",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "OTHER",
+     "pValue": "0.7562",
+     "paramType": "Hazard Ratio (HR)",
+     "paramValue": "0.877",
+     "statisticalComment": "The 2-sided p-value was calculated based on the log-rank test and stratified by modified Glasgow Prognostic Score (mGPS).",
+     "statisticalMethod": "Log Rank"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "comment": "Not evaluable due to insufficient number of participants with events.",
+         "groupId": "OG000",
+         "lowerLimit": "5.7",
+         "upperLimit": "NA",
+         "value": "7.5"
+        },
+        {
+         "comment": "Not evaluable due to insufficient number of participants with events.",
+         "groupId": "OG001",
+         "lowerLimit": "4.0",
+         "upperLimit": "NA",
+         "value": "5.9"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "39"
+      },
+      {
+       "groupId": "OG001",
+       "value": "37"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Overall survival is defined as the time from randomization to death due to any cause. Participants without death observed at the time of the analysis were censored at last date known to be alive. The median overall survival time was estimated using the Kaplan-Meier method. Overall survival was compared between treatment groups using log-rank test.",
+   "dispersionType": "80% Confidence Interval",
+   "groups": [
+    {
+     "description": "Ruxolitinib was self-administered as a 15 mg BID oral treatment during the randomized, double-blind treatment, without regard to food. Pemetrexed 500 mg/m\\^2 was administered as an intravenous infusion over 10 minutes, and 75 mg/m\\^2 Cisplatin was infused over 2 hours beginning 30 ± 5 minutes after the end of the pemetrexed infusion on Day 1 of each 21-day cycle (Treatment Cycles).",
+     "id": "OG000",
+     "title": "Double-Blind Treatment: Ruxolitinib + Pemetrexed/Cisplatin"
+    },
+    {
+     "description": "Matching placebo was self-administered as a 15 mg BID oral treatment during the randomized, double-blind treatment, without regard to food. Pemetrexed 500 mg/m\\^2 was administered as an intravenous infusion over 10 minutes, and 75 mg/m\\^2 Cisplatin was infused over 2 hours beginning 30 ± 5 minutes after the end of the pemetrexed infusion on Day 1 of each 21-day cycle (Treatment Cycles).",
+     "id": "OG001",
+     "title": "Double-Blind Treatment: Placebo Plus Pemetrexed/Cisplatin"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "The intent-to-treat (ITT) population consisted of participants that were randomized in the study.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Randomization until death due to any cause; up to 16 months or data cutoff 11FEB2016.",
+   "title": "Overall Survival (OS)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "months"
+  }
+ ]
+}

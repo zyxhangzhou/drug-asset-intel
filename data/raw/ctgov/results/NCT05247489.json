@@ -1,0 +1,113 @@
+{
+ "nctId": "NCT05247489",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "2.163",
+         "value": "6.58"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "2.103",
+         "value": "6.87"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "20"
+        },
+        {
+         "groupId": "OG001",
+         "value": "35"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Baseline"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "1.219",
+         "value": "-3.43"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "2.106",
+         "value": "-3.46"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "6"
+        },
+        {
+         "groupId": "OG001",
+         "value": "26"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Change from Baseline at Week 48"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "20"
+      },
+      {
+       "groupId": "OG001",
+       "value": "35"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "T-VASI was calculated with contributions from 6 body sites. The percentage of vitiligo involvement was estimated in hand units (percentage of body surface area \\[BSA\\] estimated to nearest 0.1%) by the Investigator using the Palmar Method. The Investigator used his/her hand to mimic the participant's hand size to evaluate percent BSA vitiligo involvement. The degree of depigmentation for each body site was estimated to the nearest percentage: 0% (no depigmentation present), 10% (only specks of depigmentation present), 25% (pigmented area exceeded depigmented area), 50% (depigmented and pigmented area was equal), 75% (depigmented area exceeded pigmented area), 90% (specks of pigment present), 100% (no pigment present). T-VASI was then derived by multiplying the values assessed for the vitiligo involvement by the percentage of affected skin for each body site and summing the values (range: 0-100; lower scores indicate increased improvement).",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants who achieved ≥25% improvement in Total Body Vitiligo Scoring Index (T-VASI25) at Week 12 applied ruxolitinib 1.5% cream twice daily (BID) as monotherapy through Week 48.",
+     "id": "OG000",
+     "title": "Ruxolitinib 1.5% Cream BID"
+    },
+    {
+     "description": "Participants applied ruxolitinib 1.5% cream BID as monotherapy through Week 12. Participants did not achieve T-VASI25 at Week 12 and added narrow-band ultraviolet B (NB-UVB) phototherapy to their ruxolitinib 1.5% cream BID regimen. NB-UVB phototherapy was given 3 times per week through Week 48 (up to 36 weeks). Participants continued to receive ruxolitinib 1.5% cream BID through Week 48.",
+     "id": "OG001",
+     "title": "Ruxolitinib 1.5% Cream BID + NB-UVB"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Full Analysis Set: all participants enrolled in the study who applied study cream at least once. Only participants with available data were analyzed. Change from Baseline was calculated as the Week 48 value minus the Baseline value.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline; Week 48",
+   "title": "Change From Baseline in Total Body Vitiligo Area Scoring Index (T-VASI) at Week 48",
+   "type": "PRIMARY",
+   "unitOfMeasure": "scores on a scale"
+  }
+ ]
+}

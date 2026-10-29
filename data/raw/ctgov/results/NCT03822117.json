@@ -1,0 +1,149 @@
+{
+ "nctId": "NCT03822117",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "14.95",
+         "upperLimit": "41.08",
+         "value": "26.5"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "49"
+      },
+      {
+       "groupId": "OG001",
+       "value": "0"
+      },
+      {
+       "groupId": "OG002",
+       "value": "0"
+      },
+      {
+       "groupId": "OG003",
+       "value": "0"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Per Response Evaluation Criteria in Solid Tumors version 1.1 (RECIST v1.1): CR: disappearance of all target/non-target lesions; no appearance of new lesions. PR: complete disappearance or a ≥30% decrease in the sum of the diameters of target lesions, taking as a reference the baseline sum diameters; no new lesions; no progression of non-target lesions. Per Response Assessment in Neuro-Oncology (RANO; for participants with primary brain tumors): CR: disappearance of all enhancing lesions; stable/improved non-enhancing lesions; stable/improved clinically. PR: ≥50% decrease in sum of perpendicular diameters of measurable enhancing lesions; no progression of non-measurable disease; stable/improved non-enhancing lesions; stable/improved clinically. Cohort determination was based on FGFR status from a central genomics laboratory. Response data were from an independent centralized radiological review committee per RECIST v1.1 and RANO, and response was confirmed.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants with fibroblast growth factor receptor (FGFR) 1-3 in-frame fusions or fibroblast growth factor receptor 2 (FGFR2) rearrangements self-administered oral pemigatinib at a starting dose of 13.5 milligrams (mg) once daily (QD) continuously in 21-day cycles. Pemigatinib was administered until documented disease progression or unacceptable toxicity.",
+     "id": "OG000",
+     "title": "Cohort A: FGFR1-3 In-frame Fusions or FGFR2 Arrangements"
+    },
+    {
+     "description": "Participants with known or likely activating mutations in FGFR1-3 self-administered oral pemigatinib at a starting dose of 13.5 mg QD continuously in 21-day cycles. Pemigatinib was administered until documented disease progression or unacceptable toxicity.",
+     "id": "OG001",
+     "title": "Cohort B: Known or Likely Activating FGFR1-3 Mutations"
+    },
+    {
+     "description": "Participants with other FGFR mutations or arrangements self-administered oral pemigatinib at a starting dose of 13.5 mg QD continuously in 21-day cycles. Pemigatinib was administered until documented disease progression or unacceptable toxicity.",
+     "id": "OG002",
+     "title": "Cohort C: Other FGFR Mutations or Arrangements"
+    },
+    {
+     "description": "Participants with an FGF/FGFR status for whom the local laboratory FGF/FGFR results could not be confirmed centrally self-administered oral pemigatinib at a starting dose of 13.5 mg QD continuously in 21-day cycles. Pemigatinib was administered until documented disease progression or unacceptable toxicity.",
+     "id": "OG003",
+     "title": "Other"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Efficacy Evaluable Population: all enrolled participants in Cohorts A, B, and C who received at least 1 dose of pemigatinib. Confidence interval was calculated based on the exact method for binomial distribution.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "up to 483 days",
+   "title": "Objective Response Rate (ORR), Defined as the Percentage of Participants With a Best Overall Response of Complete Response (CR) or Partial Response (PR) Based on RECIST v1.1 or RANO, in Participants With FGFR1-3 In-frame Fusions or FGFR2 Arrangements",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG001",
+         "lowerLimit": "1.98",
+         "upperLimit": "25.02",
+         "value": "9.4"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "0"
+      },
+      {
+       "groupId": "OG001",
+       "value": "32"
+      },
+      {
+       "groupId": "OG002",
+       "value": "0"
+      },
+      {
+       "groupId": "OG003",
+       "value": "0"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Per RECIST v1.1: CR: disappearance of all target/non-target lesions; no appearance of new lesions. PR: complete disappearance or a ≥30% decrease in the sum of the diameters of target lesions, taking as a reference the baseline sum diameters; no new lesions; no progression of non-target lesions. Per RANO (for participants with primary brain tumors): CR: disappearance of all enhancing lesions; stable/improved non-enhancing lesions; stable/improved clinically. PR: ≥50% decrease in sum of perpendicular diameters of measurable enhancing lesions; no progression of non-measurable disease; stable/improved non-enhancing lesions; stable/improved clinically. Cohort determination was based on FGFR status from a central genomics laboratory. Response data were from an independent centralized radiological review committee per RECIST v1.1 and RANO, and response was confirmed.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants with fibroblast growth factor receptor (FGFR) 1-3 in-frame fusions or fibroblast growth factor receptor 2 (FGFR2) rearrangements self-administered oral pemigatinib at a starting dose of 13.5 milligrams (mg) once daily (QD) continuously in 21-day cycles. Pemigatinib was administered until documented disease progression or unacceptable toxicity.",
+     "id": "OG000",
+     "title": "Cohort A: FGFR1-3 In-frame Fusions or FGFR2 Arrangements"
+    },
+    {
+     "description": "Participants with known or likely activating mutations in FGFR1-3 self-administered oral pemigatinib at a starting dose of 13.5 mg QD continuously in 21-day cycles. Pemigatinib was administered until documented disease progression or unacceptable toxicity.",
+     "id": "OG001",
+     "title": "Cohort B: Known or Likely Activating FGFR1-3 Mutations"
+    },
+    {
+     "description": "Participants with other FGFR mutations or arrangements self-administered oral pemigatinib at a starting dose of 13.5 mg QD continuously in 21-day cycles. Pemigatinib was administered until documented disease progression or unacceptable toxicity.",
+     "id": "OG002",
+     "title": "Cohort C: Other FGFR Mutations or Arrangements"
+    },
+    {
+     "description": "Participants with an FGF/FGFR status for whom the local laboratory FGF/FGFR results could not be confirmed centrally self-administered oral pemigatinib at a starting dose of 13.5 mg QD continuously in 21-day cycles. Pemigatinib was administered until documented disease progression or unacceptable toxicity.",
+     "id": "OG003",
+     "title": "Other"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Efficacy Evaluable Population. Confidence interval was calculated based on the exact method for binomial distribution.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "up to 449 days",
+   "title": "ORR, Defined as the Percentage of Participants With a Best Overall Response of CR or PR Based on RECIST v1.1 or RANO, in Participants With Known or Likely Activating FGFR1-3 Mutations",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

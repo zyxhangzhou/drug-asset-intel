@@ -315,3 +315,12 @@ def test_gap_report_written(built):
     rows = list(csv.DictReader(built[0].with_name("gaps.csv").open()))
     assert rows and set(rows[0]) == {"entity", "key", "field", "reason", "location"}
     assert len(rows) == len(built[1].gaps)
+
+
+def test_snapshot_date_in_metadata(built):
+    from fastapi.testclient import TestClient
+
+    from intel.api import create_app
+
+    body = TestClient(create_app(db_path=built[0])).get("/api/meta").json()
+    assert body["snapshot_date"] == "2026-10-28"

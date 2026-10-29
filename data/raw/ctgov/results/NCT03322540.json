@@ -1,0 +1,84 @@
+{
+ "nctId": "NCT03322540",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-21.5",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "8.7",
+     "estimateComment": "Point estimate was assessed based on Miettinen \\& Nurminen method stratified by predominant tumor histology (squamous vs non-squamous).",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.8000",
+     "paramType": "Difference in Percentages",
+     "paramValue": "-6.5",
+     "statisticalComment": "One-sided p-value for testing. H0: difference in % = 0 versus H1: difference in % \\> 0.",
+     "statisticalMethod": "Stratified Miettinen and Nurminen method"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "22.2",
+         "upperLimit": "44.1",
+         "value": "32.5"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "28.0",
+         "upperLimit": "50.8",
+         "value": "39.0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "77"
+      },
+      {
+       "groupId": "OG001",
+       "value": "77"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "ORR is defined as the proportion of participants who have a confirmed complete response (CR) or partial response (PR) per Response Evaluation Criteria in Solid Tumors (RECIST) v1.1 based on blinded independent central review (BICR).",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants received pembrolizumab 200 mg as an intravenous (IV) infusion, every three weeks (Q3W) starting on Day 1 of each cycle for up to 35 administrations in combination with epacadostat 100 mg orally, twice daily. Epacodostat administration was discontinued after the implementation of protocol amendment 05.",
+     "id": "OG000",
+     "title": "Pembrolizumab + Epacadostat"
+    },
+    {
+     "description": "Participants received pembrolizumab 200 mg by IV infusion, Q3W starting on Day 1 of each cycle for up to 35 administrations in combination with matching placebo orally, twice daily. Placebo administration was discontinued after the implementation of protocol amendment 05.",
+     "id": "OG001",
+     "title": "Pembrolizumab + Placebo"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "ITT population consisted of all randomized participants.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to approximately 6 months",
+   "title": "Objective Response Rate (ORR) of Pembrolizumab Plus Epacadostat Versus Pembrolizumab Plus Placebo",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

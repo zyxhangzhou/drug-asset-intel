@@ -1,0 +1,83 @@
+{
+ "nctId": "NCT03038022",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-27.8",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-9.8",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "4.52",
+     "groupDescription": "LS mean difference in LDL-C between MGL-3196 and placebo.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<0.0001",
+     "paramType": "Mean Difference (Net)",
+     "paramValue": "-18.8",
+     "statisticalMethod": "ANOVA"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "2.59",
+         "value": "-10.6"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "3.71",
+         "value": "8.2"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "76"
+      },
+      {
+       "groupId": "OG001",
+       "value": "37"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "LDL-C was determined by ultracentrifugation or direct measure. Least-squares (LS) mean was provided for the comparison of MGL-3196 versus placebo and it used a linear model with percent change from baseline as the dependent variable and treatment as a factor.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Participants randomized to MGL-3196 received 100 mg daily during the first 2 weeks, 60 mg daily during Weeks 2 to 4, and then either 60 or 100 mg daily to Week 12 based on Week 2 measured PK assessments of MGL-3196 exposure.",
+     "id": "OG000",
+     "title": "MGL-3196"
+    },
+    {
+     "description": "Participants administered matching oral placebo once daily for 12 weeks.",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Modified Intent-to-Treat (mITT) population: all participants who were randomized in the study, received at least 2 weeks of study drug, and had a valid lipid measurement at Week 2 or later.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline up to Week 12",
+   "title": "Mean Percent Change in LDL-C From Baseline To Week 12",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percent change"
+  }
+ ]
+}

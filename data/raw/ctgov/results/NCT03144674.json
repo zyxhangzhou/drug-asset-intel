@@ -1,0 +1,95 @@
+{
+ "nctId": "NCT03144674",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "6.8",
+         "upperLimit": "93.2",
+         "value": "50.0"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "4.3",
+         "upperLimit": "77.7",
+         "value": "33.3"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "37.2",
+         "upperLimit": "75.5",
+         "value": "57.1"
+        },
+        {
+         "groupId": "OG003",
+         "lowerLimit": "46.1",
+         "upperLimit": "69.8",
+         "value": "58.3"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "4"
+      },
+      {
+       "groupId": "OG001",
+       "value": "6"
+      },
+      {
+       "groupId": "OG002",
+       "value": "28"
+      },
+      {
+       "groupId": "OG003",
+       "value": "72"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "ORR=percentage of participants with complete response(CR) or partial response(PR) per revised response criteria for lymphomas,determined by independent review committee(IRC).Criteria for CR:1.Target nodes/nodal masses of lymph nodes,extralymphatic sites regressed to≤1.5cm in longest dimension transverse diameter of lesion(LDi);2.Absence of non-measured lesion;3.Organ enlargement regressed to normal;4.No new lesions;5.Normal bone marrow morphology;if indeterminate,immunohistochemistry negative.Criteria for PR:1.Lymph nodes,extralymphatic sites- ≥50%decrease in sum of product of perpendicular diameters for multiple lesions(SPD)of up to 6 target measurable nodes,extranodal sites;if lesion is too small to measure on computed tomography(CT),assign 5mm×5mm as default;if no longer visible,0×0mm.Node \\>5mm×5mm but smaller than normal,use actual measurement.2.Absent/regressed non-measured lesions,no increase.3.Organ enlargement-Spleen regressed by \\>50%in length beyond normal.4.No new lesions.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants received parsaclisib 20 milligrams (mg), orally, once daily (QD) for 8 weeks followed by 20 mg once weekly (QW), for up to 52 weeks. Participants who were exposed to ibrutinib before enrollment were included in this group.",
+     "id": "OG000",
+     "title": "Cohort 1: Treatment A (Exposed to Ibrutinib)"
+    },
+    {
+     "description": "Participants received parsaclisib 20 mg, orally, QD for 8 weeks followed by 2.5 mg QD, for up to 52 weeks. Participants who were exposed to ibrutinib before enrollment were included in this group.",
+     "id": "OG001",
+     "title": "Cohort 1: Treatment B (Exposed to Ibrutinib)"
+    },
+    {
+     "description": "Participants received parsaclisib 20 mg tablets, orally, QD for 8 weeks followed by 20 mg tablets QW, for up to 52 weeks. Participants who were not exposed to BTK inhibitor before enrollment were included in this group.",
+     "id": "OG002",
+     "title": "Cohort 2: Treatment A (Bruton's Tyrosine Kinase Inhibitor Naïve)"
+    },
+    {
+     "description": "Participants received parsaclisib 20 mg tablets, orally, QD for 8 weeks followed by 2.5 mg tablets QD, for up to 52 weeks. Participants who were not exposed to BTK inhibitor before enrollment were included in this group.",
+     "id": "OG003",
+     "title": "Cohort 2: Treatment B (Bruton's Tyrosine Kinase Inhibitor Naïve)"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Full Analysis Set: all participants enrolled in the study who received at least 1 dose of parsaclisib",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to approximately 161 weeks",
+   "title": "Objective Response Rate (ORR) Based on Lugano Classification Criteria",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

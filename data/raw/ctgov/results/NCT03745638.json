@@ -1,0 +1,114 @@
+{
+ "nctId": "NCT03745638",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "3.556",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "11.923",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "< 0.0001",
+     "pValueComment": "The unadjusted p-values between each treatment group and vehicle were calculated based on Exact Logistic Regression including treatment and stratification factors to test the treatment difference.",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "6.38",
+     "statisticalMethod": "Exact Logistic Regression"
+    },
+    {
+     "ciLowerLimit": "4.178",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "14.040",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "< 0.0001",
+     "pValueComment": "The unadjusted p-values between each treatment group and vehicle were calculated based on Exact Logistic Regression including treatment and stratification factors to test the treatment difference.",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "7.50",
+     "statisticalMethod": "Exact Logistic Regression"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "9.3",
+         "upperLimit": "22.5",
+         "value": "15.1"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "43.7",
+         "upperLimit": "56.3",
+         "value": "50.0"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "47.4",
+         "upperLimit": "60.0",
+         "value": "53.8"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "126"
+      },
+      {
+       "groupId": "OG001",
+       "value": "252"
+      },
+      {
+       "groupId": "OG002",
+       "value": "253"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The IGA is an overall eczema severity rating on a 5-point scale ranging from 0 (clear skin) to 4 (severe disease). The score is based on an overall assessment of the degree of erythema, induration/papulation, and oozing/crusting. The IGA-TS is defined as an IGA score of 0 (clear skin) or 1 (almost clear skin) with ≥ 2 grade improvement from Baseline.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants received vehicle cream, applied topically to the affected areas as a thin film BID from Day 1 to Week 8 during the VC Period. Participants applied cream BID to areas identified at Baseline even if the areas improved.",
+     "id": "OG000",
+     "title": "VC Period: Vehicle Cream BID"
+    },
+    {
+     "description": "Participants received ruxolitinib 0.75% cream, applied topically to the affected areas as a thin film BID from Day 1 to Week 8 during the VC Period. Participants applied cream BID to areas identified at Baseline even if the areas improved.",
+     "id": "OG001",
+     "title": "VC Period: Ruxolitinib 0.75% Cream BID"
+    },
+    {
+     "description": "Participants received ruxolitinib 1.5% cream, applied topically to the affected areas as a thin film BID from Day 1 to Week 8 during the VC Period. Participants applied cream BID to areas identified at Baseline even if the areas improved.",
+     "id": "OG002",
+     "title": "VC Period: Ruxolitinib 1.5% Cream BID"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "ITT population included all participants who were randomized to the study.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline to Week 8",
+   "title": "Percentage of Participants Who Achieved Investigator's Global Assessment - Treatment Success (IGA-TS) at Week 8",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

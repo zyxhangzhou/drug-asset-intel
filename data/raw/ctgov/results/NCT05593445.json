@@ -1,0 +1,98 @@
+{
+ "nctId": "NCT05593445",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.29",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "2.41",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.737",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "0.83",
+     "statisticalMethod": "Chi-squared"
+    },
+    {
+     "ciLowerLimit": "-29.2",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "20.7",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "12.73",
+     "estimateComment": "The 95% confidence interval for the response rate difference was constructed from approximately normal distribution.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "paramType": "response rate difference",
+     "paramValue": "-4.3"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "18.6",
+         "upperLimit": "55.9",
+         "value": "35.7"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "22.7",
+         "upperLimit": "59.4",
+         "value": "40.0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "28"
+      },
+      {
+       "groupId": "OG001",
+       "value": "30"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "ITCH4 response was defined as a ≥4-point improvement from Baseline in by-visit Itch Numeric Rating Scale (NRS) score. The Itch NRS is a daily participant-reported measure (24-hour recall) of the worst level of itch intensity. Participants rated itch severity of their lichen sclerosus by selecting a number from 0 (no itch) to 10 (worst imaginable itch) that best described the worst level of itch they experienced in the past 24 hours.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants applied ruxolitinib 1.5% cream twice daily (BID) for 12 weeks.",
+     "id": "OG000",
+     "title": "DBVC Period: Ruxolitinib Cream 1.5% BID"
+    },
+    {
+     "description": "Participants applied matching vehicle cream BID for 12 weeks.",
+     "id": "OG001",
+     "title": "DBVC Period: Vehicle Cream BID"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Intent-to-Treat (ITT) Population: all randomized participants. Treatment groups were defined according to the treatment assignment at the time of randomization regardless of the actual study drug the participant might have taken. Only those participants with a Baseline ITCH NRS Score ≥4 were analyzed. Missing post-baseline values were imputed as Non-Responders at Week 12.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline; Week 12",
+   "title": "Percentage of Participants With ITCH4 at Week 12",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

@@ -1,0 +1,82 @@
+{
+ "nctId": "NCT03112603",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "1.86",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "4.80",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "OTHER",
+     "pValue": "<0.0001",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "2.99",
+     "statisticalMethod": "Cochran-Mantel-Haenszel"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "41.8",
+         "upperLimit": "57.6",
+         "value": "49.7"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "19.1",
+         "upperLimit": "33.0",
+         "value": "25.6"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "165"
+      },
+      {
+       "groupId": "OG001",
+       "value": "164"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "ORR was defined as the percentage of participants in each arm demonstrating a complete response (CR) or partial response (PR) based on chronic GvHD (cGvHD) disease assessments (National Institutes of Health Consensus Criteria) without the requirement of additional systemic therapies for an earlier progression, mixed response, or non-response. Scoring of response was relative to the organ score at the time of randomization. CR: complete resolution of all signs and symptoms of cGVHD in all evaluable organs without the initiation or addition of new systemic therapy. PR: improvement in at least one organ (e.g., improvement of 1 or more points on a 4- to 7-point scale, or an improvement of 2 or more points on a 10- to 12-point scale) without progression in other organs or sites, initiation, or addition of new systemic therapies.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Ruxolitinib was administered orally twice per day at a dose of 10 milligrams (mg).",
+     "id": "OG000",
+     "title": "Ruxolitinib"
+    },
+    {
+     "description": "Participants received best available therapies (BATs), including, but not limited to, extracorporeal photopheresis (ECP), low-dose methotrexate (MTX), mycophenolate mofetil (MMF), mTOR inhibitors (everolimus or sirolimus), infliximab, rituximab, pentostatin, imatinib, and ibrutinib based on the investigator's decision.",
+     "id": "OG001",
+     "title": "Best Available Therapy"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Full Analysis Set (FAS): all participants to whom study treatment was assigned by randomization. Data reported are from the start of the study to Cycle 7 Day 1 (data cutoff of 08 May 2020).",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Cycle 7 Day 1 (each cycle was comprised of 4 weeks)",
+   "title": "Efficacy of Ruxolitinib Versus Investigator's Choice Best Available Therapy (BAT) in Participants With Moderate or Severe Steroid Refractory Chronic Graft Versus Host Disease (SR-cGvHD) Assessed by Overall Response Rate (ORR) at the Cycle 7 Day 1 Visit",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

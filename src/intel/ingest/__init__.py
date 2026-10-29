@@ -14,6 +14,9 @@ from intel.models import Claim
 # rebuilds stay deterministic.
 MATERIALS_RECEIVED_AT = datetime(2026, 10, 28, tzinfo=UTC)
 
+# Prices are the last close on or before this date; financials are the latest period filed by it.
+SNAPSHOT_DATE = date(2026, 10, 28)
+
 
 @dataclass(frozen=True)
 class Inputs:

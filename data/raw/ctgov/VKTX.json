@@ -1,0 +1,2090 @@
+{
+ "aliases": [
+  "Viking Therapeutics"
+ ],
+ "studies": [
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Placebo QD",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "description": "0.5mgQD",
+       "interventionNames": [
+        "Drug: VK5211"
+       ],
+       "label": "VK5211- 0.5mg",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "1.0mg QD",
+       "interventionNames": [
+        "Drug: VK5211"
+       ],
+       "label": "VK5211- 1.0mg",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "2.0mg QD",
+       "interventionNames": [
+        "Drug: VK5211"
+       ],
+       "label": "VK5211- 2.0mg",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "VK5211- 0.5mg",
+        "VK5211- 1.0mg",
+        "VK5211- 2.0mg"
+       ],
+       "description": "Capsule",
+       "name": "VK5211",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Capsule",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Hip Fractures"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 108,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Acute Hip Fracture Study in Patients 65 Years or Greater",
+     "nctId": "NCT02578095",
+     "officialTitle": "A Phase II, Randomized, Double-Blind, Parallel Group, Placebo- Controlled, Multi-Center Study to Explore the Efficacy, Safety and Tolerability of VK5211 in Subjects With Acute Hip Fracture",
+     "orgStudyIdInfo": {
+      "id": "VK5211-201"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Viking Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Viking Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2017-12-17",
+      "type": "ACTUAL"
+     },
+     "dispFirstPostDateStruct": {
+      "date": "2019-10-16",
+      "type": "ACTUAL"
+     },
+     "dispFirstSubmitDate": "2019-10-03",
+     "dispFirstSubmitQcDate": "2019-10-03",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-12-29",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-12-24",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2017-11-15",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2025-12-29",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2025-10-30",
+     "resultsFirstSubmitQcDate": "2025-12-24",
+     "startDateStruct": {
+      "date": "2015-10-30",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-12",
+     "studyFirstPostDateStruct": {
+      "date": "2015-10-16",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2015-10-13",
+     "studyFirstSubmitQcDate": "2015-10-15"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Placebo capsule",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "description": "5mg VK2809 capsule",
+       "interventionNames": [
+        "Drug: VK2809"
+       ],
+       "label": "VK2809 (5mg)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "10mg VK2809 capsule",
+       "interventionNames": [
+        "Drug: VK2809"
+       ],
+       "label": "VK2809 (10mg)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "10mg VK2809 capsule",
+       "interventionNames": [
+        "Drug: VK2809"
+       ],
+       "label": "VK2809 (10mg QOD)",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "VK2809 (10mg QOD)",
+        "VK2809 (10mg)",
+        "VK2809 (5mg)"
+       ],
+       "name": "VK2809",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Hyperlipidemia",
+      "NAFLD"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "TRIPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 59,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Safety and Tolerability of VK2809 in Patients With Primary Hypercholesterolemia and Non-Alcoholic Fatty Liver Disease",
+     "nctId": "NCT02927184",
+     "officialTitle": "A Phase 2, Randomized, Double-Blind, Placebo-Controlled, Multicenter Study to Assess The Efficacy, Safety, and Tolerability of VK2809 Administered for 12 Weeks Followed by a 4-Week Off-Drug Phase in Patients With Primary Hypercholesterolemia and Non-Alcoholic Fatty Liver Disease",
+     "orgStudyIdInfo": {
+      "id": "VK2809-201"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Viking Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Viking Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2019-03-26",
+      "type": "ACTUAL"
+     },
+     "dispFirstPostDateStruct": {
+      "date": "2019-11-25",
+      "type": "ACTUAL"
+     },
+     "dispFirstSubmitDate": "2019-11-20",
+     "dispFirstSubmitQcDate": "2019-11-20",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2021-04-26",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2021-04-22",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2019-03-26",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2016-09-28",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2021-04",
+     "studyFirstPostDateStruct": {
+      "date": "2016-10-06",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2016-10-05",
+     "studyFirstSubmitQcDate": "2016-10-05"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: Placebos"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "interventionNames": [
+        "Drug: VK2809"
+       ],
+       "label": "1.0 mg",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: VK2809"
+       ],
+       "label": "2.5mg",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: VK2809"
+       ],
+       "label": "5.0 mg",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: VK2809"
+       ],
+       "label": "10 mg",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "1.0 mg",
+        "10 mg",
+        "2.5mg",
+        "5.0 mg"
+       ],
+       "description": "Capsule",
+       "name": "VK2809",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Capsule",
+       "name": "Placebos",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "NASH - Nonalcoholic Steatohepatitis"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 248,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "VOYAGE",
+     "briefTitle": "A Study to Assess the Efficacy and Safety of VK2809 for 52 Weeks in Subjects With Biopsy Proven NASH",
+     "nctId": "NCT04173065",
+     "officialTitle": "VK2809 A Phase 2B, Randomized, Double-Blind, Placebo-Controlled, Multicenter Study to Assess the Efficacy, Safety, and Tolerability of VK2809 Administered for 52 Weeks Followed by a 4-Week Off-Drug Phase in Subjects With Biopsy Proven Non-Alcoholic Steatohepatitis With Fibrosis",
+     "orgStudyIdInfo": {
+      "id": "VK2809-202"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Viking Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Viking Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2024-01-26",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2024-06-14",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2024-06-12",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2023-05-15",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2019-11-15",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2024-06",
+     "studyFirstPostDateStruct": {
+      "date": "2019-11-21",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2019-11-20",
+     "studyFirstSubmitQcDate": "2019-11-20"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "20mg QD",
+       "interventionNames": [
+        "Drug: VK0214"
+       ],
+       "label": "VK0214 Active 20mg",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "40mg QD",
+       "interventionNames": [
+        "Drug: VK0214"
+       ],
+       "label": "VK0214 Active 40mg",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Placebo QD",
+       "interventionNames": [
+        "Other: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "VK0214 Active 20mg",
+        "VK0214 Active 40mg"
+       ],
+       "description": "API in capsule",
+       "name": "VK0214",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "API in capsule",
+       "name": "Placebo",
+       "type": "OTHER"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Adrenomyeloneuropathy Form (AMN) of X-linked Adrenoleukodystrophy (X-ALD)"
+     ],
+     "keywords": [
+      "AMN, XALD"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "OTHER"
+     },
+     "enrollmentInfo": {
+      "count": 24,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Study to Assess the Pharmacodynamics of VK0214 in Male Subjects With AMN",
+     "nctId": "NCT04973657",
+     "officialTitle": "Phase 1b, Multi-center, Randomized, Double-Blind, Placebo-Controlled, Study to Evaluate the Safety, Tolerability, PD and PK of VK0214, in Subjects With the Adrenomyeloneuropathy Form (AMN) of X-linked Adrenoleukodystrophy (X-ALD)",
+     "orgStudyIdInfo": {
+      "id": "VK0214-102"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Viking Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Viking Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2024-11-08",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-02-17",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-02-13",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2024-10-09",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2021-06-22",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-02",
+     "studyFirstPostDateStruct": {
+      "date": "2021-07-22",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2021-06-28",
+     "studyFirstSubmitQcDate": "2021-07-21"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Placebo administered SC once in healthy participants",
+       "interventionNames": [
+        "Biological: Placebo"
+       ],
+       "label": "Placebo (Part A)",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "description": "Escalating doses of VK2735 administered subcutaneously (SC) once in healthy participants.",
+       "interventionNames": [
+        "Biological: VK2735"
+       ],
+       "label": "VK2735 (Part A)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Placebo administered SC once weekly for four weeks in healthy participants",
+       "interventionNames": [
+        "Biological: Placebo"
+       ],
+       "label": "Placebo (Part B)",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "description": "Escalating doses of VK2735 administered subcutaneously (SC) once weekly in healthy participants.",
+       "interventionNames": [
+        "Biological: VK2735"
+       ],
+       "label": "VK2735 (Part B)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Placebo administered orally daily for 28 days in healthy participants",
+       "interventionNames": [
+        "Drug: VK2735 Placebo"
+       ],
+       "label": "VK2735 (Part C )",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "description": "Escalating doses of VK2735 administered daily (PO) in healthy participants.",
+       "interventionNames": [
+        "Drug: VK2735 Drug"
+       ],
+       "label": "VK2735 (Part C)",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "VK2735 (Part A)",
+        "VK2735 (Part B)"
+       ],
+       "description": "Administered SC",
+       "name": "VK2735",
+       "type": "BIOLOGICAL"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo (Part A)",
+        "Placebo (Part B)"
+       ],
+       "description": "Administered SC",
+       "name": "Placebo",
+       "type": "BIOLOGICAL"
+      },
+      {
+       "armGroupLabels": [
+        "VK2735 (Part C )"
+       ],
+       "description": "Administered orally",
+       "name": "VK2735 Placebo",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "VK2735 (Part C)"
+       ],
+       "description": "Administered orally",
+       "name": "VK2735 Drug",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Weight Loss",
+      "NASH"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 92,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Phase 1 Study to Evaluate the Safety and Tolerability of VK2735",
+     "nctId": "NCT05203237",
+     "officialTitle": "A Phase 1, Randomized, Double-Blind, Placebo-Controlled, Single and Multiple Ascending Dose Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of VK2735, a Dual Glucagon-like Peptide-1 and Gastric Inhibitory Polypeptide Receptor Agonist, in Healthy Adults and Otherwise Healthy Adults Who Have an Increased Body Mass Index",
+     "orgStudyIdInfo": {
+      "id": "VK2735-101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Viking Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Viking Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2024-12-03",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-02-17",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-02-13",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2024-11-04",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2021-12-14",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-02",
+     "studyFirstPostDateStruct": {
+      "date": "2022-01-24",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2022-01-10",
+     "studyFirstSubmitQcDate": "2022-01-10"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Placebo",
+       "interventionNames": [
+        "Biological: Placebo"
+       ],
+       "label": "VK2735 (Placebo)",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "description": "VK2735 is a peptide GLP-1 and GIP dual agonist",
+       "interventionNames": [
+        "Biological: VK2735"
+       ],
+       "label": "VK2735 (Dose #1)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "VK2735 is a peptide GLP-1 and GIP dual agonist",
+       "interventionNames": [
+        "Biological: VK2735"
+       ],
+       "label": "VK2735 (Dose #2)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "VK2735 is a peptide GLP-1 and GIP dual agonist",
+       "interventionNames": [
+        "Biological: VK2735"
+       ],
+       "label": "VK2735 (Dose #3)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "VK2735 is a peptide GLP-1 and GIP dual agonist",
+       "interventionNames": [
+        "Biological: VK2735"
+       ],
+       "label": "VK2735 (Dose #4)",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "VK2735 (Dose #1)",
+        "VK2735 (Dose #2)",
+        "VK2735 (Dose #3)",
+        "VK2735 (Dose #4)"
+       ],
+       "description": "VK2735 is a peptide GLP-1 and GIP dual agonist",
+       "name": "VK2735",
+       "type": "BIOLOGICAL"
+      },
+      {
+       "armGroupLabels": [
+        "VK2735 (Placebo)"
+       ],
+       "description": "Placebo comparator",
+       "name": "Placebo",
+       "type": "BIOLOGICAL"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Weight Loss"
+     ],
+     "keywords": [
+      "Overweight",
+      "Obese"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "TRIPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 176,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "VENTURE",
+     "briefTitle": "VK2735 for Weight Management Phase 2",
+     "nctId": "NCT06068946",
+     "officialTitle": "A Phase 2 Randomized, Double-Blind, Placebo-Controlled, 13-week Study of VK2735 for Weight Management in Subjects Who Are Obese, or Overweight With at Least One Weight-related Comorbid Condition",
+     "orgStudyIdInfo": {
+      "id": "VK2735-201"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Viking Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Viking Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2024-04-02",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-02-12",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-02-10",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2024-02-27",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2023-08-31",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2024-12",
+     "studyFirstPostDateStruct": {
+      "date": "2023-10-05",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2023-09-28",
+     "studyFirstSubmitQcDate": "2023-09-28"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "VK2735 (Placebo) administered Daily",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo Assignment",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "description": "VK2735 is a peptide GLP-1 and GIP dual agonist administered Daily",
+       "interventionNames": [
+        "Drug: VK2735"
+       ],
+       "label": "Active Assignment (Dose #1)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "VK2735 is a peptide GLP-1 and GIP dual agonist administered Daily",
+       "interventionNames": [
+        "Drug: VK2735"
+       ],
+       "label": "Active Assignment (Dose #2)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "VK2735 is a peptide GLP-1 and GIP dual agonist administered Daily",
+       "interventionNames": [
+        "Drug: VK2735"
+       ],
+       "label": "Active Assignment (Dose #3)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "VK2735 is a peptide GLP-1 and GIP dual agonist administered Daily",
+       "interventionNames": [
+        "Drug: VK2735"
+       ],
+       "label": "Active Assignment (Dose #4)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "VK2735 is a peptide GLP-1 and GIP dual agonist administered Daily",
+       "interventionNames": [
+        "Drug: VK2735"
+       ],
+       "label": "Active Assignment (Dose #5)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "VK2735 is a peptide GLP-1 and GIP dual agonist administered Daily",
+       "interventionNames": [
+        "Drug: VK2735"
+       ],
+       "label": "Active Assignment (Dose #6)",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Placebo Assignment"
+       ],
+       "description": "Matching Placebo to VK2735",
+       "name": "Placebo",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Active Assignment (Dose #1)",
+        "Active Assignment (Dose #2)",
+        "Active Assignment (Dose #3)",
+        "Active Assignment (Dose #4)",
+        "Active Assignment (Dose #5)",
+        "Active Assignment (Dose #6)"
+       ],
+       "description": "Active Treatment",
+       "name": "VK2735",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Weight Loss"
+     ],
+     "keywords": [
+      "Overweight Obese"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "TRIPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 280,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "VK2735 for Weight Management Phase 2 (Venture Oral Dosing)",
+     "nctId": "NCT06828055",
+     "officialTitle": "A Phase 2 Randomized, Double-Blind, Placebo-Controlled, 13-week Dose Finding Study of VK2735 Oral Formulation for Weight Management in Subjects Who Are Obese, or Overweight With at Least One Weight-related Comorbid Condition",
+     "orgStudyIdInfo": {
+      "id": "VK2735-202"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Viking Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Viking Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2025-08-15",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-10-06",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-09-30",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2025-06-24",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2024-12-18",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-09",
+     "studyFirstPostDateStruct": {
+      "date": "2025-02-14",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-02-10",
+     "studyFirstSubmitQcDate": "2025-02-10"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "VK2735 Placebo Comparator Once Weekly",
+       "interventionNames": [
+        "Drug: VK2735"
+       ],
+       "label": "Placebo Assignment",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "description": "VK2735 7.5mg Once Weekly",
+       "interventionNames": [
+        "Drug: VK2735"
+       ],
+       "label": "Active Assignment (Dose #1)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "VK2735 12.5mg Once Weekly",
+       "interventionNames": [
+        "Drug: VK2735"
+       ],
+       "label": "Active Assignment (Dose #2)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "VK2735 17.5mg Once Weekly",
+       "interventionNames": [
+        "Drug: VK2735"
+       ],
+       "label": "Active Assignment (Dose #3)",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Active Assignment (Dose #1)",
+        "Active Assignment (Dose #2)",
+        "Active Assignment (Dose #3)",
+        "Placebo Assignment"
+       ],
+       "description": "VK2735 is a peptide GLP-1 and GIP dual agonist administered Once Weekly",
+       "name": "VK2735",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Weight Loss"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "TRIPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 1100,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "VK2735 for Weight Management Type 2 Diabetes Phase 3 (VANQUISH 2)",
+     "nctId": "NCT07104383",
+     "officialTitle": "A Phase 3 Randomized, Double-Blind, Placebo-Controlled, 78-Week Efficacy and Safety Study of VK2735 Administered Subcutaneously for Weight Management in Participants With Type 2 Diabetes Who Are Obese, or Overweight",
+     "orgStudyIdInfo": {
+      "id": "VK2735-302"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Viking Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Viking Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2027-08-01",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-04-07",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-04-03",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-07-01",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2025-06-23",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-04",
+     "studyFirstPostDateStruct": {
+      "date": "2025-08-05",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-07-29",
+     "studyFirstSubmitQcDate": "2025-07-29"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "VK2735 Placebo Comparator Once Weekly",
+       "interventionNames": [
+        "Drug: VK2735"
+       ],
+       "label": "Placebo Assignment",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "description": "VK2735 7.5mg Once Weekly",
+       "interventionNames": [
+        "Drug: VK2735"
+       ],
+       "label": "Active Assignment (Dose 1)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "VK2735 12.5mg Once Weekly",
+       "interventionNames": [
+        "Drug: VK2735"
+       ],
+       "label": "Active Assignment (Dose 2)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "VK2735 17.5mg Once Weekly",
+       "interventionNames": [
+        "Drug: VK2735"
+       ],
+       "label": "Active Assignment (Dose 3)",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Active Assignment (Dose 1)",
+        "Active Assignment (Dose 2)",
+        "Active Assignment (Dose 3)",
+        "Placebo Assignment"
+       ],
+       "description": "VK2735 is a peptide GLP-1 and GIP dual agonist administered Once Weekly",
+       "name": "VK2735",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Weight Loss"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "TRIPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 4500,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "VANQUISH 1",
+     "briefTitle": "VK2735 for Weight Management Phase 3",
+     "nctId": "NCT07104500",
+     "officialTitle": "A Phase 3 Randomized, Double-Blind, Placebo-Controlled, 78-Week Efficacy and Safety Study of VK2735 Administered Subcutaneously for Weight Management in Participants Without Type 2 Diabetes Who Are Obese, or Overweight With at Least One Weight-related Comorbid Condition",
+     "orgStudyIdInfo": {
+      "id": "VK2735-301"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Viking Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Viking Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2027-08-01",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-11-24",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-11-20",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-07-01",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2025-06-23",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-11",
+     "studyFirstPostDateStruct": {
+      "date": "2025-08-05",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-07-29",
+     "studyFirstSubmitQcDate": "2025-07-29"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Placebo Subcutaneously (SC) weekly",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "description": "VK2735 subcutaneously weekly followed by Placebo subcutaneously weekly",
+       "interventionNames": [
+        "Drug: VK2735 Drug",
+        "Drug: Placebo"
+       ],
+       "label": "VK2735 Dose Level 2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "VK2735 subcutaneously weekly followed by VK2735 subcutaneously weekly",
+       "interventionNames": [
+        "Drug: VK2735 Drug"
+       ],
+       "label": "VK2735 Dose Level 3",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "VK2735 subcutaneously weekly followed by VK2735 subcutaneously every other week",
+       "interventionNames": [
+        "Drug: VK2735 Drug"
+       ],
+       "label": "VK2735 Dose Level 4",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "VK2735 subcutaneously weekly followed by VK2735 subcutaneously monthly",
+       "interventionNames": [
+        "Drug: VK2735 Drug"
+       ],
+       "label": "VK2735 Dose Level 5",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "VK2735 subcutaneously weekly followed by VK2735 subcutaneously monthly",
+       "interventionNames": [
+        "Drug: VK2735 Drug"
+       ],
+       "label": "VK2735 Dose Level 6",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "VK2735 subcutaneously weekly followed by VK2735 subcutaneously monthly",
+       "interventionNames": [
+        "Drug: VK2735 Drug"
+       ],
+       "label": "VK2735 Dose Level 7",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "VK2735 subcutaneously weekly followed by VK2735 subcutaneously monthly",
+       "interventionNames": [
+        "Drug: VK2735 Drug"
+       ],
+       "label": "VK2735 Dose Level 8",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "VK2735 subcutaneously weekly followed by VK2735 subcutaneously monthly",
+       "interventionNames": [
+        "Drug: VK2735 Drug"
+       ],
+       "label": "VK2735 Dose Level 9",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "VK2735 subcutaneously weekly followed by VK2735 subcutaneously every other week",
+       "interventionNames": [
+        "Drug: VK2735 Drug"
+       ],
+       "label": "VK2735 Dose Level 10",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "VK2735 subcutaneously weekly followed by VK2735 subcutaneously every other week",
+       "interventionNames": [
+        "Drug: VK2735 Drug"
+       ],
+       "label": "VK2735 Dose Level 11",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "VK2735 subcutaneously weekly followed by Placebo subcutaneously weekly",
+       "interventionNames": [
+        "Drug: VK2735 Drug",
+        "Drug: Placebo"
+       ],
+       "label": "VK2735 Dose Level 12",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "VK2735 subcutaneously weekly followed by VK2735 orally once daily",
+       "interventionNames": [
+        "Drug: VK2735 Drug"
+       ],
+       "label": "VK2735 Dose Level 14",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "VK2735 subcutaneously weekly followed by VK2735 orally once daily",
+       "interventionNames": [
+        "Drug: VK2735 Drug"
+       ],
+       "label": "VK2735 Dose Level 15",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "VK2735 subcutaneously weekly followed by VK2735 orally once daily",
+       "interventionNames": [
+        "Drug: VK2735 Drug"
+       ],
+       "label": "VK2735 Dose Level 16",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "VK2735 subcutaneously weekly followed by Placebo orally once weekly",
+       "interventionNames": [
+        "Drug: VK2735 Drug",
+        "Drug: Placebo"
+       ],
+       "label": "VK2735 Dose Level 17",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "VK2735 subcutaneously weekly followed by Placebo orally once daily",
+       "interventionNames": [
+        "Drug: VK2735 Drug",
+        "Drug: Placebo"
+       ],
+       "label": "VK2735 Dose Level 18",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "VK2735 subcutaneously weekly followed by VK2735 orally weekly",
+       "interventionNames": [
+        "Drug: VK2735 Drug"
+       ],
+       "label": "VK2735 Dose Level 13",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "VK2735 Dose Level 10",
+        "VK2735 Dose Level 11",
+        "VK2735 Dose Level 12",
+        "VK2735 Dose Level 13",
+        "VK2735 Dose Level 14",
+        "VK2735 Dose Level 15",
+        "VK2735 Dose Level 16",
+        "VK2735 Dose Level 17",
+        "VK2735 Dose Level 18",
+        "VK2735 Dose Level 2",
+        "VK2735 Dose Level 3",
+        "VK2735 Dose Level 4",
+        "VK2735 Dose Level 5",
+        "VK2735 Dose Level 6",
+        "VK2735 Dose Level 7",
+        "VK2735 Dose Level 8",
+        "VK2735 Dose Level 9"
+       ],
+       "description": "SC or oral once daily, once weekly, every other week, or monthly",
+       "name": "VK2735 Drug",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo",
+        "VK2735 Dose Level 12",
+        "VK2735 Dose Level 17",
+        "VK2735 Dose Level 18",
+        "VK2735 Dose Level 2"
+       ],
+       "description": "SC or oral once daily or once weekly",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Obese Adults"
+     ],
+     "keywords": [
+      "Weight loss"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 270,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Phase 1 Study of VK2735 in Obese Adults Without Comorbidities",
+     "nctId": "NCT07838740",
+     "officialTitle": "A Phase 1, Randomized, Double-Blind, Placebo-Controlled Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of VK2735 Administration in Adults Who Are Obese (BMI ≥ 30 kg/m2) Without Comorbidities",
+     "orgStudyIdInfo": {
+      "id": "VK2735-102"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Viking Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Viking Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2027-07",
+      "type": "ESTIMATED"
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-09-24",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-09-22",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-05",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2025-11-18",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-09",
+     "studyFirstPostDateStruct": {
+      "date": "2026-09-24",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2026-09-09",
+     "studyFirstSubmitQcDate": "2026-09-22"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Single-dose VK3019 or placebo administered subcutaneously",
+       "interventionNames": [
+        "Drug: SC VK3019",
+        "Drug: Matching placebo"
+       ],
+       "label": "VK3019 Dose Level 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Single-dose VK3019 or placebo administered subcutaneously",
+       "interventionNames": [
+        "Drug: SC VK3019",
+        "Drug: Matching placebo"
+       ],
+       "label": "VK3019 Dose Level 2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Single-dose VK3019 or placebo administered subcutaneously",
+       "interventionNames": [
+        "Drug: SC VK3019",
+        "Drug: Matching placebo"
+       ],
+       "label": "VK3019 Dose Level 3",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Single-dose VK3019 or placebo administered subcutaneously",
+       "interventionNames": [
+        "Drug: SC VK3019",
+        "Drug: Matching placebo"
+       ],
+       "label": "VK3019 Dose Level 4",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Single-dose VK3019 or placebo administered subcutaneously",
+       "interventionNames": [
+        "Drug: SC VK3019",
+        "Drug: Matching placebo"
+       ],
+       "label": "VK3019 Dose Level 5",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Single-dose VK3019 or placebo administered subcutaneously",
+       "interventionNames": [
+        "Drug: SC VK3019",
+        "Drug: Matching placebo"
+       ],
+       "label": "VK 3019 Dose Level 6",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Single-dose VK3019 or placebo administered subcutaneously",
+       "interventionNames": [
+        "Drug: SC VK3019",
+        "Drug: Matching placebo"
+       ],
+       "label": "VK3019 Dose Level 7",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "VK 3019 Dose Level 6",
+        "VK3019 Dose Level 1",
+        "VK3019 Dose Level 2",
+        "VK3019 Dose Level 3",
+        "VK3019 Dose Level 4",
+        "VK3019 Dose Level 5",
+        "VK3019 Dose Level 7"
+       ],
+       "description": "Single dose VK3019",
+       "name": "SC VK3019",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "VK 3019 Dose Level 6",
+        "VK3019 Dose Level 1",
+        "VK3019 Dose Level 2",
+        "VK3019 Dose Level 3",
+        "VK3019 Dose Level 4",
+        "VK3019 Dose Level 5",
+        "VK3019 Dose Level 7"
+       ],
+       "description": "Single dose matching placebo",
+       "name": "Matching placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Obese Adults"
+     ],
+     "keywords": [
+      "Weight loss"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 56,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Phase 1 Study of VK3019 in Overweight and Obese Adults Without Comorbidities",
+     "nctId": "NCT07846033",
+     "officialTitle": "A Phase 1, Randomized, Double-Blind, Placebo-Controlled, Single Ascending Dose Study to Evaluate Safety, Tolerability, and Pharmacokinetics of VK3019, an Amylin and Calcitonin Receptor Agonist, in Overweight and Obese Adults Without Comorbidities",
+     "orgStudyIdInfo": {
+      "id": "VK3019-101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Viking Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Viking Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2026-11",
+      "type": "ESTIMATED"
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-09-29",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-09-22",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2026-10-02",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2026-07-06",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-09",
+     "studyFirstPostDateStruct": {
+      "date": "2026-09-29",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2026-09-09",
+     "studyFirstSubmitQcDate": "2026-09-22"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Placebo comparator orally once daily",
+       "interventionNames": [
+        "Drug: Placebo comparator"
+       ],
+       "label": "Placebo Assignment",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "description": "VK2735 Dose level 1 orally once daily",
+       "interventionNames": [
+        "Drug: VK2735"
+       ],
+       "label": "Active Assignment (Dose 1)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "VK2735 Dose level 2 orally once daily",
+       "interventionNames": [
+        "Drug: VK2735"
+       ],
+       "label": "Active Assignment (Dose 2)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "VK2735 Dose level 3 orally once daily",
+       "interventionNames": [
+        "Drug: VK2735"
+       ],
+       "label": "Active Assignment (Dose 3)",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Active Assignment (Dose 1)",
+        "Active Assignment (Dose 2)",
+        "Active Assignment (Dose 3)"
+       ],
+       "description": "VK2735 Oral is a peptide GLP-1 and GIP dual agonist administered once daily",
+       "name": "VK2735",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo Assignment"
+       ],
+       "description": "Placebo comparator administered orally once daily",
+       "name": "Placebo comparator",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Weight Loss"
+     ],
+     "keywords": [
+      "Body Weight Changes",
+      "Body Weight",
+      "Weight Loss"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 560,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Oral VK2735 for Weight Management Phase 3 (SUNRISE 1)",
+     "nctId": "NCT07868835",
+     "officialTitle": "A Phase 3 Randomized, Double-Blind, Placebo-Controlled, 68-Week Efficacy and Safety Study of VK2735 Administered Orally for Weight Management in Participants Without Type 2 Diabetes Mellitus Who Are Obese, or Overweight With at Least One Weight-related Comorbid Condition",
+     "orgStudyIdInfo": {
+      "id": "VK2735-304"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Viking Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Viking Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2028-08",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-16",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-12",
+     "overallStatus": "NOT_YET_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2028-07",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2026-11",
+      "type": "ESTIMATED"
+     },
+     "statusVerifiedDate": "2026-10",
+     "studyFirstPostDateStruct": {
+      "date": "2026-10-09",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2026-10-05",
+     "studyFirstSubmitQcDate": "2026-10-05"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Placebo comparator orally once daily",
+       "interventionNames": [
+        "Drug: Placebo Comparator"
+       ],
+       "label": "Placebo Assignment",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "description": "VK2735 Dose level 1 orally once daily",
+       "interventionNames": [
+        "Drug: VK2735 Oral"
+       ],
+       "label": "Active Assignment (Dose 1)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "VK2735 Dose level 2 orally once daily",
+       "interventionNames": [
+        "Drug: VK2735 Oral"
+       ],
+       "label": "Active Assignment (Dose 2)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "VK2735 Dose level 3 orally once daily",
+       "interventionNames": [
+        "Drug: VK2735 Oral"
+       ],
+       "label": "Active Assignment (Dose 3)",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Active Assignment (Dose 1)",
+        "Active Assignment (Dose 2)",
+        "Active Assignment (Dose 3)"
+       ],
+       "description": "VK2735 Oral is a peptide GLP-1 and GIP dual agonist administered once daily",
+       "name": "VK2735 Oral",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo Assignment"
+       ],
+       "description": "Placebo comparator administered orally once daily",
+       "name": "Placebo Comparator",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Weight Loss"
+     ],
+     "keywords": [
+      "body weight changes",
+      "body weight",
+      "weight loss"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 560,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Oral VK2735 for Weight Management in Adults With Type 2 Diabetes Mellitus Phase 3 (SUNRISE 2)",
+     "nctId": "NCT07868939",
+     "officialTitle": "A Phase 3 Randomized, Double-Blind, Placebo-Controlled, 68-Week Efficacy and Safety Study of VK2735 Administered Orally for Weight Management in Participants With Type 2 Diabetes Mellitus Who Are Obese, or Overweight",
+     "orgStudyIdInfo": {
+      "id": "VK2735-305"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Viking Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Viking Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2028-12",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-16",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-12",
+     "overallStatus": "NOT_YET_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2028-10",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2026-11",
+      "type": "ESTIMATED"
+     },
+     "statusVerifiedDate": "2026-10",
+     "studyFirstPostDateStruct": {
+      "date": "2026-10-09",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2026-10-05",
+     "studyFirstSubmitQcDate": "2026-10-05"
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,83 @@
+{
+ "nctId": "NCT05635838",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-2.21",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-0.18",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "0.506",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityComment": "Response Variable = Treatment + Baseline AN Count Category (≥3 to 4, ≥5 to 10) + Visit + Treatment\\*Visit",
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0215",
+     "paramType": "least squares mean difference",
+     "paramValue": "-1.20",
+     "statisticalMethod": "ANCOVA"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.378",
+         "value": "-3.61"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.336",
+         "value": "-2.42"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "24"
+      },
+      {
+       "groupId": "OG001",
+       "value": "32"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The mixed model repeated measure (MMRM) included the fixed effects of the treatment group (ruxolitinib 1.5% and vehicle cream), stratification factor (Baseline AN count of ≥3 to 4 or ≥5 to 10), visit, and visit-by-treatment interaction. Change from Baseline was calculated as the Week 16 value minus the Baseline value.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Participants applied ruxolitinib 1.5% cream twice daily (BID) for 16 weeks.",
+     "id": "OG000",
+     "title": "Double-blind, Vehicle-Controlled (DBVC) Period: Ruxolitinib 1.5% Cream BID"
+    },
+    {
+     "description": "Participants applied matching vehicle cream BID for 16 weeks.",
+     "id": "OG001",
+     "title": "DBVC Period: Vehicle Cream BID"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Intent-to-Treat (ITT) Population: all randomized participants. Treatment groups were defined according to treatment assignment at randomization. Only participants with available data were analyzed.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline; Week 16",
+   "title": "Change From Baseline in Abscess and Inflammatory Nodule (AN) Count at Week 16",
+   "type": "PRIMARY",
+   "unitOfMeasure": "ANs"
+  }
+ ]
+}

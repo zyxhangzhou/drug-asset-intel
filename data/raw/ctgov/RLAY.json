@@ -1,0 +1,888 @@
+{
+ "aliases": [
+  "Relay Therapeutics"
+ ],
+ "studies": [
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Multiple doses of RLY-2608 for oral administration.",
+       "interventionNames": [
+        "Drug: RLY-2608"
+       ],
+       "label": "RLY-2608 for patients with unresectable or metastatic solid tumors",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Oral dose of RLY-2608 in addition to fulvestrant as determined during Part 1 Dose Escalation.",
+       "interventionNames": [
+        "Drug: RLY-2608",
+        "Drug: Fulvestrant"
+       ],
+       "label": "RLY-2608 + fulvestrant combination for HR+ HER2- locally advanced or metastatic breast cancer",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Oral dose of RLY-2608 in addition to fulvestrant and palbociclib 125mg as determined during Part 1 Dose Escalation.",
+       "interventionNames": [
+        "Drug: RLY-2608",
+        "Drug: Fulvestrant",
+        "Drug: Palbociclib 125mg"
+       ],
+       "label": "RLY-2608+fulvestrant+palbo125mg for HR+HER2- locally advanced metastatic breast cancer",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Oral dose of RLY-2608 in addition to fulvestrant and ribociclib 400mg as determined during Part 1 Dose Escalation.",
+       "interventionNames": [
+        "Drug: RLY-2608",
+        "Drug: Fulvestrant",
+        "Drug: Ribociclib 400mg"
+       ],
+       "label": "RLY-2608+fulvestrant+ribo400mg for HR+HER2- locally advanced metastatic breast cancer",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Oral dose of RLY-2608 in addition to fulvestrant and ribociclib 600mg as determined during Part 1 Dose Escalation.",
+       "interventionNames": [
+        "Drug: RLY-2608",
+        "Drug: Fulvestrant",
+        "Drug: Ribociclib 600mg"
+       ],
+       "label": "RLY-2608+fulvestrant+ribo600mg for HR+HER2- locally advanced metastatic breast cancer",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Oral dose of RLY-2608 in addition to fulvestrant and PF-07220060 100 mg as determined during Part 1 Dose Escalation",
+       "interventionNames": [
+        "Drug: RLY-2608",
+        "Drug: Fulvestrant",
+        "Drug: PF-07220060 100mg"
+       ],
+       "label": "RLY-2608+fulvestrant+PF-07220060 100 mg for HR+ HER2- locally advanced or metastatic breast cancer",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Oral dose of RLY-2608 in addition to fulvestrant and PF-07220060 300 mg as determined during Part 1 Dose Escalation",
+       "interventionNames": [
+        "Drug: RLY-2608",
+        "Drug: Fulvestrant",
+        "Drug: PF-07220060 300 mg"
+       ],
+       "label": "RLY-2608+fulvestrant+PF-07220060 300 mg for HR+ HER2- locally advanced or metastatic breast cancer",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "RLY-2608 + fulvestrant combination for HR+ HER2- locally advanced or metastatic breast cancer",
+        "RLY-2608 for patients with unresectable or metastatic solid tumors",
+        "RLY-2608+fulvestrant+PF-07220060 100 mg for HR+ HER2- locally advanced or metastatic breast cancer",
+        "RLY-2608+fulvestrant+PF-07220060 300 mg for HR+ HER2- locally advanced or metastatic breast cancer",
+        "RLY-2608+fulvestrant+palbo125mg for HR+HER2- locally advanced metastatic breast cancer",
+        "RLY-2608+fulvestrant+ribo400mg for HR+HER2- locally advanced metastatic breast cancer",
+        "RLY-2608+fulvestrant+ribo600mg for HR+HER2- locally advanced metastatic breast cancer"
+       ],
+       "description": "RLY-2608 is a mutant-selective, oral PI3Kα inhibitor.",
+       "name": "RLY-2608",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "RLY-2608 + fulvestrant combination for HR+ HER2- locally advanced or metastatic breast cancer",
+        "RLY-2608+fulvestrant+PF-07220060 100 mg for HR+ HER2- locally advanced or metastatic breast cancer",
+        "RLY-2608+fulvestrant+PF-07220060 300 mg for HR+ HER2- locally advanced or metastatic breast cancer",
+        "RLY-2608+fulvestrant+palbo125mg for HR+HER2- locally advanced metastatic breast cancer",
+        "RLY-2608+fulvestrant+ribo400mg for HR+HER2- locally advanced metastatic breast cancer",
+        "RLY-2608+fulvestrant+ribo600mg for HR+HER2- locally advanced metastatic breast cancer"
+       ],
+       "description": "500 mg fulvestrant is administered intramuscularly on Cycle 1 Day 1, Day 15, and Day 1 of each subsequent cycle (where a cycle is 28 days).",
+       "name": "Fulvestrant",
+       "otherNames": [
+        "Faslodex"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "RLY-2608+fulvestrant+palbo125mg for HR+HER2- locally advanced metastatic breast cancer"
+       ],
+       "description": "125mg palbociclib is taken orally once daily for 28-day cycles that include 21 days of treatment followed by 7 days off treatment.",
+       "name": "Palbociclib 125mg",
+       "otherNames": [
+        "Ibrance"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "RLY-2608+fulvestrant+ribo400mg for HR+HER2- locally advanced metastatic breast cancer"
+       ],
+       "description": "400mg ribociclib is taken orally once daily for 28-day cycles that include 21 days of treatment followed by 7 days off treatment.",
+       "name": "Ribociclib 400mg",
+       "otherNames": [
+        "Kisqali"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "RLY-2608+fulvestrant+ribo600mg for HR+HER2- locally advanced metastatic breast cancer"
+       ],
+       "description": "600mg ribociclib is taken orally once daily for 28-day cycles that include 21 days of treatment followed by 7 days off treatment.",
+       "name": "Ribociclib 600mg",
+       "otherNames": [
+        "Kisqali"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "RLY-2608+fulvestrant+PF-07220060 100 mg for HR+ HER2- locally advanced or metastatic breast cancer"
+       ],
+       "description": "PF-07220060 100 mg is taken orally twice daily at the same time with RLY-2608 during each 28-day cycle.",
+       "name": "PF-07220060 100mg",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "RLY-2608+fulvestrant+PF-07220060 300 mg for HR+ HER2- locally advanced or metastatic breast cancer"
+       ],
+       "description": "PF-07220060 300 mg is taken orally twice daily at the same time with RLY-2608 during each 28-day cycle.",
+       "name": "PF-07220060 300 mg",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "PIK3CA Mutation",
+      "Solid Tumor, Adult",
+      "HER2-negative Breast Cancer",
+      "Breast Cancer",
+      "Metastatic Breast Cancer",
+      "Advanced Breast Cancer",
+      "Unresectable Solid Tumor"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "interventionModelDescription": "Single Agent Arm:\n\nPart 1(multiple ascending doses, QD or BID):unresectable or metastatic solid tumors with PIK3CA mutation per local assessment; Part 2 (RP2D determined in Part 1) Patients with unresectable or metastatic solid tumors with ≥1 PIK3CA mutation per local assessment will be enrolled protocol defined groups\n\nDouble Combination Arm Part 1(multiple ascending doses, QD or BID): HR+, HER2- locally advanced or metastatic breast cancer with PIK3CA mutation per local assessment Part 2 (RP2D determined in Part 1) Group 1: patients who have not received prior PI3Kα inhibitor Group 2: patients who are intolerant to PI3Kα inhibitor\n\nTriple Combination Arms Part 1(multiple ascending doses, QD or BID): HR+, HER2- locally advanced or metastatic breast cancer with PIK3CA mutation per local assessment\n\nPart 2 (RP2D determined in Part 1) Patients with HR+, HER2-locally advanced or metastatic breast cancer with PIK3CA mutation per local assessment will be enrolled in protocol defined groups",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 930,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "First-in-Human Study of Mutant-selective PI3Kα Inhibitor, RLY-2608, as a Single Agent in Patients With Advanced Solid Tumors and in Combination With Endocrine Therapy +/- a CDK4/6 or CDK4 Inhibitor in Patients With Advanced Solid Tumors or Advanced Breast Cancer",
+     "nctId": "NCT05216432",
+     "officialTitle": "First-in-Human Study of Mutant-selective PI3Kα Inhibitor, RLY-2608, as a Single Agent in Patients With Advanced Solid Tumors and in Combination With Endocrine Therapy +/- a CDK4/6 or CDK4 Inhibitor in Patients With Advanced Solid Tumors or Advanced Breast Cancer",
+     "orgStudyIdInfo": {
+      "id": "RLY-2608-101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Relay Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Relay Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2027-04-30",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-09-22",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-09-17",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-04-30",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2021-12-08",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-09",
+     "studyFirstPostDateStruct": {
+      "date": "2022-01-31",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2021-12-20",
+     "studyFirstSubmitQcDate": "2022-01-18"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "RLY-5836 single agent arm for participants with unresectable or metastatic solid tumors",
+       "interventionNames": [
+        "Drug: RLY-5836"
+       ],
+       "label": "RLY-5836 Single Agent Arm",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "RLY-5836 + fulvestrant combination arm for participants with HR+, HER2- locally advanced or metastatic breast cancer",
+       "interventionNames": [
+        "Drug: RLY-5836",
+        "Drug: Fulvestrant"
+       ],
+       "label": "RLY-5836 + Fulvestrant Arm",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "RLY-5836 + palbociclib + fulvestrant triple combination arm for participants with HR+, HER2- locally advanced or metastatic breast cancer",
+       "interventionNames": [
+        "Drug: RLY-5836",
+        "Drug: Fulvestrant",
+        "Drug: Palbociclib"
+       ],
+       "label": "RLY-5836 + Palbociclib + Fulvestrant Arm",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "RLY-5836 + ribociclib + fulvestrant triple combination arm for participants with HR+, HER2- locally advanced or metastatic breast cancer",
+       "interventionNames": [
+        "Drug: RLY-5836",
+        "Drug: Fulvestrant",
+        "Drug: Ribociclib"
+       ],
+       "label": "RLY-5836 + Ribociclib + Fulvestrant Arm",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "RLY-5836 + abemaciclib + fulvestrant triple combination arm for participants with HR+, HER2- locally advanced or metastatic breast cancer",
+       "interventionNames": [
+        "Drug: RLY-5836",
+        "Drug: Fulvestrant",
+        "Drug: Abemaciclib"
+       ],
+       "label": "RLY-5836 + Abemaciclib + Fulvestrant Arm",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "RLY-5836 + Abemaciclib + Fulvestrant Arm",
+        "RLY-5836 + Fulvestrant Arm",
+        "RLY-5836 + Palbociclib + Fulvestrant Arm",
+        "RLY-5836 + Ribociclib + Fulvestrant Arm",
+        "RLY-5836 Single Agent Arm"
+       ],
+       "description": "RLY-5836 is a mutant-selective, oral PI3Kα inhibitor.",
+       "name": "RLY-5836",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "RLY-5836 + Abemaciclib + Fulvestrant Arm",
+        "RLY-5836 + Fulvestrant Arm",
+        "RLY-5836 + Palbociclib + Fulvestrant Arm",
+        "RLY-5836 + Ribociclib + Fulvestrant Arm"
+       ],
+       "description": "Fulvestrant (500 mg) is administered IM into the buttocks (gluteal area) slowly (1 to 2 minutes per injection) as 2×5 mL injections, 1 in each buttock, on Cycle 1 Day 1, Cycle 1 Day 15, and Day 1 of each subsequent cycle.",
+       "name": "Fulvestrant",
+       "otherNames": [
+        "Faslodex"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "RLY-5836 + Palbociclib + Fulvestrant Arm"
+       ],
+       "description": "Palbociclib 125 mg once daily is taken orally in combination with RLY-5836 and fulvestrant for 28-day cycles that include 21 days of treatment followed by 7 days off treatment.",
+       "name": "Palbociclib",
+       "otherNames": [
+        "Ibrance"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "RLY-5836 + Ribociclib + Fulvestrant Arm"
+       ],
+       "description": "Ribociclib 600 mg once daily is taken orally in combination with RLY-5836 and fulvestrant for 28-day cycles that include 21 days of treatment followed by 7 days off treatment.",
+       "name": "Ribociclib",
+       "otherNames": [
+        "Kisqali"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "RLY-5836 + Abemaciclib + Fulvestrant Arm"
+       ],
+       "description": "Abemaciclib 150 mg BID will be taken orally in combination with RLY-5836 and fulvestrant for 28-day cycles.",
+       "name": "Abemaciclib",
+       "otherNames": [
+        "Verzenio"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "PIK3CA Mutation",
+      "Solid Tumor, Adult",
+      "HER2-negative Breast Cancer",
+      "Breast Cancer",
+      "Metastatic Breast Cancer",
+      "Advanced Breast Cancer",
+      "Unresectable Solid Tumor",
+      "Hormone Receptor Positive Tumor"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 41,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "First-in-Human Study of RLY-5836 in Advanced Breast Cancer and Other Solid Tumors",
+     "nctId": "NCT05759949",
+     "officialTitle": "A First-in-Human Study of PI3Kα Inhibitor, RLY-5836, in Combination With Targeted and Endocrine Therapies in Participants With Advanced Breast Cancer and as a Single Agent in Advanced Solid Tumors",
+     "orgStudyIdInfo": {
+      "id": "RLY-5836-101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Relay Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Relay Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2025-04-11",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-05-16",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-05-13",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2025-03-18",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2023-03-29",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-05",
+     "studyFirstPostDateStruct": {
+      "date": "2023-03-08",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2023-01-23",
+     "studyFirstSubmitQcDate": "2023-03-07"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "RLY-2608 for patients ≥12 years old with PROS or malformations with PIK3CA mutation. Multiple doses of RLY-2608 for oral administration.",
+       "interventionNames": [
+        "Drug: RLY-2608"
+       ],
+       "label": "Part 1, Group 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "RLY-2608 for participants 6 to \\<12 years old with PROS or malformations with PIK3CA mutation.\n\nRLY-2608 will be studied in pediatric participants in a dose escalation design.",
+       "interventionNames": [
+        "Drug: RLY-2608"
+       ],
+       "label": "Part 1, Group 2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Part 1, Group 3: RLY-2608 for participants 2 to \\<6 years old with PROS or malformations with PIK3CA mutation.\n\nRLY-2608 will be studied in pediatric participants in a dose escalation design.",
+       "interventionNames": [
+        "Drug: RLY-2608"
+       ],
+       "label": "Part 1, Group 3",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Dose expansion single-arm cohorts for various subpopulations of participants ≥12 years old with PROS or malformations with PIK3CA mutation.\n\nOral dose of RLY-2608 as determined during Part 1.",
+       "interventionNames": [
+        "Drug: RLY-2608"
+       ],
+       "label": "Part 2, Group 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Dose expansion cohorts for participants 6 to \\<12 years old with PROS or malformations with PIK3CA mutation.\n\nOral dose of RLY-2608 as determined during Part 1.",
+       "interventionNames": [
+        "Drug: RLY-2608"
+       ],
+       "label": "Part 2, Group 2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Dose expansion cohorts for participants 2 to \\<6 years old with PROS or malformations with PIK3CA mutation.\n\nOral dose of RLY-2608 as determined during Part 1.",
+       "interventionNames": [
+        "Drug: RLY-2608"
+       ],
+       "label": "Part 2, Group 3",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Adult (\\>18 yo) and pediatric (6 to \\<18 yo) participants with PROS and malformations with PIK3CA mutation will be randomized to receive RLY-2608 at oral dose determined during Part 1/2.",
+       "interventionNames": [
+        "Drug: RLY-2608"
+       ],
+       "label": "Part 3, Arm 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Adult (\\>18 yo) and pediatric (6 to \\<18 yo) participants with PROS and malformations with PIK3CA mutation will be randomized to receive placebo.",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Part 3, Arm 2",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Part 1, Group 1",
+        "Part 1, Group 2",
+        "Part 1, Group 3",
+        "Part 2, Group 1",
+        "Part 2, Group 2",
+        "Part 2, Group 3",
+        "Part 3, Arm 1"
+       ],
+       "description": "RLY-2608 is a mutant-selective, oral PI3Kα inhibitor.",
+       "name": "RLY-2608",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Part 3, Arm 2"
+       ],
+       "description": "RLY-2608 matched-placebo",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "PIK3CA-Related Overgrowth Spectrum (PROS)",
+      "Lymphatic Malformations",
+      "Vascular Malformations",
+      "PIK3CA Mutation",
+      "CLOVES Syndrome",
+      "Klippel Trenaunay Syndrome",
+      "Megalencephaly-capillary Malformation Polymicrogyria Syndrome (MCAP)",
+      "Vascular Anomalies"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "interventionModelDescription": "Part 1: Dose selection: Participants ≥12 years old with PROS or malformations with PIK3CA mutation (Group 1) will be randomly assigned to a selected dose of RLY-2608 in an open-label fashion, stratified based on prior treatment with alpelisib. Groups 2 (6 to \\<12 years old) and 3 (2 to \\<6 years old): RLY-2608 will be studied in pediatric participants in a dose escalation design.\n\nPart 2: Part 2 will explore the clinical activity of RLY-2608 at 1 or more adult and pediatric recommended Phase 2 dose (RP2D) in various populations of participants with PROS and malformations associated with PIK3CA mutations in an open-label basket trial design.\n\nPart 3: In Part 3, adult (≥18 yo) and pediatric (6 to \\<18 yo) participants with PROS and malformations with PIK3CA mutation will be randomized to receive RLY-2608 at the Group 1 and 2 RP2Ds versus placebo. Randomization will be stratified based on indication, and prior systemic therapy.",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 277,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Phase 2 Study of Mutant-selective PI3Kα Inhibitor, RLY-2608, in Adults and Children With PIK3CA Related Overgrowth Spectrum and Malformations Driven by PIK3CA Mutation (The ReInspire Study)",
+     "nctId": "NCT06789913",
+     "officialTitle": "A Phase 2 Study of Mutant-selective PI3Kα Inhibitor, RLY-2608, in Adults and Children With PIK3CA Related Overgrowth Spectrum and Malformations Driven by PIK3CA Mutation",
+     "orgStudyIdInfo": {
+      "id": "RLY-2608-201"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Relay Therapeutics, Inc."
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "2024-518895-30-00",
+       "type": "CTIS"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Relay Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2031-10",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-08-25",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-08-21",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2031-07",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2025-06-13",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-06",
+     "studyFirstPostDateStruct": {
+      "date": "2025-01-23",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-01-17",
+     "studyFirstSubmitQcDate": "2025-01-17"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Zovegalisib + fulvestrant combination for participants with HR+/HER2- advanced breast cancer",
+       "interventionNames": [
+        "Drug: Zovegalisib",
+        "Drug: Fulvestrant"
+       ],
+       "label": "Zovegalisib + fulvestrant",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "capivasertib + fulvestrant combination for participants with HR+/HER2- advanced breast cancer",
+       "interventionNames": [
+        "Drug: Capivasertib",
+        "Drug: Fulvestrant"
+       ],
+       "label": "capivasertib + fulvestrant",
+       "type": "ACTIVE_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Zovegalisib + fulvestrant"
+       ],
+       "description": "400 mg orally BID administered daily on a 28-day treatment cycle",
+       "name": "Zovegalisib",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "capivasertib + fulvestrant"
+       ],
+       "description": "400mg orally BID administered on an intermittent weekly dosing schedule. Patients will dose on Days 1 through 4 each week of a 28-day treatment cycle",
+       "name": "Capivasertib",
+       "otherNames": [
+        "TRUQAP"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Zovegalisib + fulvestrant",
+        "capivasertib + fulvestrant"
+       ],
+       "description": "500 mg intramuscularly administered on Cycle 1 Day 1, Day 15, and Day 1 of each subsequent cycle (28-day treatment cycle)",
+       "name": "Fulvestrant",
+       "otherNames": [
+        "Faslodex"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "PIK3CA Mutation",
+      "HER2- Negative Breast Cancer",
+      "Hormone Receptor Positive Tumor",
+      "Breast Cancer",
+      "Metastatic Breast Cancer",
+      "Advanced Breast Cancer"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 540,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "ReDiscover-2",
+     "briefTitle": "Phase 3 Study of RLY-2608 + Fulvestrant vs Capivasertib + Fulvestrant as Treatment for Locally Advanced or Metastatic PIK3CA-mutant HR+/HER2- Breast Cancer",
+     "nctId": "NCT06982521",
+     "officialTitle": "A Phase 3 Open-Label Randomized Study Assessing the Efficacy and Safety of RLY-2608 + Fulvestrant Versus Capivasertib + Fulvestrant as Treatment for PIK3CA-mutant Hormone Receptor Positive, Human Epidermal Growth Factor Receptor 2 Negative (HR+/HER2-) Locally Advanced or Metastatic Breast Cancer Following Recurrence or Progression On or After Treatment With a CDK4/6 Inhibitor",
+     "orgStudyIdInfo": {
+      "id": "RLY-2608-102"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Relay Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Relay Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2031-12-31",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-05",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-01",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2028-04-30",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2025-08-26",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-07",
+     "studyFirstPostDateStruct": {
+      "date": "2025-05-21",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-05-08",
+     "studyFirstSubmitQcDate": "2025-05-20"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Multiple doses of RLY-8161 for oral administration",
+       "interventionNames": [
+        "Drug: RLY-8161"
+       ],
+       "label": "Part 1: RLY-8161 for participants with advanced NRAS-mutant solid tumors",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Oral doses of RLY-8161 as determined during Part 1 Dose Escalation",
+       "interventionNames": [
+        "Drug: RLY-8161"
+       ],
+       "label": "Part 2: RLY-8161 for participants with advanced NRAS-mutant solid tumors",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Part 1: RLY-8161 for participants with advanced NRAS-mutant solid tumors",
+        "Part 2: RLY-8161 for participants with advanced NRAS-mutant solid tumors"
+       ],
+       "description": "RLY-8161 is an NRAS-selective inhibitor",
+       "name": "RLY-8161",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Advanced NRAS-Mutant Melanoma",
+      "Advanced NRAS-Mutant Solid Tumors",
+      "NRAS Mutation",
+      "NRAS G12D",
+      "NRAS G13R",
+      "NRAS G13D",
+      "NRAS G12V",
+      "NRAS Q61R",
+      "NRAS Q61K",
+      "NRAS Q61L",
+      "NRAS Q61H"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 35,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A First-in-human Study of RLY-8161 in Advanced NRAS-Mutant Solid Tumors",
+     "nctId": "NCT07584226",
+     "officialTitle": "A First-in-human Study of RLY-8161 for Treatment of Advanced NRAS-Mutant Melanoma and Other Solid Tumors",
+     "orgStudyIdInfo": {
+      "id": "RLY-8161-101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Relay Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Relay Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2029-12-31",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-07-02",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-06-30",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-12-30",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2026-03-09",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-06",
+     "studyFirstPostDateStruct": {
+      "date": "2026-05-13",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2026-04-28",
+     "studyFirstSubmitQcDate": "2026-05-06"
+    }
+   }
+  }
+ ]
+}

@@ -29,18 +29,26 @@
 - **THEN** 预计数据读出字段为空
 
 ### Requirement: Posted results
-对已发布结果的试验，系统 SHALL 为每个主要终点记录终点名称、各组结果摘要（组名、数值、单位、离散度），以及登记的统计分析（p 值、方法），均为 fact，来源为该试验。不对结果做优劣判断。
+对登记阶段为 Phase 2 及以上且已发布结果的试验，系统 SHALL 为每个主要终点记录终点名称、各组结果摘要（组名、数值、单位、离散度），以及登记的统计分析（p 值、方法），均为 fact，来源为该试验。不对结果做优劣判断。
 
 #### Scenario: Primary outcome captured
 - **WHEN** 某完成试验已发布结果，含一个主要终点
 - **THEN** 有一条试验结果记录，终点名称与各组数值与登记内容一致
 
 ### Requirement: Derived pipeline
-系统 SHALL 从匹配试验中类型为药物、生物制品或基因疗法的干预推导管线：排除安慰剂类名称与人工排除文件中的名称，按规范化名称合并；每个（管线, 适应症）的阶段取其试验的最高登记阶段。管线、适应症与阶段均为 inference，置信度 medium，备注注明"由 CT.gov 登记推导，登记阶段不等于公司公告的研发阶段"。
+系统 SHALL 从匹配试验中类型为药物、生物制品或基因疗法的干预推导管线：排除安慰剂类名称、人工排除文件中的名称，以及由其他公司持有 FDA 批准的活性成分或品牌（视为联用药或对照药）；同一药物的代号、通用名与品牌名（依据试验登记的其他名称与 FDA 品牌—成分对应）合并为一条管线。每项试验以第一个登记适应症为其适应症；每个（管线, 适应症）的阶段取其试验的最高登记阶段。管线、适应症与阶段均为 inference，置信度 medium，备注注明"由 CT.gov 登记推导，登记阶段不等于公司公告的研发阶段"。
 
 #### Scenario: Highest registered phase wins
 - **WHEN** 某药在同一适应症有 Phase 2 与 Phase 3 两项试验
 - **THEN** 该管线适应症阶段为 phase3，声明类别为 inference
+
+#### Scenario: Another company's marketed drug is not a program
+- **WHEN** 某公司试验的干预包括由其他公司持有 FDA 批准的 fulvestrant
+- **THEN** 不为该公司生成 fulvestrant 管线
+
+#### Scenario: Code name and INN are one program
+- **WHEN** 试验登记 MGL-3196，其他名称为 resmetirom
+- **THEN** 两者归为同一条管线
 
 #### Scenario: Placebo is not a program
 - **WHEN** 某试验干预包括 "Placebo"

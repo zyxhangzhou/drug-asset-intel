@@ -1,0 +1,162 @@
+{
+ "nctId": "NCT03607487",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "2"
+        },
+        {
+         "groupId": "OG001",
+         "value": "6"
+        },
+        {
+         "groupId": "OG002",
+         "value": "4"
+        },
+        {
+         "groupId": "OG003",
+         "value": "1"
+        }
+       ]
+      }
+     ],
+     "title": "Grade 1"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "2"
+        },
+        {
+         "groupId": "OG001",
+         "value": "2"
+        },
+        {
+         "groupId": "OG002",
+         "value": "2"
+        },
+        {
+         "groupId": "OG003",
+         "value": "3"
+        }
+       ]
+      }
+     ],
+     "title": "Grade 2"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        },
+        {
+         "groupId": "OG002",
+         "value": "0"
+        },
+        {
+         "groupId": "OG003",
+         "value": "3"
+        }
+       ]
+      }
+     ],
+     "title": "Grade 3"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        },
+        {
+         "groupId": "OG002",
+         "value": "0"
+        },
+        {
+         "groupId": "OG003",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Grade 4"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "9"
+      },
+      {
+       "groupId": "OG001",
+       "value": "9"
+      },
+      {
+       "groupId": "OG002",
+       "value": "9"
+      },
+      {
+       "groupId": "OG003",
+       "value": "8"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "TEAE is defined as any adverse event either reported for the first time or worsening of a pre-existing event after first dose of study drug. Grading was performed using guidance from the CTCAE v 4.03. A grade 3 and above would constitute as \"severe\".",
+   "groups": [
+    {
+     "description": "Placebo was administered QD over an 8 week treatment period.",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "INCB054707 was administered at 30 mg QD over an 8 week treatment period.",
+     "id": "OG001",
+     "title": "INCB054707 at 30 mg"
+    },
+    {
+     "description": "INCB054707 was administered at 60 mg QD over an 8 week treatment period.",
+     "id": "OG002",
+     "title": "INCB054707 at 60 mg"
+    },
+    {
+     "description": "INCB054707 was administered at 90 mg QD over an 8 week treatment period.",
+     "id": "OG003",
+     "title": "INCB054707 at 90 mg"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Full Analysis Set Population",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to 12 weeks",
+   "title": "Number of Treatment-emergent Adverse Events (TEAEs)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

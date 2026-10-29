@@ -61,13 +61,21 @@ def test_pipeline_hierarchy_is_navigable(session):
     target = Target(ticker="ABCD", name="Abcd Therapeutics")
     program = Program(target=target, name="ABC-101")
     indication = ProgramIndication(program=program, indication="NSCLC", stage=Stage.phase2)
-    trial = Trial(nct_id="NCT00000001", indication=indication)
+    trial = Trial(nct_id="NCT00000001", target=target, indication=indication)
     session.add(trial)
     session.commit()
 
     loaded = session.exec(select(Target)).one()
     assert loaded.programs[0].indications[0].trials[0].nct_id == "NCT00000001"
     assert session.exec(select(Trial)).one().indication.program.target.ticker == "ABCD"
+
+
+def test_trial_without_program_is_reachable_from_target(session):
+    target = Target(ticker="ABCD", name="Abcd Therapeutics")
+    session.add(Trial(nct_id="NCT00000002", target=target, conditions="NSCLC", interventions="X-1"))
+    session.commit()
+    loaded = session.exec(select(Target)).one()
+    assert loaded.trials[0].indication is None and loaded.trials[0].conditions == "NSCLC"
 
 
 def test_buyer_detail_is_navigable(session):

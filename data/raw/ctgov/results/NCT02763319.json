@@ -1,0 +1,163 @@
+{
+ "nctId": "NCT02763319",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.837",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "1.351",
+     "estimateComment": "The hazard ratio estimate for treatment was based on a stratified Cox model with stratification factors as per the Interactive Web Response System (IWRS). Rituximab + bendamustine was the reference treatment group.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.468",
+     "paramType": "Hazard Ratio (HR)",
+     "paramValue": "1.06",
+     "statisticalComment": "The Inverse Normal method combines information (p-value) from the interim analysis and information from the final analysis.",
+     "statisticalMethod": "Inverse normal test"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "5.800",
+         "upperLimit": "8.500",
+         "value": "7.10"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "5.600",
+         "upperLimit": "11.500",
+         "value": "8.30"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "226"
+      },
+      {
+       "groupId": "OG001",
+       "value": "227"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Progression-free survival was defined as the time from randomization to tumor progression or death from any cause.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants received intravenous (IV) tafasitamab 12.0 milligrams per kilogram (mg/kg) in combination with IV bendamustine 90 mg/meters squared (m\\^2) in 28-day cycles for a maximum of 6 cycles. During Cycles 1 to 3, participants received tafastiamab on Days 1, 8, 15, and 22, plus a loading dose on Day 4 of Cycle 1. Participants received bendamustine on either Days 2 and 3 or Days 1 and 2 of Cycles 1 to 6. Participants with an ongoing response of at least partial response at the end of Cycle 6, as per local assessment, continued tafasitamab or rituximab monotherapy per initially allocated treatment until disease progression. Treatment was stopped due to disease progression, unacceptable toxicity, death, or discontinuation for any other reason, whichever came first.",
+     "id": "OG000",
+     "title": "Tafasitamab + Bendamustine"
+    },
+    {
+     "description": "Participants received IV rituximab 375 mg/m\\^2 in combination with IV bendamustine 90 mg/m\\^2 in 28-day cycles for a maximum of 6 cycles. Participants received rituximab on Day 1 of each cycle until disease progression. Participants received bendamustine on either Days 2 and 3 or Days 1 and 2 of Cycles 1 to 6. Participants with an ongoing response of at least partial response at the end of Cycle 6, as per local assessment, continued tafasitamab or rituximab monotherapy per initially allocated treatment until disease progression. Treatment was stopped due to disease progression, unacceptable toxicity, death, or discontinuation for any other reason, whichever came first.",
+     "id": "OG001",
+     "title": "Rituximab + Bendamustine"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "Full Analysis Set (FAS): all participants who were randomized to either treatment arm. Participants were analyzed according to the treatment and stratification factors they were assigned to during the randomization procedure. 95% confidence intervals (CIs) (Greenwood formula) for the median and the 25th and 75th percentiles were calculated using the method of Brookmeyer and Crowley.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "up to 41.4 months",
+   "title": "Kaplan-Meier Estimate of Progression-Free Survival by Independent Radiology/Clinical Review Committee Assessment in the Overall Population",
+   "type": "PRIMARY",
+   "unitOfMeasure": "months"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.586",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "1.330",
+     "estimateComment": "The hazard ratio estimate for treatment was based on a stratified Cox model with stratification factors as per the Interactive Web Response System. Rituximab + bendamustine is the reference treatment group.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.568",
+     "paramType": "Hazard Ratio (HR)",
+     "paramValue": "0.88",
+     "statisticalComment": "The Inverse Normal method combines information (p-value) from the interim analysis and information from the final analysis.",
+     "statisticalMethod": "Inverse normal test"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "4.400",
+         "upperLimit": "8.600",
+         "value": "5.60"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "3.600",
+         "upperLimit": "10.000",
+         "value": "5.60"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "88"
+      },
+      {
+       "groupId": "OG001",
+       "value": "74"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Progression-free survival was defined as the time from randomization to tumor progression or death from any cause.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants received intravenous (IV) tafasitamab 12.0 milligrams per kilogram (mg/kg) in combination with IV bendamustine 90 mg/meters squared (m\\^2) in 28-day cycles for a maximum of 6 cycles. During Cycles 1 to 3, participants received tafastiamab on Days 1, 8, 15, and 22, plus a loading dose on Day 4 of Cycle 1. Participants received bendamustine on either Days 2 and 3 or Days 1 and 2 of Cycles 1 to 6. Participants with an ongoing response of at least partial response at the end of Cycle 6, as per local assessment, continued tafasitamab or rituximab monotherapy per initially allocated treatment until disease progression. Treatment was stopped due to disease progression, unacceptable toxicity, death, or discontinuation for any other reason, whichever came first.",
+     "id": "OG000",
+     "title": "Tafasitamab + Bendamustine"
+    },
+    {
+     "description": "Participants received IV rituximab 375 mg/m\\^2 in combination with IV bendamustine 90 mg/m\\^2 in 28-day cycles for a maximum of 6 cycles. Participants received rituximab on Day 1 of each cycle until disease progression. Participants received bendamustine on either Days 2 and 3 or Days 1 and 2 of Cycles 1 to 6. Participants with an ongoing response of at least partial response at the end of Cycle 6, as per local assessment, continued tafasitamab or rituximab monotherapy per initially allocated treatment until disease progression. Treatment was stopped due to disease progression, unacceptable toxicity, death, or discontinuation for any other reason, whichever came first.",
+     "id": "OG001",
+     "title": "Rituximab + Bendamustine"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "Natural Killer Cell Count-Low Full Analysis Set: participants in the FAS with ≤100 NK cells/µL at Baseline. 95% CIs (Greenwood formula) for the median and the 25th and 75th percentiles were calculated using the method of Brookmeyer and Crowley.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "up to 46.5 months",
+   "title": "Kaplan-Meier Estimate of Progression-Free Survival by Independent Radiology/Clinical Review Committee Assessment in the Natural Killer Cell Count-Low Subgroup",
+   "type": "PRIMARY",
+   "unitOfMeasure": "months"
+  }
+ ]
+}

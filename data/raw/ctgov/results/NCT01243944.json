@@ -1,0 +1,82 @@
+{
+ "nctId": "NCT01243944",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "5.04",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "1337",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+     "pValue": "< 0.0001",
+     "paramType": "Odds Ratio, log",
+     "paramValue": "32.67",
+     "statisticalMethod": "Exact Cochran-Mantel-Haenszel"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "15.3",
+         "upperLimit": "31.7",
+         "value": "22.7"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "0.0",
+         "upperLimit": "4.9",
+         "value": "0.9"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "110"
+      },
+      {
+       "groupId": "OG001",
+       "value": "112"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Primary response was defined as having achieved hematocrit control (the absence of phlebotomy eligibility beginning at the Week 8 visit and continuing through Week 32) and Spleen Volume Reduction (a greater than or equal to 35% reduction from baseline in spleen volume at Week 32).",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Starting dose of 10 mg BID with individualized dose titration ranging from 5 mg QD to 25 mg BID based on safety and efficacy",
+     "id": "OG000",
+     "title": "Ruxolitinib"
+    },
+    {
+     "description": "Best Available Therapy (BAT) will be selected by the Investigator for each participant. BAT may not include experimental agents (i.e. those not approved for the treatment of any indication) as well as a limited number of other selected drugs in accordance with the protocol-defined requirements.",
+     "id": "OG001",
+     "title": "Best Available Therapy"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Full Analysis Set (FAS) comprises all participants to whom study treatment had been assigned by randomization.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "32 Weeks",
+   "title": "The Percentage of Participants Achieving a Primary Response at Week 32",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

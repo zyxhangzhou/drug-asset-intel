@@ -1,0 +1,47 @@
+{
+ "nctId": "NCT03597295",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "13.8"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "94"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "ORR was defined as the percentage of participants with a best overall response of complete response (CR) or partial response (PR), per Response Evaluation Criteria in Solid Tumors (RECIST) version 1.1 (v1.1), as assessed by independent central radiographic (ICR) review, at any post-Baseline visit until new anti-cancer therapy or first Progressive Disease. CR: disappearance of all target and non-target lesions and no appearance of any new lesions. Any pathological lymph nodes (whether target or non-target) must have a reduction in the short axis to \\<10 millimeters (mm). PR: complete disappearance or at least a 30% decrease in the sum of the diameters of target lesions, taking as a reference the baseline sum diameters, no new lesions, and no progression of non-target lesions.",
+   "groups": [
+    {
+     "description": "Participants received retifanlimab 500 milligrams (mg) intravenously every 4 weeks (Q4W).",
+     "id": "OG000",
+     "title": "Retifanlimab 500 mg"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Full Analysis Set: all participants enrolled in the study who received at least 1 dose of study drug",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Cycle 1 Day 1, and every 4 weeks throughout the study, up to approximately 24 months",
+   "title": "Objective Response Rate (ORR)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

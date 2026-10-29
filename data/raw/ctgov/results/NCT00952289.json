@@ -1,0 +1,73 @@
+{
+ "nctId": "NCT00952289",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciPctValue": "95",
+     "groupDescription": "The primary endpoint analyzed with a 2-sided alpha of 0.05.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+     "pValue": "<0.0001",
+     "statisticalMethod": "Fisher Exact"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "65"
+        },
+        {
+         "groupId": "OG001",
+         "value": "1"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "155"
+      },
+      {
+       "groupId": "OG001",
+       "value": "153"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Spleen volume was assessed by magnetic resonance imaging (MRI) or by computed tomography (CT) scans if MRI was not suitable, and analyzed by a blinded central laboratory reader. Patients who withdrew, crossed over to ruxolitinib prior to the visit, or had a missing value at the visit were considered non-responders.",
+   "groups": [
+    {
+     "description": "Participants began treatment with ruxolitinib 15 or 20 mg taken orally twice a day based on Baseline platelet count. The dose was adjusted by the Investigator based on efficacy and safety to a maximum of 25 mg twice daily.",
+     "id": "OG000",
+     "title": "Ruxolitinib"
+    },
+    {
+     "description": "Placebo tablets matching ruxolitinib were administered orally twice a day at a starting dose based on Baseline platelet count. Doses were titrated using the same guidelines as for active drug. Patients meeting pre-specified requirements were given the opportunity to cross over to ruxolitinib treatment.",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Intent-to-treat (ITT) population included all subjects randomized in the study. Treatment groups for this population were defined according to the treatment assignment at randomization. One patient was not included in the analysis due to a missing baseline spleen volume value.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline and Week 24",
+   "title": "Number of Participants Achieving ≥ 35% Reduction in Spleen Volume From Baseline to Week 24",
+   "type": "PRIMARY",
+   "unitOfMeasure": "participants"
+  }
+ ]
+}

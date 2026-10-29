@@ -2,15 +2,15 @@
 
 ## 1. 模型与框架
 
-- [ ] 1.1 修改 `Trial`：增加 `target_id`、原始文本、日期与入组类型；新增 `ApprovedProduct`；`TrialResult` 增加 `analysis`；`snapshot_meta` 与 `/api/meta` 增加 `snapshot_date`；前端标签同步。测试：试验可直接从标的查到；元信息返回快照日。
-- [ ] 1.2 抓取通用件：限速、跳过已有缓存与 `--refresh`、按公司记录失败日志、旁注文件记完整响应哈希；候选池与别名集合（含 `data/manual/sponsor_aliases.csv`）。测试：mock 传输层下单家失败不影响其余；别名规范化去掉公司后缀。
+- [x] 1.1 修改 `Trial`：增加 `target_id`、原始文本、日期与入组类型；新增 `ApprovedProduct`；`TrialResult` 增加 `analysis`；`snapshot_meta` 与 `/api/meta` 增加 `snapshot_date`；前端标签同步。测试：试验可直接从标的查到；元信息返回快照日。
+- [x] 1.2 抓取通用件：限速、跳过已有缓存与 `--refresh`、按公司记录失败日志、旁注文件记完整响应哈希；候选池与别名集合（含 `data/manual/sponsor_aliases.csv`）。测试：mock 传输层下单家失败不影响其余；别名规范化去掉公司后缀。
 
 ## 2. ClinicalTrials.gov
 
-- [ ] 2.1 `intel fetch ctgov`：按别名检索、分页、字段裁剪；对有结果的试验抓取主要终点。用一家公司的真实响应做 fixture。测试：分页合并、按 NCT 去重。
-- [ ] 2.2 构建步骤：牵头申办方精确过滤、试验字段与声明、阶段映射、预计 / 实际日期类型、未匹配公司记缺口。测试：误检的试验被丢弃；ESTIMATED 日期带类型；读出时间为空。
-- [ ] 2.3 试验结果：主要终点、各组数值、统计分析写入 `TrialResult`。测试：fixture 中的终点名称与数值一一对应。
-- [ ] 2.4 管线推导：干预过滤、名称规范化合并、最高阶段、推断声明。测试：Placebo 不生成管线；Phase 2 + Phase 3 得 phase3。
+- [x] 2.1 `intel fetch ctgov`：按别名检索、分页、字段裁剪；对有结果的试验抓取主要终点。用一家公司的真实响应做 fixture。测试：分页合并、按 NCT 去重。
+- [x] 2.2 构建步骤：牵头申办方精确过滤、试验字段与声明、阶段映射、预计 / 实际日期类型、未匹配公司记缺口。测试：误检的试验被丢弃；ESTIMATED 日期带类型；读出时间为空。
+- [x] 2.3 试验结果：主要终点、各组数值、统计分析写入 `TrialResult`。测试：fixture 中的终点名称与数值一一对应。
+- [x] 2.4 管线推导：干预过滤、名称规范化合并、最高阶段、推断声明。测试：Placebo 不生成管线；Phase 2 + Phase 3 得 phase3。
 
 ## 3. SEC XBRL 与行情
 
@@ -20,7 +20,7 @@
 
 ## 4. openFDA
 
-- [ ] 4.1 `intel fetch openfda` 与构建：按别名查询，404 视为无产品；获批产品与 Drugs@FDA 链接。测试：404 不算失败；NDA 样例的字段与接口一致。
+- [x] 4.1 `intel fetch openfda` 与构建：按别名查询，404 视为无产品；获批产品与 Drugs@FDA 链接。测试：404 不算失败；NDA 样例的字段与接口一致。
 
 ## 5. 真实数据与验收
 

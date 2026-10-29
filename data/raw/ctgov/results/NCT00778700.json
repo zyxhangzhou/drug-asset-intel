@@ -1,0 +1,147 @@
+{
+ "nctId": "NCT00778700",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-1.85",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "90",
+     "ciUpperLimit": "-0.51",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "0.406",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0041",
+     "paramType": "Least Squares (LS) Mean Difference",
+     "paramValue": "-1.18",
+     "statisticalComment": "The ANCOVA model included treatment as the main factor and Baseline score as the covariate.",
+     "statisticalMethod": "ANCOVA"
+    },
+    {
+     "ciLowerLimit": "-2.08",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "90",
+     "ciUpperLimit": "-0.73",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "0.408",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0007",
+     "paramType": "LS Mean Difference",
+     "paramValue": "-1.40",
+     "statisticalComment": "The ANCOVA model included treatment as the main factor and Baseline score as the covariate.",
+     "statisticalMethod": "ANCOVA"
+    },
+    {
+     "ciLowerLimit": "-1.88",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "90",
+     "ciUpperLimit": "-0.53",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "0.407",
+     "groupIds": [
+      "OG000",
+      "OG003"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0035",
+     "paramType": "LS Mean Difference",
+     "paramValue": "-1.21",
+     "statisticalComment": "The ANCOVA model included treatment as the main factor and Baseline score as the covariate.",
+     "statisticalMethod": "ANCOVA"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.290",
+         "value": "-1.07"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.284",
+         "value": "-2.25"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "0.285",
+         "value": "-2.47"
+        },
+        {
+         "groupId": "OG003",
+         "spread": "0.287",
+         "value": "-2.27"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "47"
+      },
+      {
+       "groupId": "OG001",
+       "value": "49"
+      },
+      {
+       "groupId": "OG002",
+       "value": "49"
+      },
+      {
+       "groupId": "OG003",
+       "value": "48"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Total Lesion Score is calculated as the sum of component scores for erythema (E), scaling (S), and thickness (T) of the study-treated lesions taken together. Each component consists of ratings of 0=none, 1=mild, 2=moderate, 3=marked, and 4=severe such that total lesion score can vary in value from 0 to 12. A negative change from Baseline indicates improvement.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Vehicle cream, applied topically, once daily from Day 1 to Week 12.",
+     "id": "OG000",
+     "title": "Vehicle Cream"
+    },
+    {
+     "description": "Ruxolitinib phosphate 0.5% cream, applied topically, once daily from Day 1 to Week 12.",
+     "id": "OG001",
+     "title": "Ruxolitinib Phosphate 0.5% Cream"
+    },
+    {
+     "description": "Ruxolitinib phosphate 1.0% cream, applied topically, once daily from Day 1 to Week 12.",
+     "id": "OG002",
+     "title": "Ruxolitinib Phosphate 1.0% Cream"
+    },
+    {
+     "description": "Ruxolitinib phosphate 1.5% cream, applied topically, once daily from Day 1 to Week 12.",
+     "id": "OG003",
+     "title": "Ruxolitinib Phosphate 1.5% Cream"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "All participants who were randomized to treatment and had both a baseline visit and received at least one application of study drug were included in the ITT population. Overall number of participants analyzed are the participants with data available for analysis.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "From Baseline (Day 1) to Day 84",
+   "title": "Absolute Change From Baseline in Total Lesion Score for All Treatable Psoriatic Lesions to Day 84",
+   "type": "PRIMARY",
+   "unitOfMeasure": "score on a scale"
+  }
+ ]
+}

@@ -1,0 +1,99 @@
+{
+ "nctId": "NCT05127421",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.83",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "9.47",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.091",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "2.81",
+     "statisticalComment": "stratified by the stratification factor (face and/or neck Investigator's Global Assessment \\[IGA\\] score of 2 or 3 at screening).",
+     "statisticalMethod": "Cochran-Mantel-Haenszel"
+    },
+    {
+     "ciLowerLimit": "-0.5",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "39.6",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "10.23",
+     "estimateComment": "The 95% confidence interval was computed based on a large-sample normal approximation with continuity correction.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "paramType": "response rate difference",
+     "paramValue": "19.5"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "5.0",
+         "upperLimit": "38.8",
+         "value": "17.4"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "24.3",
+         "upperLimit": "51.3",
+         "value": "37.0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "23"
+      },
+      {
+       "groupId": "OG001",
+       "value": "54"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The EASI scoring system examines 4 areas of the body (head/neck, trunk, upper limbs, and lower limbs) and weights them for participants of at least 8 years of age. Each of the 4 body regions is assessed separately for erythema (E), induration/papulation/edema (I), excoriations (Ex), and lichenification (l) on a scale of 0 to 3 (0 = none, absent; 1 = mild; 2 = moderate; 3 = severe). Half scores are allowed between severities 1, 2, and 3. The final EASI score was obtained by weight-averaging these 4 scores and will range from 0 to 72; the severity strata are as follows: 0 = clear; 0.1 to 1.0 = almost clear; 1.1 to 7.0 = mild; 7.1 to 21.0 = moderate; 21.1 to 50.0 = severe; 50.1 to 72.0 = very severe. Specifically for the head and neck region, the EASI score ranges from 0 to 7.2 An EASI75 responder was defined as a participant achieving a 75% or greater improvement from Baseline in the EASI score for the head and neck.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants applied matching vehicle cream BID for 4 weeks.",
+     "id": "OG000",
+     "title": "Double-Blind Period: Vehicle Cream BID"
+    },
+    {
+     "description": "Participants applied ruxolitinib 1.5% cream twice daily (BID) for 4 weeks.",
+     "id": "OG001",
+     "title": "Double-Blind Period: Ruxolitinib Cream 1.5% BID"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Full Analysis Population: all participants enrolled in the study who had at least 1 application of study drug. Missing post-Baseline values were imputed as Non-Responders at Week 4. The 95% confidence interval for the difference was computed based on a large-sample normal approximation with continuity correction.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline; Week 4",
+   "title": "Percentage of Participants Who Achieve a ≥75% Improvement in the Eczema Area and Severity Index Score (EASI75) of the Head and Neck Region at Week 4",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

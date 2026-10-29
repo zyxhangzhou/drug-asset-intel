@@ -1,0 +1,115 @@
+{
+ "nctId": "NCT04629508",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "4"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "4"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "An adverse event was defined as any untoward medical occurrence associated with the use of a drug in humans, whether or not it was considered drug-related. An AE could therefore have been any unfavorable or unintended sign (including an abnormal laboratory finding), symptom, or disease (new or exacerbated) temporally associated with the use of study treatment. A TEAE was defined as an AE that was reported for the first time or the worsening of a pre-existing event after the first dose of study treatment.",
+   "groups": [
+    {
+     "description": "Participants received itacitinib immediate release 300 milligrams (mg) twice a day (BID) orally (PO) for at least 24 weeks. Participants could remain on treatment as long as they were receiving clinical benefit and had not met any criteria for treatment discontinuation.",
+     "id": "OG000",
+     "title": "Itacitinib 300 mg"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Safety Evaluable Population: all participants enrolled in the study who received at least 1 dose of study treatment",
+   "reportingStatus": "POSTED",
+   "timeFrame": "up to 724 days",
+   "title": "Part 1: Number of Participants With Any Treatment-emergent Adverse Event (TEAE)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "4"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "4"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "A TEAE was defined as an AE that was reported for the first time or the worsening of a pre-existing event after the first dose of study treatment. The severity of AEs was assessed using Common Terminology Criteria for Adverse Events (CTCAE) v5.0 Grades 1 through 5. The investigator made an assessment of intensity for each AE and SAE reported during the study and assigned it to 1 of the following categories: Grade 1: mild; asymptomatic or mild symptoms; clinical or diagnostic observations only; treatment not indicated. Grade 2: moderate; minimal, local, or noninvasive treatment indicated; limiting age-appropriate activities of daily living. Grade 3: severe or medically significant but not immediately life-threatening; hospitalization or prolongation of hospitalization indicated; disabling; limiting self-care activities of daily living. Grade 4: life-threatening consequences; urgent treatment indicated. Grade 5: fatal.",
+   "groups": [
+    {
+     "description": "Participants received itacitinib immediate release 300 milligrams (mg) twice a day (BID) orally (PO) for at least 24 weeks. Participants could remain on treatment as long as they were receiving clinical benefit and had not met any criteria for treatment discontinuation.",
+     "id": "OG000",
+     "title": "Itacitinib 300 mg"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Safety Evaluable Population",
+   "reportingStatus": "POSTED",
+   "timeFrame": "up to 724 days",
+   "title": "Part 1: Number of Participants With Any Grade 3 or Higher TEAE",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "0"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "SRR was defined as the percentage of participants who had a reduction in spleen volume (by imaging) of at least 35% when compared with Baseline.",
+   "groups": [
+    {
+     "description": "Participants received itacitinib immediate release 300 milligrams (mg) twice a day (BID) orally (PO) for at least 24 weeks. Participants could remain on treatment as long as they were receiving clinical benefit and had not met any criteria for treatment discontinuation.",
+     "id": "OG000",
+     "title": "Itacitinib 300 mg"
+    }
+   ],
+   "populationDescription": "Analysis was not conducted because Part 2 never opened for enrollment.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline; Week 24",
+   "title": "Part 2: Splenic Response Rate (SRR) at Week 24",
+   "type": "PRIMARY"
+  }
+ ]
+}

@@ -1,0 +1,86 @@
+{
+ "nctId": "NCT02872714",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG003",
+         "lowerLimit": "10.92",
+         "upperLimit": "26.70",
+         "value": "17.8"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "0"
+      },
+      {
+       "groupId": "OG001",
+       "value": "0"
+      },
+      {
+       "groupId": "OG002",
+       "value": "0"
+      },
+      {
+       "groupId": "OG003",
+       "value": "101"
+      },
+      {
+       "groupId": "OG004",
+       "value": "0"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "ORR was defined as the percentage of participants with a best overall response of complete response (CR) or partial response (PR) at any post-Baseline visit prior to first progressive disease (PD), per Response Evaluation Criteria in Solid Tumors (RECIST) version 1.1 (v1.1). CR: disappearance of all target and non-target lesions and no appearance of any new lesions. Any pathological lymph nodes (whether target or non-target) must have a reduction in the short axis to \\<10 millimeters (mm). PR: complete disappearance or at least a 30% decrease in the sum of the diameters of target lesions, taking as a reference the baseline sum diameters, no new lesions, and no progression of non-target lesions. Response was based on review of scans by an independent centralized radiological review committee. Response was confirmed.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants with fibroblast growth factor (FGF) receptor 3 (FGFR3) mutations or fusions self-administered oral pemigatinib at a starting dose of 13.5 milligrams (mg) once daily (QD) on an intermittent dose (ID) (2-weeks-on/1-week-off therapy) schedule in 21-day cycles. Participants who did not reach the target serum phosphate level of \\> 5.5 mg/deciliter (dL) could have increased the daily dose to 18 mg, provided they had no ongoing Grade 2 or higher treatment-related treatment-emergent adverse events (TEAEs), and they had been compliant with taking the study drug.",
+     "id": "OG000",
+     "title": "Cohort A-ID: FGFR3 Mutations or Fusions"
+    },
+    {
+     "description": "Participants with all other FGF/FGFR alterations self-administered oral pemigatinib at a starting dose of 13.5 mg QD on an ID (2-weeks-on/1-week-off therapy) schedule in 21-day cycles. Participants who did not reach the target serum phosphate level of \\> 5.5 mg/dL could have increased the daily dose to 18 mg, provided they had no ongoing Grade 2 or higher treatment-related TEAEs, and they had been compliant with taking the study drug.",
+     "id": "OG001",
+     "title": "Cohort B-ID: All Other FGF/FGFR Alterations"
+    },
+    {
+     "description": "Participants with no FGF/FGFR alterations or with an undetermined FGF/FGFR status self-administered oral pemigatinib at a starting dose of 13.5 mg QD on an ID (2-weeks-on/1-week-off therapy) schedule in 21-day cycles. Participants who did not reach the target serum phosphate level of \\> 5.5 mg/dL could have increased the daily dose to 18 mg, provided they had no ongoing Grade 2 or higher treatment-related TEAEs, and they had been compliant with taking the study drug.",
+     "id": "OG002",
+     "title": "Other-ID"
+    },
+    {
+     "description": "Participants with FGFR3 mutations or fusions self-administered oral pemigatinib at a starting dose of 13.5 mg QD on a continuous dose (CD) (no planned dose hold) schedule in 21-day cycles. Participants who did not reach the target serum phosphate level of \\> 5.5 mg/dL could have increased the daily dose to 18 mg, provided they had no ongoing Grade 2 or higher treatment-related TEAEs, and they had been compliant with taking the study drug.",
+     "id": "OG003",
+     "title": "Cohort A-CD: FGFR3 Mutations or Fusions"
+    },
+    {
+     "description": "Participants with no FGF/FGFR alterations or with an undetermined FGF/FGFR status self-administered oral pemigatinib at a starting dose of 13.5 mg QD on a continuous dose (CD) (no planned dose hold) schedule in 21-day cycles. Participants who did not reach the target serum phosphate level of \\> 5.5 mg/dL could have increased the daily dose to 18 mg, provided they had no ongoing Grade 2 or higher treatment-related TEAEs, and they had been compliant with taking the study drug.",
+     "id": "OG004",
+     "title": "Other-CD"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Efficacy Evaluable Population: all participants enrolled in the study who had a known FGF/FGFR alteration confirmed by the sponsor's central laboratory and who had received at least 1 dose of study drug. The confidence interval was calculated based on the exact method for binomial distribution.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "up to 1138 days",
+   "title": "Objective Response Rate (ORR) in Participants With FGFR3 Mutations or Fusions on a CD Regimen",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

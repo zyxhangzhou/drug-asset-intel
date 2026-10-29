@@ -1,0 +1,80 @@
+{
+ "nctId": "NCT03011892",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-77.85",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-41.47",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "< 0.0001",
+     "paramType": "Difference in Least Square (LS) Mean",
+     "paramValue": "-59.66",
+     "statisticalMethod": "MMRM"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "6.65",
+         "value": "-11.90"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "6.42",
+         "value": "-71.57"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "44"
+      },
+      {
+       "groupId": "OG001",
+       "value": "49"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "EASI is a validated composite scoring system integrating the proportion of the body region (area) involved and the intensity of key signs of atopic dermatitis (AD). The EASI score examines 4 areas of the body and weights them for participants 8 years of age and older as follows: Head/Neck (H) = 0.1, Upper limbs (UL) = 0.2, Trunk (T) = 0.3, and Lower limbs (LL) = 0.4. The severity strata for the EASI are as follows: 0 = clear; 0.1 to 1.0 = almost clear; 1.1 to 7.0 = mild; 7.1 to 21.0 = moderate; 21.1 to 50.0 = severe; 50.1 to 72.0 = very severe. The total EASI score for each region is calculated by multiplying the severity score by the area score, with adjustment for the proportion of the body region to the whole body. The total EASI score ranges from 0 to 72. A higher score indicated worse disease status, and a negative change from baseline indicated improvement.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Participants applied vehicle cream BID for 8 weeks in DB period.",
+     "id": "OG000",
+     "title": "DB: Vehicle BID"
+    },
+    {
+     "description": "Participants applied ruxolitinib 1.5% cream BID for 8 weeks in DB period.",
+     "id": "OG001",
+     "title": "DB: Ruxolitinib 1.5% BID"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Participants from Intent to treat (ITT) population, all participants who are randomized to vehicle BID or ruxolitinib 1.5% BID, with available data were included in the analysis.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline and Week 4",
+   "title": "Mean Percentage Change From Baseline in Eczema Area and Severity Index (EASI) Score at Week 4 in Participants Treated With Ruxolitinib 1.5% Cream Twice a Day (BID) Compared With Participants Treated With Vehicle Cream BID",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percent change"
+  }
+ ]
+}

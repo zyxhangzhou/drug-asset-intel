@@ -1,0 +1,417 @@
+{
+ "nctId": "NCT03656536",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.39",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.87",
+     "estimateComment": "The hazard ratio was estimated using a stratified Cox proportional hazard model using Efron's method accounting for ties in event times. The strata information was based on the IRT randomization data.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0078",
+     "paramType": "Hazard Ratio (HR)",
+     "paramValue": "0.58",
+     "statisticalComment": "p-value was calculated using a stratified log-rank test; strata information was based on the interactive response technology (IRT) randomization data.",
+     "statisticalMethod": "Log Rank"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "6.51",
+         "upperLimit": "12.22",
+         "value": "8.34"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "6.05",
+         "upperLimit": "8.25",
+         "value": "6.80"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "83"
+      },
+      {
+       "groupId": "OG001",
+       "value": "84"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "PFS was defined as the time from the date of randomization until the date of disease progression (according to Response Evaluation Criteria in Solid Tumors version 1.1 \\[RECIST v1.1\\] and assessed by an Independent Central Review \\[ICR\\]) or death, whichever occurs first.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants received oral pemigatinib 13.5 milligrams (mg) once daily (QD) continuous therapy in 3-week cycles. Treatment continued until disease progression per Response Evaluation Criteria in Solid Tumors version 1.1 (RECIST v1.1) assessed by Independent Central Review (ICR), unacceptable toxicity, or another treatment discontinuation criterion was met.",
+     "id": "OG000",
+     "title": "Pemigatinib 13.5 mg QD"
+    },
+    {
+     "description": "Participants received gemcitabine 1000 milligrams per square meter (mg/m\\^2) plus cisplatin 25 mg/m\\^2 intravenously on Days 1 and 8 every 3 weeks for up to 8 cycles (if 1 cycle was administered prior to randomization, the total of 8 cycles included that prior cycle as well). If disease progression occurred per RECIST v1.1 assessed by ICR, a transition to pemigatinib 13.5 mg QD was allowed.",
+     "id": "OG001",
+     "title": "Gemcitabine 1000 mg/m^2 Plus Cisplatin 25 mg/m^2 to Pemigatinib 13.5 mg QD"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "Intent-to-Treat (ITT) Population: all randomized participants. Treatment groups were defined according to the treatment assignment at the time of randomization. Median survival time was estimated using the Kaplan-Meier method. The 95% confidence intervals (Cis) were calculated with the Brookmeyer and Crowley method (log-log transformation).",
+   "reportingStatus": "POSTED",
+   "timeFrame": "up to 1422 days",
+   "title": "Randomized Treatment Period: Progression-free Survival (PFS)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "months"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "81.0",
+         "upperLimit": "94.9",
+         "value": "90.0"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "66.3",
+         "upperLimit": "85.7",
+         "value": "77.8"
+        }
+       ]
+      }
+     ],
+     "title": "3 months"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "57.1",
+         "upperLimit": "77.9",
+         "value": "68.8"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "51.9",
+         "upperLimit": "74.3",
+         "value": "64.3"
+        }
+       ]
+      }
+     ],
+     "title": "6 months"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "32.7",
+         "upperLimit": "55.8",
+         "value": "44.6"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "16.0",
+         "upperLimit": "38.2",
+         "value": "26.5"
+        }
+       ]
+      }
+     ],
+     "title": "9 months"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "27.3",
+         "upperLimit": "50.6",
+         "value": "39.1"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "8.6",
+         "upperLimit": "27.9",
+         "value": "17.1"
+        }
+       ]
+      }
+     ],
+     "title": "12 months"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "10.8",
+         "upperLimit": "33.2",
+         "value": "20.9"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "2.2",
+         "upperLimit": "20.2",
+         "value": "8.5"
+        }
+       ]
+      }
+     ],
+     "title": "24 months"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "3.1",
+         "upperLimit": "26.4",
+         "value": "11.6"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "2.2",
+         "upperLimit": "20.2",
+         "value": "8.5"
+        }
+       ]
+      }
+     ],
+     "title": "36 months"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "83"
+      },
+      {
+       "groupId": "OG001",
+       "value": "84"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "PFS was defined as the time from the date of randomization until the date of disease progression (according to RECIST v1.1 and assessed by an ICR) or death, whichever occurs first. Kaplan-Meier estimates indicate the percent probability of a participant being alive at the indicated time after treatment start.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants received oral pemigatinib 13.5 milligrams (mg) once daily (QD) continuous therapy in 3-week cycles. Treatment continued until disease progression per Response Evaluation Criteria in Solid Tumors version 1.1 (RECIST v1.1) assessed by Independent Central Review (ICR), unacceptable toxicity, or another treatment discontinuation criterion was met.",
+     "id": "OG000",
+     "title": "Pemigatinib 13.5 mg QD"
+    },
+    {
+     "description": "Participants received gemcitabine 1000 milligrams per square meter (mg/m\\^2) plus cisplatin 25 mg/m\\^2 intravenously on Days 1 and 8 every 3 weeks for up to 8 cycles (if 1 cycle was administered prior to randomization, the total of 8 cycles included that prior cycle as well). If disease progression occurred per RECIST v1.1 assessed by ICR, a transition to pemigatinib 13.5 mg QD was allowed.",
+     "id": "OG001",
+     "title": "Gemcitabine 1000 mg/m^2 Plus Cisplatin 25 mg/m^2 to Pemigatinib 13.5 mg QD"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "ITT Population. The number of participants analyzed for the Kaplan-Meier estimate at each time point refers to the total number of participants in the analysis set.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "up to 1422 days",
+   "title": "Randomized Treatment Period: Kaplan-Meier Estimates of PFS of the Indicated Lengths of Time",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percent probability"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "4.44",
+         "upperLimit": "9.89",
+         "value": "8.08"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "42"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "PFS was defined as the time from the date of the first dose of study drug after transition until the earliest date of progressive disease or death due to any cause.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants received gemcitabine 1000 milligrams per square meter (mg/m\\^2) plus cisplatin 25 mg/m\\^2 intravenously on Days 1 and 8 every 3 weeks for up to 8 cycles (if 1 cycle was administered prior to randomization, the total of 8 cycles included that prior cycle as well). If disease progression occurred per RECIST v1.1 assessed by ICR, a transition to pemigatinib 13.5 mg QD was allowed.",
+     "id": "OG000",
+     "title": "Gemcitabine 1000 mg/m^2 Plus Cisplatin 25 mg/m^2 to Pemigatinib 13.5 mg QD"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "Crossover Evaluable Population: all participants who received at least 1 dose of pemigatinib after switch from the gemcitabine plus cisplatin group",
+   "reportingStatus": "POSTED",
+   "timeFrame": "up to 1496 days",
+   "title": "Transition Period: PFS",
+   "type": "PRIMARY",
+   "unitOfMeasure": "months"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "72.6",
+         "upperLimit": "94.6",
+         "value": "87.6"
+        }
+       ]
+      }
+     ],
+     "title": "3 months"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "45.6",
+         "upperLimit": "75.4",
+         "value": "62.4"
+        }
+       ]
+      }
+     ],
+     "title": "6 months"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "24.2",
+         "upperLimit": "54.9",
+         "value": "39.7"
+        }
+       ]
+      }
+     ],
+     "title": "9 months"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "3.6",
+         "upperLimit": "27.3",
+         "value": "12.6"
+        }
+       ]
+      }
+     ],
+     "title": "12 months"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "0.3",
+         "upperLimit": "17.2",
+         "value": "4.2"
+        }
+       ]
+      }
+     ],
+     "title": "24 months"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "comment": "The upper and lower limits of the confidence interval were not estimable because no participants were still being followed without disease progression.",
+         "groupId": "OG000",
+         "lowerLimit": "NA",
+         "upperLimit": "NA",
+         "value": "0.0"
+        }
+       ]
+      }
+     ],
+     "title": "36 months"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "42"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "PFS was defined as the time from the date of the first dose of study drug after transition until the earliest date of progressive disease or death due to any cause. Kaplan-Meier estimates indicate the percent probability of a participant being alive at the indicated time after treatment start.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants received gemcitabine 1000 milligrams per square meter (mg/m\\^2) plus cisplatin 25 mg/m\\^2 intravenously on Days 1 and 8 every 3 weeks for up to 8 cycles (if 1 cycle was administered prior to randomization, the total of 8 cycles included that prior cycle as well). If disease progression occurred per RECIST v1.1 assessed by ICR, a transition to pemigatinib 13.5 mg QD was allowed.",
+     "id": "OG000",
+     "title": "Gemcitabine 1000 mg/m^2 Plus Cisplatin 25 mg/m^2 to Pemigatinib 13.5 mg QD"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Crossover Evaluable Population. The number of participants analyzed for the Kaplan-Meier estimate at each time point refers to the total number of participants in the analysis set.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "up to 1496 days",
+   "title": "Transition Period: Kaplan-Meier Estimates of PFS of the Indicated Lengths of Time",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percent probability"
+  }
+ ]
+}

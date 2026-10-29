@@ -1,0 +1,47 @@
+{
+ "nctId": "NCT00639002",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "13"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "A responder is defined as a patient with a complete response (negative immunofixation on the serum and urine and disappearance of any soft tissue plasmacytomas and ≤ 5% plasma cells in bone marrow) or a partial response (≥ 50% reduction of serum M-protein and reduction in 24 h urinary M-protein by ≥ 90% or to \\< 200 mg per 24 h).",
+   "groups": [
+    {
+     "description": "Patients received ruxolitinib 25 mg orally twice daily (bid) in each treatment cycle of 28 days. For those patients who had disease progression at any time or stable disease for 3 cycles and did not meet a withdrawal criterion or withdrew consent then 40 mg of dexamethasone was added to ruxolitinib on Days 1 to 4, 9 to 12, and 17 to 20 for four 28-day cycles. After the 4th cycle, 40 mg of dexamethasone was administered only on Days 1 to 4 of each subsequent cycle. Patients could continue to receive monotherapy or combination therapy indefinitely as long as no withdrawal criterion was met, did not have progressive disease and were receiving some clinical benefit.",
+     "id": "OG000",
+     "title": "Ruxolitinib Then Ruxolitinib + Dexamethasone"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Intent-to-treat population: All patients who were enrolled and took at least 1 dose of study medication.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Day 1 of Cycles 2, 3, and 4 and then every 3 months thereafter (up to 25 months).",
+   "title": "Number of Responders According to the International Uniform Response Criteria for Multiple Myeloma",
+   "type": "PRIMARY",
+   "unitOfMeasure": "participants"
+  }
+ ]
+}

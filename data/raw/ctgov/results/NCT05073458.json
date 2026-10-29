@@ -1,0 +1,60 @@
+{
+ "nctId": "NCT05073458",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "33.3"
+        },
+        {
+         "groupId": "OG001",
+         "value": "25.0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "3"
+      },
+      {
+       "groupId": "OG001",
+       "value": "4"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "A durable hemoglobin response was defined as hemoglobin ≥10 grams per deciliter (g/dL) with an increase from Baseline of ≥2 g/dL not attributed to rescue therapy at ≥3 of the 4 available visits at Week 12 and/or later during the 24-week double-blind treatment period.",
+   "groups": [
+    {
+     "description": "Participants received parsaclisib 2.5 milligrams (mg) once daily (QD) for 24 weeks during the double-blind treatment period. Participants who completed the double-blind treatment period, tolerated study treatment, and, in the investigator's opinion, benefited from treatment had the option of continuing into an open-label treatment period for an additional 24 weeks of parsaclisib 2.5 mg QD, and then the long-term extension period to receive parsaclisib 2.5 mg QD for up to 2 years.",
+     "id": "OG000",
+     "title": "Parsaclisib"
+    },
+    {
+     "description": "Participants received matching placebo QD for 24 weeks during the double-blind treatment period.",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Safety Analysis Set: all randomized participants who received at least 1 dose of study drug. Treatment groups were determined according to the actual treatment the participant received on Day 1 regardless of assigned study treatment. Only participants with available data were analyzed.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "up to Week 24",
+   "title": "Percentage of Participants Attaining a Durable Hemoglobin Response",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

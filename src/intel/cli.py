@@ -42,7 +42,11 @@ def cmd_build(db: Path) -> int:
     return 0
 
 
-def cmd_fetch(what: str) -> int:
+BATCH_SOURCES = ("ctgov",)
+SINGLE_SOURCES = ("openfda",)
+
+
+def cmd_fetch(what: str, refresh: bool, only: list[str] | None) -> int:
     from intel import fetch
     from intel.ingest import Inputs
 
@@ -50,13 +54,38 @@ def cmd_fetch(what: str) -> int:
     try:
         with fetch.http_client() as client:
             if what == "sec-tickers":
-                path = fetch.fetch_sec_tickers(load_settings(), inputs, client)
-            else:
-                path = fetch.fetch_links(inputs, client)
+                print(f"saved: {fetch.fetch_sec_tickers(load_settings(), inputs, client)}")
+                return 0
+            if what == "links":
+                print(f"saved: {fetch.fetch_links(inputs, client)}")
+                return 0
+            if what == "openfda":
+                from intel.ingest import openfda
+
+                print(f"saved: {openfda.fetch(inputs, fetch.Throttled(client))}")
+                return 0
+            return _fetch_batch(what, inputs, client, refresh, only)
     except fetch.MissingConfig as exc:
         print(f"error: {exc}", file=sys.stderr)
         return 1
-    print(f"saved: {path}")
+
+
+def _fetch_batch(what, inputs, client, refresh, only) -> int:
+    from intel.fetch import CTGOV_DELAY, Throttled
+    from intel.ingest import ctgov
+    from intel.ingest.pool import candidate_pool
+
+    companies = [c for c in candidate_pool(inputs) if not only or c.ticker in only]
+    module = {"ctgov": ctgov}[what]
+    delay = {"ctgov": CTGOV_DELAY}[what]
+    result = module.fetch(inputs, Throttled(client, delay=delay), companies, refresh)
+    log = result.write_log(inputs.raw_dir / what)
+    print(
+        f"{what}: fetched {len(result.fetched)}, cached {len(result.skipped)}, "
+        f"failed {len(result.failed)} (log: {log})"
+    )
+    for ticker, reason in result.failed.items():
+        print(f"  failed {ticker}: {reason}")
     return 0
 
 
@@ -75,7 +104,9 @@ def main(argv: list[str] | None = None) -> int:
         p = sub.add_parser(name)
         p.add_argument("--db", type=Path, default=settings.db_path)
     fetch = sub.add_parser("fetch")
-    fetch.add_argument("what", choices=["sec-tickers", "links"])
+    fetch.add_argument("what", choices=["sec-tickers", "links", *SINGLE_SOURCES, *BATCH_SOURCES])
+    fetch.add_argument("--refresh", action="store_true", help="re-fetch cached companies")
+    fetch.add_argument("--only", type=lambda s: s.split(","), help="comma-separated tickers")
     serve = sub.add_parser("serve")
     serve.add_argument("--host", default="127.0.0.1")
     serve.add_argument("--port", type=int, default=8000)
@@ -89,7 +120,7 @@ def main(argv: list[str] | None = None) -> int:
         case "build":
             return cmd_build(args.db)
         case "fetch":
-            return cmd_fetch(args.what)
+            return cmd_fetch(args.what, args.refresh, args.only)
         case "serve":
             return cmd_serve(args.host, args.port)
     return 2

@@ -1,0 +1,153 @@
+{
+ "nctId": "NCT04071366",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-0.6463",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-0.1363",
+     "groupIds": [
+      "OG003",
+      "OG004"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0030",
+     "paramType": "Difference in CRS rate",
+     "paramValue": "-0.39",
+     "statisticalMethod": "One-sided Z-test"
+    },
+    {
+     "ciLowerLimit": "-0.6073",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-0.1231",
+     "groupIds": [
+      "OG002",
+      "OG004"
+     ],
+     "nonInferiorityType": "OTHER",
+     "paramType": "Difference in CRS rate",
+     "paramValue": "-0.37"
+    },
+    {
+     "ciLowerLimit": "-0.1778",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.2299",
+     "groupIds": [
+      "OG002",
+      "OG003"
+     ],
+     "nonInferiorityType": "OTHER",
+     "paramType": "Difference in CRS rate",
+     "paramValue": "0.03"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "1.6",
+         "upperLimit": "38.3",
+         "value": "12.5"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "15.2",
+         "upperLimit": "72.3",
+         "value": "41.7"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "8.4",
+         "upperLimit": "36.9",
+         "value": "20.0"
+        },
+        {
+         "groupId": "OG003",
+         "lowerLimit": "5.0",
+         "upperLimit": "38.8",
+         "value": "17.4"
+        },
+        {
+         "groupId": "OG004",
+         "lowerLimit": "34.5",
+         "upperLimit": "76.8",
+         "value": "56.5"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "16"
+      },
+      {
+       "groupId": "OG001",
+       "value": "12"
+      },
+      {
+       "groupId": "OG002",
+       "value": "35"
+      },
+      {
+       "groupId": "OG003",
+       "value": "23"
+      },
+      {
+       "groupId": "OG004",
+       "value": "23"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The ASBMT CRS Consensus Grading Criteria was used to assess the severity of CRS. Grade 2 CRS: temperature ≥38°C not attributable to any other cause, defined as fever; hypotension not requiring vasopressors, and/or; hypoxia requiring low-flow nasal cannula (oxygen delivered at ≤6 liters/minute) or blow-by. Grade 3 CRS: fever; hypotension requiring one vasopressor with or without vasopressin, and/or; hypoxyia requiring high-flow nasal cannula (oxygen delivered at \\>6 liters/minute), facemask, nonrebreather mask, or Venturi mask. Grade 4 CRS: fever; hypotension requiring multiple vasopressors (excluding vasopressin), and/or; hypoxia requiring positive pressure (e.g., continuous positive airway pressure \\[CPAP\\], bilevel intermittent positive air pressure \\[BiPAP\\], intubation, mechanical ventilation).",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants being treated with Kymriah (Day 0; per prescribing information), an immune effector cell (IEC) therapy for hematologic malignancies, received itacitinib 200 mg once daily (QD) for 30 days (Day -3 to Day 26).",
+     "id": "OG000",
+     "title": "Part 1: Itacitinib 200 Milligrams (mg) QD + Kymriah"
+    },
+    {
+     "description": "Participants being treated with Tecartus (Day 0; per prescribing information), an IEC therapy for hematologic malignancies, received itacitinib 200 mg QD for 30 days (Day -3 to Day 26).",
+     "id": "OG001",
+     "title": "Part 1: Itacitinib 200 mg QD + Tecartus"
+    },
+    {
+     "description": "Participants being treated with Yescarta (Day 0; per prescribing information), an IEC therapy for hematologic malignancies, received itacitinib 200 mg QD for 30 days (Day -3 to Day 26).",
+     "id": "OG002",
+     "title": "Part 1: Itacitinib 200 mg QD + Yescarta"
+    },
+    {
+     "description": "Participants being treated with Yescarta (Day 0; per prescribing information) for relapsed or refractory large B-cell lymphoma or follicular lymphoma received itacitinib 200 mg twice daily (BID) for 30 days (Day -3 to Day 26).",
+     "id": "OG003",
+     "title": "Part 2: Itacitinib 200 mg BID + Yescarta"
+    },
+    {
+     "description": "Participants being treated with Yescarta (Day 0; per prescribing information) for relapsed or refractory large B-cell lymphoma or follicular lymphoma BID for 30 days (Day -3 to Day 26).",
+     "id": "OG004",
+     "title": "Part 2: Placebo BID + Yescarta"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Efficacy Evaluable Analysis Set (EAS): all participants who received at least 1 dose of study drug and received IEC therapy. The exact 95% confidence interval (2-sided) was calculated using the Clopper-Pearson method.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "up to Day 14 of Parts 1 and 2",
+   "title": "Percentage of Participants Who Developed ≥Grade 2 Cytokine Release Syndrome (CRS) by Day 14 After Immune Effector Cell (IEC) Therapy, Assessed by Using American Society for Blood and Marrow Transplantation (ASBMT) CRS Consensus Grading",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

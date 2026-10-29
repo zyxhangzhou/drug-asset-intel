@@ -1,0 +1,94 @@
+{
+ "nctId": "NCT01445769",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "21.06",
+         "value": "-14.9"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "40"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Spleen volume was measured using magnetic resonance imaging (MRI) or computed tomography (CT) scan. The MRIs were read in the central imaging laboratory. Spleen volume was obtained by outlining the circumference of the organ and determining the volume using the technique of least squares. MRI was the preferred method for obtaining spleen volume data. CT scans were performed if the participant was not a candidate for MRI. The CT scans were processed by the same central laboratory used for MRIs. The same method (MRI or CT) was used for all visits for a given participant unless a new contraindication to the use of MRI (eg, pacemaker insertion) occurred.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants initially received ruxolitinib 10 mg twice a day (bid). Dose increases of 5 mg bid were permitted at Weeks 12 and 18 for subjects who did not meet criteria for or have a dose hold over the prior 6 weeks, had a platelet count ≥100 x 10\\^9/L at week 12 or ≥150 x 10\\^9/L at week 18, and had a self-reported PGIC score of 3 (minimally improved) to 7 (very much worse) OR the subject's palpable spleen length had been reduced by less than 40% at that visit relative to Baseline. The maximum dose was 15 mg BID at Week 12 and 20 mg bid at Week 18. There were also protocol-required dose decreases for protocol-defined anemia and thrombocytopenia. Only the subjects who had Week 24 spleen volume data are summarized.",
+     "id": "OG000",
+     "title": "Ruxolitinib"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Intent-to-treat population: All enrolled participants. Note that 2 subjects did not have the Week 24 MRI; one subject dropped out for disease progression and two withdrew consent prior to the Week 24 MRI. Thus 40 subjects were analyzed.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline to Week 24",
+   "title": "Mean Percentage Change From Baseline in Spleen Volume at Week 24",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Percentage change"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "-54.2",
+         "upperLimit": "58.5",
+         "value": "-17.3"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "40"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Spleen volume was measured using magnetic resonance imaging (MRI) or computed tomography (CT) scan. The MRIs were read in the central imaging laboratory. Spleen volume was obtained by outlining the circumference of the organ and determining the volume using the technique of least squares. MRI was the preferred method for obtaining spleen volume data. CT scans were performed if the participant was not a candidate for MRI. The CT scans were processed by the same central laboratory used for MRIs. The same method (MRI or CT) was used for all visits for a given participant unless a new contraindication to the use of MRI (eg, pacemaker insertion) occurred.",
+   "dispersionType": "Full Range",
+   "groups": [
+    {
+     "description": "Participants initially received ruxolitinib 10 mg twice a day (bid). Dose increases of 5 mg bid were permitted at Weeks 12 and 18 for subjects who did not meet criteria for or have a dose hold over the prior 6 weeks, had a platelet count ≥100 x 10\\^9/L at week 12 or ≥150 x 10\\^9/L at week 18, and had a self-reported PGIC score of 3 (minimally improved) to 7 (very much worse) OR the subject's palpable spleen length had been reduced by less than 40% at that visit relative to Baseline. The maximum dose was 15 mg BID at Week 12 and 20 mg bid at Week 18. There were also protocol-required dose decreases for protocol-defined anemia and thrombocytopenia. Only the subjects who had Week 24 spleen volume data are summarized.",
+     "id": "OG000",
+     "title": "Ruxolitinib"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "Intent-to-treat population: All enrolled participants. Note that 2 subjects did not have the Week 24 MRI; one subject dropped out for disease progression and two withdrew consent prior to the Week 24 MRI. Thus 40 subjects were analyzed.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline to Week 24",
+   "title": "Median Percent Change From Baseline in Spleen Volume at Week 24",
+   "type": "PRIMARY",
+   "unitOfMeasure": ": Percentage change"
+  }
+ ]
+}

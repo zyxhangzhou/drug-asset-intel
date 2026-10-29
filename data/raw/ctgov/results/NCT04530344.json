@@ -1,0 +1,104 @@
+{
+ "nctId": "NCT04530344",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.180",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.990",
+     "groupDescription": "Cox regression model stratified by stratification factor (treatment assignment in the parent studies) was conducted to compare the difference in hazard rate between treatment and vehicle.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0414",
+     "paramType": "Hazard Ratio (HR)",
+     "paramValue": "0.422",
+     "statisticalComment": "The p-value was based on the log-rank test stratified by randomization stratification factor between treatment and vehicle.",
+     "statisticalMethod": "Log Rank"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "comment": "The median and the upper limit of the confidence interval were not estimable because there were too few events of loss of F-VASI75 response.",
+         "groupId": "OG000",
+         "lowerLimit": "238.0",
+         "upperLimit": "NA",
+         "value": "NA"
+        },
+        {
+         "comment": "The median and the upper and lower limits of the confidence interval were not estimable because there were too few events of loss of F-VASI75 response.",
+         "groupId": "OG001",
+         "lowerLimit": "NA",
+         "upperLimit": "NA",
+         "value": "NA"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "56"
+      },
+      {
+       "groupId": "OG001",
+       "value": "55"
+      },
+      {
+       "groupId": "OG002",
+       "value": "0"
+      },
+      {
+       "groupId": "OG003",
+       "value": "0"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Relapse was defined as a loss of 75% improvement from Baseline in the Face Vitiligo Area Scoring Index score (F-VASI75) response, assessed as percentage improvement in the F-VASI score at Baseline (Day 1 of the parent study) to \\<75%.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants who completed treatment and achieved ≥90% improvement from Baseline in the Facial Vitiligo Area Scoring Index score (≥F-VASI90) at Week 52 in either of 2 parent studies (NCT04052425 or NCT04057573). In this study, these participants were randomized to receive vehicle cream twice daily (BID) for 52 weeks. Participants who experienced relapse (\\<75% improvement from Baseline in the F-VASI score \\[\\<F-VASI75\\]) received open-label ruxolitinib 1.5% cream BID for the duration of the study.",
+     "id": "OG000",
+     "title": "Cohort A: Vehicle Cream BID"
+    },
+    {
+     "description": "Participants who completed treatment and achieved ≥F-VASI90 at Week 52 in either of 2 parent studies (NCT04052425 or NCT04057573). In this study, these participants were randomized to receive ruxolitinib 1.5% cream BID for 52 weeks. Participants who experienced relapse (\\<F-VASI75) received open-label ruxolitinib 1.5% cream BID for the duration of the study.",
+     "id": "OG001",
+     "title": "Cohort A: Ruxolitinib 1.5% Cream BID"
+    },
+    {
+     "description": "Participants who completed treatment (vehicle cream BID for 24 weeks and ruxolitinib 1.5% BID for 28 weeks) and did not achieve ≥F-VASI90 at Week 52 in either of 2 parent studies (NCT04052425 or NCT04057573). In this study, these participants applied ruxolitinib 1.5% cream BID for 52 weeks.",
+     "id": "OG002",
+     "title": "Cohort B: Vehicle Cream BID to Ruxolitinib 1.5% Cream BID"
+    },
+    {
+     "description": "Participants who completed treatment (ruxolitinib 1.5% BID for 52 weeks) and did not achieve ≥F-VASI90 at Week 52 in either of 2 parent studies (NCT04052425 or NCT04057573). In this study, these participants applied ruxolitinib 1.5% cream BID for 52 weeks.",
+     "id": "OG003",
+     "title": "Cohort B: Ruxolitinib 1.5% Cream BID to Ruxolitinib 1.5% Cream BID"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "Intent-to-Treat Long-term Extension (ITT-Ext) Population: randomized participants who achieved ≥90% improvement from Baseline in the F-VASI score (≥F-VASI90) at Week 52. Treatment groups were defined according to the treatment assignment at randomization regardless of the actual study medication the participant received. Week 52 was the first visit of this Treatment Extension study (visits were named to reflect continuation from the parent studies). Only participants in Cohort A were analyzed.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "from Week 52 (first visit of this Treatment Extension study) to Week 104 (end of treatment in this Treatment Extension study)",
+   "title": "Time to Relapse (Defined as <F-VASI75)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "days"
+  }
+ ]
+}

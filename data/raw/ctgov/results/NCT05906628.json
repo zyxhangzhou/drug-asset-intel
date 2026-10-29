@@ -1,0 +1,98 @@
+{
+ "nctId": "NCT05906628",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "4.48",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "21.49",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<0.0001",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "9.82",
+     "statisticalComment": "Cochran-Mantel-Haenszel test was stratified by stratification factors IGA-CHE score (3 or 4) and region (North America or outside of North America).",
+     "statisticalMethod": "Cochran-Mantel-Haenszel"
+    },
+    {
+     "ciLowerLimit": "30.70",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "54.36",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "6.03",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "paramType": "Response rate difference",
+     "paramValue": "42.5"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "42.6",
+         "upperLimit": "63.6",
+         "value": "53.2"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "5.3",
+         "upperLimit": "19.1",
+         "value": "10.9"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "94"
+      },
+      {
+       "groupId": "OG001",
+       "value": "92"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The Investigator's Global Assessment-Chronic Hand Eczema (IGA-CHE) is an instrument used to rate the severity of the participant's global CHE and is based on a 5-point scale ranging from 0 (clear) to 4 (severe) (1, almost clear; 2, mild eczema; 3, moderate eczema). IGA-CHE TS is defined as an IGA-CHE score of 0 (clear) or 1 (almost clear) with a ≥2-step improvement from Baseline.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants applied ruxolitinib 1.5% cream twice daily (BID) to chronic hand eczema (CHE) lesions on the hands and wrists (if applicable) for 16 weeks. Participants who completed the Week 16 assessments with no safety concerns could continue into the 16-week OLE Period. Participants who applied ruxolitinib 1.5% cream BID during the DBVC Period continued to apply ruxolitinib 1.5% cream BID as needed for an additional 16 weeks in the OLE Period.",
+     "id": "OG000",
+     "title": "Ruxolitinib 1.5% Cream BID to Ruxolitinib 1.5% Cream BID"
+    },
+    {
+     "description": "Participants applied matching vehicle cream BID to CHE lesions on the hands and wrists (if applicable) for 16 weeks. Participants who completed the Week 16 assessments with no safety concerns could continue into the 16-week OLE Period. Participants who applied vehicle cream BID during the DBVC Period applied ruxolitinib 1.5% cream BID as needed for 16 weeks in the OLE Period.",
+     "id": "OG001",
+     "title": "Vehicle Cream BID to Ruxolitinib 1.5% Cream BID"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Intent-to-Treat (ITT) Population: all participants who were randomized to the study. Treatment groups were defined according to the treatment assignment at the time of randomization regardless of the actual study treatment the participant might have applied during their participation in the study. Missing post-Baseline values were imputed as nonresponders.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline; Week 16",
+   "title": "Percentage of Participants With Investigator's Global Assessment-Chronic Hand Eczema Treatment Success (IGA-CHE-TS) at Week 16",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

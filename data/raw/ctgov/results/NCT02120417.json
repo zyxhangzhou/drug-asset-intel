@@ -1,0 +1,297 @@
+{
+ "nctId": "NCT02120417",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.694",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "80",
+     "ciUpperLimit": "1.252",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+     "pValue": "0.762",
+     "paramType": "Hazard Ratio (HR)",
+     "paramValue": "0.932",
+     "statisticalComment": "The P-value was analyzed by Log-Rank Test stratified by Hormone Receptor Status.",
+     "statisticalMethod": "Log Rank"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "39"
+        },
+        {
+         "groupId": "OG001",
+         "value": "38"
+        }
+       ],
+       "title": "Death events"
+      },
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "37"
+        },
+        {
+         "groupId": "OG001",
+         "value": "35"
+        }
+       ],
+       "title": "Censored events"
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "76"
+      },
+      {
+       "groupId": "OG001",
+       "value": "73"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Overall survival is reported here by the number of days from randomization to death until the data cutoff for the final analysis. The hazard ratio (80% CI) for ruxolitinib versus placebo was estimated using a Cox regression model stratified by hormone-receptor status.",
+   "groups": [
+    {
+     "description": "Capecitabine given as 1000 mg/m\\^2 twice a day (BID) on day 1 to day 14 of each 21-day cycle with the addition of Ruxolitinib 15 mg (three 5 mg tablets) BID to be administered by mouth on day 1 to day 21 of each 21-day cycle",
+     "id": "OG000",
+     "title": "Treatment A - Capecitabine and Ruxolitinib"
+    },
+    {
+     "description": "Capecitabine given as 1000 mg/m\\^2 twice a day (BID) on day 1 to day 14 of each 21-day cycle with the addition of 15 mg (three 5 mg tablets) matching placebo BID to be administered by mouth on day 1 to day 21 of each 21-day cycle",
+     "id": "OG001",
+     "title": "Treatment B - Capecitabine and Placebo"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "The Intent-to-Treat (ITT) population consisted of all participants randomized to the study.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Randomization until death due to any cause up to 19 months or the data cutoff 08FEB2016.",
+   "title": "Overall Survival (OS)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "7.5",
+         "upperLimit": "12.7",
+         "value": "11.2"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "6.0",
+         "upperLimit": "13.1",
+         "value": "10.9"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "76"
+      },
+      {
+       "groupId": "OG001",
+       "value": "73"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Survival was assessed by the time to death or censoring up until 08Feb2016. Participants with no observed death were treated as right-censored at their last date known to be alive. The survival time was analyzed using the Kaplan-Meier method.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Capecitabine given as 1000 mg/m\\^2 twice a day (BID) on day 1 to day 14 of each 21-day cycle with the addition of Ruxolitinib 15 mg (three 5 mg tablets) BID to be administered by mouth on day 1 to day 21 of each 21-day cycle",
+     "id": "OG000",
+     "title": "Treatment A - Capecitabine and Ruxolitinib"
+    },
+    {
+     "description": "Capecitabine given as 1000 mg/m\\^2 twice a day (BID) on day 1 to day 14 of each 21-day cycle with the addition of 15 mg (three 5 mg tablets) matching placebo BID to be administered by mouth on day 1 to day 21 of each 21-day cycle",
+     "id": "OG001",
+     "title": "Treatment B - Capecitabine and Placebo"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "The Intent-to-Treat (ITT) population consisted of all participants randomized to the study.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Randomization until death due to any cause up to 19 months or the data cutoff 08FEB2016.",
+   "title": "Median Survival",
+   "type": "PRIMARY",
+   "unitOfMeasure": "months"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "0.753",
+         "upperLimit": "0.917",
+         "value": "0.855"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "0.633",
+         "upperLimit": "0.835",
+         "value": "0.750"
+        }
+       ]
+      }
+     ],
+     "title": "Month 3 Survival Rate"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "0.554",
+         "upperLimit": "0.769",
+         "value": "0.674"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "0.511",
+         "upperLimit": "0.735",
+         "value": "0.635"
+        }
+       ]
+      }
+     ],
+     "title": "Month 6 Survival Rate"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "0.404",
+         "upperLimit": "0.652",
+         "value": "0.537"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "0.417",
+         "upperLimit": "0.657",
+         "value": "0.546"
+        }
+       ]
+      }
+     ],
+     "title": "Month 9 Survival Rate"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "0.289",
+         "upperLimit": "0.573",
+         "value": "0.435"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "0.286",
+         "upperLimit": "0.561",
+         "value": "0.427"
+        }
+       ]
+      }
+     ],
+     "title": "Month 12 Survival Rate"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "0.174",
+         "upperLimit": "0.475",
+         "value": "0.319"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "0.148",
+         "upperLimit": "0.456",
+         "value": "0.294"
+        }
+       ]
+      }
+     ],
+     "title": "Month 15 Survival Rate"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "76"
+      },
+      {
+       "groupId": "OG001",
+       "value": "73"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Overall survival was assessed by the time to death or censoring up until 08Feb2016. Participants with no observed death were treated as right-censored at their last date known to be alive. The survival time was analyzed using the Kaplan-Meier method.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Capecitabine given as 1000 mg/m\\^2 twice a day (BID) on day 1 to day 14 of each 21-day cycle with the addition of Ruxolitinib 15 mg (three 5 mg tablets) BID to be administered by mouth on day 1 to day 21 of each 21-day cycle",
+     "id": "OG000",
+     "title": "Treatment A - Capecitabine and Ruxolitinib"
+    },
+    {
+     "description": "Capecitabine given as 1000 mg/m\\^2 twice a day (BID) on day 1 to day 14 of each 21-day cycle with the addition of 15 mg (three 5 mg tablets) matching placebo BID to be administered by mouth on day 1 to day 21 of each 21-day cycle",
+     "id": "OG001",
+     "title": "Treatment B - Capecitabine and Placebo"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "The Intent-to-Treat (ITT) population consisted of all participants randomized to the study.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Randomization until death due to any cause at month 3, 6, 9, 12 and 15 or the data cutoff 08FEB2016.",
+   "title": "Percentage of Participants Achieving Overall Survival",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

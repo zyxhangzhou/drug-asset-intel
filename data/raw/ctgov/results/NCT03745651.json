@@ -1,0 +1,114 @@
+{
+ "nctId": "NCT03745651",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "4.125",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "21.202",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "< 0.0001",
+     "pValueComment": "The unadjusted p-values between each treatment group and vehicle were calculated based on Exact Logistic Regression including treatment and stratification factors to test the treatment difference.",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "8.84",
+     "statisticalMethod": "Exact Logistic Regression"
+    },
+    {
+     "ciLowerLimit": "7.354",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "38.061",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "< 0.0001",
+     "pValueComment": "The unadjusted p-values between each treatment group and vehicle were calculated based on Exact Logistic Regression including treatment and stratification factors to test the treatment difference.",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "15.80",
+     "statisticalMethod": "Exact Logistic Regression"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "3.5",
+         "upperLimit": "14.0",
+         "value": "7.6"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "32.6",
+         "upperLimit": "45.6",
+         "value": "39.0"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "44.6",
+         "upperLimit": "58.0",
+         "value": "51.3"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "118"
+      },
+      {
+       "groupId": "OG001",
+       "value": "231"
+      },
+      {
+       "groupId": "OG002",
+       "value": "228"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The IGA is an overall eczema severity rating on a 5-point scale ranging from 0 (clear skin) to 4 (severe disease). The score is based on an overall assessment of the degree of erythema, induration/papulation, and oozing/crusting. The IGA-TS is defined as an IGA score of 0 (clear skin) or 1 (almost clear skin) with ≥ 2 grade improvement from Baseline.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants received ruxolitinib matching vehicle cream, applied topically to the affected areas as a thin film BID 8 hours apart from Day 1 up to Week 8. Participants applied cream BID to areas identified at Baseline even if the areas improved.",
+     "id": "OG000",
+     "title": "VC Period: Vehicle Cream BID"
+    },
+    {
+     "description": "Participants received ruxolitinib 0.75% cream, applied topically to the affected areas as a thin film BID 8 hours apart from Day 1 up to Week 8. Participants applied cream BID to areas identified at Baseline even if the areas improved.",
+     "id": "OG001",
+     "title": "VC Period: Ruxolitinib 0.75% Cream BID"
+    },
+    {
+     "description": "Participants received ruxolitinib 1.5% cream, applied topically to the affected areas as a thin film BID 8 hours apart from Day 1 up to Week 8. Participants applied cream BID to areas identified at Baseline even if the areas improved.",
+     "id": "OG002",
+     "title": "VC Period: Ruxolitinib 1.5% Cream BID"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "ITT population included all participants who were randomized to the study. Data from participants enrolled at Site 461 were excluded.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline to Week 8",
+   "title": "VC Period: Percentage of Participants Who Achieved Investigator's Global Assessment - Treatment Success (IGA-TS) at Week 8",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

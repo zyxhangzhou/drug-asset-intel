@@ -15,6 +15,7 @@ const ENTITY_LABELS: Record<string, string> = {
   trial_result: '试验结果',
   catalyst: '催化事件',
   financial_snapshot: '财务快照',
+  approved_product: '获批产品',
   match: '买方×标的匹配',
 }
 
@@ -23,6 +24,7 @@ function SnapshotOverview({ meta }: { meta: SnapshotMeta }) {
   return (
     <>
       <Descriptions size="small" column={1} style={{ marginBottom: 24 }}>
+        <Descriptions.Item label="快照日（行情与财务截至）">{meta.snapshot_date ?? '未知'}</Descriptions.Item>
         <Descriptions.Item label="数据快照时间">{generated}</Descriptions.Item>
         <Descriptions.Item label="生成程序">{meta.generator ?? '未知'}</Descriptions.Item>
       </Descriptions>

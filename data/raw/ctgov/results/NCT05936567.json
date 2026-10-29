@@ -1,0 +1,147 @@
+{
+ "nctId": "NCT05936567",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-5.37",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "6.68",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "3.04",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.8298",
+     "pValueComment": "nominal p-value",
+     "paramType": "least squares mean difference",
+     "paramValue": "0.65",
+     "statisticalMethod": "t-test, 2 sided"
+    },
+    {
+     "ciLowerLimit": "-7.96",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "4.09",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "3.04",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.5264",
+     "pValueComment": "nominal p-value",
+     "paramType": "least squares mean difference",
+     "paramValue": "-1.93",
+     "statisticalMethod": "t-test, 2 sided"
+    },
+    {
+     "ciLowerLimit": "-11.94",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-0.08",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "2.99",
+     "groupIds": [
+      "OG000",
+      "OG003"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0470",
+     "pValueComment": "nominal p-value",
+     "paramType": "least squares mean difference",
+     "paramValue": "-6.01",
+     "statisticalMethod": "t-test, 2 sided"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "2.21",
+         "value": "-17.90"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "2.09",
+         "value": "-17.25"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "2.08",
+         "value": "-19.83"
+        },
+        {
+         "groupId": "OG003",
+         "spread": "2.01",
+         "value": "-23.91"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "23"
+      },
+      {
+       "groupId": "OG001",
+       "value": "27"
+      },
+      {
+       "groupId": "OG002",
+       "value": "27"
+      },
+      {
+       "groupId": "OG003",
+       "value": "30"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The UAS7 is defined as the 7-day sum of the individual, daily recorded scores for the hive severity score (HSS) and the itch severity score (ISS). The ISS7 is defined as the 7-day sum of the daily ISS scores (ranging from 0 to 3), and the HSS7 is defined as the 7-day sum of the daily HSS scores (ranging from 0 to 3). The UAS7 score is calculated as the sum of the available UAS scores, divided by the number of days that have a UAS score, multiplied by 7. The UAS7 (ranging from 0 to 42) is equal to the ISS7 (ranging from 0 to 21) plus the HSS7 (ranging from 0 to 21). Higher scores represent more intense/severe hives and itching. Change from baseline was calculated as the post-baseline value minus the baseline value.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Participants were randomized to receive placebo plus standard of care (SOC) with second-generation H1 antihistamines once daily (QD) for 12 weeks during the Placebo-controlled (PC) period.",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Participants were randomized to receive povorcitinib 15 milligrams (mg) plus SOC with second-generation H1 antihistamines QD for 12 weeks during the PC period.",
+     "id": "OG001",
+     "title": "Povorcitinib 15 mg QD"
+    },
+    {
+     "description": "Participants were randomized to receive povorcitinib 45 mg plus SOC with second-generation H1 antihistamines QD for 12 weeks during the PC period.",
+     "id": "OG002",
+     "title": "Povorcitinib 45 mg QD"
+    },
+    {
+     "description": "Participants were randomized to receive povorcitinib 75 mg plus stable SOC with second-generation H1 antihistamines QD for 12 weeks during the PC period.",
+     "id": "OG003",
+     "title": "Povorcitinib 75 mg QD"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Full Analysis Set: all randomized participants who received at least 1 dose of study drug. Treatment groups were determined according to the treatment participants were assigned at the time of randomization. Only participants with available data were analyzed. Mixed model for repeated measures (MMRM): (change from baseline up to Week 12 = treatment + stratification factor \\[previous anti-immunoglobulin E use - Yes/No\\] + visit + treatment\\*visit + baseline measurement + baseline measurement\\*visit).",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline; Week 12",
+   "title": "Change From Baseline in the Urticaria Activity Score Over 7 Days (UAS7) at Week 12",
+   "type": "PRIMARY",
+   "unitOfMeasure": "scores on a scale"
+  }
+ ]
+}

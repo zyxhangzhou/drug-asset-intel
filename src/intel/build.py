@@ -9,15 +9,16 @@ from pathlib import Path
 from sqlmodel import Session
 
 from intel.db import init_db, touch_snapshot
-from intel.ingest import BuildContext, Gap, Inputs, write_gaps
+from intel.ingest import SNAPSHOT_DATE, BuildContext, Gap, Inputs, write_gaps
+from intel.models import SnapshotMeta
 
 Step = Callable[[BuildContext], None]
 
 
 def default_steps() -> list[Step]:
-    from intel.ingest import mnc, universe
+    from intel.ingest import ctgov, mnc, openfda, universe
 
-    return [mnc.ingest, universe.ingest]
+    return [mnc.ingest, universe.ingest, openfda.ingest, ctgov.ingest]
 
 
 @dataclass
@@ -48,6 +49,7 @@ def build_snapshot(
                 step(ctx)
                 session.flush()
             touch_snapshot(session)
+            session.get(SnapshotMeta, 1).snapshot_date = SNAPSHOT_DATE
             session.commit()
         engine.dispose()
         os.replace(tmp, db_path)

@@ -1,0 +1,144 @@
+{
+ "nctId": "NCT04476043",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-5.2",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-0.3",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "1.23",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0277",
+     "paramType": "Least squares mean (LSM) difference",
+     "paramValue": "-2.7",
+     "statisticalMethod": "MMRM"
+    },
+    {
+     "ciLowerLimit": "-6.8",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-1.9",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "1.25",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0006",
+     "paramType": "LSM difference",
+     "paramValue": "-4.4",
+     "statisticalMethod": "MMRM"
+    },
+    {
+     "ciLowerLimit": "-6.2",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-1.4",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "1.22",
+     "groupIds": [
+      "OG000",
+      "OG003"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0021",
+     "paramType": "LSM difference",
+     "paramValue": "-3.8",
+     "statisticalMethod": "MMRM"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.88",
+         "value": "-2.5"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.86",
+         "value": "-5.2"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "0.88",
+         "value": "-6.9"
+        },
+        {
+         "groupId": "OG003",
+         "spread": "0.85",
+         "value": "-6.3"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "43"
+      },
+      {
+       "groupId": "OG001",
+       "value": "45"
+      },
+      {
+       "groupId": "OG002",
+       "value": "43"
+      },
+      {
+       "groupId": "OG003",
+       "value": "46"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Change from Baseline was calculated as the post-Baseline value minus the Baseline value. The mixed model repeated measure (MMRM) included the fixed effects of treatment group (placebo and INCB054707 15, 45, and 75 mg), stratification factors (disease severity \\[Hurley Stage I, II, and III\\] and geographical region \\[North America and outside of North America\\]), visit (Weeks 2, 4, 6, 8, 12, and 16), treatment by visit interaction, and covariates of Baseline measurement and Baseline measurement by visit interaction. The variance-covariance matrix of the within-participant errors in MMRM are modeled as unstructured.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Participants received oral placebo once a day (QD) for 16 weeks in the Placebo-controlled Treatment Period.",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Participants received oral INCB054707 15 milligrams (mg) QD for 16 weeks in the Placebo-controlled Treatment Period.",
+     "id": "OG001",
+     "title": "INCB054707 15 mg"
+    },
+    {
+     "description": "Participants received oral INCB054707 45 mg QD for 16 weeks in the Placebo-controlled Treatment Period.",
+     "id": "OG002",
+     "title": "INCB054707 45 mg"
+    },
+    {
+     "description": "Participants received oral INCB054707 75 mg QD for 16 weeks in the Placebo-controlled Treatment Period.",
+     "id": "OG003",
+     "title": "INCB054707 75 mg"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Intent-to-Treat (ITT) Population: all randomized participants. Treatment groups for this population were defined according to the treatment assignment at randomization. Only participants with available data were analyzed.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline; Week 16",
+   "title": "Mean Change From Baseline in Abscess and Inflammatory Nodule (AN) Count at Week 16",
+   "type": "PRIMARY",
+   "unitOfMeasure": "abscesses and inflammatory nodules"
+  }
+ ]
+}

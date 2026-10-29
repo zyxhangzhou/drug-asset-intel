@@ -1,0 +1,187 @@
+{
+ "nctId": "NCT05061693",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "1.6",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "45.4",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0061",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "7.1",
+     "statisticalComment": "Exact Logistic regression: (response at Week 16 = treatment + stratification factor \\[Day 1 Investigator's Global Assessment score (3 or 4)\\])",
+     "statisticalMethod": "Regression, Logistic"
+    },
+    {
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "9.18",
+     "estimateComment": "The standard error of the difference between response rates was from normal approximation.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "paramType": "difference in response rate",
+     "paramValue": "28.0"
+    },
+    {
+     "ciLowerLimit": "2.3",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "65.6",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0005",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "10.2",
+     "statisticalComment": "Exact Logistic regression: (response at Week 16 = treatment + stratification factor \\[Day 1 Investigator's Global Assessment score (3 or 4)\\])",
+     "statisticalMethod": "Regression, Logistic"
+    },
+    {
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "9.42",
+     "estimateComment": "The standard error of the difference between response rates was from normal approximation.",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "paramType": "difference in response rate",
+     "paramValue": "36.3"
+    },
+    {
+     "ciLowerLimit": "3.9",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "107.5",
+     "groupIds": [
+      "OG000",
+      "OG003"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<0.0001",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "16.8",
+     "statisticalComment": "Exact Logistic regression: (response at Week 16 = treatment + stratification factor \\[Day 1 Investigator's Global Assessment score (3 or 4)\\])",
+     "statisticalMethod": "Regression, Logistic"
+    },
+    {
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "9.30",
+     "estimateComment": "The standard error of the difference between response rates was from normal approximation.",
+     "groupIds": [
+      "OG000",
+      "OG003"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "paramType": "difference in response rate",
+     "paramValue": "48.6"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "1.7",
+         "upperLimit": "21.9",
+         "value": "8.1"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "20.8",
+         "upperLimit": "53.8",
+         "value": "36.1"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "27.9",
+         "upperLimit": "61.9",
+         "value": "44.4"
+        },
+        {
+         "groupId": "OG003",
+         "lowerLimit": "39.5",
+         "upperLimit": "72.9",
+         "value": "56.8"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "37"
+      },
+      {
+       "groupId": "OG001",
+       "value": "36"
+      },
+      {
+       "groupId": "OG002",
+       "value": "36"
+      },
+      {
+       "groupId": "OG003",
+       "value": "37"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Each evening, the participants assessed their worst level of itch during the past 24 hours on a scale of 0 (no itch) to 10 (worst itch imaginable). The Baseline Itch NRS score was determined by averaging the 7 daily Itch NRS scores before Day 1 (i.e., Day -7 to Day -1). If ≥4 of the 7 days of the daily Itch NRS scores were missing prior to Day 1, then the Baseline Itch NRS score was set to \"missing.\" The by-visit Itch NRS score for postbaseline visits was determined by averaging the 7 daily Itch NRS scores before the visit day. If 4 or more daily Itch NRS scores out of the 7 days before the visit day were missing, the Itch NRS score at the visit was set to missing.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "On Day 1, participants were randomized to receive matching placebo once daily (QD) and stratified by Investigator's Global Assessment (IGA) score (3 versus 4). Participants received blinded study drug through Week 16.",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "On Day 1, participants were randomized to receive povorcitinib 15 milligrams (mg) QD and stratified by IGA score (3 versus 4). Participants received blinded study drug through Week 16.",
+     "id": "OG001",
+     "title": "Povorcitinib 15 mg"
+    },
+    {
+     "description": "On Day 1, participants were randomized to receive povorcitinib 45 mg QD and stratified by IGA score (3 versus 4). Participants received blinded study drug through Week 16.",
+     "id": "OG002",
+     "title": "Povorcitinib 45 mg"
+    },
+    {
+     "description": "On Day 1, participants were randomized to receive povorcitinib 75 mg QD and stratified by IGA score (3 versus 4). Participants received blinded study drug through Week 16.",
+     "id": "OG003",
+     "title": "Povorcitinib 75 mg"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Intent-to-Treat (ITT) Population: all randomized participants. Treatment groups for this population were defined according to the treatment assignment at randomization. Missing post-Baseline values and rescue therapy recipients for all subsequent visits after the initiation date of rescue therapy were imputed as nonresponders. The 95% confidence interval was based on the Clopper-Pearson exact method.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline; Week 16",
+   "title": "Percentage of Participants Achieving ≥4-point Improvement in Itch Numerical Rating Scale (NRS) Score at Week 16",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

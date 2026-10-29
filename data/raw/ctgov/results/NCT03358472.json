@@ -1,0 +1,80 @@
+{
+ "nctId": "NCT03358472",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "16.9",
+         "upperLimit": "49.3",
+         "value": "31.4"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "6.1",
+         "upperLimit": "45.6",
+         "value": "21.1"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "19.1",
+         "upperLimit": "52.2",
+         "value": "34.3"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "35"
+      },
+      {
+       "groupId": "OG001",
+       "value": "19"
+      },
+      {
+       "groupId": "OG002",
+       "value": "35"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "ORR was defined as the percentage of participants who had a complete response (CR), disappearance of all target lesions or partial response (PR), \\>=30% decrease in the sum of the longest diameter of target lesions per RECIST v1.1 by investigator determination. Responses are based on investigator assessments per RECIST 1.1 without confirmation using all available scans.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Pembrolizumab administered intravenously every 3 weeks. Epacadostat administered orally twice daily.",
+     "id": "OG000",
+     "title": "Pembrolizumab + Epacadostat"
+    },
+    {
+     "description": "Pembrolizumab administered intravenously every 3 weeks.",
+     "id": "OG001",
+     "title": "Pembrolizumab"
+    },
+    {
+     "description": "EXTREME regimen includes cetuximab + cisplatin or carboplatin + 5-fluorouracil. Cetuximab administered intravenously on Cycle 1 Day 1 followed by administration every week. Cisplatin administered intravenously every 3 weeks for \\</= 6 cycles. Carboplatin administered intravenously every 3 weeks for \\</= 6 cycles. 5-Fluorouracil administered intravenously every 3 weeks for \\</= 6 cycles.",
+     "id": "OG002",
+     "title": "EXTREME"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "The Intention-to-Treat (ITT) population consisted of all randomized participants. The ORR was based on all available imaging assessments after the last participant completed the Week 9 imaging assessment by investigator determination.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Minimum Week 9",
+   "title": "Objective Response Rate (ORR) of Pembrolizumab + Epacadostat, Pembrolizumab Monotherapy and the EXTREME Regimen",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

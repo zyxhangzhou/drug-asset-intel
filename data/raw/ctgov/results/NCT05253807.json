@@ -1,0 +1,59 @@
+{
+ "nctId": "NCT05253807",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "0.84",
+         "upperLimit": "90.57",
+         "value": "33.3"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "3"
+      },
+      {
+       "groupId": "OG001",
+       "value": "0"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "ORR was defined as the percentage of participants who achieved a complete response (CR) or a partial response (PR) based on Response Evaluation Criteria in Solid Tumors (RECIST) v1.1. Response was determined by an Independent Central Radiology (ICR) review. CR: disappearance of all target and non-target lesions and no appearance of any new lesions. Any pathological lymph nodes (whether target or non-target) must have a reduction in the short axis to \\<10 millimeters (mm). PR: complete disappearance or at least a 30% decrease in the sum of the diameters of target lesions, taking as a reference the baseline sum diameters, no new lesions, and no progression of non-target lesions.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants with squamous non-small cell lung cancer (NSCLC) with known or likely fibroblast growth factor receptor 1, 2, or 3 (FGFR1-3) driver mutations outside the kinase domain or fusions/rearrangements self-administered pemigatinib 13.5 milligrams (mg) (starting dose) as a once daily (QD) oral treatment on a 21-day cycle. Participants took study drug every day on an intermittent dose regimen (2 weeks on treatment, followed by no study drug for 1 week \\[dose holiday\\]), until documented disease progression or unacceptable toxicity was reported.",
+     "id": "OG000",
+     "title": "Cohort A: Squamous NSCLC"
+    },
+    {
+     "description": "Participants with nonsquamous NSCLC with known or likely FGFR1-3 driver mutations outside the kinase domain or fusions/rearrangements, including participants who had relapsed on prior targeted therapy, self-administered pemigatinib 13.5 mg (starting dose) as a QD oral treatment on a 21-day cycle. Participants took study drug every day on an intermittent dose regimen (2 weeks on treatment, followed by no study drug for 1 week \\[dose holiday\\]), until documented disease progression or unacceptable toxicity was reported.",
+     "id": "OG001",
+     "title": "Cohort B: Nonsquamous NSCLC"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Full Analysis Population: all enrolled participants who received at least 1 dose of pemigatinib. The confidence interval was calculated based on the exact method for binomial distribution.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "up to 267 days",
+   "title": "Objective Response Rate (ORR) in Cohort A",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

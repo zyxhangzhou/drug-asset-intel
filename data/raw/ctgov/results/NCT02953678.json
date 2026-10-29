@@ -1,0 +1,88 @@
+{
+ "nctId": "NCT02953678",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "42.7",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "66.8",
+     "groupIds": [
+      "OG000"
+     ],
+     "nonInferiorityType": "OTHER",
+     "paramType": "Exact method for binomial distributions",
+     "paramValue": "54.9"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "19"
+        }
+       ]
+      }
+     ],
+     "title": "Responders - CR"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "7"
+        }
+       ]
+      }
+     ],
+     "title": "Responders - VGPR"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "13"
+        }
+       ]
+      }
+     ],
+     "title": "Responders - PR"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "71"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Defined as the percentage of participants demonstrating a complete response (CR), very good partial response (VGPR), or partial response (PR).",
+   "groups": [
+    {
+     "description": "Participants began oral administration of ruxolitinib at 5 mg BID; if stable after the first 3 days of treatment, the dose may be increased to 10 mg BID. Participants did receive prednisone 2.5 mg/kg per day orally (PO) or methylprednisolone 2.0 mg/kg per day IV.",
+     "id": "OG000",
+     "title": "Ruxolitinib in Combination With Corticosteroids"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Efficacy Evaluable Participants who had a CR, VGPR, or PR at Day 28 response assessment or other response assessments within ± 2 days of Day 28, on or before the start of new anti-GVHD therapy",
+   "reportingStatus": "POSTED",
+   "timeFrame": "From baseline to Day 28",
+   "title": "Overall Response Rate (ORR) at Day 28",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

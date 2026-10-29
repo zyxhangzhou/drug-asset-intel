@@ -1,0 +1,155 @@
+{
+ "nctId": "NCT00638378",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "22"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "A prostate-specific antigen (PSA) response was defined as a PSA decline from Baseline of 50% or greater, repeated on 2 occasions at least 4 weeks apart.",
+   "groups": [
+    {
+     "description": "Participants received ruxolitinib 25 mg orally twice daily in 12-hour intervals for 21-day cycles for as long as the study medication was tolerated and provided clinical benefit.",
+     "id": "OG000",
+     "title": "Ruxolitinib"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "The Intent-to-treat population, which included all patients enrolled in the study who took at least 1 dose of study medication.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Assessed monthly from Baseline until the end of study (up to 8 months)",
+   "title": "Number of Participants With a Prostate-specific Antigen Response",
+   "type": "PRIMARY",
+   "unitOfMeasure": "participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "22"
+        }
+       ]
+      }
+     ],
+     "title": "Any adverse event"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "16"
+        }
+       ]
+      }
+     ],
+     "title": "Treatment-related adverse event"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "9"
+        }
+       ]
+      }
+     ],
+     "title": "Serious adverse event"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "13"
+        }
+       ]
+      }
+     ],
+     "title": "Grade 3 or 4 adverse event"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "4"
+        }
+       ]
+      }
+     ],
+     "title": "Discontinued study medication due to adverse event"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1"
+        }
+       ]
+      }
+     ],
+     "title": "Discontinued study due to adverse events"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "22"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "A treatment-related AE was defined as an event with a definite, probable, or possible causality to study medication. A serious AE is an event resulting in death, hospitalization, persistent or significant disability/incapacity, or is life threatening, a congenital anomaly/birth defect or requires medical or surgical intervention to prevent 1 of the outcomes above. The intensity of an AE was graded according to the National Cancer Institute common terminology criteria for adverse events (NCI-CTCAE) version 3.0: Grade 1 (Mild); Grade 2 (Moderate); Grade 3 (Severe); Grade 4 (life-threatening).",
+   "groups": [
+    {
+     "description": "Participants received ruxolitinib 25 mg orally twice daily in 12-hour intervals for 21-day cycles for as long as the study medication was tolerated and provided clinical benefit.",
+     "id": "OG000",
+     "title": "Ruxolitinib"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "The Safety population included all enrolled patients who received at least 1 dose of study medication.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "From Baseline through to the end of study (up to 8 months)",
+   "title": "Number of Participants With Adverse Events (AE)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

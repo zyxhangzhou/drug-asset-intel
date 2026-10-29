@@ -1,0 +1,83 @@
+{
+ "nctId": "NCT02912260",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-32.9",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-12.2",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "5.22",
+     "groupDescription": "LS mean difference in hepatic fat fraction between MGL-3196 and placebo at Week 12.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<0.0001",
+     "paramType": "Mean Difference (Net)",
+     "paramValue": "-22.5",
+     "statisticalMethod": "ANCOVA"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "3.0",
+         "value": "-32.9"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "4.3",
+         "value": "-10.4"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "78"
+      },
+      {
+       "groupId": "OG001",
+       "value": "38"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The primary endpoint was relative change in MRI-PDFF assessed hepatic fat fraction compared with placebo at Week 12 in participants who had both a baseline and Week 12 MRI-PDFF. Least squares (LS) mean was provided for the statistical comparison of MGL-3196 versus placebo.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Randomized participants received MGL-3196 80 mg orally once daily in the morning for 36 weeks.",
+     "id": "OG000",
+     "title": "MGL-3196"
+    },
+    {
+     "description": "Randomized participants received matching placebo orally once daily in the morning for 36 weeks.",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "MRI-PDFF evaluable population: all participants who were randomized in the study, received study drug, and finished Week 12 visit, with valid MRI-PDFF measurements at both baseline and Week 12 Visit.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Week 12",
+   "title": "Percent Change From Baseline To Week 12 In Hepatic Fat Fraction Assessed By Magnetic Resonance Imaging Proton Density Fat Fraction (MRI-PDFF)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percent change"
+  }
+ ]
+}

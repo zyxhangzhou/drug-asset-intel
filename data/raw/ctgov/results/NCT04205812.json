@@ -1,0 +1,84 @@
+{
+ "nctId": "NCT04205812",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.60",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.93",
+     "estimateComment": "A stratified Cox regression with Efron's method for tie handling was used to estimate the hazard ratio.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0042",
+     "pValueComment": "The p-value was based on a stratified log-rank test at an overall 1-sided 2.5% level of significance, using O'Brien and Fleming boundary to adjust for alpha spending at interim analysis.",
+     "paramType": "Hazard Ratio (HR)",
+     "paramValue": "0.75",
+     "statisticalMethod": "Log Rank"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "11.0",
+         "upperLimit": "16.7",
+         "value": "13.4"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "16.2",
+         "upperLimit": "21.0",
+         "value": "18.1"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "192"
+      },
+      {
+       "groupId": "OG001",
+       "value": "391"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Overall survival was defined as the time between the date of randomization and the date of death due to any cause.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants received placebo intravenously (IV) every 3 weeks (Q3W) along with a standard-of-care chemotherapy regimen in the randomized treatment period. Participants with nonsquamous non-small cell lung cancer (NSCLC) received placebo IV (on Day 1 \\[D1\\]) Q3W with pemetrexed 500 milligrams per meters squared (mg/m\\^2) + either cisplatin 75 mg/m\\^2 (on D1) Q3W or carboplatin AUC 5 (on D1) Q3W for 4 cycles (21-day cycles) followed by placebo IV Q3W + pemetrexed 500 mg/m\\^2 Q3W until progression. Participants with squamous NSCLC received placebo IV (on D1) Q3W with carboplatin AUC 6 (D1) + either paclitaxel 200 mg/m\\^2 (on D1) or nab-paclitaxel 100 mg/m\\^2 (on D1, D8, D15) Q3W for 4 cycles followed by placebo IV Q3W until progression. Treatment could continue for up to 2 years until unacceptable toxicity, disease progression, investigator's decision, pregnancy, withdrawal of consent, or study termination.",
+     "id": "OG000",
+     "title": "Placebo + Chemotherapy"
+    },
+    {
+     "description": "Participants received retifanlimab 375 mg IV Q3W along with a standard-of-care platinum-based chemotherapy regimen in the randomized treatment period. Participants with nonsquamous NSCLC received retifanlimab 375 mg IV (on D1) Q3W with pemetrexed 500 mg/m\\^2 + either cisplatin 75 mg/m\\^2 (on D1) Q3W or carboplatin AUC 5 (on D1) Q3W for 4 cycles (21-day cycles) followed by retifanlimab 375 mg IV Q3W + pemetrexed 500 mg/m\\^2 Q3W until progression. Participants with squamous NSCLC received retifanlimab 375 mg IV (on D1) Q3W with carboplatin AUC 6 (D1) + either paclitaxel 200 mg/m\\^2 (on D1) or nab-paclitaxel 100 mg/m\\^2 (on D1, D8, D15) Q3W for 4 cycles followed by retifanlimab 375 mg IV Q3W until progression. Treatment could continue for up to 2 years until unacceptable toxicity, disease progression, investigator's decision, pregnancy, withdrawal of consent, or study termination.",
+     "id": "OG001",
+     "title": "Retifanlimab + Chemotherapy"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "Median survival time in months was estimated using the Kaplan-Meier method. The confidence interval for median survival time was calculated using the method of Brookmeyer and Crowley. Full Analysis Set: all participants to whom study treatment had been assigned by randomization. Participants were analyzed according to the treatment and strata they had been assigned to during the randomization procedure.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "up to 39.1 months",
+   "title": "Overall Survival",
+   "type": "PRIMARY",
+   "unitOfMeasure": "months"
+  }
+ ]
+}

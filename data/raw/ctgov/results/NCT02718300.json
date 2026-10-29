@@ -1,0 +1,292 @@
+{
+ "nctId": "NCT02718300",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        },
+        {
+         "groupId": "OG002",
+         "value": "0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "21"
+      },
+      {
+       "groupId": "OG001",
+       "value": "21"
+      },
+      {
+       "groupId": "OG002",
+       "value": "32"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "DLTs were defined as the occurrence of any protocol-defined toxicities occurring up to and including Day 28, except those with a clear alternative explanation (e.g., disease progression, other medications) or transient (≤ 72 hours) abnormal laboratory values without associated clinically significant signs or symptoms based on investigator determination. All DLTs were assessed by the investigator using Common Terminology Criteria for Adverse Events (CTCAE) version 4.03 criteria.",
+   "groups": [
+    {
+     "description": "Participants received at least 6 months of prior ruxolitinib therapy, including ruxolitinib administration at a stable dose of 5 milligrams (mg) twice a day (BID) to 25 mg BID for at least 8 weeks before randomization. From Day 1 to the end of Week 8, participants received oral parsaclisib 20 mg once daily (QD), followed by 5 mg QD until discontinuation criteria were met, in combination with the pre-Day 1 stable dose of ruxolitinib (5 to 25 mg BID).",
+     "id": "OG000",
+     "title": "TG5I/M"
+    },
+    {
+     "description": "Participants received at least 6 months of prior ruxolitinib therapy, including ruxolitinib administration at a stable dose of 5 mg BID to 25 mg BID for at least 8 weeks before randomization. From Day 1, participants received oral parsaclisib 5 mg QD until discontinuation criteria were met, in combination with the pre-Day 1 stable dose of ruxolitinib (5 to 25 mg BID).",
+     "id": "OG001",
+     "title": "TG5D"
+    },
+    {
+     "description": "Participants received at least 6 months of prior ruxolitinib therapy, including ruxolitinib administration at a stable dose of 5 mg BID to 25 mg BID for at least 8 weeks before randomization. From Day 1 to the end of Week 8, participants in TG10 and TG20 received oral parsaclisib 10 mg or 20 mg QD, respectively, followed by the same dose weekly until discontinuation criteria were met, in combination with the pre-Day 1 stable dose of ruxolitinib (5 to 25 mg BID).",
+     "id": "OG002",
+     "title": "TG10 + TG20: Daily/Weekly Dosing"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Initial Safety Population: all participants who received at least 1 dose of study drug. Treatment groups were determined according to the actual treatment the participant received regardless of assigned study drug treatment. Analysis was conducted on the Safety Population during the initial safety period. Due to early termination of the study, per the Statistical Analysis Plan, daily and weekly dosing arms were combined for analysis.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "up to Day 28",
+   "title": "Number of Participants With Dose-limiting Toxicities (DLTs)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "1006.75",
+         "value": "1779.0"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "773.45",
+         "value": "2032.3"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "1208.90",
+         "value": "2469.0"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "20"
+        },
+        {
+         "groupId": "OG001",
+         "value": "17"
+        },
+        {
+         "groupId": "OG002",
+         "value": "29"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Baseline"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "2342.09",
+         "value": "383.3"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "226.11",
+         "value": "-276.9"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "312.69",
+         "value": "-54.3"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "20"
+        },
+        {
+         "groupId": "OG001",
+         "value": "17"
+        },
+        {
+         "groupId": "OG002",
+         "value": "28"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Change from Baseline at Week 12"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "20"
+      },
+      {
+       "groupId": "OG001",
+       "value": "17"
+      },
+      {
+       "groupId": "OG002",
+       "value": "29"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Change from Baseline was calculated as the post-Baseline value minus the Baseline value.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants received at least 6 months of prior ruxolitinib therapy, including ruxolitinib administration at a stable dose of 5 milligrams (mg) twice a day (BID) to 25 mg BID for at least 8 weeks before randomization. From Day 1 to the end of Week 8, participants received oral parsaclisib 20 mg once daily (QD), followed by 5 mg QD until discontinuation criteria were met, in combination with the pre-Day 1 stable dose of ruxolitinib (5 to 25 mg BID).",
+     "id": "OG000",
+     "title": "TG5I/M"
+    },
+    {
+     "description": "Participants received at least 6 months of prior ruxolitinib therapy, including ruxolitinib administration at a stable dose of 5 mg BID to 25 mg BID for at least 8 weeks before randomization. From Day 1, participants received oral parsaclisib 5 mg QD until discontinuation criteria were met, in combination with the pre-Day 1 stable dose of ruxolitinib (5 to 25 mg BID).",
+     "id": "OG001",
+     "title": "TG5D"
+    },
+    {
+     "description": "Participants received at least 6 months of prior ruxolitinib therapy, including ruxolitinib administration at a stable dose of 5 mg BID to 25 mg BID for at least 8 weeks before randomization. From Day 1 to the end of Week 8, participants in TG10 and TG20 received oral parsaclisib 10 mg or 20 mg QD, respectively, followed by the same dose weekly until discontinuation criteria were met, in combination with the pre-Day 1 stable dose of ruxolitinib (5 to 25 mg BID).",
+     "id": "OG002",
+     "title": "TG10 + TG20: Daily/Weekly Dosing"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Initial Safety Population: all enrolled participants who received at least 1 dose of study drug. Analysis was conducted on the Safety Population during the initial safety period. Only participants with available data were analyzed. Due to early termination of the study, per the Statistical Analysis Plan, daily and weekly dosing arms were combined for efficacy analysis.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline; Week 12",
+   "title": "Change From Baseline in Spleen Volume Through Week 12 of the Initial Study Period as Measured by Magnetic Resonance Imaging (MRI) (or Computed Tomography [CT] Scan in Applicable Participants)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "centimeters cubed (cm^3)"
+  },
+  {
+   "analyses": [
+    {
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.4046",
+     "statisticalComment": "stratified by ECOG Performance Status at Screening (0 or 1 versus 2)",
+     "statisticalMethod": "Van Elteren test"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "104.37",
+         "value": "9.2"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "10.89",
+         "value": "-15.2"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "12.21",
+         "value": "-3.1"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "20"
+      },
+      {
+       "groupId": "OG001",
+       "value": "17"
+      },
+      {
+       "groupId": "OG002",
+       "value": "28"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Percent change from Baseline was calculated as the (\\[post-Baseline value minus the Baseline value\\] / Baseline value) x 100.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants received at least 6 months of prior ruxolitinib therapy, including ruxolitinib administration at a stable dose of 5 milligrams (mg) twice a day (BID) to 25 mg BID for at least 8 weeks before randomization. From Day 1 to the end of Week 8, participants received oral parsaclisib 20 mg once daily (QD), followed by 5 mg QD until discontinuation criteria were met, in combination with the pre-Day 1 stable dose of ruxolitinib (5 to 25 mg BID).",
+     "id": "OG000",
+     "title": "TG5I/M"
+    },
+    {
+     "description": "Participants received at least 6 months of prior ruxolitinib therapy, including ruxolitinib administration at a stable dose of 5 mg BID to 25 mg BID for at least 8 weeks before randomization. From Day 1, participants received oral parsaclisib 5 mg QD until discontinuation criteria were met, in combination with the pre-Day 1 stable dose of ruxolitinib (5 to 25 mg BID).",
+     "id": "OG001",
+     "title": "TG5D"
+    },
+    {
+     "description": "Participants received at least 6 months of prior ruxolitinib therapy, including ruxolitinib administration at a stable dose of 5 mg BID to 25 mg BID for at least 8 weeks before randomization. From Day 1 to the end of Week 8, participants in TG10 and TG20 received oral parsaclisib 10 mg or 20 mg QD, respectively, followed by the same dose weekly until discontinuation criteria were met, in combination with the pre-Day 1 stable dose of ruxolitinib (5 to 25 mg BID).",
+     "id": "OG002",
+     "title": "TG10 + TG20: Daily/Weekly Dosing"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Initial Safety Population. Analysis was conducted on the Safety Population during the initial safety period. Only participants with available data were analyzed. Due to early termination of the study, per the Statistical Analysis Plan, daily and weekly dosing arms were combined for efficacy analysis.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline; Week 12",
+   "title": "Percent Change From Baseline in Spleen Volume Through Week 12 as Measured by MRI (or CT Scan in Applicable Participants)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percent change"
+  }
+ ]
+}

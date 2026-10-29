@@ -1,0 +1,98 @@
+{
+ "nctId": "NCT05764161",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.651",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "2.143",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.5859",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "1.18",
+     "statisticalComment": "Cochran-Mantel-Haenszel test stratified by IGA-CPG-S score (2 or ≥3) and geographic region (North America or outside of North America).",
+     "statisticalMethod": "Cochran-Mantel-Haenszel"
+    },
+    {
+     "ciLowerLimit": "-9.84",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "17.46",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "6.966",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "paramType": "Response Rate Difference",
+     "paramValue": "3.81"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "26.5",
+         "upperLimit": "46.7",
+         "value": "36.2"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "30.1",
+         "upperLimit": "50.6",
+         "value": "40.0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "94"
+      },
+      {
+       "groupId": "OG001",
+       "value": "95"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "WI-NRS4 was defined as the percentage of participants achieving a ≥4-point improvement (reduction) in Worst-Itch Numeric Rating Scale (WI-NRS) score from baseline. The WI-NRS is a patient-reported outcome comprised of a single item rated on a scale from 0 (\"no itch\") to 10 (\"worst imaginable itch\"). Participants assessed their worst level of prurigo nodularis-related itch during the past 24 hours on a scale of 0 to 10. The WI-NRS score for baseline was determined by averaging the 7 daily WI-NRS scores before Day 1 (i.e., Days -7 to -1) for all by-visit summaries. The by-visit WI-NRS score for post-baseline visits was determined by averaging the 7 daily WI-NRS scores before the visit day. Participants with missing Week 12 data for any reason, including treatment discontinuation (due to development of atopic dermatitis lesions or any other cause), were defined as nonresponders.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants applied vehicle cream twice daily (BID) through Week 12 to all pruriginous lesions identified at baseline plus an approximate 1 centimeter (cm) area surrounding each lesion in the Double-blind, Vehicle-controlled (DBVC) Period. At Week 12, the investigator assessed whether the participant required continuation of therapy (Investigator Global Assessment for Stage of Chronic Prurigo \\[IGA-CPG-S\\] score ≥1 and/or the presence of prurigo nodularis-related itching). Those participants who completed 12 weeks of treatment with no safety concerns were eligible to enter the 40-week Open-label Extension (OLE) Period. Participants randomized to vehicle cream at baseline switched to ruxolitinib 1.5% cream BID and received treatment through Week 52. During the OLE period, participants applied ruxolitinib 1.5% cream BID to prurigo nodularis-affected areas plus an approximate 1 cm area surrounding each pruriginous lesion and/or areas of prurigo nodularis-related itching.",
+     "id": "OG000",
+     "title": "Vehicle Cream BID to Ruxolitinib 1.5% Cream BID"
+    },
+    {
+     "description": "Participants applied ruxolitinib 1.5% cream BID through Week 12 to all pruriginous lesions identified at baseline plus an approximate 1 cm area surrounding each lesion in the DBVC Period. At Week 12, the investigator assessed whether the participant required continuation of therapy (IGA-CPG-S score ≥1 and/or the presence of prurigo nodularis-related itching). Those participants who completed 12 weeks of treatment with no safety concerns were eligible to enter the 40-week OLE Period. Participants randomized to ruxolitinib 1.5% cream at baseline remained on ruxolitinib 1.5% cream BID through Week 52. During the OLE Period, participants applied ruxolitinib 1.5% cream BID to prurigo nodularis-affected areas plus an approximate 1 cm area surrounding each pruriginous lesion and/or areas of prurigo nodularis-related itching.",
+     "id": "OG001",
+     "title": "Ruxolitinib 1.5% Cream BID to Ruxolitinib 1.5% Cream BID"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Intent-to-Treat (ITT) Population: all randomized participants. Treatment groups were defined according to the treatment assignment at the time of randomization regardless of the actual study cream the participant might have applied during their participation in the double-blind, vehicle-controlled period. Participants with a baseline ITCH Score ≥4 were analyzed.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline; Week 12",
+   "title": "WI-NRS4 Response at Week 12",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

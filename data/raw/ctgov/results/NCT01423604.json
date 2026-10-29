@@ -1,0 +1,100 @@
+{
+ "nctId": "NCT01423604",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.506",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "1.061",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+     "pValue": "0.0494",
+     "pValueComment": "One-sided p-value.",
+     "paramType": "Hazard Ratio (HR)",
+     "paramValue": "0.733",
+     "statisticalMethod": "Log Rank"
+    },
+    {
+     "ciLowerLimit": "0.281",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.888",
+     "groupDescription": "Cox Regression Analysis of Overall Survival: C-reactive protein (CRP) \\> 13 μg/ml; Statistical analysis plan (SAP) specified subgroup analysis",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+     "pValue": "0.0081",
+     "pValueComment": "One-sided p-value.",
+     "paramType": "Hazard Ratio (HR)",
+     "paramValue": "0.502",
+     "statisticalMethod": "Log Rank"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "95.0",
+         "upperLimit": "196.0",
+         "value": "136.5"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "71.0",
+         "upperLimit": "179.0",
+         "value": "129.5"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "64"
+      },
+      {
+       "groupId": "OG001",
+       "value": "63"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Overall survival was measured as the length of time (in days) between the randomization date and the date of death.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Subjects received ruxolitinib 15 mg BID plus capecitabine at a starting dose of 2000 mg/m\\^2 (1000 mg/m\\^2 twice a day \\[BID\\]).",
+     "id": "OG000",
+     "title": "Ruxolitinib"
+    },
+    {
+     "description": "Matching placebo tablets were administered as oral doses in the same manner as active drug during the randomized portion of the study. Capecitabine starting dose - 2000 mg/m\\^2 (1000 mg/m\\^2 twice a day \\[BID\\]).",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "The intent-to-treat (ITT) population included subjects randomized in Part 2 of the study.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Primary analysis includes study data from the start of the study (first dose for that subject) until the death of the subject (up to 8 months).",
+   "title": "Overall Survival",
+   "type": "PRIMARY",
+   "unitOfMeasure": "days"
+  }
+ ]
+}

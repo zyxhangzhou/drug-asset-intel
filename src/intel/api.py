@@ -1,6 +1,6 @@
 """Read-only HTTP API over the snapshot; also serves the built frontend."""
 
-from datetime import UTC, datetime
+from datetime import UTC, date, datetime
 from pathlib import Path
 from typing import Annotated
 
@@ -21,6 +21,7 @@ class Health(BaseModel):
 class Meta(BaseModel):
     generated_at: datetime | None
     generator: str | None
+    snapshot_date: date | None
     counts: dict[str, int]
 
 
@@ -46,6 +47,7 @@ def create_app(db_path: Path | None = None, web_dist: Path | None = None) -> Fas
             # SQLite drops tzinfo; snapshot times are always written in UTC.
             generated_at=row.generated_at.replace(tzinfo=UTC) if row else None,
             generator=row.generator if row else None,
+            snapshot_date=row.snapshot_date if row else None,
             counts=entity_counts(session),
         )
 

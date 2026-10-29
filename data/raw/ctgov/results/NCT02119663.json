@@ -1,0 +1,93 @@
+{
+ "nctId": "NCT02119663",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.886",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "2.830",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "OTHER",
+     "paramType": "Hazard Ratio (HR)",
+     "paramValue": "1.584"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "29"
+        },
+        {
+         "groupId": "OG001",
+         "value": "23"
+        }
+       ]
+      }
+     ],
+     "title": "Observed deaths"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "14"
+        },
+        {
+         "groupId": "OG001",
+         "value": "20"
+        }
+       ]
+      }
+     ],
+     "title": "Censored deaths"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "43"
+      },
+      {
+       "groupId": "OG001",
+       "value": "43"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Overall survival is reported here based on the number of deaths from randomization until the data cut-off.",
+   "groups": [
+    {
+     "description": "Ruxolitinib 5 mg tablets in combination with Capecitabine 150 mg or 500 mg tablets to be administered by mouth twice daily (BID).",
+     "id": "OG000",
+     "title": "Ruxolitinib Plus Capecitabine"
+    },
+    {
+     "description": "Placebo 5 mg matching placebo tablets in combination with Capecitabine: 150 mg or 500 mg tablets to be administered by mouth twice daily (BID).",
+     "id": "OG001",
+     "title": "Placebo Plus Capecitabine"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "The intent-to-treat (ITT) population consisted of all participants randomized to the study.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Randomization until death due to any cause up to 6-months or to the data cutoff 11FEB2016.",
+   "title": "Overall Survival (OS)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

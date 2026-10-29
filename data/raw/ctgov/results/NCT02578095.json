@@ -1,0 +1,142 @@
+{
+ "nctId": "NCT02578095",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "1.70",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "7.80",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0032",
+     "paramType": "Mean Difference (Final Values)",
+     "paramValue": "4.75",
+     "statisticalMethod": "ANCOVA"
+    },
+    {
+     "ciLowerLimit": "3.76",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "10.54",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<0.0001",
+     "paramType": "Mean Difference (Final Values)",
+     "paramValue": "7.15",
+     "statisticalMethod": "ANCOVA"
+    },
+    {
+     "ciLowerLimit": "5.55",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "12.60",
+     "groupIds": [
+      "OG000",
+      "OG003"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<0.0001",
+     "paramType": "Mean Difference (Final Values)",
+     "paramValue": "9.08",
+     "statisticalMethod": "ANCOVA"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "0",
+         "upperLimit": "0",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "1.70",
+         "upperLimit": "7.80",
+         "value": "4.75"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "3.76",
+         "upperLimit": "10.54",
+         "value": "7.15"
+        },
+        {
+         "groupId": "OG003",
+         "lowerLimit": "5.55",
+         "upperLimit": "12.60",
+         "value": "9.08"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "20"
+      },
+      {
+       "groupId": "OG001",
+       "value": "27"
+      },
+      {
+       "groupId": "OG002",
+       "value": "17"
+      },
+      {
+       "groupId": "OG003",
+       "value": "15"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Efficacy of VK5211 after 12 weeks of treatment by mean placebo-corrected percentage change in total body less head (TBLH) lean body mass assessed by whole body dual-energy x-ray absorptiometry scan (DXA) scan.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Placebo QD\n\nPlacebo: Capsule",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "0.5mgQD\n\nVK5211: Capsule",
+     "id": "OG001",
+     "title": "VK5211- 0.5mg"
+    },
+    {
+     "description": "1.0mg QD\n\nVK5211: Capsule",
+     "id": "OG002",
+     "title": "VK5211- 1.0mg"
+    },
+    {
+     "description": "2.0mg QD\n\nVK5211: Capsule",
+     "id": "OG003",
+     "title": "VK5211- 2.0mg"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "The ITT population was the primary analysis population for assessing efficacy.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline and Week12",
+   "title": "Efficacy in Hip Fracture Patients Confirmed by DXA Scan.",
+   "type": "PRIMARY",
+   "unitOfMeasure": "PBO adjusted percent change"
+  }
+ ]
+}

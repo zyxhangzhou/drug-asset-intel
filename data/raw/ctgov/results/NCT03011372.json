@@ -1,0 +1,50 @@
+{
+ "nctId": "NCT03011372",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "53.35",
+         "upperLimit": "81.83",
+         "value": "68.9"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "45"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "CR was defined as the presence of all of the following improvements: (1) bone marrow: ≤5% myeloblasts (including monocytic blast equivalent) and no lymphoblasts, with normal maturation of all cell lines, and return to age-adjusted normal cellularity; (2) osteomyelofibrosis absent or equal to \"mild reticulin fibrosis\" (Grade 1 or less fibrosis); (3) peripheral blood: white blood cells (WBC) ≤10 x 10\\^9 cells/Liter (L); hemoglobin (Hgb) ≥11 grams per deciliter (g/dL); platelets ≥100 x 10\\^9/L and ≤450 x 10\\^9/L; neutrophils ≥1.0 x 10\\^9/L; blasts = 0%; neutrophil precursors reduced to ≤2%; monocytes ≤1 x 10\\^9/L; eosinophils ≤0.5 x 10\\^9/L; (4) extramedullary disease: complete resolution of extramedullary disease present before therapy (e.g., lymphadenopathy), including palpable hepatosplenomegaly. Persistent low-level dysplasia was permitted given subjectivity of assignment of dysplasia. Response criteria by investigator assessment were the same for chronic phase (CP) and blast phase (BP).",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Pemigatinib 13.5 milligrams (mg) was self-administered once daily (QD) as oral tablets on an intermittent dosing (ID) schedule or continuous dosing (CD) schedule. Participants started pemigatinib 13.5 mg on the ID schedule (i.e., 2 weeks on/1 week off) as per the initial Protocol and on the CD schedule in 21-day cycles following a Protocol amendment.",
+     "id": "OG000",
+     "title": "Pemigatinib 13.5 mg"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Full Efficacy-Evaluable Population: all enrolled participants with an FGFR1 rearrangement and who received at least 1 dose of study drug. For this report, the full EEP included both previously treated and treatment-naive participants. Confidence intervals were calculated based on the exact method for binomial distribution.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "up to 2513 days (120 21-day treatment cycles)",
+   "title": "Percentage of Participants Who Achieved Complete Response (CR) as Determined by Investigator Assessment According to the Response Criteria for Myeloid/Lymphoid Neoplasms With FGFR1 Rearrangement",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

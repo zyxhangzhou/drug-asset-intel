@@ -17,7 +17,7 @@
 - **THEN** 返回快照日
 
 ### Requirement: Polite external access
-对外部接口的抓取 SHALL 限速：SEC 每秒不超过 10 次请求，其他接口每次请求之间至少间隔 0.5 秒；单个公司的抓取失败只记录到抓取日志，不中断其余公司的抓取。
+对外部接口的抓取 SHALL 限速：SEC 每秒不超过 10 次请求，ClinicalTrials.gov 每分钟不超过约 50 次，其他接口每次请求之间至少间隔 0.5 秒；收到 429 时按 Retry-After 退避后重试；单个公司的抓取失败只记录到抓取日志，不中断其余公司的抓取。
 
 #### Scenario: One failing company does not stop the batch
 - **WHEN** 批量抓取时某公司的接口请求失败

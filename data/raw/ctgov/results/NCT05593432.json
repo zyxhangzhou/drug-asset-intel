@@ -1,0 +1,100 @@
+{
+ "nctId": "NCT05593432",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "7.55",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "51.33",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "11.17",
+     "estimateComment": "stratified by Baseline IGA score (3 or 4)",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0129",
+     "pValueComment": "stratified by Baseline Investigator's Global Assessment (IGA) score (3 or 4)",
+     "paramType": "Response Rate Difference",
+     "paramValue": "29.4",
+     "statisticalMethod": "Cochran-Mantel-Haenszel"
+    },
+    {
+     "ciLowerLimit": "1.32",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "12.38",
+     "estimateComment": "stratified by Baseline IGA score (3 or 4)",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "4.04"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "31.9",
+         "upperLimit": "68.1",
+         "value": "50.0"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "9.3",
+         "upperLimit": "40.0",
+         "value": "21.9"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "32"
+      },
+      {
+       "groupId": "OG001",
+       "value": "32"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The Investigator's Global Assessment (IGA) is a modified global assessment tool to assess the severity of lesions. Grading was based on 0 (clear), 1 (almost clear), 2 (mild), 3 (moderate), and 4 (severe). IGA-TS response was defined as an IGA score of 0 or 1 with a ≥2-grade improvement from Baseline at Week 16.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants applied ruxolitinib 1.5% cream twice daily (BID) for 16 weeks.",
+     "id": "OG000",
+     "title": "Double-Blind, Vehicle-Controlled Period: Ruxolitinib Cream 1.5% BID"
+    },
+    {
+     "description": "Participants applied matching vehicle cream BID for 16 weeks.",
+     "id": "OG001",
+     "title": "Double-Blind, Vehicle-Controlled Period: Vehicle Cream BID"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Intent-to-Treat (ITT) Population: all randomized participants. Treatment groups were defined according to the treatment assignment at the time of randomization regardless of the actual study drug the participant might have taken during their participation in the Double-blind; vehicle-controlled (DBVC) period. Missing post-Baseline values were imputed as nonresponders. Only participants with available data were analyzed.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline; Week 16",
+   "title": "Percentage of Participants Achieving Investigator's Global Assessment-Treatment Success (IGA-TS) at Week 16",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

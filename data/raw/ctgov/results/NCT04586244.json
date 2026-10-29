@@ -1,0 +1,96 @@
+{
+ "nctId": "NCT04586244",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "groupIds": [
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0925",
+     "statisticalComment": "The paired t-test used n-1 degrees of freedom, where n is the number of evaluable paired samples.",
+     "statisticalMethod": "paired t-test"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG001",
+         "spread": "0.9332",
+         "value": "0.791"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "0"
+      },
+      {
+       "groupId": "OG001",
+       "value": "6"
+      },
+      {
+       "groupId": "OG002",
+       "value": "0"
+      },
+      {
+       "groupId": "OG003",
+       "value": "0"
+      },
+      {
+       "groupId": "OG004",
+       "value": "0"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Fold Change from Baseline in CD8+ lymphocytes = CD8+ Lymphocytes at cystectomy divided by CD8+ lymphocytes at Screening. Translational data in all but the retifanlimab 500 mg Q4W treatment group were limited and insufficient to assess this outcome measure.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants received oral epacadostat 600 milligrams (mg) twice daily (BID) + intravenous retifanlimab 500 mg every 4 weeks (Q4W; on Day 1 of each 28-day cycle). Treatment continued for 4 to 10 weeks, as long as participants did not meet any criteria for study withdrawal.",
+     "id": "OG000",
+     "title": "Epacadostat 600 mg BID + Retifanlimab 500 mg Q4W"
+    },
+    {
+     "description": "Participants received intravenous retifanlimab 500 mg Q4W (on Day 1 of each 28-day cycle). Treatment continued for 4 to 10 weeks, as long as participants did not meet any criteria for study withdrawal.",
+     "id": "OG001",
+     "title": "Retifanlimab 500 mg Q4W"
+    },
+    {
+     "description": "Participants received oral epacadostat 600 mg BID. Treatment continued for 4 to 10 weeks, as long as participants did not meet any criteria for study withdrawal.",
+     "id": "OG002",
+     "title": "Epacadostat 600 mg BID"
+    },
+    {
+     "description": "Participants received intravenous retifanlimab 500 mg Q4W (on Day 1 of each 28-day cycle) + intravenous INCAGN02385 350 mg every 2 weeks (Q2W). Treatment continued for 4 to 10 weeks, as long as participants did not meet any criteria for study withdrawal.",
+     "id": "OG003",
+     "title": "Retifanlimab 500 mg Q4W + INCAGN02385 350 mg Q2W"
+    },
+    {
+     "description": "Participants received intravenous retifanlimab 500 mg Q4W (on Day 1 of each 28-day cycle) + intravenous INCAGN02385 350 mg Q2W + intravenous INCAGN02390 400 mg Q2W. Treatment continued for 4 to 10 weeks, as long as participants did not meet any criteria for study withdrawal.",
+     "id": "OG004",
+     "title": "Retifanlimab 500 mg Q4W + INCAGN02385 350 mg Q2W + INCAGN02390 400 mg Q2W"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Translation Evaluable Population: all participants who enrolled in the study who received at least 4 weeks of neoadjuvant study treatment (needed to receive the last dose of epacadostat within 2 days prior to the day of surgery or needed to receive the last dose of retifanlimab and/or INCAGN02385 and/or INCAGN02390 within the 7 weeks prior to day of surgery) and provided evaluable paired biopsies (pretreatment core biopsy and surgical resection biopsy)",
+   "reportingStatus": "POSTED",
+   "timeFrame": "up to 69 days",
+   "title": "Change From Baseline in CD8+ Lymphocytes Within the Resected Tumor",
+   "type": "PRIMARY",
+   "unitOfMeasure": "log 2 of fold change"
+  }
+ ]
+}

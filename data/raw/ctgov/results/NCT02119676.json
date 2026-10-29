@@ -1,0 +1,134 @@
+{
+ "nctId": "NCT02119676",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.73",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "1.49",
+     "estimateComment": "Estimated using a Cox regression model with Efron's method used for ties, stratified by mGPS score and geographical region",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "OTHER",
+     "pValue": "0.588",
+     "pValueComment": "1-sided",
+     "paramType": "Hazard Ratio (HR)",
+     "paramValue": "1.04",
+     "statisticalComment": "Log-rank test stratified by modified Glasgow Prognostic Score (mGPS) and geographical region.",
+     "statisticalMethod": "Log Rank"
+    },
+    {
+     "ciLowerLimit": "0.48",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "1.23",
+     "estimateComment": "Estimated using Cox regression model with Efron's method used for ties, stratified by geographical region",
+     "groupIds": [
+      "OG002",
+      "OG003"
+     ],
+     "nonInferiorityType": "OTHER",
+     "pValue": "0.136",
+     "pValueComment": "1-sided",
+     "paramType": "Hazard Ratio (HR)",
+     "paramValue": "0.77",
+     "statisticalComment": "Log rank test stratified by geographical region.",
+     "statisticalMethod": "Log Rank"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "3.5",
+         "upperLimit": "5.4",
+         "value": "4.6"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "4.3",
+         "upperLimit": "6.0",
+         "value": "5.3"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "9.0",
+         "upperLimit": "13.2",
+         "value": "11.4"
+        },
+        {
+         "comment": "Not estimable due to insufficient number of participants with events.",
+         "groupId": "OG003",
+         "lowerLimit": "7.2",
+         "upperLimit": "NA",
+         "value": "10.9"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "87"
+      },
+      {
+       "groupId": "OG001",
+       "value": "88"
+      },
+      {
+       "groupId": "OG002",
+       "value": "110"
+      },
+      {
+       "groupId": "OG003",
+       "value": "111"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Overall survival is defined as the time from randomization to death due to any cause. Participants without death observed at the time of the analysis will be censored at last date known to be alive. The median overall survival time was estimated using the Kaplan-Meier method. Overall survival was compared between treatment groups using log-rank test.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Ruxolitinib 15 mg BID continuous with regorafenib 160 mg QD for the first 21 days of each 28-day cycle.",
+     "id": "OG000",
+     "title": "Substudy 1: Ruxolitinib + Regorafenib"
+    },
+    {
+     "description": "Placebo BID continuous with regorafenib 160 mg QD for the first 21 days of each 28-day cycle.",
+     "id": "OG001",
+     "title": "Substudy 1: Placebo + Regorafenib"
+    },
+    {
+     "description": "Ruxolitinib 15 mg BID continuous with regorafenib 160 mg QD for the first 21 days of each 28-day cycle.",
+     "id": "OG002",
+     "title": "Substudy 2: Ruxolitinib + Regorafenib"
+    },
+    {
+     "description": "Placebo BID continuous with regorafenib 160 mg QD for the first 21 days of each 28-day cycle.",
+     "id": "OG003",
+     "title": "Substudy 2: Placebo + Regorafenib"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "Intent-to-treat (ITT) population included all subjects randomized in Substudy 1 and Substudy 2 of the study.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline until death due to any cause; up to 16 months or data cut-off 11 FEB 2016.",
+   "title": "Overall Survival (OS)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "months"
+  }
+ ]
+}
