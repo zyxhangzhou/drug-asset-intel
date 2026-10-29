@@ -198,7 +198,10 @@ def test_filed_values_cite_the_filing(s):
     assert c.kind == ClaimKind.fact and c.source_id == "SEC-0000000000-26-000001"
     assert "ShortTermInvestments" in c.note
     src = s.get(Source, c.source_id)
-    assert src.url == "https://www.sec.gov/Archives/edgar/data/1607678/000000000026000001/"
+    assert src.url == (
+        "https://www.sec.gov/Archives/edgar/data/1607678/000000000026000001/"
+        "0000000000-26-000001-index.html"
+    )
 
 
 def test_weekend_snapshot_uses_previous_close_and_market_cap_cites_both(s):

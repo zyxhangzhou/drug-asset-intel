@@ -27,7 +27,7 @@ from intel.ingest.pool import Company, candidate_pool
 from intel.models import FinancialSnapshot, Source, Target
 
 COMPANYFACTS_URL = "https://data.sec.gov/api/xbrl/companyfacts/CIK{cik}.json"
-FILING_INDEX = "https://www.sec.gov/Archives/edgar/data/{cik}/{accn}/"
+FILING_INDEX = "https://www.sec.gov/Archives/edgar/data/{cik}/{folder}/{accn}-index.html"
 NASDAQ_HISTORY = "https://api.nasdaq.com/api/quote/{ticker}/historical"
 NASDAQ_PAGE = "https://www.nasdaq.com/market-activity/stocks/{ticker}/historical"
 BROWSER_HEADERS = {"User-Agent": "Mozilla/5.0", "Accept": "application/json"}
@@ -254,7 +254,9 @@ def _filing_source(ctx: BuildContext, fact: Fact, cik: str, path: Path) -> str:
             Source(
                 source_id=source_id,
                 source_type=SourceType.sec_xbrl,
-                url=FILING_INDEX.format(cik=int(cik), accn=fact.accn.replace("-", "")),
+                url=FILING_INDEX.format(
+                    cik=int(cik), folder=fact.accn.replace("-", ""), accn=fact.accn
+                ),
                 title=f"{fact.form} filed {fact.filed.isoformat()} (accession {fact.accn})",
                 doc_kind=f"SEC {fact.form}（XBRL）",
                 published_date=fact.filed,

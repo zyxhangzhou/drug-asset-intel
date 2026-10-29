@@ -35,7 +35,7 @@
 |---|---|---|---|---|---|---|
 | 1 | A | 项目骨架与数据模型 | 代码 | `project-skeleton` | — | archived（`openspec/changes/archive/2026-10-29-project-skeleton`，主 spec：`app-runtime`、`intel-data-model`） |
 | 2 | B | 基础材料导入与 Stage 0 排除 | 代码 + 研究 | `baseline-ingest` | A | archived（`openspec/changes/archive/2026-10-29-baseline-ingest`） |
-| 3 | C | 官方结构化数据拉取（CT.gov + EDGAR + openFDA） | 代码 | `public-data-ingest` | B | in progress（实现完成，待人工抽查 5 家后核对归档） |
+| 3 | C | 官方结构化数据拉取（CT.gov + EDGAR + openFDA） | 代码 | `public-data-ingest` | B | archived（`openspec/changes/archive/2026-10-29-public-data-ingest`） |
 | 3 | D | 文档获取存档与 LLM 抽取管道 | 代码 | `llm-extraction` | A | planned |
 | 4 | E | 评分、买方匹配与候选名单 | 代码 + 研究 | `scoring-shortlist` | B, C | planned |
 | 5 | F | 深度填充 3–5 家 | 研究 | — | D, E | planned |
@@ -53,7 +53,7 @@
 | 题面 | 要求 | 由哪些变更完成 | 收尾变更 | 进度 |
 |---|---|---|---|---|
 | 二·第一部分 | 学习 10 家买方偏好 | B（导入对方材料，逐格保留来源与事实 / 推断口径） | B | 已完成 |
-| 二·第一部分 | 结合 149 家最新公开信息筛出 20–30 家 | B（Stage 0 排除）→ C（试验、财务、审批数据）→ E（五维评分、买方匹配） | E | Stage 0 完成（候选池 133 家）；C 数据已就绪 |
+| 二·第一部分 | 结合 149 家最新公开信息筛出 20–30 家 | B（Stage 0 排除）→ C（试验、财务、审批数据）→ E（五维评分、买方匹配） | E | Stage 0 完成（候选池 133 家）；C 已归档（试验、财务、审批数据就绪）；E 未开始 |
 | 二·第一部分 | 说明筛选逻辑、评价维度、判断依据，区分事实与推断 | E（方法文档初稿）→ I（定稿） | I | 未开始 |
 | 二·第二部分 1 | 公司基本信息及入选理由 | B（公司名、CIK）+ E（入选理由） | E | 基本信息已有 |
 | 二·第二部分 2–3 | 核心管线、作用机制、适应症、各适应症研发阶段 | C（CT.gov 试验 → 适应症与阶段）+ D / F（文档抽取：作用机制、核心管线） | F | C 部分完成：132 家 3205 项试验、推导管线 1392 条（推断） |
@@ -171,3 +171,4 @@
 - 2026-10-29 · 69dd30f7-bc86-4fc2-b36d-dea57ab87358 · 股价来源定案：Nasdaq 历史行情接口（Stooq 实测需浏览器验证，放弃）
 - 2026-10-29 · 69dd30f7-bc86-4fc2-b36d-dea57ab87358 · C OpenSpec 产物完成（trial-registry、company-financials、fda-approvals 三个新能力；试点测得 XBRL 全量缓存约 270 MB，改为裁剪缓存）
 - 2026-10-29 · 69dd30f7-bc86-4fc2-b36d-dea57ab87358 · C 实现完成：132/133 家有试验（TRAX 无登记），133 家有财务快照，51 个获批产品，3587 条来源，check-provenance 为 0；市值交叉核对发现并修复流通股过期问题；待用户抽查 5 家
+- 2026-10-29 · 69dd30f7-bc86-4fc2-b36d-dea57ab87358 · C 归档：人工抽查 VKTX / RLAY / MDGL / MRNA / IMVT 全部一致；SEC 来源链接改为申报索引页；spec 同步到 trial-registry、company-financials、fda-approvals、snapshot-build、intel-data-model

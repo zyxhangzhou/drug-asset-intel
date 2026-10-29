@@ -7,7 +7,7 @@
 ## Requirements
 
 ### Requirement: Domain entities
-系统 SHALL 持久化以下领域实体：买方（Buyer）、买方偏好（BuyerPreference）、买方财务（BuyerFinancial）、买方产品专利到期（BuyerProductLoe）、标的公司（Target）、管线（Program）、管线适应症（ProgramIndication）、临床试验（Trial）、试验结果（TrialResult）、催化事件（Catalyst）、财务快照（FinancialSnapshot）、买方×标的匹配（Match）。
+系统 SHALL 持久化以下领域实体：买方（Buyer）、买方偏好（BuyerPreference）、买方财务（BuyerFinancial）、买方产品专利到期（BuyerProductLoe）、标的公司（Target）、管线（Program）、管线适应症（ProgramIndication）、临床试验（Trial）、试验结果（TrialResult）、催化事件（Catalyst）、财务快照（FinancialSnapshot）、获批产品（ApprovedProduct）、买方×标的匹配（Match）。临床试验 SHALL 直接关联所属标的公司，并保留登记的原始适应症与干预措施文本；关联到管线适应症是可选的。
 
 #### Scenario: Fresh database contains every entity
 - **WHEN** 在空目录执行建库命令
@@ -20,6 +20,10 @@
 #### Scenario: Buyer detail is navigable
 - **WHEN** 某买方有偏好、财务与产品专利到期记录
 - **THEN** 可以从该买方查询到这三类记录
+
+#### Scenario: Trial without derived program
+- **WHEN** 某试验无法归入任何管线
+- **THEN** 仍可从标的公司直接查到该试验及其原始适应症与干预文本
 
 ### Requirement: Source registry
 系统 SHALL 维护来源登记，每条来源具有唯一的来源ID、URL、来源类型、发布日期（可为未知）与抓取时间；被抓取存档的文档另记本地存档路径与内容哈希。来源类型取值：mnc_material、sec_filing、sec_xbrl、ctgov、openfda、fda_web、company_ir、press_release、publication、market_data、other。来源 SHALL 保留原始日期文本；只有原始日期精确到日时才填写发布日期，不得把"2026-08"或"2026"补成具体某一天。来源 SHALL 记录链接状态与检查时间。
