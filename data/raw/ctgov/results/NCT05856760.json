@@ -1,0 +1,50 @@
+{
+ "nctId": "NCT05856760",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "-65.8",
+         "upperLimit": "-42.8",
+         "value": "-55.78"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "39"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The change from baseline in UA/C at Week 24 based on first morning void (FMV) samples",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Sparsentan will be administered daily as a 200-mg oral tablet. The goal is to titrate from the initial dose of 200 mg (Day 1) to the target dose of 400 mg at Week 2.\n\nSparsentan: Target dose of 400 mg daily",
+     "id": "OG000",
+     "title": "Sparsentan"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Full Analysis Set",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Week 24",
+   "title": "Change in Urine Albumin-creatinine Ratio (UA/C) at Week 24",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percent change"
+  }
+ ]
+}

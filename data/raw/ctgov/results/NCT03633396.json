@@ -1,0 +1,294 @@
+{
+ "nctId": "NCT03633396",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-4.05",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "3.77",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "1.98",
+     "estimateComment": "Least-squares mean difference = Imsidolimab - Placebo",
+     "groupDescription": "The change from Baseline in PPPASI at Week 16 was analyzed using a a general linear mixed model for repeated measures (MMRM). The model included fixed effects for treatment, history of plaque psoriasis (Yes/No), visit, treatment by visit interaction, and Baseline PPPASI score as covariate.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "OTHER",
+     "pValue": "0.944",
+     "paramType": "Least Squares (LS) Mean Difference",
+     "paramValue": "-0.1",
+     "statisticalComment": "MMRM including fixed effects of treatment, history of plaque psoriasis, visit, treatment by visit interaction, and Baseline PPPASI score as covariate.",
+     "statisticalMethod": "Mixed-model Repeated Measures (MMRM)"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "1.48",
+         "value": "-6.0"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "1.46",
+         "value": "-6.1"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "24"
+      },
+      {
+       "groupId": "OG001",
+       "value": "24"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The Palmoplantar Pustulosis Area and Severity Index (PPPASI) is used to assess the severity of palmoplantar pustulosis lesions and their response to therapy. The glabrous skin of both palms and both soles are assessed for erythema, pustules, and desquamation (scaling), each on a scale from 0 (none) to 4 (very severe). The area affected of each palm and sole is scored from 0 (0%) to 6 (90-100%). Scores for the 3 characteristics of PPP are summed and adjusted for the area affected, and the scores for each palm and sole are added to calculate the total score. The PPPASI total score ranges from 0 to 72. A higher score indicates more severe disease, and a negative change from Baseline indicates improvement.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Participants received placebo administered by subcutaneous injection on Day 1 followed by monthly doses on Days 29, 57, and 85.",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Participants received 200 mg imsidolimab by subcutaneous injection on Day 1 followed by monthly doses of 100 mg imsidolimab by subcutaneous injection on Days 29, 57, and 85.",
+     "id": "OG001",
+     "title": "Imsidolimab"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Intent-to-treat analysis set with available data",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline to Week 16",
+   "title": "Change From Baseline in Palmoplantar Pustulosis Psoriasis Area Severity Index (PPPASI)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "score on a scale"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "20"
+        },
+        {
+         "groupId": "OG001",
+         "value": "21"
+        }
+       ]
+      }
+     ],
+     "title": "Any treatment-emergent adverse event (TEAE)"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "3"
+        },
+        {
+         "groupId": "OG001",
+         "value": "6"
+        }
+       ]
+      }
+     ],
+     "title": "TEAE related to study drug"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Severe TEAE"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Serious TEAE"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "TEAE of special interest"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "2"
+        },
+        {
+         "groupId": "OG001",
+         "value": "1"
+        }
+       ]
+      }
+     ],
+     "title": "TEAE leading to discontinuation of study treatment"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1"
+        },
+        {
+         "groupId": "OG001",
+         "value": "1"
+        }
+       ]
+      }
+     ],
+     "title": "TEAE leading to study discontinuation"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "TEAE leading to death"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "TEAE related to injection site reaction"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "6"
+        },
+        {
+         "groupId": "OG001",
+         "value": "2"
+        }
+       ]
+      }
+     ],
+     "title": "Disease related TEAE"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "29"
+      },
+      {
+       "groupId": "OG001",
+       "value": "30"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Clinical safety was evaluated by reporting incidence of adverse events up to week 24. TEAEs are defined as new events that occured during or after first dose of study drug or any event that worsens after first dose of study drug.\n\nA serious AE (SAE) is defined as any untoward medical occurrence that resulted in death, was life-threatening, resulted in persistent disability/incapacity, was a congenital anomaly/birth defect, or an important medical event that may jeopardize the participant or require medical or surgical intervention to prevent one of the outcomes listed above.\n\nSeverity was assessed by the Investigator as mild (easily tolerated, causing minimal discomfort and not interfering with everyday activities), moderate (causes sufficient discomfort and interferes with normal everyday activities) or severe (prevents normal everyday activities).\n\nThe Investigator assessed the relationship between study treatment and each AE based on clinical judgement.",
+   "groups": [
+    {
+     "description": "Participants received placebo administered by subcutaneous injection on Day 1 followed by monthly doses on Days 29, 57, and 85.",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Participants received 200 mg imsidolimab by subcutaneous injection on Day 1 followed by monthly doses of 100 mg imsidolimab by subcutaneous injection on Days 29, 57, and 85.",
+     "id": "OG001",
+     "title": "Imsidolimab"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Safety Analysis Set (all randomized participants who received at least 1 dose of imsidolimab or placebo).",
+   "reportingStatus": "POSTED",
+   "timeFrame": "From first dose of any study drug to Week 24",
+   "title": "Number of Participants With Treatment-emergent Adverse Events (TEAEs)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

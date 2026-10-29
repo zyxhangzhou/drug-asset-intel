@@ -1,0 +1,612 @@
+{
+ "nctId": "NCT04514367",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "28"
+        }
+       ]
+      }
+     ],
+     "title": "Any TEAEs"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "2"
+        }
+       ]
+      }
+     ],
+     "title": "SAEs"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "28"
+        }
+       ]
+      }
+     ],
+     "title": "AEs related to ANX005"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "2"
+        }
+       ]
+      }
+     ],
+     "title": "SAEs related to ANX005"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "12"
+        }
+       ]
+      }
+     ],
+     "title": "Grade ≥3 AEs"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "11"
+        }
+       ]
+      }
+     ],
+     "title": "Grade ≥3 AEs related to ANX005"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "2"
+        }
+       ]
+      }
+     ],
+     "title": "AEs leading to study discontinuation"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "4"
+        }
+       ]
+      }
+     ],
+     "title": "AEs leading to discontinuation of study medications"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "28"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "An adverse event (AE) was defined as any untoward medical occurrence that developed or worsened in severity during the conduct of a clinical study and does not necessarily have a causal relationship to study drug. Serious AEs (SAEs) included death, a life-threatening AE, inpatient hospitalization or prolongation of existing hospitalization, persistent or significant disability or, a congenital anomaly or birth defect, or an important medical event that jeopardized the participant and required medical intervention to prevent 1 of the outcomes listed in this definition. A TEAE was any AE with an onset on or after the day of infusion through Week 36 (end of study). AEs were graded per National Cancer Institute Common Terminology Criteria for Adverse Events (NCI-CTCAE): Grade: 1=Mild, 2=Moderate, 3=Severe or medically significant but not immediately life-threatening. A summary of serious and non-serious AEs regardless of causality is located in 'Reported Adverse Events module'.",
+   "groups": [
+    {
+     "description": "Participants received induction dosing of ANX005 administered by IV infusion on Days 1 and 5 or 6, followed by maintenance dosing every 2 weeks (Weeks 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, and 22) with follow up visits on Weeks 24, 28, and 36.",
+     "id": "OG000",
+     "title": "ANX005"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Safety population included all enrolled participants who received at least 1 dose of study drug.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "From first dose of study drug up to end of study (Week 36)",
+   "title": "Number of Participants With Treatment-Emergent Adverse Events (TEAEs)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "2.6694",
+         "value": "75.0624"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "28"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants received induction dosing of ANX005 administered by IV infusion on Days 1 and 5 or 6, followed by maintenance dosing every 2 weeks (Weeks 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, and 22) with follow up visits on Weeks 24, 28, and 36.",
+     "id": "OG000",
+     "title": "ANX005"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Safety population included all enrolled participants who received at least 1 dose of study drug.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Day 1",
+   "title": "Actual Dose of ANX005 Administered on Day 1",
+   "type": "PRIMARY",
+   "unitOfMeasure": "milligrams (mg)/kilogram (kg)"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "2.7408",
+         "value": "102.6609"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "23"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants received induction dosing of ANX005 administered by IV infusion on Days 1 and 5 or 6, followed by maintenance dosing every 2 weeks (Weeks 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, and 22) with follow up visits on Weeks 24, 28, and 36.",
+     "id": "OG000",
+     "title": "ANX005"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Safety population included all enrolled participants who received at least 1 dose of study drug. Here, 'Overall number of participants analyzed' = participants evaluable for this outcome measure.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Week 22",
+   "title": "Actual Dose of ANX005 Administered on Week 22",
+   "type": "PRIMARY",
+   "unitOfMeasure": "mg/kg"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "818",
+         "value": "4290"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "28"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants received induction dosing of ANX005 administered by IV infusion on Days 1 and 5 or 6, followed by maintenance dosing every 2 weeks (Weeks 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, and 22) with follow up visits on Weeks 24, 28, and 36.",
+     "id": "OG000",
+     "title": "ANX005"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "PK analysis set included all participants who received any amount of ANX005 and had evaluable ANX005 concentration data.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Pre-dose up to 4 hours post-dose on Day 1",
+   "title": "Area Under the Concentration Versus Time Curve From Time 0 to t (AUC0-t) of ANX005 at Day 1",
+   "type": "PRIMARY",
+   "unitOfMeasure": "days*µg/milliliter (mL)"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.06239",
+         "value": "0.2297"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "28"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants received induction dosing of ANX005 administered by IV infusion on Days 1 and 5 or 6, followed by maintenance dosing every 2 weeks (Weeks 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, and 22) with follow up visits on Weeks 24, 28, and 36.",
+     "id": "OG000",
+     "title": "ANX005"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "PK analysis set included all participants who received any amount of ANX005 and had evaluable ANX005 concentration data.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Predose at Baseline (Day 1)",
+   "title": "CSF Free Complement Component 1q (C1q) at Day 1",
+   "type": "PRIMARY",
+   "unitOfMeasure": "µg/mL"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "14.0165",
+         "value": "85.589"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "28"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants received induction dosing of ANX005 administered by IV infusion on Days 1 and 5 or 6, followed by maintenance dosing every 2 weeks (Weeks 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, and 22) with follow up visits on Weeks 24, 28, and 36.",
+     "id": "OG000",
+     "title": "ANX005"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "PK analysis set included all participants who received any amount of ANX005 and had evaluable ANX005 concentration data.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Predose at Baseline (Day 1)",
+   "title": "Blood Free C1q at Day 1",
+   "type": "PRIMARY",
+   "unitOfMeasure": "µg/mL"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "14.423",
+         "value": "38.18"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "22"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants received induction dosing of ANX005 administered by IV infusion on Days 1 and 5 or 6, followed by maintenance dosing every 2 weeks (Weeks 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, and 22) with follow up visits on Weeks 24, 28, and 36.",
+     "id": "OG000",
+     "title": "ANX005"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Per protocol set included all participants who completed all 13 infusions of ANX005 and did not have major protocol violations. Here, 'Overall number of participants analyzed' = participants evaluable for this outcome measure.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Week 24",
+   "title": "Change From Baseline in Complement C4a in CSF at Week 24",
+   "type": "PRIMARY",
+   "unitOfMeasure": "µg/L"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "9.570",
+         "value": "23.28"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "20"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants received induction dosing of ANX005 administered by IV infusion on Days 1 and 5 or 6, followed by maintenance dosing every 2 weeks (Weeks 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, and 22) with follow up visits on Weeks 24, 28, and 36.",
+     "id": "OG000",
+     "title": "ANX005"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Per protocol set included all participants who completed all 13 infusions of ANX005 and did not have major protocol violations. Here, 'Overall number of participants analyzed' = participants evaluable for this outcome measure.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Week 36",
+   "title": "Change From Baseline in Complement C4a in CSF at Week 36",
+   "type": "PRIMARY",
+   "unitOfMeasure": "µg/L"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "618.66",
+         "value": "318.0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "22"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants received induction dosing of ANX005 administered by IV infusion on Days 1 and 5 or 6, followed by maintenance dosing every 2 weeks (Weeks 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, and 22) with follow up visits on Weeks 24, 28, and 36.",
+     "id": "OG000",
+     "title": "ANX005"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Per protocol set included all participants who completed all 13 infusions of ANX005 and did not have major protocol violations. Here, 'Overall number of participants analyzed' = participants evaluable for this outcome measure.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Week 24",
+   "title": "Change From Baseline in CSF NfL Level at Week 24",
+   "type": "PRIMARY",
+   "unitOfMeasure": "ng/L"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "919.43",
+         "value": "508.6"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "20"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants received induction dosing of ANX005 administered by IV infusion on Days 1 and 5 or 6, followed by maintenance dosing every 2 weeks (Weeks 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, and 22) with follow up visits on Weeks 24, 28, and 36.",
+     "id": "OG000",
+     "title": "ANX005"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Per protocol set included all participants who completed all 13 infusions of ANX005 and did not have major protocol violations. Here, 'Overall number of participants analyzed' = participants evaluable for this outcome measure.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Week 36",
+   "title": "Change From Baseline in CSF NfL Level at Week 36",
+   "type": "PRIMARY",
+   "unitOfMeasure": "ng/L"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "10.112",
+         "value": "-6.53"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "23"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants received induction dosing of ANX005 administered by IV infusion on Days 1 and 5 or 6, followed by maintenance dosing every 2 weeks (Weeks 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, and 22) with follow up visits on Weeks 24, 28, and 36.",
+     "id": "OG000",
+     "title": "ANX005"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Per protocol set included all participants who completed all 13 infusions of ANX005 and did not have major protocol violations.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Week 24",
+   "title": "Change From Baseline in Blood NfL Level at Week 24",
+   "type": "PRIMARY",
+   "unitOfMeasure": "ng/L"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "13.146",
+         "value": "-2.20"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "22"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants received induction dosing of ANX005 administered by IV infusion on Days 1 and 5 or 6, followed by maintenance dosing every 2 weeks (Weeks 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, and 22) with follow up visits on Weeks 24, 28, and 36.",
+     "id": "OG000",
+     "title": "ANX005"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Per protocol set included all participants who completed all 13 infusions of ANX005 and did not have major protocol violations. Here, 'Overall number of participants analyzed' = participants evaluable for this outcome measure.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Week 36",
+   "title": "Change From Baseline in Blood NfL Level at Week 36",
+   "type": "PRIMARY",
+   "unitOfMeasure": "ng/L"
+  }
+ ]
+}

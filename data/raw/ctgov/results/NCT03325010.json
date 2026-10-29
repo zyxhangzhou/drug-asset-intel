@@ -1,0 +1,83 @@
+{
+ "nctId": "NCT03325010",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-5.2",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "1.0",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "1.5",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.1768",
+     "pValueComment": "Nominal p-value is considered statistically significant if less than 0.05. To control for multiplicity, comparisons were tested sequentially.",
+     "paramType": "Mean Difference (Net)",
+     "paramValue": "-2.1",
+     "statisticalMethod": "Mixed Models Analysis"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "1.0",
+         "value": "-6.8"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "1.1",
+         "value": "-8.9"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "61"
+      },
+      {
+       "groupId": "OG001",
+       "value": "58"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The YGTSS is designed to rate the overall severity of motor and phonic tic symptoms across a range of dimensions: number, frequency, intensity, complexity, and interference. The YGTSS was administered by the investigator (or qualified designee) using a computer-based structured clinical interview. The TTS is the sum of the 5 motor tic items and the 5 phonic (vocal) tic items and ranges from 0 to 50, with higher scores representing greater severity.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Participants received placebo (matching valbenazine) once daily for 12 weeks.",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Participants received valbenazine once daily for 12 weeks. The starting dose was 20 mg for participants \\<50 kg at baseline and 40 mg for participants ≥50 kg at baseline, and could be escalated in increments of 20 mg every 2 weeks to a maximum of 60 mg for subjects \\<50 kg and 80 mg for subjects ≥50 kg to achieve an optimal dose of valbenazine for each participant.",
+     "id": "OG001",
+     "title": "Valbenazine"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Full analysis set, which includes all randomized participants who have at least one evaluable change from baseline value for TTS reported at a visit (either scheduled or mapped early termination visit) during the treatment period. Dose levels based on weight group and each individual participant's optimized dosing titration were prespecified to be combined within each arm.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Week 12",
+   "title": "Change From Baseline to Week 12 in the Yale Global Tic Severity Scale (YGTSS) Total Tic Score (TTS)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "score on a scale"
+  }
+ ]
+}

@@ -1,0 +1,1859 @@
+{
+ "aliases": [
+  "IDEAYA Biosciences"
+ ],
+ "studies": [
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "IDE196 dosed orally, twice daily (BID) for each 28-day cycle",
+       "interventionNames": [
+        "Drug: IDE196"
+       ],
+       "label": "Dose Escalation Monotherapy (Enrollment Complete)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "RP2D in MUM and non-MUM tumors harboring GNAQ/11 mutations or PRKC fusions (cutaneous melanoma, CRC, other solid tumors)",
+       "interventionNames": [
+        "Drug: IDE196"
+       ],
+       "label": "Dose Expansion Monotherapy (Enrollment Complete)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "IDE196 dosed orally, twice daily (BID) for each 28-day cycle and Binimetinib dosed orally, twice daily (BID) for each 28-day cycle",
+       "interventionNames": [
+        "Drug: IDE196",
+        "Drug: Binimetinib"
+       ],
+       "label": "Dose Escalation Binimetinib Combination (Enrollment Complete)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "RP2D in MUM and non-MUM tumors harboring GNAQ/11 mutations (cutaneous melanoma, CRC, other solid tumors)",
+       "interventionNames": [
+        "Drug: IDE196",
+        "Drug: Binimetinib"
+       ],
+       "label": "Dose Expansion Binimetinib Combination (Enrollment Complete)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "IDE196 dosed orally, twice daily (BID) for each 28-day cycle and Crizotinib dosed orally, twice daily (BID) for each 28-day cycle",
+       "interventionNames": [
+        "Drug: IDE196",
+        "Drug: Crizotinib"
+       ],
+       "label": "Dose Escalation Crizotinib Combination (Enrollment Complete)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "MUM patients (previously treated or treatment naive) with human leukocyte antigen (HLA)-A\\*02:01 positive status.\n\nIncludes a nested PK sub-study with Pravastatin (\\~22 participants) to evaluate the impact of pravastatin PK profiles after continuous dosing of IDE196.\n\nIncludes a nested PK Cocktail DDI sub-study (\\~15 participants) to evaluate the impact on the PK of bupripion, repaglinide, flurbiprofen, omeprazole, midazolam, dabigatran etexilate, and the exposures of the OAT3 biomarker PDA by IDE196 in combination with crizotinib.",
+       "interventionNames": [
+        "Drug: IDE196",
+        "Drug: Crizotinib"
+       ],
+       "label": "Dose Expansion Crizotinib Combination (Enrolling)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "IDE196 dosed orally, twice daily (BID) for each 28-day cycle and Crizotinib dosed orally, twice daily (BID) for each 28-day cycle",
+       "interventionNames": [
+        "Drug: IDE196",
+        "Drug: Crizotinib"
+       ],
+       "label": "Dose Optimization Crizotinib Combination (Enrollment Complete)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Crizotinib dosed orally, twice daily (BID) for each 28-day cycle until disease progression then IDE196 added and dosed orally, twice daily (BID) for each 28-day cycle",
+       "interventionNames": [
+        "Drug: IDE196",
+        "Drug: Crizotinib"
+       ],
+       "label": "Crizotinib Monotherapy with Crossover to Combination (Enrollment Complete)",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Crizotinib Monotherapy with Crossover to Combination (Enrollment Complete)",
+        "Dose Escalation Binimetinib Combination (Enrollment Complete)",
+        "Dose Escalation Crizotinib Combination (Enrollment Complete)",
+        "Dose Escalation Monotherapy (Enrollment Complete)",
+        "Dose Expansion Binimetinib Combination (Enrollment Complete)",
+        "Dose Expansion Crizotinib Combination (Enrolling)",
+        "Dose Expansion Monotherapy (Enrollment Complete)",
+        "Dose Optimization Crizotinib Combination (Enrollment Complete)"
+       ],
+       "description": "IDE196 dosed orally, twice daily for each 28-day cycle",
+       "name": "IDE196",
+       "otherNames": [
+        "Protein Kinase C (PKC) Inhibitor"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Dose Escalation Binimetinib Combination (Enrollment Complete)",
+        "Dose Expansion Binimetinib Combination (Enrollment Complete)"
+       ],
+       "description": "Binimetinib dosed orally, twice daily for each 28-day cycle",
+       "name": "Binimetinib",
+       "otherNames": [
+        "MEKTOVI"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Crizotinib Monotherapy with Crossover to Combination (Enrollment Complete)",
+        "Dose Escalation Crizotinib Combination (Enrollment Complete)",
+        "Dose Expansion Crizotinib Combination (Enrolling)",
+        "Dose Optimization Crizotinib Combination (Enrollment Complete)"
+       ],
+       "description": "Crizotinib dosed orally, twice daily for each 28-day cycle",
+       "name": "Crizotinib",
+       "otherNames": [
+        "XALKORI"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Metastatic Uveal Melanoma",
+      "Cutaneous Melanoma",
+      "Colorectal Cancer",
+      "Other Solid Tumors"
+     ],
+     "keywords": [
+      "Metastatic Uveal Melanoma",
+      "Uveal Melanoma",
+      "Protein Kinase C",
+      "Ophthalmology",
+      "Ocular Oncology",
+      "Darovasertib",
+      "IDE196",
+      "Ocular Melanoma"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 336,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Study of IDE196 in Patients With Solid Tumors Harboring GNAQ/11 Mutations or PRKC Fusions",
+     "nctId": "NCT03947385",
+     "officialTitle": "A Phase 1/2 Study of IDE196 in Patients With Solid Tumors Harboring GNAQ/11 Mutations or PRKC Fusions",
+     "orgStudyIdInfo": {
+      "id": "IDE196-001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "IDEAYA Biosciences"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "IDEAYA Biosciences"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2027-06-15",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-06-08",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-06-04",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-01-29",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2019-06-28",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-06",
+     "studyFirstPostDateStruct": {
+      "date": "2019-05-13",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2019-05-09",
+     "studyFirstSubmitQcDate": "2019-05-09"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: IDE397"
+       ],
+       "label": "Part 1: Dose Escalation Monotherapy (Solid Tumors)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: IDE397"
+       ],
+       "label": "Part 2: Monotherapy Dose Expansion (NSCLC and Urothelial)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: IDE397",
+        "Drug: Sacituzumab govitecan"
+       ],
+       "label": "Part 5: Combination Dose Escalation with sacituzumab govitecan (SG) (NSCLC and Urothelial)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: IDE397",
+        "Drug: Sacituzumab govitecan"
+       ],
+       "label": "Part 6: Combination Dose Expansion with sacituzumab govitecan (SG) (NSCLC and Urothelial)",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Part 1: Dose Escalation Monotherapy (Solid Tumors)",
+        "Part 2: Monotherapy Dose Expansion (NSCLC and Urothelial)",
+        "Part 5: Combination Dose Escalation with sacituzumab govitecan (SG) (NSCLC and Urothelial)",
+        "Part 6: Combination Dose Expansion with sacituzumab govitecan (SG) (NSCLC and Urothelial)"
+       ],
+       "description": "IDE397 dosed orally",
+       "name": "IDE397",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Part 5: Combination Dose Escalation with sacituzumab govitecan (SG) (NSCLC and Urothelial)",
+        "Part 6: Combination Dose Expansion with sacituzumab govitecan (SG) (NSCLC and Urothelial)"
+       ],
+       "description": "Intravenous infusion",
+       "name": "Sacituzumab govitecan",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Solid Tumor"
+     ],
+     "keywords": [
+      "MAT2A",
+      "9p21",
+      "CDKN2A",
+      "MTAP",
+      "Solid Tumors",
+      "PRMT5",
+      "SAM",
+      "Synthetic Lethality",
+      "Inhibitor",
+      "MTAP deletion",
+      "CDKN2A deletion",
+      "MAT2A Inhibitor",
+      "Advanced solid tumors",
+      "Lung Cancer",
+      "Bladder Cancer",
+      "Squamous",
+      "NSCLC",
+      "Urothelial Cancer",
+      "Non small cell",
+      "Sacituzumab govitecan",
+      "Trodelvy"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 169,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Study of IDE397 in Participants With Solid Tumors Harboring MTAP Deletion",
+     "nctId": "NCT04794699",
+     "officialTitle": "An Open Label, Phase 1, Treatment Study to Evaluate the Safety, Pharmacokinetics and Pharmacodynamics of IDE397 (MAT2A Inhibitor) In Adult Participants With Advanced Solid Tumors",
+     "orgStudyIdInfo": {
+      "id": "IDE397-001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "IDEAYA Biosciences"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "IDEAYA Biosciences"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2027-02-04",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-04-09",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-04-06",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-01-07",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2021-04-14",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-03",
+     "studyFirstPostDateStruct": {
+      "date": "2021-03-12",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2021-03-09",
+     "studyFirstSubmitQcDate": "2021-03-09"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants will be assigned to a dose level.",
+       "interventionNames": [
+        "Drug: IDE-161"
+       ],
+       "label": "Module 1 Part 1: Monotherapy Dose Escalation",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "After a dose is decided in Part 1, participants entering part 2 will be assigned to a dose level.",
+       "interventionNames": [
+        "Drug: IDE-161"
+       ],
+       "label": "Module 1 Part 2: Monotherapy Dose Expansion",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants will be assigned to a dose level.",
+       "interventionNames": [
+        "Drug: IDE-161",
+        "Drug: Pembrolizumab"
+       ],
+       "label": "Module 2 Part 1: Combination Dose Escalation with pembrolizumab",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "After a dose is decided in Part 1, participants entering part 2 will be assigned to a dose level.",
+       "interventionNames": [
+        "Drug: IDE-161",
+        "Drug: Pembrolizumab"
+       ],
+       "label": "Module 2 Part 2: Combination Dose Expansion with pembrolizumab",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Module 1 Part 1: Monotherapy Dose Escalation",
+        "Module 1 Part 2: Monotherapy Dose Expansion",
+        "Module 2 Part 1: Combination Dose Escalation with pembrolizumab",
+        "Module 2 Part 2: Combination Dose Expansion with pembrolizumab"
+       ],
+       "description": "Oral Medication",
+       "name": "IDE-161",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Module 2 Part 1: Combination Dose Escalation with pembrolizumab",
+        "Module 2 Part 2: Combination Dose Expansion with pembrolizumab"
+       ],
+       "description": "Intravenous Infusion",
+       "name": "Pembrolizumab",
+       "otherNames": [
+        "KEYTRUDA®"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Advanced or Metastatic Solid Tumors",
+      "Breast Cancer",
+      "Ovarian Cancer",
+      "Prostate Cancer",
+      "Endometrial Cancer",
+      "Colorectal Cancer",
+      "Head and Neck Cancers",
+      "Extensive Stage Small Cell Lung Cancer (ES-SCLC)",
+      "NSCLC"
+     ],
+     "keywords": [
+      "PARPi",
+      "PARP inhibitor",
+      "BRCA",
+      "HRD gene alteration",
+      "Breast",
+      "Ovarian",
+      "Advanced solid tumors",
+      "Metastatic solid tumors",
+      "BRCA 1",
+      "BRCA 2",
+      "Homologous recombination",
+      "PARG",
+      "PARG Inhibition",
+      "ATM",
+      "BARD1",
+      "BRIP1",
+      "CDK12",
+      "CHEK1",
+      "CHEK2",
+      "FANCL",
+      "PALB2",
+      "PPP2R2A",
+      "RAD51C",
+      "RAD51D",
+      "RAD54L",
+      "NBN",
+      "FANCA",
+      "HRD+",
+      "Endometrial",
+      "Pembro",
+      "Pembrolizumab",
+      "HR genes",
+      "genomic instability score",
+      "GIS",
+      "GI+",
+      "gLOH",
+      "genomic loss of heterozygosity",
+      "MSS",
+      "MSI",
+      "MMR",
+      "PD-L1",
+      "ES-SCLC",
+      "SCLC",
+      "Extensive Stage Small Cell Lung Cancer"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "interventionModelDescription": "Sequential",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 216,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Study of PARG Inhibitor IDE161 in Participants With Advanced Solid Tumors",
+     "nctId": "NCT05787587",
+     "officialTitle": "A Study of PARG Inhibitor IDE161 in Participants With Advanced Solid Tumors",
+     "orgStudyIdInfo": {
+      "id": "IDE161-001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "IDEAYA Biosciences"
+     },
+     "secondaryIdInfos": [
+      {
+       "domain": "Merck Sharp & Dohme LLC",
+       "id": "KEYNOTE-F86",
+       "type": "OTHER"
+      },
+      {
+       "domain": "Merck Sharp & Dohme LLC",
+       "id": "MK-3475-F86",
+       "type": "OTHER"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "collaborators": [
+      {
+       "class": "INDUSTRY",
+       "name": "Merck Sharp & Dohme LLC"
+      }
+     ],
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "IDEAYA Biosciences"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2027-05",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-07-13",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-07-09",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2026-10",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2023-04-18",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-07",
+     "studyFirstPostDateStruct": {
+      "date": "2023-03-28",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2023-03-17",
+     "studyFirstSubmitQcDate": "2023-03-27"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "IDE196 (darovasertib) oral open label",
+       "interventionNames": [
+        "Drug: Darovasertib"
+       ],
+       "label": "darovasertib",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "darovasertib"
+       ],
+       "description": "Oral, potent, selective inhibitor of Protein Kinase C",
+       "name": "Darovasertib",
+       "otherNames": [
+        "IDE196",
+        "LXS196"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Uveal Melanoma"
+     ],
+     "keywords": [
+      "Uveal Melanoma",
+      "Plaque brachytherapy",
+      "Enucleation",
+      "Neoadjuvant",
+      "Adjuvant",
+      "Protein Kinase C",
+      "Ophthalmology",
+      "Ocular Oncology",
+      "Darovasertib",
+      "IDE196",
+      "Ocular melanoma",
+      "Choroid melanoma",
+      "Plaque",
+      "Brachytherapy"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 160,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "(Neo)Adjuvant IDE196 (Darovasertib) in Patients With Localized Ocular Melanoma",
+     "nctId": "NCT05907954",
+     "officialTitle": "(Neo)Adjuvant IDE196 (Darovasertib) in Patients With Localized Ocular Melanoma",
+     "orgStudyIdInfo": {
+      "id": "IDE196-009"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "IDEAYA Biosciences"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "IDEAYA Biosciences"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2030-04-30",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-03-16",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-03-12",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-04-30",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2023-07-03",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-03",
+     "studyFirstPostDateStruct": {
+      "date": "2023-06-18",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2023-06-06",
+     "studyFirstSubmitQcDate": "2023-06-14"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Multiple doses of IDE196 will be tested in combination with fixed dose of crizotinib to identify the optimal combination dose.",
+       "interventionNames": [
+        "Drug: IDE196",
+        "Drug: Crizotinib"
+       ],
+       "label": "Phase 2a Dose Optimization of IDE196 + crizotinib",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Chosen combination dose of IDE196 + crizotinib will be tested in additional participants.",
+       "interventionNames": [
+        "Drug: IDE196",
+        "Drug: Crizotinib"
+       ],
+       "label": "Phase 2b / 3 Chosen Combination dose of IDE196 + crizotinib",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants will receive investigator's choice of Pembrolizumab, Ipilimumab + Nivolumab, or Dacarbazine.",
+       "interventionNames": [
+        "Drug: Pembrolizumab",
+        "Drug: Ipilimumab",
+        "Drug: Nivolumab",
+        "Drug: Dacarbazine"
+       ],
+       "label": "Phase 2a / 2b / 3 Comparator Arm",
+       "type": "ACTIVE_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Phase 2a Dose Optimization of IDE196 + crizotinib",
+        "Phase 2b / 3 Chosen Combination dose of IDE196 + crizotinib"
+       ],
+       "description": "Dosed orally, twice daily",
+       "name": "IDE196",
+       "otherNames": [
+        "Darovasertib"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Phase 2a Dose Optimization of IDE196 + crizotinib",
+        "Phase 2b / 3 Chosen Combination dose of IDE196 + crizotinib"
+       ],
+       "description": "Dosed orally, twice daily",
+       "name": "Crizotinib",
+       "otherNames": [
+        "XALKORI"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Phase 2a / 2b / 3 Comparator Arm"
+       ],
+       "description": "IV administration every 3 weeks",
+       "name": "Pembrolizumab",
+       "otherNames": [
+        "Keytruda"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Phase 2a / 2b / 3 Comparator Arm"
+       ],
+       "description": "IV administration every 3 weeks for 4 Cycles",
+       "name": "Ipilimumab",
+       "otherNames": [
+        "Yervoy"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Phase 2a / 2b / 3 Comparator Arm"
+       ],
+       "description": "IV administration every 3 Weeks for 4 Cycles, thereafter every 4 Weeks maintenance",
+       "name": "Nivolumab",
+       "otherNames": [
+        "Opdivo"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Phase 2a / 2b / 3 Comparator Arm"
+       ],
+       "description": "IV administration every 3 Weeks",
+       "name": "Dacarbazine",
+       "otherNames": [
+        "DTIC-Dome"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Metastatic Uveal Melanoma"
+     ],
+     "keywords": [
+      "IDE196",
+      "Darovasertib",
+      "Protein Kinase C",
+      "Metastatic Uveal Melanoma",
+      "Melanoma",
+      "Ocular Oncology",
+      "Ophthalmology",
+      "Crizotinib",
+      "Ocular melanoma"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 420,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE2",
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "IDE196 (Darovasertib) in Combination With Crizotinib as First-line Therapy in Metastatic Uveal Melanoma",
+     "nctId": "NCT05987332",
+     "officialTitle": "IDE196 (Darovasertib) in Combination With Crizotinib Versus Investigator's Choice of Treatment as First-line Therapy in HLA-A2 Negative Metastatic Uveal Melanoma (DAR-UM-2)",
+     "orgStudyIdInfo": {
+      "id": "IDE196-002"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "IDEAYA Biosciences"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "IDEAYA Biosciences"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2028-01-15",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-02-17",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-02-12",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-01-15",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2023-10-31",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-02",
+     "studyFirstPostDateStruct": {
+      "date": "2023-08-14",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2023-07-12",
+     "studyFirstSubmitQcDate": "2023-08-03"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Darovasetib followed by definitive primary local therapy (i.e., PB, proton beam radiation, or enucleation)",
+       "interventionNames": [
+        "Drug: Darovasertib"
+       ],
+       "label": "Treatment Arm",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Immediate Primary Local therapy",
+       "interventionNames": [
+        "Procedure: Primary Local Therapy"
+       ],
+       "label": "Control Arm",
+       "type": "ACTIVE_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Treatment Arm"
+       ],
+       "description": "Dosed orally, twice daily (28-day/ cycle",
+       "name": "Darovasertib",
+       "otherNames": [
+        "IDE 196"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Control Arm"
+       ],
+       "description": "Plaque Brachytherapy or Enucleation",
+       "name": "Primary Local Therapy",
+       "type": "PROCEDURE"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Uveal Melanoma"
+     ],
+     "keywords": [
+      "Uveal Melanoma",
+      "Plaque Brachytherapy",
+      "Enucleation",
+      "Neoadjuvant",
+      "Darovasertib",
+      "IDE 196",
+      "Ocular Melanoma",
+      "Choroidal Melanoma",
+      "Ophthalmology",
+      "Ocular Oncology",
+      "Melanoma",
+      "Protein Kinase C",
+      "GNAQ",
+      "GNA11"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 520,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Neoadjuvant Darovasertib in Primary Uveal Melanoma",
+     "nctId": "NCT07015190",
+     "officialTitle": "A Randomized, Phase 3, Open-label Study of Neoadjuvant Darovasertib in Subjects With Primary Non-metastatic Uveal Melanoma (OptimUM-10)",
+     "orgStudyIdInfo": {
+      "id": "IDE196-010"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "IDEAYA Biosciences"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "IDEAYA Biosciences"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2031-03",
+      "type": "ESTIMATED"
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-05-06",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-05-01",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2030-10",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2026-01-25",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-09",
+     "studyFirstPostDateStruct": {
+      "date": "2025-06-11",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-06-03",
+     "studyFirstSubmitQcDate": "2025-06-03"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Successive cohorts of participants will be treated with escalating doses of IDE849 until the maximum tolerated dose and dose for expansion are determined",
+       "interventionNames": [
+        "Drug: IDE849"
+       ],
+       "label": "Part 1A IDE849 Monotherapy (Dose Escalation)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Multiple doses of IDE849 will be tested in combination with durvalumab or in combination with durvalumab + carboplatin to identify the optimal combination dose.",
+       "interventionNames": [
+        "Drug: IDE849",
+        "Drug: durvalumab",
+        "Drug: Carboplatin"
+       ],
+       "label": "Part 1B IDE849 + durvalumab, or IDE849 + durvalumab + carboplatin (Dose Escalation)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Multiple doses of IDE849 will be tested in combination with IDE161 to identify the optimal combination dose.",
+       "interventionNames": [
+        "Drug: IDE849",
+        "Drug: IDE161"
+       ],
+       "label": "Part 1B IDE849 + IDE161 (Dose Escalation)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Chosen monotherapy doses of IDE849 will be tested in additional participants.",
+       "interventionNames": [
+        "Drug: IDE849"
+       ],
+       "label": "Part 2 IDE849 Monotherapy RDE 1 for SCLC (Dose Expansion)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Chosen monotherapy doses of IDE849 will be tested in additional participants",
+       "interventionNames": [
+        "Drug: IDE849"
+       ],
+       "label": "Part 2 IDE849 Monotherapy RDE 2 for SCLC (Dose Expansion)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Chosen monotherapy doses of IDE849 will be tested in additional participants.",
+       "interventionNames": [
+        "Drug: IDE849"
+       ],
+       "label": "Part 2 IDE849 Monotherapy for NEC (Dose Expansion)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Chosen combination dose of IDE849 + durvalumab will be tested in additional participants.",
+       "interventionNames": [
+        "Drug: IDE849",
+        "Drug: durvalumab"
+       ],
+       "label": "Part 2 IDE849 + durvalumab (Dose Expansion)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Chosen combination dose of IDE849 + durvalumab + carboplatin will be tested in additional participants.",
+       "interventionNames": [
+        "Drug: IDE849",
+        "Drug: durvalumab",
+        "Drug: Carboplatin"
+       ],
+       "label": "Part 2 IDE849 + durvalumab + carboplatin (Dose Expansion)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Chosen combination dose of IDE849 + IDE161 will be testing in additional participants",
+       "interventionNames": [
+        "Drug: IDE849",
+        "Drug: IDE161"
+       ],
+       "label": "Part 2 IDE849 + IDE161 (Dose Expansion)",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Part 1A IDE849 Monotherapy (Dose Escalation)",
+        "Part 1B IDE849 + IDE161 (Dose Escalation)",
+        "Part 1B IDE849 + durvalumab, or IDE849 + durvalumab + carboplatin (Dose Escalation)",
+        "Part 2 IDE849 + IDE161 (Dose Expansion)",
+        "Part 2 IDE849 + durvalumab (Dose Expansion)",
+        "Part 2 IDE849 + durvalumab + carboplatin (Dose Expansion)",
+        "Part 2 IDE849 Monotherapy RDE 1 for SCLC (Dose Expansion)",
+        "Part 2 IDE849 Monotherapy RDE 2 for SCLC (Dose Expansion)",
+        "Part 2 IDE849 Monotherapy for NEC (Dose Expansion)"
+       ],
+       "description": "IV administration",
+       "name": "IDE849",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Part 1B IDE849 + durvalumab, or IDE849 + durvalumab + carboplatin (Dose Escalation)",
+        "Part 2 IDE849 + durvalumab (Dose Expansion)",
+        "Part 2 IDE849 + durvalumab + carboplatin (Dose Expansion)"
+       ],
+       "description": "IV administration",
+       "name": "durvalumab",
+       "otherNames": [
+        "durvalumab Injection [Imfinzi]"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Part 1B IDE849 + IDE161 (Dose Escalation)",
+        "Part 2 IDE849 + IDE161 (Dose Expansion)"
+       ],
+       "description": "oral administration",
+       "name": "IDE161",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Part 1B IDE849 + durvalumab, or IDE849 + durvalumab + carboplatin (Dose Escalation)",
+        "Part 2 IDE849 + durvalumab + carboplatin (Dose Expansion)"
+       ],
+       "description": "IV administration",
+       "name": "Carboplatin",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Small-cell Lung Cancer",
+      "Neuroendocrine Carcinomas",
+      "Solid Tumor Show to Express DLL3"
+     ],
+     "keywords": [
+      "IDE849",
+      "Small Cell Lung Cancer",
+      "SCLC",
+      "anti-DLL3 immunoglobulin G1 monoclonal antibody",
+      "DLL3",
+      "Neuroendocrine Carcinomas",
+      "NEC",
+      "durvalumab",
+      "IDE161"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 262,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Study of IDE849 in Patients With DLL3 Expressing Tumors Including Small Cell Lung Cancer",
+     "nctId": "NCT07174583",
+     "officialTitle": "A Multicenter Study Evaluating the Safety, Efficacy, and Pharmacokinetics of IDE849 in Patients With DLL3-Expressing Tumors Including Small Cell Lung Cancer",
+     "orgStudyIdInfo": {
+      "id": "IDE849-001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "IDEAYA Biosciences"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "IDEAYA Biosciences"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2029-07",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-07-09",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-07-07",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2029-07",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2025-10-14",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-07",
+     "studyFirstPostDateStruct": {
+      "date": "2025-09-16",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-09-11",
+     "studyFirstSubmitQcDate": "2025-09-11"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants with advanced or metastatic solid tumors harboring MTAP deletion (including mesothelioma, gastroesophageal cancers, pancreatic and biliary tract tumors, non-small cell lung cancer, and urothelial cancer) will receive IDE892. Dose levels will be escalated sequentially using a Bayesian Optimal Interval (BOIN) design to evaluate safety, tolerability, and to determine the maximum tolerated dose and/or recommended dose for expansion. PK and pharmacodynamics (PD) and preliminary antitumor activity will also be assessed.",
+       "interventionNames": [
+        "Drug: IDE892"
+       ],
+       "label": "Part 1: IDE892 Monotherapy Dose Escalation (MTAP-deleted advanced solid tumors)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants with advanced or metastatic NSCLC with MTAP deletion will receive IDE892. One or more dose levels at or below the maximum tolerated dose from Part 1 will be further evaluated to determine the recommended Phase 2 dose and to assess antitumor activity.",
+       "interventionNames": [
+        "Drug: IDE892"
+       ],
+       "label": "Part 2: IDE892 Monotherapy Dose Expansion (MTAP-Deleted NSCLC)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants with advanced or metastatic solid tumors harboring MTAP deletion (including mesothelioma, gastroesophageal cancers, pancreatic and biliary tract tumors, non-small cell lung cancer, and urothelial cancer) will receive IDE892 in combination with IDE397. Dose levels will be escalated using a modified toxicity probability interval (mTPI) design to evaluate safety, tolerability, and to determine the maximum tolerated dose and/or recommended dose for expansion. PK, PD, and preliminary antitumor activity will also be assessed.",
+       "interventionNames": [
+        "Drug: IDE892",
+        "Drug: IDE397"
+       ],
+       "label": "Part 3: IDE892 + IDE397 Combination Dose Escalation (MTAP-Deleted Solid Tumors)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants with advanced or metastatic NSCLC with MTAP deletion will receive IDE892 in combination with IDE397. One or more dose levels at or below the maximum tolerated dose from Part 3 will be further evaluated to determine the recommended Phase 2 dose and to assess antitumor activity.",
+       "interventionNames": [
+        "Drug: IDE892",
+        "Drug: IDE397"
+       ],
+       "label": "Part 4: IDE892 + IDE397 Combination Dose Expansion (MTAP-Deleted NSCLC)",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Part 1: IDE892 Monotherapy Dose Escalation (MTAP-deleted advanced solid tumors)",
+        "Part 2: IDE892 Monotherapy Dose Expansion (MTAP-Deleted NSCLC)",
+        "Part 3: IDE892 + IDE397 Combination Dose Escalation (MTAP-Deleted Solid Tumors)",
+        "Part 4: IDE892 + IDE397 Combination Dose Expansion (MTAP-Deleted NSCLC)"
+       ],
+       "description": "IDE892 is an inhibitor of the Protein arginine methyltransferase 5 (PRMT5) that is being developed by IDEAYA Biosciences, Inc. as an anticancer therapeutic for patients with advanced or metastatic cancer harboring MTAP deletions.",
+       "name": "IDE892",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Part 3: IDE892 + IDE397 Combination Dose Escalation (MTAP-Deleted Solid Tumors)",
+        "Part 4: IDE892 + IDE397 Combination Dose Expansion (MTAP-Deleted NSCLC)"
+       ],
+       "description": "IDE397 is an oral MAT2A inhibitor that is being developed by IDEAYA Biosciences, Inc. as an anticancer therapeutic for patients with advanced or metastatic cancer harboring MTAP deletions. In this study, IDE397 will be evaluated in combination with IDE892 (Parts 3 and 4) in participants with MTAP-deleted advanced solid tumors.",
+       "name": "IDE397",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "NSCLC Adenocarcinoma",
+      "Gastroesophageal Cancer (GC)",
+      "Gastric Adenocarcinoma",
+      "Adenocarcinoma of Esophagus",
+      "Squamous Cell Car. - Esophagus",
+      "Urothelial Carcinoma (UC)",
+      "Bladder Cancer",
+      "Mesothelioma",
+      "Pleural Mesothelioma",
+      "Peritoneal Mesothelioma",
+      "Non-Small Cell Lung Cancer NSCLC",
+      "Pancreatic Cancer",
+      "Biliary Tract Carcinoma"
+     ],
+     "keywords": [
+      "MTAP deletion",
+      "MTAP loss",
+      "MTAP-deficient tumors",
+      "homozygous MTAP loss",
+      "IDE892",
+      "IDE397",
+      "MAT2A inhibitor",
+      "PRMT5",
+      "advanced solid tumors",
+      "metastatic cancer",
+      "recurrent cancer",
+      "dose escalation",
+      "dose expansion",
+      "phase 1 clinical trial",
+      "ctDNA"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 260,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Study of IDE892 as Monotherapy and Combination in MTAP-deleted Advanced Solid Tumors",
+     "nctId": "NCT07277413",
+     "officialTitle": "A Multicenter Study Evaluating the Safety, Efficacy, and Pharmacokinetics of IDE892 as Monotherapy and Combination Therapy in Participants With MTAP-Deleted Advanced Solid Tumors",
+     "orgStudyIdInfo": {
+      "id": "IDE892-001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "IDEAYA Biosciences"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "IDEAYA Biosciences"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2028-04-30",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-09-28",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-09-24",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2028-04-30",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2026-03-04",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-09",
+     "studyFirstPostDateStruct": {
+      "date": "2025-12-11",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-11-13",
+     "studyFirstSubmitQcDate": "2025-12-09"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "IDE034 Dose Escalation Successive cohorts of participants will be treated with increasing doses of IDE034 until the maximum tolerated dose or the recommended dose for expansion is determined",
+       "interventionNames": [
+        "Drug: IDE034"
+       ],
+       "label": "Part 1:IDE034 Dose Escalation",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "IDE034 Dose Expansion To further assess the safety, tolerability, and preliminary antitumor activity at one or more dose levels of IDE034 selected from dose escalation",
+       "interventionNames": [
+        "Drug: IDE034"
+       ],
+       "label": "Part 2: IDE034 Dose Expansion",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Part 1:IDE034 Dose Escalation",
+        "Part 2: IDE034 Dose Expansion"
+       ],
+       "description": "IDE034",
+       "name": "IDE034",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Esophageal Squamous Cell Carcinoma",
+      "High Grade Serous Ovarian Cancer",
+      "Head and Neck Squamous Cell Carcinoma",
+      "Colorectal Cancer",
+      "Castration-resistant Prostate Cancer",
+      "Non Small Cell Lung Cancer",
+      "Endometrium Cancer",
+      "Triple Negative Breast Cancer"
+     ],
+     "keywords": [
+      "Esophageal Squamous Cell Carcinoma",
+      "ESCC",
+      "Endometrial Cancer",
+      "Head and Neck Squamous Cell Carcinoma",
+      "HNSCC",
+      "Triple-negative Breast Cancer",
+      "TNBC",
+      "Colorectal Cancer",
+      "CRC",
+      "Castration-resistant Prostate Cancer",
+      "CRPC",
+      "Non-small Cell Lung Cancer",
+      "NSCLC",
+      "High-grade Serous Ovarian Cancer",
+      "HGSOC",
+      "Advanced, Metastic Solid Tumors",
+      "B7-H3 (CD276) and Protein Tyrosine Kinase 7 (PTK7)",
+      "IDE034"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 150,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Study of IDE034 in Adult Participants With Locally Advanced/Metastatic Solid Tumors Types",
+     "nctId": "NCT07503808",
+     "officialTitle": "An Open-Label, Multicenter Study Evaluating the Safety, Efficacy, and Pharmacokinetics of IDE034 in Adult Participants With Locally Advanced/Metastatic Solid Tumors",
+     "orgStudyIdInfo": {
+      "id": "IDE034-001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "IDEAYA Biosciences"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "IDEAYA Biosciences"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2027-07-30",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-06-18",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-06-16",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-07-30",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2026-02-24",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-03",
+     "studyFirstPostDateStruct": {
+      "date": "2026-03-31",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2026-03-19",
+     "studyFirstSubmitQcDate": "2026-03-25"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants with the appropriate tumor types will be treated with escalating doses of IDE574",
+       "interventionNames": [
+        "Drug: IDE574"
+       ],
+       "label": "Monotherapy Dose Escalation (Part 1A)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants with ER+ HER2- advanced or metastatic breast cancer will be treated using the chosen monotherapy dose(s) of IDE574",
+       "interventionNames": [
+        "Drug: IDE574"
+       ],
+       "label": "Monotherapy Dose Expansion (Part 1B)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants with ER+ HER2- advanced or metastatic breast cancer will be treated with escalating doses of IDE574 in combination with fulvestrant",
+       "interventionNames": [
+        "Drug: IDE574",
+        "Drug: Fulvestrant injection"
+       ],
+       "label": "Combination Dose Escalation (Part 2A) IDE574 + Fulvestrant",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants with ER+ HER2- advanced or metastatic breast cancer will be treated using the chosen combination dose(s) of IDE574 + Fulvestrant",
+       "interventionNames": [
+        "Drug: IDE574",
+        "Drug: Fulvestrant injection"
+       ],
+       "label": "Combination Dose Expansion (Part 2B)",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Combination Dose Escalation (Part 2A) IDE574 + Fulvestrant",
+        "Combination Dose Expansion (Part 2B)",
+        "Monotherapy Dose Escalation (Part 1A)",
+        "Monotherapy Dose Expansion (Part 1B)"
+       ],
+       "description": "IDE574",
+       "name": "IDE574",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Combination Dose Escalation (Part 2A) IDE574 + Fulvestrant",
+        "Combination Dose Expansion (Part 2B)"
+       ],
+       "description": "Fulvestrant Injection",
+       "name": "Fulvestrant injection",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "ER+, HER 2- Breast Cancer",
+      "Non-small Cell Lung Cancer (NSCLC)",
+      "Castration-resistant Prostate Cancer (CRPC)",
+      "Microsatellite Stable (MSS) Colorectal Carcinoma"
+     ],
+     "keywords": [
+      "ER+, HER 2- Breast Cancer",
+      "Non-small Cell Lung Cancer (NSCLC)",
+      "Castration-resistant Prostate Cancer (CRPC)",
+      "Microsatellite Stable (MSS) Colorectal Carcinoma",
+      "KAT6A/B",
+      "KAT7"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 160,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Study to Investigate the Safety, Pharmacokinetics, and Preliminary Efficacy of IDE574 Therapy in Adult Participants With Advanced Solid Tumors",
+     "nctId": "NCT07540572",
+     "officialTitle": "An Open Label, Multicenter Study to Evaluate the Safety, Pharmacokinetics, Pharmacodynamics, and Preliminary Efficacy of IDE574 as Monotherapy in Locally Advanced or Metastatic Solid Tumors and as Combination Therapy With Fulvestrant in Locally Advanced or Metastatic ER+, HER2- Breast Cancer",
+     "orgStudyIdInfo": {
+      "id": "IDE574-001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "IDEAYA Biosciences"
+     },
+     "secondaryIdInfos": [
+      {
+       "domain": "Regulatory Agency Identifier Number (s)",
+       "id": "178299",
+       "type": "OTHER"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "IDEAYA Biosciences"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2030-06-30",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-06-16",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-06-12",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2030-03-30",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2026-03-17",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-05",
+     "studyFirstPostDateStruct": {
+      "date": "2026-04-20",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2026-04-01",
+     "studyFirstSubmitQcDate": "2026-04-14"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participant Group/Arm: Treatment combination dose of IDE196 + crizotinib will be tested",
+       "interventionNames": [
+        "Drug: Darovasertib",
+        "Drug: Crizotinib (Xalkori)"
+       ],
+       "label": "Treatment",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participant Group/Arm: Observation Standard of care observation \\& follow-up (no treatment)",
+       "label": "Observation",
+       "type": "NO_INTERVENTION"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Treatment"
+       ],
+       "description": "Oral, selectively targets key proteins",
+       "name": "Darovasertib",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Treatment"
+       ],
+       "description": "Oral small molecule",
+       "name": "Crizotinib (Xalkori)",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Uveal Melanoma"
+     ],
+     "keywords": [
+      "Uveal Melanoma",
+      "plaque brachytherapy",
+      "enucleation",
+      "proton beam",
+      "Adjuvant",
+      "Darovasertib",
+      "IDE 196",
+      "Ocular Melanoma",
+      "Choroidal Melanoma",
+      "Ocular Oncology",
+      "Protein Kinase C",
+      "GNAQ",
+      "GNA11",
+      "Crizotinib"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 450,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Study of Adjuvant Darovasertib and Crizotinib in Participants With Primary Non-metastatic Uveal Melanoma",
+     "nctId": "NCT07804186",
+     "officialTitle": "A Randomized, Phase 3, Open-label Study of Adjuvant Darovasertib and Crizotinib in Participants With Primary Non-metastatic Uveal Melanoma",
+     "orgStudyIdInfo": {
+      "id": "IDE196-011"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "IDEAYA Biosciences"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "IDEAYA Biosciences"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2034-04",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-09-15",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-09-11",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2034-03",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2026-09",
+      "type": "ESTIMATED"
+     },
+     "statusVerifiedDate": "2026-08",
+     "studyFirstPostDateStruct": {
+      "date": "2026-09-04",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2026-08-21",
+     "studyFirstSubmitQcDate": "2026-08-31"
+    }
+   }
+  }
+ ]
+}

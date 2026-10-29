@@ -1,0 +1,163 @@
+{
+ "nctId": "NCT04577352",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-3.769",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.550",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "1.1016",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "OTHER",
+     "pValue": "= 0.1440",
+     "paramType": "LS Mean Difference",
+     "paramValue": "-1.610",
+     "statisticalMethod": "Mixed Models Analysis"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "0.9652",
+         "spread": "0.9652",
+         "value": "1.218"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "0.9994",
+         "spread": "0.9994",
+         "value": "2.828"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "61"
+      },
+      {
+       "groupId": "OG001",
+       "value": "62"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "mFARS is a 93-item scale; comprised of neurologic component of FARS. For each item, responses categorize the corresponding neurological finding, with a score ranging from 0 to 3, 4, or 5 with 0 being normal and higher numbers indicative of greater impairment. Total mFARS scores for each subscale: bulbar (0 to 5), upper limb coordination (0 to 36), lower limb coordination (0 to 16), and upright stability (0 to 36). mFARS total score was a composite score of all 4 subscales, ranging from 0 (normal) to 93 (greater impairment). A lower score = better neurological function. Missing data was imputed using pattern mix model multiple imputation. Least square (LS) mean and standard error (SE) was calculated using mixed-model repeated measures (MMRM).",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Participants received vatiquinone capsule at a dose of either 200 mg orally TID if ˂12 years of age and weighing ˂25 kg or 400 mg orally TID if ≥12 years of age and/or weighing ≥25 kg for 72 weeks during the double-blind phase and for 24 weeks during the open-label phase.",
+     "id": "OG000",
+     "title": "Vatiquinone"
+    },
+    {
+     "description": "Participants received placebo matching to vatiquinone (per age and weight) orally TID for 72 weeks during the double-blind phase and vatiquinone at a dose of either 200 mg orally TID if ˂12 years of age and weighing ˂25 kg or 400 mg orally TID if ≥12 years of age and/or weighing ≥25 kg for 24 weeks during the open-label phase.",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "The mITT analysis set included all randomized participants, between age of 7 and 21 years who received at least 1 dose of study drug (vatiquinone or placebo), had baseline and at least 1 postbaseline measurement of primary endpoint.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Week 72",
+   "title": "Change From Baseline in the mFARS Score at Week 72 - Modified Intent-to-treat (mITT) Analysis Set",
+   "type": "PRIMARY",
+   "unitOfMeasure": "units on a scale"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-3.622",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.308",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "1.0027",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "OTHER",
+     "pValue": "= 0.0984",
+     "paramType": "LS Mean Difference",
+     "paramValue": "-1.657",
+     "statisticalMethod": "Mixed Models Analysis"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "0.8500",
+         "spread": "0.8500",
+         "value": "0.898"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "0.8770",
+         "spread": "0.8770",
+         "value": "2.555"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "70"
+      },
+      {
+       "groupId": "OG001",
+       "value": "73"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "mFARS is a 93-item scale; comprised of neurologic component of FARS. For each item, responses categorize the corresponding neurological finding, with a score ranging from 0 to 3, 4, or 5 with 0 being normal and higher numbers indicative of greater impairment. Total mFARS scores for each subscale: bulbar (0 to 5), upper limb coordination (0 to 36), lower limb coordination (0 to 16), and upright stability (0 to 36). mFARS total score was a composite score of all 4 subscales, ranging from 0 (normal) to 93 (greater impairment). A lower score = better neurological function. Missing data was imputed using pattern mix model multiple imputation. LS mean and SE was calculated using MMRM.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Participants received vatiquinone capsule at a dose of either 200 mg orally TID if ˂12 years of age and weighing ˂25 kg or 400 mg orally TID if ≥12 years of age and/or weighing ≥25 kg for 72 weeks during the double-blind phase and for 24 weeks during the open-label phase.",
+     "id": "OG000",
+     "title": "Vatiquinone"
+    },
+    {
+     "description": "Participants received placebo matching to vatiquinone (per age and weight) orally TID for 72 weeks during the double-blind phase and vatiquinone at a dose of either 200 mg orally TID if ˂12 years of age and weighing ˂25 kg or 400 mg orally TID if ≥12 years of age and/or weighing ≥25 kg for 24 weeks during the open-label phase.",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "The ITT analysis set included all randomized participants who had received at least 1 dose of study drug (vatiquinone or placebo), and had baseline and at least 1 postbaseline measurement of the primary endpoint.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Week 72",
+   "title": "Change From Baseline in the mFARS Score at Week 72 - Intent-to-treat (ITT) Analysis Set",
+   "type": "PRIMARY",
+   "unitOfMeasure": "units on a scale"
+  }
+ ]
+}

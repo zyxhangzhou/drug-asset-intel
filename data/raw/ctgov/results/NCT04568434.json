@@ -1,0 +1,113 @@
+{
+ "nctId": "NCT04568434",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-69.085",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-17.921",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "=0.0009",
+     "pValueComment": "ANCOVA model included effects of treatment (olezarsen 80 mg, olezarsen 50 mg, or placebo): dependent variable, protocol specified 2 randomization stratification factors: fixed effects, log-transformed baseline TG: covariate.",
+     "paramType": "LS mean difference",
+     "paramValue": "-43.5",
+     "statisticalMethod": "ANCOVA"
+    },
+    {
+     "ciLowerLimit": "-47.200",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "2.463",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "=0.0775",
+     "pValueComment": "Analysis of covariance (ANCOVA) model included effects of treatment (olezarsen 80 mg, olezarsen 50 mg, or placebo): dependent variable, protocol specified 2 randomization stratification factors: fixed effects, log-transformed baseline TG: covariate.",
+     "paramType": "Least squares (LS) mean difference",
+     "paramValue": "-22.37",
+     "statisticalMethod": "ANCOVA"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "-5.321",
+         "upperLimit": "28.356",
+         "value": "11.52"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "-27.797",
+         "upperLimit": "6.095",
+         "value": "-10.85"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "-49.031",
+         "upperLimit": "-14.940",
+         "value": "-31.99"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "23"
+      },
+      {
+       "groupId": "OG001",
+       "value": "21"
+      },
+      {
+       "groupId": "OG002",
+       "value": "22"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants received olezarsen-matching placebo, once every 4 weeks by SC injection, during Weeks 1 to 49 of the 53-week treatment period.",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Participants received olezarsen 50 mg, once every 4 weeks by SC injection, during Weeks 1 to 49 of the 53-week treatment period.",
+     "id": "OG001",
+     "title": "Olezarsen 50 mg"
+    },
+    {
+     "description": "Participants received olezarsen 80 mg, once every 4 weeks by SC injection, during Weeks 1 to 49 of the 53-week treatment period.",
+     "id": "OG002",
+     "title": "Olezarsen 80 mg"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "FAS included all participants that were randomly assigned to treatment and received at least 1 dose of olezarsen or placebo.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Month 6",
+   "title": "Percent Change From Baseline in Fasting TG at Month 6",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percent change"
+  }
+ ]
+}

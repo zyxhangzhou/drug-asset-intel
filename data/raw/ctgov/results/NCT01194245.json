@@ -1,0 +1,82 @@
+{
+ "nctId": "NCT01194245",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-0.05",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.15",
+     "groupDescription": "Approximately 110 participants were to be enrolled, allowing approximately 88 participants to complete both treatment periods (44 for each investigational drug). Assuming a dropout rate of no more than 20%, intra-participant correlation of 0.80, standard deviation of 1.2, and a true difference of 0, the study would have a greater than 90% power to show that Analog-PH20 was non-inferior to insulin lispro alone with respect to the change from baseline in A1C at the end of each treatment period.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityComment": "Non-inferiority would be supported if the upper limit of the two-sided 95% confidence interval for the difference between Analog-PH20 and the comparator (insulin lispro) did not exceed 0.40.",
+     "nonInferiorityType": "NON_INFERIORITY_OR_EQUIVALENCE",
+     "pValue": "0.2878",
+     "paramType": "LS Means Difference",
+     "paramValue": "0.05",
+     "statisticalMethod": "Mixed Models Analysis"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.415",
+         "value": "-0.14"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.440",
+         "value": "-0.19"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "111"
+      },
+      {
+       "groupId": "OG001",
+       "value": "110"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Glycosylated hemoglobin A1C (HBA1c) levels were measured at baseline (Week 0) and at the end of each treatment period (Week 12 and Week 24). Data are presented by combined treatment group (Lispro-PH20 + Aspart-PH20 = Analog-PH20) and combined comparator drug (Insulin Lispro from both cohorts). Least Squares (LS) means were calculated from mixed effects linear models with treatment (Lispro, Aspart), recombinant human hyaluronidase PH20 (rHuPH20; yes, no), and treatment sequence as fixed effects and participant within treatment sequence as a random effect.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "100 units per milliliter (U/mL) insulin lispro or insulin aspart with 5.0 micrograms per milliliter (µg/mL) recombinant human hyaluronidase PH20, injected subcutaneously (SC), pre-meals, for 12 weeks, with doses titrated to each participant individually",
+     "id": "OG000",
+     "title": "Analog-PH20"
+    },
+    {
+     "description": "100 units per milliliter (U/mL) insulin lispro, injected subcutaneously (SC), pre-meals, for 12 weeks, with doses titrated to each participant individually",
+     "id": "OG001",
+     "title": "Insulin Lispro"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Participants who completed both Treatment Period 1 and Treatment Period 2 and had evaluable hemoglobin A1C data.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Week 12 and Week 24",
+   "title": "Change From Baseline in Glycosylated Hemoglobin A1C (HbA1c) at the End of Each Treatment Period",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of hemoglobin A1C"
+  }
+ ]
+}

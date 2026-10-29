@@ -1,0 +1,85 @@
+{
+ "nctId": "NCT00705406",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.723",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "1.188",
+     "estimateComment": "Hazard Ratio and corresponding 95% CI are based the Cox Regression Model including parameters for treatment, controlling for smoking status and hemisphere of enrollment.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+     "pValue": "0.222",
+     "paramType": "Hazard Ratio (HR)",
+     "paramValue": "0.927",
+     "statisticalComment": "P-value is from a Wilcoxon-Gehan test statistic controlling for smoking status and hemisphere of enrollment.",
+     "statisticalMethod": "Wilcoxon-Gehan test statistic",
+     "testedNonInferiority": false
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "90.4",
+         "upperLimit": "127.4",
+         "value": "106.9"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "77.7",
+         "upperLimit": "109.7",
+         "value": "91.1"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "147"
+      },
+      {
+       "groupId": "OG001",
+       "value": "132"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The primary efficacy endpoint was the time to alleviation of symptoms calculated as the number of hours from initiation of study drug until the start of the time period in which all 7 symptoms of influenza were either absent or present at a level no greater than mild for at least 21.5 (24 hours - 10%) hours. Subjects with missing diary data were excluded and those who did not experience alleviation of symptoms were censored at the last observed symptom assessment.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Placebo (buffered diluent) administered as bilateral 2-mL intramuscular injection.",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Peramivir 600 mg administered as bilateral 2-mL intramuscular injection.",
+     "id": "OG001",
+     "title": "Peramivir 600 mg"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "The Intent-to-Treat Infected with Influenza A (ITTI-A) population included all subjects who were randomized, received study drug, and had confirmed influenza A by culture or PCR.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Information collected twice daily beginning predose on Day 1 and through Day 9, then once daily through Day 14",
+   "title": "Time to Alleviation of Symptoms (Kaplan-Meier Estimate)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "hours"
+  }
+ ]
+}

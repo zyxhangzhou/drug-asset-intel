@@ -1,0 +1,132 @@
+{
+ "nctId": "NCT02970292",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-4.5",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.4",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "1.24",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0940",
+     "paramType": "Difference in MMRM LSMs",
+     "paramValue": "-2.1",
+     "statisticalMethod": "mixed-effects model for repeated measure"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.68",
+         "value": "88.3"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.61",
+         "value": "88.1"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "193"
+        },
+        {
+         "groupId": "OG001",
+         "value": "196"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Baseline"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.93",
+         "value": "-15.3"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.83",
+         "value": "-13.4"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "173"
+        },
+        {
+         "groupId": "OG001",
+         "value": "189"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Change from baseline to Week 6"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "193"
+      },
+      {
+       "groupId": "OG001",
+       "value": "196"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The PANSS is a 30-item scale used to evaluate the presence, absence, and severity of schizophrenia symptoms. The 30 items are arranged as 7 positive symptom items (P1 to P7), 7 negative symptom items (N1 to N7), and 16 general psychopathology symptom items (G1 to G16). Items are scored over the past week (7 days) on a 7-point scale ranging from 1 (absent) to 7 (extreme). The PANSS total score can range from a minimum of 30 to a maximum of 210, where a higher score signifies greater severity of schizophrenia symptoms.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Patients started treatment with pimavanserin 20 mg once daily (QD). At the Week 1, Week 2 and Week 3 visit, the dose could be increased to 34 mg QD or decreased to 10 mg QD at the investigator's discretion (to improve symptom reliev or tolerability, respectively). Thereafter, the daily dose was to remain the same for the remainder of the study.\n\nPatients were to continue their background antipsychotic treatment.",
+     "id": "OG000",
+     "title": "Pimavanserin"
+    },
+    {
+     "description": "Pimavanserin-matching Placebo.\n\nPatients were to continue their background antipsychotic treatment.",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Patients randomised and treated (at least 1 dose of study medication) who had both a baseline value and at least 1 post-baseline value for the PANSS total score.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "From baseline to Week 6",
+   "title": "Change From Baseline to Week 6 in the Positive and Negative Syndrome Scale (PANSS) Total Score",
+   "type": "PRIMARY",
+   "unitOfMeasure": "score on a scale"
+  }
+ ]
+}

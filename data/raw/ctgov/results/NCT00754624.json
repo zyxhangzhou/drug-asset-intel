@@ -1,0 +1,66 @@
+{
+ "nctId": "NCT00754624",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-0.059",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-0.037",
+     "groupDescription": "A random coefficient model with a random intercept and slope associated with each subject, was fitted (using the PROC MIXED procedure in SAS) to the observed FEV1 data to estimate the annual rate of decline. The model included terms for baseline FEV1 and time (in years) of FEV1 measurements. Missing pulmonary functions were not imputed.",
+     "groupIds": [
+      "OG000"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+     "paramType": "Slope",
+     "paramValue": "-0.048",
+     "statisticalComment": "Adjusted for Baseline FEV1 value",
+     "statisticalMethod": "Random coefficient",
+     "testedNonInferiority": false
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.006",
+         "value": "-0.048"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "229"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Technosphere® Insulin Inhalation Powder",
+     "id": "OG000",
+     "title": "TI Inhalation Powder"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Safety Population defined as all subjects who received at least one dose of study drug",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline to 48 months",
+   "title": "Annual Rate of Change in FEV1 From Baseline to End of Study",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Liters per year"
+  }
+ ]
+}

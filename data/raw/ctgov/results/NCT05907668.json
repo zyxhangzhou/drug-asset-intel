@@ -1,0 +1,50 @@
+{
+ "nctId": "NCT05907668",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "50.0",
+         "upperLimit": "83.9",
+         "value": "68.8"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "32"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Antithyroid drug therapy was indicated as a first-line treatment for GD by effectively controlling hyperthyroidism. FT3 and FT4 were prespecified biomarkers of GD. Fasting blood samples were collected to assess the percentage of participants who achieved normalization of FT3 and FT4 or levels below the LLN without increase in ATD dose compared to baseline. The change in the ATD dose was compared only between baseline and Week 24 to determine if there was an increase. Percentages were estimated using the 2-sided Clopper-Pearson Exact method, with corresponding 95% confidence intervals. Participants who, at Week 24, without an increase in ATD dose compared with baseline, had achieved normalization of FT3 and FT4, or had FT3 and/or FT4 below the lower limit of normal (LLN), were considered responders. Participants with missing Week 24 assessments were considered nonresponders.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants received batoclimab 680 mg SC injection QW for 12 weeks, followed by 340 mg SC injection QW for 12 weeks.",
+     "id": "OG000",
+     "title": "Batoclimab"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Safety Analysis Population",
+   "reportingStatus": "POSTED",
+   "timeFrame": "At Week 24",
+   "title": "Percentage of Participants Who Achieved Normalization of Free Triiodothyronine (FT3) and Free Thyroxine (FT4), or Have FT3 and/or FT4 Below the Lower Limit of Normal (LLN) at Week 24 Without Increase in ATD Dose Compared to Baseline",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

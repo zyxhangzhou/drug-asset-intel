@@ -1,0 +1,1208 @@
+{
+ "aliases": [
+  "Scholar Rock"
+ ],
+ "studies": [
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Ambulatory Type 3 SMA",
+       "interventionNames": [
+        "Biological: SRK-015"
+       ],
+       "label": "Cohort 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Type 2 SMA / Non-Ambulatory Type 3 SMA",
+       "interventionNames": [
+        "Biological: SRK-015"
+       ],
+       "label": "Cohort 2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Type 2 SMA",
+       "interventionNames": [
+        "Biological: SRK-015"
+       ],
+       "label": "Cohort 3",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Cohort 1",
+        "Cohort 2",
+        "Cohort 3"
+       ],
+       "description": "SRK-015 is a fully human anti-proMyostatin monoclonal antibody (mAb) of the immunoglobulin G4 (IgG4)/lambda isotype that binds to human pro/latent myostatin with high affinity. SRK-015 will be administered every 4 weeks by intravenous infusion.",
+       "name": "SRK-015",
+       "type": "BIOLOGICAL"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Spinal Muscular Atrophy",
+      "Spinal Muscular Atrophy Type 3",
+      "Spinal Muscular Atrophy Type 2",
+      "SMA",
+      "Neuromuscular Diseases",
+      "Muscular Atrophy",
+      "Atrophy",
+      "Muscular Atrophy, Spinal",
+      "Neuromuscular Manifestations"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "NONE",
+       "maskingDescription": "Active treatment, randomized, double-blind for Cohort 3"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 58,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "TOPAZ",
+     "briefTitle": "An Active Treatment Study of SRK-015 in Patients With Type 2 or Type 3 Spinal Muscular Atrophy",
+     "nctId": "NCT03921528",
+     "officialTitle": "Phase 2 Active Treatment Study to Evaluate the Efficacy and Safety of SRK-015 in Patients With Later-Onset Spinal Muscular Atrophy (TOPAZ)",
+     "orgStudyIdInfo": {
+      "id": "SRK-015-002"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Scholar Rock, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Scholar Rock, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2024-02-28",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2024-12-02",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2024-11-25",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2021-01-19",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2022-11-17",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2022-01-19",
+     "resultsFirstSubmitQcDate": "2022-10-24",
+     "startDateStruct": {
+      "date": "2019-04-22",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2024-11",
+     "studyFirstPostDateStruct": {
+      "date": "2019-04-19",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2019-04-16",
+     "studyFirstSubmitQcDate": "2019-04-16"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Part A1 determined the maximum tolerated dose (MTD) or maximum administered dose (MAD) of SRK-181 as a single agent and the recommended Phase 2 dose (RP2D) of SRK-181 as a single-agent.",
+       "interventionNames": [
+        "Biological: SRK-181"
+       ],
+       "label": "Part A1: Dose Escalation",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Part A2 determined the MTD or MAD of SRK-181 in combination with anti-PD-(L)1 antibody therapy and the RP2D of SRK-181 in combination with anti-PD-(L)1 antibody therapy for use in Part B.",
+       "interventionNames": [
+        "Biological: SRK-181",
+        "Biological: anti-PD-(L)1 antibody therapy"
+       ],
+       "label": "Part A2: Dose Escalation",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "In Part B, parallel cohorts of patients with Non-Small Cell Lung Cancer (NSCLC), Urothelial Carcinoma (UC), Cutaneous Melanoma (MEL), Clear Cell Renal Cell Carcinoma (ccRCC), Head and Neck Squamous Cell Carcinoma (HNSCC), or other advanced or metastatic solid tumor type that is not NSCLC, UC, MEL, or ccRCC were enrolled to confirm the tolerability of the RP2D of SRK-181 (determined in Part A2) and to evaluate the anti-tumor activity of SRK-181 in combination with an anti-PD-(L)1 antibody therapy.",
+       "interventionNames": [
+        "Biological: SRK-181",
+        "Biological: anti-PD-(L)1 antibody therapy"
+       ],
+       "label": "Part B: Dose Expansion",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Patients may continue treatment in a LTEP:\n\n* Part A1: Patients may continue treatment with SRK-181 as a single agent at the RP2D in the LTEP following 3 cycles of treatment with SRK-181 as a single agent in Part A1.\n* Part A2: Patients may continue treatment with SRK-181 at the RP2D in combination with anti-PD-(L)1 antibody therapy in the LTEP following 3 cycles of treatment with SRK-181 in combination with anti-PD-(L)1 antibody therapy in Part A2.\n* Part B: Patients may continue treatment with SRK-181 in combination with anti-PD-(L)1 antibody therapy following 9 cycles of treatment with SRK-181 in combination with anti-PD-(L)1 antibody therapy in Part B",
+       "interventionNames": [
+        "Biological: SRK-181",
+        "Biological: anti-PD-(L)1 antibody therapy"
+       ],
+       "label": "Long Term Extension Phase (LTEP)",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Long Term Extension Phase (LTEP)",
+        "Part A1: Dose Escalation",
+        "Part A2: Dose Escalation",
+        "Part B: Dose Expansion"
+       ],
+       "description": "anti-latent TGFβ1 monoclonal antibody",
+       "name": "SRK-181",
+       "type": "BIOLOGICAL"
+      },
+      {
+       "armGroupLabels": [
+        "Long Term Extension Phase (LTEP)",
+        "Part A2: Dose Escalation",
+        "Part B: Dose Expansion"
+       ],
+       "description": "approved anti-PD-(L)1 antibody therapy for each tumor type",
+       "name": "anti-PD-(L)1 antibody therapy",
+       "type": "BIOLOGICAL"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Cancer"
+     ],
+     "keywords": [
+      "Solid Tumor",
+      "Metastatic",
+      "Melanoma",
+      "Urothelial",
+      "Non-Small Cell Lung Carcinoma",
+      "ccRCC",
+      "Head and Neck Squamous Cell Carcinoma"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 112,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "SRK-181 Alone or in Combination With Anti-PD-(L)1 Antibody Therapy in Patients With Locally Advanced or Metastatic Solid Tumors (DRAGON)",
+     "nctId": "NCT04291079",
+     "officialTitle": "A Phase 1, Open-Label, Dose-Escalation, and Dose-Expansion Study to Investigate the Safety, Tolerability, PK, PD, and Efficacy of SRK-181 Alone and in Combination With Anti-PD-(L)1 Antibody Therapy in Patients With Locally Advanced or Metastatic Solid Tumors (DRAGON)",
+     "orgStudyIdInfo": {
+      "id": "SRK-181-001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Scholar Rock, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Scholar Rock, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2025-04-14",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-04-29",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-04-24",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2025-04-14",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2020-04-23",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-04",
+     "studyFirstPostDateStruct": {
+      "date": "2020-03-02",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2020-02-25",
+     "studyFirstSubmitQcDate": "2020-02-27"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Aged 2-12 years at Screening. Participants were randomized to receive apitegromab 10 mg/kg for up to 52 weeks.",
+       "interventionNames": [
+        "Drug: Apitegromab"
+       ],
+       "label": "Main Efficacy Population (Apitegromab 10 mg/kg)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Aged 2-12 years at Screening. Participants were randomized to receive apitegromab 20 mg/kg for up to 52 weeks.",
+       "interventionNames": [
+        "Drug: Apitegromab"
+       ],
+       "label": "Main Efficacy Population (Apitegromab 20 mg/kg)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Aged 2-12 years at Screening. Participants were randomized to receive placebo for up to 52 weeks.",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Main Efficacy Population (Placebo)",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "description": "Aged 13-21 years at Screening. Participants were randomized to receive apitegromab 20 mg/kg for up to 52 weeks.",
+       "interventionNames": [
+        "Drug: Apitegromab"
+       ],
+       "label": "Exploratory Subpopulation (Apitegromab)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Aged 13-21 years at Screening. Participants were randomized to receive placebo for up to 52 weeks.",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Exploratory Subpopulation (Placebo)",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Exploratory Subpopulation (Apitegromab)",
+        "Main Efficacy Population (Apitegromab 10 mg/kg)",
+        "Main Efficacy Population (Apitegromab 20 mg/kg)"
+       ],
+       "description": "Apitegromab is a fully human anti-proMyostatin monoclonal antibody (mAb) of the immunoglobulin G4 (IgG4)/lambda isotype that specifically binds to human pro/latent myostatin with high affinity inhibiting myostatin activation. SRK-015 was administered every 4 weeks by intravenous (IV) infusion.",
+       "name": "Apitegromab",
+       "otherNames": [
+        "SRK-015"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Exploratory Subpopulation (Placebo)",
+        "Main Efficacy Population (Placebo)"
+       ],
+       "description": "Placebo was administered every 4 weeks by intravenous (IV) infusion.",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Spinal Muscular Atrophy",
+      "Spinal Muscular Atrophy Type 3",
+      "Spinal Muscular Atrophy Type 2",
+      "SMA",
+      "Neuromuscular Diseases",
+      "Muscular Atrophy",
+      "Atrophy",
+      "Muscular Atrophy, Spinal",
+      "Neuromuscular Manifestations",
+      "Anti-myostatin"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "maskingDescription": "Active treatment, randomized, double-blind, placebo-controlled.",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 188,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "SAPPHIRE",
+     "briefTitle": "Efficacy and Safety of Apitegromab in Patients With Later-Onset Spinal Muscular Atrophy Treated With Nusinersen or Risdiplam",
+     "nctId": "NCT05156320",
+     "officialTitle": "Phase 3, Double-Blind, Placebo-Controlled Trial to Evaluate the Efficacy and Safety of Apitegromab (SRK-015) in Patients With Later-Onset Spinal Muscular Atrophy Receiving Background Nusinersen or Risdiplam Therapy",
+     "orgStudyIdInfo": {
+      "id": "SRK-015-003"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Scholar Rock, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Scholar Rock, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2024-12-18",
+      "type": "ACTUAL"
+     },
+     "dispFirstPostDateStruct": {
+      "date": "2025-03-07",
+      "type": "ACTUAL"
+     },
+     "dispFirstSubmitDate": "2025-12-16",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-01-22",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-01-16",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2024-12-18",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2022-04-14",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-01",
+     "studyFirstPostDateStruct": {
+      "date": "2021-12-14",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2021-12-01",
+     "studyFirstSubmitQcDate": "2021-12-01"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Patients who are ≥2 years of age with Type 2 and Type 3 SMA will receive apitegromab 20 mg/kg every 4 weeks by intravenous (IV) infusion during the 104-week Treatment Period",
+       "interventionNames": [
+        "Drug: Apitegromab"
+       ],
+       "label": "Treatment Period",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Treatment Period"
+       ],
+       "description": "Apitegromab (SRK-015) is an investigational, fully human immunoglobulin G4 monoclonal antibody that specifically binds to human proforms (i.e., inactive precursor forms) of myostatin, pro- and latent- myostatin, with high affinity, inhibiting activation of myostatin, a negative regulator of muscle growth and strength.",
+       "name": "Apitegromab",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Spinal Muscular Atrophy",
+      "Spinal Muscular Atrophy Type 3",
+      "Spinal Muscular Atrophy Type 2",
+      "SMA",
+      "Neuromuscular Diseases",
+      "Muscular Atrophy",
+      "Atrophy",
+      "Muscular Atrophy, Spinal",
+      "Neuromuscular Manifestations",
+      "Anti-myostatin"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "interventionModelDescription": "Open Label Extension Study",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 238,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "ONYX",
+     "briefTitle": "Long-Term Safety & Efficacy of Apitegromab in Patients With SMA Who Completed Previous Trials of Apitegromab",
+     "nctId": "NCT05626855",
+     "officialTitle": "An Open-Label, Multicenter, Extension Trial to Evaluate the Long-Term Safety and Efficacy of Apitegromab in Patients With Type 2 and Type 3 Spinal Muscular Atrophy Who Completed Previous Investigational Trials of Apitegromab",
+     "orgStudyIdInfo": {
+      "id": "SRK-015-004"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Scholar Rock, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Scholar Rock, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2029-05-02",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-09-01",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-08-28",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2026-11-01",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2023-04-17",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-08",
+     "studyFirstPostDateStruct": {
+      "date": "2022-11-25",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2022-11-07",
+     "studyFirstSubmitQcDate": "2022-11-15"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Apitegromab + incretin mimetic",
+       "interventionNames": [
+        "Drug: Apitegromab",
+        "Drug: Tirzepatide"
+       ],
+       "label": "Cohort 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Placebo + incretin mimetic",
+       "interventionNames": [
+        "Drug: Placebo",
+        "Drug: Tirzepatide"
+       ],
+       "label": "Cohort 2",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Cohort 1"
+       ],
+       "description": "Apitegromab (SRK-015) is a fully human anti-proMyostatin monoclonal antibody (mAb) that specifically binds to human pro/latent myostatin, inhibiting myostatin activation. Apitegromab was administered every 4 weeks by intravenous (IV) infusion.",
+       "name": "Apitegromab",
+       "otherNames": [
+        "SRK-015"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Cohort 2"
+       ],
+       "description": "Same appearance and composition as apitegromab drug product but does not contain the active ingredient. Placebo was administered every 4 weeks by intravenous (IV) infusion.",
+       "name": "Placebo",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Cohort 1",
+        "Cohort 2"
+       ],
+       "description": "Glucose-dependent insulinotropic polypeptide (GIP) receptor and glucagon-like peptide-1 (GLP-1) receptor agonist. Tirzepatide was administered every week by subcutaneous injection.",
+       "name": "Tirzepatide",
+       "otherNames": [
+        "ZEPBOUND"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Overweight and Obesity"
+     ],
+     "keywords": [
+      "Overweight",
+      "Obesity"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "interventionModelDescription": "Parallel Assignment",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "maskingDescription": "Active treatment, randomized, double-blind, placebo-controlled",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 102,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "EMBRAZE",
+     "briefTitle": "Efficacy and Safety of Apitegromab for the Treatment of Adults Who Are Overweight or Obese",
+     "nctId": "NCT06445075",
+     "officialTitle": "A Phase 2 Randomized, Double-blind, Placebo-controlled, Multicenter Study to Evaluate the Efficacy, Safety and Pharmacokinetics of Apitegromab in Overweight and Obese Adult Subjects",
+     "orgStudyIdInfo": {
+      "id": "SRK-015-006"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Scholar Rock, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Scholar Rock, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2025-06-17",
+      "type": "ACTUAL"
+     },
+     "dispFirstPostDateStruct": {
+      "date": "2025-07-17",
+      "type": "ACTUAL"
+     },
+     "dispFirstSubmitDate": "2026-01-20",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-01-23",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-01-20",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2025-03-04",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2024-05-21",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-01",
+     "studyFirstPostDateStruct": {
+      "date": "2024-06-06",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2024-05-22",
+     "studyFirstSubmitQcDate": "2024-05-30"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "interventions": [
+      {
+       "description": "Apitegromab (SRK-015) is a fully human anti-proMyostatin monoclonal antibody (mAb) that specifically binds to human pro/latent myostatin, inhibiting myostatin activation. Apitegromab will be administered every 4 weeks by intravenous (IV) infusion.",
+       "name": "Apitegromab",
+       "otherNames": [
+        "SRK-015"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "SMA"
+     ],
+     "keywords": [
+      "Expanded Access",
+      "Pre-Approval Access",
+      "Compassionate Use"
+     ]
+    },
+    "designModule": {
+     "expandedAccessTypes": {
+      "intermediate": true
+     },
+     "nPtrsToThisExpAccNctId": 1,
+     "studyType": "EXPANDED_ACCESS"
+    },
+    "identificationModule": {
+     "briefTitle": "EAP of Apitegromab for Patients With Spinal Muscular Atrophy",
+     "nctId": "NCT06877689",
+     "officialTitle": "Expanded Access Protocol of Apitegromab for Patients With Spinal Muscular Atrophy",
+     "orgStudyIdInfo": {
+      "id": "SRK-015-008"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Scholar Rock, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Scholar Rock, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-04-28",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-04-23",
+     "overallStatus": "NO_LONGER_AVAILABLE",
+     "statusVerifiedDate": "2026-04",
+     "studyFirstPostDateStruct": {
+      "date": "2025-03-14",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-03-10",
+     "studyFirstSubmitQcDate": "2025-03-10"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Patients who are less than 2 years of age with SMA will receive apitegromab every 4 weeks by intravenous (IV) infusion during the 48-week Treatment Period.\n\nPatients must have been treated with an approved SMN1-targeted therapy (ie, onasemnogene abeparvovec-xioi) or are continuing to be treated with an approved SMN2-targeted therapy (ie, nusinersen or risdiplam).",
+       "interventionNames": [
+        "Drug: Apitegromab",
+        "Drug: Nusinersen",
+        "Drug: Risdiplam"
+       ],
+       "label": "Apitegromab low dose + SMN Therapy",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Patients who are less than 2 years of age with SMA will receive apitegromab every 4 weeks by intravenous (IV) infusion during the 48-week Treatment Period.\n\nPatients must have been treated with an approved SMN1-targeted therapy (ie, onasemnogene abeparvovec-xioi) or are continuing to be treated with an approved SMN2-targeted therapy (ie, nusinersen or risdiplam).",
+       "interventionNames": [
+        "Drug: Apitegromab",
+        "Drug: Nusinersen",
+        "Drug: Risdiplam"
+       ],
+       "label": "Apitegromab high dose + SMN Therapy",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Apitegromab high dose + SMN Therapy",
+        "Apitegromab low dose + SMN Therapy"
+       ],
+       "description": "Apitegromab is a fully human anti-proMyostatin monoclonal antibody (mAb) of the immunoglobulin G4 (IgG4)/lambda isotype that specifically binds to human pro/latent myostatin with high affinity inhibiting myostatin activation. SRK-015 will be administered every 4 weeks by intravenous (IV) infusion.",
+       "name": "Apitegromab",
+       "otherNames": [
+        "SRK-015"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Apitegromab high dose + SMN Therapy",
+        "Apitegromab low dose + SMN Therapy"
+       ],
+       "description": "Nusinersen is a current standard-of-care SMN therapy that targets the SMN2 gene. It will be administered intrathecally per the prescribing information.",
+       "name": "Nusinersen",
+       "otherNames": [
+        "Spinraza"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Apitegromab high dose + SMN Therapy",
+        "Apitegromab low dose + SMN Therapy"
+       ],
+       "description": "Risdiplam is a current standard-of-care SMN therapy that targets the SMN2 gene. It will be administered orally per the prescribing information.",
+       "name": "Risdiplam",
+       "otherNames": [
+        "Evrysdi"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Spinal Muscular Atrophy",
+      "SMA",
+      "Spinal Muscular Atrophy Type 2",
+      "Spinal Muscular Atrophy Type 3",
+      "Neuromuscular Manifestations",
+      "Anti-myostatin"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "maskingDescription": "The Sponsor, the subject's caregiver, Investigators, and site personnel, with the exception of the designated unblinded personnel (eg, site Pharmacist), will be blinded to the treatment assignment.",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 52,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "OPAL",
+     "briefTitle": "A Study to Evaluate How Apitegromab Works in Subjects Who Are Less Than 2 Years Old and Have Spinal Muscular Atrophy",
+     "nctId": "NCT07047144",
+     "officialTitle": "A Phase 2, Double-Blind Study to Evaluate the Pharmacokinetics, Pharmacodynamics, Efficacy, and Safety of Apitegromab in Subjects <2 Years Old With Spinal Muscular Atrophy (SMA)",
+     "orgStudyIdInfo": {
+      "id": "SRK-015-005"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Scholar Rock, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Scholar Rock, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2029-03",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": true,
+      "nctId": "NCT06877689",
+      "statusForNctId": "NO_LONGER_AVAILABLE"
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-02",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-01",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2028-11",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2025-09-15",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-10",
+     "studyFirstPostDateStruct": {
+      "date": "2025-07-02",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-04-16",
+     "studyFirstSubmitQcDate": "2025-06-23"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "10 mg/kg IV",
+       "interventionNames": [
+        "Drug: Apitegromab"
+       ],
+       "label": "Apitegromab",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Placebo IV",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Apitegromab"
+       ],
+       "description": "Apitegromab (SRK-015) is a fully human anti-promyostatin monoclonal antibody (mAb) that specifically binds to human pro/latent myostatin, inhibiting myostatin activation. Apitegromab will be administered every 4 weeks by intravenous (IV) infusion.",
+       "name": "Apitegromab",
+       "otherNames": [
+        "SRK-015"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Placebo is administered every 4 weeks by intravenous (IV) infusion and does not contain the active ingredient.",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Facioscapulohumeral Muscular Dystrophy",
+      "FSHD"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "TRIPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 60,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Phase 2 Study Evaluating Apitegromab for the Treatment of FSHD",
+     "nctId": "NCT07435129",
+     "officialTitle": "A Phase 2, Randomized, Double-Blind, Placebo-Controlled, Multicenter, 52-Week Study Evaluating the Efficacy and Safety of Apitegromab in Participants With Facioscapulohumeral Muscular Dystrophy (FORGE)",
+     "orgStudyIdInfo": {
+      "id": "SRK-015-009"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Scholar Rock, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Scholar Rock, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2028-12",
+      "type": "ESTIMATED"
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-09-02",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-09-01",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2028-06",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2026-07-30",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-09",
+     "studyFirstPostDateStruct": {
+      "date": "2026-02-27",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2026-02-10",
+     "studyFirstSubmitQcDate": "2026-02-24"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants will be treated with a single dose of SRK-439 or matching placebo.",
+       "interventionNames": [
+        "Drug: Placebo",
+        "Drug: SRK-439"
+       ],
+       "label": "Part A",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants will be treated with multiple doses of SRK-439 or matching placebo.",
+       "interventionNames": [
+        "Drug: Placebo",
+        "Drug: SRK-439"
+       ],
+       "label": "Part B",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Part A",
+        "Part B"
+       ],
+       "description": "Matching placebo to SRK-439, subcutaneous administration",
+       "name": "Placebo",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Part A"
+       ],
+       "description": "Single ascending dose, subcutaneous administration",
+       "name": "SRK-439",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Part B"
+       ],
+       "description": "Multiple ascending dose, subcutaneous administration",
+       "name": "SRK-439",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Healthy"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 76,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Single- and Multiple-Ascending Dose Study of SRK-439 in Healthy Adults",
+     "nctId": "NCT07444294",
+     "officialTitle": "A Phase 1 Single- and Multiple-Ascending Dose Study to Assess the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of SRK-439 in Healthy Adults",
+     "orgStudyIdInfo": {
+      "id": "SRK-439-001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Scholar Rock, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Scholar Rock, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2027-06-09",
+      "type": "ESTIMATED"
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-03-02",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-02-24",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2026-12-17",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2025-11-21",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-02",
+     "studyFirstPostDateStruct": {
+      "date": "2026-03-02",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2026-02-11",
+     "studyFirstSubmitQcDate": "2026-02-24"
+    }
+   }
+  }
+ ]
+}

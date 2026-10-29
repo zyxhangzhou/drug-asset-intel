@@ -1,0 +1,63 @@
+{
+ "nctId": "NCT01376908",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "4.2",
+         "value": "80.6"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "4.3",
+         "value": "50.1"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "27"
+      },
+      {
+       "groupId": "OG001",
+       "value": "29"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Phe tolerance was defined as the amount of dietary Phe prescribed (milligram per kilogram per day \\[mg/kg/day\\]) while maintaining blood Phe levels within the selected therapeutic target range (defined as greater than or equal to \\[\\>=\\] 120 to less than \\[\\<\\] 360 micromoles per liter \\[mcmol/L\\]).",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Kuvan® (sapropterin dihydrochloride) tablets were administered orally at a dose of 10 milligram/kilogram/day (mg/kg/day). If after 4 weeks, there was less than 20 percent (%) increase in subject's Phe tolerance versus baseline, the dose was escalated to 20 mg/kg/day. Phenylalanine (Phe)-restricted diet was adjusted every 2 weeks, based on the mean Phe levels of the previous 2 weeks using pre-defined Phe adjustment criteria.",
+     "id": "OG000",
+     "title": "Kuvan® + Phe-restricted Diet"
+    },
+    {
+     "description": "Phenylalanine (Phe)-restricted diet was adjusted every 2 weeks, based on the mean Phe levels of the previous 2 weeks using pre-defined Phe adjustment criteria.",
+     "id": "OG001",
+     "title": "Phe-restricted Diet"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Intention-to-treat (ITT) population consisted of all the randomized subjects at the start of the study and were analyzed according to the group allocated.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Week 26",
+   "title": "Dietary Phenylalanine (Phe) Tolerance at Week 26",
+   "type": "PRIMARY",
+   "unitOfMeasure": "mg/kg/day"
+  }
+ ]
+}

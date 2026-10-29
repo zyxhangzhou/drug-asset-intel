@@ -1,0 +1,47 @@
+{
+ "nctId": "NCT04000009",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "137"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "235"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Number of patients with treatment emergent AEs",
+   "groups": [
+    {
+     "description": "Pimavanserin 34 mg (administered as 2 x 17 mg pimavanserin tablets) once daily, for 52 weeks",
+     "id": "OG000",
+     "title": "Pimavanserin"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "All patients enrolled who received at least one dose of study medication",
+   "reportingStatus": "POSTED",
+   "timeFrame": "52 weeks",
+   "title": "Treatment-emergent Adverse Events (TEAEs)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

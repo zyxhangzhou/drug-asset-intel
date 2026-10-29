@@ -1,0 +1,80 @@
+{
+ "nctId": "NCT04710576",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "62.7",
+         "upperLimit": "83.0",
+         "value": "73.8"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "55.3",
+         "upperLimit": "76.8",
+         "value": "66.7"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "38.6",
+         "upperLimit": "61.4",
+         "value": "50.0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "80"
+      },
+      {
+       "groupId": "OG001",
+       "value": "81"
+      },
+      {
+       "groupId": "OG002",
+       "value": "80"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The ORR was defined as the percentage of participants with objective response (complete response \\[CR\\] or partial response \\[PR\\]). CR was defined as resolution of all manifestations in each organ or site, and PR was defined as improvement in at least 1 organ or site without progression in any other organ or site.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants received axatilimab 0.3 mg/kg IV Q2W (Days 1 and 15 of each 4-week cycle) for up to 2 years.",
+     "id": "OG000",
+     "title": "Axatilimab 0.3 mg/kg Q2W"
+    },
+    {
+     "description": "Participants received axatilimab 1 mg/kg IV Q2W (Days 1 and 15 of each 4-week cycle) for up to 2 years.",
+     "id": "OG001",
+     "title": "Axatilimab 1 mg/kg Q2W"
+    },
+    {
+     "description": "Participants received axatilimab 3 mg/kg IV Q4W (Day 1 of each 4-week cycle) for up to 2 years.",
+     "id": "OG002",
+     "title": "Axatilimab 3 mg/kg Q4W"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "The ITT analysis set for each dose level included all participants randomized to the dose level.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "First 6 cycles (up to Cycle 7 Day 1; each cycle = 4 weeks)",
+   "title": "Overall Response Rate (ORR) in the First 6 Cycles as Defined by the 2014 NIH Consensus Development Project on Criteria for Clinical Trials in Chronic Graft-Versus-Host Disease (cGVHD)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

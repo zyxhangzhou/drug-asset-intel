@@ -1,0 +1,116 @@
+{
+ "nctId": "NCT03916081",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-2.983",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.619",
+     "estimateComment": "Change from BL MMRM model includes treatment, visit, vIGA-AD strata, treatment-by-visit interaction as fixed effects and baseline EASI as a covariate.",
+     "groupDescription": "Change from Baseline in Week 4 EASI Total Score: Roflumilast Cream 0.05% vs. Vehicle Cream",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.356",
+     "pValueComment": "MMRM = mixed effects model for repeated measures vIGA-AD = validated Investigator Global Assessment scale for Atopic Dermatitis",
+     "paramType": "LS Mean Difference vs Vehicle",
+     "paramValue": "-1.18",
+     "statisticalComment": "Change from BL MMRM model includes treatment, visit, vIGA-AD strata, treatment-by-visit interaction as fixed effects and baseline EASI as a covariate.",
+     "statisticalMethod": "MMRM"
+    },
+    {
+     "ciLowerLimit": "-3.382",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.178",
+     "estimateComment": "Change from BL MMRM model includes treatment, visit, vIGA-AD strata, treatment-by-visit interaction as fixed effects and baseline EASI as a covariate.",
+     "groupDescription": "Change from Baseline in Week 4 EASI Total Score: Roflumilast Cream 0.15% vs. Vehicle Cream",
+     "groupIds": [
+      "OG001",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.097",
+     "paramType": "LS Mean Difference vs Vehicle",
+     "paramValue": "-1.60",
+     "statisticalComment": "Change from BL MMRM model includes treatment, visit, vIGA-AD strata, treatment-by-visit interaction as fixed effects and baseline EASI as a covariate.",
+     "statisticalMethod": "MMRM"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.503",
+         "value": "-6.03"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.492",
+         "value": "-6.44"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "0.492",
+         "value": "-4.84"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "42"
+      },
+      {
+       "groupId": "OG001",
+       "value": "44"
+      },
+      {
+       "groupId": "OG002",
+       "value": "44"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The least squares (LS) mean (SD) change from baseline in EASI Total Score at Week 4 is reported. The EASI is an instrument to measure the severity and extent of AD. The body is first divided into 4 areas: head (10% of skin), arms (20%), trunk (30%), and legs (40%). Then, the area affected is scored from 0 (0% involvement) to 6 (90-100% involvement), and severity is scored from 0 ('none') to 3 ('severe'). The EASI combines the area affected and severity ratings to get a final composite score ranging from 0 (no disease) to 72 (maximal disease). Note that palms and soles were treated as appropriate but were not counted towards any measurements of EASI.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants apply roflumilast cream 0.05% QD for 28 days.\n\nRoflumilast Cream 0.05%: Roflumilast 0.05% cream for topical application",
+     "id": "OG000",
+     "title": "Roflumilast Cream 0.05%"
+    },
+    {
+     "description": "Participants apply roflumilast cream 0.15% QD for 28 days.\n\nRoflumilast Cream 0.15%: Roflumilast 0.15% cream for topical application",
+     "id": "OG001",
+     "title": "Roflumilast Cream 0.15%"
+    },
+    {
+     "description": "Participants apply vehicle cream QD for 28 days.\n\nVehicle Cream: Inactive vehicle cream matched to roflumilast cream for topical application.",
+     "id": "OG002",
+     "title": "Vehicle Cream"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "All randomized participants with data are included.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline and Week 4",
+   "title": "Mean Change From Baseline in Eczema Area and Severity Index (EASI) Total Score at Week 4",
+   "type": "PRIMARY",
+   "unitOfMeasure": "score on a scale"
+  }
+ ]
+}

@@ -1,0 +1,265 @@
+{
+ "nctId": "NCT05008835",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "1.81",
+         "value": "5.4"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "1.12",
+         "value": "6.1"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "1.64",
+         "value": "5.6"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "20"
+        },
+        {
+         "groupId": "OG001",
+         "value": "20"
+        },
+        {
+         "groupId": "OG002",
+         "value": "20"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Baseline"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "1.81",
+         "value": "3.1"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "2.24",
+         "value": "4.4"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "1.63",
+         "value": "4.6"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "15"
+        },
+        {
+         "groupId": "OG001",
+         "value": "17"
+        },
+        {
+         "groupId": "OG002",
+         "value": "16"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Week 1"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "1.28",
+         "value": "3.0"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "2.26",
+         "value": "3.9"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "2.19",
+         "value": "4.2"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "12"
+        },
+        {
+         "groupId": "OG001",
+         "value": "15"
+        },
+        {
+         "groupId": "OG002",
+         "value": "17"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Week 2"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.88",
+         "value": "2.9"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "2.36",
+         "value": "3.8"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "2.33",
+         "value": "4.2"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "10"
+        },
+        {
+         "groupId": "OG001",
+         "value": "11"
+        },
+        {
+         "groupId": "OG002",
+         "value": "12"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Week 3"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG001",
+         "spread": "1.41",
+         "value": "4.0"
+        },
+        {
+         "comment": "Standard deviation not applicable if only a single patient is included in the assessment.",
+         "groupId": "OG002",
+         "spread": "NA",
+         "value": "3.0"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "2"
+        },
+        {
+         "groupId": "OG002",
+         "value": "1"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Week 4"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "21"
+      },
+      {
+       "groupId": "OG001",
+       "value": "20"
+      },
+      {
+       "groupId": "OG002",
+       "value": "20"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The 0-10 NRS consists of a single 11-point numeric scale, with 0 indicating no pain at all and 10 reflecting the worst pain imaginable.\n\nDue to the business decision to discontinue clinical development of ACP-044, this study was prematurely terminated. Efficacy was not evaluated in this study by using (planned) inferential statistics. For the purpose of results posting, changes in NRS over time are displayed using descriptive statistics.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Administration of ACP-044 matching placebo 4 times daily (morning, noon, evening, night)",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Administration 4 times daily (morning, noon, evening, night) of 400 mg ACP-044 At each the morning and evening administration, patients received one placebo tablet and one tablet containing ACP-044 400 mg. At each the noon and night administration, patients received one tablet containing ACP-044 400 mg.",
+     "id": "OG001",
+     "title": "ACP-044 400 mg QID"
+    },
+    {
+     "description": "Administration 2 times daily (morning, noon, evening, night) of 800 mg ACP-044 At each the morning and evening administration, patients received 2 tablets containing ACP-044 400 mg. At each the noon and night administration, patients received one placebo tablet.",
+     "id": "OG002",
+     "title": "ACP-044 800 mg BID"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "All patients randomised and treated.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "4 weeks",
+   "title": "Weekly Average of the Daily Average Numeric Rating Scale (NRS) Pain Intensity Scores",
+   "type": "PRIMARY",
+   "unitOfMeasure": "score on a scale"
+  }
+ ]
+}

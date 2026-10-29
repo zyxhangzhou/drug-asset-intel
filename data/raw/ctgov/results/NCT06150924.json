@@ -1,0 +1,63 @@
+{
+ "nctId": "NCT06150924",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "-4.966",
+         "upperLimit": "1.455",
+         "value": "-1.755"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "-12.453",
+         "upperLimit": "-6.053",
+         "value": "-9.253"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "58"
+      },
+      {
+       "groupId": "OG001",
+       "value": "58"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "dispersionType": "90% Confidence Interval",
+   "groups": [
+    {
+     "description": "Placebo, pooled across both randomization sequence cohorts",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Lorundrostat, pooled across both randomization sequence cohorts",
+     "id": "OG001",
+     "title": "Lorundrostat"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline to Week 4",
+   "title": "Placebo-adjusted Change From Baseline in Automated Office Blood Pressure (AOBP) Systolic Blood Pressure (SBP) at Week 4",
+   "type": "PRIMARY",
+   "unitOfMeasure": "mmHg"
+  }
+ ]
+}

@@ -1,0 +1,1572 @@
+{
+ "aliases": [
+  "Prothena",
+  "PROTHENA CORP PUBLIC",
+  "Prothena Biosciences Ltd."
+ ],
+ "studies": [
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "NEOD001 will be administered intravenously once every 28 days. The starting dose will be 0.5 mg/kg. Dose escalation will continue until the the maximum tolerated dose is determined for single agent NEOD001. Approximately 20 additional subjects will be treated with the maximum tolerated dose.",
+       "interventionNames": [
+        "Drug: NEOD001"
+       ],
+       "label": "NEOD001",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "NEOD001"
+       ],
+       "description": "Monoclonal antibody administered by intravenous infusion every 28 days.",
+       "name": "NEOD001",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Primary Amyloidosis"
+     ],
+     "keywords": [
+      "AL amyloidosis",
+      "Primary amyloidosis"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 69,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Phase 1/2, Open Label, Dose Escalation Study of NEOD001 in Subjects With Light Chain (AL) Amyloidosis",
+     "nctId": "NCT01707264",
+     "officialTitle": "A Phase 1/2, Open Label, Dose Escalation Study of Intravenous Administration of Single Agent NEOD001 in Subjects With Light Chain (AL) Amyloidosis",
+     "orgStudyIdInfo": {
+      "id": "NEOD001-001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Prothena Biosciences Ltd."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Prothena Biosciences Ltd."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2016-08-09",
+      "type": "ACTUAL"
+     },
+     "dispFirstPostDateStruct": {
+      "date": "2017-11-22",
+      "type": "ACTUAL"
+     },
+     "dispFirstSubmitDate": "2017-11-20",
+     "dispFirstSubmitQcDate": "2017-11-20",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2018-08-28",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2018-08-24",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2016-08-09",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2013-04",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2018-08",
+     "studyFirstPostDateStruct": {
+      "date": "2012-10-16",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2012-10-11",
+     "studyFirstSubmitQcDate": "2012-10-12"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: PRX002"
+       ],
+       "label": "PRX002",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Other: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "PRX002"
+       ],
+       "name": "PRX002",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "name": "Placebo",
+       "type": "OTHER"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Parkinson's Disease"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 40,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Single Ascending Dose Study of PRX002 in Healthy Subjects",
+     "nctId": "NCT02095171",
+     "officialTitle": "A Randomized, Double-Blind, Placebo-Controlled, Single Ascending Dose Study of PRX002 Administered by Intravenous Infusion in Healthy Subjects",
+     "orgStudyIdInfo": {
+      "id": "PRX002-CL001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Prothena Biosciences Limited"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "collaborators": [
+      {
+       "class": "INDUSTRY",
+       "name": "Hoffmann-La Roche"
+      }
+     ],
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Prothena Biosciences Limited"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2015-02-10",
+      "type": "ESTIMATED"
+     },
+     "lastUpdateSubmitDate": "2015-02-09",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2014-12",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2014-03"
+     },
+     "statusVerifiedDate": "2015-02",
+     "studyFirstPostDateStruct": {
+      "date": "2014-03-24",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2014-03-14",
+     "studyFirstSubmitQcDate": "2014-03-20"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "PRX002",
+       "interventionNames": [
+        "Drug: PRX002"
+       ],
+       "label": "PRX002",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Placebo",
+       "interventionNames": [
+        "Other: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "PRX002"
+       ],
+       "name": "PRX002",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "name": "Placebo",
+       "type": "OTHER"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Parkinson's Disease"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 64,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Multiple Ascending Dose Study of PRX002 in Patients With Parkinson's Disease",
+     "nctId": "NCT02157714",
+     "officialTitle": "A Randomized, Double-Blind, Placebo-Controlled, Multiple Ascending Dose Study of PRX002 Administered By Intravenous Infusion in Patients With Parkinson's Disease",
+     "orgStudyIdInfo": {
+      "id": "PRX002-CL002"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Prothena Biosciences Limited"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "collaborators": [
+      {
+       "class": "INDUSTRY",
+       "name": "Hoffmann-La Roche"
+      }
+     ],
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Prothena Biosciences Limited"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2016-10-21",
+      "type": "ESTIMATED"
+     },
+     "lastUpdateSubmitDate": "2016-10-19",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2016-09",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2014-06"
+     },
+     "statusVerifiedDate": "2016-10",
+     "studyFirstPostDateStruct": {
+      "date": "2014-06-06",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2014-06-04",
+     "studyFirstSubmitQcDate": "2014-06-04"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "24 mg/kg (maximum dose of 2500 mg) of NEOD001 administered once every 28 days.",
+       "interventionNames": [
+        "Drug: NEOD001"
+       ],
+       "label": "NEOD001",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Placebo will be administered as a 250 mL bag of normal saline once every 28 days.",
+       "interventionNames": [
+        "Other: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "NEOD001"
+       ],
+       "description": "NEOD001, is a humanized immunoglobulin G1 monoclonal antibody, which specifically targets misfolded light chain aggregates and amyloid deposits. NEOD001 is proposed for use to target the misfolded light chain protein in subjects with AL amyloidosis.",
+       "name": "NEOD001",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Placebo",
+       "name": "Placebo",
+       "type": "OTHER"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Primary Systemic (AL) Amyloidosis"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 260,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "VITAL",
+     "briefTitle": "The VITAL Amyloidosis Study, a Global Phase 3, Efficacy and Safety Study of NEOD001 in Patients With AL Amyloidosis",
+     "nctId": "NCT02312206",
+     "officialTitle": "A Phase 3, Randomized, Multicenter, Double-Blind, Placebo-Controlled, 2-Arm, Efficacy and Safety Study of NEOD001 Plus Standard of Care Versus Placebo Plus Standard of Care in Subjects With Light Chain (AL) Amyloidosis",
+     "orgStudyIdInfo": {
+      "id": "NEOD001-CL002"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Prothena Biosciences Ltd."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Prothena Biosciences Ltd."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2018-05",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2023-11-14",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2023-10-31",
+     "overallStatus": "TERMINATED",
+     "primaryCompletionDateStruct": {
+      "date": "2018-05",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2019-05-29",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2019-05-03",
+     "resultsFirstSubmitQcDate": "2019-05-03",
+     "startDateStruct": {
+      "date": "2015-02"
+     },
+     "statusVerifiedDate": "2023-10",
+     "studyFirstPostDateStruct": {
+      "date": "2014-12-09",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2014-12-02",
+     "studyFirstSubmitQcDate": "2014-12-05",
+     "whyStopped": "The VITAL study was terminated due to futility analysis"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: PRX003"
+       ],
+       "label": "PRX003",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Other: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "PRX003"
+       ],
+       "name": "PRX003",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "name": "Placebo",
+       "type": "OTHER"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Psoriasis"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 40,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Single Ascending Dose Study of PRX003 in Healthy Subjects",
+     "nctId": "NCT02458677",
+     "officialTitle": "A Randomized, Double-Blind, Placebo-Controlled, Single Ascending Dose Study of PRX003 Administered by Intravenous Infusion in Healthy Subjects",
+     "orgStudyIdInfo": {
+      "id": "PRX003-CL001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Prothena Biosciences Limited"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Prothena Biosciences Limited"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2016-02",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2016-03-16",
+      "type": "ESTIMATED"
+     },
+     "lastUpdateSubmitDate": "2016-03-14",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2016-02",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2015-05"
+     },
+     "statusVerifiedDate": "2016-03",
+     "studyFirstPostDateStruct": {
+      "date": "2015-06-01",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2015-05-28",
+     "studyFirstSubmitQcDate": "2015-05-29"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "interventions": [
+      {
+       "name": "non-interventional",
+       "type": "OTHER"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "AL Amyloidosis",
+      "Amyloidosis"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "observationalModel": "ECOLOGIC_OR_COMMUNITY",
+      "timePerspective": "PROSPECTIVE"
+     },
+     "enrollmentInfo": {
+      "count": 343,
+      "type": "ACTUAL"
+     },
+     "patientRegistry": true,
+     "studyType": "OBSERVATIONAL",
+     "targetDuration": "12 Months"
+    },
+    "identificationModule": {
+     "briefTitle": "Quality of Life (QOL) Registry for Patients With AL Amyloidosis",
+     "nctId": "NCT02574676",
+     "officialTitle": "Prospective Observational Study Measuring the Short-Form36 ( SF-36v2) and Other QOL Tools in an AL Amyloidosis Population",
+     "orgStudyIdInfo": {
+      "id": "CO-083252"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Prothena Biosciences Ltd."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "collaborators": [
+      {
+       "class": "OTHER",
+       "name": "Amyloidosis Research Consortium"
+      },
+      {
+       "class": "OTHER",
+       "name": "Amyloidosis Support Groups"
+      },
+      {
+       "class": "OTHER",
+       "name": "Amyloidosis Foundation"
+      },
+      {
+       "class": "UNKNOWN",
+       "name": "Quality Metrics"
+      }
+     ],
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Prothena Biosciences Ltd."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2018-07",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2019-04-09",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2019-04-07",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2018-07",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2015-10"
+     },
+     "statusVerifiedDate": "2019-04",
+     "studyFirstPostDateStruct": {
+      "date": "2015-10-14",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2015-10-05",
+     "studyFirstSubmitQcDate": "2015-10-09"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Open Label Study Drug NEOD001",
+       "interventionNames": [
+        "Drug: NEOD001"
+       ],
+       "label": "Open Label",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Open Label"
+       ],
+       "description": "NEOD001",
+       "name": "NEOD001",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "AL Amyloidosis"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 34,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "OLE",
+     "briefTitle": "Open-label Extension Study of NEOD001 in Subjects With Light Chain (AL) Amyloidosis",
+     "nctId": "NCT02613182",
+     "officialTitle": "Open-label Extension Study to Evaluate the Long-term Safety and Tolerability of NEOD001 in Subjects With Light Chain (AL) Amyloidosis",
+     "orgStudyIdInfo": {
+      "id": "NEOD001-OLE001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Prothena Biosciences Ltd."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Prothena Biosciences Ltd."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2018-05",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2019-05-16",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2019-05-14",
+     "overallStatus": "TERMINATED",
+     "primaryCompletionDateStruct": {
+      "date": "2018-05",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2019-05-16",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2018-10-17",
+     "resultsFirstSubmitQcDate": "2019-05-14",
+     "startDateStruct": {
+      "date": "2016-02"
+     },
+     "statusVerifiedDate": "2019-05",
+     "studyFirstPostDateStruct": {
+      "date": "2015-11-24",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2015-11-18",
+     "studyFirstSubmitQcDate": "2015-11-20",
+     "whyStopped": "NEOD001 program terminated due to lack of clinical benefit"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: PRX003"
+       ],
+       "label": "PRX003",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Other: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "PRX003"
+       ],
+       "name": "PRX003",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "name": "Placebo",
+       "type": "OTHER"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Psoriasis"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 48,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Multiple Ascending Dose Study of PRX003 in Subjects With Psoriasis",
+     "nctId": "NCT02630901",
+     "officialTitle": "A Randomized, Double-blind, Placebo-controlled, Multiple Ascending Dose Study of PRX003 Administered by Intravenous Infusion in Subjects With Psoriasis",
+     "orgStudyIdInfo": {
+      "id": "PRX003-102"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Prothena Biosciences Limited"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Prothena Biosciences Limited"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2018-02-28",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2018-05-04",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2018-05-03",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2018-02-28",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2016-03-17",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2016-09",
+     "studyFirstPostDateStruct": {
+      "date": "2015-12-15",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2015-12-11",
+     "studyFirstSubmitQcDate": "2015-12-14"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Study Drug given IV every 28 days at 24mg/kg",
+       "interventionNames": [
+        "Drug: NEOD001"
+       ],
+       "label": "NEOD001",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Placebo",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "NEOD001"
+       ],
+       "description": "NEOD001 is a monoclonal antibody directed at soluble and insoluble light chain aggregates",
+       "name": "NEOD001",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Saline Bag",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "AL Amyloidosis"
+     ],
+     "keywords": [
+      "amyloidosis",
+      "ntprobnp",
+      "NEOD001",
+      "Prothena",
+      "PRONTO",
+      "amyloid",
+      "plasma cell dyscrasia",
+      "immunotherapy"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 129,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "PRONTO",
+     "briefTitle": "The PRONTO Study, a Global Phase 2b Study of NEOD001 in Previously Treated Subjects With Light Chain (AL) Amyloidosis",
+     "nctId": "NCT02632786",
+     "officialTitle": "A Phase 2b, Randomized, Double-blind, Placebo-controlled Study of NEOD001 in Previously Treated Subjects With Light Chain (AL) Amyloidosis Who Have Persistent Cardiac Dysfunction",
+     "orgStudyIdInfo": {
+      "id": "NEOD001-201"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Prothena Biosciences Ltd."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Prothena Biosciences Ltd."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2018-03",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2019-04-05",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2019-04-02",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2018-03",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2019-04-05",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2018-10-03",
+     "resultsFirstSubmitQcDate": "2019-04-02",
+     "startDateStruct": {
+      "date": "2016-03"
+     },
+     "statusVerifiedDate": "2019-04",
+     "studyFirstPostDateStruct": {
+      "date": "2015-12-17",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2015-12-09",
+     "studyFirstSubmitQcDate": "2015-12-14"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Open Label Study Drug NEOD001",
+       "interventionNames": [
+        "Drug: NEOD001"
+       ],
+       "label": "Open label",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Open label"
+       ],
+       "description": "humanized monoclonal antibody",
+       "name": "NEOD001",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "AL Amyloidosis"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 80,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Study in Subjects With Light Chain (AL) Amyloidosis",
+     "nctId": "NCT03154047",
+     "officialTitle": "A Phase 2b Open-label Extension Study to Evaluate the Long-term Safety and Efficacy of NEOD001 in Subjects With Light Chain (AL) Amyloidosis Who Were Previously Enrolled in Study NEOD001-201 (PRONTO)",
+     "orgStudyIdInfo": {
+      "id": "NEOD001-OLE251"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Prothena Biosciences Ltd."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Prothena Biosciences Ltd."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2018-05-30",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2019-03-26",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2019-03-12",
+     "overallStatus": "TERMINATED",
+     "primaryCompletionDateStruct": {
+      "date": "2018-05-30",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2018-12-12",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2018-11-15",
+     "resultsFirstSubmitQcDate": "2018-11-15",
+     "startDateStruct": {
+      "date": "2017-06-14",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2019-03",
+     "studyFirstPostDateStruct": {
+      "date": "2017-05-15",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2017-04-28",
+     "studyFirstSubmitQcDate": "2017-05-12",
+     "whyStopped": "NEOD001 program terminated due to lack of clinical benefit"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Dose escalation in up to 6 dose levels\n\nExpansion of previously studied cohort(s) from Dose Escalation\n\nExtended dosing at RP2D",
+       "interventionNames": [
+        "Drug: PRX004"
+       ],
+       "label": "PRX004",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "PRX004"
+       ],
+       "description": "PRX004 (0.1, 0.3, 1, 3, 10, and 30 mg/kg) IV every 28 days\n\nPRX004 IV every 28 days at RP2D(s)\n\nPRX004 IV every 28 days at RP2D(s)",
+       "name": "PRX004",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Amyloidogenic Transthyretin (ATTR) Amyloidosis"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "interventionModelDescription": "Dose Escalation Study",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 21,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Study of PRX004 in Subjects With Amyloid Transthyretin (ATTR) Amyloidosis",
+     "nctId": "NCT03336580",
+     "officialTitle": "A Phase 1, Open-label, Dose Escalation Study of Intravenous PRX004 in Subjects With Amyloid Transthyretin (ATTR) Amyloidosis",
+     "orgStudyIdInfo": {
+      "id": "PRX004-101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Prothena Biosciences Limited"
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "2017-003521-15",
+       "type": "EUDRACT_NUMBER"
+      },
+      {
+       "id": "2017",
+       "link": "https://reporter.nih.gov/quickSearch/2017",
+       "type": "NIH"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Prothena Biosciences Limited"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2020-07-23",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2020-08-20",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2020-08-18",
+     "overallStatus": "TERMINATED",
+     "primaryCompletionDateStruct": {
+      "date": "2020-07-23",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2018-04-05",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2020-08",
+     "studyFirstPostDateStruct": {
+      "date": "2017-11-08",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2017-10-23",
+     "studyFirstSubmitQcDate": "2017-11-03",
+     "whyStopped": "Because of the impact of COVID-19 pandemic"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Intravenous administration of 24 mg/kg birtamimab every 28 days.\n\nDrug: Standard of Care Chemotherapy. Bortezomib-containing chemotherapy regimen (e.g. cyclophosphamide, bortezomib, and dexamethasone (CyBorD)) according to the institutional standard of care.\n\nThe initiation of daratumumab treatment at randomization is allowed at the discretion of the Investigator; initiation at any other time during the Double-blind Phase is prohibited. For subjects who did not initiate daratumumab at randomization during the Double-blind Phase, daratumumab may be initiated at any time during the OLE Phase at the Investigator's discretion.",
+       "interventionNames": [
+        "Drug: Birtamimab",
+        "Drug: Standard of Care Chemotherapy"
+       ],
+       "label": "Birtamimab plus Standard of Care Chemotherapy- For Double-blind Phase and OLE Phase of study",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Intravenous 0.9% Saline administration as a placebo every 28 days.\n\nDrug: Standard of Care Chemotherapy. Bortezomib-containing chemotherapy regimen (e.g. cyclophosphamide, bortezomib, and dexamethasone (CyBorD)) according to the institutional standard of care. Initiation of daratumumab at randomization allowed at the discretion of the investigator.",
+       "interventionNames": [
+        "Other: Placebo",
+        "Drug: Standard of Care Chemotherapy"
+       ],
+       "label": "Placebo plus Standard of Care Chemotherapy- For Double-blind Phase of study",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Birtamimab plus Standard of Care Chemotherapy- For Double-blind Phase and OLE Phase of study"
+       ],
+       "description": "Intravenous administration of 24 mg/kg birtamimab every 28 days",
+       "name": "Birtamimab",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo plus Standard of Care Chemotherapy- For Double-blind Phase of study"
+       ],
+       "description": "Intravenous 0.9% Saline administration as a placebo every 28 days",
+       "name": "Placebo",
+       "type": "OTHER"
+      },
+      {
+       "armGroupLabels": [
+        "Birtamimab plus Standard of Care Chemotherapy- For Double-blind Phase and OLE Phase of study",
+        "Placebo plus Standard of Care Chemotherapy- For Double-blind Phase of study"
+       ],
+       "description": "Bortezomib-containing chemotherapy regimen (e.g. cyclophosphamide, bortezomib, and dexamethasone (CyBorD)) according to the institutional standard of care",
+       "name": "Standard of Care Chemotherapy",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Light Chain (AL) Amyloidosis"
+     ],
+     "keywords": [
+      "Light Chain (AL) Amyloidosis",
+      "Mayo Stage IV",
+      "birtamimab"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 208,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "AFFIRM-AL",
+     "briefTitle": "A Study to Evaluate the Efficacy and Safety of Birtamimab in Mayo Stage IV Patients With AL Amyloidosis",
+     "nctId": "NCT04973137",
+     "officialTitle": "A Phase 3, Randomized, Multicenter, Double-Blind, Placebo-Controlled, Efficacy and Safety Study of Birtamimab Plus Standard of Care vs. Placebo Plus Standard of Care in Mayo Stage IV Subjects With Light Chain (AL) Amyloidosis",
+     "orgStudyIdInfo": {
+      "id": "NEOD001-301"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Prothena Biosciences Ltd."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Prothena Biosciences Ltd."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2025-06-20",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-12-16",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-11-20",
+     "overallStatus": "TERMINATED",
+     "primaryCompletionDateStruct": {
+      "date": "2025-04-02",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2025-12-16",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2025-10-09",
+     "resultsFirstSubmitQcDate": "2025-11-20",
+     "startDateStruct": {
+      "date": "2021-08-30",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-07",
+     "studyFirstPostDateStruct": {
+      "date": "2021-07-22",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2021-07-01",
+     "studyFirstSubmitQcDate": "2021-07-21",
+     "whyStopped": "The AFFIRM-AL clinical trial did not meet its primary endpoint."
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Specified dose on specified days",
+       "interventionNames": [
+        "Drug: PRX019",
+        "Drug: Placebo"
+       ],
+       "label": "PRX019, single dose",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Specified dose on specified days",
+       "interventionNames": [
+        "Drug: PRX019",
+        "Drug: Placebo"
+       ],
+       "label": "PRX019, multiple dose",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "PRX019, multiple dose",
+        "PRX019, single dose"
+       ],
+       "description": "Specified dose on specified days",
+       "name": "PRX019",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "PRX019, multiple dose",
+        "PRX019, single dose"
+       ],
+       "description": "Placebo",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Healthy Participants Study"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 50,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Phase 1 Study of PRX019 in Healthy Adult Volunteers",
+     "nctId": "NCT06699680",
+     "officialTitle": "A Phase 1, Randomized, Double-Blind, Sponsor-Open, Placebo Controlled, First In Human Study to Evaluate the Safety, Tolerability, Immunogenicity, and Pharmacokinetics of Single Ascending and Multiple Doses of PRX019 in Healthy Adults",
+     "orgStudyIdInfo": {
+      "id": "PRX019-101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Prothena Biosciences Ltd."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Prothena Biosciences Ltd."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2026-01-16",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-05-14",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-05-11",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2026-01-16",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2024-11-08",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-05",
+     "studyFirstPostDateStruct": {
+      "date": "2024-11-21",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2024-10-28",
+     "studyFirstSubmitQcDate": "2024-11-19"
+    }
+   }
+  }
+ ]
+}

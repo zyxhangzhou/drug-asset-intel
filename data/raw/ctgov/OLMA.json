@@ -1,0 +1,995 @@
+{
+ "aliases": [
+  "Olema Pharmaceuticals"
+ ],
+ "studies": [
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Phase I Part A will evaluate the safety and pharmacokinetics (PK)of a range of OP-1250 doses to identify the maximum tolerated dose (MTD) and/or recommended Phase II dose (RP2D).",
+       "interventionNames": [
+        "Drug: OP-1250"
+       ],
+       "label": "OP-1250 Phase I Part A (Dose Escalation)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Phase I Part B will evaluate the safety and PK of OP-1250 to confirm the RP2D dose.",
+       "interventionNames": [
+        "Drug: OP-1250"
+       ],
+       "label": "OP-1250 Phase I Part B (Dose Expansion)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "This portion of the study further explores the clinical activity, safety, and PK of OP-1250 monotherapy at the RP2D and will estimate preliminary anti-tumor efficacy in 3 cohorts.\n\nCohort A will enroll subjects with measurable disease without evidence of Central Nervous System (CNS) metastases; Cohort B will enroll subjects with non-measurable (evaluable) disease without evidence of CNS metastases; and Cohort C will enroll subjects with evaluable disease (measurable and non-measurable) with CNS metastases.",
+       "interventionNames": [
+        "Drug: OP-1250"
+       ],
+       "label": "OP-1250 Phase II",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "OP-1250 Phase I Part A (Dose Escalation)",
+        "OP-1250 Phase I Part B (Dose Expansion)",
+        "OP-1250 Phase II"
+       ],
+       "description": "Complete Estrogen Receptor ANtagonist (CERAN)",
+       "name": "OP-1250",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Hormone Receptor Positive Breast Carcinoma",
+      "HER2-negative Breast Cancer"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 153,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Dose Escalation/Expansion Study of Oral OP-1250 in Subjects With Advanced and/or Metastatic HR+, HER2- Breast Cancer",
+     "nctId": "NCT04505826",
+     "officialTitle": "A Phase I Dose Escalation and Dose Expansion and Phase II Monotherapy Open-label, First-in-Human, Multicenter Study of OP-1250 in Adult Subjects With Advanced and/or Metastatic Hormone Receptor (HR)-Positive, HER2-negative Breast Cancer",
+     "orgStudyIdInfo": {
+      "id": "OP-1250-001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Olema Pharmaceuticals, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Olema Pharmaceuticals, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2024-07-30",
+      "type": "ACTUAL"
+     },
+     "dispFirstPostDateStruct": {
+      "date": "2026-05-11",
+      "type": "ACTUAL"
+     },
+     "dispFirstSubmitDate": "2025-07-30",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-05-11",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-04-17",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2024-07-30",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2026-05-11",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2025-10-01",
+     "resultsFirstSubmitQcDate": "2026-04-17",
+     "startDateStruct": {
+      "date": "2020-08-13",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-04",
+     "studyFirstPostDateStruct": {
+      "date": "2020-08-10",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2020-07-21",
+     "studyFirstSubmitQcDate": "2020-08-06"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "This portion of the study will evaluate the safety and pharmacology of a range of OP-1250 doses administered daily with Palbociclib in subjects with advanced and/or metastatic hormone receptor (HR)-positive, HER2-negative breast cancer",
+       "interventionNames": [
+        "Drug: Palazestrant",
+        "Drug: Palbociclib"
+       ],
+       "label": "Dose Escalation",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "This portion of the study further explores the clinical activity, safety and pharmacology of OP-1250 in combination with Palbociclib and estimates preliminary data of anti-tumor efficacy",
+       "interventionNames": [
+        "Drug: Palazestrant",
+        "Drug: Palbociclib"
+       ],
+       "label": "Dose Expansion",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Dose Escalation",
+        "Dose Expansion"
+       ],
+       "description": "Complete Estrogen Receptor Antagonist",
+       "name": "Palazestrant",
+       "otherNames": [
+        "OP-1250"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Dose Escalation",
+        "Dose Expansion"
+       ],
+       "description": "Palbociclib is an approved CDK 4/6 Inhibitor drug",
+       "name": "Palbociclib",
+       "otherNames": [
+        "Ibrance®️"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Breast Cancer"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 60,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Phase 1 Study of Oral OP-1250 in Combination With Palbociclib in HR+/HER2- Breast Cancer Patients",
+     "nctId": "NCT05266105",
+     "officialTitle": "A Phase 1 Dose Escalation and Expansion Open-label, Multicenter, Study of OP-1250 in Combination With the CDK4/6 Inhibitor Palbociclib in Adult Subjects With Advanced or Metastatic HR-positive, HER2-negative Breast Cancer",
+     "orgStudyIdInfo": {
+      "id": "OP-1250-002"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Olema Pharmaceuticals, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "collaborators": [
+      {
+       "class": "INDUSTRY",
+       "name": "Pfizer"
+      }
+     ],
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Olema Pharmaceuticals, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2026-03",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-11-24",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-11-19",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2026-03",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2021-12-10",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-11",
+     "studyFirstPostDateStruct": {
+      "date": "2022-03-04",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2022-02-11",
+     "studyFirstSubmitQcDate": "2022-02-23"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Treatment Group 1: Palazestrant in combination with ribociclib (KISQALI®, Novartis Pharmaceuticals Corporation).",
+       "interventionNames": [
+        "Drug: Palazestrant",
+        "Drug: Ribociclib"
+       ],
+       "label": "Palazestrant with Ribociclib",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Treatment Group 2: Palazestrant in combination with alpelisib (PIQRAY®, Novartis Pharmaceuticals Corporation)",
+       "interventionNames": [
+        "Drug: Palazestrant",
+        "Drug: Alpelisib"
+       ],
+       "label": "Palazestrant with Alpelisib",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Treatment Group 3: Palazestrant in combination with everolimus",
+       "interventionNames": [
+        "Drug: Palazestrant",
+        "Drug: Everolimus"
+       ],
+       "label": "Palazestrant with Everolimus",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Treatment Group 4: Palazestrant in combination with atirmociclib",
+       "interventionNames": [
+        "Drug: Palazestrant",
+        "Drug: Atirmociclib"
+       ],
+       "label": "Palazestrant with Atirmociclib",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Palazestrant with Alpelisib",
+        "Palazestrant with Atirmociclib",
+        "Palazestrant with Everolimus",
+        "Palazestrant with Ribociclib"
+       ],
+       "description": "Complete estrogen receptor antagonist (CERAN)",
+       "name": "Palazestrant",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Palazestrant with Ribociclib"
+       ],
+       "description": "All subjects in Treatment Group 1 will receive palazestrant in combination with ribociclib.",
+       "name": "Ribociclib",
+       "otherNames": [
+        "KISQALI®",
+        "CDK4/6 inhibitor"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Palazestrant with Alpelisib"
+       ],
+       "description": "All subjects in Treatment Group 2 will receive palazestrant in combination with alpelisib.",
+       "name": "Alpelisib",
+       "otherNames": [
+        "PIQRAY®",
+        "PI3K Inhibitor"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Palazestrant with Everolimus"
+       ],
+       "description": "All subjects in Treatment Group 3 will receive palazestrant in combination with everolimus.",
+       "name": "Everolimus",
+       "otherNames": [
+        "mTOR inhibitor"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Palazestrant with Atirmociclib"
+       ],
+       "description": "All subjects in Treatment Group 4 will receive palazestrant in combination with atirmociclib.",
+       "name": "Atirmociclib",
+       "otherNames": [
+        "CDK4i"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Metastatic Breast Cancer",
+      "ER-positive Breast Cancer",
+      "HER2-negative Breast Cancer",
+      "Breast Cancer",
+      "Locally Advanced Breast Cancer"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "interventionModelDescription": "Treatment Group 1: Palazestrant in combination with ribociclib\n\nTreatment Group 2: Palazestrant in combination with alpelisib\n\nTreatment Group 3: Palazestrant in combination with everolimus\n\nTreatment Group 4: Palazestrant in combination with atirmociclib",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 190,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Phase 1b Study of OP-1250 (Palazestrant) in Combination With Ribociclib, Alpelisib, Everolimus, or Atirmociclib in ER+, HER2- Breast Cancer",
+     "nctId": "NCT05508906",
+     "officialTitle": "A Phase 1b Open-Label Multicenter Study of OP-1250 (Palazestrant) in Combination With the CDK4/6 Inhibitor Ribociclib, With the PI3K Inhibitor Alpelisib, With the mTOR Inhibitor Everolimus, or With CDK4 Inhibitor Atirmociclib in Adult Subjects With Advanced and/or Metastatic ER Positive, HER2 Negative Breast Cancer",
+     "orgStudyIdInfo": {
+      "id": "OP-1250-003"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Olema Pharmaceuticals, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "collaborators": [
+      {
+       "class": "INDUSTRY",
+       "name": "Novartis"
+      },
+      {
+       "class": "INDUSTRY",
+       "name": "Pfizer"
+      }
+     ],
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Olema Pharmaceuticals, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2028-01-31",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-09-15",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-09-11",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-12-31",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2022-08-31",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-09",
+     "studyFirstPostDateStruct": {
+      "date": "2022-08-19",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2022-08-16",
+     "studyFirstSubmitQcDate": "2022-08-18"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants will receive Palazestrant",
+       "interventionNames": [
+        "Drug: Palazestrant"
+       ],
+       "label": "Palazestrant (OP-1250)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants will receive Investigator's choice of one of the Standard of Care drugs (fulvestrant, anastrozole, letrozole, or exemestane)",
+       "interventionNames": [
+        "Drug: Fulvestrant",
+        "Drug: Anastrozole",
+        "Drug: Letrozole",
+        "Drug: Exemestane"
+       ],
+       "label": "Standard of Care Endocrine Therapy",
+       "type": "ACTIVE_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Palazestrant (OP-1250)"
+       ],
+       "description": "Participants will be treated with palazestrant once daily on a 4 week (28 day) cycle. Doses evaluated in the dose-selection part will be 120 mg once daily and 90 mg once daily.",
+       "name": "Palazestrant",
+       "otherNames": [
+        "OP-1250"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Standard of Care Endocrine Therapy"
+       ],
+       "description": "Participants will be treated with fulvestrant on C1D1, C1D15, and then on Day 1 of every subsequent 4 week (28 day) cycle",
+       "name": "Fulvestrant",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Standard of Care Endocrine Therapy"
+       ],
+       "description": "Participants will be treated with anastrozole once daily on a 4 week (28 day) cycle",
+       "name": "Anastrozole",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Standard of Care Endocrine Therapy"
+       ],
+       "description": "Participants will be treated with letrozole once daily on a 4 week (28 day) cycle",
+       "name": "Letrozole",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Standard of Care Endocrine Therapy"
+       ],
+       "description": "Participants will be treated with exemestane once daily on a 4 week (28 day) cycle",
+       "name": "Exemestane",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Breast Cancer",
+      "Advanced Breast Cancer",
+      "Metastatic Breast Cancer",
+      "ER Positive Breast Cancer",
+      "HER2 Negative Breast Carcinoma"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 510,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "OPERA-01",
+     "briefTitle": "OP-1250 (Palazestrant) vs. Standard of Care for the Treatment of ER+/HER2- Advanced Breast Cancer",
+     "nctId": "NCT06016738",
+     "officialTitle": "A Phase 3 Randomized, Open-Label Study of OP-1250 Monotherapy vs Standard of Care for the Treatment of ER+, HER2- Advanced or Metastatic Breast Cancer Following Endocrine and CDK 4/6 Inhibitor Therapy (OPERA-01)",
+     "orgStudyIdInfo": {
+      "id": "OP-1250-301"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Olema Pharmaceuticals, Inc."
+     },
+     "secondaryIdInfos": [
+      {
+       "domain": "Olema Pharmaceuticals, Inc.",
+       "id": "OPERA-01",
+       "type": "OTHER"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Olema Pharmaceuticals, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2028-02-29",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-08-13",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-08-11",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2026-10-31",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2023-11-16",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-08",
+     "studyFirstPostDateStruct": {
+      "date": "2023-08-30",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2023-08-17",
+     "studyFirstSubmitQcDate": "2023-08-29"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: OP-3136"
+       ],
+       "label": "Part 1A Dose Escalation monotherapy",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: OP-3136",
+        "Drug: Fulvestrant"
+       ],
+       "label": "Part 1B Dose Escalation in combination with fulvestrant",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: OP-3136",
+        "Drug: Palazestrant"
+       ],
+       "label": "Part 1C Dose Escalation in combination with palazestrant",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: OP-3136"
+       ],
+       "label": "Part 2A Dose Expansion monotherapy - mBC",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: OP-3136"
+       ],
+       "label": "Part 2A Dose Expansion monotherapy - mCRPC",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: OP-3136",
+        "Drug: Fulvestrant",
+        "Drug: Palazestrant"
+       ],
+       "label": "Part 2B Dose Expansion in combination with fulvestrant OR palazestrant-mBC @ RDE 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: OP-3136",
+        "Drug: Fulvestrant",
+        "Drug: Palazestrant"
+       ],
+       "label": "Part 2B Dose Expansion in combination with fulvestrant OR palazestrant-mBC @ RDE 2",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Part 1A Dose Escalation monotherapy",
+        "Part 1B Dose Escalation in combination with fulvestrant",
+        "Part 1C Dose Escalation in combination with palazestrant",
+        "Part 2A Dose Expansion monotherapy - mBC",
+        "Part 2A Dose Expansion monotherapy - mCRPC",
+        "Part 2B Dose Expansion in combination with fulvestrant OR palazestrant-mBC @ RDE 1",
+        "Part 2B Dose Expansion in combination with fulvestrant OR palazestrant-mBC @ RDE 2"
+       ],
+       "description": "Selective inhibitor of HAT enzymes KAT6A and KAT6B",
+       "name": "OP-3136",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Part 1B Dose Escalation in combination with fulvestrant",
+        "Part 2B Dose Expansion in combination with fulvestrant OR palazestrant-mBC @ RDE 1",
+        "Part 2B Dose Expansion in combination with fulvestrant OR palazestrant-mBC @ RDE 2"
+       ],
+       "description": "Selective estrogen receptor degrader (SERD)",
+       "name": "Fulvestrant",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Part 1C Dose Escalation in combination with palazestrant",
+        "Part 2B Dose Expansion in combination with fulvestrant OR palazestrant-mBC @ RDE 1",
+        "Part 2B Dose Expansion in combination with fulvestrant OR palazestrant-mBC @ RDE 2"
+       ],
+       "description": "Complete estrogen receptor antagonist (CERAN)",
+       "name": "Palazestrant",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Advanced or Metastatic ER+ HER2- Breast Cancer (mBC)",
+      "Advanced or Metastatic Non-Small Cell Lung Cancer (NSCLC)",
+      "Advanced or Metastatic Castration-Resistant Prostate Cancer (mCRPC)",
+      "Metastatic Breast Cancer",
+      "Fulvestrant",
+      "Palazestrant"
+     ],
+     "keywords": [
+      "KAT6 Inhibitor",
+      "Histone Acetyltransferase (HAT) Inhibitor",
+      "Epigenetic"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 180,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Phase 1 Study of OP-3136 in Advanced or Metastatic Solid Tumors",
+     "nctId": "NCT06784193",
+     "officialTitle": "A Phase 1 First-in-Human, Open-Label, Multicenter Study of OP-3136 in Adult Participants With Advanced or Metastatic Solid Tumors",
+     "orgStudyIdInfo": {
+      "id": "OP-3136-101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Olema Pharmaceuticals, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Olema Pharmaceuticals, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2027-08-30",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-05",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-01",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-05-30",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2024-12-16",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-10",
+     "studyFirstPostDateStruct": {
+      "date": "2025-01-20",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-01-14",
+     "studyFirstSubmitQcDate": "2025-01-14"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants will receive palazestrant, ribociclib and letrozole-matching placebo",
+       "interventionNames": [
+        "Drug: Palazestrant",
+        "Drug: Letrozole-matching placebo",
+        "Drug: Ribociclib"
+       ],
+       "label": "Palazestrant",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants will receive letrozole, ribociclib and palazestrant-matching placebo",
+       "interventionNames": [
+        "Drug: Ribociclib",
+        "Drug: Letrozole",
+        "Drug: Palazestrant matching-placebo"
+       ],
+       "label": "Letrozole",
+       "type": "ACTIVE_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Palazestrant"
+       ],
+       "description": "Participants will be treated with palazestrant 90 mg once daily on a 4-week (28-day) cycle.",
+       "name": "Palazestrant",
+       "otherNames": [
+        "OP-1250"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Palazestrant"
+       ],
+       "description": "Participants will be treated with letrozole-matching placebo once daily on a 4-week (28 day) cycle",
+       "name": "Letrozole-matching placebo",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Letrozole",
+        "Palazestrant"
+       ],
+       "description": "Participants will be treated with ribociclib 600 mg once daily on Days 1-21 of a 4-week (28 day) cycle.",
+       "name": "Ribociclib",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Letrozole"
+       ],
+       "description": "Participants will be treated with letrozole 2.5 mg once daily on a 4-week (28-day) cycle",
+       "name": "Letrozole",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Letrozole"
+       ],
+       "description": "Participants will be treated with palazestrant-matching placebo once daily on a 4-week (28-day) cycle",
+       "name": "Palazestrant matching-placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Breast Cancer",
+      "Locally Advanced Breast Cancer",
+      "Metastatic Breast Cancer",
+      "ER Positive Breast Cancer",
+      "HER2 Negative Breast Carcinoma"
+     ],
+     "keywords": [
+      "Randomized",
+      "Multicenter",
+      "Double-Blind",
+      "Active-Controlled",
+      "Phase 3",
+      "Palazestrant",
+      "Complete Estrogen Receptor Antagonist (CERAN)",
+      "Selective Estrogen Receptor Degrader (SERD)",
+      "Ribociclib",
+      "CDK4/6i",
+      "Letrozole",
+      "Aromatase inhibitors",
+      "Antineoplastic agents"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "TRIPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 1000,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "OPERA-02",
+     "briefTitle": "Palazestrant in Combination With Ribociclib for the First-line Treatment of ER+/HER2- Advanced Breast Cancer",
+     "nctId": "NCT07085767",
+     "officialTitle": "A Phase 3 Randomized, Double-Blind, Active-Controlled Study of Palazestrant With Ribociclib Versus Letrozole With Ribociclib for the First-Line Treatment of ER+, HER2- Advanced Breast Cancer (OPERA-02)",
+     "orgStudyIdInfo": {
+      "id": "OP-1250-302"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Olema Pharmaceuticals, Inc."
+     },
+     "secondaryIdInfos": [
+      {
+       "domain": "Olema Pharmaceuticals, Inc.",
+       "id": "OPERA-02",
+       "type": "OTHER"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "collaborators": [
+      {
+       "class": "INDUSTRY",
+       "name": "Novartis Pharmaceuticals"
+      }
+     ],
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Olema Pharmaceuticals, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2032-01",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-09-23",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-09-19",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2028-12",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2025-11-03",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-09",
+     "studyFirstPostDateStruct": {
+      "date": "2025-07-25",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-07-08",
+     "studyFirstSubmitQcDate": "2025-07-18"
+    }
+   }
+  }
+ ]
+}

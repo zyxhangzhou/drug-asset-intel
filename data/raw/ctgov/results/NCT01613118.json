@@ -1,0 +1,125 @@
+{
+ "nctId": "NCT01613118",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "-52.7",
+         "upperLimit": "-35.7",
+         "value": "-44.8"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "-34.6",
+         "upperLimit": "1.7",
+         "value": "-18.5"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "-56.3",
+         "upperLimit": "-36.9",
+         "value": "-47.4"
+        },
+        {
+         "groupId": "OG003",
+         "lowerLimit": "-49.3",
+         "upperLimit": "-11.6",
+         "value": "-33.1"
+        },
+        {
+         "groupId": "OG004",
+         "lowerLimit": "-64.3",
+         "upperLimit": "-37.2",
+         "value": "-52.7"
+        },
+        {
+         "groupId": "OG005",
+         "lowerLimit": "-54.4",
+         "upperLimit": "-24.4",
+         "value": "-41.3"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "64"
+      },
+      {
+       "groupId": "OG001",
+       "value": "32"
+      },
+      {
+       "groupId": "OG002",
+       "value": "51"
+      },
+      {
+       "groupId": "OG003",
+       "value": "13"
+      },
+      {
+       "groupId": "OG004",
+       "value": "21"
+      },
+      {
+       "groupId": "OG005",
+       "value": "30"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Primary efficacy objective is to determine the change in UP/C in FSGS patients receiving RE-021 (Sparsentan) from baseline to 8 weeks over a range of dose levels compared to treatment with irbesartan as active control.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "RE-021 (Sparsentan) administered as a single oral morning dose. In this ARM the RE-021 (Sparsentan) dose was 200, 400, or 800mg.\n\nPatients at \\</= 50kg received half of the RE-021 (Sparsentan) dose for the 8 week duration.\n\nRE-021 (Sparsentan): Oral, once-daily",
+     "id": "OG000",
+     "title": "RE-021 (Sparsentan) 200, 400, 800 mg Pooled"
+    },
+    {
+     "description": "The control irbesartan was administered as a single oral dose of 150mg for the first week before being escalated to 300mg for the remaining 7 weeks.\n\nPatients at \\</= 50kg received 150mg irbesartan for the 8 week duration.\n\nIrbesartan: Oral, once-daily",
+     "id": "OG001",
+     "title": "Irbesartan 300 mg Pooled"
+    },
+    {
+     "description": "RE-021 (Sparsentan) administered as a single oral morning dose. In this ARM the RE-021 (Sparsentan) dose was 400 or 800mg.\n\nPatients at \\</= 50kg received half of the RE-021 (Sparsentan) dose for the 8 week duration.\n\nRE-021 (Sparsentan): Oral, once-daily",
+     "id": "OG002",
+     "title": "RE-021 (Sparsentan) 400 and 800 mg Pooled"
+    },
+    {
+     "description": "RE-021 (Sparsentan) administered as a single oral morning dose. In this group, the RE-021 (Sparsentan) dose was 200mg.\n\nPatients at \\</= 50kg received half of the RE-021 (Sparsentan) dose for the 8 week duration.\n\nRE-021 (Sparsentan): Oral, once-daily",
+     "id": "OG003",
+     "title": "RE-021 (Sparsentan) 200mg"
+    },
+    {
+     "description": "RE-021 (Sparsentan) administered as a single oral morning dose. In this group, the RE-021 (Sparsentan) dose was 400mg.\n\nPatients at \\</= 50kg received half of the RE-021 (Sparsentan) dose for the 8 week duration.\n\nRE-021 (Sparsentan): Oral, once-daily",
+     "id": "OG004",
+     "title": "RE-021 (Sparsentan) 400mg"
+    },
+    {
+     "description": "RE-021 (Sparsentan) administered as a single oral morning dose. In this group, the RE-021 (Sparsentan) dose was 800mg.\n\nPatients at \\</= 50kg received half of the RE-021 (Sparsentan) dose for the 8 week duration.\n\nRE-021 (Sparsentan): Oral, once-daily",
+     "id": "OG005",
+     "title": "RE-021 (Sparsentan) 800mg"
+    }
+   ],
+   "paramType": "GEOMETRIC_LEAST_SQUARES_MEAN",
+   "populationDescription": "Efficacy evaluable set",
+   "reportingStatus": "POSTED",
+   "timeFrame": "8 weeks",
+   "title": "Percent Change in Urine Protein/Creatinine (Up/C)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percent change"
+  }
+ ]
+}

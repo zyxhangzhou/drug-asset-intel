@@ -1,0 +1,84 @@
+{
+ "nctId": "NCT02139306",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-1.2881",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "2.4813",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "0.9570",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.5336",
+     "paramType": "Mean Difference (Net)",
+     "paramValue": "0.597",
+     "statisticalMethod": "Mixed-model, repeated-measures"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "-2.7735",
+         "upperLimit": "-0.0180",
+         "value": "-1.396"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "-3.3271",
+         "upperLimit": "-0.6576",
+         "value": "-1.992"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "138"
+      },
+      {
+       "groupId": "OG001",
+       "value": "136"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The FEV1 is the volume of air forcibly exhaled in one second and is measured using forced expiratory air spirometry. Change in ppFEV1 at Week 48 was defined as the average between the change from baseline at Week 40 and that at Week 48. Baseline for ppFEV1 was defined as an average of ppFEV1 at Screening (Weeks -4 to -1) and Baseline (Day 1) visits.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants received ataluren as oral powder for suspension at the dosages of 10, 10, and 20-mg/kg at morning, midday and evening, respectively for 48 weeks of treatment duration or until treatment discontinuation",
+     "id": "OG000",
+     "title": "Ataluren"
+    },
+    {
+     "description": "Participants received matching placebo orally at morning, midday and evening for 48 weeks of treatment duration or until treatment discontinuation.",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "The intent-to-treat (ITT) population included all randomized participants who had FEV1 data available at Baseline and at least one post-baseline visit.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "From Baseline to Week 48",
+   "title": "Absolute Change From Baseline in Percent-predicted Forced Expiratory Volume in One Second (ppFEV1) at Week 48",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Percentage of predicted FEV1"
+  }
+ ]
+}

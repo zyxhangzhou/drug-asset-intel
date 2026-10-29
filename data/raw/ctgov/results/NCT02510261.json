@@ -1,0 +1,73 @@
+{
+ "nctId": "NCT02510261",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "49.0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "16.8"
+        },
+        {
+         "groupId": "OG002",
+         "value": "0.0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "49"
+      },
+      {
+       "groupId": "OG001",
+       "value": "137"
+      },
+      {
+       "groupId": "OG002",
+       "value": "25"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "AE is any untoward medical occurrence in a participant or clinical investigational subject administered a medicinal product and which does not necessarily have a causal relationship with this treatment.",
+   "groups": [
+    {
+     "description": "Participants who received placebo and completed parent study ALN-TTR02-004 (NCT01960348) were enrolled to receive 0.3 mg/kg patisiran IV Q3W up to 65.5 months.",
+     "id": "OG000",
+     "title": "Prior Placebo Group of Study 004"
+    },
+    {
+     "description": "Participants who received patisiran and completed parent study ALN-TTR02-004 (NCT01960348) were enrolled to receive 0.3 mg/kg patisiran IV Q3W up to 66.9 months.",
+     "id": "OG001",
+     "title": "Prior Patisiran Group of Study 004"
+    },
+    {
+     "description": "Participants who received patisiran and completed parent study ALN-TTR02-003 (NCT01961921) were enrolled to receive 0.3 mg/kg patisiran IV Q3W up to 61.4 months.",
+     "id": "OG002",
+     "title": "Prior Patisiran Group of Study 003"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Safety analysis set included all the enrolled participants who received at least 1 dose of patisiran in this study. Percentages are rounded off to the nearest decimal point.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "First dose up to 28 days after last dose of study drug (approximately 5.6 years)",
+   "title": "Percentage of Participants With Adverse Events (AEs) Leading to Study Discontinuation",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

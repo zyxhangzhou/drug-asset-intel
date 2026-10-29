@@ -1,0 +1,610 @@
+{
+ "aliases": [
+  "Perspective Therapeutics"
+ ],
+ "studies": [
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants randomized to this arm will receive imaging agent \\[203Pb\\]VMT01 and undergo SPECT/CT imaging first. Later, participants in this arm will receive \\[68Ga\\]VMT02 and undergo PET/CT imaging.",
+       "interventionNames": [
+        "Drug: [203Pb]VMT01",
+        "Drug: [68Ga]VMT02"
+       ],
+       "label": "[203Pb]VMT01 first",
+       "type": "ACTIVE_COMPARATOR"
+      },
+      {
+       "description": "Participants randomized to this arm will receive imaging agent \\[68Ga\\]VMT02 and undergo PET/CT imaging first. Later, participants in this arm will receive \\[203Pb\\]VMT01 and undergo SPECT/CT imaging.",
+       "interventionNames": [
+        "Drug: [203Pb]VMT01",
+        "Drug: [68Ga]VMT02"
+       ],
+       "label": "[68Ga]VMT02 first",
+       "type": "ACTIVE_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "[203Pb]VMT01 first",
+        "[68Ga]VMT02 first"
+       ],
+       "description": "Diagnostic imaging radiopharmaceutical; by intravenous infusion",
+       "name": "[203Pb]VMT01",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "[203Pb]VMT01 first",
+        "[68Ga]VMT02 first"
+       ],
+       "description": "Diagnostic imaging radiopharmaceutical; by intravenous infusion",
+       "name": "[68Ga]VMT02",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Melanoma (Skin)",
+      "Melanoma Stage IV",
+      "Melanoma, Uveal",
+      "Melanoma, Mucosal"
+     ],
+     "keywords": [
+      "Melanoma",
+      "Theranostic",
+      "Radiopharmaceutical",
+      "Radiotherapy",
+      "Alpha-Particle",
+      "Diagnostic",
+      "Metastatic",
+      "Single Photon Emission Computed Tomography (SPECT)",
+      "Positron Emission Tomography (PET)",
+      "Melanocortin Receptor Sub-type 1 (MC1R)",
+      "VMT01",
+      "VMT02",
+      "Pb-203",
+      "Ga-68",
+      "Cancer",
+      "Immunohistochemistry (IHC)"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "CROSSOVER",
+      "maskingInfo": {
+       "masking": "SINGLE",
+       "maskingDescription": "Archived tumor tissue will be tested for expression of the imaging target, melanocortin receptor sub-type 1 (MC1R). The qualified researcher who tests the sample, and the independent pathologist who reviews the results, will be blinded to a participant's identifying information and imaging results. Evaluators will not have access to the medical record.\n\nA pool of three qualified readers will evaluate study images (PET/CT and SPECT/CT). Images and medical information given to the readers will not include a participant's identifying information. The reader pool will not know the sequence of imaging for a participant or have access to the medical record.\n\nAn independent medical physicist will validate imaging results and measurements of radiation absorbed and excreted by the participant's body. The physicist will be blinded to participant identifiers and demographics, as well as the sequence of imaging for a participant. The physicist will not have access to the medical record.",
+       "whoMasked": [
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "DIAGNOSTIC"
+     },
+     "enrollmentInfo": {
+      "count": 7,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "TIMAR1",
+     "briefTitle": "Targeted Imaging of Melanoma for Alpha-Particle Radiotherapy",
+     "nctId": "NCT04904120",
+     "officialTitle": "A Phase 1 Cross-over Biodistribution Study of [203Pb]VMT01 for Single Photon Emission Computed Tomography (SPECT) Imaging and [68Ga]VMT02 for Positron Emission Tomography (PET) Imaging of Stage IV Metastatic Melanoma",
+     "orgStudyIdInfo": {
+      "id": "TIMAR1"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Perspective Therapeutics"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "collaborators": [
+      {
+       "class": "OTHER",
+       "name": "Mayo Clinic"
+      }
+     ],
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Perspective Therapeutics"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2022-09-20",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2023-11-07",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2023-11-04",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2022-09-20",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2021-03-05",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2022-06",
+     "studyFirstPostDateStruct": {
+      "date": "2021-05-27",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2021-05-03",
+     "studyFirstSubmitQcDate": "2021-05-21"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Dose Finding to determine OBD and potential RP2D in up to 200 patients receiving up to 4 administrations of \\[212Pb\\]VMT-α-NET approximately 8 weeks apart.\n\nA dosimetry sub-study utilizing \\[203Pb\\]VMT-α-NET is incorporated into the study.",
+       "interventionNames": [
+        "Drug: [203Pb]VMT-α-NET",
+        "Drug: [212Pb]VMT-α-NET"
+       ],
+       "label": "Dose Finding",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Dose up to 100 subjects (gastroenteropancreatic NETs, bronchial NETs, and pheochromocytoma or paraganglioma and meningioma) at RP2D for further assessment of safety and preliminary efficacy.",
+       "interventionNames": [
+        "Drug: [203Pb]VMT-α-NET",
+        "Drug: [212Pb]VMT-α-NET"
+       ],
+       "label": "Dose Expansion",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Dose Expansion",
+        "Dose Finding"
+       ],
+       "description": "\\[203Pb\\]VMT-α-NET is administered by intravenous bolus injection for single-photon emission computed tomography imaging.",
+       "name": "[203Pb]VMT-α-NET",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Dose Expansion",
+        "Dose Finding"
+       ],
+       "description": "\\[212Pb\\]VMT-α-NET is administered by intravenous infusion for treatment of SSTR2 expressing tumors.",
+       "name": "[212Pb]VMT-α-NET",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Neuroendocrine Tumors Unresectable",
+      "Neuroendocrine Tumor Metastatic",
+      "Gastroenteropancreatic Neuroendocrine Tumor",
+      "Bronchial Neuroendocrine Tumor",
+      "Paraganglioma",
+      "Pheochromocytoma",
+      "Meningioma"
+     ],
+     "keywords": [
+      "Radiopharmaceuticals",
+      "Somatostatin Receptor Type 2 (SSTR2)",
+      "Neuroendocrine Tumors",
+      "Metastatic Neuroendocrine Tumors",
+      "Pb-212",
+      "Theranostics",
+      "Alpha Particle Therapy",
+      "Radiotherapy",
+      "[212Pb]VMT-α-NET",
+      "VMT-α-NET-T01",
+      "Pb-203",
+      "Meningioma"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "interventionModelDescription": "A Phase I/IIa First-in-Human Study of \\[212Pb\\]VMT-α-NET Targeted Alpha-Particle Therapy for Advanced SSTR2 Positive Tumors",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 300,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Targeted Alpha-Particle Therapy for Advanced Somatostatin Receptor Type 2 (SSTR2) Positive Tumors",
+     "nctId": "NCT05636618",
+     "officialTitle": "A Phase I/IIa First-in-Human Study of [212Pb]VMT-α-NET Targeted Alpha-Particle Therapy for Advanced SSTR2 Positive Tumors",
+     "orgStudyIdInfo": {
+      "id": "VMT-α-NET-T101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Perspective Therapeutics"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Perspective Therapeutics"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2029-12-26",
+      "type": "ESTIMATED"
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-13",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-08",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2029-11-26",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2023-09-27",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-10",
+     "studyFirstPostDateStruct": {
+      "date": "2022-12-05",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2022-11-15",
+     "studyFirstSubmitQcDate": "2022-11-23"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Enrolled subjects will be treated with \\[212Pb\\]VMT01 to determine optimal biological dose (OBD).\n\nA dosimetry sub-set utilizing \\[203Pb\\]VMT01 has been incorporated.",
+       "interventionNames": [
+        "Drug: [203Pb]VMT01",
+        "Drug: [212Pb]VMT01"
+       ],
+       "label": "Monotherapy-Dose Finding",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Enrolled subjects will be treated with \\[212Pb\\]VMT01 in combination with nivolumab to determine OBD.\n\nA dosimetry sub-set utilizing \\[203Pb\\]VMT01 has been incorporated.",
+       "interventionNames": [
+        "Drug: [203Pb]VMT01",
+        "Drug: [212Pb]VMT01",
+        "Drug: Nivolumab"
+       ],
+       "label": "Combination Therapy-Dose Finding",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Subjects will be enrolled at previously identified recommended phase 2 dose (RP2D) for confirmation of the RP2D and regimen for the Phase 2 dose-expansion cohort.\n\nA dosimetry sub-set utilizing \\[203Pb\\]VMT01 has been incorporated.",
+       "interventionNames": [
+        "Drug: [203Pb]VMT01",
+        "Drug: [212Pb]VMT01"
+       ],
+       "label": "Monotherapy - Dose Expansion",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Subjects will be enrolled at previously identified RP2D for its confirmation and verification of regimen for the Phase 2 dose-expansion cohort.\n\nA dosimetry sub-set utilizing \\[203Pb\\]VMT01 has been incorporated.",
+       "interventionNames": [
+        "Drug: [203Pb]VMT01",
+        "Drug: [212Pb]VMT01",
+        "Drug: Nivolumab"
+       ],
+       "label": "Combination Therapy - Dose Expansion",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Combination Therapy - Dose Expansion",
+        "Combination Therapy-Dose Finding",
+        "Monotherapy - Dose Expansion",
+        "Monotherapy-Dose Finding"
+       ],
+       "description": "\\[203Pb\\]VMT01 is administered intravenous (IV) as an imaging agent for SPECT/CT",
+       "name": "[203Pb]VMT01",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Combination Therapy - Dose Expansion",
+        "Combination Therapy-Dose Finding",
+        "Monotherapy - Dose Expansion",
+        "Monotherapy-Dose Finding"
+       ],
+       "description": "Subjects with positive uptake of \\[203Pb\\]VMT01 will receive a fixed dose of \\[212Pb\\]VMT01 administered IV every 8 weeks starting at Cycle 1 Day 1.",
+       "name": "[212Pb]VMT01",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Combination Therapy - Dose Expansion",
+        "Combination Therapy-Dose Finding"
+       ],
+       "description": "For all combination-therapy cohorts, 480 mg nivolumab will be administered every 4 weeks as an IV infusion.",
+       "name": "Nivolumab",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Recurrent Melanoma (Skin)",
+      "Metastatic Melanoma",
+      "Melanoma Stage IV",
+      "Melanoma Stage III"
+     ],
+     "keywords": [
+      "Melanoma",
+      "Theranostic",
+      "Radiopharmaceutical",
+      "Radiotherapy",
+      "Alpha Particle",
+      "Melanocortin Receptor Sub-type 1 (MC1R)",
+      "VMT01-T101",
+      "Pb-203",
+      "Pb-212",
+      "Ga-68",
+      "Nivolumab"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "interventionModelDescription": "Phase I/IIa First-in-Human Study of \\[212Pb\\]VMT01 Targeted Alpha-Particle Therapy for MC1R Positive Advanced Malignant Melanoma",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 300,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "MC1R-targeted Alpha-particle Monotherapy and Combination Therapy Trial With Nivolumab in Adults With Advanced Melanoma",
+     "nctId": "NCT05655312",
+     "officialTitle": "A Phase I/IIa, First-In-Human, Multi-Center, Monotherapy and Combination-Therapy With Nivolumab, Dose-Finding and Dose-Expansion Study of [212Pb]VMT01 Melanocortin-1 Receptor-Targeted, Image-Guided Alpha-Particle Therapy in Subjects With Previously Treated Unresectable or Metastatic Melanoma",
+     "orgStudyIdInfo": {
+      "id": "VMT01-T101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Perspective Therapeutics"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Perspective Therapeutics"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2029-12-31",
+      "type": "ESTIMATED"
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-13",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-08",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-12-31",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2023-06-01",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-10",
+     "studyFirstPostDateStruct": {
+      "date": "2022-12-19",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2022-11-15",
+     "studyFirstSubmitQcDate": "2022-12-08"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "* Enrolled subjects are administered \\[203Pb\\]Pb-PSV359 (7mCi) for imaging FAP-expressing cancers.\n* Approximately Four cohorts of \\[212Pb\\]Pb-PSV359 dose levels will be explored for determining Recommended Phase 2 Dose (RP2D). Study subjects will be assigned to cohorts sequentially.",
+       "interventionNames": [
+        "Drug: [203Pb]Pb-PSV359",
+        "Drug: [212Pb]Pb-PSV359"
+       ],
+       "label": "Dose Escalation",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "* Enrolled subjects are administered \\[203Pb\\]Pb-PSV359 (7mCi) for imaging FAP-expressing cancers.\n* Enrolled subjects are administered \\[212Pb\\]Pb-PSV359 (RP2D determined previously) for treatment of FAP-expressing cancers",
+       "interventionNames": [
+        "Drug: [203Pb]Pb-PSV359",
+        "Drug: [212Pb]Pb-PSV359"
+       ],
+       "label": "Dose Expansion",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Dose Escalation",
+        "Dose Expansion"
+       ],
+       "description": "\\[203Pb\\]Pb-PSV359 is administered by intravenous bolus injection for single-photon emission computed tomography imaging.",
+       "name": "[203Pb]Pb-PSV359",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Dose Escalation",
+        "Dose Expansion"
+       ],
+       "description": "\\[212Pb\\]Pb-PSV359 is administered by intravenous infusion for treatment of FAP expressing cancers.",
+       "name": "[212Pb]Pb-PSV359",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Pancreatic Ductal Adenocarcinoma",
+      "Gastric Cancer",
+      "Esophageal Cancer",
+      "Colorectal Cancer",
+      "Ovarian Cancer",
+      "Head and Neck Cancer",
+      "Sarcoma",
+      "Mesothelioma"
+     ],
+     "keywords": [
+      "Fibroblast Activation Protein",
+      "Solid tumor malignancy",
+      "Gastric cancer",
+      "Esophageal cancer",
+      "Colorectal cancer",
+      "Ovarian cancer",
+      "Head and neck cancer",
+      "Theronostic",
+      "Radiopharmaceutical",
+      "Radiotherapy",
+      "Alpha Particle",
+      "Pb-203",
+      "Pb-212"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 112,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Lead-212 PSV359 Therapy for Patients With Solid Tumors",
+     "nctId": "NCT06710756",
+     "officialTitle": "A Phase I/IIa Image-Guided, Alpha-Particle Therapy Study of [203Pb]Pb-PSV359 and [212Pb]Pb-PSV359 in Patients With Solid Tumors That Are Known to be Fibroblast Activation Protein (FAP)-Positive",
+     "orgStudyIdInfo": {
+      "id": "PSV359-001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Perspective Therapeutics"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Perspective Therapeutics"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2032-05-28",
+      "type": "ESTIMATED"
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-28",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-26",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2028-01-31",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2025-04-28",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-10",
+     "studyFirstPostDateStruct": {
+      "date": "2024-11-29",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2024-11-25",
+     "studyFirstSubmitQcDate": "2024-11-26"
+    }
+   }
+  }
+ ]
+}

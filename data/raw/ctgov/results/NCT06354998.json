@@ -1,0 +1,82 @@
+{
+ "nctId": "NCT06354998",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.662",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "1.245",
+     "estimateComment": "GMR was a secondary endpoint.",
+     "groupDescription": "GMR (mRNA-1273.815 versus licensed Spikevax) at Day 15 and its 95% CI was calculated based on the t-distribution for the mean difference of log-transformed antibody values and then back transformed to the original scale for presentation.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "OTHER",
+     "paramType": "Geometric Mean Ratio (GMR)",
+     "paramValue": "0.908"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "927.67",
+         "upperLimit": "1502.38",
+         "value": "1180.55"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "1056.39",
+         "upperLimit": "1600.40",
+         "value": "1300.25"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "103"
+      },
+      {
+       "groupId": "OG001",
+       "value": "104"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Antibody values reported as below the lower limit of quantification (LLOQ) were replaced by 0.5 \\* LLOQ. Values reported greater than the upper limit of quantification (ULOQ) were replaced by the ULOQ if actual values were not available. LLOQ was 38 arbitrary unit (AU)/milliliter (mL) and ULOQ was 6960 AU/mL. 95% confidence interval (CI) of GM value was calculated based on the t-distribution of the log-transformed values for antibodies, then back transformed to the original scale for presentation.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants received Investigational mRNA-1273.815 by IM injection on Day 1.",
+     "id": "OG000",
+     "title": "Investigational mRNA-1273.815"
+    },
+    {
+     "description": "Participants received a licensed Spikevax vaccine by IM injection on Day 1.",
+     "id": "OG001",
+     "title": "Licensed Spikevax Vaccine"
+    }
+   ],
+   "paramType": "GEOMETRIC_MEAN",
+   "populationDescription": "The Per-protocol Immunogenicity Subset (PPIS) included participants who received planned dose of study injection per schedule, complied with immunogenicity testing schedule and had no major protocol deviations that impacted key or critical data.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Day 15",
+   "title": "Geometric Mean (GM) Value of Neutralizing Antibodies (nAbs) Against SARS-CoV-2-specific Strain at Day 15",
+   "type": "PRIMARY",
+   "unitOfMeasure": "AU/mL"
+  }
+ ]
+}

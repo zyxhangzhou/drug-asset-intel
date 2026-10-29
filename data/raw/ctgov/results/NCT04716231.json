@@ -1,0 +1,65 @@
+{
+ "nctId": "NCT04716231",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "-53",
+         "upperLimit": "-38",
+         "value": "-46"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "-19",
+         "upperLimit": "8",
+         "value": "-7"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "106"
+      },
+      {
+       "groupId": "OG001",
+       "value": "97"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Percentage reduction in UPCR was obtained from geometric mean ratios. The natural log-transformed ratio of UPCR to its baseline value was analyzed using a Mixed Model for Repeated Measures (MMRM), adjusted by baseline variables specified in the Statistical Analysis Plan (SAP), including data from baseline up to Week 36 during the Double-Blind period.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Atacicept 150mg once weekly subcutaneous (SC) injections\n\nAtacicept: Once weekly subcutaneous (SC) injections by prefilled syringe",
+     "id": "OG000",
+     "title": "Atacicept Dose 150mg"
+    },
+    {
+     "description": "Placebo to match Atacicept once weekly subcutaneous (SC) injection\n\nPlacebo to match Atacicept: Once weekly subcutaneous (SC) injections by prefilled syringe",
+     "id": "OG001",
+     "title": "Placebo to Match Atacicept (Part C/D)"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Primary endpoint refers to \"Evaluating the effect of atacicept compared to placebo on change in proteinuria in adult subjects with IgAN\" for the first 203 participants.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "36 Weeks",
+   "title": "Percentage Change From Baseline in Urine Protein to Creatinine Ratio (UPCR)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "mean UPCR percent Change at Week 36"
+  }
+ ]
+}

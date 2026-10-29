@@ -1,0 +1,65 @@
+{
+ "nctId": "NCT04197986",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "0.03",
+         "upperLimit": "17.48",
+         "value": "5.3"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "0.03",
+         "upperLimit": "20.90",
+         "value": "5.4"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "3"
+      },
+      {
+       "groupId": "OG001",
+       "value": "2"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "DFS was defined as the number of months from date of randomization to local/regional invasive or metastatic recurrence or death due to any cause (referred as DFS event), whichever occurs earlier.\n\nDue to early termination of the study by the sponsor, results will focus primarily on the primary and key secondary endpoints of the study. Due to early termination of the study by the sponsor, data were censored for 85.0% to 89.5% of all subjects. Data cutoff 28 Feb 2023.",
+   "dispersionType": "Full Range",
+   "groups": [
+    {
+     "description": "Infigratinib 125 mg once daily (3 weeks on / 1 week off treatment)",
+     "id": "OG000",
+     "title": "Infigratinib 125 mg"
+    },
+    {
+     "description": "Placebo once daily (3 weeks on / 1 week off treatment)",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "Intent-to-treat (ITT) population, which included all subjects who were randomized",
+   "reportingStatus": "POSTED",
+   "timeFrame": "The number of months from date of randomization to local/regional invasive or metastatic recurrence or death due to any cause.",
+   "title": "Centrally Determined Disease-free Survival (DFS)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Months"
+  }
+ ]
+}

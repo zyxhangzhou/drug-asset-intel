@@ -1,0 +1,50 @@
+{
+ "nctId": "NCT03648827",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "-8.402",
+         "upperLimit": "23.963",
+         "value": "6.559"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "20"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The percent change in dystrophin level from baseline in ambulatory nonsense mutation duchenne muscular dystrophy (nmDMD) participants after treatment with ataluren for 40 weeks was analyzed using quantitative assay (ECL).The least square (LS) mean and 90% confidence interval (CI) were analyzed from a mixed-model repeated measures (MMRM) with factors of muscle locations and visits as fixed effects, and participants as a random effect.",
+   "dispersionType": "90% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants received ataluren oral suspension 10 mg/kg in the morning, 10 mg/kg at midday, and 20 mg/kg in the evening each day for 40 weeks.",
+     "id": "OG000",
+     "title": "Ataluren"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "ITT population included all enrolled participants with a valid assessment of dystrophin level at baseline, as measured by ECL.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Week 40",
+   "title": "Percent Change From Baseline in Dystrophin Level at Week 40, as Measured by ECL",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percent change"
+  }
+ ]
+}

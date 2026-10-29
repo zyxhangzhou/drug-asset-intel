@@ -1,0 +1,112 @@
+{
+ "nctId": "NCT02702180",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-11.1",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "2.0",
+     "estimateComment": "The estimated value represents the estimated difference between once daily molgramostim and placebo groups in LSmean change from baseline to week 24.",
+     "groupDescription": "Primary endpoint was evaluated using analysis of covariance with treatment, whole lung lavage within 2 months before baseline, and geographic region as factors, and baseline values as covariates. To control type I error, key secondary endpoints were analyzed using a testing hierarchy wherein once daily molgramostim and placebo was compared and if statistical significance was reached, evaluation of intermittent molgramostim and placebo would proceed.",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.1688",
+     "paramType": "Least Square Means (LSmean)",
+     "paramValue": "-4.6",
+     "statisticalMethod": "ANCOVA"
+    },
+    {
+     "ciLowerLimit": "-9.3",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "3.7",
+     "estimateComment": "The estimated value represents the estimated difference between intermittent molgramostim and placebo groups in LSmean change from baseline to week 24.",
+     "groupIds": [
+      "OG001",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.3968",
+     "paramType": "Least Square Means (LSmean)",
+     "paramValue": "-2.8",
+     "statisticalMethod": "ANCOVA"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "21.95",
+         "value": "28.6"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "17.96",
+         "value": "29.3"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "20.90",
+         "value": "32.0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "45"
+      },
+      {
+       "groupId": "OG001",
+       "value": "43"
+      },
+      {
+       "groupId": "OG002",
+       "value": "43"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Measurement of (A-a)DO2 was done by blood gas analysis. An arterial blood sample was collected in the supine position, after resting for at least 10 minutes (or longer if required to achieve stable oxygen saturation). The sample was analyzed for arterial oxygen tension (PaO2) and partial pressure of carbon dioxide (PaCO2). The calculation of (A-a)DO2 was done centrally by using a formula described in the protocol.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Inhalation of molgramostim nebuliser solution 300 mcg once daily for 24 weeks\n\nMolgramostim: 300 mcg molgramostim (rhGM-CSF) nebulizer solution for inhalation\n\nPARI eFlow nebulizer system: PARI eFlow nebulizer system",
+     "id": "OG000",
+     "title": "Molgramostim Once Daily"
+    },
+    {
+     "description": "Inhalation of molgramostim nebuliser solution 300 mcg for 7 days and placebo nebuliser solution for 7 days for 24 weeks (12 cycles)\n\nMolgramostim: 300 mcg molgramostim (rhGM-CSF) nebulizer solution for inhalation\n\nPlacebo: Placebo nebulizer solution for inhalation\n\nPARI eFlow nebulizer system: PARI eFlow nebulizer system",
+     "id": "OG001",
+     "title": "Molgramostim Intermittent"
+    },
+    {
+     "description": "Inhalation of placebo nebuliser solution once daily for 24 weeks\n\nPlacebo: Placebo nebulizer solution for inhalation\n\nPARI eFlow nebulizer system: PARI eFlow nebulizer system",
+     "id": "OG002",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Full analysis set (FAS): all randomized participants, analyzed according to randomized treatment. Not all participants in the FAS had blood gas analysis done at Week 24, therefore the overall number of participants analyzed is less than the total number of randomized participants.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "From baseline to 24 weeks",
+   "title": "Absolute Change From Baseline of Alveolar-arterial Oxygen Concentration (A-a(DO2)) After 24 Weeks of Treatment",
+   "type": "PRIMARY",
+   "unitOfMeasure": "mmHg"
+  }
+ ]
+}

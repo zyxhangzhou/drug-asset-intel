@@ -1,0 +1,95 @@
+{
+ "nctId": "NCT02276872",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "10"
+        },
+        {
+         "groupId": "OG001",
+         "value": "10"
+        },
+        {
+         "groupId": "OG002",
+         "value": "12"
+        }
+       ]
+      }
+     ],
+     "title": "Successfully transitioned/initiated within 4 weeks"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "9"
+        },
+        {
+         "groupId": "OG001",
+         "value": "10"
+        },
+        {
+         "groupId": "OG002",
+         "value": "12"
+        }
+       ]
+      }
+     ],
+     "title": "Successfully maintained through 24 weeks"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "10"
+      },
+      {
+       "groupId": "OG001",
+       "value": "10"
+      },
+      {
+       "groupId": "OG002",
+       "value": "12"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "A successful transition was defined as a subject from Cohort 1 or Cohort 2 who was receiving oral treprostinil and no longer receiving IV/SC Remodulin or inhaled prostacyclin, respectively, at Week 4 and clinically maintained on oral treprostinil treatment through Week 24. A successful initiation of oral treprostinil for Cohort 3 was defined as a subject who was clinically maintained on oral treprostinil through Week 24.",
+   "groups": [
+    {
+     "description": "Transitioned from IV or SC Remodulin to oral treprostinil",
+     "id": "OG000",
+     "title": "Cohort 1 (Transitioning From Parental)"
+    },
+    {
+     "description": "Transitioned from inhaled prostacyclin to oral treprostinil",
+     "id": "OG001",
+     "title": "Cohort 2 (Transitioning From Inhaled)"
+    },
+    {
+     "description": "Treated with oral treprostinil as a de novo add-on to current PAH therapy",
+     "id": "OG002",
+     "title": "Cohort 3 (Add-on to Current PAH Therapy)"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Safety Population",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to 24 weeks",
+   "title": "Number of Participants With Successful Transition From IV/SC Remodulin to Oral Treprostinil (Cohort 1), From Inhaled Prostacyclin to Oral Treprostinil (Cohort 2), or as an add-on to Current PAH Therapy in de Novo Prostacyclin Subjects (Cohort 3).",
+   "type": "PRIMARY",
+   "unitOfMeasure": "participants"
+  }
+ ]
+}

@@ -1,0 +1,60 @@
+{
+ "nctId": "NCT04140695",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "2"
+        },
+        {
+         "groupId": "OG001",
+         "value": "4"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "42"
+      },
+      {
+       "groupId": "OG001",
+       "value": "43"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The WI-NRS responder is defined as a patient achieving at least 4 points reduction from baseline in weekly average of diary WI-NRS. Responses were measured on a scale of 0 - 10, with 0 being \"no itch\" and 10 being the \"worst itch imaginable\".",
+   "groups": [
+    {
+     "description": "Oral Capsule\n\nTradipitant: BID",
+     "id": "OG000",
+     "title": "Tradipitant"
+    },
+    {
+     "description": "Oral Capsule\n\nPlacebo: BID",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "All participants randomized (1:1) to placebo or tradipitant.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "2 weeks",
+   "title": "Worst Itch Numeric Rating Scale (WI-NRS) Responder Rate at Week 2",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

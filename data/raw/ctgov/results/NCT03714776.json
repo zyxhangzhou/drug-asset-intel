@@ -1,0 +1,74 @@
+{
+ "nctId": "NCT03714776",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<0.001",
+     "pValueComment": "P-value of analysis of variance (ANOVA) with treatment and screening AGT concentration stratification factor was used for analysis.",
+     "statisticalMethod": "ANOVA"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "23.3",
+         "value": "12.6"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "24.8",
+         "value": "-54.2"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "6"
+      },
+      {
+       "groupId": "OG001",
+       "value": "15"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Placebo matching solution injected SC once weekly for up to 6 weeks and an additional loading dose on Day 3.",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "ISIS 757456 80 mg injected SC once weekly for up to 6 weeks and an additional loading dose of 80 mg on Day 3.",
+     "id": "OG001",
+     "title": "ISIS 757456 80 mg"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "PPS included all FAS participants (all randomized participants who received at least 1 injection of study drug and who had at least 1 post-Baseline efficacy or exploratory measurements) who received at least 5 of the 7 doses of the study drug, did not receive antihypertensive medications during the Treatment Period and prior to Day 43, and had no significant protocol deviations that would have been expected to affect efficacy or exploratory assessments.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Week 7",
+   "title": "Percent Change From Baseline in Plasma Angiotensinogen (AGT) at Day 43 (Week 7) Compared to Placebo",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percent change"
+  }
+ ]
+}

@@ -1,0 +1,437 @@
+{
+ "nctId": "NCT00941681",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "27",
+         "value": "58"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "148",
+         "value": "243"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "164",
+         "value": "209"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "12"
+      },
+      {
+       "groupId": "OG001",
+       "value": "11"
+      },
+      {
+       "groupId": "OG002",
+       "value": "8"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Maximum plasma concentration (C max) measured in nanograms per milliliter (ng/mL) post first dose and pre second dose on day 1. Doses are approximately 12 hours apart in cohort 1 and 3 and 8 hours apart in cohort 2.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Modified-release (MR) 50 mg dose of CK-1827452 twice a day (BID) for 10 days.",
+     "id": "OG000",
+     "title": "Cohort 1: MR 50 mg BID"
+    },
+    {
+     "description": "Immediate-release (IR) 37.5 mg dose of CK-1827452 three times a day (TID) for 10 days.",
+     "id": "OG001",
+     "title": "Cohort 2: IR 37.5 mg TID"
+    },
+    {
+     "description": "Modified-release (MR) 100 mg dose of CK-1827452 twice a day (BID) for 10 days",
+     "id": "OG002",
+     "title": "Cohort 3: MR 100 mg BID"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "PK population (4 patients excluded from cohort 3 analysis due to improper dosing).",
+   "reportingStatus": "POSTED",
+   "timeFrame": "1 day",
+   "title": "C Max (Day 1, Dose 1)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "ng/mL"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "2.9",
+         "value": "3.5"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "3.7",
+         "value": "3.7"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "3.9",
+         "value": "3.5"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "12"
+      },
+      {
+       "groupId": "OG001",
+       "value": "11"
+      },
+      {
+       "groupId": "OG002",
+       "value": "8"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Time of observed maximum plasma concentration (T max) measured in hours (hr) post first dose and pre second dose on day 1. Doses are approximately 12 hours apart in cohort 1 and 3 and 8 hours apart in cohort 2.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Modified-release (MR) 50 mg dose of CK-1827452 twice a day (BID) for 10 days.",
+     "id": "OG000",
+     "title": "Cohort 1: MR 50 mg BID"
+    },
+    {
+     "description": "Immediate-release (IR) 37.5 mg dose of CK-1827452 three times a day (TID) for 10 days.",
+     "id": "OG001",
+     "title": "Cohort 2: IR 37.5 mg TID"
+    },
+    {
+     "description": "Modified-release (MR) 100 mg dose of CK-1827452 twice a day (BID) for 10 days",
+     "id": "OG002",
+     "title": "Cohort 3: MR 100 mg BID"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "PK population (4 patients excluded from cohort 3 analysis due to improper dosing).",
+   "reportingStatus": "POSTED",
+   "timeFrame": "1 day",
+   "title": "T Max (Day 1, Dose 1)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "hr"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "206",
+         "value": "446"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "387",
+         "value": "1003"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "1354",
+         "value": "1650"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "12"
+      },
+      {
+       "groupId": "OG001",
+       "value": "11"
+      },
+      {
+       "groupId": "OG002",
+       "value": "8"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Area under the curve (AUC) measured in hours \\* nanograms per milliliter (hr\\*ng/mL) post first dose and pre second dose on day 1. Doses are approximately 12 hours apart in cohort 1 and 3 and 8 hours apart in cohort 2.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Modified-release (MR) 50 mg dose of CK-1827452 twice a day (BID) for 10 days.",
+     "id": "OG000",
+     "title": "Cohort 1: MR 50 mg BID"
+    },
+    {
+     "description": "Immediate-release (IR) 37.5 mg dose of CK-1827452 three times a day (TID) for 10 days.",
+     "id": "OG001",
+     "title": "Cohort 2: IR 37.5 mg TID"
+    },
+    {
+     "description": "Modified-release (MR) 100 mg dose of CK-1827452 twice a day (BID) for 10 days",
+     "id": "OG002",
+     "title": "Cohort 3: MR 100 mg BID"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "PK population (4 patients excluded from cohort 3 analysis due to improper dosing).",
+   "reportingStatus": "POSTED",
+   "timeFrame": "1 day",
+   "title": "AUC (Day 1, Dose 1)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "hr*ng/mL"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "111",
+         "value": "205"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "158",
+         "value": "420"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "494",
+         "value": "704"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "12"
+      },
+      {
+       "groupId": "OG001",
+       "value": "10"
+      },
+      {
+       "groupId": "OG002",
+       "value": "8"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Maximum plasma concentration (C max) measured in nanograms per milliliter (ng/mL) post dose on day 10. Only one dose was administered on day 10 (final dose of study).",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Modified-release (MR) 50 mg dose of CK-1827452 twice a day (BID) for 10 days.",
+     "id": "OG000",
+     "title": "Cohort 1: MR 50 mg BID"
+    },
+    {
+     "description": "Immediate-release (IR) 37.5 mg dose of CK-1827452 three times a day (TID) for 10 days.",
+     "id": "OG001",
+     "title": "Cohort 2: IR 37.5 mg TID"
+    },
+    {
+     "description": "Modified-release (MR) 100 mg dose of CK-1827452 twice a day (BID) for 10 days",
+     "id": "OG002",
+     "title": "Cohort 3: MR 100 mg BID"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "PK population (4 patients excluded from cohort 3 analysis due to improper dosing and 1 patient excluded from cohort 2 due to sudden death).",
+   "reportingStatus": "POSTED",
+   "timeFrame": "1 day",
+   "title": "C Max (Day 10)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "ng/mL"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.9",
+         "value": "1.8"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "1.1",
+         "value": "1.8"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "1.6",
+         "value": "2.7"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "12"
+      },
+      {
+       "groupId": "OG001",
+       "value": "10"
+      },
+      {
+       "groupId": "OG002",
+       "value": "8"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Time of observed maximum plasma concentration (T max) measured in hours (hr) post dose on day 10. Only one dose was administered on day 10 (final dose of study).",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Modified-release (MR) 50 mg dose of CK-1827452 twice a day (BID) for 10 days.",
+     "id": "OG000",
+     "title": "Cohort 1: MR 50 mg BID"
+    },
+    {
+     "description": "Immediate-release (IR) 37.5 mg dose of CK-1827452 three times a day (TID) for 10 days.",
+     "id": "OG001",
+     "title": "Cohort 2: IR 37.5 mg TID"
+    },
+    {
+     "description": "Modified-release (MR) 100 mg dose of CK-1827452 twice a day (BID) for 10 days",
+     "id": "OG002",
+     "title": "Cohort 3: MR 100 mg BID"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "PK population (4 patients excluded from cohort 3 analysis due to improper dosing and 1 patient excluded from cohort 2 due to sudden death).",
+   "reportingStatus": "POSTED",
+   "timeFrame": "1 day",
+   "title": "T Max (Day 10)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "hr"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "1002",
+         "value": "1886"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "623",
+         "value": "2118"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "5147",
+         "value": "6457"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "12"
+      },
+      {
+       "groupId": "OG001",
+       "value": "10"
+      },
+      {
+       "groupId": "OG002",
+       "value": "8"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Area under the curve (AUC) measured in hours \\* nanograms per milliliter (hr\\*ng/mL) post dose on day 10. Only one dose was administered on day 10 (final dose of study).",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Modified-release (MR) 50 mg dose of CK-1827452 twice a day (BID) for 10 days.",
+     "id": "OG000",
+     "title": "Cohort 1: MR 50 mg BID"
+    },
+    {
+     "description": "Immediate-release (IR) 37.5 mg dose of CK-1827452 three times a day (TID) for 10 days.",
+     "id": "OG001",
+     "title": "Cohort 2: IR 37.5 mg TID"
+    },
+    {
+     "description": "Modified-release (MR) 100 mg dose of CK-1827452 twice a day (BID) for 10 days",
+     "id": "OG002",
+     "title": "Cohort 3: MR 100 mg BID"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "PK population (4 patients excluded from cohort 3 analysis due to improper dosing and 1 patient excluded from cohort 2 due to sudden death).",
+   "reportingStatus": "POSTED",
+   "timeFrame": "1 day",
+   "title": "AUC (Day 10)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "hr*ng/mL"
+  }
+ ]
+}

@@ -1,0 +1,131 @@
+{
+ "nctId": "NCT04936035",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-21.2",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-12.3",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "1.9",
+     "groupDescription": "LS Mean Difference between zilebesiran 300 mg Q6M and placebo, 95% CI was calculated using Dunnett's procedure.",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<0.0001",
+     "pValueComment": "MMRM model included treatment, visit, treatment-by-visit interaction, and race (categorized as Black and all other races) as fixed factors, with baseline 24-hour mean SBP assessed by ABPM as a covariate.",
+     "paramType": "Difference in LS Mean",
+     "paramValue": "-16.7",
+     "statisticalMethod": "MMRM"
+    },
+    {
+     "ciLowerLimit": "-20.8",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-10.6",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "2.19",
+     "groupDescription": "The adjusted 95% CI and p-value are based on Dunnett's test. LS Mean Difference between zilebesiran 600 mg Q6M and placebo, 95% CI was calculated using Dunnett's procedure.",
+     "groupIds": [
+      "OG000",
+      "OG003"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<0.0001",
+     "pValueComment": "The MMRM model included treatment, visit, treatment-by-visit interaction, and race (categorized as Black and all other races) as fixed factors, with baseline 24-hour mean SBP assessed by ABPM as a covariate.",
+     "paramType": "Difference in LS Mean",
+     "paramValue": "-15.7",
+     "statisticalMethod": "MMRM"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "1.58",
+         "value": "6.8"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "1.49",
+         "value": "-7.3"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "1.05",
+         "value": "-10.0"
+        },
+        {
+         "groupId": "OG003",
+         "spread": "1.52",
+         "value": "-8.9"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "60"
+      },
+      {
+       "groupId": "OG001",
+       "value": "68"
+      },
+      {
+       "groupId": "OG002",
+       "value": "137"
+      },
+      {
+       "groupId": "OG003",
+       "value": "65"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "24-hour ABPM was programmed to take readings every 20 minutes during the day (6 am to 9:59 pm) and every 30 minutes during the night (10 pm to 5:59 am). An ABPM was considered adequate if: 1. the number of successful daytime readings were ≥33, 2. the number of successful nighttime readings were ≥11, 3. no more than 3 hours are not represented (i.e., 3 sections of 60 minutes where 0 valid readings were obtained). To summarize the 24-hour ABPM, the hourly adjusted mean was calculated. Hourly mean was the average of BP by each hour of the day. The 24-hour mean was the average of the hourly means. Least squares (LS) mean and standard error (SE) were calculated using a mixed model repeated measures (MMRM) approach.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Participants received zilebesiran matching placebo, as SC injection, Q3M during the 6-month placebo-controlled DB period.",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Participants received zilebesiran, 150 mg, as SC injection on Day 1 of the 6-month placebo-controlled DB period. They received placebo at Month 3 of the 6-month placebo-controlled DB period to maintain the blind.",
+     "id": "OG001",
+     "title": "Zilebesiran 150 mg Q6M"
+    },
+    {
+     "description": "Participants received zilebesiran, 300 mg, as SC injection, Q6M or Q3M during the 6-month placebo-controlled DB period. Participants assigned to the Q6M regimen received placebo at Month 3 of the 6-month DB period to maintain the blind. As specified in the SAP, 'Zilebesiran 300 mg Q6M' and 'Zilebesiran 300 mg Q3M' arms were pooled together to report Month 3 analysis.",
+     "id": "OG002",
+     "title": "Zilebesiran 300 mg Q6M and Q3M"
+    },
+    {
+     "description": "Participants received zilebesiran, 600 mg, as SC injection, on Day 1 of the 6-month placebo-controlled DB period. They received placebo at Month 3 of the 6-month placebo-controlled DB period to maintain the blind.",
+     "id": "OG003",
+     "title": "Zilebesiran 600 mg Q6M"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "The Full Analysis Set included all randomized participants who received any amount of the study drug. Overall number analyzed is the number of participants with data available for analyses. As pre-specified in the SAP, for assessment of Month 3 outcome measures, zilebesiran 300mg Q3M and 300mg Q6M were pooled together.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline and Month 3",
+   "title": "Change From Baseline at Month 3 in 24-hour Mean SBP Assessed by ABPM",
+   "type": "PRIMARY",
+   "unitOfMeasure": "millimeters of mercury (mmHg)"
+  }
+ ]
+}

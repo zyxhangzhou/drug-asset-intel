@@ -1,0 +1,307 @@
+{
+ "nctId": "NCT02736188",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "104"
+        }
+       ]
+      }
+     ],
+     "title": "TEAEs"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "7"
+        }
+       ]
+      }
+     ],
+     "title": "Serious TEAEs (SAEs)"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Deaths"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "11"
+        }
+       ]
+      }
+     ],
+     "title": "Grade 3 or 4 TEAEs"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "2"
+        }
+       ]
+      }
+     ],
+     "title": "TEAEs Leading to Study Drug Discontinuation"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1"
+        }
+       ]
+      }
+     ],
+     "title": "TEAEs Leading to Study Discontinuation"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "142"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "An AE was defined as any untoward medical occurrence associated with the use of a drug, whether or not considered drug related. An SAE or serious suspected adverse reaction is an AE or suspected adverse reaction that at any dose, in the view of either the Investigator or Ultragenyx, results in any of the following outcomes: death; a life-threatening AE; inpatient hospitalization or prolongation of existing hospitalization; persistent or significant incapacity or disability (substantial disruption of the ability to conduct normal life functions); congenital anomaly/birth defect. TEAEs were defined as any AE that occurred after the first dose of study drug. The severity of all AEs were graded using the National Cancer Institute Common Terminology Criteria for Adverse Events (NCI CTCAE) version 4.03: grade1=mild, grade 2=moderate, grade 3=severe, grade 4=life-threatening, grade 5=death.",
+   "groups": [
+    {
+     "description": "4 tablets (500 mg Ace-ER each for 2 g per dose) orally 3 times per day",
+     "id": "OG000",
+     "title": "Ace-ER 6 g/Day"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Safety Analysis Set: all participants who received at least one dose of study drug in UX001-CL302.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "From first dose of study drug through the end of treatment plus 30 days (+5 days). Mean (SD) duration of treatment was 256.3 (101.54) days.",
+   "title": "Number of Participants With Treatment Emergent Adverse Events (TEAEs), Serious AEs (SAEs), and Discontinuations Due to AEs",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-1.17",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "2.77",
+     "groupDescription": "Week 8",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.4287",
+     "pValueComment": "Baseline is fit into the model as a covariate.",
+     "paramType": "LS Mean Difference",
+     "paramValue": "0.80",
+     "statisticalMethod": "generalized estimating equation (GEE)"
+    },
+    {
+     "ciLowerLimit": "-1.49",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "2.21",
+     "groupDescription": "Week 16",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.7031",
+     "pValueComment": "Baseline is fit into the model as a covariate.",
+     "paramType": "LS Mean Difference",
+     "paramValue": "0.36",
+     "statisticalMethod": "GEE model"
+    },
+    {
+     "ciLowerLimit": "-3.14",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "1.32",
+     "groupDescription": "Week 24",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.4253",
+     "pValueComment": "Baseline is fit into the model as a covariate.",
+     "paramType": "LS Mean Difference",
+     "paramValue": "-0.91",
+     "statisticalMethod": "GEE model"
+    },
+    {
+     "ciLowerLimit": "-3.49",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "3.38",
+     "groupDescription": "Week 48",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.9747",
+     "pValueComment": "Baseline is fit into the model as a covariate.",
+     "paramType": "LS Mean Difference",
+     "paramValue": "-0.06",
+     "statisticalMethod": "GEE model"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "-0.75",
+         "upperLimit": "2.51",
+         "value": "0.88"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "-1.05",
+         "upperLimit": "1.23",
+         "value": "0.09"
+        }
+       ]
+      }
+     ],
+     "title": "Week 8"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "-1.47",
+         "upperLimit": "1.67",
+         "value": "0.10"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "-1.26",
+         "upperLimit": "0.74",
+         "value": "-0.26"
+        }
+       ]
+      }
+     ],
+     "title": "Week 16"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "-2.92",
+         "upperLimit": "0.12",
+         "value": "-1.40"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "-2.13",
+         "upperLimit": "1.15",
+         "value": "-0.49"
+        }
+       ]
+      }
+     ],
+     "title": "Week 24"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "-4.95",
+         "upperLimit": "0.47",
+         "value": "-2.24"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "-4.30",
+         "upperLimit": "-0.07",
+         "value": "-2.18"
+        }
+       ]
+      }
+     ],
+     "title": "Week 48"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "44"
+      },
+      {
+       "groupId": "OG001",
+       "value": "43"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Hand held dynamometry testing was used to measure strength. The maximum voluntary isometric contraction against a dynamometer was used to measure bilateral strength in the following muscle groups: shoulder abductors, wrist extensors and knee extensors. Specialized dynamometers for the measurement of grip and key pinch strength were also used. The total force (in kgf) for each was recorded. The UEC is derived from the sum of the average of the right and left total force (measured in kgf). Analyzed using a repeated measure generalized estimation equation (GEE) model, which includes the baseline value as a covariate.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "4 tablets (500 mg Ace-ER each for 2 g per dose) orally 3 times per day in participants who took Ace-ER in study UX001-CL301 (NCT02377921)",
+     "id": "OG000",
+     "title": "Ace-ER 6 g/Day (Parent Study Treatment: Ace-ER 6 g/Day)"
+    },
+    {
+     "description": "4 tablets (500 mg Ace-ER each for 2 g per dose) orally 3 times per day in participants who took placebo in study UX001-CL301 (NCT02377921)",
+     "id": "OG001",
+     "title": "Ace-ER 6 g/Day (Parent Study Treatment: Placebo)"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Full Analysis Set: all participants in parent study UX001-CL301 (NCT02377921) with a UX001-CL302 baseline measurement and at least one post-baseline measurement in UX001-CL302.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Weeks 8, 16, 24, 48",
+   "title": "Change From Baseline in HHD UEC Score Over Time",
+   "type": "PRIMARY",
+   "unitOfMeasure": "kgf"
+  }
+ ]
+}

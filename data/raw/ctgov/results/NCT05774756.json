@@ -1,0 +1,83 @@
+{
+ "nctId": "NCT05774756",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-24.55",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-15.10",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "2.411",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "OTHER",
+     "pValue": "<0.0001",
+     "paramType": "Least square mean difference",
+     "paramValue": "-19.83",
+     "statisticalComment": "The model was adjusted with the stratification factors of age group and subpopulation.",
+     "statisticalMethod": "ANCOVA"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "1.401",
+         "value": "-16.51"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "1.984",
+         "value": "3.32"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "81"
+      },
+      {
+       "groupId": "OG001",
+       "value": "39"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "BMI was calculated as weight (kg)/height (m\\^2). Least square (LS) mean and standard error (SE) were calculated using analysis of covariance (ANCOVA) model.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Participants received setmelanotide QD as a SC injection for approximately 52 weeks on a therapeutic regimen (up to approximately 60 weeks).",
+     "id": "OG000",
+     "title": "Setmelanotide"
+    },
+    {
+     "description": "Participants received placebo matched to setmelanotide QD as a SC injection for approximately 52 weeks on a therapeutic regimen (up to approximately 60 weeks).",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "mITT analysis set included all randomized participants who were exposed to at least 1 dose of study treatment. Participants in pivotal cohort were included in the analysis.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, after approximately 52 Weeks on a Therapeutic Regimen (up to approximately 60 weeks)",
+   "title": "Pivotal Cohort: Mean Percent Change From Baseline in Body Mass Index (BMI) After 52 Weeks on a Therapeutic Regimen",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Percent change"
+  }
+ ]
+}

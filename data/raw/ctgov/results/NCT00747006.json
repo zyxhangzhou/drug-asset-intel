@@ -1,0 +1,785 @@
+{
+ "nctId": "NCT00747006",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "-43.44",
+         "upperLimit": "-39.43",
+         "value": "-41.44"
+        },
+        {
+         "groupId": "OG003",
+         "lowerLimit": "24.08",
+         "upperLimit": "490.63",
+         "value": "251.65"
+        },
+        {
+         "groupId": "OG004",
+         "lowerLimit": "329.64",
+         "upperLimit": "636.50",
+         "value": "454.07"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "2"
+      },
+      {
+       "groupId": "OG001",
+       "value": "0"
+      },
+      {
+       "groupId": "OG002",
+       "value": "0"
+      },
+      {
+       "groupId": "OG003",
+       "value": "3"
+      },
+      {
+       "groupId": "OG004",
+       "value": "3"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "AUC (area under the plasma glucose - time curve) from time 0 (immediately before starting meal) to 240 minutes after the start of the meal when the curve is above time 0 value.\n\nAOC (area over the plasma glucose - time curve) from time 0 (immediately before starting meal) to 240 minutes after the start of the meal when the curve is below time 0 value.\n\nTIme 0 corrected AUC (0-240) = AUC - AOC",
+   "dispersionType": "Full Range",
+   "groups": [
+    {
+     "description": "Standard meal to which subjects titrated their insulin dose.",
+     "id": "OG000",
+     "title": "100% Carbohydrate Load"
+    },
+    {
+     "description": "Fasting state",
+     "id": "OG001",
+     "title": "0% Carbohydrate Load"
+    },
+    {
+     "description": "Meal consisting of half of the carbohydrates from the standard meal",
+     "id": "OG002",
+     "title": "50% Carbohydrate Load"
+    },
+    {
+     "description": "Meal consisting of 1.5 times the carbohydrate load of the standard meal.",
+     "id": "OG003",
+     "title": "150% Carbohydrate Load"
+    },
+    {
+     "description": "Meal consisting of 2 times the carbohydrate load of the standard meal.",
+     "id": "OG004",
+     "title": "200% Carbohydrate Load"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Original Protocol Type 1 Diabetes Mellitus Technosphere Insulin Treated; 50% carbohydrate load was administered but not completed due to all subjects having hypoglycemia, 0% carbohydrate load was deemed unsafe by PI",
+   "reportingStatus": "POSTED",
+   "timeFrame": "0 to 240 minutes",
+   "title": "Lunch Plasma Glucose Time 0 Corrected AUC (0-240) - Original Protocol (TI Treated Type 1 Subjects)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "min*mg/dL"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "14.50",
+         "upperLimit": "194.13",
+         "value": "104.32"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "-44.86",
+         "upperLimit": "98.50",
+         "value": "10.80"
+        },
+        {
+         "groupId": "OG003",
+         "lowerLimit": "116.70",
+         "upperLimit": "282.00",
+         "value": "199.35"
+        },
+        {
+         "groupId": "OG004",
+         "lowerLimit": "269.18",
+         "upperLimit": "583.13",
+         "value": "440.90"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "2"
+      },
+      {
+       "groupId": "OG001",
+       "value": "0"
+      },
+      {
+       "groupId": "OG002",
+       "value": "3"
+      },
+      {
+       "groupId": "OG003",
+       "value": "2"
+      },
+      {
+       "groupId": "OG004",
+       "value": "3"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "AUC (area under the plasma glucose - time curve) from time 0 (immediately before starting meal) to 240 minutes after the start of the meal when the curve is above time 0 value.\n\nAOC (area over the plasma glucose - time curve) from time 0 (immediately before starting meal) to 240 minutes after the start of the meal when the curve is below time 0 value.\n\nTIme 0 corrected AUC (0-240) = AUC - AOC",
+   "dispersionType": "Full Range",
+   "groups": [
+    {
+     "description": "Standard meal to which subjects titrated their insulin dose.",
+     "id": "OG000",
+     "title": "100% Carbohydrate Load"
+    },
+    {
+     "description": "Fasting state",
+     "id": "OG001",
+     "title": "0% Carbohydrate Load"
+    },
+    {
+     "description": "Meal consisting of half of the carbohydrates from the standard meal",
+     "id": "OG002",
+     "title": "50% Carbohydrate Load"
+    },
+    {
+     "description": "Meal consisting of 1.5 times the carbohydrate load of the standard meal.",
+     "id": "OG003",
+     "title": "150% Carbohydrate Load"
+    },
+    {
+     "description": "Meal consisting of 2 times the carbohydrate load of the standard meal.",
+     "id": "OG004",
+     "title": "200% Carbohydrate Load"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Original Protocol Type 1 Diabetes Mellitus Technosphere Insulin Treated; 0% carbohydrate load was deemed unsafe by PI",
+   "reportingStatus": "POSTED",
+   "timeFrame": "0 to 240 minutes",
+   "title": "Breakfast Plasma Glucose Time 0 Corrected AUC(0-240) - Original Protocol (TI Treated Type 1 Subjects)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "min*mg/dL"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "-22.63",
+         "upperLimit": "10.41",
+         "value": "-6.11"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "-99.88",
+         "upperLimit": "-48.63",
+         "value": "-74.26"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "-22.80",
+         "upperLimit": "-22.80",
+         "value": "-22.80"
+        },
+        {
+         "groupId": "OG004",
+         "lowerLimit": "-2.36",
+         "upperLimit": "25.47",
+         "value": "11.56"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "2"
+      },
+      {
+       "groupId": "OG001",
+       "value": "2"
+      },
+      {
+       "groupId": "OG002",
+       "value": "1"
+      },
+      {
+       "groupId": "OG003",
+       "value": "0"
+      },
+      {
+       "groupId": "OG004",
+       "value": "2"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "AUC (area under the plasma glucose - time curve) from time 0 (immediately before starting meal) to 240 minutes after the start of the meal when the curve is above time 0 value.\n\nAOC (area over the plasma glucose - time curve) from time 0 (immediately before starting meal) to 240 minutes after the start of the meal when the curve is below time 0 value.\n\nTIme 0 corrected AUC (0-240) = AUC - AOC",
+   "dispersionType": "Full Range",
+   "groups": [
+    {
+     "description": "Standard meal to which subjects titrated their insulin dose.",
+     "id": "OG000",
+     "title": "100% Carbohydrate Load"
+    },
+    {
+     "description": "Fasting state",
+     "id": "OG001",
+     "title": "0% Carbohydrate Load"
+    },
+    {
+     "description": "Meal consisting of half of the carbohydrates from the standard meal",
+     "id": "OG002",
+     "title": "50% Carbohydrate Load"
+    },
+    {
+     "description": "Meal consisting of 1.5 times the carbohydrate load of the standard meal.",
+     "id": "OG003",
+     "title": "150% Carbohydrate Load"
+    },
+    {
+     "description": "Meal consisting of 2 times the carbohydrate load of the standard meal.",
+     "id": "OG004",
+     "title": "200% Carbohydrate Load"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Protocol Amendment 1 Type 2 Diabetes Mellitus Technosphere Insulin Treated Subjects; 150% carbohydrate load was not done per protocol since the 200% carbohydrate load was administered",
+   "reportingStatus": "POSTED",
+   "timeFrame": "0 to 240 minutes",
+   "title": "Lunch Plasma Glucose Time 0 Corrected AUC(0-240) - Amendment 1 (TI Treated Type 2 Subjects)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "min*mg/dL"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "9.48",
+         "upperLimit": "22.06",
+         "value": "15.77"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "-89.13",
+         "upperLimit": "-13.38",
+         "value": "-51.26"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "-15.39",
+         "upperLimit": "23.75",
+         "value": "4.18"
+        },
+        {
+         "groupId": "OG004",
+         "lowerLimit": "-68.76",
+         "upperLimit": "52.47",
+         "value": "-8.15"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "2"
+      },
+      {
+       "groupId": "OG001",
+       "value": "2"
+      },
+      {
+       "groupId": "OG002",
+       "value": "2"
+      },
+      {
+       "groupId": "OG003",
+       "value": "0"
+      },
+      {
+       "groupId": "OG004",
+       "value": "2"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "AUC (area under the plasma glucose - time curve) from time 0 (immediately before starting meal) to 240 minutes after the start of the meal when the curve is above time 0 value.\n\nAOC (area over the plasma glucose - time curve) from time 0 (immediately before starting meal) to 240 minutes after the start of the meal when the curve is below time 0 value.\n\nTIme 0 corrected AUC (0-240) = AUC - AOC",
+   "dispersionType": "Full Range",
+   "groups": [
+    {
+     "description": "Standard meal to which subjects titrated their insulin dose.",
+     "id": "OG000",
+     "title": "100% Carbohydrate Load"
+    },
+    {
+     "description": "Fasting state",
+     "id": "OG001",
+     "title": "0% Carbohydrate Load"
+    },
+    {
+     "description": "Meal consisting of half of the carbohydrates from the standard meal",
+     "id": "OG002",
+     "title": "50% Carbohydrate Load"
+    },
+    {
+     "description": "Meal consisting of 1.5 times the carbohydrate load of the standard meal.",
+     "id": "OG003",
+     "title": "150% Carbohydrate Load"
+    },
+    {
+     "description": "Meal consisting of 2 times the carbohydrate load of the standard meal.",
+     "id": "OG004",
+     "title": "200% Carbohydrate Load"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Protocol Amendment 1 Type 2 Diabetes Mellitus Humalog Treated Subjects; 150% carbohydrate load was not done per protocol since the 200% carbohydrate load was administered",
+   "reportingStatus": "POSTED",
+   "timeFrame": "0 to 240 minutes",
+   "title": "Lunch Plasma Glucose Time 0 Corrected AUC(0-240) - Amendment 1 (Humalog Treated Type 2 Subjects)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "min*mg/dL"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "42.00",
+         "upperLimit": "66.00",
+         "value": "54.00"
+        },
+        {
+         "groupId": "OG003",
+         "lowerLimit": "75.00",
+         "upperLimit": "210.00",
+         "value": "129.67"
+        },
+        {
+         "groupId": "OG004",
+         "lowerLimit": "163.00",
+         "upperLimit": "231.00",
+         "value": "201.00"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "2"
+      },
+      {
+       "groupId": "OG001",
+       "value": "0"
+      },
+      {
+       "groupId": "OG002",
+       "value": "0"
+      },
+      {
+       "groupId": "OG003",
+       "value": "3"
+      },
+      {
+       "groupId": "OG004",
+       "value": "3"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Excursion is the difference between plasma glucose Cmax and Cmin (Cmax - Cmin) at lunch",
+   "dispersionType": "Full Range",
+   "groups": [
+    {
+     "description": "Standard meal to which subjects titrated their insulin dose.",
+     "id": "OG000",
+     "title": "100% Carbohydrate Load"
+    },
+    {
+     "description": "Fasting state",
+     "id": "OG001",
+     "title": "0% Carbohydrate Load"
+    },
+    {
+     "description": "Meal consisting of half of the carbohydrates from the standard meal",
+     "id": "OG002",
+     "title": "50% Carbohydrate Load"
+    },
+    {
+     "description": "Meal consisting of 1.5 times the carbohydrate load of the standard meal.",
+     "id": "OG003",
+     "title": "150% Carbohydrate Load"
+    },
+    {
+     "description": "Meal consisting of 2 times the carbohydrate load of the standard meal.",
+     "id": "OG004",
+     "title": "200% Carbohydrate Load"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Original Protocol Type 1 Diabetes Mellitus Technosphere Insulin Treated; 50% carbohydrate load was administered but not completed due to all subjects having hypoglycemia, 0% carbohydrate load was deemed unsafe by PI",
+   "reportingStatus": "POSTED",
+   "timeFrame": "0 to 240 minutes",
+   "title": "Lunch Plasma Glucose Excursion - Original Protocol (TI Treated Type 1 Subjects)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "mg/dL"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "43.00",
+         "upperLimit": "64.00",
+         "value": "53.50"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "42.00",
+         "upperLimit": "48.00",
+         "value": "44.33"
+        },
+        {
+         "groupId": "OG003",
+         "lowerLimit": "78.00",
+         "upperLimit": "101.00",
+         "value": "89.50"
+        },
+        {
+         "groupId": "OG004",
+         "lowerLimit": "134.00",
+         "upperLimit": "234.00",
+         "value": "186.33"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "2"
+      },
+      {
+       "groupId": "OG001",
+       "value": "0"
+      },
+      {
+       "groupId": "OG002",
+       "value": "3"
+      },
+      {
+       "groupId": "OG003",
+       "value": "2"
+      },
+      {
+       "groupId": "OG004",
+       "value": "3"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Excursion is the difference between plasma glucose Cmax and Cmin (Cmax - Cmin) at breakfast",
+   "dispersionType": "Full Range",
+   "groups": [
+    {
+     "description": "Standard meal to which subjects titrated their insulin dose.",
+     "id": "OG000",
+     "title": "100% Carbohydrate Load"
+    },
+    {
+     "description": "Fasting state",
+     "id": "OG001",
+     "title": "0% Carbohydrate Load"
+    },
+    {
+     "description": "Meal consisting of half of the carbohydrates from the standard meal",
+     "id": "OG002",
+     "title": "50% Carbohydrate Load"
+    },
+    {
+     "description": "Meal consisting of 1.5 times the carbohydrate load of the standard meal.",
+     "id": "OG003",
+     "title": "150% Carbohydrate Load"
+    },
+    {
+     "description": "Meal consisting of 2 times the carbohydrate load of the standard meal.",
+     "id": "OG004",
+     "title": "200% Carbohydrate Load"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Original Protocol Type 1 Diabetes Mellitus Technosphere Insulin Treated; 0% carbohydrate load was deemed unsafe by PI",
+   "reportingStatus": "POSTED",
+   "timeFrame": "0 to 240 minutes",
+   "title": "Breakfast Plasma Glucose Excursion - Original Protocol (TI Treated - Type 1 Subjects)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "mg/dL"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "26.00",
+         "upperLimit": "33.00",
+         "value": "29.50"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "13.00",
+         "upperLimit": "16.00",
+         "value": "14.50"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "16.00",
+         "upperLimit": "16.00",
+         "value": "16.00"
+        },
+        {
+         "groupId": "OG004",
+         "lowerLimit": "17.00",
+         "upperLimit": "20.00",
+         "value": "18.50"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "2"
+      },
+      {
+       "groupId": "OG001",
+       "value": "2"
+      },
+      {
+       "groupId": "OG002",
+       "value": "1"
+      },
+      {
+       "groupId": "OG003",
+       "value": "0"
+      },
+      {
+       "groupId": "OG004",
+       "value": "2"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Excursion is the difference between plasma glucose Cmax and Cmin (Cmax-Cmin) at lunch",
+   "dispersionType": "Full Range",
+   "groups": [
+    {
+     "description": "Standard meal to which subjects titrated their insulin dose.",
+     "id": "OG000",
+     "title": "100% Carbohydrate Load"
+    },
+    {
+     "description": "Fasting state",
+     "id": "OG001",
+     "title": "0% Carbohydrate Load"
+    },
+    {
+     "description": "Meal consisting of half of the carbohydrates from the standard meal",
+     "id": "OG002",
+     "title": "50% Carbohydrate Load"
+    },
+    {
+     "description": "Meal consisting of 1.5 times the carbohydrate load of the standard meal.",
+     "id": "OG003",
+     "title": "150% Carbohydrate Load"
+    },
+    {
+     "description": "Meal consisting of 2 times the carbohydrate load of the standard meal.",
+     "id": "OG004",
+     "title": "200% Carbohydrate Load"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Protocol Amendment 1 Type 2 Diabetes Mellitus TI Treated Subjects; 150% carbohydrate load was not done per protocol since the 200% carbohydrate load was administered",
+   "reportingStatus": "POSTED",
+   "timeFrame": "0 to 240 minutes",
+   "title": "Lunch Plasma Glucose Excursion - Amendment 1 ( TI Treated Type 2 Subjects)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "mg/dL"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "44.00",
+         "upperLimit": "45.00",
+         "value": "44.50"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "9.00",
+         "upperLimit": "31.00",
+         "value": "20.00"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "11.00",
+         "upperLimit": "36.00",
+         "value": "23.50"
+        },
+        {
+         "groupId": "OG004",
+         "lowerLimit": "35.00",
+         "upperLimit": "56.00",
+         "value": "45.50"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "2"
+      },
+      {
+       "groupId": "OG001",
+       "value": "2"
+      },
+      {
+       "groupId": "OG002",
+       "value": "2"
+      },
+      {
+       "groupId": "OG003",
+       "value": "0"
+      },
+      {
+       "groupId": "OG004",
+       "value": "2"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Excursion is the difference between plasma glucose Cmax and Cmin (Cmax-Cmin) at lunch",
+   "dispersionType": "Full Range",
+   "groups": [
+    {
+     "description": "Standard meal to which subjects titrated their insulin dose.",
+     "id": "OG000",
+     "title": "100% Carbohydrate Load"
+    },
+    {
+     "description": "Fasting state",
+     "id": "OG001",
+     "title": "0% Carbohydrate Load"
+    },
+    {
+     "description": "Meal consisting of half of the carbohydrates from the standard meal",
+     "id": "OG002",
+     "title": "50% Carbohydrate Load"
+    },
+    {
+     "description": "Meal consisting of 1.5 times the carbohydrate load of the standard meal.",
+     "id": "OG003",
+     "title": "150% Carbohydrate Load"
+    },
+    {
+     "description": "Meal consisting of 2 times the carbohydrate load of the standard meal.",
+     "id": "OG004",
+     "title": "200% Carbohydrate Load"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Protocol Amendment 1 Type 2 Diabetes Mellitus Humalog Treated Subjects; 150% carbohydrate load was not done per protocol since the 200% carbohydrate load was administered",
+   "reportingStatus": "POSTED",
+   "timeFrame": "0 to 240 minutes",
+   "title": "Lunch Plasma Glucose Excursion - Amendment 1 (Humalog Treated Type 2 Subjects)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "mg/dL"
+  }
+ ]
+}

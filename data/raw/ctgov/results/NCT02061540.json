@@ -1,0 +1,177 @@
+{
+ "nctId": "NCT02061540",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1"
+        },
+        {
+         "groupId": "OG001",
+         "value": "2"
+        },
+        {
+         "groupId": "OG002",
+         "value": "2"
+        },
+        {
+         "groupId": "OG003",
+         "value": "1"
+        },
+        {
+         "groupId": "OG004",
+         "value": "19"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "1"
+      },
+      {
+       "groupId": "OG001",
+       "value": "2"
+      },
+      {
+       "groupId": "OG002",
+       "value": "2"
+      },
+      {
+       "groupId": "OG003",
+       "value": "1"
+      },
+      {
+       "groupId": "OG004",
+       "value": "21"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "An Adverse Event (AE) was defined as any unfavorable and unintended sign (including a clinically significant abnormal laboratory finding, for example), symptom, or disease temporally associated with the study or use of investigational drug product, whether or not the AE was considered to be related to the investigational drug product. TEAEs were AEs with a start date on or after the first dose of investigational product and started prior to the last dose of investigational product plus 14 days.",
+   "groups": [
+    {
+     "description": "Participants received LUM001 tablet orally once daily at a dose of 1 mg during Week 2 of the treatment period.",
+     "id": "OG000",
+     "title": "Maralixibat (LUM001) 1 mg"
+    },
+    {
+     "description": "Participants received LUM001 tablet orally once daily at a dose of 2.5 mg during Week 3 of the treatment period.",
+     "id": "OG001",
+     "title": "Maralixibat (LUM001) 2.5 mg"
+    },
+    {
+     "description": "Participants received LUM001 tablet orally once daily at a dose of 5 mg during Week 4 of the treatment period.",
+     "id": "OG002",
+     "title": "Maralixibat (LUM001) 5 mg"
+    },
+    {
+     "description": "Participants received LUM001 tablet orally once daily at a dose of 7.5 mg during Week 5 of the treatment period.",
+     "id": "OG003",
+     "title": "Maralixibat (LUM001) 7.5 mg"
+    },
+    {
+     "description": "Participants received LUM001 tablet orally once daily at a dose of 10 mg during Week 6 of the treatment period followed by stable dosing of 10 mg for 8 weeks.",
+     "id": "OG004",
+     "title": "Maralixibat (LUM001) 10 mg"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Safety population included all participants who received at least 1 dose of the investigational product.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "From start of study drug administration until Week 18",
+   "title": "Number of Participants With Treatment-Emergent Adverse Events (TEAEs)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "participant"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-27.251",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-2.432",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "6.0373",
+     "groupDescription": "Analysis was performed to compare baseline and endpoint data.",
+     "groupIds": [
+      "OG000"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+     "pValue": "0.0043",
+     "paramType": "Mean Difference (Net)",
+     "paramValue": "-14.841",
+     "statisticalMethod": "Wilcoxon's signed rank test"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "38.6614",
+         "value": "38.941"
+        }
+       ]
+      }
+     ],
+     "title": "Baseline"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "31.3709",
+         "value": "-14.841"
+        }
+       ]
+      }
+     ],
+     "title": "Change From Baseline"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "27"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Serum bile acid levels were evaluated using blood samples collected.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants received LUM001 tablet orally once daily at a dose of 0.5 milligram (mg) during Week 1; 1 mg during Week 2; 2.5 mg during Week 3; 5 mg during Week 4; 7.5 mg during Week 5; 10 mg during Week 6 followed by stable dosing of 10 mg for 8 weeks.",
+     "id": "OG000",
+     "title": "Maralixibat (LUM001)"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Modified intent-to-treat (mITT) population included all participants who received at least 1 dose of investigational product and had at least 1 post baseline serum bile acid laboratory assessment.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Week 14",
+   "title": "Change From Baseline in Fasting Serum Bile Acid Level at Week 14",
+   "type": "PRIMARY",
+   "unitOfMeasure": "micromoles per liter"
+  }
+ ]
+}

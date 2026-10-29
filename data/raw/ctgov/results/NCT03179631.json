@@ -1,0 +1,321 @@
+{
+ "nctId": "NCT03179631",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-9.53",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "26.05",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "9.064",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "OTHER",
+     "pValue": "= 0.3626",
+     "paramType": "LS Mean Difference",
+     "paramValue": "8.26",
+     "statisticalMethod": "Mixed Models Analysis"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "6.461",
+         "spread": "6.461",
+         "value": "-81.83"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "6.377",
+         "spread": "6.377",
+         "value": "-90.09"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "92"
+      },
+      {
+       "groupId": "OG001",
+       "value": "93"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The 6MWD test is a non-encouraged test performed in a 30 meters long flat corridor, where the participant is instructed to walk as far as possible, back and forth around two cones, with the permission to slow down, rest, or stop if needed. Ambulation was assessed via the 6MWD test following standardized procedures. Participants were not permitted to use assistive devices (walker, long leg braces, or short leg braces) during the 6MWD test. Participants with confirmed loss of ambulation at a particular visit were assigned a 6MWD result of 0. Baseline was defined as the maximum measurement of valid Day 1 and Day 2 6MWD values. Least square (LS) mean and standard error (SE) was calculated using the mixed-model repeated measures (MMRM).",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Participants received ataluren oral suspension 10 mg/kg in the morning, 10 mg/kg at midday, and 20 mg/kg in the evening each day for 72 weeks in DB treatment period and for an additional 72 weeks in OL treatment period.",
+     "id": "OG000",
+     "title": "Ataluren"
+    },
+    {
+     "description": "Participants received placebo matched to ataluren oral suspension for 72 weeks in DB treatment period. After completion of DB treatment period, participants received ataluren oral suspension 10 mg/kg in the morning, 10 mg/kg at midday, and 20 mg/kg in the evening each day for 72 weeks in OL treatment period.",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "The mITT population included all randomized participants who met the following additional criteria: 7 to 16 years old with 6MWD ≥300 meters and time to stand from supine ≥5 seconds at baseline.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Week 72",
+   "title": "DB Period: Change From Baseline in 6-Minute Walk Distance (6MWD) at Week 72 - Modified Intention-to-treat (mITT) Population",
+   "type": "PRIMARY",
+   "unitOfMeasure": "meters"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "1.83",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "27.01",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "6.420",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "OTHER",
+     "pValue": "= 0.0248",
+     "paramType": "LS Mean Difference",
+     "paramValue": "14.42",
+     "statisticalMethod": "Mixed Models Analysis"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "5.169",
+         "spread": "5.169",
+         "value": "-53.01"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "5.403",
+         "spread": "5.403",
+         "value": "-67.43"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "183"
+      },
+      {
+       "groupId": "OG001",
+       "value": "176"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The 6MWD test is a non-encouraged test performed in a 30 meters long flat corridor, where the participant is instructed to walk as far as possible, back and forth around two cones, with the permission to slow down, rest, or stop if needed. Ambulation was assessed via the 6MWD test following standardized procedures. Participants were not permitted to use assistive devices (walker, long leg braces, or short leg braces) during the 6MWD test. Participants with confirmed loss of ambulation at a particular visit were assigned a 6MWD result of 0. Baseline was defined as the maximum measurement of valid Day 1 and Day 2 6MWD values. LS mean and SE was calculated using the MMRM.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Participants received ataluren oral suspension 10 mg/kg in the morning, 10 mg/kg at midday, and 20 mg/kg in the evening each day for 72 weeks in DB treatment period and for an additional 72 weeks in OL treatment period.",
+     "id": "OG000",
+     "title": "Ataluren"
+    },
+    {
+     "description": "Participants received placebo matched to ataluren oral suspension for 72 weeks in DB treatment period. After completion of DB treatment period, participants received ataluren oral suspension 10 mg/kg in the morning, 10 mg/kg at midday, and 20 mg/kg in the evening each day for 72 weeks in OL treatment period.",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "The ITT population included all participants who were randomized, with treatment assignments designated according to initial randomization, regardless of whether participants received a different study treatment from the one randomized.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Week 72",
+   "title": "DB Period: Change From Baseline in 6MWD at Week 72 - Intent-to-Treat (ITT) Population",
+   "type": "PRIMARY",
+   "unitOfMeasure": "meters"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-0.13",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.36",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "0.126",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "OTHER",
+     "pValue": "= 0.3626",
+     "paramType": "LS Mean Difference",
+     "paramValue": "0.11",
+     "statisticalMethod": "Mixed Models Analysis"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "0.090",
+         "spread": "0.090",
+         "value": "-1.14"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "0.089",
+         "spread": "0.089",
+         "value": "-1.25"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "92"
+      },
+      {
+       "groupId": "OG001",
+       "value": "93"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The 6MWD test is a non-encouraged test performed in a 30 meters long flat corridor, where the participant is instructed to walk as far as possible, back and forth around two cones, with the permission to slow down, rest, or stop if needed. Ambulation was assessed via the 6MWD test following standardized procedures. Participants were not permitted to use assistive devices (walker, long leg braces, or short leg braces) during the 6MWD test. Participants with confirmed loss of ambulation at a particular visit were assigned a 6MWD result of 0. Baseline was defined as the maximum measurement of valid Day 1 and Day 2 6MWD values. LS mean and SE was calculated using the MMRM.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Participants received ataluren oral suspension 10 mg/kg in the morning, 10 mg/kg at midday, and 20 mg/kg in the evening each day for 72 weeks in DB treatment period and for an additional 72 weeks in OL treatment period.",
+     "id": "OG000",
+     "title": "Ataluren"
+    },
+    {
+     "description": "Participants received placebo matched to ataluren oral suspension for 72 weeks in DB treatment period. After completion of DB treatment period, participants received ataluren oral suspension 10 mg/kg in the morning, 10 mg/kg at midday, and 20 mg/kg in the evening each day for 72 weeks in OL treatment period.",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "The mITT population included all randomized participants who met the following additional criteria: 7 to 16 years old with 6MWD ≥300 meters and time to stand from supine ≥5 seconds at baseline.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Week 72",
+   "title": "DB Period: Average Rate of Change From Baseline in 6MWD at Week 72 - mITT Population",
+   "type": "PRIMARY",
+   "unitOfMeasure": "meters/week"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.03",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.38",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "0.089",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "OTHER",
+     "pValue": "= 0.0248",
+     "paramType": "LS Mean Difference",
+     "paramValue": "0.20",
+     "statisticalMethod": "Mixed Models Analysis"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "0.072",
+         "spread": "0.072",
+         "value": "-0.74"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "0.075",
+         "spread": "0.075",
+         "value": "-0.94"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "183"
+      },
+      {
+       "groupId": "OG001",
+       "value": "176"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The 6MWD test is a non-encouraged test performed in a 30 meters long flat corridor, where the participant is instructed to walk as far as possible, back and forth around two cones, with the permission to slow down, rest, or stop if needed. Ambulation was assessed via the 6MWD test following standardized procedures. Participants were not permitted to use assistive devices (walker, long leg braces, or short leg braces) during the 6MWD test. Participants with confirmed loss of ambulation at a particular visit were assigned a 6MWD result of 0. Baseline was defined as the maximum measurement of valid Day 1 and Day 2 6MWD values. LS mean and SE was calculated using the MMRM.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Participants received ataluren oral suspension 10 mg/kg in the morning, 10 mg/kg at midday, and 20 mg/kg in the evening each day for 72 weeks in DB treatment period and for an additional 72 weeks in OL treatment period.",
+     "id": "OG000",
+     "title": "Ataluren"
+    },
+    {
+     "description": "Participants received placebo matched to ataluren oral suspension for 72 weeks in DB treatment period. After completion of DB treatment period, participants received ataluren oral suspension 10 mg/kg in the morning, 10 mg/kg at midday, and 20 mg/kg in the evening each day for 72 weeks in OL treatment period.",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "The ITT population included all participants who were randomized, with treatment assignments designated according to initial randomization, regardless of whether participants received a different study treatment from the one randomized.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Week 72",
+   "title": "DB Period: Average Rate of Change From Baseline in 6MWD at Week 72 - ITT Population",
+   "type": "PRIMARY",
+   "unitOfMeasure": "meters/week"
+  }
+ ]
+}

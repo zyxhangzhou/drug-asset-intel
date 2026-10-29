@@ -1,0 +1,353 @@
+{
+ "nctId": "NCT00570687",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "20",
+         "upperLimit": "80",
+         "value": "75.0"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "45",
+         "upperLimit": "310",
+         "value": "75.0"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "80",
+         "upperLimit": "210",
+         "value": "125.0"
+        },
+        {
+         "groupId": "OG003",
+         "lowerLimit": "30",
+         "upperLimit": "460",
+         "value": "60"
+        },
+        {
+         "groupId": "OG004",
+         "lowerLimit": "80",
+         "upperLimit": "480",
+         "value": "160"
+        },
+        {
+         "groupId": "OG005",
+         "lowerLimit": "50",
+         "upperLimit": "350",
+         "value": "130"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "3"
+      },
+      {
+       "groupId": "OG001",
+       "value": "6"
+      },
+      {
+       "groupId": "OG002",
+       "value": "12"
+      },
+      {
+       "groupId": "OG003",
+       "value": "16"
+      },
+      {
+       "groupId": "OG004",
+       "value": "17"
+      },
+      {
+       "groupId": "OG005",
+       "value": "16"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Time to minimum EGP post dose",
+   "dispersionType": "Full Range",
+   "groups": [
+    {
+     "description": "2-way crossover study of 60 U or 90 U of Technosphere Insulin Inhalation Powder crossed with 10 U of subcutaneous insulin lispro",
+     "id": "OG000",
+     "title": "Amendment 1 - TI Inhalation Powder 90 U"
+    },
+    {
+     "description": "2-way crossover study of 60 U or 90 U of Technosphere Insulin Inhalation Powder crossed with 10 U of subcutaneous insulin lispro",
+     "id": "OG001",
+     "title": "Amendment 1 - TI Inhalation Powder 60U"
+    },
+    {
+     "description": "2-way crossover study of 60 U or 90 U of Technosphere Insulin Inhalation Powder crossed with 10 U of subcutaneous insulin lispro",
+     "id": "OG002",
+     "title": "Amendment 1 - Insulin Lispro 10 U"
+    },
+    {
+     "description": "3-way crossover study of 45 U of Technosphere Insulin Inhalation Powder, 4 mg of Exubera, and 12 U of subcutaneous insulin lispro",
+     "id": "OG003",
+     "title": "Original Protocol - TI Inhalation Powder 45 U"
+    },
+    {
+     "description": "3-way crossover study of 45 U of Technosphere Insulin Inhalation Powder, 4 mg of Exubera, and 12 U of subcutaneous insulin lispro",
+     "id": "OG004",
+     "title": "Original Protocol - Exubera 4 mg"
+    },
+    {
+     "description": "3-way crossover study of 45 U of Technosphere Insulin Inhalation Powder, 4 mg of Exubera, and 12 U of subcutaneous insulin lispro",
+     "id": "OG005",
+     "title": "Original Protocol - Insulin Lispro 12 U"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "Amendment 1: Subjects with type 2 diabetes; all received TI and were crossed over to lispro; 3 subjects in the 90 U TI group had insufficient data. Original protocol:Subjects with type 2 diabetes; all subjects received all doses; EGPmin could not be calculated for 1 subject for Exubera and 2 subjects for the other treatments.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "0-480 minutes",
+   "title": "Time to Minimum Endogenous Glucose Production (EGP) - Meal Challenge",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Minutes"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "4.394",
+         "value": "-10.29"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "1.584",
+         "value": "-6.92"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "2.018",
+         "value": "-7.11"
+        },
+        {
+         "groupId": "OG003",
+         "spread": "3.015",
+         "value": "-7.59"
+        },
+        {
+         "groupId": "OG004",
+         "spread": "2.962",
+         "value": "-7.86"
+        },
+        {
+         "groupId": "OG005",
+         "spread": "2.709",
+         "value": "-7.63"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "3"
+      },
+      {
+       "groupId": "OG001",
+       "value": "6"
+      },
+      {
+       "groupId": "OG002",
+       "value": "12"
+      },
+      {
+       "groupId": "OG003",
+       "value": "16"
+      },
+      {
+       "groupId": "OG004",
+       "value": "17"
+      },
+      {
+       "groupId": "OG005",
+       "value": "16"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Minimum calculated EGP per subject as change from baseline",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "2-way crossover study of 60 U or 90 U of Technosphere Insulin Inhalation Powder crossed with 10 U of subcutaneous insulin lispro",
+     "id": "OG000",
+     "title": "Amendment 1 - TI Inhalation Powder 90 U"
+    },
+    {
+     "description": "2-way crossover study of 60 U or 90 U of Technosphere Insulin Inhalation Powder crossed with 10 U of subcutaneous insulin lispro",
+     "id": "OG001",
+     "title": "Amendment 1 - TI Inhalation Powder 60U"
+    },
+    {
+     "description": "2-way crossover study of 60 U or 90 U of Technosphere Insulin Inhalation Powder crossed with 10 U of subcutaneous insulin lispro",
+     "id": "OG002",
+     "title": "Amendment 1 - Insulin Lispro 10 U"
+    },
+    {
+     "description": "3-way crossover study of 45 U of Technosphere Insulin Inhalation Powder, 4 mg of Exubera, and 12 U of subcutaneous insulin lispro",
+     "id": "OG003",
+     "title": "Original Protocol - TI Inhalation Powder 45 U"
+    },
+    {
+     "description": "3-way crossover study of 45 U of Technosphere Insulin Inhalation Powder, 4 mg of Exubera, and 12 U of subcutaneous insulin lispro",
+     "id": "OG004",
+     "title": "Original Protocol - Exubera 4 mg"
+    },
+    {
+     "description": "3-way crossover study of 45 U of Technosphere Insulin Inhalation Powder, 4 mg of Exubera, and 12 U of subcutaneous insulin lispro",
+     "id": "OG005",
+     "title": "Original Protocol - Insulin Lispro 12 U"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Amendment 1: Subjects with type 2 diabetes; all received TI and were crossed over to lispro; 3 subjects in the 90 U TI group had insufficient data. Original protocol:Subjects with type 2 diabetes; all subjects received all doses; EGPmin could not be calculated for 1 subject for Exubera and 2 subjects for the other treatments.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "0-480 minutes",
+   "title": "Minimum EGP - Meal Challenge",
+   "type": "PRIMARY",
+   "unitOfMeasure": "µmol/kg/min"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "266.2",
+         "value": "2272.8"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "498.3",
+         "value": "2108.7"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "674.5",
+         "value": "2190.9"
+        },
+        {
+         "groupId": "OG003",
+         "spread": "764.4",
+         "value": "2129.4"
+        },
+        {
+         "groupId": "OG004",
+         "spread": "845.1",
+         "value": "2488.3"
+        },
+        {
+         "groupId": "OG005",
+         "spread": "623.5",
+         "value": "1985.9"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "6"
+      },
+      {
+       "groupId": "OG001",
+       "value": "6"
+      },
+      {
+       "groupId": "OG002",
+       "value": "12"
+      },
+      {
+       "groupId": "OG003",
+       "value": "16"
+      },
+      {
+       "groupId": "OG004",
+       "value": "17"
+      },
+      {
+       "groupId": "OG005",
+       "value": "16"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "EGP area over the curve from 0 to 480 minutes postdose",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "2-way crossover study of 60 U or 90 U of Technosphere Insulin Inhalation Powder crossed with 10 U of subcutaneous insulin lispro",
+     "id": "OG000",
+     "title": "Amendment 1 - TI Inhalation Powder 90 U"
+    },
+    {
+     "description": "2-way crossover study of 60 U or 90 U of Technosphere Insulin Inhalation Powder crossed with 10 U of subcutaneous insulin lispro",
+     "id": "OG001",
+     "title": "Amendment 1 - TI Inhalation Powder 60U"
+    },
+    {
+     "description": "2-way crossover study of 60 U or 90 U of Technosphere Insulin Inhalation Powder crossed with 10 U of subcutaneous insulin lispro",
+     "id": "OG002",
+     "title": "Amendment 1 - Insulin Lispro 10 U"
+    },
+    {
+     "description": "3-way crossover study of 45 U of Technosphere Insulin Inhalation Powder, 4 mg of Exubera, and 12 U of subcutaneous insulin lispro",
+     "id": "OG003",
+     "title": "Original Protocol - TI Inhalation Powder 45 U"
+    },
+    {
+     "description": "3-way crossover study of 45 U of Technosphere Insulin Inhalation Powder, 4 mg of Exubera, and 12 U of subcutaneous insulin lispro",
+     "id": "OG004",
+     "title": "Original Protocol - Exubera 4 mg"
+    },
+    {
+     "description": "3-way crossover study of 45 U of Technosphere Insulin Inhalation Powder, 4 mg of Exubera, and 12 U of subcutaneous insulin lispro",
+     "id": "OG005",
+     "title": "Original Protocol - Insulin Lispro 12 U"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Amendment 1: Subjects with type 2 diabetes. All subjects crossed over to lispro treatment. Original protocol:Subjects with type 2 diabetes; all subjects received all doses; AOC could not be calculated for 1 subject for Exubera and 2 subjects for the other treatments.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "0-480 minutes",
+   "title": "EGP AOC0-480 - Meal Challenge",
+   "type": "PRIMARY",
+   "unitOfMeasure": "µmol/kg"
+  }
+ ]
+}

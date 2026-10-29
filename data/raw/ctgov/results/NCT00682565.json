@@ -1,0 +1,73 @@
+{
+ "nctId": "NCT00682565",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        },
+        {
+         "groupId": "OG002",
+         "value": "1"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "31"
+      },
+      {
+       "groupId": "OG001",
+       "value": "34"
+      },
+      {
+       "groupId": "OG002",
+       "value": "29"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The Modified Naughton Exercise Treadmill Test was employed in this study. Exercise Treadmill Test 3 (ETT-3) was performed during the last 2 hours of the 20-hour infusion of study drug or placebo. Baseline Exercise Treadmill Test (ETT-B) was performed prior to dosing.",
+   "groups": [
+    {
+     "description": "CK-1827452 20 hour infusion followed by 6 days three times a day oral dose and a final single oral dose",
+     "id": "OG000",
+     "title": "Mid Dose Active Drug"
+    },
+    {
+     "description": "CK-1827452 20 hour infusion followed by 6 days three times a day oral dose and a final single oral dose",
+     "id": "OG001",
+     "title": "High Dose Active Drug"
+    },
+    {
+     "description": "20 hour infusion followed by 6 days three times a day oral dose and a final single oral dose",
+     "id": "OG002",
+     "title": "All Placebo"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "The Safety ETT Population consists of all patients in the Randomized Population who received any study drug and who performed ETT-3.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "1 day",
+   "title": "Participants Stopping Exercise Treadmill Test 3 (ETT-3) for Angina at Stage Earlier Than Baseline Exercise Treadmill Test (ETT-B)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

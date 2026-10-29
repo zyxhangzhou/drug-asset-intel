@@ -1,0 +1,47 @@
+{
+ "nctId": "NCT05301894",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "2"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "19"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "A TEAE is an adverse event (AE) that was not present prior to the initiation of study treatment or was an already present condition that worsened either in intensity or frequency following the initiation of study treatment.",
+   "groups": [
+    {
+     "description": "NBI-827104 administered orally",
+     "id": "OG000",
+     "title": "NBI-827104"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "All enrolled participants who took at least 1 dose of NBI-827104.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to 884 days of treatment and 4-week safety follow-up (mean duration of exposure was 649.7 days)",
+   "title": "The Number of Participants With Serious Treatment-emergent Adverse Events (TEAEs)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "nctId": "NCT02715804",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "10.3",
+         "upperLimit": "12.3",
+         "value": "11.2"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "9.0",
+         "upperLimit": "12.5",
+         "value": "11.5"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "327"
+      },
+      {
+       "groupId": "OG001",
+       "value": "165"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Overall survival was defined as the time from randomization until death from any cause. Overall survival was analyzed using Kaplan-Meier methods.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants received 3.0 μg/kg PEGPH20 as an IV infusion, twice weekly for Weeks 1 to 3 of Cycle 1 (each cycle consisted of 4 weeks \\[Week 4 of every cycle was a rest week with no treatment\\]), then once weekly for Weeks 1 to 3 of Cycle 2 and beyond in combination with 125 mg/m\\^2 nab-paclitaxel as an IV infusion and 1000 mg/m\\^2 gemcitabine as an IV infusion, once weekly for Weeks 1 to 3 of all treatment cycles. Treatment was continued until disease progression, unacceptable toxicity, death, or withdrawal of consent (Maximum exposure: 150.1 weeks).",
+     "id": "OG000",
+     "title": "PAG: PEGPH20 + Nab-Paclitaxel + Gemcitabine"
+    },
+    {
+     "description": "Participants received placebo matching to PEGPH20 as an IV infusion, twice weekly for Weeks 1 to 3 of Cycle 1 (each cycle consisting of 4 weeks \\[Week 4 of every cycle will be a rest week with no treatment\\]), then once weekly for Weeks 1 to 3 of Cycle 2 and beyond in combination with 125 mg/m\\^2 nab-paclitaxel as an IV infusion and 1000 mg/m\\^2 gemcitabine as an IV infusion, once weekly for Weeks 1 to 3 of all treatment cycles. Treatment was continued until disease progression, unacceptable toxicity, death, or withdrawal of consent (Maximum exposure: 83.9 weeks).",
+     "id": "OG001",
+     "title": "AG: Placebo + Nab-Paclitaxel + Gemcitabine"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "ITT population included all randomized participants.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "From randomization until death from any cause (maximum exposure: 150.1 weeks for PAG, and 83.9 weeks for AG)",
+   "title": "Overall Survival",
+   "type": "PRIMARY",
+   "unitOfMeasure": "months"
+  }
+ ]
+}

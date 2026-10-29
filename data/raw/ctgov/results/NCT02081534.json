@@ -1,0 +1,149 @@
+{
+ "nctId": "NCT02081534",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "groupIds": [
+      "OG000",
+      "OG001",
+      "OG002",
+      "OG003",
+      "OG004",
+      "OG005",
+      "OG006"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.012",
+     "statisticalMethod": "ANCOVA"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "1.553",
+         "value": "-.47"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "1.391",
+         "value": "-1.18"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "2.018",
+         "value": "-1.7"
+        },
+        {
+         "groupId": "OG003",
+         "spread": "2.007",
+         "value": "-1.98"
+        },
+        {
+         "groupId": "OG004",
+         "spread": "1.763",
+         "value": "-.56"
+        },
+        {
+         "groupId": "OG005",
+         "spread": "1.469",
+         "value": "-1.11"
+        },
+        {
+         "groupId": "OG006",
+         "spread": "1.802",
+         "value": "-.54"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "23"
+      },
+      {
+       "groupId": "OG001",
+       "value": "21"
+      },
+      {
+       "groupId": "OG002",
+       "value": "23"
+      },
+      {
+       "groupId": "OG003",
+       "value": "24"
+      },
+      {
+       "groupId": "OG004",
+       "value": "22"
+      },
+      {
+       "groupId": "OG005",
+       "value": "21"
+      },
+      {
+       "groupId": "OG006",
+       "value": "26"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Change in serum phosphate levels from the end of wash out (pre randomization value) to end of treatment",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "1 mg AZD1722 bid\n\nAZD1722: tenapanor, oral tablet",
+     "id": "OG000",
+     "title": "1 mg Bid"
+    },
+    {
+     "description": "3 mg AZD1722 bid\n\nAZD1722: tenapanor, oral tablet",
+     "id": "OG001",
+     "title": "3 mg Bid"
+    },
+    {
+     "description": "10 mg AZD1722 bid\n\nAZD1722: tenapanor, oral tablet",
+     "id": "OG002",
+     "title": "10 mg Bid"
+    },
+    {
+     "description": "30 mg AZD1722 bid\n\nAZD1722: tenapanor, oral tablet",
+     "id": "OG003",
+     "title": "30 mg Bid"
+    },
+    {
+     "description": "3 mg AZD1722 od\n\nAZD1722: tenapanor, oral tablet",
+     "id": "OG004",
+     "title": "3 mg od"
+    },
+    {
+     "description": "30 mg AZD1722 od\n\nAZD1722: tenapanor, oral tablet",
+     "id": "OG005",
+     "title": "30 mg od"
+    },
+    {
+     "description": "Placebo (double dummy technique)\n\nPlacebo: Placebo bid, double dummy technique",
+     "id": "OG006",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "two patients in the 30 mg bid group are not included in the analysis since they had no post randomization serum phosphorus measurements",
+   "reportingStatus": "POSTED",
+   "timeFrame": "End of wash out (pre randomization value) to end of treatment (Day 29)",
+   "title": "Change in Serum Phosphate Levels",
+   "type": "PRIMARY",
+   "unitOfMeasure": "mg/dL"
+  }
+ ]
+}

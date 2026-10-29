@@ -1,0 +1,89 @@
+{
+ "nctId": "NCT03201757",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "314"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "523"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "groups": [
+    {
+     "description": "Coated bilayer tablet\n\nALKS 3831: Olanzapine + samidorphan, daily oral dosing",
+     "id": "OG000",
+     "title": "ALKS 3831"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "All enrolled participants who received at least 1 dose of study drug",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to 48 months",
+   "title": "Incidence of Adverse Events",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": ".651",
+         "value": "-.24"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "523"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The clinical global impression - severity scale (CGI-S) is a 7-point scale that requires the clinician to rate the severity of the patient's illness at the time of assessment, relative to the clinician's past experience with patients who have the same diagnosis; 1 being normal, not ill at all and 7 being among the severally ill patients",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Coated bilayer tablet\n\nALKS 3831: Olanzapine + samidorphan, daily oral dosing",
+     "id": "OG000",
+     "title": "ALKS 3831"
+    }
+   ],
+   "paramType": "MEAN",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to 48 months",
+   "title": "Change From Baseline in Clinical Global Impression-Severity (CGI-S) Scale",
+   "type": "PRIMARY",
+   "unitOfMeasure": "units on a scale"
+  }
+ ]
+}

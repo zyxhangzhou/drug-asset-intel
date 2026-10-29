@@ -1,0 +1,84 @@
+{
+ "nctId": "NCT03681184",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-62.314",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-44.778",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "4.3224",
+     "groupDescription": "The Mixed-Effect Model Repeated Measures (MMRM) includes fixed effects of treatment arms (lumasiran vs. placebo) and scheduled visits (months 3, 4, 5, and 6), baseline 24-hour urinary oxalate corrected for BSA as a continuous fixed covariate, and patient as a random effect. The variance-covariance matrix is assumed to be unstructured. Satterthwaite approximation is used to estimate denominator degrees of freedom.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<0.0001",
+     "pValueComment": "P=1.685E-14",
+     "paramType": "Difference in Least Squares (LS) Mean",
+     "paramValue": "-53.546",
+     "statisticalMethod": "MMRM"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "3.8",
+         "value": "-11.8"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "2.9",
+         "value": "-65.4"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "13"
+      },
+      {
+       "groupId": "OG001",
+       "value": "26"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Percent change in 24-hour urinary oxalate excretion corrected for BSA was estimated by an average percent change from baseline across Months 3 through 6. Only valid urine samples without any non-protocol-related issues were included in the analysis. A negative change from Baseline indicates a favorable outcome.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Lumasiran-matching placebo was administered SC at Day 1 and Months 1, 2 and 3 during the 6-Month DB Period, followed by lumasiran SC, 3.0 mg/kg, at Months 6, 7 and 8 during the 3-Month Blinded Treatment Extension Period, followed by lumasiran SC, 3.0 mg/kg, at Month 9 and then every three months during the 51-Month OLE period.",
+     "id": "OG000",
+     "title": "Placebo/Lumasiran"
+    },
+    {
+     "description": "Lumasiran was administered SC, 3.0 mg/kg, at Day 1 and Months 1, 2 and 3 during the 6-Month DB Period, followed by lumasiran SC, 3.0 mg/kg at Month 6, and lumasiran-matching placebo SC at Months 7 and 8 during the 3-Month Blinded Treatment Extension Period, followed by lumasiran SC, 3.0 mg/kg, at Month 9 and then every three months during the 51-Month OLE period.",
+     "id": "OG001",
+     "title": "Lumasiran/Lumasiran"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "FAS: All randomized participants who received any amount of study drug.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline to Month 6",
+   "title": "Percent Change in 24-hour Urinary Oxalate Excretion Corrected for Body Surface Area (BSA) From Baseline to Month 6",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percent change"
+  }
+ ]
+}

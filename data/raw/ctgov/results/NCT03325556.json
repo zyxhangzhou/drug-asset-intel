@@ -1,0 +1,88 @@
+{
+ "nctId": "NCT03325556",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.172",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.727",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "0.3676",
+     "estimateComment": "Model included covariates for Treatment group, dementia subtype, and region, and robust sandwich-type variance estimator.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0023",
+     "pValueComment": "1-sided p-value reported. The protocol-defined O'Brien Flemming stopping boundary for the planned IA was a 1-sided p-value equal to 0.0033",
+     "paramType": "Hazard Ratio (HR)",
+     "paramValue": "0.353",
+     "statisticalMethod": "Regression, Cox"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "comment": "The median time to relapse could not be estimated as the Kaplan-Meier probability estimate of relapse over the 26-week DB period did not exceed 50%.",
+         "groupId": "OG000",
+         "lowerLimit": "NA",
+         "upperLimit": "NA",
+         "value": "NA"
+        },
+        {
+         "comment": "The median time to relapse could not be estimated as the Kaplan-Meier probability estimate of relapse over the 26-week DB period did not exceed 50%.",
+         "groupId": "OG001",
+         "lowerLimit": "NA",
+         "upperLimit": "NA",
+         "value": "NA"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "95"
+      },
+      {
+       "groupId": "OG001",
+       "value": "99"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The time from randomization to relapse in the DB period was compared between treatment groups using a Cox regression model. The treatment effect was measured by the hazard ratio (HR).\n\nRelapse was defined as (1) ≥30% increase in SAPS-H+D total score from DB baseline (BL) and CGI-I score ≥6 relative to DB BL, (2) treatment with antipsychotic for dementia-related delusions/hallucinations, (3) treatment/study discontinuation due to lack of efficacy, and/or (4) hospitalization for worsening dementia-related psychosis.\n\nSAPS-H+D is a 20-item scale; the total score is the sum of the 20 item scores (range 0-100); higher scores denote more severe symptoms. CGI-I is a clinician-rated 7-point scale to rate improvement in hallucinations/delusions relative to BL (range 1-7); higher scores denote less improvement or worsening.\n\nA pre-specified IA was conducted after accrual of 40 adjudicated relapse events. The prespecified stopping criterion was met; the study was stopped for efficacy.",
+   "dispersionType": "Full Range",
+   "groups": [
+    {
+     "description": "Pimavanserin 34 mg once daily or pimavanserin 20 mg once daily (the dose at which patients completed the Open-Label Period) for 26 weeks or until relapse",
+     "id": "OG000",
+     "title": "Pimavanserin Double-Blind Period"
+    },
+    {
+     "description": "Placebo once daily for 26 weeks or until relapse",
+     "id": "OG001",
+     "title": "Placebo Double-Blind Period"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "All patients randomized on or before the database cutoff date for the IA (i.e., when 40 adjudicated relapse events had accrued).",
+   "reportingStatus": "POSTED",
+   "timeFrame": "From randomization in the DB period through 26 weeks",
+   "title": "Time From Randomization to Relapse in the Double-blind (DB) Period",
+   "type": "PRIMARY",
+   "unitOfMeasure": "days"
+  }
+ ]
+}

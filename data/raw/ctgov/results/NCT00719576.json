@@ -1,0 +1,96 @@
+{
+ "nctId": "NCT00719576",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "groupDescription": "The changes from Baseline to Week 104 in KOOS Pain and Function (SRA) scores (co-primary efficacy parameter) were analyzed with a multivariate analysis of variance (MANOVA) model, with the last observation carried forward (LOCF) method for handling missing data. Terms included in the model are treatment and center as class variables and baseline KOOS pain and Function (SRA) as continuous covariates.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityComment": "The Wilks lambda test statistic and associated single P value from the MANOVA model were used to test the statistical significance of the difference in the co-primary endpoint between MACI and microfracture.",
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.001",
+     "statisticalMethod": "MANOVA"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "21.08",
+         "value": "45.45"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "23.91",
+         "value": "35.23"
+        }
+       ]
+      }
+     ],
+     "title": "Change from Baseline KOOS Pain"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "28.35",
+         "value": "46.04"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "31.63",
+         "value": "35.83"
+        }
+       ]
+      }
+     ],
+     "title": "Change from Baseline KOOS Function"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "72"
+      },
+      {
+       "groupId": "OG001",
+       "value": "72"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The KOOS is a validated knee-specific instrument developed to assess the patients' opinion of their knee and associated problems. KOOS consists of 5 subscales: Pain, Function in sports and recreational activities, other Symptoms, Function in activities of daily living (ADL), and knee related Quality of life (QOL). A 5-point Likert scale was used to record the response to each item ranging from 0 (no problems) to 4 (extreme problems). Within each subscale, items were added up and normalized to a value between 0 (extreme problems) and 100 (no problems). Subscales are not combined to calculate a total score.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "autologous cultured chondrocytes on porcine collagen membrane",
+     "id": "OG000",
+     "title": "MACI"
+    },
+    {
+     "description": "Microfracture\n\nMicrofracture: Microfracture",
+     "id": "OG001",
+     "title": "Microfracture"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "All randomized patients",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline and Week 104",
+   "title": "Change From Baseline to Week 104 for the Participant's Knee Injury and Osteoarthritis Outcome Score (KOOS) Pain and Function (Sports and Recreational Activities) Scores.",
+   "type": "PRIMARY",
+   "unitOfMeasure": "units on a scale"
+  }
+ ]
+}

@@ -1,0 +1,116 @@
+{
+ "nctId": "NCT05139810",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.107",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.351",
+     "estimateComment": "Model adjusted rate ratio from Poisson regression model.",
+     "groupDescription": "The Poisson regression model includes treatment groups, baseline (the run-in period HAE attack rate), the treatment-by-baseline interaction as a covariate, and the logarithm of time in every-4-week that each participant was observed from Week 1 to Week 25 used as an offset variable. Pearson chi-square scaling of standard errors was used to account for potential over dispersion.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<0.001",
+     "paramType": "IC HAE attack rate ratio",
+     "paramValue": "0.19",
+     "statisticalMethod": "Poisson regression model"
+    },
+    {
+     "ciLowerLimit": "0.261",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.777",
+     "estimateComment": "Model adjusted rate ratio from Poisson regression model.",
+     "groupDescription": "The Poisson regression model includes treatment groups, baseline (the run-in period HAE attack rate), the treatment-by-baseline interaction as a covariate, and the logarithm of time in every-4-week that each participant was observed from Week 1 to Week 25 used as an offset variable. Pearson chi-square scaling of standard errors was used in the Poisson regression model to account for potential overdispersion.",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "=0.004",
+     "paramType": "IC HAE attack rate ratio",
+     "paramValue": "0.45",
+     "statisticalMethod": "Poisson regression model"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "1.657",
+         "upperLimit": "3.085",
+         "value": "2.26"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "0.265",
+         "upperLimit": "0.727",
+         "value": "0.44"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "0.651",
+         "upperLimit": "1.594",
+         "value": "1.02"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "22"
+      },
+      {
+       "groupId": "OG001",
+       "value": "45"
+      },
+      {
+       "groupId": "OG002",
+       "value": "23"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The time-adjusted HAE attack rate was calculated as number of IC HAE attacks occurring from Week 1 to Week 25, divided by the number of days the participant contributed to the period multiplied by 28 days. An HAE attack was defined as an event with signs or symptoms consistent with an attack in at least 1 of the locations: peripheral angioedema (cutaneous swelling involving an extremity, the face, neck, torso, and/or genitourinary region), abdominal angioedema (abdominal pain, with or without abdominal distention, nausea, vomiting, or diarrhea), laryngeal angioedema (stridor, dyspnea, difficulty speaking, difficulty swallowing, throat tightening, or swelling of the tongue, palate, uvula, or larynx).",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants with hereditary angioedema type I/type II (HAE-1/HAE-2) received placebo subcutaneously (SC) either every 4 weeks (Week 1, 5, 9, 13,17, and 21) or 8 weeks (Week 1, 9, and 17).",
+     "id": "OG000",
+     "title": "Pooled Placebo"
+    },
+    {
+     "description": "Participants with HAE-1/HAE-2 received donidalorsen, 80 mg, SC, every 4 weeks at Weeks 1, 5, 9, 13, 17, and 21.",
+     "id": "OG001",
+     "title": "Cohort A: Donidalorsen 80 mg"
+    },
+    {
+     "description": "Participants with HAE-1/HAE-2 received donidalorsen, 80 mg, SC, every 8 weeks at Weeks 1, 9, and 17.",
+     "id": "OG002",
+     "title": "Cohort B: Donidalorsen 80 mg"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "The FAS included all randomized participants who received at least 1 dose of the study drug (donidalorsen or placebo). As pre-specified in the protocol and statistical analysis plan, for purposes of analysis, data for placebo participants from Cohort A and Cohort B was pooled for comparison to donidalorsen treated participants.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Week 1 to Week 25",
+   "title": "Time-Normalized Investigator-Confirmed (IC) HAE Attack Rate (Per Month) From Week 1 to Week 25",
+   "type": "PRIMARY",
+   "unitOfMeasure": "HAE attacks per month"
+  }
+ ]
+}

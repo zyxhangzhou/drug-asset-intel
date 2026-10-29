@@ -1,0 +1,3455 @@
+{
+ "nctId": "NCT02485938",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "TIMI 0-2"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Sudden unexpected death"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "MACE"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "12"
+      },
+      {
+       "groupId": "OG001",
+       "value": "13"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Adjudicated Events reported included: New thrombolysis in myocardial infarction (TIMI) flow 0-2 or TIMI myocardial perfusion grade (TMPG) 0-2noted immediately following infusion and persisting greater than (\\>) 3 minutes, despite intracoronary vasodilator administration; sudden unexpected death within 72 hours of intracoronary infusion; and Major adverse cardiac event (MACE) within 72 hours of intracoronary infusion, including death, non-fatal myocardial infarction and hospitalization for cardiovascular event (including heart failure hospitalizations).",
+   "groups": [
+    {
+     "description": "Participants randomized to receive usual care continued to be cared for and treated in the manner the investigator deemed most appropriate for the participant on an ongoing basis and received no infusion.",
+     "id": "OG000",
+     "title": "Usual Care"
+    },
+    {
+     "description": "Participants received an intended total dose of 75 million (M) cardiosphere-derived cells (CDCs) infused as 25M cells into each of the three main coronary arteries supplying the anterior, lateral and inferior/posterior cardiac territories during a single, intracoronary procedure on Day 0 and were followed up for 12 months post-infusion.",
+     "id": "OG001",
+     "title": "CAP-1002"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Analysis was performed on safety population that included all participants who received CAP-1002 treatment on Day 0 and all participants in the usual care treatment group who remained in study as of the reference time point. Participants were summarized and analyzed per treatment actually received, regardless of their randomization assignment.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Within 72 hours post-infusion",
+   "title": "Number of Participants Experiencing Any of the Adjudicated Events",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "10"
+        },
+        {
+         "groupId": "OG001",
+         "value": "12"
+        }
+       ]
+      }
+     ],
+     "title": "TEAEs"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1"
+        },
+        {
+         "groupId": "OG001",
+         "value": "3"
+        }
+       ]
+      }
+     ],
+     "title": "SAEs"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "12"
+      },
+      {
+       "groupId": "OG001",
+       "value": "13"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "An Adverse Event (AE) was any untoward medical occurrence in a participant administered a pharmaceutical product and which did not necessarily had to have causal relationship with treatment. TEAEs were defined as AEs that occurred or worsened in severity between the first dose of the investigational medicinal product (IMP) until the end of study. An SAE was any untoward medical occurrence that at any dose: resulted in death, was life-threatening, required inpatient hospitalisation or prolongation of existing hospitalisation, resulted in persistent or significant disability/incapacity, was a congenital anomaly/birth defect, was a medically important event.",
+   "groups": [
+    {
+     "description": "Participants randomized to receive usual care continued to be cared for and treated in the manner the investigator deemed most appropriate for the participant on an ongoing basis and received no infusion.",
+     "id": "OG000",
+     "title": "Usual Care"
+    },
+    {
+     "description": "Participants received an intended total dose of 75 million (M) cardiosphere-derived cells (CDCs) infused as 25M cells into each of the three main coronary arteries supplying the anterior, lateral and inferior/posterior cardiac territories during a single, intracoronary procedure on Day 0 and were followed up for 12 months post-infusion.",
+     "id": "OG001",
+     "title": "CAP-1002"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Analysis was performed on safety population.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to Month 12 post-infusion",
+   "title": "Number of Participants With Treatment-emergent Adverse Events (TEAEs) and Serious Adverse Events (SAEs)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "2.54",
+         "value": "100.9"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "3.52",
+         "value": "102.7"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "12"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Chloride: Baseline"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "2.46",
+         "value": "-0.4"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "4.09",
+         "value": "-0.8"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "11"
+        },
+        {
+         "groupId": "OG001",
+         "value": "12"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Chloride: Change at Month 6"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "2.53",
+         "value": "0.2"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "3.95",
+         "value": "-0.9"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "10"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Chloride: Change at Month 12"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.252",
+         "value": "4.28"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.356",
+         "value": "4.00"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "12"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Potassium: Baseline"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.342",
+         "value": "-0.15"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.286",
+         "value": "0.22"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "11"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Potassium: Change at Month 6"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.531",
+         "value": "-0.08"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.362",
+         "value": "0.31"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "10"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Potassium: Change at Month 12"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "2.23",
+         "value": "138.7"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "2.51",
+         "value": "140.2"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "12"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Sodium: Baseline"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "2.90",
+         "value": "-0.3"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "3.15",
+         "value": "-1.5"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "11"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Sodium: Change at Month 6"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "1.83",
+         "value": "0.3"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "2.83",
+         "value": "-1.2"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "10"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Sodium: Change at Month 12"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "12"
+      },
+      {
+       "groupId": "OG001",
+       "value": "13"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Clinical chemistry parameters assessed were chloride, potassium and sodium.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants randomized to receive usual care continued to be cared for and treated in the manner the investigator deemed most appropriate for the participant on an ongoing basis and received no infusion.",
+     "id": "OG000",
+     "title": "Usual Care"
+    },
+    {
+     "description": "Participants received an intended total dose of 75 million (M) cardiosphere-derived cells (CDCs) infused as 25M cells into each of the three main coronary arteries supplying the anterior, lateral and inferior/posterior cardiac territories during a single, intracoronary procedure on Day 0 and were followed up for 12 months post-infusion.",
+     "id": "OG001",
+     "title": "CAP-1002"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Analysis was performed on safety population. Here, 'number analyzed' = participants with available data for each specified category.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Month 6 and Month 12",
+   "title": "Change From Baseline in Clinical Laboratory Parameters (Chloride, Potassium and Sodium) at Month 6 and Month 12",
+   "type": "PRIMARY",
+   "unitOfMeasure": "millimoles per liter (mmol/L)"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.266",
+         "value": "4.48"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.417",
+         "value": "3.87"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "12"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Baseline"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.181",
+         "value": "-0.09"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.500",
+         "value": "0.36"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "11"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Change at Month 6"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.199",
+         "value": "-0.02"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.402",
+         "value": "0.32"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "10"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Change at Month 12"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "12"
+      },
+      {
+       "groupId": "OG001",
+       "value": "13"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Clinical chemistry parameter assessed was albumin.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants randomized to receive usual care continued to be cared for and treated in the manner the investigator deemed most appropriate for the participant on an ongoing basis and received no infusion.",
+     "id": "OG000",
+     "title": "Usual Care"
+    },
+    {
+     "description": "Participants received an intended total dose of 75 million (M) cardiosphere-derived cells (CDCs) infused as 25M cells into each of the three main coronary arteries supplying the anterior, lateral and inferior/posterior cardiac territories during a single, intracoronary procedure on Day 0 and were followed up for 12 months post-infusion.",
+     "id": "OG001",
+     "title": "CAP-1002"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Analysis was performed on safety population. Here, 'number analyzed' = participants with available data for each specified category.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Month 6 and Month 12",
+   "title": "Change From Baseline in Clinical Laboratory Parameter - Albumin at Month 6 and Month 12",
+   "type": "PRIMARY",
+   "unitOfMeasure": "grams per deciliter"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "8.20",
+         "value": "87.1"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "9.58",
+         "value": "89.5"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "12"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Baseline"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "13.78",
+         "value": "2.1"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "20.56",
+         "value": "12.3"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "11"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Change at Month 6"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "12.44",
+         "value": "-4.1"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "15.00",
+         "value": "6.8"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "10"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Change at Month 12"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "12"
+      },
+      {
+       "groupId": "OG001",
+       "value": "13"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Clinical chemistry parameter assessed was glucose.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants randomized to receive usual care continued to be cared for and treated in the manner the investigator deemed most appropriate for the participant on an ongoing basis and received no infusion.",
+     "id": "OG000",
+     "title": "Usual Care"
+    },
+    {
+     "description": "Participants received an intended total dose of 75 million (M) cardiosphere-derived cells (CDCs) infused as 25M cells into each of the three main coronary arteries supplying the anterior, lateral and inferior/posterior cardiac territories during a single, intracoronary procedure on Day 0 and were followed up for 12 months post-infusion.",
+     "id": "OG001",
+     "title": "CAP-1002"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Analysis was performed on safety population. Here, 'number analyzed' = participants with available data for each specified category.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Month 6 and Month 12",
+   "title": "Change From Baseline in Clinical Laboratory Parameter - Glucose at Month 6 and Month 12",
+   "type": "PRIMARY",
+   "unitOfMeasure": "milligrams per deciliter"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "68.36",
+         "value": "357.9"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "53.63",
+         "value": "318.6"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "12"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Platelets: Baseline"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "51.25",
+         "value": "-24.5"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "45.39",
+         "value": "40.4"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "11"
+        },
+        {
+         "groupId": "OG001",
+         "value": "12"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Platelets: Change at Month 6"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "45.72",
+         "value": "-26.0"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "43.10",
+         "value": "24.0"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "9"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Platelets: Change at Month 12"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "3.001",
+         "value": "9.83"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "3.947",
+         "value": "10.57"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "12"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "White Blood Cells: Baseline"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "4.010",
+         "value": "1.11"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "2.606",
+         "value": "0.81"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "11"
+        },
+        {
+         "groupId": "OG001",
+         "value": "12"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "White Blood Cells: Change at Month 6"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "2.348",
+         "value": "0.42"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "1.556",
+         "value": "-0.28"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "9"
+        },
+        {
+         "groupId": "OG001",
+         "value": "12"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "White Blood Cells: Change at Month 12"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.0218",
+         "value": "0.033"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.1052",
+         "value": "0.060"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "12"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Basophils: Baseline"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.0196",
+         "value": "-0.004"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.1064",
+         "value": "-0.033"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "11"
+        },
+        {
+         "groupId": "OG001",
+         "value": "12"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Basophils: Change at Month 6"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.0264",
+         "value": "0.012"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.1197",
+         "value": "-0.040"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "9"
+        },
+        {
+         "groupId": "OG001",
+         "value": "12"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Basophils: Change at Month 12"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.1154",
+         "value": "0.136"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.1848",
+         "value": "0.171"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "12"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Eosinophils: Baseline"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.1296",
+         "value": "-0.005"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.1515",
+         "value": "-0.073"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "11"
+        },
+        {
+         "groupId": "OG001",
+         "value": "12"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Eosinophils: Change at Month 6"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.1742",
+         "value": "0.067"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.1366",
+         "value": "-0.078"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "9"
+        },
+        {
+         "groupId": "OG001",
+         "value": "12"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Eosinophils: Change at Month 12"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "1.0429",
+         "value": "2.793"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "1.5423",
+         "value": "3.381"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "12"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Lymphocytes: Baseline"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "1.1509",
+         "value": "-0.595"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "1.9381",
+         "value": "-0.918"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "11"
+        },
+        {
+         "groupId": "OG001",
+         "value": "12"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Lymphocytes: Change at Month 6"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "1.5711",
+         "value": "0.771"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "1.5501",
+         "value": "-0.393"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "9"
+        },
+        {
+         "groupId": "OG001",
+         "value": "12"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Lymphocytes: Change at Month 12"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.1707",
+         "value": "0.413"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.2608",
+         "value": "0.705"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "12"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Monocytes: Baseline"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.2248",
+         "value": "-0.082"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.4337",
+         "value": "-0.273"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "11"
+        },
+        {
+         "groupId": "OG001",
+         "value": "12"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Monocytes: Change at Month 6"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.2036",
+         "value": "0.009"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.3238",
+         "value": "-0.284"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "9"
+        },
+        {
+         "groupId": "OG001",
+         "value": "12"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Monocytes: Change at Month 12"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "2.7169",
+         "value": "6.475"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "2.9121",
+         "value": "6.198"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "12"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Neutrophils: Baseline"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "4.2366",
+         "value": "1.783"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "3.4484",
+         "value": "2.153"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "11"
+        },
+        {
+         "groupId": "OG001",
+         "value": "12"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Neutrophils: Change at Month 6"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "2.5038",
+         "value": "-0.451"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "1.9689",
+         "value": "0.566"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "9"
+        },
+        {
+         "groupId": "OG001",
+         "value": "12"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Neutrophils: Change at Month 12"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "12"
+      },
+      {
+       "groupId": "OG001",
+       "value": "13"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Hematological parameters assessed were: platelets, white blood cells, basophils, eosinophils, lymphocytes, monocytes and neutrophils.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants randomized to receive usual care continued to be cared for and treated in the manner the investigator deemed most appropriate for the participant on an ongoing basis and received no infusion.",
+     "id": "OG000",
+     "title": "Usual Care"
+    },
+    {
+     "description": "Participants received an intended total dose of 75 million (M) cardiosphere-derived cells (CDCs) infused as 25M cells into each of the three main coronary arteries supplying the anterior, lateral and inferior/posterior cardiac territories during a single, intracoronary procedure on Day 0 and were followed up for 12 months post-infusion.",
+     "id": "OG001",
+     "title": "CAP-1002"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Analysis was performed on safety population. Here, 'number analyzed' = participants with available data for each specified category.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Month 6 and Month 12",
+   "title": "Change From Baseline in Hematological Parameters (Platelets, White Blood Cells, Basophils, Eosinophils, Lymphocytes, Monocytes and Neutrophils) at Month 6 and Month 12",
+   "type": "PRIMARY",
+   "unitOfMeasure": "10^3 cells per microliter"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.651",
+         "value": "14.48"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "1.254",
+         "value": "13.76"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "12"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Baseline"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "1.054",
+         "value": "-0.05"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.458",
+         "value": "0.05"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "11"
+        },
+        {
+         "groupId": "OG001",
+         "value": "12"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Change at Month 6"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "1.288",
+         "value": "-0.13"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.808",
+         "value": "0.29"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "9"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Change at Month 12"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "12"
+      },
+      {
+       "groupId": "OG001",
+       "value": "13"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Hematological parameter assessed was hemoglobin.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants randomized to receive usual care continued to be cared for and treated in the manner the investigator deemed most appropriate for the participant on an ongoing basis and received no infusion.",
+     "id": "OG000",
+     "title": "Usual Care"
+    },
+    {
+     "description": "Participants received an intended total dose of 75 million (M) cardiosphere-derived cells (CDCs) infused as 25M cells into each of the three main coronary arteries supplying the anterior, lateral and inferior/posterior cardiac territories during a single, intracoronary procedure on Day 0 and were followed up for 12 months post-infusion.",
+     "id": "OG001",
+     "title": "CAP-1002"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Analysis was performed on safety population. Here, 'number analyzed' = participants with available data for each specified category.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Month 6 and Month 12",
+   "title": "Change From Baseline in Hematological Parameter - Hemoglobin at Month 6 and Month 12",
+   "type": "PRIMARY",
+   "unitOfMeasure": "grams per deciliter"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.309",
+         "value": "5.01"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.414",
+         "value": "4.68"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "12"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Baseline"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.372",
+         "value": "-0.05"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.286",
+         "value": "0.20"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "11"
+        },
+        {
+         "groupId": "OG001",
+         "value": "12"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Change at Month 6"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.415",
+         "value": "-0.07"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.340",
+         "value": "0.23"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "9"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Change at Month 12"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "12"
+      },
+      {
+       "groupId": "OG001",
+       "value": "13"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Hematological parameter assessed was red blood cells.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants randomized to receive usual care continued to be cared for and treated in the manner the investigator deemed most appropriate for the participant on an ongoing basis and received no infusion.",
+     "id": "OG000",
+     "title": "Usual Care"
+    },
+    {
+     "description": "Participants received an intended total dose of 75 million (M) cardiosphere-derived cells (CDCs) infused as 25M cells into each of the three main coronary arteries supplying the anterior, lateral and inferior/posterior cardiac territories during a single, intracoronary procedure on Day 0 and were followed up for 12 months post-infusion.",
+     "id": "OG001",
+     "title": "CAP-1002"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Analysis was performed on safety population. Here, 'number analyzed' = participants with available data for each specified category.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Month 6 and Month 12",
+   "title": "Change From Baseline in Hematological Parameter - Red Blood Cells at Month 6 and Month 12",
+   "type": "PRIMARY",
+   "unitOfMeasure": "10^6 cells per microliter"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "12.29",
+         "value": "111.3"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "12.72",
+         "value": "113.7"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "12"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Systolic Blood Pressure: Baseline"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "18.70",
+         "value": "2.3"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "11.98",
+         "value": "-2.1"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "11"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Systolic Blood Pressure: Change at Month 6"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "9.66",
+         "value": "-0.3"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "17.67",
+         "value": "2.8"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "10"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Systolic Blood Pressure: Change at Month 12"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "11.92",
+         "value": "65.9"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "14.12",
+         "value": "66.7"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "12"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Diastolic Blood Pressure: Baseline"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "10.49",
+         "value": "-0.3"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "14.52",
+         "value": "0.1"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "11"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Diastolic Blood Pressure: Change at Month 6"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "8.92",
+         "value": "3.5"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "14.79",
+         "value": "1.5"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "10"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Diastolic Blood Pressure: Change at Month 12"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "12"
+      },
+      {
+       "groupId": "OG001",
+       "value": "13"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Vital signs assessed were systolic and diastolic blood pressure.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants randomized to receive usual care continued to be cared for and treated in the manner the investigator deemed most appropriate for the participant on an ongoing basis and received no infusion.",
+     "id": "OG000",
+     "title": "Usual Care"
+    },
+    {
+     "description": "Participants received an intended total dose of 75 million (M) cardiosphere-derived cells (CDCs) infused as 25M cells into each of the three main coronary arteries supplying the anterior, lateral and inferior/posterior cardiac territories during a single, intracoronary procedure on Day 0 and were followed up for 12 months post-infusion.",
+     "id": "OG001",
+     "title": "CAP-1002"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Analysis was performed on safety population. Here, 'number analyzed' = participants with available data for each specified category.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Month 6 and Month 12",
+   "title": "Change From Baseline in Vital Signs - Blood Pressure at Month 6 and Month 12",
+   "type": "PRIMARY",
+   "unitOfMeasure": "millimeters of mercury"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "9.18",
+         "value": "90.8"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "14.71",
+         "value": "87.1"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "12"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Baseline"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "13.42",
+         "value": "-3.0"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "12.43",
+         "value": "4.8"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "11"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Change at Month 6"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "13.39",
+         "value": "-0.2"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "11.24",
+         "value": "4.4"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "10"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Change at Month 12"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "12"
+      },
+      {
+       "groupId": "OG001",
+       "value": "13"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Vital signs assessed was heart rate.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants randomized to receive usual care continued to be cared for and treated in the manner the investigator deemed most appropriate for the participant on an ongoing basis and received no infusion.",
+     "id": "OG000",
+     "title": "Usual Care"
+    },
+    {
+     "description": "Participants received an intended total dose of 75 million (M) cardiosphere-derived cells (CDCs) infused as 25M cells into each of the three main coronary arteries supplying the anterior, lateral and inferior/posterior cardiac territories during a single, intracoronary procedure on Day 0 and were followed up for 12 months post-infusion.",
+     "id": "OG001",
+     "title": "CAP-1002"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Analysis was performed on safety population. Here, 'number analyzed' = participants with available data for each specified category.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Month 6 and Month 12",
+   "title": "Change From Baseline in Vital Signs - Heart Rate at Month 6 and Month 12",
+   "type": "PRIMARY",
+   "unitOfMeasure": "beats per minute"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "2.27",
+         "value": "17.3"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "2.81",
+         "value": "16.3"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "12"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Baseline"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "1.75",
+         "value": "-0.5"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "3.71",
+         "value": "0.3"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "11"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Change at Month 6"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "2.00",
+         "value": "0.0"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "4.21",
+         "value": "0.8"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "10"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Change at Month 12"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "12"
+      },
+      {
+       "groupId": "OG001",
+       "value": "13"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Vital signs assessed was respiratory rate.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants randomized to receive usual care continued to be cared for and treated in the manner the investigator deemed most appropriate for the participant on an ongoing basis and received no infusion.",
+     "id": "OG000",
+     "title": "Usual Care"
+    },
+    {
+     "description": "Participants received an intended total dose of 75 million (M) cardiosphere-derived cells (CDCs) infused as 25M cells into each of the three main coronary arteries supplying the anterior, lateral and inferior/posterior cardiac territories during a single, intracoronary procedure on Day 0 and were followed up for 12 months post-infusion.",
+     "id": "OG001",
+     "title": "CAP-1002"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Analysis was performed on safety population. Here, 'number analyzed' = participants with available data for each specified category.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Month 6 and Month 12",
+   "title": "Change From Baseline in Vital Signs - Respiratory Rate at Month 6 and Month 12",
+   "type": "PRIMARY",
+   "unitOfMeasure": "breaths per minute"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.362",
+         "value": "36.79"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.360",
+         "value": "36.68"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "11"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Baseline"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.490",
+         "value": "-0.13"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.545",
+         "value": "0.18"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "10"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Change at Month 6"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.276",
+         "value": "-0.09"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.609",
+         "value": "0.05"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "9"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Change at Month 12"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "12"
+      },
+      {
+       "groupId": "OG001",
+       "value": "13"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Vital signs assessed was temperature.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants randomized to receive usual care continued to be cared for and treated in the manner the investigator deemed most appropriate for the participant on an ongoing basis and received no infusion.",
+     "id": "OG000",
+     "title": "Usual Care"
+    },
+    {
+     "description": "Participants received an intended total dose of 75 million (M) cardiosphere-derived cells (CDCs) infused as 25M cells into each of the three main coronary arteries supplying the anterior, lateral and inferior/posterior cardiac territories during a single, intracoronary procedure on Day 0 and were followed up for 12 months post-infusion.",
+     "id": "OG001",
+     "title": "CAP-1002"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Analysis was performed on safety population. Here, 'number analyzed' = participants with available data for each specified category.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Month 6 and Month 12",
+   "title": "Change From Baseline in Vital Signs - Temperature at Month 6 and Month 12",
+   "type": "PRIMARY",
+   "unitOfMeasure": "celsius"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "11"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Jugular Vein Distension: Month 6"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "10"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Jugular Vein Distension: Month 12"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1"
+        },
+        {
+         "groupId": "OG001",
+         "value": "1"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "11"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Edema: Month 6"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "1"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "10"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Edema: Month 12"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "11"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Heart Sounds: Month 6"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1"
+        },
+        {
+         "groupId": "OG001",
+         "value": "1"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "10"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Heart Sounds: Month 12"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "11"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Murmur: Month 6"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "10"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Murmur: Month 12"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "11"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Breath Sounds: Month 6"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1"
+        },
+        {
+         "groupId": "OG001",
+         "value": "2"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "10"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Breath Sounds: Month 12"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "12"
+      },
+      {
+       "groupId": "OG001",
+       "value": "13"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Cardiac physical examination parameters assessed were: jugular vein distension, edema, heart sounds, murmur, breath sounds.",
+   "groups": [
+    {
+     "description": "Participants randomized to receive usual care continued to be cared for and treated in the manner the investigator deemed most appropriate for the participant on an ongoing basis and received no infusion.",
+     "id": "OG000",
+     "title": "Usual Care"
+    },
+    {
+     "description": "Participants received an intended total dose of 75 million (M) cardiosphere-derived cells (CDCs) infused as 25M cells into each of the three main coronary arteries supplying the anterior, lateral and inferior/posterior cardiac territories during a single, intracoronary procedure on Day 0 and were followed up for 12 months post-infusion.",
+     "id": "OG001",
+     "title": "CAP-1002"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Analysis was performed on safety population. Here, 'number analyzed' = participants with available data for each specified category.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Month 6 and Month 12",
+   "title": "Number of Participants With Clinically Significant Change From Baseline in Cardiac Physical Examinations at Month 6 and Month 12",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "41.23",
+         "value": "116.2"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "21.31",
+         "value": "129.2"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "12"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "PR Interval: Baseline"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "37.02",
+         "value": "8.7"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "7.67",
+         "value": "-2.8"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "11"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "PR Interval: Change at Month 6"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "44.40",
+         "value": "8.3"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "12.58",
+         "value": "1.0"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "10"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "PR Interval: Change at Month 12"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "8.11",
+         "value": "92.7"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "10.03",
+         "value": "91.3"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "12"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "QRS Duration: Baseline"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "7.25",
+         "value": "-0.8"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "7.58",
+         "value": "4.5"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "11"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "QRS Duration: Change at Month 6"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "9.53",
+         "value": "4.1"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "6.04",
+         "value": "4.5"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "10"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "QRS Duration: Change at Month 12"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "18.76",
+         "value": "350.6"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "21.55",
+         "value": "348.9"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "12"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "QT Interval: Baseline"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "16.07",
+         "value": "4.4"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "18.91",
+         "value": "-3.2"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "11"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "QT Interval: Change at Month 6"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "23.90",
+         "value": "11.7"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "18.21",
+         "value": "-0.2"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "10"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "QT Interval: Change at Month 12"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "25.25",
+         "value": "419.6"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "23.60",
+         "value": "423.7"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "12"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "QTc Interval: Baseline"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "11.84",
+         "value": "6.5"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "23.45",
+         "value": "-5.8"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "11"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "QTc Interval: Change at Month 6"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "6.42",
+         "value": "8.4"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "27.23",
+         "value": "1.2"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "10"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "QTc Interval: Change at Month 12"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "12"
+      },
+      {
+       "groupId": "OG001",
+       "value": "13"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "ECG parameters assessed were: PR Interval, QRS Duration, QT Interval, QTc interval and QT interval.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants randomized to receive usual care continued to be cared for and treated in the manner the investigator deemed most appropriate for the participant on an ongoing basis and received no infusion.",
+     "id": "OG000",
+     "title": "Usual Care"
+    },
+    {
+     "description": "Participants received an intended total dose of 75 million (M) cardiosphere-derived cells (CDCs) infused as 25M cells into each of the three main coronary arteries supplying the anterior, lateral and inferior/posterior cardiac territories during a single, intracoronary procedure on Day 0 and were followed up for 12 months post-infusion.",
+     "id": "OG001",
+     "title": "CAP-1002"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Analysis was performed on safety population. Here, 'number analyzed' = participants with available data for each specified category.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Month 6 and Month 12",
+   "title": "Change From Baseline in Electrocardiogram (ECG) Parameters (QRS Duration, PR, QT, QTc and QT Interval) at Month 6 and Month 12",
+   "type": "PRIMARY",
+   "unitOfMeasure": "millisecond"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "11.95",
+         "value": "87.8"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "14.43",
+         "value": "89.8"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "12"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Baseline"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "7.11",
+         "value": "0.8"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "14.66",
+         "value": "1.2"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "11"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Change at Month 6"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "11.11",
+         "value": "-1.8"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "14.62",
+         "value": "2.2"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "10"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Change at Month 12"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "12"
+      },
+      {
+       "groupId": "OG001",
+       "value": "13"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "ECG parameter assessed was ventricular rate; which depends on the degree of atrioventricular conduction.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants randomized to receive usual care continued to be cared for and treated in the manner the investigator deemed most appropriate for the participant on an ongoing basis and received no infusion.",
+     "id": "OG000",
+     "title": "Usual Care"
+    },
+    {
+     "description": "Participants received an intended total dose of 75 million (M) cardiosphere-derived cells (CDCs) infused as 25M cells into each of the three main coronary arteries supplying the anterior, lateral and inferior/posterior cardiac territories during a single, intracoronary procedure on Day 0 and were followed up for 12 months post-infusion.",
+     "id": "OG001",
+     "title": "CAP-1002"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Analysis was performed on safety population. Here, 'number analyzed' = participants with available data for each specified category.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Month 6 and Month 12",
+   "title": "Change From Baseline in Electrocardiogram Parameter - Ventricular Rate at Month 6 and Month 12",
+   "type": "PRIMARY",
+   "unitOfMeasure": "beats per minute"
+  }
+ ]
+}

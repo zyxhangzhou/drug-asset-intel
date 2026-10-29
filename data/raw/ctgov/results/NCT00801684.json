@@ -1,0 +1,121 @@
+{
+ "nctId": "NCT00801684",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciPctValue": "95",
+     "groupDescription": "The difference between the active treatment was compared to placebo. For a null hypothesis, the difference would equal 0 (zero).",
+     "groupIds": [
+      "OG000",
+      "OG001",
+      "OG002",
+      "OG003",
+      "OG004"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+     "pValue": "<0.0001",
+     "statisticalMethod": "ANCOVA",
+     "testedNonInferiority": false
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.528",
+         "value": "1.707"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.521",
+         "value": "1.696"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "0.528",
+         "value": "1.672"
+        },
+        {
+         "groupId": "OG003",
+         "spread": "0.516",
+         "value": "1.676"
+        },
+        {
+         "groupId": "OG004",
+         "spread": "0.545",
+         "value": "1.508"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "24"
+      },
+      {
+       "groupId": "OG001",
+       "value": "24"
+      },
+      {
+       "groupId": "OG002",
+       "value": "24"
+      },
+      {
+       "groupId": "OG003",
+       "value": "24"
+      },
+      {
+       "groupId": "OG004",
+       "value": "24"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Following screening, each subject was randomized to a sequence of 5 dosing periods (Doses A, B, C, D, and E). Each period was separated by a 3- to 14-day washout interval.\n\nThe dosing formulations were as follows:\n\nDose A = placebo Dose B = TrIP-2D (100 μg TrCl formulated in leucine and DPPC) Dose C = TrIP-2SS (100 μg TrCl formulated in leucine and sodium saccharin) Dose D = TrIP-2D (400 μg TrCl) Dose E = TrIP-2SS (100 μg TrCl) + Foradil (12 μg formoterol fumarate) FEV1 (L)was measured at 15 and 30 minutes, 1, 2, 3, 4, 6, 8, 12 and 24 hours postdose.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Subjects were administered TrIP (100mcg) over 5 dosing periods, each separated by a 3- to 14 day washout period. Subjects reported to the clinic the evening prior to each dose, and assessments were carried out through 24 hours postdose. A 3- to 14-day washout period was maintained between doses. Trospium inhalation powder containing 2% TrCl (100 mcg) formulated in leucine and sodium saccharin, supplied as dry powder in size-2 capsules, was administered via a dry powder inhaler.",
+     "id": "OG000",
+     "title": "TrIP-2SS (100mcg)"
+    },
+    {
+     "description": "Subjects were administered TrIP (100mcg)plus Foradil (12mcg)over 5 dosing periods, each separated by a 3- to 14 day washout period. Subjects reported to the clinic the evening prior to each dose, and assessments were carried out through 24 hours postdose. A 3- to 14-day washout period was maintained between doses. Foradil (12mcg)and Trospium inhalation powder containing 2% TrCl (100 mcg) formulated in leucine and sodium saccharin, supplied as dry powder in size-2 capsules, was administered via a dry powder inhaler.",
+     "id": "OG001",
+     "title": "TrIP-2SS (100mcg) + Foradil (12mcg)"
+    },
+    {
+     "description": "Subjects were administered TrIP-2D (100mcg) over 5 dosing periods, each separated by a 3- to 14 day washout period. Subjects reported to the clinic the evening prior to each dose, and assessments were carried out through 24 hours postdose. A 3- to 14-day washout period was maintained between doses. Trospium inhalation powder containing 2% TrCl (100 mcg) formulated in leucine and DPPC; supplied as dry powder in size-2 capsules and administered via dry powder inhaler. One capsule (100 mcg TrCl) or 4 capsules (400 mcg TrCl) were used. A separate inhaler was provided for each capsule.",
+     "id": "OG002",
+     "title": "TrIP-2D (100mcg)"
+    },
+    {
+     "description": "Subjects were administered TrIP-2D (400mcg)over 5 dosing periods, each separated by a 3- to 14 day washout period. Subjects reported to the clinic the evening prior to each dose, and assessments were carried out through 24 hours postdose. A 3- to 14-day washout period was maintained between doses. Trospium inhalation powder containing 2% TrCl (100 μg) formulated in leucine and DPPC; supplied as dry powder in size-2 capsules and administered via dry powder inhaler. One capsule (100 μg TrCl) or 4 capsules (400 μg TrCl) were used. A separate inhaler was provided for each capsule.",
+     "id": "OG003",
+     "title": "TrIP-2D (400mcg)"
+    },
+    {
+     "description": "Subjects were administered placebo over 5 dosing periods, each separated by a 3- to 14 day washout period. Subjects reported to the clinic the evening prior to each dose, and assessments were carried out through 24 hours postdose. A 3- to 14-day washout period was maintained between doses. Placebo was supplied as empty Size-2 capsules and administered via a dry powder inhaler.",
+     "id": "OG004",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "MEAN",
+   "reportingStatus": "POSTED",
+   "timeFrame": "15 minutes to 24 hours post-treatment",
+   "title": "Spirometry Parameter: Peak Forced Expiratory Volume in 1 Second(FEV1)in Liters (L)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Liters"
+  }
+ ]
+}

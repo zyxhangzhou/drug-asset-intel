@@ -1,0 +1,165 @@
+{
+ "nctId": "NCT05028582",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "2.90",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "97.5",
+     "ciUpperLimit": "9.31",
+     "estimateComment": "Stratified by pooled study site, baseline S-IGA, and baseline B-IGA with multiple imputation to handle missing data",
+     "groupDescription": "S-IGA Success at Week 8",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<0.0001",
+     "paramType": "Odds Ratio, log",
+     "paramValue": "5.19",
+     "statisticalComment": "Stratified by pooled study site, baseline S-IGA, and baseline B-IGA with multiple imputation to handle missing data",
+     "statisticalMethod": "Cochran-Mantel-Haenszel"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "59.62",
+         "upperLimit": "72.56",
+         "value": "66.4"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "20.12",
+         "upperLimit": "37.10",
+         "value": "27.8"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "281"
+      },
+      {
+       "groupId": "OG001",
+       "value": "151"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The percentage of participants with S-IGA success at Week 8 is presented. Success is defined as an IGA score of 'clear' or 'almost clear' plus a 2-point improvement from baseline at Week 8. This global assessment scale has five severity grades reported from 0-4 and defined as Clear (0), Almost Clear (1), Mild (2), Moderate (3), Severe (4), with higher scores indicative of greater symptom severity.",
+   "dispersionType": "97.5% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants with plaque psoriasis of the scalp and body applied roflumilast foam 0.3% qd for 8 weeks.",
+     "id": "OG000",
+     "title": "Roflumilast Foam 0.3%"
+    },
+    {
+     "description": "Participants with plaque psoriasis of the scalp and body applied vehicle foam qd for 8 weeks.",
+     "id": "OG001",
+     "title": "Vehicle Foam"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "All randomized participants are included, with multiple imputation of missing data.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Week 8",
+   "title": "Achievement of Scalp Investigator Global Assessment (S-IGA) \"Success\" at Week 8",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "1.75",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "97.5",
+     "ciUpperLimit": "5.73",
+     "estimateComment": "Stratified by pooled study site, baseline S-IGA, and baseline B-IGA with multiple imputation to handle missing data",
+     "groupDescription": "B-IGA Success at Week 8",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<0.0001",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "3.17",
+     "statisticalComment": "Stratified by pooled study site, baseline S-IGA, and baseline B-IGA with multiple imputation to handle missing data",
+     "statisticalMethod": "Cochran-Mantel-Haenszel"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "38.87",
+         "upperLimit": "52.33",
+         "value": "45.5"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "13.55",
+         "upperLimit": "28.81",
+         "value": "20.1"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "281"
+      },
+      {
+       "groupId": "OG001",
+       "value": "151"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The percentage of participants with B-IGA success at Week 8 is presented. Success is defined as an IGA score of 'clear' or 'almost clear' plus a 2-point improvement from baseline at Week 8. This global assessment scale has five severity grades reported from 0-4 and defined as Clear (0), Almost Clear (1), Mild (2),Moderate (3), Severe (4), with higher scores indicative of greater symptom severity.",
+   "dispersionType": "97.5% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants with plaque psoriasis of the scalp and body applied roflumilast foam 0.3% qd for 8 weeks.",
+     "id": "OG000",
+     "title": "Roflumilast Foam 0.3%"
+    },
+    {
+     "description": "Participants with plaque psoriasis of the scalp and body applied vehicle foam qd for 8 weeks.",
+     "id": "OG001",
+     "title": "Vehicle Foam"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "All randomized participants are included, with multiple imputation of missing data.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Week 8",
+   "title": "Achievement of Body Investigator Global Assessment (B-IGA) Success at Week 8",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

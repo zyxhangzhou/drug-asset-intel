@@ -1,0 +1,46 @@
+{
+ "nctId": "NCT05513742",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "2"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "49"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Percentage of patients whose best overall response is assessed as complete response (CR) or partial response (PR). Per Response Evaluation Criteria In Solid Tumors Criteria (RECIST v1.0) for target lesions and assessed by CT or MRI: CR: disappearance of all target lesions; PR: \\>=30% decrease in the sum of the longest diameter of target lesions.",
+   "groups": [
+    {
+     "description": "10 mg/kg body weight by IV infusion over 1 hour every 2 weeks",
+     "id": "OG000",
+     "title": "CTX-009 10 mg/kg"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "reportingStatus": "POSTED",
+   "timeFrame": "From first dose of CTX-009 until treatment discontinuation (an average of 16 weeks)",
+   "title": "Overall Response Rate",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

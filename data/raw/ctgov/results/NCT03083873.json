@@ -1,0 +1,95 @@
+{
+ "nctId": "NCT03083873",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "8.5",
+         "upperLimit": "75.5",
+         "value": "37.5"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "0.1",
+         "upperLimit": "28.7",
+         "value": "5.9"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "0",
+         "upperLimit": "20.6",
+         "value": "0"
+        },
+        {
+         "groupId": "OG003",
+         "lowerLimit": "2.1",
+         "upperLimit": "48.4",
+         "value": "16.7"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "8"
+      },
+      {
+       "groupId": "OG001",
+       "value": "17"
+      },
+      {
+       "groupId": "OG002",
+       "value": "16"
+      },
+      {
+       "groupId": "OG003",
+       "value": "12"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The percentage of patients who have a confirmed complete response or partial response as assessed by the investigator per RECIST v1.1. Objective response rate (ORR) will be defined as the percentage of the patients with a confirmed complete or partial response (CR or PR),by MRI or CT scan as per RECIST 1.1 criteria.\n\nComplete response (CR), Disappearance of all target and non-target lesions. All lymph nodes must be non-pathological in size(\\<10mm short axis). No new lesions.\n\nPartial response (PR), At least a 30% decrease in the sum of diameters of target lesions, taking as reference the baseline sum diameters. Persistence of one or more non-target lesion(s) and/or maintenance above the normal limits (Non-CR/Non-PD). No new lesions.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Treatment with LN-145, Generation 1 (Gen 1), non-cryopreserved TIL\n\nLN-145: A tumor sample is resected from each patient and cultured ex vivo to expand the population of tumor infiltrating lymphocytes. After NMA lymphodepletion, patients are infused with their autologous TIL (LN-145) followed by IL-2 administration.",
+     "id": "OG000",
+     "title": "Cohort 1"
+    },
+    {
+     "description": "Treatment with LN-145 Generation 2 (Gen 2), cryopreserved TIL\n\nLN-145: A tumor sample is resected from each patient and cultured ex vivo to expand the population of tumor infiltrating lymphocytes. After NMA lymphodepletion, patients are infused with their autologous TIL (LN-145) followed by IL-2 administration.",
+     "id": "OG001",
+     "title": "Cohort 2"
+    },
+    {
+     "description": "Treatment with LN-145 Generation 3 (Gen 3), cryopreserved TIL\n\nLN-145: A tumor sample is resected from each patient and cultured ex vivo to expand the population of tumor infiltrating lymphocytes. After NMA lymphodepletion, patients are infused with their autologous TIL (LN-145) followed by IL-2 administration.",
+     "id": "OG002",
+     "title": "Cohort 3"
+    },
+    {
+     "description": "Treatment with LN-145-S1 cryopreserved TIL\n\nLN-145-S1: A tumor sample is resected from each patient and cultured ex vivo to expand the population of tumor infiltrating lymphocytes. After NMA lymphodepletion, patients are infused with autologous TIL (LN-145-S1) followed by IL-2 administration.",
+     "id": "OG003",
+     "title": "Cohort 4"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "The Full Analysis Set is defined as patients who have received LN-145/LN-145-S1 infusion that meets the manufacturing product specification.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to 24 months",
+   "title": "Objective Response Rate",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of patients"
+  }
+ ]
+}

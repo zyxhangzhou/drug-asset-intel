@@ -1,0 +1,966 @@
+{
+ "nctId": "NCT05194124",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "3.49",
+         "value": "29.4"
+        },
+        {
+         "groupId": "OG001",
+         "value": "44.8"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "29.6",
+         "value": "59.9"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "2"
+      },
+      {
+       "groupId": "OG001",
+       "value": "1"
+      },
+      {
+       "groupId": "OG002",
+       "value": "16"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Maximum drug concentration determined directly from individual concentration-time data.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants received SC injection of 2 mg setmelanotide QD for 1 week.",
+     "id": "OG000",
+     "title": "Setmelanotide 2 mg QD"
+    },
+    {
+     "description": "Participants received SC injection of 2.5 mg setmelanotide QD for 1 week.",
+     "id": "OG001",
+     "title": "Setmelanotide 2.5 mg QD"
+    },
+    {
+     "description": "Participants received SC injection of 3 mg setmelanotide QD for 1 week.",
+     "id": "OG002",
+     "title": "Setmelanotide 3 mg QD"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Participants in the Pharmacokinetic Analysis Set (PKAS) (all participants who received at least 1 dose of setmelanotide and who had a sufficient number of measurable plasma concentrations to permit assessment of noncompartmental parameters) with available data were analyzed.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Pre-dose (0 hour) and at 0.5, 1, 2, 3, 4, 6, 8, 12, and 24 hours postdose at Week -1",
+   "title": "Maximum Drug Concentration (Cmax) of Setmelanotide After QD Administration in the Run-in Period",
+   "type": "PRIMARY",
+   "unitOfMeasure": "nanograms per milliliter (ng/mL)"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "22.4"
+        },
+        {
+         "groupId": "OG001",
+         "value": "32.7"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "28.6",
+         "value": "31.8"
+        },
+        {
+         "groupId": "OG003",
+         "spread": "33.0",
+         "value": "57.3"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "1"
+      },
+      {
+       "groupId": "OG001",
+       "value": "1"
+      },
+      {
+       "groupId": "OG002",
+       "value": "7"
+      },
+      {
+       "groupId": "OG003",
+       "value": "7"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Maximum drug concentration determined directly from individual concentration-time data. Data are reported by dose level (treatment regimen) in the OL Period and dosing sequence (QD-QD-QW or QD-QW-QW).",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants who received 2 mg setmelanotide QD in the run-in period and 20 mg setmelanotide QW in the DB period, received SC injection of 20 mg setmelanotide QW for 13 weeks in the OL period.",
+     "id": "OG000",
+     "title": "Setmelanotide 20 mg QW (QD-QW-QW)"
+    },
+    {
+     "description": "Participants who received 2.5 mg setmelanotide QD in the run-in period and 25 mg setmelanotide QW in the DB period, received SC injection of 25 mg setmelanotide QW for 13 weeks in the OL period.",
+     "id": "OG001",
+     "title": "Setmelanotide 25 mg QW (QD-QW-QW)"
+    },
+    {
+     "description": "Participants who received 3 mg setmelanotide QD in the run-in period and 3 mg setmelanotide QD in the DB period, received SC injection of 30 mg setmelanotide QW for 13 weeks in the OL period.",
+     "id": "OG002",
+     "title": "Setmelanotide 30 mg QW (QD-QD-QW)"
+    },
+    {
+     "description": "Participants who received 3 mg setmelanotide QD in the run-in period and 30 mg setmelanotide QW in the DB period, received SC injection of 30 mg setmelanotide QW for 13 weeks in the OL period.",
+     "id": "OG003",
+     "title": "Setmelanotide 30 mg QW (QD-QW-QW)"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Participants in the PKAS with available data were analyzed.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Pre-dose (0 hour) and at 0.5, 1, 2, 3, 4, 6, 8, 12, 24, 48, 72, 96, 120, and 168 hours postdose at Week 14",
+   "title": "Cmax of Setmelanotide After QW Administration",
+   "type": "PRIMARY",
+   "unitOfMeasure": "ng/mL"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "5.92",
+         "upperLimit": "7.90",
+         "value": "6.91"
+        },
+        {
+         "groupId": "OG001",
+         "value": "5.88"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "2.00",
+         "upperLimit": "8.00",
+         "value": "6.02"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "2"
+      },
+      {
+       "groupId": "OG001",
+       "value": "1"
+      },
+      {
+       "groupId": "OG002",
+       "value": "16"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Maximum drug concentration determined directly from individual concentration-time data.",
+   "dispersionType": "Full Range",
+   "groups": [
+    {
+     "description": "Participants received SC injection of 2 mg setmelanotide QD for 1 week.",
+     "id": "OG000",
+     "title": "Setmelanotide 2 mg QD"
+    },
+    {
+     "description": "Participants received SC injection of 2.5 mg setmelanotide QD for 1 week.",
+     "id": "OG001",
+     "title": "Setmelanotide 2.5 mg QD"
+    },
+    {
+     "description": "Participants received SC injection of 3 mg setmelanotide QD for 1 week.",
+     "id": "OG002",
+     "title": "Setmelanotide 3 mg QD"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "Participants in the PKAS with available data were analyzed.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Pre-dose (0 hour) and at 0.5, 1, 2, 3, 4, 6, 8, 12, and 24 hours postdose at Week -1",
+   "title": "Time to Maximum Plasma Concentration (Tmax) of Setmelanotide After QD Administration in the Run-in Period",
+   "type": "PRIMARY",
+   "unitOfMeasure": "hours"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "3.93"
+        },
+        {
+         "groupId": "OG001",
+         "value": "5.93"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "0.500",
+         "upperLimit": "6.00",
+         "value": "1.98"
+        },
+        {
+         "groupId": "OG003",
+         "lowerLimit": "2.03",
+         "upperLimit": "6.03",
+         "value": "5.95"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "1"
+      },
+      {
+       "groupId": "OG001",
+       "value": "1"
+      },
+      {
+       "groupId": "OG002",
+       "value": "7"
+      },
+      {
+       "groupId": "OG003",
+       "value": "7"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Maximum drug concentration determined directly from individual concentration-time data. Data are reported by dose level (treatment regimen) in the OL Period and dosing sequence (QD-QD-QW or QD-QW-QW).",
+   "dispersionType": "Full Range",
+   "groups": [
+    {
+     "description": "Participants who received 2 mg setmelanotide QD in the run-in period and 20 mg setmelanotide QW in the DB period, received SC injection of 20 mg setmelanotide QW for 13 weeks in the OL period.",
+     "id": "OG000",
+     "title": "Setmelanotide 20 mg QW (QD-QW-QW)"
+    },
+    {
+     "description": "Participants who received 2.5 mg setmelanotide QD in the run-in period and 25 mg setmelanotide QW in the DB period, received SC injection of 25 mg setmelanotide QW for 13 weeks in the OL period.",
+     "id": "OG001",
+     "title": "Setmelanotide 25 mg QW (QD-QW-QW)"
+    },
+    {
+     "description": "Participants who received 3 mg setmelanotide QD in the run-in period and 3 mg setmelanotide QD in the DB period, received SC injection of 30 mg setmelanotide QW for 13 weeks in the OL period.",
+     "id": "OG002",
+     "title": "Setmelanotide 30 mg QW (QD-QD-QW)"
+    },
+    {
+     "description": "Participants who received 3 mg setmelanotide QD in the run-in period and 30 mg setmelanotide QW in the DB period, received SC injection of 30 mg setmelanotide QW for 13 weeks in the OL period.",
+     "id": "OG003",
+     "title": "Setmelanotide 30 mg QW (QD-QW-QW)"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "Participants in the PKAS with available data were analyzed.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Pre-dose (0 hour) and at 0.5, 1, 2, 3, 4, 6, 8, 12, 24, 48, 72, 96, 120, and 168 hours postdose at Week 14",
+   "title": "Tmax of Setmelanotide After QW Administration",
+   "type": "PRIMARY",
+   "unitOfMeasure": "hours"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.856",
+         "value": "5.17"
+        },
+        {
+         "groupId": "OG001",
+         "value": "4.36"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "13.5",
+         "value": "11.7"
+        },
+        {
+         "groupId": "OG003",
+         "spread": "16.3",
+         "value": "16.6"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "2"
+      },
+      {
+       "groupId": "OG001",
+       "value": "1"
+      },
+      {
+       "groupId": "OG002",
+       "value": "9"
+      },
+      {
+       "groupId": "OG003",
+       "value": "7"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Ctrough is concentration at the end of the dosing interval, prior to subsequent dose administration. Data are reported by dose level (treatment regimen) in the DB Period and dosing sequence (QD-QD-QW or QD-QW-QW).",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants who received 2 mg setmelanotide QD in the run-in period and 20 mg setmelanotide QW in the DB period, received SC injection of 20 mg setmelanotide QW for 13 weeks in the OL period.",
+     "id": "OG000",
+     "title": "Setmelanotide 20 mg QW (QD-QW-QW)"
+    },
+    {
+     "description": "Participants who received 2.5 mg setmelanotide QD in the run-in period and 25 mg setmelanotide QW in the DB period, received SC injection of 25 mg setmelanotide QW for 13 weeks in the OL period.",
+     "id": "OG001",
+     "title": "Setmelanotide 25 mg QW (QD-QW-QW)"
+    },
+    {
+     "description": "Participants who received 3 mg setmelanotide QD in the run-in period and 3 mg setmelanotide QD in the DB period, received SC injection of 30 mg setmelanotide QW for 13 weeks in the OL period.",
+     "id": "OG002",
+     "title": "Setmelanotide 3 mg QD (QD-QD-QW)"
+    },
+    {
+     "description": "Participants who received 3 mg setmelanotide QD in the run-in period and 30 mg setmelanotide QW in the DB period, received SC injection of 30 mg setmelanotide QW for 13 weeks in the OL period.",
+     "id": "OG003",
+     "title": "Setmelanotide 30 mg QW (QD-QW-QW)"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Participants in the PKAS with available data were analyzed.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "30 minutes predose at Week 1",
+   "title": "Mean Trough Plasma Concentration (Ctrough) of Setmelanotide After QD or QW Administration at Week 1",
+   "type": "PRIMARY",
+   "unitOfMeasure": "ng/mL"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG001",
+         "value": "9.54"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "7.62",
+         "value": "12.2"
+        },
+        {
+         "groupId": "OG003",
+         "spread": "13.3",
+         "value": "15.6"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "0"
+      },
+      {
+       "groupId": "OG001",
+       "value": "1"
+      },
+      {
+       "groupId": "OG002",
+       "value": "7"
+      },
+      {
+       "groupId": "OG003",
+       "value": "7"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Ctrough is concentration at the end of the dosing interval, prior to subsequent dose administration. Data are reported by dose level (treatment regimen) in the DB Period and dosing sequence (QD-QD-QW or QD-QW-QW).",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants who received 2 mg setmelanotide QD in the run-in period and 20 mg setmelanotide QW in the DB period, received SC injection of 20 mg setmelanotide QW for 13 weeks in the OL period.",
+     "id": "OG000",
+     "title": "Setmelanotide 20 mg QW (QD-QW-QW)"
+    },
+    {
+     "description": "Participants who received 2.5 mg setmelanotide QD in the run-in period and 25 mg setmelanotide QW in the DB period, received SC injection of 25 mg setmelanotide QW for 13 weeks in the OL period.",
+     "id": "OG001",
+     "title": "Setmelanotide 25 mg QW (QD-QW-QW)"
+    },
+    {
+     "description": "Participants who received 3 mg setmelanotide QD in the run-in period and 3 mg setmelanotide QD in the DB period, received SC injection of 30 mg setmelanotide QW for 13 weeks in the OL period.",
+     "id": "OG002",
+     "title": "Setmelanotide 3 mg QD (QD-QD-QW)"
+    },
+    {
+     "description": "Participants who received 3 mg setmelanotide QD in the run-in period and 30 mg setmelanotide QW in the DB period, received SC injection of 30 mg setmelanotide QW for 13 weeks in the OL period.",
+     "id": "OG003",
+     "title": "Setmelanotide 30 mg QW (QD-QW-QW)"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Participants in the PKAS with available data were analyzed.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "30 minutes predose at Week 5",
+   "title": "Mean Setmelanotide Ctrough After QD or QW Administration at Week 5",
+   "type": "PRIMARY",
+   "unitOfMeasure": "ng/mL"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "11.1"
+        },
+        {
+         "groupId": "OG001",
+         "value": "6.43"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "11.4",
+         "value": "12.3"
+        },
+        {
+         "groupId": "OG003",
+         "spread": "13.7",
+         "value": "20.1"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "1"
+      },
+      {
+       "groupId": "OG001",
+       "value": "1"
+      },
+      {
+       "groupId": "OG002",
+       "value": "7"
+      },
+      {
+       "groupId": "OG003",
+       "value": "6"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Ctrough is concentration at the end of the dosing interval, prior to subsequent dose administration. Data are reported by dose level (treatment regimen) in the DB Period and dosing sequence (QD-QD-QW or QD-QW-QW).",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants who received 2 mg setmelanotide QD in the run-in period and 20 mg setmelanotide QW in the DB period, received SC injection of 20 mg setmelanotide QW for 13 weeks in the OL period.",
+     "id": "OG000",
+     "title": "Setmelanotide 20 mg QW (QD-QW-QW)"
+    },
+    {
+     "description": "Participants who received 2.5 mg setmelanotide QD in the run-in period and 25 mg setmelanotide QW in the DB period, received SC injection of 25 mg setmelanotide QW for 13 weeks in the OL period.",
+     "id": "OG001",
+     "title": "Setmelanotide 25 mg QW (QD-QW-QW)"
+    },
+    {
+     "description": "Participants who received 3 mg setmelanotide QD in the run-in period and 3 mg setmelanotide QD in the DB period, received SC injection of 30 mg setmelanotide QW for 13 weeks in the OL period.",
+     "id": "OG002",
+     "title": "Setmelanotide 3 mg QD (QD-QD-QW)"
+    },
+    {
+     "description": "Participants who received 3 mg setmelanotide QD in the run-in period and 30 mg setmelanotide QW in the DB period, received SC injection of 30 mg setmelanotide QW for 13 weeks in the OL period.",
+     "id": "OG003",
+     "title": "Setmelanotide 30 mg QW (QD-QW-QW)"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Participants in the PKAS with available data were analyzed.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "30 minutes predose at Week 9",
+   "title": "Mean Setmelanotide Ctrough After QD or QW Administration at Week 9",
+   "type": "PRIMARY",
+   "unitOfMeasure": "ng/mL"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "14.4"
+        },
+        {
+         "groupId": "OG001",
+         "value": "12.6"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "13.9",
+         "value": "13.6"
+        },
+        {
+         "groupId": "OG003",
+         "spread": "23.8",
+         "value": "26.2"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "1"
+      },
+      {
+       "groupId": "OG001",
+       "value": "1"
+      },
+      {
+       "groupId": "OG002",
+       "value": "6"
+      },
+      {
+       "groupId": "OG003",
+       "value": "6"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Ctrough is concentration at the end of the dosing interval, prior to subsequent dose administration. Data are reported by dose level (treatment regimen) in the DB Period and dosing sequence (QD-QD-QW or QD-QW-QW).",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants who received 2 mg setmelanotide QD in the run-in period and 20 mg setmelanotide QW in the DB period, received SC injection of 20 mg setmelanotide QW for 13 weeks in the OL period.",
+     "id": "OG000",
+     "title": "Setmelanotide 20 mg QW (QD-QW-QW)"
+    },
+    {
+     "description": "Participants who received 2.5 mg setmelanotide QD in the run-in period and 25 mg setmelanotide QW in the DB period, received SC injection of 25 mg setmelanotide QW for 13 weeks in the OL period.",
+     "id": "OG001",
+     "title": "Setmelanotide 25 mg QW (QD-QW-QW)"
+    },
+    {
+     "description": "Participants who received 3 mg setmelanotide QD in the run-in period and 3 mg setmelanotide QD in the DB period, received SC injection of 30 mg setmelanotide QW for 13 weeks in the OL period.",
+     "id": "OG002",
+     "title": "Setmelanotide 3 mg QD (QD-QD-QW)"
+    },
+    {
+     "description": "Participants who received 3 mg setmelanotide QD in the run-in period and 30 mg setmelanotide QW in the DB period, received SC injection of 30 mg setmelanotide QW for 13 weeks in the OL period.",
+     "id": "OG003",
+     "title": "Setmelanotide 30 mg QW (QD-QW-QW)"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Participants in the PKAS with available data were analyzed.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "30 minutes predose at Week 18",
+   "title": "Mean Setmelanotide Ctrough After QD or QW Administration at Week 18",
+   "type": "PRIMARY",
+   "unitOfMeasure": "ng/mL"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "11.9"
+        },
+        {
+         "groupId": "OG001",
+         "value": "14.3"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "15.4",
+         "value": "17.0"
+        },
+        {
+         "groupId": "OG003",
+         "spread": "25.4",
+         "value": "27.9"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "1"
+      },
+      {
+       "groupId": "OG001",
+       "value": "1"
+      },
+      {
+       "groupId": "OG002",
+       "value": "6"
+      },
+      {
+       "groupId": "OG003",
+       "value": "7"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Ctrough is concentration at the end of the dosing interval, prior to subsequent dose administration. Data are reported by dose level (treatment regimen) in the DB Period and dosing sequence (QD-QD-QW or QD-QW-QW).",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants who received 2 mg setmelanotide QD in the run-in period and 20 mg setmelanotide QW in the DB period, received SC injection of 20 mg setmelanotide QW for 13 weeks in the OL period.",
+     "id": "OG000",
+     "title": "Setmelanotide 20 mg QW (QD-QW-QW)"
+    },
+    {
+     "description": "Participants who received 2.5 mg setmelanotide QD in the run-in period and 25 mg setmelanotide QW in the DB period, received SC injection of 25 mg setmelanotide QW for 13 weeks in the OL period.",
+     "id": "OG001",
+     "title": "Setmelanotide 25 mg QW (QD-QW-QW)"
+    },
+    {
+     "description": "Participants who received 3 mg setmelanotide QD in the run-in period and 3 mg setmelanotide QD in the DB period, received SC injection of 30 mg setmelanotide QW for 13 weeks in the OL period.",
+     "id": "OG002",
+     "title": "Setmelanotide 3 mg QD (QD-QD-QW)"
+    },
+    {
+     "description": "Participants who received 3 mg setmelanotide QD in the run-in period and 30 mg setmelanotide QW in the DB period, received SC injection of 30 mg setmelanotide QW for 13 weeks in the OL period.",
+     "id": "OG003",
+     "title": "Setmelanotide 30 mg QW (QD-QW-QW)"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Participants in the PKAS with available data were analyzed.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "30 minutes predose at Week 22",
+   "title": "Mean Setmelanotide Ctrough After QD or QW Administration at Week 22",
+   "type": "PRIMARY",
+   "unitOfMeasure": "ng/mL"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "14.2"
+        },
+        {
+         "groupId": "OG001",
+         "value": "9.91"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "19.4",
+         "value": "20.3"
+        },
+        {
+         "groupId": "OG003",
+         "spread": "23.9",
+         "value": "32.1"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "1"
+      },
+      {
+       "groupId": "OG001",
+       "value": "1"
+      },
+      {
+       "groupId": "OG002",
+       "value": "6"
+      },
+      {
+       "groupId": "OG003",
+       "value": "7"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Ctrough is concentration at the end of the dosing interval, prior to subsequent dose administration. Data are reported by dose level (treatment regimen) in the DB Period and dosing sequence (QD-QD-QW or QD-QW-QW).",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants who received 2 mg setmelanotide QD in the run-in period and 20 mg setmelanotide QW in the DB period, received SC injection of 20 mg setmelanotide QW for 13 weeks in the OL period.",
+     "id": "OG000",
+     "title": "Setmelanotide 20 mg QW (QD-QW-QW)"
+    },
+    {
+     "description": "Participants who received 2.5 mg setmelanotide QD in the run-in period and 25 mg setmelanotide QW in the DB period, received SC injection of 25 mg setmelanotide QW for 13 weeks in the OL period.",
+     "id": "OG001",
+     "title": "Setmelanotide 25 mg QW (QD-QW-QW)"
+    },
+    {
+     "description": "Participants who received 3 mg setmelanotide QD in the run-in period and 3 mg setmelanotide QD in the DB period, received SC injection of 30 mg setmelanotide QW for 13 weeks in the OL period.",
+     "id": "OG002",
+     "title": "Setmelanotide 3 mg QD (QD-QD-QW)"
+    },
+    {
+     "description": "Participants who received 3 mg setmelanotide QD in the run-in period and 30 mg setmelanotide QW in the DB period, received SC injection of 30 mg setmelanotide QW for 13 weeks in the OL period.",
+     "id": "OG003",
+     "title": "Setmelanotide 30 mg QW (QD-QW-QW)"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Participants in the PKAS with available data were analyzed.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "30 minutes predose at Week 27",
+   "title": "Mean Setmelanotide Ctrough After QD or QW Administration at Week 27",
+   "type": "PRIMARY",
+   "unitOfMeasure": "ng/mL"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG002",
+         "spread": "659",
+         "value": "975"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "0"
+      },
+      {
+       "groupId": "OG001",
+       "value": "0"
+      },
+      {
+       "groupId": "OG002",
+       "value": "7"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "AUC0-tau was recorded from collected blood samples.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants received SC injection of 2 mg setmelanotide QD for 1 week.",
+     "id": "OG000",
+     "title": "Setmelanotide 2 mg QD"
+    },
+    {
+     "description": "Participants received SC injection of 2.5 mg setmelanotide QD for 1 week.",
+     "id": "OG001",
+     "title": "Setmelanotide 2.5 mg QD"
+    },
+    {
+     "description": "Participants received SC injection of 3 mg setmelanotide QD for 1 week.",
+     "id": "OG002",
+     "title": "Setmelanotide 3 mg QD"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Participants in the PKAS with available data were analyzed.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Pre-dose (0 hour) and at 0.5, 1, 2, 3, 4, 6, and 8 hours postdose at Week -1",
+   "title": "Area Under the Plasma Concentration-Time Curve Over the Dosing Interval (AUC0-tau) of Setmelanotide After QD Administration in the Run-in Period",
+   "type": "PRIMARY",
+   "unitOfMeasure": "hours*ng/mL"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1590"
+        },
+        {
+         "groupId": "OG001",
+         "value": "2260"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "2890",
+         "value": "2470"
+        },
+        {
+         "groupId": "OG003",
+         "spread": "4000",
+         "value": "5010"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "1"
+      },
+      {
+       "groupId": "OG001",
+       "value": "1"
+      },
+      {
+       "groupId": "OG002",
+       "value": "6"
+      },
+      {
+       "groupId": "OG003",
+       "value": "6"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "AUC0-tau was recorded from collected blood samples. Data are reported by dose level (treatment regimen) in the OL Period and dosing sequence (QD-QD-QW or QD-QW-QW).",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants who received 2 mg setmelanotide QD in the run-in period and 20 mg setmelanotide QW in the DB period, received SC injection of 20 mg setmelanotide QW for 13 weeks in the OL period.",
+     "id": "OG000",
+     "title": "Setmelanotide 20 mg QW (QD-QW-QW)"
+    },
+    {
+     "description": "Participants who received 2.5 mg setmelanotide QD in the run-in period and 25 mg setmelanotide QW in the DB period, received SC injection of 25 mg setmelanotide QW for 13 weeks in the OL period.",
+     "id": "OG001",
+     "title": "Setmelanotide 25 mg QW (QD-QW-QW)"
+    },
+    {
+     "description": "Participants who received 3 mg setmelanotide QD in the run-in period and 3 mg setmelanotide QD in the DB period, received SC injection of 30 mg setmelanotide QW for 13 weeks in the OL period.",
+     "id": "OG002",
+     "title": "Setmelanotide 30 mg QW (QD-QD-QW)"
+    },
+    {
+     "description": "Participants who received 3 mg setmelanotide QD in the run-in period and 30 mg setmelanotide QW in the DB period, received SC injection of 30 mg setmelanotide QW for 13 weeks in the OL period.",
+     "id": "OG003",
+     "title": "Setmelanotide 30 mg QW (QD-QW-QW)"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Participants in the PKAS with available data were analyzed.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Pre-dose (0 hour) and 0.5, 1, 2, 6, 8, 12, 24, 48, 72, 96, 120, and 168-hours postdose at Week 14",
+   "title": "AUC0-tau of Setmelanotide After QD Administration in the Run-in Period",
+   "type": "PRIMARY",
+   "unitOfMeasure": "hours*mg/mL"
+  }
+ ]
+}

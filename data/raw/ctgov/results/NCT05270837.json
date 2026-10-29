@@ -1,0 +1,803 @@
+{
+ "nctId": "NCT05270837",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<0.0001",
+     "pValueComment": "The imputation used the SAS procedure PROC MI; the variable list for imputation included baseline and post-baseline blood Phe measurements and stratified by treatment.",
+     "statisticalMethod": "ANCOVA"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "292.33",
+         "value": "-449.9"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "272.07",
+         "value": "-34.4"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "36"
+      },
+      {
+       "groupId": "OG001",
+       "value": "19"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The blood Phe measurement following 72 weeks on study is defined as the average of the Week 69 and Week 73 blood Phe measurements. Change from baseline in blood Phe will be compared between participants in the active (pegvaliase) and the control (diet-only) treatment arms.\n\nBaseline blood Phe concentration at Part 1 was defined as the average of 3 pre-treatment measurements collected between Screening/Run-in (2) and Day 1 pre-dose (1).",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Pegvaliase: Induction Dose of 2.5 mg once weekly (QW), Titration dose of 2.5 mg twice weekly (BIW) up to 10 mg/kg once daily (QD), Maintenance dose of 20 mg QD up to 60 mg QD, administered subcutaneous (SC) using a prefilled syringe (PFS).",
+     "id": "OG000",
+     "title": "Experimental: Pegvaliase"
+    },
+    {
+     "description": "Participants will be managing their PKU with diet alone. Participants in the diet-only control arm will be required to maintain and adjust dietary and medical protein food intake through Week 72.",
+     "id": "OG001",
+     "title": "Control: Diet Only"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "The Intent to Treat (ITT) population will consist of all participants who are randomized. Participants will be analyzed according to the randomized treatment for the analysis of efficacy.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline to Week 72 (average of the Week 69 and Week 73)",
+   "title": "Change From Baseline in Blood Phe Concentration Following 72 Weeks (Average of the Week 69 and Week 73) on Study.",
+   "type": "PRIMARY",
+   "unitOfMeasure": "µmol/L"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "36"
+        },
+        {
+         "groupId": "OG001",
+         "value": "17"
+        }
+       ]
+      }
+     ],
+     "title": "Participants with Any AE"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "36"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "AEs assessed by investigator as related to study drug"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "9"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "AEs leading to dose reduction"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "19"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "AEs leading to dose interruption"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "2"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "AEs leading to study drug discontinuation"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "AEs leading to study discontinuation"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "2"
+        },
+        {
+         "groupId": "OG001",
+         "value": "1"
+        }
+       ]
+      }
+     ],
+     "title": "Participants with Any SAE"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "2"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "SAEs assessed by investigator as related to study drug"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "SAEs leading to dose reduction"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "SAEs leading to dose interruption"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "2"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "SAEs leading to study drug discontinuation"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "SAEs leading to study discontinuation"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Participants who died"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "36"
+      },
+      {
+       "groupId": "OG001",
+       "value": "19"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Treatment-emergent adverse events (TEAE) is defined as any AE that newly appeared or worsened in severity after first dose of pegvaliase (pegvaliase arm) or on or after study day 1 (diet-only arm) until 30 days after last dose of the study.\n\nSerious adverse event (SAE).",
+   "groups": [
+    {
+     "description": "Pegvaliase: Induction Dose of 2.5 mg once weekly (QW), Titration dose of 2.5 mg twice weekly (BIW) up to 10 mg/kg once daily (QD), Maintenance dose of 20 mg QD up to 60 mg QD, administered subcutaneous (SC) using a prefilled syringe (PFS).",
+     "id": "OG000",
+     "title": "Experimental: Pegvaliase"
+    },
+    {
+     "description": "Participants will be managing their PKU with diet alone. Participants in the diet-only control arm will be required to maintain and adjust dietary and medical protein food intake through Week 72.",
+     "id": "OG001",
+     "title": "Control: Diet Only"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Safety population will consist of all participants who received at least one dose of study treatment (pegvaliase or diet-only management of PKU). Subjects will be analyzed according to the treatment actually received for the analysis of safety.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to Week 73",
+   "title": "Incidence of Treatment-emergent Adverse Events (Part 1)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "100"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "36"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Day 1"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "100"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "31"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Week 73"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "36"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The anti-pegvaliase total antibody (TAb) method captures drug-binding antibodies comprised of different isotypes and specificities.\n\nAntibody Positivity = number of subjects testing positive at any study visit / total number of subjects at study visit.\n\nThe baseline was defined as the last non-missing measurement collected prior to the first pegvaliase dose (pegvaliase arm) or prior to or on Visit 1 date (diet-only arm)",
+   "groups": [
+    {
+     "description": "Pegvaliase: Induction Dose of 2.5 mg once weekly (QW), Titration dose of 2.5 mg twice weekly (BIW) up to 10 mg/kg once daily (QD), Maintenance dose of 20 mg QD up to 60 mg QD, administered subcutaneous (SC) using a prefilled syringe (PFS).",
+     "id": "OG000",
+     "title": "Experimental: Pegvaliase"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Safety popln consists of all participants(partp) who recd atleast 1dose of study treat(peg/diet-only mgmt of PKU).Subj will be analyzed according to trtmt actually recd for analysis of safety.\n\nAnti-drug antibody samples are only drawn if partp is on trtmt drug.Since partp in\"Diet-Only\"arm are not taking peg in Part1 of study, there is no data to report.\n\nOf 32 partp completed wk 73, 1partp stayed in study but discontinued study drug \\>30days prior wk73, hence data was excld from summary",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline (Day 1), Week 73",
+   "title": "Percentage of Participants With Positive Anti-pegvaliase Total Antibody (TAb)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "22.2"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "36"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Day 1"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "100"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "31"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Week 73"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "36"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The presence of immunoglobulin G (IgG) Antibodies against phenylalanine ammonia lyase (PAL) is measured overtime.\n\nThe baseline was defined as the last non-missing measurement collected prior to the first pegvaliase dose (pegvaliase arm) or prior to or on Visit 1 date (diet-only arm)",
+   "groups": [
+    {
+     "description": "Pegvaliase: Induction Dose of 2.5 mg once weekly (QW), Titration dose of 2.5 mg twice weekly (BIW) up to 10 mg/kg once daily (QD), Maintenance dose of 20 mg QD up to 60 mg QD, administered subcutaneous (SC) using a prefilled syringe (PFS).",
+     "id": "OG000",
+     "title": "Experimental: Pegvaliase"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Safety popln consists of all participants(partp) who recd atleast 1dose of study treat(peg/diet-only mgmt of PKU).Subj will be analyzed according to trtmt actually recd for analysis of safety.\n\nAnti-drug antibody samples are only drawn if partp is on trtmt drug.Since partp in\"Diet-Only\"arm are not taking peg in Part1 of study, there is no data to report.\n\nOf 32 partp completed wk 73, 1partp stayed in study but discontinued study drug \\>30days prior wk73, hence data was excld from summary",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline (Day 1), Week 73",
+   "title": "Percentage of Participants With Positive PAL IgG Antibody",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "50.0"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "36"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Day 1"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "74.2"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "31"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Week 73"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "36"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The presence of immunoglobulin M (IgM) Antibodies against PAL (phenylalanine ammonia lyase) is measured overtime.\n\nPAL IgM was positive if the titer value was greater than or equal to the median of all baseline PAL IgM titers.\n\nThe baseline was defined as the last non-missing measurement collected prior to the first pegvaliase dose (pegvaliase arm) or prior to or on Visit 1 date (diet-only arm)",
+   "groups": [
+    {
+     "description": "Pegvaliase: Induction Dose of 2.5 mg once weekly (QW), Titration dose of 2.5 mg twice weekly (BIW) up to 10 mg/kg once daily (QD), Maintenance dose of 20 mg QD up to 60 mg QD, administered subcutaneous (SC) using a prefilled syringe (PFS).",
+     "id": "OG000",
+     "title": "Experimental: Pegvaliase"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Safety popln consists of all participants(partp) who recd atleast 1dose of study treat(peg/diet-only mgmt of PKU).Subj will be analyzed according to trtmt actually recd for analysis of safety.\n\nAnti-drug antibody samples are only drawn if partp is on trtmt drug.Since partp in\"Diet-Only\"arm are not taking peg in Part1 of study, there is no data to report.\n\nOf 32 partp completed wk 73, 1partp stayed in study but discontinued study drug \\>30days prior wk73, hence data was excld from summary",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline (Day 1), Week 73",
+   "title": "Percentage of Participants With Positive PAL IgM Antibody",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "55.6"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "36"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Day 1"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "3.2"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "31"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Week 73"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "36"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The presence of IgG Antibodies against polyethylene glycol (PEG) is measured overtime\n\nThe baseline was defined as the last non-missing measurement collected prior to the first pegvaliase dose (pegvaliase arm) or prior to or on Visit 1 date (diet-only arm)",
+   "groups": [
+    {
+     "description": "Pegvaliase: Induction Dose of 2.5 mg once weekly (QW), Titration dose of 2.5 mg twice weekly (BIW) up to 10 mg/kg once daily (QD), Maintenance dose of 20 mg QD up to 60 mg QD, administered subcutaneous (SC) using a prefilled syringe (PFS).",
+     "id": "OG000",
+     "title": "Experimental: Pegvaliase"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Safety popln consists of all participants(partp) who recd atleast 1dose of study treat(peg/diet-only mgmt of PKU).Subj will be analyzed according to trtmt actually recd for analysis of safety.\n\nAnti-drug antibody samples are only drawn if partp is on trtmt drug.Since partp in\"Diet-Only\"arm are not taking peg in Part1 of study, there is no data to report.\n\nOf 32 partp completed wk 73, 1partp stayed in study but discontinued study drug \\>30days prior wk73, hence data was excld from summary",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline (Day 1), Week 73",
+   "title": "Percentage of Participants With Positive PEG IgG Antibody",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "100"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "36"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Day 1"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "100"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "31"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Week 73"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "36"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The presence of IgM Antibodies against PEG (polyethylene glycol) is measured overtime\n\nThe baseline was defined as the last non-missing measurement collected prior to the first pegvaliase dose (pegvaliase arm) or prior to or on Visit 1 date (diet-only arm)",
+   "groups": [
+    {
+     "description": "Pegvaliase: Induction Dose of 2.5 mg once weekly (QW), Titration dose of 2.5 mg twice weekly (BIW) up to 10 mg/kg once daily (QD), Maintenance dose of 20 mg QD up to 60 mg QD, administered subcutaneous (SC) using a prefilled syringe (PFS).",
+     "id": "OG000",
+     "title": "Experimental: Pegvaliase"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Safety popln consists of all participants(partp) who recd atleast 1dose of study treat(peg/diet-only mgmt of PKU).Subj will be analyzed according to trtmt actually recd for analysis of safety.\n\nAnti-drug antibody samples are only drawn if partp is on trtmt drug.Since partp in\"Diet-Only\"arm are not taking peg in Part1 of study, there is no data to report.\n\nOf 32 partp completed wk 73, 1partp stayed in study but discontinued study drug \\>30days prior wk73, hence data was excld from summary",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline (Day 1), Week 73",
+   "title": "Percentage of Participants With Positive PEG IgM Antibody",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "8.3"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "36"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Day 1"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "96.7"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "30"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Week 73"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "36"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Neutralizing antibodies (NAbs) capable of inhibiting the enzymatic activity of pegvaliase were measured.\n\nThe baseline was defined as the last non-missing measurement collected prior to the first pegvaliase dose (pegvaliase arm) or prior to or on Visit 1 date (diet-only arm)",
+   "groups": [
+    {
+     "description": "Pegvaliase: Induction Dose of 2.5 mg once weekly (QW), Titration dose of 2.5 mg twice weekly (BIW) up to 10 mg/kg once daily (QD), Maintenance dose of 20 mg QD up to 60 mg QD, administered subcutaneous (SC) using a prefilled syringe (PFS).",
+     "id": "OG000",
+     "title": "Experimental: Pegvaliase"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Saf popln consists of all partp who recd atleast 1dose of study treat(peg/diet-only mgmt of PKU).Subj will be analyzed according to trtmt actually recd for analysis of saf.Anti-drug antibody samples are only drawn if partp is on trtmt drug.Since partp in\"Diet-Only\"arm are not taking peg in Part1 of study,there is no data to report.Of 32 partp completed wk73,1partp stayed in study but discontinued study drug\\>30D prior wk73,hence data was excld from summary\\&1partp didnt have NAb collected at wk73",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline (Day 1), Week 73",
+   "title": "Percentage of Participants With Positive Neutralizing Antibodies (NAb)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

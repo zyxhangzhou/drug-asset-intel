@@ -1,0 +1,4174 @@
+{
+ "aliases": [
+  "Ardelyx"
+ ],
+ "studies": [
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Capsule that is identical in size and color to other treatments",
+       "interventionNames": [
+        "Drug: RDX5791"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "description": "10 mg capsule of tenapanor",
+       "interventionNames": [
+        "Drug: RDX5791"
+       ],
+       "label": "Low Dose",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "30 mg capsule of tenapanor",
+       "interventionNames": [
+        "Drug: RDX5791"
+       ],
+       "label": "Mid Dose",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "100 mg capsule of tenapanor",
+       "interventionNames": [
+        "Drug: RDX5791"
+       ],
+       "label": "High Dose",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "High Dose",
+        "Low Dose",
+        "Mid Dose",
+        "Placebo"
+       ],
+       "description": "Capsule, QD",
+       "name": "RDX5791",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Constipation Predominant Irritable Bowel Syndrome"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 186,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Study to Evaluate the Safety and Efficacy of RDX5791 for the Treatment of Constipation Predominant Irritable Bowel Syndrome (IBS-C)",
+     "nctId": "NCT01340053",
+     "officialTitle": "A Randomized, Double-Blind, Placebo-Controlled Study to Assess the Safety and Efficacy of RDX5791 for the Treatment of Constipation-Predominant Irritable Bowel Syndrome (IBS-C)",
+     "orgStudyIdInfo": {
+      "id": "RDX5791-201"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Ardelyx"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Ardelyx"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2012-02",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2019-10-15",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2019-09-25",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2011-12",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2019-10-15",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2019-08-15",
+     "resultsFirstSubmitQcDate": "2019-09-25",
+     "startDateStruct": {
+      "date": "2011-05"
+     },
+     "statusVerifiedDate": "2019-09",
+     "studyFirstPostDateStruct": {
+      "date": "2011-04-22",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2011-04-20",
+     "studyFirstSubmitQcDate": "2011-04-20"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Tenapanor administered in a clinical pharmacology unit",
+       "interventionNames": [
+        "Drug: AZD1722 (in-patient)"
+       ],
+       "label": "AZD1722- in patient",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Placebo (size and color matched to experimental drug) administered in a clinical pharmacology unit",
+       "interventionNames": [
+        "Drug: Placebo (in-patient)"
+       ],
+       "label": "Placebo- in patient",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "description": "Tenapanor",
+       "interventionNames": [
+        "Drug: AZD1722 (out-patient)"
+       ],
+       "label": "AZD1722 out-patient",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Placebo",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo out-patient",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "AZD1722- in patient"
+       ],
+       "description": "doses between 5 and 60 mg BID may be administered based on tolerability in a CPU setting",
+       "name": "AZD1722 (in-patient)",
+       "otherNames": [
+        "RDX5791",
+        "Tenapanor"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo- in patient"
+       ],
+       "description": "Placebo, size and color matched to experimental drug administered in a CPU",
+       "name": "Placebo (in-patient)",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "AZD1722 out-patient"
+       ],
+       "description": "doses between 5 and 45 mg BID",
+       "name": "AZD1722 (out-patient)",
+       "otherNames": [
+        "Tenapanor"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo out-patient"
+       ],
+       "description": "Placebo, size and color matched to experimental drug",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "End Stage Renal Disease",
+      "Chronic Kidney Disease Stage 5",
+      "ESRD"
+     ],
+     "keywords": [
+      "Hemodialysis"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 88,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Pharmacodynamic Study of AZD1722 in End-stage Renal Disease Patients on Hemodialysis",
+     "nctId": "NCT01764854",
+     "officialTitle": "A Phase 2a, Randomized, Double-Blind, Placebo-Controlled, Parallel Design Study to Evaluate the Pharmacodynamics, Safety, and Tolerability of AZD1722 in End-Stage Renal Disease Patients on Hemodialysis",
+     "orgStudyIdInfo": {
+      "id": "D5611C00001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Ardelyx"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "collaborators": [
+      {
+       "class": "INDUSTRY",
+       "name": "AstraZeneca"
+      }
+     ],
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Ardelyx"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2013-10",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2020-08-10",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2020-08-06",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2013-10",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2020-08-10",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2020-05-21",
+     "resultsFirstSubmitQcDate": "2020-08-06",
+     "startDateStruct": {
+      "date": "2013-01"
+     },
+     "statusVerifiedDate": "2020-08",
+     "studyFirstPostDateStruct": {
+      "date": "2013-01-10",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2013-01-04",
+     "studyFirstSubmitQcDate": "2013-01-08"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "AZD1722 in 5, 15, 30, or 60 mg capsules. Starting dose is 15 mg BID PO for 12 Weeks",
+       "interventionNames": [
+        "Drug: AZD1722"
+       ],
+       "label": "AZD1722",
+       "type": "ACTIVE_COMPARATOR"
+      },
+      {
+       "description": "Placebo capsule BID PO for 12 Weeks",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "AZD1722"
+       ],
+       "name": "AZD1722",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Placebo for AZD1722",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Chronic Kidney Disease",
+      "Type 2 Diabetes Mellitus"
+     ],
+     "keywords": [
+      "albuminuria"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 154,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Study in CKD Patients With Type 2 Diabetes Mellitus and Albuminuria",
+     "nctId": "NCT01847092",
+     "officialTitle": "An Exploratory Phase 2, Randomized, Double-blind, Placebo-controlled, Parallel Design Study to Evaluate the Safety, Tolerability, and Pharmacodynamics of AZD1722 in CKD Patients With Type 2 Diabetes Mellitus and Albuminuria",
+     "orgStudyIdInfo": {
+      "id": "D5610C00001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Ardelyx"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "collaborators": [
+      {
+       "class": "INDUSTRY",
+       "name": "AstraZeneca"
+      }
+     ],
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Ardelyx"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2015-04",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2020-05-27",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2020-05-09",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2015-03",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2020-05-27",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2020-05-09",
+     "resultsFirstSubmitQcDate": "2020-05-09",
+     "startDateStruct": {
+      "date": "2013-05"
+     },
+     "statusVerifiedDate": "2020-05",
+     "studyFirstPostDateStruct": {
+      "date": "2013-05-06",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2013-05-02",
+     "studyFirstSubmitQcDate": "2013-05-03"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "AZD1722",
+       "interventionNames": [
+        "Drug: AZD1722"
+       ],
+       "label": "5 mg BID",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "AZD1722",
+       "interventionNames": [
+        "Drug: AZD1722"
+       ],
+       "label": "20 mg BID",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "AZD1722",
+       "interventionNames": [
+        "Drug: AZD1722"
+       ],
+       "label": "50 mg BID",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "20 mg BID",
+        "5 mg BID",
+        "50 mg BID"
+       ],
+       "name": "AZD1722",
+       "otherNames": [
+        "RDX5791, Tenapanor"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Constipation Predominant Irritable Bowel Syndrome"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 356,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2",
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "The Efficacy of AZD1722 in Constipation Predominant Irritable Bowel Syndrome (IBS-C)",
+     "nctId": "NCT01923428",
+     "officialTitle": "A Randomized, Double-Blind, Placebo-Controlled Study to Assess the Safety and Efficacy of AZD1722 for the Treatment of Constipation-Predominant Irritable Bowel Syndrome (IBS-C)",
+     "orgStudyIdInfo": {
+      "id": "D5612C00001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Ardelyx"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Ardelyx"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2014-10",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2020-04-08",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2020-03-31",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2014-10",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2020-01-10",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2019-12-23",
+     "resultsFirstSubmitQcDate": "2019-12-23",
+     "startDateStruct": {
+      "date": "2013-08"
+     },
+     "statusVerifiedDate": "2020-03",
+     "studyFirstPostDateStruct": {
+      "date": "2013-08-15",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2013-08-13",
+     "studyFirstSubmitQcDate": "2013-08-14"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Single oral dose 15 mg of \\[14C\\]AZD1722",
+       "interventionNames": [
+        "Drug: AZD1722"
+       ],
+       "label": "AZD1722",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "AZD1722"
+       ],
+       "description": "Single oral dose 15 mg of \\[14C\\]AZD1722",
+       "name": "AZD1722",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Healthy Volunteers"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "BASIC_SCIENCE"
+     },
+     "enrollmentInfo": {
+      "count": 26,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "AZD1722 Open Label, Absorption Distribution Metabolism and Excretion Study",
+     "nctId": "NCT02063386",
+     "officialTitle": "A Phase I, Single-centre, Open-label Study to Assess the Absorption, Distribution, Metabolism and Excretion (ADME) of a Single Oral Dose of 14C-labelled AZD1722 in Healthy Male Volunteers",
+     "orgStudyIdInfo": {
+      "id": "D5611C00007"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Ardelyx"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Ardelyx"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2014-05",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2015-09-22",
+      "type": "ESTIMATED"
+     },
+     "lastUpdateSubmitDate": "2015-09-18",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2014-05",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2014-04"
+     },
+     "statusVerifiedDate": "2015-09",
+     "studyFirstPostDateStruct": {
+      "date": "2014-02-14",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2014-02-13",
+     "studyFirstSubmitQcDate": "2014-02-13"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "1 mg AZD1722 bid",
+       "interventionNames": [
+        "Drug: AZD1722"
+       ],
+       "label": "1 mg bid",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "3 mg AZD1722 bid",
+       "interventionNames": [
+        "Drug: AZD1722"
+       ],
+       "label": "3 mg bid",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "10 mg AZD1722 bid",
+       "interventionNames": [
+        "Drug: AZD1722"
+       ],
+       "label": "10 mg bid",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "30 mg AZD1722 bid",
+       "interventionNames": [
+        "Drug: AZD1722"
+       ],
+       "label": "30 mg bid",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "3 mg AZD1722 od",
+       "interventionNames": [
+        "Drug: AZD1722"
+       ],
+       "label": "3 mg od",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "30 mg AZD1722 od",
+       "interventionNames": [
+        "Drug: AZD1722"
+       ],
+       "label": "30 mg od",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Placebo (double dummy technique)",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "1 mg bid",
+        "10 mg bid",
+        "3 mg bid",
+        "3 mg od",
+        "30 mg bid",
+        "30 mg od"
+       ],
+       "description": "AZD1722, oral tablet",
+       "name": "AZD1722",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Placebo bid, double dummy technique",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Hyperphosphatemia"
+     ],
+     "keywords": [
+      "S-phosphate, hyperphosphatemia, hemodialysis, ESRD"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 162,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Dose Finding Study to Treat High Phosphate Levels in the Blood.",
+     "nctId": "NCT02081534",
+     "officialTitle": "A Phase 2b, Randomized, Double Blind, Placebo-controlled, Parallel Group, Multicentre Dose Finding Study to Evaluate the Efficacy, Safety and Tolerability of AZD1722 to Treat Hyperphosphatemia in End-Stage Renal Disease Patients on Hemodialysis (ESRD-HD)",
+     "orgStudyIdInfo": {
+      "id": "D5613C00001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Ardelyx"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Ardelyx"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2014-11",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2020-09-14",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2020-08-25",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2014-11",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2020-09-14",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2020-08-06",
+     "resultsFirstSubmitQcDate": "2020-08-25",
+     "startDateStruct": {
+      "date": "2014-03"
+     },
+     "statusVerifiedDate": "2020-08",
+     "studyFirstPostDateStruct": {
+      "date": "2014-03-07",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2014-03-06",
+     "studyFirstSubmitQcDate": "2014-03-06"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Volunteers will receive Midazolam 7.5 mg administered by mouth as a syrup",
+       "interventionNames": [
+        "Drug: Midazolam"
+       ],
+       "label": "Midazolam 7.5 mg",
+       "type": "ACTIVE_COMPARATOR"
+      },
+      {
+       "description": "Volunteers will received AZD1722 15 mg administered by mouth, as a tablet",
+       "interventionNames": [
+        "Drug: AZD1722"
+       ],
+       "label": "AZD1722 15 mg",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Volunteers will receive AZD1722 15 mg tablet and Midazolam 7.5 mg syrup, by mouth",
+       "interventionNames": [
+        "Drug: AZD1722 and Midazolam"
+       ],
+       "label": "AZD1722 15 mg and Midazolam 7.5 mg",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Midazolam 7.5 mg"
+       ],
+       "description": "Volunteers will receive a single dose of Midazolam 7.5 mg on Day 1",
+       "name": "Midazolam",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "AZD1722 15 mg"
+       ],
+       "description": "Volunteers will receive twice daily, oral doses of AZD1722 15 mg on Days 2-14",
+       "name": "AZD1722",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "AZD1722 15 mg and Midazolam 7.5 mg"
+       ],
+       "description": "On Day 15 volunteers will receive AZD1722 15 mg and Midazolam 7.5 mg at the same time in the morning. In the evening on Day 15 AZD1722 15 mg will be administered alone.",
+       "name": "AZD1722 and Midazolam",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Healthy Volunteers"
+     ],
+     "keywords": [
+      "Phase I",
+      "Healthy",
+      "Pharmacokinetics"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "BASIC_SCIENCE"
+     },
+     "enrollmentInfo": {
+      "count": 65,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "To Evaluate the Effect of AZD1722 on the Pharmacokinetics of Oral Midazolam in Healthy Volunteers",
+     "nctId": "NCT02140268",
+     "officialTitle": "A Phase 1, Single-center, Fixed-sequence, Open Label Study to Evaluate the Effect of Oral Repeated Doses of AZD1722 on the Pharmacokinetics of Oral Midazolam in Healthy Volunteers",
+     "orgStudyIdInfo": {
+      "id": "D5613C00003"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Ardelyx"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Ardelyx"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2014-08",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2015-09-22",
+      "type": "ESTIMATED"
+     },
+     "lastUpdateSubmitDate": "2015-09-18",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2014-08",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2014-05"
+     },
+     "statusVerifiedDate": "2015-09",
+     "studyFirstPostDateStruct": {
+      "date": "2014-05-16",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2014-05-14",
+     "studyFirstSubmitQcDate": "2014-05-14"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Subjects will be randomised to receive Treatment A in Period 1 followed by Treatment B in period 2",
+       "interventionNames": [
+        "Drug: Treatment A (cefadroxil alone)",
+        "Drug: Treatment B - AZD1722 followed by cefadroxil"
+       ],
+       "label": "Sequence 1 (Treatment A/B)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Subjects will be randomised to receive Treatment B in Period 1 followed by Treatment A in period 2",
+       "interventionNames": [
+        "Drug: Treatment A (cefadroxil alone)",
+        "Drug: Treatment B - AZD1722 followed by cefadroxil"
+       ],
+       "label": "Sequence 2 (Treatment B/A)",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Sequence 1 (Treatment A/B)",
+        "Sequence 2 (Treatment B/A)"
+       ],
+       "description": "A single 500 mg oral dose of cefadroxil will be given on the morning of Day 1",
+       "name": "Treatment A (cefadroxil alone)",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Sequence 1 (Treatment A/B)",
+        "Sequence 2 (Treatment B/A)"
+       ],
+       "description": "15mg oral dose of AZD1722 will be given twice daily from Day 1 to Day 4 followed on the morning of Day 5 by a single dose of 15 mg AZD1722 taken together with a single 500mg dose of cefadroxil",
+       "name": "Treatment B - AZD1722 followed by cefadroxil",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Healthy Volunteers"
+     ],
+     "keywords": [
+      "Phase I, Healthy Volunteers"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "CROSSOVER",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "BASIC_SCIENCE"
+     },
+     "enrollmentInfo": {
+      "count": 71,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "To Assess the Effect of AZD1722 on the Pharmacokinetics of Cefadroxil in Healthy Volunteers",
+     "nctId": "NCT02140281",
+     "officialTitle": "A Phase 1, Single-center, Randomized, 2-Way Cross-over, Open-label Study to Evaluate the Effect of Oral Repeated Doses of AZD1722 on the Pharmacokinetics of Oral Cefadroxil in Healthy Volunteers",
+     "orgStudyIdInfo": {
+      "id": "D5613C00004"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Ardelyx"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Ardelyx"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2014-08",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2015-09-22",
+      "type": "ESTIMATED"
+     },
+     "lastUpdateSubmitDate": "2015-09-18",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2014-08",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2014-05"
+     },
+     "statusVerifiedDate": "2015-09",
+     "studyFirstPostDateStruct": {
+      "date": "2014-05-16",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2014-05-14",
+     "studyFirstSubmitQcDate": "2014-05-14"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Dose escalation from 5 mg to 90 mg BID",
+       "interventionNames": [
+        "Drug: AZD1722",
+        "Drug: Placebo"
+       ],
+       "label": "AZD1722",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "AZD1722"
+       ],
+       "name": "AZD1722",
+       "otherNames": [
+        "RDX5791",
+        "Tenapanor"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "AZD1722"
+       ],
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Healthy Volunteer"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 83,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Safety, Tolerability, Pharmacokinetics and Pharmacodynamic of AZD1722 in Healthy Male and Female Japanese Subjects",
+     "nctId": "NCT02176252",
+     "officialTitle": "A Phase I, Double-blind, Placebo Controlled Study to Assess the Safety, Tolerability, Pharmacokinetics and Pharmacodynamic Effects in Healthy Male and Female Japanese Subjects After Single and Multiple Doses (Bid) of AZD1722",
+     "orgStudyIdInfo": {
+      "id": "D5611C00005"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Ardelyx"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "collaborators": [
+      {
+       "class": "INDUSTRY",
+       "name": "AstraZeneca"
+      }
+     ],
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Ardelyx"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2013-12",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2014-06-27",
+      "type": "ESTIMATED"
+     },
+     "lastUpdateSubmitDate": "2014-06-26",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2013-12",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2013-07"
+     },
+     "statusVerifiedDate": "2014-06",
+     "studyFirstPostDateStruct": {
+      "date": "2014-06-27",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2013-11-11",
+     "studyFirstSubmitQcDate": "2014-06-26"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Part A-Treatment A: morning dose of AZD1722 salt tablet 5 to 10 minutes before start of intake of breakfast; evening dose 5 to 10 minutes before start of intake of dinner",
+       "interventionNames": [
+        "Drug: AZD1722 salt tablet"
+       ],
+       "label": "Treatment A AZD1722 salt tablet (fasted)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Part A Treatment B: morning dose of AZD1722 salt tablet 30 minutes after start of intake of breakfast; evening dose 30 minutes after start of intake of dinner",
+       "interventionNames": [
+        "Drug: AZD1722 salt tablet"
+       ],
+       "label": "Treatment B AZD1722 salt tablet (fed)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Part A Treatment C: morning dose AZD1722 HCl tablet then breakfast served 1 hour after dosing; evening dose 3 hours after start of intake of dinner and 1 hour before the next meal consumption",
+       "interventionNames": [
+        "Drug: AZD1722 salt tablet"
+       ],
+       "label": "Treatment C AZD1722 salt tablet (fasted)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Part B Treatment D: morning dose of AZD1722 free-base tablet administered 5 to 10 minutes before the start of intake of breakfast and evening dose 5 to 10 minutes before start of intake of dinner",
+       "interventionNames": [
+        "Drug: AZD1722 free base tablet"
+       ],
+       "label": "Treat D AZD1722 free-base tablet (fast)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Part B Treatment E: morning dose of AZD1722 free base tablet administered 5 to 10 minutes before start of intake of breakfast and evening dose 5 to 10 minutes before start of intake of dinner; omeprazole was administered twice daily from Days -5 to -1 or Days 5 to 9 (depending on assigned treatment period), 1 hour before breakfast and dinner, and from Days 1 to 4 or Days 10 to 13, 1 hour prior to the administration of AZD1722",
+       "interventionNames": [
+        "Drug: AZD1722 free base tablet",
+        "Drug: AZD1722 free base tablet + Omeprazole"
+       ],
+       "label": "Treat E AZD1722 free-base+Omeprazole",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Treatment A AZD1722 salt tablet (fasted)",
+        "Treatment B AZD1722 salt tablet (fed)",
+        "Treatment C AZD1722 salt tablet (fasted)"
+       ],
+       "description": "AZD1722 will be administered as 14 mg (salt tablet). tablet for oral use. Subjects will receive a 14 mg tablet in the morning and evening on Days 1 to 4 (Period 1), Days 7 to 10 (Period 2), and Days 13 to 16 (Period 3).",
+       "name": "AZD1722 salt tablet",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Treat D AZD1722 free-base tablet (fast)",
+        "Treat E AZD1722 free-base+Omeprazole"
+       ],
+       "description": "AZD1722 will be given as four 14 mg free-base tablets (56mg) in the morning and evening on Days 1 to 4 (Period 1) and Days 10 to 13 (Period 2).",
+       "name": "AZD1722 free base tablet",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Treat E AZD1722 free-base+Omeprazole"
+       ],
+       "description": "AZD1722 free base tablet administered 5 to 10 minutes before intake of breakfast and evening dose 5 to 10 minutes before start of intake of dinner; omeprazole was administered twice daily from Days -5 to -1 or Days 5 to 9 (depending on assigned treatment period), 1 hour before breakfast and dinner, and from Days 1 to 4 or Days 10 to 13, 1 hour prior to the administration of AZD1722",
+       "name": "AZD1722 free base tablet + Omeprazole",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Healthy Volunteers Food Interaction Study"
+     ],
+     "keywords": [
+      "Phase I",
+      "Healthy subjects",
+      "PK",
+      "PD"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "CROSSOVER",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "BASIC_SCIENCE"
+     },
+     "enrollmentInfo": {
+      "count": 37,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "D5611C00003 - Food Interaction Study With AZD1722 Tablet in Healthy Subjects",
+     "nctId": "NCT02226783",
+     "officialTitle": "Phase I Study in Healthy Subjects to Evaluate the Pharmacodynamics (PD) of AZD1722 Given With and Without Food (Part A) and a 2-way Crossover to Evaluate the PD of AZD1722 Given as a Free-base Tablet With and Without Omeprazole (Part B)",
+     "orgStudyIdInfo": {
+      "id": "D5611C00003"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Ardelyx"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Ardelyx"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2013-10",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2015-09-22",
+      "type": "ESTIMATED"
+     },
+     "lastUpdateSubmitDate": "2015-09-18",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2013-10",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2013-03"
+     },
+     "statusVerifiedDate": "2015-09",
+     "studyFirstPostDateStruct": {
+      "date": "2014-08-27",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2014-08-26",
+     "studyFirstSubmitQcDate": "2014-08-26"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "15 mg bid AZD1722 HCl and 20 mg bid Omeprazole",
+       "interventionNames": [
+        "Drug: AZD1722",
+        "Drug: Omeprazole"
+       ],
+       "label": "AZD1722 HCl Capsule",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "15 mg bid AZD1722 HCl and 20 mg bid Omeprazole",
+       "interventionNames": [
+        "Drug: AZD1722",
+        "Drug: Omeprazole"
+       ],
+       "label": "AZD1722 HCl Tablet",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "15 mg bid AZD1722 and 20 mg bid Omeprazole",
+       "interventionNames": [
+        "Drug: AZD1722",
+        "Drug: Omeprazole"
+       ],
+       "label": "AZD1722 Free-base Tablet",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "AZD1722 Free-base Tablet",
+        "AZD1722 HCl Capsule",
+        "AZD1722 HCl Tablet"
+       ],
+       "name": "AZD1722",
+       "otherNames": [
+        "Tenapanor",
+        "RDX5791"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "AZD1722 Free-base Tablet",
+        "AZD1722 HCl Capsule",
+        "AZD1722 HCl Tablet"
+       ],
+       "name": "Omeprazole",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Healthy"
+     ],
+     "keywords": [
+      "Volunteers"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "CROSSOVER",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 18,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Phase 1 Study to Examine the Pharmacodynamics of Different AZD1722 Formulations",
+     "nctId": "NCT02249936",
+     "officialTitle": "A Phase 1, Single-Center, Randomized, 3-Way Cross-Over, Open Label Study to Evaluate the Pharmacodynamics of Different Formulations of AZD1722 in Healthy Volunteers Taking Omeprazole",
+     "orgStudyIdInfo": {
+      "id": "D5611C00002"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Ardelyx"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "collaborators": [
+      {
+       "class": "INDUSTRY",
+       "name": "AstraZeneca"
+      }
+     ],
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Ardelyx"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2013-02",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2014-09-26",
+      "type": "ESTIMATED"
+     },
+     "lastUpdateSubmitDate": "2014-09-25",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2013-02",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2013-02"
+     },
+     "statusVerifiedDate": "2014-09",
+     "studyFirstPostDateStruct": {
+      "date": "2014-09-26",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2014-09-24",
+     "studyFirstSubmitQcDate": "2014-09-25"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "15 mg BID",
+       "interventionNames": [
+        "Drug: AZD1722"
+       ],
+       "label": "AZD1722 alone",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "AZD1722 15 mg BID and Renvela 800 mg TID",
+       "interventionNames": [
+        "Drug: AZD1722",
+        "Drug: Renvela"
+       ],
+       "label": "AD1722 with Renvela",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "AD1722 with Renvela",
+        "AZD1722 alone"
+       ],
+       "name": "AZD1722",
+       "otherNames": [
+        "RDX5791",
+        "Tenapanor"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "AD1722 with Renvela"
+       ],
+       "name": "Renvela",
+       "otherNames": [
+        "Sevelamer carbonate"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Healthy"
+     ],
+     "keywords": [
+      "Volunteer"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "CROSSOVER",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 16,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Phase 1 Study to Examine the Effect of Renvela on the Pharmacodynamics of AZD1722",
+     "nctId": "NCT02346890",
+     "officialTitle": "A Phase 1, Single-center, Randomized, 2-way Crossover, Open Label Study to Evaluate the Effect of Renvela on the Pharmacodynamics of AZD1722 in Healthy Volunteeers",
+     "orgStudyIdInfo": {
+      "id": "D5611C00006"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Ardelyx"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "collaborators": [
+      {
+       "class": "INDUSTRY",
+       "name": "AstraZeneca"
+      }
+     ],
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Ardelyx"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2013-04",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2015-01-27",
+      "type": "ESTIMATED"
+     },
+     "lastUpdateSubmitDate": "2015-01-26",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2013-04",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2013-04"
+     },
+     "statusVerifiedDate": "2015-01",
+     "studyFirstPostDateStruct": {
+      "date": "2015-01-27",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2014-09-24",
+     "studyFirstSubmitQcDate": "2015-01-26"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Tenapanor",
+       "interventionNames": [
+        "Drug: Tenapanor"
+       ],
+       "label": "50mg BID",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Placebo",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "50mg BID"
+       ],
+       "name": "Tenapanor",
+       "otherNames": [
+        "RDX5791",
+        "AZD1722"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Constipation Predominant Irritable Bowel Syndrome"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 606,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "T3MPO-1",
+     "briefTitle": "A 12-Week Study With a 4-Week Randomized Withdrawal Period to Evaluate the Efficacy and Safety of Tenapanor for the Treatment of IBS-C",
+     "nctId": "NCT02621892",
+     "officialTitle": "A 12-Week, Randomized, Double-Blind, Placebo-Controlled Study With a 4-Week Randomized Withdrawal Period to Evaluate the Efficacy and Safety of Tenapanor for the Treatment of Constipation-Predominant Irritable Bowel Syndrome (IBS-C)",
+     "orgStudyIdInfo": {
+      "id": "TEN-01-301"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Ardelyx"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Ardelyx"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2017-04",
+      "type": "ACTUAL"
+     },
+     "dispFirstPostDateStruct": {
+      "date": "2019-03-15",
+      "type": "ACTUAL"
+     },
+     "dispFirstSubmitDate": "2019-03-12",
+     "dispFirstSubmitQcDate": "2019-03-12",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2020-04-21",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2020-04-10",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2017-03",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2020-04-21",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2020-03-30",
+     "resultsFirstSubmitQcDate": "2020-04-10",
+     "startDateStruct": {
+      "date": "2015-10"
+     },
+     "statusVerifiedDate": "2020-04",
+     "studyFirstPostDateStruct": {
+      "date": "2015-12-04",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2015-12-02",
+     "studyFirstSubmitQcDate": "2015-12-02"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Tenapanor, 3mg BID (6mg total)",
+       "interventionNames": [
+        "Drug: Tenapanor"
+       ],
+       "label": "3mg BID",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Tenapanor, 10mg BID (20mg total)",
+       "interventionNames": [
+        "Drug: Tenapanor"
+       ],
+       "label": "10mg BID",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Tenapanor, patients start at 30mg BID and can down titrate weekly to 20, 15, 10, and 3mg BID, sequentially based on a GI tolerability question",
+       "interventionNames": [
+        "Drug: Tenapanor"
+       ],
+       "label": "Dose Titration",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Placebo",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "10mg BID",
+        "3mg BID",
+        "Dose Titration"
+       ],
+       "name": "Tenapanor",
+       "otherNames": [
+        "RDX5791, AZD1722"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Hyperphosphatemia"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "TRIPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 219,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "An 8-Week Study to Evaluate Tenapanor in the Treatment of Hyperphosphatemia in End-Stage Renal Disease Patients on Hemodialysis (ESRD-HD)",
+     "nctId": "NCT02675998",
+     "officialTitle": "An 8-week, Multicenter, Randomized, Double-Blind, Parallel Group Study With a 4-week, Placebo-Controlled, Randomized Withdrawal Period to Evaluate the Efficacy, Safety, and Tolerability of Tenapanor to Treat Hyperphosphatemia in End-Stage Renal Disease Patients on Hemodialysis (ESRD-HD)",
+     "orgStudyIdInfo": {
+      "id": "TEN-02-201"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Ardelyx"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Ardelyx"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2018-01-17",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2020-08-10",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2020-08-06",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2016-12",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2020-08-10",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2020-05-09",
+     "resultsFirstSubmitQcDate": "2020-08-06",
+     "startDateStruct": {
+      "date": "2016-01"
+     },
+     "statusVerifiedDate": "2020-08",
+     "studyFirstPostDateStruct": {
+      "date": "2016-02-05",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2016-02-03",
+     "studyFirstSubmitQcDate": "2016-02-03"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Tenapanor, 50mg BID (100mg total)",
+       "interventionNames": [
+        "Drug: Tenapanor"
+       ],
+       "label": "50mg BID",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Placebo",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "50mg BID"
+       ],
+       "name": "Tenapanor",
+       "otherNames": [
+        "RDX5791",
+        "AZD1722"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Constipation Predominant Irritable Bowel Syndrome"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 593,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "T3MPO-2",
+     "briefTitle": "A 26-Week Study to Evaluate the Efficacy and Safety of Tenapanor in IBS-C",
+     "nctId": "NCT02686138",
+     "officialTitle": "A 26-Week, Randomized, Double-Blind, Placebo-Controlled Study to Evaluate the Efficacy and Safety of Tenapanor for the Treatment of Constipation-Predominant Irritable Bowel Syndrome (IBS-C)",
+     "orgStudyIdInfo": {
+      "id": "TEN-01-302"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Ardelyx"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Ardelyx"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2017-10",
+      "type": "ACTUAL"
+     },
+     "dispFirstPostDateStruct": {
+      "date": "2019-03-14",
+      "type": "ACTUAL"
+     },
+     "dispFirstSubmitDate": "2019-03-11",
+     "dispFirstSubmitQcDate": "2019-03-11",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2020-04-22",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2020-04-10",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2017-08",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2020-04-13",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2020-03-30",
+     "resultsFirstSubmitQcDate": "2020-03-30",
+     "startDateStruct": {
+      "date": "2015-12"
+     },
+     "statusVerifiedDate": "2020-04",
+     "studyFirstPostDateStruct": {
+      "date": "2016-02-19",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2016-01-11",
+     "studyFirstSubmitQcDate": "2016-02-15"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Tenapanor, 50 mg BID (100 mg total)",
+       "interventionNames": [
+        "Drug: Tenapanor"
+       ],
+       "label": "50mg BID",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "50mg BID"
+       ],
+       "name": "Tenapanor",
+       "otherNames": [
+        "RDX5791",
+        "AZD1722"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Constipation Predominant Irritable Bowel Syndrome"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 312,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "T3MPO-3",
+     "briefTitle": "A Long-Term Safety Study of Tenapanor for the Treatment of IBS-C",
+     "nctId": "NCT02727751",
+     "officialTitle": "An Open Label Long-Term Safety Study of Tenapanor for the Treatment of Constipation-Predominant Irritable Bowel Syndrome (IBS-C)",
+     "orgStudyIdInfo": {
+      "id": "TEN-01-303"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Ardelyx"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Ardelyx"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2017-10",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2020-09-09",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2020-08-25",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2017-10",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2020-04-24",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2020-04-10",
+     "resultsFirstSubmitQcDate": "2020-04-10",
+     "startDateStruct": {
+      "date": "2016-03"
+     },
+     "statusVerifiedDate": "2020-08",
+     "studyFirstPostDateStruct": {
+      "date": "2016-04-05",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2016-03-23",
+     "studyFirstSubmitQcDate": "2016-03-30"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "30 mg of RDX5791 administered twice daily PO (60 mg total dose/day).",
+       "interventionNames": [
+        "Drug: RDX5791",
+        "Drug: Placebo"
+       ],
+       "label": "30 mg bid",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "30 mg of RDX5791 administered three times daily PO (90 mg total dose/day).",
+       "interventionNames": [
+        "Drug: RDX5791",
+        "Drug: Placebo"
+       ],
+       "label": "30 mg tid",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "60 mg of RDX5791 administered two times daily (120 mg total dose/day).",
+       "interventionNames": [
+        "Drug: RDX5791",
+        "Drug: Placebo"
+       ],
+       "label": "60 mg bid",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "15 mg of RDX5791 administered two times daily (30 mg total dose/day).",
+       "interventionNames": [
+        "Drug: RDX5791",
+        "Drug: Placebo"
+       ],
+       "label": "15 mg bid",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "30 mg of RDX5791 administered once daily (30 mg total dose/day).",
+       "interventionNames": [
+        "Drug: RDX5791",
+        "Drug: Placebo"
+       ],
+       "label": "30 mg QD",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "15 mg or 30 mg or 45 mg of RDX5791 administered two times daily (30, 60, or 90 mg total dose/day respectively). The stopping criteria for the dose escalation is based on Bristol Stool Score and AEs.",
+       "interventionNames": [
+        "Drug: RDX5791",
+        "Drug: Placebo"
+       ],
+       "label": "Escalating dose bid",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "30 mg of RDX5791 administered two times daily (60 mg total dose/day) with psyllium taken up to three times per day (maximum of 15 g psyllium/day).",
+       "interventionNames": [
+        "Drug: RDX5791",
+        "Drug: Placebo"
+       ],
+       "label": "30 mg bid with psyllium",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "15 mg bid",
+        "30 mg QD",
+        "30 mg bid",
+        "30 mg bid with psyllium",
+        "30 mg tid",
+        "60 mg bid",
+        "Escalating dose bid"
+       ],
+       "name": "RDX5791",
+       "otherNames": [
+        "Tenapanor",
+        "AZD1722"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "15 mg bid",
+        "30 mg QD",
+        "30 mg bid",
+        "30 mg bid with psyllium",
+        "30 mg tid",
+        "60 mg bid",
+        "Escalating dose bid"
+       ],
+       "description": "Placebo",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Healthy"
+     ],
+     "keywords": [
+      "Phase I",
+      "Healthy",
+      "Pharmacodynamics"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "BASIC_SCIENCE"
+     },
+     "enrollmentInfo": {
+      "count": 105,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Safety, Tolerability, and Pharmacodynamics of RDX5791 in Healthy Volunteers",
+     "nctId": "NCT02796131",
+     "officialTitle": "A Phase I, Single-center, Randomized, Double-blind, Placebo-controlled Study to Evaluate the Safety, Tolerability, and Pharmacodynamics of Different Multiple Dose Regimens of RDX5791 in Healthy Volunteers",
+     "orgStudyIdInfo": {
+      "id": "RDX5791-102"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Ardelyx"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Ardelyx"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2012-04",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2016-06-10",
+      "type": "ESTIMATED"
+     },
+     "lastUpdateSubmitDate": "2016-06-07",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2011-10",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2011-07"
+     },
+     "statusVerifiedDate": "2016-06",
+     "studyFirstPostDateStruct": {
+      "date": "2016-06-10",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2016-06-07",
+     "studyFirstSubmitQcDate": "2016-06-07"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "10mg of RDX5791 administered once daily PO fasting",
+       "interventionNames": [
+        "Drug: RDX5791",
+        "Drug: Placebo"
+       ],
+       "label": "RDX5791 10mg QD (SAD phase)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "50mg of RDX5791 administered once daily PO fasting",
+       "interventionNames": [
+        "Drug: RDX5791",
+        "Drug: Placebo"
+       ],
+       "label": "RDX5791 50mg QD (SAD phase)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "150mg of RDX5791 administered once daily PO fasting",
+       "interventionNames": [
+        "Drug: RDX5791",
+        "Drug: Placebo"
+       ],
+       "label": "RDX5791 150mg QD (SAD phase)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "450mg of RDX5791 administered once daily PO fasting",
+       "interventionNames": [
+        "Drug: RDX5791",
+        "Drug: Placebo"
+       ],
+       "label": "RDX5791 450mg QD (SAD phase)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "900mg of RDX5791 administered once daily PO fasting",
+       "interventionNames": [
+        "Drug: RDX5791",
+        "Drug: Placebo"
+       ],
+       "label": "RDX5791 900mg QD (SAD phase)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "3mg of RDX5791 administered once daily PO fasting",
+       "interventionNames": [
+        "Drug: RDX5791",
+        "Drug: Placebo"
+       ],
+       "label": "RDX5791 3mg QD (MAD phase)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "10mg of RDX5791 administered once daily PO fasting",
+       "interventionNames": [
+        "Drug: RDX5791",
+        "Drug: Placebo"
+       ],
+       "label": "RDX5791 10mg QD (MAD phase)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "30mg of RDX5791 administered once daily PO fasting",
+       "interventionNames": [
+        "Drug: RDX5791",
+        "Drug: Placebo"
+       ],
+       "label": "RDX5791 30 mg QD (MAD phase)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "100mg of RDX5791 administered once daily PO fasting",
+       "interventionNames": [
+        "Drug: RDX5791",
+        "Drug: Placebo"
+       ],
+       "label": "RDX5791 100 mg QD (MAD phase)",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "RDX5791 100 mg QD (MAD phase)",
+        "RDX5791 10mg QD (MAD phase)",
+        "RDX5791 10mg QD (SAD phase)",
+        "RDX5791 150mg QD (SAD phase)",
+        "RDX5791 30 mg QD (MAD phase)",
+        "RDX5791 3mg QD (MAD phase)",
+        "RDX5791 450mg QD (SAD phase)",
+        "RDX5791 50mg QD (SAD phase)",
+        "RDX5791 900mg QD (SAD phase)"
+       ],
+       "name": "RDX5791",
+       "otherNames": [
+        "Tenapanor",
+        "AZD1722"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "RDX5791 100 mg QD (MAD phase)",
+        "RDX5791 10mg QD (MAD phase)",
+        "RDX5791 10mg QD (SAD phase)",
+        "RDX5791 150mg QD (SAD phase)",
+        "RDX5791 30 mg QD (MAD phase)",
+        "RDX5791 3mg QD (MAD phase)",
+        "RDX5791 450mg QD (SAD phase)",
+        "RDX5791 50mg QD (SAD phase)",
+        "RDX5791 900mg QD (SAD phase)"
+       ],
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Healthy"
+     ],
+     "keywords": [
+      "Phase I",
+      "Healthy",
+      "Pharmacokinetics",
+      "Pharmacodynamics"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "BASIC_SCIENCE"
+     },
+     "enrollmentInfo": {
+      "count": 80,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of RDX5791 in Healthy Volunteers",
+     "nctId": "NCT02819687",
+     "officialTitle": "A Phase 1, Single-Center, Randomized, Double-Blind, Placebo-Controlled Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of Single- and Multiple-Ascending Doses of RDX5791 in Healthy Volunteers",
+     "orgStudyIdInfo": {
+      "id": "RDX5791-101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Ardelyx"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Ardelyx"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2011-08",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2016-06-30",
+      "type": "ESTIMATED"
+     },
+     "lastUpdateSubmitDate": "2016-06-29",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2011-03",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2010-11"
+     },
+     "statusVerifiedDate": "2016-06",
+     "studyFirstPostDateStruct": {
+      "date": "2016-06-30",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2016-06-07",
+     "studyFirstSubmitQcDate": "2016-06-29"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Microcrystalline Cellulose (MCC), 2 g qd. Subjects assigned to the Placebo group will be randomly assigned in a 1:1:1 ratio to receive either one, two, or three bottles of drug per day.",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "description": "RDX227675, 10 g qd",
+       "interventionNames": [
+        "Drug: RDX227675"
+       ],
+       "label": "10 g qd",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "RDX227675, 20 g qd",
+       "interventionNames": [
+        "Drug: RDX227675"
+       ],
+       "label": "20 g qd",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "RDX227675, 30 g qd",
+       "interventionNames": [
+        "Drug: RDX227675"
+       ],
+       "label": "30 g qd",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "10 g qd",
+        "20 g qd",
+        "30 g qd"
+       ],
+       "name": "RDX227675",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Hyperkalemia"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "SINGLE",
+       "whoMasked": [
+        "PARTICIPANT"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 60,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Study Evaluating the Onset-of-Action, Safety, and Efficacy of RDX227675 for the Treatment of Hyperkalemia",
+     "nctId": "NCT03018067",
+     "officialTitle": "A Single-Blind, Placebo-Controlled Study Evaluating the Onset-of-Action, Safety, and Efficacy of RDX227675 for the Treatment of Hyperkalemia",
+     "orgStudyIdInfo": {
+      "id": "RDX227675-201"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Ardelyx"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Ardelyx"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2017-05",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2019-12-26",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2019-12-23",
+     "overallStatus": "TERMINATED",
+     "primaryCompletionDateStruct": {
+      "date": "2017-05",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2017-01",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2019-12",
+     "studyFirstPostDateStruct": {
+      "date": "2017-01-11",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2017-01-10",
+     "studyFirstSubmitQcDate": "2017-01-10",
+     "whyStopped": "Sponsor stopped program\\]"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "During the 26-week open label part, all enrolled subjects will receive 30 mg BID doses of tenapanor. Investigators may decrease or increase the dose in 10 mg increments to a minimum of 10 g BIDor a maximum of 30 mg BID",
+       "interventionNames": [
+        "Drug: Tenapanor"
+       ],
+       "label": "Tenapanor 10 mg, 20 mg, 30 mg BID",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Placebo",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "description": "Subjects randomized into the active control group, for safety analysis, will receive sevelamer carbonate, open label, for the entire 52-week study period. Sevelamer carbonate will be dosed based on package insert instructions (standard of care)",
+       "interventionNames": [
+        "Drug: Sevelamer Carbonate"
+       ],
+       "label": "Sevelamer Carbonate",
+       "type": "ACTIVE_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Tenapanor 10 mg, 20 mg, 30 mg BID"
+       ],
+       "description": "Active Drug",
+       "name": "Tenapanor",
+       "otherNames": [
+        "RDX5791, AZD1722"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Inactive Drug",
+       "name": "Placebo",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Sevelamer Carbonate"
+       ],
+       "description": "Active control",
+       "name": "Sevelamer Carbonate",
+       "otherNames": [
+        "Renvela"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Hyperphosphatemia"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "TRIPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 1559,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Phase 3 Study of Tenapanor to Treat Hyperphosphatemia in ESRD Patients on Dialysis",
+     "nctId": "NCT03427125",
+     "officialTitle": "A 26-Wk, Phase 3, Open Label (OL) Study With a 12-Wk, Placebo-Controlled, Randomized Withdrawal Period and an OL Safety Extension to Evaluate the Safety and Efficacy of Tenapanor to Treat Hyperphosphatemia in CKD Patients on Dialysis",
+     "orgStudyIdInfo": {
+      "id": "TEN-02-301"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Ardelyx"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Ardelyx"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2020-02-27",
+      "type": "ACTUAL"
+     },
+     "dispFirstPostDateStruct": {
+      "date": "2023-06-29",
+      "type": "ACTUAL"
+     },
+     "dispFirstSubmitDate": "2020-08-11",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2023-06-29",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2023-06-08",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2019-11-15",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2023-06-29",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2022-12-07",
+     "resultsFirstSubmitQcDate": "2023-06-08",
+     "startDateStruct": {
+      "date": "2018-01-08",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2023-06",
+     "studyFirstPostDateStruct": {
+      "date": "2018-02-09",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2018-01-19",
+     "studyFirstSubmitQcDate": "2018-02-02"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "During the Double-Blind Treatment Period, subjects will receive tenapanor starting at a dose of 30 mg bid (three 10 mg tablets each time).\n\nInvestigators may decrease or increase the dose of study medication based on s-P levels and/or gastrointestinal (GI) tolerability in 10 mg increments to a minimum of 10 mg bid or a maximum of 30 mg bid at any time during the Double-Blind Treatment Period.",
+       "interventionNames": [
+        "Drug: Tenapanor",
+        "Drug: Phosphate Binder Agents"
+       ],
+       "label": "Tenapanor 30 mg BID",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "same size, weight and appearance of experimental drug",
+       "interventionNames": [
+        "Drug: Placebo",
+        "Drug: Phosphate Binder Agents"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Tenapanor 30 mg BID"
+       ],
+       "description": "Active Drug",
+       "name": "Tenapanor",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Inactive Drug",
+       "name": "Placebo",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo",
+        "Tenapanor 30 mg BID"
+       ],
+       "description": "standard of care phosphate binder use at study entry was maintained throughout the entire study",
+       "name": "Phosphate Binder Agents",
+       "otherNames": [
+        "sevelamer carbonate",
+        "ferric citrate",
+        "calcium carbonate",
+        "calcium acetate",
+        "sucroferric oxyhydroxide"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Hyperphosphatemia"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "TRIPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 236,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2",
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Study to Evaluate the Efficacy of Tenapanor as Adjunctive Therapy to Phosphate Binder Therapy",
+     "nctId": "NCT03824587",
+     "officialTitle": "A Randomized, Double-Blind, Placebo-Controlled Study to Evaluate the Efficacy of Tenapanor as Adjunctive Therapy to Phosphate Binder Therapy in End-Stage Renal Disease (ESRD) Subjects With Hyperphosphatemia",
+     "orgStudyIdInfo": {
+      "id": "TEN-02-202"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Ardelyx"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Ardelyx"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2019-07-17",
+      "type": "ACTUAL"
+     },
+     "dispFirstPostDateStruct": {
+      "date": "2023-03-06",
+      "type": "ACTUAL"
+     },
+     "dispFirstSubmitDate": "2020-08-17",
+     "dispFirstSubmitQcDate": "2023-02-03",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2023-03-06",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2023-02-03",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2019-07-17",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2023-03-06",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2022-12-07",
+     "resultsFirstSubmitQcDate": "2023-02-03",
+     "startDateStruct": {
+      "date": "2019-02-28",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2023-02",
+     "studyFirstPostDateStruct": {
+      "date": "2019-01-31",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2019-01-29",
+     "studyFirstSubmitQcDate": "2019-01-29"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Tenapanor will be administered QD or BID and sevelamer can be added to achieve desired serum phosphorus level",
+       "interventionNames": [
+        "Drug: Tenapanor",
+        "Drug: Sevelamer Carbonate"
+       ],
+       "label": "Tenapanor w/Sevelamer",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Sevelamer will be administered QD, BID or TID and tenapanor will be added to achieve desired serum phosphorus level and sevelamer dose will be decreased as needed",
+       "interventionNames": [
+        "Drug: Tenapanor",
+        "Drug: Sevelamer Carbonate"
+       ],
+       "label": "Sevelamer w/Tenapanor",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Sevelamer w/Tenapanor",
+        "Tenapanor w/Sevelamer"
+       ],
+       "description": "NHE3 Inhibitor",
+       "name": "Tenapanor",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Sevelamer w/Tenapanor",
+        "Tenapanor w/Sevelamer"
+       ],
+       "description": "Phosphate binder",
+       "name": "Sevelamer Carbonate",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Hyperphosphatemia",
+      "End Stage Renal Disease"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 172,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE4"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "NORMALIZE",
+     "briefTitle": "A Long-Term Study of Tenapanor Alone or in Combination With Sevelamer in Patients With CKD on Dialysis and HP",
+     "nctId": "NCT03988920",
+     "officialTitle": "A Long-Term, Open Label Study to Evaluate the Ability of Tenapanor Alone or in Combination With Sevelamer to Treat to Goal Serum Phosphorus in Patients With End-Stage Kidney Disease on Dialysis (NORMALIZE)",
+     "orgStudyIdInfo": {
+      "id": "TEN-02-401"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Ardelyx"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Ardelyx"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2021-07-31",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2023-03-29",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2023-03-03",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2021-06-26",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2023-03-29",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2023-03-03",
+     "resultsFirstSubmitQcDate": "2023-03-03",
+     "startDateStruct": {
+      "date": "2019-06-15",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2023-03",
+     "studyFirstPostDateStruct": {
+      "date": "2019-06-18",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2019-06-14",
+     "studyFirstSubmitQcDate": "2019-06-14"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Patients stop taking phosphate binders and start tenapanor 30 mg twice daily",
+       "interventionNames": [
+        "Drug: Tenapanor"
+       ],
+       "label": "Cohort 1: Straight Switch",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Decreases phosphate binder dose by at least 50% with the ability to switch the binder regiment from thrice daily (TID) to BID or once a day and initiates tenapanor 30 mg BID",
+       "interventionNames": [
+        "Drug: Tenapanor"
+       ],
+       "label": "Cohort 2: Decrease Phosphate Binder by 50%",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Phosphate binder naive patients are enrolled as Cohort 3 and receive tenapanor with a starting dose of 30 mg/BID",
+       "interventionNames": [
+        "Drug: Tenapanor"
+       ],
+       "label": "Cohort 3: Phosphate Binder Naive",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Cohort 1: Straight Switch",
+        "Cohort 2: Decrease Phosphate Binder by 50%",
+        "Cohort 3: Phosphate Binder Naive"
+       ],
+       "description": "Use of tenapanor",
+       "name": "Tenapanor",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Chronic Kidney Disease Requiring Chronic Dialysis",
+      "Hyperphosphatemia"
+     ],
+     "keywords": [
+      "hyperphosphatemia"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 333,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE4"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "OPTIMIZE",
+     "briefTitle": "Study to Evaluate the Use of Tenapanor as Core Therapy in the Treatment of Hyperphosphatemia",
+     "nctId": "NCT04549597",
+     "officialTitle": "Randomized Open-Label Study to Evaluate Tenapanor as the Core Therapy in the Treatment of Hyperphosphatemia in Patients With Chronic Kidney Disease Who Are Phosphate Binder Naive or on Phosphate Binders to Optimize Phosphorus Management",
+     "orgStudyIdInfo": {
+      "id": "TEN-02-402"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Ardelyx"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Ardelyx"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2021-12-01",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2023-03-29",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2023-03-03",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2021-10-13",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2023-03-29",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2023-03-03",
+     "resultsFirstSubmitQcDate": "2023-03-03",
+     "startDateStruct": {
+      "date": "2020-11-20",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2023-03",
+     "studyFirstPostDateStruct": {
+      "date": "2020-09-16",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2020-09-09",
+     "studyFirstSubmitQcDate": "2020-09-14"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "RDX013 low dose oral dosage, twice daily",
+       "interventionNames": [
+        "Drug: RDX013"
+       ],
+       "label": "RDX013 Cohort 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "RDX013 low, mid dose oral dosage, twice daily",
+       "interventionNames": [
+        "Drug: RDX013"
+       ],
+       "label": "RDX013 Cohort 2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "RDX013 high, mid dose oral dosage, twice daily",
+       "interventionNames": [
+        "Drug: RDX013"
+       ],
+       "label": "RDX013 Cohort 3",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "RDX013 high dose oral dosage, twice daily",
+       "interventionNames": [
+        "Drug: RDX013"
+       ],
+       "label": "RDX013 Cohort 4",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "RDX013 dose from Part A oral dosage, twice daily",
+       "interventionNames": [
+        "Drug: RDX013"
+       ],
+       "label": "RDX013 Part B",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "oral dosage, twice daily",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo Part B",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "RDX013 Cohort 1",
+        "RDX013 Cohort 2",
+        "RDX013 Cohort 3",
+        "RDX013 Cohort 4",
+        "RDX013 Part B"
+       ],
+       "description": "RDX013 is an experimental drug that is a potassium secretagogue",
+       "name": "RDX013",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo Part B"
+       ],
+       "description": "Placebo treatment that looks identical to experimental treatment",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Hyperkalemia"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "interventionModelDescription": "In Part A, treatment arms will be dosed based on the results from the previous arm. For Part B, one treatment arm from Part A will be selected",
+      "maskingInfo": {
+       "masking": "SINGLE",
+       "maskingDescription": "This is a two part study; Part A is open label and Part B is blinded to study participants (all drug labels for treatment arm and placebo will be identical)",
+       "whoMasked": [
+        "PARTICIPANT"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 109,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "Redukx",
+     "briefTitle": "A Study Evaluating the Safety and Efficacy of RDX013 for the Treatment of Hyperkalemia",
+     "nctId": "NCT04780841",
+     "officialTitle": "A Two-Part Proof-of-Concept Study: An Open-Label Dose-Ranging Phase (Part A) Followed by a Randomized, Single-Blind, Placebo-Controlled Phase (Part B) Evaluating the Safety and Efficacy of RDX013 for the Treatment of Hyperkalemia",
+     "orgStudyIdInfo": {
+      "id": "RDX013-201"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Ardelyx"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Ardelyx"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2022-03-03",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2022-05-04",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2022-05-03",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2021-12-28",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2021-01-11",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2022-05",
+     "studyFirstPostDateStruct": {
+      "date": "2021-03-04",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2021-01-26",
+     "studyFirstSubmitQcDate": "2021-03-02"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Patients will be randomized to receive 50 mg tenapanor twice daily",
+       "interventionNames": [
+        "Drug: Tenapanor 50 MG"
+       ],
+       "label": "Tenpanor 50 mg BID",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Patients will be randomized to receive 25 mg tenapanor twice daily",
+       "interventionNames": [
+        "Drug: Tenapanor 25 mg bid"
+       ],
+       "label": "Tenpanor 25 mg BID",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Patients will be randomized to receive matching placebo twice daily",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo Comparator",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Tenpanor 50 mg BID"
+       ],
+       "description": "Participants will receive tenapanor 50 mg BID (total of 100 mg daily)",
+       "name": "Tenapanor 50 MG",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Tenpanor 25 mg BID"
+       ],
+       "description": "Participants will receive tenapanor 25 mg BID (total of 50 mg daily)",
+       "name": "Tenapanor 25 mg bid",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo Comparator"
+       ],
+       "description": "Participants will be randomized to receive matching placebo",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Irritable Bowel Syndrome With Constipation (IBS-C)"
+     ],
+     "keywords": [
+      "IBS-C"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 180,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Study to Assess Safety and Efficacy of Tenapanor for Treatment of IBS-C in Pediatric Patients 12 to Less Than 18 Years",
+     "nctId": "NCT05643534",
+     "officialTitle": "A 12-Week, Randomized, Double-Blind, Placebo-Controlled, Phase 3 Study to Assess the Safety and Efficacy of Tenapanor for the Treatment of Irritable Bowel Syndrome With Constipation (IBS-C) in Pediatric Patients 12 to Less Than 18 Years Old",
+     "orgStudyIdInfo": {
+      "id": "TEN-01-304"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Ardelyx"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Ardelyx"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2026-08-20",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-09-22",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-09-18",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2026-08-20",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2022-11-15",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-09",
+     "studyFirstPostDateStruct": {
+      "date": "2022-12-08",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2022-11-30",
+     "studyFirstSubmitQcDate": "2022-11-30"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Eligible patients from the parent study will continue tenapanor at the same dose assigned in the parent study which can be titrated to either 50 mg BID or 25 mg BID per Investigator guidance after a patient's first week on the assigned dose.",
+       "interventionNames": [
+        "Drug: Tenapanor"
+       ],
+       "label": "Tenapanor",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Tenapanor"
+       ],
+       "description": "Eligible patients from the parent study will continue tenapanor at the same dose assigned in the parent study. Doses can be titrated to either 50 mg BID or 25 mg BID",
+       "name": "Tenapanor",
+       "otherNames": [
+        "Ibsrela"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Irritable Bowel Syndrome With Constipation (IBS-C)"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "interventionModelDescription": "Open label study",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "HEALTH_SERVICES_RESEARCH"
+     },
+     "enrollmentInfo": {
+      "count": 150,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Safety Study of Tenapanor for the Treatment of Pediatric Patients (6 to Less Than 18 Years Old) With IBS-C",
+     "nctId": "NCT05905926",
+     "officialTitle": "An Open-Label Long-Term Safety Study of Tenapanor for the Treatment of Irritable Bowel Syndrome With Constipation (IBS-C) in Pediatric Patients 6 to Less Than 18 Years Old",
+     "orgStudyIdInfo": {
+      "id": "TEN-01-306"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Ardelyx"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Ardelyx"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2031-10",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-06-04",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-06-02",
+     "overallStatus": "ENROLLING_BY_INVITATION",
+     "primaryCompletionDateStruct": {
+      "date": "2031-07",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2023-02-17",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-06",
+     "studyFirstPostDateStruct": {
+      "date": "2023-06-15",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2023-03-07",
+     "studyFirstSubmitQcDate": "2023-06-13"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Eligible subjects will be enrolled to receive the study drug",
+       "interventionNames": [
+        "Drug: Tenapanor"
+       ],
+       "label": "Treatment Arm",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Treatment Arm"
+       ],
+       "description": "The study drug will be administered in dose of 50 mg bid",
+       "name": "Tenapanor",
+       "otherNames": [
+        "IBSRELA"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Lactation"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "interventionModelDescription": "An open-label study to investigate the PK of tenapanor and AZ13792925 in breast milk of lactating female subjects",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 7,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "An Open-label Study to Evaluate the Pharmacokinetics of Oral Tenapanor in Breast Milk of Lactating Females",
+     "nctId": "NCT06203444",
+     "officialTitle": "An Open-label Study to Evaluate the Pharmacokinetics of Oral Tenapanor in Breast Milk of Lactating Females",
+     "orgStudyIdInfo": {
+      "id": "TEN-01-109"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Ardelyx"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Ardelyx"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2024-05-30",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2024-07-11",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2024-07-09",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2024-05-30",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2023-11-27",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2024-07",
+     "studyFirstPostDateStruct": {
+      "date": "2024-01-12",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2023-12-17",
+     "studyFirstSubmitQcDate": "2024-01-02"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Tenapanor 2 mg BID",
+       "interventionNames": [
+        "Drug: Tenapanor"
+       ],
+       "label": "Tenapanor Cohort 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Tenapanor 5 mg BID",
+       "interventionNames": [
+        "Drug: Tenapanor"
+       ],
+       "label": "Tenapanor Cohort 2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Tenapanor 10 mg BID",
+       "interventionNames": [
+        "Drug: Tenapanor"
+       ],
+       "label": "Tenapanor Cohort 3",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Tenapanor 15 mg BID",
+       "interventionNames": [
+        "Drug: Tenapanor"
+       ],
+       "label": "Tenapanor Cohort 4",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Tenapanor 20 mg BID",
+       "interventionNames": [
+        "Drug: Tenapanor"
+       ],
+       "label": "Tenapanor Cohort 5",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Tenapanor 25 mg BID",
+       "interventionNames": [
+        "Drug: Tenapanor"
+       ],
+       "label": "Tenapanor Cohort 6",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Matching placebo",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Tenapanor Cohort 1",
+        "Tenapanor Cohort 2",
+        "Tenapanor Cohort 3",
+        "Tenapanor Cohort 4",
+        "Tenapanor Cohort 5",
+        "Tenapanor Cohort 6"
+       ],
+       "description": "Tenapanor 5 mg/mL solution",
+       "name": "Tenapanor",
+       "otherNames": [
+        "IBSRELA"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Matching Placebo solution",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Irritable Bowel Syndrome With Constipation (IBS-C)"
+     ],
+     "keywords": [
+      "IBS-C"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 72,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "4-Week, Multi-center Dose-Ranging Study for the IBS-C in Pts. 6 to <12 Yrs",
+     "nctId": "NCT06553547",
+     "officialTitle": "4-Week, Multi-Center, Randomized, Db-Blind, Placebo-Controlled, Dose-Ranging Study to Assess the Safety & Efficacy of Tenapanor for the T/t of IBS-C in Pts. 6 to < 12 Yrs. Old",
+     "orgStudyIdInfo": {
+      "id": "TEN-01-202"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Ardelyx"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Ardelyx"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2026-07-07",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-08-19",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-08-17",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2026-07-07",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2024-07-24",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-08",
+     "studyFirstPostDateStruct": {
+      "date": "2024-08-14",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2024-08-12",
+     "studyFirstSubmitQcDate": "2024-08-12"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Patients will be randomized to receive 5 mg tenapanor twice daily.",
+       "interventionNames": [
+        "Drug: Tenapanor 5 mg BID"
+       ],
+       "label": "Tenapanor 5 mg BID",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Patients will be randomized to receive 25 mg tenapanor twice daily.",
+       "interventionNames": [
+        "Drug: Tenapanor 25 mg BID"
+       ],
+       "label": "Tenapanor 25 mg BID",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Patients will be randomized to receive 50 mg tenapanor twice daily.",
+       "interventionNames": [
+        "Drug: Tenapanor 50 mg BID"
+       ],
+       "label": "Tenapanor 50 mg BID",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Patients will be randomized to receive matching placebo twice daily.",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo Comparator",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Tenapanor 5 mg BID"
+       ],
+       "description": "Patients will receive tenapanor 5 mg BID (total of 10 mg daily)",
+       "name": "Tenapanor 5 mg BID",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Tenapanor 25 mg BID"
+       ],
+       "description": "Patients will receive tenapanor 25 mg BID (total of 50 mg daily)",
+       "name": "Tenapanor 25 mg BID",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Tenapanor 50 mg BID"
+       ],
+       "description": "Patients will receive tenapanor 50 mg BID (total of 100 mg daily)",
+       "name": "Tenapanor 50 mg BID",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo Comparator"
+       ],
+       "description": "Patients will receive matching placebo BID",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Chronic Idiopathic Constipation (CIC)"
+     ],
+     "keywords": [
+      "CIC"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 692,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A 26-Wk Study to Assess Safety & Efficacy of Tenapanor for T/t of Chronic Idiopathic Constipation in Adults",
+     "nctId": "NCT07382167",
+     "officialTitle": "A 26-Week, Multi-Center, Randomized, Double-Blind, Placebo-Controlled Study to Assess the Safety and Efficacy of Tenapanor for the Treatment of Chronic Idiopathic Constipation (CIC) in Adults",
+     "orgStudyIdInfo": {
+      "id": "TEN-03-301"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Ardelyx"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Ardelyx"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2027-06-04",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-06-04",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-06-02",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-02-26",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2026-01-13",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-06",
+     "studyFirstPostDateStruct": {
+      "date": "2026-02-02",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2026-01-26",
+     "studyFirstSubmitQcDate": "2026-01-26"
+    }
+   }
+  }
+ ]
+}

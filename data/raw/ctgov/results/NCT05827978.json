@@ -1,0 +1,938 @@
+{
+ "nctId": "NCT05827978",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "138.07",
+         "upperLimit": "157.55",
+         "value": "147.49"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "207.30",
+         "upperLimit": "233.84",
+         "value": "220.17"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "129.89",
+         "upperLimit": "146.40",
+         "value": "137.90"
+        },
+        {
+         "groupId": "OG003",
+         "lowerLimit": "196.43",
+         "upperLimit": "220.47",
+         "value": "208.10"
+        },
+        {
+         "groupId": "OG004",
+         "lowerLimit": "122.86",
+         "upperLimit": "137.74",
+         "value": "130.09"
+        },
+        {
+         "groupId": "OG005",
+         "lowerLimit": "165.15",
+         "upperLimit": "185.04",
+         "value": "174.81"
+        }
+       ]
+      }
+     ],
+     "title": "Influenza A H1N1 Antibody"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "101.11",
+         "upperLimit": "113.68",
+         "value": "107.21"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "144.13",
+         "upperLimit": "161.48",
+         "value": "152.56"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "91.74",
+         "upperLimit": "102.95",
+         "value": "97.18"
+        },
+        {
+         "groupId": "OG003",
+         "lowerLimit": "148.45",
+         "upperLimit": "167.91",
+         "value": "157.88"
+        },
+        {
+         "groupId": "OG004",
+         "lowerLimit": "109.47",
+         "upperLimit": "123.44",
+         "value": "116.24"
+        },
+        {
+         "groupId": "OG005",
+         "lowerLimit": "133.29",
+         "upperLimit": "150.46",
+         "value": "141.62"
+        }
+       ]
+      }
+     ],
+     "title": "Influenza A H3N2 Antibody"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "147.78",
+         "upperLimit": "164.55",
+         "value": "155.94"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "188.44",
+         "upperLimit": "209.22",
+         "value": "198.55"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "144.37",
+         "upperLimit": "157.73",
+         "value": "150.90"
+        },
+        {
+         "groupId": "OG003",
+         "lowerLimit": "187.68",
+         "upperLimit": "206.17",
+         "value": "196.71"
+        },
+        {
+         "groupId": "OG004",
+         "lowerLimit": "187.44",
+         "upperLimit": "204.89",
+         "value": "195.97"
+        },
+        {
+         "groupId": "OG005",
+         "lowerLimit": "237.34",
+         "upperLimit": "259.21",
+         "value": "248.03"
+        }
+       ]
+      }
+     ],
+     "title": "Influenza B/Victoria Antibody"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "138.91",
+         "upperLimit": "154.78",
+         "value": "146.63"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "173.61",
+         "upperLimit": "192.76",
+         "value": "182.94"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "109.21",
+         "upperLimit": "118.51",
+         "value": "113.76"
+        },
+        {
+         "groupId": "OG003",
+         "lowerLimit": "151.55",
+         "upperLimit": "165.93",
+         "value": "158.58"
+        },
+        {
+         "groupId": "OG004",
+         "lowerLimit": "88.33",
+         "upperLimit": "95.71",
+         "value": "91.94"
+        },
+        {
+         "groupId": "OG005",
+         "lowerLimit": "100.70",
+         "upperLimit": "109.11",
+         "value": "104.82"
+        }
+       ]
+      }
+     ],
+     "title": "Influenza B/Yamagata Antibody"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "1135"
+      },
+      {
+       "groupId": "OG001",
+       "value": "1185"
+      },
+      {
+       "groupId": "OG002",
+       "value": "1426"
+      },
+      {
+       "groupId": "OG003",
+       "value": "1441"
+      },
+      {
+       "groupId": "OG004",
+       "value": "1409"
+      },
+      {
+       "groupId": "OG005",
+       "value": "1425"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Influenza A strains included H1N1 and H3N2 and influenza B strains included Victoria and Yamagata strains. Antibody values reported as below lower limit of quantification (LLOQ) were replaced by 0.5\\*LLOQ. Values greater than the upper limit of quantification (ULOQ) were converted to the ULOQ.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants received a single dose of Fluarix QIV by IM injection on Day 1.",
+     "id": "OG000",
+     "title": "Part A: Fluarix QIV"
+    },
+    {
+     "description": "Participants received a single dose of mRNA-1010 by IM injection on Day 1.",
+     "id": "OG001",
+     "title": "Part A: mRNA-1010"
+    },
+    {
+     "description": "Participants received a single dose of Fluarix QIV by IM injection on Day 1.",
+     "id": "OG002",
+     "title": "Part B: Fluarix QIV"
+    },
+    {
+     "description": "Participants received a single dose of mRNA-1010 by IM injection on Day 1.",
+     "id": "OG003",
+     "title": "Part B: mRNA-1010"
+    },
+    {
+     "description": "Participants received a single dose of Fluzone HD QIV by IM injection on Day 1.",
+     "id": "OG004",
+     "title": "Part C: Fluzone HD QIV"
+    },
+    {
+     "description": "Participants received a single dose of mRNA-1010 by IM injection on Day 1.",
+     "id": "OG005",
+     "title": "Part C: mRNA-1010"
+    }
+   ],
+   "paramType": "GEOMETRIC_MEAN",
+   "populationDescription": "The Per-Protocol Immunogenicity Set (PPIS) included all randomized participants who received the planned dose of study intervention, complied with the immunogenicity testing schedule for Baseline and Day 29, and had no significant protocol deviations that impacted key or critical data. Participants were analyzed according to the group to which they were randomized.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Day 29",
+   "title": "Geometric Mean Titer (GMT) of Anti-Hemagglutinin (HA) Antibody Levels as Measured by Hemagglutination Inhibition (HAI)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "titer"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "32.12",
+         "upperLimit": "37.74",
+         "value": "34.9"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "47.32",
+         "upperLimit": "53.10",
+         "value": "50.2"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "42.42",
+         "upperLimit": "47.65",
+         "value": "45.0"
+        },
+        {
+         "groupId": "OG003",
+         "lowerLimit": "61.87",
+         "upperLimit": "66.88",
+         "value": "64.4"
+        },
+        {
+         "groupId": "OG004",
+         "lowerLimit": "33.75",
+         "upperLimit": "38.84",
+         "value": "36.3"
+        },
+        {
+         "groupId": "OG005",
+         "lowerLimit": "47.06",
+         "upperLimit": "52.31",
+         "value": "49.7"
+        }
+       ]
+      }
+     ],
+     "title": "Influenza A H1N1 Antibody"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "29.45",
+         "upperLimit": "34.96",
+         "value": "32.2"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "48.17",
+         "upperLimit": "53.94",
+         "value": "51.1"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "41.37",
+         "upperLimit": "46.59",
+         "value": "44.0"
+        },
+        {
+         "groupId": "OG003",
+         "lowerLimit": "63.91",
+         "upperLimit": "68.85",
+         "value": "66.4"
+        },
+        {
+         "groupId": "OG004",
+         "lowerLimit": "45.20",
+         "upperLimit": "50.48",
+         "value": "47.8"
+        },
+        {
+         "groupId": "OG005",
+         "lowerLimit": "53.80",
+         "upperLimit": "59.02",
+         "value": "56.4"
+        }
+       ]
+      }
+     ],
+     "title": "Influenza A H3N2 Antibody"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "14.86",
+         "upperLimit": "19.32",
+         "value": "17.0"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "24.09",
+         "upperLimit": "29.20",
+         "value": "26.6"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "16.39",
+         "upperLimit": "20.48",
+         "value": "18.4"
+        },
+        {
+         "groupId": "OG003",
+         "lowerLimit": "30.54",
+         "upperLimit": "35.46",
+         "value": "33.0"
+        },
+        {
+         "groupId": "OG004",
+         "lowerLimit": "18.09",
+         "upperLimit": "22.35",
+         "value": "20.2"
+        },
+        {
+         "groupId": "OG005",
+         "lowerLimit": "27.46",
+         "upperLimit": "32.27",
+         "value": "29.8"
+        }
+       ]
+      }
+     ],
+     "title": "Influenza B/Victoria Antibody"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "22.19",
+         "upperLimit": "27.29",
+         "value": "24.7"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "30.57",
+         "upperLimit": "36.01",
+         "value": "33.2"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "21.25",
+         "upperLimit": "25.71",
+         "value": "23.4"
+        },
+        {
+         "groupId": "OG003",
+         "lowerLimit": "33.12",
+         "upperLimit": "38.13",
+         "value": "35.6"
+        },
+        {
+         "groupId": "OG004",
+         "lowerLimit": "18.09",
+         "upperLimit": "22.35",
+         "value": "20.2"
+        },
+        {
+         "groupId": "OG005",
+         "lowerLimit": "23.77",
+         "upperLimit": "28.40",
+         "value": "26.0"
+        }
+       ]
+      }
+     ],
+     "title": "Influenza B/Yamagata Antibody"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "1135"
+      },
+      {
+       "groupId": "OG001",
+       "value": "1185"
+      },
+      {
+       "groupId": "OG002",
+       "value": "1426"
+      },
+      {
+       "groupId": "OG003",
+       "value": "1441"
+      },
+      {
+       "groupId": "OG004",
+       "value": "1409"
+      },
+      {
+       "groupId": "OG005",
+       "value": "1425"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Influenza A strains included H1N1 and H3N2 and influenza B strains included Victoria and Yamagata strains. Seroconversion rate was defined as the percentage of participants with either a Baseline HAI titer \\<1:10 and a postbaseline titer ≥1:40 or a Baseline HAI titer ≥1:10 and a minimum 4-fold rise in postbaseline HAI antibody titer. Antibody values reported as below LLOQ were replaced by 0.5\\*LLOQ. Values greater than the ULOQ were converted to the ULOQ.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants received a single dose of Fluarix QIV by IM injection on Day 1.",
+     "id": "OG000",
+     "title": "Part A: Fluarix QIV"
+    },
+    {
+     "description": "Participants received a single dose of mRNA-1010 by IM injection on Day 1.",
+     "id": "OG001",
+     "title": "Part A: mRNA-1010"
+    },
+    {
+     "description": "Participants received a single dose of Fluarix QIV by IM injection on Day 1.",
+     "id": "OG002",
+     "title": "Part B: Fluarix QIV"
+    },
+    {
+     "description": "Participants received a single dose of mRNA-1010 by IM injection on Day 1.",
+     "id": "OG003",
+     "title": "Part B: mRNA-1010"
+    },
+    {
+     "description": "Participants received a single dose of Fluzone HD QIV by IM injection on Day 1.",
+     "id": "OG004",
+     "title": "Part C: Fluzone HD QIV"
+    },
+    {
+     "description": "Participants received a single dose of mRNA-1010 by IM injection on Day 1.",
+     "id": "OG005",
+     "title": "Part C: mRNA-1010"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "The PPIS included all randomized participants who received the planned dose of study intervention, complied with the immunogenicity testing schedule for Baseline and Day 29, and had no significant protocol deviations that impacted key or critical data. Participants were analyzed according to the group to which they were randomized.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Day 29",
+   "title": "Percentage of Participants Reaching Seroconversion, as Measured by HAI",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "682"
+        },
+        {
+         "groupId": "OG001",
+         "value": "1060"
+        },
+        {
+         "groupId": "OG002",
+         "value": "796"
+        },
+        {
+         "groupId": "OG003",
+         "value": "1158"
+        },
+        {
+         "groupId": "OG004",
+         "value": "734"
+        },
+        {
+         "groupId": "OG005",
+         "value": "1131"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "1180"
+      },
+      {
+       "groupId": "OG001",
+       "value": "1220"
+      },
+      {
+       "groupId": "OG002",
+       "value": "1488"
+      },
+      {
+       "groupId": "OG003",
+       "value": "1492"
+      },
+      {
+       "groupId": "OG004",
+       "value": "1490"
+      },
+      {
+       "groupId": "OG005",
+       "value": "1502"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Solicited ARs, representative of vaccine reactogenicity, were collected in an electronic diary (eDiary). Local ARs: injection site pain, erythema (redness), swelling/induration (hardness); and axillary (underarm) swelling or tenderness ipsilateral to the side of injection. Systemic ARs: fever, headache, fatigue, myalgia, arthralgia, nausea/vomiting, and chills. Per prespecified analysis, only solicited ARs that were assessed and confirmed by the Investigator as both serious and related to IP were recorded as an adverse event. These adverse events were recorded as a serious AE (SAE) and are included in the summary of SAEs in the \"Reported Adverse Events\" section.",
+   "groups": [
+    {
+     "description": "Participants received a single dose of Fluarix QIV by IM injection on Day 1.",
+     "id": "OG000",
+     "title": "Part A: Fluarix QIV"
+    },
+    {
+     "description": "Participants received a single dose of mRNA-1010 by IM injection on Day 1.",
+     "id": "OG001",
+     "title": "Part A: mRNA-1010"
+    },
+    {
+     "description": "Participants received a single dose of Fluarix QIV by IM injection on Day 1.",
+     "id": "OG002",
+     "title": "Part B: Fluarix QIV"
+    },
+    {
+     "description": "Participants received a single dose of mRNA-1010 by IM injection on Day 1.",
+     "id": "OG003",
+     "title": "Part B: mRNA-1010"
+    },
+    {
+     "description": "Participants received a single dose of Fluzone HD QIV by IM injection on Day 1.",
+     "id": "OG004",
+     "title": "Part C: Fluzone HD QIV"
+    },
+    {
+     "description": "Participants received a single dose of mRNA-1010 by IM injection on Day 1.",
+     "id": "OG005",
+     "title": "Part C: mRNA-1010"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Solicited Safety Set included all randomized participants who received any study intervention and contributed any solicited AR data. Participants were included in the group corresponding to the study intervention that they actually received.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to 7 days after study injection",
+   "title": "Number of Participants With Solicited Local and Systemic Adverse Reactions (ARs)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "134"
+        },
+        {
+         "groupId": "OG001",
+         "value": "145"
+        },
+        {
+         "groupId": "OG002",
+         "value": "134"
+        },
+        {
+         "groupId": "OG003",
+         "value": "147"
+        },
+        {
+         "groupId": "OG004",
+         "value": "137"
+        },
+        {
+         "groupId": "OG005",
+         "value": "155"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "1180"
+      },
+      {
+       "groupId": "OG001",
+       "value": "1220"
+      },
+      {
+       "groupId": "OG002",
+       "value": "1488"
+      },
+      {
+       "groupId": "OG003",
+       "value": "1492"
+      },
+      {
+       "groupId": "OG004",
+       "value": "1490"
+      },
+      {
+       "groupId": "OG005",
+       "value": "1502"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "An AE was defined as any untoward medical occurrence associated with the use of a drug in humans, whether or not considered drug related. Unsolicited AEs included any AE not collected as a solicited AR, and also included solicited ARs assessed and confirmed as both serious and related by the Investigator. A summary of SAEs and all nonserious AEs (\"Other\"), regardless of causality, is located in the \"Reported Adverse Events\" section.",
+   "groups": [
+    {
+     "description": "Participants received a single dose of Fluarix QIV by IM injection on Day 1.",
+     "id": "OG000",
+     "title": "Part A: Fluarix QIV"
+    },
+    {
+     "description": "Participants received a single dose of mRNA-1010 by IM injection on Day 1.",
+     "id": "OG001",
+     "title": "Part A: mRNA-1010"
+    },
+    {
+     "description": "Participants received a single dose of Fluarix QIV by IM injection on Day 1.",
+     "id": "OG002",
+     "title": "Part B: Fluarix QIV"
+    },
+    {
+     "description": "Participants received a single dose of mRNA-1010 by IM injection on Day 1.",
+     "id": "OG003",
+     "title": "Part B: mRNA-1010"
+    },
+    {
+     "description": "Participants received a single dose of Fluzone HD QIV by IM injection on Day 1.",
+     "id": "OG004",
+     "title": "Part C: Fluzone HD QIV"
+    },
+    {
+     "description": "Participants received a single dose of mRNA-1010 by IM injection on Day 1.",
+     "id": "OG005",
+     "title": "Part C: mRNA-1010"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Safety Set included all randomized participants who received any study intervention. Participants were included in the group corresponding to the study intervention that they actually received.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to 28 days after study injection",
+   "title": "Number of Participants With Unsolicited Adverse Events (AEs)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "195"
+        },
+        {
+         "groupId": "OG001",
+         "value": "226"
+        },
+        {
+         "groupId": "OG002",
+         "value": "223"
+        },
+        {
+         "groupId": "OG003",
+         "value": "217"
+        },
+        {
+         "groupId": "OG004",
+         "value": "248"
+        },
+        {
+         "groupId": "OG005",
+         "value": "257"
+        }
+       ]
+      }
+     ],
+     "title": "MAAEs"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "2"
+        },
+        {
+         "groupId": "OG001",
+         "value": "1"
+        },
+        {
+         "groupId": "OG002",
+         "value": "0"
+        },
+        {
+         "groupId": "OG003",
+         "value": "1"
+        },
+        {
+         "groupId": "OG004",
+         "value": "1"
+        },
+        {
+         "groupId": "OG005",
+         "value": "2"
+        }
+       ]
+      }
+     ],
+     "title": "AESIs"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "21"
+        },
+        {
+         "groupId": "OG001",
+         "value": "27"
+        },
+        {
+         "groupId": "OG002",
+         "value": "22"
+        },
+        {
+         "groupId": "OG003",
+         "value": "25"
+        },
+        {
+         "groupId": "OG004",
+         "value": "38"
+        },
+        {
+         "groupId": "OG005",
+         "value": "41"
+        }
+       ]
+      }
+     ],
+     "title": "SAEs"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        },
+        {
+         "groupId": "OG002",
+         "value": "0"
+        },
+        {
+         "groupId": "OG003",
+         "value": "1"
+        },
+        {
+         "groupId": "OG004",
+         "value": "0"
+        },
+        {
+         "groupId": "OG005",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "AEs Leading to Discontinuation"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "1180"
+      },
+      {
+       "groupId": "OG001",
+       "value": "1220"
+      },
+      {
+       "groupId": "OG002",
+       "value": "1488"
+      },
+      {
+       "groupId": "OG003",
+       "value": "1492"
+      },
+      {
+       "groupId": "OG004",
+       "value": "1490"
+      },
+      {
+       "groupId": "OG005",
+       "value": "1502"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "An MAAE was an AE that led to an unscheduled visit to a healthcare practitioner. An AESI was an AE (serious or nonserious) of scientific and medical concern specific to the Sponsor's product or program, for which ongoing monitoring and immediate notification by the Investigator to the Sponsor was required. An SAE was defined as any AE that resulted in death, was life-threatening, required inpatient hospitalization or prolongation of existing hospitalization, resulted in disability, was a congenital anomaly/birth defect, or was an important medical event. A summary of SAEs and all nonserious AEs (\"Other\"), regardless of causality, is located in the \"Reported Adverse Events\" section.",
+   "groups": [
+    {
+     "description": "Participants received a single dose of Fluarix QIV by IM injection on Day 1.",
+     "id": "OG000",
+     "title": "Part A: Fluarix QIV"
+    },
+    {
+     "description": "Participants received a single dose of mRNA-1010 by IM injection on Day 1.",
+     "id": "OG001",
+     "title": "Part A: mRNA-1010"
+    },
+    {
+     "description": "Participants received a single dose of Fluarix QIV by IM injection on Day 1.",
+     "id": "OG002",
+     "title": "Part B: Fluarix QIV"
+    },
+    {
+     "description": "Participants received a single dose of mRNA-1010 by IM injection on Day 1.",
+     "id": "OG003",
+     "title": "Part B: mRNA-1010"
+    },
+    {
+     "description": "Participants received a single dose of Fluzone HD QIV by IM injection on Day 1.",
+     "id": "OG004",
+     "title": "Part C: Fluzone HD QIV"
+    },
+    {
+     "description": "Participants received a single dose of mRNA-1010 by IM injection on Day 1.",
+     "id": "OG005",
+     "title": "Part C: mRNA-1010"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Safety Set included all randomized participants who received any study intervention. Participants were included in the group corresponding to the study intervention that they actually received.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Day 1 through Day 181",
+   "title": "Number of Participants With Medically Attended Adverse Events (MAAEs), Adverse Events of Special Interest (AESIs), SAEs, and AEs Leading to Discontinuation",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "nctId": "NCT04819776",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.64",
+         "value": "-14.0"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.63",
+         "value": "-10.0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "198"
+      },
+      {
+       "groupId": "OG001",
+       "value": "194"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The Young Mania Rating Scale (YMRS) is an 11-item scale. Individual item scores are summed for a total possible score of 0 (best) to 60 (worst).",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Iloperidone: Oral iloperidone",
+     "id": "OG000",
+     "title": "Iloperidone"
+    },
+    {
+     "description": "Iloperidone Placebo: Oral placebo",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Efficacy analyses were based on the Intent-To-Treat (ITT) population, which included all randomized patients who received a dose of study drug and had at least one valid post-baseline efficacy measurement while on study medication. Of the 417 randomized, 392 received at least one dose of study medication and had at least one valid post-baseline efficacy measurement.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Week 4",
+   "title": "Change From Baseline to Week 4 in Young Mania Rating Scale (YMRS) Total Score",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Change from Baseline in YMRS Total Score"
+  }
+ ]
+}

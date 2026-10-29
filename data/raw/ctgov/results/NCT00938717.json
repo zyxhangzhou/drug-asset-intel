@@ -1,0 +1,305 @@
+{
+ "nctId": "NCT00938717",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "2.44",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "8.84",
+     "groupDescription": "Null Hypothesis: There is no difference between the 290 μg dose and placebo groups in the proportion of 9/12 Week APC 3 + 1 Responders. The power, adjusted for multiplicity, was expected to be 93% based on NCT00460811 (MCP-103-202) study data.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+     "pValue": "<0.0001",
+     "pValueComment": "The p-value is still less than 0.05 after adjusting multiplicity using a serial gatekeeping multiple comparison procedure.",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "4.65",
+     "statisticalMethod": "Cochran-Mantel-Haenszel",
+     "testedNonInferiority": false
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "12"
+        },
+        {
+         "groupId": "OG001",
+         "value": "51"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "403"
+      },
+      {
+       "groupId": "OG001",
+       "value": "401"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "A patient is considered to be a 9 out of 12 week APC responder if, for at least 9 out of the first 12 weeks of the treatment period, the patient had at least 3 CSBMs, had an increase of at least 1 CSBM from baseline, and had a decrease of at least 30 percent in their Abdominal Pain (AP) score from baseline during a particular week.\n\nThe AP score assesses patient's worst AP in the past 24 hours using an 11-point scale (from 0-10), where 0 represents no AP and 10 represents very severe AP.\n\nSBM is defined as a bowel movement that occurs in the absence of laxative, enema, or suppository use on either the calendar day of the bowel movement or the calendar day before the bowel movement. CSBM is defined as an SBM associated with a sense of complete evacuation.",
+   "groups": [
+    {
+     "description": "Dose-matched placebo, oral administration, once per day.",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Linaclotide 290μg, oral administration, once per day.",
+     "id": "OG001",
+     "title": "Linaclotide"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "805 patients were randomized to treatment. 804 patients had at least 1 postrandomization entry of the primary efficacy assessment and were included in the Intent to Treat (ITT) Population. An observed-cases approach to missing postbaseline data was applied.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Change from Baseline to Week 12",
+   "title": "Abdominal Pain and Complete Spontaneous Bowel Movement (APC) Responder, 9 Out of 12 Weeks",
+   "type": "PRIMARY",
+   "unitOfMeasure": "participants"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "2.50",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "7.03",
+     "groupDescription": "Null Hypothesis: There is no difference between the 290 μg dose and placebo groups in the proportion of 9/12 Week CSBM 3 + 1 Responders. The power, adjusted for multiplicity, was expected to be 93% based on NCT00460811 (MCP-103-202) study data.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+     "pValue": "<0.0001",
+     "pValueComment": "The p-value is still less than 0.05 after adjusting multiplicity using a serial gatekeeping multiple comparison procedure.",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "4.19",
+     "statisticalMethod": "Cochran-Mantel-Haenszel",
+     "testedNonInferiority": false
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "20"
+        },
+        {
+         "groupId": "OG001",
+         "value": "72"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "403"
+      },
+      {
+       "groupId": "OG001",
+       "value": "401"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "A patient is considered to be a CSBM 3+1 responder if, for at least 9 out of the 12 weeks of the treatment period, the patient had at least 3 CSBMs and experienced an increase of at least 1 CSBM from baseline during a particular week.\n\nA CSBM was defined as a Spontaneous Bowel Movement (SBM) that was associated with a sense of complete evacuation.\n\nAn SBM was defined as a bowel movement (BM) that occurred in the absence of laxative, enema, or suppository use on either the calendar day of the BM or the calendar day before the BM.",
+   "groups": [
+    {
+     "description": "Dose-matched placebo, oral administration, once per day.",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Linaclotide 290μg, oral administration, once per day.",
+     "id": "OG001",
+     "title": "Linaclotide"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "805 patients were randomized to treatment. 804 patients had at least 1 postrandomization entry of the primary efficacy assessment and were included in the ITT Population. An observed-cases approach to missing postbaseline data was applied.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Change from Baseline to Week 12",
+   "title": "Complete Spontaneous Bowel Movement (CSBM) 3+1 Responder, 9 Out of 12 Weeks",
+   "type": "PRIMARY",
+   "unitOfMeasure": "participants"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "1.91",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "3.60",
+     "groupDescription": "Null Hypothesis: There is no difference between the 290 μg dose and placebo groups in the proportion of 9/12 Week Abdominal Pain Responders. The power, adjusted for multiplicity, was expected to be 93% based on NCT00460811 (MCP-103-202) study data.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+     "pValue": "<0.0001",
+     "pValueComment": "The p-value is still less than 0.05 after adjusting multiplicity using a serial gatekeeping multiple comparison procedure.",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "2.62",
+     "statisticalMethod": "Cochran-Mantel-Haenszel",
+     "testedNonInferiority": false
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "79"
+        },
+        {
+         "groupId": "OG001",
+         "value": "156"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "403"
+      },
+      {
+       "groupId": "OG001",
+       "value": "401"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "A patient is considered to be an abdominal pain responder if, for at least 9 out of the 12 weeks of the treatment period, they experienced a decrease of at least 30 percent in the mean abdominal pain score from baseline during a particular week.\n\nThe Abdominal Pain score assesses patient's worst abdominal pain in the past 24 hours using an 11-point scale (from 0-10), where 0 represents no abdominal pain and 10 represents very severe abdominal pain.",
+   "groups": [
+    {
+     "description": "Dose-matched placebo, oral administration, once per day.",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Linaclotide 290μg, oral administration, once per day.",
+     "id": "OG001",
+     "title": "Linaclotide"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "805 patients were randomized to treatment. 804 patients had at least 1 postrandomization entry of the primary efficacy assessment and were included in the ITT Population. An observed-cases approach to missing postbaseline data was applied.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Change from Baseline to Week 12",
+   "title": "Abdominal Pain Responder, 9 Out of 12 Weeks",
+   "type": "PRIMARY",
+   "unitOfMeasure": "participants"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "2.22",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "4.49",
+     "groupDescription": "Null Hypothesis: There is no difference between the 290 μg dose and placebo groups in the proportion of 6/12 Week APC + 1 Responders.\n\nThe power, adjusted for multiplicity, was expected to be 86% based on NCT00460811 (MCP-103-202) study data.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+     "pValue": "<0.0001",
+     "pValueComment": "The p-value is still less than 0.05 after adjusting multiplicity using a serial gatekeeping multiple comparison procedure.",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "3.16",
+     "statisticalMethod": "Cochran-Mantel-Haenszel",
+     "testedNonInferiority": false
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "56"
+        },
+        {
+         "groupId": "OG001",
+         "value": "135"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "403"
+      },
+      {
+       "groupId": "OG001",
+       "value": "401"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "A patient is considered to be a 6 out of 12 week APC responder if, for at least 6 out of the first 12 weeks of the treatment period, the patient had an increase of at least 1 CSBM from baseline, and had a decrease of at least 30 percent in their Abdominal Pain (AP) score from baseline during a particular week.\n\nThe AP score assesses patient's worst AP in the past 24 hours using an 11-point scale (from 0-10), where 0 represents no AP and 10 represents very severe AP.\n\nSBM is defined as a bowel movement that occurs in the absence of laxative, enema, or suppository use on either the calendar day of the bowel movement or the calendar day before the bowel movement. CSBM is defined as an SBM associated with a sense of complete evacuation.",
+   "groups": [
+    {
+     "description": "Dose-matched placebo, oral administration, once per day.",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Linaclotide 290μg, oral administration, once per day.",
+     "id": "OG001",
+     "title": "Linaclotide"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "805 patients were randomized to treatment. 804 patients had at least 1 postrandomization entry of the primary efficacy assessment and were included in the ITT Population. An observed-cases approach to missing postbaseline data was applied.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Change from Baseline to Week 12",
+   "title": "Abdominal Pain and Complete Spontaneous Bowel Movement (APC) Responder, 6 Out of 12 Weeks",
+   "type": "PRIMARY",
+   "unitOfMeasure": "participants"
+  }
+ ]
+}

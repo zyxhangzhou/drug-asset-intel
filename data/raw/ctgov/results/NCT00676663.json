@@ -1,0 +1,83 @@
+{
+ "nctId": "NCT00676663",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.49",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "1.09",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.06",
+     "paramType": "Hazard Ratio (HR)",
+     "paramValue": "0.73",
+     "statisticalComment": "P-value is stratified by the randomization stratification factors and is 1-sided, with a 0.10 threshold for significance.",
+     "statisticalMethod": "Log Rank"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "1.81",
+         "upperLimit": "3.68",
+         "value": "2.27"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "3.26",
+         "upperLimit": "5.36",
+         "value": "4.28"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "66"
+      },
+      {
+       "groupId": "OG001",
+       "value": "64"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "PFS is defined as the number of months from the date of randomization to the earlier of progressive disease (PD) or death due to any cause.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Exemestane (Aromasin®) 25 mg tablets orally once daily plus a placebo-matching entinostat tablet orally once per week on Days 1, 8, 15 and 22 of each 28-day treatment cycle until development of progressive disease (PD) or unacceptable toxicity or closure of the study by the Sponsor, whichever occurred first.",
+     "id": "OG000",
+     "title": "Exemestane 25 mg + Placebo"
+    },
+    {
+     "description": "Exemestane (Aromasin®) 25 mg tablets orally once daily plus an entinostat 5 mg tablet orally once per week on Days 1, 8, 15 and 22 of each 28-day treatment cycle until development of progressive disease (PD) or unacceptable toxicity or closure of the study by the Sponsor, whichever occurred first.",
+     "id": "OG001",
+     "title": "Exemestane 25 mg + Entinostat 5 mg"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "Full Analysis Set included all randomized participants.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "From date of randomization to discontinuation due to disease progression or death up to primary completion date (Median follow-up 6 months)",
+   "title": "Progression-free Survival (PFS)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "months"
+  }
+ ]
+}

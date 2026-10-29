@@ -1,0 +1,82 @@
+{
+ "nctId": "NCT00700622",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-0.31",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.17",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "0.119",
+     "groupIds": [
+      "OG001"
+     ],
+     "nonInferiorityComment": "A sample size of 92 subjects in each group was required to complete the trial. Approximately 230 subjects were to be randomized to achieve 184 completers (assuming a 20% dropout rate). This would have provided 80% power for a noninferiority design to test the difference of a 4-month change in HbA1c levels between treatment groups, assuming the upper noninferiority margins Δ of 0.5% with a standard deviation of 1.2 and a 1-sided alpha of 0.025.",
+     "nonInferiorityType": "NON_INFERIORITY_OR_EQUIVALENCE",
+     "paramType": "Mean Difference (Net)",
+     "paramValue": "-0.07",
+     "statisticalMethod": "ANCOVA",
+     "testedNonInferiority": true
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.087",
+         "value": "-0.10"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.082",
+         "value": "-0.03"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "52"
+      },
+      {
+       "groupId": "OG001",
+       "value": "58"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Change from Baseline in glycosylated hemoglobin at Week 16",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Technosphere Insulin Inhalation Powder in combination with Lantus (insulin glargine)",
+     "id": "OG000",
+     "title": "TI + Insulin Glargine"
+    },
+    {
+     "description": "Humalog (insulin lispro) in combination with Lantus (insulin glargine)",
+     "id": "OG001",
+     "title": "Insulin Lispro + Insulin Glargine"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Intent to Treat with Available Data at Week 16",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline to Week 16",
+   "title": "Change From Baseline in HbA1c to Week 16",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of total hemoglobin"
+  }
+ ]
+}

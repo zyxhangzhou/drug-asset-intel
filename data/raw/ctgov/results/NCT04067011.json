@@ -1,0 +1,187 @@
+{
+ "nctId": "NCT04067011",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.8895",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "90",
+     "ciUpperLimit": "1.0718",
+     "groupDescription": "Analysis of Geometric mean ratio of area under the curve from 0 to 12 hours (AUC0-12h) for ciprofloxacin on Days 8 and 35",
+     "groupIds": [
+      "OG000"
+     ],
+     "nonInferiorityComment": "The equivalence testing was constructed using paired two one-sided t-tests (TOST) with natural log transformation of PK parameters. Results obtained from transformed analyses were back-transformed by exponentiation for presentation of the point estimates and 90% CIs for geometric mean ratio of AUC0-12h.",
+     "nonInferiorityType": "EQUIVALENCE",
+     "paramType": "Ratio of AUC",
+     "paramValue": "0.9764"
+    },
+    {
+     "ciLowerLimit": "0.8693",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "90",
+     "ciUpperLimit": "1.0838",
+     "groupDescription": "Analysis of Geometric mean ration of Cmax for ciprofloxacin on Days 8 and 35",
+     "groupIds": [
+      "OG000"
+     ],
+     "nonInferiorityComment": "The equivalence testing was constructed using paired two one-sided t-tests (TOST) with natural log transformation of PK parameters. Results obtained from transformed analyses were back-transformed by exponentiation for presentation of the point estimates and 90% CIs for geometric mean ratio of Cmax.",
+     "nonInferiorityType": "EQUIVALENCE",
+     "paramType": "Ratio of Cmax",
+     "paramValue": "0.9706"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "0.8895",
+         "upperLimit": "1.0718",
+         "value": "0.9764"
+        }
+       ]
+      }
+     ],
+     "title": "Ratios of AUC0-12h (Post-vac./Pre-vac)"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "0.8693",
+         "upperLimit": "1.0838",
+         "value": "0.9706"
+        }
+       ]
+      }
+     ],
+     "title": "Ratios of Cmax (Post-vac./Pre-vac)"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "25"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Based on serum concentrations of ciprofloxacin on Day 8 (pre-AV7909 vaccination) and on Day 35 (post-AV7909 vaccination), steady state AUC0-12h and Cmax were derived, and geometric mean of ratio of AUC0-12h on Day35/Day 8 and geometric mean of ratio for Cmax on Day 35/Day8, and the corresponding 90% CI of the mean ratios were calculated.",
+   "dispersionType": "90% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants meeting entry criteria were randomized 1:1:1 to one of three investigational study groups. Groups 1 to 3 each received a manufactured lot of AV7909 per the study visit schedule.\n\nGroup 1 concomitantly received ciprofloxacin.\n\nCiprofloxacin 500Mg Tablet: Ciprofloxacin 500mg administered by mouth every 12 hours. The antibiotic was administered orally on Study Days 4-9, 22-24 and 31-37.",
+     "id": "OG000",
+     "title": "Ciprofloxacin + AV7909"
+    }
+   ],
+   "paramType": "GEOMETRIC_MEAN",
+   "populationDescription": "The number of analyzed participants represents the number of participants that met pre-specified protocol criteria for inclusion in the PK analysis population.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Pre-dose and 0.25, 0.5, 0.75, 1, 1.5, 2, 2.5, 3, 4, 5, 6, 8, 10 and 12 hours post-ciprofloxacin dose on Days 8 (pre-AV7909 vaccination) and 35 (post-AV7909 vaccination)",
+   "title": "Ratio of Ciprofloxacin Area Under the Curve From 0 to 12 Hours (AUC0-12h) and Maximum Concentration (Cmax) on Days 8 and 35",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Ratio"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.8187",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "90",
+     "ciUpperLimit": "1.0278",
+     "groupDescription": "Analysis of Geometric mean ratio of Area under the curve from 0 to 12 hours (AUC0-12h) for doxycycline on Days 8 and 38",
+     "groupIds": [
+      "OG000"
+     ],
+     "nonInferiorityComment": "The equivalence testing was constructed using paired two one-sided t-tests (TOST) with natural log transformation of PK parameters. Results obtained from transformed analyses were back-transformed by exponentiation for presentation of the point estimates and 90% CIs for geometric mean ratio of AUC0-12h.",
+     "nonInferiorityType": "EQUIVALENCE",
+     "paramType": "Ratio of AUC",
+     "paramValue": "0.9173"
+    },
+    {
+     "ciLowerLimit": "0.7841",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "90",
+     "ciUpperLimit": "1.0271",
+     "groupDescription": "Analysis of Geometric mean ration of Cmax for doxycycline on Days 8 and 38",
+     "groupIds": [
+      "OG000"
+     ],
+     "nonInferiorityComment": "The equivalence testing was constructed using paired two one-sided t-tests (TOST) with natural log transformation of PK parameters. Results obtained from transformed analyses were back-transformed by exponentiation for presentation of the point estimates and 90% CIs for geometric mean ratio of Cmax.",
+     "nonInferiorityType": "EQUIVALENCE",
+     "paramType": "Ratio of Cmax",
+     "paramValue": "0.8974"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "0.8187",
+         "upperLimit": "1.0278",
+         "value": "0.9173"
+        }
+       ]
+      }
+     ],
+     "title": "Ratios of AUC0-12h (Post-vac./Pre-vac)"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "0.7841",
+         "upperLimit": "1.0271",
+         "value": "0.8974"
+        }
+       ]
+      }
+     ],
+     "title": "Ratios of Cmax (Post-vac./Pre-vac)"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "31"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Based on serum concentrations of doxycycline on Day 8 (pre-AV7909 vaccination) and on Day 38 (post-AV7909 vaccination), steady state AUC0-12h and Cmax were derived, and geometric mean of ratio of AUC0-12h on Day38/Day 8 and geometric mean of ratio for Cmax on Day 38/Day8, and the corresponding 90% CI of the mean ratios were calculated.",
+   "dispersionType": "90% Confidence Interval",
+   "groups": [
+    {
+     "description": "Group 2 concomitantly received doxycycline. Doxycycline 100mg Tablet: Doxycycline 100mg was administered by mouth every 12 hours. The antibiotic was administered orally on Study Days 2-9, 22-24 and 32-38.\n\nAV7909: 0.5mL AVA and 0.25mg CPG 7909 per 0.5mL dose. The vaccine was administered intramuscularly on Study Days 8 and 23.",
+     "id": "OG000",
+     "title": "Doxycycline + AV7909"
+    }
+   ],
+   "paramType": "GEOMETRIC_MEAN",
+   "populationDescription": "The number of analyzed participants represents the number of participants that met pre-specified protocol criteria for inclusion in the PK analysis population.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Pre-dose and 0.25, 0.5, 0.75, 1, 1.5, 2, 2.5, 3, 4, 5, 6, 8, 10 and 12 hours post-doxycycline dose on Days 8 (pre-AV7909 vaccination) and 38 (post-AV7909 vaccination)",
+   "title": "Ratio of Doxycycline Area Under the Curve From 0 to 12 Hours (AUC0-12h) and Maximum Concentration (Cmax) on Days 8 and 38",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Ratio"
+  }
+ ]
+}

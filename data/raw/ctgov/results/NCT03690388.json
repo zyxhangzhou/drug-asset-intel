@@ -1,0 +1,143 @@
+{
+ "nctId": "NCT03690388",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.13",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "96",
+     "ciUpperLimit": "0.36",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "< 0.0001",
+     "paramType": "Hazard Ratio (HR)",
+     "paramValue": "0.22",
+     "statisticalMethod": "Log Rank"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "comment": "The CI 5.7 to 0.0 is not 0.0 but NA. The median PFS and upper bound of the CI could not be determined because not enough subjects on the cabozantinib arm had experienced progression at the time of the data cut-off to determine a median PFS. However, it was possible to estimate the HR at that timepoint based on the Cox Proportional Hazards Model.",
+         "groupId": "OG000",
+         "lowerLimit": "5.7",
+         "upperLimit": "NA",
+         "value": "NA"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "1.8",
+         "upperLimit": "3.6",
+         "value": "1.9"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "125"
+      },
+      {
+       "groupId": "OG001",
+       "value": "62"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Time to the earlier of either radiographic progressive disease (PD) or death from any cause.",
+   "dispersionType": "96% Confidence Interval",
+   "groups": [
+    {
+     "description": "cabozantinib (60 mg) once daily orally (qd)\n\nCabozantinib: Tablets containing 60-mg or 20-mg cabozantinib once daily orally.",
+     "id": "OG000",
+     "title": "Cabozantinib"
+    },
+    {
+     "description": "placebo once daily orally (qd)\n\nPlacebo: Tablets containing placebo equivalent of 60-mg or 20-mg cabozantinib once daily orally.",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "All subjects randomized at the time of the analysis (N=187).",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to approximately twenty months after the first subject is randomized. Time from randomization to the earlier of the following events: radiographic PD as determined by the blinded independent central review (BIRC) or death due to any cause.",
+   "title": "Progression Free Survival (PFS)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "months"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "5.8",
+         "upperLimit": "29.3",
+         "value": "15"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "0.0",
+         "upperLimit": "14.8",
+         "value": "0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "67"
+      },
+      {
+       "groupId": "OG001",
+       "value": "33"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Proportion of subjects with the best overall response of complete response (CR) or partial response (PR).",
+   "dispersionType": "99% Confidence Interval",
+   "groups": [
+    {
+     "description": "cabozantinib (60 mg) once daily orally (qd)\n\nCabozantinib: Tablets containing 60-mg or 20-mg cabozantinib once daily orally.",
+     "id": "OG000",
+     "title": "Cabozantinib"
+    },
+    {
+     "description": "placebo once daily orally (qd)\n\nPlacebo: Tablets containing placebo equivalent of 60-mg or 20-mg cabozantinib once daily orally.",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "The first 100 subjects randomized.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Six months after 100 subjects are randomized. Time from randomization to best overall response of confirmed complete response (CR) or confirmed partial response (PR) per BIRC per RECIST 1.1.",
+   "title": "Objective Response Rate (ORR)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

@@ -1,0 +1,88 @@
+{
+ "nctId": "NCT01560624",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.56",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.97",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0275",
+     "paramType": "Hazard Ratio (HR)",
+     "paramValue": "0.74",
+     "statisticalMethod": "Cox proportion-hazard model"
+    },
+    {
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0391",
+     "statisticalMethod": "Log Rank"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "42.93",
+         "value": "60.58"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "46.28",
+         "value": "49.31"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "346"
+      },
+      {
+       "groupId": "OG001",
+       "value": "344"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Clinical worsening was assessed continuously from randomization until the subject's last study visit. Clinical worsening events were defined as death (all causes), hospitalizations due to worsening pulmonary arterial hypertension (PAH), initiation of an inhaled or infused prostacyclin (PGI2) for the treatment of worsening PAH, disease progression, or unsatisfactory long-term clinical response. All clinical worsening events reported by the study sites were reviewed by the Sponsor Medical Monitors. Once a clinical worsening event occurred, it was entered in the eCRF and a narrative was submitted for review by the Sponsor's Medical Monitor within 48 hours after the event became known to the Investigator or designee. Subsequently, the narratives for subjects with the reported clinical worsening events were sent to an independent adjudication committee. The independent adjudication committee reviewed and adjudicated all clinical worsening events throughout the study.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Treprostinil diolamine extended-release tablets (oral) 0.125 to 12 mg TID\n\nTreprostinil Diolamine: Active",
+     "id": "OG000",
+     "title": "UT-15C"
+    },
+    {
+     "description": "Matching placebo tablets (oral)\n\nPlacebo: Placebo",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "MEAN",
+   "reportingStatus": "POSTED",
+   "timeFrame": "From randomization to approximately 4 years",
+   "title": "Time to First Clinical Worsening Event",
+   "type": "PRIMARY",
+   "unitOfMeasure": "weeks"
+  }
+ ]
+}

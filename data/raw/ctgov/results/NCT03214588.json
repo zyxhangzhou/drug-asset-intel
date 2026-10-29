@@ -1,0 +1,117 @@
+{
+ "nctId": "NCT03214588",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-0.00179",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "90",
+     "ciUpperLimit": "0.00070",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "0.000746",
+     "groupDescription": "Change from Baseline at Week 12",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": ">0.999",
+     "pValueComment": "P-values are 1-sided, with the alternative hypothesis that TAK-831 is superior to placebo in the clinically favorable direction.",
+     "paramType": "Least Squares Mean Difference",
+     "paramValue": "-0.00054",
+     "statisticalMethod": "ANCOVA"
+    },
+    {
+     "ciLowerLimit": "-0.00172",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "90",
+     "ciUpperLimit": "0.00033",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "0.000616",
+     "groupDescription": "Change from Baseline at Week 12",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": ">0.999",
+     "pValueComment": "P-values are 1-sided, with the alternative hypothesis that TAK-831 is superior to placebo in the clinically favorable direction.",
+     "paramType": "Least Squares Mean Difference",
+     "paramValue": "-0.00069",
+     "statisticalMethod": "ANCOVA"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.000448",
+         "value": "0.00038"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.000622",
+         "value": "-0.00017"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "0.000445",
+         "value": "-0.00032"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "24"
+      },
+      {
+       "groupId": "OG001",
+       "value": "12"
+      },
+      {
+       "groupId": "OG002",
+       "value": "24"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The 9-HPT-1 is a measure of timed upper extremity (arm and hand) function and manual dexterity. The participant picks up pegs 1 at a time (9 in total), using 1 hand only, and places them into holes on the board as quickly as possible, in any order until all holes are filled. Then, without pausing, the participant removes the pegs 1 at a time and returns them as quickly as possible. Each participant performs this task twice with each hand separately. Results on both tests are then averaged for an overall task completion time and the inverse transform is performed. A positive change from Baseline indicates improvement. Change from Baseline in 9-HPT-1 was analyzed using mixed model for repeated measures (MMRM) analysis of covariance (ANCOVA) with Baseline 9-HPT-1 as a covariate; pooled site, visit, treatment, and ambulation status (randomization factor) as fixed factors; and treatment-by-visit and Baseline 9-HPT-1-by-visit interactions.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "TAK-831 placebo-matching tablets, orally, twice daily for up to 12 weeks.",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "TAK-831 75 mg, tablets, orally, twice daily for up to 12 weeks.",
+     "id": "OG001",
+     "title": "TAK-831 75 mg"
+    },
+    {
+     "description": "TAK-831 300 mg, tablets, orally, twice daily for up to 12 weeks.",
+     "id": "OG002",
+     "title": "TAK-831 300 mg"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Full analysis set (FAS) included all randomized participant who received at least 1 dose of the study drug for the treatment period. Number analyzed is the number of participants with data available for analysis at the given time-point.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline and Week 12",
+   "title": "Change From Baseline in the Inverse Time to Complete the 9-Hole Peg Test (9-HPT-1)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "1/seconds"
+  }
+ ]
+}

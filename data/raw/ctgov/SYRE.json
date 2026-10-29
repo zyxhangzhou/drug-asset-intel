@@ -1,0 +1,1458 @@
+{
+ "aliases": [
+  "Spyre Therapeutics"
+ ],
+ "studies": [
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants will receive a single dose of SPY001-001 in a dose escalation format",
+       "interventionNames": [
+        "Drug: SPY001-001"
+       ],
+       "label": "SAD Cohorts 1-5 Experimental Arm",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants will receive a single dose of placebo",
+       "interventionNames": [
+        "Other: Placebo"
+       ],
+       "label": "SAD Cohorts 1-5 Placebo Arm",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "description": "Participants will receive two doses of SPY001-001 in a dose escalation format",
+       "interventionNames": [
+        "Drug: SPY001-001"
+       ],
+       "label": "MAD Cohorts 1-2 Experimental Arm",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants will receive two doses of placebo",
+       "interventionNames": [
+        "Other: Placebo"
+       ],
+       "label": "MAD Cohorts 1-2 Placebo Arm",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "description": "Participants of Japanese descent will receive a single dose of SPY001-001",
+       "interventionNames": [
+        "Drug: SPY001-001"
+       ],
+       "label": "SAD Cohorts 6-7 Experimental Arm",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants of Japanese descent will receive a single dose of placebo",
+       "interventionNames": [
+        "Other: Placebo"
+       ],
+       "label": "SAD Cohorts 6-7 Placebo Arm",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "description": "Participants of Chinese descent will receive a single dose of SPY001-001",
+       "interventionNames": [
+        "Drug: SPY001-001"
+       ],
+       "label": "SAD Cohorts 8-9 Experimental Arm",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants of Chinese descent will receive a single dose of placebo",
+       "interventionNames": [
+        "Other: Placebo"
+       ],
+       "label": "SAD Cohorts 8-9 Placebo Arm",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "MAD Cohorts 1-2 Experimental Arm",
+        "SAD Cohorts 1-5 Experimental Arm",
+        "SAD Cohorts 6-7 Experimental Arm",
+        "SAD Cohorts 8-9 Experimental Arm"
+       ],
+       "description": "Experimental",
+       "name": "SPY001-001",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "MAD Cohorts 1-2 Placebo Arm",
+        "SAD Cohorts 1-5 Placebo Arm",
+        "SAD Cohorts 6-7 Placebo Arm",
+        "SAD Cohorts 8-9 Placebo Arm"
+       ],
+       "description": "Placebo",
+       "name": "Placebo",
+       "type": "OTHER"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Healthy"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "BASIC_SCIENCE"
+     },
+     "enrollmentInfo": {
+      "count": 96,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Study of SPY001-001 in Healthy Volunteers",
+     "nctId": "NCT06448247",
+     "officialTitle": "A Phase 1, Randomized, Double-Blind, Placebo-Controlled, Single and Multiple Ascending Dose Study of the Safety, Tolerability, and Pharmacokinetics of SPY001-001 in Healthy Participants",
+     "orgStudyIdInfo": {
+      "id": "SPY001-101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Spyre Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "collaborators": [
+      {
+       "class": "INDUSTRY",
+       "name": "Altasciences Company Inc."
+      }
+     ],
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Spyre Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2026-03-10",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-03-20",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-03-17",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2026-03-10",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2024-06-06",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-03",
+     "studyFirstPostDateStruct": {
+      "date": "2024-06-07",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2024-06-03",
+     "studyFirstSubmitQcDate": "2024-06-03"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants will receive a single dose of SPY002-072 in a dose escalation format",
+       "interventionNames": [
+        "Drug: SPY002-072"
+       ],
+       "label": "SAD Cohorts, Experimental Arm",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants will receive a single dose of placebo",
+       "interventionNames": [
+        "Other: Placebo"
+       ],
+       "label": "SAD Cohorts, Placebo Arm",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "SAD Cohorts, Experimental Arm"
+       ],
+       "description": "Experimental",
+       "name": "SPY002-072",
+       "otherNames": [
+        "SPY072"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "SAD Cohorts, Placebo Arm"
+       ],
+       "description": "Placebo",
+       "name": "Placebo",
+       "type": "OTHER"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Healthy"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "BASIC_SCIENCE"
+     },
+     "enrollmentInfo": {
+      "count": 40,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Study of SPY002-072 in Healthy Volunteers",
+     "nctId": "NCT06622070",
+     "officialTitle": "A Phase 1, Randomized, Double-Blind, Placebo-Controlled, Single Ascending Dose Study of the Safety, Tolerability, and Pharmacokinetics of SPY002-072 in Healthy Participants",
+     "orgStudyIdInfo": {
+      "id": "SPY002-072-101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Spyre Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "collaborators": [
+      {
+       "class": "INDUSTRY",
+       "name": "Altasciences Company Inc."
+      }
+     ],
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Spyre Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2026-07-28",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-08-25",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-08-21",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2026-07-28",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2024-11-18",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-08",
+     "studyFirstPostDateStruct": {
+      "date": "2024-10-01",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2024-09-30",
+     "studyFirstSubmitQcDate": "2024-09-30"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants will receive a single dose of SPY002-091 in a dose escalation format",
+       "interventionNames": [
+        "Drug: SPY002-091"
+       ],
+       "label": "SAD Cohorts 1-5, Experimental Arm",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants will receive a single dose of placebo",
+       "interventionNames": [
+        "Other: Placebo"
+       ],
+       "label": "SAD Cohorts 1-5, Placebo Arm",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "description": "Participants of Chinese descent will receive a single dose of SPY002-091",
+       "interventionNames": [
+        "Drug: SPY002-091"
+       ],
+       "label": "SAD Cohort 6 Experimental Arm",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants of Chinese descent will receive a single dose of placebo",
+       "interventionNames": [
+        "Other: Placebo"
+       ],
+       "label": "SAD Cohorts 6 Placebo Arm",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "SAD Cohort 6 Experimental Arm",
+        "SAD Cohorts 1-5, Experimental Arm"
+       ],
+       "description": "Experimental",
+       "name": "SPY002-091",
+       "otherNames": [
+        "SPY002"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "SAD Cohorts 1-5, Placebo Arm",
+        "SAD Cohorts 6 Placebo Arm"
+       ],
+       "description": "Placebo",
+       "name": "Placebo",
+       "type": "OTHER"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Healthy"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "BASIC_SCIENCE"
+     },
+     "enrollmentInfo": {
+      "count": 50,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Study of SPY002-091 in Healthy Volunteers",
+     "nctId": "NCT06672718",
+     "officialTitle": "A Phase 1, Randomized, Double-Blind, Placebo-Controlled, Single Ascending Dose Study of the Safety, Tolerability, and Pharmacokinetics of SPY002-091 in Healthy Participants",
+     "orgStudyIdInfo": {
+      "id": "SPY002-091-101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Spyre Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "collaborators": [
+      {
+       "class": "INDUSTRY",
+       "name": "Altasciences Company Inc."
+      }
+     ],
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Spyre Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2026-08-19",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-08-25",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-08-21",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2026-08-19",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2024-11-26",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-08",
+     "studyFirstPostDateStruct": {
+      "date": "2024-11-04",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2024-11-01",
+     "studyFirstSubmitQcDate": "2024-11-01"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants will receive a single dose of SPY003-207 in a dose escalation format",
+       "interventionNames": [
+        "Drug: SPY003-207"
+       ],
+       "label": "SAD Cohorts 1-6 Experimental Arm",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants will receive a single dose of placebo",
+       "interventionNames": [
+        "Other: Placebo"
+       ],
+       "label": "SAD Cohorts 1-6 Placebo Arm",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "description": "Participants of Chinese descent will receive a single dose of SPY003-207-101",
+       "interventionNames": [
+        "Drug: SPY003-207"
+       ],
+       "label": "SAD Cohort 7, Experimental Arm",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants of Chinese descent will receive a single dose of placebo",
+       "interventionNames": [
+        "Other: Placebo"
+       ],
+       "label": "SAD Cohort 7, Placebo Arm",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "description": "Participants will receive two doses of SPY003-207-101 in a dose escalation format",
+       "interventionNames": [
+        "Drug: SPY003-207"
+       ],
+       "label": "MAD Cohorts 1 Experimental Arm",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants will receive two doses of placebo",
+       "interventionNames": [
+        "Other: Placebo"
+       ],
+       "label": "MAD Cohorts 1 Placebo Arm",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "MAD Cohorts 1 Experimental Arm",
+        "SAD Cohort 7, Experimental Arm",
+        "SAD Cohorts 1-6 Experimental Arm"
+       ],
+       "description": "Experimental",
+       "name": "SPY003-207",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "MAD Cohorts 1 Placebo Arm",
+        "SAD Cohort 7, Placebo Arm",
+        "SAD Cohorts 1-6 Placebo Arm"
+       ],
+       "description": "Placebo",
+       "name": "Placebo",
+       "type": "OTHER"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Healthy"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "BASIC_SCIENCE"
+     },
+     "enrollmentInfo": {
+      "count": 59,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Study of SPY003-207 in Healthy Volunteers",
+     "nctId": "NCT06873724",
+     "officialTitle": "A Phase 1, Randomized, Double-Blind, Placebo-Controlled, Single Dose Study of the Safety, Tolerability, and Pharmacokinetics of SPY003-207 in Healthy Participants",
+     "orgStudyIdInfo": {
+      "id": "SPY003-207-101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Spyre Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "collaborators": [
+      {
+       "class": "INDUSTRY",
+       "name": "Altasciences Company Inc."
+      }
+     ],
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Spyre Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2026-11-18",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-03-20",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-03-18",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2026-11-18",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2025-03-10",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-03",
+     "studyFirstPostDateStruct": {
+      "date": "2025-03-13",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-03-07",
+     "studyFirstSubmitQcDate": "2025-03-12"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants will receive open-label dose of SPY001",
+       "interventionNames": [
+        "Drug: SPY001"
+       ],
+       "label": "Intervention Specific Appendix - SPY001: Part A",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants will receive open-label dose of SPY002",
+       "interventionNames": [
+        "Drug: SPY002"
+       ],
+       "label": "Intervention Specific Appendix - SPY002: Part A",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants will receive open-label dose of SPY003",
+       "interventionNames": [
+        "Drug: SPY003"
+       ],
+       "label": "Intervention Specific Appendix - SPY003: Part A",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants will receive double-blind dosing regimen 1 of SPY001",
+       "interventionNames": [
+        "Drug: SPY001"
+       ],
+       "label": "Intervention Specific Appendix - SPY001 Dosing Regimen 1: Part B",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants will receive double-blind dosing regimen 2 of SPY001",
+       "interventionNames": [
+        "Drug: SPY001"
+       ],
+       "label": "Intervention Specific Appendix - SPY001 Dosing Regimen 2: Part B",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants will receive double-blind dosing regimen 1 of SPY002",
+       "interventionNames": [
+        "Drug: SPY002"
+       ],
+       "label": "Intervention Specific Appendix - SPY002 Dosing Regimen 1: Part B",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants will receive double-blind dosing regimen 2 of SPY002",
+       "interventionNames": [
+        "Drug: SPY002"
+       ],
+       "label": "Intervention Specific Appendix - SPY002 Dosing Regimen 2: Part B",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants will receive double-blind dosing regimen 1 of SPY003",
+       "interventionNames": [
+        "Drug: SPY003"
+       ],
+       "label": "Intervention Specific Appendix - SPY003 Dosing Regimen 1: Part B",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants will receive double-blind dosing regimen 2 of SPY003",
+       "interventionNames": [
+        "Drug: SPY003"
+       ],
+       "label": "Intervention Specific Appendix - SPY003 Dosing Regimen 2: Part B",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants will receive double-blind dose of SPY001 and SPY002",
+       "interventionNames": [
+        "Drug: SPY001",
+        "Drug: SPY002"
+       ],
+       "label": "Intervention Specific Appendix - SPY120: Part B",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants will receive double-blind dose of SPY001 and SPY003",
+       "interventionNames": [
+        "Drug: SPY001",
+        "Drug: SPY003"
+       ],
+       "label": "Intervention Specific Appendix - SPY130: Part B",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants will receive double-blind dose of SPY002 and SPY003",
+       "interventionNames": [
+        "Drug: SPY002",
+        "Drug: SPY003"
+       ],
+       "label": "Intervention Specific Appendix - SPY230: Part B",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants will receive matching placebo",
+       "interventionNames": [
+        "Other: Placebo"
+       ],
+       "label": "Placebo: Part B",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Intervention Specific Appendix - SPY001 Dosing Regimen 1: Part B",
+        "Intervention Specific Appendix - SPY001 Dosing Regimen 2: Part B",
+        "Intervention Specific Appendix - SPY001: Part A",
+        "Intervention Specific Appendix - SPY120: Part B",
+        "Intervention Specific Appendix - SPY130: Part B"
+       ],
+       "description": "Experimental",
+       "name": "SPY001",
+       "otherNames": [
+        "SPY001-001"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Intervention Specific Appendix - SPY002 Dosing Regimen 1: Part B",
+        "Intervention Specific Appendix - SPY002 Dosing Regimen 2: Part B",
+        "Intervention Specific Appendix - SPY002: Part A",
+        "Intervention Specific Appendix - SPY120: Part B",
+        "Intervention Specific Appendix - SPY230: Part B"
+       ],
+       "description": "Experimental",
+       "name": "SPY002",
+       "otherNames": [
+        "SPY002-091"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Intervention Specific Appendix - SPY003 Dosing Regimen 1: Part B",
+        "Intervention Specific Appendix - SPY003 Dosing Regimen 2: Part B",
+        "Intervention Specific Appendix - SPY003: Part A",
+        "Intervention Specific Appendix - SPY130: Part B",
+        "Intervention Specific Appendix - SPY230: Part B"
+       ],
+       "description": "Experimental",
+       "name": "SPY003",
+       "otherNames": [
+        "SPY003-207"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo: Part B"
+       ],
+       "description": "Placebo",
+       "name": "Placebo",
+       "type": "OTHER"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Ulcerative Colitis",
+      "Inflammatory Bowel Diseases",
+      "Colitis",
+      "Colitis, Ulcerative"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 645,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "SKYLINE-UC",
+     "briefTitle": "A Study of Long-acting Antibodies Alone and in Combinations for Moderate to Severe Ulcerative Colitis",
+     "nctId": "NCT07012395",
+     "officialTitle": "Phase 2 Platform Trial to Assess the Efficacy and Safety of Long-acting Antibodies as Single Agents and in Combinations for Moderately to Severely Active Ulcerative Colitis",
+     "orgStudyIdInfo": {
+      "id": "SPY123-201"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Spyre Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Spyre Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2028-03",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-27",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-23",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-06",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2025-05-27",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-10",
+     "studyFirstPostDateStruct": {
+      "date": "2025-06-10",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-05-27",
+     "studyFirstSubmitQcDate": "2025-06-04"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants will receive double-blind dosing regimen 1 of SPY072",
+       "interventionNames": [
+        "Drug: SPY002-072"
+       ],
+       "label": "Rheumatoid Arthritis, Dose Regimen 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants will receive double-blind dosing regimen 2 of SPY072",
+       "interventionNames": [
+        "Drug: SPY002-072"
+       ],
+       "label": "Rheumatoid Arthritis, Dose Regimen 2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants will receive double-blind dose of SPY072",
+       "interventionNames": [
+        "Drug: SPY002-072"
+       ],
+       "label": "Psoriatic Arthritis",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants will receive double-blind dose of SPY072",
+       "interventionNames": [
+        "Drug: SPY002-072"
+       ],
+       "label": "Axial Spondyloarthritis",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants will receive matching placebo",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Rhematoid Arthritis Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "description": "Participants will receive matching placebo",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Psoriatic Arthritis Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "description": "Participants will receive matching placebo",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Axial Spondyloarthritis Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Axial Spondyloarthritis",
+        "Psoriatic Arthritis",
+        "Rheumatoid Arthritis, Dose Regimen 1",
+        "Rheumatoid Arthritis, Dose Regimen 2"
+       ],
+       "description": "Experimental",
+       "name": "SPY002-072",
+       "otherNames": [
+        "SPY072"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Axial Spondyloarthritis Placebo",
+        "Psoriatic Arthritis Placebo",
+        "Rhematoid Arthritis Placebo"
+       ],
+       "description": "Matching Placebo",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Rheumatoid Arthritis",
+      "Psoriatic Arthritis",
+      "Axial Spondyloarthritis",
+      "Rheumatic Diseases",
+      "Rheumatic Joint Disease",
+      "PsA (Psoriatic Arthritis)",
+      "AxSpA",
+      "Rheumatologic Disease"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 285,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "SKYWAY-RD",
+     "briefTitle": "A Study of SPY072 in Rheumatic Disease",
+     "nctId": "NCT07148414",
+     "officialTitle": "Phase 2 Study to Assess the Efficacy and Safety of SPY002-072 in Adults With Moderately to Severely Active Rheumatologic Disease",
+     "orgStudyIdInfo": {
+      "id": "SPY002-072-201"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Spyre Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Spyre Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2028-03-31",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-06-05",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-06-03",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2026-10-31",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2025-08-21",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-06",
+     "studyFirstPostDateStruct": {
+      "date": "2025-08-29",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-08-21",
+     "studyFirstSubmitQcDate": "2025-08-21"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants will receive SPY001",
+       "interventionNames": [
+        "Drug: SPY001"
+       ],
+       "label": "SPY001 Dosing Regimen 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants will receive SPY002",
+       "interventionNames": [
+        "Drug: SPY002"
+       ],
+       "label": "SPY002 Dosing Regimen 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants will receive SPY003",
+       "interventionNames": [
+        "Drug: SPY003"
+       ],
+       "label": "SPY003 Dosing Regimen 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants will receive SPY001",
+       "interventionNames": [
+        "Drug: SPY001"
+       ],
+       "label": "SPY001 Dosing Regimen 2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants will receive SPY002",
+       "interventionNames": [
+        "Drug: SPY002"
+       ],
+       "label": "SPY002 Dosing Regimen 2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants will receive SPY003",
+       "interventionNames": [
+        "Drug: SPY003"
+       ],
+       "label": "SPY003 Dosing Regimen 2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants will receive SPY001 and SPY002",
+       "interventionNames": [
+        "Drug: SPY001",
+        "Drug: SPY002"
+       ],
+       "label": "SPY001 & SPY002",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants will receive SPY001 and SPY003",
+       "interventionNames": [
+        "Drug: SPY001",
+        "Drug: SPY003"
+       ],
+       "label": "SPY001 & SPY003",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants will receive SPY002 and SPY003",
+       "interventionNames": [
+        "Drug: SPY002",
+        "Drug: SPY003"
+       ],
+       "label": "SPY002 & SPY003",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants will receive SPY002",
+       "interventionNames": [
+        "Drug: SPY002"
+       ],
+       "label": "SPY002 Dosing Regimen 3",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "SPY001 & SPY002",
+        "SPY001 & SPY003",
+        "SPY001 Dosing Regimen 1",
+        "SPY001 Dosing Regimen 2"
+       ],
+       "description": "Experimental",
+       "name": "SPY001",
+       "otherNames": [
+        "SPY001-001"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "SPY001 & SPY002",
+        "SPY002 & SPY003",
+        "SPY002 Dosing Regimen 1",
+        "SPY002 Dosing Regimen 2",
+        "SPY002 Dosing Regimen 3"
+       ],
+       "description": "Experimental",
+       "name": "SPY002",
+       "otherNames": [
+        "SPY002-091"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "SPY001 & SPY003",
+        "SPY002 & SPY003",
+        "SPY003 Dosing Regimen 1",
+        "SPY003 Dosing Regimen 2"
+       ],
+       "description": "Experimental",
+       "name": "SPY003",
+       "otherNames": [
+        "SPY003-207"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Ulcerative Colitis",
+      "Inflammatory Bowel Diseases",
+      "Colitis",
+      "Colitis, Ulcerative"
+     ],
+     "keywords": [
+      "Inflammatory Bowel Diseases",
+      "Colitis",
+      "Colitis, Ulcerative"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "TRIPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 645,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "SKYLINE-LTE",
+     "briefTitle": "Long-term Safety and Efficacy of Multiple Long-acting Antibodies Alone and in Combinations for IBD",
+     "nctId": "NCT07652294",
+     "officialTitle": "A Study to Evaluate the Long-term Safety and Efficacy of Long-acting Antibodies as Single Agents and in Combinations in Participants With Inflammatory Bowel Disease",
+     "orgStudyIdInfo": {
+      "id": "SPY123-202"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Spyre Therapeutics, Inc."
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "2025-524640-35-00",
+       "type": "CTIS"
+      },
+      {
+       "id": "2025",
+       "link": "https://reporter.nih.gov/quickSearch/2025",
+       "type": "NIH"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Spyre Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2030-01-03",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-27",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-23",
+     "overallStatus": "ENROLLING_BY_INVITATION",
+     "primaryCompletionDateStruct": {
+      "date": "2029-03-02",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2026-06-08",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-10",
+     "studyFirstPostDateStruct": {
+      "date": "2026-06-17",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2026-06-11",
+     "studyFirstSubmitQcDate": "2026-06-11"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants receive SPY072 + bimekizumab",
+       "interventionNames": [
+        "Drug: SPY072",
+        "Drug: bimekizumab"
+       ],
+       "label": "SPY072 + bimekizumab",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants receive matching placebo for SPY072 + bimekizumab",
+       "interventionNames": [
+        "Drug: Placebo",
+        "Drug: bimekizumab"
+       ],
+       "label": "Placebo + bimekizumab",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "SPY072 + bimekizumab"
+       ],
+       "description": "Solution for SC injection",
+       "name": "SPY072",
+       "otherNames": [
+        "SPY002-072"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo + bimekizumab"
+       ],
+       "description": "Matching placebo for SC injection",
+       "name": "Placebo",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo + bimekizumab",
+        "SPY072 + bimekizumab"
+       ],
+       "description": "Advanced standard of care",
+       "name": "bimekizumab",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Hidradenitis Suppurativa (HS)"
+     ],
+     "keywords": [
+      "Hidradenitis suppurativa",
+      "Hidradenitis",
+      "Skin diseases",
+      "Sweat gland diseases",
+      "Skin and connective tissue diseases"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "interventionModelDescription": "Two parallel treatment arms; SPY072 or matching placebo",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 150,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Study of SPY072 in Adults With Moderate to Severe Hidradenitis Suppurativa (The SKYLIGHT Trial)",
+     "nctId": "NCT07766005",
+     "officialTitle": "A Phase 2, Multicenter, Randomized, Double-blind, Placebo-controlled, Proof-of-concept Trial to Assess the Efficacy and Safety of SPY072 in Adults With Moderate to Severe Hidradenitis Suppurativa Receiving Standard of Care Treatment",
+     "orgStudyIdInfo": {
+      "id": "SPY002-072-202"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Spyre Therapeutics, Inc."
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "2026-527868-32",
+       "type": "EUDRACT_NUMBER"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Spyre Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2028-06",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-19",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-15",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-10",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2026-09",
+      "type": "ESTIMATED"
+     },
+     "statusVerifiedDate": "2026-10",
+     "studyFirstPostDateStruct": {
+      "date": "2026-08-14",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2026-08-10",
+     "studyFirstSubmitQcDate": "2026-08-10"
+    }
+   }
+  }
+ ]
+}

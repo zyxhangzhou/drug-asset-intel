@@ -1,0 +1,74 @@
+{
+ "nctId": "NCT01557400",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "91"
+        }
+       ]
+      }
+     ],
+     "title": "TEAEs"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "31"
+        }
+       ]
+      }
+     ],
+     "title": "Treatment-Emergent SAEs"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "26"
+        }
+       ]
+      }
+     ],
+     "title": "TEAEs Related to Study Treatment"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "94"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "A TEAE is any untoward medical occurrence or undesirable event(s) experienced in a participant that begins or worsens following administration of the study drug or study treatment, whether or not considered related to the treatment by the Investigator. A serious adverse event (SAE) was an adverse event (AE) resulting in any of the following outcomes or deemed significant for any other reason, death, initial or prolonged inpatient hospitalization, life-threatening experience (immediate risk of dying), or persistent or significant disability/incapacity not related to nmDBMD. AEs included both SAEs and non-serious AEs. AEs were classified according to National Cancer Institute Common Terminology Criteria for Adverse Events version 3.0 (CTCAE) and coded using the Medical Dictionary for Regulatory Activities (MedDRA). A summary of serious and all other non-serious adverse events, regardless of causality, is located in the Reported Adverse Events module.",
+   "groups": [
+    {
+     "description": "Ataluren was provided as a vanilla-flavored powder to be mixed with water, milk, fruit juice (except apple juice) fruit punch, or in semi-solid food (for example, yogurt, pudding, or applesauce). The dose level for ataluren was 10 mg/kg in the morning, 10 mg/kg at midday, and 20 mg/kg in the evening. Administration within 30 minutes after a meal was recommended. Study drug dosing was based on milligrams of drug per kilogram of body weight. Because of potential changes in participant body weight over time, weight-based dose adjustment occurred every 24 weeks as required. Study drug was taken for up to 240 weeks.",
+     "id": "OG000",
+     "title": "Ataluren"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "All enrolled participants who received at least 1 dose of study drug.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline up to Week 246",
+   "title": "Number of Participants With Treatment Emergent Adverse Events (TEAEs)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

@@ -1,0 +1,1373 @@
+{
+ "aliases": [
+  "Immunome"
+ ],
+ "studies": [
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "AL102 1.2 mg",
+       "interventionNames": [
+        "Drug: AL102"
+       ],
+       "label": "Part A Main Study 1.2 mg daily",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "AL102 2 mg",
+       "interventionNames": [
+        "Drug: AL102"
+       ],
+       "label": "Part A Main Study 2 mg Intermittent",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "AL102 4 mg",
+       "interventionNames": [
+        "Drug: AL102"
+       ],
+       "label": "Part A Main Study 4 mg Intermittent",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "AL102, recommended dose regimen from Part A, 1.2 mg daily",
+       "interventionNames": [
+        "Drug: AL102"
+       ],
+       "label": "Part B AL102",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Placebo to match recommended dose regimen from Part A",
+       "interventionNames": [
+        "Other: Placebo"
+       ],
+       "label": "Part B Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "description": "AL102, recommended dose regimen from Part A, 1.2 mg daily",
+       "interventionNames": [
+        "Drug: AL102"
+       ],
+       "label": "Open Label Extension",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Open Label Extension",
+        "Part A Main Study 1.2 mg daily",
+        "Part A Main Study 2 mg Intermittent",
+        "Part A Main Study 4 mg Intermittent",
+        "Part B AL102"
+       ],
+       "description": "AL102 is an inhibitor of gamma secretase-mediated Notch signaling.",
+       "name": "AL102",
+       "otherNames": [
+        "varegacestat"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Part B Placebo"
+       ],
+       "description": "Placebo to match AL102",
+       "name": "Placebo",
+       "type": "OTHER"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Desmoid",
+      "Desmoid Tumor"
+     ],
+     "keywords": [
+      "RINGSIDE"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 198,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2",
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "RINGSIDE",
+     "briefTitle": "A Study of AL102 in Patients With Progressing Desmoid Tumors",
+     "nctId": "NCT04871282",
+     "officialTitle": "RINGSIDE: A Phase 2/3, Randomized, Multicenter Study to Evaluate AL102 in Patients With Progressing Desmoid Tumors",
+     "orgStudyIdInfo": {
+      "id": "AL-DES-01"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Immunome, Inc."
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "2024-515909-26-00",
+       "type": "CTIS"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Immunome, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2026-12",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-06-08",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-06-04",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2025-12-03",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2021-09-01",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-06",
+     "studyFirstPostDateStruct": {
+      "date": "2021-05-04",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2021-04-23",
+     "studyFirstSubmitQcDate": "2021-05-03"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Single intravenous (IV) dose 1 of IMM-BCP-01 or matching placebo",
+       "interventionNames": [
+        "Drug: IMM-BCP-01",
+        "Drug: Placebo"
+       ],
+       "label": "IV Cohort 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Single intravenous (IV) dose 2 of IMM-BCP-01 or matching placebo",
+       "interventionNames": [
+        "Drug: IMM-BCP-01",
+        "Drug: Placebo"
+       ],
+       "label": "IV Cohort 2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Single intravenous (IV) dose 1 of IMM-BCP-01 or matching placebo",
+       "interventionNames": [
+        "Drug: IMM-BCP-01",
+        "Drug: Placebo"
+       ],
+       "label": "IV Cohort 3",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Single intravenous (IV) dose 4 of IMM-BCP-01 or matching placebo",
+       "interventionNames": [
+        "Drug: IMM-BCP-01",
+        "Drug: Placebo"
+       ],
+       "label": "IV Cohort 4 (optional)",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "IV Cohort 1",
+        "IV Cohort 2",
+        "IV Cohort 3",
+        "IV Cohort 4 (optional)"
+       ],
+       "description": "Single dose of IMM-BCP-01",
+       "name": "IMM-BCP-01",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "IV Cohort 1",
+        "IV Cohort 2",
+        "IV Cohort 3",
+        "IV Cohort 4 (optional)"
+       ],
+       "description": "Placebo matching single dose of IMM-BCP-01",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "SARS-CoV2 Infection",
+      "COVID-19"
+     ],
+     "keywords": [
+      "IMM-BCP-01",
+      "antibody cocktail"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "interventionModelDescription": "Randomized, Double Blind, Dose Escalation",
+      "maskingInfo": {
+       "masking": "TRIPLE",
+       "maskingDescription": "Double blind",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 9,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "IMM-BCP-01 in Mild to Moderate COVID-19",
+     "nctId": "NCT05429021",
+     "officialTitle": "A Randomized, Double-Blind, Placebo-Controlled, First-in-Human, Phase 1 Study to Evaluate the Safety, Pharmacokinetics, and Viral Clearance of Single Ascending Doses of IMM-BCP-01 Administered Intravenously in Adults With Mild to Moderate COVID-19",
+     "orgStudyIdInfo": {
+      "id": "IMM-BCP-1001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Immunome, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "collaborators": [
+      {
+       "class": "FED",
+       "name": "United States Department of Defense"
+      }
+     ],
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Immunome, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2023-01-06",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2024-09-26",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2024-09-24",
+     "overallStatus": "TERMINATED",
+     "primaryCompletionDateStruct": {
+      "date": "2023-01-06",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2022-06-03",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2024-09",
+     "studyFirstPostDateStruct": {
+      "date": "2022-06-23",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2022-06-15",
+     "studyFirstSubmitQcDate": "2022-06-17",
+     "whyStopped": "Business decision to discontinue the study based on strategic prioritization."
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Period 1: varegacestat administration for PK followed by Period 2: itraconazole and varegacestat administration for PK and DDI",
+       "interventionNames": [
+        "Drug: varegacestat",
+        "Drug: Itraconazole (200 mg)"
+       ],
+       "label": "Treatment Arm",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Treatment Arm"
+       ],
+       "description": "Experimental intervention",
+       "name": "varegacestat",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Treatment Arm"
+       ],
+       "description": "Intervention to evaluate DDI with experimental intervention",
+       "name": "Itraconazole (200 mg)",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Healthy Volunteer"
+     ],
+     "keywords": [
+      "Drug-Drug Interaction",
+      "Pharmacokinetics"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "OTHER"
+     },
+     "enrollmentInfo": {
+      "count": 22,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Phase 1 Study to Examine the Effects of Itraconazole After Single Dose Administration of Varegacestat (AL102) to Healthy Participants",
+     "nctId": "NCT06677996",
+     "officialTitle": "A Phase 1, Open-Label, Fixed Sequence, 1-way Crossover Study Examining the Effect of Itraconazole on the Pharmacokinetics, Safety and Tolerability After Varegacestat Single Dose Administration to Healthy Participants",
+     "orgStudyIdInfo": {
+      "id": "AL102-501"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Immunome, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Immunome, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2025-05-07",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-05-11",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-05-07",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2024-12-30",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2024-11-11",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-05",
+     "studyFirstPostDateStruct": {
+      "date": "2024-11-07",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2024-11-04",
+     "studyFirstSubmitQcDate": "2024-11-05"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "IM-1021 given into the vein (IV; intravenously)",
+       "interventionNames": [
+        "Drug: IM-1021"
+       ],
+       "label": "Part A: IM-1021 Dose Escalation",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "IM-1021 given into the vein (IV; intravenously)",
+       "interventionNames": [
+        "Drug: IM-1021"
+       ],
+       "label": "Part B: IM-1021 Monotherapy Dose Expansion",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Part A: IM-1021 Dose Escalation",
+        "Part B: IM-1021 Monotherapy Dose Expansion"
+       ],
+       "description": "IM-1021 is an antibody-drug conjugate",
+       "name": "IM-1021",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Solid Malignancies",
+      "Hematologic Malignancies"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 190,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Phase 1 Study of IM-1021 in Participants With Advanced Cancer",
+     "nctId": "NCT06823167",
+     "officialTitle": "A Phase 1 Study of IM-1021 in Participants With Advanced Malignancies",
+     "orgStudyIdInfo": {
+      "id": "IM-1021-101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Immunome, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Immunome, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2029-02",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-08-10",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-08-05",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2028-05",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2025-02-26",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-08",
+     "studyFirstPostDateStruct": {
+      "date": "2025-02-12",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-02-04",
+     "studyFirstSubmitQcDate": "2025-02-07"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Single oral dose of varegacestat administered on study day 1",
+       "interventionNames": [
+        "Drug: varegacestat"
+       ],
+       "label": "Treatment Arm",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Treatment Arm"
+       ],
+       "description": "experimental intervention",
+       "name": "varegacestat",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Healthy Volunteer",
+      "Hepatic Impairment (HI)"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "interventionModelDescription": "Healthy participants (Group 1) will be matched by age (± 10 years), body mass index (BMI, ± 15%), and sex to participants with mild to moderate hepatic impairment (Groups 2 and 3). Participants with severe hepatic impairment (Group 4) will be included as needed and matched to Group 1.",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "OTHER"
+     },
+     "enrollmentInfo": {
+      "count": 35,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Varegacestat Hepatic Impairment Study",
+     "nctId": "NCT06841315",
+     "officialTitle": "A Phase 1, Open-Label, Single-Dose Study to Evaluate the Pharmacokinetics, Safety, and Tolerability of Varegacestat in Participants With or Without Hepatic Impairment",
+     "orgStudyIdInfo": {
+      "id": "AL102-503"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Immunome, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Immunome, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2026-03-06",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-03-10",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-03-06",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2025-11-05",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2025-03-07",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-03",
+     "studyFirstPostDateStruct": {
+      "date": "2025-02-24",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-01-24",
+     "studyFirstSubmitQcDate": "2025-02-18"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Single oral dose of varegacestat administered on study Day 1",
+       "interventionNames": [
+        "Drug: varegacestat"
+       ],
+       "label": "Drug: varegacestat",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Drug: varegacestat"
+       ],
+       "description": "Single oral dose of varegacestat",
+       "name": "varegacestat",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Healthy Volunteer"
+     ],
+     "keywords": [
+      "absorption",
+      "metabolism",
+      "excretion",
+      "mass balance"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "OTHER"
+     },
+     "enrollmentInfo": {
+      "count": 6,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Phase 1 Mass Balance Study of Varegacestat",
+     "nctId": "NCT06845852",
+     "officialTitle": "A Phase 1, Open-Label Study to Assess the Absorption, Metabolism, Excretion, and Mass Balance of [14C]Varegacestat Following a Single Oral Dose in Healthy Adult Male Participants",
+     "orgStudyIdInfo": {
+      "id": "AL102-504"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Immunome, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Immunome, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2025-03-26",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-09-26",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-09-23",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2025-03-11",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2025-02-25",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-09",
+     "studyFirstPostDateStruct": {
+      "date": "2025-02-25",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-02-05",
+     "studyFirstSubmitQcDate": "2025-02-20"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: varegacestat"
+       ],
+       "label": "Varegacestat",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "interventionNames": [
+        "Drug: Moxifloxacin 400 mg"
+       ],
+       "label": "Moxifloxacin",
+       "type": "ACTIVE_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Varegacestat"
+       ],
+       "description": "Single oral dose of varegacestat",
+       "name": "varegacestat",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Single oral dose of placebo",
+       "name": "Placebo",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Moxifloxacin"
+       ],
+       "description": "Single oral dose of moxifloxacin",
+       "name": "Moxifloxacin 400 mg",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Healthy Volunteer"
+     ],
+     "keywords": [
+      "thorough-QT"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "CROSSOVER",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "maskingDescription": "Double (Participant, Investigator) This is a double-blind study (with respect to varegacestat and placebo only; moxifloxacin will be open label).",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "OTHER"
+     },
+     "enrollmentInfo": {
+      "count": 32,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Cardiac Liability Study of Varegacestat in Healthy Participants",
+     "nctId": "NCT06855264",
+     "officialTitle": "A Phase 1, Randomized, Single-Dose, Positive- and Placebo-Controlled, 3-Way Crossover Study to Evaluate the Effects of Varegacestat on Cardiac Repolarization in Healthy Participants",
+     "orgStudyIdInfo": {
+      "id": "AL102-502"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Immunome, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Immunome, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2025-05-06",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-09-24",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-09-19",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2025-04-08",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2025-02-24",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-09",
+     "studyFirstPostDateStruct": {
+      "date": "2025-03-03",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-02-25",
+     "studyFirstSubmitQcDate": "2025-02-25"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "177Lu-IM-3050 administered intravenously on a 6-week cycle",
+       "interventionNames": [
+        "Drug: 177Lu-IM-3050"
+       ],
+       "label": "Dose Escalation: 177Lu-IM-3050",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "177Lu-IM-3050 administered intravenously on a 6-week cycle",
+       "interventionNames": [
+        "Drug: 177Lu-IM-3050"
+       ],
+       "label": "Dose Expansion: 177Lu-IM-3050",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Dose Escalation: 177Lu-IM-3050",
+        "Dose Expansion: 177Lu-IM-3050"
+       ],
+       "description": "177Lu-IM-3050 is a FAP-directed radiopharmaceutical",
+       "name": "177Lu-IM-3050",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Solid Malignancies"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 105,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Phase 1 Study of 177Lu-IM-3050 in Participants With Advanced Cancer",
+     "nctId": "NCT07505771",
+     "officialTitle": "A Phase 1 Study of 177Lu-IM-3050 in Participants With Advanced Malignancies",
+     "orgStudyIdInfo": {
+      "id": "IM-3050-101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Immunome, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Immunome, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2034-12",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-07",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-05",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2029-12",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2026-06-19",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-07",
+     "studyFirstPostDateStruct": {
+      "date": "2026-04-01",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2026-03-18",
+     "studyFirstSubmitQcDate": "2026-03-26"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "IM-1617 given into the vein (IV; intravenously)",
+       "interventionNames": [
+        "Drug: IM-1617"
+       ],
+       "label": "IM-1617 Dose Escalation",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "IM-1617 given into the vein (IV; intravenously)",
+       "interventionNames": [
+        "Drug: IM-1617"
+       ],
+       "label": "IM-1617 Monotherapy Dose Expansion",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "IM-1617 Dose Escalation",
+        "IM-1617 Monotherapy Dose Expansion"
+       ],
+       "description": "IM-1617 is an antibody-drug conjugate",
+       "name": "IM-1617",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Colorectal Cancer",
+      "Non-Small Cell Lung Cancer",
+      "Breast Cancer",
+      "Esophageal Cancer",
+      "Stomach Cancer",
+      "Cancer"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 175,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Phase 1 Study of IM-1617 in Participants With Advanced Cancer",
+     "nctId": "NCT07578571",
+     "officialTitle": "A Phase 1 Study of IM-1617 in Participants With Advanced Malignancies",
+     "orgStudyIdInfo": {
+      "id": "IM-1617-101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Immunome, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Immunome, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2029-01",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-09-29",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-09-28",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2029-01",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2026-05-21",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-06",
+     "studyFirstPostDateStruct": {
+      "date": "2026-05-11",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2026-05-05",
+     "studyFirstSubmitQcDate": "2026-05-05"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: Varegacestat Reference Formulation",
+        "Drug: Varegacestat Test Formulation"
+       ],
+       "label": "Reference Formulation, then Test Formulation",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Varegacestat Reference Formulation",
+        "Drug: Varegacestat Test Formulation"
+       ],
+       "label": "Test Formulation, then Reference Formulation",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Reference Formulation, then Test Formulation",
+        "Test Formulation, then Reference Formulation"
+       ],
+       "description": "Oral administration",
+       "name": "Varegacestat Reference Formulation",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Reference Formulation, then Test Formulation",
+        "Test Formulation, then Reference Formulation"
+       ],
+       "description": "Oral administration",
+       "name": "Varegacestat Test Formulation",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Healthy"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "CROSSOVER",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "OTHER"
+     },
+     "enrollmentInfo": {
+      "count": 20,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Relative Bioavailability and Bioequivalence Study of Varegacestat in Healthy Participants",
+     "nctId": "NCT07610005",
+     "officialTitle": "A Phase 1, Open-Label, Crossover Study to Assess the Relative Bioavailability and Bioequivalence of Varegacestat Administered in Different Dose Forms in Healthy Participants",
+     "orgStudyIdInfo": {
+      "id": "VAR-505"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Immunome, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Immunome, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2026-06",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-06-08",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-06-04",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2026-06",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2026-05-21",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-06",
+     "studyFirstPostDateStruct": {
+      "date": "2026-05-27",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2026-05-20",
+     "studyFirstSubmitQcDate": "2026-05-20"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "IM-1340 given into the vein (IV; intravenously)",
+       "interventionNames": [
+        "Drug: IM-1340"
+       ],
+       "label": "IM-1340 Dose Escalation",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "IM-1340 given into the vein (IV; intravenously)",
+       "interventionNames": [
+        "Drug: IM-1340"
+       ],
+       "label": "IM-1340 Monotherapy Dose Expansion",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "IM-1340 Dose Escalation",
+        "IM-1340 Monotherapy Dose Expansion"
+       ],
+       "description": "IM-1340 is an antibody-drug conjugate (ADC)",
+       "name": "IM-1340",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Colorectal Cancer",
+      "Non-Small Cell Lung Cancer",
+      "Small Cell Lung Cancer",
+      "Neuroendocrine Neoplasm"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 200,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Phase 1 Study of IM-1340 in Participants With Advanced Cancer",
+     "nctId": "NCT07890246",
+     "officialTitle": "A Phase 1 Study of IM-1340 in Participants With Advanced Malignancies",
+     "orgStudyIdInfo": {
+      "id": "IM-1340-101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Immunome, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Immunome, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2030-09",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-22",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-16",
+     "overallStatus": "NOT_YET_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2030-09",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2026-11",
+      "type": "ESTIMATED"
+     },
+     "statusVerifiedDate": "2026-10",
+     "studyFirstPostDateStruct": {
+      "date": "2026-10-22",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2026-10-16",
+     "studyFirstSubmitQcDate": "2026-10-16"
+    }
+   }
+  }
+ ]
+}

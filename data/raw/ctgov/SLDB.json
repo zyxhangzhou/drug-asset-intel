@@ -1,0 +1,805 @@
+{
+ "aliases": [
+  "Solid Biosciences"
+ ],
+ "studies": [
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Single IV infusion of SGT-001 at starting dose",
+       "interventionNames": [
+        "Genetic: SGT-001"
+       ],
+       "label": "SGT-001 - Dose Level 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Single IV infusion of SGT-001 at next ascending dose",
+       "interventionNames": [
+        "Genetic: SGT-001"
+       ],
+       "label": "SGT-001 - Dose Level 2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Untreated control group. After 1 year, treatment-eligible control participants will receive SGT-001 at the selected dose.",
+       "label": "Untreated Control",
+       "type": "NO_INTERVENTION"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "SGT-001 - Dose Level 1",
+        "SGT-001 - Dose Level 2"
+       ],
+       "description": "AAV9 vector containing muscle-specific promoter and microdystrophin construct",
+       "name": "SGT-001",
+       "type": "GENETIC"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Duchenne Muscular Dystrophy"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 12,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "IGNITE DMD",
+     "briefTitle": "Microdystrophin Gene Transfer Study in Adolescents and Children With DMD",
+     "nctId": "NCT03368742",
+     "officialTitle": "A Randomized, Controlled, Open-label, Single-ascending Dose, Phase I/II Study to Investigate the Safety and Tolerability, and Efficacy of Intravenous SGT-001 in Male Adolescents and Children With Duchenne Muscular Dystrophy",
+     "orgStudyIdInfo": {
+      "id": "GX1001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Solid Biosciences Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Solid Biosciences Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2026-11-30",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-15",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-13",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2026-11-30",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2017-12-06",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-10",
+     "studyFirstPostDateStruct": {
+      "date": "2017-12-11",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2017-12-05",
+     "studyFirstSubmitQcDate": "2017-12-08"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Ambulatory males aged 4 to \\<13 years with Duchenne Muscular Dystrophy",
+       "interventionNames": [
+        "Device: Wearable Device",
+        "Other: Duchenne Video Assessment (DVA)"
+       ],
+       "label": "DMD Patients"
+      },
+      {
+       "description": "Normal male age-matched controls",
+       "interventionNames": [
+        "Device: Wearable Device",
+        "Other: Duchenne Video Assessment (DVA)"
+       ],
+       "label": "Age Matched Controls"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Age Matched Controls",
+        "DMD Patients"
+       ],
+       "description": "The wearable device used in this study is an FDA 510(k) cleared Class II medical device designed to collect medical grade, clinical quality biometric, physiological and other electronic clinician outcome assessments data in a clinical trial setting. The system processes raw data into recognizable clinical metrics including vital signs, activity and posture classifications, surface electromyography (sEMG), and sleep metrics. The sensors are multi-modal, multilocation, rechargeable and reusable.",
+       "name": "Wearable Device",
+       "type": "DEVICE"
+      },
+      {
+       "armGroupLabels": [
+        "Age Matched Controls",
+        "DMD Patients"
+       ],
+       "description": "The DVA is a standardized tool that documents and assesses compensatory movement strategies as a marker of quality of movement.",
+       "name": "Duchenne Video Assessment (DVA)",
+       "type": "OTHER"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Duchenne Muscular Dystrophy"
+     ],
+     "keywords": [
+      "duchenne",
+      "muscular dystrophy",
+      "DMD"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "observationalModel": "COHORT",
+      "timePerspective": "PROSPECTIVE"
+     },
+     "enrollmentInfo": {
+      "count": 17,
+      "type": "ACTUAL"
+     },
+     "patientRegistry": false,
+     "studyType": "OBSERVATIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Evaluation of Home Based Assessments on Participants With DMD",
+     "nctId": "NCT05657938",
+     "officialTitle": "A Phase 0 Study to Evaluate the Clinical Readiness of a Wearable Sensor Device and Duchenne Video Assessment in the Home Environment on Participants With Duchenne Muscular Dystrophy (DMD)",
+     "orgStudyIdInfo": {
+      "id": "SB-000-22-001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Solid Biosciences Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Solid Biosciences Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2023-04-04",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2023-08-14",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2023-08-09",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2023-04-04",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2022-10-13",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2022-12",
+     "studyFirstPostDateStruct": {
+      "date": "2022-12-20",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2022-10-26",
+     "studyFirstSubmitQcDate": "2022-12-12"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "All ambulatory participants from age 4 to \\< 7 years will receive a single IV infusion of SGT-003 on Day 1.",
+       "interventionNames": [
+        "Genetic: SGT-003"
+       ],
+       "label": "Cohort 1: SGT-003",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "All ambulatory participants from age 7 to \\< 12 years will receive a single IV infusion of SGT-003 on Day 1.",
+       "interventionNames": [
+        "Genetic: SGT-003"
+       ],
+       "label": "Cohort 2: SGT-003",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "All participants from age 0 to \\< 4 years will receive a single IV infusion of SGT-003 on Day 1.",
+       "interventionNames": [
+        "Genetic: SGT-003"
+       ],
+       "label": "Cohort 3: SGT-003",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "All ambulatory participants from age 12 to \\< 18 years will receive a single IV infusion of SGT-003 on Day 1.",
+       "interventionNames": [
+        "Genetic: SGT-003"
+       ],
+       "label": "Cohort 4: SGT-003",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "All non-ambulatory participants from age 10 to \\< 18 years will receive a single IV infusion of SGT-003 on Day 1.",
+       "interventionNames": [
+        "Genetic: SGT-003"
+       ],
+       "label": "Cohort 5: SGT-003",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Cohort 1: SGT-003",
+        "Cohort 2: SGT-003",
+        "Cohort 3: SGT-003",
+        "Cohort 4: SGT-003",
+        "Cohort 5: SGT-003"
+       ],
+       "description": "Adeno-associated virus serotype SLB101 containing the human microdystrophin gene (h-µD5)",
+       "name": "SGT-003",
+       "type": "GENETIC"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Duchenne Muscular Dystrophy"
+     ],
+     "keywords": [
+      "DMD",
+      "Gene Therapy"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 60,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Study of SGT-003 Gene Therapy in Duchenne Muscular Dystrophy (INSPIRE DUCHENNE)",
+     "nctId": "NCT06138639",
+     "officialTitle": "A Phase 1/2, Multicenter, Open-Label Study to Investigate the Safety, Tolerability, and Efficacy of a Single Intravenous Dose of SGT-003 in Males With Duchenne Muscular Dystrophy (INSPIRE DUCHENNE)",
+     "orgStudyIdInfo": {
+      "id": "SGT-003-101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Solid Biosciences Inc."
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "2024-514501-57-00",
+       "type": "CTIS"
+      },
+      {
+       "domain": "UK IRAS ID",
+       "id": "1010251",
+       "type": "OTHER"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Solid Biosciences Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2031-05-06",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-07-08",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-07-07",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-05-06",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2024-05-06",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-07",
+     "studyFirstPostDateStruct": {
+      "date": "2023-11-18",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2023-11-14",
+     "studyFirstSubmitQcDate": "2023-11-14"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants will receive a single intravenous (IV) infusion (dose 1) of SGT-501.",
+       "interventionNames": [
+        "Drug: SGT-501"
+       ],
+       "label": "Cohort 1 (≥ 18 years of age)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants will receive a single IV infusion (dose 2) of SGT-501.",
+       "interventionNames": [
+        "Drug: SGT-501"
+       ],
+       "label": "Cohort 2 (≥ 18 years of age)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants will receive a single IV infusion (level at or below dose(s) assessed in adults) of SGT-501.",
+       "interventionNames": [
+        "Drug: SGT-501"
+       ],
+       "label": "Cohort 3 (≥ 7 to < 18 years)",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Cohort 1 (≥ 18 years of age)",
+        "Cohort 2 (≥ 18 years of age)",
+        "Cohort 3 (≥ 7 to < 18 years)"
+       ],
+       "description": "IV for infusion",
+       "name": "SGT-501",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Catecholaminergic Polymorphic Ventricular Tachycardia"
+     ],
+     "keywords": [
+      "Catecholaminergic polymorphic ventricular tachycardia (CPVT)",
+      "SGT-501",
+      "Ryanodine Receptor 2 (RYR2)",
+      "adeno-associated virus serotype 8 (AAV8)",
+      "Cardiac",
+      "Gene Therapy"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 18,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "ARTEMIS",
+     "briefTitle": "A Study of SGT-501 Gene Therapy in Catecholaminergic Polymorphic Ventricular Tachycardia (CPVT)",
+     "nctId": "NCT07148089",
+     "officialTitle": "A Phase 1b, Multicenter, Open-Label, Dose Finding Study to Investigate the Safety and Tolerability of a Single Intravenous Dose of SGT-501 in Patients With Catecholaminergic Polymorphic Ventricular Tachycardia",
+     "orgStudyIdInfo": {
+      "id": "SGT-501-101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Solid Biosciences Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Solid Biosciences Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2031-05",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-26",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-23",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-06",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2026-02-23",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-10",
+     "studyFirstPostDateStruct": {
+      "date": "2025-08-29",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-08-22",
+     "studyFirstSubmitQcDate": "2025-08-22"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Enrolled participants will receive a single intravenous (IV) infusion of SGT-003 in Part 1 and may receive a single IV infusion of matching Placebo in Part 2 per protocol-defined eligibility criteria.",
+       "interventionNames": [
+        "Drug: SGT-003",
+        "Drug: Placebo"
+       ],
+       "label": "SGT-003 in Part 1, Placebo in Part 2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Enrolled participants will receive a single intravenous (IV) infusion of matching Placebo in Part 1 and a single IV infusion of SGT-003 in Part 2 per protocol-defined eligibility criteria.",
+       "interventionNames": [
+        "Drug: SGT-003",
+        "Drug: Placebo"
+       ],
+       "label": "Placebo in Part 1, SGT-003 in Part 2",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Placebo in Part 1, SGT-003 in Part 2",
+        "SGT-003 in Part 1, Placebo in Part 2"
+       ],
+       "description": "Adeno-associated virus (AAV)-based gene therapy that delivers a codon-optimized and CpG island-minimized human 5-repeat microdystrophin (h-μD5)",
+       "name": "SGT-003",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo in Part 1, SGT-003 in Part 2",
+        "SGT-003 in Part 1, Placebo in Part 2"
+       ],
+       "description": "IV infusion",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Duchenne Muscular Dystrophy"
+     ],
+     "keywords": [
+      "SGT-003",
+      "Duchenne Muscular Dystrophy (DMD)",
+      "adeno-associated virus (AAV)",
+      "IMPACT DUCHENNE"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 80,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Study of SGT-003 Gene Therapy in Ambulant Males With Duchenne Muscular Dystrophy (IMPACT DUCHENNE)",
+     "nctId": "NCT07160634",
+     "officialTitle": "A Phase 3, Multicenter, Randomized, Double-Blind, Placebo-Controlled Study to Investigate the Efficacy of a Single Intravenous Dose of SGT-003 in Ambulant Males With Duchenne Muscular Dystrophy",
+     "orgStudyIdInfo": {
+      "id": "SGT-003-301"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Solid Biosciences Inc."
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "2025-522949-22",
+       "type": "EUDRACT_NUMBER"
+      },
+      {
+       "domain": "IRAS",
+       "id": "1013075",
+       "type": "OTHER"
+      },
+      {
+       "id": "2025",
+       "link": "https://reporter.nih.gov/quickSearch/2025",
+       "type": "NIH"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Solid Biosciences Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2034-01",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-09-28",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-09-25",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2029-01",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2025-10-22",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-09",
+     "studyFirstPostDateStruct": {
+      "date": "2025-09-08",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-08-29",
+     "studyFirstSubmitQcDate": "2025-08-29"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Non-ambulatory participants will receive bilateral intradentate infusion (IDN) followed by systemic intravenous (IV) infusion.",
+       "interventionNames": [
+        "Drug: SGT-212"
+       ],
+       "label": "Cohort 1 (Non-Ambulatory)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Ambulatory participants will receive bilateral IDN infusion followed by systemic IV infusion.",
+       "interventionNames": [
+        "Drug: SGT-212"
+       ],
+       "label": "Cohort 2 (Ambulatory)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants will receive bilateral IDN followed by systemic IV infusion.",
+       "interventionNames": [
+        "Drug: SGT-212"
+       ],
+       "label": "Cohort 3 (Ambulatory and Non-Ambulatory)",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Cohort 1 (Non-Ambulatory)",
+        "Cohort 2 (Ambulatory)",
+        "Cohort 3 (Ambulatory and Non-Ambulatory)"
+       ],
+       "description": "Adeno-associated virus serotype AAVhu68 containing a codon-optimized complementary DNA (cDNA)",
+       "name": "SGT-212",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Friedreich's Ataxia (FA)"
+     ],
+     "keywords": [
+      "SGT-212",
+      "Gene Therapy",
+      "Frataxin",
+      "Repeat Expansion",
+      "Neuromuscular",
+      "Cardiac",
+      "Ataxia",
+      "Movement Disorder",
+      "Rare disease",
+      "AAV",
+      "AAVhu68"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 10,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "FALCON",
+     "briefTitle": "A Study of SGT-212 Gene Therapy in Friedreich's Ataxia",
+     "nctId": "NCT07180355",
+     "officialTitle": "A Phase 1b First-in-Human, Open-Label, Dose-Finding Trial to Evaluate the Safety and Tolerability of SGT-212 Delivered Via Dual Intradentate Nucleus (IDN) and Intravenous (IV) Administration to Participants With Friedreich's Ataxia (FA)",
+     "orgStudyIdInfo": {
+      "id": "SGT-212-101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Solid Biosciences Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Solid Biosciences Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2032-02-29",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-09-29",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-09-25",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2028-03-21",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2025-10-22",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-09",
+     "studyFirstPostDateStruct": {
+      "date": "2025-09-18",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-08-22",
+     "studyFirstSubmitQcDate": "2025-09-11"
+    }
+   }
+  }
+ ]
+}

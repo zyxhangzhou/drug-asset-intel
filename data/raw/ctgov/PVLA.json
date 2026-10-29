@@ -1,0 +1,1036 @@
+{
+ "aliases": [
+  "Palvella Therapeutics"
+ ],
+ "studies": [
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: PTX-022"
+       ],
+       "label": "Open label period",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Randomized period - Dosing A",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "interventionNames": [
+        "Drug: PTX-022",
+        "Drug: Placebo"
+       ],
+       "label": "Randomized period - Dosing B",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: PTX-022"
+       ],
+       "label": "Randomized period - Dosing C",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Open label period",
+        "Randomized period - Dosing B",
+        "Randomized period - Dosing C"
+       ],
+       "description": "PTX-022 QTORIN",
+       "name": "PTX-022",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Randomized period - Dosing A",
+        "Randomized period - Dosing B"
+       ],
+       "description": "Placebo topical",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Pachyonychia Congenita"
+     ],
+     "keywords": [
+      "PC"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "interventionModelDescription": "This study consists of 2 treatment periods:\n\n* Open-Label\n* Randomized, Double-Blind, Placebo controlled",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "maskingDescription": "During the open-label period, there is no masking. During the randomized, double-blind, placebo-controlled period the participant and Investigator are masked.",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 73,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2",
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Phase 2/3 Study Evaluating the Safety and Efficacy of PTX-022 in Treatment of Adults With Pachyonychia Congenita",
+     "nctId": "NCT03920228",
+     "officialTitle": "A Multicenter, Four-Part, Phase 2/3 Study Evaluating the Safety and Efficacy of PTX-022 in the Treatment of Adults With Moderate to Severe Pachyonychia Congenita",
+     "orgStudyIdInfo": {
+      "id": "PALV-02"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Palvella Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Palvella Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2020-10-19",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2024-08-29",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2024-08-28",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2020-09-19",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2019-04-01",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2024-08",
+     "studyFirstPostDateStruct": {
+      "date": "2019-04-18",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2019-04-02",
+     "studyFirstSubmitQcDate": "2019-04-15"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "PTX-022 QTORIN",
+       "interventionNames": [
+        "Drug: PTX-022"
+       ],
+       "label": "Open label treatment arm",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Open label treatment arm"
+       ],
+       "description": "Safety and Efficacy of PTX-022 in the Treatment of Adults with Pachyonychia Congenita",
+       "name": "PTX-022",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Pachyonychia Congenita"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "interventionModelDescription": "Open label",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 36,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "VALO-2",
+     "briefTitle": "VALO-2: Study Evaluating the Safety and Efficacy of PTX022 in the Treatment of Adults With Pachyonychia Congenita",
+     "nctId": "NCT04520750",
+     "officialTitle": "VALO-2: A Multicenter, Phase 3b, Open-Label Treatment Extension Study Evaluating the Safety and Efficacy of PTX022 in the Treatment of Adults With Pachyonychia Congenita",
+     "orgStudyIdInfo": {
+      "id": "PALV-03"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Palvella Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Palvella Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2022-12-15",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2024-08-29",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2024-08-28",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2021-06-30",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2020-09-01",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2024-08",
+     "studyFirstPostDateStruct": {
+      "date": "2020-08-20",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2020-03-06",
+     "studyFirstSubmitQcDate": "2020-08-18"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: PTX-022"
+       ],
+       "label": "Active",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Vehicle comparator"
+       ],
+       "label": "Vehicle",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Active"
+       ],
+       "description": "QTORIN 3.9 % Sirolimus Topical Gel",
+       "name": "PTX-022",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Vehicle"
+       ],
+       "description": "Vehicle comparator topical gel",
+       "name": "Vehicle comparator",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "BCCs in Gorlin Syndrome Patients"
+     ],
+     "keywords": [
+      "Gorlin Syndrome",
+      "Basal Cell Carcinoma",
+      "Nevoid basal cell carcinoma syndrome",
+      "Basal cell nevus syndrome BCNS",
+      "Gorlin Syndrome Alliance",
+      "Prevention",
+      "Topical",
+      "Sirolimus"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "PREVENTION"
+     },
+     "enrollmentInfo": {
+      "count": 73,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "CODY: A Study Evaluating The Safety And Efficacy Of QTORIN 3.9% Sirolimus Topical Gel For The Prevention Of Basal Cell Carcinomas (BCCs) In Patients With Gorlin Syndrome",
+     "nctId": "NCT04893486",
+     "officialTitle": "A Multicenter, Phase 2B, Randomized, Double-Blind, Stratified, Vehicle-Controlled Study Evaluating The Safety And Efficacy Of QTORIN 3.9% Sirolimus Topical Gel In Prevention Of BCCs In Patients With Gorlin Syndrome",
+     "orgStudyIdInfo": {
+      "id": "PALV-04"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Palvella Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Palvella Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2023-03-13",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2024-08-29",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2024-08-28",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2023-03-13",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2021-05-06",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2024-08",
+     "studyFirstPostDateStruct": {
+      "date": "2021-05-19",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2021-05-14",
+     "studyFirstSubmitQcDate": "2021-05-14"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "PTX-022 QTORIN",
+       "interventionNames": [
+        "Drug: PTX-022"
+       ],
+       "label": "Experimental: PTX-022",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Experimental: PTX-022"
+       ],
+       "description": "Safety and Efficacy of PTX-022 in the Treatment of Microcystic Lymphatic Malformations",
+       "name": "PTX-022",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Microcystic Lymphatic Malformation"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "interventionModelDescription": "This is an open-label, baseline-controlled study",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 12,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Study Evaluating the Safety and Efficacy of PTX-022 (QTORIN Sirolimus) in the Treatment of Microcystic Lymphatic Malformations",
+     "nctId": "NCT05050149",
+     "officialTitle": "A Multicenter, Phase 2, Open-Label Study Evaluating The Safety And Efficacy of Sirolimus 3.9% Topical Gel (PTX-022) In The Treatment of Microcystic Lymphatic Malformations",
+     "orgStudyIdInfo": {
+      "id": "PALV-06"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Palvella Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Palvella Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2022-12-15",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-01-17",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2024-12-23",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2022-11-15",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2025-01-17",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2024-12-23",
+     "resultsFirstSubmitQcDate": "2024-12-23",
+     "startDateStruct": {
+      "date": "2022-01-13",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2024-12",
+     "studyFirstPostDateStruct": {
+      "date": "2021-09-20",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2021-09-08",
+     "studyFirstSubmitQcDate": "2021-09-17"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: QTORIN 3.9% rapamycin anhydrous gel"
+       ],
+       "label": "Active",
+       "type": "ACTIVE_COMPARATOR"
+      },
+      {
+       "interventionNames": [
+        "Drug: Vehicle"
+       ],
+       "label": "Vehicle",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Active"
+       ],
+       "description": "QTORIN 3.9% rapamycin anhydrous gel",
+       "name": "QTORIN 3.9% rapamycin anhydrous gel",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Vehicle"
+       ],
+       "description": "Matching vehicle (QTORIN anyhydrous gel)",
+       "name": "Vehicle",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Pachyonychia Congenita"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 87,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "VAPAUS",
+     "briefTitle": "A Multicenter, Phase 3 Randomized, Double-Blind, Vehicle-Controlled Study Evaluating the Safety and Efficacy of QTORIN 3.9% Rapamycin Anhydrous Gel in the Treatment of Pachyonychia Congenita",
+     "nctId": "NCT05180708",
+     "officialTitle": "A Multicenter, Phase 3 Randomized, Double-Blind, Vehicle-controlled Study Evaluating the Safety and Efficacy of QTORIN 3.9% Rapamycin Anhydrous Gel in the Treatment of Pachyonychia Congenita",
+     "orgStudyIdInfo": {
+      "id": "PALV-05"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Palvella Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Palvella Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2023-06-30",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2024-08-29",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2024-08-28",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2023-06-30",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2021-11-29",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2024-08",
+     "studyFirstPostDateStruct": {
+      "date": "2022-01-06",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2021-12-20",
+     "studyFirstSubmitQcDate": "2022-01-05"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: PTX-022"
+       ],
+       "label": "PTX-022",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "PTX-022"
+       ],
+       "description": "QTORIN rapamycin 3.9% anhydrous gel",
+       "name": "PTX-022",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Pachyonychia Congenita"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 45,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Study Evaluating the Safety and Pharmacokinetics of QTORIN Rapamycin 3.9% Anhydrous Gel in the Treatment of Adults With Pachyonychia Congenita",
+     "nctId": "NCT05643872",
+     "officialTitle": "A Multicenter Open-Label Treatment Study Evaluating the Safety and Pharmacokinetics of QTORIN Rapamycin 3.9% Anhydrous Gel in the Treatment of Adults With Pachyonychia Congenita",
+     "orgStudyIdInfo": {
+      "id": "PALV-08"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Palvella Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Palvella Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2023-11",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2022-12-09",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2022-12-01",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2023-10",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2022-11-15",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2022-12",
+     "studyFirstPostDateStruct": {
+      "date": "2022-12-09",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2022-11-08",
+     "studyFirstSubmitQcDate": "2022-12-01"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: QTORIN 3.9% Rapamycin Anhydrous Gel"
+       ],
+       "label": "Active",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Active"
+       ],
+       "description": "QTORIN 3.9% Rapamycin Anhydrous Gel",
+       "name": "QTORIN 3.9% Rapamycin Anhydrous Gel",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Microcystic Lymphatic Malformation"
+     ],
+     "keywords": [
+      "Lymphangioma circumscriptum",
+      "Lymphatic malformation",
+      "Vascular malformation",
+      "Topical",
+      "Sirolimus",
+      "Rapamycin",
+      "Congenital malformation",
+      "Non-infective disorder of lymphatic vessels and lymph nodes"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 51,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "SELVA",
+     "briefTitle": "SELVA: A Phase 3 Study Evaluating QTORIN 3.9% Rapamycin Anhydrous Gel in the Treatment of Microcystic Lymphatic Malformations",
+     "nctId": "NCT06239480",
+     "officialTitle": "SELVA: A Multicenter, Phase 3 Baseline-Controlled Study Evaluating the Safety and Efficacy of QTORIN 3.9% Rapamycin Anhydrous Gel in the Treatment of Microcystic Lymphatic Malformations",
+     "orgStudyIdInfo": {
+      "id": "PALV-09"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Palvella Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "collaborators": [
+      {
+       "class": "FED",
+       "name": "FDA Office of Orphan Products Development"
+      }
+     ],
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Palvella Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2026-07",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-03-27",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-03-26",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2026-01-14",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2024-07-31",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-03",
+     "studyFirstPostDateStruct": {
+      "date": "2024-02-02",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2024-01-16",
+     "studyFirstSubmitQcDate": "2024-01-25"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: QTORIN 3.9% rapamycin anhydrous gel"
+       ],
+       "label": "Single-arm, open-label",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Single-arm, open-label"
+       ],
+       "description": "QTORIN 3.9% Rapamycin Anhydrous Gel",
+       "name": "QTORIN 3.9% rapamycin anhydrous gel",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Cutaneous Venous Malformations"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 15,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "TOIVA",
+     "briefTitle": "A Phase 2, Baseline-Controlled Study Evaluating the Safety and Efficacy of PTX-022 (Sirolimus) Topical Gel 3.9% in the Treatment of Cutaneous Venous Malformations",
+     "nctId": "NCT06653842",
+     "officialTitle": "A Phase 2, Baseline-Controlled Study Evaluating the Safety and Efficacy of PTX-022 (Sirolimus) Topical Gel 3.9% in the Treatment of Cutaneous Venous Malformations",
+     "orgStudyIdInfo": {
+      "id": "PALV-10"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Palvella Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Palvella Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2026-03",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-03-27",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-03-26",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2025-11-21",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2024-12-20",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-03",
+     "studyFirstPostDateStruct": {
+      "date": "2024-10-22",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2024-10-17",
+     "studyFirstSubmitQcDate": "2024-10-21"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: PTX-022"
+       ],
+       "label": "Open label",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Open label"
+       ],
+       "description": "topical administration of PTX-022",
+       "name": "PTX-022",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Angiokeratomas"
+     ],
+     "keywords": [
+      "angiokeratoma"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 15,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "LOTU",
+     "briefTitle": "A Phase 2, Baseline-Controlled Study Evaluating the Safety and Efficacy of PTX-022 (Sirolimus) Topical Gel 3.9% in the Treatment of Angiokeratomas (LOTU)",
+     "nctId": "NCT07552077",
+     "officialTitle": "A Phase 2, Baseline-Controlled Study Evaluating the Safety and Efficacy of PTX-022 (Sirolimus) Topical Gel 3.9% in the Treatment of Angiokeratomas (LOTU)",
+     "orgStudyIdInfo": {
+      "id": "PALV-12"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Palvella Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Palvella Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2027-09",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-04-27",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-04-20",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-08",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2026-04",
+      "type": "ESTIMATED"
+     },
+     "statusVerifiedDate": "2026-04",
+     "studyFirstPostDateStruct": {
+      "date": "2026-04-27",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2026-04-20",
+     "studyFirstSubmitQcDate": "2026-04-20"
+    }
+   }
+  }
+ ]
+}

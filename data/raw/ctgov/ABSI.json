@@ -1,0 +1,215 @@
+{
+ "aliases": [
+  "Absci"
+ ],
+ "studies": [
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "ABS-201 IV Single Dose",
+       "interventionNames": [
+        "Drug: SAD IV Dose 1 - 150mg ABS201 IV Single Dose",
+        "Drug: Placebo IV"
+       ],
+       "label": "SAD IV Dose 1 - 150mg ABS201 or Placebo",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Single Intra-venous dose of active study drug or placebo in Healthy Volunteers",
+       "interventionNames": [
+        "Drug: SAD IV Dose 1 - 150mg ABS201 IV Single Dose",
+        "Drug: Placebo IV"
+       ],
+       "label": "SAD IV Dose 2 - 450mg ABS201 or Placebo",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Single Intra-venous dose of active study drug or placebo in Healthy Volunteers",
+       "interventionNames": [
+        "Drug: SAD IV Dose 1 - 150mg ABS201 IV Single Dose",
+        "Drug: Placebo IV"
+       ],
+       "label": "SAD IV Dose 3 - 900mg ABS201 or Placebo",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Single Intra-venous dose of active study drug or placebo in Healthy Volunteers",
+       "interventionNames": [
+        "Drug: SAD IV Dose 1 - 150mg ABS201 IV Single Dose",
+        "Drug: Placebo IV"
+       ],
+       "label": "SAD IV Dose 4 - 1800mg ABS201 or Placebo",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Multiple Ascending Doses of active study drug or placebo delivered subcutaneously in Patients with AGA",
+       "interventionNames": [
+        "Drug: ABS-201 SC Multiple Doses",
+        "Drug: Placebo SC Injection"
+       ],
+       "label": "MAD SC Dose 1 - 300mg ABS201 or Placebo",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Multiple Ascending Doses of active study drug or placebo delivered subcutaneously in Patients with AGA",
+       "interventionNames": [
+        "Drug: ABS-201 SC Multiple Doses",
+        "Drug: Placebo SC Injection"
+       ],
+       "label": "MAD SC Dose 2 - 600mg ABS201 or Placebo",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Multiple Ascending Doses of active study drug or placebo delivered subcutaneously in Patients with AGA",
+       "interventionNames": [
+        "Drug: ABS-201 SC Multiple Doses",
+        "Drug: Placebo SC Injection"
+       ],
+       "label": "MAD SC Dose 2 - 1200mg ABS201 or Placebo",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "SAD IV Dose 1 - 150mg ABS201 or Placebo",
+        "SAD IV Dose 2 - 450mg ABS201 or Placebo",
+        "SAD IV Dose 3 - 900mg ABS201 or Placebo",
+        "SAD IV Dose 4 - 1800mg ABS201 or Placebo"
+       ],
+       "description": "ABS-201 is an IgG1 monoclonal antibody developed to specifically target the prolactin receptor (PRLR)",
+       "name": "SAD IV Dose 1 - 150mg ABS201 IV Single Dose",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "SAD IV Dose 1 - 150mg ABS201 or Placebo",
+        "SAD IV Dose 2 - 450mg ABS201 or Placebo",
+        "SAD IV Dose 3 - 900mg ABS201 or Placebo",
+        "SAD IV Dose 4 - 1800mg ABS201 or Placebo"
+       ],
+       "description": "Matching placebo",
+       "name": "Placebo IV",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "MAD SC Dose 1 - 300mg ABS201 or Placebo",
+        "MAD SC Dose 2 - 1200mg ABS201 or Placebo",
+        "MAD SC Dose 2 - 600mg ABS201 or Placebo"
+       ],
+       "description": "Multiple doses of ABS-201 for Subcutaneous injection",
+       "name": "ABS-201 SC Multiple Doses",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "MAD SC Dose 1 - 300mg ABS201 or Placebo",
+        "MAD SC Dose 2 - 1200mg ABS201 or Placebo",
+        "MAD SC Dose 2 - 600mg ABS201 or Placebo"
+       ],
+       "description": "Subcutaneous Placebo injection for MAD arms",
+       "name": "Placebo SC Injection",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Androgenetic Alopecia (AGA)",
+      "Healthy Volunteers - Male and Female"
+     ],
+     "keywords": [
+      "Androgenetic Alopecia",
+      "Hair Loss",
+      "AGA",
+      "Female hair loss",
+      "Male pattern baldness",
+      "hair regrowth"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "interventionModelDescription": "Single ascending intravenous doses will be tested and, if safe and well tolerated, multiple ascending subcutaneous doses will be tested in participants with and without pattern hair loss.",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "maskingDescription": "Quadruple (Participant, Care Provider, Investigator, Outcomes Assessor)",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 227,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Study of ABS-201 Evaluating Single and Multiple Ascending Doses in Adults With and Without Androgenetic Alopecia",
+     "nctId": "NCT07317544",
+     "officialTitle": "A Randomized, Double-Blind, Placebo-Controlled, Phase 1 First-in-Human Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of Single and Multiple Ascending Doses of ABS-201 in Adult Participants With and Without Androgenetic Alopecia",
+     "orgStudyIdInfo": {
+      "id": "ABS-201-101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Absci Pty Ltd."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Absci Pty Ltd."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2028-07",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-28",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-27",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2028-07",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2025-12-03",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-10",
+     "studyFirstPostDateStruct": {
+      "date": "2026-01-05",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-11-19",
+     "studyFirstSubmitQcDate": "2025-12-30"
+    }
+   }
+  }
+ ]
+}

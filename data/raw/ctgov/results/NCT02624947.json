@@ -1,0 +1,112 @@
+{
+ "nctId": "NCT02624947",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "41"
+        },
+        {
+         "groupId": "OG001",
+         "value": "35"
+        }
+       ]
+      }
+     ],
+     "title": "Day 90"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "52"
+        },
+        {
+         "groupId": "OG001",
+         "value": "41"
+        }
+       ]
+      }
+     ],
+     "title": "Day 120"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "57"
+        },
+        {
+         "groupId": "OG001",
+         "value": "43"
+        }
+       ]
+      }
+     ],
+     "title": "Day 150"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "61"
+        },
+        {
+         "groupId": "OG001",
+         "value": "43"
+        }
+       ]
+      }
+     ],
+     "title": "Day 180"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "2765"
+      },
+      {
+       "groupId": "OG001",
+       "value": "1430"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Percentages of infants with medically-significant RSV LRTI from delivery through 90, 120,150, and 180 days of life, as defined by:\n\n* The presence of RSV infection confirmed by detection of RSV genome by RT-PCR on respiratory secretions (obtained within the continuous illness episode which fulfills the other criteria listed below); AND\n* At least one manifestation of lower respiratory tract infection (LRTI) from among the following: cough, nasal flaring, lower chest wall indrawing, subcostal retractions, stridor, rales, rhonchi, wheezing, crackles/crepitations, or observed apnea; AND\n* Evidence of medical significance as defined by the presence of:\n\n  * EITHER hypoxemia (peripheral oxygen saturation \\[SpO2\\] \\< 95% at sea level or \\< 92% at altitudes \\> 1800 meters) OR\n  * Tachypnea (≥ 70 breaths per minute \\[bpm\\] in infants 0 to 59 days of age and ≥ 60 bpm in infants ≥ 60 days of age).",
+   "groups": [
+    {
+     "description": "Maternal participants were administered with the adjuvanted RSV F vaccine (120 µg RSV F protein adsorbed to a 0.4 mg dose of aluminum as the phosphate salt) as a single 0.5 mL IM injection into the deltoid muscle.",
+     "id": "OG000",
+     "title": "Adjuvanted RSV F Vaccine (120 µg RSVF Protein Adsorbed to a 0.4 mg Dose of Aluminum)"
+    },
+    {
+     "description": "Maternal participants were administered with the formulated buffer (placebo control) as a single 0.5 mL IM injection into the deltoid muscle.",
+     "id": "OG001",
+     "title": "Formulated Buffer (Placebo Control)"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Analysis population includes infant participants who were ≥ 37 weeks GA at birth, and born to maternal participants who received a study injection as randomized and ≥ 2 weeks prior to delivery, and had not received prophylactic treatment with palivizumab between birth and Day 180 after delivery, and had at least 1 documented post-partum contact during which active and/or passive surveillance activities for RSV-suspect illness could occur.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Delivery to 180 days after delivery",
+   "title": "Infants: Percentages of Participants With Medically Significant RSV LRTI With Either Hypoxemia (SpO2 <95% at Sea Level or <92% at Altitudes >1800 Meters) or Tachypnea",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

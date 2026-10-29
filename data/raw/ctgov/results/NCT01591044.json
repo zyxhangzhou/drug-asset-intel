@@ -1,0 +1,77 @@
+{
+ "nctId": "NCT01591044",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "8.56",
+         "value": "-0.40"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "9.31",
+         "value": "0.69"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "8.75",
+         "value": "-0.59"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "101"
+      },
+      {
+       "groupId": "OG001",
+       "value": "100"
+      },
+      {
+       "groupId": "OG002",
+       "value": "100"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Change from baseline in pre-BD FEV1 (% predicted) at Week 8.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "R343 2mg, 2 puffs bid\n\nR940343: R343 1mg, 1 puff bid R343 2mg, 2 puffs bid",
+     "id": "OG000",
+     "title": "R940343 2mg, 2 Puffs Bid"
+    },
+    {
+     "description": "Placebo: 1, 1 puff bid or 2, 2 puffs bid",
+     "id": "OG001",
+     "title": "Placebo"
+    },
+    {
+     "description": "R343 1mg, 1 puff bid\n\nR940343: R343 1mg, 1 puff bid R343 2mg, 2 puffs bid",
+     "id": "OG002",
+     "title": "R940343 1mg, 1 Puff Bid"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "All efficacy endpoints were analyzed based on the intent to treat population consisting of all randomized patients.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline and Week 8",
+   "title": "Change in FEV1",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of change"
+  }
+ ]
+}

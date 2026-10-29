@@ -1,0 +1,61 @@
+{
+ "nctId": "NCT03746522",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "groupIds": [
+      "OG000"
+     ],
+     "nonInferiorityType": "OTHER",
+     "pValue": "0.0006",
+     "pValueComment": "P-value was one-sided and compared with alpha = 0.025.",
+     "statisticalMethod": "Rubin's Rule"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "16.7",
+         "upperLimit": "51.4",
+         "value": "32.3"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "31"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The percentage of participants (≥12 years of age at baseline) who achieved a ≥10% reduction from baseline in body weight at Period 2 or after 52 weeks of treatment with setmelanotide were analyzed. There was a 14-week placebo-controlled period at the beginning of the trial. After completion of the placebo-controlled period, all participants from the placebo group switched to setmelanotide treatment. The placebo group was integrated into the 52-week analysis so that the participants who received placebo, had 52 weeks of setmelanotide treatment after the first dose of \"active\" treatment. Placebo participants were also included in this analysis.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants received once daily SC injection of setmelanotide/placebo for 14 weeks in a double-blind placebo-controlled treatment period (Period 1). After the initial 14-week double-blind treatment period, all participants immediately transitioned to open-label setmelanotide once daily SC injection for 38 weeks (Period 2).",
+     "id": "OG000",
+     "title": "Pivotal Cohort"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Participants in the Full Analysis Set (defined as randomized participants who received at least 1 dose of study drug and had active treatment baseline \\[ATB\\] data) with available data were analyzed. Participants in the pivotal cohort who received setmelanotide (and were ≥12 years of age) were included in the analysis.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "52 weeks",
+   "title": "Percentage of Participants (≥12 Years of Age at Baseline) Who Reached ≥10% Weight Loss Threshold After 1 Year (Period 2): Pivotal Cohort",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

@@ -1,0 +1,156 @@
+{
+ "nctId": "NCT03041116",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-1.69",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "1.51",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "0.8",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "=0.9115",
+     "pValueComment": "p-value was derived from test of contrast between treatment effects using LSM estimate, adjusted for baseline score and age group from Type III analysis. The test of contrast at Week 24 was considered the primary comparison.",
+     "paramType": "Difference in LS Mean",
+     "paramValue": "-0.1",
+     "statisticalMethod": "Mixed Models Analysis"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.56",
+         "value": "-1.3"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.58",
+         "value": "-1.3"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "41"
+      },
+      {
+       "groupId": "OG001",
+       "value": "43"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Change from baseline to Week 24 activities of daily living was assessed on the PKAN-ADL scale based on the Unified Parkinson's Disease Rating Scale (UPDRS) Part II. The PKAN-ADL is a validated measure of the participant's ability to complete ADL that are impacted by the diffuse motor manifestations of PKAN. It consists of 12 items related to activities of daily living, including eating, dressing, and walking. Each item has responses ranging from 0-4, with a higher value indicating greater disability in the given activity. To compute the total score, responses are summed across the 12 items. The available range of total scores on the PKAN-ADL scale was from 0 (no ADL affected) to 48 (ADL highly affected). The reported least square mean (LSM) was adjusted for baseline score and age group from the Type III analysis. A decrease in score indicates improvement in symptoms.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Double-blind Period: each randomized participant received an oral dose of fosmetpantotenate with dose escalation for Days 1 through 3, followed by the full dose TID from Day 4, based on the participant's age and weight at screening, for 24 weeks.\n\nOpen-label Period: all participants continued treatment with fosmetpantotenate according to the dose they were receiving at the end of the double-blind period. No dose escalation was required.",
+     "id": "OG000",
+     "title": "Fosmetpantotenate"
+    },
+    {
+     "description": "Double-blind Period: each randomized participant received an oral dose of placebo matched to fosmetpantotenate with dose escalation for Days 1 through 3, followed by the full dose TID from Day 4, based on the participant's age and weight at screening, for 24 weeks.\n\nOpen-label Period: all participants started treatment with fosmetpantotenate according to the placebo dose they were receiving at the end of the double-blind period. No dose escalation was required.",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Double-blind Full Analysis Set: any participant who received at least 1 dose of study drug.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline (Day -1), Week 24",
+   "title": "Change From Baseline In The Pantothenate Kinase-Associated Neurodegeneration-Activities of Daily Living (PKAN-ADL) Total Score To The End Of The 24-week Double-blind Period",
+   "type": "PRIMARY",
+   "unitOfMeasure": "units on a scale"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "34"
+        },
+        {
+         "groupId": "OG001",
+         "value": "35"
+        }
+       ]
+      }
+     ],
+     "title": "≥1 TEAE"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "8"
+        },
+        {
+         "groupId": "OG001",
+         "value": "6"
+        }
+       ]
+      }
+     ],
+     "title": "≥1 TESAE"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "41"
+      },
+      {
+       "groupId": "OG001",
+       "value": "43"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "An adverse event (AE) is any untoward medical occurrence associated with the use of the investigational product (IP; active or placebo) in a participant, without regard to possibility of causal relationship with IP. A serious adverse event (SAE) is an AE resulting in any of the following outcomes: death; initial or prolonged inpatient hospitalization; life threatening experience (immediate risk of death from AE); persistent or significant disability/incapacity; congenital anomaly/birth defect; other medically important serious medical events. The TEAEs in the double-blind period are defined as AEs that are new or are a worsening of an existing condition that begins from day of first dose of IP until day after last dose for double-blind treatment period.",
+   "groups": [
+    {
+     "description": "Double-blind Period: each randomized participant received an oral dose of fosmetpantotenate with dose escalation for Days 1 through 3, followed by the full dose TID from Day 4, based on the participant's age and weight at screening, for 24 weeks.\n\nOpen-label Period: all participants continued treatment with fosmetpantotenate according to the dose they were receiving at the end of the double-blind period. No dose escalation was required.",
+     "id": "OG000",
+     "title": "Fosmetpantotenate"
+    },
+    {
+     "description": "Double-blind Period: each randomized participant received an oral dose of placebo matched to fosmetpantotenate with dose escalation for Days 1 through 3, followed by the full dose TID from Day 4, based on the participant's age and weight at screening, for 24 weeks.\n\nOpen-label Period: all participants started treatment with fosmetpantotenate according to the placebo dose they were receiving at the end of the double-blind period. No dose escalation was required.",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Safety Population: any participant who received at least 1 dose of study drug during any period of the study.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "From Screening until end of Week 24",
+   "title": "Number Of Participants With At Least 1 (≥1) Treatment-emergent Adverse Event (TEAE) And Treatment-emergent Serious Adverse Event (TESAE) During The 24-week Double-blind Period",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

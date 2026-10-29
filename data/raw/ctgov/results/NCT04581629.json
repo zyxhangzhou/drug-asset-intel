@@ -1,0 +1,146 @@
+{
+ "nctId": "NCT04581629",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "5"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "6"
+      },
+      {
+       "groupId": "OG001",
+       "value": "13"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Adverse events (AEs) were defined as any untoward medical occurrence associated with the use of an intervention in humans, whether or not considered intervention-related. Treatment-emergence was defined as any AE(s) regardless of relationship to investigational medicinal product (IMP), that had an onset or worsened in severity on or after the first dose of IMP.",
+   "groups": [
+    {
+     "description": "In Period 1 (5 days), participants received an ascending dose of oral encaleret once daily (QD) for the first 3 days (Day 1: 30 mg QD, Day 2: 10, 60 or 90 mg QD, Day 3: 20, 40, 60, 90, 120 or 180 mg QD). Participants then received an individualized dose of oral encaleret twice daily (BID) for 2 days (Day 4 and Day 5: 10 to 180 mg BID).",
+     "id": "OG000",
+     "title": "Period 1: Encaleret"
+    },
+    {
+     "description": "In Period 2 (5 days), participants received encaleret BID for 5 days at dose levels based on responses from Period 1. On Day 1 and Day 2, participants received 10 to 240 mg BID. On Day 3 to Day 5, participants received 10 to 360 mg BID.\n\nIn Period 3 (24 weeks), participants received encaleret for an additional 24 weeks. Participants received encaleret at an initial dose based on tolerance and response to the encaleret dose at the end of Period 2.",
+     "id": "OG001",
+     "title": "Periods 2 and 3: Encaleret"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Safety Analysis Set included all participants who received at least one dose of study drug in the considered period. As pre-specified in the protocol, data were collected and are presented pooled for Periods 2 and 3.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Day 1 up to 16 months",
+   "title": "Periods 1, 2 and 3: Number of Participants With Treatment-emergent Adverse Events (TEAEs)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.48",
+         "value": "1.9"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "13"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "In Period 3 (24 weeks), participants received encaleret for an additional 24 weeks. Participants received encaleret at an initial dose based on tolerance and response to the encaleret dose at the end of Period 2.",
+     "id": "OG000",
+     "title": "Period 3: Encaleret"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Safety Analysis Set included all participants who received at least one dose of study drug in the considered period. As pre-specified in the protocol, data are presented for Period 3 only. As pre-specified, data were collected and are reported pooled for all dose levels in Period 3 and are presented at the specified timepoint.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Week 24",
+   "title": "Period 3: Change From Baseline in Albumin-Corrected Blood Calcium Concentrations (cCa)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "milligrams (mg)/deciliter (dL)"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "83",
+         "value": "202"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "13"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "In Period 3 (24 weeks), participants received encaleret for an additional 24 weeks. Participants received encaleret at an initial dose based on tolerance and response to the encaleret dose at the end of Period 2.",
+     "id": "OG000",
+     "title": "Period 3: Encaleret"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Safety Analysis Set included all participants who received at least one dose of study drug in the considered period. As pre-specified in the protocol, data are presented for Period 3 only. Number analyzed = number of participants evaluable at the specified timepoint. As pre-specified, data were collected and are reported pooled for all dose levels in Period 3 and are presented at the specified timepoint.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Week 24",
+   "title": "Period 3: Rate of Urinary Calcium Excretion",
+   "type": "PRIMARY",
+   "unitOfMeasure": "mg/24hour (hr)"
+  }
+ ]
+}

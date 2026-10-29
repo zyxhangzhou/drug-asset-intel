@@ -1,0 +1,173 @@
+{
+ "nctId": "NCT03946449",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "5.830",
+         "value": "-83.07"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "10.519",
+         "value": "-79.84"
+        }
+       ]
+      }
+     ],
+     "title": "Total Liver Z-AAT"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "6.947",
+         "value": "-81.58"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "131.702",
+         "value": "-12.91"
+        }
+       ]
+      }
+     ],
+     "title": "Insoluble Liver-ZAAT"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "4.835",
+         "value": "-85.36"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "5.718",
+         "value": "-88.18"
+        }
+       ]
+      }
+     ],
+     "title": "Soluble Liver Z-AAT"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "4"
+      },
+      {
+       "groupId": "OG001",
+       "value": "4"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Primary Study Period (6-12 months): 100 mg dose of subcutaneous ARO-AAT for a minimum of 3 doses, with 2 optional treatment extension periods. Treatment Extension I (12 months): 100 mg dose of subcutaneous ARO-AAT every 12 weeks (Q12W). Treatment Extension II (up to 24 Months): 100 mg dose of subcutaneous ARO-AAT Q12W. As of global protocol version 7.0 (21-Jul-2022) / German protocol version 2.6 (29-Jul-2022) and after applicable regulatory, Ethics Committee and local approval, participants in Cohort 1b switched from 100 mg to 200 mg while maintaining their dosing schedule.\n\nThe maximum number of doses for participants completing the treatment extension periods was 15 doses.",
+     "id": "OG000",
+     "title": "ARO-AAT 100 mg Cohort 1b"
+    },
+    {
+     "description": "Primary Study Period (6-12 months): 200 mg dose of subcutaneous ARO-AAT for a minimum of 3 doses, with 2 optional treatment extension periods. Treatment Extension I (12 months): 200 mg dose of subcutaneous ARO-AAT Q12W. Treatment Extension II (up to 24 Months): 200 mg dose of subcutaneous ARO-AAT Q12W.\n\nThe maximum number of doses for participants completing the treatment extension periods was 15 doses.",
+     "id": "OG001",
+     "title": "ARO-AAT 200 mg Cohort 1"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Full Analysis Set: all participants who received at least one dose of study drug and had baseline and post-dose liver biopsy histology results available.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Week 24",
+   "title": "Percent Change From Baseline in Total Liver Z-AAT, Insoluble Liver-ZAAT, and Soluble Liver Z-AAT at Week 24: Cohorts 1/1b",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percent change"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "9.029",
+         "value": "-90.26"
+        }
+       ]
+      }
+     ],
+     "title": "Total Liver Z-AAT"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "19.920",
+         "value": "-84.83"
+        }
+       ]
+      }
+     ],
+     "title": "Insoluble Liver-ZAAT"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "7.482",
+         "value": "-92.64"
+        }
+       ]
+      }
+     ],
+     "title": "Soluble Liver Z-AAT"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "7"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Primary Study Period (6-12 months): 200 mg dose of subcutaneous ARO-AAT for a minimum of 5 doses, with optional treatment extension periods. Treatment Extension I (12 months): 200 mg dose of subcutaneous ARO-AAT Q12W. Treatment Extension II (up to 24 months): 200 mg dose of subcutaneous ARO-AAT Q12W.\n\nThe maximum number of doses for participants completing the treatment extension periods was 17 doses.",
+     "id": "OG000",
+     "title": "ARO-AAT 200 mg Cohort 2"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Full Analysis Set: all participants who received at least one dose of study drug and had baseline and post-dose liver biopsy histology results available. Participants with an assessment at given time point.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Week 48",
+   "title": "Percent Change From Baseline in Total Liver Z-AAT, Insoluble Liver-ZAAT, and Soluble Liver Z-AAT at Week 48: Cohort 2",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percent change"
+  }
+ ]
+}

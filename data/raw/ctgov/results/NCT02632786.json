@@ -1,0 +1,94 @@
+{
+ "nctId": "NCT02632786",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.55",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "1.21",
+     "groupIds": [
+      "OG000"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.3190",
+     "paramType": "Risk Ratio (RR)",
+     "paramValue": "0.82",
+     "statisticalMethod": "Cochran-Mantel-Haenszel"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "26"
+        },
+        {
+         "groupId": "OG001",
+         "value": "30"
+        }
+       ]
+      }
+     ],
+     "title": "Response"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "40"
+        },
+        {
+         "groupId": "OG001",
+         "value": "33"
+        }
+       ]
+      }
+     ],
+     "title": "Non-response"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "66"
+      },
+      {
+       "groupId": "OG001",
+       "value": "63"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "N-terminal pro-brain natriuretic peptide (NT-proBNP ) best response (Response or Non-Response \\[Stable, Progression\\]) from baseline through 12 months of treatment. Cardiac best response, as assessed by NT-proBNP alone, is defined as the most favorable category among response (ie, decrease in NT-proBNP from baseline of \\>30% and \\>300 ng/L), stable (ie, neither response nor progression), and progression (ie, increase in NT-proBNP from baseline of \\>30% and \\>300 ng/L) across all visits after the first infusion of study drug up to and through the end of the study. Subjects are considered non-responders until a response is achieved. Non-response is defined as either stable or progression.",
+   "groups": [
+    {
+     "description": "NEOD001, 24 mg/kg IV every 4 weeks for 12 months",
+     "id": "OG000",
+     "title": "NEOD001 24mg/kg"
+    },
+    {
+     "description": "Placebo, 0.9% Saline IV every 4 weeks for 12 months",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "ITT population",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline through 12 months of treatment",
+   "title": "Number of Participants With Cardiac Response and Non-Response",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

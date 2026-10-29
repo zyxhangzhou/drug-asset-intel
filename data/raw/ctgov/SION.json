@@ -1,0 +1,322 @@
+{
+ "aliases": [
+  "Sionna Therapeutics"
+ ],
+ "studies": [
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "All participants who receive SION-451 in combination with SION-2222",
+       "interventionNames": [
+        "Drug: SION-451",
+        "Drug: SION-2222"
+       ],
+       "label": "SION-451 + SION-2222",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Placebo SION-451",
+        "Drug: Placebo SION-2222"
+       ],
+       "label": "Placebo matched to SION-451 and SION-2222",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "description": "All participants who receive SION-451 in combination with SION-109",
+       "interventionNames": [
+        "Drug: SION-451",
+        "Drug: SION-109"
+       ],
+       "label": "SION 451 + SION 109",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Placebo SION-451",
+        "Drug: Placebo SION-109"
+       ],
+       "label": "Placebo matched to SION-451 and SION-109",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "SION 451 + SION 109",
+        "SION-451 + SION-2222"
+       ],
+       "description": "* Pharmaceutical form: tablet\n* Route of administration: oral",
+       "name": "SION-451",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "SION-451 + SION-2222"
+       ],
+       "description": "* Pharmaceutical form: capsule\n* Route of administration: oral",
+       "name": "SION-2222",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "SION 451 + SION 109"
+       ],
+       "description": "* Pharmaceutical form: tablet\n* Route of administration: oral",
+       "name": "SION-109",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo matched to SION-451 and SION-109",
+        "Placebo matched to SION-451 and SION-2222"
+       ],
+       "description": "Placebo matched to SION-451",
+       "name": "Placebo SION-451",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo matched to SION-451 and SION-2222"
+       ],
+       "description": "Placebo matched to SION-2222",
+       "name": "Placebo SION-2222",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo matched to SION-451 and SION-109"
+       ],
+       "description": "Placebo matched to SION-109",
+       "name": "Placebo SION-109",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Cystic Fibrosis (CF)"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 120,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Safety, Tolerability, and Pharmacokinetics of Multiple Dose Combinations of SION-451 and Complementary Modulators SION-2222 and SION-109 in Healthy Participants.",
+     "nctId": "NCT07035990",
+     "officialTitle": "A Phase 1 Randomized, Double-blind, Placebo-controlled Study to Evaluate the Safety, Tolerability, and Pharmacokinetics of Single Ascending Doses and Multiple Ascending Doses of SION-451, and Multiple Dose Combinations of SION-451 and Complementary Modulators SION-2222 and SION-109 in Healthy Participants.",
+     "orgStudyIdInfo": {
+      "id": "SION-451-101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Sionna Therapeutics Inc."
+     },
+     "secondaryIdInfos": [
+      {
+       "domain": "Australian New Zealand Clinical Trials Registry",
+       "id": "ACTRN12624000849895",
+       "type": "REGISTRY"
+      },
+      {
+       "domain": "Australian New Zealand Clinical Trials Registry",
+       "id": "ACTRN12624000848505",
+       "type": "REGISTRY"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Sionna Therapeutics Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2026-03-23",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-09-10",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-09-08",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2026-03-23",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2025-07-23",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-09",
+     "studyFirstPostDateStruct": {
+      "date": "2025-06-25",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-06-04",
+     "studyFirstSubmitQcDate": "2025-06-16"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants receive SION-719 for one treatment period, and placebo to match SION-719 for the other treatment period. All participants will remain on their physician-prescribed Trikafta as background therapy throughout the study.",
+       "interventionNames": [
+        "Drug: SION-719",
+        "Drug: Placebo-to-match SION-719"
+       ],
+       "label": "Crossover Treatment Sequence 1: SION-719 followed by placebo-to-match SION-719",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants receive placebo to match SION-719 for one treatment period and SION-719 for the other treatment period. All participants will remain on their physician-prescribed Trikafta as background therapy throughout the study.",
+       "interventionNames": [
+        "Drug: SION-719",
+        "Drug: Placebo-to-match SION-719"
+       ],
+       "label": "Crossover Treatment Sequence 2: Placebo-to-match SION-719 followed by SION-719",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Crossover Treatment Sequence 1: SION-719 followed by placebo-to-match SION-719",
+        "Crossover Treatment Sequence 2: Placebo-to-match SION-719 followed by SION-719"
+       ],
+       "description": "All participants receive SION-719, as specified by their treatment sequence assignment",
+       "name": "SION-719",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Crossover Treatment Sequence 1: SION-719 followed by placebo-to-match SION-719",
+        "Crossover Treatment Sequence 2: Placebo-to-match SION-719 followed by SION-719"
+       ],
+       "description": "All participants receive placebo to match SION-719, as specified by their treatment sequence assignment",
+       "name": "Placebo-to-match SION-719",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Cystic Fibrosis (CF)"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "CROSSOVER",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 15,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "PreciSION CF",
+     "briefTitle": "Proof-of-concept Study to Evaluate the Safety, Tolerability, Pharmacodynamics, and Pharmacokinetics of SION-719 When Added to Trikafta",
+     "nctId": "NCT07108153",
+     "officialTitle": "A Phase 2a Randomized, Double-blind, Placebo-controlled Proof-of-concept Study to Evaluate the Safety, Tolerability, Pharmacodynamics, and Pharmacokinetics of SION-719 When Added to Physician-prescribed Trikafta® in People With Cystic Fibrosis Who Are Homozygous for the F508del Mutation",
+     "orgStudyIdInfo": {
+      "id": "SION-719-201"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Sionna Therapeutics Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Sionna Therapeutics Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2026-06-25",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-09-10",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-09-08",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2026-06-25",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2025-11-03",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-09",
+     "studyFirstPostDateStruct": {
+      "date": "2025-08-06",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-07-18",
+     "studyFirstSubmitQcDate": "2025-07-31"
+    }
+   }
+  }
+ ]
+}

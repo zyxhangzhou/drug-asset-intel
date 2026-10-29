@@ -1,0 +1,83 @@
+{
+ "nctId": "NCT03937219",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.57",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.94",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0131",
+     "paramType": "Hazard Ratio (HR)",
+     "paramValue": "0.73",
+     "statisticalMethod": "Log Rank"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "comment": "NA signifies that the median and upper limit of 95% CI was not estimable due to a low number of events observed.",
+         "groupId": "OG000",
+         "lowerLimit": "14.00",
+         "upperLimit": "NA",
+         "value": "NA"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "7.69",
+         "upperLimit": "18.17",
+         "value": "11.30"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "116"
+      },
+      {
+       "groupId": "OG001",
+       "value": "133"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Duration of PFS was defined as the time from randomization to the earlier of either the date of radiographic progression per BIRC or the date of death due to any cause. PFS (months) = (earliest date of progression, death, censoring - date of randomization + 1)/30.4375. PFS was determined as per Response Evaluation Criteria in Solid Tumors version (RECIST) v1.1.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants received cabozantinib 40 mg orally qd + 4 doses of nivolumab 3 mg/kg infusion q3w + 4 doses of ipilimumab 1 mg/kg infusion q3w followed by cabozantinib 40 mg orally qd + nivolumab 480 mg infusion q4w.",
+     "id": "OG000",
+     "title": "Cabozantinib + Nivolumab + Ipilimumab"
+    },
+    {
+     "description": "Participants received cabozantinib matched placebo orally qd + 4 doses of nivolumab 3 mg/kg infusion q3w + 4 doses of ipilimumab 1 mg/kg infusion q3w followed by cabozantinib matched placebo orally qd + nivolumab 480 mg infusion q4w.",
+     "id": "OG001",
+     "title": "Placebo + Nivolumab + Ipilimumab"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "PFS Intent-to-Treat (PITT) population was defined as the first 550 randomized participants regardless of whether any study treatment or the correct study treatment was received. Here, overall number of participants analyzed signifies those participants who were evaluable for this outcome measure.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to 32 months",
+   "title": "Duration of Progression-Free Survival (PFS) by Blinded Independent Radiology Committee (BIRC)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "months"
+  }
+ ]
+}

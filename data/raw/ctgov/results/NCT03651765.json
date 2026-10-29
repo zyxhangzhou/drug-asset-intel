@@ -1,0 +1,47 @@
+{
+ "nctId": "NCT03651765",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "198"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "205"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "An adverse event (AE) was any untoward medical occurrence in a clinical study participant, temporally associated with the use of a study intervention, whether or not considered related to the study intervention. A TEAE was defined as any AE that began or worsened in intensity on or after the date of the first administration of study drug.",
+   "groups": [
+    {
+     "description": "Participants received setmelanotide at the same starting dose as received in the index trials as a SC injection once daily for up to 5.6 years in this extension trial.",
+     "id": "OG000",
+     "title": "Setmelanotide"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "SAS included all participants who received at least one dose of received at least 1 dose of setmelanotide in this extension trial.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "From first dose up to 5.6 years",
+   "title": "Number of Participants With Treatment-Emergent Adverse Events (TEAEs)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

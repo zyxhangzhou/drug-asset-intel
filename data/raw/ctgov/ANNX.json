@@ -1,0 +1,2020 @@
+{
+ "aliases": [
+  "Annexon"
+ ],
+ "studies": [
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "ANX005 intravenous infusion",
+       "interventionNames": [
+        "Drug: ANX005"
+       ],
+       "label": "ANX005 Monotherapy",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "ANX005 intravenous infusion in combination with intravenous immunoglobulin (IVIg)",
+       "interventionNames": [
+        "Drug: ANX005",
+        "Drug: IVIg"
+       ],
+       "label": "ANX005 and IVIg Combination Therapy",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Placebo intravenous infusion",
+       "interventionNames": [
+        "Drug: Placebos"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "ANX005 Monotherapy",
+        "ANX005 and IVIg Combination Therapy"
+       ],
+       "description": "Single ascending dose intravenous infusion",
+       "name": "ANX005",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "ANX005 and IVIg Combination Therapy"
+       ],
+       "description": "IVIg infusion in Cohorts 4b and 5b only. Randomized to ANX005 followed by IVIg or placebo followed by IVIg.",
+       "name": "IVIg",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "0.9% saline intravenous infusion",
+       "name": "Placebos",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Safety and Tolerability in Healthy Volunteers"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "TRIPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 27,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Single Dose Study of ANX005 in Healthy Volunteers",
+     "nctId": "NCT03010046",
+     "officialTitle": "A Phase 1, Randomized, Placebo-controlled, Double Blind, Single, Ascending Dose Study to Assess the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of ANX005 Monotherapy and ANX005 in Combination With IVIg in Healthy Volunteers",
+     "orgStudyIdInfo": {
+      "id": "ANX005-CP01"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Annexon, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Annexon, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2018-06",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2020-08-20",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2020-08-19",
+     "overallStatus": "TERMINATED",
+     "primaryCompletionDateStruct": {
+      "date": "2018-06",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2016-12"
+     },
+     "statusVerifiedDate": "2020-08",
+     "studyFirstPostDateStruct": {
+      "date": "2017-01-04",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2016-12-21",
+     "studyFirstSubmitQcDate": "2017-01-03",
+     "whyStopped": "ANX005 well tolerated at doses studied; study discontinued and initiated in patient population"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Biological: ANX007"
+       ],
+       "label": "ANX007-GLA-01",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "ANX007-GLA-01"
+       ],
+       "description": "Single ascending dose",
+       "name": "ANX007",
+       "type": "BIOLOGICAL"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Open-angle Glaucoma"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 9,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Single-dose Study of ANX007 in Participants With Primary Open-angle Glaucoma",
+     "nctId": "NCT03488550",
+     "officialTitle": "A Phase 1, Open-label, Single-dose, Dose-escalation, Safety, Tolerability, and PK Study of Intravitreal ANX007 in Participants With Primary Open-angle Glaucoma",
+     "orgStudyIdInfo": {
+      "id": "ANX007-GLA-01"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Annexon, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Annexon, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2018-08-03",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2020-08-20",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2020-08-19",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2018-08-03",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2018-03-23",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2020-08",
+     "studyFirstPostDateStruct": {
+      "date": "2018-04-05",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2018-03-28",
+     "studyFirstSubmitQcDate": "2018-04-03"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "One (1) dose of ANX005, 75 mg/kg, will be administered IV. IVIg, 0.4 g/kg, will be administered for 5 consecutive Days.",
+       "interventionNames": [
+        "Drug: ANX005",
+        "Drug: Intravenous immunoglobulin"
+       ],
+       "label": "Open Label Treatment Arm",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Open Label Treatment Arm"
+       ],
+       "description": "investigational drug",
+       "name": "ANX005",
+       "otherNames": [
+        "Anti C1q Antibody"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Open Label Treatment Arm"
+       ],
+       "description": "investigational drug",
+       "name": "Intravenous immunoglobulin",
+       "otherNames": [
+        "IVIg"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Guillain-Barré Syndrome"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "interventionModelDescription": "Open label combination treatment",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 14,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Clinical Study of ANX005 and IVIG in Subjects With Guillain Barré Syndrome (GBS)",
+     "nctId": "NCT04035135",
+     "officialTitle": "A Phase 1b Study to Evaluate the Safety, Tolerability and Drug-Drug Interactions of ANX005 and Intravenous Immunoglobulin (IVIg) in Subjects With Guillain Barré Syndrome",
+     "orgStudyIdInfo": {
+      "id": "ANX005-GBS-03"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Annexon, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "collaborators": [
+      {
+       "class": "OTHER",
+       "name": "ResearchPoint Global"
+      },
+      {
+       "class": "OTHER",
+       "name": "International Centre for Diarrhoeal Disease Research, Bangladesh"
+      }
+     ],
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Annexon, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2021-05-19",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2021-08-11",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2021-08-09",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2021-05-19",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2020-01-29",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2021-08",
+     "studyFirstPostDateStruct": {
+      "date": "2019-07-29",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2019-07-11",
+     "studyFirstSubmitQcDate": "2019-07-26"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "1 in every 3 subjects will be randomized to 2.5mg dose of ANX007.",
+       "interventionNames": [
+        "Biological: 2.5mg ANX007"
+       ],
+       "label": "2.5mg ANX007",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "1 in every 3 subjects will be randomized to 5.0mg dose of ANX007.",
+       "interventionNames": [
+        "Biological: 5.0mg ANX007"
+       ],
+       "label": "5.0mg ANX007",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "1 in every 3 subjects will have a sham procedure performed instead of receiving ANX007.",
+       "interventionNames": [
+        "Other: Sham Procedure"
+       ],
+       "label": "Sham Procedure",
+       "type": "SHAM_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "2.5mg ANX007"
+       ],
+       "description": "A single dose of 2.5mg ANX007 will be administered via IVT injection into the study eye at Day 1 and Day 29.",
+       "name": "2.5mg ANX007",
+       "type": "BIOLOGICAL"
+      },
+      {
+       "armGroupLabels": [
+        "5.0mg ANX007"
+       ],
+       "description": "A single dose of 5.0mg ANX007 will be administered via IVT injection into the study eye at Day 1 and Day 29.",
+       "name": "5.0mg ANX007",
+       "type": "BIOLOGICAL"
+      },
+      {
+       "armGroupLabels": [
+        "Sham Procedure"
+       ],
+       "description": "The sham injection is preformed by applying pressure to the eye at the location of a typical IVT injection using the blunt end of a syringe without a needle.",
+       "name": "Sham Procedure",
+       "type": "OTHER"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Open Angle Glaucoma"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 17,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Study of ANX007 in Participants With Primary Open-angle Glaucoma",
+     "nctId": "NCT04188015",
+     "officialTitle": "A Phase 1b, Randomized, Double-masked, Sham-controlled Study of ANX007 Administered as Intravitreal Injections to Assess Safety and Tolerability in Participants With Primary Open-angle Glaucoma",
+     "orgStudyIdInfo": {
+      "id": "ANX007-GLA-02"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Annexon, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Annexon, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2019-06-03",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2020-08-20",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2020-08-19",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2019-06-03",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2018-07-25",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2020-08",
+     "studyFirstPostDateStruct": {
+      "date": "2019-12-05",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2018-12-13",
+     "studyFirstSubmitQcDate": "2019-12-04"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants will receive induction dosing of ANX005 administered by IV infusion on Days 1 and 5 or 6, followed by maintenance dosing every 2 weeks (Weeks 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, and 22) with follow up visits on Weeks 24, 28, and 36.",
+       "interventionNames": [
+        "Drug: ANX005"
+       ],
+       "label": "ANX005",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "ANX005"
+       ],
+       "description": "Intravenous Infusion",
+       "name": "ANX005",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Huntington Disease"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "interventionModelDescription": "ANX005 administered for up to 22 weeks",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 28,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "An Open Label Study of ANX005 in Participants With, or at Risk for, Manifest Huntington's Disease",
+     "nctId": "NCT04514367",
+     "officialTitle": "A Phase 2a Open Label Study to Assess the Safety, Tolerability, Pharmacokinetics and Pharmacodynamics of Intravenous ANX005 in Subjects With, or at Risk for, Manifest Huntington's Disease",
+     "orgStudyIdInfo": {
+      "id": "ANX005-HD-01"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Annexon, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Annexon, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2022-08-29",
+      "type": "ACTUAL"
+     },
+     "dispFirstPostDateStruct": {
+      "date": "2026-08-25",
+      "type": "ACTUAL"
+     },
+     "dispFirstSubmitDate": "2023-01-26",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-08-25",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-07-31",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2022-08-29",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2026-08-25",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2026-06-05",
+     "resultsFirstSubmitQcDate": "2026-07-31",
+     "startDateStruct": {
+      "date": "2020-09-29",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-07",
+     "studyFirstPostDateStruct": {
+      "date": "2020-08-14",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2020-07-27",
+     "studyFirstSubmitQcDate": "2020-08-12"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Single dose of ANX009 with a 7-day follow-up before escalation to the next dose level.",
+       "interventionNames": [
+        "Drug: ANX009"
+       ],
+       "label": "ANX009, Single Ascending Doses",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Single doses of matching placebo",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo, Single Ascending Doses",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "description": "ANX009 once daily on Days 1-14",
+       "interventionNames": [
+        "Drug: ANX009"
+       ],
+       "label": "ANX009, Multiple Ascending Doses",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Matching placebo once daily on Days 1-14",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo, Multiple doses",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "ANX009, Multiple Ascending Doses",
+        "ANX009, Single Ascending Doses"
+       ],
+       "description": "Single or multiple ascending dose",
+       "name": "ANX009",
+       "otherNames": [
+        "009"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo, Multiple doses",
+        "Placebo, Single Ascending Doses"
+       ],
+       "description": "Single or multiple ascending dose",
+       "name": "Placebo",
+       "otherNames": [
+        "matching placebo"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Safety and Tolerability in Healthy Volunteers"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "BASIC_SCIENCE"
+     },
+     "enrollmentInfo": {
+      "count": 48,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Single and Multiple Ascending Dose Study of ANX009 in Normal Healthy Volunteers (NHV)",
+     "nctId": "NCT04535752",
+     "officialTitle": "A Phase 1, Randomized, Double-blind, Placebo-controlled Single and Multiple Ascending Dose Study to Assess the Safety, Tolerability, Pharmacokinetics (PK), and Pharmacodynamics (PD) of Subcutaneous ANX009 in Normal Healthy Volunteers (NHV)",
+     "orgStudyIdInfo": {
+      "id": "ANX009-NHV-01"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Annexon, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "collaborators": [
+      {
+       "class": "OTHER",
+       "name": "Nucleus Network Ltd"
+      }
+     ],
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Annexon, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2021-06-26",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2021-08-30",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2021-08-24",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2021-06-26",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2020-10-30",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2021-08",
+     "studyFirstPostDateStruct": {
+      "date": "2020-09-02",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2020-08-24",
+     "studyFirstSubmitQcDate": "2020-08-27"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants will receive induction dosing of ANX005 on Days 1 and 5 or 6, followed by maintenance doses of ANX005 every 2 weeks up to Week 22.",
+       "interventionNames": [
+        "Drug: ANX005"
+       ],
+       "label": "ANX005",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "ANX005"
+       ],
+       "description": "IV Infusion",
+       "name": "ANX005",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Amyotrophic Lateral Sclerosis"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 17,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Study of ANX005 in Adults With Amyotrophic Lateral Sclerosis (ALS)",
+     "nctId": "NCT04569435",
+     "officialTitle": "Phase 2a Safety, Tolerability, Pharmacokinetic (PK), and Pharmacodynamic (PD) Study of Intravenous ANX005 in Subjects With Amyotrophic Lateral Sclerosis (ALS)",
+     "orgStudyIdInfo": {
+      "id": "ANX005-ALS-01"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Annexon, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Annexon, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2024-04-23",
+      "type": "ACTUAL"
+     },
+     "dispFirstPostDateStruct": {
+      "date": "2024-08-28",
+      "type": "ACTUAL"
+     },
+     "dispFirstSubmitDate": "2025-01-02",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-01-06",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-01-02",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2024-01-10",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2021-01-15",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-01",
+     "studyFirstPostDateStruct": {
+      "date": "2020-09-29",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2020-09-23",
+     "studyFirstSubmitQcDate": "2020-09-24"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "ANX007 administered every month",
+       "interventionNames": [
+        "Drug: ANX007"
+       ],
+       "label": "ANX007 Group 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "ANX007 administered every other month",
+       "interventionNames": [
+        "Drug: ANX007"
+       ],
+       "label": "ANX007 Group 2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Sham injection administered every month",
+       "interventionNames": [
+        "Other: Sham comparator"
+       ],
+       "label": "Sham Group 3",
+       "type": "SHAM_COMPARATOR"
+      },
+      {
+       "description": "Sham injection administered every other month",
+       "interventionNames": [
+        "Other: Sham comparator"
+       ],
+       "label": "Sham Group 4",
+       "type": "SHAM_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "ANX007 Group 1",
+        "ANX007 Group 2"
+       ],
+       "description": "Form: solution for injection; Route of Administration: IVT",
+       "name": "ANX007",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Sham Group 3",
+        "Sham Group 4"
+       ],
+       "description": "Form and Route of Administration: pressure to mimic IVT injection",
+       "name": "Sham comparator",
+       "type": "OTHER"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Geographic Atrophy"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 270,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "ARCHER",
+     "briefTitle": "A Study Investigating the Efficacy and Safety of Intravitreal Injections of ANX007 in Patients With Geographic Atrophy",
+     "nctId": "NCT04656561",
+     "officialTitle": "A Phase 2, Multicenter, Randomized, Parallel-Group, Double-Masked, 4-Arm, Sham-Controlled Study of the Efficacy, Safety, and Tolerability of ANX007 Administered by Intravitreal Injection in Patients With Geographic Atrophy (GA) Secondary to Age-Related Macular Degeneration (AMD) - The ARCHER Study",
+     "orgStudyIdInfo": {
+      "id": "ANX007-GA-01"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Annexon, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Annexon, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2023-09-13",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-21",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-09-30",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2023-03-28",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2026-10-21",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2026-09-30",
+     "resultsFirstSubmitQcDate": "2026-09-30",
+     "startDateStruct": {
+      "date": "2021-02-26",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-09",
+     "studyFirstPostDateStruct": {
+      "date": "2020-12-07",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2020-12-01",
+     "studyFirstSubmitQcDate": "2020-12-01"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants will receive two once-weekly doses of ANX005 at specific time points",
+       "interventionNames": [
+        "Drug: ANX005"
+       ],
+       "label": "ANX005",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "ANX005"
+       ],
+       "description": "ANX005 is provided as a solution for IV infusion",
+       "name": "ANX005",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Warm Autoimmune Hemolytic Anemia (wAIHA)"
+     ],
+     "keywords": [
+      "AIHA",
+      "C1q",
+      "complement",
+      "RBC lysis"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 7,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Safety, Tolerability, Pharmacokinetics and Pharmacodynamics of ANX005 in Participants With Warm Autoimmune Hemolytic Anemia (wAIHA)",
+     "nctId": "NCT04691570",
+     "officialTitle": "A Phase 2, Open-Label, Repeat Dose Study to Assess the Safety, Tolerability, Pharmacokinetics (PK) and Pharmacodynamics (PD) of Intravenous ANX005 in Subjects With Warm Autoimmune Hemolytic Anemia (wAIHA)",
+     "orgStudyIdInfo": {
+      "id": "ANX005-wAIHA-02"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Annexon, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Annexon, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2023-01-17",
+      "type": "ACTUAL"
+     },
+     "dispFirstPostDateStruct": {
+      "date": "2026-06-30",
+      "type": "ACTUAL"
+     },
+     "dispFirstSubmitDate": "2024-01-17",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-06-30",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-06-23",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2023-01-17",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2026-06-30",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2026-05-18",
+     "resultsFirstSubmitQcDate": "2026-06-23",
+     "startDateStruct": {
+      "date": "2021-11-10",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-06",
+     "studyFirstPostDateStruct": {
+      "date": "2020-12-31",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2020-12-28",
+     "studyFirstSubmitQcDate": "2020-12-30"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants will receive a single IV infusion of ANX005 (Dose 1) on Day 1.",
+       "interventionNames": [
+        "Drug: ANX005"
+       ],
+       "label": "ANX005 Treatment Group - Dose 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants will receive a single IV infusion of ANX005 (Dose 2) on Day 1.",
+       "interventionNames": [
+        "Drug: ANX005"
+       ],
+       "label": "ANX005 Treatment Group - Dose 2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants will receive a single IV infusion of placebo on Day 1.",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo Group",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "ANX005 Treatment Group - Dose 1",
+        "ANX005 Treatment Group - Dose 2"
+       ],
+       "description": "Solution for intravenous infusion",
+       "name": "ANX005",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo Group"
+       ],
+       "description": "Solution for intravenous infusion",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Guillain-Barre Syndrome"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 242,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Efficacy and Safety of ANX005 in Subjects With Guillain-Barré Syndrome",
+     "nctId": "NCT04701164",
+     "officialTitle": "A Randomized, Double-blind, Placebo-controlled Phase 3 Study to Evaluate the Efficacy, Safety, Pharmacokinetics, and Pharmacodynamics of ANX005 in Subjects With Guillain-Barré Syndrome",
+     "orgStudyIdInfo": {
+      "id": "ANX005-GBS-02"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Annexon, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Annexon, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2024-04-20",
+      "type": "ACTUAL"
+     },
+     "dispFirstPostDateStruct": {
+      "date": "2024-10-09",
+      "type": "ACTUAL"
+     },
+     "dispFirstSubmitDate": "2025-04-15",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-05-29",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-05-23",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2024-04-20",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2020-12-17",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-05",
+     "studyFirstPostDateStruct": {
+      "date": "2021-01-08",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2021-01-06",
+     "studyFirstSubmitQcDate": "2021-01-07"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Biological: ANX105"
+       ],
+       "label": "ANX105",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "ANX105"
+       ],
+       "description": "Participants will receive single-ascending doses of ANX105 administered by IV infusion.",
+       "name": "ANX105",
+       "type": "BIOLOGICAL"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Participants will receive matching placebo administered by IV infusion.",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Healthy"
+     ],
+     "keywords": [
+      "Healthy"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "interventionModelDescription": "Placebo-controlled single ascending dose study.",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 23,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Single Ascending Dose Study of ANX105",
+     "nctId": "NCT05288881",
+     "officialTitle": "A Phase 1, Randomized, Double-Blind, Placebo-Controlled, Single Ascending Dose Study to Assess the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of Intravenous ANX105 in Normal Healthy Volunteers",
+     "orgStudyIdInfo": {
+      "id": "ANX105-NHV-01"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Annexon, Inc."
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "2021-005510-33",
+       "type": "EUDRACT_NUMBER"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Annexon, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2023-06-19",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2024-08-19",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2024-08-16",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2023-06-19",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2022-02-28",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2024-08",
+     "studyFirstPostDateStruct": {
+      "date": "2022-03-21",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2022-03-11",
+     "studyFirstSubmitQcDate": "2022-03-11"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants will be administrated a single oral dose of ANX1502 at various ascending dose levels or matching placebo.",
+       "interventionNames": [
+        "Drug: ANX1502",
+        "Drug: Placebo"
+       ],
+       "label": "ANX1502 SAD",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants will be administrated multiple oral doses of ANX1502 at various ascending dose levels or matching placebo for 14 days.",
+       "interventionNames": [
+        "Drug: ANX1502",
+        "Drug: Placebo"
+       ],
+       "label": "ANX1502 MAD",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "ANX1502 MAD",
+        "ANX1502 SAD"
+       ],
+       "description": "ANX1502 is a prodrug of ANX1439.",
+       "name": "ANX1502",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "ANX1502 MAD",
+        "ANX1502 SAD"
+       ],
+       "description": "Placebo comparator.",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Healthy"
+     ],
+     "keywords": [
+      "healthy"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "interventionModelDescription": "This study consists of single-ascending dose (SAD), food effect, and multiple-ascending dose (MAD) parts.",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "BASIC_SCIENCE"
+     },
+     "enrollmentInfo": {
+      "count": 135,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Dose Study of ANX1502 in Healthy Volunteers",
+     "nctId": "NCT05521269",
+     "officialTitle": "A Phase 1, Randomized, Double-Blind, Placebo-Controlled, Single and Multiple Ascending Dose Study to Assess the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of ANX1502 in Normal Healthy Volunteer",
+     "orgStudyIdInfo": {
+      "id": "ANX1502-NHV-01"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Annexon, Inc."
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "2022-000594-21",
+       "type": "EUDRACT_NUMBER"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Annexon, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2024-11-19",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2024-12-27",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2024-12-20",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2024-11-19",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2022-06-27",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2024-12",
+     "studyFirstPostDateStruct": {
+      "date": "2022-08-30",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2022-08-28",
+     "studyFirstSubmitQcDate": "2022-08-28"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants will receive repeat doses of ANX009 administered by subcutaneous (SC) infusion 3 times weekly during the approximate 3-week intervention period.",
+       "interventionNames": [
+        "Biological: ANX009"
+       ],
+       "label": "ANX009",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "ANX009"
+       ],
+       "description": "ANX009 will be administered per schedule specified in the arm description.",
+       "name": "ANX009",
+       "otherNames": [
+        "Recombinant humanized immunoglobulin G1 (IgG1) Fab"
+       ],
+       "type": "BIOLOGICAL"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Lupus Nephritis"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 7,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Study of ANX009 in Adult Participants With Lupus Nephritis",
+     "nctId": "NCT05780515",
+     "officialTitle": "A Single-Arm, Phase 1b, Open-Label Study to Assess the Safety, Tolerability, and Pharmacodynamics of Repeat-Doses of Subcutaneous ANX009 With Standard of Care Therapy in Adult Participants With Lupus Nephritis",
+     "orgStudyIdInfo": {
+      "id": "ANX009-LN-01"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Annexon, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Annexon, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2023-10-31",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2024-08-22",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2024-08-20",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2023-08-31",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2022-08-09",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2024-08",
+     "studyFirstPostDateStruct": {
+      "date": "2023-03-22",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2023-03-10",
+     "studyFirstSubmitQcDate": "2023-03-10"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants will receive vonaprument IVT injections every month during the 24-month treatment period.",
+       "interventionNames": [
+        "Drug: Vonaprument"
+       ],
+       "label": "Vonaprument",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants will receive Sham IVT injections every month during the 24-month treatment period.",
+       "interventionNames": [
+        "Other: Sham Administration"
+       ],
+       "label": "Sham Group",
+       "type": "SHAM_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Vonaprument"
+       ],
+       "description": "Form: solution for injection; Route of Administration: IVT injection",
+       "name": "Vonaprument",
+       "otherNames": [
+        "ANX007"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Sham Group"
+       ],
+       "description": "Form and Route of Administration: to mimic IVT injection (includes placement of the blunt opening of an empty, needleless syringe barrel on the conjunctiva in the inferotemporal quadrant of the eyeball to stimulate the pressure of an injection).",
+       "name": "Sham Administration",
+       "type": "OTHER"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Geographic Atrophy"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "interventionModelDescription": "Double-masked",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 659,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "ARCHER II",
+     "briefTitle": "A Study Investigating the Efficacy and Safety of Intravitreal (IVT) Injections of Vonaprument (Formerly ANX007) in Participants With Dry Age-Related Macular Degeneration (AMD) With Geographic Atrophy (GA)",
+     "nctId": "NCT06510816",
+     "officialTitle": "A Phase 3, Multicenter, Randomized, Parallel-Group, Double-Masked, 2-Arm, Sham Controlled Study of the Efficacy, Safety, and Tolerability of ANX007 (Vonaprument) Administered by Intravitreal Injection in Participants With Dry Age-Related Macular Degeneration With Geographic Atrophy",
+     "orgStudyIdInfo": {
+      "id": "ANX007-GA-02"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Annexon, Inc."
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "2024-515022-88-00",
+       "type": "CTIS"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Annexon, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2027-07-31",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-06",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-02",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-07-31",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2024-07-30",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-10",
+     "studyFirstPostDateStruct": {
+      "date": "2024-07-19",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2024-07-15",
+     "studyFirstSubmitQcDate": "2024-07-15"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants will receive a single 30 mg/kg intravenous (IV) infusion of tanruprubart on Day 1.",
+       "interventionNames": [
+        "Drug: Tanruprubart"
+       ],
+       "label": "Tanruprubart",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Tanruprubart"
+       ],
+       "description": "Solution for IV infusion.",
+       "name": "Tanruprubart",
+       "otherNames": [
+        "ANX005"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Guillain-Barre Syndrome"
+     ],
+     "keywords": [
+      "Guillain-Barre Syndrome",
+      "GBS",
+      "ANX005",
+      "Tanruprubart",
+      "FORWARD study"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 30,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "An Open Label Clinical Study to Evaluate Tanruprubart (Also Commonly Known as ANX005) in Participants With Guillain-Barré Syndrome (FORWARD Study)",
+     "nctId": "NCT07020819",
+     "officialTitle": "An Open-Label Study to Evaluate the Pharmacokinetics, Pharmacodynamics, Efficacy, and Safety of a Single Dose of ANX005 in Participants With Guillain-Barré Syndrome",
+     "orgStudyIdInfo": {
+      "id": "ANX005-GBS-05"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Annexon, Inc."
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "2025-522664-32-00",
+       "type": "CTIS"
+      },
+      {
+       "id": "2025",
+       "link": "https://reporter.nih.gov/quickSearch/2025",
+       "type": "NIH"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Annexon, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2028-06-30",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-26",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-23",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-05-31",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2025-09-12",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-10",
+     "studyFirstPostDateStruct": {
+      "date": "2025-06-13",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-06-06",
+     "studyFirstSubmitQcDate": "2025-06-06"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants will receive vonaprument IVT injections every month for 24 months.",
+       "interventionNames": [
+        "Drug: Vonaprument"
+       ],
+       "label": "Vonaprument",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Vonaprument"
+       ],
+       "description": "Form: solution for injection; Route of Administration: IVT injection",
+       "name": "Vonaprument",
+       "otherNames": [
+        "ANX007"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Geographic Atrophy"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 605,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "AiiM OLE",
+     "briefTitle": "An Open-label Extension Study of the Long-Term Safety of Vonaprument (ANX007) in Participants With Dry Age-Related Macular Degeneration (AMD) With Geographic Atrophy (GA)",
+     "nctId": "NCT07807969",
+     "officialTitle": "A Multicenter, Open-Label Extension Study of the Long-Term Safety of Vonaprument (ANX007) Administered by Intravitreal Injection in Participants With Dry Age-Related Macular Degeneration With Geographic Atrophy",
+     "orgStudyIdInfo": {
+      "id": "ANX007-GA-03"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Annexon, Inc."
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "2026-527023-96-00",
+       "type": "CTIS"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Annexon, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2029-07-31",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-09-08",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-09-03",
+     "overallStatus": "NOT_YET_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2029-07-31",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2026-09-30",
+      "type": "ESTIMATED"
+     },
+     "statusVerifiedDate": "2026-09",
+     "studyFirstPostDateStruct": {
+      "date": "2026-09-08",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2026-09-03",
+     "studyFirstSubmitQcDate": "2026-09-03"
+    }
+   }
+  }
+ ]
+}

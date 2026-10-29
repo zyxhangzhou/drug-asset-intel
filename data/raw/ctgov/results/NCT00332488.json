@@ -1,0 +1,85 @@
+{
+ "nctId": "NCT00332488",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-0.11",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.27",
+     "groupDescription": "ANCOVA fitting model change from baseline in A1c with fixed effects for treatment and pooled site and baseline A1c as a covariate",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+     "pValue": "0.420",
+     "paramType": "Mean Difference (Final Values)",
+     "paramValue": "0.08",
+     "statisticalMethod": "ANCOVA",
+     "testedNonInferiority": false
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "-0.92",
+         "spread": "-0.78",
+         "upperLimit": "-0.64",
+         "value": "-0.78"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "-0.84",
+         "spread": "-0.70",
+         "upperLimit": "-0.56",
+         "value": "-0.70"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "162"
+      },
+      {
+       "groupId": "OG001",
+       "value": "169"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Metformin \\& Secretagogues",
+     "id": "OG000",
+     "title": "Metformin & Secretagogues"
+    },
+    {
+     "description": "Technosphere® Insulin Inhalation Powder \\& Metformin",
+     "id": "OG001",
+     "title": "TI Inhalation Powder + Metformin"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Intention to Treat (ITT) Population with Last Observation Carried Forward",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline to Week 12",
+   "title": "Difference in Change From Baseline for HbA1c Between TI+ Metformin and Metformin+Secretagogue",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Percentage of total hemoglobin"
+  }
+ ]
+}

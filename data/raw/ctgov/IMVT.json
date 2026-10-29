@@ -1,0 +1,2778 @@
+{
+ "aliases": [
+  "Immunovant",
+  "Immunovant Sciences GmbH"
+ ],
+ "studies": [
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "RVT-1401 680 mg weekly for 6 weeks + optional open-label extension (RVT-1401, 340 mg every 2 weeks for 6 weeks)",
+       "interventionNames": [
+        "Drug: RVT-1401"
+       ],
+       "label": "Regimen A",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "RVT-1401 340 mg weekly for 6 weeks + optional open-label extension (RVT-1401, 340 mg every 2 weeks for 6 weeks)",
+       "interventionNames": [
+        "Drug: RVT-1401"
+       ],
+       "label": "Regimen B",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Placebo for 6 weeks + optional open-label extension (RVT-1401, 340 mg every 2 weeks for 6 weeks)",
+       "interventionNames": [
+        "Drug: RVT-1401",
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Placebo",
+        "Regimen A",
+        "Regimen B"
+       ],
+       "description": "Subcutaneous administration of RVT-1401",
+       "name": "RVT-1401",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Subcutaneous administration of Placebo",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Myasthenia Gravis"
+     ],
+     "keywords": [
+      "IMVT-1401"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "interventionModelDescription": "Randomized, Double-Blind, Placebo-Controlled Study with an Open-Label Extension",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "maskingDescription": "Blinded",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 17,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Study of RVT-1401 in Myasthenia Gravis (MG) Patients",
+     "nctId": "NCT03863080",
+     "officialTitle": "A Phase 2a, Multicenter, Randomized, Double-Blind, Placebo-Controlled Study With an Open-Label Extension of RVT-1401 in Myasthenia Gravis Patients",
+     "orgStudyIdInfo": {
+      "id": "RVT-1401-2002"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Immunovant Sciences GmbH"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Immunovant Sciences GmbH"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2020-12-21",
+      "type": "ACTUAL"
+     },
+     "dispFirstPostDateStruct": {
+      "date": "2023-12-20",
+      "type": "ACTUAL"
+     },
+     "dispFirstSubmitDate": "2021-10-06",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2023-12-20",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2023-11-30",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2020-10-07",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2023-12-20",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2023-10-05",
+     "resultsFirstSubmitQcDate": "2023-11-30",
+     "startDateStruct": {
+      "date": "2019-05-21",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2023-11",
+     "studyFirstPostDateStruct": {
+      "date": "2019-03-05",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2019-02-20",
+     "studyFirstSubmitQcDate": "2019-03-04"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "RVT-1401 680 milligrams (mg) weekly for two weeks followed by 340 mg weekly for four weeks, administered subcutaneously",
+       "interventionNames": [
+        "Drug: RVT-1401"
+       ],
+       "label": "RVT-1401",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "RVT-1401"
+       ],
+       "description": "RVT-1401 is a fully human anti-neonatal Fc receptor (FcRn) monoclonal antibody.",
+       "name": "RVT-1401",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Graves' Ophthalmopathy"
+     ],
+     "keywords": [
+      "IMVT-1401",
+      "Graves' Orbitopathy",
+      "Thyroid Eye Disease"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "interventionModelDescription": "Open label study",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 7,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Study of RVT-1401 for the Treatment of Patients With Moderate to Severe Active Graves' Ophthalmopathy (GO)",
+     "nctId": "NCT03922321",
+     "officialTitle": "A Phase 2a, Multicenter, Open-Label Study of RVT-1401 for the Treatment of Patients With Moderate to Severe Active Graves' Ophthalmopathy",
+     "orgStudyIdInfo": {
+      "id": "RVT-1401-1002"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Immunovant Sciences GmbH"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Immunovant Sciences GmbH"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2020-05-21",
+      "type": "ACTUAL"
+     },
+     "dispFirstPostDateStruct": {
+      "date": "2022-01-24",
+      "type": "ACTUAL"
+     },
+     "dispFirstSubmitDate": "2021-05-10",
+     "dispFirstSubmitQcDate": "2021-12-24",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2022-01-24",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2021-12-24",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2020-02-29",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2022-01-24",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2021-09-22",
+     "resultsFirstSubmitQcDate": "2021-12-24",
+     "startDateStruct": {
+      "date": "2019-04-22",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2021-12",
+     "studyFirstPostDateStruct": {
+      "date": "2019-04-19",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2019-04-17",
+     "studyFirstSubmitQcDate": "2019-04-17"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Regimen A= RVT-1401 680 mg weekly for 12 weeks",
+       "interventionNames": [
+        "Drug: RVT-1401 (Administered via subcutaneous injection)"
+       ],
+       "label": "Regimen A-RVT-1401",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Regimen B= RVT-1401 340 mg weekly for 12 weeks",
+       "interventionNames": [
+        "Drug: RVT-1401 (Administered via subcutaneous injection)"
+       ],
+       "label": "Regimen B-RVT-1401",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Regimen C= RVT-1401 255 mg weekly for 12 weeks",
+       "interventionNames": [
+        "Drug: RVT-1401 (Administered via subcutaneous injection)"
+       ],
+       "label": "Regimen C-RVT-1401",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "for 12 weeks",
+       "interventionNames": [
+        "Other: Placebo (Administered via subcutaneous injection)"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Regimen A-RVT-1401",
+        "Regimen B-RVT-1401",
+        "Regimen C-RVT-1401"
+       ],
+       "description": "RVT-1401 is a fully human anti-neonatal Fc receptor (FcRn) monoclonal antibody.",
+       "name": "RVT-1401 (Administered via subcutaneous injection)",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Placebo",
+       "name": "Placebo (Administered via subcutaneous injection)",
+       "type": "OTHER"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Graves' Ophthalmopathy (GO)"
+     ],
+     "keywords": [
+      "IMVT-1401",
+      "Graves' Orbitopathy",
+      "Thyroid Eye Disease"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 65,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "ASCEND GO-2: Study of RVT-1401 for the Treatment of Participants With Active, Moderate to Severe Graves' Ophthalmopathy ( GO )",
+     "nctId": "NCT03938545",
+     "officialTitle": "ASCEND GO-2: A Phase 2b, Multicenter, Randomized, Double-blind, Placebo-controlled Study of RVT-1401 for the Treatment of Patients With Active, Moderate to Severe Graves' Ophthalmopathy",
+     "orgStudyIdInfo": {
+      "id": "RVT-1401-2001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Immunovant Sciences GmbH"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Immunovant Sciences GmbH"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2021-04-15",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2022-09-22",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2022-08-26",
+     "overallStatus": "TERMINATED",
+     "primaryCompletionDateStruct": {
+      "date": "2021-02-02",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2022-09-22",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2022-08-02",
+     "resultsFirstSubmitQcDate": "2022-08-26",
+     "startDateStruct": {
+      "date": "2019-07-23",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2022-08",
+     "studyFirstPostDateStruct": {
+      "date": "2019-05-06",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2019-05-01",
+     "studyFirstSubmitQcDate": "2019-05-02",
+     "whyStopped": "Sponsor decision based on premature unblinding of treatment allocations necessitated by program-wide review"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Dosing Regimen A - 680 mg weekly for 12 weeks via once weekly subcutaneous (SC) injections",
+       "interventionNames": [
+        "Drug: RVT-1401 680 mg/weekly"
+       ],
+       "label": "Cohort 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Dosing Regimen B - 340 mg weekly for 12 weeks via once weekly subcutaneous (SC) injections",
+       "interventionNames": [
+        "Drug: RVT-1401 340 mg/weekly"
+       ],
+       "label": "Cohort 2",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Cohort 1"
+       ],
+       "description": "Non-randomized subjects will receive subcutaneous injection of 680 mg weekly for 12 weeks of RVT-1401",
+       "name": "RVT-1401 680 mg/weekly",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Cohort 2"
+       ],
+       "description": "Non-randomized subjects will receive subcutaneous injection of 340 mg weekly for 12 weeks of RVT-1401",
+       "name": "RVT-1401 340 mg/weekly",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Warm Autoimmune Hemolytic Anemia"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 5,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "ASCEND-WAIHA",
+     "briefTitle": "To Assess the Efficacy and Safety of RVT-1401 in the Treatment of Warm Autoimmune Hemolytic Anemia (ASCEND-WAIHA).",
+     "nctId": "NCT04253236",
+     "officialTitle": "A Phase 2, Multicenter, Non-Randomized, Open-Label Study of RVT-1401 for the Treatment of Patients With Warm Autoimmune Hemolytic Anemia",
+     "orgStudyIdInfo": {
+      "id": "RVT-1401-2003"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Immunovant Sciences GmbH"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Immunovant Sciences GmbH"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2021-04-01",
+      "type": "ACTUAL"
+     },
+     "dispFirstPostDateStruct": {
+      "date": "2022-03-18",
+      "type": "ACTUAL"
+     },
+     "dispFirstSubmitDate": "2022-03-16",
+     "dispFirstSubmitQcDate": "2022-03-16",
+     "lastUpdatePostDateStruct": {
+      "date": "2022-07-28",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2022-07-01",
+     "overallStatus": "TERMINATED",
+     "primaryCompletionDateStruct": {
+      "date": "2021-04-01",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2022-07-28",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2022-07-01",
+     "resultsFirstSubmitQcDate": "2022-07-01",
+     "startDateStruct": {
+      "date": "2020-08-11",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2022-07",
+     "studyFirstPostDateStruct": {
+      "date": "2020-02-05",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2020-01-21",
+     "studyFirstSubmitQcDate": "2020-01-31",
+     "whyStopped": "Sponsor decision"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: Batoclimab 680 mg SC weekly"
+       ],
+       "label": "Batoclimab Induction Dose 1 (Period 1)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Batoclimab 340 mg SC weekly"
+       ],
+       "label": "Batoclimab Induction Dose 2 (Period 1)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Matching Placebo SC"
+       ],
+       "label": "Placebo Induction Dose (Period 1)",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "interventionNames": [
+        "Drug: Batoclimab 340 mg SC weekly"
+       ],
+       "label": "Batoclimab Maintenance Dose 1 (Period 2)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Batoclimab 340 mg SC bi-weekly"
+       ],
+       "label": "Batoclimab Maintenance Dose 2 (Period 2)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Matching Placebo SC"
+       ],
+       "label": "Placebo Maintenance Dose (Period 2)",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Batoclimab Induction Dose 1 (Period 1)"
+       ],
+       "description": "Batoclimab is a fully human anti-neonatal fragment crystallizable receptor (FcRn) monoclonal antibody",
+       "name": "Batoclimab 680 mg SC weekly",
+       "otherNames": [
+        "IMVT-1401"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Batoclimab Induction Dose 2 (Period 1)",
+        "Batoclimab Maintenance Dose 1 (Period 2)"
+       ],
+       "description": "Batoclimab is a fully human anti-neonatal fragment crystallizable receptor (FcRn) monoclonal antibody",
+       "name": "Batoclimab 340 mg SC weekly",
+       "otherNames": [
+        "IMVT-1401"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo Induction Dose (Period 1)",
+        "Placebo Maintenance Dose (Period 2)"
+       ],
+       "description": "Placebo",
+       "name": "Matching Placebo SC",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Batoclimab Maintenance Dose 2 (Period 2)"
+       ],
+       "description": "Batoclimab is a fully human anti-neonatal fragment crystallizable receptor (FcRn) monoclonal antibody",
+       "name": "Batoclimab 340 mg SC bi-weekly",
+       "otherNames": [
+        "IMVT-1401"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Generalized Myasthenia Gravis"
+     ],
+     "keywords": [
+      "monoclonal antibody",
+      "batoclimab",
+      "IMVT-1401",
+      "Myasthenia Gravis",
+      "acetylcholine receptor",
+      "RVT-1401"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "TRIPLE",
+       "maskingDescription": "Sponsor Staff is also masked, so the study is Quadruple-blind.",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 233,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Phase 3 Study to Assess the Efficacy and Safety of Batoclimab as Induction and Maintenance Therapy in Adult Participants With Generalized Myasthenia Gravis",
+     "nctId": "NCT05403541",
+     "officialTitle": "A Phase 3, Multi-center, Randomized, Quadruple-blind, Placebo-controlled Study to Assess the Efficacy and Safety of Batoclimab as Induction and Maintenance Therapy in Adult Participants With Generalized Myasthenia Gravis (gMG)",
+     "orgStudyIdInfo": {
+      "id": "IMVT-1401-3101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Immunovant Sciences GmbH"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Immunovant Sciences GmbH"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2026-08-07",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-09-14",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-09-09",
+     "overallStatus": "TERMINATED",
+     "primaryCompletionDateStruct": {
+      "date": "2025-01-10",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2022-06-27",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-09",
+     "studyFirstPostDateStruct": {
+      "date": "2022-06-03",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2022-05-26",
+     "studyFirstSubmitQcDate": "2022-05-26",
+     "whyStopped": "Sponsor Decision"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants will be administered batoclimab 680 mg SC weekly for 12 weeks followed by 340 mg SC weekly for 12 weeks.",
+       "interventionNames": [
+        "Drug: Batoclimab"
+       ],
+       "label": "Batoclimab",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants will be administered matching placebo SC weekly for 24 weeks.",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Batoclimab"
+       ],
+       "description": "Batoclimab is a fully human anti-neonatal fragment crystallizable receptor (FcRn) monoclonal antibody",
+       "name": "Batoclimab",
+       "otherNames": [
+        "IMVT-1401"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Matching Placebo",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Thyroid Eye Disease"
+     ],
+     "keywords": [
+      "Batoclimab",
+      "Thyroid eye disease",
+      "IMVT-1401",
+      "Monoclonal antibody",
+      "Autoimmune disorders",
+      "Graves' Ophthalmopathy",
+      "Graves' Orbitopathy"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "TRIPLE",
+       "maskingDescription": "Sponsor Staff is also masked, so the study is Quadruple-blind.",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 114,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Study to Assess Batoclimab in Participants With Active Thyroid Eye Disease",
+     "nctId": "NCT05517421",
+     "officialTitle": "A Phase 3, Multi-center, Randomized, Quadruple-masked, Placebo-controlled Study of Batoclimab for the Treatment of Participants With Active Thyroid Eye Disease (TED)",
+     "orgStudyIdInfo": {
+      "id": "IMVT-1401-3201"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Immunovant Sciences GmbH"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Immunovant Sciences GmbH"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2025-11-18",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-12-03",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-12-02",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2025-11-02",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2022-11-23",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-12",
+     "studyFirstPostDateStruct": {
+      "date": "2022-08-26",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2022-08-24",
+     "studyFirstSubmitQcDate": "2022-08-24"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Proptosis responders in feeder studies will enter in a non-treatment observational study",
+       "interventionNames": [
+        "Other: Observational cohort study"
+       ],
+       "label": "Observational cohort",
+       "type": "OTHER"
+      },
+      {
+       "description": "Proptosis non-responders in feeder studies will be administered batoclimab of 680 milligram (mg) subcutaneous (SC) for 12 weeks followed by 340 mg SC for 12 weeks",
+       "interventionNames": [
+        "Drug: Batoclimab"
+       ],
+       "label": "Treatment Cohort",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Observational cohort"
+       ],
+       "description": "Observational cohort study",
+       "name": "Observational cohort study",
+       "type": "OTHER"
+      },
+      {
+       "armGroupLabels": [
+        "Treatment Cohort"
+       ],
+       "description": "Batoclimab is a fully human anti-neonatal fragment crystallizable receptor (FcRn) monoclonal antibody",
+       "name": "Batoclimab",
+       "otherNames": [
+        "IMVT-1401"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Thyroid Eye Disease"
+     ],
+     "keywords": [
+      "Batoclimab",
+      "Thyroid eye disease",
+      "IMVT-1401",
+      "Monoclonal antibody",
+      "Autoimmune disorders",
+      "Graves' Ophthalmopathy",
+      "Graves' Orbitopathy"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 109,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Extension Study to Assess Batoclimab in Participants With Thyroid Eye Disease",
+     "nctId": "NCT05517447",
+     "officialTitle": "An Open-label Extension Study for Participants Who Completed Study IMVT-1401-3201 or Study IMVT-1401-3202 to Assess the Efficacy and Safety of Batoclimab for the Treatment of Thyroid Eye Disease (TED)",
+     "orgStudyIdInfo": {
+      "id": "IMVT-1401-3203"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Immunovant Sciences GmbH"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Immunovant Sciences GmbH"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2026-04-02",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-04-29",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-04-24",
+     "overallStatus": "TERMINATED",
+     "primaryCompletionDateStruct": {
+      "date": "2026-04-02",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2022-11-06",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-04",
+     "studyFirstPostDateStruct": {
+      "date": "2022-08-26",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2022-08-24",
+     "studyFirstSubmitQcDate": "2022-08-24",
+     "whyStopped": "The feeder studies (i.e., IMVT-1401-3201 and 3202) for study IMVT-1401-3203 failed to achieve their pre-defined primary efficacy outcomes. Accordingly, there was a change to the benefit-risk balance. No new safety findings were observed."
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants will be administered batoclimab 680 mg SC weekly for 12 weeks followed by 340 mg SC weekly for 12 weeks.",
+       "interventionNames": [
+        "Drug: Batoclimab"
+       ],
+       "label": "Batoclimab",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants will be administered matching placebo SC weekly for 24 weeks.",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Batoclimab"
+       ],
+       "description": "Batoclimab is a fully human anti-neonatal fragment crystallizable receptor (FcRn) monoclonal antibody",
+       "name": "Batoclimab",
+       "otherNames": [
+        "IMVT-1401"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Matching Placebo",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Thyroid Eye Disease"
+     ],
+     "keywords": [
+      "Batoclimab",
+      "Thyroid eye disease",
+      "IMVT-1401",
+      "Monoclonal antibody",
+      "Autoimmune disorders",
+      "Graves' Ophthalmopathy",
+      "Graves' Orbitopathy"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "TRIPLE",
+       "maskingDescription": "Sponsor Staff is also masked, so the study is Quadruple-blind.",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 86,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Study to Assess Batoclimab in Participants With Active Thyroid Eye Disease",
+     "nctId": "NCT05524571",
+     "officialTitle": "A Phase 3, Multi-center, Randomized, Quadruple-masked, Placebo-controlled Study of Batoclimab for the Treatment of Participants With Active Thyroid Eye Disease (TED)",
+     "orgStudyIdInfo": {
+      "id": "IMVT-1401-3202"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Immunovant Sciences GmbH"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Immunovant Sciences GmbH"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2026-03-03",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-04-01",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-03-31",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2026-02-03",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2023-01-05",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-03",
+     "studyFirstPostDateStruct": {
+      "date": "2022-09-01",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2022-08-24",
+     "studyFirstSubmitQcDate": "2022-08-29"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: Batoclimab 680 milligrams (mg) subcutaneous (SC) weekly"
+       ],
+       "label": "Treatment Period 1: Cohort A, Dose 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Batoclimab 340 mg SC weekly"
+       ],
+       "label": "Treatment Period 1: Cohort A, Dose 2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Batoclimab 680 milligrams (mg) subcutaneous (SC) weekly"
+       ],
+       "label": "Treatment Period 1: Cohort B, Dose 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Batoclimab 340 mg SC weekly"
+       ],
+       "label": "Treatment Period 1: Cohort B, Dose 2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Batoclimab 680 milligrams (mg) subcutaneous (SC) weekly"
+       ],
+       "label": "Treatment Period 1: Cohort C, Dose 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Batoclimab 340 mg SC weekly"
+       ],
+       "label": "Treatment Period 1: Cohort C, Dose 2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Batoclimab 680 milligrams (mg) subcutaneous (SC) weekly"
+       ],
+       "label": "Treatment Period 1: Cohort D, Dose 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Batoclimab 340 mg SC weekly"
+       ],
+       "label": "Treatment Period 1: Cohort D, Dose 2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Batoclimab 340 mg SC weekly"
+       ],
+       "label": "Withdrawal Period 2: Cohort A, Dose 2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Withdrawal Period 2: Cohort A, Placebo",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Batoclimab 340 mg SC weekly"
+       ],
+       "label": "Withdrawal Period 2: Cohort B, Dose 2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Withdrawal Period 2: Cohort B, Placebo",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Batoclimab 340 mg SC weekly"
+       ],
+       "label": "Withdrawal Period 2: Cohort C, Dose 2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Withdrawal Period 2: Cohort C, Placebo",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Batoclimab 340 mg SC weekly"
+       ],
+       "label": "Withdrawal Period 2: Cohort D, Dose 2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Withdrawal Period 2: Cohort D, Placebo",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants will receive Dose 1 for the initial 4 weeks only and Dose 2 for the remaining 48 weeks.",
+       "interventionNames": [
+        "Drug: Batoclimab 680 milligrams (mg) subcutaneous (SC) weekly",
+        "Drug: Batoclimab 340 mg SC weekly"
+       ],
+       "label": "LTE Period: With Relapse in Period 2: Dose 1 and Dose 2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants will receive Dose 2 for all 52 weeks.",
+       "interventionNames": [
+        "Drug: Batoclimab 340 mg SC weekly"
+       ],
+       "label": "LTE Period: Without Relapse in Period 2: Dose 2",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "LTE Period: With Relapse in Period 2: Dose 1 and Dose 2",
+        "Treatment Period 1: Cohort A, Dose 1",
+        "Treatment Period 1: Cohort B, Dose 1",
+        "Treatment Period 1: Cohort C, Dose 1",
+        "Treatment Period 1: Cohort D, Dose 1"
+       ],
+       "description": "Batoclimab is a fully human anti-neonatal fragment crystallizable receptor (FcRn) monoclonal antibody",
+       "name": "Batoclimab 680 milligrams (mg) subcutaneous (SC) weekly",
+       "otherNames": [
+        "IMVT-1401"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "LTE Period: With Relapse in Period 2: Dose 1 and Dose 2",
+        "LTE Period: Without Relapse in Period 2: Dose 2",
+        "Treatment Period 1: Cohort A, Dose 2",
+        "Treatment Period 1: Cohort B, Dose 2",
+        "Treatment Period 1: Cohort C, Dose 2",
+        "Treatment Period 1: Cohort D, Dose 2",
+        "Withdrawal Period 2: Cohort A, Dose 2",
+        "Withdrawal Period 2: Cohort B, Dose 2",
+        "Withdrawal Period 2: Cohort C, Dose 2",
+        "Withdrawal Period 2: Cohort D, Dose 2"
+       ],
+       "description": "Batoclimab is a fully human anti-neonatal fragment crystallizable receptor (FcRn) monoclonal antibody",
+       "name": "Batoclimab 340 mg SC weekly",
+       "otherNames": [
+        "IMVT-1401"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Withdrawal Period 2: Cohort A, Placebo",
+        "Withdrawal Period 2: Cohort B, Placebo",
+        "Withdrawal Period 2: Cohort C, Placebo",
+        "Withdrawal Period 2: Cohort D, Placebo"
+       ],
+       "description": "Matching placebo SC",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Chronic Inflammatory Demyelinating Polyneuropathy"
+     ],
+     "keywords": [
+      "Chronic Inflammatory Demyelinating Polyneuropathy",
+      "IMVT-1401",
+      "Monoclonal antibody",
+      "Autoimmune disorders"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 94,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "To Assess Efficacy and Safety of Batoclimab in Adult Participants With Active CIDP",
+     "nctId": "NCT05581199",
+     "officialTitle": "A Phase 2b, Multi-center, Randomized, Quadruple-blind, Placebo-controlled Study of Batoclimab Treatment in Adult Participants With Active Chronic Inflammatory Demyelinating Polyneuropathy (CIDP)",
+     "orgStudyIdInfo": {
+      "id": "IMVT-1401-2401"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Immunovant Sciences GmbH"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Immunovant Sciences GmbH"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2026-07-20",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-08-11",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-08-07",
+     "overallStatus": "TERMINATED",
+     "primaryCompletionDateStruct": {
+      "date": "2026-07-20",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2022-12-15",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-08",
+     "studyFirstPostDateStruct": {
+      "date": "2022-10-14",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2022-10-12",
+     "studyFirstSubmitQcDate": "2022-10-12",
+     "whyStopped": "Sponsor Decision"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants will receive batoclimab 680 milligrams (mg) subcutaneously (SC) weekly (QW) injection for 12 weeks followed by 340 mg SC QW for 12 weeks.",
+       "interventionNames": [
+        "Drug: IMVT-1401 (batoclimab)"
+       ],
+       "label": "Batoclimab",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Batoclimab"
+       ],
+       "description": "Batoclimab is a fully human anti-neonatal fragment crystallizable receptor (FcRn) monoclonal antibody.",
+       "name": "IMVT-1401 (batoclimab)",
+       "otherNames": [
+        "IMVT-1401"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Graves Disease"
+     ],
+     "keywords": [
+      "Graves' Disease",
+      "IMVT-1401",
+      "Batoclimab",
+      "Hyperthyroidism"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 32,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Proof-of-Concept Study to Assess Batoclimab in Participants With Graves' Disease",
+     "nctId": "NCT05907668",
+     "officialTitle": "IMVT-1401-2501: A Proof-of-Concept, Open-label Study to Assess the Safety and Efficacy of Batoclimab in Participants With Graves' Disease (GD)",
+     "orgStudyIdInfo": {
+      "id": "IMVT-1401-2501"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Immunovant Sciences GmbH"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Immunovant Sciences GmbH"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2025-07-25",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-08-13",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-07-22",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2025-07-25",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2026-08-13",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2026-07-22",
+     "resultsFirstSubmitQcDate": "2026-07-22",
+     "startDateStruct": {
+      "date": "2023-05-15",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-07",
+     "studyFirstPostDateStruct": {
+      "date": "2023-06-18",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2023-05-15",
+     "studyFirstSubmitQcDate": "2023-06-07"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: IMVT-1402"
+       ],
+       "label": "Group 1 Period 1 and 2: IMVT-1402",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: IMVT-1402"
+       ],
+       "label": "Group 2 Period 1 and 2: IMVT-1402",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: IMVT-1402"
+       ],
+       "label": "Group 2 Period 1: IMVT-1402 and Period 2: Placebo",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Group 3 Period 1 and 2: Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Group 1 Period 1 and 2: IMVT-1402",
+        "Group 2 Period 1 and 2: IMVT-1402"
+       ],
+       "description": "600 mg SC QW for 52 weeks",
+       "name": "IMVT-1402",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Group 2 Period 1: IMVT-1402 and Period 2: Placebo"
+       ],
+       "description": "600 mg SC QW for 26 weeks followed by Placebo SC QW for 26 weeks",
+       "name": "IMVT-1402",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Group 3 Period 1 and 2: Placebo"
+       ],
+       "description": "SC QW for 52 weeks",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Graves' Disease"
+     ],
+     "keywords": [
+      "IMVT-1402",
+      "Anti Thyroid Drug",
+      "Hyperthyroidism",
+      "Autoimmune thyroid disease",
+      "Imeroprubart"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 240,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Study to Assess the Efficacy, Safety, and Tolerability of IMVT-1402 as Treatment for Adult Participants With Graves' Disease",
+     "nctId": "NCT06727604",
+     "officialTitle": "A Randomized, Double-Blind, Placebo-Controlled, Phase 2b Study to Assess the Efficacy, Safety, and Tolerability of IMVT-1402 as Treatment for Adult Patients With Graves' Disease",
+     "orgStudyIdInfo": {
+      "id": "IMVT-1402-2502"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Immunovant Sciences GmbH"
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "2024-516020-33-00",
+       "type": "CTIS"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Immunovant Sciences GmbH"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2028-06",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-08-25",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-08-24",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2028-06",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2024-12-17",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-08",
+     "studyFirstPostDateStruct": {
+      "date": "2024-12-11",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2024-12-09",
+     "studyFirstSubmitQcDate": "2024-12-09"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: IMVT-1402"
+       ],
+       "label": "IMVT-1402 Dose 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: IMVT-1402"
+       ],
+       "label": "IMVT-1402 Dose 2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "IMVT-1402 Dose 1",
+        "IMVT-1402 Dose 2"
+       ],
+       "description": "Administered once weekly by subcutaneous injection.",
+       "name": "IMVT-1402",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Administered once weekly by subcutaneous injection.",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Rheumatoid Arthritis"
+     ],
+     "keywords": [
+      "Rheumatoid Arthritis",
+      "Anticitrullinated protein autoantibodies",
+      "Difficult-to-treat",
+      "Anti-FcRn",
+      "IMVT-1402",
+      "Autoimmune Diseases",
+      "Imeroprubart"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 120,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Study to Evaluate the Efficacy, Safety, and Tolerability of IMVT-1402 in Adult Participants With Active, Difficult to Treat Rheumatoid Arthritis",
+     "nctId": "NCT06754462",
+     "officialTitle": "A Phase 2b, Multicenter, Double-blind, Placebo-controlled Randomized Withdrawal Study to Assess the Efficacy, Safety, and Tolerability of IMVT-1402 in Adult Participants With Active, Difficult to Treat, ACPA-Positive Rheumatoid Arthritis",
+     "orgStudyIdInfo": {
+      "id": "IMVT-1402-2601"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Immunovant Sciences GmbH"
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "2024-515973-82-00",
+       "type": "CTIS"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Immunovant Sciences GmbH"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2027-09",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-04-22",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-04-21",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-09",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2025-01-10",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-04",
+     "studyFirstPostDateStruct": {
+      "date": "2024-12-31",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2024-12-24",
+     "studyFirstSubmitQcDate": "2024-12-24"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: IMVT-1402"
+       ],
+       "label": "Group 1: IMVT-1402 Dose 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: IMVT-1402"
+       ],
+       "label": "Group 2: IMVT-1402 Dose 2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Group 1: IMVT-1402 Dose 1",
+        "Group 2: IMVT-1402 Dose 2"
+       ],
+       "description": "Administered once weekly by subcutaneous injection",
+       "name": "IMVT-1402",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Administered once weekly by subcutaneous injection",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Primary Sjögren's Syndrome"
+     ],
+     "keywords": [
+      "Sjogren Disease",
+      "IMVT-1402",
+      "Imeroprubart"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "TRIPLE",
+       "maskingDescription": "The Sponsor will also be blinded in the study.",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 180,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Efficacy and Safety of IMVT-1402 in Adult Participants With Primary Sjogren's Disease With Moderate to Severe Systemic Disease Activity",
+     "nctId": "NCT06979531",
+     "officialTitle": "A Phase 2b, Multicenter, Randomized, Double-Blind, Placebo-Controlled, Parallel-Group Study to Assess the Efficacy, Safety, and Tolerability of IMVT-1402 in Adult Participants With Primary Sjogren's Disease With Moderate to Severe Systemic Disease Activity",
+     "orgStudyIdInfo": {
+      "id": "IMVT-1402-2801"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Immunovant Sciences GmbH"
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "2025-520831-18-00",
+       "type": "CTIS"
+      },
+      {
+       "id": "2025",
+       "link": "https://reporter.nih.gov/quickSearch/2025",
+       "type": "NIH"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Immunovant Sciences GmbH"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2029-07",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-09-10",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-09-09",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2028-07",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2025-06-30",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-09",
+     "studyFirstPostDateStruct": {
+      "date": "2025-05-20",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-05-13",
+     "studyFirstSubmitQcDate": "2025-05-13"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Matching placebo for 12 weeks in Period 1",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Period 1: Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "description": "* Period 1: IMVT-1402 Dose 1 SC QW for 12 weeks\n* Period 2: IMVT-1402 Dose 1 SC QW for 14 weeks\n* Period 3: IMVT-1402 Dose 1 or Dose 2 SC QW for 26 weeks",
+       "interventionNames": [
+        "Drug: IMVT-1402"
+       ],
+       "label": "IMVT-1402 Subcutaneous (SC) Once weekly (QW)",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "IMVT-1402 Subcutaneous (SC) Once weekly (QW)"
+       ],
+       "description": "Dose 1 or Dose 2 SC QW",
+       "name": "IMVT-1402",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Period 1: Placebo"
+       ],
+       "description": "Matching Placebo SC QW",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Subacute Cutaneous Lupus Erythematosus",
+      "Chronic Cutaneous Lupus Erythematosus"
+     ],
+     "keywords": [
+      "Chronic Cutaneous Lupus Erythematosus",
+      "Subacute Cutaneous Lupus Erythematosus",
+      "IMVT-1402",
+      "Imeroprubart"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 56,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Study to Assess the Safety, Tolerability, and Efficacy of IMVT-1402 in Participants With Cutaneous Lupus Erythematosus (CLE)",
+     "nctId": "NCT06980805",
+     "officialTitle": "A Phase 2b, Randomized, Double-blind, Placebo-controlled Study to Assess the Safety, Tolerability, and Efficacy of IMVT-1402 in Participants With Active Subacute Cutaneous Lupus Erythematosus (SCLE) and/or Chronic Cutaneous Lupus Erythematosus (CCLE) With or Without Systemic Manifestations",
+     "orgStudyIdInfo": {
+      "id": "IMVT-1402-2701"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Immunovant Sciences GmbH"
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "2024-516745-39-00",
+       "type": "CTIS"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Immunovant Sciences GmbH"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2027-04",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-08-28",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-08-27",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2026-10",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2025-02-19",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-08",
+     "studyFirstPostDateStruct": {
+      "date": "2025-05-20",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-05-08",
+     "studyFirstSubmitQcDate": "2025-05-19"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: IMVT-1402"
+       ],
+       "label": "IMVT-1402 Dose 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: IMVT-1402"
+       ],
+       "label": "IMVT-1402 Dose 2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "IMVT-1402 Dose 1"
+       ],
+       "description": "Dose 1 for 26 weeks",
+       "name": "IMVT-1402",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "IMVT-1402 Dose 2"
+       ],
+       "description": "Dose 2 for 26 weeks",
+       "name": "IMVT-1402",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "For 26 weeks",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Graves' Disease"
+     ],
+     "keywords": [
+      "IMVT-1402",
+      "Graves' disease",
+      "Thyroid-Stimulating Hormone Receptor",
+      "Immunoglobulin G",
+      "Antithyroid drug",
+      "Imeroprubart"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 210,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Study to Assess the Efficacy, Safety, and Tolerability of IMVT-1402 as Treatment for Adult Participants With Graves' Disease",
+     "nctId": "NCT07018323",
+     "officialTitle": "A Randomized, Double-Blind, Placebo-Controlled, Phase 2b Study to Assess the Efficacy, Safety, and Tolerability of IMVT-1402 as Treatment for Adult Patients With Graves' Disease",
+     "orgStudyIdInfo": {
+      "id": "IMVT-1402-2503"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Immunovant Sciences GmbH"
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "2025-521920-31-00",
+       "type": "CTIS"
+      },
+      {
+       "id": "2025",
+       "link": "https://reporter.nih.gov/quickSearch/2025",
+       "type": "NIH"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Immunovant Sciences GmbH"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2027-05",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-08-25",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-08-24",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-05",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2025-06-19",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-08",
+     "studyFirstPostDateStruct": {
+      "date": "2025-06-12",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-05-14",
+     "studyFirstSubmitQcDate": "2025-06-04"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: Imeroprubart"
+       ],
+       "label": "Imeroprubart",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Imeroprubart"
+       ],
+       "description": "Dose 1 subcutaneous (SC) once weekly (QW) for 24 weeks (Period 1) and 52 weeks (Period 2)",
+       "name": "Imeroprubart",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Matching placebo SC QW for 24 weeks (Period 1)",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Chronic Inflammatory Demyelinating Polyneuropathy"
+     ],
+     "keywords": [
+      "Chronic Inflammatory Demyelinating Polyneuropathy",
+      "IMVT-1402",
+      "Monoclonal antibody",
+      "Human immunoglobulin G1 (IgG1)",
+      "CIDP",
+      "Imeroprubart"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "maskingDescription": "Sponsor, care provider and outcome assessor will also be blinded.",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 162,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Imeroprubart in Adult Participants With Chronic Inflammatory Demyelinating Polyneuropathy (CIDP)",
+     "nctId": "NCT07032662",
+     "officialTitle": "A Phase 2b, Multi-center, Randomized, Double-blind, Placebo-controlled Study of IMVT-1402 Treatment in Adult Participants With Chronic Inflammatory Demyelinating Polyneuropathy (CIDP)",
+     "orgStudyIdInfo": {
+      "id": "IMVT-1402-2401"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Immunovant Sciences GmbH"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Immunovant Sciences GmbH"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2030-05",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-09-30",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-09-29",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2028-08",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2025-03-18",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-09",
+     "studyFirstPostDateStruct": {
+      "date": "2025-06-24",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-06-11",
+     "studyFirstSubmitQcDate": "2025-06-16"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: IMVT-1402"
+       ],
+       "label": "Group 1: IMVT-1402 Dose 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: IMVT-1402"
+       ],
+       "label": "Group 2: IMVT-1402 Dose 2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Placebo",
+        "Drug: IMVT-1402"
+       ],
+       "label": "Placebo/ IMVT-1402",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Group 1: IMVT-1402 Dose 1"
+       ],
+       "description": "• Dose 1 subcutaneous (SC) once weekly (QW) for 12 weeks (Period 1)",
+       "name": "IMVT-1402",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Group 2: IMVT-1402 Dose 2"
+       ],
+       "description": "* Dose 2 SC QW for 12 weeks (Period 1)\n* Dose 2 SC QW for 14 weeks (Period 2)\n* Dose 2 SC QW for 52 weeks (Period 3)",
+       "name": "IMVT-1402",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo/ IMVT-1402"
+       ],
+       "description": "• Placebo SC QW for 12 weeks (Period 1)",
+       "name": "Placebo",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Group 1: IMVT-1402 Dose 1",
+        "Placebo/ IMVT-1402"
+       ],
+       "description": "* Dose 1 SC QW for 14 weeks (Period 2)\n* Dose 1 SC QW for 52 weeks (Period 3)",
+       "name": "IMVT-1402",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Generalized Myasthenia Gravis"
+     ],
+     "keywords": [
+      "IMVT-1402",
+      "Generalized Myasthenia Gravis",
+      "Acetylcholine receptor",
+      "Muscle-specific kinase",
+      "Autoantibody",
+      "Lipoprotein receptor-related protein 4",
+      "Autoimmune disease",
+      "Neonatal fragment crystallizable receptor (FcRn)",
+      "Imeroprubart"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "TRIPLE",
+       "maskingDescription": "The Sponsor will also be blinded.",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 231,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Study to Assess the Efficacy and Safety of IMVT-1402 in Participants With Mild to Severe Generalized Myasthenia Gravis",
+     "nctId": "NCT07039916",
+     "officialTitle": "A Phase 3, Multicenter, Randomized, Placebo-Controlled, Double-Blind Study to Assess the Efficacy and Safety of IMVT-1402 in Patients With Mild to Severe Generalized Myasthenia Gravis",
+     "orgStudyIdInfo": {
+      "id": "IMVT-1402-3101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Immunovant Sciences GmbH"
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "2024-515979-35-00",
+       "type": "CTIS"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Immunovant Sciences GmbH"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2028-12",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-07-30",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-07-29",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-12",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2025-05-27",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-07",
+     "studyFirstPostDateStruct": {
+      "date": "2025-06-26",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-06-18",
+     "studyFirstSubmitQcDate": "2025-06-18"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: Batoclimab"
+       ],
+       "label": "Batoclimab",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Batoclimab"
+       ],
+       "description": "Batoclimab 340 mg SC QW",
+       "name": "Batoclimab",
+       "otherNames": [
+        "IMVT-1401"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Chronic Inflammatory Demyelinating Polyneuropathy"
+     ],
+     "keywords": [
+      "Chronic Inflammatory Demyelinating Polyneuropathy",
+      "IMVT-1401",
+      "Monoclonal antibody",
+      "Autoimmune disorders",
+      "Batoclimab"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 26,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "An Open-Label Extension Study of Batoclimab in Adult Participants With Chronic Inflammatory Demyelinating Polyneuropathy (CIDP)",
+     "nctId": "NCT07188844",
+     "officialTitle": "An Open-Label Extension Study to Assess Long-term Safety and Tolerability of Batoclimab in Adult Participants With Chronic Inflammatory Demyelinating Polyneuropathy (CIDP)",
+     "orgStudyIdInfo": {
+      "id": "IMVT-1401-2402"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Immunovant Sciences GmbH"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Immunovant Sciences GmbH"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2026-07-16",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-08-11",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-08-07",
+     "overallStatus": "TERMINATED",
+     "primaryCompletionDateStruct": {
+      "date": "2026-07-16",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2025-08-28",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-08",
+     "studyFirstPostDateStruct": {
+      "date": "2025-09-23",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-09-16",
+     "studyFirstSubmitQcDate": "2025-09-16",
+     "whyStopped": "Sponsor Decision"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: IMVT-1402"
+       ],
+       "label": "Group A",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "label": "Group B",
+       "type": "NO_INTERVENTION"
+      },
+      {
+       "label": "Group C",
+       "type": "NO_INTERVENTION"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Group A"
+       ],
+       "description": "Dose 1 for up to 52 weeks",
+       "name": "IMVT-1402",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Graves' Disease"
+     ],
+     "keywords": [
+      "IMVT-1402",
+      "Graves' disease",
+      "Immunoglobulin G",
+      "Thyroid-Stimulating Hormone Receptor",
+      "Antithyroid drug",
+      "FcRn",
+      "Imeroprubart"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 372,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Long-Term Extension Study of IMVT-1402 in Adult Participants With Graves' Disease (GD)",
+     "nctId": "NCT07286006",
+     "officialTitle": "A Long-Term Extension Study to Assess the Efficacy, Safety, and Tolerability of IMVT-1402 in Adult Patients With Graves' Disease",
+     "orgStudyIdInfo": {
+      "id": "IMVT-1402-2505"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Immunovant Sciences GmbH"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Immunovant Sciences GmbH"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2030-03",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-09-29",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-09-28",
+     "overallStatus": "ENROLLING_BY_INVITATION",
+     "primaryCompletionDateStruct": {
+      "date": "2030-03",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2026-01-26",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-09",
+     "studyFirstPostDateStruct": {
+      "date": "2025-12-16",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-12-10",
+     "studyFirstSubmitQcDate": "2025-12-10"
+    }
+   }
+  }
+ ]
+}

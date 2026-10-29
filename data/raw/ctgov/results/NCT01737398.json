@@ -1,0 +1,155 @@
+{
+ "nctId": "NCT01737398",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-26.43",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-13.03",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "OTHER",
+     "pValue": "0.00000004",
+     "paramType": "Least Square Mean Difference",
+     "paramValue": "-19.73",
+     "statisticalMethod": "MMRM"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "15.672",
+         "value": "4.16"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "24.190",
+         "value": "23.89"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "85"
+      },
+      {
+       "groupId": "OG001",
+       "value": "52"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The mNIS+7 composite score is a measure of neurologic impairment that evaluates muscle weakness, sensation, reflexes, nerve conduction, and autonomic function. The mNIS+7 Composite Score has a range of -22.32 to 346.32 and a higher mNIS+7 composite score indicates lower function.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants received 3 SC doses of 300 mg inotersen during Week 1, followed by once-weekly SC administration for 64 weeks.",
+     "id": "OG000",
+     "title": "Inotersen"
+    },
+    {
+     "description": "Participants received 3 SC doses of placebo during Week 1, followed by once-weekly SC administration for 64 weeks.",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "The full analysis set included all randomized participants who received at least 1 injection of study drug (inotersen or placebo) and who had a Baseline and at least 1 post-Baseline efficacy assessment for the mNIS+7 score or Norfolk QoL-DN questionnaire total score. Participants analyzed = participants with evaluable data.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline and Week 66",
+   "title": "Change From Baseline In The Modified Neuropathy Impairment Score (mNIS) +7 Composite Score at Week 66",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Scores on a Scale"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-18.29",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-5.06",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "OTHER",
+     "pValue": "0.0006",
+     "paramType": "Least Square Mean Difference",
+     "paramValue": "-11.68",
+     "statisticalMethod": "MMRM"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "18.967",
+         "value": "-0.08"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "21.134",
+         "value": "10.77"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "84"
+      },
+      {
+       "groupId": "OG001",
+       "value": "52"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The Norfolk QoL-DN score is a measure of physical function/large fiber neuropathy, symptoms, activities of daily living, small fiber neuropathy, and autonomic neuropathy. The Norfolk QoL-DN total score has a range of -4 to 136, and a higher Norfolk QoL-DN score indicates poorer QoL.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants received 3 SC doses of 300 mg inotersen during Week 1, followed by once-weekly SC administration for 64 weeks.",
+     "id": "OG000",
+     "title": "Inotersen"
+    },
+    {
+     "description": "Participants received 3 SC doses of placebo during Week 1, followed by once-weekly SC administration for 64 weeks.",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "The full analysis set included all randomized participants who received at least 1 injection of study drug (inotersen or placebo) and who had a Baseline and at least 1 post-Baseline efficacy assessment for the mNIS+7 score or Norfolk QoL-DN questionnaire total score. Participants analyzed = participants with evaluable data.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline and Week 66",
+   "title": "Change From Baseline In The Norfolk Quality Of Life Diabetic Neuropathy (QoL-DN) Questionnaire at Week 66",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Scores on a Scale"
+  }
+ ]
+}

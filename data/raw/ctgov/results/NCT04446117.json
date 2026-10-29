@@ -1,0 +1,162 @@
+{
+ "nctId": "NCT04446117",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.50",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.84",
+     "estimateComment": "Stratification factors used: Liver metastasis, prior docetaxel use for locally advanced or mCSPC and disease state at first NHT.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0007",
+     "pValueComment": "Stratification factors used: Liver metastasis, prior docetaxel use for locally advanced or metastatic castration-sensitive prostate cancer (mCSPC) and disease state at first NHT.",
+     "paramType": "Cox Proportional Hazard",
+     "paramValue": "0.65",
+     "statisticalMethod": "Log Rank"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "6.18",
+         "upperLimit": "8.80",
+         "value": "6.34"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "3.71",
+         "upperLimit": "5.65",
+         "value": "4.17"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "200"
+      },
+      {
+       "groupId": "OG001",
+       "value": "200"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Duration of PFS was defined as the time from randomization to the earlier of either the date of radiographic progression (defined as progressive disease \\[PD\\] per RECIST 1.1) per BIRC or the date of death due to any cause. PD was defined as at least a 20% increase in the sum of diameters of target lesions, with an absolute increase of ≥ 5 mm, unequivocal progression of non-target lesions and/or the appearance of new lesions.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants with mCRPC received cabozantinib 40 mg as oral tablets QD throughout the treatment period. Participants also received atezolizumab 1200 mg as an IV infusion once every 3 weeks, administered on Day 1 of each 21-day cycle throughout the treatment period.\n\nParticipants received study treatment as long as they continued to experience clinical benefit in the opinion of the Investigator or until there was unacceptable toxicity, the need for subsequent systemic anticancer treatment, or any other reasons for the treatment discontinuation.",
+     "id": "OG000",
+     "title": "Experimental Arm: Cabozantinib and Atezolizumab"
+    },
+    {
+     "description": "Participants with mCRPC received either abiraterone 1000 mg as oral tablets QD and prednisone 5 mg as oral tablets BID or enzalutamide 160 mg as oral tablets QD throughout the treatment period. Participants received study treatment as long as they continued to experience clinical benefit in the opinion of the Investigator or until there was unacceptable toxicity, the need for subsequent systemic anticancer treatment, or any other reasons for the treatment discontinuation.",
+     "id": "OG001",
+     "title": "Control Arm: Second NHT"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "PFS ITT (PITT) analysis population: Included the first 400 participants who were randomized to the Experimental Arm or Control Arm.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to a maximum of approximately 30 months (Median duration of follow-up was 14.31 months)",
+   "title": "Duration of Progression Free Survival (PFS) Per Response Evaluable Criteria in Solid Tumors Version 1.1 (RECIST 1.1) by Blinded Independent Radiology Committee (BIRC)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "months"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.72",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "1.10",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.2956",
+     "pValueComment": "Stratification factors used: Liver metastasis, prior docetaxel use for locally advanced or mCSPC and disease state at first NHT.",
+     "paramType": "Cox Proportional Hazard",
+     "paramValue": "0.89",
+     "statisticalMethod": "Log Rank"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "13.37",
+         "upperLimit": "16.66",
+         "value": "14.78"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "13.01",
+         "upperLimit": "18.50",
+         "value": "14.98"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "289"
+      },
+      {
+       "groupId": "OG001",
+       "value": "286"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Duration of OS was defined as the time from randomization to death due to any cause. For participants, who were not known to have died at the time of data cutoff and were permanently lost to follow-up, duration of OS was censored at the earlier of the following dates: date the participant was last known to be alive or date of full withdrawal of consent (including survival follow-up), or date of data cutoff.\n\nOS was calculated as earlier of date of death or censoring - date of randomization + 1)/30.4375",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants with mCRPC received cabozantinib 40 mg as oral tablets QD throughout the treatment period. Participants also received atezolizumab 1200 mg as an IV infusion once every 3 weeks, administered on Day 1 of each 21-day cycle throughout the treatment period.\n\nParticipants received study treatment as long as they continued to experience clinical benefit in the opinion of the Investigator or until there was unacceptable toxicity, the need for subsequent systemic anticancer treatment, or any other reasons for the treatment discontinuation.",
+     "id": "OG000",
+     "title": "Experimental Arm: Cabozantinib and Atezolizumab"
+    },
+    {
+     "description": "Participants with mCRPC received either abiraterone 1000 mg as oral tablets QD and prednisone 5 mg as oral tablets BID or enzalutamide 160 mg as oral tablets QD throughout the treatment period. Participants received study treatment as long as they continued to experience clinical benefit in the opinion of the Investigator or until there was unacceptable toxicity, the need for subsequent systemic anticancer treatment, or any other reasons for the treatment discontinuation.",
+     "id": "OG001",
+     "title": "Control Arm: Second NHT"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "ITT population: Included all participants who were randomized regardless of whether any study treatment or the correct study treatment was received.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to a maximum of approximately 45 months (Median duration of follow-up was 24.05 months)",
+   "title": "Duration of Overall Survival (OS)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "months"
+  }
+ ]
+}

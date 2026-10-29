@@ -1,0 +1,96 @@
+{
+ "nctId": "NCT01753115",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.831",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "90",
+     "ciUpperLimit": "0.948",
+     "groupDescription": "Analysis of Ciprofloxacin Area Under the Curve at Day 5 and Day 44.",
+     "groupIds": [
+      "OG000"
+     ],
+     "nonInferiorityComment": "Equivalence margin is 0.80 - 1.25.",
+     "nonInferiorityType": "NON_INFERIORITY_OR_EQUIVALENCE_LEGACY",
+     "paramType": "Ratio of AUC",
+     "paramValue": "0.887"
+    },
+    {
+     "ciLowerLimit": "0.852",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "90",
+     "ciUpperLimit": "1.046",
+     "groupDescription": "Analysis of Cmax at Day 5 and Day 44",
+     "groupIds": [
+      "OG000"
+     ],
+     "nonInferiorityComment": "Equivalence margin is 0.80 - 1.25.",
+     "nonInferiorityType": "NON_INFERIORITY_OR_EQUIVALENCE_LEGACY",
+     "paramType": "Ratio of Cmax",
+     "paramValue": "0.944"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "0.852",
+         "upperLimit": "1.046",
+         "value": "0.944"
+        }
+       ]
+      }
+     ],
+     "title": "Ratio Cmax Day 44/Day 5"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "0.831",
+         "upperLimit": "0.948",
+         "value": "0.887"
+        }
+       ]
+      }
+     ],
+     "title": "Ratio AUC0-12hr Day 44/Day 5"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "32"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Ratios of Area Under the Curve from zero to 12 hours (AUC0-12h) and maximum concentration (Cmax) achieved for ciprofloxacin (Day 5/Day 44).",
+   "dispersionType": "90% Confidence Interval",
+   "groups": [
+    {
+     "description": "BioThrax: route of administration/schedule- 0.5 mL subcutaneous (SC) injection / 0-2-4 week schedule\n\nCiprofloxacin: 500 mg twice a day",
+     "id": "OG000",
+     "title": "Arm 1 = BioThrax (0.5 mL) + Ciprofloxacin (500 mg Bid) + PK"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Per protocol population: all subjects in arm 1 who received any dose of ciprofloxacin, had adequate PK data on Day 5 and Day 44, had received all three BioThrax doses, and who had no key protocol deviations (e.g., insufficient blood sample) that would be expected to affect the ciprofloxacin PK assessment.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Day 5 and Day 44 in Arm 1",
+   "title": "Ratios of Ciprofloxacin Area Under the Curve and Cmax (Day 5/Day 44)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "ratio"
+  }
+ ]
+}

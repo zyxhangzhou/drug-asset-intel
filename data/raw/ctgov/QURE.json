@@ -1,0 +1,998 @@
+{
+ "aliases": [
+  "uniQure",
+  "UniQure Biopharma B.V."
+ ],
+ "studies": [
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Patients in the Immuno+ group will receive an immunosuppressant regimen to be initiated three days prior to alipogene tiparvovec administration. The regimen is to be continued for 12 weeks: Cyclosporins (3 mg/kg/day) and mycophenolate mofetil (2 x 1 g/day). Patients will receive IV bolus of 1mg/kg of methyl Prednisolone half an hour prior to IMP administration.",
+       "interventionNames": [
+        "Drug: alipogene tiparvovec",
+        "Drug: Prednisolone",
+        "Drug: Cyclosporins",
+        "Drug: Mycophenolate mofetil"
+       ],
+       "label": "alipogene tiparvovec with IS",
+       "type": "OTHER"
+      },
+      {
+       "description": "Patients in the Immuno- group will not receive an immunosuppressant regimen during 12 weeks. Patients will receive IV bolus of 1mg/kg of methyl Prednisolone half an hour prior to IMP administration.",
+       "interventionNames": [
+        "Drug: alipogene tiparvovec",
+        "Drug: Prednisolone"
+       ],
+       "label": "alipogene tiparvovec without IS",
+       "type": "OTHER"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "alipogene tiparvovec with IS",
+        "alipogene tiparvovec without IS"
+       ],
+       "description": "A dose of 1x10(\\*12) gc/kg alipogene tiparvovec (Glybera) of body weight administered as a single set of intramuscular injections at multiple sites in multiple muscles of both upper legs and if necessary, the lower legs.",
+       "name": "alipogene tiparvovec",
+       "otherNames": [
+        "Glybera"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "alipogene tiparvovec with IS",
+        "alipogene tiparvovec without IS"
+       ],
+       "description": "IV bolus methylprednisolone 1mg/kg half hour prior to administration",
+       "name": "Prednisolone",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "alipogene tiparvovec with IS"
+       ],
+       "description": "Immuno + group will receive cyclosporine (3 mg/kg/day) from three days prior to until 12 weeks following IMP administration",
+       "name": "Cyclosporins",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "alipogene tiparvovec with IS"
+       ],
+       "description": "Immuno + group will receive Mycophenolate mofetil (2x 1 g/day) from three days prior to until 12 weeks following IMP administration",
+       "name": "Mycophenolate mofetil",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "LPL Deficiency"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 0,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Alipogene Tiparvovec for the Treatment of LPLD Patients",
+     "nctId": "NCT02904772",
+     "officialTitle": "An Open Label, Multi-centre Trial of Alipogene Tiparvovec for the Treatment of LPLD Patients",
+     "orgStudyIdInfo": {
+      "id": "Gly-CD-001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "UniQure Biopharma B.V."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "collaborators": [
+      {
+       "class": "INDUSTRY",
+       "name": "Chiesi Farmaceutici S.p.A."
+      }
+     ],
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "UniQure Biopharma B.V."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2020-09",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2017-08-17",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2017-08-14",
+     "overallStatus": "WITHDRAWN",
+     "primaryCompletionDateStruct": {
+      "date": "2020-06",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2016-10"
+     },
+     "statusVerifiedDate": "2017-07",
+     "studyFirstPostDateStruct": {
+      "date": "2016-09-19",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2016-05-10",
+     "studyFirstSubmitQcDate": "2016-09-13",
+     "whyStopped": "uniQure, has decided not to renew the Marketing Authorization of Glybera in the EU. This decision is not related to any safety, efficacy or quality issue"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "interventions": [
+      {
+       "description": "Post-Authorization Safety Study",
+       "name": "Observational study",
+       "type": "OTHER"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Lipoprotein Lipase Deficiency",
+      "Familial Hyperlipoproteinemia Type 1",
+      "Familial Hyperchylomicronemia"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "observationalModel": "OTHER",
+      "timePerspective": "PROSPECTIVE"
+     },
+     "enrollmentInfo": {
+      "count": 16,
+      "type": "ACTUAL"
+     },
+     "patientRegistry": true,
+     "studyType": "OBSERVATIONAL",
+     "targetDuration": "15 Years"
+    },
+    "identificationModule": {
+     "acronym": "GENIALL",
+     "briefTitle": "Glybera Registry, Lipoprotein Lipase Deficient (LPLD) Patients",
+     "nctId": "NCT03293810",
+     "officialTitle": "Glybera Registry, Long-term Safety and Efficacy Follow-up in Lipoprotein Lipase Deficient (LPLD) Patients Treated With Alipogene Tiparvovec (GLYBERA®)",
+     "orgStudyIdInfo": {
+      "id": "REG-uQ-Glyb-001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "UniQure Biopharma B.V."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "UniQure Biopharma B.V."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2023-06",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2023-11-27",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2023-11-23",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2023-06",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2014-06-27",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2023-11",
+     "studyFirstPostDateStruct": {
+      "date": "2017-09-26",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2015-05-20",
+     "studyFirstSubmitQcDate": "2017-09-20"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Each patient will receive 960 µL of vector suspension. The vector suspension will be deposited simultaneously at 16 sites, each deposit containing 2.4x 1011 vg (4x1012 vg in total).",
+       "interventionNames": [
+        "Drug: rAAV2/5-hNAGLU"
+       ],
+       "label": "rAAV2/5-hNAGLU",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "rAAV2/5-hNAGLU"
+       ],
+       "description": "one-time brain intraparenchymal gene therapy dose",
+       "name": "rAAV2/5-hNAGLU",
+       "otherNames": [
+        "AAV5"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Sanfilippo Syndrome B"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 4,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Intracerebral Gene Therapy in Children With Sanfilippo Type B Syndrome",
+     "nctId": "NCT03300453",
+     "officialTitle": "Protocol AMT110-CD-001: A Phase I/II, Open-label, Study of Intracerebral Administration of Adeno-associated Viral Vector Containing the Human Alpha-N-acetylglucosaminidase cDNA in Children With Sanfilippo Type B Syndrome",
+     "orgStudyIdInfo": {
+      "id": "AMT110-CD-001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "UniQure Biopharma B.V."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "collaborators": [
+      {
+       "class": "OTHER",
+       "name": "Venn Life Sciences"
+      },
+      {
+       "class": "INDUSTRY",
+       "name": "Institut Pasteur"
+      }
+     ],
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "UniQure Biopharma B.V."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2019-11-27",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2019-12-02",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2019-11-28",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2019-11-27",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2013-09-17",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2018-10",
+     "studyFirstPostDateStruct": {
+      "date": "2017-10-03",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2016-06-15",
+     "studyFirstSubmitQcDate": "2017-10-02"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Low dose rAAV5-miHTT (6x10\\^12 gc/subject).\n\nNote: gc = genome copies",
+       "interventionNames": [
+        "Genetic: intra-striatal rAAV5-miHTT"
+       ],
+       "label": "Cohort 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "High dose rAAV5-miHTT (6x10\\^13 gc/subject).",
+       "interventionNames": [
+        "Genetic: intra-striatal rAAV5-miHTT"
+       ],
+       "label": "Cohort 2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Imitation (sham) surgery",
+       "interventionNames": [
+        "Other: Imitation (sham) surgery"
+       ],
+       "label": "Cohorts 1, 2",
+       "type": "SHAM_COMPARATOR"
+      },
+      {
+       "description": "Low dose rAAV5-miHTT (6x10\\^12 gc/subject).\n\nHigh dose rAAV5-miHTT (6x10\\^13 gc/subject).",
+       "interventionNames": [
+        "Genetic: intra-striatal rAAV5-miHTT"
+       ],
+       "label": "Cohort 3",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "High dose rAAV5-miHTT (6x10\\^13 gc/subject).",
+       "interventionNames": [
+        "Genetic: intra-striatal rAAV5-miHTT"
+       ],
+       "label": "Cohort 4",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Cohort 1",
+        "Cohort 2",
+        "Cohort 3",
+        "Cohort 4"
+       ],
+       "description": "One time MRI-guided stereotaxic infusion of rAAV5-miHTT into the brain",
+       "name": "intra-striatal rAAV5-miHTT",
+       "otherNames": [
+        "AMT-130"
+       ],
+       "type": "GENETIC"
+      },
+      {
+       "armGroupLabels": [
+        "Cohorts 1, 2"
+       ],
+       "description": "Simulated surgical procedure with skin incisions only; no intrastriatal injections and no burr holes through the skull",
+       "name": "Imitation (sham) surgery",
+       "type": "OTHER"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Huntington's Disease"
+     ],
+     "keywords": [
+      "Gene therapy",
+      "AAV (adeno-associated virus)",
+      "serotype 5 AAV (adeno-associated virus)",
+      "serotype 5",
+      "Viral vector",
+      "miHTT",
+      "muHTT",
+      "Huntington's Disease (HD)"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 43,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Safety and Proof-of-Concept (POC) Study With AMT-130 in Adults With Early Manifest Huntington's Disease",
+     "nctId": "NCT04120493",
+     "officialTitle": "A Phase 1/2, Randomized, Double-Blind, Sham Control and Open-Label Study to Explore Safety, Tolerability, and Efficacy Signals of Multiple Doses of Striatally-Administered rAAV5-miHTT Total Huntingtin Gene (HTT) Lowering Therapy (AMT-130) in Early Manifest Huntington's Disease",
+     "orgStudyIdInfo": {
+      "id": "CT-AMT-130-01"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "UniQure Biopharma B.V."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "UniQure Biopharma B.V."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2029-12",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-10-21",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-10-17",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2029-06",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2019-09-06",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-10",
+     "studyFirstPostDateStruct": {
+      "date": "2019-10-09",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2019-09-30",
+     "studyFirstSubmitQcDate": "2019-10-07"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Low dose AMT-130 (6 × 10\\^12 gc/subject)",
+       "interventionNames": [
+        "Genetic: intra-striatal rAAV5-miHTT"
+       ],
+       "label": "Cohort 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "High dose AMT-130 (6 × 10\\^13 gc/subject)",
+       "interventionNames": [
+        "Genetic: intra-striatal rAAV5-miHTT"
+       ],
+       "label": "Cohort 2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Low dose AMT-130 (6 × 10\\^12 gc/subject)\n\nHigh dose AMT-130 (6 × 10\\^13 gc/subject)",
+       "interventionNames": [
+        "Genetic: intra-striatal rAAV5-miHTT"
+       ],
+       "label": "Cohort 3",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Cohort 1",
+        "Cohort 2",
+        "Cohort 3"
+       ],
+       "description": "One time MRI-guided stereotaxic infusion of rAAV5-miHTT into the brain",
+       "name": "intra-striatal rAAV5-miHTT",
+       "otherNames": [
+        "AMT-130"
+       ],
+       "type": "GENETIC"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Huntington Disease"
+     ],
+     "keywords": [
+      "Gene therapy",
+      "AAV (adeno-associated virus)",
+      "serotype 5 AAV (adeno-associated virus)",
+      "serotype 5",
+      "Viral vector",
+      "miHTT",
+      "muHTT",
+      "Huntington's Disease (HD)"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "interventionModelDescription": "The first cohort will be treated with low dose, and a total of 6 enrolled participants is anticipated. The second cohort will be treated with high dose, and a total of 9 enrolled participants is anticipated. The third cohort is randomized 1:1 high to low dose randomization.",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 14,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Safety and Efficacy of AMT-130 in European Adults With Early Manifest Huntington's Disease",
+     "nctId": "NCT05243017",
+     "officialTitle": "A Phase Ib/II Randomized, Double-Blind Study to Explore Safety, Tolerability, and Efficacy Signals of Multiple Doses of Striatally-Administered rAAV5-miHTT Total Huntingtin Gene (HTT) Lowering Therapy (AMT 130) in Early Manifest Huntington's Disease",
+     "orgStudyIdInfo": {
+      "id": "CT-AMT-130-02"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "UniQure Biopharma B.V."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "UniQure Biopharma B.V."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2029-10-07",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-03-10",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-03-05",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2029-03",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2021-10-07",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-03",
+     "studyFirstPostDateStruct": {
+      "date": "2022-02-16",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2021-11-01",
+     "studyFirstSubmitQcDate": "2022-02-07"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Cohort 1: AMT-260 starting dose (1.0x 10E12 gc/mL). Cohort 2: AMT-260 adapted dose (6.0x 10E11 gc/mL or 3.0x 10E12 gc/mL).",
+       "interventionNames": [
+        "Genetic: AAV9-hSyn1-miGRIK2"
+       ],
+       "label": "AMT-260",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "AMT-260"
+       ],
+       "description": "AMT-260 is an AAV9 gene therapy product that locally delivers miRNA silencing technology to target the GRIK2 gene and suppress aberrantly expressed GluK2 containing kainate receptors. Intervention will be a one-time intracerebral administration of AMT-260.",
+       "name": "AAV9-hSyn1-miGRIK2",
+       "otherNames": [
+        "AMT-260"
+       ],
+       "type": "GENETIC"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Mesial Temporal Lobe Epilepsy"
+     ],
+     "keywords": [
+      "Epilepsy",
+      "Temporal Lobe",
+      "Hippocampal Sclerosis",
+      "Epileptic Syndromes"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 12,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "GenTLE",
+     "briefTitle": "AMT-260 Gene Therapy Study in Adults With Unilateral Refractory Mesial Temporal Lobe Epilepsy",
+     "nctId": "NCT06063850",
+     "officialTitle": "A Multi-center, Phase 1/2a, First-in-human (FIH) Study Investigating the Safety, Tolerability, and Efficacy of AMT-260 in Adults With Unilateral Refractory Mesial Temporal Lobe Epilepsy (MTLE) Administered Via Magnetic Resonance Imaging (MRI)-Guided Convection-enhanced Delivery (CED)",
+     "orgStudyIdInfo": {
+      "id": "CT-AMT-260-01"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "UniQure Biopharma B.V."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "UniQure Biopharma B.V."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2031-12",
+      "type": "ESTIMATED"
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-08-24",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-08-20",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2026-11-30",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2024-06-12",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-08",
+     "studyFirstPostDateStruct": {
+      "date": "2023-10-03",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2023-09-01",
+     "studyFirstSubmitQcDate": "2023-09-25"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Experimental: 3 single Ascending Dose Levels\n\nThe study will be open-label with an initial plan to explore 3 dose levels of AMT-162 in approximately 6 to 12 Participants in total. Each Participant will receive a single dose of AMT-162 delivered via an intrathecal (IT) infusion and will be followed for up to 5 years after AMT-162 administration.",
+       "interventionNames": [
+        "Drug: AMT-162"
+       ],
+       "label": "3 single Ascending Dose Levels",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Expansion cohort: To further test selected dose from the SAD part in approximately 6 to 8 participants\n\nThe study will be open-label. Each Participant will receive a single dose of AMT-162 delivered via an intrathecal (IT) infusion and will be followed for up to 5 years after AMT-162 administration.",
+       "interventionNames": [
+        "Drug: AMT-162"
+       ],
+       "label": "EXPANSION COHORT",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "3 single Ascending Dose Levels",
+        "EXPANSION COHORT"
+       ],
+       "description": "AMT-162, the investigational product (IP), is a nonreplicating, rep/cap-deleted, self-complementary Recombinant adeno-associated virus (rAAV) vector based on adeno-associated virus (AAV) serotype rh10 and contains complementary deoxyribonucleic acid (cDNA) encoding an artificial miRNA targeting the SOD1 gene.",
+       "name": "AMT-162",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Amyotrophic Lateral Sclerosis"
+     ],
+     "keywords": [
+      "Gene Therapy",
+      "AAV (adeno-associated virus)",
+      "ALS",
+      "SOD1"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 20,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Safety, Tolerability, and Exploratory Efficacy Study of Intrathecally Administered Gene Therapy AMT-162 in Adult Participants With SOD1 Amyotrophic Lateral Sclerosis (SOD1-ALS)",
+     "nctId": "NCT06100276",
+     "officialTitle": "A Phase 1/2, Multicenter, Single Ascending Dose Study to Evaluate the Safety, Tolerability, and Exploratory Efficacy of Intrathecally Administered Gene Therapy AMT-162 in Adult Participants With SOD1 Amyotrophic Lateral Sclerosis (SOD1-ALS).",
+     "orgStudyIdInfo": {
+      "id": "AMT-162-001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "UniQure Biopharma B.V."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "UniQure Biopharma B.V."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2031-06-30",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-10-22",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-10-20",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2026-09-30",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2024-08-01",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-10",
+     "studyFirstPostDateStruct": {
+      "date": "2023-10-25",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2023-10-20",
+     "studyFirstSubmitQcDate": "2023-10-20"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: AMT-191"
+       ],
+       "label": "Dose Ranging Cohort 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: AMT-191"
+       ],
+       "label": "Dose Ranging Cohort 2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: AMT-191"
+       ],
+       "label": "Dose Ranging Cohort 3",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Dose Ranging Cohort 1",
+        "Dose Ranging Cohort 2",
+        "Dose Ranging Cohort 3"
+       ],
+       "description": "A recombinant serotype 5 based adeno-associated viral vector (AMT-191) for one-time intravenous (IV) administration will be investigated in this study. This recombinant AAV5-based vector contains a coding deoxyribonucleic acid (DNA) sequence for human α-galactosidase A.\n\nDelivery of AMT-191 to the systemic circulation is expected to result in a therapeutic effect by promoting the liver expression of the lysosomal enzyme GLA in plasma levels in patients with Fabry disease.",
+       "name": "AMT-191",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Fabry Disease"
+     ],
+     "keywords": [
+      "GLA",
+      "gene therapy",
+      "ERT",
+      "FD"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 20,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Safety, PK/PD, and Exploratory Efficacy Study of AMT-191 in Classic Fabry Disease",
+     "nctId": "NCT06270316",
+     "officialTitle": "A Phase 1/2, Single Dose, Dose Ranging Study of Intravenous AAV5-GLA (AMT-191) in Adult Males With Classic Fabry Disease",
+     "orgStudyIdInfo": {
+      "id": "CT-AMT-191-01"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "UniQure Biopharma B.V."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "UniQure Biopharma B.V."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2031-11-30",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-09-24",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-09-21",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-12-01",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2024-06-05",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-09",
+     "studyFirstPostDateStruct": {
+      "date": "2024-02-21",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2023-12-19",
+     "studyFirstSubmitQcDate": "2024-02-20"
+    }
+   }
+  }
+ ]
+}

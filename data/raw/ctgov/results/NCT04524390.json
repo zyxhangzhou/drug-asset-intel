@@ -1,0 +1,80 @@
+{
+ "nctId": "NCT04524390",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-2.76",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "1.97",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "1.182",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.7419",
+     "paramType": "Least-Square mean",
+     "paramValue": "-0.39",
+     "statisticalMethod": "MMRM"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.853",
+         "value": "-3.5"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.947",
+         "value": "-3.11"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "40"
+      },
+      {
+       "groupId": "OG001",
+       "value": "35"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "The double-blind period comprised of 4-8 weeks of dose escalation followed by 18 - 22 weeks of stable dosing treatment, after which participants were transferred to the open-label arm.",
+     "id": "OG000",
+     "title": "Double Blind - Maralixibat"
+    },
+    {
+     "description": "The double-blind period comprised of 4-8 weeks of dose escalation followed by 18 - 22 weeks of stable dosing treatment, after which participants were transferred to the open-label arm.",
+     "id": "OG001",
+     "title": "Double Blind - Placebo"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "reportingStatus": "POSTED",
+   "timeFrame": "From baseline to Week 26",
+   "title": "Mean Change in Total Serum Bilirubin Levels",
+   "type": "PRIMARY",
+   "unitOfMeasure": "mg/dl"
+  }
+ ]
+}

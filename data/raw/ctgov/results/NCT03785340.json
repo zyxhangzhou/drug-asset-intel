@@ -1,0 +1,219 @@
+{
+ "nctId": "NCT03785340",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-5.823",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "4.134",
+     "estimateComment": "Change from baseline to 4 weeks (Day 28) in SANDE score; OCU-310 vs. Placebo",
+     "groupDescription": "Four endpoints (two primary and two secondary) were to be tested in a fixed sequence, proceeding to the next endpoint until a p-value \\>0.05 was found. The analysis of the four outcomes employed a repeated measures mixed model with mean change from baseline score at the stated time point as the response with baseline score as a covariate and treatment, visit, and their interaction as fixed effects. The least squares mean difference (OCU 310 - placebo) at the stated time point was tested.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityComment": "The endpoints were tested in a fixed sequence, proceeding to the next endpoint until a p-value \\>0.05 was found:\n\n1. Change from baseline to 4 weeks (Day 28) in SANDE score\n2. Change from baseline to 4 weeks (Day 28) in Lissamine Green conjunctival staining scores\n3. Change from baseline to 2 weeks (Day 14) in SANDE score\n4. Change from baseline to 2 weeks (Day 14) in Lissamine Green conjunctival staining scores",
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.739",
+     "paramType": "Least squares mean difference",
+     "paramValue": "-0.844",
+     "statisticalMethod": "Mixed Model Repeated Measures Analysis"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "13.6",
+         "value": "73.0"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "12.4",
+         "value": "72.7"
+        }
+       ]
+      }
+     ],
+     "title": "Baseline"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "23.2",
+         "value": "56.6"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "19.8",
+         "value": "57.2"
+        }
+       ]
+      }
+     ],
+     "title": "4 weeks (Day 28)"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "20.9",
+         "value": "-16.4"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "19.9",
+         "value": "-15.5"
+        }
+       ]
+      }
+     ],
+     "title": "Change from Baseline at 4 weeks (Day 28)"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "124"
+      },
+      {
+       "groupId": "OG001",
+       "value": "124"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The SANDE questionnaire is a short Visual Analog Scale (VAS) assessment that quantifies both severity and frequency of current dry eye symptoms. The SANDE is comprised of two questions, and each question employs a 100-mm horizontal linear VAS. The measurement of symptom frequency ranges from \"rarely\" to \"all of the time\", and the symptom severity from \"very mild\" to \"very severe\". Data collected from the SANDE questionnaire was calculated by multiplying the frequency score by the severity score and obtaining the square root. The result is the Overall SANDE score which ranges from 0 to 100 with 100 being the maximal amount of dry eye symptoms and 0 being the minimal amount of dry eye symptoms.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Brimonidine Tartrate Nanoemulsion Eye Drops 0.20% given 2 times a day (BID) for 4 weeks",
+     "id": "OG000",
+     "title": "OCU-310"
+    },
+    {
+     "description": "Placebo (ophthalmic buffered saline) Eye Drops given 2 times a day (BID) for 4 weeks",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "The Intention-to-treat (ITT) set is the primary analysis set for the efficacy endpoints and includes all randomized participants who have at least one post-baseline efficacy measurement. Here, the overall number of participants analyzed is the number of participants with evaluable data at each time point.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, 4 weeks (Day 28)",
+   "title": "Change From Baseline to 4 Weeks (Day 28) in Symptom Assessment in Dry Eye (SANDE) Questionnaire Score",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Score on a scale"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "1.1",
+         "value": "4.2"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "1.0",
+         "value": "4.1"
+        }
+       ]
+      }
+     ],
+     "title": "Baseline"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "1.6",
+         "value": "3.6"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "1.3",
+         "value": "3.2"
+        }
+       ]
+      }
+     ],
+     "title": "4 Weeks (Day 28)"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "1.4",
+         "value": "-0.6"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "1.1",
+         "value": "-0.9"
+        }
+       ]
+      }
+     ],
+     "title": "Change from Baseline at 4 Weeks (Day 28)"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "124"
+      },
+      {
+       "groupId": "OG001",
+       "value": "124"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Conjunctival staining with Lissamine Green dye (1%; LG) staining in each eye was conducted using the slit lamp. A single drop of 1% Lissamine Green dye was applied to the inferior conjunctival fornix of both eyes. The conjunctivae was examined with the slit lamp at ×10 magnification, using a neutral-density filter. The conjunctiva was graded for each eye from 0 to 3 based on the density of punctate staining in the nasal-bulbar and temporal-bulbar zones. Total scores ranged from 0 (no staining) to 6 (most severe staining) with a lower score representing a more desirable outcome.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Brimonidine Tartrate Nanoemulsion Eye Drops 0.20% given 2 times a day (BID) for 4 weeks",
+     "id": "OG000",
+     "title": "OCU-310"
+    },
+    {
+     "description": "Placebo (ophthalmic buffered saline) Eye Drops given 2 times a day (BID) for 4 weeks",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "The ITT set is the primary analysis set for the efficacy endpoints and includes all randomized participants who have at least one post-baseline efficacy measurement. Here, the overall number of participants analyzed is the number of participants with evaluable data at each time point.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, 4 Weeks (Day 28)",
+   "title": "Change From Baseline to 4 Weeks (Day 28) in Lissamine Green Conjunctival Staining Scores",
+   "type": "PRIMARY",
+   "unitOfMeasure": "score on a scale"
+  }
+ ]
+}

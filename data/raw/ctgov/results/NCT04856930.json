@@ -1,0 +1,115 @@
+{
+ "nctId": "NCT04856930",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-2.42",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "90",
+     "ciUpperLimit": "1.73",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "1.25",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.7841",
+     "pValueComment": "LS Mean, Standard error, 90% CI, p-value based on LRMM which included: treatment, visit, treatment by visit interaction, and Hurley Stage at baseline (II vs. III) as categorical covariates; baseline AN count as continuous covariate.",
+     "paramType": "Least Square (LS) Mean Difference",
+     "paramValue": "-0.3",
+     "statisticalMethod": "Linear repeated measures model (LRMM)"
+    },
+    {
+     "ciLowerLimit": "-0.74",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "90",
+     "ciUpperLimit": "3.40",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "1.25",
+     "groupIds": [
+      "OG001",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.2885",
+     "pValueComment": "LS Mean, Standard error, 90% CI, p-value based on LRMM which included: treatment, visit, treatment by visit interaction, and Hurley Stage at baseline (II vs. III) as categorical covariates; baseline AN count as continuous covariate.",
+     "paramType": "LS Mean Difference",
+     "paramValue": "1.3",
+     "statisticalMethod": "LRMM"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "6.05",
+         "value": "-5.9"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "4.63",
+         "value": "-4.1"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "7.40",
+         "value": "-5.6"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "39"
+      },
+      {
+       "groupId": "OG001",
+       "value": "41"
+      },
+      {
+       "groupId": "OG002",
+       "value": "42"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The AN count was defined as the sum of the number of abscesses and inflammatory nodules from all locations.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants received a starting dose of 400 mg of imsidolimab on Day 1 followed by 200 mg imsidolimab every 4 weeks (Days 29, 57 and 85) by SC injection.",
+     "id": "OG000",
+     "title": "Placebo-Controlled Period: Imsidolimab 400/200 mg"
+    },
+    {
+     "description": "Participants received a starting dose of 200 mg of imsidolimab on Day 1 followed by 100 mg imsidolimab every 4 weeks (Days 29, 57 and 85) by SC injection.",
+     "id": "OG001",
+     "title": "Placebo-Controlled Period: Imsidolimab 200/100 mg"
+    },
+    {
+     "description": "Participants received imsidolimab matching placebo on Day 1 and thereafter, every 4 weeks (Days 29, 57 and 85) by SC injection.",
+     "id": "OG002",
+     "title": "Placebo-Controlled Period: Placebo"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "ITT Analysis Set with available data was analyzed.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Week 16",
+   "title": "Change From Baseline in AN Count at Week 16: Placebo-Controlled Period",
+   "type": "PRIMARY",
+   "unitOfMeasure": "count of abscess and inflammatory nodule"
+  }
+ ]
+}

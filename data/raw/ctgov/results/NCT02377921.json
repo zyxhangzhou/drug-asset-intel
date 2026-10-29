@@ -1,0 +1,84 @@
+{
+ "nctId": "NCT02377921",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-1.61",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "3.09",
+     "estimateComment": "Difference = Ace-ER - placebo",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.5387",
+     "pValueComment": "Generalized estimating equation (GEE) model includes change from Baseline (BL) as dependent variable, visit, treatment and visit by treatment as fixed factors, and BL values, sex, and region as covariates, with compound symmetry covariance structure.",
+     "paramType": "Least Squares (LS) Mean Difference",
+     "paramValue": "0.74",
+     "statisticalMethod": "GEE model"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "-3.77",
+         "upperLimit": "-0.74",
+         "value": "-2.25"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "-4.69",
+         "upperLimit": "-1.28",
+         "value": "-2.99"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "45"
+      },
+      {
+       "groupId": "OG001",
+       "value": "43"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Muscle strength based on the maximum voluntary isometric contraction (MVIC) against a dynamometer was measured bilaterally in the following upper extremity muscle groups: gross grip, shoulder abductors, elbow flexors, and elbow extensors. The UEC is derived from the sum of the average of the right and left total force values (measured in kg).",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Ace-ER 6 g/day, divided TID for 48 weeks.",
+     "id": "OG000",
+     "title": "Ace-ER 6 g/Day"
+    },
+    {
+     "description": "Matching placebo TID for 48 weeks.",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Primary Analysis Set: participants who had a Baseline and at least 1 postbaseline measurement.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Week 48",
+   "title": "Change From Baseline in UEC Score (Total Force in kg) at Week 48",
+   "type": "PRIMARY",
+   "unitOfMeasure": "kg"
+  }
+ ]
+}

@@ -1,0 +1,1725 @@
+{
+ "aliases": [
+  "Protagonist Therapeutics"
+ ],
+ "studies": [
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Low dose",
+       "interventionNames": [
+        "Drug: PTG-100"
+       ],
+       "label": "PTG-100 (150 mg QD)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Medium dose",
+       "interventionNames": [
+        "Drug: PTG-100"
+       ],
+       "label": "PTG-100 (300 mg QD)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "High dose",
+       "interventionNames": [
+        "Drug: PTG-100"
+       ],
+       "label": "PTG-100 (900 mg QD)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Placebo control",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo group",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "PTG-100 (150 mg QD)",
+        "PTG-100 (300 mg QD)",
+        "PTG-100 (900 mg QD)"
+       ],
+       "description": "Daily dosing of PTG-100 by subject for a 12 week treatment period.",
+       "name": "PTG-100",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo group"
+       ],
+       "description": "Daily dosing of Placebo capsules by subject for a 12 week treatment period.",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Ulcerative Colitis"
+     ],
+     "keywords": [
+      "ulcerative colitis",
+      "inflammatory bowel disease",
+      "PROPEL",
+      "Propel Study"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "TRIPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 98,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Safety and Efficacy Study of PTG-100 in the Treatment of Moderate to Severe Ulcerative Colitis",
+     "nctId": "NCT02895100",
+     "officialTitle": "A Phase 2b Randomised, Double-blind, Placebo-controlled, Parallel, Adaptive 2-Stage, Multi-Centre Study to Evaluate the Safety and Efficacy of Oral PTG-100 Induction in Subjects With Moderate to Severe Active Ulcerative Colitis",
+     "orgStudyIdInfo": {
+      "id": "PTG-100-02"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Protagonist Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Protagonist Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2018-03-26",
+      "type": "ACTUAL"
+     },
+     "dispFirstPostDateStruct": {
+      "date": "2019-03-05",
+      "type": "ACTUAL"
+     },
+     "dispFirstSubmitDate": "2019-02-28",
+     "dispFirstSubmitQcDate": "2019-02-28",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-08-21",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-08-04",
+     "overallStatus": "TERMINATED",
+     "primaryCompletionDateStruct": {
+      "date": "2018-03-26",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2021-03-22",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2021-02-22",
+     "resultsFirstSubmitQcDate": "2021-02-22",
+     "startDateStruct": {
+      "date": "2016-12"
+     },
+     "statusVerifiedDate": "2021-09",
+     "studyFirstPostDateStruct": {
+      "date": "2016-09-09",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2016-09-04",
+     "studyFirstSubmitQcDate": "2016-09-04",
+     "whyStopped": "Data Monitoring Committee discontinued the trial due to futility-based outcome"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Drug: PTG-300 Subcutaneous",
+       "interventionNames": [
+        "Drug: PTG-300"
+       ],
+       "label": "PTG-300 Active",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "PTG-300 Active"
+       ],
+       "description": "Subcutaneous (SC)",
+       "name": "PTG-300",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "β-thalassemia",
+      "Ineffective Erythropoiesis",
+      "Chronic Anemia"
+     ],
+     "keywords": [
+      "chronic anemia",
+      "β-thalassemia"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SEQUENTIAL",
+      "interventionModelDescription": "Multiple PTG-300 dose levels/regimens are planned to be tested for each subpopulation of β thalassemia (NTD and TD) on separate arms:\n\n* Cohort 1: 3 mg subcutaneous (SC) weekly\n* Cohort 2: 10 mg SC weekly\n* Cohort 3: 20 mg SC weekly\n* Cohort 4a: 40 mg SC weekly\n* Cohort 4b: 40 mg SC every 2 weeks\n* Cohort 7: 80 mg SC weekly\n* Cohort 8: 40 mg SC twice a week\n\nAdditional Cohorts (Cohorts 5,6,9,10, and 11) will include subjects between 12 years of age and less than 18 years of age.",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 63,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "TRANSCEND",
+     "briefTitle": "Study of PTG-300 in Non-Transfusion Dependent and Transfusion-Dependent Beta-Thalassemia Subjects With Chronic Anemia",
+     "nctId": "NCT03802201",
+     "officialTitle": "A Phase 2 Study of PTG-300 in Non-Transfusion Dependent (NTD) and Transfusion-Dependent (TD) β-Thalassemia Subjects With Chronic Anemia",
+     "orgStudyIdInfo": {
+      "id": "PTG-300-02"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Protagonist Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Protagonist Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2020-07-31",
+      "type": "ACTUAL"
+     },
+     "dispFirstPostDateStruct": {
+      "date": "2021-07-16",
+      "type": "ACTUAL"
+     },
+     "dispFirstSubmitDate": "2021-07-09",
+     "dispFirstSubmitQcDate": "2021-07-13",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2021-07-16",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2021-07-13",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2020-07-31",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2018-12-19",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2021-07",
+     "studyFirstPostDateStruct": {
+      "date": "2019-01-14",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2019-01-09",
+     "studyFirstSubmitQcDate": "2019-01-10"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "PTG-300",
+       "interventionNames": [
+        "Drug: PTG-300"
+       ],
+       "label": "Interventions",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Interventions"
+       ],
+       "description": "PTG-300 is a hepcidin Mimetic",
+       "name": "PTG-300",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "β-thalassemia",
+      "Ineffective Erythropoiesis"
+     ],
+     "keywords": [
+      "Chronic anemia",
+      "β-thalassemia"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 34,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "TRANSCEND",
+     "briefTitle": "Safety Study for Beta Thalassemia Subjects on PTG-300",
+     "nctId": "NCT04054921",
+     "officialTitle": "An Open Label Extension Study of PTG-300 In Non-Transfusion Depenent (NTD) and Trasfusion-Dependent (TD) B-Thalassemia Subjects",
+     "orgStudyIdInfo": {
+      "id": "PTG-300-03"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Protagonist Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Protagonist Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2020-07-31",
+      "type": "ACTUAL"
+     },
+     "dispFirstPostDateStruct": {
+      "date": "2021-07-16",
+      "type": "ACTUAL"
+     },
+     "dispFirstSubmitDate": "2021-07-09",
+     "dispFirstSubmitQcDate": "2021-07-12",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2021-07-16",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2021-07-12",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2020-07-31",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2019-05-10",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2021-02",
+     "studyFirstPostDateStruct": {
+      "date": "2019-08-13",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2019-08-08",
+     "studyFirstSubmitQcDate": "2019-08-12"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: PTG-300"
+       ],
+       "label": "Dose finding PTG-300 (Part 1); PTG-300 (Part 2); Open label extension PTG-300 (Part 3)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: PTG-300",
+        "Drug: Placebo"
+       ],
+       "label": "Dose finding PTG-300 (Part 1); Placebo (Part 2); Open label extension PTG-300 (Part 3)",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Dose finding PTG-300 (Part 1); PTG-300 (Part 2); Open label extension PTG-300 (Part 3)",
+        "Dose finding PTG-300 (Part 1); Placebo (Part 2); Open label extension PTG-300 (Part 3)"
+       ],
+       "description": "Active",
+       "name": "PTG-300",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Dose finding PTG-300 (Part 1); Placebo (Part 2); Open label extension PTG-300 (Part 3)"
+       ],
+       "description": "Placebo",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Polycythemia Vera"
+     ],
+     "keywords": [
+      "polycythemia vera"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "interventionModelDescription": "Part 1:\n\n28 week open-label dose escalation phase in which each subject's dose of PTG-300 is titrated to achieve a hematocrit \\<45%.\n\nPart 2:\n\n12-week blinded randomized withdrawal phase. Subjects are randomized 1:1 to continue PTG-300 or to receive placebo.\n\nPart 3:\n\nUp to 3 year open label extension.",
+      "maskingInfo": {
+       "masking": "TRIPLE",
+       "maskingDescription": "Part 1 open label, Part 2 blinded, Part 3 open label",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 70,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Hepcidin Mimetic in Patients With Polycythemia Vera (REVIVE)",
+     "nctId": "NCT04057040",
+     "officialTitle": "A Phase 2 Study of the Hepcidin Mimetic PTG-300 in Patients With Phlebotomy-Requiring Polycythemia Vera",
+     "orgStudyIdInfo": {
+      "id": "PTG-300-04"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Protagonist Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Protagonist Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2024-06-17",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-08-07",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-08-04",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2023-02-14",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2019-10-01",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-08",
+     "studyFirstPostDateStruct": {
+      "date": "2019-08-14",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2019-08-07",
+     "studyFirstSubmitQcDate": "2019-08-13"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "PTG-300 Subcutaneous",
+       "interventionNames": [
+        "Drug: PTG-300"
+       ],
+       "label": "PTG-300",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "PTG-300"
+       ],
+       "description": "Active treatment with PTG-300 injected subcutaneously.",
+       "name": "PTG-300",
+       "otherNames": [
+        "Rusfertide"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Hereditary Hemochromatosis"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "interventionModelDescription": "Single Arm Study",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 16,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "PTG-300 in Subjects With Hereditary Hemochromatosis",
+     "nctId": "NCT04202965",
+     "officialTitle": "Open-label Study of PTG-300 in Subjects With Hereditary Hemochromatosis",
+     "orgStudyIdInfo": {
+      "id": "PTG-300-06"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Protagonist Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Protagonist Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2022-02-15",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-08-20",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-08-04",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2021-10-06",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2023-06-15",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2023-04-18",
+     "resultsFirstSubmitQcDate": "2023-05-22",
+     "startDateStruct": {
+      "date": "2020-03-19",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2023-05",
+     "studyFirstPostDateStruct": {
+      "date": "2019-12-18",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2019-12-16",
+     "studyFirstSubmitQcDate": "2019-12-16"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Oral administration of PN-943 450 mg BID",
+       "interventionNames": [
+        "Drug: PN-943"
+       ],
+       "label": "PN-943 450 mg BID",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Oral administration of PN-943 150 mg BID",
+       "interventionNames": [
+        "Drug: PN-943"
+       ],
+       "label": "PN-943 150 mg BID",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Oral administration of matching placebo",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo BID",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "PN-943 150 mg BID",
+        "PN-943 450 mg BID"
+       ],
+       "description": "Administered by the oral route BID for the duration of the study.",
+       "name": "PN-943",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo BID"
+       ],
+       "description": "Administered by the oral route BID for 12 weeks.",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Ulcerative Colitis Chronic Moderate",
+      "Ulcerative Colitis Chronic Severe"
+     ],
+     "keywords": [
+      "Inflammatory Bowel Disease (IBD)"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "interventionModelDescription": "12-week randomized, double-blind, placebo-controlled, parallel design study in patients with moderate to severe active UC. It will be followed by 40 weeks of Extended Active Treatment.",
+      "maskingInfo": {
+       "masking": "TRIPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 169,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "PN-943 in Adults With Moderate to Severe Active Ulcerative Colitis (UC)",
+     "nctId": "NCT04504383",
+     "officialTitle": "A Phase 2 Randomized, Double-blind, Placebo-controlled, Parallel-group, Multi-center Study to Evaluate the Safety and Efficacy of Oral PN-943 in Subjects With Moderate to Severe Active Ulcerative Colitis",
+     "orgStudyIdInfo": {
+      "id": "PN-943-03"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Protagonist Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Protagonist Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2023-02-16",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2023-04-25",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2023-04-24",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2023-02-16",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2020-08-05",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2023-04",
+     "studyFirstPostDateStruct": {
+      "date": "2020-08-07",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2020-08-05",
+     "studyFirstSubmitQcDate": "2020-08-05"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "PTG-300 Intravenous",
+       "interventionNames": [
+        "Drug: PTG-300"
+       ],
+       "label": "Intravenous",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "PTG-300 Subcutaneous Low Concentration",
+       "interventionNames": [
+        "Drug: PTG-300"
+       ],
+       "label": "Subcutaneous Low Concentration",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "PTG-300 Subcutaneous High Concentration",
+       "interventionNames": [
+        "Drug: PTG-300"
+       ],
+       "label": "Subcutaneous High Concentration",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "PTG-300 Intramuscular",
+       "interventionNames": [
+        "Drug: PTG-300"
+       ],
+       "label": "Intramuscular",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Intramuscular",
+        "Intravenous",
+        "Subcutaneous High Concentration",
+        "Subcutaneous Low Concentration"
+       ],
+       "description": "Active drug",
+       "name": "PTG-300",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Healthy Volunteers"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "CROSSOVER",
+      "interventionModelDescription": "Single group of subjects will sequentially receive PTG-300 as IV, subcutaneous, and intramuscular administration",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "OTHER"
+     },
+     "enrollmentInfo": {
+      "count": 12,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Pharmacokinetics and Pharmacodynamics of Different PTG-300 Regimens in Healthy Volunteers",
+     "nctId": "NCT04516382",
+     "officialTitle": "An Open-label Crossover Study Evaluating the Pharmacokinetics and Pharmacodynamics of Different PTG-300 Regimens in Healthy Volunteers",
+     "orgStudyIdInfo": {
+      "id": "PTG-300-07"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Protagonist Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Protagonist Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2021-06-30",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2021-09-16",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2021-09-14",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2021-01-12",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2020-09-14",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2021-09",
+     "studyFirstPostDateStruct": {
+      "date": "2020-08-18",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2020-08-10",
+     "studyFirstSubmitQcDate": "2020-08-13"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Single dose administration",
+       "interventionNames": [
+        "Drug: PN-235",
+        "Drug: Placebo"
+       ],
+       "label": "Single Dose",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Multiple dose administration",
+       "interventionNames": [
+        "Drug: PN-235",
+        "Drug: Placebo"
+       ],
+       "label": "Multiple Dose",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Solid dose administartion",
+       "interventionNames": [
+        "Drug: PN-235"
+       ],
+       "label": "Solid Dose Comparison",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Multiple Dose",
+        "Single Dose",
+        "Solid Dose Comparison"
+       ],
+       "description": "Active Drug",
+       "name": "PN-235",
+       "otherNames": [
+        "Active Drug"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Multiple Dose",
+        "Single Dose"
+       ],
+       "description": "Matching Placebo",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Healthy Volunteers"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "TRIPLE",
+       "maskingDescription": "Part 1 blinded, Part 2 blinded, Part 3 unblinded",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 107,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Pharmacokinetics of PN-235 in Healthy Volunteers",
+     "nctId": "NCT04621630",
+     "officialTitle": "A Randomised, Double-Blind, Placebo-Controlled Study of Single and Multiple Ascending Doses of PN-235 in Healthy Volunteers",
+     "orgStudyIdInfo": {
+      "id": "PN-235-01"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Protagonist Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Protagonist Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2021-10-13",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2022-02-18",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2022-02-16",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2021-09-19",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2020-11-12",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2022-02",
+     "studyFirstPostDateStruct": {
+      "date": "2020-11-09",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2020-10-29",
+     "studyFirstSubmitQcDate": "2020-11-03"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Evaluate PTG-300's efficacy and safety in subjects with PV and baseline elevated hematocrit.",
+       "interventionNames": [
+        "Drug: PTG-300"
+       ],
+       "label": "PTG-300",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "PTG-300"
+       ],
+       "description": "Hepcidin mimetic",
+       "name": "PTG-300",
+       "otherNames": [
+        "Rusfertide"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Polycythemia Vera"
+     ],
+     "keywords": [
+      "PV"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 20,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "PACIFIC",
+     "briefTitle": "PTG-300 in Patients With Polycythemia Vera and Elevated Hematocrit",
+     "nctId": "NCT04767802",
+     "officialTitle": "A Phase 2 Study of the Hepcidin Mimetic PTG-300 in Patients With Polycythemia Vera and Elevated Hematocrit (PACIFIC)",
+     "orgStudyIdInfo": {
+      "id": "PTG-300-08"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Protagonist Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Protagonist Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2023-03-15",
+      "type": "ACTUAL"
+     },
+     "dispFirstPostDateStruct": {
+      "date": "2024-03-15",
+      "type": "ACTUAL"
+     },
+     "dispFirstSubmitDate": "2024-03-13",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2024-03-18",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2024-03-14",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2023-03-15",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2021-02-02",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2024-03",
+     "studyFirstPostDateStruct": {
+      "date": "2021-02-23",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2021-02-18",
+     "studyFirstSubmitQcDate": "2021-02-22"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Single dose administration",
+       "interventionNames": [
+        "Drug: PN-232",
+        "Drug: Placebo"
+       ],
+       "label": "Single Dose",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Multiple dose administration",
+       "interventionNames": [
+        "Drug: PN-232",
+        "Drug: Placebo"
+       ],
+       "label": "Multiple Dose",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Solid dose administration",
+       "interventionNames": [
+        "Drug: PN-232"
+       ],
+       "label": "Solid Dose Comparison",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Multiple Dose",
+        "Single Dose",
+        "Solid Dose Comparison"
+       ],
+       "description": "Active Drug",
+       "name": "PN-232",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Multiple Dose",
+        "Single Dose"
+       ],
+       "description": "Matching Placebo",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Healthy Subjects"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "TRIPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 48,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Pharmacokinetics of PN-232 in Healthy Volunteers",
+     "nctId": "NCT04819620",
+     "officialTitle": "A Randomised, Double-Blind, Placebo-controlled Study of Single and Multiple Ascending Doses of PN-232 in Healthy Volunteers",
+     "orgStudyIdInfo": {
+      "id": "PN-232-01"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Protagonist Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Protagonist Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2022-06-16",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2022-10-03",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2022-09-30",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2021-12-17",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2021-05-13",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2022-09",
+     "studyFirstPostDateStruct": {
+      "date": "2021-03-29",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2021-03-24",
+     "studyFirstSubmitQcDate": "2021-03-24"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants received their ongoing therapy for polycythemia vera (PV) along with rusfertide-matching placebo, subcutaneous (SC) injection, once weekly, from baseline up to Week 32.",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Part 1a: Randomized, Double-Blind Period: Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "description": "Participants received their ongoing therapy for PV along with rusfertide once weekly, SC injection, from baseline up to Week 32. Rusfertide doses were titrated to maintain hematocrit less than (\\<) 45 percent (%). The starting dose was 19 milligrams (mg). The doses that were administered to Part 1a participants were 9.5, 19, 28, 41, 54, 69 and 82 mg.",
+       "interventionNames": [
+        "Drug: Rusfertide"
+       ],
+       "label": "Part 1a: Randomized, Double-Blind Period: Rusfertide",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants received rusfertide once weekly, SC injection, from Weeks 32 to 52. Rusfertide doses were titrated to maintain hematocrit \\< 45%. Participants who received rusfertide in Part 1a continued at their current dose unless dose adjustment was required. Participants who received placebo in Part 1a started rusfertide at 19 mg. The doses that were administered to Part 1b participants were 9.5, 19, 28, 41, 54, 69 and 82 mg.",
+       "interventionNames": [
+        "Drug: Rusfertide"
+       ],
+       "label": "Part 1b: Open-Label Treatment Period: Rusfertide",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants received rusfertide once weekly, SC injection, from Weeks 52 to 156. Rusfertide doses were titrated to maintain hematocrit \\< 45%. The doses that were administered to Part 2 participants were 9.5, 19, 28, 41, 54, 69, 82, 95 and 108 mg. For weekly doses greater than (\\>) 90 mg, the dose of rusfertide was and will be divided into 2 doses administered 3 to 4 days apart.",
+       "interventionNames": [
+        "Drug: Rusfertide"
+       ],
+       "label": "Part 2: Long Term Extension Period: Rusfertide",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants will receive rusfertide once weekly, SC injection, from Week 156 to the end of the study (approximately 5 years). Rusfertide doses will be titrated to maintain hematocrit \\< 45%. The doses that will be administered to Part 3 participants are 9.5, 19, 28, 41, 54, 69, 82, 95 and 108 mg. For weekly doses \\> 90 mg, the dose of rusfertide will be divided into 2 doses administered 3 to 4 days apart.",
+       "interventionNames": [
+        "Drug: Rusfertide"
+       ],
+       "label": "Part 3: Treatment Extension Period: Rusfertide",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Part 1a: Randomized, Double-Blind Period: Rusfertide",
+        "Part 1b: Open-Label Treatment Period: Rusfertide",
+        "Part 2: Long Term Extension Period: Rusfertide",
+        "Part 3: Treatment Extension Period: Rusfertide"
+       ],
+       "description": "Rusfertide SC injection",
+       "name": "Rusfertide",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Part 1a: Randomized, Double-Blind Period: Placebo"
+       ],
+       "description": "Rusfertide-matching placebo SC injection",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Polycythemia Vera"
+     ],
+     "keywords": [
+      "Polycythemia Vera",
+      "PV"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "TRIPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 293,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "VERIFY",
+     "briefTitle": "A Study of Rusfertide in Adults With Polycythemia Vera (PV)",
+     "nctId": "NCT05210790",
+     "officialTitle": "A Phase 3 Study of the Hepcidin Mimetic Rusfertide (PTG-300; TAK-121) in Patients With Polycythemia Vera",
+     "orgStudyIdInfo": {
+      "id": "PTG-300-11"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Protagonist Therapeutics, Inc."
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "2023-509750-58-00",
+       "type": "CTIS"
+      },
+      {
+       "id": "2023",
+       "link": "https://reporter.nih.gov/quickSearch/2023",
+       "type": "NIH"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Protagonist Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2028-08-31",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-19",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-09-24",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2025-02-21",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2026-10-19",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2026-09-24",
+     "resultsFirstSubmitQcDate": "2026-09-24",
+     "startDateStruct": {
+      "date": "2022-04-11",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-09",
+     "studyFirstPostDateStruct": {
+      "date": "2022-01-27",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2022-01-14",
+     "studyFirstSubmitQcDate": "2022-01-14"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Open-label rusfertide",
+       "interventionNames": [
+        "Drug: Open-label rusfertide"
+       ],
+       "label": "Open-label rusfertide",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Open-label rusfertide"
+       ],
+       "description": "subcutaneous rusfertide",
+       "name": "Open-label rusfertide",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Polycythemia Vera"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "interventionModelDescription": "Open-label rusfertide",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 46,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "THRIVE",
+     "briefTitle": "Study to Evaluate the Long-term Safety of Rusfertide (PTG-300) in Subjects With Polycythemia Vera",
+     "nctId": "NCT06033586",
+     "officialTitle": "An Extension Study to Evaluate the Long-term Safety of Rusfertide (PTG-300) in Subjects With Polycythemia Vera (THRIVE)",
+     "orgStudyIdInfo": {
+      "id": "PTG-300-21"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Protagonist Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Protagonist Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2027-04-01",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-08-06",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-08-04",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2026-04-01",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2024-01-22",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-08",
+     "studyFirstPostDateStruct": {
+      "date": "2023-09-13",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2023-09-05",
+     "studyFirstSubmitQcDate": "2023-09-05"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "PN-881 Oral Solution Single Ascending Dose",
+       "interventionNames": [
+        "Drug: PN-881 Oral Solution"
+       ],
+       "label": "PN-881 Oral Solution Single Ascending Dose",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Placebo single ascending doses",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo Oral Solution Single Ascending Dose",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "description": "PN-881 Multiple Ascending Doses",
+       "interventionNames": [
+        "Drug: PN-881 Oral Solution"
+       ],
+       "label": "PN-881 Oral Solution Multiple Ascending Dose",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Placebo, multiple ascending doses",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo Oral Solution Multiple Ascending Dose",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "description": "PN-881 oral tablet single dose",
+       "interventionNames": [
+        "Drug: PN-881 Oral Tablet"
+       ],
+       "label": "PN-881 Oral Tablet Single Dose",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "PN-881 oral tablet multiple dose",
+       "interventionNames": [
+        "Drug: PN-881 Oral Tablet"
+       ],
+       "label": "PN-881 Oral Tablet Multiple Dose",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "PN-881 Oral Solution Multiple Ascending Dose",
+        "PN-881 Oral Solution Single Ascending Dose"
+       ],
+       "description": "PN-881 Oral Solution",
+       "name": "PN-881 Oral Solution",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "PN-881 Oral Tablet Multiple Dose",
+        "PN-881 Oral Tablet Single Dose"
+       ],
+       "description": "PN-881 oral tablet",
+       "name": "PN-881 Oral Tablet",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo Oral Solution Multiple Ascending Dose",
+        "Placebo Oral Solution Single Ascending Dose"
+       ],
+       "description": "Placebo",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Healthy Volunteer"
+     ],
+     "keywords": [
+      "PN-881"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "maskingDescription": "Part 1 \\& Part 2 is masked; Part 3, Part 4 and Part 5 are open label",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 146,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of PN-881 in Healthy Subjects.",
+     "nctId": "NCT07153146",
+     "officialTitle": "A Randomized, Double-Blind, Placebo-Controlled Study of Single and Multiple Ascending Doses of PN-881 in Healthy Subjects",
+     "orgStudyIdInfo": {
+      "id": "PN-881-01"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Protagonist Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Protagonist Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2026-07-29",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-08-05",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-08-03",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2026-07-29",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2025-10-07",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-08",
+     "studyFirstPostDateStruct": {
+      "date": "2025-09-03",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-08-22",
+     "studyFirstSubmitQcDate": "2025-08-25"
+    }
+   }
+  }
+ ]
+}

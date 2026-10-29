@@ -1,0 +1,97 @@
+{
+ "nctId": "NCT02291679",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "1.76",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "5.20",
+     "estimateComment": "Placebo as reference. Odds ratio and 95% confidence interval (CI) for the odds ratio are obtained from the CMH tests controlling for baseline SBM stratum and geographic region.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "< 0.0001",
+     "pValueComment": "P-value is obtained from the Cochran-Mantel-Haenszel (CMH) tests controlling for baseline SBM stratum and geographic region.",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "3.03",
+     "statisticalMethod": "Cochran-Mantel-Haenszel"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "4.7"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13.4"
+        }
+       ]
+      }
+     ],
+     "title": "Responder"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "95.3"
+        },
+        {
+         "groupId": "OG001",
+         "value": "86.6"
+        }
+       ]
+      }
+     ],
+     "title": "Non-Responder"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "401"
+      },
+      {
+       "groupId": "OG001",
+       "value": "411"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "A 12-week CSBM Overall Responder is a participant who was a CSBM Weekly Responder for at least 9 of the 12 weeks of the Treatment Period. A CSBM Weekly Responder is a participant who had a CSBM weekly frequency rate that was 3 or greater and increased by 1 or more from baseline, and completed ≥ 4 IVRS calls for the specified week.\n\nA CSBM is defined as an SBM that is associated with a sense of complete evacuation. An SBM is defined as a bowel movement BM that occurred in the absence of laxative, enema, or suppository use on either the calendar day of the BM or the calendar day before the BM.",
+   "groups": [
+    {
+     "description": "Matching placebo, once daily for 12 weeks",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "72 μg oral linaclotide, once daily for 12 weeks",
+     "id": "OG001",
+     "title": "72 μg Linaclotide"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Intent-to-Treat Population: all randomized participants who received at least one dose of study drug. Only data for the 72 μg dose versus placebo arms were prospectively defined and evaluated as a primary endpoint; per protocol, data for the 145 μg dose arm were not collected for any pre-specified primary or secondary outcome measures.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Week 12",
+   "title": "Percentage of 12-Week CSBM Overall Responders",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

@@ -1,0 +1,80 @@
+{
+ "nctId": "NCT03098030",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "6.0",
+         "upperLimit": "7.6",
+         "value": "6.9"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "5.6",
+         "upperLimit": "8.9",
+         "value": "7.0"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "6.1",
+         "upperLimit": "9.3",
+         "value": "7.4"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "187"
+      },
+      {
+       "groupId": "OG001",
+       "value": "190"
+      },
+      {
+       "groupId": "OG002",
+       "value": "94"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "OS will be derived as: (date of death - date of randomization) + 1. Subjects who are alive or permanently lost to follow-up at the cut-off date for the analysis will be censored at the last date the subject was known to be alive.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Dinutuximab (16 mg/m\\^2 IV) + Irinotecan (350 mg/m\\^2 IV) on Day 1 of each q21d cycle. Dinutuximab dose will be escalated in 2 mg/m\\^2 increments per cycle if maximal pain is \\<Grade 2 or Grade 2/3 that in the view of the Investigator is adequately managed and otherwise tolerated, up to a maximum dose of 17.5 mg/m\\^2 IV.\n\nDinutuximab: Dinutuximab injection, for intravenous (IV) use\n\nIrinotecan: Irinotecan injection, IV infusion",
+     "id": "OG000",
+     "title": "Part 2: Dinutuximab + Irinotecan"
+    },
+    {
+     "description": "Irinotecan (350 mg/m\\^2 IV) on Day 1 of each q21d cycle.\n\nIrinotecan: Irinotecan injection, IV infusion",
+     "id": "OG001",
+     "title": "Part 2: Irinotecan"
+    },
+    {
+     "description": "Topotecan (1.5 mg/m\\^2 IV) on Days 1 to 5 of each q21d cycle.\n\nTopotecan: Topotecan for injection",
+     "id": "OG002",
+     "title": "Part 2: Topotecan"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "The analysis population was based on the Intent to Treat (ITT) Analysis Set, which per the Statistical Analysis Plan was defined as all subjects randomized in Part 2 of the study, as assigned to treatment (i.e., n = 471). As such, these results do not include the subjects enrolled in Part 1 of the study.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to approximately 2.5 years",
+   "title": "Overall Survival (OS)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "months"
+  }
+ ]
+}

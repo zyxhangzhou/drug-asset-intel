@@ -1,0 +1,47 @@
+{
+ "nctId": "NCT00834080",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "37"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "38"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "A TEAE is any adverse event (AE), whether or not considered drug-related, that develops or worsens in severity after study drug administration begins (ie, from the first administration through the end of the follow-up period).",
+   "groups": [
+    {
+     "description": "Study drug was administered by intramuscular (IM) injection once monthly for 24 months.",
+     "id": "OG000",
+     "title": "VIVITROL"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "The Safety Population, defined as all subjects who received at least 1 dose (injection) of study drug, was used for presentation and analysis of both safety and efficacy data.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "2 years (Baseline to end of study)",
+   "title": "Number of Subjects Reporting at Least 1 Treatment-emergent Adverse Event (TEAE) While on Study.",
+   "type": "PRIMARY",
+   "unitOfMeasure": "participants"
+  }
+ ]
+}

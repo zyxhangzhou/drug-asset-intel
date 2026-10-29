@@ -1,0 +1,50 @@
+{
+ "nctId": "NCT04045145",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "-89.20",
+         "upperLimit": "-23.05",
+         "value": "-69.48"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "8"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Percent changes in 17-OHP were assessed through the collection of samples from 0700 hours to 1000 hours (morning window) both prior to study drug administration (i.e., baseline) and after 14 days of study drug dosing. The 2 samples collected during this morning window at each visit were averaged and used to determine the percent change from baseline.",
+   "dispersionType": "Inter-Quartile Range",
+   "groups": [
+    {
+     "description": "Participants received crinecerfont 50 mg BID orally for 14 consecutive days.",
+     "id": "OG000",
+     "title": "Crinecerfont 50 mg"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "Pharmacodynamic (PD) analysis set included all enrolled participants who received at least one dose of study drug and had at least one PD parameter measurement at baseline and at least one PD parameter measurement at the Day 14 visit.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Day 14",
+   "title": "Percent Change From Baseline to Day 14 in Serum 17-OHP Concentrations (Morning Window Average)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percent change"
+  }
+ ]
+}

@@ -1,0 +1,82 @@
+{
+ "nctId": "NCT03762850",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.51",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.69",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "OTHER",
+     "pValue": "<0.0001",
+     "paramType": "Geometric Mean Ratio",
+     "paramValue": "0.59",
+     "statisticalMethod": "Mixed Models Analysis"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "-54.98",
+         "upperLimit": "-43.95",
+         "value": "-49.77"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "-23.72",
+         "upperLimit": "-5.39",
+         "value": "-15.05"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "202"
+      },
+      {
+       "groupId": "OG001",
+       "value": "202"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "24-hour urine sample was collected for analysis of UP/C via a mixed-model repeated-measures (MMRM) analysis. Missing responses were imputed prior to analysis using multiple imputation. Change from Baseline during the double-blind period in UP/C on the log scale was the dependent variable. Log Baseline UP/C was included as a covariate along with fixed effects for randomized treatment, time (ie, nominal visit in weeks), randomized treatment-by-time interaction, and randomization strata with participants as random effect. Estimates in log scale were back transformed. Baseline was defined as the last non-missing observation on or prior to the start of the dosing. Using Rubin's approach, estimated treatment effects are combined across all imputations to obtain overall estimates.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants randomized to Sparsentan received initial dose of 200 mg (ie, one-half the target dose) tablets over-encapsulated (blinded) with size 00 capsules for the first 2 weeks after randomization. At the Week 2 visit, titration was done up to the target dose (400 mg) based on blood pressure and lack of AEs or after the Week 2 laboratory results were available (ie, between the Week 2 and Week 4 visits).",
+     "id": "OG000",
+     "title": "Sparsentan"
+    },
+    {
+     "description": "Participants randomized to Irbesartan received initial dose of 150 mg (ie, one-half the target dose) tablets over-encapsulated (blinded) with size 00 capsules for the first 2 weeks after randomization. At the Week 2 visit, titration was done up to the target dose (300 mg) based on blood pressure and lack of AEs or after the Week 2 laboratory results were available (ie, between the Week 2 and Week 4 visits).",
+     "id": "OG001",
+     "title": "Irbesartan"
+    }
+   ],
+   "paramType": "GEOMETRIC_LEAST_SQUARES_MEAN",
+   "populationDescription": "The Primary Analysis Set (PAS) is the subset of the Full Analysis Set at the time of the data extraction for primary analysis. Participants in the PAS were analyzed according to randomized treatment assignment.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline (Day 1) and at Week 36",
+   "title": "Percent Change From Baseline in the Urine Protein/Creatinine (UP/C) at Week 36",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Percent change"
+  }
+ ]
+}

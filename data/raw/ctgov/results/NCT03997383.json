@@ -1,0 +1,84 @@
+{
+ "nctId": "NCT03997383",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.693",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "28.692",
+     "estimateComment": "Median difference estimated by the Hodges-Lehmann method, stratified by baseline tafamidis use. Analysis was performed on the 100 multiply-imputed datasets.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0162",
+     "pValueComment": "P-value was determined by the Wilcoxon Rank Sum test,stratified by baseline tafamidis use.Analysis was performed on the 100 multiply-imputed datasets.",
+     "paramType": "Median Difference (Net)",
+     "paramValue": "14.693",
+     "statisticalMethod": "Wilcoxon Rank Sum Test"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "-68.268",
+         "upperLimit": "12.750",
+         "value": "-21.345"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "-54.651",
+         "upperLimit": "29.510",
+         "value": "-8.150"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "178"
+      },
+      {
+       "groupId": "OG001",
+       "value": "181"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Distance in meters walked in 6 minutes, longer distances indicate greater functional capacity. Missing 6MWT values due to non-COVID-19 death or inability to walk due to ATTR disease progression were imputed using the worst 10th percentile change observed in the DB period. Missing 6-MWT values due to other reasons are multiply imputed to create 100 complete datasets. The change from baseline is averaged across the 100 complete datasets.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants were administered placebo IV every 3 weeks during the 12-month double-blind (DB) treatment period. Participants will be administered patisiran 0.3 mg/kg IV every 3 weeks during the 36-month open label extension (OLE) period.",
+     "id": "OG000",
+     "title": "Placebo (DB)/Patisiran (OLE)"
+    },
+    {
+     "description": "Participants were administered patisiran 0.3 mg/kg intravenously (IV) every 3 weeks during the 12-month DB treatment period. Participants will be administered patisiran 0.3 mg/kg IV every 3 weeks during the 36-month OLE period.",
+     "id": "OG001",
+     "title": "Patisiran (DB+OLE)"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "Full Analysis Set: All randomized participants who received any amount of study drug. Participants were analyzed according to the treatment to which they were randomized.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Month 12",
+   "title": "Change From Baseline at Month 12 in Six-Minute Walk Test (6-MWT)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "meters"
+  }
+ ]
+}

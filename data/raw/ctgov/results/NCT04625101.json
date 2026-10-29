@@ -1,0 +1,74 @@
+{
+ "nctId": "NCT04625101",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.4326",
+     "statisticalMethod": "ANCOVA"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.02",
+         "value": "-0.02"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.04",
+         "value": "0.01"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "14"
+      },
+      {
+       "groupId": "OG001",
+       "value": "6"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The ratio of SWI at the end of Week 6 to baseline during the first hour (60 minutes) of NREM sleep based on centralized video-electroencephalograph (EEG) reading using a log base 10 scale. Baseline was defined as the last value measured prior to intake of study treatment on Day 1. SWI was defined as the percentage of seconds with ≥1 spike-wave complex(es) during defined periods of overnight NREM sleep.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "NBI-827104 administered orally daily for up to 13 weeks.",
+     "id": "OG000",
+     "title": "NBI-827104"
+    },
+    {
+     "description": "Placebo administered orally daily for up to 13 weeks.",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Full Analysis Set included all randomized participants who had at least 1 dose of study treatment and at least 1 efficacy video EEG assessment. The number of participants analyzed = the number of participants who were evaluable for this outcome measure.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline to Week 6",
+   "title": "Ratio of Spike-Wave Index (SWI) During First Hour of Nonrapid Eye Movement (NREM) Sleep at Week 6",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Log-transformed ratio"
+  }
+ ]
+}

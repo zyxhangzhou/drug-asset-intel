@@ -1,0 +1,95 @@
+{
+ "nctId": "NCT00453999",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciNumSides": "TWO_SIDED",
+     "groupIds": [
+      "OG000",
+      "OG001",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+     "pValue": "0.306",
+     "statisticalComment": "Differences between groups by log-rank statistic stratified by oxygen saturation and duration of illness at randomization, and flu season.",
+     "statisticalMethod": "Log Rank",
+     "testedNonInferiority": false
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "16.0",
+         "upperLimit": "38.9",
+         "value": "23.7"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "22.0",
+         "upperLimit": "48.7",
+         "value": "37.0"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "22.0",
+         "upperLimit": "37.0",
+         "value": "28.1"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "41"
+      },
+      {
+       "groupId": "OG001",
+       "value": "40"
+      },
+      {
+       "groupId": "OG002",
+       "value": "41"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Time to clinical stability was summarized overall and for individual clinical signs for each treatment group using the method of Kaplan Meier. Subjects who did not experience clinical stability were censored at the date of their last non-missing assessment during the study (whether this assessment occurred as an inpatient or as an outpatient).",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Peramivir (200 mg in 100 mL of solution) intravenous infusion (over 15 minutes) and an orally administered oseltamivir placebo suspension (6.25 mL) treatment",
+     "id": "OG000",
+     "title": "Peramivir 200 mg"
+    },
+    {
+     "description": "Peramivir (400 mg in 100 mL of solution ) intravenous infusion (over 15 minutes) and an orally administered oseltamivir placebo suspension (6.25 mL)",
+     "id": "OG001",
+     "title": "Peramivir 400 mg"
+    },
+    {
+     "description": "Placebo peramivir infusion (over 15 minutes) and a 75-mg dose of oseltamivir suspension (6.25 mL)",
+     "id": "OG002",
+     "title": "Oseltamivir"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "The intent-to-treat infected (ITTI) population included all subjects who were randomized, received at least 1 dose of study drug, and had confirmed influenza infection by viral culture, PCR, and/or paired acute and convalescent serology specimens that demonstrated at least a 4-fold increase in antibody titer against influenza A or B.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "14 days",
+   "title": "Time to Clinical Stability (Kaplan-Meier Estimate)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "hours"
+  }
+ ]
+}

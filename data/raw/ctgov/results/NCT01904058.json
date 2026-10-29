@@ -1,0 +1,159 @@
+{
+ "nctId": "NCT01904058",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-12.59",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "8.03",
+     "groupDescription": "The difference between treatment groups in change from Baseline to Week 13/ET in ItchRO weekly sum score evaluated by analysis of covariance (ANCOVA) using generalized linear model (GLM). The model included terms for treatment group, alkaline phosphatase (ALP) level (strata), treatment group by ALP level interaction and Baseline ItchRO weekly sum score as a covariate. Least squares mean change from Baseline to Week 13/ET, along with 95 percentage (%) confidence interval for mean were presented.",
+     "groupIds": [
+      "OG000",
+      "OG002",
+      "OG003"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+     "pValue": "0.6603",
+     "pValueComment": "p-value (LUM001 LS Mean = Placebo LS Mean).",
+     "paramType": "Least squares mean difference",
+     "paramValue": "-2.28",
+     "statisticalMethod": "ANCOVA"
+    },
+    {
+     "ciLowerLimit": "-14.20",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "6.23",
+     "groupDescription": "The difference between treatment groups in change from Baseline to Week 13/ET in ItchRO weekly sum score was evaluated by ANCOVA using a GLM. The model included terms for treatment group, ALP level (strata), treatment group by ALP level interaction, and Baseline ItchRO weekly sum score as a covariate. Least squares mean change from Baseline to Week 13/ET, along with 95% confidence interval for the mean, were presented.",
+     "groupIds": [
+      "OG001",
+      "OG002",
+      "OG003"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+     "pValue": "0.4380",
+     "pValueComment": "p-value (LUM001 LS Mean = Placebo LS Mean).",
+     "paramType": "Least squares mean difference",
+     "paramValue": "-3.99",
+     "statisticalMethod": "ANCOVA"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "13.363",
+         "value": "48.11"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "13.780",
+         "value": "52.10"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "9.157",
+         "value": "54.64"
+        },
+        {
+         "groupId": "OG003",
+         "spread": "14.110",
+         "value": "49.46"
+        }
+       ]
+      }
+     ],
+     "title": "Baseline"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "15.240",
+         "value": "-24.59"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "19.888",
+         "value": "-27.67"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "18.313",
+         "value": "-26.18"
+        },
+        {
+         "groupId": "OG003",
+         "spread": "17.123",
+         "value": "-22.77"
+        }
+       ]
+      }
+     ],
+     "title": "Change at Week 13/ET"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "21"
+      },
+      {
+       "groupId": "OG001",
+       "value": "21"
+      },
+      {
+       "groupId": "OG002",
+       "value": "11"
+      },
+      {
+       "groupId": "OG003",
+       "value": "13"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Pruritus was assessed using ItchRO measure, administered as an electronic diary (eDiary) which was completed by the participants twice daily (morning and evening). (ItchRO) scores ranged from 0 to 10, with 0 representing no itch and 10 representing very severe itching. The highest score between the morning and evening ItchRO reports represented the daily score: a measure of the worst itching over the previous 24-hour period. The weekly sum score was calculated as the sum of the daily scores for the 7 days prior to the time point being reported: 7 days prior to randomization or 7 days prior to Week 13/ET visit.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "In Cohort A, participants received LUM001 tablet in combination with ursodeoxycholic acid (UDCA) orally once daily at a dosage of 2.5 up to a maximum of 10 milligram (mg) during the dose-escalation period over a 3 week period. Thereafter, participants received LUM001 10 mg tablet along with one placebo matched to LUM001 orally once daily for another 10 weeks, in combination with UDCA. Participants continued UDCA alone for an additional period of 4 weeks.",
+     "id": "OG000",
+     "title": "LUM001 10 mg + UDCA (Cohort A"
+    },
+    {
+     "description": "In Cohort B, participants received LUM001 tablets in combination with UDCA orally once daily at a dosage of 2.5 mg up to a maximum of 20 mg during the dose-escalation period over a 4 week period. Thereafter, participants received LUM001 20 mg (2x10 mg) tablet orally once daily for another 9 weeks, in combination with UDCA. Participants continued UDCA alone for an additional period of 4 weeks.",
+     "id": "OG001",
+     "title": "LUM001 20 mg + UDCA (Cohort B)"
+    },
+    {
+     "description": "In Cohort A, participants received placebo (matched to LUM001) once daily for a period of 13 weeks, in combination with UDCA. Participants continued UDCA alone for an additional period of 4 weeks.",
+     "id": "OG002",
+     "title": "Placebo + UDCA (Cohort A)"
+    },
+    {
+     "description": "In Cohort B, participants received placebo (matched to LUM001) for a period of 13 weeks, in combination with UDCA. Participants continued UDCA alone for an additional period of 4 weeks.",
+     "id": "OG003",
+     "title": "Placebo + UDCA (Cohort B)"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "The mITT population included all participants who were randomized, received at least 1 dose of treatment, and had at least 1 post-baseline ItchRO assessment.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline and Week 13/ET",
+   "title": "Change From Baseline in Pruritus Using Adult Itch Reported Outcome (ItchRO) Weekly Sum Score at Week 13/ Early Termination (ET)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "units on a scale"
+  }
+ ]
+}

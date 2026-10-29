@@ -1,0 +1,97 @@
+{
+ "nctId": "NCT01469039",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciNumSides": "TWO_SIDED",
+     "groupIds": [
+      "OG000"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+     "pValue": "<0.001",
+     "statisticalMethod": "ANCOVA"
+    },
+    {
+     "ciNumSides": "TWO_SIDED",
+     "groupIds": [
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+     "pValue": "<0.001",
+     "statisticalMethod": "ANCOVA"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "1.39",
+         "value": "-20.9"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "1.35",
+         "value": "-21.8"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "1.39",
+         "value": "-9.8"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "196"
+      },
+      {
+       "groupId": "OG001",
+       "value": "204"
+      },
+      {
+       "groupId": "OG002",
+       "value": "196"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The PANSS scale contains 30 questions, each containing an answer range of 1-7. A total PANSS score can range from between 30 to 210; a higher score indicates a worse disease condition.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Intramuscular injection, given monthly",
+     "id": "OG000",
+     "title": "Aripiprazole Lauroxil 441 mg"
+    },
+    {
+     "description": "Intramuscular injection, given monthly",
+     "id": "OG001",
+     "title": "Aripiprazole Lauroxil 882 mg"
+    },
+    {
+     "description": "Intramuscular injection, given monthly",
+     "id": "OG002",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Full Analysis Set (FAS) defined as all randomized subjects who received at least 1 dose of IM study drug and had at least 1 primary efficacy assessment after administration of IM study drug.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Data collected from baseline to day 85",
+   "title": "The Change From Baseline at Day 85 in Positive and Negative Syndrome Scale (PANSS) Total Score",
+   "type": "PRIMARY",
+   "unitOfMeasure": "units on a scale"
+  }
+ ]
+}

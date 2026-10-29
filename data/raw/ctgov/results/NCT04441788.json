@@ -1,0 +1,77 @@
+{
+ "nctId": "NCT04441788",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.2506",
+         "value": "0.0642"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.3581",
+         "value": "-0.0240"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "0.1087",
+         "value": "0.1336"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "5"
+      },
+      {
+       "groupId": "OG001",
+       "value": "5"
+      },
+      {
+       "groupId": "OG002",
+       "value": "4"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "FEV1 is the amount of air which can be forcibly exhaled from the lungs in the first second of a forced exhalation. Baseline was defined as the last non-missing measurement prior to the first study drug administration. The primary time point was defined as the average of weeks 13 and 14. FAS=Full analysis set.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Single-dose of placebo was administered by oral inhalation via nebulizer, once every week for up to 13 weeks.",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Single-dose of ION-827359 37.5 mg was administered by oral inhalation via nebulizer, once every week for up to 13 weeks.",
+     "id": "OG001",
+     "title": "ION-827359 37.5 mg"
+    },
+    {
+     "description": "Single-dose of ION-827359 75 mg was administered by oral inhalation via nebulizer, once every week for up to 13 weeks.",
+     "id": "OG002",
+     "title": "ION-827359 75 mg"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "FAS=all randomized participants who had ≥1 dose of study drug(ION 827359/placebo),≥1 post-Baseline efficacy assessment(i.e.,post-Baseline FEV1,Exacerbations of Chronic pulmonary Disease Tool\\[EXACT\\]Respiratory Symptoms\\[E-RS\\]score,Chronic Obstructive Pulmonary Disease\\[COPD\\]Assessment Test\\[CAT\\]score,or St.George's Respiratory Questionnaire-COPD Specific\\[SGRQ-C score\\],post-bronchodilator FEV1).Overall number analyzed:number of participants with data available for analyses in this outcome measure.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "From Baseline up to average of Weeks 13 and 14",
+   "title": "Change From Baseline to the Primary Time Point in Forced Expiratory Volume in 1 Second (FEV1) Compared to Placebo",
+   "type": "PRIMARY",
+   "unitOfMeasure": "liters"
+  }
+ ]
+}

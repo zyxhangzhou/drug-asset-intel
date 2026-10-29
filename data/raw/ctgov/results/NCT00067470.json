@@ -1,0 +1,82 @@
+{
+ "nctId": "NCT00067470",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "11",
+     "ciPctValue": "95",
+     "ciUpperLimit": "172",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "40",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+     "pValue": "0.025",
+     "paramType": "Mean Difference (Net)",
+     "paramValue": "92",
+     "statisticalMethod": "Regression, Linear",
+     "testedNonInferiority": false
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "154",
+         "value": "109"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "122",
+         "value": "26"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "19"
+      },
+      {
+       "groupId": "OG001",
+       "value": "19"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Number of meters walked in 12 minutes at week 24 minus number of meters walked in 12 minutes at baseline",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Intravenous (IV) recombinant human arylsulfatase(rhASB) at 1.0 mg/kg",
+     "id": "OG000",
+     "title": "rhASB"
+    },
+    {
+     "description": "Intravenous (IV) placebo solution at a volume equivalent to that needed for a 1.0 mg/kg dose of rhASB",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "The efficacy analysis included all subjects except one from the placebo group who withdrew from the study prior to the week 24 assessment.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "baseline and 24 weeks",
+   "title": "Change From Baseline in 12-minute Walk Test at 24 Weeks",
+   "type": "PRIMARY",
+   "unitOfMeasure": "meters"
+  }
+ ]
+}

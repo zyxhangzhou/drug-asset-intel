@@ -1,0 +1,72 @@
+{
+ "nctId": "NCT03548220",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<0.0001",
+     "pValueComment": "2-sided p-value",
+     "statisticalMethod": "Exact Cochran-Mantel-Haenszel"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "40.0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "40"
+      },
+      {
+       "groupId": "OG001",
+       "value": "40"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Hemoglobin response (HR) is defined as a ≥1.5 g/dL (0.93 mmol/L) increase in Hb concentration from baseline that is sustained at 2 or more scheduled assessments at Weeks 16, 20, and 24. The baseline Hb concentration is the average of all available Hb concentrations for a participant during the Screening Period up to the first dose of study treatment. As pre-specified in the protocol, the data for this outcome measure is summarized between the active arm vs the placebo arm (AG-348 5 mg, 20 mg and 50 mg arms are analyzed and reported together in comparison to Placebo).",
+   "groups": [
+    {
+     "description": "Participants received matching placebo to AG-348 tablets, for a period of 12 weeks as an optimized dose. This was followed by matching placebo further, for a period of 12 weeks as a fixed-dose.",
+     "id": "OG000",
+     "title": "Placebo Comparator: Placebo"
+    },
+    {
+     "description": "Participants received AG-348 tablets, 5 mg for 4 weeks followed by the respective optimized dose of 5 mg or 20 mg or 50 mg BID as determined by the investigator, administered orally, up to Weeks 8 and 12 respectively, as an optimized dose and continued to receive the same dose for a period of 12 weeks as a fixed-dose.",
+     "id": "OG001",
+     "title": "Experimental: AG-348"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Full analysis set included all participants who were randomized.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Weeks 16, 20, 24",
+   "title": "Percentage of Participants Achieving a Hemoglobin (Hb) Response (HR)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

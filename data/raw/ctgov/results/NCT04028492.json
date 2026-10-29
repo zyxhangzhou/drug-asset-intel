@@ -1,0 +1,78 @@
+{
+ "nctId": "NCT04028492",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityComment": "P value reported is for LS Mean Difference",
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.7411",
+     "pValueComment": "P value refers to LS mean difference.",
+     "statisticalMethod": "Mixed Models Analysis"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "-1.82",
+         "upperLimit": "-1.29",
+         "value": "-1.55"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "-1.76",
+         "upperLimit": "-1.23",
+         "value": "-1.49"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "102"
+      },
+      {
+       "groupId": "OG001",
+       "value": "99"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The Gastroparesis Core Symptom Daily Diary (GCSDD) is a patient reported diary that asks patients to rate the worst occurrence of each cardinal symptom of gastroparesis (nausea severity, early satiety, postprandial fullness, bloating, and abdominal pain) in the past 24 hours on a Likert scale from 0 (no symptoms) to 5 (very severe). Change from baseline in average nausea severity score is calculated as the biweekly average post value minus baseline value of the daily nausea severity score from the GCSDD. A negative change indicates improvement.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Oral Capsule",
+     "id": "OG000",
+     "title": "Tradipitant"
+    },
+    {
+     "description": "Oral Capsule",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Randomized ITT Population. The Open Label Tradipitant arm was not included in the efficacy analysis.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "12 weeks",
+   "title": "Change From Baseline to Week 12 in the Biweekly Average of Daily Nausea Severity Score Using MMRM Model ITT Population",
+   "type": "PRIMARY",
+   "unitOfMeasure": "score on a scale"
+  }
+ ]
+}

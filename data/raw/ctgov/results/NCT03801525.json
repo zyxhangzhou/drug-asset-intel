@@ -1,0 +1,168 @@
+{
+ "nctId": "NCT03801525",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "33.6"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "149"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "CR rate=percent of participants who achieved CR or complete response with incomplete marrow recovery(CRi).CR=no evidence of new disease,absolute lymphocyte count(ALC) in peripheral blood\\<4x10\\^9 per liter(/L),regression of nodal masses to normal size \\<1.5 centimeters(cm) in longest diameter(LD),normal spleen and liver size,no constitutional symptoms,cytological/pathological evaluation of bone marrow(BM) smear/biopsy must be at least normocellular for age without evidence for typical chronic lymphocytic leukemia(CLL)/small lymphocytic lymphoma(SLL) lymphocytes by morphological criteria,peripheral blood counts with absolute neutrophil count(ANC)≥1.5x10\\^9/L or platelet≥100x10\\^9/L or hemoglobin≥110 grams per liter(g/L) without red blood cell(RBC) transfusions,all without need for exogenous growth factors.CRi=all CR criteria but with persistent anemia,thrombocytopenia,or neutropenia or hypocellular BM that is related to prior/ongoing drug toxicity(and not to CLL/SLL).",
+   "groups": [
+    {
+     "description": "Participants were administered ublituximab, 150 mg, IV infusion on Day 1, 750 mg on Day 2, 900 mg on Days 8 and 15 of Cycle 1, followed by 900 mg on Day 1 of Cycles 2-6; umbralisib, 800 mg, oral tablet, QD through Cycles 1-24; venetoclax, oral tablet, QD, 20 mg on Days 1-7, 50 mg on Days 8-14, 100 mg on Days 15-21, 200 mg on Days 22-28 of Cycle 4, followed by 400 mg on Days 1-28 of Cycles 5-24. MRD positive participants were administered umbralisib, 800 mg, oral tablet, QD, on Days 1-28 from Cycle 25 onwards (1 Cycle = 28 days), until disease progression, unacceptable toxicity, or withdrawal from the study.",
+     "id": "OG000",
+     "title": "Phase 2: Ublituximab + Umbralisib + Venetoclax (U2-V)"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "ITT population for Phase 2 consisted of all participants who received at least one dose of each study drug (ublituximab, umbralisib, and venetoclax). Percentages were rounded off to the nearest decimal point.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to 43.2 months",
+   "title": "Phase 2: Complete Response (CR) Rate as Per International Workshop on Chronic Lymphocytic Leukemia (iwCLL) 2018 Criteria",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "93.3"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "149"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "ORR=percent of participants who achieve CR,CRi,partial response(PR) or PR with lymphocytosis(PR-L).CR=no evidence of new disease;ALC\\<4x10\\^9/L;regression of nodal masses to\\<1.5cm LD;normal spleen,liver size;no constitutional symptoms;cytological/pathological evaluation of BM smear/biopsy must be at least normocellular for age;ANC≥1.5x10\\^9/L,platelet≥100x10\\^9/L,Hb≥110g/L.CRi=CR criteria but with persistent anemia,thrombocytopenia,or neutropenia/hypocellular BM related to prior/ongoing drug toxicity.PR=no evidence of new disease,meets≥2 criteria:≥50% decrease from baseline(BL) in ALC(or decrease to\\<4x10\\^9/L) or sum of products(SPD) of target nodal lesions or CLL/SLL marrow infiltrate/Blymphoid;no target,splenic,liver,or non-target disease with worsening that meets criteria for definitive progressive disease(PD);platelet\\>100x10\\^9/L or Hb≥110g/L or ≥50% increase from BL in each.PR-L=PR criteria but not had ≥50% decrease from BL in ALC/decrease to\\<4x10\\^9/L.",
+   "groups": [
+    {
+     "description": "Participants were administered ublituximab, 150 mg, IV infusion on Day 1, 750 mg on Day 2, 900 mg on Days 8 and 15 of Cycle 1, followed by 900 mg on Day 1 of Cycles 2-6; umbralisib, 800 mg, oral tablet, QD through Cycles 1-24; venetoclax, oral tablet, QD, 20 mg on Days 1-7, 50 mg on Days 8-14, 100 mg on Days 15-21, 200 mg on Days 22-28 of Cycle 4, followed by 400 mg on Days 1-28 of Cycles 5-24. MRD positive participants were administered umbralisib, 800 mg, oral tablet, QD, on Days 1-28 from Cycle 25 onwards (1 Cycle = 28 days), until disease progression, unacceptable toxicity, or withdrawal from the study.",
+     "id": "OG000",
+     "title": "Phase 2: Ublituximab + Umbralisib + Venetoclax (U2-V)"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "ITT population for Phase 2 consisted of all participants who received at least one dose of each study drug (ublituximab, umbralisib, and venetoclax). Percentages were rounded off to the nearest decimal point.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to 43.2 months",
+   "title": "Phase 2: Overall Response Rate (ORR) Per iwCLL 2018 Criteria",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.219",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "2.755",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.6960",
+     "paramType": "Hazard Ratio (HR)",
+     "paramValue": "0.778",
+     "statisticalMethod": "Log Rank"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "comment": "Median was not estimable due to low number of participants with events.",
+         "groupId": "OG000",
+         "lowerLimit": "0.0",
+         "upperLimit": "15.7",
+         "value": "NA"
+        },
+        {
+         "comment": "Median was not estimable due to low number of participants with events.",
+         "groupId": "OG001",
+         "lowerLimit": "0.0",
+         "upperLimit": "13.1",
+         "value": "NA"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "56"
+      },
+      {
+       "groupId": "OG001",
+       "value": "56"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "PFS was assessed in participants treated with U2-V compared with U2. PFS was defined as the interval between randomization and the date of definitive PD (as confirmed by the IRC) or death due to any cause, whichever occurs first. Participants who had no event (progression or death) were censored at the day of their last adequate disease assessment. PD= appearance of new nodes \\>1.5 cm in the LD, \\>50% increase in greatest diameter, new or recurrent hepatomegaly or splenomegaly, new unequivocal extra-nodal lesion, new non-target disease, ≥50% increase from the nadir in the sum of products of diameters (SPD) of target lesions, ≥50% increase in the LD of an individual node or extra-nodal mass, splenic/hepatic enlargement of ≥50% from nadir, unequivocal increase in the size of non-target disease, transformation to a more aggressive histology, decrease in platelet count or Hgb, \\>50% decrease from the highest on-study platelet count, \\>20 g/L decrease from the highest on-study Hgb.",
+   "dispersionType": "Full Range",
+   "groups": [
+    {
+     "description": "Participants were administered ublituximab, 150 mg, IV infusion on Day 1, 750 mg on Day 2, 900 mg on Days 8 and 15 of Cycle 1, followed by 900 mg on Day 1 of Cycles 2-6, 9,12, and 15; umbralisib, 800 mg, oral tablet, QD through Cycles 1-15; venetoclax, oral tablet, QD, 20 mg on Days 1-7, 50 mg on Days 8-14, 100 mg on Days 15-21, 200 mg on Days 22-28 of Cycle 4, followed by 400 mg on Days 1-28 of Cycles 5-15 (1 Cycle = 28 days).",
+     "id": "OG000",
+     "title": "Phase 3: Ublituximab + Umbralisib + Venetoclax (U2-V)"
+    },
+    {
+     "description": "Participants were administered ublituximab, 150 mg, IV infusion on Day 1, 750 mg on Day 2, 900 mg on Days 8 and 15 of Cycle 1, followed by 900 mg on Day 1 of Cycles 2-6, then every three cycles along with umbralisib, 800 mg, oral tablet, QD (1 Cycle = 28 days) from Cycle 1 until disease progression, unacceptable toxicity, or withdrawal from the study.",
+     "id": "OG001",
+     "title": "Phase 3: Ublituximab + Umbralisib (U2)"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "ITT population for Phase 3 consisted of all participants who were randomized. Percentages were rounded off to the nearest decimal point.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to 43.2 months",
+   "title": "Phase 3: Progression-Free Survival (PFS) Per iwCLL 2018 Criteria",
+   "type": "PRIMARY",
+   "unitOfMeasure": "months"
+  }
+ ]
+}

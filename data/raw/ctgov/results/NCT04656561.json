@@ -1,0 +1,107 @@
+{
+ "nctId": "NCT04656561",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "0.30347",
+     "groupIds": [
+      "OG002",
+      "OG003"
+     ],
+     "nonInferiorityComment": "Analysis was performed for ANX007 groups pooled (ANX007 EM + EOM) versus sham.",
+     "nonInferiorityType": "OTHER",
+     "pValue": "0.5503",
+     "paramType": "Slope",
+     "paramValue": "0.1819",
+     "statisticalMethod": "ANCOVA"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.36343",
+         "value": "1.9902"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.34824",
+         "value": "2.1575"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "0.30177",
+         "value": "2.0837"
+        },
+        {
+         "groupId": "OG003",
+         "spread": "0.34239",
+         "value": "1.9019"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "38"
+      },
+      {
+       "groupId": "OG001",
+       "value": "43"
+      },
+      {
+       "groupId": "OG002",
+       "value": "81"
+      },
+      {
+       "groupId": "OG003",
+       "value": "45"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "GA lesion area was assessed by fundus autofluorescence (FAF) imaging, by an independent central reading center for GA lesion area. A linear mixed effect (LME) model was used to analyze the rate of change from baseline to Month 12 GA lesion area (mm2) for all groups. The model included fixed effects of treatment, time point, treatment by time point interaction, baseline GA lesion area, baseline GA lesion area by timepoint interaction, and baseline lesion multifocality. A random intercept for participant ID and a random slope for timepoint are included to account for repeated measurements for participants. The GA lesion area was analyzed as reported (that is, not transformed).",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Participants received ANX007 once every month (EM) for 12 months",
+     "id": "OG000",
+     "title": "ANX007 EM"
+    },
+    {
+     "description": "Participants received ANX007 once every other month (EOM) for 12 months",
+     "id": "OG001",
+     "title": "ANX007 EOM"
+    },
+    {
+     "description": "Participants received ANX007 once every month (EM) or once every other month (EOM) for 12 months.",
+     "id": "OG002",
+     "title": "ANX007 Pooled"
+    },
+    {
+     "description": "Participants received sham to match ANX007 either EM or EOM for 12 months.",
+     "id": "OG003",
+     "title": "Sham"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Non-subfoveal participants at baseline from the ITT population (all randomized participants). Here, 'Number of participants analyzed' refers to the number of evaluable participants analyzed for this outcome measure.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline to Month 12",
+   "title": "Rate of Change (Slope) From Baseline to Month 12 in GA Lesion Area",
+   "type": "PRIMARY",
+   "unitOfMeasure": "mm^2/year"
+  }
+ ]
+}

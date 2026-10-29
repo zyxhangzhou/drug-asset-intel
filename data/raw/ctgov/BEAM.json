@@ -1,0 +1,660 @@
+{
+ "aliases": [
+  "Beam Therapeutics"
+ ],
+ "studies": [
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "BEAM-101 manufactured with autologous CD34+ hematopoietic stem cells collected by plerixafor mobilization and edited ex vivo. No maximum dose has been set for BEAM-101; all of the gene edited cells that pass release specifications will be administered to the patient. BEAM 101 will be administered as a single dose by IV infusion.",
+       "interventionNames": [
+        "Biological: BEAM-101"
+       ],
+       "label": "BEAM-101",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "BEAM-101"
+       ],
+       "description": "Single dose of BEAM-101 administered by IV following myeloablative conditioning with busulfan",
+       "name": "BEAM-101",
+       "type": "BIOLOGICAL"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Sickle Cell Disease"
+     ],
+     "keywords": [
+      "Gene Editing",
+      "Sickle Cell",
+      "Severe Sickle Cell"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 15,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "BEACON",
+     "briefTitle": "BEACON: A Study Evaluating the Safety and Efficacy of BEAM-101 in Patients With Severe Sickle Cell Disease",
+     "nctId": "NCT05456880",
+     "officialTitle": "A Phase 1/2 Study Evaluating the Safety and Efficacy of a Single Dose of Autologous CD34+ Base Edited Hematopoietic Stem Cells (BEAM-101) in Patients With Sickle Cell Disease and Severe Vaso-Occlusive Crises (Beacon Trial)",
+     "orgStudyIdInfo": {
+      "id": "BTX-AUT-001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Beam Therapeutics Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Beam Therapeutics Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2028-02",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-12-16",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-12-15",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2028-02",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2022-08-30",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-12",
+     "studyFirstPostDateStruct": {
+      "date": "2022-07-13",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2022-06-23",
+     "studyFirstSubmitQcDate": "2022-07-11"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Lymphodepletion regimen including fludarabine, cyclophosphamide and alemtuzumab",
+       "interventionNames": [
+        "Biological: BEAM-201"
+       ],
+       "label": "Fludarabine, cyclophosphamide and alemtuzumab",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Lymphodepletion regimen without Alz but consisting of the same dose of Flu/Cy as in the other arm",
+       "interventionNames": [
+        "Biological: BEAM-201"
+       ],
+       "label": "Fludarabine, cyclophosphamide without alemtuzumab",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Fludarabine, cyclophosphamide and alemtuzumab",
+        "Fludarabine, cyclophosphamide without alemtuzumab"
+       ],
+       "description": "A single dose of BEAM-201 administered by IV following one of two lymphodepletion regimens",
+       "name": "BEAM-201",
+       "type": "BIOLOGICAL"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Lymphoblastic Lymphoma",
+      "T-Cell Lymphoblastic Leukemia/Lymphoma",
+      "Lymphoblastic Leukemia"
+     ],
+     "keywords": [
+      "Lymphoblastic Leukemia",
+      "Lymphoblastic Lymphoma",
+      "Base editing",
+      "CAR-T"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "interventionModelDescription": "The maximum number of patients for this study is approximately 102 patients:\n\n* 36 patients in the Phase 1 dose exploration\n* approximately 12 patients in the Phase 1 dose-expansion cohorts\n* 6 patients in the pediatric cohort\n* approximately 48 patients in the Phase 2 cohort.",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 5,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Study Evaluating the Safety and Efficacy of BEAM-201 in Relapsed/Refractory T-Cell Acute Lymphoblastic Leukemia (T-ALL) or T-Cell Lymphoblastic Lymphoma (T-LL)",
+     "nctId": "NCT05885464",
+     "officialTitle": "A Phase 1/2, Dose-Exploration and Dose-Expansion Study Evaluating the Safety and Efficacy of Multiplex Base-Edited, Allogeneic Anti-CD7 CAR-T Cells (BEAM-201) in Relapsed/Refractory T-Cell Acute Lymphoblastic Leukemia (T-ALL) or T-Cell Lymphoblastic Lymphoma (T-LL)",
+     "orgStudyIdInfo": {
+      "id": "BTX-ALO-001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Beam Therapeutics Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Beam Therapeutics Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2026-12",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-01-13",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-01-10",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2026-12",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2023-05-25",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-01",
+     "studyFirstPostDateStruct": {
+      "date": "2023-06-02",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2023-05-23",
+     "studyFirstSubmitQcDate": "2023-06-01"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: BEAM-302"
+       ],
+       "label": "BEAM-302 Drug Product",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "BEAM-302 Drug Product"
+       ],
+       "description": "BEAM-302 is a lipid nanoparticle (LNP)-based therapy for the treatment of patients with AATD",
+       "name": "BEAM-302",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Alpha 1-Antitrypsin Deficiency"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 192,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Study to Evaluate the Safety and Efficacy of BEAM-302 in Adult Patients With Alpha-1 Antitrypsin Deficiency (AATD)",
+     "nctId": "NCT06389877",
+     "officialTitle": "A Phase 1/2 Dose-exploration and Dose-expansion Study to Evaluate the Safety and Efficacy of BEAM-302 in Adult Patients With Alpha-1 Antitrypsin Deficiency (AATD)-Associated Lung Disease and/or Liver Disease",
+     "orgStudyIdInfo": {
+      "id": "BTX-302-001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Beam Therapeutics Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Beam Therapeutics Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2030-05",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-05",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-09-30",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2028-05",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2024-06-19",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-09",
+     "studyFirstPostDateStruct": {
+      "date": "2024-04-29",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2024-04-22",
+     "studyFirstSubmitQcDate": "2024-04-25"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "BEAM-301 consists of adenine base editor messenger ribonucleic acid (mRNA) and single guide ribonucleic acid (gRNA) formulated in lipid nanoparticles (LNPs) for intravenous (IV) administration.",
+       "interventionNames": [
+        "Drug: BEAM-301: Single dose of BEAM-301 administered by IV"
+       ],
+       "label": "BEAM-301",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "BEAM-301"
+       ],
+       "description": "BEAM-301 is designed to correct the G6PC1 c.247C\\>T allele via an A:T-to-G:C base-pair substitution, resulting in restoration of G6Pase-α catalytic activity.",
+       "name": "BEAM-301: Single dose of BEAM-301 administered by IV",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Glycogen Storage Disease Type Ia"
+     ],
+     "keywords": [
+      "GSDIa",
+      "GSD1a"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SEQUENTIAL",
+      "interventionModelDescription": "up to 4 planned, single-ascending-dose, dose-exploration cohorts",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 36,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Phase 1/2, Dose-Exploration Study to Evaluate the Safety and Efficacy of BEAM-301 in Patients With Glycogen Storage Disease Type Ia (GSDIa)",
+     "nctId": "NCT06735755",
+     "officialTitle": "A Phase 1/2, Dose-Exploration Study to Evaluate the Safety and Efficacy of BEAM-301 in Patients With Glycogen Storage Disease Type Ia (GSDIa) Homozygous or Compound Heterozygous for the G6PC1 c.247C>T (p.R83C) Variant",
+     "orgStudyIdInfo": {
+      "id": "BTX-301-001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Beam Therapeutics Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Beam Therapeutics Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2027-12-30",
+      "type": "ESTIMATED"
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-12-15",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-12-09",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-12-30",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2024-12-06",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-12",
+     "studyFirstPostDateStruct": {
+      "date": "2024-12-16",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2024-12-06",
+     "studyFirstSubmitQcDate": "2024-12-11"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "BEAM-103 is a monoclonal antibody that will be administered in single dose ascending dose cohorts as an intravenous infusion through the arm.",
+       "interventionNames": [
+        "Drug: BEAM-103"
+       ],
+       "label": "BEAM-103 Drug Product",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Normal Saline Solution will be administered as a matching place in single dose ascending dose cohorts as an intravenous infusion through the arm.",
+       "interventionNames": [
+        "Drug: Placebo Comparator"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "BEAM-103 Drug Product"
+       ],
+       "description": "• BEAM-103 is a monoclonal antibody administered as a single intravenous dose",
+       "name": "BEAM-103",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "• The matching placebo comparator is administered as a single intravenous dose",
+       "name": "Placebo Comparator",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Healthy Subjects",
+      "Healthy Participant Study"
+     ],
+     "keywords": [
+      "ESCAPE",
+      "BEAM-103"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "SINGLE",
+       "whoMasked": [
+        "PARTICIPANT"
+       ]
+      },
+      "primaryPurpose": "BASIC_SCIENCE"
+     },
+     "enrollmentInfo": {
+      "count": 30,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "This is a Phase 1, Randomized, Single-blind, Placebo-controlled Study to Assess the Safety, Pharmacokinetics (PK), and Pharmacodynamics (PD) of BEAM-103 in Healthy Subjects",
+     "nctId": "NCT07304791",
+     "officialTitle": "A Randomized, Single-Blind, Placebo-Controlled, Phase 1 Single Ascending Dose Study to Assess the Safety, Pharmacokinetics, and Pharmacodynamics of BEAM-103 in Healthy Subjects",
+     "orgStudyIdInfo": {
+      "id": "BTX-103-001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Beam Therapeutics Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Beam Therapeutics Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2026-05-29",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-12-26",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-12-12",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2026-01-29",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2025-10-27",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-11",
+     "studyFirstPostDateStruct": {
+      "date": "2025-12-26",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-09-29",
+     "studyFirstSubmitQcDate": "2025-12-12"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "All participants who received BEAM-101 in the BTX-AUT-001 trial will be asked to participate in this long-term follow-up study",
+       "interventionNames": [
+        "Drug: Long-Term Follow-up Study of patients who received BEAM-101"
+       ],
+       "label": "BTX-101-002 Long-term Follow-up on Patients who received BEAM-101"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "BTX-101-002 Long-term Follow-up on Patients who received BEAM-101"
+       ],
+       "description": "This is a Long-Term Follow-up Study of patients who received a single dose of BEAM-101 administered by IV following myeloablative conditioning with busulfan",
+       "name": "Long-Term Follow-up Study of patients who received BEAM-101",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Hemoglobinopathy",
+      "Sickle Cell Disease"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "observationalModel": "CASE_ONLY",
+      "timePerspective": "PROSPECTIVE"
+     },
+     "enrollmentInfo": {
+      "count": 50,
+      "type": "ESTIMATED"
+     },
+     "patientRegistry": false,
+     "studyType": "OBSERVATIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Long-term Follow-up Study in Patients Who Received BEAM-101",
+     "nctId": "NCT07373639",
+     "officialTitle": "A Long-term Follow-up Study in Patients With Hemoglobinopathy Who Received Autologous CD34+ Edited Hematopoietic Stem Cells",
+     "orgStudyIdInfo": {
+      "id": "BTX-101-002"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Beam Therapeutics Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Beam Therapeutics Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2043-02-12",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-01-28",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-01-23",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2043-02-12",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2025-12-15",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-11",
+     "studyFirstPostDateStruct": {
+      "date": "2026-01-28",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2026-01-06",
+     "studyFirstSubmitQcDate": "2026-01-23"
+    }
+   }
+  }
+ ]
+}

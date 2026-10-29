@@ -1,0 +1,63 @@
+{
+ "nctId": "NCT04185363",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "1.4416",
+         "value": "-1.633"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "1.3649",
+         "value": "-1.602"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "21"
+      },
+      {
+       "groupId": "OG001",
+       "value": "41"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The Score on the ItchRo scale is a score on a 5-point scale from 0 (no itch) to 4 (very severe itch)",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "The Primary Cohort in MRX-503 includes subjects with non-truncated PFIC2 (nt-PFIC2) mutations previously enrolled in MRX-502.",
+     "id": "OG000",
+     "title": "The Primary Cohort"
+    },
+    {
+     "description": "The PFIC (All PFIC) Cohort in MRX-503 combines the nt-PFIC2 primary cohort with other PFIC types to evaluate safety and efficacy across the wider PFIC population.",
+     "id": "OG001",
+     "title": "PFIC Cohort"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Change from baseline values were calculated only for participants with both a non-missing baseline value and a non-missing post-baseline value at the specified visit/time period. Participants without a post-baseline assessment at that visit were not included in the analysis for that time point. Therefore, the number of participants analyzed varies by visit and may be less than the total number in the analysis population.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "From Baseline to Weeks 75-78",
+   "title": "Mean Change From Baseline Over Time in the Average Morning ItchRO(Obs) Severity Score",
+   "type": "PRIMARY",
+   "unitOfMeasure": "score on a scale"
+  }
+ ]
+}

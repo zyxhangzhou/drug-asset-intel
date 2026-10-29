@@ -1,0 +1,82 @@
+{
+ "nctId": "NCT04806451",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-403.427",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-132.124",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "68.313",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0002",
+     "paramType": "LS Mean Difference",
+     "paramValue": "-267.775",
+     "statisticalMethod": "ANCOVA"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "56.198",
+         "value": "70.986"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "39.369",
+         "value": "-196.789"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "34"
+      },
+      {
+       "groupId": "OG001",
+       "value": "69"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Blood serum samples were collected for the analysis of serum androstenedione concentrations. Least square (LS) mean and standard error (SE) were calculated using analysis of covariance (ANCOVA) model.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Participants received crinecerfont-matched placebo orally twice daily for 28 weeks during the DB placebo-controlled treatment period. After the 28-week DB placebo-controlled treatment period, there was a 24-week, OL treatment period, during which all participants received crinecerfont at doses based on their Week 28 body weight.",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Participants received crinecerfont orally twice daily for 28 weeks during the DB placebo-controlled treatment period. Dose assignment from Day 1 to Week 28 was based on the participant's weight at Day 1. After the 28-week DB placebo-controlled treatment period, there was a 24-week, OL treatment period, during which all participants received crinecerfont at doses based on their Week 28 body weight.",
+     "id": "OG001",
+     "title": "Crinecerfont"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Full Analysis Set included all randomized participants.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Week 4",
+   "title": "Change From Baseline in Serum Androstenedione at Week 4",
+   "type": "PRIMARY",
+   "unitOfMeasure": "ng/dL"
+  }
+ ]
+}

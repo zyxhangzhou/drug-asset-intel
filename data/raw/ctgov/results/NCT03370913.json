@@ -1,0 +1,66 @@
+{
+ "nctId": "NCT03370913",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciNumSides": "TWO_SIDED",
+     "estimateComment": "77% reduction",
+     "groupDescription": "Change from baseline in the ABR for all bleeds (post-baseline EEP value - baseline value)",
+     "groupIds": [
+      "OG000"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<0.0001",
+     "pValueComment": "P-values were for 2-sided test against 0.",
+     "paramType": "% Reduction from Baseline",
+     "paramValue": "-77.0",
+     "statisticalComment": "Superiority was tested by1-sample t-test to test null hypothesis that change is \\>=0. Only negative changes represent efficacy.",
+     "statisticalMethod": "t-test, 2 sided"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "6.93",
+         "value": "-4.13"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "112"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "All bleeds comprises both treated and non-treated bleeds. In this definition, all bleeds are included, irrespective of treatment with coagulation factors, with the following exception: bleeds due to surgery/procedure are excluded. All bleeds are any reported bleeding events regardless of the use of FVIII or other treatments.\n\nABR for all bleeds= Number of bleeding episodes for all bleeds during the calculation period / total number of days during the calculation period \\* 365.25.\n\nBaseline: prior to BMN 270 infusion while receiving FVIII prophylaxis.\n\nEEP: From Week 5 post-BMN 270 infusion (Study Day 33) or the end of FVIII prophylaxis plus the washout period (3 days for products of standard half-life or plasma-derived and 5 days for products of extended half-life), whichever is later, to last visit by the data cut-off for the 2-year analysis, hereafter referred to as \"Post FVIII Prophylaxis to Last Visit\").",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Single administration of valoctocogene roxaparvovec at a dose of 6E13 vg/kg\n\nvaloctocogene roxaparvovec: Adeno-Associated Virus Vector-Mediated Gene Transfer of Human Factor VIII in Hemophilia A subjects",
+     "id": "OG000",
+     "title": "BMN 270 (Valoctocogene Roxaparvovec)"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Rollover Population (n=112): Subjects who completed approximately 6 months participation in the non-interventional study 270-902 before enrolling in 270-301, were HIV-negative at study screening, and received BMN 270 infusion in 270-301.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline to efficacy evaluation period (EEP)",
+   "title": "Change From Baseline in Annualized Number of Bleeding Episodes Irrespective of Exogenous FVIII Replacement Treatment [Annualized Bleeding Rate (ABR) for All Bleeds] in EEP.",
+   "type": "PRIMARY",
+   "unitOfMeasure": "bleeds/year"
+  }
+ ]
+}

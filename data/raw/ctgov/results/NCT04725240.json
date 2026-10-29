@@ -1,0 +1,61 @@
+{
+ "nctId": "NCT04725240",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "groupIds": [
+      "OG000"
+     ],
+     "nonInferiorityType": "OTHER",
+     "pValue": "<0.0001",
+     "pValueComment": "Threshold for significance at 0.001 level.",
+     "statisticalMethod": "One-sided exact binomial test"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "69.0",
+         "upperLimit": "98.0",
+         "value": "88.9"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "18"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "BMI was calculated using participant's weight and height assessments, using the following formula: BMI = kg/m\\^2. Baseline was defined as the most recent measurement prior to the first administration of study drug.",
+   "dispersionType": "90% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants received setmelanotide QD via SC injection for 16 weeks. All participants initiated treatment with setmelanotide (starting dose being age dependent) and dose escalated up to a maximum dose of 3.0 mg QD.",
+     "id": "OG000",
+     "title": "Setmelanotide"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Participants in the Full Analysis Set were analyzed.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline to 16 weeks",
+   "title": "Percentage of Participants With ≥ 5% Reduction in BMI From Baseline After 16 Weeks of Setmelanotide Treatment",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

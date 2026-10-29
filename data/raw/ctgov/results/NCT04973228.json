@@ -1,0 +1,85 @@
+{
+ "nctId": "NCT04973228",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "1.75",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "4.45",
+     "estimateComment": "Stratified by pooled site and IGA strata with multiple imputation to handle missing data",
+     "groupDescription": "IGA Success at Week 8",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<0.0001",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "2.79",
+     "statisticalComment": "Stratified by pooled site and IGA strata with multiple imputation to handle missing data",
+     "statisticalMethod": "Cochran-Mantel-Haenszel"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "74",
+         "upperLimit": "84",
+         "value": "80"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "50",
+         "upperLimit": "66",
+         "value": "58"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "304"
+      },
+      {
+       "groupId": "OG001",
+       "value": "153"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The percentage of participants achieving IGA \"success\" is presented. Success is defined as a score of 0 ('clear') or 1 ('almost clear') plus a 2-point improvement at Week 8. The IGA is 5-point scale assessing the severity of seborrheic dermatitis with total scores ranging from 0 ('clear') to 4 ('severe') \\[higher scores indicating greater severity\\].",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants with seborrheic dermatitis applied roflumilast foam 0.3% once daily (QD) for 8 weeks.",
+     "id": "OG000",
+     "title": "Roflumilast Foam 0.3%"
+    },
+    {
+     "description": "Participants with seborrheic dermatitis applied vehicle foam QD for 8 weeks.",
+     "id": "OG001",
+     "title": "Vehicle Foam"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "All randomized participants are included.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Week 8",
+   "title": "Achievement of Success on the Investigator Global Assessment (IGA) at Week 8",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

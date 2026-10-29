@@ -1,0 +1,115 @@
+{
+ "nctId": "NCT02274558",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-4.2",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-2.0",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "0.6",
+     "groupDescription": "Control for multiplicity was accomplished through the a fixed-sequence testing procedure for Week 6 outcomes:\n\n* AIMS dyskinesia total score mean change from baseline (CFB): valbenazine 80 mg vs. placebo.\n* CGI-TD mean score: VBZ 80 mg vs. PBO.\n* AIMS: VBZ 40 mg vs. PBO.\n* CGI-TD: VBZ 40 mg vs. PBO.\n\nFor a test result in the above list to be considered statistically significant, all of the test results higher in the list must have been significant at the 0.05 level of significance.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "OTHER",
+     "pValue": "<0.0001",
+     "paramType": "Mean Difference (Final Values)",
+     "paramValue": "-3.1",
+     "statisticalMethod": "Mixed-effect Model Repeated Measures"
+    },
+    {
+     "ciLowerLimit": "-3.0",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-0.7",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "0.6",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "OTHER",
+     "pValue": "0.0021",
+     "pValueComment": "Nominal P-value, not adjusted for multiplicity. See comments in above statistical analysis overview regarding the fixed-sequence testing procedure to control for multiplicity.",
+     "paramType": "Mean Difference (Final Values)",
+     "paramValue": "-1.8",
+     "statisticalMethod": "Mixed-effect Model Repeated Measures"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.4",
+         "value": "-0.1"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.4",
+         "value": "-3.2"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "0.4",
+         "value": "-1.9"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "69"
+      },
+      {
+       "groupId": "OG001",
+       "value": "70"
+      },
+      {
+       "groupId": "OG002",
+       "value": "63"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Severity of TD symptoms assessed by AIMS dyskinesia total score (sum of items 1 through 7), as assessed by blinded central AIMS video raters. The AIMS Total Dyskinesia Score rates a total of 7 items, rating involuntary movement from 0 (no dyskinesia) to 4 (severe dyskinesia). Items 1 through 7 include facial and oral movements (Items 1-4), extremity movements (Items 5-6), and trunk movements (Item 7). The AIMS dyskinesia total score for Items 1-7 ranges from 0 to 28; a higher score reflects increased severity.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Participants received Placebo capsule (matching valbenazine capsules) once daily for 6 weeks.",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Participants received valbenazine 40mg capsule once daily for 1 week, then 80mg capsule once daily for 5 weeks.",
+     "id": "OG001",
+     "title": "Valbenazine 80mg"
+    },
+    {
+     "description": "Participants received valbenazine 40mg capsule once daily for 6 weeks.",
+     "id": "OG002",
+     "title": "Valbenazine 40mg"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Intent to treat (ITT) analysis set (all subjects in the safety analysis set who have a baseline (Day -1) AIMS dyskinesia total score value and at least one post-randomization AIMS dyskinesia total score value reported during the placebo-controlled treatment period).",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline and Week 6",
+   "title": "Abnormal Involuntary Movement Scale (AIMS) Dyskinesia Total Score Change From Baseline at Week 6",
+   "type": "PRIMARY",
+   "unitOfMeasure": "scores on a scale"
+  }
+ ]
+}

@@ -1,0 +1,1853 @@
+{
+ "aliases": [
+  "Candel Therapeutics"
+ ],
+ "studies": [
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "This study is an extension of evaluation of the surgical resection arm, Arm B, from a phase Ib study in which dose escalation on arm B was completed.",
+       "interventionNames": [
+        "Biological: CAN-2409",
+        "Drug: Valacyclovir",
+        "Drug: Temozolomide",
+        "Radiation: Radiation therapy"
+       ],
+       "label": "Single arm",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Single arm"
+       ],
+       "description": "Single dose of 3x10e11 vector particles of CAN-2409 delivered to the tumor bed after resection on day 0.",
+       "name": "CAN-2409",
+       "type": "BIOLOGICAL"
+      },
+      {
+       "armGroupLabels": [
+        "Single arm"
+       ],
+       "description": "Single course of valacyclovir at dose of 2 grams orally three times per day for 14 days starting on day 1-3",
+       "name": "Valacyclovir",
+       "otherNames": [
+        "Valtrex"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Single arm"
+       ],
+       "description": "Concomitant TMZ will be administered orally once a day at a dose of 75 mg/m2 starting the next day after completing prodrug and continued for 6 weeks. Adjuvant TMZ will be administered days 1 to 5 of a 28-day cycle for 6 cycles with 150 mg/m2 administered for cycle 1, and 150 to 200 mg/m2 administered for cycles 2 to 6. Adjuvant treatment will start 1 month following completing RT.",
+       "name": "Temozolomide",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Single arm"
+       ],
+       "description": "Radiation will be administered to up-front patients as per standard of care for the patient. It will start 3-7 days after CAN-2409 injection, preferably closer to 3 days. It will consist of standard external field radiation, limited to the area of tumor and brain adjacent to tumor, fractionated at doses of 200cGy per day for approximately 6 weeks to a total of 5500-6000 cGy.",
+       "name": "Radiation therapy",
+       "type": "RADIATION"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Malignant Glioma",
+      "Glioblastoma Multiforme",
+      "Anaplastic Astrocytoma",
+      "High Grade Glioma"
+     ],
+     "keywords": [
+      "Immunotherapy",
+      "Cytotoxicity",
+      "Tumor vaccine",
+      "CAN-2409",
+      "AdV-tk",
+      "Candel Therapeutics, Inc."
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 52,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "BrTK02",
+     "briefTitle": "Phase 2a Study of CAN-2409 With Standard Radiation Therapy for Malignant Glioma",
+     "nctId": "NCT00589875",
+     "officialTitle": "A Phase IIa Study of AdV-tk + Valacyclovir Gene Therapy in Combination With Standard Radiation Therapy for Malignant Gliomas",
+     "orgStudyIdInfo": {
+      "id": "BrTK02"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Candel Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Candel Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2016-08",
+      "type": "ACTUAL"
+     },
+     "dispFirstPostDateStruct": {
+      "date": "2017-04-11",
+      "type": "ACTUAL"
+     },
+     "dispFirstSubmitDate": "2017-04-08",
+     "dispFirstSubmitQcDate": "2017-04-08",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2024-04-03",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2024-03-07",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2015-12",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2024-04-03",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2024-02-05",
+     "resultsFirstSubmitQcDate": "2024-03-07",
+     "startDateStruct": {
+      "date": "2007-03"
+     },
+     "statusVerifiedDate": "2024-03",
+     "studyFirstPostDateStruct": {
+      "date": "2008-01-10",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2007-12-27",
+     "studyFirstSubmitQcDate": "2007-12-27"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "AdV-tk + valacyclovir in combination with standard of care radiation",
+       "interventionNames": [
+        "Biological: AdV-tk",
+        "Drug: valacyclovir",
+        "Radiation: Radiation"
+       ],
+       "label": "AdV-tk",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "AdV-tk"
+       ],
+       "name": "AdV-tk",
+       "type": "BIOLOGICAL"
+      },
+      {
+       "armGroupLabels": [
+        "AdV-tk"
+       ],
+       "name": "valacyclovir",
+       "otherNames": [
+        "Prodrug"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "AdV-tk"
+       ],
+       "name": "Radiation",
+       "otherNames": [
+        "Radiation therapy"
+       ],
+       "type": "RADIATION"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Malignant Glioma",
+      "Recurrent Ependymoma"
+     ],
+     "keywords": [
+      "Malignant glioma",
+      "Glioblastoma multiforme",
+      "Anaplastic astrocytoma",
+      "Recurrent ependymoma",
+      "Gene therapy",
+      "Immunotherapy"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 8,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Phase I Study of AdV-tk + Prodrug Therapy in Combination With Radiation Therapy for Pediatric Brain Tumors",
+     "nctId": "NCT00634231",
+     "nctIdAliases": [
+      "NCT00729105"
+     ],
+     "officialTitle": "A Phase I Study of AdV-tk + Prodrug Therapy in Combination With Radiation Therapy for Pediatric Brain Tumors",
+     "orgStudyIdInfo": {
+      "id": "PeBrTK01"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Candel Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "collaborators": [
+      {
+       "class": "OTHER",
+       "name": "Boston Children's Hospital"
+      }
+     ],
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Candel Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2021-06",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2023-08-25",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2023-08-23",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2015-12",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2010-10",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2023-08",
+     "studyFirstPostDateStruct": {
+      "date": "2008-03-12",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2008-03-05",
+     "studyFirstSubmitQcDate": "2008-03-05"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Arm A is for resectable tumors. The first AdV-tk course is given prior to surgery by CT or EUS guided injection into the tumor followed by 14 days of valacyclovir. The second AdV-tk injection is into the tumor bed at the time of surgery again followed by 14 days of valacyclovir.",
+       "interventionNames": [
+        "Biological: AdV-tk",
+        "Drug: Valacyclovir"
+       ],
+       "label": "A resectable",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Arm B is for locally advanced tumors for which chemoradiation is the planned standard of care treatment. AdV-tk is delivered by CT or EUS guided injection into the tumor. The first AdV-tk injection is given prior to starting chemoradiation and the second in week 3 of chemoradiation. Both injections are followed by 14 days of valacyclovir.\n\nEnrollment has been completed for Arm B.",
+       "interventionNames": [
+        "Biological: AdV-tk",
+        "Drug: Valacyclovir"
+       ],
+       "label": "B locally advanced",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "A resectable",
+        "B locally advanced"
+       ],
+       "description": "Four dose levels of AdV-tk with a fixed dose level of valacyclovir are evaluated independently in the two arms of the study due to differences in the concomitant standard of care treatments. The first AdV-tk course is given prior to surgery or radiation by CT or EUS guided injection into the tumor followed by 14 days of valacyclovir. The second AdV-tk injection is into the tumor bed at the time of surgery in Arm A or same as the first injection in Arm B again followed by 14 days of valacyclovir. The AdV-tk dose levels are: Level 1= 3x10e10 vector particles (vp), Level 2= 1x10e11 vp, Level 3= 3x10e11 vp, Level 4= 1x10e12 vp",
+       "name": "AdV-tk",
+       "type": "BIOLOGICAL"
+      },
+      {
+       "armGroupLabels": [
+        "A resectable",
+        "B locally advanced"
+       ],
+       "description": "Valacyclovir caplets at a dose of 2 grams orally three times per day is administered for 14 days starting 1-3 days after each of the two AdV-tk injections in both arms.",
+       "name": "Valacyclovir",
+       "otherNames": [
+        "Valtrex"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Pancreatic Adenocarcinoma",
+      "Pancreatic Cancer"
+     ],
+     "keywords": [
+      "Immunotherapy",
+      "Gene Therapy",
+      "Cytotoxicity",
+      "Tumor vaccine",
+      "Radiation",
+      "Surgery",
+      "Chemoradiation"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 27,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "PaTK01",
+     "briefTitle": "AdV-tk Therapy With Surgery and Chemoradiation for Pancreas Cancer (PaTK01)",
+     "nctId": "NCT00638612",
+     "officialTitle": "AdV-tk + Valacyclovir Therapy in Combination With Surgery and Chemoradiation for Pancreas Cancer",
+     "orgStudyIdInfo": {
+      "id": "PaTK01"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Candel Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Candel Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2015-06",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2023-08-25",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2023-08-23",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2013-05",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2008-08"
+     },
+     "statusVerifiedDate": "2023-08",
+     "studyFirstPostDateStruct": {
+      "date": "2008-03-19",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2008-03-06",
+     "studyFirstSubmitQcDate": "2008-03-13"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Arm A for unresectable malignant glioma was closed due to poor accrual.",
+       "interventionNames": [
+        "Biological: AdV-tk",
+        "Drug: Valacyclovir"
+       ],
+       "label": "A",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Arm B for resectable malignant glioma completed the Phase I accrual and long term follow up continues. A follow on study at dose level 3 was opened as a Phase 2a study (see BrTK02).",
+       "interventionNames": [
+        "Biological: AdV-tk",
+        "Drug: Valacyclovir"
+       ],
+       "label": "B",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "A",
+        "B"
+       ],
+       "description": "Three different dosing levels of AdV-tk (3x10e10, 1x10e11, 3X10e11) were evaluated. A single injection of AdV-tk at the assigned dose level was administered, followed by 14 days of the oral prodrug valacyclovir. Patients then received standard of care radiation therapy and chemotherapy.",
+       "name": "AdV-tk",
+       "type": "BIOLOGICAL"
+      },
+      {
+       "armGroupLabels": [
+        "A",
+        "B"
+       ],
+       "description": "The oral prodrug valacyclovir was given beginning 1-3 days following the AdV-tk. Valacyclovir tablets were taken three times a day for a total of 14 days.",
+       "name": "Valacyclovir",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Malignant Glioma",
+      "Glioblastoma Multiforme",
+      "Anaplastic Astrocytoma"
+     ],
+     "keywords": [
+      "Immunotherapy",
+      "Gene therapy",
+      "Tumor Vaccine",
+      "Cytotoxicity",
+      "Radiation"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 15,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "BrTK01",
+     "briefTitle": "Phase 1b Study of AdV-tk + Valacyclovir Combined With Radiation Therapy for Malignant Gliomas",
+     "nctId": "NCT00751270",
+     "officialTitle": "A Phase 1b Study of AdV-tk + Valacyclovir Gene Therapy in Combination With Standard Radiation Therapy for Malignant Gliomas",
+     "orgStudyIdInfo": {
+      "id": "BrTK01"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Candel Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Candel Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2011-01",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2023-08-25",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2023-08-23",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2010-01",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2005-11"
+     },
+     "statusVerifiedDate": "2023-08",
+     "studyFirstPostDateStruct": {
+      "date": "2008-09-11",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2008-09-09",
+     "studyFirstSubmitQcDate": "2008-09-10"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Aglatimagene besadenovec (CAN-2409) + valacyclovir + radiation therapy +/- ADT",
+       "interventionNames": [
+        "Biological: Aglatimagene besadenovec + valacyclovir"
+       ],
+       "label": "ProstAtak®",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Placebo + valacyclovir + radiation therapy +/- ADT",
+       "interventionNames": [
+        "Biological: Placebo + valacyclovir"
+       ],
+       "label": "Control",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "ProstAtak®"
+       ],
+       "description": "Patients will receive three courses of ProstAtak® each consisting of aglatimagene besadenovec injection + oral valacyclovir. AdV-tk injection will be delivered to the prostate via trans-rectal ultrasound guided injection as follows:\n\n1. The first injection will be given at least 15 days and not more than 8 weeks before starting radiation.\n2. The second injection will be 0-3 days before initiation of radiation therapy.\n3. The third injection will be 15-22 days after the 2nd injection.\n\nThe prodrug, valacyclovir, will be administered at a fixed dose for 14 days after each AdV-tk injection.\n\nStandard external beam radiation therapy will be delivered to the prostate. Short-term androgen deprivation therapy (maximum of 6 months) is optional but must be decided before enrollment to allow for stratification.",
+       "name": "Aglatimagene besadenovec + valacyclovir",
+       "otherNames": [
+        "AdV-tk",
+        "CAN-2409"
+       ],
+       "type": "BIOLOGICAL"
+      },
+      {
+       "armGroupLabels": [
+        "Control"
+       ],
+       "description": "Patients will receive three courses each consisting of placebo injection + oral valacyclovir. Placebo injection will be delivered to the prostate via trans-rectal ultrasound guided injection as follows:\n\n1. The first injection will be given at least 15 days and not more than 8 weeks before starting radiation.\n2. The second injection will be 0-3 days before initiation of radiation therapy.\n3. The third injection will be 15-22 days after the 2nd injection.\n\nThe prodrug, valacyclovir, will be administered at a fixed dose for 14 days after each placebo injection.\n\nStandard external beam radiation therapy will be delivered to the prostate. Short-term androgen deprivation therapy (maximum of 6 months) is optional but must be decided before enrollment to allow for stratification.",
+       "name": "Placebo + valacyclovir",
+       "type": "BIOLOGICAL"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Prostate Cancer"
+     ],
+     "keywords": [
+      "immunotherapy, cytotoxicity, tumor vaccine, prostate cancer, radiotherapy"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 711,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "PrTK03",
+     "briefTitle": "Phase 3 Study of ProstAtak® Immunotherapy With Standard Radiation Therapy for Localized Prostate Cancer",
+     "nctId": "NCT01436968",
+     "officialTitle": "A Randomized Controlled Trial of ProstAtak® as Adjuvant to Up-front Radiation Therapy For Localized Prostate Cancer",
+     "orgStudyIdInfo": {
+      "id": "PrTK03"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Candel Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Candel Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2030-12",
+      "type": "ESTIMATED"
+     },
+     "dispFirstPostDateStruct": {
+      "date": "2025-07-11",
+      "type": "ACTUAL"
+     },
+     "dispFirstSubmitDate": "2025-07-28",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-02",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-09-30",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2024-08",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2011-09"
+     },
+     "statusVerifiedDate": "2026-09",
+     "studyFirstPostDateStruct": {
+      "date": "2011-09-20",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2011-09-19",
+     "studyFirstSubmitQcDate": "2011-09-19"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "AdV-tk + valacyclovir",
+       "interventionNames": [
+        "Biological: AdV-tk + valacyclovir"
+       ],
+       "label": "Study Arm",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Study Arm"
+       ],
+       "description": "AdV-tk will be administered intrapleural through pleural catheter followed by oral valacyclovir. Valacyclovir will be administered orally at a fixed dose for 14 days after each AdV-tk administration.",
+       "name": "AdV-tk + valacyclovir",
+       "type": "BIOLOGICAL"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Malignant Pleural Effusion",
+      "Lung Cancer",
+      "Mesothelioma",
+      "Breast Cancer",
+      "Ovarian Cancer"
+     ],
+     "keywords": [
+      "Immunotherapy",
+      "Gene therapy",
+      "Tumor vaccine"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 19,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "MpeTK01",
+     "briefTitle": "Intrapleural AdV-tk Therapy in Patients With Malignant Pleural Effusion",
+     "nctId": "NCT01997190",
+     "officialTitle": "A Phase I Study of Intrapleural AdV-tk Therapy in Patients With Malignant Pleural Effusion",
+     "orgStudyIdInfo": {
+      "id": "MpeTK01"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Candel Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "collaborators": [
+      {
+       "class": "OTHER",
+       "name": "University of Pennsylvania"
+      }
+     ],
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Candel Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2018-02",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2023-08-25",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2023-08-23",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2015-12",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2013-10"
+     },
+     "statusVerifiedDate": "2023-08",
+     "studyFirstPostDateStruct": {
+      "date": "2013-11-28",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2013-11-19",
+     "studyFirstSubmitQcDate": "2013-11-22"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "CAN-2409 + prodrug (valacylovir or acyclovir) in combination with neoadjuvant chemoradiation or SBRT + Surgery",
+       "interventionNames": [
+        "Biological: Aglatimagene besadenovec",
+        "Radiation: Chemoradiation",
+        "Radiation: Stereotactic body radiation therapy",
+        "Procedure: Surgery"
+       ],
+       "label": "Test Arm",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Neoadjuvant chemoradiation or SBRT + Surgery",
+       "interventionNames": [
+        "Radiation: Chemoradiation",
+        "Radiation: Stereotactic body radiation therapy",
+        "Procedure: Surgery"
+       ],
+       "label": "Control Arm",
+       "type": "ACTIVE_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Test Arm"
+       ],
+       "description": "Three courses of CAN-2409 + prodrug (valacylovir or acyclovir) will be delivered and timed with different phases of therapy: 1) after induction chemotherapy 2) during CR or post-SBRT, and 3) at time of surgery. Up to 2 additional courses of CAN-2409 + prodrug, if feasible, for subjects with disease progression or metastases.",
+       "name": "Aglatimagene besadenovec",
+       "otherNames": [
+        "CAN-2409",
+        "AdV-tk"
+       ],
+       "type": "BIOLOGICAL"
+      },
+      {
+       "armGroupLabels": [
+        "Control Arm",
+        "Test Arm"
+       ],
+       "description": "CR will start not more than 2 months after completion of induction chemotherapy. The chemotherapy component of CR may be selected as per institutional standard of care (SOC) and protocols for administration, and may include capecitabine, 5-FU, or gemcitabine. Radiation should consist of a total dose of 45-54 Gy in 1.8-2.0 Gy fractions concurrent with chemotherapy over 3-5.5 weeks.",
+       "name": "Chemoradiation",
+       "type": "RADIATION"
+      },
+      {
+       "armGroupLabels": [
+        "Control Arm",
+        "Test Arm"
+       ],
+       "description": "SBRT should start no more than 2 months after completion of induction chemotherapy. For SBRT, the radiation should consist of a total dose of 25-50 Gy in divided fractions over 1-2 weeks.",
+       "name": "Stereotactic body radiation therapy",
+       "type": "RADIATION"
+      },
+      {
+       "armGroupLabels": [
+        "Control Arm",
+        "Test Arm"
+       ],
+       "description": "Surgical resection should be performed within 8 weeks after completing CR or SBRT.",
+       "name": "Surgery",
+       "type": "PROCEDURE"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Borderline Resectable Pancreatic Adenocarcinoma"
+     ],
+     "keywords": [
+      "Borderline resectable pancreatic adenocarcinoma",
+      "Immunotherapy",
+      "Aglatimagene besadenovec",
+      "Neoadjuvant",
+      "CAN-2409"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 54,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "PaTK02",
+     "briefTitle": "Neoadjuvant CAN-2409 in Combination With Chemoradiation or SBRT for Borderline Resectable Pancreatic Adenocarcinoma",
+     "nctId": "NCT02446093",
+     "officialTitle": "Neoadjuvant CAN-2409 Plus Prodrug in Combination With Chemoradiation or Stereotactic Body Radiation Therapy for Borderline Resectable Pancreatic Adenocarcinoma",
+     "orgStudyIdInfo": {
+      "id": "PaTK02"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Candel Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "collaborators": [
+      {
+       "class": "OTHER",
+       "name": "Mayo Clinic"
+      }
+     ],
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Candel Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2026-07",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastKnownStatus": "ACTIVE_NOT_RECRUITING",
+     "lastUpdatePostDateStruct": {
+      "date": "2024-01-08",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2024-01-05",
+     "overallStatus": "UNKNOWN",
+     "primaryCompletionDateStruct": {
+      "date": "2025-12",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2015-10"
+     },
+     "statusVerifiedDate": "2023-05",
+     "studyFirstPostDateStruct": {
+      "date": "2015-05-18",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2015-04-14",
+     "studyFirstSubmitQcDate": "2015-05-13"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Patients randomized to the active arm will receive two courses of aglatimagene besadenovec (CAN-2409) + valacyclovir",
+       "interventionNames": [
+        "Biological: aglatimagene besadenovec",
+        "Drug: valacyclovir"
+       ],
+       "label": "CAN-2409",
+       "type": "ACTIVE_COMPARATOR"
+      },
+      {
+       "description": "Patients randomized to the placebo arm will receive two corresponding courses of placebo + valacyclovir",
+       "interventionNames": [
+        "Biological: placebo",
+        "Drug: valacyclovir"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "CAN-2409"
+       ],
+       "description": "Aglatimagene besadenovec will be delivered to the prostate via trans-rectal ultrasound guided injection followed by 14 days of oral prodrug, valacyclovir. The second aglatimagene besadenovec injection will be 2-3 weeks after the first followed by 14 days of valacyclovir.",
+       "name": "aglatimagene besadenovec",
+       "otherNames": [
+        "AdV-tk",
+        "CAN-2409"
+       ],
+       "type": "BIOLOGICAL"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Placebo will be delivered to the prostate via trans-rectal ultrasound guided injection followed by 14 days of oral prodrug, valacyclovir. The second placebo injection will be 2-3 weeks after the first followed by 14 days of valacyclovir.",
+       "name": "placebo",
+       "type": "BIOLOGICAL"
+      },
+      {
+       "armGroupLabels": [
+        "CAN-2409",
+        "Placebo"
+       ],
+       "description": "Oral prodrug to be given for 14 days starting the day after each aglatimagene besadenovec or placebo injection.",
+       "name": "valacyclovir",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Prostate Cancer"
+     ],
+     "keywords": [
+      "Immunotherapy",
+      "Tumor vaccine",
+      "Immuno-oncology",
+      "Cytotoxicity",
+      "Prostate cancer",
+      "Active Surveillance"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 187,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Randomized Controlled Trial of CAN-2409 Immunotherapy During Active Surveillance for Prostate Cancer (ULYSSES)",
+     "nctId": "NCT02768363",
+     "officialTitle": "A Randomized Controlled Trial Of AdV-tk + Valacyclovir Administered During Active Surveillance For Newly Diagnosed Prostate Cancer",
+     "orgStudyIdInfo": {
+      "id": "PrTK04"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Candel Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Candel Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2026-12",
+      "type": "ESTIMATED"
+     },
+     "dispFirstPostDateStruct": {
+      "date": "2025-07-10",
+      "type": "ACTUAL"
+     },
+     "dispFirstSubmitDate": "2025-07-28",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-02",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-09-30",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2024-11",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2016-05"
+     },
+     "statusVerifiedDate": "2026-09",
+     "studyFirstPostDateStruct": {
+      "date": "2016-05-11",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2016-05-06",
+     "studyFirstSubmitQcDate": "2016-05-09"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "CAN-2409 + valacyclovir",
+       "interventionNames": [
+        "Biological: CAN-2409 + valacyclovir"
+       ],
+       "label": "Study Arm",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Study Arm"
+       ],
+       "description": "CAN-2409 will be administered intratumorally followed by oral valacyclovir. Valacyclovir will be administered orally at a fixed dose for 14 days after each injection.",
+       "name": "CAN-2409 + valacyclovir",
+       "type": "BIOLOGICAL"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Lung Cancer"
+     ],
+     "keywords": [
+      "aglatimagene besadenovec",
+      "CAN-2409",
+      "immunotherapy",
+      "GMCI",
+      "AdV-tk"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE",
+       "maskingDescription": "Open Label"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 12,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Intratumoral Gene Mediated Cytotoxic Immunotherapy in Patients With Resectable Non-Small Cell Lung Cancer",
+     "nctId": "NCT03131037",
+     "officialTitle": "Intratumoral Gene Mediated Cytotoxic Immunotherapy (GMCI) For Resectable Non-Small Cell Lung Cancer",
+     "orgStudyIdInfo": {
+      "id": "LuTK01"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Candel Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "collaborators": [
+      {
+       "class": "OTHER",
+       "name": "University of Pennsylvania"
+      }
+     ],
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Candel Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2023-09-20",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-07-11",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-07-08",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2021-12-01",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2017-05-04",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-07",
+     "studyFirstPostDateStruct": {
+      "date": "2017-04-27",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2017-04-24",
+     "studyFirstSubmitQcDate": "2017-04-24"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "After confirmation of high grade glioma, AdV-tk injection into wall of resection cavity. Valacyclovir starting 1-3 days post-surgery for 14 days. Radiation begins approximately day 8 and continues for 6 weeks. Temozolomide started after complete valacyclovir and stop when MGMT unmethylated result obtained. Nivolumab every 2 weeks x 26 doses up to 52 weeks. MRI every 8 weeks until progression.",
+       "interventionNames": [
+        "Biological: AdV-tk",
+        "Drug: Valacyclovir",
+        "Radiation: Radiation",
+        "Drug: Temozolomide",
+        "Biological: Nivolumab",
+        "Other: Laboratory Biomarker Analysis"
+       ],
+       "label": "Cohort 1: MGMT Unmethylated Patients",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "After confirmation of high grade glioma, AdV-tk injection into wall of resection cavity. Valacyclovir starting 1-3 days post-surgery for 14 days. Radiation begins approximately day 8. Temozolomide started after complete valacyclovir and continue during radiation then 5 week break and then begin adjuvant temozolomide dosing. Nivolumab every 2 weeks x 26 doses up to 52 weeks. MRI every 8 weeks until progression.",
+       "interventionNames": [
+        "Biological: AdV-tk",
+        "Drug: Valacyclovir",
+        "Radiation: Radiation",
+        "Drug: Temozolomide",
+        "Biological: Nivolumab",
+        "Other: Laboratory Biomarker Analysis"
+       ],
+       "label": "Cohort 2: MGMT Methylated & undetermined Patients",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Cohort 1: MGMT Unmethylated Patients",
+        "Cohort 2: MGMT Methylated & undetermined Patients"
+       ],
+       "description": "Given IT",
+       "name": "AdV-tk",
+       "otherNames": [
+        "Aglatimagene Besadenovec"
+       ],
+       "type": "BIOLOGICAL"
+      },
+      {
+       "armGroupLabels": [
+        "Cohort 1: MGMT Unmethylated Patients",
+        "Cohort 2: MGMT Methylated & undetermined Patients"
+       ],
+       "description": "Given PO days 1-14; 1-3 days post surgery",
+       "name": "Valacyclovir",
+       "otherNames": [
+        "124832-26-4",
+        "L-Valine ester with 9-((2-hydroxyethoxy)methyl)guanine",
+        "Zelitrex"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Cohort 1: MGMT Unmethylated Patients",
+        "Cohort 2: MGMT Methylated & undetermined Patients"
+       ],
+       "description": "Undergo RT, 60Gy in 30 daily fractions M-F for 6weeks",
+       "name": "Radiation",
+       "otherNames": [
+        "Irradiate",
+        "irradiation",
+        "radiotherapy",
+        "RT"
+       ],
+       "type": "RADIATION"
+      },
+      {
+       "armGroupLabels": [
+        "Cohort 1: MGMT Unmethylated Patients",
+        "Cohort 2: MGMT Methylated & undetermined Patients"
+       ],
+       "description": "Given PO during RT 75mg/m2 daily during RT Post RT cycle 1: 150mg/m2 days 1-5 150mg/m2 cycle 2-6: days 1-5 (150-200mg/m2)",
+       "name": "Temozolomide",
+       "otherNames": [
+        "TMZ"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Cohort 1: MGMT Unmethylated Patients",
+        "Cohort 2: MGMT Methylated & undetermined Patients"
+       ],
+       "description": "day 15 post surgery 240mg IV q2wks x 26 doses , up to 52 weeks",
+       "name": "Nivolumab",
+       "otherNames": [
+        "BMS-936558",
+        "MDX-1106",
+        "NIVO",
+        "ONO-4538",
+        "Opdivo"
+       ],
+       "type": "BIOLOGICAL"
+      },
+      {
+       "armGroupLabels": [
+        "Cohort 1: MGMT Unmethylated Patients",
+        "Cohort 2: MGMT Methylated & undetermined Patients"
+       ],
+       "description": "correlative studies",
+       "name": "Laboratory Biomarker Analysis",
+       "type": "OTHER"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Glioma, Malignant"
+     ],
+     "keywords": [
+      "glioblastoma, newly diagnosed, GMCI, Checkpoint inhibitor"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SINGLE_GROUP",
+      "interventionModelDescription": "Newly diagnosed HGG: surgically eligible patients AdV-tk into wall of resection cavity; 1-3 days post-surgery Valacyclovir d1-14; Day 8 RT for 6 wks; day 15 TMZ 75mg/m2 daily; Nivo 240mgIV every 2 weeks",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 41,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "GMCI",
+     "briefTitle": "GMCI, Nivolumab, and Radiation Therapy in Treating Patients With Newly Diagnosed High-Grade Gliomas",
+     "nctId": "NCT03576612",
+     "officialTitle": "Phase I Study of Neoadjuvant GMCI Plus Immune Checkpoint Inhibitor Combined With Standard of Care for Newly Diagnosed High-Grade Gliomas",
+     "orgStudyIdInfo": {
+      "id": "ABTC-1603"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Candel Therapeutics, Inc."
+     },
+     "secondaryIdInfos": [
+      {
+       "domain": "JHM IRB",
+       "id": "IRB00172749",
+       "type": "OTHER"
+      },
+      {
+       "id": "UM1CA137443",
+       "link": "https://reporter.nih.gov/quickSearch/UM1CA137443",
+       "type": "NIH"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "collaborators": [
+      {
+       "class": "NIH",
+       "name": "National Cancer Institute (NCI)"
+      },
+      {
+       "class": "INDUSTRY",
+       "name": "Bristol-Myers Squibb"
+      }
+     ],
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Candel Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2023-06-30",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-02-14",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-02-12",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2023-06-30",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2018-02-27",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-02",
+     "studyFirstPostDateStruct": {
+      "date": "2018-07-03",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2018-05-24",
+     "studyFirstSubmitQcDate": "2018-06-21"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Cohort 1A and 1B - persistent but stable disease at least 18 weeks after starting ICI treatment\n\nCohort 2A and 2B - radiographic progressive disease at least 18 weeks after starting ICI treatment\n\nCohort 3 - refractory disease defined as progressed by imaging at least 9 weeks after starting ICI treatment (CLOSED TO ENROLLMENT)",
+       "interventionNames": [
+        "Biological: Aglatimagene besadenovec"
+       ],
+       "label": "Cohorts",
+       "type": "OTHER"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Cohorts"
+       ],
+       "description": "Two courses (Cohort 1A and Cohort 2A) or three courses (Cohort 1B and Cohort 2B) of CAN-2409 injection into an accessible involved tumor site followed by 14 days of prodrug (valacyclovir or acyclovir). For Cohort 1B, the third course is optional. All patients will continue standard of care immune checkpoint inhibitor with or without chemotherapy.",
+       "name": "Aglatimagene besadenovec",
+       "otherNames": [
+        "CAN-2409",
+        "AdV-tk"
+       ],
+       "type": "BIOLOGICAL"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Non Small Cell Lung Cancer"
+     ],
+     "keywords": [
+      "Lung cancer",
+      "Immunotherapy",
+      "GMCI",
+      "AdV-tk",
+      "aglatimagene besadenovec",
+      "CAN-2409"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "interventionModelDescription": "The study is a phase II prospective study to evaluate the safety and potential efficacy of CAN-2409 plus prodrug added to standard of care immune checkpoint inhibitor (ICI) therapy in stage III/IV NSCLC",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 90,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "CAN-2409 Plus Prodrug With Standard of Care Immune Checkpoint Inhibitor for Stage III/IV NSCLC",
+     "nctId": "NCT04495153",
+     "officialTitle": "CAN-2409 Plus Prodrug With Standard of Care Immune Checkpoint Inhibitor for Stage III/IV NSCLC Patients",
+     "orgStudyIdInfo": {
+      "id": "LuTK02"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Candel Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "collaborators": [
+      {
+       "class": "OTHER",
+       "name": "NYU Langone Health"
+      }
+     ],
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Candel Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2026-12",
+      "type": "ESTIMATED"
+     },
+     "dispFirstPostDateStruct": {
+      "date": "2023-12-07",
+      "type": "ACTUAL"
+     },
+     "dispFirstSubmitDate": "2025-08-19",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-08-22",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-08-19",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2024-12-31",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2020-10-13",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-08",
+     "studyFirstPostDateStruct": {
+      "date": "2020-07-31",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2020-07-24",
+     "studyFirstSubmitQcDate": "2020-07-30"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Patients receiving aglatimagene besadenovec + valacyclovir along with External Beam Radiation Therapy (EBRT)",
+       "interventionNames": [
+        "Biological: aglatimagene besadenovec + valacyclovir",
+        "Radiation: External Beam Radiation Therapy (EBRT)"
+       ],
+       "label": "Treatment",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "External Beam Radiation Therapy (EBRT) alone",
+       "interventionNames": [
+        "Radiation: External Beam Radiation Therapy (EBRT)"
+       ],
+       "label": "Control",
+       "type": "ACTIVE_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Treatment"
+       ],
+       "description": "aglatimagene besadenovec: a genetically modified replication-defective adenoviral vector expressing the herpes simplex virus (HSV) thymidine kinase (tk) gene. Patients in the treatment arm will receive 3 intraprostatic injections of aglatimagene besadenovec, with each injection followed by a 14-day course of valacyclovir. Patients will have aglatimagene besadenovec administered either transrectally or transperineally.",
+       "name": "aglatimagene besadenovec + valacyclovir",
+       "otherNames": [
+        "CAN-2409 plus prodrug"
+       ],
+       "type": "BIOLOGICAL"
+      },
+      {
+       "armGroupLabels": [
+        "Control",
+        "Treatment"
+       ],
+       "description": "Standard of care standard or moderately hypofractionated prostate-only external beam radiation therapy (EBRT)",
+       "name": "External Beam Radiation Therapy (EBRT)",
+       "type": "RADIATION"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Prostate Cancer Patients Treated by Radiotherapy",
+      "Prostate Cancer (Adenocarcinoma)"
+     ],
+     "keywords": [
+      "Biomarkers",
+      "Viral Shedding",
+      "Prostate Cancer",
+      "Aglatimagene Besadenovec"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "interventionModelDescription": "Clinical trial contains an active treatment arm and control arm",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "BASIC_SCIENCE"
+     },
+     "enrollmentInfo": {
+      "count": 45,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Biomarker Study in Men With Localized Prostate Cancer Treated With Aglatimagene Besadenovec",
+     "nctId": "NCT07332000",
+     "officialTitle": "A Biomarker Study in Men With Localized, Favorable, Intermediate-risk Prostate Cancer Treated With Aglatimagene Besadenovec",
+     "orgStudyIdInfo": {
+      "id": "PrTK05"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Candel Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Candel Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2027-02",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-09-15",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-09-10",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-02",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2025-10-30",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-09",
+     "studyFirstPostDateStruct": {
+      "date": "2026-01-12",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-12-17",
+     "studyFirstSubmitQcDate": "2026-01-08"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Patients continue to receive pembrolizumab with two courses of Aglatimagene besadenovec plus valacyclovir",
+       "interventionNames": [
+        "Biological: Aglatimagene Besadenovec",
+        "Drug: Valacyclovir",
+        "Biological: Pembrolizumab"
+       ],
+       "label": "Arm 1:Continued pembrolizumab with two courses of Aglatimagene besadenovec plus prodrug",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Patients receive standard of care docetaxel",
+       "interventionNames": [
+        "Drug: Docetaxel"
+       ],
+       "label": "Arm 2: Docetaxel",
+       "type": "ACTIVE_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Arm 1:Continued pembrolizumab with two courses of Aglatimagene besadenovec plus prodrug"
+       ],
+       "description": "via intratumoral injections into lung or lymph nodes at two timepoints",
+       "name": "Aglatimagene Besadenovec",
+       "type": "BIOLOGICAL"
+      },
+      {
+       "armGroupLabels": [
+        "Arm 1:Continued pembrolizumab with two courses of Aglatimagene besadenovec plus prodrug"
+       ],
+       "description": "Oral, for14 days following each aglatimagene besadenovec injection",
+       "name": "Valacyclovir",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Arm 1:Continued pembrolizumab with two courses of Aglatimagene besadenovec plus prodrug"
+       ],
+       "description": "every 3 weeks (Q3W) or every 6 weeks (Q6W)",
+       "name": "Pembrolizumab",
+       "type": "BIOLOGICAL"
+      },
+      {
+       "armGroupLabels": [
+        "Arm 2: Docetaxel"
+       ],
+       "description": "every 21 days with standard premedication",
+       "name": "Docetaxel",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Non-squamous, Non-Small Cell Lung Cancer"
+     ],
+     "keywords": [
+      "NSCLC",
+      "Non-Squamous",
+      "CAN-2409",
+      "Aglatimagene besadenovec",
+      "Pembrolizumab",
+      "Docetaxel",
+      "Non-Small Cell Lung Cancer"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 500,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "LuTK03",
+     "briefTitle": "Aglatimagene Besadenovec + Prodrug and Pembrolizumab vs Docetaxel for Stage IV Non-Squamous NSCLC Progressing on Pembrolizumab (AURORA)",
+     "nctId": "NCT07660094",
+     "officialTitle": "A Phase 3, Multicenter, Randomized, Controlled, Open-Label Clinical Trial of Aglatimagene Besadenovec (CAN-2409) Plus Prodrug and Pembrolizumab Versus Docetaxel for Stage IV Non-Squamous Non-Small Cell Lung Cancer Progressing on Pembrolizumab-based Treatment",
+     "orgStudyIdInfo": {
+      "id": "CAN-2409-LuTK03"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Candel Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Candel Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2031-10-22",
+      "type": "ESTIMATED"
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-06-22",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-06-17",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2031-10-22",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2026-06-15",
+      "type": "ESTIMATED"
+     },
+     "statusVerifiedDate": "2026-06",
+     "studyFirstPostDateStruct": {
+      "date": "2026-06-22",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2026-06-05",
+     "studyFirstSubmitQcDate": "2026-06-17"
+    }
+   }
+  }
+ ]
+}

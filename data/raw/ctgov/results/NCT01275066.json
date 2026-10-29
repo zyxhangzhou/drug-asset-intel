@@ -1,0 +1,160 @@
+{
+ "nctId": "NCT01275066",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciPctValue": "95",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "9.35",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+     "pValue": "0.0174",
+     "pValueComment": "Hochberg multiplicity adjustment - results considered statistically significant if both of p-values are p\\<0.05 or either of p-values is p\\<0.025.",
+     "paramType": "Mean Difference (Final Values)",
+     "paramValue": "22.5",
+     "statisticalComment": "ANCOVA of change from baseline with treatment, age group, baseline 6MWT category as covariates.",
+     "statisticalMethod": "ANCOVA",
+     "testedNonInferiority": false
+    },
+    {
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "9.29",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+     "pValue": "0.9542",
+     "pValueComment": "Hochberg multiplicity adjustment - results considered statistically significant if both of p-values are p\\<0.05 or either of p-values is p\\<0.025.",
+     "paramType": "Mean Difference (Final Values)",
+     "paramValue": "0.5",
+     "statisticalComment": "ANCOVA of change from baseline with treatment, age group, baseline 6MWT category as covariates.",
+     "statisticalMethod": "ANCOVA",
+     "testedNonInferiority": false
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "69.88",
+         "value": "211.9"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "81.19",
+         "value": "205.7"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "76.32",
+         "value": "203.9"
+        }
+       ]
+      }
+     ],
+     "title": "Baseline"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "83.22",
+         "value": "225.4"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "87.60",
+         "value": "219.9"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "86.61",
+         "value": "240.0"
+        }
+       ]
+      }
+     ],
+     "title": "Week 24"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "50.63",
+         "value": "13.5"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "40.82",
+         "value": "14.2"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "58.11",
+         "value": "36.0"
+        }
+       ]
+      }
+     ],
+     "title": "Change from Baseline to Week 24"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "59"
+      },
+      {
+       "groupId": "OG001",
+       "value": "59"
+      },
+      {
+       "groupId": "OG002",
+       "value": "58"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Intravenous infusion of placebo solution at a volume equivalent to that needed for 2.0 mg/kg dose of BMN 110 administered over a period of approximately 4 hours once a week.",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Intravenous infusion of BMN 110 at a dose of 2.0 mg/kg administered over a period of approximately 4 hours every other week and infusions of placebo on alternating weeks.",
+     "id": "OG001",
+     "title": "BMN110 2.0 mg/kg/Qow"
+    },
+    {
+     "description": "Intravenous infusion of BMN 110 at a dose of 2.0 mg/kg administered over a period of approximately 4 hours once a week.",
+     "id": "OG002",
+     "title": "BMN110 2.0 mg/kg/Week"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Intention to treat (all patients receiving at least one dose of study drug). Two missing outcomes at Week 24 were imputed using method of multiple imputation.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline to Week 24",
+   "title": "Change From Baseline in Endurance as Measured by the 6-minute Walk Test",
+   "type": "PRIMARY",
+   "unitOfMeasure": "meters"
+  }
+ ]
+}

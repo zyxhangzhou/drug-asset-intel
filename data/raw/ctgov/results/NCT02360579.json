@@ -1,0 +1,86 @@
+{
+ "nctId": "NCT02360579",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "4"
+        },
+        {
+         "groupId": "OG001",
+         "value": "23"
+        },
+        {
+         "groupId": "OG002",
+         "value": "1"
+        },
+        {
+         "groupId": "OG003",
+         "value": "25"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "20"
+      },
+      {
+       "groupId": "OG001",
+       "value": "66"
+      },
+      {
+       "groupId": "OG002",
+       "value": "10"
+      },
+      {
+       "groupId": "OG003",
+       "value": "87"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Evaluate the efficacy of LN-144 in patients with unresectable or metastatic melanoma using the objective response rate (ORR), as assessed by the investigator per Response Evaluation Criteria in Solid Tumors (RECIST) version 1.1 for Cohorts 1 \\& 3 and as assessed by Independent Review Committee (IRC) per RECIST Version 1.1 for Cohorts 2 \\& 4",
+   "groups": [
+    {
+     "description": "Non-cryopreserved LN-144 (Gen 1 infusion product) (Closed)\n\nA tumor sample is resected from each patient and cultured ex vivo to expand the population of tumor infiltrating lymphocytes. After lymphodepletion, patients are infused with lifileucel followed by IL-2.",
+     "id": "OG000",
+     "title": "Cohort 1"
+    },
+    {
+     "description": "Cryopreserved lifileucel (LN-144) (Gen 2 infusion product) (Closed)\n\nLifileucel: A tumor sample is resected from each patient and cultured ex vivo to expand the population of tumor infiltrating lymphocytes. After lymphodepletion, patients are infused with lifileucel followed by IL-2.",
+     "id": "OG001",
+     "title": "Cohort 2"
+    },
+    {
+     "description": "Retreatment cohort: patients from Cohort 1, Cohort 2 or Cohort 4 may rescreen for a second TIL regimen therapy if they meet all Inclusion and Exclusion Criteria (except exclusion criterion b) (Closed)\n\nLifileucel: A tumor sample is resected from each patient and cultured ex vivo to expand the population of tumor infiltrating lymphocytes. After lymphodepletion, patients are infused with lifileucel followed by IL-2.",
+     "id": "OG002",
+     "title": "Cohort 3"
+    },
+    {
+     "description": "Cryopreserved lifileucel (LN-144) (Gen 2 infusion product) (Closed)\n\nLifileucel: A tumor sample is resected from each patient and cultured ex vivo to expand the population of tumor infiltrating lymphocytes. After lymphodepletion, patients are infused with lifileucel followed by IL-2.",
+     "id": "OG003",
+     "title": "Cohort 4"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "The Full Analysis Set is defined as patients who received the lifileucel infusion that met product manufacturing specifications. Cohort 3 patients had progressed following initial treatment in Cohorts 1, 2, 4 and then were retreated with a second TIL regimen.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Every 6 weeks for 6 months, then every 3 months for a maximum of 60 months",
+   "title": "Disease Assessment for Objective Response Rate",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

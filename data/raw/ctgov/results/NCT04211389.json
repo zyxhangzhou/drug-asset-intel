@@ -1,0 +1,80 @@
+{
+ "nctId": "NCT04211389",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "3.17",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "13.70",
+     "estimateComment": "Common OR stratified by pooled study site, baseline IGA, and baseline intertriginous involvement per randomization with multiple imputation of missing data.",
+     "groupDescription": "IGA Success at Week 8 Odds Ratio",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<0.0001",
+     "pValueComment": "Stratification by pooled study site, baseline IGA, and baseline intertriginous involvement per randomization with multiple imputation of missing data.",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "6.59",
+     "statisticalMethod": "Cochran-Mantel-Haenszel"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "99"
+        },
+        {
+         "groupId": "OG001",
+         "value": "9"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "264"
+      },
+      {
+       "groupId": "OG001",
+       "value": "131"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The number of participants achieving \"success\" in IGA assessment of disease severity at Week 8 is presented for each arm. Success was defined as achievement of an IGA score of 0 ('clear') or 1 ('almost clear') at Week 8, accompanied by a ≥2-grade improvement from baseline IGA score. The IGA is 5-point scale assessing the severity of plaque psoriasis, with scores ranging from 0 ('clear') to 4 ('severe'), and higher scores indicate greater symptom severity. The IGA scores are based on observed data, whereas odds ratio and p-values were calculated using multiple imputation of missing values.",
+   "groups": [
+    {
+     "description": "Participants applied roflumilast cream 0.3% QD for 8 weeks. There was a 1-week follow-up period after completing treatment.",
+     "id": "OG000",
+     "title": "Roflumilast Cream 0.3%"
+    },
+    {
+     "description": "Participants applied inactive vehicle cream matched to roflumilast cream QD for 8 weeks. There was a 1-week follow-up period after completing treatment.",
+     "id": "OG001",
+     "title": "Vehicle Cream"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "All randomized participants with data are included.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Week 8",
+   "title": "Number of Participants Achieving Success on the Investigator Global Assessment (IGA) Scale",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

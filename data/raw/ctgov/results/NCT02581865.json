@@ -1,0 +1,113 @@
+{
+ "nctId": "NCT02581865",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-4.9",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "2.1",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "1.8",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.4326",
+     "paramType": "Mean Difference (Net)",
+     "paramValue": "-1.4",
+     "statisticalMethod": "Mixed Models Analysis"
+    },
+    {
+     "ciLowerLimit": "-6.2",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "1.2",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "1.9",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.1835",
+     "paramType": "Mean Difference (Net)",
+     "paramValue": "-2.5",
+     "statisticalMethod": "Mixed Models Analysis"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "1.1",
+         "value": "-6.1"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "1.7",
+         "value": "-7.4"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "1.1",
+         "value": "-8.0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "37"
+      },
+      {
+       "groupId": "OG001",
+       "value": "35"
+      },
+      {
+       "groupId": "OG002",
+       "value": "27"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The YGTSS is designed to rate the overall severity of motor and phonic tic symptoms across a range of dimensions: number, frequency, intensity, complexity, and interference. The YGTSS was administered by the investigator (or qualified designee) using a computer-based structured clinical interview. The TTS is the sum of the 5 motor tic items and the 5 phonic (vocal) tic items and ranges from 0 to 50, with higher scores representing greater severity",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Placebo administered once daily for 8 weeks",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Fixed dose of NBI-98854 40 mg administered once daily for 8 weeks",
+     "id": "OG001",
+     "title": "NBI-98854 40 mg"
+    },
+    {
+     "description": "NBI-98854 80 mg dose titrated in a blinded fashion (subjects will receive 40 mg for the first week followed by 80 mg for the remainder of the 8-week treatment period)",
+     "id": "OG002",
+     "title": "NBI-98854 80 mg"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "The intent-to-treat (ITT) analysis set, that includes all randomized subjects who received at least one dose of study drug, have postbaseline safety data \\& have at least one post randomization Yale Global Tic Severity Scale (YGTSS) Total Tic Score (TTS) value at a scheduled visit or mapped early termination (ET) visit during 8-week treatment period",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Week 8",
+   "title": "Change From Baseline to Week 8 in the YGTSS TTS",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Least Squares Mean (Standard Error)"
+  }
+ ]
+}

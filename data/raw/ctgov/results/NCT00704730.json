@@ -1,0 +1,65 @@
+{
+ "nctId": "NCT00704730",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "9.3",
+         "upperLimit": "13.7",
+         "value": "11.2"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "3.0",
+         "upperLimit": "5.4",
+         "value": "4.0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "219"
+      },
+      {
+       "groupId": "OG001",
+       "value": "111"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The duration of Progression-Free Survival (PFS) using progression events as determined by Independent Review Committee (IRC) per mRECIST, or death due to any cause. The analysis was conducted after at least 315 subjects were randomized and at least 138 events were observed.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "XL184 175 mg L-malate salt weight; 138 mg freebase equivalent weight, oral capsules once daily.",
+     "id": "OG000",
+     "title": "XL184 (Cabozantinib)"
+    },
+    {
+     "description": "Oral capsules once daily",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "Intent to Treat (ITT) 330 subjects were randomized and were included in the analysis. A Kaplan-Meyer analysis was performed to estimate the median.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Treatment period consisted of 4-week cycles with radiologic tumor assessment every 12 weeks from date of randomization until date of first documented PD or date of death from any cause, whichever came first, assessed up to 34 months.",
+   "title": "Progression-Free Survival (PFS)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "months"
+  }
+ ]
+}

@@ -1,0 +1,504 @@
+{
+ "nctId": "NCT03240133",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-11.37",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-2.6",
+     "groupDescription": "Change in HAE attack symptoms from pre-dose to 4 hours post-dose was assessed following treatment with either 750mg berotralstat or placebo.",
+     "groupIds": [
+      "OG000",
+      "OG001",
+      "OG002",
+      "OG003"
+     ],
+     "nonInferiorityComment": "Comparisons were performed separately at each time point using a mixed effect linear model including treatment, period and sequence as fixed effects, subject within sequence as a random effect, and predose 3-symptom composite VAS score as a covariate.",
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0024",
+     "paramType": "Difference in Least Square Means",
+     "paramValue": "-6.98",
+     "statisticalMethod": "Mixed effect linear model"
+    },
+    {
+     "ciLowerLimit": "-11.49",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "7.29",
+     "groupDescription": "Change in HAE attack symptoms from pre-dose to 4 hours post-dose was assessed following treatment with either 500mg berotralstat or placebo.",
+     "groupIds": [
+      "OG004",
+      "OG005",
+      "OG006",
+      "OG007"
+     ],
+     "nonInferiorityComment": "Comparisons were performed separately at each time point using a mixed effect linear model including treatment, period and sequence as fixed effects, subject within sequence as a random effect, and predose 3-symptom composite VAS score as a covariate.",
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.6424",
+     "paramType": "Difference in Least Square Means",
+     "paramValue": "-2.1",
+     "statisticalMethod": "Mixed effect linear model"
+    },
+    {
+     "ciLowerLimit": "-4.9",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "6.03",
+     "groupDescription": "Change in HAE attack symptoms from pre-dose to 4 hours post-dose was assessed following treatment with either 250mg berotralstat or placebo.",
+     "groupIds": [
+      "OG008",
+      "OG009",
+      "OG010",
+      "OG011"
+     ],
+     "nonInferiorityComment": "Comparisons were performed separately at each time point using a mixed effect linear model including treatment, period and sequence as fixed effects, subject within sequence as a random effect, and predose 3-symptom composite VAS score as a covariate.",
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.8283",
+     "paramType": "Difference in Least Square Means",
+     "paramValue": "0.57",
+     "statisticalMethod": "Mixed effect linear model"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "9.84",
+         "value": "13.96"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "11.90",
+         "value": "15.04"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "11.39",
+         "value": "10.54"
+        },
+        {
+         "groupId": "OG003",
+         "spread": "14.19",
+         "value": "18.42"
+        },
+        {
+         "groupId": "OG004",
+         "spread": "15.25",
+         "value": "17.69"
+        },
+        {
+         "groupId": "OG005",
+         "spread": "16.11",
+         "value": "13.48"
+        },
+        {
+         "groupId": "OG006",
+         "spread": "15.75",
+         "value": "11.31"
+        },
+        {
+         "groupId": "OG007",
+         "spread": "11.53",
+         "value": "9.26"
+        },
+        {
+         "groupId": "OG008",
+         "spread": "11.78",
+         "value": "14.57"
+        },
+        {
+         "groupId": "OG009",
+         "spread": "10.17",
+         "value": "11.33"
+        },
+        {
+         "groupId": "OG010",
+         "spread": "10.31",
+         "value": "10.92"
+        },
+        {
+         "groupId": "OG011",
+         "spread": "9.67",
+         "value": "9.21"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denomUnitsSelected": "HAE Attacks",
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "33"
+      },
+      {
+       "groupId": "OG001",
+       "value": "28"
+      },
+      {
+       "groupId": "OG002",
+       "value": "33"
+      },
+      {
+       "groupId": "OG003",
+       "value": "28"
+      },
+      {
+       "groupId": "OG004",
+       "value": "14"
+      },
+      {
+       "groupId": "OG005",
+       "value": "9"
+      },
+      {
+       "groupId": "OG006",
+       "value": "14"
+      },
+      {
+       "groupId": "OG007",
+       "value": "9"
+      },
+      {
+       "groupId": "OG008",
+       "value": "11"
+      },
+      {
+       "groupId": "OG009",
+       "value": "11"
+      },
+      {
+       "groupId": "OG010",
+       "value": "11"
+      },
+      {
+       "groupId": "OG011",
+       "value": "11"
+      }
+     ],
+     "units": "Participants"
+    },
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "59"
+      },
+      {
+       "groupId": "OG001",
+       "value": "28"
+      },
+      {
+       "groupId": "OG002",
+       "value": "59"
+      },
+      {
+       "groupId": "OG003",
+       "value": "28"
+      },
+      {
+       "groupId": "OG004",
+       "value": "24"
+      },
+      {
+       "groupId": "OG005",
+       "value": "9"
+      },
+      {
+       "groupId": "OG006",
+       "value": "24"
+      },
+      {
+       "groupId": "OG007",
+       "value": "9"
+      },
+      {
+       "groupId": "OG008",
+       "value": "21"
+      },
+      {
+       "groupId": "OG009",
+       "value": "11"
+      },
+      {
+       "groupId": "OG010",
+       "value": "21"
+      },
+      {
+       "groupId": "OG011",
+       "value": "11"
+      }
+     ],
+     "units": "HAE Attacks"
+    }
+   ],
+   "description": "Subjects completed a 3-component VAS on a 100 mm scale for severity of abdominal pain, skin pain and skin swelling associated with the HAE attack, where zero indicated no pain or swelling and 100 mm indicated worst possible pain or swelling. Subjects completed the VAS immediately prior to study drug administration, then at 1, 2, 3, 4, approximately 8 \\& at 24 hours post-dose. The primary endpoint was the proportion of subject attacks with an improved or stable 3-symptom composite VAS score at 4 hours post dose. The 3-symptom composite was calculated as the average of the VAS scores for abdominal pain, skin pain, and skin swelling. A subject was considered improved or stable if the change from baseline (CFB; time of drug administration) in VAS was ≤ 0.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "HAE attack prior to dosing with 750mg berotralstat",
+     "id": "OG000",
+     "title": "Part 1: Berotralstat 750 mg - Predose"
+    },
+    {
+     "description": "HAE attack prior to dosing with placebo",
+     "id": "OG001",
+     "title": "Part 1: Placebo - Pre-dose"
+    },
+    {
+     "description": "HAE attack 4 hr post dosing with 750mg berotralstat",
+     "id": "OG002",
+     "title": "Part 1: Berotralstat 750 mg - 4hr Post-dose"
+    },
+    {
+     "description": "HAE attack 4 hr post dosing with placebo",
+     "id": "OG003",
+     "title": "Part 1: Placebo - 4hr Post-dose"
+    },
+    {
+     "description": "HAE attack prior to dosing with 500mg berotralstat",
+     "id": "OG004",
+     "title": "Part 2: Berotralstat 500 mg - Predose"
+    },
+    {
+     "description": "HAE attack prior to dosing with placebo",
+     "id": "OG005",
+     "title": "Part 2: Placebo - Pre-dose"
+    },
+    {
+     "description": "HAE attack 4 hr post dosing with 50mg berotralstat",
+     "id": "OG006",
+     "title": "Part 2: Berotralstat 500 mg - 4hr Post-dose"
+    },
+    {
+     "description": "HAE attack 4 hr post dosing with placebo",
+     "id": "OG007",
+     "title": "Part 2: Placebo - 4hr Post-dose"
+    },
+    {
+     "description": "HAE attack prior to dosing with 250mg berotralstat",
+     "id": "OG008",
+     "title": "Part 3: Berotralstat 250 mg - Predose"
+    },
+    {
+     "description": "HAE attack prior to dosing with placebo",
+     "id": "OG009",
+     "title": "Part 3: Placebo - Pre-dose"
+    },
+    {
+     "description": "HAE attack 4 hr post dosing with 250mg berotralstat",
+     "id": "OG010",
+     "title": "Part 3: Berotralstat 250 mg - 4hr Post-dose"
+    },
+    {
+     "description": "HAE attack 4 hr post dosing with placebo",
+     "id": "OG011",
+     "title": "Part 3: Placebo - 4hr Post-dose"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "The number of participants analyzed in each analysis set corresponds to number of HAE attacks treated with placebo or berotralstat.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Mean composite VAS for HAE attack symptoms severity prior to IMP treatment and 4 hours post-dose",
+   "title": "Proportion of Subjects With Improved or Stable Composite Visual Analog Scale (VAS) Score",
+   "type": "PRIMARY",
+   "typeUnitsAnalyzed": "HAE Attacks",
+   "unitOfMeasure": "VAS score - millimeters"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.069",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.559",
+     "groupDescription": "Analyses were performed using a generalized logistic model including treatment, period and sequence as fixed effects, and subject within sequence as a random effect. The odds of a berotralstat 750 mg-treated-attack requiring SOC-Rx was 0.196 that of a placebo attack.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0029",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "0.196",
+     "statisticalMethod": "logistic mixed effect model"
+    },
+    {
+     "ciLowerLimit": "0.074",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "2.988",
+     "groupDescription": "Analyses were performed using a generalized logistic model including treatment, period and sequence as fixed effects, and subject within sequence as a random effect. The odds of a berotralstat 500 mg-treated-attack requiring SOC-Rx was 0.472 that of a placebo attack.",
+     "groupIds": [
+      "OG002",
+      "OG003"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.4048",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "0.472",
+     "statisticalMethod": "logistic mixed effect model"
+    },
+    {
+     "ciLowerLimit": "0.073",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "4.733",
+     "groupDescription": "Analyses were performed using a generalized logistic model including treatment, period and sequence as fixed effects, and subject within sequence as a random effect. The odds of a berotralstat 250 mg-treated-attack requiring SOC-Rx was 0.587 that of a placebo attack.",
+     "groupIds": [
+      "OG004",
+      "OG005"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.5984",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "0.587",
+     "statisticalMethod": "logistic mixed effect model"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "29.7"
+        },
+        {
+         "groupId": "OG001",
+         "value": "61.3"
+        },
+        {
+         "groupId": "OG002",
+         "value": "32.0"
+        },
+        {
+         "groupId": "OG003",
+         "value": "45.5"
+        },
+        {
+         "groupId": "OG004",
+         "value": "38.1"
+        },
+        {
+         "groupId": "OG005",
+         "value": "45.5"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denomUnitsSelected": "HAE Attacks",
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "33"
+      },
+      {
+       "groupId": "OG001",
+       "value": "28"
+      },
+      {
+       "groupId": "OG002",
+       "value": "14"
+      },
+      {
+       "groupId": "OG003",
+       "value": "9"
+      },
+      {
+       "groupId": "OG004",
+       "value": "11"
+      },
+      {
+       "groupId": "OG005",
+       "value": "11"
+      }
+     ],
+     "units": "Participants"
+    },
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "59"
+      },
+      {
+       "groupId": "OG001",
+       "value": "28"
+      },
+      {
+       "groupId": "OG002",
+       "value": "24"
+      },
+      {
+       "groupId": "OG003",
+       "value": "9"
+      },
+      {
+       "groupId": "OG004",
+       "value": "21"
+      },
+      {
+       "groupId": "OG005",
+       "value": "11"
+      }
+     ],
+     "units": "HAE Attacks"
+    }
+   ],
+   "description": "The proportion of attacks for which subjects took SOC-Rx in the 24 hours following treatment with study drug. HAE Rescue Medications included C1-INH (Berinert, Cinryze, Ruconest) and Firazyr/Icatibant.",
+   "groups": [
+    {
+     "description": "HAE attack treated with 750mg berotralstat",
+     "id": "OG000",
+     "title": "Part 1: Berotralstat 750 mg"
+    },
+    {
+     "description": "HAE attack treated with placebo",
+     "id": "OG001",
+     "title": "Part 1: Placebo"
+    },
+    {
+     "description": "HAE attack treated with 500mg berotralstat",
+     "id": "OG002",
+     "title": "Part 2: Berotralstat 500 mg"
+    },
+    {
+     "description": "HAE attack treated with placebo",
+     "id": "OG003",
+     "title": "Part 2: Placebo"
+    },
+    {
+     "description": "HAE attack treated with 250mg berotralstat",
+     "id": "OG004",
+     "title": "Part 3: Berotralstat 250 mg"
+    },
+    {
+     "description": "HAE attack treated with placebo",
+     "id": "OG005",
+     "title": "Part 3: Placebo"
+    }
+   ],
+   "paramType": "NUMBER",
+   "reportingStatus": "POSTED",
+   "timeFrame": "24 hours",
+   "title": "Percentage of Attacks Treated With Standard of Care Acute Attack Medication (SOC-Rx) Through 24 Hours",
+   "type": "PRIMARY",
+   "typeUnitsAnalyzed": "HAE Attacks",
+   "unitOfMeasure": "Percentage attacks treated with SOC-Rx"
+  }
+ ]
+}

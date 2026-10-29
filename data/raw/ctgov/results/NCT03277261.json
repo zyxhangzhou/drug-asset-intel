@@ -1,0 +1,83 @@
+{
+ "nctId": "NCT03277261",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.268",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.615",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<0.0001",
+     "pValueComment": "GEE (Generalized Estimating Equation) model for the relapse count per participant with logarithmic link function, treatment, region, and baseline Expanded Disability Status Scale (EDSS) strata as covariates and log (years of treatment) as offset.",
+     "paramType": "Rate Ratio (Ublituximab/Teriflunomide)",
+     "paramValue": "0.406",
+     "statisticalMethod": "Negative Binomial Model"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "0.042",
+         "upperLimit": "0.138",
+         "value": "0.076"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "0.124",
+         "upperLimit": "0.283",
+         "value": "0.188"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "271"
+      },
+      {
+       "groupId": "OG001",
+       "value": "274"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "ARR is defined as the number of Independent Relapse Adjudication Panel (IRAP)-confirmed relapses per participant year. The estimate of ARR for a treatment group is the total number of relapses for participants in the respective treatment group divided by the sum of treatment duration for participants in that specific treatment group.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants were administered ublituximab 150 mg, IV infusion over 4 h on Day 1 followed by 450 mg over 1 h on Days 15, 168, 336 and 504 (Week 72) along with the oral placebo QD from Day 1 up to the last day of Week 95.",
+     "id": "OG000",
+     "title": "Ublituximab + Oral Placebo"
+    },
+    {
+     "description": "Participants were administered teriflunomide 14 mg tablet, orally, QD from Day 1 up to the last day of Week 95 along with the placebo IV infusion on Days 1, 15, 168, 336 and 504 (Week 72).",
+     "id": "OG001",
+     "title": "Teriflunomide + IV Placebo"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Modified Intention-to-Treat (mITT) population consisted of all participants in the ITT population who received at least one dose of study medication and have at least one baseline and post baseline efficacy assessment.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to 96 weeks",
+   "title": "Annualized Relapse Rate (ARR)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "relapses per participant-years"
+  }
+ ]
+}

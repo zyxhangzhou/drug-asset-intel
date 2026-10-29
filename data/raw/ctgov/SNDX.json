@@ -1,0 +1,4402 @@
+{
+ "aliases": [
+  "Syndax Pharmaceuticals"
+ ],
+ "studies": [
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Erlotinib 150 mg, tablets, orally, daily plus entinostat 5 mg, tablets, orally, on Days 1 and 15 of each 28-day cycle until disease progression or intolerable toxicities for up to 6 cycles in the Lead-in Phase.",
+       "interventionNames": [
+        "Drug: Entinostat",
+        "Drug: Erlotinib"
+       ],
+       "label": "Lead-in Phase: Erlotinib + Entinostat 5 mg",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Erlotinib 150 mg tablets, orally, daily plus entinostat 10 mg, tablets, orally, on Days 1 and 15 of each 28-day cycle until disease progression or intolerable toxicities for up to 6 cycles in the Lead-in Phase.",
+       "interventionNames": [
+        "Drug: Entinostat",
+        "Drug: Erlotinib"
+       ],
+       "label": "Lead-in Phase: Erlotinib + Entinostat 10 mg",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Erlotinib 150 mg, tablets, orally, daily plus entinostat 10 mg, tablets, orally, on Day 1 and 15 of a 28-day cycle until disease progression or intolerable toxicities for up to 6 cycles in the Double-blind Phase.",
+       "interventionNames": [
+        "Drug: Entinostat",
+        "Drug: Erlotinib"
+       ],
+       "label": "Double-blind Phase: Erlotinib + Entinostat 10 mg",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Erlotinib 150 mg, tablets, orally, daily plus placebo matching entinostat, tablets, orally, on Days 1 and 15 of each 28-day cycle until disease progression or intolerable toxicities for up to 6 cycles in the Double-blind Phase.",
+       "interventionNames": [
+        "Drug: Placebo",
+        "Drug: Erlotinib"
+       ],
+       "label": "Double-blind Phase: Erlotinib + Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "description": "Participants in the Double-blind Phase Erlotinib + Placebo arm who experienced disease progression crossed over to receive open-label erlotinib 150 mg, tablets, orally, daily plus entinostat 10 mg, tablets, orally, on Days 1 and 15 of each 28-day cycle until disease progression or intolerable toxicities.",
+       "interventionNames": [
+        "Drug: Entinostat",
+        "Drug: Erlotinib"
+       ],
+       "label": "Crossover Phase: Erlotinib + Entinostat 10 mg",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Crossover Phase: Erlotinib + Entinostat 10 mg",
+        "Double-blind Phase: Erlotinib + Entinostat 10 mg",
+        "Lead-in Phase: Erlotinib + Entinostat 10 mg",
+        "Lead-in Phase: Erlotinib + Entinostat 5 mg"
+       ],
+       "description": "Entinostat tablets on Days 1 and 15 of a 28-day cycle.",
+       "name": "Entinostat",
+       "otherNames": [
+        "SNDX-275"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Double-blind Phase: Erlotinib + Placebo"
+       ],
+       "description": "Placebo-matching entinostat tablets on Days 1 and 15 of a 28-day cycle.",
+       "name": "Placebo",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Crossover Phase: Erlotinib + Entinostat 10 mg",
+        "Double-blind Phase: Erlotinib + Entinostat 10 mg",
+        "Double-blind Phase: Erlotinib + Placebo",
+        "Lead-in Phase: Erlotinib + Entinostat 10 mg",
+        "Lead-in Phase: Erlotinib + Entinostat 5 mg"
+       ],
+       "description": "Erlotinib 150 mg tablets once daily.",
+       "name": "Erlotinib",
+       "otherNames": [
+        "Tarceva"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Non-Small-Cell Lung Carcinoma",
+      "Carcinoma, Non-Small Cell Lung"
+     ],
+     "keywords": [
+      "lung cancer",
+      "NSCLC",
+      "lung neoplasms",
+      "respiratory"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "TRIPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 141,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Study to Evaluate Erlotinib With or Without SNDX-275 (Entinostat) in the Treatment of Patients With Advanced NSCLC",
+     "nctId": "NCT00602030",
+     "officialTitle": "A Randomized, Placebo-controlled, Double-blind, Multicenter Phase 2 Study With a Lead in Phase of Erlotinib With or Without SNDX-275 in Patients With NSCLC After Failure In Up to Two Prior Chemotherapeutic Regimens for Advanced Disease",
+     "orgStudyIdInfo": {
+      "id": "SNDX-275-0401"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Syndax Pharmaceuticals"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Syndax Pharmaceuticals"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2012-02-01",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2022-08-22",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2022-08-18",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2010-02-04",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2022-06-28",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2021-05-04",
+     "resultsFirstSubmitQcDate": "2022-06-02",
+     "startDateStruct": {
+      "date": "2008-01-08",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2022-08",
+     "studyFirstPostDateStruct": {
+      "date": "2008-01-28",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2008-01-25",
+     "studyFirstSubmitQcDate": "2008-01-25"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Exemestane (Aromasin®) 25 mg tablets orally once daily plus an entinostat 5 mg tablet orally once per week on Days 1, 8, 15 and 22 of each 28-day treatment cycle until development of progressive disease (PD) or unacceptable toxicity or closure of the study by the Sponsor, whichever occurred first.",
+       "interventionNames": [
+        "Drug: entinostat",
+        "Drug: exemestane"
+       ],
+       "label": "Exemestane 25 mg + Entinostat 5 mg",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Exemestane (Aromasin®) 25 mg tablets orally once daily plus a placebo-matching entinostat tablet orally once per week on Days 1, 8, 15 and 22 of each 28-day treatment cycle until development of progressive disease (PD) or unacceptable toxicity or closure of the study by the Sponsor, whichever occurred first.",
+       "interventionNames": [
+        "Drug: exemestane",
+        "Drug: Placebo"
+       ],
+       "label": "Exemestane 25 mg + Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Exemestane 25 mg + Entinostat 5 mg"
+       ],
+       "description": "Entinostat 5 mg tablet orally once per week",
+       "name": "entinostat",
+       "otherNames": [
+        "SNDX-275"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Exemestane 25 mg + Entinostat 5 mg",
+        "Exemestane 25 mg + Placebo"
+       ],
+       "description": "Exemestane 25 mg tablet orally once daily",
+       "name": "exemestane",
+       "otherNames": [
+        "Aromasin®"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Exemestane 25 mg + Placebo"
+       ],
+       "description": "Placebo-matching entinostat tablet orally once per week",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Breast Cancer",
+      "Estrogen Receptor-Positive Breast Cancer",
+      "Breast Cancer, Estrogen Receptor-Positive",
+      "ER+ Breast Cancer"
+     ],
+     "keywords": [
+      "Breast Neoplasms",
+      "Breast Tumor",
+      "Mammary Neoplasms"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "TRIPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 130,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "ENCORE301",
+     "briefTitle": "Study to Evaluate Exemestane With and Without Entinostat (SNDX-275) in Treatment of Postmenopausal Women With Advanced Breast Cancer",
+     "nctId": "NCT00676663",
+     "officialTitle": "A Phase 2, Randomized, Double-Blind, Multicenter Study of Exemestane With and Without SNDX-275 in Postmenopausal Women With Locally Recurrent or Metastatic Estrogen Receptor-Positive Breast Cancer, Progressing on Treatment With a Non-Steroidal Aromatase Inhibitor",
+     "orgStudyIdInfo": {
+      "id": "SNDX-275-0301"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Syndax Pharmaceuticals"
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "2009-012623-28",
+       "type": "EUDRACT_NUMBER"
+      },
+      {
+       "id": "2009",
+       "link": "https://reporter.nih.gov/quickSearch/2009",
+       "type": "NIH"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Syndax Pharmaceuticals"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2012-11-26",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2022-05-11",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2022-04-22",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2011-01-29",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2019-10-24",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2018-10-24",
+     "resultsFirstSubmitQcDate": "2019-10-03",
+     "startDateStruct": {
+      "date": "2008-06-13",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2022-04",
+     "studyFirstPostDateStruct": {
+      "date": "2008-05-13",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2008-05-09",
+     "studyFirstSubmitQcDate": "2008-05-09"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants self-administered entinostat in combination with continued erlotinib self-administration.\n\n\"Erlotinib-responsive\" participants are those who progressed following either a complete or partial response to erlotinib or a period of stable disease lasting at least 3 months.",
+       "interventionNames": [
+        "Drug: Entinostat",
+        "Drug: Erlotinib"
+       ],
+       "label": "Erlotinib-responsive",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants self-administered entinostat in combination with continued erlotinib self-administration.\n\n\"Erlotinib-nonresponsive\" participants are those who either progressed immediately during treatment with erlotinib (after at least 1 full cycle of erlotinib treatment) or had an objective response or period of stable disease lasting less than 3 months.",
+       "interventionNames": [
+        "Drug: Entinostat",
+        "Drug: Erlotinib"
+       ],
+       "label": "Erlotinib-nonresponsive",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Erlotinib-nonresponsive",
+        "Erlotinib-responsive"
+       ],
+       "description": "Entinostat (10 milligrams \\[mg\\] fixed dose orally \\[PO\\] every 2 weeks \\[Q2W\\]) on Days 1 and 15 of a 28-day cycle for up to 6 cycles",
+       "name": "Entinostat",
+       "otherNames": [
+        "SNDX-275"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Erlotinib-nonresponsive",
+        "Erlotinib-responsive"
+       ],
+       "description": "Erlotinib (150 mg PO QD) for up to six (6) 28-day cycles",
+       "name": "Erlotinib",
+       "otherNames": [
+        "Tarceva"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Non Small Cell Lung Cancer"
+     ],
+     "keywords": [
+      "lung cancer",
+      "non small cell lung cancer"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 8,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Phase 2 Exploratory Study of Erlotinib and SNDX-275 in Participants With Non-small Cell Lung Carcinoma Who Are Progressing on Erlotinib",
+     "nctId": "NCT00750698",
+     "officialTitle": "A Phase 2, Exploratory Study of Erlotinib and SNDX-275 in Patients With Non-small Cell Lung Carcinoma Who Are Progressing on Erlotinib",
+     "orgStudyIdInfo": {
+      "id": "SNDX-275-0403"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Syndax Pharmaceuticals"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Syndax Pharmaceuticals"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2010-06",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2023-07-06",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2023-07-05",
+     "overallStatus": "TERMINATED",
+     "primaryCompletionDateStruct": {
+      "date": "2010-05",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2023-07-06",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2023-06-12",
+     "resultsFirstSubmitQcDate": "2023-07-05",
+     "startDateStruct": {
+      "date": "2008-08"
+     },
+     "statusVerifiedDate": "2023-07",
+     "studyFirstPostDateStruct": {
+      "date": "2008-09-10",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2008-09-08",
+     "studyFirstSubmitQcDate": "2008-09-08",
+     "whyStopped": "Due to business reasons, enrollment on the study was halted and the study terminated. The decision to close enrollment was not due to any safety concern."
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "ER positive",
+       "interventionNames": [
+        "Drug: SNDX-275"
+       ],
+       "label": "1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "ER negative and/or PR negative histology",
+       "interventionNames": [
+        "Drug: SNDX-275"
+       ],
+       "label": "2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "triple negative histology (for ER, PR, HER-2)",
+       "interventionNames": [
+        "Drug: SNDX-275"
+       ],
+       "label": "3",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "1",
+        "2",
+        "3"
+       ],
+       "name": "SNDX-275",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Breast Cancer"
+     ],
+     "keywords": [
+      "breast cancer"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "OTHER"
+     },
+     "enrollmentInfo": {
+      "count": 1,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Phase I, Multicenter, Open Label Study on the Effects of SNDX-275 on Expression of Biomarkers in Subjects With Newly Diagnosed Breast Cancer",
+     "nctId": "NCT00754312",
+     "officialTitle": "A Phase I, Multicenter, Open Label Study on the Effects of SNDX-275 on Expression of Biomarkers in Subjects With Newly Diagnosed Breast Cancer",
+     "orgStudyIdInfo": {
+      "id": "SNDX-275-0302"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Syndax Pharmaceuticals"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Syndax Pharmaceuticals"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2009-02-28",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2022-06-06",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2022-06-01",
+     "overallStatus": "TERMINATED",
+     "primaryCompletionDateStruct": {
+      "date": "2009-02-28",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2008-06"
+     },
+     "statusVerifiedDate": "2022-06",
+     "studyFirstPostDateStruct": {
+      "date": "2008-09-17",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2008-09-15",
+     "studyFirstSubmitQcDate": "2008-09-15"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Entinostat 5 mg tablet orally every week on Days 1, 8. 15 and 22 of each 28-day treatment cycle in combination with continued treatment with AI therapy at labeled dose and schedule until disease progression or unacceptable toxicity.",
+       "interventionNames": [
+        "Drug: Entinostat",
+        "Drug: Aromatase Inhibitor (AI) Therapy"
+       ],
+       "label": "Entinostat 5 mg + AI",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Entinostat 5 mg + AI"
+       ],
+       "description": "Entinostat 5 mg PO every week",
+       "name": "Entinostat",
+       "otherNames": [
+        "SNDX-275"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Entinostat 5 mg + AI"
+       ],
+       "description": "AI therapy at labeled dose and schedule as prescribed in clinical practice. AI therapies include: Arimidex® (anastrozole) 1 mg/day by mouth (PO), Fermara® (letrozole) 2.5 mg/day PO , Aromasin® (exemestane) 25 mg/day PO.",
+       "name": "Aromatase Inhibitor (AI) Therapy",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "ER+ Breast Cancer"
+     ],
+     "keywords": [
+      "breast cancer",
+      "estrogen receptor positive"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 27,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Study of the Effect of the Addition of SNDX-275 (Entinostat) to Continued Aromatase Inhibitor (AI) Therapy in Postmenopausal Women With ER+ Breast Cancer Whose Disease is Progressing",
+     "nctId": "NCT00828854",
+     "officialTitle": "A Phase 2 Multicenter Study of the Effect of the Addition of SNDX-275 to Continued Aromatase Inhibitor (AI) Therapy in Postmenopausal Women With ER+ Breast Cancer Whose Disease is Progressing",
+     "orgStudyIdInfo": {
+      "id": "SNDX-275-0303"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Syndax Pharmaceuticals"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Syndax Pharmaceuticals"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2009-11-24",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2022-06-30",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2022-06-06",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2009-11-24",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2022-06-30",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2021-05-04",
+     "resultsFirstSubmitQcDate": "2022-06-06",
+     "startDateStruct": {
+      "date": "2008-10-01",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2022-06",
+     "studyFirstPostDateStruct": {
+      "date": "2009-01-26",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2009-01-23",
+     "studyFirstSubmitQcDate": "2009-01-23"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Regimen determined by protocol version.\n\nRegimen 1: entinostat 10 mg (two 5 mg tablets) orally, once every two weeks (Days 1 and 15) in a 28-day cycle until disease progression or unacceptable toxicity.\n\nRegimen 2: entinostat 10 mg (two 5 mg tablets) orally on Day 1, increased to 15 mg (three 5 mg tablets) beginning on Day 15 of Cycle 1 for participants who had not experienced treatment-related adverse events with severity grade ≥2 (moderate), then continue 15 mg every two weeks (Days 1 and 15) in a 28-day cycle until disease progression or unacceptable toxicity.\n\nRegimen 3: entinostat 15 mg (three 5 mg tablets), orally, once weekly for 3 weeks followed by a 1-week break in a 4-week (28-day) cycle until disease progression or unacceptable toxicity.",
+       "interventionNames": [
+        "Drug: Entinostat"
+       ],
+       "label": "Entinostat",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Entinostat"
+       ],
+       "description": "Entinostat tablets",
+       "name": "Entinostat",
+       "otherNames": [
+        "SNDX-275"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Hodgkin's Lymphoma"
+     ],
+     "keywords": [
+      "Hodgkin's Lymphoma",
+      "Relapsed Hodgkin's Lymphoma",
+      "Refractory Hodgkin's Lymphoma"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "interventionModelDescription": "The Single Group Assignment is one of three regimens based on the protocol version at the time of enrollment.",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 49,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "ENGAGE-501",
+     "briefTitle": "A Phase 2 Multi-Center Study of Entinostat (SNDX-275) in Patient With Relapsed or Refractory Hodgkin's Lymphoma",
+     "nctId": "NCT00866333",
+     "officialTitle": "A Phase 2 Multi-Center Study of Entinostat (SNDX-275) in Patients With Relapsed or Refractory Hodgkin's Lymphoma",
+     "orgStudyIdInfo": {
+      "id": "SNDX-275-0501"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Syndax Pharmaceuticals"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Syndax Pharmaceuticals"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2013-02-08",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2019-10-22",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2019-10-03",
+     "overallStatus": "TERMINATED",
+     "primaryCompletionDateStruct": {
+      "date": "2013-02-08",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2019-10-22",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2019-08-15",
+     "resultsFirstSubmitQcDate": "2019-10-03",
+     "startDateStruct": {
+      "date": "2009-04-13"
+     },
+     "statusVerifiedDate": "2019-10",
+     "studyFirstPostDateStruct": {
+      "date": "2009-03-20",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2009-03-19",
+     "studyFirstSubmitQcDate": "2009-03-19",
+     "whyStopped": "Terminated prior to completion of accrual per corporate decision."
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Entinostat: Beginning C1D1 fed; C1D15 fasted. Erlotinib: NSCLC pts beginning C2D1,150 mg, po, qd. Exemestane: Breast cancer pts beginning C2D1,25 mg, po, qd.",
+       "interventionNames": [
+        "Drug: entinostat",
+        "Drug: Erlotinib",
+        "Drug: Exemestane"
+       ],
+       "label": "entinostat C1D1 fed",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Entinostat: Beginning C1D1 fasted; C1D15 fed. Erlotinib: NSCLC pts beginning C2D1,150 mg, po, qd. Exemestane: Breast cancer pts beginning C2D1,25 mg, po, qd.",
+       "interventionNames": [
+        "Drug: entinostat",
+        "Drug: Erlotinib",
+        "Drug: Exemestane"
+       ],
+       "label": "entinostat C1D1 fasted",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "entinostat C1D1 fed"
+       ],
+       "description": "10 mg, po, q14 days, until progression or intolerable toxicity",
+       "name": "entinostat",
+       "otherNames": [
+        "SNDX-275, MS-275"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "entinostat C1D1 fasted"
+       ],
+       "description": "10 mg, po, q14 days, until progression or intolerable toxicity",
+       "name": "entinostat",
+       "otherNames": [
+        "SNDX-275, MS-275"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "entinostat C1D1 fed"
+       ],
+       "description": "Erlotinib: NSCLC pts beginning C2D1,150 mg, po, qd.",
+       "name": "Erlotinib",
+       "otherNames": [
+        "Tarceva"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "entinostat C1D1 fasted"
+       ],
+       "description": "Erlotinib: NSCLC pts beginning C2D1,150 mg, po, qd.",
+       "name": "Erlotinib",
+       "otherNames": [
+        "Tarceva"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "entinostat C1D1 fed"
+       ],
+       "description": "Exemestane: Breast cancer pts beginning C2D1,25 mg, po, qd.",
+       "name": "Exemestane",
+       "otherNames": [
+        "Aromasin"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "entinostat C1D1 fasted"
+       ],
+       "description": "Exemestane: Breast cancer pts beginning C2D1,25 mg, po, qd.",
+       "name": "Exemestane",
+       "otherNames": [
+        "Aromasin"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Lung Cancer",
+      "Non Small Cell Lung Cancer (NSCLC)",
+      "Breast Cancer",
+      "Estrogen Receptor Breast Cancer"
+     ],
+     "keywords": [
+      "carcinoma,non small cell lung",
+      "lung diseases",
+      "lung neoplasms",
+      "Respiratory",
+      "Carcinoma, Bronchogenic",
+      "Bronchial Neoplasms",
+      "Respiratory Tract Neoplasms",
+      "Thoracic Neoplasms",
+      "Neoplasms by Site",
+      "Respiratory Tract Diseases",
+      "Erlotinib",
+      "Protein Kinase Inhibitors",
+      "Breast Neoplasms",
+      "Neoplasms",
+      "Breast Diseases",
+      "Exemestane",
+      "Aromatase Inhibitors"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "CROSSOVER",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 14,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "ENCORE110",
+     "briefTitle": "Study to Assess Food Effect on Pharmacokinetics of Entinostat in Subjects With Breast Cancer or Non-Small Cell Lung Cancer",
+     "nctId": "NCT01594398",
+     "officialTitle": "A Phase I Study to Assess the Food Effect on the Pharmacokinetics of Entinostat in Postmenopausal Women With Locally Recurrent or Metastatic ER+ Breast Cancer and Men and Women With Progressive Non-Small Cell Lung Cancer",
+     "orgStudyIdInfo": {
+      "id": "SNDX-275-0110"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Syndax Pharmaceuticals"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Syndax Pharmaceuticals"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2014-05",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2021-11-19",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2021-11-11",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2014-04",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2012-05"
+     },
+     "statusVerifiedDate": "2021-11",
+     "studyFirstPostDateStruct": {
+      "date": "2012-05-09",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2012-05-04",
+     "studyFirstSubmitQcDate": "2012-05-07"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Arm A: Fulvestrant (500 mg on C1D1, C1D15, C2D1, and on Day 1 of each subsequent cycle) plus entinostat (5 mg PO once weekly)",
+       "interventionNames": [
+        "Drug: Fulvestrant",
+        "Drug: Entinostat"
+       ],
+       "label": "Fulvestrant + Entinostat",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Arm B: Fulvestrant (500 mg on C1D1, C1D15, C2D1, and on Day 1 of each subsequent cycle) plus placebo (5 mg PO once weekly)",
+       "interventionNames": [
+        "Drug: Fulvestrant",
+        "Drug: Placebo"
+       ],
+       "label": "Fulvestrant + Placebo",
+       "type": "ACTIVE_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Fulvestrant + Entinostat",
+        "Fulvestrant + Placebo"
+       ],
+       "name": "Fulvestrant",
+       "otherNames": [
+        "faslodex"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Fulvestrant + Entinostat"
+       ],
+       "name": "Entinostat",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Fulvestrant + Placebo"
+       ],
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Breast Cancer"
+     ],
+     "keywords": [
+      "metastatic breast cancer",
+      "estrogen receptor",
+      "Histone Deacetylase Inhibitors",
+      "Histone Deacetylases",
+      "HDAC inhibitors",
+      "selective estrogen receptor modulator",
+      "estrogen receptor modulator, selective",
+      "Estrogen receptor modulators, selective"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "TRIPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 0,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "ENCORE305",
+     "briefTitle": "Phase 2 Study of Fulvestrant With and Without Entinostat in Postmenopausal Women With ER+ Advanced Breast Cancer",
+     "nctId": "NCT02115594",
+     "officialTitle": "A Phase 2, Randomized, Double-Blind, Multicenter Study of Fulvestrant With and Without Entinostat in Postmenopausal Women With Hormone Receptor-Positive Advanced Breast Cancer",
+     "orgStudyIdInfo": {
+      "id": "SNDX-275-0305"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Syndax Pharmaceuticals"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Syndax Pharmaceuticals"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2016-06",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2014-10-08",
+      "type": "ESTIMATED"
+     },
+     "lastUpdateSubmitDate": "2014-10-06",
+     "overallStatus": "WITHDRAWN",
+     "primaryCompletionDateStruct": {
+      "date": "2015-12",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2014-04"
+     },
+     "statusVerifiedDate": "2014-04",
+     "studyFirstPostDateStruct": {
+      "date": "2014-04-16",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2014-04-04",
+     "studyFirstSubmitQcDate": "2014-04-14",
+     "whyStopped": "Internal decision"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants with NSCLC will receive entinostat 3 mg administered orally weekly (Days 1, 8, and 15 of each 21-day cycle) along with pembrolizumab 200 mg via intravenous (IV) infusion once every 3 weeks (Day 1 of each 21-day cycle).",
+       "interventionNames": [
+        "Drug: entinostat",
+        "Drug: pembrolizumab"
+       ],
+       "label": "Phase 1b (Dose Escalation): Entinostat 3 mg Weekly + Pembrolizumab",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants with NSCLC will receive entinostat 5 mg administered orally weekly (Days 1, 8, and 15 of each 21-day cycle) along with pembrolizumab 200 mg via IV infusion once every 3 weeks (Day 1 of each 21-day cycle).",
+       "interventionNames": [
+        "Drug: entinostat",
+        "Drug: pembrolizumab"
+       ],
+       "label": "Phase 1b (Dose Escalation): Entinostat 5 mg Weekly + Pembrolizumab",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants with NSCLC will receive entinostat 5 mg administered orally weekly (Days 1, 8, and 15 of each 21-day cycle) along with pembrolizumab 200 mg via IV infusion once every 3 weeks (Day 1 of each 21-day cycle).",
+       "interventionNames": [
+        "Drug: entinostat",
+        "Drug: pembrolizumab"
+       ],
+       "label": "Phase 1b (Dose Confirmation): Entinostat 5 mg Weekly + Pembrolizumab",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants with NSCLC with squamous cell or adenocarcinoma histology who had not been treated with a programmed cell death receptor-1 (PD-1)- or programmed cell death ligand-1 (PD-L1)-blocking antibody, will receive entinostat 5 mg administered orally weekly (Days 1, 8, and 15 of each 21-day cycle) along with pembrolizumab 200 mg via IV infusion once every 3 weeks (Day 1 of each 21-day cycle).",
+       "interventionNames": [
+        "Drug: entinostat",
+        "Drug: pembrolizumab"
+       ],
+       "label": "Phase 2, Cohort 1: Entinostat 5 mg Weekly + Pembrolizumab",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants with NSCLC (any histology) who has previously been treated with and unequivocally progressed on either a PD-1- or PD-L1-blocking antibody, will receive entinostat 5 mg administered orally weekly (Days 1, 8, and 15 of each 21-day cycle) along with pembrolizumab 200 mg via IV infusion once every 3 weeks (Day 1 of each 21-day cycle).",
+       "interventionNames": [
+        "Drug: entinostat",
+        "Drug: pembrolizumab"
+       ],
+       "label": "Phase 2, Cohort 2: Entinostat 5 mg Weekly + Pembrolizumab",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants with melanoma who has previously been treated with and unequivocally progressed on either a PD-1- or PD-L1-blocking antibody, will receive entinostat 5 mg administered orally weekly (Days 1, 8, and 15 of each 21-day cycle) along with pembrolizumab 200 mg via IV infusion once every 3 weeks (Day 1 of each 21-day cycle).",
+       "interventionNames": [
+        "Drug: entinostat",
+        "Drug: pembrolizumab"
+       ],
+       "label": "Phase 2, Cohort 3: Entinostat 5 mg Weekly + Pembrolizumab",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants with CRC (mismatch repair-proficient) who had not been previously treated with a PD-1- or PD-L1-blocking antibody, received entinostat 5 mg administered orally weekly (Days 1, 8, and 15 of each 21-day cycle) along with pembrolizumab 200 mg via IV infusion once every 3 weeks (Day 1 of each 21-day cycle).",
+       "interventionNames": [
+        "Drug: entinostat",
+        "Drug: pembrolizumab"
+       ],
+       "label": "Phase 2, Cohort 4: Entinostat 5 mg Weekly + Pembrolizumab",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Phase 1b (Dose Confirmation): Entinostat 5 mg Weekly + Pembrolizumab",
+        "Phase 1b (Dose Escalation): Entinostat 3 mg Weekly + Pembrolizumab",
+        "Phase 1b (Dose Escalation): Entinostat 5 mg Weekly + Pembrolizumab",
+        "Phase 2, Cohort 1: Entinostat 5 mg Weekly + Pembrolizumab",
+        "Phase 2, Cohort 2: Entinostat 5 mg Weekly + Pembrolizumab",
+        "Phase 2, Cohort 3: Entinostat 5 mg Weekly + Pembrolizumab",
+        "Phase 2, Cohort 4: Entinostat 5 mg Weekly + Pembrolizumab"
+       ],
+       "description": "An orally available histone deacetylases inhibitor (HDACs)",
+       "name": "entinostat",
+       "otherNames": [
+        "SNDX-275",
+        "MS-275"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Phase 1b (Dose Confirmation): Entinostat 5 mg Weekly + Pembrolizumab",
+        "Phase 1b (Dose Escalation): Entinostat 3 mg Weekly + Pembrolizumab",
+        "Phase 1b (Dose Escalation): Entinostat 5 mg Weekly + Pembrolizumab",
+        "Phase 2, Cohort 1: Entinostat 5 mg Weekly + Pembrolizumab",
+        "Phase 2, Cohort 2: Entinostat 5 mg Weekly + Pembrolizumab",
+        "Phase 2, Cohort 3: Entinostat 5 mg Weekly + Pembrolizumab",
+        "Phase 2, Cohort 4: Entinostat 5 mg Weekly + Pembrolizumab"
+       ],
+       "description": "A selective humanized monoclonal antibody (mAb)",
+       "name": "pembrolizumab",
+       "otherNames": [
+        "Keytruda",
+        "MK-3475",
+        "SCH 900475"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Non-Small Cell Lung Cancer",
+      "Melanoma",
+      "Mismatch Repair-Proficient Colorectal Cancer"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 191,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Ph1b/2 Dose-Escalation Study of Entinostat With Pembrolizumab in Non-small Cell Lung Cancer (NSCLC) With Expansion Cohorts in NSCLC, Melanoma, and Colorectal Cancer (CRC)",
+     "nctId": "NCT02437136",
+     "officialTitle": "A Phase 1b/2, Open-label, Dose Escalation Study of Entinostat in Combination With Pembrolizumab in Patients With Non-small Cell Lung Cancer, With Expansion Cohorts in Patients With Non-small Cell Lung Cancer, Melanoma, and Mismatch Repair-Proficient Colorectal Cancer",
+     "orgStudyIdInfo": {
+      "id": "SNDX-275-0601"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Syndax Pharmaceuticals"
+     },
+     "secondaryIdInfos": [
+      {
+       "domain": "Merck & Co.",
+       "id": "KN 142",
+       "type": "OTHER"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "collaborators": [
+      {
+       "class": "INDUSTRY",
+       "name": "Merck Sharp & Dohme LLC"
+      }
+     ],
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Syndax Pharmaceuticals"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2022-09-29",
+      "type": "ACTUAL"
+     },
+     "dispFirstPostDateStruct": {
+      "date": "2023-09-21",
+      "type": "ACTUAL"
+     },
+     "dispFirstSubmitDate": "2023-09-18",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-03-20",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-03-03",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2022-09-29",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2025-03-20",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2024-10-07",
+     "resultsFirstSubmitQcDate": "2025-03-03",
+     "startDateStruct": {
+      "date": "2015-08-26",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-03",
+     "studyFirstPostDateStruct": {
+      "date": "2015-05-07",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2015-04-27",
+     "studyFirstSubmitQcDate": "2015-05-04"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants in this arm will receive entinostat in combination with atezolizumab.\n\nPhase 1b Dose Determination: The initial 3 to 6 participants will receive entinostat at a starting dose of 5 milligrams (mg) (Dose Group 1) on Days 1, 8, and 15 along with atezolizumab 1200 mg via intravenous (IV) infusion on Day 1 of each 21-day cycle. If the 5 mg dose exceeds the maximum tolerated dose (MTD), then a 3 mg dose of entinostat (Dose Group -1) will be evaluated in the same manner. If the -1 dose level exceeds the MTD, then a 2 mg dose of entinostat (Dose Group -2) will be evaluated.\n\nPhase 2 Dose Expansion: Participants will receive the RP2D identified in the Dose Determination Phase.",
+       "interventionNames": [
+        "Drug: Entinostat",
+        "Drug: Atezolizumab"
+       ],
+       "label": "Entinostat plus Atezolizumab",
+       "type": "ACTIVE_COMPARATOR"
+      },
+      {
+       "description": "Participants in this arm will receive placebo in combination with atezolizumab 1200 mg.",
+       "interventionNames": [
+        "Drug: Atezolizumab",
+        "Drug: Placebo"
+       ],
+       "label": "Placebo plus Atezolizumab",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Entinostat plus Atezolizumab"
+       ],
+       "description": "An orally available histone deacetylases inhibitor (HDAC).",
+       "name": "Entinostat",
+       "otherNames": [
+        "SNDX-275",
+        "MS-275"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Entinostat plus Atezolizumab",
+        "Placebo plus Atezolizumab"
+       ],
+       "description": "A humanized, engineered monoclonal antibody of IgG1 isotype against the protein programmed cell death ligand 1 (PD-L1).",
+       "name": "Atezolizumab",
+       "otherNames": [
+        "MPDL3280A"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo plus Atezolizumab"
+       ],
+       "description": "A pill containing no active drug ingredient",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Breast Cancer"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 89,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Randomized Phase 2 Study of Atezolizumab and Entinostat in Patients With aTN Breast Cancer With Phase 1b Lead In",
+     "nctId": "NCT02708680",
+     "officialTitle": "A Randomized, Placebo-controlled, Double-blind, Multicenter Phase 2 Study of Atezolizumab With or Without Entinostat in Patients With Advanced Triple Negative Breast Cancer, With a Phase 1b Lead in Phase",
+     "orgStudyIdInfo": {
+      "id": "SNDX-275-0602"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Syndax Pharmaceuticals"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "collaborators": [
+      {
+       "class": "INDUSTRY",
+       "name": "Roche Pharma AG"
+      }
+     ],
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Syndax Pharmaceuticals"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2021-03-31",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2024-12-04",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2024-11-15",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2021-03-31",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2023-09-14",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2022-10-25",
+     "resultsFirstSubmitQcDate": "2023-08-21",
+     "startDateStruct": {
+      "date": "2016-05",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2024-11",
+     "studyFirstPostDateStruct": {
+      "date": "2016-03-15",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2016-03-09",
+     "studyFirstSubmitQcDate": "2016-03-09"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Cohort 1 will evaluate exemestane's effect on the PK of entinostat. Each treatment cycle is 28 days.",
+       "interventionNames": [
+        "Drug: entinostat",
+        "Drug: exemestane"
+       ],
+       "label": "Cohort 1",
+       "type": "ACTIVE_COMPARATOR"
+      },
+      {
+       "description": "Cohort 2 will enroll when Cohort 1 enrollment is complete. Cohort 2 will evaluate entinostat's effect on the PK of exemestane. Each treatment cycle is 28 days.",
+       "interventionNames": [
+        "Drug: entinostat",
+        "Drug: exemestane"
+       ],
+       "label": "Cohort 2",
+       "type": "ACTIVE_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Cohort 1",
+        "Cohort 2"
+       ],
+       "description": "An orally available histone deacetylases inhibitor (HDAC)",
+       "name": "entinostat",
+       "otherNames": [
+        "SNDX-275",
+        "MS-275"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Cohort 1",
+        "Cohort 2"
+       ],
+       "description": "Aromatase inhibitor",
+       "name": "exemestane",
+       "otherNames": [
+        "Aromasin",
+        "FCE-24304"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Breast Cancer",
+      "Estrogen Receptor Positive Breast Cancer"
+     ],
+     "keywords": [
+      "Breast Neoplasms",
+      "Breast Diseases",
+      "Exemestane",
+      "Protein Kinase Inhibitors",
+      "Aromatase Inhibitors",
+      "entinostat",
+      "Cancer of the Breast",
+      "Metastatic Breast Cancer",
+      "Hormone Receptor Positive Breast Cancer",
+      "Estrogen Receptor",
+      "ER+ Breast Cancer",
+      "Breast Tumor"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 61,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Drug-Drug Interaction Study of Entinostat and Exemestane in Postmenopausal Women With ER+ Breast Cancer",
+     "nctId": "NCT02820961",
+     "officialTitle": "A Phase 1, Two-Cohort, Open-Label, Drug-Drug Interaction Study of Entinostat and Exemestane in Postmenopausal Women With Locally Recurrent or Metastatic ER+ Breast Cancer",
+     "orgStudyIdInfo": {
+      "id": "SNDX-275-0130"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Syndax Pharmaceuticals"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Syndax Pharmaceuticals"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2021-07-12",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2021-12-15",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2021-12-14",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2018-09-10",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2016-06-29",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2021-12",
+     "studyFirstPostDateStruct": {
+      "date": "2016-07-01",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2016-06-29",
+     "studyFirstSubmitQcDate": "2016-06-29"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants received a single oral supratherapeutic dose of 15 mg entinostat under fasted conditions.",
+       "interventionNames": [
+        "Drug: Entinostat"
+       ],
+       "label": "Entinostat",
+       "type": "ACTIVE_COMPARATOR"
+      },
+      {
+       "description": "Participants received a single dose of placebo-matching entinostat under fasted conditions.",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Entinostat"
+       ],
+       "description": "Single, supratherapeutic dose of entinostat given orally.",
+       "name": "Entinostat",
+       "otherNames": [
+        "SNDX-275",
+        "MS-275"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Single dose of placebo-matching entinostat (containing inactive ingredients matching the appearance of the active product).",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Neoplasms",
+      "Neoplasms, Glandular and Epithelial",
+      "Neoplasms by Histologic Type",
+      "Bronchial Neoplasms",
+      "Lung Neoplasms",
+      "Respiratory Tract Neoplasms",
+      "Thoracic Neoplasms",
+      "Digestive System Neoplasms",
+      "Endocrine Gland Neoplasms",
+      "Carcinoma, Non-Small-Cell Lung",
+      "Lung Diseases",
+      "Breast Neoplasms",
+      "Breast Diseases",
+      "Renal Neoplasm",
+      "Solid Tumors"
+     ],
+     "keywords": [
+      "entinostat",
+      "solid tumor",
+      "Histone Deacetylase Inhibitors"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 30,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Cardiac Safety Study of Entinostat in Men and Women With Advanced Solid Tumors",
+     "nctId": "NCT02897778",
+     "officialTitle": "A Phase 1 Cardiac Safety Study of Entinostat in Men and Women With Advanced Solid Tumors",
+     "orgStudyIdInfo": {
+      "id": "SNDX-275-0140"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Syndax Pharmaceuticals"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Syndax Pharmaceuticals"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2017-03-13",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2022-04-28",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2022-04-21",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2017-03-13",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2016-08-24",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2022-04",
+     "studyFirstPostDateStruct": {
+      "date": "2016-09-13",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2016-08-20",
+     "studyFirstSubmitQcDate": "2016-09-07"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Entinostat daily in combination with pembrolizumab every three weeks",
+       "interventionNames": [
+        "Drug: Entinostat",
+        "Drug: Pembrolizumab"
+       ],
+       "label": "ENT 1mg daily with pembro every 3 weeks",
+       "type": "ACTIVE_COMPARATOR"
+      },
+      {
+       "description": "Entinostat once weekly in combination with pembrolizumab every three weeks",
+       "interventionNames": [
+        "Drug: Entinostat",
+        "Drug: Pembrolizumab"
+       ],
+       "label": "ENT 5mg weekly with pembro every 3 weeks",
+       "type": "ACTIVE_COMPARATOR"
+      },
+      {
+       "description": "Entinostat once every other week in combination with pembrolizumab every three weeks",
+       "interventionNames": [
+        "Drug: Entinostat",
+        "Drug: Pembrolizumab"
+       ],
+       "label": "ENT 10mg bi-weekly with pembro every 3 weeks",
+       "type": "ACTIVE_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "ENT 10mg bi-weekly with pembro every 3 weeks",
+        "ENT 1mg daily with pembro every 3 weeks",
+        "ENT 5mg weekly with pembro every 3 weeks"
+       ],
+       "description": "HDAC (histone deacetylase) inhibitor",
+       "name": "Entinostat",
+       "otherNames": [
+        "SNDX-275",
+        "MS-275"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "ENT 10mg bi-weekly with pembro every 3 weeks",
+        "ENT 1mg daily with pembro every 3 weeks",
+        "ENT 5mg weekly with pembro every 3 weeks"
+       ],
+       "description": "A selective humanized monoclonal antibody (mAb)",
+       "name": "Pembrolizumab",
+       "otherNames": [
+        "Keytruda",
+        "MK-3475",
+        "SCH-900475"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Neoplasms",
+      "Neoplasms, Glandular and Epithelial",
+      "Neoplasms by Histologic Type",
+      "Bronchial Neoplasms",
+      "Lung Neoplasms",
+      "Respiratory Tract Neoplasms",
+      "Thoracic Neoplasms",
+      "Digestive System Neoplasms",
+      "Endocrine Gland Neoplasms",
+      "Carcinoma, Non-Small-Cell Lung",
+      "Lung Diseases",
+      "Breast Diseases",
+      "Renal Neoplasm",
+      "Solid Tumors"
+     ],
+     "keywords": [
+      "entinostat",
+      "pembrolizumab",
+      "solid tumor",
+      "Histone Deacetylase Inhibitor"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 30,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Continuation Study of Entinostat in Combination With Pembrolizumab in Patients With Advanced Solid Tumors",
+     "nctId": "NCT02909452",
+     "officialTitle": "A Phase 1, Randomized, Open-Label, Continuation Study of Entinostat in Combination With Pembrolizumab in Patients With Advanced Solid Tumors (SNDX-275-0141, MK3475-460/KEYNOTE-460)",
+     "orgStudyIdInfo": {
+      "id": "SNDX-275-0141"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Syndax Pharmaceuticals"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "collaborators": [
+      {
+       "class": "INDUSTRY",
+       "name": "Merck Sharp & Dohme LLC"
+      }
+     ],
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Syndax Pharmaceuticals"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2021-02-09",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2022-01-25",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2022-01-24",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2019-07-17",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2016-09-20",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2018-06",
+     "studyFirstPostDateStruct": {
+      "date": "2016-09-21",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2016-09-13",
+     "studyFirstSubmitQcDate": "2016-09-16"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Avelumab is administered intravenously (IV) on Day 1 of each 14-day cycle in combination with Entinostat administration on Day 1 and Day 8 of each cycle at the Maximum tolerated Dose (MTD)/RP2D as determined in the Phase Ib (Dose Determination) part of the study.",
+       "interventionNames": [
+        "Drug: entinostat",
+        "Drug: avelumab"
+       ],
+       "label": "Entinostat plus Avelumab",
+       "type": "ACTIVE_COMPARATOR"
+      },
+      {
+       "description": "Avelumab is administered intravenously (IV) on Day 1 of each 14-day cycle in combination with placebo administered on Day 1 and Day 8 of each cycle.",
+       "interventionNames": [
+        "Drug: avelumab",
+        "Drug: Placebo"
+       ],
+       "label": "Placebo plus Avelumab",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Entinostat plus Avelumab"
+       ],
+       "description": "An orally available histone deacetylases inhibitor (HDACi).",
+       "name": "entinostat",
+       "otherNames": [
+        "SNDX-275",
+        "MS-275"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Entinostat plus Avelumab",
+        "Placebo plus Avelumab"
+       ],
+       "description": "A fully human antibody of the immunoglobulin (Ig) G1 isotype that targets and blocks Programmed death-ligand 1 (PD-L1), the ligand for Programmed cell death protein 1 (PD-1) receptor.",
+       "name": "avelumab",
+       "otherNames": [
+        "MSB0010718C"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo plus Avelumab"
+       ],
+       "description": "A pill containing no active drug ingredient.",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Epithelial Ovarian Cancer",
+      "Peritoneal Cancer",
+      "Fallopian Tube Cancer"
+     ],
+     "keywords": [
+      "Ovarian Cancer",
+      "Histone Deacetylase Inhibitors",
+      "Entinostat",
+      "Solid tumor",
+      "Avelumab",
+      "SNDX-275",
+      "Ovarian Neoplasms",
+      "Ovarian Diseases",
+      "Fallopian Tube Cancer",
+      "Peritoneal Cancer"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 140,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Study of Avelumab With or Without Entinostat in Participants With Advanced Epithelial Ovarian Cancer",
+     "nctId": "NCT02915523",
+     "officialTitle": "A Randomized, Placebo-controlled, Double-blind, Multicenter Phase 1b/2 Study of Avelumab With or Without Entinostat in Patients With Advanced Epithelial Ovarian Cancer Which Has Progressed or Recurred After First-line Platinum-based Chemotherapy and at Least Two Subsequent Lines of Treatment With a Safety Lead-in",
+     "orgStudyIdInfo": {
+      "id": "SNDX-275-0603"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Syndax Pharmaceuticals"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "collaborators": [
+      {
+       "class": "INDUSTRY",
+       "name": "Merck KGaA, Darmstadt, Germany"
+      },
+      {
+       "class": "INDUSTRY",
+       "name": "Pfizer"
+      }
+     ],
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Syndax Pharmaceuticals"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2021-04-21",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2024-01-10",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2023-12-19",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2019-02-21",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2024-01-10",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2023-08-30",
+     "resultsFirstSubmitQcDate": "2023-12-19",
+     "startDateStruct": {
+      "date": "2016-12-19",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2023-12",
+     "studyFirstPostDateStruct": {
+      "date": "2016-09-27",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2016-09-14",
+     "studyFirstSubmitQcDate": "2016-09-23"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Treatment A: 5mg entinostat on Day 1\n\nTreatment B: 20mg omeprazole for 5 days with 5mg entinostat on Day 1",
+       "interventionNames": [
+        "Drug: entinostat",
+        "Dietary Supplement: Omeprazole"
+       ],
+       "label": "Omeprazole",
+       "type": "ACTIVE_COMPARATOR"
+      },
+      {
+       "description": "Treatment C: 5mg entinostat on Day 1\n\nTreatment D: 20mg famotidine on Days -1 and 1 with 5mg entinostat on Day 1",
+       "interventionNames": [
+        "Drug: entinostat",
+        "Dietary Supplement: Famotidine"
+       ],
+       "label": "Famotidine",
+       "type": "ACTIVE_COMPARATOR"
+      },
+      {
+       "description": "Treatment E: 20mg omeprazole for 5 days with 5mg entinostat on Day 1 taken with water\n\nTreatment F: 20mg omeprazole for 5 days with 5mg entinostat on Day 1 taken with an acidic beverage",
+       "interventionNames": [
+        "Drug: entinostat",
+        "Dietary Supplement: Omeprazole"
+       ],
+       "label": "Acidic Beverage",
+       "type": "ACTIVE_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Acidic Beverage",
+        "Famotidine",
+        "Omeprazole"
+       ],
+       "description": "HDAC (histone deacetylase inhibitor)",
+       "name": "entinostat",
+       "otherNames": [
+        "SNDX-275",
+        "MS-275"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Acidic Beverage",
+        "Omeprazole"
+       ],
+       "description": "Proton pump inhibitor",
+       "name": "Omeprazole",
+       "otherNames": [
+        "Prilosec",
+        "Zegerid"
+       ],
+       "type": "DIETARY_SUPPLEMENT"
+      },
+      {
+       "armGroupLabels": [
+        "Famotidine"
+       ],
+       "description": "Histamine-2 blocker",
+       "name": "Famotidine",
+       "otherNames": [
+        "Pepcid"
+       ],
+       "type": "DIETARY_SUPPLEMENT"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Volunteers",
+      "Healthy Volunteers",
+      "Human Volunteers",
+      "Normal Volunteers"
+     ],
+     "keywords": [
+      "entinostat",
+      "Histone Deacetylase Inhibitor",
+      "HDAC"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "OTHER"
+     },
+     "enrollmentInfo": {
+      "count": 66,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Study to Examine the Effect of Omeprazole, Famotidine, and an Acidic Beverage on the Pharmacokinetics of Entinostat in Healthy Adult Subjects",
+     "nctId": "NCT02922933",
+     "officialTitle": "An Open-Label, 3-Part, 2-Period Study to Examine the Effect of Omeprazole (Part 1), Famotidine (Part 2), and of an Acidic Beverage (Part 3) on the Single-Dose Pharmacokinetics of Entinostat in Healthy Adult Subjects",
+     "orgStudyIdInfo": {
+      "id": "SNDX-275-0150"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Syndax Pharmaceuticals"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Syndax Pharmaceuticals"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2017-05-08",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2018-08-16",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2018-08-14",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2017-04-19",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2016-10-25",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2018-08",
+     "studyFirstPostDateStruct": {
+      "date": "2016-10-04",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2016-09-30",
+     "studyFirstSubmitQcDate": "2016-10-02"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Treatment A: 5mg entinostat following an overnight fast and followed by a 4-hour fast.\n\nTreatment B: 5mg entinostat 2 hours after the completion of a meal and followed by a 1-hour fast.",
+       "interventionNames": [
+        "Drug: Entinostat"
+       ],
+       "label": "Entinostat 5mg in 2-Way Crossover",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Treatment C: 5mg entinostat following an overnight fast and followed by a 4-hour fast.\n\nTreatment D: 5mg entinostat following an overnight fast and 1 hour before the start of a meal.\n\nTreatment E: 5mg entinostat 2 hours after the completion of a meal and followed by a 4-hour fast.",
+       "interventionNames": [
+        "Drug: Entinostat"
+       ],
+       "label": "Entinostat 5mg in 3-Way Crossover",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Entinostat 5mg in 2-Way Crossover",
+        "Entinostat 5mg in 3-Way Crossover"
+       ],
+       "description": "HDAC (histone deacetylase) inhibitor",
+       "name": "Entinostat",
+       "otherNames": [
+        "SNDX-275",
+        "MS-275"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Volunteers",
+      "Healthy Volunteers",
+      "Human Volunteers",
+      "Normal Volunteers"
+     ],
+     "keywords": [
+      "entinostat",
+      "Histone Deacetylase Inhibitor",
+      "HDAC"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "OTHER"
+     },
+     "enrollmentInfo": {
+      "count": 47,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Study to Determine the Effect of the Timing of a Meal on the Pharmacokinetics of Entinostat",
+     "nctId": "NCT02922946",
+     "officialTitle": "A 2-Stage, Open-Label, Randomized, Single-Dose, Crossover Study to Determine the Effect of the Timing of a Meal on the Pharmacokinetics of Entinostat in Healthy Adult Subjects",
+     "orgStudyIdInfo": {
+      "id": "SNDX-275-0180"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Syndax Pharmaceuticals"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Syndax Pharmaceuticals"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2017-06-26",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2018-08-16",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2018-08-14",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2017-05-20",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2016-10-11",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2018-08",
+     "studyFirstPostDateStruct": {
+      "date": "2016-10-04",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2016-09-30",
+     "studyFirstSubmitQcDate": "2016-10-02"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Treatment A: 2 mg of Midazolam administered - Period 1, Day 1 Treatment B: 2 mg of Midazolam with 5 mg Entinostat (after 14 day minimum washout from Period 1, Day 1) - Period 2, Day 1",
+       "interventionNames": [
+        "Drug: Entinostat",
+        "Drug: Midazolam"
+       ],
+       "label": "Midazolam",
+       "type": "OTHER"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Midazolam"
+       ],
+       "description": "HDAC (histone deacetylase inhibitor)",
+       "name": "Entinostat",
+       "otherNames": [
+        "SNDX-275",
+        "MS-275"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Midazolam"
+       ],
+       "description": "benzodiazepine central nervous system (CNS) depressant",
+       "name": "Midazolam",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Drug Interaction",
+      "Healthy Volunteer"
+     ],
+     "keywords": [
+      "Healthy Volunteers",
+      "Entinostat",
+      "Histone Deacetylase Inhibitor",
+      "HDAC"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "OTHER"
+     },
+     "enrollmentInfo": {
+      "count": 26,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Study to Examine the Effects of Entinostat on Midazolam in Healthy Adult Subjects",
+     "nctId": "NCT03187015",
+     "officialTitle": "An Open Label, 2-Period Study to Assess the Effect of Entinostat on the Pharmacokinetics of Midazolam in Healthy Adult Subjects",
+     "orgStudyIdInfo": {
+      "id": "SNDX-275-0160"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Syndax Pharmaceuticals"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Syndax Pharmaceuticals"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2017-08-22",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2018-08-16",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2018-08-14",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2017-06-04",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2017-05-23",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2018-08",
+     "studyFirstPostDateStruct": {
+      "date": "2017-06-14",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2017-04-14",
+     "studyFirstSubmitQcDate": "2017-06-13"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Subjects with mild renal impairment",
+       "interventionNames": [
+        "Drug: Entinostat"
+       ],
+       "label": "Mild Renal Impairment",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Subjects with moderate renal impairment",
+       "interventionNames": [
+        "Drug: Entinostat"
+       ],
+       "label": "Moderate Renal Impairment",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Subjects with severe renal impairment",
+       "interventionNames": [
+        "Drug: Entinostat"
+       ],
+       "label": "Severe Renal Impairment",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Healthy volunteers mean-matched to the mild, moderate, and severe renal impairment patients",
+       "interventionNames": [
+        "Drug: Entinostat"
+       ],
+       "label": "Healthy Subjects",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Healthy Subjects",
+        "Mild Renal Impairment",
+        "Moderate Renal Impairment",
+        "Severe Renal Impairment"
+       ],
+       "description": "HDAC (histone deacetylase) inhibitor",
+       "name": "Entinostat",
+       "otherNames": [
+        "SNDX-275",
+        "MS-275"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Renal Impairment",
+      "Healthy Volunteer"
+     ],
+     "keywords": [
+      "Healthy Volunteers",
+      "Mild Renal Impairment",
+      "Moderate Renal Impairment",
+      "Severe Renal Impairment",
+      "Entinostat",
+      "Histone Deacetylase Inhibitor",
+      "HDAC"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "OTHER"
+     },
+     "enrollmentInfo": {
+      "count": 40,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Study to Evaluate the Pharmacokinetics of Entinostat in Adult Subjects With Normal and Impaired Renal Function",
+     "nctId": "NCT03192111",
+     "officialTitle": "A Phase 1, Open-Label, Parallel-Cohort, Single-Dose Study to Evaluate the Pharmacokinetics of Entinostat in Adult Subjects With Normal and Impaired Renal Function",
+     "orgStudyIdInfo": {
+      "id": "SNDX-275-0190"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Syndax Pharmaceuticals"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Syndax Pharmaceuticals"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2017-11-23",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2018-04-13",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2018-04-12",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2017-11-23",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2017-07-27",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2018-04",
+     "studyFirstPostDateStruct": {
+      "date": "2017-06-19",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2017-06-15",
+     "studyFirstSubmitQcDate": "2017-06-15"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Three (3) patients receive starting dose of 1 mg/kg of axatilimab and are followed for possible DLTs. If one DLT is observed in 1 of 3 patients, an additional 3 patients will be enrolled at this dose level. If no DLTs are noted in any of the 3 patients, next dosing arm will commence following review by Scientific Review Committee.",
+       "interventionNames": [
+        "Drug: Axatilimab"
+       ],
+       "label": "Ph1a D1: 1 mg/kg Axatilimab",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Three (3) patients receive next higher dose of 3 mg/kg of axatilimab and are followed for possible DLTs. If one DLT is observed in 1 of 3 patients, an additional 3 patients will be enrolled at this dose level. If no DLTs are noted in any of the 3 patients, next dosing arm will commence following review by Scientific Review Committee.",
+       "interventionNames": [
+        "Drug: Axatilimab"
+       ],
+       "label": "Ph1a D2: 3 mg/kg Axatilimab",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Three (3) patients receive next higher dose of 6 mg/kg of axatilimab and are followed for possible DLTs. If one DLT is observed in 1 of 3 patients, an additional 3 patients will be enrolled at this dose level. If no DLTs are noted in any of the 3 patients, next dosing arm will commence following review by Scientific Review Committee.",
+       "interventionNames": [
+        "Drug: Axatilimab"
+       ],
+       "label": "Ph1a D3: 6 mg/kg Axatilimab",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Three (3) patients receive next higher dose of 10 mg/kg of axatilimab and are followed for possible DLTs. If one DLT is observed in 1 of 3 patients, an additional 3 patients will be enrolled at this dose level. If no DLTs are noted in any of the 3 patients, next dosing arm will commence following review by Scientific Review Committee.",
+       "interventionNames": [
+        "Drug: Axatilimab"
+       ],
+       "label": "Ph1a D4: 10 mg/kg Axatilimab",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Three (3) patients receive starting dose of 1 mg/kg of axatilimab every two weeks and 1500 mg durvalumab every four weeks and are followed for possible DLTs. If one DLT is observed in 1 of 3 patients, an additional 3 patients will be enrolled at this dose level. If no DLTs are noted in any of the 3 patients, next dosing arm will commence following review by Scientific Review Committee. If 1 DLT is observed in 1 of 3 patients, then 3 additional patients will be treated at the 1 mg/kg axatilimab dose level; if none of the 3 additional patients experience a DLT (i.e. 1 of 6), the dose will be escalated to an intermediate dose of 2 mg/kg. Escalation from 2 mg/kg to 3 mg/kg will follow the general dose escalation rules described above for both study phases.",
+       "interventionNames": [
+        "Drug: Axatilimab",
+        "Drug: Durvalumab"
+       ],
+       "label": "Ph1b D1: 1 mg/kg Axatilimab+1500 mg durvalumab",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Three (3) patients receive next higher dose of 3 mg/kg of axatilimab every two weeks and 1500 mg durvalumab every four weeks and are followed for possible DLTs. For cohorts with doses ≥3 mg/kg, a sentinel recruitment approach will be utilized. Initially 1 patient in each cohort will be treated with the combination therapy and safety will be evaluated by SRC at Cycle 1, Day 8; if no safety concerns are identified, the next 2 patients can be treated in that cohort. If one DLT is observed in 1 of 3 patients, an additional 3 patients will be enrolled at this dose level. If no DLTs are noted in any of the 3 patients, next dosing arm will commence following review by Scientific Review Committee.",
+       "interventionNames": [
+        "Drug: Axatilimab",
+        "Drug: Durvalumab"
+       ],
+       "label": "Ph1b D2: 3 mg/kg Axatilimab+1500 mg durvalumab",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Three (3) patients receive next higher dose of 6 mg/kg of axatilimab every two weeks and 1500 mg durvalumab every four weeks and are followed for possible DLTs. For cohorts with doses ≥3 mg/kg, a sentinel recruitment approach will be utilized. Initially 1 patient in each cohort will be treated with the combination therapy and safety will be evaluated by SRC at Cycle 1, Day 8; if no safety concerns are identified, the next 2 patients can be treated in that cohort. If one DLT is observed in 1 of 3 patients, an additional 3 patients will be enrolled at this dose level. If no DLTs are noted in any of the 3 patients, next dosing arm will commence following review by Scientific Review Committee.",
+       "interventionNames": [
+        "Drug: Axatilimab",
+        "Drug: Durvalumab"
+       ],
+       "label": "Ph1b D3: 6 mg/kg Axatilimab+1500 mg durvalumab",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Ph1a D1: 1 mg/kg Axatilimab",
+        "Ph1a D2: 3 mg/kg Axatilimab",
+        "Ph1a D3: 6 mg/kg Axatilimab",
+        "Ph1a D4: 10 mg/kg Axatilimab",
+        "Ph1b D1: 1 mg/kg Axatilimab+1500 mg durvalumab",
+        "Ph1b D2: 3 mg/kg Axatilimab+1500 mg durvalumab",
+        "Ph1b D3: 6 mg/kg Axatilimab+1500 mg durvalumab"
+       ],
+       "description": "Humanized IgG4 mAb that blocks colony stimulating factor 1 receptor (CSF-1R)",
+       "name": "Axatilimab",
+       "otherNames": [
+        "SNDX-6352"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Ph1b D1: 1 mg/kg Axatilimab+1500 mg durvalumab",
+        "Ph1b D2: 3 mg/kg Axatilimab+1500 mg durvalumab",
+        "Ph1b D3: 6 mg/kg Axatilimab+1500 mg durvalumab"
+       ],
+       "description": "Durvalumab (MEDI4736) is a humanized IgG1 kappa mAb that blocks the interaction of PD-L1 with PD-1 CD80 (B7.1) molecules",
+       "name": "Durvalumab",
+       "otherNames": [
+        "MEDI4736"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Solid Tumor",
+      "Metastatic Tumor",
+      "Locally Advanced Malignant Neoplasm",
+      "Unresectable Malignant Neoplasm"
+     ],
+     "keywords": [
+      "SNDX-6352",
+      "CSF-1R inhibitor",
+      "Colony Stimulating factor 1 receptor inhibitor",
+      "Solid Tumor",
+      "Recurrent locally advanced tumor",
+      "unresectable solid tumor",
+      "Metastatic tumor",
+      "durvalumab"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "interventionModelDescription": "Initially in both phases, 3 patients will receive axatilimab at 1 mg/kg IV on C1D1 and again on C1D15 of a 28-day cycle. Phase 1b only will also receive a fixed dose of 1500mg durvalumab IV on C1D1. If no DLTs are noted, 3 more patients will be treated at the next higher dose level (3 mg/kg). If 1 DLT is observed in 1 of 3 patients, 3 more patients will be treated at that starting dose level (1 mg/kg). If 2 or more DLTs are observed in 3-6 patients at the starting dose, the study will be terminated, or a lower dose will be considered. If the safety profile is acceptable, escalation to axatilimab doses of 3, 6 and 10mg/kg are planned for the 1a and for the 1b, doses of 3 and 6 mg/kg of axatilimab in combination with a fixed dose of 1500mg of durvalumab are planned. The MTD will be considered to have been exceeded if 2 or more patients in a dose group experience a DLT; in this case, the next lower dose group which has been evaluated will be considered as the MTD.",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 45,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Phase 1 Study to Investigate Axatilimab Alone or in Combination With Durvalumab in Patients With Solid Tumors",
+     "nctId": "NCT03238027",
+     "officialTitle": "A Phase 1, Open-Label, Dose Escalation Trial to Investigate the Safety, Tolerability, Pharmacokinetics and Pharmacodynamic Activity of SNDX-6352 Monotherapy and SNDX-6352 in Combination With Durvalumab in Patients With Unresectable, Recurrent, Locally-Advanced, or Metastatic Solid Tumors",
+     "orgStudyIdInfo": {
+      "id": "SNDX-6352-0502"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Syndax Pharmaceuticals"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Syndax Pharmaceuticals"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2020-11-20",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2024-05-17",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2024-05-16",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2020-11-20",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2017-09-01",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2024-05",
+     "studyFirstPostDateStruct": {
+      "date": "2017-08-03",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2017-06-30",
+     "studyFirstSubmitQcDate": "2017-07-31"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Escalating dose levels of axatilimab to establish the optimal biologic dose (OBD) and recommended Phase 2 dose (RP2D).\n\nIntravenous (IV) infusion; axatilimab at a dose of 0.15 milligrams (mg)/kilogram (kg) to 3 mg/kg.",
+       "interventionNames": [
+        "Drug: axatilimab"
+       ],
+       "label": "Cohorts of escalating dose levels of axatilimab",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Phase 2, dose expansion, is an open-label design, evaluating the 1 mg/kg dose in a larger sample size.\n\nIV infusion; axatilimab at a dose of 1 mg/kg.",
+       "interventionNames": [
+        "Drug: axatilimab"
+       ],
+       "label": "Phase 2 Dose Expansion",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Cohorts of escalating dose levels of axatilimab",
+        "Phase 2 Dose Expansion"
+       ],
+       "description": "axatilimab is a high affinity antibody targeting the colony stimulating factor 1 receptor (CSF-1R). CSF-1R signaling has been demonstrated in nonclinical studies to be the key regulatory pathway involved in the expansion and infiltration of donor derived macrophages that mediate the disease processes involved in cGVHD.",
+       "name": "axatilimab",
+       "otherNames": [
+        "Niktimvo",
+        "SNDX-6352"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Chronic Graft-versus-host-disease"
+     ],
+     "keywords": [
+      "cGVHD"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "interventionModelDescription": "The dose-escalation phase is a sequential group (dose-escalating) treatment study that is open-label. The dose-expansion phase is a parallel group treatment study with open-label cohorts.",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 41,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Phase 1/2 Study to Evaluate Axatilimab in Participants With Active cGVHD",
+     "nctId": "NCT03604692",
+     "officialTitle": "A Phase 1/2, Open-Label, Dose Escalation and Dose Expansion Study to Evaluate the Safety, Tolerability, Pharmacokinetics, Pharmacodynamic Activity, and Efficacy of SNDX- 6352 in Subjects With Active Chronic Graft Versus Host Disease Who Have Received at Least 2 Lines of Prior Therapy",
+     "orgStudyIdInfo": {
+      "id": "SNDX-6352-0503"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Syndax Pharmaceuticals"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Syndax Pharmaceuticals"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2024-10-18",
+      "type": "ACTUAL"
+     },
+     "dispFirstPostDateStruct": {
+      "date": "2024-11-27",
+      "type": "ACTUAL"
+     },
+     "dispFirstSubmitDate": "2023-08-01",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-09-15",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-08-25",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2022-08-12",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2024-11-27",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2024-09-12",
+     "resultsFirstSubmitQcDate": "2024-11-20",
+     "startDateStruct": {
+      "date": "2018-11-01",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-08",
+     "studyFirstPostDateStruct": {
+      "date": "2018-07-27",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2018-07-10",
+     "studyFirstSubmitQcDate": "2018-07-20"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Phase 1: Oral revumenib; sequential cohorts of escalating dose levels of revumenib. Participants will be enrolled in 1 of 6 dose-escalation arms:\n\n* Arm A: Participants not receiving any strong CYP3A4 inhibitor/inducers or fluconazole\n* Arm B: Participants receiving any strong CYP3A4 inhibitors for antifungal prophylaxis\n* Arm C: Participants receiving revumenib and cobicistat\n* Arm D: Participants receiving fluconazole for antifungal prophylaxis\n* Arm E: Participants not receiving any weak, moderate, or strong CYP3A4 inhibitors/inducers\n* Arm F: Participants receiving isavuconazole for antifungal prophylaxis\n\nPhase 2: Oral revumenib; 4 indication-specific expansion cohorts will be enrolled:\n\n* Cohort 2A: Participants with KMT2Ar ALL/MPAL\n* Cohort 2B: Participants with KMT2Ar AML\n* Cohort 2C: Participants with NPM1m AML\n* Cohort 2D: Participants with acute leukemia (including KMT2Ar, NPM1m, NUP98r and other acute leukemias expected to have HOX/MEIS upregulation)",
+       "interventionNames": [
+        "Drug: revumenib",
+        "Drug: cobicistat"
+       ],
+       "label": "Revumenib",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Revumenib"
+       ],
+       "description": "revumenib orally",
+       "name": "revumenib",
+       "otherNames": [
+        "SNDX-5613"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Revumenib"
+       ],
+       "description": "Phase 1 Arm C participants will receive 150 mg cobicistat daily.",
+       "name": "cobicistat",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Acute Myeloid Leukemia",
+      "Acute Lymphoblastic Leukemia",
+      "Mixed Lineage Acute Leukemia",
+      "Mixed Phenotype Acute Leukemia",
+      "Acute Leukemia of Ambiguous Lineage"
+     ],
+     "keywords": [
+      "AML",
+      "ALL",
+      "MPAL",
+      "MLAL",
+      "ALAL",
+      "relapsed leukemia",
+      "refractory leukemia",
+      "acute leukemia",
+      "KMT2A",
+      "NPM1"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SEQUENTIAL",
+      "interventionModelDescription": "Phase 1 will employ an accelerated titration design. The dose escalation will follow a modified Fibonacci sequence.",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 447,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "AUGMENT-101",
+     "briefTitle": "A Study of Revumenib in R/R Leukemias Including Those With an MLL/KMT2A Gene Rearrangement or NPM1 Mutation",
+     "nctId": "NCT04065399",
+     "officialTitle": "A Phase 1/2, Open-label, Dose-Escalation and Dose-Expansion Cohort Study of SNDX-5613 in Patients With Relapsed/Refractory Leukemias, Including Those Harboring an MLL/KMT2A Gene Rearrangement or Nucleophosmin 1 (NPM1) Mutation",
+     "orgStudyIdInfo": {
+      "id": "SNDX-5613-0700"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Syndax Pharmaceuticals"
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "2020-004104-34",
+       "type": "EUDRACT_NUMBER"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Syndax Pharmaceuticals"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2027-12-15",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": true,
+      "nctId": "NCT05918913",
+      "statusForNctId": "NO_LONGER_AVAILABLE"
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-09",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-07",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-12-15",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2019-11-05",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-10",
+     "studyFirstPostDateStruct": {
+      "date": "2019-08-22",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2019-08-16",
+     "studyFirstSubmitQcDate": "2019-08-20"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Axatilimab on Days 1 and 15, IV + SOC",
+       "interventionNames": [
+        "Drug: SNDX-6352"
+       ],
+       "label": "Axatilimab (SNDX-6352)",
+       "type": "ACTIVE_COMPARATOR"
+      },
+      {
+       "description": "Matching placebo on Days 1 and 15, IV + SOC",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Axatilimab (SNDX-6352)"
+       ],
+       "description": "SNDX-6352",
+       "name": "SNDX-6352",
+       "otherNames": [
+        "Axatilimab"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Placebo comparator",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Coronavirus",
+      "COVID",
+      "ARDS",
+      "Cytokine Storm",
+      "Cytokine Release Syndrome"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 1,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Phase 2 Study to Evaluate Axatilimab for Hospitalized Participants With Respiratory Involvement Secondary to COVID-19",
+     "nctId": "NCT04415073",
+     "officialTitle": "A Phase 2, Randomized, Double-blind, Placebo-controlled Study to Evaluate the Efficacy and Safety of Axatilimab for the Treatment of Hospitalized Patients With Respiratory Signs and Symptoms Secondary to Novel Coronavirus Disease (COVID-19)",
+     "orgStudyIdInfo": {
+      "id": "SNDX-6352-0505"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Syndax Pharmaceuticals"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Syndax Pharmaceuticals"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2020-07-13",
+      "type": "ACTUAL"
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2022-07-22",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2022-06-29",
+     "overallStatus": "TERMINATED",
+     "primaryCompletionDateStruct": {
+      "date": "2020-07-13",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2022-07-22",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2022-06-29",
+     "resultsFirstSubmitQcDate": "2022-06-29",
+     "startDateStruct": {
+      "date": "2020-05-30",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2022-06",
+     "studyFirstPostDateStruct": {
+      "date": "2020-06-04",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2020-05-29",
+     "studyFirstSubmitQcDate": "2020-06-02",
+     "whyStopped": "Given enrollment challenges, partly attributable to the constantly changing COVID-19 treatment landscape, the trial has been closed."
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants will be administered axatilimab 0.3 milligrams (mg)/kilogram (kg) intravenously (IV) every 2 weeks for up to 2 years.",
+       "interventionNames": [
+        "Drug: Axatilimab"
+       ],
+       "label": "Axatilimab Dose Cohort 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants will be administered axatilimab 1 mg/kg IV every 2 weeks for up to 2 years.",
+       "interventionNames": [
+        "Drug: Axatilimab"
+       ],
+       "label": "Axatilimab Dose Cohort 2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants will be administered axatilimab 3 mg/kg IV every 4 weeks for up to 2 years.",
+       "interventionNames": [
+        "Drug: Axatilimab"
+       ],
+       "label": "Axatilimab Dose Cohort 3",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Axatilimab Dose Cohort 1",
+        "Axatilimab Dose Cohort 2",
+        "Axatilimab Dose Cohort 3"
+       ],
+       "description": "Axatilimab is a high-affinity antibody targeting the colony stimulating factor 1 receptor (CSF-1R). CSF-1R signaling has been demonstrated in nonclinical studies to be the key regulatory pathway involved in the expansion and infiltration of donor-derived macrophages that mediate the disease processes involved in cGVHD.",
+       "name": "Axatilimab",
+       "otherNames": [
+        "Niktimvo",
+        "SNDX-6352"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Chronic Graft-versus-host-disease"
+     ],
+     "keywords": [
+      "cGVHD",
+      "AGAVE-201",
+      "GVHD",
+      "graft versus host disease",
+      "graft-versus-host-disease"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 296,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "AGAVE-201",
+     "briefTitle": "A Study of Axatilimab at 3 Different Doses in Participants With Chronic Graft Versus Host Disease (cGVHD)",
+     "nctId": "NCT04710576",
+     "officialTitle": "AGAVE-201, A Phase 2, Open-label, Randomized, Multicenter Study to Evaluate the Efficacy, Safety and Tolerability of Axatilimab at 3 Different Doses in Patients With Recurrent or Refractory Active Chronic Graft Versus Host Disease Who Have Received at Least 2 Lines of Systemic Therapy",
+     "orgStudyIdInfo": {
+      "id": "SNDX-6352-0504"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Syndax Pharmaceuticals"
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "2024-512978-99-00",
+       "type": "CTIS"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Syndax Pharmaceuticals"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2027-09",
+      "type": "ESTIMATED"
+     },
+     "dispFirstPostDateStruct": {
+      "date": "2024-06-14",
+      "type": "ACTUAL"
+     },
+     "dispFirstSubmitDate": "2024-06-13",
+     "lastUpdatePostDateStruct": {
+      "date": "2026-06-16",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-05-20",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2023-04-07",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2024-10-10",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2024-09-13",
+     "resultsFirstSubmitQcDate": "2024-09-13",
+     "startDateStruct": {
+      "date": "2021-03-04",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-05",
+     "studyFirstPostDateStruct": {
+      "date": "2021-01-14",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2021-01-05",
+     "studyFirstSubmitQcDate": "2021-01-12"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants with acute lymphoblastic leukemia/mixed phenotype acute leukemia (ALL/MPAL) will receive revumenib every 12 hours in combination with 2 treatment cycles of Chemotherapy Regimen 1.",
+       "interventionNames": [
+        "Drug: Revumenib",
+        "Drug: Chemotherapy Regimen 1"
+       ],
+       "label": "Revumenib and Chemotherapy Regimen 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants with ALL/MPAL or acute myeloid leukemia (AML) will receive revumenib every 12 hours in combination with 2 treatment cycles of Chemotherapy Regimen 2.",
+       "interventionNames": [
+        "Drug: Revumenib",
+        "Drug: Chemotherapy Regimen 2"
+       ],
+       "label": "Revumenib and Chemotherapy Regimen 2",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Revumenib and Chemotherapy Regimen 1",
+        "Revumenib and Chemotherapy Regimen 2"
+       ],
+       "description": "Participants will receive revumenib until meeting criteria for discontinuation.",
+       "name": "Revumenib",
+       "otherNames": [
+        "SNDX-5613"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Revumenib and Chemotherapy Regimen 1"
+       ],
+       "description": "Participants will receive 2 treatment cycles of chemotherapy. During Cycle 1, participants will receive prednisone, vincristine, pegaspargase/calaspargase pegol-mknL, and daunorubicin. During Cycle 2, participants will receive etoposide and cyclophosphamide.",
+       "name": "Chemotherapy Regimen 1",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Revumenib and Chemotherapy Regimen 2"
+       ],
+       "description": "Participants will receive 2 treatment cycles of chemotherapy. During Cycles 1 and 2, participants will receive fludarabine and cytarabine.",
+       "name": "Chemotherapy Regimen 2",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Relapsed/Refractory Leukemias",
+      "Acute Lymphoblastic Leukemia",
+      "Acute Lymphocytic Leukemia",
+      "Mixed Phenotype Acute Leukemia",
+      "Acute Myeloid Leukemia",
+      "Acute Undifferentiated Leukemia"
+     ],
+     "keywords": [
+      "SNDX-5613",
+      "AUGMENT",
+      "KMT2A/MLL Gene Rearrangement",
+      "Nucleophosmin 1 Mutation",
+      "NPM1",
+      "Nucleoporin 98",
+      "NUP98",
+      "Menin",
+      "Revumenib"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "interventionModelDescription": "The study will use a Bayesian optimal interval (BOIN) design to evaluate the doses and determine the maximum tolerated dose.",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 30,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Study of Revumenib in Combination With Chemotherapy in Participants With R/R Acute Leukemia",
+     "nctId": "NCT05326516",
+     "officialTitle": "AUGMENT-102: A Phase 1, Open-label, Dose-escalation Study to Evaluate Safety, Tolerability and Preliminary Anti-Leukemic Activity of SNDX-5613 in Combination With Chemotherapy in Patients With Relapsed/Refractory Leukemias Harboring Alterations in KMT2A/MLL, Nucleophosmin 1 (NPM1), and Nucleoporin 98 (NUP98) Genes",
+     "orgStudyIdInfo": {
+      "id": "SNDX-5613-0702"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Syndax Pharmaceuticals"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Syndax Pharmaceuticals"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2024-07-29",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": true,
+      "nctId": "NCT05918913",
+      "statusForNctId": "NO_LONGER_AVAILABLE"
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2024-08-13",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2024-08-09",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2024-07-29",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2022-03-09",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2024-08",
+     "studyFirstPostDateStruct": {
+      "date": "2022-04-13",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2022-03-23",
+     "studyFirstSubmitQcDate": "2022-04-05"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants will be administered a single dose of revumenib (containing \\~100 microcuries \\[14C\\]-revumenib) in the AME part of the study.\n\nEach dose administered after the first dose in the AME part of the study will be nonradiolabeled revumenib. revumenib may continue to be administered following completion of the AME part of the study. Doses will be administered in continuous 28-day cycles until either PD or unacceptable toxicity.",
+       "interventionNames": [
+        "Drug: Revumenib"
+       ],
+       "label": "Revumenib",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Revumenib"
+       ],
+       "description": "Initial radiolabeled revumenib will be administered as an oral solution. Capsules will be administered thereafter.",
+       "name": "Revumenib",
+       "otherNames": [
+        "SNDX-5613"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Acute Leukemia"
+     ],
+     "keywords": [
+      "SNDX-5613",
+      "Acute Leukemia",
+      "Refractory leukemia",
+      "Relapsed leukemia"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 9,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Study of Radiolabeled Revumenib in Adults With Acute Leukemia",
+     "nctId": "NCT05406817",
+     "officialTitle": "A Phase 1, Open-label Study to Assess the Mass Balance, Pharmacokinetics, and Metabolism of Orally Administered [14C]-SNDX-5613 in Patients With Relapsed/Refractory Acute Leukemia",
+     "orgStudyIdInfo": {
+      "id": "SNDX-5613-0705"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Syndax Pharmaceuticals"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Syndax Pharmaceuticals"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2024-11-18",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": true,
+      "nctId": "NCT05918913",
+      "statusForNctId": "NO_LONGER_AVAILABLE"
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-01-10",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-01-08",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2024-11-18",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2022-08-05",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-01",
+     "studyFirstPostDateStruct": {
+      "date": "2022-06-07",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2022-06-01",
+     "studyFirstSubmitQcDate": "2022-06-01"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants will receive revumenib tablets or capsules three times a day (TID) or two times a day (BID) from Day 1 of each 28-day cycle.",
+       "interventionNames": [
+        "Drug: Revumenib"
+       ],
+       "label": "Phase 1a: Dose Escalation",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants will receive revumenib tablets TID or BID from Day 1 of each 28-day cycle.",
+       "interventionNames": [
+        "Drug: Revumenib"
+       ],
+       "label": "Phase 1b: Signal-Seeking",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants will receive revumenib tablets TID or BID from Day 1 of each 28-day cycle.",
+       "interventionNames": [
+        "Drug: Revumenib"
+       ],
+       "label": "Phase 2: Revumenib",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants will receive chemotherapy from Day 1 of each 28-day cycle.",
+       "interventionNames": [
+        "Drug: Chemotherapy"
+       ],
+       "label": "Phase 2: Chemotherapy",
+       "type": "ACTIVE_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Phase 1a: Dose Escalation",
+        "Phase 1b: Signal-Seeking",
+        "Phase 2: Revumenib"
+       ],
+       "description": "Revumenib administered orally with or without food. Participants may continue to receive treatment until disease progression or until they experience unacceptable toxicity.",
+       "name": "Revumenib",
+       "otherNames": [
+        "SNDX-5613"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Phase 2: Chemotherapy"
+       ],
+       "description": "Either Lonsurf® or Stivarga® administered per the investigator's choice at the respective drug label's dose and schedule. Participants may continue to receive treatment until disease progression or until they experience unacceptable toxicity.",
+       "name": "Chemotherapy",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Colorectal Cancer",
+      "Solid Tumors"
+     ],
+     "keywords": [
+      "SNDX-5613",
+      "Revumenib",
+      "Menin"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "interventionModelDescription": "Phase 1a dose escalation portion of the study will employ a Rolling 6 trial design, followed by a Phase 1b signal-seeking portion, and a Phase 2 randomized (2:1) signal confirmation portion.\n\nPhase 1: Non-randomized; Phase 2: Randomized",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 41,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Evaluation of Revumenib in Participants With Colorectal Cancer and Other Solid Tumors",
+     "nctId": "NCT05731947",
+     "officialTitle": "A Phase 1/2 Study to Investigate the Safety, Tolerability, Pharmacokinetics, Pharmacodynamics, and Efficacy of SNDX-5613 in Patients With Colorectal Cancer and Other Solid Tumors",
+     "orgStudyIdInfo": {
+      "id": "SNDX-5613-0706"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Syndax Pharmaceuticals"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Syndax Pharmaceuticals"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2025-06-30",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": true,
+      "nctId": "NCT05918913",
+      "statusForNctId": "NO_LONGER_AVAILABLE"
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-07-06",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-06-08",
+     "overallStatus": "TERMINATED",
+     "primaryCompletionDateStruct": {
+      "date": "2025-06-30",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2026-07-06",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2026-06-08",
+     "resultsFirstSubmitQcDate": "2026-06-08",
+     "startDateStruct": {
+      "date": "2023-04-04",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-06",
+     "studyFirstPostDateStruct": {
+      "date": "2023-02-16",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2023-02-07",
+     "studyFirstSubmitQcDate": "2023-02-15",
+     "whyStopped": "Study was terminated by sponsor after Phase 1b as pre-defined signals of efficacy were not met in the Phase 1b dose expansion cohort."
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "interventions": [
+      {
+       "description": "Revumenib administered orally every 12 hours.",
+       "name": "Revumenib",
+       "otherNames": [
+        "SNDX-5613",
+        "Revuforj"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Relapsed/Refractory Acute Leukemia"
+     ],
+     "keywords": [
+      "SNDX-5613",
+      "Acute Leukemia",
+      "Refractory leukemia",
+      "Relapsed leukemia",
+      "KMT2A",
+      "NPM1",
+      "UBTF tandem duplication",
+      "Revumenib",
+      "Revuforj"
+     ]
+    },
+    "designModule": {
+     "expandedAccessTypes": {
+      "treatment": true
+     },
+     "nPtrsToThisExpAccNctId": 6,
+     "studyType": "EXPANDED_ACCESS"
+    },
+    "identificationModule": {
+     "briefTitle": "Expanded Access Program for Revumenib",
+     "nctId": "NCT05918913",
+     "officialTitle": "Expanded Access Program for SNDX-5613 in Patients With Relapsed/Refractory Acute Leukemias With Genetic Alterations Associated With HOXA Overexpression",
+     "orgStudyIdInfo": {
+      "id": "SNDX-5613-0707"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Syndax Pharmaceuticals"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Syndax Pharmaceuticals"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-09-05",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-08-28",
+     "overallStatus": "NO_LONGER_AVAILABLE",
+     "statusVerifiedDate": "2025-08",
+     "studyFirstPostDateStruct": {
+      "date": "2023-06-26",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2023-06-15",
+     "studyFirstSubmitQcDate": "2023-06-15"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants will receive axatilimab every 2 weeks during the 26-week Treatment Period.",
+       "interventionNames": [
+        "Drug: Axatilimab"
+       ],
+       "label": "Axatilimab",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants will receive placebo every 2 weeks during the 26-week Treatment Period.",
+       "interventionNames": [
+        "Other: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Axatilimab"
+       ],
+       "description": "Administered as intravenous (IV) infusion",
+       "name": "Axatilimab",
+       "otherNames": [
+        "Niktimvo",
+        "SNDX-6352"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Placebo to match axatilimab administered as IV infusion. Placebo will not contain active ingredient.",
+       "name": "Placebo",
+       "type": "OTHER"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Idiopathic Pulmonary Fibrosis"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 145,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "MAXPIRe: Study to Evaluate Axatilimab in Participants With Idiopathic Pulmonary Fibrosis (IPF)",
+     "nctId": "NCT06132256",
+     "officialTitle": "A 26-Week, Randomized, Double-Blind, Placebo-Controlled, Multi-center Study to Evaluate the Efficacy, Safety, and Tolerability of Axatilimab in Subjects With Idiopathic Pulmonary Fibrosis (IPF)",
+     "orgStudyIdInfo": {
+      "id": "SNDX-6352-0506"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Syndax Pharmaceuticals"
+     },
+     "secondaryIdInfos": [
+      {
+       "domain": "EU-CT",
+       "id": "2022-502954-15-00",
+       "type": "OTHER"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "collaborators": [
+      {
+       "class": "INDUSTRY",
+       "name": "DevPro Biopharma"
+      }
+     ],
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Syndax Pharmaceuticals"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2026-11",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-03-27",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-03-25",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2026-09",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2023-12-11",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-03",
+     "studyFirstPostDateStruct": {
+      "date": "2023-11-15",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2023-11-09",
+     "studyFirstSubmitQcDate": "2023-11-09"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Dose Escalation:\n\n* Induction: Sequential cohorts of escalating dose levels of revumenib with chemotherapy regimen.\n* Consolidation: Cohorts will receive high-dose cytarabine (HiDAC) chemotherapy followed by revumenib.\n* Maintenance Monotherapy: Cohorts will receive revumenib\n\nDose Expansion:\n\n* Induction: revumenib at tolerated dose level with chemotherapy regimen.\n* Consolidation: Cohorts will receive revumenib with chemotherapy regimen and HiDAC.\n* Maintenance Monotherapy: Cohorts will receive revumenib.",
+       "interventionNames": [
+        "Drug: Revumenib",
+        "Drug: Chemotherapy Regimen",
+        "Drug: HiDAC"
+       ],
+       "label": "Revumenib",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Revumenib"
+       ],
+       "description": "Participants will receive revumenib orally during Induction, Consolidation, and Maintenance until meeting criteria for discontinuation.",
+       "name": "Revumenib",
+       "otherNames": [
+        "SNDX-5613"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Revumenib"
+       ],
+       "description": "Induction: Participants will receive an intravenous (IV), 2-drug combination of cytarabine and either daunorubicin or idarubicin.",
+       "name": "Chemotherapy Regimen",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Revumenib"
+       ],
+       "description": "Consolidation: Participants will receive HiDAC IV.",
+       "name": "HiDAC",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Acute Myeloid Leukemias"
+     ],
+     "keywords": [
+      "SNDX-5613",
+      "Lysine-specific Methyltransferase 2A",
+      "KMT2A/MLL",
+      "Nucleophosmin 1",
+      "NPM1",
+      "Nucleoporin 98",
+      "NUP98",
+      "AML",
+      "revumenib"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 96,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Study of Revumenib in Combination With Intensive Chemotherapy in Participants With Acute Myeloid Leukemias",
+     "nctId": "NCT06226571",
+     "officialTitle": "A Phase 1, Open-label, Dose-escalation, and Dose-expansion Study to Evaluate Safety, Tolerability, and Clinical Activity of Revumenib in Combination With Intensive Chemotherapy in Participants With Newly Diagnosed Acute Myeloid Leukemias Harboring Alterations in Lysine-specific Methyltransferase 2A (KMT2A/MLL), Nucleophosmin 1 (NPM1), and Nucleoporin 98 (NUP98) Genes",
+     "orgStudyIdInfo": {
+      "id": "SNDX-5613-0708"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Syndax Pharmaceuticals"
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "2024-514531-18-00",
+       "type": "CTIS"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Syndax Pharmaceuticals"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2027-02",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": true,
+      "nctId": "NCT05918913",
+      "statusForNctId": "NO_LONGER_AVAILABLE"
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-09-16",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-09-11",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-02",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2024-05-21",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-09",
+     "studyFirstPostDateStruct": {
+      "date": "2024-01-26",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2024-01-12",
+     "studyFirstSubmitQcDate": "2024-01-23"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants will receive revumenib plus an intensive chemotherapy regimen.",
+       "interventionNames": [
+        "Drug: Revumenib",
+        "Drug: Intensive Chemotherapy Regimen"
+       ],
+       "label": "Revumenib + Intensive Chemotherapy",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants will receive placebo plus an intensive chemotherapy regimen.",
+       "interventionNames": [
+        "Drug: Placebo",
+        "Drug: Intensive Chemotherapy Regimen"
+       ],
+       "label": "Placebo + Intensive Chemotherapy",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Revumenib + Intensive Chemotherapy"
+       ],
+       "description": "Participants will receive revumenib orally.",
+       "name": "Revumenib",
+       "otherNames": [
+        "SNDX-5613"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo + Intensive Chemotherapy"
+       ],
+       "description": "Participants will receive placebo (non-active agent) orally.",
+       "name": "Placebo",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo + Intensive Chemotherapy",
+        "Revumenib + Intensive Chemotherapy"
+       ],
+       "description": "Participants will receive an intensive chemotherapy regimen of cytarabine and daunorubicin by intravenous (IV) infusion.",
+       "name": "Intensive Chemotherapy Regimen",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Acute Myeloid Leukemias"
+     ],
+     "keywords": [
+      "SNDX-5613",
+      "Nucleophosmin 1",
+      "NPM1",
+      "Acute Myeloid Leukemias",
+      "AML",
+      "Revumenib",
+      "Newly diagnosed AML"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 468,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "REVEAL-ND NPM1",
+     "briefTitle": "Study of Revumenib in Combination With Intensive Chemotherapy in Newly Diagnosed Acute Myeloid Leukemia (AML) With a NPM1 Mutation",
+     "nctId": "NCT07211958",
+     "officialTitle": "A Phase 3, Randomized, Double-Blind, Placebo-Controlled Study of Revumenib in Combination With Intensive Chemotherapy in Participants With Newly Diagnosed AML With an NPM1 Mutation",
+     "orgStudyIdInfo": {
+      "id": "SNDX-5613-0710"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Syndax Pharmaceuticals"
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "2025-522279-27-00",
+       "type": "CTIS"
+      },
+      {
+       "id": "2025",
+       "link": "https://reporter.nih.gov/quickSearch/2025",
+       "type": "NIH"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Syndax Pharmaceuticals"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2031-01",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": true,
+      "nctId": "NCT05918913",
+      "statusForNctId": "NO_LONGER_AVAILABLE"
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-21",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-20",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2029-06",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2025-11-25",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-10",
+     "studyFirstPostDateStruct": {
+      "date": "2025-10-08",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-09-30",
+     "studyFirstSubmitQcDate": "2025-10-01"
+    }
+   }
+  }
+ ]
+}

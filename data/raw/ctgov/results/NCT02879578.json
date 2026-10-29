@@ -1,0 +1,73 @@
+{
+ "nctId": "NCT02879578",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "20"
+        },
+        {
+         "groupId": "OG001",
+         "value": "29"
+        },
+        {
+         "groupId": "OG002",
+         "value": "68"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "33"
+      },
+      {
+       "groupId": "OG001",
+       "value": "40"
+      },
+      {
+       "groupId": "OG002",
+       "value": "79"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "A TEAE is an adverse event not present prior to the initiation of study drug dosing, or is an already present event that worsens either in intensity or frequency following the initiation of study drug dosing.",
+   "groups": [
+    {
+     "description": "Children (6 to 11 years of age) received valbenazine 10 mg once daily for 4 weeks. At the end of Week 4, investigators could escalate the dose to 20 mg or continue with the participant's current dose for the remainder of the treatment period.",
+     "id": "OG000",
+     "title": "Valbenazine (Children)"
+    },
+    {
+     "description": "Adolescents (12 to 17 years of age) received valbenazine 20 mg once daily for 4 weeks. At the end of Week 4, investigators could escalate the dose to 40 mg or continue with the participant's current dose for the remainder of the treatment period.",
+     "id": "OG001",
+     "title": "Valbenazine (Adolescents)"
+    },
+    {
+     "description": "Adults (18 to 64 years of age) received valbenazine 40 mg once daily for 4 weeks. At the end of Week 4, investigators could escalate the dose to 80 mg or continue with the participant's current dose for the remainder of the treatment period.",
+     "id": "OG002",
+     "title": "Valbenazine (Adults)"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Safety analysis set, which includes all participants who received at least one dose of study drug and have any postbaseline data.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline through Week 28",
+   "title": "Frequency of Treatment-emergent Adverse Events (TEAEs)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

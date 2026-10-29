@@ -1,0 +1,125 @@
+{
+ "nctId": "NCT03364231",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "8.5",
+         "upperLimit": "75.5",
+         "value": "37.5"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "6.7",
+         "upperLimit": "65.2",
+         "value": "30.0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "8"
+      },
+      {
+       "groupId": "OG001",
+       "value": "10"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "ORR for MZL=percentage of participants with complete response (CR)/partial response (PR). ORR for WM=CR/PR/very good partial response (VGPR)/minor response (MR). Response assessed per revised Lugano Classification for MZL \\&per IWWM for WM participants. Per Lugano criteria CR=complete disappearance of all evidence of disease \\& disease-related symptoms. PR=regression of measurable disease \\& no new disease sites. Regression=≥50% decrease in the sum of the products of the diameters (SPD) of index lesions, with no increase in size of other lymph nodes/liver/spleen.Per IWWM criteria CR=disappearance of serum monoclonal immunoglobulin M (IgM) protein by immunofixation with a normal serum IgM level. VGPR=reduction of monoclonal IgM protein \\>90% from baseline. PR=reduction of monoclonal IgM protein between 50-90% from baseline with regression of measurable disease. Regression defined in similar manner as Lugano Classification. MR=reduction of monoclonal IgM protein \\>25% but \\<50% from baseline.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants with non-follicular iNHL with MZL as the histology type received umbralisib, 800 mg, orally, QD, until disease progression, unacceptable toxicity, or withdrawal from the study whichever occurred first.",
+     "id": "OG000",
+     "title": "MZL: Umbralisib"
+    },
+    {
+     "description": "Participants with non-follicular iNHL with WM as the histology type received umbralisib, 800 mg, orally, QD, until disease progression, unacceptable toxicity, or withdrawal from the study whichever occurred first.",
+     "id": "OG001",
+     "title": "WM: Umbralisib"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "mITT population included all participants who received at least one dose of study treatment and provided at least some post baseline efficacy assessment.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Every 3 cycles (1 Cycle = 28 days) from Day 1 Cycle 1 up to approximately 4.2 years",
+   "title": "Overall Response Rate (ORR) as Assessed by Revised Response Criteria for Non- Hodgkin's Lymphoma (Lugano Classification) and Consensus-Based 6th International Workshop on Waldenstrom's Macroglobulinemia (IWWM)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "3",
+         "upperLimit": "33",
+         "value": "21.2"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "5",
+         "upperLimit": "14",
+         "value": "13"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "3"
+      },
+      {
+       "groupId": "OG001",
+       "value": "3"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "DOR is defined as the time from documentation of a response to treatment to the first documentation of tumor progression or death due to any cause, whichever comes first.",
+   "dispersionType": "Full Range",
+   "groups": [
+    {
+     "description": "Participants with non-follicular iNHL with MZL as the histology type received umbralisib, 800 mg, orally, QD, until disease progression, unacceptable toxicity, or withdrawal from the study whichever occurred first.",
+     "id": "OG000",
+     "title": "MZL: Umbralisib"
+    },
+    {
+     "description": "Participants with non-follicular iNHL with WM as the histology type received umbralisib, 800 mg, orally, QD, until disease progression, unacceptable toxicity, or withdrawal from the study whichever occurred first.",
+     "id": "OG001",
+     "title": "WM: Umbralisib"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "mITT population included all participants who received at least one dose of study treatment and provided at least some post baseline efficacy assessment. 'Overall number of participants analyzed' is the number of participants with data available for analysis.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "From the first demonstration of response to umbralisib till disease progression/death (up to approximately 4.2 years)",
+   "title": "Duration of Response (DOR)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "months"
+  }
+ ]
+}

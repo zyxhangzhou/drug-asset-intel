@@ -1,0 +1,84 @@
+{
+ "nctId": "NCT04049266",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-8",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95.03",
+     "ciUpperLimit": "-4",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "1.01",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityComment": "The maximum clinically acceptable true difference between KSI-301 and aflibercept participants to be considered non-inferior is 4 ETDRS letters, i.e. the non-inferiority margin (NI) is 4 letters.",
+     "nonInferiorityType": "NON_INFERIORITY",
+     "pValue": "> 0.9999",
+     "paramType": "Adjusted mean difference",
+     "paramValue": "-6.0",
+     "statisticalComment": "MMRM model with treatment, visit, treatment by visit interaction, categories for baseline BCVA, BCVA-low luminance VA baseline, geographical location.",
+     "statisticalMethod": "Mixed Models Analysis"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.78",
+         "value": "1"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.77",
+         "value": "7"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "277"
+      },
+      {
+       "groupId": "OG001",
+       "value": "280"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Best Corrected Visual Acuity (BCVA) was measured on the Early Treatment Diabetic Retinopathy Study (ETDRS) chart at a starting distance of 4 meters. The BCVA letter score ranges from 0 to 100 (best score), and a gain in BCVA letter score from baseline indicates an improvement in visual acuity.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Participants randomized to this arm received 5 milligrams (mg) KSI-301 intravitreal (IVT) injections once every 4 weeks (Q4W) to Week 8, followed by 5 mg KSI-301 IVT injections based on disease activity assessments and may vary from Q12W to Q20W until Week 52.",
+     "id": "OG000",
+     "title": "KSI-301 5 mg Q12W-Q20W"
+    },
+    {
+     "description": "Participants randomized to this arm received 2 milligrams (mg) aflibercept intravitreal (IVT) injections Q4W to Week 8, followed by 2 mg aflibercept IVT injections Q8W to Week 52",
+     "id": "OG001",
+     "title": "Aflibercept 2 mg Q8W"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Full analysis set defined as all randomized subjects who received at least one treatment injection in Year 1. Subjects will be analyzed according to their randomized treatment.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Year 1",
+   "title": "Change From Baseline in BCVA in the Study Eye Averaged Over Weeks 48 and 52, Full Analysis Set Year 1",
+   "type": "PRIMARY",
+   "unitOfMeasure": "ETDRS Letters"
+  }
+ ]
+}

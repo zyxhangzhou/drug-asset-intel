@@ -1,0 +1,60 @@
+{
+ "nctId": "NCT04623671",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "5"
+        },
+        {
+         "groupId": "OG001",
+         "value": "6"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "28"
+      },
+      {
+       "groupId": "OG001",
+       "value": "27"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Number of all-cause mortality cases from start of treatment up to end of study. Survival was measured as the time between the date of the start of treatment and the date of death.",
+   "groups": [
+    {
+     "description": "Participants received 1 peripheral IV infusion of IP (2 × 75M for a total of 150M CDCs administered at the clinical site)",
+     "id": "OG000",
+     "title": "CAP-1002"
+    },
+    {
+     "description": "Participants received 1 infusion of intervention matching placebo on Day 1",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Safety analysis set includes all enrolled participants who were randomized and received at least 1 dose of randomized investigational product, CAP-1002 or placebo.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to End of Study (Day 90)",
+   "title": "Safety of CAP-1002: Incidence of All-Cause Mortality",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

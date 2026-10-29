@@ -1,0 +1,76 @@
+{
+ "nctId": "NCT02076399",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "7.2",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "28.1",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0261",
+     "paramType": "Risk Difference (RD)",
+     "paramValue": "17.6",
+     "statisticalMethod": "Fisher Exact"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "9"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "51"
+      },
+      {
+       "groupId": "OG001",
+       "value": "25"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "A stable platelet response by Week 24 defined as a platelet count of at least 50,000/μL on at least 4 of the last 6 scheduled visits between Weeks 14 and 24",
+   "groups": [
+    {
+     "description": "Fostamatinib (100 mg PO bid or 150 mg PO bid)",
+     "id": "OG000",
+     "title": "Fostamatinib Recipient"
+    },
+    {
+     "description": "Placebo",
+     "id": "OG001",
+     "title": "Placebo Recipient"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "reportingStatus": "POSTED",
+   "timeFrame": "From Week 14 to Week 24",
+   "title": "Number of Participants With Stable Platelet Response (Count of ≥50,000/µL on at Least 4 of the Last 6 Scheduled Visits Between Weeks 14 and 24)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

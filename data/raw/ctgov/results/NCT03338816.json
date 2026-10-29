@@ -1,0 +1,84 @@
+{
+ "nctId": "NCT03338816",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.16",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.41",
+     "groupDescription": "Negative binomial regression model with treatment group and stratification factors (prior hemin prophylaxis status and historical attack rates) as fixed effects and the logarithm of the follow-up time as an offset variable.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<0.0001",
+     "pValueComment": "P=6.040E-09",
+     "paramType": "Rate ratio",
+     "paramValue": "0.26",
+     "statisticalMethod": "Negative binomial regression model"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "9.35",
+         "upperLimit": "16.76",
+         "value": "12.52"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "2.25",
+         "upperLimit": "4.59",
+         "value": "3.22"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "43"
+      },
+      {
+       "groupId": "OG001",
+       "value": "46"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Porphyria attacks were defined as meeting all of the following criteria: an acute episode of neurovisceral pain in the abdomen, back, chest, extremities and/or limbs, no other medically determined cause, and required treatment with intravenous (IV) dextrose or hemin, carbohydrates, or analgesics, or other medications such as antiemetics at a dose or frequency beyond the participant's usual daily porphyria management. The annualized rate of porphyria attacks is a composite endpoint which included porphyria attacks requiring hospitalization, urgent healthcare visit, or IV hemin administration at home.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Matching placebo (normal saline \\[0.9% NaCl\\]) was administered SC, QM, for 6 months during the 6-Month DB Period.",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Givosiran 2.5 mg/kg administered SC, QM, for 6 months during the 6-Month DB Period.",
+     "id": "OG001",
+     "title": "Givosiran 2.5 mg/kg"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "AIP participants in the Full Analysis Set (FASAIP): All randomized AIP participants (with identified mutation in the hydroxymethylbilane synthase \\[HMBS\\] gene) who received at least one dose of study drug.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "6 months",
+   "title": "Annualized Rate of Porphyria Attacks in Participants With Acute Intermittent Porphyria (AIP)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "annualized attack rate"
+  }
+ ]
+}

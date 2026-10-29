@@ -1,0 +1,111 @@
+{
+ "nctId": "NCT00730015",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "3.41",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "17.47",
+     "groupDescription": "Null hypothesis: There is no difference in the proportion of 12-week CSBM overall responders between patients taking the 145-μg dose and those taking placebo. The power, adjusted for multiplicity, was expected to be at least 90% based on study NCT00402337(MCP-103-201) data.",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+     "pValue": "<0.0001",
+     "pValueComment": "The p-value is still less than 0.05 after adjusting multiplicity using a serial gatekeeping multiple comparison procedure.",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "7.72",
+     "statisticalMethod": "Cochran-Mantel-Haenszel",
+     "testedNonInferiority": false
+    },
+    {
+     "ciLowerLimit": "3.14",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "16.59",
+     "groupDescription": "Null hypothesis: There is no difference in the proportion of 12-week CSBM overall responders between patients taking the 290-μg dose and those taking placebo. The power, adjusted for multiplicity, was expected to be greater than 96% based on study NCT00402337(MCP-103-201) data.",
+     "groupIds": [
+      "OG001",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+     "pValue": "<0.0001",
+     "pValueComment": "The p-value is still less than 0.05 after adjusting multiplicity using a serial gatekeeping multiple comparison procedure.",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "7.21",
+     "statisticalMethod": "Cochran-Mantel-Haenszel",
+     "testedNonInferiority": false
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "46"
+        },
+        {
+         "groupId": "OG001",
+         "value": "42"
+        },
+        {
+         "groupId": "OG002",
+         "value": "7"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "217"
+      },
+      {
+       "groupId": "OG001",
+       "value": "216"
+      },
+      {
+       "groupId": "OG002",
+       "value": "209"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "A 12-week CSBM Overall Responder was defined as a patient who for at least 9 of the 12 weeks of the treatment period had a CSBM weekly frequency rate that was 3 or greater and increased by 1 or more from baseline. A CSBM was defined as a spontaneous bowel movement (SBM) that was associated with a sense of complete evacuation.\n\nAn SBM was defined as a bowel movement (BM) that occurred in the absence of laxative, enema, or suppository use on either the calendar day of the BM or the calendar day before the BM.",
+   "groups": [
+    {
+     "description": "Linaclotide, 145μg dose, oral administration, once per day",
+     "id": "OG000",
+     "title": "Linaclotide, 145μg"
+    },
+    {
+     "description": "Linaclotide, 290μg dose, oral administration, once per day",
+     "id": "OG001",
+     "title": "Linaclotide, 290μg"
+    },
+    {
+     "description": "Dose matched placebo, oral administration, once per day",
+     "id": "OG002",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "643 randomized patients received at least 1 dose of study drug. 642 patients were included in the Intent to Treat (ITT) Population. An observed-cases approach to missing postbaseline data was applied.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Change from Baseline to Week 12",
+   "title": "Complete Spontaneous Bowel Movement (CSBM) Overall Responder",
+   "type": "PRIMARY",
+   "unitOfMeasure": "participants"
+  }
+ ]
+}

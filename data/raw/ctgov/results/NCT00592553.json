@@ -1,0 +1,115 @@
+{
+ "nctId": "NCT00592553",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-114.8",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "53.75",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "42.68",
+     "groupDescription": "Analysis was performed using mixed model for repeated measures (MMRM) method including rank transformed 6MWD as the dependent variable; and rank transformed baseline 6MWD, treatment, visit, age (less than \\[\\<\\] 9 years versus \\[vs.\\] greater than or equal to \\[\\>=\\] 9 years) and corticosteroid use (yes vs. no) stratification factors, and interaction between treatment and visit as independent variables.",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "OTHER",
+     "pValue": "0.4756",
+     "paramType": "Least Square (LS) Mean Difference",
+     "paramValue": "-30.52",
+     "statisticalMethod": "Mixed Models Analysis"
+    },
+    {
+     "ciLowerLimit": "-22.66",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "147.96",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "43.21",
+     "groupDescription": "Analysis was performed using MMRM method including rank transformed 6MWD as the dependent variable; and rank transformed baseline 6MWD, treatment, visit, age (\\< 9 years vs. \\>= 9 years) and corticosteroid use (yes vs. no) stratification factors, and interaction between treatment and visit as independent variables.",
+     "groupIds": [
+      "OG001",
+      "OG002"
+     ],
+     "nonInferiorityType": "OTHER",
+     "pValue": "0.1490",
+     "paramType": "LS Mean Difference",
+     "paramValue": "62.65",
+     "statisticalMethod": "Mixed Models Analysis"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "89.234",
+         "value": "-41.81"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "72.007",
+         "value": "-12.86"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "90.046",
+         "value": "-42.56"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "59"
+      },
+      {
+       "groupId": "OG001",
+       "value": "55"
+      },
+      {
+       "groupId": "OG002",
+       "value": "55"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The 6MWD test was performed in a 30 meters long flat corridor, where the participant was instructed to walk as far as possible, back and forth around two cones, with the permission to slow down, rest, or stop if needed. Ambulation was assessed via the 6MWD test following standardized procedures by measuring the 6MWD in meters. Participants were not permitted to use assistive devices (walker, long leg braces, or short leg braces) during the 6MWD test.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants received ataluren suspension orally TID, 20 mg/kg at morning, 20 mg/kg at midday, and 40 mg/kg at evening (total daily dose 80 mg/kg) for 48 weeks.",
+     "id": "OG000",
+     "title": "High-Dose Ataluren"
+    },
+    {
+     "description": "Participants received ataluren suspension orally TID, 10 mg/kg at morning, 10 mg/kg at midday, and 20 mg/kg at evening (total daily dose 40 mg/kg) for 48 weeks.",
+     "id": "OG001",
+     "title": "Low-Dose Ataluren"
+    },
+    {
+     "description": "Participants received placebo matched to ataluren orally TID at morning, midday, and evening for 48 weeks.",
+     "id": "OG002",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Intent-to-treat (ITT) population included all participants who were randomized and received any study treatment; and had a valid baseline, and at least one valid post-baseline 6MWD value. Here, 'Overall number of participants analyzed' signifies participants evaluable for this outcome measure.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Week 48",
+   "title": "Change From Baseline in 6MWD at Week 48",
+   "type": "PRIMARY",
+   "unitOfMeasure": "meters"
+  }
+ ]
+}

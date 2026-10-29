@@ -1,0 +1,82 @@
+{
+ "nctId": "NCT02158546",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-2.1",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "1.6",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "0.95",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.782",
+     "paramType": "Least square means difference",
+     "paramValue": "-0.3",
+     "statisticalMethod": "Mixed Models Analysis"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.67",
+         "value": "-4.8"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.66",
+         "value": "-4.6"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "142"
+      },
+      {
+       "groupId": "OG001",
+       "value": "146"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The MADRS-10 scale is a clinician-administered questionnaire comprised of 10 items used to measure the severity of MDD symptoms. Scores range from 0 (no apparent symptoms) to 60 (most severe symptoms). Individual questionnaire items include: Apparent Sadness, Reported Sadness, Inner Tension, Reduced Sleep, Reduced Appetite, Concentration Difficulties, Lassitude, Inability to Feel, Pessimistic Thoughts, and Suicidal Thoughts.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Randomized to ALKS 5461 2mg/2mg",
+     "id": "OG000",
+     "title": "ALKS 5461 2mg/2mg"
+    },
+    {
+     "description": "Randomized to placebo",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "The Full Analysis Set (FAS) consists of subjects in the Group 1 Safety Population who have at least 1 post-randomization assessment of MADRS total score.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline and week 6",
+   "title": "Change From Baseline to End of Treatment (Week 6) in the Montgomery Asberg Depression Rating Scale (MADRS) Total Score",
+   "type": "PRIMARY",
+   "unitOfMeasure": "units on a scale"
+  }
+ ]
+}

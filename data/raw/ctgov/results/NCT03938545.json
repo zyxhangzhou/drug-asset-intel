@@ -1,0 +1,246 @@
+{
+ "nctId": "NCT03938545",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-11.3",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "54.1",
+     "estimateComment": "The risk difference was obtained from a weighted average of the difference within each stratum using Cochran Mantel-Haenszel weights.",
+     "groupIds": [
+      "OG000",
+      "OG003"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "=0.1993",
+     "pValueComment": "p-values were obtained from a Mantel-Haenszel test stratified by smoking status at baseline comparing RVT-1401 680 mg/Week group to placebo.",
+     "paramType": "Risk Difference (RD)",
+     "paramValue": "21.4",
+     "statisticalMethod": "Cochran-Mantel-Haenszel"
+    },
+    {
+     "ciLowerLimit": "-4.8",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "53.2",
+     "estimateComment": "The risk difference was obtained from a weighted average of the difference within each stratum using Cochran Mantel-Haenszel weights.",
+     "groupIds": [
+      "OG001",
+      "OG003"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "=0.1016",
+     "pValueComment": "p-values were obtained from a Mantel-Haenszel test stratified by smoking status at baseline comparing RVT-1401 340 mg/Week group to placebo.",
+     "paramType": "Risk Difference (RD)",
+     "paramValue": "24.2",
+     "statisticalMethod": "Cochran-Mantel-Haenszel"
+    },
+    {
+     "ciLowerLimit": "-24.0",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "7.3",
+     "estimateComment": "The risk difference was obtained from a weighted average of the difference within each stratum using Cochran Mantel-Haenszel weights.",
+     "groupIds": [
+      "OG002",
+      "OG003"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "=0.2963",
+     "pValueComment": "p-values were obtained from a Mantel-Haenszel test stratified by smoking status at baseline comparing RVT-1401 255 mg/Week group to placebo.",
+     "paramType": "Risk Difference (RD)",
+     "paramValue": "-8.3",
+     "statisticalMethod": "Cochran-Mantel-Haenszel"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "30.0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "30.8"
+        },
+        {
+         "groupId": "OG002",
+         "value": "0"
+        },
+        {
+         "groupId": "OG003",
+         "value": "8.3"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "10"
+      },
+      {
+       "groupId": "OG001",
+       "value": "13"
+      },
+      {
+       "groupId": "OG002",
+       "value": "6"
+      },
+      {
+       "groupId": "OG003",
+       "value": "12"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Proptosis was assessed using an exophthalmometer. A proptosis response was defined as having at least a 2 millimeter (mm) reduction in study eye proptosis without a deterioration (at least a 2 mm increase) in the fellow eye at the same visit. The study eye was defined as the most severely affected eye at the baseline visit.",
+   "groups": [
+    {
+     "description": "Participants received a RVT-1401 680 milligram (mg) subcutaneous (SC) injection weekly for 12 weeks.",
+     "id": "OG000",
+     "title": "RVT-1401 680 mg/Week"
+    },
+    {
+     "description": "Participants received a RVT-1401 340 mg SC injection weekly for 12 weeks.",
+     "id": "OG001",
+     "title": "RVT-1401 340 mg/Week"
+    },
+    {
+     "description": "Participants received a RVT-1401 255 mg SC injection weekly for 12 weeks.",
+     "id": "OG002",
+     "title": "RVT-1401 255 mg/Week"
+    },
+    {
+     "description": "Participants received a matching placebo SC injection weekly for 12 weeks.",
+     "id": "OG003",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Intent-to-Treat (ITT) Population: All randomized participants who received at least one dose of RVT-1401 or placebo and had 1 post-baseline visit. Participants with proptosis assessment at Week 13 were included in the analysis.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline; Week 13",
+   "title": "Percentage of Participants With Proptosis Response at Week 13",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Percentage of participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "16"
+        },
+        {
+         "groupId": "OG001",
+         "value": "16"
+        },
+        {
+         "groupId": "OG002",
+         "value": "8"
+        },
+        {
+         "groupId": "OG003",
+         "value": "16"
+        }
+       ]
+      }
+     ],
+     "title": "TEAEs"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        },
+        {
+         "groupId": "OG002",
+         "value": "1"
+        },
+        {
+         "groupId": "OG003",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "SAEs"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "18"
+      },
+      {
+       "groupId": "OG001",
+       "value": "19"
+      },
+      {
+       "groupId": "OG002",
+       "value": "10"
+      },
+      {
+       "groupId": "OG003",
+       "value": "18"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "AEs - any untoward medical occurrences in a participant, temporally associated with use of a medicinal product, whether or not considered related to the product. Clinically significant changes determined by the Investigator such as vital signs, ECGs, and clinical laboratory values were also reported as AEs. TEAE is defined as an AE that starts on or after the first dose of the study drug and before 30 days after the last dose of the study drug. SAEs were defined as any untoward medical occurrences that: resulted in death; were life-threatening; required hospitalization or prolongation of existing hospitalization; resulted in disability/incapacity; were congenital anomaly/birth defects; were important medical events that may have jeopardized the participant or may have required medical or surgical intervention; invasive or malignant cancers; and development of drug dependency or drug abuse.",
+   "groups": [
+    {
+     "description": "Participants received a RVT-1401 680 milligram (mg) subcutaneous (SC) injection weekly for 12 weeks.",
+     "id": "OG000",
+     "title": "RVT-1401 680 mg/Week"
+    },
+    {
+     "description": "Participants received a RVT-1401 340 mg SC injection weekly for 12 weeks.",
+     "id": "OG001",
+     "title": "RVT-1401 340 mg/Week"
+    },
+    {
+     "description": "Participants received a RVT-1401 255 mg SC injection weekly for 12 weeks.",
+     "id": "OG002",
+     "title": "RVT-1401 255 mg/Week"
+    },
+    {
+     "description": "Participants received a matching placebo SC injection weekly for 12 weeks.",
+     "id": "OG003",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Safety Population: All randomized participants who received at least one dose of either RVT-1401 or placebo.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "From Baseline up to Week 20",
+   "title": "Number of Participants With Treatment-emergent Adverse Events (TEAEs) and Treatment-emergent Serious Adverse Events (SAEs)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

@@ -1,0 +1,115 @@
+{
+ "nctId": "NCT02679079",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-4.4",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "3.8",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "2.1",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.89",
+     "pValueComment": "Nominal p-value is considered statistically significant if less than 0.05. To control for multiplicity, comparisons were tested sequentially.",
+     "paramType": "Mean Difference (Net)",
+     "paramValue": "-0.3",
+     "statisticalMethod": "Mixed Models Analysis"
+    },
+    {
+     "ciLowerLimit": "-2.6",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "5.6",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "2.1",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.47",
+     "pValueComment": "To control for multiplicity, comparisons were tested sequentially. Nominal p-value was not evaluated for statistical significance since first comparison was not statistically significant.",
+     "paramType": "Mean Difference (Net)",
+     "paramValue": "1.5",
+     "statisticalMethod": "Mixed Models Analysis"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "1.5",
+         "value": "-8.8"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "1.4",
+         "value": "-7.3"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "1.4",
+         "value": "-9.1"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "31"
+      },
+      {
+       "groupId": "OG001",
+       "value": "32"
+      },
+      {
+       "groupId": "OG002",
+       "value": "32"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The YGTSS is designed to rate the overall severity of motor and phonic tic symptoms across a range of dimensions: number, frequency, intensity, complexity, and interference. The YGTSS was administered by the investigator (or qualified designee) using a computer-based structured clinical interview. The TTS is the sum of the 5 motor tic items and the 5 phonic (vocal) tic items and ranges from 0 to 50, with higher scores representing greater severity",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Participants received matching placebo once daily for 6 weeks.",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Participants received valbenazine once daily for 6 weeks. Participants aged 6 to 11 years received 10 mg/day. Participants aged 12 to 17 years received 20 mg/day.",
+     "id": "OG001",
+     "title": "NBI-98854 Low Dose"
+    },
+    {
+     "description": "Participants received valbenazine once daily for 6 weeks. Participants aged 6 to 11 years received 10 mg/day for the first week followed by 20 mg/day for the remainder of the treatment period. Participants aged 12 to 17 years received 20 mg/day for the first week followed by 40 mg/day for the remainder of the treatment period.",
+     "id": "OG002",
+     "title": "NBI-98854 High Dose"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "The intent-to-treat (ITT) analysis set included all randomized participants who received at least one dose of study drug, had postbaseline safety data, and had a baseline (Day -1) and at least one postrandomization TTS value reported at a scheduled or mapped early termination (ET) visit during the 6-week treatment period. Dose levels based on age group were prespecified to be combined within each dose arm.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Week 6",
+   "title": "Change From Baseline to Week 6 in the Yale Global Tic Severity Scale (YGTSS) Total Tic Score (TTS)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Score on scale"
+  }
+ ]
+}

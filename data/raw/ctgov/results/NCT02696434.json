@@ -1,0 +1,77 @@
+{
+ "nctId": "NCT02696434",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.28",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "1.68",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.407",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "0.68",
+     "statisticalMethod": "Regression, Logistic"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "35"
+        },
+        {
+         "groupId": "OG001",
+         "value": "38"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "51"
+      },
+      {
+       "groupId": "OG001",
+       "value": "50"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Demonstrated by mild opioid withdrawal symptoms (Clinical Opiate Withdrawal Scale \\[COWS\\] \\</=12 or Subjective Opiate Withdrawal Scale \\[SOWS\\] \\</=10) following VIVITROL administration. The COWS is a clinician-rated questionnaire designed to measure 11 common opioid withdrawal signs or symptoms. The summed score provides information about the level of physical dependence on opioids. The range of COWS scores is 0-4 (none to minimal); 5-12 (mild); 13-24 (moderate); 25-36 (moderately severe); and 37-48 (severe withdrawal). The SOWS is a 16-item self-report questionnaire designed to measure the severity of opioid withdrawal symptoms. The subject rates the intensity of symptoms using a 5-point scale. The range of SOWS scores is 1-10 (mild); 11-20 (moderate); and 21-30 (severe).",
+   "groups": [
+    {
+     "description": "Naltrexone + buprenorphine\n\nNaltrexone: daily dosing\n\nBuprenorphine: daily dosing",
+     "id": "OG000",
+     "title": "NTX + BUP"
+    },
+    {
+     "description": "Placebo naltrexone + buprenorphine\n\nPlacebo: daily dosing\n\nBuprenorphine: daily dosing",
+     "id": "OG001",
+     "title": "PBO NTX + BUP"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "There is one subject who was randomized to the naltrexone + buprenorphine treatment arm, but mistakenly received placebo naltrexone + buprenorphine treatment. This subject is categorized in the PBO NTX+BUP arm in the participant flow and safety analyses, but in the efficacy analyses the subject is categorized as NTX+BUP.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "8 days",
+   "title": "Proportion of Subjects Who Receive and Tolerate a VIVITROL Injection on Day 8",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

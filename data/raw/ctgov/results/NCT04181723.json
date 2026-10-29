@@ -1,0 +1,157 @@
+{
+ "nctId": "NCT04181723",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-5.7",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-0.6",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "1.30",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0175",
+     "paramType": "LSM difference",
+     "paramValue": "-3.1",
+     "statisticalMethod": "Mixed-effects model for repeated measure"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.94",
+         "value": "-4.9"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.90",
+         "value": "-1.7"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "91"
+      },
+      {
+       "groupId": "OG001",
+       "value": "93"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The RSBQ is a 45-item caregiver-completed rating scale that includes 45 items, 39 of them grouped into 8 subscales, whose ratings reflect the severity and frequency of symptoms. Items are rated as 0 (not true), 1 (somewhat or sometimes true), or 2 (very true). The 8 subscales are general mood, breathing problems, hand behavior, face movements, body rocking/expressionless face, night-time behaviors, fear/anxiety, and walking/standing. Scores for item 31 are reversed in the calculation of the total score. The total score ranges from 0 to 90 and is calculated as the sum of the item scores. Higher scores mean worse behaviour.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Trofinetide solution of 30-60 mL based on the subject's weight at Baseline, administered twice daily by mouth or gastrostomy tube (G-tube)\n\nTrofinetide: Trofinetide solution administered based on the subject's weight at Baseline, twice daily for 12 weeks",
+     "id": "OG000",
+     "title": "Drug - Trofinetide"
+    },
+    {
+     "description": "Trofinetide placebo solution of 30-60 mL based on the subject's weight at Baseline, administered twice daily by mouth or gastrostomy tube (G-tube)\n\nPlacebo: Trofinetide placebo solution administered based on the subject's weight at Baseline, twice daily for 12 weeks",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline and Week 12",
+   "title": "Rett Syndrome Behaviour Questionnaire (RSBQ) Total Score - Change From Baseline to Week 12",
+   "type": "PRIMARY",
+   "unitOfMeasure": "score on a scale"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-0.5",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-0.1",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "0.10",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0030",
+     "paramType": "LSM difference",
+     "paramValue": "-0.3",
+     "statisticalMethod": "Mixed-effects model for repeated measure"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.07",
+         "value": "3.5"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.07",
+         "value": "3.8"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "91"
+      },
+      {
+       "groupId": "OG001",
+       "value": "93"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "To rate how much the subject's illness has improved or worsened relative to a baseline state, a 7-point scale is used from 1=very much improved, 2=much improved, 3=minimally improved, 4=no change, 5=minimally worse, 6=much worse, 7=very much worse.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Trofinetide solution of 30-60 mL based on the subject's weight at Baseline, administered twice daily by mouth or gastrostomy tube (G-tube)\n\nTrofinetide: Trofinetide solution administered based on the subject's weight at Baseline, twice daily for 12 weeks",
+     "id": "OG000",
+     "title": "Drug - Trofinetide"
+    },
+    {
+     "description": "Trofinetide placebo solution of 30-60 mL based on the subject's weight at Baseline, administered twice daily by mouth or gastrostomy tube (G-tube)\n\nPlacebo: Trofinetide placebo solution administered based on the subject's weight at Baseline, twice daily for 12 weeks",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "reportingStatus": "POSTED",
+   "timeFrame": "12 Weeks Treatment Duration",
+   "title": "Clinical Global Impression-Improvement (CGI-I) Score at Week 12",
+   "type": "PRIMARY",
+   "unitOfMeasure": "score on a scale"
+  }
+ ]
+}

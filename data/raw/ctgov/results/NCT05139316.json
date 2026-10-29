@@ -1,0 +1,454 @@
+{
+ "nctId": "NCT05139316",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-33.18",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-10.44",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "5.66",
+     "groupDescription": "Statistical Analysis for Week 24",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "paramType": "LS Mean Difference",
+     "paramValue": "-21.81"
+    },
+    {
+     "ciLowerLimit": "-40.66",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-17.67",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "5.73",
+     "groupDescription": "Statistical Analysis for Week 30",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "paramType": "LS Mean Difference",
+     "paramValue": "-29.16"
+    },
+    {
+     "ciLowerLimit": "-40.18",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-17.21",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "5.73",
+     "groupDescription": "Statistical Analysis for Week 36",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "paramType": "LS Mean Difference",
+     "paramValue": "-28.70"
+    },
+    {
+     "ciLowerLimit": "-42.33",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-19.29",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "5.75",
+     "groupDescription": "Statistical Analysis for Week 42",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "paramType": "LS Mean Difference",
+     "paramValue": "-30.81"
+    },
+    {
+     "ciLowerLimit": "-42.07",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-19.15",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "5.71",
+     "groupDescription": "Statistical Analysis for Week 48",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<0.0001",
+     "paramType": "LS Mean Difference",
+     "paramValue": "-30.61",
+     "statisticalMethod": "MMRM"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "4.11",
+         "value": "-9.21"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "4.52",
+         "value": "-31.03"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "24"
+        },
+        {
+         "groupId": "OG001",
+         "value": "20"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Change at Week 24"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "4.13",
+         "value": "-6.69"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "4.57",
+         "value": "-35.85"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "23"
+        },
+        {
+         "groupId": "OG001",
+         "value": "18"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Change at Week 30"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "4.15",
+         "value": "-7.76"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "4.55",
+         "value": "-36.46"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "22"
+        },
+        {
+         "groupId": "OG001",
+         "value": "19"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Change at Week 36"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "4.15",
+         "value": "-9.25"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "4.57",
+         "value": "-40.06"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "22"
+        },
+        {
+         "groupId": "OG001",
+         "value": "18"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Change at Week 42"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "4.13",
+         "value": "-10.37"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "4.55",
+         "value": "-40.98"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "23"
+        },
+        {
+         "groupId": "OG001",
+         "value": "19"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Change at Week 48"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "24"
+      },
+      {
+       "groupId": "OG001",
+       "value": "20"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The least square (LS) mean and standard error (SE) are based on mixed-model for repeated measures (MMRM) analysis.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Participants received a single peripheral IV infusion of placebo on Day 1 along with a PTM of the prophylactic steroid regimen of prednisolone. At Week 48, participants received a single peripheral IV infusion of 1.0 × 10\\^13 GC/kg of DTX401 along with a prophylactic steroid regimen of prednisolone.",
+     "id": "OG000",
+     "title": "Placebo Followed by DTX401"
+    },
+    {
+     "description": "Participants received a single peripheral IV infusion of 1.0 × 10\\^13 GC/kg of DTX401 on Day 1, along with a prophylactic steroid regimen of prednisolone. At Week 48, participants received a single peripheral IV infusion of placebo with a PTM of the prophylactic steroid regimen of prednisolone.",
+     "id": "OG001",
+     "title": "DTX401 Followed by Placebo"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Modified Intention-to-Treat (mITT) included all randomized participants who received any IP (DTX401 or placebo) including participants receiving partial dose of IP and provided at least one post-dosing assessment pertaining to primary efficacy analysis. Number analyzed is the number of participants with data available for analysis at the specified timepoints.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Weeks 24, 30, 36, 42 and 48",
+   "title": "Main Study: Percent Change From Baseline to Week 48 in Daily Cornstarch Intake (Grams)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percent change"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "8.37",
+         "value": "-95.17"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "3"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Change at Week 24"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "25.10",
+         "value": "-85.51"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "3"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Change at Week 30"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.0",
+         "value": "-100.0"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "3"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Change at Week 36"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.0",
+         "value": "-100.0"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "2"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Change at Week 42"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.0",
+         "value": "-100.0"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "3"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Change at Week 48"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "3"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants received a single peripheral IV infusion of 1.0 × 10\\^13 GC/kg of DTX401 on Day 1, along with a prophylactic steroid regimen of prednisolone.",
+     "id": "OG000",
+     "title": "DTX401 (Japan Cohort)"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "FAS included all randomized participants. Number analyzed is the number of participants with data available for analysis at the specified timepoints.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Weeks 24, 30, 36, 42 and 48",
+   "title": "Japan Cohort: Percent Change From Baseline to Week 48 in Daily Cornstarch Intake (Grams)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percent change"
+  }
+ ]
+}

@@ -1,0 +1,83 @@
+{
+ "nctId": "NCT01749137",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-2.27",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.04",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "0.58",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityComment": "P-value from a mixed-effects analysis of covariance model with treatment, visit and visit-by-treatment interaction as factors, baseline weight as a covariate, and participant as the random effect.",
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.059",
+     "paramType": "Treatment Difference",
+     "paramValue": "-1.1",
+     "statisticalMethod": "Mixed Model Repeated Measures (MMRM)"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "2.82",
+         "value": "-2.0"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "2.96",
+         "value": "-0.3"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "33"
+      },
+      {
+       "groupId": "OG001",
+       "value": "36"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The mean percent change from baseline in body weight at Day 90 was analyzed.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants received 1 mg setmelanotide every day by continuous subcutaneous infusion using the Omnipod insulin pump for a duration of 90 days.",
+     "id": "OG000",
+     "title": "Setmelanotide"
+    },
+    {
+     "description": "Participants received placebo matching setmelanotide every day by continuous subcutaneous infusion using the Omnipod insulin pump for a duration of 90 days.",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "FAS population with available data at specified time point.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline and Day 90",
+   "title": "Percent Change From Baseline in Body Weight",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Percent change"
+  }
+ ]
+}

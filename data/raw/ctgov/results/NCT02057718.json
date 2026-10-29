@@ -1,0 +1,97 @@
+{
+ "nctId": "NCT02057718",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-82.35",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "35.742",
+     "dispersionType": "STANDARD_DEVIATION",
+     "dispersionValue": "160.9748",
+     "groupDescription": "This analysis shows the change from baseline to Week 13 in sBA levels for the overall Modified Intent-to-treat Population. Even though a comparison of PFIC1 vs PFIC2 (overall) is noted, the results are the change from baseline for all participants and is not comparative.",
+     "groupIds": [
+      "OG001",
+      "OG002"
+     ],
+     "nonInferiorityComment": "Null hypothesis (H0): mean change from baseline to Week 13 is zero. The null hypothesis was tested for each of the 2 PFIC subgroups and overall; the change in the overall population is presented here.",
+     "nonInferiorityType": "OTHER",
+     "paramType": "Mean Difference (Net)",
+     "paramValue": "-23.304"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "-463",
+         "upperLimit": "279",
+         "value": "-23"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "-117",
+         "upperLimit": "149",
+         "value": "18"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "-463",
+         "upperLimit": "279",
+         "value": "-38"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "31"
+      },
+      {
+       "groupId": "OG001",
+       "value": "8"
+      },
+      {
+       "groupId": "OG002",
+       "value": "23"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "dispersionType": "Full Range",
+   "groups": [
+    {
+     "description": "All subjects received maralixibat (MRX)",
+     "id": "OG000",
+     "title": "Maralixibat"
+    },
+    {
+     "description": "Enrolled subjects with PFIC1 subtype",
+     "id": "OG001",
+     "title": "PFIC1"
+    },
+    {
+     "description": "Overall PFIC2 subtype to include PFIC2 phenotype: - non-truncating (mild to moderate phenotype with residual BSEP \\[liver-specific transporter\\] function) - truncating (severe phenotype without residual BSEP function or complete absence of BSEP)",
+     "id": "OG002",
+     "title": "PFIC2 (Overall)"
+    }
+   ],
+   "paramType": "MEAN",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline (Day 0) to Week 13",
+   "title": "Change From Baseline to Endpoint (Week 13) in Fasting sBA Level",
+   "type": "PRIMARY",
+   "unitOfMeasure": "umol/L"
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "nctId": "NCT04545060",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.09",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.50",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<0.001",
+     "pValueComment": "two-sided, alpha=0.05",
+     "paramType": "adjusted relative risk ratio",
+     "paramValue": "0.21",
+     "statisticalMethod": "poisson regression model"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "6"
+        },
+        {
+         "groupId": "OG001",
+         "value": "30"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "528"
+      },
+      {
+       "groupId": "OG001",
+       "value": "529"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "COVID-19 progression defined as hospitalization \\>24 hours or death",
+   "groups": [
+    {
+     "description": "Participants received 500 mg sotrovimab administered intravenously (IV)",
+     "id": "OG000",
+     "title": "Sotrovimab (500 mg IV)"
+    },
+    {
+     "description": "Participants received Placebo administered intravenously (IV)",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Intent-to-Treat (All participants who were randomly assigned to study intervention)",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Through Day 29",
+   "title": "Number of Participants Who Had Progression of COVID-19 Through Day 29",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

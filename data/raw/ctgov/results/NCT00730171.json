@@ -1,0 +1,74 @@
+{
+ "nctId": "NCT00730171",
+ "primaryOutcomeMeasures": [
+  {
+   "calculatePct": false,
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "65"
+        },
+        {
+         "groupId": "OG001",
+         "value": "389"
+        },
+        {
+         "groupId": "OG002",
+         "value": "454"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "607"
+      },
+      {
+       "groupId": "OG001",
+       "value": "1119"
+      },
+      {
+       "groupId": "OG002",
+       "value": "1725"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "For RI and Phase 2 RO participants, an AE that occurred during the study was considered a TEAE if it was not present before the day of the first dose of open-label study drug, or was present before the day of the first dose of open-label study drug but increased in severity on or after that day. For Phase 3 RO participants, an AE that occurred during the study was considered a TEAE if it was not present before the day of the first dose of double-blind study drug in trial MCP-103-302 or MCP-103-303, or was present before the day of the first dose of double-blind study drug in those trials but increased in severity on or after that day. Deaths and serious AEs (SAEs) are those that occurred on or after the date of the first dose of open-label study drug, and within 30 days of the date of last dose of open-label study drug.",
+   "groups": [
+    {
+     "description": "RI and RO participants who met the Rome II criteria for CC and who received linaclotide 290 μg/day capsules, administered orally once daily for up to 78 weeks. Dose reduction to 145 μg/day was permitted at the discretion of the Investigator.",
+     "id": "OG000",
+     "title": "CC Safety Population: Total"
+    },
+    {
+     "description": "RI and RO participants who met the Rome II criteria for IBS-C and who received linaclotide 290 μg/day capsules, administered orally once daily for up to 78 weeks. Dose reduction to 145 μg/day was permitted at the discretion of the Investigator.",
+     "id": "OG001",
+     "title": "IBS-C Safety Population: Total"
+    },
+    {
+     "description": "All RI and RO participants who received linaclotide 290 μg/day capsules, administered orally once daily for up to 78 weeks. Dose reduction to 145 μg/day was permitted at the discretion of the Investigator.",
+     "id": "OG002",
+     "title": "Overall Safety Population: Total"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Enrolled participants who received at least 1 dose of open-label study drug. It was identified that 1 participant enrolled twice in the study under 2 ID numbers; this participant is included as an RI participant in the CC Safety Population, and as an RO participant in both the IBS-C and Overall Safety Populations.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "From first dose of open-label study drug up to 78 weeks",
+   "title": "Number of Participants With at Least One Treatment-Emergent Adverse Event (TEAE)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

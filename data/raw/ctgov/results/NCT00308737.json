@@ -1,0 +1,157 @@
+{
+ "nctId": "NCT00308737",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.014",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.060",
+     "groupDescription": "Mixed model repeated measures with fixed effects diabetes type, visit, pooled site and treatment and baseline FEV1 as a covariate",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityComment": "Comparison of TI + Usual Care to Usual Care only",
+     "nonInferiorityType": "NON_INFERIORITY_OR_EQUIVALENCE",
+     "paramType": "Mean Difference (Final Values)",
+     "paramValue": "0.037",
+     "statisticalComment": "Repeated measures",
+     "statisticalMethod": "Mixed Models Analysis",
+     "testedNonInferiority": true
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.208",
+         "value": "-0.16"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.211",
+         "value": "-0.12"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "730"
+      },
+      {
+       "groupId": "OG001",
+       "value": "824"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Change from Baseline to End of Study in FEV1 by MMRM",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Technosphere Insulin",
+     "id": "OG000",
+     "title": "Technosphere® Insulin"
+    },
+    {
+     "description": "Usual care",
+     "id": "OG001",
+     "title": "Usual Care"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Intention to Treat (ITT)",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline to Month 24",
+   "title": "Change From Baseline to Month 24 in Forced Expiratory Volume in 1 Second (FEV1) by MMRM for TI vs Usual Care",
+   "type": "PRIMARY",
+   "unitOfMeasure": "liters"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-4.5578",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-0.3956",
+     "groupDescription": "Logistic regression excluding non-diabetics",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityComment": "The null hypothesis tested was that the difference in incidence of a decrease of ≥ 15% in FEV1 between the treatment groups not be greater than 5% for TI when compared with the usual care treatment group. Assuming an incidence rate of 15% for FEV1 and a noninferiority criterion of a 5% difference in incidence between the treatment groups, approximately 625 subjects per group were required for 80% power and an alpha of 5% (1 tailed).",
+     "nonInferiorityType": "NON_INFERIORITY_OR_EQUIVALENCE",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "-2.4767",
+     "statisticalMethod": "Regression, Logistic",
+     "testedNonInferiority": true
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "42"
+        },
+        {
+         "groupId": "OG001",
+         "value": "27"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "730"
+      },
+      {
+       "groupId": "OG001",
+       "value": "824"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "FEV1 decrease of ≥ 15% from Baseline value at last measurement",
+   "groups": [
+    {
+     "description": "Technosphere Insulin",
+     "id": "OG000",
+     "title": "Technosphere® Insulin"
+    },
+    {
+     "description": "Usual care",
+     "id": "OG001",
+     "title": "Usual Care"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Intention to Treat (ITT)",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline to Month 24",
+   "title": "FEV1 Decrease of ≥ 15% From Baseline Value at Last Measurement for TI vs Usual Care",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

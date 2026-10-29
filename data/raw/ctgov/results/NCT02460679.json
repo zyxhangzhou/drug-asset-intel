@@ -1,0 +1,47 @@
+{
+ "nctId": "NCT02460679",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "19"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "An adverse event (AE) was any untoward medical occurrence in a participant who received study drug without regard to possibility of causal relationship. Serious adverse event (SAE) was an AE resulting in any of the following outcomes or deemed significant for any other reason: death; initial or prolonged inpatient hospitalization; life-threatening experience (immediate risk of dying); persistent or significant disability/incapacity; congenital anomaly. AEs included both SAEs and non-serious AEs. A summary of other non-serious AEs and all SAEs, regardless of causality is located in the 'Reported AE section'.",
+   "groups": [
+    {
+     "description": "Participants received EPI-589 500 mg (2 tablets of 250 mg each) BID for 3 months, unless discontinued for safety or tolerability issues.",
+     "id": "OG000",
+     "title": "EPI-589"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Safety population included any participant who received at least 1 dose of EPI-589.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline (Day 0) to Month 6",
+   "title": "Number of Participants With Drug-Related Serious Adverse Events (SAEs)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

@@ -1,0 +1,106 @@
+{
+ "nctId": "NCT03218917",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "groupIds": [
+      "OG000"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "= 0.014",
+     "pValueComment": "P-value is one-sided for superiority.",
+     "statisticalComment": "Stratified by Pseudomonas aeruginosa (Pa) colonization status and maintenance antibiotic use at Baseline.",
+     "statisticalMethod": "Stratified Log-rank test"
+    },
+    {
+     "groupIds": [
+      "OG001",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "= 0.022",
+     "pValueComment": "P-value is one-sided for superiority.",
+     "statisticalComment": "Stratified by colonization status and maintenance antibiotic use at Baseline.",
+     "statisticalMethod": "Stratified Log-rank test"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "comment": "The median, upper and lower limit of confidence interval (CI) was not estimated due to insufficient number of participants with exacerbations in Brensocatib 10 mg group.",
+         "groupId": "OG000",
+         "lowerLimit": "NA",
+         "upperLimit": "NA",
+         "value": "NA"
+        },
+        {
+         "comment": "The median, upper and lower limit of CI was not estimated due to insufficient number of participants with exacerbations in Brensocatib 25 mg group.",
+         "groupId": "OG001",
+         "lowerLimit": "NA",
+         "upperLimit": "NA",
+         "value": "NA"
+        },
+        {
+         "comment": "The upper limit of CI was not estimated due to insufficient number of participants with exacerbations in placebo.",
+         "groupId": "OG002",
+         "lowerLimit": "141.0",
+         "upperLimit": "NA",
+         "value": "189.0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "26"
+      },
+      {
+       "groupId": "OG001",
+       "value": "29"
+      },
+      {
+       "groupId": "OG002",
+       "value": "42"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Time to first pulmonary exacerbation was calculated as the number of days from the date of randomization to the date of first documentation of an exacerbation. Pulmonary exacerbation was defined as having 3 or more of the following symptoms for at least 48 hours resulting in a physician's decision to prescribe antibiotics: 1. Increased cough 2. Increased sputum volume or change in sputum consistency 3. Increased sputum purulence 4. Increased breathlessness and/or decreased exercise tolerance 5. Fatigue and/or malaise 6. Hemoptysis A minimum of 4 weeks must have occurred between one exacerbation onset and the next. Any exacerbation that occurred less than 4 weeks from the prior exacerbation was not considered a new exacerbation. The analysis was performed using the stratified log rank test and using Kaplan Meier (KM) curves.",
+   "dispersionType": "90% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants received brensocatib 10 mg QD before breakfast, for 24 weeks.",
+     "id": "OG000",
+     "title": "Brensocatib 10 mg"
+    },
+    {
+     "description": "Participants received brensocatib 25 mg QD before breakfast, for 24 weeks.",
+     "id": "OG001",
+     "title": "Brensocatib 25 mg"
+    },
+    {
+     "description": "Participants received the matching placebo QD before breakfast, for 24 weeks.",
+     "id": "OG002",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "ITT population included all participants who were randomized. Overall number of participants analyzed are number of participants with at least one exacerbation over 24-week treatment period.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline (Day 1) to Week 24",
+   "title": "Time to the First Pulmonary Exacerbation Over 24-Week Treatment Period",
+   "type": "PRIMARY",
+   "unitOfMeasure": "days"
+  }
+ ]
+}

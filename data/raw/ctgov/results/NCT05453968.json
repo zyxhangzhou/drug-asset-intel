@@ -1,0 +1,502 @@
+{
+ "nctId": "NCT05453968",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "48.0",
+         "value": "1182"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "34.9",
+         "value": "774"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "37.1",
+         "value": "869"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "7"
+      },
+      {
+       "groupId": "OG001",
+       "value": "8"
+      },
+      {
+       "groupId": "OG002",
+       "value": "9"
+      },
+      {
+       "groupId": "OG003",
+       "value": "0"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "AUC0-last is the area under the plasma concentration-time curve from time 0 to the time of the last measurable concentration.",
+   "dispersionType": "Geometric Coefficient of Variation",
+   "groups": [
+    {
+     "description": "Participants received 150 mg berotralstat capsule orally once daily for up to 144 weeks. Dose modifications were permitted due to weight changes, PK results, or safety.",
+     "id": "OG000",
+     "title": "Cohort 1: ≥ 40 kg Body Weight (Berotralstat 150 mg)"
+    },
+    {
+     "description": "Participants received 108 mg berotralstat granules orally once daily for up to 144 weeks. Dose modifications were permitted due to weight changes, PK results, or safety.",
+     "id": "OG001",
+     "title": "Cohort 2: 32 to < 40 kg Body Weight (Berotralstat 108 mg)"
+    },
+    {
+     "description": "Participants received 96 mg berotralstat granules orally once daily for up to 144 weeks. Dose modifications were permitted due to weight changes, PK results, or safety.",
+     "id": "OG002",
+     "title": "Cohort 3: 24 to < 32 kg Body Weight (Berotralstat 96 mg)"
+    },
+    {
+     "description": "Participants received 78 mg berotralstat granules orally once daily for up to 144 weeks. Dose modifications were permitted due to weight changes, PK results, or safety.",
+     "id": "OG003",
+     "title": "Cohort 4: 12 to <24 kg Body Weight (Berotralstat 78 mg)"
+    }
+   ],
+   "paramType": "GEOMETRIC_MEAN",
+   "populationDescription": "Pharmacokinetic (PK) population included participants in the safety population with at least 1 evaluable and quantifiable post dose PK sample obtained. Number of participants analyzed refers to the participants who were evaluable for this outcome measure. Per protocol, fewer serial PK samples were drawn in Cohort 4 participants to remain within acceptable ranges of blood draw volumes; hence, Cohort 4 participants were not included in the analysis of this PK parameter.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Week 2",
+   "title": "Area Under the Plasma Concentration-Time Curve From Time 0 to the Last Measurable Concentration (AUC0-last) of Berotralstat",
+   "type": "PRIMARY",
+   "unitOfMeasure": "nanogram* hour per milliliter (ng*h/mL)"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "19.3",
+         "value": "1605"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "44.9",
+         "value": "874"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "42.1",
+         "value": "911"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "4"
+      },
+      {
+       "groupId": "OG001",
+       "value": "3"
+      },
+      {
+       "groupId": "OG002",
+       "value": "8"
+      },
+      {
+       "groupId": "OG003",
+       "value": "0"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "AUC0-6 is the area under the plasma concentration-time curve from time 0 to 6 hours.",
+   "dispersionType": "Geometric Coefficient of Variation",
+   "groups": [
+    {
+     "description": "Participants received 150 mg berotralstat capsule orally once daily for up to 144 weeks. Dose modifications were permitted due to weight changes, PK results, or safety.",
+     "id": "OG000",
+     "title": "Cohort 1: ≥ 40 kg Body Weight (Berotralstat 150 mg)"
+    },
+    {
+     "description": "Participants received 108 mg berotralstat granules orally once daily for up to 144 weeks. Dose modifications were permitted due to weight changes, PK results, or safety.",
+     "id": "OG001",
+     "title": "Cohort 2: 32 to < 40 kg Body Weight (Berotralstat 108 mg)"
+    },
+    {
+     "description": "Participants received 96 mg berotralstat granules orally once daily for up to 144 weeks. Dose modifications were permitted due to weight changes, PK results, or safety.",
+     "id": "OG002",
+     "title": "Cohort 3: 24 to < 32 kg Body Weight (Berotralstat 96 mg)"
+    },
+    {
+     "description": "Participants received 78 mg berotralstat granules orally once daily for up to 144 weeks. Dose modifications were permitted due to weight changes, PK results, or safety.",
+     "id": "OG003",
+     "title": "Cohort 4: 12 to <24 kg Body Weight (Berotralstat 78 mg)"
+    }
+   ],
+   "paramType": "GEOMETRIC_MEAN",
+   "populationDescription": "Pharmacokinetic (PK) population included participants in the safety population with at least 1 evaluable and quantifiable post dose PK sample obtained. Number of participants analyzed refers to the participants who were evaluable for this outcome measure. Per protocol, fewer serial PK samples were drawn in Cohort 4 participants to remain within acceptable ranges of blood draw volumes; hence, Cohort 4 participants were not included in the analysis of this PK parameter.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Predose and up to 6 hours post dose at Week 2",
+   "title": "Area Under the Plasma Concentration-Time Curve From Time 0 to 6 Hours Post-dose (AUC0-6) of Berotralstat",
+   "type": "PRIMARY",
+   "unitOfMeasure": "ng*h/mL"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "45.5",
+         "value": "133"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "25.8",
+         "value": "92.9"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "27.4",
+         "value": "86.8"
+        },
+        {
+         "groupId": "OG003",
+         "spread": "38.1",
+         "value": "106"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "7"
+      },
+      {
+       "groupId": "OG001",
+       "value": "8"
+      },
+      {
+       "groupId": "OG002",
+       "value": "9"
+      },
+      {
+       "groupId": "OG003",
+       "value": "4"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Ctrough is the concentration at the end of a dosing interval of berotralstat.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants received 150 mg berotralstat capsule orally once daily for up to 144 weeks. Dose modifications were permitted due to weight changes, PK results, or safety.",
+     "id": "OG000",
+     "title": "Cohort 1: ≥ 40 kg Body Weight (Berotralstat 150 mg)"
+    },
+    {
+     "description": "Participants received 108 mg berotralstat granules orally once daily for up to 144 weeks. Dose modifications were permitted due to weight changes, PK results, or safety.",
+     "id": "OG001",
+     "title": "Cohort 2: 32 to < 40 kg Body Weight (Berotralstat 108 mg)"
+    },
+    {
+     "description": "Participants received 96 mg berotralstat granules orally once daily for up to 144 weeks. Dose modifications were permitted due to weight changes, PK results, or safety.",
+     "id": "OG002",
+     "title": "Cohort 3: 24 to < 32 kg Body Weight (Berotralstat 96 mg)"
+    },
+    {
+     "description": "Participants received 78 mg berotralstat granules orally once daily for up to 144 weeks. Dose modifications were permitted due to weight changes, PK results, or safety.",
+     "id": "OG003",
+     "title": "Cohort 4: 12 to <24 kg Body Weight (Berotralstat 78 mg)"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Pharmacokinetic (PK) population included participants in the safety population with at least 1 evaluable and quantifiable post dose PK sample obtained. Number of participants analyzed refers to the participants who were evaluable for this outcome measure.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Predose at Week 2",
+   "title": "Concentration at the End of the Dosing Interval (Ctrough) of Berotralstat",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Nanograms per milliliter (ng/mL)"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "40.8",
+         "value": "271"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "28.1",
+         "value": "181"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "37.7",
+         "value": "180"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "7"
+      },
+      {
+       "groupId": "OG001",
+       "value": "8"
+      },
+      {
+       "groupId": "OG002",
+       "value": "9"
+      },
+      {
+       "groupId": "OG003",
+       "value": "0"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Cmax is the maximum observed plasma concentration of berotralstat.",
+   "dispersionType": "Geometric Coefficient of Variation",
+   "groups": [
+    {
+     "description": "Participants received 150 mg berotralstat capsule orally once daily for up to 144 weeks (12-week Part 1, 36-week Part 2, 96-week Part 3). Dose modifications were permitted due to weight changes, PK results, or safety.",
+     "id": "OG000",
+     "title": "Cohort 1: ≥ 40 kg Body Weight (Berotralstat 150 mg)"
+    },
+    {
+     "description": "Participants received 108 mg berotralstat granules orally once daily for up to 144 weeks. Dose modifications were permitted due to weight changes, PK results, or safety.",
+     "id": "OG001",
+     "title": "Cohort 2: 32 to < 40 kg Body Weight (Berotralstat 108 mg)"
+    },
+    {
+     "description": "Participants received 96 mg berotralstat granules orally once daily for up to 144 weeks. Dose modifications were permitted due to weight changes, PK results, or safety.",
+     "id": "OG002",
+     "title": "Cohort 3: 24 to < 32 kg Body Weight (Berotralstat 96 mg)"
+    },
+    {
+     "description": "Participants received 78 mg berotralstat granules orally once daily for up to 144 weeks. Dose modifications were permitted due to weight changes, PK results, or safety.",
+     "id": "OG003",
+     "title": "Cohort 4: 12 to <24 kg Body Weight (Berotralstat 78 mg)"
+    }
+   ],
+   "paramType": "GEOMETRIC_MEAN",
+   "populationDescription": "Pharmacokinetic (PK) population included participants in the safety population with at least 1 evaluable and quantifiable post dose PK sample obtained. Number of participants analyzed refers to the participants who were evaluable for this outcome measure. Per protocol, fewer serial PK samples were drawn in Cohort 4 participants to remain within acceptable ranges of blood draw volumes; hence, Cohort 4 participants were not included in the analysis of this PK parameter.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Predose and up to 6 hours post dose at Week 2",
+   "title": "Maximum Observed Plasma Concentration (Cmax) of Berotralstat",
+   "type": "PRIMARY",
+   "unitOfMeasure": "ng/mL"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "5.08",
+         "upperLimit": "6.13",
+         "value": "6.00"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "4.05",
+         "upperLimit": "6.00",
+         "value": "5.09"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "5.00",
+         "upperLimit": "6.08",
+         "value": "6.00"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "7"
+      },
+      {
+       "groupId": "OG001",
+       "value": "8"
+      },
+      {
+       "groupId": "OG002",
+       "value": "9"
+      },
+      {
+       "groupId": "OG003",
+       "value": "0"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Tlast is the time of the last measurable concentration (Clast) of berotralstat collected over the sampling interval.",
+   "dispersionType": "Full Range",
+   "groups": [
+    {
+     "description": "Participants received 150 mg berotralstat capsule orally once daily for up to 144 weeks. Dose modifications were permitted due to weight changes, PK results, or safety.",
+     "id": "OG000",
+     "title": "Cohort 1: ≥ 40 kg Body Weight (Berotralstat 150 mg)"
+    },
+    {
+     "description": "Participants received 108 mg berotralstat granules orally once daily for up to 144 weeks. Dose modifications were permitted due to weight changes, PK results, or safety.",
+     "id": "OG001",
+     "title": "Cohort 2: 32 to < 40 kg Body Weight (Berotralstat 108 mg)"
+    },
+    {
+     "description": "Participants received 96 mg berotralstat granules orally once daily for up to 144 weeks. Dose modifications were permitted due to weight changes, PK results, or safety.",
+     "id": "OG002",
+     "title": "Cohort 3: 24 to < 32 kg Body Weight (Berotralstat 96 mg)"
+    },
+    {
+     "description": "Participants received 78 mg berotralstat granules orally once daily for up to 144 weeks. Dose modifications were permitted due to weight changes, PK results, or safety.",
+     "id": "OG003",
+     "title": "Cohort 4: 12 to <24 kg Body Weight (Berotralstat 78 mg)"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "Pharmacokinetic (PK) population included participants in the safety population with at least 1 evaluable and quantifiable post dose PK sample obtained. Number of participants analyzed refers to the participants who were evaluable for this outcome measure. Per protocol, fewer serial PK samples were drawn in Cohort 4 participants to remain within acceptable ranges of blood draw volumes; hence, Cohort 4 participants were not included in the analysis of this PK parameter.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Predose and up to 6 hours post dose at Week 2",
+   "title": "Time of Last Measurable Plasma Concentration (Tlast) of Berotralstat",
+   "type": "PRIMARY",
+   "unitOfMeasure": "hours"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "3.67",
+         "upperLimit": "6.00",
+         "value": "4.05"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "1.00",
+         "upperLimit": "5.95",
+         "value": "2.09"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "0.92",
+         "upperLimit": "4.00",
+         "value": "2.07"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "7"
+      },
+      {
+       "groupId": "OG001",
+       "value": "8"
+      },
+      {
+       "groupId": "OG002",
+       "value": "9"
+      },
+      {
+       "groupId": "OG003",
+       "value": "0"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Tmax is the time taken to reach the maximum observed plasma concentration of berotralstat.",
+   "dispersionType": "Full Range",
+   "groups": [
+    {
+     "description": "Participants received 150 mg berotralstat capsule orally once daily for up to 144 weeks. Dose modifications were permitted due to weight changes, PK results, or safety.",
+     "id": "OG000",
+     "title": "Cohort 1: ≥ 40 kg Body Weight (Berotralstat 150 mg)"
+    },
+    {
+     "description": "Participants received 108 mg berotralstat granules orally once daily for up to 144 weeks. Dose modifications were permitted due to weight changes, PK results, or safety.",
+     "id": "OG001",
+     "title": "Cohort 2: 32 to < 40 kg Body Weight (Berotralstat 108 mg)"
+    },
+    {
+     "description": "Participants received 96 mg berotralstat granules orally once daily for up to 144 weeks. Dose modifications were permitted due to weight changes, PK results, or safety.",
+     "id": "OG002",
+     "title": "Cohort 3: 24 to < 32 kg Body Weight (Berotralstat 96 mg)"
+    },
+    {
+     "description": "Participants received 78 mg berotralstat granules orally once daily for up to 144 weeks. Dose modifications were permitted due to weight changes, PK results, or safety.",
+     "id": "OG003",
+     "title": "Cohort 4: 12 to <24 kg Body Weight (Berotralstat 78 mg)"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "Pharmacokinetic (PK) population included participants in the safety population with at least 1 evaluable and quantifiable post dose PK sample obtained. Number of participants analyzed refers to the participants who were evaluable for this outcome measure. Per protocol, fewer serial PK samples were drawn in Cohort 4 participants to remain within acceptable ranges of blood draw volumes; hence, Cohort 4 participants were not included in the analysis of this PK parameter.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Predose and up to 6 hours post dose at Week 2",
+   "title": "Time to Maximum Plasma Concentration (Tmax) of Berotralstat",
+   "type": "PRIMARY",
+   "unitOfMeasure": "hours"
+  }
+ ]
+}

@@ -1,0 +1,800 @@
+{
+ "aliases": [
+  "Celcuity"
+ ],
+ "studies": [
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Letrozole combination cohort in dose escalation",
+       "interventionNames": [
+        "Drug: Gedatolisib",
+        "Drug: Palbociclib",
+        "Drug: Letrozole"
+       ],
+       "label": "Letrozole Cohort",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Fulvestrant combination cohort in dose escalation",
+       "interventionNames": [
+        "Drug: Gedatolisib",
+        "Drug: Palbociclib",
+        "Drug: Fulvestrant"
+       ],
+       "label": "Fulvestrant cohort",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Gedatolisib + palbociclib + letrozole in dose expansion",
+       "interventionNames": [
+        "Drug: Gedatolisib",
+        "Drug: Palbociclib",
+        "Drug: Letrozole"
+       ],
+       "label": "ARM A",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Gedatolisib + palbociclib + fulvestrant in dose expansion",
+       "interventionNames": [
+        "Drug: Gedatolisib",
+        "Drug: Palbociclib",
+        "Drug: Fulvestrant"
+       ],
+       "label": "ARM B",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Gedatolisib + palbociclib + fulvestrant in dose expansion",
+       "interventionNames": [
+        "Drug: Gedatolisib",
+        "Drug: Palbociclib",
+        "Drug: Fulvestrant"
+       ],
+       "label": "ARM C",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Gedatolisib (3:1) + palbociclib + fulvestrant in dose expansion",
+       "interventionNames": [
+        "Drug: Fulvestrant"
+       ],
+       "label": "Arm D",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "ARM A",
+        "ARM B",
+        "ARM C",
+        "Fulvestrant cohort",
+        "Letrozole Cohort"
+       ],
+       "description": "Gedatolisib weekly intravenous starting at 180 mg/week in a 4 week cycle.",
+       "name": "Gedatolisib",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "ARM A",
+        "ARM B",
+        "ARM C",
+        "Fulvestrant cohort",
+        "Letrozole Cohort"
+       ],
+       "description": "Palbociclib initiated at 125 mg daily: 3 out of 4 weeks in a 4 week cycle.",
+       "name": "Palbociclib",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "ARM A",
+        "Letrozole Cohort"
+       ],
+       "description": "Letrozole at 2.5 mg daily",
+       "name": "Letrozole",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "ARM B",
+        "ARM C",
+        "Arm D",
+        "Fulvestrant cohort"
+       ],
+       "description": "Fulvestrant administered intramuscularly at 500 mg on Day 1, 15 and 28 and then every 28 days.",
+       "name": "Fulvestrant",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Breast Cancer"
+     ],
+     "keywords": [
+      "PI3K (phosphoinositide 3-kinase)",
+      "mTOR (mechanistic target of rapamycin)",
+      "PI3K/mTOR",
+      "metastatic breast cancer (MBC)",
+      "ER+ (estrogen receptor positive)",
+      "HER2- (human epidermal growth factor receptor 2 negative)"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 141,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Study To Assess The Tolerability And Clinical Activity Of Gedatolisib In Combination With Palbociclib/Letrozole Or Palbociclib/Fulvestrant In Women With Metastatic Breast Cancer",
+     "nctId": "NCT02684032",
+     "officialTitle": "PHASE 1B STUDY TO ASSESS THE SAFETY, TOLERABILITY, AND CLINICAL ACTIVITY OF GEDATOLISIB IN COMBINATION WITH PALBOCICLIB AND EITHER LETROZOLE OR FULVESTRANT IN WOMEN WITH METASTATIC OR LOCALLY ADVANCED/RECURRENT BREAST CANCER (MBC)",
+     "orgStudyIdInfo": {
+      "id": "B2151009"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Celcuity Inc"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Celcuity Inc"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2022-01-19",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2022-07-27",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2022-07-25",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2022-01-19",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2016-06-14",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2022-07",
+     "studyFirstPostDateStruct": {
+      "date": "2016-02-17",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2016-02-10",
+     "studyFirstSubmitQcDate": "2016-02-11"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "interventions": [
+      {
+       "description": "Gedatolisib is a potent, reversible dual inhibitor that selectively targets phosphoinositide 3 kinase (PI3K) and mammalian target of rapamycin (mTOR) in biochemical and cellular assays.",
+       "name": "Gedatolisib",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Breast Neoplasm Malignant Female"
+     ]
+    },
+    "designModule": {
+     "expandedAccessTypes": {
+      "intermediate": true
+     },
+     "studyType": "EXPANDED_ACCESS"
+    },
+    "identificationModule": {
+     "briefTitle": "Expanded Access Protocol for Subjects Previously Treated With Gedatolisib in B2151009",
+     "nctId": "NCT05134922",
+     "officialTitle": "Expanded Access Protocol for Subjects Previously Treated With Gedatolisib in a Celcuity-Sponsored Clinical Study (B2151009)",
+     "orgStudyIdInfo": {
+      "id": "CELC-G-001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Celcuity Inc"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Celcuity Inc"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-03-21",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-03-19",
+     "overallStatus": "AVAILABLE",
+     "statusVerifiedDate": "2025-03",
+     "studyFirstPostDateStruct": {
+      "date": "2021-11-26",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2021-11-14",
+     "studyFirstSubmitQcDate": "2021-11-14"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Gedatolisib + Palbociclib + Fulvestrant",
+       "interventionNames": [
+        "Drug: Gedatolisib",
+        "Drug: Palbociclib",
+        "Drug: Fulvestrant"
+       ],
+       "label": "Arm A - Patients Lacking PIK3CA Mutations (WT)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Gedatolisib + Fulvestrant",
+       "interventionNames": [
+        "Drug: Gedatolisib",
+        "Drug: Fulvestrant"
+       ],
+       "label": "Arm B - Patients Lacking PIK3CA Mutations (WT)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Fulvestrant",
+       "interventionNames": [
+        "Drug: Fulvestrant"
+       ],
+       "label": "Arm C - Patients Lacking PIK3CA Mutations (WT)",
+       "type": "ACTIVE_COMPARATOR"
+      },
+      {
+       "description": "Gedatolisib + Palbociclib + Fulvestrant",
+       "interventionNames": [
+        "Drug: Gedatolisib",
+        "Drug: Palbociclib",
+        "Drug: Fulvestrant"
+       ],
+       "label": "Arm D - Patients with PIK3CA Mutation (MT)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Alpelisib + Fulvestrant",
+       "interventionNames": [
+        "Drug: Fulvestrant",
+        "Drug: Alpelisib"
+       ],
+       "label": "Arm E - Patients with PIK3CA Mutation (MT)",
+       "type": "ACTIVE_COMPARATOR"
+      },
+      {
+       "description": "Gedatolisib + Fulvestrant",
+       "interventionNames": [
+        "Drug: Gedatolisib",
+        "Drug: Fulvestrant"
+       ],
+       "label": "Arm F - Patients with PIK3CA Mutation (MT)",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Arm A - Patients Lacking PIK3CA Mutations (WT)",
+        "Arm B - Patients Lacking PIK3CA Mutations (WT)",
+        "Arm D - Patients with PIK3CA Mutation (MT)",
+        "Arm F - Patients with PIK3CA Mutation (MT)"
+       ],
+       "description": "Gedatolisib 180 mg IV given weekly for 3 weeks (Days 1, 8, 15) followed by 1 week off",
+       "name": "Gedatolisib",
+       "otherNames": [
+        "PF-05212384",
+        "PKI-587"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Arm A - Patients Lacking PIK3CA Mutations (WT)",
+        "Arm D - Patients with PIK3CA Mutation (MT)"
+       ],
+       "description": "Palbociclib 125 mg PO given daily for 3 weeks (21 days), followed by 1 week off",
+       "name": "Palbociclib",
+       "otherNames": [
+        "IBRANCE",
+        "PD-0332991"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Arm A - Patients Lacking PIK3CA Mutations (WT)",
+        "Arm B - Patients Lacking PIK3CA Mutations (WT)",
+        "Arm C - Patients Lacking PIK3CA Mutations (WT)",
+        "Arm D - Patients with PIK3CA Mutation (MT)",
+        "Arm E - Patients with PIK3CA Mutation (MT)",
+        "Arm F - Patients with PIK3CA Mutation (MT)"
+       ],
+       "description": "Fulvestrant 500 mg IM (2 × 5 mL injections) given every 2 weeks during Cycle 1 (Days 1 and 15), then every 4 weeks beginning with Cycle 2 Day 1",
+       "name": "Fulvestrant",
+       "otherNames": [
+        "Faslodex"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Arm E - Patients with PIK3CA Mutation (MT)"
+       ],
+       "description": "Alpelisib 300 mg PO (2 × 150 mg tablets) given daily for 4 weeks (28 days)",
+       "name": "Alpelisib",
+       "otherNames": [
+        "Piqray",
+        "Vijoice",
+        "BYL719"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Breast Cancer"
+     ],
+     "keywords": [
+      "Breast Cancer, Advanced or Metastatic",
+      "gedatolisib",
+      "HR Positive",
+      "ER Positive",
+      "HER2 Negative",
+      "PIK3CA MT",
+      "PI3K"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 701,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "VIKTORIA-1",
+     "briefTitle": "Gedatolisib Plus Fulvestrant With or Without Palbociclib vs Standard-of-Care for the Treatment of Patients With Advanced or Metastatic HR+/HER2- Breast Cancer (VIKTORIA-1)",
+     "nctId": "NCT05501886",
+     "officialTitle": "Phase 3, Open-Label, Randomized, Study Comparing Gedatolisib Combined With Fulvestrant & With or Without Palbociclib to Standard-of-Care Therapies in Patients With HR-Positive, HER2-Negative Advanced Breast Cancer Previously Treated With a CDK4/6 Inhibitor in Combination w/Non-Steroidal Aromatase Inhibitor Therapy",
+     "orgStudyIdInfo": {
+      "id": "CELC-G-301"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Celcuity Inc"
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "2021-005235-24",
+       "type": "EUDRACT_NUMBER"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Celcuity Inc"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2026-12-31",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-02-10",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-02-06",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2026-06-30",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2022-12-08",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-02",
+     "studyFirstPostDateStruct": {
+      "date": "2022-08-16",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2022-08-12",
+     "studyFirstSubmitQcDate": "2022-08-12"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Arm 1 - 120 mg of gedatolisib (administered once weekly for 3 weeks on/1 week off) in combination with darolutamide 600 mg (two 300 mg tablets) orally administered twice daily (equivalent to a total daily dose of 1200 mg on Days 1-28 of each cycle)",
+       "interventionNames": [
+        "Drug: Gedatolisib",
+        "Drug: Darolutamide"
+       ],
+       "label": "Phase 1 Arm 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Arm 2 - 180 mg of gedatolisib (administered once weekly for 3 weeks on/1 week off) in combination with darolutamide 600 mg (two 300 mg tablets) orally administered twice daily (equivalent to a total daily dose of 1200 mg on Days 1-28 of each cycle)",
+       "interventionNames": [
+        "Drug: Gedatolisib",
+        "Drug: Darolutamide"
+       ],
+       "label": "Phase 1 Arm 2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "The recommended Phase 2 dose (RP2D) of gedatolisib (administered once weekly for 3 weeks on/1 week off) in combination with darolutamide 600 mg (two 300 mg tablets) orally administered twice daily (equivalent to a total daily dose of 1200 mg on Days 1-28 of each cycle)",
+       "interventionNames": [
+        "Drug: Gedatolisib",
+        "Drug: Darolutamide"
+       ],
+       "label": "Phase 2",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Phase 1 Arm 1",
+        "Phase 1 Arm 2",
+        "Phase 2"
+       ],
+       "description": "Gedatolisib is a potent reversible inhibitor that selectively targets all Class I PI3K isoforms and mTOR.",
+       "name": "Gedatolisib",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Phase 1 Arm 1",
+        "Phase 1 Arm 2",
+        "Phase 2"
+       ],
+       "description": "Darolutamide is a novel androgen receptor inhibitor that has been studied and received approval for treatment of patients with nonmetastatic CRPC and in metastatic hormone-sensitive prostate cancer.",
+       "name": "Darolutamide",
+       "otherNames": [
+        "NUBEQA"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "mCRPC (Metastatic Castration-resistant Prostate Cancer)",
+      "Genital Diseases, Male",
+      "Urogenital Diseases, Male",
+      "Prostatic Disease",
+      "Prostatic Neoplasms, Castration-Resistant",
+      "Prostate Cancer"
+     ],
+     "keywords": [
+      "Gedatolisib",
+      "PI3K",
+      "Protein Kinase Inhibitors",
+      "mCRPC (metastatic castration-resistant prostate cancer)",
+      "Darolutamide",
+      "Prostate Cancer",
+      "Prostatic Neoplasms, Castration-Resistant",
+      "Prostatic Disease",
+      "Urogenital Diseases, Male",
+      "Genital Diseases, Male"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "interventionModelDescription": "This is a Phase 1/2, open-label, randomized, dose finding and dose expansion study to evaluate the safety, preliminary efficacy, and PK of gedatolisib in combination with darolutamide in subjects with mCRPC. The study is comprised of two phases:\n\n* Phase 1 Dose Finding (2 Parts)\n\n  o Part 1: DLT evaluation and determination of tolerated doses\n* Part 2: Determination of RP2D\n* Phase 2 Dose Expansion",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 54,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Gedatolisib in Combination With Darolutamide in Metastatic Castration-Resistant Prostate Cancer",
+     "nctId": "NCT06190899",
+     "officialTitle": "A Phase 1/2, Open-Label, Randomized, Dose Finding and Dose Expansion Study of Gedatolisib in Combination With Darolutamide in Metastatic Castration-Resistant Prostate Cancer (mCRPC)",
+     "orgStudyIdInfo": {
+      "id": "CELC-G-201"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Celcuity Inc"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Celcuity Inc"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2030-01",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-04-13",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-04-07",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2028-01",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2024-01-01",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-04",
+     "studyFirstPostDateStruct": {
+      "date": "2024-01-05",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2023-12-13",
+     "studyFirstSubmitQcDate": "2024-01-02"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Subjects with treatment-naïve endocrine-resistant ABC.",
+       "interventionNames": [
+        "Drug: Arm A: Gedatolisib + Palbociclib + Fulvestrant"
+       ],
+       "label": "Arm A: Gedatolisib + Palbociclib + Fulvestrant",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Subjects with treatment-naïve endocrine-resistant ABC.",
+       "interventionNames": [
+        "Drug: Arm B: Ribociclib + Fulvestrant"
+       ],
+       "label": "Arm B: Ribociclib + Fulvestrant",
+       "type": "ACTIVE_COMPARATOR"
+      },
+      {
+       "description": "Subjects with treatment-naïve endocrine-sensitive ABC.",
+       "interventionNames": [
+        "Drug: Arm C: Gedatolisib + Palbociclib + Letrozole"
+       ],
+       "label": "Arm C: Gedatolisib + Palbociclib + Letrozole",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Subjects with treatment-naïve endocrine-sensitive ABC.",
+       "interventionNames": [
+        "Drug: Arm D: Ribociclib + Letrozole"
+       ],
+       "label": "Arm D: Ribociclib + Letrozole",
+       "type": "ACTIVE_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Arm A: Gedatolisib + Palbociclib + Fulvestrant"
+       ],
+       "description": "Drug: Gedatolisib Participants will receive intravenous (IV) gedatolisib once weekly for 3 weeks (Days 1, 8, 15) followed by 1 week off\n\nOther Names:\n\n• PF-05212384\n\nDrug: Palbociclib Participants will receive oral palbociclib on days 1-21 of each 28-day cycle.\n\nOther Names:\n\n• IBRANCE\n\nDrug: Fulvestrant Participants will receive intramuscular (IM) fulvestrant every 2 weeks during Cycle 1 and then every 4 weeks\n\nOther Names:\n\n• Faslodex",
+       "name": "Arm A: Gedatolisib + Palbociclib + Fulvestrant",
+       "otherNames": [
+        "PF-05212384, IBRANCE, Faslodex"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Arm B: Ribociclib + Fulvestrant"
+       ],
+       "description": "Drug: Ribociclib Participants will receive oral ribociclib on Days 1-21 of each 28-day cycle\n\nOther Names:\n\n• KISQALI®\n\nDrug: Fulvestrant Participants will receive intramuscular (IM) fulvestrant approximately every 2 weeks during Cycle 1 then approximately every 4 weeks\n\nOther Names:\n\n• Faslodex",
+       "name": "Arm B: Ribociclib + Fulvestrant",
+       "otherNames": [
+        "KISQALI®, Faslodex"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Arm C: Gedatolisib + Palbociclib + Letrozole"
+       ],
+       "description": "Drug: Gedatolisib Participants will receive intravenous (IV) gedatolisib once weekly for 3 weeks (Days 1, 8, 15) followed by 1 week off\n\nDrug: Palbociclib Participants will receive oral palbociclib on days 1-21 of each 28-day cycle.\n\nDrug: Letrozole Participants will receive oral letrozole daily.",
+       "name": "Arm C: Gedatolisib + Palbociclib + Letrozole",
+       "otherNames": [
+        "PF-05212384, IBRANCE, FEMARA"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Arm D: Ribociclib + Letrozole"
+       ],
+       "description": "Drug: Ribociclib Participants will receive oral ribociclib on Days 1-21 of each 28-day cycle\n\nDrug: Letrozole Participants will receive oral letrozole daily.",
+       "name": "Arm D: Ribociclib + Letrozole",
+       "otherNames": [
+        "KISQALI®, FEMARA"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Breast Cancer"
+     ],
+     "keywords": [
+      "Breast Cancer, Advanced or Metastatic",
+      "Gedatolisib",
+      "HR Positive",
+      "ER Positive",
+      "HER2 Negative",
+      "PIK3CA MT",
+      "PI3K"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 1180,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Phase 3 Study of Gedatolisib as First-Line Treatment for Patients With HR-Positive, HER2-Negative Advanced Breast Cancer (VIKTORIA-2)",
+     "nctId": "NCT06757634",
+     "officialTitle": "VIKTORIA-2: A Randomized, Open-Label, Phase 3 Study Evaluating Efficacy and Safety of Gedatolisib With Endocrine Therapy and Palbociclib vs Endocrine Therapy and Ribociclib as First-Line Treatment in Patients With HR-Positive and HER2-Negative Advanced Breast Cancer",
+     "orgStudyIdInfo": {
+      "id": "CELC-G-302"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Celcuity Inc"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Celcuity Inc"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2033-07-30",
+      "type": "ESTIMATED"
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-09",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-08",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2029-03-31",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2025-07-24",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-05",
+     "studyFirstPostDateStruct": {
+      "date": "2025-01-03",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2024-12-24",
+     "studyFirstSubmitQcDate": "2025-01-02"
+    }
+   }
+  }
+ ]
+}

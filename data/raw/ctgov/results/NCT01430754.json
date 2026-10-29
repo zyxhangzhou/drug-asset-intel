@@ -1,0 +1,59 @@
+{
+ "nctId": "NCT01430754",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "9"
+        },
+        {
+         "groupId": "OG001",
+         "value": "2"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "10"
+      },
+      {
+       "groupId": "OG001",
+       "value": "10"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Entrainment is a measure of synchronization of the master body clock to the 24-hour day. The circadian period (τ) was calculated using urinary aMT6s collected over four separate 48 hour periods, approximately 1 week apart, during the run-in and randomized phases of the trial. Maintenance of entrainment is defined as the proportion of subjects who become non-entrained to a 24 hour day after randomization to tasimelteon or placebo. Non-entrainment was defined as having a post-baseline τ value ≥ 24.1 or the lower bound of the 95% CI \\>24.0.",
+   "groups": [
+    {
+     "description": "20 mg tasimelteon capsules\n\ntasimelteon: 20 mg tasimelteon capsules, daily",
+     "id": "OG000",
+     "title": "Tasimelteon"
+    },
+    {
+     "description": "Placebo capsules\n\nPlacebo: Placebo capsules, daily",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "NUMBER",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Approximately 12 weeks",
+   "title": "Maintenance of Entrainment (aMT6s) in Subjects With N24HSWD.",
+   "type": "PRIMARY",
+   "unitOfMeasure": "participants"
+  }
+ ]
+}

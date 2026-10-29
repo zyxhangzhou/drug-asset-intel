@@ -1,0 +1,180 @@
+{
+ "nctId": "NCT04168385",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "36"
+        },
+        {
+         "groupId": "OG001",
+         "value": "12"
+        }
+       ]
+      }
+     ],
+     "title": "At least one TEAE"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "9"
+        },
+        {
+         "groupId": "OG001",
+         "value": "4"
+        }
+       ]
+      }
+     ],
+     "title": "TEAE ≥ 3"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "10"
+        },
+        {
+         "groupId": "OG001",
+         "value": "3"
+        }
+       ]
+      }
+     ],
+     "title": "Serious TEAE"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Serious Treatment-Related Adverse Event"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Serious Treatment-Related TEAE"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "3"
+        },
+        {
+         "groupId": "OG001",
+         "value": "1"
+        }
+       ]
+      }
+     ],
+     "title": "TEAE Leading to Discontinuation of Study Drug"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "TEAE Leading to Death"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "1"
+        }
+       ]
+      }
+     ],
+     "title": "Treatment-emergent AESI"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "40"
+      },
+      {
+       "groupId": "OG001",
+       "value": "12"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "TEAE = Treatment-emergent Adverse Event; AESI = Adverse Event of Special Interest..",
+   "groups": [
+    {
+     "description": "Participants will all receive Maralixibat oral solution\n\nMaralixibat chloride oral solution orally twice daily Up to 1.2\\* mg/kg/day), and according to indication.\n\n\\*equivalent to 1.14 mg/kg/day maralixibat. Doses reported here are in maralixibat chloride.\n\nParticipants with ALGS received maralixibat doses in the range of 0.15 mg/kg QD to 0.45 mg/kg BID.",
+     "id": "OG000",
+     "title": "Maralixibat: ALGS"
+    },
+    {
+     "description": "Participants will all receive Maralixibat oral solution\n\nMaralixibat chloride oral solution orally twice daily Up to 1.2\\* mg/kg/day), and according to indication.\n\n\\*equivalent to 1.14 mg/kg/day maralixibat. Doses reported here are in maralixibat chloride.\n\nParticipants with PFIC received maralixibat doses in the range of 0.3 mg/kg QD to 0.6 mg/kg BID.",
+     "id": "OG001",
+     "title": "Maralixibat: PFIC"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Includes all participants with Alagille Syndrome (ALGS) or Progressive Familial Intrahepatic Cholestasis (PFIC) who received at least one dose of maralixibat.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "From informed consent through approximately 4.5 years, including 30 days after last dose.",
+   "title": "Incidence of Treatment-Emergent Adverse Events",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

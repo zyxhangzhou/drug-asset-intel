@@ -1,0 +1,60 @@
+{
+ "nctId": "NCT01597050",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "22.2"
+        },
+        {
+         "groupId": "OG001",
+         "value": "27.8"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "36"
+      },
+      {
+       "groupId": "OG001",
+       "value": "18"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Percentage of patients who achieved at least a 50% decrease from baseline in the total combined Erythema and Scaling score of all treated lesions at Week 4. A decrease is an improvement in measurement of erythema and scaling of the lesions.",
+   "groups": [
+    {
+     "description": "R333 6% (60 mg/g), bid\n\nR932333: R393233 6% (60 mg/g), bid",
+     "id": "OG000",
+     "title": "Drug: R932333"
+    },
+    {
+     "description": "Placebo, bid\n\nPlacebo: Placebo, bid",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Per-protocol population all patients who had no major protocol deviations and were present at all scheduled visits up to and including Week 4.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to Week 4",
+   "title": "Decrease in the Total Combined Erythema and Scaling Score (Minimum of 0 and Maximum of 65) of All Treated Lesions.",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of subjects"
+  }
+ ]
+}

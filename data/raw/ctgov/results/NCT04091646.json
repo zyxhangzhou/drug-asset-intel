@@ -1,0 +1,80 @@
+{
+ "nctId": "NCT04091646",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "2.51",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "9.76",
+     "estimateComment": "Common OR stratified by pooled study site and baseline IGA per randomization with multiple imputation of missing data.",
+     "groupDescription": "IGA Success at Week 8 Odds Ratio",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<0.0001",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "4.95",
+     "statisticalComment": "Stratification by pooled study site and baseline IGA per randomization with multiple imputation of missing data",
+     "statisticalMethod": "Cochran-Mantel-Haenszel"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "104"
+        },
+        {
+         "groupId": "OG001",
+         "value": "27"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "141"
+      },
+      {
+       "groupId": "OG001",
+       "value": "66"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The number of participants achieving \"success\" in IGA assessment of disease severity at Week 8 is presented for each arm. Success was defined as achievement of an IGA score of 0 ('completely clear') or 1 ('almost clear'), accompanied by a ≥2-grade improvement from baseline IGA score. The IGA is 5-point scale assessing the severity of Seborrheic Dermatitis, with scores ranging from 0 ('completely clear') to 4 ('severe'), and higher scores indicate greater severity. The IGA scores are based on observed data, whereas odds ratio and p-values were calculated using multiple imputation of missing values.",
+   "groups": [
+    {
+     "description": "Participants apply roflumilast foam 0.3% once daily for 8 weeks.",
+     "id": "OG000",
+     "title": "Roflumilast Foam 0.3%"
+    },
+    {
+     "description": "Participants apply vehicle foam matched to roflumilast foam once daily for 8 weeks.",
+     "id": "OG001",
+     "title": "Vehicle Foam"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "All randomized participants are included, with the exception of those who missed the Week 8 assessment due to COVID-19 disruption.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Week 8",
+   "title": "Achievement of Investigator Global Assessment (IGA) Success at Week 8",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

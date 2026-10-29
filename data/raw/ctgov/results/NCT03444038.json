@@ -1,0 +1,46 @@
+{
+ "nctId": "NCT03444038",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "71"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "85"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "A TEAE is an adverse event not present prior to the initiation of study drug dosing, or is an already present event that worsens either in intensity or frequency following the initiation of study drug dosing. All qualifying TEAE are reported regardless of threshold.",
+   "groups": [
+    {
+     "description": "Participants received valbenazine once daily for up to 24 weeks. The starting dose was 20 mg for participants \\<50 kg at baseline and 40 mg for participants ≥50 kg at baseline, and could be escalated in increments of 20 mg every 2 weeks to a maximum of 60 mg for participants \\<50 kg and 80 mg for participants ≥50 kg to achieve an optimal dose of valbenazine for each participant.",
+     "id": "OG000",
+     "title": "Valbenazine"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline through Week 24",
+   "title": "Number of Participants With Treatment-emergent Adverse Events (TEAEs)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

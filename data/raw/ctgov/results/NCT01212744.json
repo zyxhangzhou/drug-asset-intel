@@ -1,0 +1,64 @@
+{
+ "nctId": "NCT01212744",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "363.46",
+         "value": "1482.1"
+        }
+       ]
+      }
+     ],
+     "title": "Baseline"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "586.11",
+         "value": "1566.0"
+        }
+       ]
+      }
+     ],
+     "title": "Week 16"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "16"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Plasma Phe",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "rAvPAL-PEG in varying doses\n\nrAvPAL-PEG: 0.06 mg/kg/day, 0.1 mg/kg/day, 0.2 mg/kg/day, 0.4 mg/kg/day, 0.6 mg/kg/day, 0.8 mg/kg/day",
+     "id": "OG000",
+     "title": "rAvPAL-PEG"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "The efficacy population will consist of all subjects who received any amount of study drug and have post-treatment blood Phe concentration measurements.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Week 16",
+   "title": "Blood Phenylalanine Concentration",
+   "type": "PRIMARY",
+   "unitOfMeasure": "umol/L"
+  }
+ ]
+}

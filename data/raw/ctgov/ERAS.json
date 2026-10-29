@@ -1,0 +1,1525 @@
+{
+ "aliases": [
+  "Erasca"
+ ],
+ "studies": [
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "ERAS-601 monotherapy will be administered in sequential ascending doses to study participants with advanced or metastatic solid tumors until unacceptable toxicity, disease progression, or withdrawal of consent.",
+       "interventionNames": [
+        "Drug: ERAS-601"
+       ],
+       "label": "Dose Escalation (Part A): ERAS-601 monotherapy",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "ERAS-601 monotherapy will be administered in sequential ascending doses to study participants with advanced or metastatic solid tumors until unacceptable toxicity, disease progression, or withdrawal of consent.",
+       "interventionNames": [
+        "Drug: ERAS-601"
+       ],
+       "label": "Dose Escalation (Part B): ERAS-601 monotherapy",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "ERAS-601 will be administered in sequential ascending doses to study participants with advanced or metastatic solid tumors until unacceptable toxicity, disease progression or withdrawal of consent.",
+       "interventionNames": [
+        "Drug: ERAS-601"
+       ],
+       "label": "Dose Escalation (Part C): ERAS-601 monotherapy",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "ERAS-601 will be administered in sequential ascending doses with cetuximab to study participants with advanced metastatic solid tumors until unacceptable toxicity, disease progression or withdrawal of consent. Once the combination therapy recommended dose has been determined, this will be administered to study participants with HPV negative advanced or metastatic head and neck squamous cell carcinoma (HNSCC) or colorectal cancer (CRC).",
+       "interventionNames": [
+        "Drug: ERAS-601",
+        "Drug: Cetuximab"
+       ],
+       "label": "Dose Escalation and Dose Expansion (Part D): ERAS-601 in combination with cetuximab",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "ERAS-601 will be administered in sequential ascending doses with pembrolizumab to study participants with advanced metastatic solid tumors until unacceptable toxicity, disease progression or withdrawal of consent. Once the combination therapy recommended dose has been determined, this will be administered to study participants with HPV negative advanced or metastatic head and neck squamous cell carcinoma (HNSCC) or non small cell lung cancer (NSCLC).",
+       "interventionNames": [
+        "Drug: ERAS-601",
+        "Drug: Pembrolizumab"
+       ],
+       "label": "Dose Escalation and Dose Expansion (Part E): ERAS-601 in combination with pembrolizumab",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Dose Escalation (Part A): ERAS-601 monotherapy",
+        "Dose Escalation (Part B): ERAS-601 monotherapy",
+        "Dose Escalation (Part C): ERAS-601 monotherapy",
+        "Dose Escalation and Dose Expansion (Part D): ERAS-601 in combination with cetuximab",
+        "Dose Escalation and Dose Expansion (Part E): ERAS-601 in combination with pembrolizumab"
+       ],
+       "description": "Administered orally",
+       "name": "ERAS-601",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Dose Escalation and Dose Expansion (Part D): ERAS-601 in combination with cetuximab"
+       ],
+       "description": "Administered via intravenous infusion",
+       "name": "Cetuximab",
+       "otherNames": [
+        "Erbitux"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Dose Escalation and Dose Expansion (Part E): ERAS-601 in combination with pembrolizumab"
+       ],
+       "description": "Administered via intravenous infusion",
+       "name": "Pembrolizumab",
+       "otherNames": [
+        "Keytruda"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Advanced or Metastatic Solid Tumors"
+     ],
+     "keywords": [
+      "SHP2",
+      "PTPN11",
+      "solid tumor",
+      "advanced solid tumor",
+      "metastatic solid tumor",
+      "neoplasms",
+      "solid malignancies",
+      "targeted therapy",
+      "colorectal cancer",
+      "CRC",
+      "head and neck squamous cell carcinoma",
+      "HPV Negative HNSCC",
+      "molecular alterations",
+      "cetuximab",
+      "Erbitux",
+      "Chordoma"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 90,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "FLAGSHP-1",
+     "briefTitle": "A Dose Escalation/Expansion Study of ERAS-601 in Patients With Advanced or Metastatic Solid Tumors",
+     "nctId": "NCT04670679",
+     "officialTitle": "An Open-Label, Multi-Center Phase 1/1b Dose Escalation and Expansion Study of ERAS-601 SHP2 Inhibitor as a Monotherapy and in Combination With Other Anti-Cancer Therapies in Patients With Advanced or Metastatic Solid Tumors",
+     "orgStudyIdInfo": {
+      "id": "ERAS-601-01"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Erasca, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Erasca, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2026-06-01",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-09-16",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-09-14",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2026-02-01",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2020-12-15",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-09",
+     "studyFirstPostDateStruct": {
+      "date": "2020-12-17",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2020-12-11",
+     "studyFirstSubmitQcDate": "2020-12-15"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "ERAS-007 monotherapy will be administered BID-QW in sequential ascending doses to participants with advanced or metastatic solid tumors until unacceptable toxicity, disease progression, or withdrawal of consent.",
+       "interventionNames": [
+        "Drug: ERAS-007"
+       ],
+       "label": "Dose Escalation (Part A): ERAS-007 Monotherapy, BID-QW dosing",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "ERAS-007 monotherapy will be administered at 250 mg QW to participants with advanced or metastatic solid tumors that harbor specific molecular alterations.",
+       "interventionNames": [
+        "Drug: ERAS-007"
+       ],
+       "label": "Dose Expansion (Part B): ERAS-007 Monotherapy, QW dosing",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Depending on data generated from Part A, ERAS-007 monotherapy may be administered at the BID-QW RD to participants with advanced or metastatic solid tumors that harbor specific molecular alterations.",
+       "interventionNames": [
+        "Drug: ERAS-007"
+       ],
+       "label": "Dose Expansion (Part C): ERAS-007 Monotherapy, BID-QW dosing (if necessary)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Experimental: Dose Escalation (Part D): ERAS-007 BID-QW dosing in combination with ERAS-601 ERAS-007 will be administered BID-QW in combination with ERAS-601 administered BID 3/1 to study participants with advanced or metastatic solid tumors that harbor specific molecular targets in sequential ascending doses until unacceptable toxicity, disease progression, or withdrawal of consent.",
+       "interventionNames": [
+        "Drug: ERAS-007",
+        "Drug: ERAS-601"
+       ],
+       "label": "Dose Escalation (Part D): ERAS-007 BID-QW dosing in combination with ERAS-601",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Dose Escalation (Part A): ERAS-007 Monotherapy, BID-QW dosing",
+        "Dose Escalation (Part D): ERAS-007 BID-QW dosing in combination with ERAS-601",
+        "Dose Expansion (Part B): ERAS-007 Monotherapy, QW dosing",
+        "Dose Expansion (Part C): ERAS-007 Monotherapy, BID-QW dosing (if necessary)"
+       ],
+       "description": "ERAS-007 will be administered orally as specified in Arm description.",
+       "name": "ERAS-007",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Dose Escalation (Part D): ERAS-007 BID-QW dosing in combination with ERAS-601"
+       ],
+       "description": "ERAS-601 will be administered orally as specified in Arm description.",
+       "name": "ERAS-601",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Advanced or Metastatic Solid Tumors"
+     ],
+     "keywords": [
+      "ERK",
+      "solid tumor",
+      "advanced solid tumor",
+      "metastatic solid tumor",
+      "neoplasms",
+      "solid malignancies",
+      "MAPK",
+      "SHP2"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 85,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "HERKULES-1",
+     "briefTitle": "A Study of ERAS-007 as Monotherapy or in Combination With ERAS-601 in Patients With Advanced or Metastatic Solid Tumors",
+     "nctId": "NCT04866134",
+     "officialTitle": "A Phase 1b/2, Open-label, Multi-center Study of ERAS-007 (ERK Inhibitor) Administered as Monotherapy or in Combination With ERAS-601 (SHP2 Inhibitor) in Patients With Advanced or Metastatic Solid Tumors (HERKULES-1)",
+     "orgStudyIdInfo": {
+      "id": "ERAS-007-01"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Erasca, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Erasca, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2026-07-01",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-09-16",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-09-14",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2026-07-01",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2021-05-07",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-09",
+     "studyFirstPostDateStruct": {
+      "date": "2021-04-29",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2021-04-24",
+     "studyFirstSubmitQcDate": "2021-04-27"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "ERAS-007 will be orally administered in combination with osimertinib to study participants with EGFRm NSCLC in sequential ascending doses until unacceptable toxicity, disease progression, or withdrawal of consent.",
+       "interventionNames": [
+        "Drug: ERAS-007",
+        "Drug: Osimertinib"
+       ],
+       "label": "Dose Escalation (Part 1): ERAS-007 plus osimertinib",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "ERAS-007 will be orally administered in combination with sotorasib to study participants with KRAS G12Cm NSCLC in sequential ascending doses until unacceptable toxicity, disease progression, or withdrawal of consent.",
+       "interventionNames": [
+        "Drug: ERAS-007",
+        "Drug: Sotorasib"
+       ],
+       "label": "Dose Escalation (Part 2): ERAS-007 plus sotorasib",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "ERAS-601 will be orally administered in combination with sotorasib to study participants with KRAS G12Cm NSCLC in sequential ascending doses until unacceptable toxicity, disease progression, or withdrawal of consent.",
+       "interventionNames": [
+        "Drug: ERAS-601",
+        "Drug: Sotorasib"
+       ],
+       "label": "Dose Escalation (Part 3): ERAS-601 plus sotorasib",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "ERAS-007 will be orally administered at the recommended dose (as determined from Part 1) in combination with osimertinib to study participants with EGFRm NSCLC.",
+       "interventionNames": [
+        "Drug: ERAS-007",
+        "Drug: Osimertinib"
+       ],
+       "label": "Dose Expansion (Part 4): ERAS-007 plus osimertinib",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "ERAS-007 will be orally administered at the recommended dose (as determined from Part 2) in combination with sotorasib to study participants with KRAS G12Cm NSCLC.",
+       "interventionNames": [
+        "Drug: ERAS-007",
+        "Drug: Sotorasib"
+       ],
+       "label": "Dose Expansion (Part 5): ERAS-007 plus sotorasib",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "ERAS-601 will be orally administered at the recommended dose (as determined from Part 3) in combination with sotorasib to study participants with KRAS G12Cm NSCLC.",
+       "interventionNames": [
+        "Drug: ERAS-601",
+        "Drug: Sotorasib"
+       ],
+       "label": "Dose Expansion (Part 6): ERAS-601 plus sotorasib",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Dose Escalation (Part 1): ERAS-007 plus osimertinib",
+        "Dose Escalation (Part 2): ERAS-007 plus sotorasib",
+        "Dose Expansion (Part 4): ERAS-007 plus osimertinib",
+        "Dose Expansion (Part 5): ERAS-007 plus sotorasib"
+       ],
+       "description": "Administered orally",
+       "name": "ERAS-007",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Dose Escalation (Part 3): ERAS-601 plus sotorasib",
+        "Dose Expansion (Part 6): ERAS-601 plus sotorasib"
+       ],
+       "description": "Administered orally",
+       "name": "ERAS-601",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Dose Escalation (Part 1): ERAS-007 plus osimertinib",
+        "Dose Expansion (Part 4): ERAS-007 plus osimertinib"
+       ],
+       "description": "Administered orally",
+       "name": "Osimertinib",
+       "otherNames": [
+        "Tagrisso"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Dose Escalation (Part 2): ERAS-007 plus sotorasib",
+        "Dose Escalation (Part 3): ERAS-601 plus sotorasib",
+        "Dose Expansion (Part 5): ERAS-007 plus sotorasib",
+        "Dose Expansion (Part 6): ERAS-601 plus sotorasib"
+       ],
+       "description": "Administered orally",
+       "name": "Sotorasib",
+       "otherNames": [
+        "Lumakras"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Advanced Non-squamous Non-small-cell Lung Cancer"
+     ],
+     "keywords": [
+      "EGFR",
+      "epidermal growth factor receptor",
+      "mutation",
+      "biomarker",
+      "NSCLC",
+      "Tagrisso",
+      "osimertinib",
+      "ERK",
+      "MAPK",
+      "sotorasib",
+      "Lumakras",
+      "KRAS",
+      "G12C",
+      "SHP2",
+      "PTPN11",
+      "molecular alterations",
+      "Kirsten rat sarcoma",
+      "Non-small cell lung cancer",
+      "Lung neoplasms",
+      "Thoracic neoplasms",
+      "ERAS-601",
+      "ERAS-007"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 24,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "HERKULES-2",
+     "briefTitle": "A Study of Anti-Cancer Therapies Targeting the MAPK Pathway in Patients With Advanced NSCLC",
+     "nctId": "NCT04959981",
+     "officialTitle": "A Phase 1b Master Protocol of Agents Targeting the Mitogen-Activated Protein Kinase Pathway in Patients With Advanced Non-Small-Cell Lung Cancer",
+     "orgStudyIdInfo": {
+      "id": "ERAS-007-02"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Erasca, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Erasca, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2023-04-27",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2023-07-25",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2023-07-24",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2023-04-27",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2021-09-02",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2023-07",
+     "studyFirstPostDateStruct": {
+      "date": "2021-07-13",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2021-07-02",
+     "studyFirstSubmitQcDate": "2021-07-02"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "ERAS-007 will be orally administered in combination with encorafenib and cetuximab to study participants with BRAFm CRC in sequential ascending doses until unacceptable toxicity, disease progression, or withdrawal of consent.",
+       "interventionNames": [
+        "Drug: ERAS-007",
+        "Drug: Encorafenib",
+        "Drug: Cetuximab"
+       ],
+       "label": "Dose Escalation (Parts A1a, A2a, or A3a): ERAS-007 in combination with encorafenib and cetuximab",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "ERAS-007 will be orally administered in combination with palbociclib to study participants with KRASm or NRASm CRC and KRASm PDAC in sequential ascending doses until unacceptable toxicity, disease progression, or withdrawal of consent.",
+       "interventionNames": [
+        "Drug: ERAS-007",
+        "Drug: Palbociclib"
+       ],
+       "label": "Dose Escalation (Parts B1a, B2a, B3a or B4a): ERAS-007 in combination with palbociclib",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "ERAS-007 will be orally administered at the recommended dose (as determined from Parts A1a, A2a or A3a) in combination with encorafenib and cetuximab to study participants with BRAFm CRC.",
+       "interventionNames": [
+        "Drug: ERAS-007",
+        "Drug: Encorafenib",
+        "Drug: Cetuximab"
+       ],
+       "label": "Dose Expan (Parts A1b, A1c, A2b, A2c, A3b, or A3c): ERAS-007 in combo with encorafenib & cetuximab",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "ERAS-007 will be orally administered at the recommended dose (as determined from Parts B1a, B2a, B3a or B4a) in combination with palbociclib to study participants with KRASm or NRASm CRC.",
+       "interventionNames": [
+        "Drug: ERAS-007",
+        "Drug: Palbociclib"
+       ],
+       "label": "Dose Expansion (Parts B1b, B2b, B3b, and B4b): ERAS-007 in combination with palbociclib",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Dose Escalation (Parts A1a, A2a, or A3a): ERAS-007 in combination with encorafenib and cetuximab",
+        "Dose Escalation (Parts B1a, B2a, B3a or B4a): ERAS-007 in combination with palbociclib",
+        "Dose Expan (Parts A1b, A1c, A2b, A2c, A3b, or A3c): ERAS-007 in combo with encorafenib & cetuximab",
+        "Dose Expansion (Parts B1b, B2b, B3b, and B4b): ERAS-007 in combination with palbociclib"
+       ],
+       "description": "Administered orally",
+       "name": "ERAS-007",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Dose Escalation (Parts A1a, A2a, or A3a): ERAS-007 in combination with encorafenib and cetuximab",
+        "Dose Expan (Parts A1b, A1c, A2b, A2c, A3b, or A3c): ERAS-007 in combo with encorafenib & cetuximab"
+       ],
+       "description": "Administered orally",
+       "name": "Encorafenib",
+       "otherNames": [
+        "Braftovi"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Dose Escalation (Parts A1a, A2a, or A3a): ERAS-007 in combination with encorafenib and cetuximab",
+        "Dose Expan (Parts A1b, A1c, A2b, A2c, A3b, or A3c): ERAS-007 in combo with encorafenib & cetuximab"
+       ],
+       "description": "Administered via intravenous infusion",
+       "name": "Cetuximab",
+       "otherNames": [
+        "Erbitux"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Dose Escalation (Parts B1a, B2a, B3a or B4a): ERAS-007 in combination with palbociclib",
+        "Dose Expansion (Parts B1b, B2b, B3b, and B4b): ERAS-007 in combination with palbociclib"
+       ],
+       "description": "Administered orally",
+       "name": "Palbociclib",
+       "otherNames": [
+        "Ibrance"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Metastatic Colorectal Cancer",
+      "Metastatic Pancreatic Ductal Adenocarcinoma"
+     ],
+     "keywords": [
+      "BRAF",
+      "V600E",
+      "KRAS",
+      "NRAS",
+      "mutation",
+      "Braftovi",
+      "encorafenib",
+      "Erbitux",
+      "cetuximab",
+      "Ibrance",
+      "palbociclib",
+      "ERK",
+      "MAPK",
+      "CDK4/6",
+      "CRC",
+      "colorectal cancer",
+      "EGFR",
+      "GI neoplasm",
+      "gastrointestinal neoplasm",
+      "PDAC",
+      "Pancreas Cancer"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 101,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "HERKULES-3",
+     "briefTitle": "A Study of ERAS-007 in Patients With Advanced Gastrointestinal Malignancies",
+     "nctId": "NCT05039177",
+     "officialTitle": "A Phase 1b/2 Study of Agents Targeting the Mitogen-Activated Protein Kinase Pathway in Patients With Advanced Gastrointestinal Malignancies (HERKULES-3)",
+     "orgStudyIdInfo": {
+      "id": "ERAS-007-03"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Erasca, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Erasca, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2026-01-26",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-03-25",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-03-23",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2025-08-15",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2021-09-20",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-03",
+     "studyFirstPostDateStruct": {
+      "date": "2021-09-09",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2021-09-01",
+     "studyFirstSubmitQcDate": "2021-09-01"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "ERAS-007 will be administered in combination with gilteritinib to study participants with R/R FLT3 mutated AML in sequential ascending doses until unacceptable toxicity, disease progression, or withdrawal of consent.",
+       "interventionNames": [
+        "Drug: ERAS-007",
+        "Drug: Gilteritinib"
+       ],
+       "label": "Dose Escalation (Part 1): ERAS-007 plus gilteritinib",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "ERAS-601 will be administered in combination with gilteritinib to study participants with R/R FLT3 mutated AML in sequential ascending doses until unacceptable toxicity, disease progression, or withdrawal of consent.",
+       "interventionNames": [
+        "Drug: ERAS-601",
+        "Drug: Gilteritinib"
+       ],
+       "label": "Dose Escalation (Part 2): ERAS-601 plus gilteritinib",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "ERAS-007 will be administered at the recommended dose (as determined from Part 1) in combination with gilteritinib to study participants with R/R FLT3 mutated AML.",
+       "interventionNames": [
+        "Drug: ERAS-007",
+        "Drug: Gilteritinib"
+       ],
+       "label": "Dose Expansion (Part 3): ERAS-007 plus gilteritinib",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "ERAS-601 will be administered at the recommended dose (as determined from Part 2) in combination with gilteritinib to study participants with R/R FLT3 mutated AML.",
+       "interventionNames": [
+        "Drug: ERAS-601",
+        "Drug: Gilteritinib"
+       ],
+       "label": "Dose Expansion (Part 4): ERAS-601 plus gilteritinib",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Dose Escalation (Part 1): ERAS-007 plus gilteritinib",
+        "Dose Expansion (Part 3): ERAS-007 plus gilteritinib"
+       ],
+       "description": "Administered orally",
+       "name": "ERAS-007",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Dose Escalation (Part 2): ERAS-601 plus gilteritinib",
+        "Dose Expansion (Part 4): ERAS-601 plus gilteritinib"
+       ],
+       "description": "Administered orally",
+       "name": "ERAS-601",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Dose Escalation (Part 1): ERAS-007 plus gilteritinib",
+        "Dose Escalation (Part 2): ERAS-601 plus gilteritinib",
+        "Dose Expansion (Part 3): ERAS-007 plus gilteritinib",
+        "Dose Expansion (Part 4): ERAS-601 plus gilteritinib"
+       ],
+       "description": "Administered orally",
+       "name": "Gilteritinib",
+       "otherNames": [
+        "Xospata"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Acute Myeloid Leukemia"
+     ],
+     "keywords": [
+      "AML",
+      "FLT3",
+      "mutation",
+      "relapsed",
+      "refractory",
+      "gilteritinib",
+      "Xospata",
+      "MAPK",
+      "SHP2",
+      "ERK"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 0,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "HERKULES-4",
+     "briefTitle": "A Study of Anti-Cancer Therapies Targeting the MAPK Pathway in Patients With Hematologic Malignancies",
+     "nctId": "NCT05279859",
+     "officialTitle": "A Phase 1b/2 Master Protocol of Agents Targeting the Mitogen-Activated Protein Kinase Pathway in Patients With Hematologic Malignancies",
+     "orgStudyIdInfo": {
+      "id": "ERAS-007-04"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Erasca, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Erasca, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2025-06-01",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2022-06-15",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2022-06-13",
+     "overallStatus": "WITHDRAWN",
+     "primaryCompletionDateStruct": {
+      "date": "2025-03-01",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2022-03-15",
+      "type": "ESTIMATED"
+     },
+     "statusVerifiedDate": "2022-06",
+     "studyFirstPostDateStruct": {
+      "date": "2022-03-15",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2022-03-05",
+     "studyFirstSubmitQcDate": "2022-03-14",
+     "whyStopped": "Sponsor decision."
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Naporafenib (ERAS-254) 200 mg twice daily (BID) Trametinib 1 mg once daily (QD)",
+       "interventionNames": [
+        "Drug: Naporafenib",
+        "Drug: Trametinib"
+       ],
+       "label": "Naporafenib + Trametinib",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Naporafenib + Trametinib"
+       ],
+       "description": "Naporafenib (ERAS-254) 200 mg twice daily (BID) of an experimental Pan-Raf inhibitor",
+       "name": "Naporafenib",
+       "otherNames": [
+        "LXH254",
+        "ERAS-254"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Naporafenib + Trametinib"
+       ],
+       "description": "Trametinib is an FDA approved anticancer medication that targets MEK1 and MEK2.",
+       "name": "Trametinib",
+       "otherNames": [
+        "Mekinist"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Advanced or Metastatic Solid Tumors"
+     ],
+     "keywords": [
+      "Melanoma",
+      "Non-small cell lung cancer",
+      "Thyroid cancer",
+      "Colorectal Cancer (cohort full)",
+      "Pancreatic Cancer",
+      "Other solid tumors harboring a RAS Q61X mutation"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 86,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "SEACRAFT-1",
+     "briefTitle": "A Study to Assess Naporafenib (ERAS-254) Administered With Trametinib in Patients With RAS Q61X Mutations",
+     "nctId": "NCT05907304",
+     "officialTitle": "An Open-label Study to Assess the Safety and Efficacy of Naporafenib (ERAS-254) Administered With Trametinib in Previously Treated Patients With Locally Advanced Unresectable or Metastatic Solid Tumor Malignancies With RAS Q61X Mutations",
+     "orgStudyIdInfo": {
+      "id": "ERAS-254-01"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Erasca, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Erasca, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2026-12",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-02-27",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-02-24",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2025-07-01",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2023-08-17",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-02",
+     "studyFirstPostDateStruct": {
+      "date": "2023-06-18",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2023-05-30",
+     "studyFirstSubmitQcDate": "2023-06-07"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Naporafenib + Trametinib Naporafenib (ERAS-254) 100 mg administered orally twice daily (BID) Trametinib 1 mg once daily (QD)",
+       "interventionNames": [
+        "Drug: Naporafenib",
+        "Drug: Trametinib"
+       ],
+       "label": "Stage 1 Dose selection Lead-in Arm 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Naporafenib + Trametinib Naporafenib (ERAS-254) 400 mg administered orally twice daily (BID) Trametinib 0.5 mg once daily (QD)",
+       "interventionNames": [
+        "Drug: Naporafenib",
+        "Drug: Trametinib"
+       ],
+       "label": "Stage 1 Dose selection Lead-in Arm 2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Trametinib 2 mg once daily (QD)",
+       "interventionNames": [
+        "Drug: Trametinib"
+       ],
+       "label": "Stage 1 Dose selection Lead-in Arm 3 Trametinib monotherapy",
+       "type": "ACTIVE_COMPARATOR"
+      },
+      {
+       "description": "Naporafenib + Trametinib Naporafenib (ERAS-254) BID oral administration with Trametinib QD at the dose selected in Stage 1",
+       "interventionNames": [
+        "Drug: Naporafenib",
+        "Drug: Trametinib"
+       ],
+       "label": "Stage 2 Arm A",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "* Dacarbazine 1000 mg/m2 intravenously (IV) on Day 1 of each 21-day cycle OR\n* Temozolomide 200 mg/m2/day PO on Day 1 to Day 5 of each 28-day cycle OR\n* Trametinib monotherapy, 2 mg PO QD",
+       "interventionNames": [
+        "Drug: Dacarbazine",
+        "Drug: Temozolomide",
+        "Drug: Trametinib"
+       ],
+       "label": "Stage 2 Arm B - Physician's Choice",
+       "type": "ACTIVE_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Stage 1 Dose selection Lead-in Arm 1",
+        "Stage 1 Dose selection Lead-in Arm 2",
+        "Stage 2 Arm A"
+       ],
+       "description": "Naporafenib (ERAS-254) is an experimental Pan-Raf inhibitor",
+       "name": "Naporafenib",
+       "otherNames": [
+        "ERAS-254",
+        "LXH254"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Stage 2 Arm B - Physician's Choice"
+       ],
+       "description": "Dacarbazine IV - Day 1",
+       "name": "Dacarbazine",
+       "otherNames": [
+        "DTIC"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Stage 2 Arm B - Physician's Choice"
+       ],
+       "description": "Temozolomide 200 mg/m2/day PO on Day 1 to Day 5 of each 28-day cycle",
+       "name": "Temozolomide",
+       "otherNames": [
+        "Temodar",
+        "TMZ"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Stage 1 Dose selection Lead-in Arm 1",
+        "Stage 1 Dose selection Lead-in Arm 2",
+        "Stage 1 Dose selection Lead-in Arm 3 Trametinib monotherapy",
+        "Stage 2 Arm A",
+        "Stage 2 Arm B - Physician's Choice"
+       ],
+       "description": "Trametinib is an FDA approved anticancer medication that targets MEK1 and MEK2.",
+       "name": "Trametinib",
+       "otherNames": [
+        "Mekinist"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Advanced or Metastatic NRAS-mutant Melanoma"
+     ],
+     "keywords": [
+      "Melanoma",
+      "NRAS Mutant",
+      "Cutaneous Melanoma"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 78,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Study to Assess Naporafenib (ERAS-254) Administered With Trametinib in Patients With NRAS-mutant Melanoma (SEACRAFT-2)",
+     "nctId": "NCT06346067",
+     "officialTitle": "A Randomized, Open-label Phase III Study in Patients With Previously Treated Unresectable or Metastatic NRAS Mutant Cutaneous Melanoma Comparing the Combination of Naporafenib + Trametinib to Physician's Choice of Therapy (Dacarbazine, Temozolomide or Trametinib Monotherapy) With a Dose Optimization lead-in [SEACRAFT-2]",
+     "orgStudyIdInfo": {
+      "id": "ERAS-254-02"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Erasca, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Erasca, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2028-12",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-02-27",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-02-24",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2028-04",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2024-04-29",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-02",
+     "studyFirstPostDateStruct": {
+      "date": "2024-04-03",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2024-03-17",
+     "studyFirstSubmitQcDate": "2024-03-28"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Escalating doses of ERAS-0015 administered orally.",
+       "interventionNames": [
+        "Drug: ERAS-0015"
+       ],
+       "label": "ERAS-0015 Monotherapy Dose Optimization.",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "ERAS-0015 administered orally with another investigational agent.",
+       "interventionNames": [
+        "Drug: ERAS-0015 in combination"
+       ],
+       "label": "ERAS-0015 Combination Dose Optimization",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "ERAS-0015 Monotherapy Dose Optimization."
+       ],
+       "description": "ERAS-0015 Administered orally",
+       "name": "ERAS-0015",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "ERAS-0015 Combination Dose Optimization"
+       ],
+       "description": "ERAS-0015 Administered orally and in combination with either KEYTRUDA® (pembrolizumab) via IV administration or Vectibix (panitumumab) via IV administration.",
+       "name": "ERAS-0015 in combination",
+       "otherNames": [
+        "pembrolizumab",
+        "KEYTRUDA ®",
+        "panitumumab",
+        "Vectibix",
+        "gemcitabine",
+        "Gemzar",
+        "nab-paclitaxel",
+        "Abraxane"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Metastatic Solid Tumors"
+     ],
+     "keywords": [
+      "Solid Tumor",
+      "Advanced Solid Tumor",
+      "solid malignancies",
+      "Targeted therapy",
+      "Molecular alterations",
+      "pembrolizumab",
+      "KEYTRUDA ®",
+      "panitumumab",
+      "Vectibix",
+      "Metastatic Solid Tumor",
+      "Neoplasms",
+      "Colorectal Cancer",
+      "Non-small cell lung cancer (NSCLC)",
+      "Newly diagnosed Pancreatic Ductal Adenocarcinoma",
+      "NSCLC patients previously treated with a KRAS G12c inhibitor"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 600,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "AURORAS-1",
+     "briefTitle": "A Study of ERAS-0015 in Patients With Advanced or Metastatic Solid Tumors",
+     "nctId": "NCT06983743",
+     "officialTitle": "A Phase 1 First-in-Human Open-Label Study Evaluating the Safety, Tolerability, Pharmacokinetics, Pharmacodynamics and Preliminary Efficacy of ERAS-0015 Monotherapy and in Combination in Patients Advanced Solid Tumors",
+     "orgStudyIdInfo": {
+      "id": "ERAS-0015-01"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Erasca, Inc."
+     },
+     "secondaryIdInfos": [
+      {
+       "domain": "Merck Sharp & Dohme LLC",
+       "id": "KEYNOTE-G59",
+       "type": "OTHER"
+      },
+      {
+       "domain": "Merck Sharp & Dohme LLC",
+       "id": "MK-3475-G59",
+       "type": "OTHER"
+      },
+      {
+       "id": "2026-525794-39-00",
+       "type": "CTIS"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "collaborators": [
+      {
+       "class": "INDUSTRY",
+       "name": "Merck Sharp & Dohme LLC"
+      }
+     ],
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Erasca, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2028-12-01",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-09-01",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-08-28",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2028-05-01",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2025-06-05",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-08",
+     "studyFirstPostDateStruct": {
+      "date": "2025-05-21",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-05-14",
+     "studyFirstSubmitQcDate": "2025-05-14"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Escalating doses of ERAS-4001 administered orally.",
+       "interventionNames": [
+        "Drug: ERAS-4001"
+       ],
+       "label": "ERAS-4001 Monotherapy Dose Optimization.",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "ERAS-4001 administered orally with another investigational agent.",
+       "interventionNames": [
+        "Drug: ERAS-4001 in combination"
+       ],
+       "label": "ERAS-4001 Combination Dose Optimization",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "ERAS-4001 Monotherapy Dose Optimization."
+       ],
+       "description": "ERAS-4001 Administered orally",
+       "name": "ERAS-4001",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "ERAS-4001 Combination Dose Optimization"
+       ],
+       "description": "ERAS-4001 Administered orally and in combination with either Keytruda (pembrolizumab) via IV administration or Vectibix (panitumumab) via IV administration.",
+       "name": "ERAS-4001 in combination",
+       "otherNames": [
+        "Keytruda (pembrolizumab)",
+        "Vectibix (panitumumab)"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Metastatic Solid Tumors"
+     ],
+     "keywords": [
+      "Solid Tumor",
+      "Advanced Solid Tumor",
+      "Solid malignancies",
+      "Targeted therapy",
+      "Molecular alterations",
+      "pembrolizumab",
+      "Keytruda",
+      "panitumumab",
+      "Vectibix",
+      "Metastatic solid tumor",
+      "Neoplasms"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 200,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "BOREALIS-1",
+     "briefTitle": "A Study of ERAS-4001 in Patients With Advanced or Metastatic Solid Tumors.",
+     "nctId": "NCT07021898",
+     "officialTitle": "A Phase 1 First-in-Human Open-label Study Evaluating the Safety, Tolerability, Pharmacokinetics, Pharmacodynamics and Preliminary Efficacy of ERAS-4001 Monotherapy and in Combination in Patients With Advanced Solid Tumors",
+     "orgStudyIdInfo": {
+      "id": "ERAS-4001-01"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Erasca, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Erasca, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2028-12",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-12-03",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-12-02",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2028-08",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2025-08-06",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-12",
+     "studyFirstPostDateStruct": {
+      "date": "2025-06-15",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-06-06",
+     "studyFirstSubmitQcDate": "2025-06-06"
+    }
+   }
+  }
+ ]
+}

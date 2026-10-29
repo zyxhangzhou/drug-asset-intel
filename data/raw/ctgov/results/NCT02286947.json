@@ -1,0 +1,47 @@
+{
+ "nctId": "NCT02286947",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "24"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "24"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "An adverse event (AE) was any untoward medical occurrence in a participant that did not necessarily have a causal relationship with the study drug. A serious adverse event (SAE) was an AE resulting in any of the following outcomes: death; Life-threatening event; Required or prolonged inpatient hospitalization; persistent or significant disability/incapacity; congenital anomaly. Treatment-emergent AEs were events that developed or worsened during the on-treatment period (defined as time from first dose of study drug and up to 28 days after last dose of study drug (up to 100 weeks) that were absent before treatment or that worsened relative to pretreatment state. AEs included both serious and non-serious adverse events.",
+   "groups": [
+    {
+     "description": "Participants received eteplirsen 30 mg/kg IV infusions, weekly, for 96 weeks.",
+     "id": "OG000",
+     "title": "Eteplirsen 30 mg/kg"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Analysis was performed on safety population included all participants who received at least 1 dose of eteplirsen.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "From first dose of drug up to 100 weeks",
+   "title": "Number of Participants With Treatment Emergent Adverse Events",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

@@ -1,0 +1,60 @@
+{
+ "nctId": "NCT00665626",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "27"
+        },
+        {
+         "groupId": "OG001",
+         "value": "56"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "73"
+      },
+      {
+       "groupId": "OG001",
+       "value": "146"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The number of participants with greater than or equal to 20% improvement in tender and swollen joint counts, AND in any 3 of the following: physician's assessment of disease activity, patient's assessment of disease activity, patient's assessment of pain, Health Assessment Questionnaire-Disability Index (HAQ-DI); and CRP or ESR, after 3 months",
+   "groups": [
+    {
+     "description": "Placebo to R788, oral tablets, twice daily, double-blind",
+     "id": "OG000",
+     "title": "Arm 1 - Placebo"
+    },
+    {
+     "description": "R788 100 mg, oral tablets, twice daily, double-blind",
+     "id": "OG001",
+     "title": "Arm 2 - R788 100 mg Bid"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Intent-to-treat population",
+   "reportingStatus": "POSTED",
+   "timeFrame": "3 months",
+   "title": "American College of Rheumatology 20 (ACR20) Response at 3 Months",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

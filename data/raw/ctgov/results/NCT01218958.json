@@ -1,0 +1,131 @@
+{
+ "nctId": "NCT01218958",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.600",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.940",
+     "groupDescription": "The event rate (percentage) is represented by the number of heavy drinking days divided by number of days at risk. For each day, the active groups' results were contrasted with placebo to form the event rate ratio. Thus, a hazard ratio of 0.75 for the 380 mg group indicates a 25% reduction in heavy drinking compared with that of placebo.\n\nThe method of analysis estimates the average ratio over time and accounts for discontinuation. Point/interval estimates for pairwise ratios were derived.",
+     "groupIds": [
+      "OG001",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+     "pValue": "0.0245",
+     "pValueComment": "The Hochberg method was used to adjust P-value for multiple comparisons (ie, 380 mg dose vs. placebo and 190 mg dose vs. placebo).",
+     "paramType": "Hazard Ratio (HR)",
+     "paramValue": "0.751",
+     "statisticalMethod": "Andersen-Gill recurrent-event Cox"
+    },
+    {
+     "ciLowerLimit": "0.677",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "1.018",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+     "pValue": "0.0744",
+     "paramType": "Hazard Ratio (HR)",
+     "paramValue": "0.830",
+     "statisticalMethod": "Andersen-Gill recurrent-event Cox model"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "3.23",
+         "upperLimit": "44.58",
+         "value": "14.75"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "1.16",
+         "upperLimit": "33.33",
+         "value": "10.23"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "6.01",
+         "upperLimit": "50.15",
+         "value": "19.77"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denomUnitsSelected": "Days",
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "206"
+      },
+      {
+       "groupId": "OG001",
+       "value": "201"
+      },
+      {
+       "groupId": "OG002",
+       "value": "204"
+      }
+     ],
+     "units": "Participants"
+    },
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "168"
+      },
+      {
+       "groupId": "OG001",
+       "value": "168"
+      },
+      {
+       "groupId": "OG002",
+       "value": "168"
+      }
+     ],
+     "units": "Days"
+    }
+   ],
+   "description": "Drinking rates were assessed from participants' self-reports using the validated Timeline Follow-Back (TLFB) method. Using a TLFB calendar, participants reported the number of days they had consumed alcohol along with the amount they consumed on each day. A heavy drinking day was defined as ≥5 drinks/day for men and ≥4 drinks/day for women.",
+   "dispersionType": "Inter-Quartile Range",
+   "groups": [
+    {
+     "id": "OG000",
+     "title": "Medisorb Naltrexone 190 mg"
+    },
+    {
+     "id": "OG001",
+     "title": "Medisorb Naltrexone 380 mg"
+    },
+    {
+     "description": "Results for the two groups that received placebo were pooled together for reporting purposes.",
+     "id": "OG002",
+     "title": "Placebo Groups (Pooled)"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "The last post-baseline observation carried forward (LOCF) of each participant in the intent-to-treat population (all randomized participants who received at least 1 injection of study drug) were utilized for the primary efficacy analysis.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline through Week 24 (168 days)",
+   "title": "Percentage of Heavy Drinking Days Over the Treatment Period",
+   "type": "PRIMARY",
+   "typeUnitsAnalyzed": "Days",
+   "unitOfMeasure": "Percentage of days"
+  }
+ ]
+}

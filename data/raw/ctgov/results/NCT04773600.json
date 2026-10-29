@@ -1,0 +1,80 @@
+{
+ "nctId": "NCT04773600",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "1.962",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "5.183",
+     "estimateComment": "Stratified by pooled study site and vIGA-AD randomization strata",
+     "groupDescription": "vIGA Success at Week 4",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<0.0001",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "3.19",
+     "statisticalComment": "Stratified by pooled study site and vIGA-AD randomization strata",
+     "statisticalMethod": "Cochran-Mantel-Haenszel"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "28.9"
+        },
+        {
+         "groupId": "OG001",
+         "value": "12.0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "451"
+      },
+      {
+       "groupId": "OG001",
+       "value": "232"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The percentage of participants achieving viGA-AD \"success\" is presented with multiple imputation of missing observations. viGA-AD \"success\" is defined as a viGA-AD score of 'clear' or 'almost clear' PLUS a 2-grade improvement from Baseline. The viGA-AD is a static evaluation of qualitative overall AD severity. This global assessment scale is an ordinal scale with five severity grades (reported only in integers of 0 to 4 where 0 is clear), with higher scores indicative of greater symptom severity.",
+   "groups": [
+    {
+     "description": "Participants applied roflumilast cream 0.15% qd for 4 weeks.",
+     "id": "OG000",
+     "title": "Roflumilast Cream 0.15%"
+    },
+    {
+     "description": "Participants applied vehicle cream qd for 4 weeks.",
+     "id": "OG001",
+     "title": "Vehicle Cream"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "All randomized participants are included.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Week 4",
+   "title": "Achievement of Validated Investigator Global Assessment for Atopic Dermatitis (vIGA-AD) Success at Week 4",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

@@ -1,0 +1,560 @@
+{
+ "nctId": "NCT02960217",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-1.12",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "4.36",
+     "groupDescription": "Participants completing both UX007 treatment period and placebo period (n=42). Per protocol, when the normality assumption is not met (p value for Wilk-Shapiro test \\< 0.05), Wilcoxon rank-sum test will be considered as the primary analysis to assess treatment difference in movement disorder event frequency.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.2684",
+     "pValueComment": "Hodges-Lehmann estimate of the location shift with 95% confidence interval (CI) and Wilcoxon Rank Sum test p-value are based on Wilcoxon rank-sum test.",
+     "paramType": "Hodges-Lehmann estimate (Median Diff.)",
+     "paramValue": "1.46",
+     "statisticalMethod": "Wilcoxon Rank Sum test"
+    },
+    {
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "< 0.0001",
+     "statisticalMethod": "Wilk-Shapiro test for normality"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "0.0",
+         "upperLimit": "112.0",
+         "value": "14.26"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "0.5",
+         "upperLimit": "112.0",
+         "value": "11.81"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "43"
+      },
+      {
+       "groupId": "OG001",
+       "value": "42"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The frequency of paroxysmal movement disorders captured as disabling movement disorder events (normalized to a 4-week rate) observed during the Maintenance Phase in participants treated with UX007 versus placebo, as recorded by the subject/caregiver in an event-based daily Glut1 DS symptom diary.",
+   "dispersionType": "Full Range",
+   "groups": [
+    {
+     "description": "UX007 (dosed according to an age- and weight-based strategy, up to a maximum daily administration of 130 g) for 10 weeks.",
+     "id": "OG000",
+     "title": "Double-Blind UX007"
+    },
+    {
+     "description": "Placebo for 10 weeks.",
+     "id": "OG001",
+     "title": "Double-Blind Placebo"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "Full Analysis Set: all randomized participants who received at least 1 dose of study drug.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Maintenance Phase (up to Week 22)",
+   "title": "Maintenance Phase Movement Disorder Frequency",
+   "type": "PRIMARY",
+   "unitOfMeasure": "movement disorder events per 4 weeks"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "40"
+        },
+        {
+         "groupId": "OG001",
+         "value": "34"
+        },
+        {
+         "groupId": "OG002",
+         "value": "28"
+        }
+       ]
+      }
+     ],
+     "title": "TEAEs"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "2"
+        },
+        {
+         "groupId": "OG001",
+         "value": "1"
+        },
+        {
+         "groupId": "OG002",
+         "value": "2"
+        }
+       ]
+      }
+     ],
+     "title": "Serious TEAEs"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "33"
+        },
+        {
+         "groupId": "OG001",
+         "value": "19"
+        },
+        {
+         "groupId": "OG002",
+         "value": "17"
+        }
+       ]
+      }
+     ],
+     "title": "Treatment-Related TEAEs"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        },
+        {
+         "groupId": "OG002",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Treatment-Related Serious TEAEs"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "4"
+        },
+        {
+         "groupId": "OG001",
+         "value": "3"
+        },
+        {
+         "groupId": "OG002",
+         "value": "3"
+        }
+       ]
+      }
+     ],
+     "title": "Grade 3 or 4 TEAEs"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        },
+        {
+         "groupId": "OG002",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Grade 4 TEAEs"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "32"
+        },
+        {
+         "groupId": "OG001",
+         "value": "17"
+        },
+        {
+         "groupId": "OG002",
+         "value": "18"
+        }
+       ]
+      }
+     ],
+     "title": "Gastrointestinal TEAEs"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "2"
+        },
+        {
+         "groupId": "OG001",
+         "value": "1"
+        },
+        {
+         "groupId": "OG002",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "TEAEs Leading to Treatment Discontinuation"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "2"
+        },
+        {
+         "groupId": "OG001",
+         "value": "1"
+        },
+        {
+         "groupId": "OG002",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "TEAEs Leading to Study Discontinuation"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        },
+        {
+         "groupId": "OG002",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "TEAEs Leading to Death"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "43"
+      },
+      {
+       "groupId": "OG001",
+       "value": "42"
+      },
+      {
+       "groupId": "OG002",
+       "value": "33"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "An Adverse Event (AE) was defined as any untoward medical occurrence, whether or not considered drug related. Serious adverse events (SAE) was defined as an AE that at any dose, in the view of either the Investigator or Ultragenyx, results in any of the following outcomes: death; a life-threatening AE; inpatient hospitalization or prolongation of existing hospitalization; persistent or significant incapacity or disability (substantial disruption of the ability to conduct normal life functions); a congenital anomaly/birth defect; other important medical event. All reported AEs with with a start date that occurred or worsened in severity on or after the first dose of study drug in the corresponding treatment period and before the first dose of study drug in the next treatment period were defined as TEAEs. AEs were graded as 1=mild, 2=moderate, 3=severe, 4=life=threatening, 5=death.",
+   "groups": [
+    {
+     "description": "Double-Blind Maintenance Phase: Participants received UX007 (dosed according to an age- and weight-based strategy, up to a maximum daily administration of 130 g) for 10 weeks.",
+     "id": "OG000",
+     "title": "Double-Blind UX007"
+    },
+    {
+     "description": "Double-Blind Maintenance Phase: Participants received placebo for 10 weeks.",
+     "id": "OG001",
+     "title": "Double-Blind Placebo"
+    },
+    {
+     "description": "Open-Label Extension Phase: Participants continued UX007 treatment for up to 3 years.",
+     "id": "OG002",
+     "title": "Open-Label UX007"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Safety Analysis Set: all randomized participants who received at least 1 dose of study drug.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "From first dose of study drug through 30-35 days after final dose. Mean (SD) treatment duration was 65.7 (12.06) and 68.3 (7.04) days for double-blind UX007 and placebo, and 305.0 (122.71) days for open-label UX007.",
+   "title": "Number of Participants With Treatment Emergent Adverse Events (TEAEs), Serious TEAEs, and Discontinuations Due to TEAEs",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "38"
+        },
+        {
+         "groupId": "OG001",
+         "value": "38"
+        }
+       ]
+      }
+     ],
+     "title": "BL: No Events"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "40"
+        },
+        {
+         "groupId": "OG001",
+         "value": "39"
+        }
+       ]
+      }
+     ],
+     "title": "PB: No Events"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1"
+        },
+        {
+         "groupId": "OG001",
+         "value": "1"
+        }
+       ]
+      }
+     ],
+     "title": "BL: Suicidal Ideation"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "PB: Suicidal Ideation"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1"
+        },
+        {
+         "groupId": "OG001",
+         "value": "1"
+        }
+       ]
+      }
+     ],
+     "title": "BL: Suicidal Behavior"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "1"
+        }
+       ]
+      }
+     ],
+     "title": "PB: Suicidal Behavior"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "2"
+        },
+        {
+         "groupId": "OG001",
+         "value": "2"
+        }
+       ]
+      }
+     ],
+     "title": "BL: Suicidal Ideation and/or Behavior"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "1"
+        }
+       ]
+      }
+     ],
+     "title": "PB: Suicidal Ideation and/or Behavior"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1"
+        },
+        {
+         "groupId": "OG001",
+         "value": "1"
+        }
+       ]
+      }
+     ],
+     "title": "BL: Self-Injurious Behavior, No Suicidal Intent"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "1"
+        }
+       ]
+      }
+     ],
+     "title": "PB: Self-Injurious Behavior, No Suicidal Intent"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "40"
+      },
+      {
+       "groupId": "OG001",
+       "value": "40"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The C-SSRS is a participant-rated questionnaire to assess suicidal ideation, suicidal behavior, and self-injurious behavior with no suicidal intent (yes or no responses). Positive responses (i.e., 'Yes') to C-SSRS questions correspond to events in these categories with the exception of the category 'No events'. Suicidal ideation includes the following subcategories: passive; active-nonspecific; active-method/no intent/no plan; active-intent/with or without method/no plan; active-method/intent/plan. Suicidal behavior includes the following subcategories: suicide attempt; interrupted attempt; aborted attempt; preparatory actions toward immanent suicidal behaviors; completed suicide. Suicidal ideation and/or suicidal behavior category includes participants with positive responses in the category suicidal ideation and/or suicidal behavior.",
+   "groups": [
+    {
+     "description": "UX007 (dosed according to an age- and weight-based strategy, up to a maximum daily administration of 130 g) for 10 weeks.",
+     "id": "OG000",
+     "title": "Double-Blind UX007"
+    },
+    {
+     "description": "Placebo for 10 weeks.",
+     "id": "OG001",
+     "title": "Double-Blind Placebo"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Safety Analysis Set: all randomized participants who received at least 1 dose of study drug. Participants with a baseline (BL) and postbaseline (PB) assessment.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, up to Week 22",
+   "title": "Baseline and Post-Baseline Columbia Suicide Severity Rating Scale (C-SSRS) Responses During Double-Blind Treatment Period",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

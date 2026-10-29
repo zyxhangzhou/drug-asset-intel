@@ -1,0 +1,77 @@
+{
+ "nctId": "NCT02725515",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-6.6",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "32.6",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.1830",
+     "paramType": "Risk Difference (RD)",
+     "paramValue": "13.4",
+     "statisticalMethod": "Barnard's Unconditional Exact Test P-val"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "21"
+        },
+        {
+         "groupId": "OG001",
+         "value": "12"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "50"
+      },
+      {
+       "groupId": "OG001",
+       "value": "42"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Landmark proportion of patients without loss of systemic lupus erythematosus disease activity improvement on Day 225",
+   "groups": [
+    {
+     "description": "XmAb5871 administered by IV infusion for up to a total of 16 infusions",
+     "id": "OG000",
+     "title": "XmAb5871"
+    },
+    {
+     "description": "Placebo to match XmA5871 administered by IV infusion for up to a total of 16 infusions",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Efficacy Evaluable Population: All patients who:\n\n* Complete study through Day 225 assessments\n* Discontinue due to reaching the protocol specified LOI endpoint (and have not missed 2 or more consecutive doses prior to the LOI visit)\n* Discontinue due to drug-related adverse event (nonresponder)",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Day 225",
+   "title": "Percentage of Patients Without Loss of Systemic Lupus Erythematosus Disease Activity Improvement on Day 225",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

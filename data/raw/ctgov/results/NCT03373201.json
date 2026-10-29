@@ -1,0 +1,80 @@
+{
+ "nctId": "NCT03373201",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "44.0",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "76.7",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<.0001",
+     "paramType": "Difference between LS means",
+     "paramValue": "60.3",
+     "statisticalMethod": "ANOVA"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "80.67",
+         "value": "156.1"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "69.69",
+         "value": "216.4"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "159"
+      },
+      {
+       "groupId": "OG001",
+       "value": "159"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Total sleep time during the first 2/3 of the night following an 8-hour phase advance bedtime, as measured by PSG. This is representative of trans meridian travel across 8 time zones.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Placebo: Oral Capsule",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Tasimelteon: 20mg Oral Capsule",
+     "id": "OG001",
+     "title": "Tasimelteon"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Intent-to-Treat Population",
+   "reportingStatus": "POSTED",
+   "timeFrame": "1 Day",
+   "title": "Total Sleep Time in the First Two Thirds of the Night",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Minutes"
+  }
+ ]
+}

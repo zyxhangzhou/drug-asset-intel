@@ -1,0 +1,80 @@
+{
+ "nctId": "NCT01900249",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "-3.0",
+         "upperLimit": "1.0",
+         "value": "-1.00"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "-2.5",
+         "upperLimit": "1.0",
+         "value": "-0.78"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "-2.5",
+         "upperLimit": "1.0",
+         "value": "-0.78"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "67"
+      },
+      {
+       "groupId": "OG001",
+       "value": "68"
+      },
+      {
+       "groupId": "OG002",
+       "value": "69"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Change from baseline (Visit 3) of inferior region CFS score at 12 weeks. Inferior region CFS score range 0-4, where '0' represents no fluorescein staining and '4' represents severe staining on the cornea.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "R348 Ophthalmic Solution, 0.2%\n\nR348 Ophthalmic Solution, 0.2%: R348 Ophthalmic Solution, 0.2% 1 drop per eye twice a day for 12 weeks.",
+     "id": "OG000",
+     "title": "R348 Ophthalmic Solution, 0.2%"
+    },
+    {
+     "description": "R348 Ophthalmic Solution, 0.5%\n\nR348 Ophthalmic Solution, 0.5%: R348 Ophthalmic Solution, 0.5% 1 drop per eye twice a day for 12 weeks.",
+     "id": "OG001",
+     "title": "R348 Ophthalmic Solution, 0.5%"
+    },
+    {
+     "description": "Placebo Ophthalmic Solution, 1 drop per eye twice a day for 12 weeks.\n\nPlacebo: Placebo Ophthalmic Solution 1 drop per eye twice a day for 12 weeks.",
+     "id": "OG002",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "The intent to treat population (ITT) included all randomized subjects who administered study medication. The primary analysis was performed on the ITT population.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline to Week 12",
+   "title": "Change of Corneal Fluorescein Staining of the Inferior Cornea Region.",
+   "type": "PRIMARY",
+   "unitOfMeasure": "units on a scale (Likert)"
+  }
+ ]
+}

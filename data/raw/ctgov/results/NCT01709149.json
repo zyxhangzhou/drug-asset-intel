@@ -1,0 +1,83 @@
+{
+ "nctId": "NCT01709149",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-1.30",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.14",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "0.366",
+     "estimateComment": "Least squares mean difference: tirasemtiv minus placebo",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.1140",
+     "paramType": "Least squares mean difference",
+     "paramValue": "-0.58",
+     "statisticalMethod": "Repeated-measures mixed model"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.246",
+         "value": "-2.40"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.277",
+         "value": "-2.98"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "210"
+      },
+      {
+       "groupId": "OG001",
+       "value": "178"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The ALSFRS-R is used to measure the progression and severity of disease; it consists of 12 questions, assessing a patient's capability and independence in functional activities relevant to ALS, categorized in 4 domains: gross motor tasks, fine motor tasks, bulbar functions, and respiratory function. Each question is scored from 0 (indicating incapable or dependent) to 4 (normal). The total score ranges from 0 to 48, with higher scores reflecting more normal function and lower scores reflecting more impaired function.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Placebo oral capsules administered twice daily for a total of 12 weeks of double-blind dosing.",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Tirasemtiv 125 mg oral capsules administered twice daily, which was up- or down-titrated over 3 to 4 weeks to the patient's maximum tolerated dose (MTD) to a maximum of 250 mg twice daily. Patients then remained at their MTD for an additional 9 weeks, for a total of 12 weeks of double-blind dosing.",
+     "id": "OG001",
+     "title": "Tirasemtiv"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Modified Full Analysis Set",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, 8 weeks, 12 weeks",
+   "title": "The Change From Baseline in ALS Functional Rating Scale-Revised (ALSFRS-R) Total Score to the Average of Values Obtained at the End of Weeks 8 and 12 of Double-blind Treatment",
+   "type": "PRIMARY",
+   "unitOfMeasure": "units on a scale"
+  }
+ ]
+}

@@ -1,0 +1,1096 @@
+{
+ "nctId": "NCT02559206",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-1.214",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.076",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0839",
+     "paramType": "LS Mean Difference (Lin-Placebo)",
+     "paramValue": "-0.569",
+     "statisticalMethod": "mixed model repeated measures (MMRM)"
+    },
+    {
+     "ciLowerLimit": "-0.942",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.348",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.3661",
+     "paramType": "LS Mean Difference (Lin-Placebo)",
+     "paramValue": "-0.297",
+     "statisticalMethod": "MMRM"
+    },
+    {
+     "ciLowerLimit": "-0.936",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.363",
+     "groupIds": [
+      "OG000",
+      "OG003"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.3869",
+     "paramType": "LS Mean Difference (Lin-Placebo)",
+     "paramValue": "-0.286",
+     "statisticalMethod": "MMRM"
+    },
+    {
+     "ciLowerLimit": "-1.419",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-0.123",
+     "groupIds": [
+      "OG000",
+      "OG004"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0199",
+     "paramType": "LS Mean Difference (Lin-Placebo)",
+     "paramValue": "-0.771",
+     "statisticalMethod": "MMRM"
+    },
+    {
+     "groupIds": [
+      "OG000",
+      "OG002",
+      "OG003",
+      "OG004"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0276",
+     "pValueComment": "Trend test performed using linear contrast statement for each DR formulation with placebo.",
+     "statisticalMethod": "Trend Test"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.241",
+         "value": "-1.370"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.241",
+         "value": "-1.938"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "0.234",
+         "value": "-1.667"
+        },
+        {
+         "groupId": "OG003",
+         "spread": "0.240",
+         "value": "-1.656"
+        },
+        {
+         "groupId": "OG004",
+         "spread": "0.236",
+         "value": "-2.140"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "66"
+      },
+      {
+       "groupId": "OG001",
+       "value": "66"
+      },
+      {
+       "groupId": "OG002",
+       "value": "67"
+      },
+      {
+       "groupId": "OG003",
+       "value": "67"
+      },
+      {
+       "groupId": "OG004",
+       "value": "67"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Abdominal pain assessment was based on an 11-point numerical rating scale (0=No symptom; 10=Worst possible) assessing the symptom \"at its worst in past 24 hours.\" A participant's weekly abdominal pain score is the average of the nonmissing abdominal pain scores reported by the participant during each week.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Placebo: QD for 12 weeks",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Linaclotide IR formulation: 290 μg QD for 12 weeks",
+     "id": "OG001",
+     "title": "Linaclotide IR 290 μg"
+    },
+    {
+     "description": "Linaclotide DR1 30 μg QD for 12 weeks",
+     "id": "OG002",
+     "title": "Linaclotide DR1 30 μg"
+    },
+    {
+     "description": "Linaclotide DR1 100 μg QD for 12 weeks",
+     "id": "OG003",
+     "title": "Linaclotide DR1 100 μg"
+    },
+    {
+     "description": "Linaclotide DR1 300 μg QD for 12 weeks",
+     "id": "OG004",
+     "title": "Linaclotide DR1 300 μg"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Intent to Treat Population: all randomized participants who received at least one dose of study drug (evaluated according to assigned treatment).",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, up to Week 12",
+   "title": "Change From Baseline in Weekly Abdominal Pain Score Over the 12-Week Treatment Period: DR1 or IR vs. Placebo",
+   "type": "PRIMARY",
+   "unitOfMeasure": "score on a scale"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-1.214",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.076",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0839",
+     "paramType": "LS Mean Difference (Lin-Placebo)",
+     "paramValue": "-0.569",
+     "statisticalMethod": "MMRM"
+    },
+    {
+     "ciLowerLimit": "-1.102",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.191",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.1669",
+     "paramType": "LS Mean Difference (Lin-Placebo)",
+     "paramValue": "-0.455",
+     "statisticalMethod": "MMRM"
+    },
+    {
+     "ciLowerLimit": "-0.947",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.348",
+     "groupIds": [
+      "OG000",
+      "OG003"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.3637",
+     "paramType": "LS Mean Difference (Lin-Placebo)",
+     "paramValue": "-0.299",
+     "statisticalMethod": "MMRM"
+    },
+    {
+     "ciLowerLimit": "-0.905",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.389",
+     "groupIds": [
+      "OG000",
+      "OG004"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.4333",
+     "paramType": "LS Mean Difference (Lin-Placebo)",
+     "paramValue": "-0.258",
+     "statisticalMethod": "MMRM"
+    },
+    {
+     "groupIds": [
+      "OG000",
+      "OG002",
+      "OG003",
+      "OG004"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.5528",
+     "pValueComment": "Trend test performed using linear contrast statement for each DR formulation with placebo.",
+     "statisticalMethod": "Trend Test"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.241",
+         "value": "-1.370"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.241",
+         "value": "-1.938"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "0.238",
+         "value": "-1.825"
+        },
+        {
+         "groupId": "OG003",
+         "spread": "0.235",
+         "value": "-1.669"
+        },
+        {
+         "groupId": "OG004",
+         "spread": "0.239",
+         "value": "-1.628"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "66"
+      },
+      {
+       "groupId": "OG001",
+       "value": "66"
+      },
+      {
+       "groupId": "OG002",
+       "value": "67"
+      },
+      {
+       "groupId": "OG003",
+       "value": "66"
+      },
+      {
+       "groupId": "OG004",
+       "value": "66"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Abdominal pain assessment was based on an 11-point numerical rating scale (0=No symptom; 10=Worst possible) assessing the symptom \"at its worst in past 24 hours.\" A participant's weekly abdominal pain score is the average of the nonmissing abdominal pain scores reported by the participant during each week.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Placebo: QD for 12 weeks",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Linaclotide IR formulation: 290 μg QD for 12 weeks",
+     "id": "OG001",
+     "title": "Linaclotide IR 290 μg"
+    },
+    {
+     "description": "Linaclotide DR2 30 μg QD for 12 weeks",
+     "id": "OG002",
+     "title": "Linaclotide DR2 30 μg"
+    },
+    {
+     "description": "Linaclotide DR2 100 μg QD for 12 weeks",
+     "id": "OG003",
+     "title": "Linaclotide DR2 100 μg"
+    },
+    {
+     "description": "Linaclotide DR2 300 μg QD for 12 weeks",
+     "id": "OG004",
+     "title": "Linaclotide DR2 300 μg"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Intent to Treat Population: all randomized participants who received at least one dose of study drug (evaluated according to assigned treatment).",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, up to Week 12",
+   "title": "Change From Baseline in Weekly Abdominal Pain Score Over the 12-Week Treatment Period: DR2 or IR vs. Placebo",
+   "type": "PRIMARY",
+   "unitOfMeasure": "score on a scale"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.228",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "1.756",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0110",
+     "paramType": "LS Mean Difference (Lin-Placebo)",
+     "paramValue": "0.992",
+     "statisticalMethod": "MMRM"
+    },
+    {
+     "ciLowerLimit": "-0.716",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.812",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.9013",
+     "paramType": "LS Mean Difference (Lin-Placebo)",
+     "paramValue": "0.048",
+     "statisticalMethod": "MMRM"
+    },
+    {
+     "ciLowerLimit": "-0.469",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "1.067",
+     "groupIds": [
+      "OG003"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.4447",
+     "paramType": "LS Mean Difference (Lin-Placebo)",
+     "paramValue": "0.299",
+     "statisticalMethod": "MMRM"
+    },
+    {
+     "ciLowerLimit": "-0.104",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "1.428",
+     "groupIds": [
+      "OG000",
+      "OG004"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0904",
+     "paramType": "LS Mean Difference (Lin-Placebo)",
+     "paramValue": "0.662",
+     "statisticalMethod": "MMRM"
+    },
+    {
+     "groupIds": [
+      "OG000",
+      "OG002",
+      "OG003",
+      "OG004"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0700",
+     "pValueComment": "Trend test performed using linear contrast statement for each DR formulation with placebo.",
+     "statisticalMethod": "Trend Test"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.285",
+         "value": "1.115"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.286",
+         "value": "2.107"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "0.278",
+         "value": "1.163"
+        },
+        {
+         "groupId": "OG003",
+         "spread": "0.283",
+         "value": "1.414"
+        },
+        {
+         "groupId": "OG004",
+         "spread": "0.279",
+         "value": "1.776"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "66"
+      },
+      {
+       "groupId": "OG001",
+       "value": "66"
+      },
+      {
+       "groupId": "OG002",
+       "value": "67"
+      },
+      {
+       "groupId": "OG003",
+       "value": "67"
+      },
+      {
+       "groupId": "OG004",
+       "value": "67"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "A participant's weekly CSBM frequency rate is the CSBM rate (CSBMs/week) calculated over that week.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Placebo: QD for 12 weeks",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Linaclotide IR formulation: 290 μg QD for 12 weeks",
+     "id": "OG001",
+     "title": "Linaclotide IR 290 μg"
+    },
+    {
+     "description": "Linaclotide DR1 30 μg QD for 12 weeks",
+     "id": "OG002",
+     "title": "Linaclotide DR1 30 μg"
+    },
+    {
+     "description": "Linaclotide DR1 100 μg QD for 12 weeks",
+     "id": "OG003",
+     "title": "Linaclotide DR1 100 μg"
+    },
+    {
+     "description": "Linaclotide DR1 300 μg QD for 12 weeks",
+     "id": "OG004",
+     "title": "Linaclotide DR1 300 μg"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Intent to Treat Population: all randomized participants who received at least one dose of study drug (evaluated according to assigned treatment).",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, up to Week 12",
+   "title": "Change From Baseline in Weekly CSBM Frequency Rate Over the 12-Week Treatment Period: DR1 or IR vs. Placebo",
+   "type": "PRIMARY",
+   "unitOfMeasure": "CSBMs/week"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.228",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "1.756",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0110",
+     "paramType": "LS Mean Difference (Lin-Placebo)",
+     "paramValue": "0.992",
+     "statisticalMethod": "MMRM"
+    },
+    {
+     "ciLowerLimit": "-0.604",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.925",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.6801",
+     "paramType": "LS Mean Difference (Lin-Placebo)",
+     "paramValue": "0.161",
+     "statisticalMethod": "MMRM"
+    },
+    {
+     "ciLowerLimit": "-0.861",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.670",
+     "groupIds": [
+      "OG000",
+      "OG003"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.8069",
+     "paramType": "LS Mean Difference (Lin-Placebo)",
+     "paramValue": "-0.095",
+     "statisticalMethod": "MMRM"
+    },
+    {
+     "ciLowerLimit": "-1.011",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.519",
+     "groupIds": [
+      "OG000",
+      "OG004"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.5275",
+     "paramType": "LS Mean Difference (Lin-Placebo)",
+     "paramValue": "-0.246",
+     "statisticalMethod": "MMRM"
+    },
+    {
+     "groupIds": [
+      "OG000",
+      "OG002",
+      "OG003",
+      "OG004"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.4201",
+     "pValueComment": "Trend test performed using linear contrast statement for each DR formulation with placebo.",
+     "statisticalMethod": "Trend Test"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.285",
+         "value": "1.115"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.286",
+         "value": "2.107"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "0.282",
+         "value": "1.275"
+        },
+        {
+         "groupId": "OG003",
+         "spread": "0.278",
+         "value": "1.019"
+        },
+        {
+         "groupId": "OG004",
+         "spread": "0.282",
+         "value": "0.869"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "66"
+      },
+      {
+       "groupId": "OG001",
+       "value": "66"
+      },
+      {
+       "groupId": "OG002",
+       "value": "67"
+      },
+      {
+       "groupId": "OG003",
+       "value": "66"
+      },
+      {
+       "groupId": "OG004",
+       "value": "66"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "A participant's weekly CSBM frequency rate is the CSBM rate (CSBMs/week) calculated over that week.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Placebo: QD for 12 weeks",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Linaclotide IR formulation: 290 μg QD for 12 weeks",
+     "id": "OG001",
+     "title": "Linaclotide IR 290 μg"
+    },
+    {
+     "description": "Linaclotide DR2 30 μg QD for 12 weeks",
+     "id": "OG002",
+     "title": "Linaclotide DR2 30 μg"
+    },
+    {
+     "description": "Linaclotide DR2 100 μg QD for 12 weeks",
+     "id": "OG003",
+     "title": "Linaclotide DR2 100 μg"
+    },
+    {
+     "description": "Linaclotide DR2 300 μg QD for 12 weeks",
+     "id": "OG004",
+     "title": "Linaclotide DR2 300 μg"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Intent to Treat Population: all randomized participants who received at least one dose of study drug (evaluated according to assigned treatment).",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, up to Week 12",
+   "title": "Change From Baseline in Weekly CSBM Frequency Rate Over the 12-Week Treatment Period: DR2 or IR vs. Placebo",
+   "type": "PRIMARY",
+   "unitOfMeasure": "CSBMs/week"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.79",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "3.70",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.1663",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "1.71",
+     "statisticalMethod": "Cochran-Mantel-Haenszel"
+    },
+    {
+     "ciLowerLimit": "0.61",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "3.17",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.4399",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "1.39",
+     "statisticalMethod": "Cochran-Mantel-Haenszel"
+    },
+    {
+     "ciLowerLimit": "0.57",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "2.85",
+     "groupIds": [
+      "OG000",
+      "OG003"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.5540",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "1.27",
+     "statisticalMethod": "Cochran-Mantel-Haenszel"
+    },
+    {
+     "ciLowerLimit": "1.10",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "5.19",
+     "groupIds": [
+      "OG000",
+      "OG004"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0262",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "2.39",
+     "statisticalMethod": "Cochran-Mantel-Haenszel"
+    },
+    {
+     "groupIds": [
+      "OG000",
+      "OG002",
+      "OG003",
+      "OG004"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0249",
+     "pValueComment": "For each DR formulation, the Correlation Test p-values are obtained from the correlation statistic controlling for geographic region.",
+     "statisticalMethod": "Correlation test"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "14"
+        },
+        {
+         "groupId": "OG001",
+         "value": "21"
+        },
+        {
+         "groupId": "OG002",
+         "value": "18"
+        },
+        {
+         "groupId": "OG003",
+         "value": "17"
+        },
+        {
+         "groupId": "OG004",
+         "value": "26"
+        }
+       ]
+      }
+     ],
+     "title": "Responder"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "52"
+        },
+        {
+         "groupId": "OG001",
+         "value": "45"
+        },
+        {
+         "groupId": "OG002",
+         "value": "49"
+        },
+        {
+         "groupId": "OG003",
+         "value": "50"
+        },
+        {
+         "groupId": "OG004",
+         "value": "41"
+        }
+       ]
+      }
+     ],
+     "title": "Non-Responder"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "66"
+      },
+      {
+       "groupId": "OG001",
+       "value": "66"
+      },
+      {
+       "groupId": "OG002",
+       "value": "67"
+      },
+      {
+       "groupId": "OG003",
+       "value": "67"
+      },
+      {
+       "groupId": "OG004",
+       "value": "67"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "A 6/12 Week APC +1 Responder is a participant who meets the Weekly APC +1 Responder criteria for at least 6 out of the 12 weeks of the Treatment Period.\n\n* Weekly APC +1 Responder: A participant who meets the criteria to be a Weekly Abdominal Pain Responder and a Weekly CSBM +1 Responder.\n* Weekly Abdominal Pain Responder: A participant who has a decrease from baseline of ≥30% in the mean daily worst abdominal pain scores for that week.\n* Weekly CSBM +1 Responder: A participant who has an increase from baseline of ≥1 in the CSBM weekly rate for that week.\n\nA participant with \\<4 days of completed eDiary data for that week is not considered a responder for that week.",
+   "groups": [
+    {
+     "description": "Placebo: QD for 12 weeks",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Linaclotide IR formulation: 290 μg QD for 12 weeks",
+     "id": "OG001",
+     "title": "Linaclotide IR 290 μg"
+    },
+    {
+     "description": "Linaclotide DR1 30 μg QD for 12 weeks",
+     "id": "OG002",
+     "title": "Linaclotide DR1 30 μg"
+    },
+    {
+     "description": "Linaclotide DR1 100 μg QD for 12 weeks",
+     "id": "OG003",
+     "title": "Linaclotide DR1 100 μg"
+    },
+    {
+     "description": "Linaclotide DR1 300 μg QD for 12 weeks",
+     "id": "OG004",
+     "title": "Linaclotide DR1 300 μg"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Intent to Treat Population: all randomized participants who received at least one dose of study drug (evaluated according to assigned treatment).",
+   "reportingStatus": "POSTED",
+   "timeFrame": "up to Week 12",
+   "title": "Number of 6/12 Week Abdominal Pain and Constipation (APC) +1 Responders Over the 12-Week Treatment Period: DR1 or IR vs. Placebo",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.79",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "3.70",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.1663",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "1.71",
+     "statisticalMethod": "Cochran-Mantel-Haenszel"
+    },
+    {
+     "ciLowerLimit": "0.49",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "2.58",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.7710",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "1.13",
+     "statisticalMethod": "Cochran-Mantel-Haenszel"
+    },
+    {
+     "ciLowerLimit": "0.48",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "2.58",
+     "groupIds": [
+      "OG000",
+      "OG003"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.8021",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "1.11",
+     "statisticalMethod": "Cochran-Mantel-Haenszel"
+    },
+    {
+     "ciLowerLimit": "0.37",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "2.14",
+     "groupIds": [
+      "OG000",
+      "OG004"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.8011",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "0.89",
+     "statisticalMethod": "Cochran-Mantel-Haenszel"
+    },
+    {
+     "groupIds": [
+      "OG000",
+      "OG002",
+      "OG003",
+      "OG004"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.8578",
+     "pValueComment": "For each DR formulation, the Correlation Test p-values are obtained from the correlation statistic controlling for geographic region.",
+     "statisticalMethod": "Correlation test"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "14"
+        },
+        {
+         "groupId": "OG001",
+         "value": "21"
+        },
+        {
+         "groupId": "OG002",
+         "value": "16"
+        },
+        {
+         "groupId": "OG003",
+         "value": "16"
+        },
+        {
+         "groupId": "OG004",
+         "value": "14"
+        }
+       ]
+      }
+     ],
+     "title": "Responder"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "52"
+        },
+        {
+         "groupId": "OG001",
+         "value": "45"
+        },
+        {
+         "groupId": "OG002",
+         "value": "51"
+        },
+        {
+         "groupId": "OG003",
+         "value": "50"
+        },
+        {
+         "groupId": "OG004",
+         "value": "52"
+        }
+       ]
+      }
+     ],
+     "title": "Non-Responder"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "66"
+      },
+      {
+       "groupId": "OG001",
+       "value": "66"
+      },
+      {
+       "groupId": "OG002",
+       "value": "67"
+      },
+      {
+       "groupId": "OG003",
+       "value": "66"
+      },
+      {
+       "groupId": "OG004",
+       "value": "66"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "A 6/12 Week APC +1 Responder is a participant who meets the Weekly APC +1 Responder criteria for at least 6 out of the 12 weeks of the Treatment Period.\n\n* Weekly APC +1 Responder: A participant who meets the criteria to be a Weekly Abdominal Pain Responder and a Weekly CSBM +1 Responder.\n* Weekly Abdominal Pain Responder: A participant who has a decrease from baseline of ≥30% in the mean daily worst abdominal pain scores for that week.\n* Weekly CSBM +1 Responder: A participant who has an increase from baseline of ≥1 in the CSBM weekly rate for that week.\n\nA participant with \\<4 days of completed eDiary data for that week is not considered a responder for that week.",
+   "groups": [
+    {
+     "description": "Placebo: QD for 12 weeks",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Linaclotide IR formulation: 290 μg QD for 12 weeks",
+     "id": "OG001",
+     "title": "Linaclotide IR 290 μg"
+    },
+    {
+     "description": "Linaclotide DR2 30 μg QD for 12 weeks",
+     "id": "OG002",
+     "title": "Linaclotide DR2 30 μg"
+    },
+    {
+     "description": "Linaclotide DR2 100 μg QD for 12 weeks",
+     "id": "OG003",
+     "title": "Linaclotide DR2 100 μg"
+    },
+    {
+     "description": "Linaclotide DR2 300 μg QD for 12 weeks",
+     "id": "OG004",
+     "title": "Linaclotide DR2 300 μg"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Intent to Treat Population: all randomized participants who received at least one dose of study drug (evaluated according to assigned treatment).",
+   "reportingStatus": "POSTED",
+   "timeFrame": "up to Week 12",
+   "title": "Number of 6/12 Week Abdominal Pain and Constipation (APC) +1 Responders Over the 12-Week Treatment Period: DR2 or IR vs. Placebo",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

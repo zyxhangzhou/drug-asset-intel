@@ -1,0 +1,47 @@
+{
+ "nctId": "NCT05218655",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "91"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "101"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "An adverse event (AE) was any untoward medical occurrence in a participant who received study drug without regard to possibility of causal relationship. AEs included both serious adverse events (SAEs) and non-serious AEs. A TEAE was defined as an AE that had an onset date or date of worsening on or after the first dose of study drug and within 30 days of the date of the last dose of treatment. A summary of other non-serious AEs and all SAEs, regardless of causality is located in the 'Reported AE section'.",
+   "groups": [
+    {
+     "description": "Participants received vatiquinone oral solution (100 milligrams \\[mg\\]/milliliter \\[mL\\]), up to 400 mg, administered orally or via feeding tube 3 times daily (TID).",
+     "id": "OG000",
+     "title": "Vatiquinone"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Safety population included all participants who received at least 1 dose of vatiquinone in the study.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline (Day 1) up to 30 days after last dose of study drug (956 days)",
+   "title": "Number of Participants With Treatment-emergent Adverse Events (TEAEs)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

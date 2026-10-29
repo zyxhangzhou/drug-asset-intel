@@ -1,0 +1,105 @@
+{
+ "nctId": "NCT00775463",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-1.0",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.0",
+     "groupDescription": "A Cochran-Mantel Haenszel mean score test was used on the standardized reverse mid-ranks (overall reverse ranks divided by the number of ranks +1, or modified ridit scores; largely negative changes had ranks near 1 and largely positive changes had ranks near 0)of the residuals from an ordinary least squares regression with change in net ulcer burden at Week 20 as a linear function of Baseline PDEI or prostacyclin use (binary variable:Yes/No) and net ulcer burden at Baseline(continuous variable).",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+     "pValue": "0.20",
+     "paramType": "Hodges-Lehmann Estimate of Treatment Eff",
+     "paramValue": "0.0",
+     "statisticalMethod": "Cochran-Mantel-Haenszel"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "1.0",
+         "upperLimit": "2.0",
+         "value": "1.0"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "1.0",
+         "upperLimit": "2.0",
+         "value": "2.0"
+        }
+       ]
+      }
+     ],
+     "title": "Baseline"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "-1.0",
+         "upperLimit": "1.0",
+         "value": "0.0"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "-1.0",
+         "upperLimit": "0.0",
+         "value": "-1.0"
+        }
+       ]
+      }
+     ],
+     "title": "Change at Week 20"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "76"
+      },
+      {
+       "groupId": "OG001",
+       "value": "71"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Net ulcer burden was defined as the number of \"new\" or \"active\" digital ulcers (DU), plus the number of \"indeterminate\" DUs at that assessment that have previously been classified as either \"active\" or \"new\" at any earlier assessment during the study. A DU was defined as an area with visually discernable depth and a loss of continuity of epithelial coverage, which could be denuded or covered by a scab or necrotic tissue. If denuded, the DU was pronounced \"active.\" If denudation could not be judged because of the presence of scab or necrotic tissue, DU presenting with features, including underlying pain, based on Investigator clinical judgment to be consistent with loss of epithelialization, epidermis, or dermis, and requiring treatment were designated as \"active.\" Otherwise, the DU was pronounced \"indeterminate.\" Only DUs distal to the proximal interphalangeal joints, volar to the equator of the finger, not localized in creases and vascular in origin were assessed.",
+   "dispersionType": "Inter-Quartile Range",
+   "groups": [
+    {
+     "description": "Matching placebo sustained release tablet initiated at 0.25 mg BID and titrated up to a maximum dose of 16 mg BID or the individual's maximum tolerated dose.",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Treprostinil diethanolamine sustained release tablet initiated at 0.25 mg BID and titrated up to a maximum dose of 16 mg BID or the individual's maximum tolerated dose.",
+     "id": "OG001",
+     "title": "Treprostinil Diethanolamine"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "The intent to treat population is all subjects that received at least one dose of study drug. Subjects were counted in the assigned group regardless of the actual treatment given. Missing values imputed by carrying last observation forward or assigning value equalling overall poorest relative change.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Week 20",
+   "title": "Net Ulcer Burden",
+   "type": "PRIMARY",
+   "unitOfMeasure": "ulcers"
+  }
+ ]
+}

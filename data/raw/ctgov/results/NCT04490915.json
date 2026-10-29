@@ -1,0 +1,83 @@
+{
+ "nctId": "NCT04490915",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-23.802",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-10.243",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "3.433",
+     "estimateComment": "LS Mean Difference of Crinecerfont - Placebo",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<0.0001",
+     "paramType": "LS Mean Difference",
+     "paramValue": "-17.022",
+     "statisticalMethod": "ANCOVA"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "3.247",
+         "value": "-10.300"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "2.418",
+         "value": "-27.322"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "60"
+      },
+      {
+       "groupId": "OG001",
+       "value": "122"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Least square (LS) mean and standard error (SE) were calculated using analysis of covariance (ANCOVA) model.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Participants received crinecerfont-matched placebo orally twice daily for 24 weeks during the DB placebo-controlled treatment period.",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Participants received crinecerfont orally twice daily for 24 weeks during the DB placebo-controlled treatment period.",
+     "id": "OG001",
+     "title": "Crinecerfont"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Full Analysis Set included all randomized participants.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Week 24",
+   "title": "Percent Change From Baseline in Glucocorticoid Daily Dose at Week 24",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percent change"
+  }
+ ]
+}

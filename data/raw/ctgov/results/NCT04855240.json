@@ -1,0 +1,113 @@
+{
+ "nctId": "NCT04855240",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-25.4",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "4.4",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "7.61",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.1683",
+     "paramType": "LSM difference",
+     "paramValue": "-10.5",
+     "statisticalMethod": "ANOVA"
+    },
+    {
+     "ciLowerLimit": "-13.4",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "16.6",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "7.64",
+     "groupIds": [
+      "OG001",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.8356",
+     "paramType": "LSM difference",
+     "paramValue": "1.6",
+     "statisticalMethod": "ANOVA"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "5.55",
+         "value": "116.9"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "5.58",
+         "value": "129.0"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "5.52",
+         "value": "127.4"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "79"
+      },
+      {
+       "groupId": "OG001",
+       "value": "78"
+      },
+      {
+       "groupId": "OG002",
+       "value": "80"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Pain (efficacy) assessments were recorded hourly (±15 minutes) for a 12-hour interval on Day 1 beginning immediately prior to the fifth dose (time 0) administered in the study. Pain assessments were continued every 3 hours during the subsequent 12 hour interval, and then every 6 hours thereafter until 72 hours, then once daily in the morning until the follow-up clinical visit. Pain assessments were also obtained immediately prior to the administration of rescue medication.\n\nA 0 to 10 Numeric Rating Scale of Pain Intensity (NRS) was used to assess the subject's pain.\n\nSubjects were asked: \"Please describe your foot pain at the present time from 0 to 10 where \"0\" means \"no pain at all\" and \"10\" means \"the worst pain imaginable.\" The area under the curve is generated using the following timepoints beginning immediately prior to the fifth dose (time 0): 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 15, 18, 21, and 24 hours.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "ACP-044 Dose A\n\nACP-044 Dose A: Oral dose of ACP-044 400 mg Q6H",
+     "id": "OG000",
+     "title": "Drug - ACP-044 400 mg Q6H"
+    },
+    {
+     "description": "ACP-044 Dose B\n\nACP-044 Dose B: Oral dose of ACP-044 1600 mg QD",
+     "id": "OG001",
+     "title": "Drug - ACP-044 1600 mg QD"
+    },
+    {
+     "description": "Placebo\n\nPlacebo: Oral dose of placebo",
+     "id": "OG002",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Two subjects in the ACP-044 Q6H group were included in the safety analysis set but not the full analysis set.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "0-24 hours",
+   "title": "Mean Area Under the Curve (AUC) of the Numeric Rating Scale (NRS) of Pain Intensity Scores From Time 0 (When First Dose on Day 1 is Administered) Through 24 Hours",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Score on scale * hour"
+  }
+ ]
+}

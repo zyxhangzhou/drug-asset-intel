@@ -1,0 +1,71 @@
+{
+ "nctId": "NCT03860935",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<0.0001",
+     "statisticalMethod": "Finkelstein-Schoenfeld Method"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "63.7"
+        },
+        {
+         "groupId": "OG001",
+         "value": "35.9"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "409"
+      },
+      {
+       "groupId": "OG001",
+       "value": "202"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The endpoint was analyzed using Finkelstein-Schoenfeld method. The method combines all-cause mortality, cumulative frequency of CV-related hospitalizations, change from baseline in NT-proBNP and change from baseline in 6MWT in a hierarchical fashion. The method compares every participant with every other participant within strata, assigning a +1 to the \"better\" participant and a -1 to the \"worse\" participant and 0 if they are \"tied\". Participants who had heart transplantation or implantation of a cardiac mechanical assist device were handled in the same manner as death. 'Win' represents a participant doing better based on hierarchical comparison. The reported unit is the total percent of \"wins\" for each treatment group from performing such a hierarchical comparison across stratification factors in the study.",
+   "groups": [
+    {
+     "description": "Participants with symptomatic ATTR-CM received 800 mg acoramidis HCl BID (two 400 mg acoramidis HCl tablets, each equivalent to 356 mg acoramidis \\[active moiety\\])",
+     "id": "OG000",
+     "title": "Acoramidis HCl 800 mg"
+    },
+    {
+     "description": "Participants with symptomatic ATTR-CM received matching placebo (two matching placebo tablets BID)",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "The mITT population includes subjects who meet the definition of ITT which includes all randomized subjects who received at least one dose of IMP and have at least one post baseline efficacy assessment as well as an additional requirement which is to have a baseline eGFR \\>= 30 mL/min/1.73 m\\^2 . Subjects in this population were analyzed according to their assigned randomized treatment.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline up to Month 30",
+   "title": "A Hierarchical Combination of All-Cause Mortality, Cumulative Frequency of CV-related Hospitalization, Change From Baseline in NT-proBNP and Change From Baseline in 6MWT at the Last Available Visit Where Both Subjects Had Non-missing Assessments.",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Percent of Wins from Win Ratio"
+  }
+ ]
+}

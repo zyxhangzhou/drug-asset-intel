@@ -1,0 +1,91 @@
+{
+ "nctId": "NCT04903288",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "12.93",
+         "value": "29.53"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "12"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "HVA is a main metabolite of dopamine and HVA CSF levels are recognized as a proxy for dopamine levels in the brain.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants received eladocagene exuparvovec intraoperatively at 1.8×10\\^11 vg via SmartFlow® MR Compatible Ventricular Cannula in a single operative session. Participants received standard of care for their AADC deficiency during the study.",
+     "id": "OG000",
+     "title": "Eladocagene Exuparvovec"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "The safety population included all participants enrolled in the study who have received any amount of study drug. 'Overall number of participants analyzed' = participants evaluable for this outcome measure.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline (Day 1), Week 8",
+   "title": "Change From Baseline in HVA Metabolite Level at the End of the Trial Phase",
+   "type": "PRIMARY",
+   "unitOfMeasure": "nmol/L"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "13"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "An AE is any untoward medical occurrence associated with the use of a drug in humans, whether or not it is considered related to the drug. An AE can therefore be any unfavorable and unintended sign (including an abnormal laboratory finding), symptom, or disease in a study participant who was administered gene therapy in this study. Number of participants with AEs related to the SmartFlow MR-compatible ventricular cannula used to administer eladocagene exuparvovec to pediatric participants at the end of Trial Phase (8 weeks after administration) are reported. A summary of serious and all other non-serious adverse events regardless of causality is located in the Reported Adverse Events module.\"",
+   "groups": [
+    {
+     "description": "Participants received eladocagene exuparvovec intraoperatively at 1.8×10\\^11 vg via SmartFlow® MR Compatible Ventricular Cannula in a single operative session. Participants received standard of care for their AADC deficiency during the study.",
+     "id": "OG000",
+     "title": "Eladocagene Exuparvovec"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "The safety population included all participants enrolled in the study who have received any amount of study drug.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline (Day 1) up to Week 8",
+   "title": "Number of Participants With Adverse Events (AEs) Associated With the Surgical Administration of Eladocagene Exuparvovec Using the SmartFlow® MR-Compatible Ventricular Cannula",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

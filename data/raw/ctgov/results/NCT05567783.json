@@ -1,0 +1,792 @@
+{
+ "nctId": "NCT05567783",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-49.27",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "52.56",
+     "estimateComment": "RRR and 95% CI estimated using Poisson regression of multiple imputed data with treatment group was the only factor in the model",
+     "groupIds": [
+      "OG001",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.5552",
+     "pValueComment": "two-sided, alpha=0.05",
+     "paramType": "Relative risk reduction (RRR, %)",
+     "paramValue": "15.85",
+     "statisticalComment": "Estimated using Poisson regression of multiple imputed data with treatment group the only factor in the model",
+     "statisticalMethod": "Poisson regression"
+    },
+    {
+     "ciLowerLimit": "-67.23",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "44.63",
+     "estimateComment": "RRR and 95% CI estimated using Poisson regression of multiple imputed data with treatment group the only factor in the model; 95% CI are nominal and not adjusted for multiple comparisons.",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "paramType": "Relative risk reduction (RRR, %)",
+     "paramValue": "3.78"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "2.45"
+        },
+        {
+         "groupId": "OG001",
+         "value": "2.12"
+        },
+        {
+         "groupId": "OG002",
+         "value": "2.54"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "981"
+      },
+      {
+       "groupId": "OG001",
+       "value": "992"
+      },
+      {
+       "groupId": "OG002",
+       "value": "983"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Protocol-defined ILI with confirmed influenza A defined as RT-PCR confirmed influenza A with at least one respiratory symptom and at least one systemic symptom",
+   "groups": [
+    {
+     "description": "VIR-2482 (450 mg): VIR-2482 450 mg given by intramuscular injection",
+     "id": "OG000",
+     "title": "VIR-2482 (450 mg)"
+    },
+    {
+     "description": "VIR-2482 (1200 mg): VIR-2482 1200 mg given by intramuscular injection",
+     "id": "OG001",
+     "title": "VIR-2482 (1200 mg)"
+    },
+    {
+     "description": "Placebo: Sterile 0.9% (w/v) sodium chloride solution given by intramuscular injection",
+     "id": "OG002",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Full Analysis Set (all randomized who did not have confirmed influenza infection within 3 months prior to randomization, did not receive an influenza vaccination for the upcoming influenza season, and received any amount of study intervention). Participants were analyzed according to the randomized study intervention.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to 24 Weeks",
+   "title": "Percentage of Participants With Protocol-defined Influenza-like Illness (ILI) With Confirmed Influenza A (by Reverse Transcription Polymerase Chain Reaction [RT-PCR])",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "636"
+        },
+        {
+         "groupId": "OG001",
+         "value": "613"
+        },
+        {
+         "groupId": "OG002",
+         "value": "639"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "981"
+      },
+      {
+       "groupId": "OG001",
+       "value": "992"
+      },
+      {
+       "groupId": "OG002",
+       "value": "983"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "groups": [
+    {
+     "description": "VIR-2482 (450 mg): VIR-2482 450 mg given by intramuscular injection",
+     "id": "OG000",
+     "title": "VIR-2482 (450 mg)"
+    },
+    {
+     "description": "VIR-2482 (1200 mg): VIR-2482 1200 mg given by intramuscular injection",
+     "id": "OG001",
+     "title": "VIR-2482 (1200 mg)"
+    },
+    {
+     "description": "Placebo: Sterile 0.9% (w/v) sodium chloride solution given by intramuscular injection",
+     "id": "OG002",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Participants who received any amount of study intervention. Participants were analyzed according to study intervention received.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to 26 Weeks",
+   "title": "Number of Participants With Adverse Events (AEs)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "10"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        },
+        {
+         "groupId": "OG002",
+         "value": "9"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "981"
+      },
+      {
+       "groupId": "OG001",
+       "value": "992"
+      },
+      {
+       "groupId": "OG002",
+       "value": "983"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "groups": [
+    {
+     "description": "VIR-2482 (450 mg): VIR-2482 450 mg given by intramuscular injection",
+     "id": "OG000",
+     "title": "VIR-2482 (450 mg)"
+    },
+    {
+     "description": "VIR-2482 (1200 mg): VIR-2482 1200 mg given by intramuscular injection",
+     "id": "OG001",
+     "title": "VIR-2482 (1200 mg)"
+    },
+    {
+     "description": "Placebo: Sterile 0.9% (w/v) sodium chloride solution given by intramuscular injection",
+     "id": "OG002",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Participants who received any amount of study intervention. Participants were analyzed according to the study intervention received.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to 26 Weeks",
+   "title": "Number of Participants With Serious Adverse Events (SAEs)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        },
+        {
+         "groupId": "OG002",
+         "value": "0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "981"
+      },
+      {
+       "groupId": "OG001",
+       "value": "992"
+      },
+      {
+       "groupId": "OG002",
+       "value": "983"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "AESI is anaphylaxis per MedDRA anaphylaxis algorithmic SMQ",
+   "groups": [
+    {
+     "description": "VIR-2482 (450 mg): VIR-2482 450 mg given by intramuscular injection",
+     "id": "OG000",
+     "title": "VIR-2482 (450 mg)"
+    },
+    {
+     "description": "VIR-2482 (1200 mg): VIR-2482 1200 mg given by intramuscular injection",
+     "id": "OG001",
+     "title": "VIR-2482 (1200 mg)"
+    },
+    {
+     "description": "Placebo: Sterile 0.9% (w/v) sodium chloride solution given by intramuscular injection",
+     "id": "OG002",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to 26 Weeks",
+   "title": "Number of Participants With Adverse Events of Special Interest (AESI)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "678"
+        },
+        {
+         "groupId": "OG001",
+         "value": "662"
+        },
+        {
+         "groupId": "OG002",
+         "value": "648"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "981"
+      },
+      {
+       "groupId": "OG001",
+       "value": "992"
+      },
+      {
+       "groupId": "OG002",
+       "value": "981"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Defined as a graded abnormality in systolic blood pressure, diastolic blood pressure, pulse, respiratory rate, or oral temperature as per the Toxicity Grading Scale for Healthy Adult and Adolescent Volunteers Enrolled in Preventive Vaccine Clinical Trials at any time on/after receipt of study intervention.",
+   "groups": [
+    {
+     "description": "VIR-2482 (450 mg): VIR-2482 450 mg given by intramuscular injection",
+     "id": "OG000",
+     "title": "VIR-2482 (450 mg)"
+    },
+    {
+     "description": "VIR-2482 (1200 mg): VIR-2482 1200 mg given by intramuscular injection",
+     "id": "OG001",
+     "title": "VIR-2482 (1200 mg)"
+    },
+    {
+     "description": "Placebo: Sterile 0.9% (w/v) sodium chloride solution given by intramuscular injection",
+     "id": "OG002",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Participants who received any amount of study intervention and had a post-baseline vital sign measurement. Participants were analyzed according to the study intervention received.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to 26 Weeks",
+   "title": "Number of Participants With Vital Sign Abnormalities",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "961"
+        },
+        {
+         "groupId": "OG001",
+         "value": "971"
+        },
+        {
+         "groupId": "OG002",
+         "value": "961"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "978"
+      },
+      {
+       "groupId": "OG001",
+       "value": "988"
+      },
+      {
+       "groupId": "OG002",
+       "value": "976"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Defined as graded abnormality in chemistry, hematology, liver function, or urinalysis clinical laboratory values as per the Toxicity Grading Scale for Healthy Adult and Adolescent Volunteers Enrolled in Preventive Vaccine Trials at any time on/after receipt of study intervention.",
+   "groups": [
+    {
+     "description": "VIR-2482 (450 mg): VIR-2482 450 mg given by intramuscular injection",
+     "id": "OG000",
+     "title": "VIR-2482 (450 mg)"
+    },
+    {
+     "description": "VIR-2482 (1200 mg): VIR-2482 1200 mg given by intramuscular injection",
+     "id": "OG001",
+     "title": "VIR-2482 (1200 mg)"
+    },
+    {
+     "description": "Placebo: Sterile 0.9% (w/v) sodium chloride solution given by intramuscular injection",
+     "id": "OG002",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Participants who received any amount of study intervention and had a post-baseline clinical laboratory assessment. Participants were analyzed according to the study intervention received.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to 26 Weeks",
+   "title": "Number of Participants With Clinical Laboratory Abnormalities",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "292"
+        },
+        {
+         "groupId": "OG001",
+         "value": "293"
+        },
+        {
+         "groupId": "OG002",
+         "value": "272"
+        }
+       ]
+      }
+     ],
+     "title": "Any injection site reaction"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "279"
+        },
+        {
+         "groupId": "OG001",
+         "value": "277"
+        },
+        {
+         "groupId": "OG002",
+         "value": "260"
+        }
+       ]
+      }
+     ],
+     "title": "Pain"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "7"
+        },
+        {
+         "groupId": "OG001",
+         "value": "10"
+        },
+        {
+         "groupId": "OG002",
+         "value": "5"
+        }
+       ]
+      }
+     ],
+     "title": "Erythema"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "8"
+        },
+        {
+         "groupId": "OG001",
+         "value": "12"
+        },
+        {
+         "groupId": "OG002",
+         "value": "3"
+        }
+       ]
+      }
+     ],
+     "title": "Induration"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "10"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        },
+        {
+         "groupId": "OG002",
+         "value": "2"
+        }
+       ]
+      }
+     ],
+     "title": "Swelling"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "17"
+        },
+        {
+         "groupId": "OG001",
+         "value": "20"
+        },
+        {
+         "groupId": "OG002",
+         "value": "21"
+        }
+       ]
+      }
+     ],
+     "title": "Bruising"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "981"
+      },
+      {
+       "groupId": "OG001",
+       "value": "992"
+      },
+      {
+       "groupId": "OG002",
+       "value": "983"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Injection site reactions from the study intervention diary card",
+   "groups": [
+    {
+     "description": "VIR-2482 (450 mg): VIR-2482 450 mg given by intramuscular injection",
+     "id": "OG000",
+     "title": "VIR-2482 (450 mg)"
+    },
+    {
+     "description": "VIR-2482 (1200 mg): VIR-2482 1200 mg given by intramuscular injection",
+     "id": "OG001",
+     "title": "VIR-2482 (1200 mg)"
+    },
+    {
+     "description": "Placebo: Sterile 0.9% (w/v) sodium chloride solution given by intramuscular injection",
+     "id": "OG002",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Participants who received any amount of study intervention . Participants were analyzed according to the study intervention received.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to Day 7 following study intervention administration",
+   "title": "Number of Participants With Solicited Injection Site Reactions",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "265"
+        },
+        {
+         "groupId": "OG001",
+         "value": "283"
+        },
+        {
+         "groupId": "OG002",
+         "value": "268"
+        }
+       ]
+      }
+     ],
+     "title": "Any systemic reaction"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "160"
+        },
+        {
+         "groupId": "OG001",
+         "value": "168"
+        },
+        {
+         "groupId": "OG002",
+         "value": "175"
+        }
+       ]
+      }
+     ],
+     "title": "Headache"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "135"
+        },
+        {
+         "groupId": "OG001",
+         "value": "169"
+        },
+        {
+         "groupId": "OG002",
+         "value": "149"
+        }
+       ]
+      }
+     ],
+     "title": "Myalgia"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "117"
+        },
+        {
+         "groupId": "OG001",
+         "value": "130"
+        },
+        {
+         "groupId": "OG002",
+         "value": "123"
+        }
+       ]
+      }
+     ],
+     "title": "Malaise"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "44"
+        },
+        {
+         "groupId": "OG001",
+         "value": "60"
+        },
+        {
+         "groupId": "OG002",
+         "value": "43"
+        }
+       ]
+      }
+     ],
+     "title": "Shivering"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "11"
+        },
+        {
+         "groupId": "OG001",
+         "value": "11"
+        },
+        {
+         "groupId": "OG002",
+         "value": "13"
+        }
+       ]
+      }
+     ],
+     "title": "Fever"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "981"
+      },
+      {
+       "groupId": "OG001",
+       "value": "992"
+      },
+      {
+       "groupId": "OG002",
+       "value": "983"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Systemic reactions from the study intervention diary card",
+   "groups": [
+    {
+     "description": "VIR-2482 (450 mg): VIR-2482 450 mg given by intramuscular injection",
+     "id": "OG000",
+     "title": "VIR-2482 (450 mg)"
+    },
+    {
+     "description": "VIR-2482 (1200 mg): VIR-2482 1200 mg given by intramuscular injection",
+     "id": "OG001",
+     "title": "VIR-2482 (1200 mg)"
+    },
+    {
+     "description": "Placebo: Sterile 0.9% (w/v) sodium chloride solution given by intramuscular injection",
+     "id": "OG002",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Participants who received any amount of study intervention . Participants were analyzed according to the study intervention received.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to Day 7 following study intervention administration",
+   "title": "Number of Participants With Solicited Systemic Reactions",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

@@ -1,0 +1,72 @@
+{
+ "nctId": "NCT04442230",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "groupDescription": "The p-values from significance tests were obtained at a one-sided significance level of 0.025.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.6602",
+     "statisticalMethod": "Fisher Exact"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "3"
+        },
+        {
+         "groupId": "OG001",
+         "value": "2"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "23"
+      },
+      {
+       "groupId": "OG001",
+       "value": "25"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Absolute 4.0% decrease from baseline in resting SpO2 on two consecutive measurements",
+   "groups": [
+    {
+     "description": "Participants will receive a single intranasal dose of NasoVAX on Day 1 (enrollment).\n\nNasoVAX: NasoVAX consists of replication-deficient adenovirus vectors in suspension",
+     "id": "OG000",
+     "title": "NasoVAX"
+    },
+    {
+     "description": "Participants will receive a single intranasal dose of placebo on Day 1 (enrollment).\n\nPlacebo: Normal saline",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Modified intent-to-treat population (all randomized patients who received any amount of study drug and had a Baseline and at least one post-baseline resting SpO2 measurement)",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Day 1 to Day 14",
+   "title": "Percentage of Patients With Clinical Worsening",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

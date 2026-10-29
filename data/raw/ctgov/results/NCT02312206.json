@@ -1,0 +1,91 @@
+{
+ "nctId": "NCT02312206",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.5735",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "1.1889",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.3028",
+     "paramType": "Hazard Ratio (HR)",
+     "paramValue": "0.826",
+     "statisticalMethod": "Log Rank"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "56"
+        },
+        {
+         "groupId": "OG001",
+         "value": "62"
+        }
+       ],
+       "title": "Number of Subjects Who Died or Experienced Cardiac Hospitalization"
+      },
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "74"
+        },
+        {
+         "groupId": "OG001",
+         "value": "68"
+        }
+       ],
+       "title": "Number of Subjects Censored"
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "130"
+      },
+      {
+       "groupId": "OG001",
+       "value": "130"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Time to all-cause mortality death occurring after the first infusion of study drug or cardiac hospitalization as adjudicated by the CEC occurring at least 91 days after first infusion of study drug through last subject last visit, whichever came first",
+   "groups": [
+    {
+     "description": "NEOD001, 24 mg/kg IV every 4 weeks on top of Standard of Care",
+     "id": "OG000",
+     "title": "NEOD001 (24 mg/kg) + Standard of Care"
+    },
+    {
+     "description": "Placebo 0.9% Saline IV every 4 weeks on top of Standard of Care",
+     "id": "OG001",
+     "title": "Placebo + Standard of Care"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "ITT Population",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Randomization until the date of death or cardiac hospitalization, up to 32 months",
+   "title": "Time to Composite of All-cause Mortality or Cardiac Hospitalization",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

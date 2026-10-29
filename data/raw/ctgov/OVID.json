@@ -1,0 +1,372 @@
+{
+ "aliases": [
+  "Ovid Therapeutics"
+ ],
+ "studies": [
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: OV101"
+       ],
+       "label": "Single-dose 5 mg OV101",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Single-dose 5 mg OV101"
+       ],
+       "description": "Single-dose 5 mg OV101",
+       "name": "OV101",
+       "otherNames": [
+        "Gaboxadol"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Angelman Syndrome",
+      "Fragile X Syndrome"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 12,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Single Dose Pharmacokinetic (PK) Study",
+     "nctId": "NCT03109756",
+     "officialTitle": "A Phase 1 Single Dose PK Study in Adolescent Subjects With Fragile X Syndrome or Angelman Syndrome",
+     "orgStudyIdInfo": {
+      "id": "OV101-16-001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Healx AI"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Ovid Therapeutics Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2017-11-28",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2017-11-30",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2017-11-29",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2017-11-28",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2017-04-03",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2017-09",
+     "studyFirstPostDateStruct": {
+      "date": "2017-04-12",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2017-04-06",
+     "studyFirstSubmitQcDate": "2017-04-10"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Once Daily",
+       "interventionNames": [
+        "Drug: OV101 (gaboxadol)"
+       ],
+       "label": "OV101 (gaboxadol) Regimen 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Twice Daily",
+       "interventionNames": [
+        "Drug: OV101 (gaboxadol)"
+       ],
+       "label": "OV101 (gaboxadol) Regimen 2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Three Times Daily",
+       "interventionNames": [
+        "Drug: OV101 (gaboxadol)"
+       ],
+       "label": "OV101 (gaboxadol) Regimen 3",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "OV101 (gaboxadol) Regimen 1",
+        "OV101 (gaboxadol) Regimen 2",
+        "OV101 (gaboxadol) Regimen 3"
+       ],
+       "description": "OV101 (gaboxadol)",
+       "name": "OV101 (gaboxadol)",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Fragile X Syndrome (FXS)"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 36,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "ROCKET",
+     "briefTitle": "A Study of OV101 in Individuals With Fragile X Syndrome",
+     "nctId": "NCT03697161",
+     "officialTitle": "A Phase 2, Randomized, Double-Blind, Parallel-Group Study Evaluating the Safety, Tolerability, and Efficacy of OV101 in Fragile X Syndrome",
+     "orgStudyIdInfo": {
+      "id": "OV101-17-001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Healx AI"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Ovid Therapeutics Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2020-02-26",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2024-01-23",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2023-12-28",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2020-02-03",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2024-01-23",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2022-11-16",
+     "resultsFirstSubmitQcDate": "2023-12-28",
+     "startDateStruct": {
+      "date": "2018-09-17",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2023-12",
+     "studyFirstPostDateStruct": {
+      "date": "2018-10-05",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2018-10-01",
+     "studyFirstSubmitQcDate": "2018-10-03"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "OV101 (gaboxadol), oral, provided once daily at bedtime for 12 week duration",
+       "interventionNames": [
+        "Drug: Gaboxadol"
+       ],
+       "label": "OV101 once daily (weight-based dosing) Other Name:Gaboxadol",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Matching placebo,oral, provided once daily at bedtime for 12 week duration",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo once daily",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "OV101 once daily (weight-based dosing) Other Name:Gaboxadol"
+       ],
+       "description": "OV101 versus placebo once daily at bedtime for 12 weeks",
+       "name": "Gaboxadol",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo once daily"
+       ],
+       "description": "Matching placebo capsules to OV101 capsules.",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Primary Disease or Condition Being Studied: Angelman Syndrome (AS)"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "maskingDescription": "Double (Participant/Care Giver and Investigator/Outcomes Assessor)",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 104,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "NEPTUNE",
+     "briefTitle": "A Study of OV101 in Individuals With Angelman Syndrome (AS)",
+     "nctId": "NCT04106557",
+     "officialTitle": "A Multicenter, Randomized, Double-Blind, Placebo-Controlled, Parallel-Group, Phase 3 Study to Evaluate the Efficacy and Safety of OV101 in Pediatric Individuals With Angelman Syndrome",
+     "orgStudyIdInfo": {
+      "id": "OV101-19-001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Healx AI"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Ovid Therapeutics Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2020-11-02",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2024-01-08",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2024-01-05",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2020-11-02",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2024-01-08",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2022-11-15",
+     "resultsFirstSubmitQcDate": "2024-01-05",
+     "startDateStruct": {
+      "date": "2019-09-09",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2024-01",
+     "studyFirstPostDateStruct": {
+      "date": "2019-09-27",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2019-09-25",
+     "studyFirstSubmitQcDate": "2019-09-25"
+    }
+   }
+  }
+ ]
+}

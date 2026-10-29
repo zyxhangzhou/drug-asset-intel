@@ -1,0 +1,77 @@
+{
+ "nctId": "NCT01522443",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+     "pValue": "0.773",
+     "statisticalComment": "The Cochran-Mantel-Haenszel (CMH) was stratified by the Eastern Cooperative Oncology Group performance status and prior cabazitaxel use.",
+     "statisticalMethod": "Cochran-Mantel-Haenszel"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "5.9",
+         "upperLimit": "24",
+         "value": "15"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "7.5",
+         "upperLimit": "27",
+         "value": "17"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "61"
+      },
+      {
+       "groupId": "OG001",
+       "value": "58"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The pre-specified primary analysis of Pain Response at Week 6 confirmed at Week 12 was defined as ≥ 30% from baseline in the average daily worst pain intensity score during a 7-day reporting period, with neither a concomitant increase in average daily use of any opioid narcotic type, nor addition of any new opioid narcotic type, relative to baseline. Pain Progression at a given time point is defined as ≥ 30% increase compared with baseline in the average daily worst pain intensity score during a 7-day reporting period or either an increase in the average daily use of any type of opioid narcotic or addition of a new opioid narcotic type compared with baseline.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Subjects randomized to the cabozantinib arm will also receive placebo mitoxantrone injections (color-matched with methylene blue) and placebo prednisone capsules.\n\nCabozantinib (XL184) 60 mg tablets taken orally once daily and mitoxantrone-matched placebo infusion every 3 weeks (maximum of 10 infusions) plus prednisone-matched placebo capsules orally twice daily.",
+     "id": "OG000",
+     "title": "Cabozantinib"
+    },
+    {
+     "description": "Subjects randomized to the mitoxantrone + prednisone arm will also receive placebo cabozantinib tablets.\n\nMitoxantrone (12mg/m\\^2) given by IV once every 3 weeks (maximum of 10 infusions) plus prednisone-matched placebo capsules orally twice daily.",
+     "id": "OG001",
+     "title": "Mitoxantrone/Prednisone"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "The primary analysis of pain response was based on the Intent to Treat (ITT) population of 119 participants (61 cabozantinib, 58 mitoxantrone plus prednisone).",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Pain response was measured at Week 6 and Week 12 by self-reports of subjects",
+   "title": "Pain Response at Week 6 Confirmed at Week 12, Week 12 Reported",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of responders"
+  }
+ ]
+}

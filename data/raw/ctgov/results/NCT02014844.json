@@ -1,0 +1,59 @@
+{
+ "nctId": "NCT02014844",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "1"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "21"
+      },
+      {
+       "groupId": "OG001",
+       "value": "7"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "ORR was defined as the proportion of patients with objective CR or PR by RANO working group criteria.\n\nCR: required all the following: complete disappearance of all enhancing measurable/ non-measurable disease sustained for at least 4 weeks; no new lesions; stable or improved non-enhancing (T2/FLAIR) lesions; patients must be off corticosteroids (or on physiologic replacement doses only); and stable or improved clinically. Patients with non-measurable disease only cannot have a CR.\n\nPR: Requires all of the following: ≥50% decrease compared with baseline sustained for at least 4 weeks; no PD of non-measurable disease; no new lesions; stable or improved non-enhancing (T2/FLAIR) lesions on same or lower dose of corticosteroids compared with baseline scan; the corticosteroid dose at the time of the scan evaluation should be no greater than the dose at the time of the baseline scan; and stable or improved clinically. Patients with non-measurable disease only can't have a PR.",
+   "groups": [
+    {
+     "description": "Subjects received 250 mg/m\\^2 aldoxorubicin IV.\n\n250 mg/m\\^2 aldoxorubicin",
+     "id": "OG000",
+     "title": "250 mg/m^2 Aldoxorubicin"
+    },
+    {
+     "description": "Subjects received 350 mg/m\\^2 aldoxorubicin IV.\n\n350 mg/m\\^2 aldoxorubicin",
+     "id": "OG001",
+     "title": "350 mg/m^2 Aldoxorubicin"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "reportingStatus": "POSTED",
+   "timeFrame": "up to 6 months",
+   "title": "Objective Response Rate (Complete Response and Partial Response)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

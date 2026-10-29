@@ -1,0 +1,40 @@
+{
+ "nctId": "NCT04697056",
+ "primaryOutcomeMeasures": [
+  {
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "0"
+      },
+      {
+       "groupId": "OG001",
+       "value": "0"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "IASI quantified the severity of participants ichthyosis based on severity of erythema/scaling \\& percentage of body surface area (BSA) affected. Degree of erythema \\& scaling scored from 0 (none) to 4 (very severe) for each of 4 body regions (BR) \\[A1: head \\& neck (H\\&N), A2: upper limbs (UL), A3: trunk (T), A4: lower limbs (LL)\\]. Percentage of BSA involved for each BR (B1: % in H\\&N, B2: % in UL, B3: % in T, B4: % in LL). Percentage involvement was assigned numerical value(0= 0, 1%-9%= 1, 10%-29%= 2, 30%-49%= 3, 50%-69%= 4, 70%-89%= 5, 90%-100%= 6).Total extent was determined using multiplier considering % of total BSA by each BR (C1= 0.1 for H\\&N; C2= 0.2 for UL; C3= 0.3 for T; C4= 0.4 for LL).\n\nIASI-Erythema (E)= A1E x B1 x C1 + A2E x B2 x C2 + A3E x B3 x C3 + A4E x B4 x C4 (score 0 to 24) IASI-Scaling (S)= A1S x B1 X C1 + A2S x B2 x C2 + A3S x B3 x C3 + A4S x B4 x C4 (score 0 to 24) IASI total score= IASI-E + IASI-S score ranged from 0 - 48, higher score indicated worse disease state.",
+   "groups": [
+    {
+     "description": "Participants received a starting dose of 400 mg of imsidolimab on Day 1 followed by 200 mg imsidolimab every 4 weeks (Days 29, 57 and 85) by subcutaneous injection.",
+     "id": "OG000",
+     "title": "Imsidolimab"
+    },
+    {
+     "description": "Participants received imsidolimab matching placebo on Day 1 and thereafter every 4 weeks (Days 29, 57 and 85) by subcutaneous injection.",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "populationDescription": "Due to early study termination before the primary time point, efficacy data was not collected, therefore, not analyzed.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline and Week 16",
+   "title": "Change From Baseline in Ichthyosis Area Severity Index (IASI) Total Score at Week 16",
+   "type": "PRIMARY"
+  }
+ ]
+}

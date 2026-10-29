@@ -1,0 +1,60 @@
+{
+ "nctId": "NCT00156923",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "49"
+        },
+        {
+         "groupId": "OG001",
+         "value": "51"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "56"
+      },
+      {
+       "groupId": "OG001",
+       "value": "52"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "A TEAE is any adverse event (AE), whether or not considered drug-related, that develops or worsens in severity after study drug administration begins (ie, from the first administration in this extension through the end of the follow-up period).",
+   "groups": [
+    {
+     "description": "Administered via intramuscular (IM) injection once every 4 weeks.",
+     "id": "OG000",
+     "title": "Medisorb Naltrexone 380 mg"
+    },
+    {
+     "description": "Administered via IM injection once every 4 weeks.",
+     "id": "OG001",
+     "title": "Medisorb Naltrexone 190 mg"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Subjects who received at least 1 injection of study drug were included in the safety analyses",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to 3.5 years of monthly treatment",
+   "title": "Number of Participants Reporting at Least 1 Treatment-emergent Adverse Event (TEAE)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

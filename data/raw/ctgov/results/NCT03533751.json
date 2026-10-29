@@ -1,0 +1,183 @@
+{
+ "nctId": "NCT03533751",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-12.4066",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "27.8983",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "10.235",
+     "estimateComment": "Difference = Etokimab - Placebo",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.4498",
+     "paramType": "Least Squares (LS) Mean Difference",
+     "paramValue": "7.75",
+     "statisticalComment": "The p-value was obtained using a mixed effect analysis of covariance (ANCOVA) model with treatment as fixed effect and Baseline EASI as covariate.",
+     "statisticalMethod": "ANCOVA"
+    },
+    {
+     "ciLowerLimit": "-24.7740",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "12.1262",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "9.390",
+     "estimateComment": "Difference = Etokimab - Placebo",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.5010",
+     "paramType": "LS Mean Difference",
+     "paramValue": "-6.32",
+     "statisticalComment": "The p-value was obtained using a mixed effect ANCOVA model with treatment as fixed effect and Baseline EASI as covariate.",
+     "statisticalMethod": "ANCOVA"
+    },
+    {
+     "ciLowerLimit": "-16.6037",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "20.5476",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "9.454",
+     "estimateComment": "Difference = Etokimab - Placebo",
+     "groupIds": [
+      "OG000",
+      "OG003"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.8349",
+     "paramType": "LS Mean Difference",
+     "paramValue": "1.97",
+     "statisticalComment": "The p-value was obtained using a mixed effect ANCOVA model with treatment as fixed effect and Baseline EASI as covariate.",
+     "statisticalMethod": "ANCOVA"
+    },
+    {
+     "ciLowerLimit": "-17.1892",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "26.8275",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "11.154",
+     "estimateComment": "Difference = Etokimab - Placebo",
+     "groupIds": [
+      "OG000",
+      "OG004"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.6662",
+     "paramType": "LS Mean Difference",
+     "paramValue": "4.82",
+     "statisticalComment": "The p-value was obtained using a mixed effect ANCOVA model with treatment as fixed effect and Baseline EASI as covariate.",
+     "statisticalMethod": "ANCOVA"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "7.124",
+         "value": "-49.38"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "6.707",
+         "value": "-41.63"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "6.206",
+         "value": "-55.70"
+        },
+        {
+         "groupId": "OG003",
+         "spread": "6.091",
+         "value": "-47.40"
+        },
+        {
+         "groupId": "OG004",
+         "spread": "7.811",
+         "value": "-44.56"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "60"
+      },
+      {
+       "groupId": "OG001",
+       "value": "61"
+      },
+      {
+       "groupId": "OG002",
+       "value": "59"
+      },
+      {
+       "groupId": "OG003",
+       "value": "60"
+      },
+      {
+       "groupId": "OG004",
+       "value": "60"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "EASI measures the extent and severity of atopic eczema based on assessments of 4 body regions: head/neck, trunk, upper limbs and lower limbs. For each region the percentage of skin affected and the severity (scored as none \\[0\\], mild \\[1\\], moderate \\[2\\], or severe \\[3\\]) for symptoms such as redness (erythema), thickness (induration, papulation, and edema), scratching (excoriation), and lichenification (lined skin) are assessed. Total score is calculated by summing the EASI scores of 6 symptoms across 4 body regions. The EASI score ranges from 0 (no disease) to 72 (worse disease).",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Participants received matching placebo to etokimab, administered SC Q4W for up to 16 weeks.",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Participants received etokimab 20 mg administered SC Q4W for up to 16 weeks.",
+     "id": "OG001",
+     "title": "Etokimab 20 mg SC Q4W"
+    },
+    {
+     "description": "Participants received a 300 mg loading dose of etokimab on Day 1 then 150 mg etokimab administered SC every 8 weeks (Q8W) for up to 16 weeks. At Weeks 4 and 12 participants received placebo.",
+     "id": "OG002",
+     "title": "Etokimab 300 mg / 150 mg SC Q8W"
+    },
+    {
+     "description": "Participants received a 300 mg loading dose of etokimab on Day 1 then 150 mg etokimab administered SC Q4W for up to 16 weeks.",
+     "id": "OG003",
+     "title": "Etokimab 300 mg / 150 mg SC Q4W"
+    },
+    {
+     "description": "Participants received a 600 mg loading dose of etokimab on Day 1 then 300 mg etokimab administered SC Q4W for up to 16 weeks.",
+     "id": "OG004",
+     "title": "Etokimab 600 mg / 300 mg SC Q4W"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Full Analysis Set. Missing data were imputed using multiple imputation.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline and Week 16",
+   "title": "Percent Change From Baseline to Week 16 in Eczema Area and Severity Index (EASI) Score",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percent change"
+  }
+ ]
+}

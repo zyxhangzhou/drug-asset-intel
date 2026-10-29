@@ -1,0 +1,65 @@
+{
+ "nctId": "NCT00610935",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "81.3",
+         "upperLimit": "175.5",
+         "value": "118.3"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "81.7",
+         "upperLimit": "126.8",
+         "value": "103.9"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "24"
+      },
+      {
+       "groupId": "OG001",
+       "value": "55"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The primary efficacy endpoint was the time to alleviation of symptoms of influenza in subjects diagnosed with influenza, defined as the time from injection of study drug to the start of the time period when a subject had Alleviation of Symptoms. A subject had Alleviation of Symptoms if each of the seven symptoms of influenza (cough, sore throat, nasal obstruction, myalgia \\[aches and pains\\], headache, feverishness, and fatigue) as self-assessed and recorded in the subject diary were either absent or were present at no more than mild severity level and at this status for at least 21.5 hours (24 hours minus 10%). No statistical testing was performed.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Placebo intramuscular injection",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Single intramuscular injection of 300mg peramivir",
+     "id": "OG001",
+     "title": "Peramivir"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "A total of 80 subjects met the criteria for inclusion in the ITTI population as defined by a positive PCR assay for influenza A or B from the nasopharyngeal specimen obtained prior to administration of study treatment. Seventy-nine of these were included in the primary efficacy analysis for whom data for time to symptom alleviation were available; There was insufficient data from one subject in the placebo group to enable determination of the Time to Alleviation of Symptoms.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to 14 days",
+   "title": "The Time to Alleviation of Clinical Signs and Symptoms of Influenza",
+   "type": "PRIMARY",
+   "unitOfMeasure": "hours"
+  }
+ ]
+}

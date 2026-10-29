@@ -1,0 +1,60 @@
+{
+ "nctId": "NCT04802837",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "1"
+      },
+      {
+       "groupId": "OG001",
+       "value": "1"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Safety was assessed using CTCAE v4.",
+   "groups": [
+    {
+     "description": "Ridinilazole dosed BID and a comparator placebo dosed QID, to maintain blind, for 40 doses over 10 days.\n\nRidinilazole: Ridinilazole 200mg dosed BID for 10 days.",
+     "id": "OG000",
+     "title": "Ridinilazole"
+    },
+    {
+     "description": "Vancomycin dosed QID and a Ridinilazole placebo dosed BID, to maintain blind, for 40 doses over 10 days.\n\nVancomycin: Vancomycin 125mg dosed QID for 10 days.",
+     "id": "OG001",
+     "title": "Vancomycin"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "No analysis was done for study outcome measures due to the fact that enrollment in the clinical trial did not reach the target number of subjects needed prior to study termination and was insufficient to produce statistically reliable results.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Until study completion (Day 100)",
+   "title": "Incidence and Severity of Treatment-emergant Adverse Events",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

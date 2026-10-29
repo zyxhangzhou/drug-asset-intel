@@ -1,0 +1,50 @@
+{
+ "nctId": "NCT02742090",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "12.9",
+         "upperLimit": "24.8",
+         "value": "19.7"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "47"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "PFS was defined as the interval from Day 1 to the earlier of the first documentation of definitive disease progression (PD) or death from any cause. Participants who had no event (progression or death) were censored at the day of their last adequate disease assessment.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants received 800 mg of umbralisib, orally, once daily until disease progression, unacceptable toxicity or the end of the study for 60.7 months.\n\nUmbralisib: Umbralisib was administered as a tablet(s), orally once daily.",
+     "id": "OG000",
+     "title": "Umbralisib"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "The modified Intent to Treat (mITT) population included all participants who were treated with study drug and provided at least one efficacy assessment.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "From Day 1 to the earlier of the first documentation of definitive disease progression or death (Up to 61.7 months)",
+   "title": "Progression-free Survival",
+   "type": "PRIMARY",
+   "unitOfMeasure": "months"
+  }
+ ]
+}

@@ -1,0 +1,99 @@
+{
+ "nctId": "NCT02292186",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "25"
+        }
+       ]
+      }
+     ],
+     "title": "At least 1 AE (adverse event)"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "22"
+        }
+       ]
+      }
+     ],
+     "title": "At least 1 SAE (serious adverse event)"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "18"
+        }
+       ]
+      }
+     ],
+     "title": "Study discontinuation for any reason"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "25"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The proportion of subjects experiencing adverse events (AEs), serious adverse events (SAEs) and study \\[drug\\] discontinuation.",
+   "groups": [
+    {
+     "description": "All patients who received at least 1 dose of revusiran",
+     "id": "OG000",
+     "title": "Revusiran (ALN-TTRSC)"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Day 0 up to 90 days post modified early termination visit (end of study); Mean duration of collection was 16 months",
+   "title": "Safety and Tolerability Results of Long-term Dosing With ALN-TTRSC (Revusiran) Transthyretin (TTR) Cardiac Amyloidosis Patients.",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "0"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Pharmacodynamic (PD) effect of long-term dosing of ALN-TTRSC on serum levels of TTR",
+   "groups": [
+    {
+     "description": "All patients who received at least 1 dose of revusiran",
+     "id": "OG000",
+     "title": "Revusiran (ALN-TTRSC)"
+    }
+   ],
+   "populationDescription": "Long term samples not collected due to study termination; no data to analyze",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Day 0 up to 90 days post modified early termination visit (end of study); Mean duration of collection was 16 months",
+   "title": "Serum TTR Levels",
+   "type": "PRIMARY"
+  }
+ ]
+}

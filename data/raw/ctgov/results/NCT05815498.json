@@ -1,0 +1,829 @@
+{
+ "nctId": "NCT05815498",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "1.194",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "1.492",
+     "groupDescription": "Geometric mean ratio (GMR) of Omicron BA.4/5 mRNA-1283.222 over the Omicron BA.4/5 mRNA-1273.222 was the primary endpoint.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityComment": "Noninferiority margin for GMR was 0.667 (1/1.5).",
+     "nonInferiorityType": "NON_INFERIORITY",
+     "paramType": "GMR",
+     "paramValue": "1.335"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "2167.0",
+         "spread": "2167.0",
+         "upperLimit": "2528.8",
+         "value": "2340.9"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "1618.2",
+         "spread": "1618.2",
+         "upperLimit": "1900.7",
+         "value": "1753.8"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "621"
+      },
+      {
+       "groupId": "OG001",
+       "value": "568"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Antibody values reported as below the lower limit of quantification (LLOQ) were replaced by 0.5\\*LLOQ. Values greater than the upper limit of quantification (ULOQ) were replaced by the ULOQ if actual values were not available. LLOQ was 103 arbitrary units (AU)/milliliter (mL) and ULOQ was 28571 AU/mL.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants received single IM injection of mRNA-1283.222 on Day 1.",
+     "id": "OG000",
+     "title": "Part 1: mRNA-1283.222"
+    },
+    {
+     "description": "Participants received single IM injection of mRNA-1273.222 on Day 1.",
+     "id": "OG001",
+     "title": "Part 1: mRNA-1273.222"
+    }
+   ],
+   "paramType": "GEOMETRIC_MEAN",
+   "populationDescription": "PPIS included all randomized participants who received the planned dose of study vaccination, had baseline and Day 29 nAb data, and had no major protocol deviations that impacted key or critical data. 'Overall number of participants analyzed' = participants evaluable for this outcome measure.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Day 29",
+   "title": "Part 1: Geometric Mean (GM) of Omicron BA.4/5 at Day 29",
+   "type": "PRIMARY",
+   "unitOfMeasure": "AU/mL"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "9.3",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "19.4",
+     "groupDescription": "SRR difference of Omicron BA.4/5 between mRNA-1283.222 and mRNA-1273.222 was the primary endpoint.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityComment": "Noninferiority margin for SRR difference was 10%.",
+     "nonInferiorityType": "NON_INFERIORITY",
+     "paramType": "SRR Difference",
+     "paramValue": "14.4"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "76.5",
+         "spread": "76.5",
+         "upperLimit": "83.0",
+         "value": "79.9"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "61.4",
+         "spread": "61.4",
+         "upperLimit": "69.4",
+         "value": "65.5"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "621"
+      },
+      {
+       "groupId": "OG001",
+       "value": "568"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Seroresponse was defined as an antibody value change from baseline below the LLOQ to ≥4\\*LLOQ, or at least a 4-fold rise if baseline was ≥LLOQ and \\<4\\*LLOQ, or at least a 2-fold rise if baseline was ≥4\\*LLOQ, where baseline referred to pre-booster. LLOQ was 103 AU/mL and ULOQ was 28571 AU/mL.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants received single IM injection of mRNA-1283.222 on Day 1.",
+     "id": "OG000",
+     "title": "Part 1: mRNA-1283.222"
+    },
+    {
+     "description": "Participants received single IM injection of mRNA-1273.222 on Day 1.",
+     "id": "OG001",
+     "title": "Part 1: mRNA-1273.222"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "PPIS included all randomized participants who received the planned dose of study vaccination, had baseline and Day 29 (occurring between 21 and 42 days after vaccination) nAb data, and had no major protocol deviations that impacted key or critical data. 'Overall number of participants analyzed' = participants evaluable for this outcome measure.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Day 29",
+   "title": "Part 1: Seroresponse Rate (SRR) Omicron BA.4/5 at Day 29",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "1.128",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "1.362",
+     "groupDescription": "GMR of the ancestral SARS-CoV-2 D614G mRNA-1283.222 over the ancestral SARS-CoV-2 D614G mRNA-1273.222 was the primary endpoint.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityComment": "Noninferiority margin for GMR was 0.667 (1/1.5).",
+     "nonInferiorityType": "NON_INFERIORITY",
+     "paramType": "GMR",
+     "paramValue": "1.240"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "9960.2",
+         "spread": "9960.2",
+         "upperLimit": "11348.9",
+         "value": "10631.9"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "8012.5",
+         "spread": "8012.5",
+         "upperLimit": "9180.1",
+         "value": "8576.5"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "621"
+      },
+      {
+       "groupId": "OG001",
+       "value": "568"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Antibody values reported as below the LLOQ were replaced by 0.5\\*LLOQ. Values greater than the ULOQ were replaced by the ULOQ if actual values were not available. LLOQ was 10 AU/mL and ULOQ was 111433 AU/mL.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants received single IM injection of mRNA-1283.222 on Day 1.",
+     "id": "OG000",
+     "title": "Part 1: mRNA-1283.222"
+    },
+    {
+     "description": "Participants received single IM injection of mRNA-1273.222 on Day 1.",
+     "id": "OG001",
+     "title": "Part 1: mRNA-1273.222"
+    }
+   ],
+   "paramType": "GEOMETRIC_MEAN",
+   "populationDescription": "PPIS included all randomized participants who received the planned dose of study vaccination, had baseline and Day 29 nAb data, and had no major protocol deviations that impacted key or critical data. 'Overall number of participants analyzed' = participants evaluable for this outcome measure.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Day 29",
+   "title": "Part 1: GM of the Ancestral Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2) D614G at Day 29",
+   "type": "PRIMARY",
+   "unitOfMeasure": "AU/mL"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "6.0",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "15.4",
+     "groupDescription": "SRR difference of ancestral SARS-CoV-2 D641G between mRNA-1283.222 and mRNA-1273.222 was the primary endpoint.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityComment": "Noninferiority margin for SRR difference was 10%.",
+     "nonInferiorityType": "NON_INFERIORITY",
+     "paramType": "SRR Difference",
+     "paramValue": "10.7"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "80.4",
+         "spread": "80.4",
+         "upperLimit": "86.4",
+         "value": "83.6"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "69.0",
+         "spread": "69.0",
+         "upperLimit": "76.5",
+         "value": "72.9"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "621"
+      },
+      {
+       "groupId": "OG001",
+       "value": "568"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Seroresponse was defined as an antibody value change from baseline below the LLOQ to ≥4\\*LLOQ, or at least a 4-fold rise if baseline was ≥LLOQ and \\<4\\*LLOQ, or at least a 2-fold rise if baseline was ≥4\\*LLOQ, where baseline referred to pre-booster. LLOQ was 10 AU/mL and ULOQ was 111433AU/mL.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants received single IM injection of mRNA-1283.222 on Day 1.",
+     "id": "OG000",
+     "title": "Part 1: mRNA-1283.222"
+    },
+    {
+     "description": "Participants received single IM injection of mRNA-1273.222 on Day 1.",
+     "id": "OG001",
+     "title": "Part 1: mRNA-1273.222"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "PPIS included all randomized participants who received the planned dose of study vaccination, had baseline and Day 29 nAb data, and had no major protocol deviations that impacted key or critical data. 'Overall number of participants analyzed' = participants evaluable for this outcome measure.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Day 29",
+   "title": "Part 1: SRR of Ancestral SARS-CoV-2 D641G at Day 29",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-6.58",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "99.4",
+     "ciUpperLimit": "22.83",
+     "groupDescription": "Relative vaccine efficacy (rVE) of mRNA-1283 and mRNA-1273 (variant formulations) to prevent the first event of CDC-defined COVID-19 was the primary endpoint.\n\nrVE was defined as 1 - hazard ratio (mRNA-1283.222 versus mRNA-1273.222).",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityComment": "Noninferiority margin for rVE was 10%.",
+     "nonInferiorityType": "NON_INFERIORITY",
+     "pValue": "= 0.0005",
+     "paramType": "rVE",
+     "paramValue": "9.31",
+     "statisticalMethod": "Cox proportional hazard model"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "560"
+        },
+        {
+         "groupId": "OG001",
+         "value": "617"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "5679"
+      },
+      {
+       "groupId": "OG001",
+       "value": "5687"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "CDC COVID-19 definition: the presence of at least 1 CDC listed symptom and positive reverse transcriptase polymerase chain reaction (RT-PCR) test on a respiratory sample.",
+   "groups": [
+    {
+     "description": "Participants received single IM injection of mRNA-1283.222 on Day 1.",
+     "id": "OG000",
+     "title": "Part 1: mRNA-1283.222"
+    },
+    {
+     "description": "Participants received single IM injection of mRNA-1273.222 on Day 1.",
+     "id": "OG001",
+     "title": "Part 1: mRNA-1273.222"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "The Per-Protocol Set for Efficacy (PPSE) included all randomized participants who received the planned dose of study drug and had no major protocol deviations that impacted vaccine efficacy data. 'Overall number of participants analyzed' = participants evaluable for this outcome measure.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "From 14 days after injection up to Day 365",
+   "title": "Part 1: Number of Participants With First Event of Centers for Disease Control and Prevention (CDC)-Defined COVID-19",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "4571"
+        },
+        {
+         "groupId": "OG001",
+         "value": "4781"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "5702"
+      },
+      {
+       "groupId": "OG001",
+       "value": "5705"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Solicited ARs were recorded daily using electronic diaries (eDiaries). Local ARs: injection site pain, erythema (redness), swelling/induration (hardness); and axillary (underarm) swelling or tenderness ipsilateral to the side of injection. Systemic ARs: fever, headache, fatigue, myalgia, arthralgia, nausea/vomiting, and chills. Note, not all solicited ARs were considered adverse events (AEs). Investigator reviewed whether the solicited AR was also to be recorded as an AE. A Summary of serious AEs (SAEs) and nonserious AEs (\"Other\"), regardless of causality, is located in the \"Reported Adverse Events\" section.",
+   "groups": [
+    {
+     "description": "Participants received single IM injection of mRNA-1283.222 on Day 1.",
+     "id": "OG000",
+     "title": "Part 1: mRNA-1283.222"
+    },
+    {
+     "description": "Participants received single IM injection of mRNA-1273.222 on Day 1.",
+     "id": "OG001",
+     "title": "Part 1: mRNA-1273.222"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "The Solicited Safety Set included all randomized participants who received study drug and contributed any solicited AR data.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to Day 7 (7-day follow-up after vaccination)",
+   "title": "Part 1: Number of Participants With Solicited Local and Systemic Adverse Reactions (ARs)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "767"
+        },
+        {
+         "groupId": "OG001",
+         "value": "799"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "1052"
+      },
+      {
+       "groupId": "OG001",
+       "value": "1039"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Solicited ARs were recorded daily using eDiaries. Local ARs: injection site pain, erythema (redness), swelling/induration (hardness); and axillary (underarm) swelling or tenderness ipsilateral to the side of injection. Systemic ARs: fever, headache, fatigue, myalgia, arthralgia, nausea/vomiting, and chills. Note, not all solicited ARs were considered AEs. Investigator reviewed whether the solicited AR was also to be recorded as an AE. A Summary of SAEs and nonserious AEs (\"Other\"), regardless of causality, is located in the \"Reported Adverse Events\" section.",
+   "groups": [
+    {
+     "description": "Participants received a single IM injection of mRNA-1283.815 on Day 1.",
+     "id": "OG000",
+     "title": "Part 3: mRNA-1283.815"
+    },
+    {
+     "description": "Participants received a single IM injection of mRNA-1273.815 on Day 1.",
+     "id": "OG001",
+     "title": "Part 3: mRNA-1273.815"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "The Solicited Safety Set included all randomized participants who received study drug and contributed any solicited AR data.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to Day 7 (7-day follow-up after vaccination)",
+   "title": "Part 3: Number of Participants With Solicited Local and Systemic ARs",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "706"
+        },
+        {
+         "groupId": "OG001",
+         "value": "683"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "5706"
+      },
+      {
+       "groupId": "OG001",
+       "value": "5710"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "An unsolicited AE was defined as any AE reported by the participant that was not specified as a solicited AR in the protocol. An AE was defined as any untoward medical occurrence associated with the use of a drug in humans, whether or not considered drug related. A summary of all Serious Adverse Events and Other Adverse Events (nonserious) regardless of causality is located in the 'Reported Adverse Events' Section.",
+   "groups": [
+    {
+     "description": "Participants received single IM injection of mRNA-1283.222 on Day 1.",
+     "id": "OG000",
+     "title": "Part 1: mRNA-1283.222"
+    },
+    {
+     "description": "Participants received single IM injection of mRNA-1273.222 on Day 1.",
+     "id": "OG001",
+     "title": "Part 1: mRNA-1273.222"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "The Safety Set included all randomized participants who received study drug.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to Day 28 (28-day follow-up after vaccination)",
+   "title": "Part 1: Number of Participants With Unsolicited Adverse Events (AEs)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "73"
+        },
+        {
+         "groupId": "OG001",
+         "value": "76"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "1052"
+      },
+      {
+       "groupId": "OG001",
+       "value": "1039"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "An unsolicited AE was defined as any AE reported by the participant that was not specified as a solicited AR in the protocol. An AE was defined as any untoward medical occurrence associated with the use of a drug in humans, whether or not considered drug related. A summary of all Serious Adverse Events and Other Adverse Events (nonserious) regardless of causality is located in the 'Reported Adverse Events' Section.",
+   "groups": [
+    {
+     "description": "Participants received a single IM injection of mRNA-1283.815 on Day 1.",
+     "id": "OG000",
+     "title": "Part 3: mRNA-1283.815"
+    },
+    {
+     "description": "Participants received a single IM injection of mRNA-1273.815 on Day 1.",
+     "id": "OG001",
+     "title": "Part 3: mRNA-1273.815"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "The Safety Set included all randomized participants who received study drug.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to Day 28 (28-day follow-up after vaccination)",
+   "title": "Part 3: Number of Participants With Unsolicited AEs",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "203"
+        },
+        {
+         "groupId": "OG001",
+         "value": "197"
+        }
+       ]
+      }
+     ],
+     "title": "SAEs"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "2165"
+        },
+        {
+         "groupId": "OG001",
+         "value": "2120"
+        }
+       ]
+      }
+     ],
+     "title": "MAAEs"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "11"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ]
+      }
+     ],
+     "title": "AEs Leading to Withdrawal From Study"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "79"
+        },
+        {
+         "groupId": "OG001",
+         "value": "75"
+        }
+       ]
+      }
+     ],
+     "title": "AESIs"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "5706"
+      },
+      {
+       "groupId": "OG001",
+       "value": "5710"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "SAEs were AEs that resulted in death, were life threatening, required inpatient hospitalization or prolongation of existing hospitalization, resulted in persistent or significant incapacity or substantial disruption of the ability to conduct normal life functions, a congenital anomaly or birth defect, or was a medically important event. MAAEs were AEs that lead to an unscheduled visit to a healthcare provider. AESIs were AEs (serious or nonserious) of scientific and medical concern specific to the Sponsor's product or program for which ongoing monitoring and immediate notification by the investigator to the Sponsor was required. AEs leading to the withdrawal from study reported for this endpoint also include the AEs that led to death. A summary of all Serious Adverse Events and Other Adverse Events (nonserious) regardless of causality is located in the 'Reported Adverse Events' Section.",
+   "groups": [
+    {
+     "description": "Participants received single IM injection of mRNA-1283.222 on Day 1.",
+     "id": "OG000",
+     "title": "Part 1: mRNA-1283.222"
+    },
+    {
+     "description": "Participants received single IM injection of mRNA-1273.222 on Day 1.",
+     "id": "OG001",
+     "title": "Part 1: mRNA-1273.222"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "The Safety Set included all randomized participants who received study drug.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Day 1 up to Day 365",
+   "title": "Part 1: Number of Participants With Any Serious AEs (SAEs), Medically Attended AEs (MAAEs), AEs Leading to Withdrawal From Study, and AEs of Special Interest (AESIs)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "15"
+        },
+        {
+         "groupId": "OG001",
+         "value": "20"
+        }
+       ]
+      }
+     ],
+     "title": "SAEs"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "140"
+        },
+        {
+         "groupId": "OG001",
+         "value": "126"
+        }
+       ]
+      }
+     ],
+     "title": "MAAEs"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1"
+        },
+        {
+         "groupId": "OG001",
+         "value": "1"
+        }
+       ]
+      }
+     ],
+     "title": "AEs Leading to Withdrawal From Study"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "2"
+        },
+        {
+         "groupId": "OG001",
+         "value": "5"
+        }
+       ]
+      }
+     ],
+     "title": "AESIs"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "1052"
+      },
+      {
+       "groupId": "OG001",
+       "value": "1039"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "SAEs were AEs that resulted in death, were life threatening, required inpatient hospitalization or prolongation of existing hospitalization, resulted in persistent or significant incapacity or substantial disruption of the ability to conduct normal life functions, a congenital anomaly or birth defect, or was a medically important event. MAAEs were AEs that lead to an unscheduled visit to a healthcare provider. AESIs were AEs (serious or nonserious) of scientific and medical concern specific to the Sponsor's product or program for which ongoing monitoring and immediate notification by the investigator to the Sponsor was required. AEs leading to the withdrawal from study reported for this endpoint also include the AEs that led to death. A summary of all Serious Adverse Events and Other Adverse Events (nonserious) regardless of causality is located in the 'Reported Adverse Events' Section.",
+   "groups": [
+    {
+     "description": "Participants received a single IM injection of mRNA-1283.815 on Day 1.",
+     "id": "OG000",
+     "title": "Part 3: mRNA-1283.815"
+    },
+    {
+     "description": "Participants received a single IM injection of mRNA-1273.815 on Day 1.",
+     "id": "OG001",
+     "title": "Part 3: mRNA-1273.815"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "The Safety Set included all randomized participants who received study drug.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Day 1 up to Day 181",
+   "title": "Part 3: Number of Participants With Any SAEs, MAAEs, AEs Leading to Withdrawal From Study, and AESIs",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

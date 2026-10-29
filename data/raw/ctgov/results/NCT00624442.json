@@ -1,0 +1,554 @@
+{
+ "nctId": "NCT00624442",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-7",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "8",
+     "groupDescription": "Placebo corrected change from baseline least squares mean +/- the standard error of the mean",
+     "groupIds": [
+      "OG000"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+     "pValue": "0.8842",
+     "pValueComment": "p-value is not adjusted for multiple comparison Threshold for statistical significance: p\\<0.05",
+     "paramType": "LSM placebo corrected diff from baseline",
+     "paramValue": "1",
+     "statisticalComment": "ANCOVA analysis is based on the following model: CFB Parameter = Bin Group + Baseline + Error, treating patients as a random effect.",
+     "statisticalMethod": "ANCOVA"
+    },
+    {
+     "ciLowerLimit": "10",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "27",
+     "groupDescription": "Placebo corrected change from baseline least squares mean +/- the standard error of the mean",
+     "groupIds": [
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+     "pValue": "<0.0001",
+     "pValueComment": "p-value is not adjusted for multiple comparison Threshold for statistical significance: p\\<0.05",
+     "paramType": "LSM placebo corrected diff from baseline",
+     "paramValue": "18",
+     "statisticalComment": "ANCOVA analysis is based on the following model: CFB Parameter = Bin Group + Baseline + Error, treating patients as a random effect.",
+     "statisticalMethod": "ANCOVA"
+    },
+    {
+     "ciLowerLimit": "38",
+     "ciPctValue": "95",
+     "ciUpperLimit": "56",
+     "groupDescription": "Placebo corrected change from baseline least squares mean +/- the standard error of the mean",
+     "groupIds": [
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+     "pValue": "<0.0001",
+     "pValueComment": "p-value is not adjusted for multiple comparison Threshold for statistical significance: p\\<0.05",
+     "paramType": "LSM placebo corrected diff from baseline",
+     "paramValue": "47",
+     "statisticalComment": "ANCOVA analysis is based on the following model: CFB Parameter = Bin Group + Baseline + Error, treating patients as a random effect.",
+     "statisticalMethod": "ANCOVA"
+    },
+    {
+     "ciLowerLimit": "46",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "70",
+     "groupDescription": "Placebo corrected change from baseline least squares mean +/- the standard error of the mean",
+     "groupIds": [
+      "OG003"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+     "pValue": "<0.0001",
+     "pValueComment": "p-value is not adjusted for multiple comparison Threshold for statistical significance: p\\<0.05",
+     "paramType": "LSM placebo corrected diff from baseline",
+     "paramValue": "58",
+     "statisticalComment": "ANCOVA analysis is based on the following model: CFB Parameter = Bin Group + Baseline + Error, treating patients as a random effect.",
+     "statisticalMethod": "ANCOVA"
+    },
+    {
+     "ciLowerLimit": "47",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "72",
+     "groupDescription": "Placebo corrected change from baseline least squares mean +/- the standard error of the mean",
+     "groupIds": [
+      "OG004"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+     "pValue": "<0.0001",
+     "pValueComment": "p-value is not adjusted for multiple comparison Threshold for statistical significance: p\\<0.05",
+     "paramType": "LSM placebo corrected diff from baseline",
+     "paramValue": "59",
+     "statisticalComment": "ANCOVA analysis is based on the following model: CFB Parameter = Bin Group + Baseline + Error, treating patients as a random effect.",
+     "statisticalMethod": "ANCOVA"
+    },
+    {
+     "ciLowerLimit": "71",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "89",
+     "groupDescription": "Placebo corrected change from baseline least squares mean +/- the standard error of the mean",
+     "groupIds": [
+      "OG005"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+     "pValue": "<0.0001",
+     "pValueComment": "p-value is not adjusted for multiple comparison Threshold for statistical significance: p\\<0.05",
+     "paramType": "LSM placebo corrected diff from baseline",
+     "paramValue": "80",
+     "statisticalComment": "ANCOVA analysis is based on the following model: CFB Parameter = Bin Group + Baseline + Error, treating patients as a random effect.",
+     "statisticalMethod": "ANCOVA"
+    },
+    {
+     "ciPctValue": "95",
+     "groupDescription": "All available concentration data are used in the model as a continuous variable.\n\np-value based on individual plasma concentration of CK-1827452 vs. corresponding systolic ejection time PD assessment (not binned based on plasma concentration)",
+     "groupIds": [
+      "OG000",
+      "OG001",
+      "OG002",
+      "OG003",
+      "OG004",
+      "OG005"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+     "pValue": "<0.0001",
+     "pValueComment": "Threshold for statistical significance: p\\<0.05",
+     "statisticalComment": "ANCOVA analysis based on the following model: Change from baseline = Concentration + Baseline + Error, treating patients as random effect",
+     "statisticalMethod": "ANCOVA"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0",
+         "value": "84"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0",
+         "value": "62"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "0",
+         "value": "42"
+        },
+        {
+         "groupId": "OG003",
+         "spread": "0",
+         "value": "24"
+        },
+        {
+         "groupId": "OG004",
+         "spread": "0",
+         "value": "20"
+        },
+        {
+         "groupId": "OG005",
+         "spread": "0",
+         "value": "46"
+        }
+       ]
+      }
+     ],
+     "title": "# of Echocardiographic Observations (no units)"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "4",
+         "value": "1"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "4",
+         "value": "18"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "5",
+         "value": "47"
+        },
+        {
+         "groupId": "OG003",
+         "spread": "6",
+         "value": "58"
+        },
+        {
+         "groupId": "OG004",
+         "spread": "6",
+         "value": "59"
+        },
+        {
+         "groupId": "OG005",
+         "spread": "5",
+         "value": "80"
+        }
+       ]
+      }
+     ],
+     "title": "Ejection Fraction msec Change from Baseline"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "32"
+      },
+      {
+       "groupId": "OG001",
+       "value": "30"
+      },
+      {
+       "groupId": "OG002",
+       "value": "27"
+      },
+      {
+       "groupId": "OG003",
+       "value": "22"
+      },
+      {
+       "groupId": "OG004",
+       "value": "17"
+      },
+      {
+       "groupId": "OG005",
+       "value": "25"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Pooled analysis of the echocardiographic measure systolic ejection time from echocardiograms taken at all timepoints. The systolic ejection time is the period during which the aortic valve is open and blood is flowing across the valve. Echocardiograms from cohorts 1,2,3,4 and 5 (564 echocardiograms) were binned into either placebo group or 1 of 6 groups based on plasma concentration of CK-1827452.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Measurements pooled by plasma concentration of CK-1827452 at time of pharmacodynamic measure. Measurements at any dose level or timepoint could contribute to this bin.",
+     "id": "OG000",
+     "title": ">0-100 ng/mL"
+    },
+    {
+     "description": "Measurements pooled by plasma concentration of CK-1827452 at time of pharmacodynamic measure. Measurements at any dose level or timepoint could contribute to this bin.",
+     "id": "OG001",
+     "title": ">100-200 ng/mL"
+    },
+    {
+     "description": "Measurements pooled by plasma concentration of CK-1827452 at time of pharmacodynamic measure. Measurements at any dose level or timepoint could contribute to this bin.",
+     "id": "OG002",
+     "title": ">200-300 ng/mL"
+    },
+    {
+     "description": "Measurements pooled by plasma concentration of CK-1827452 at time of pharmacodynamic measure. Measurements at any dose level or timepoint could contribute to this bin.",
+     "id": "OG003",
+     "title": ">300-400 ng/mL"
+    },
+    {
+     "description": "Measurements pooled by plasma concentration of CK-1827452 at time of pharmacodynamic measure. Measurements at any dose level or timepoint could contribute to this bin.",
+     "id": "OG004",
+     "title": ">400-500 ng/mL"
+    },
+    {
+     "description": "Measurements pooled by plasma concentration of CK-1827452 at time of pharmacodynamic measure. Measurements at any dose level or timepoint could contribute to this bin.",
+     "id": "OG005",
+     "title": ">500 ng/mL"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Pharmacodynamic Population. 4-way crossover design for cohorts 1-4 and 2-way crossover for cohort 5 requires multiple dosing events per participant. Also, multiple PK/PD assessments occur per dosing event.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "4 days",
+   "title": "Change From Baseline of Systolic Ejection Time at Various CK-1827452 Plasma Concentrations",
+   "type": "PRIMARY",
+   "unitOfMeasure": "msec"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-1",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "2",
+     "groupDescription": "Placebo corrected change from baseline least squares mean +/- the standard error of the mean",
+     "groupIds": [
+      "OG000"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+     "pValue": "0.3665",
+     "pValueComment": "p-value is not adjusted for multiple comparison Threshold for statistical significance: p\\<0.05",
+     "paramType": "LSM placebo corrected diff from baseline",
+     "paramValue": "1",
+     "statisticalComment": "ANCOVA analysis is based on the following model: CFB Parameter = Bin Group + Baseline + Error, treating patients as a random effect.",
+     "statisticalMethod": "ANCOVA"
+    },
+    {
+     "ciLowerLimit": "0",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "3",
+     "groupDescription": "Placebo corrected change from baseline least squares mean +/- the standard error of the mean",
+     "groupIds": [
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+     "pValue": "<0.0357",
+     "pValueComment": "p-value is not adjusted for multiple comparison Threshold for statistical significance: p\\<0.05",
+     "paramType": "LSM placebo corrected diff from baseline",
+     "paramValue": "1",
+     "statisticalComment": "ANCOVA analysis is based on the following model: CFB Parameter = Bin Group + Baseline + Error, treating patients as a random effect.",
+     "statisticalMethod": "ANCOVA"
+    },
+    {
+     "ciLowerLimit": "1",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "5",
+     "groupDescription": "Placebo corrected change from baseline least squares mean +/- the standard error of the mean",
+     "groupIds": [
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+     "pValue": "0.0004",
+     "pValueComment": "p-value is not adjusted for multiple comparison Threshold for statistical significance: p\\<0.05",
+     "paramType": "LSM placebo corrected diff from baseline",
+     "paramValue": "3",
+     "statisticalComment": "ANCOVA analysis is based on the following model: CFB Parameter = Bin Group + Baseline + Error, treating patients as a random effect.",
+     "statisticalMethod": "ANCOVA"
+    },
+    {
+     "ciLowerLimit": "1",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "4",
+     "groupDescription": "Placebo corrected change from baseline least squares mean +/- the standard error of the mean",
+     "groupIds": [
+      "OG003"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+     "pValue": "0.0086",
+     "pValueComment": "p-value is not adjusted for multiple comparison Threshold for statistical significance: p\\<0.05",
+     "paramType": "LSM placebo corrected diff from baseline",
+     "paramValue": "3",
+     "statisticalComment": "ANCOVA analysis is based on the following model: CFB Parameter = Bin Group + Baseline + Error, treating patients as a random effect.",
+     "statisticalMethod": "ANCOVA"
+    },
+    {
+     "ciLowerLimit": "0",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "5",
+     "groupDescription": "Placebo corrected change from baseline least squares mean +/- the standard error of the mean",
+     "groupIds": [
+      "OG004"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+     "pValue": "0.032",
+     "pValueComment": "p-value is not adjusted for multiple comparison Threshold for statistical significance: p\\<0.05",
+     "paramType": "LSM placebo corrected diff from baseline",
+     "paramValue": "2",
+     "statisticalComment": "ANCOVA analysis is based on the following model: CFB Parameter = Bin Group + Baseline + Error, treating patients as a random effect.",
+     "statisticalMethod": "ANCOVA"
+    },
+    {
+     "ciLowerLimit": "3",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "6",
+     "groupDescription": "Placebo corrected change from baseline least squares mean +/- the standard error of the mean",
+     "groupIds": [
+      "OG005"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+     "pValue": "<0.0001",
+     "pValueComment": "p-value is not adjusted for multiple comparison Threshold for statistical significance: p\\<0.05",
+     "paramType": "LSM placebo corrected diff from baseline",
+     "paramValue": "5",
+     "statisticalComment": "ANCOVA analysis is based on the following model: CFB Parameter = Bin Group + Baseline + Error, treating patients as a random effect.",
+     "statisticalMethod": "ANCOVA"
+    },
+    {
+     "ciPctValue": "95",
+     "groupDescription": "All available concentration data are used in the model as a continuous variable.\n\np-value based on individual plasma concentration of CK-1827452 vs. corresponding fractional shortening PD assessment (not binned based on plasma concentration)",
+     "groupIds": [
+      "OG000",
+      "OG001",
+      "OG002",
+      "OG003",
+      "OG004",
+      "OG005"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+     "pValue": "<0.0001",
+     "pValueComment": "Threshold for statistical significance: p\\<0.05",
+     "statisticalComment": "ANCOVA analysis based on the following model: Change from baseline = Concentration + Baseline + Error, treating patients as random effect",
+     "statisticalMethod": "ANCOVA"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0",
+         "value": "81"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0",
+         "value": "56"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "0",
+         "value": "37"
+        },
+        {
+         "groupId": "OG003",
+         "spread": "0",
+         "value": "23"
+        },
+        {
+         "groupId": "OG004",
+         "spread": "0",
+         "value": "17"
+        },
+        {
+         "groupId": "OG005",
+         "spread": "0",
+         "value": "44"
+        }
+       ]
+      }
+     ],
+     "title": "# of Echocardiographic Observations (no units)"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "1",
+         "value": "1"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "1",
+         "value": "1"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "1",
+         "value": "3"
+        },
+        {
+         "groupId": "OG003",
+         "spread": "1",
+         "value": "3"
+        },
+        {
+         "groupId": "OG004",
+         "spread": "1",
+         "value": "2"
+        },
+        {
+         "groupId": "OG005",
+         "spread": "1",
+         "value": "5"
+        }
+       ]
+      }
+     ],
+     "title": "Fractional Shortening Percent Change from Baseline"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "31"
+      },
+      {
+       "groupId": "OG001",
+       "value": "28"
+      },
+      {
+       "groupId": "OG002",
+       "value": "25"
+      },
+      {
+       "groupId": "OG003",
+       "value": "21"
+      },
+      {
+       "groupId": "OG004",
+       "value": "14"
+      },
+      {
+       "groupId": "OG005",
+       "value": "23"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Pooled analysis of the echocardiographic measure fractional shortening from echocardiograms taken at all timepoints. Fractional shortening is the percentage of change from baseline in the left ventricular cavity dimension with systole. Echocardiograms from cohorts 1,2,3,4 and 5 (564 echocardiograms) were binned into either placebo group or 1 of 6 groups based on plasma concentration of CK-1827452.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Measurements pooled by plasma concentration of CK-1827452 at time of pharmacodynamic measure. Measurements at any dose level or timepoint could contribute to this bin.",
+     "id": "OG000",
+     "title": ">0-100 ng/mL"
+    },
+    {
+     "description": "Measurements pooled by plasma concentration of CK-1827452 at time of pharmacodynamic measure. Measurements at any dose level or timepoint could contribute to this bin.",
+     "id": "OG001",
+     "title": ">100-200 ng/mL"
+    },
+    {
+     "description": "Measurements pooled by plasma concentration of CK-1827452 at time of pharmacodynamic measure. Measurements at any dose level or timepoint could contribute to this bin.",
+     "id": "OG002",
+     "title": ">200-300 ng/mL"
+    },
+    {
+     "description": "Measurements pooled by plasma concentration of CK-1827452 at time of pharmacodynamic measure. Measurements at any dose level or timepoint could contribute to this bin.",
+     "id": "OG003",
+     "title": ">300-400 ng/mL"
+    },
+    {
+     "description": "Measurements pooled by plasma concentration of CK-1827452 at time of pharmacodynamic measure. Measurements at any dose level or timepoint could contribute to this bin.",
+     "id": "OG004",
+     "title": ">400-500 ng/mL"
+    },
+    {
+     "description": "Measurements pooled by plasma concentration of CK-1827452 at time of pharmacodynamic measure. Measurements at any dose level or timepoint could contribute to this bin.",
+     "id": "OG005",
+     "title": ">500 ng/mL"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Pharmacodynamic Population. 4-way crossover design for cohorts 1-4 and 2-way crossover for cohort 5 requires multiple dosing events per participant. Also, multiple PK/PD assessments occur per dosing event.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "4 days",
+   "title": "Change From Baseline of Fractional Shortening at Various CK-1827452 Plasma Concentrations",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Percentage of change"
+  }
+ ]
+}

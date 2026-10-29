@@ -1,0 +1,82 @@
+{
+ "nctId": "NCT02647359",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-21.914",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "43.434",
+     "groupDescription": "Analysis was performed using analysis of covariance (ANCOVA) with age and baseline Maximum Reading Speed (both eyes) as covariates, and treatment as a factor.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "OTHER",
+     "pValue": "0.4868",
+     "pValueComment": "Threshold for significance at 0.05 level.",
+     "paramType": "Least Square (LS) Mean Difference",
+     "paramValue": "10.76",
+     "statisticalMethod": "ANCOVA"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "7.425",
+         "value": "9.87"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "11.809",
+         "value": "-0.89"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "11"
+      },
+      {
+       "groupId": "OG001",
+       "value": "5"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "MNREAD Acuity Chart can only be used to assess participants ≥8 years old. MNREAD Acuity Chart measures reading speed as a function of print size in participants with normal and low vision. The test consists of short sentences with print size decreasing by 0.1 log unit steps from a maximum of 1.3 logarithm of the minimum angle of resolution (logMAR) (equivalent to 20/400 or 6/120 when viewed at 40 centimeters \\[cm\\]) to -0.5 logMAR (equivalent to 20/6 or 6/2). An MNREAD Acuity Chart curve of reading speed vs print size has a typical shape for normally sighted persons and many low-vision individuals. This curve is characterized by 3 summary values. At large print sizes, reading speed remains fairly constant, forming a plateau that represents the maximum reading speed. As the print size decreases, a critical print size (CPS) is reached at which reading speed begins to decline rapidly. Finally, the smallest print size that can be read is defined as the reading acuity (RA).",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Participants received ataluren orally TID at a dose of 10 mg/kg in the morning, 10 mg/kg at midday, and 20 mg/kg in the evening for 48 weeks in Stage 1 (double-masked period) and for additional 96 weeks in Stage 2 (open-label extension period). Participants, who completed Stage 2 and agreed to continue in open-label sub-study, continued to receive ataluren treatment at same dose as mentioned above, for 96 weeks.",
+     "id": "OG000",
+     "title": "Ataluren"
+    },
+    {
+     "description": "Participants received placebo matched to ataluren TID orally in the morning, at midday, and in the evening for 48 weeks in Stage 1 (double-masked period) and ataluren orally TID at a dose of 10 mg/kg in the morning, 10 mg/kg at midday, and 20 mg/kg in the evening for additional 96 weeks in Stage 2 (open-label extension period). Participants, who completed Stage 2 and agreed to continue in open-label sub-study, continued to receive ataluren treatment at same dose as mentioned above, for 96 weeks.",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "The intent-to-treat (ITT) population included all randomized participants who received at least 1 dose of study drug. Here, 'Overall number of participants analyzed' = participants evaluable for this outcome measure.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Week 48",
+   "title": "Percent Change From Baseline in Maximum Reading Speed of Oculus Unitas (OU) (Both Eyes) at Week 48, as Measured Using the Minnesota Low Vision Reading Test (MNREAD) Acuity Charts",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percent change"
+  }
+ ]
+}

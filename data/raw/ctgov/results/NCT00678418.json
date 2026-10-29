@@ -1,0 +1,81 @@
+{
+ "nctId": "NCT00678418",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciPctValue": "95",
+     "groupDescription": "Null hypothesis = the distribution function of opioid-free weeks is the same for both treatment groups.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+     "pValue": "0.0002",
+     "statisticalMethod": "Van der Waerden",
+     "testedNonInferiority": false
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "20.0",
+         "spread": "40.1",
+         "upperLimit": "100.0",
+         "value": "90.0"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "0.0",
+         "spread": "43.3",
+         "upperLimit": "95.0",
+         "value": "35.0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "126"
+      },
+      {
+       "groupId": "OG001",
+       "value": "124"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Included are data from the last 20 weeks of the 24-week double-blind treatment period (Part A). Response profiles for each Arm are based on subjects' individual rates of weekly opioid-free data, including negative urine test results, attendance at study visits, and self-reports of opioid use/non-use.",
+   "dispersionType": "Inter-Quartile Range",
+   "groups": [
+    {
+     "description": "Single intramuscular (IM) injection administered every 4 weeks",
+     "id": "OG000",
+     "title": "VIVITROL® 380 mg"
+    },
+    {
+     "description": "Single intramuscular (IM) injection administered every 4 weeks",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "Analyses include all randomized subjects who received at least 1 dose of study drug (Intent-to-treat \\[ITT\\] population).",
+   "reportingStatus": "POSTED",
+   "timeFrame": "20 weeks",
+   "title": "Percentage (%) of Opioid-free Weeks Per Subject in Double-blind Period (Part A)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Percentage of opioid-free weeks"
+  }
+ ]
+}

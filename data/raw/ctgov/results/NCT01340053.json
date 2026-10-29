@@ -1,0 +1,91 @@
+{
+ "nctId": "NCT01340053",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "2.03",
+         "value": "1.01"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "2.09",
+         "value": "1.50"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "2.10",
+         "value": "1.54"
+        },
+        {
+         "groupId": "OG003",
+         "spread": "2.50",
+         "value": "1.57"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "47"
+      },
+      {
+       "groupId": "OG001",
+       "value": "45"
+      },
+      {
+       "groupId": "OG002",
+       "value": "47"
+      },
+      {
+       "groupId": "OG003",
+       "value": "46"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Patients complete a phone diary daily. They are asked \"how many bowel movements have you had today?\" they are then asked for each spontaneous bowel movement (unaided with laxative use) wether there was its was a complete evacuation. if it was then it is a complete spontaneous bowel movement. All CSBMs are added and adjusted for a mean compete sponteneous bowel movement.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "RDX5791: Capsule, QD",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "RDX5791: Capsule, QD",
+     "id": "OG001",
+     "title": "Low Dose"
+    },
+    {
+     "description": "RDX5791: Capsule, QD",
+     "id": "OG002",
+     "title": "Mid Dose"
+    },
+    {
+     "description": "RDX5791: Capsule, QD",
+     "id": "OG003",
+     "title": "High Dose"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "All patients randomized who received at least one dose of drug",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline and Week 4",
+   "title": "Complete Spontaneous Bowel Movement (CSBM) Frequency Change From Baseline",
+   "type": "PRIMARY",
+   "unitOfMeasure": "number of bowel movements/week"
+  }
+ ]
+}

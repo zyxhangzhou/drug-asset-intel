@@ -1,0 +1,75 @@
+{
+ "nctId": "NCT04083222",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "< 0.001",
+     "pValueComment": "P-value was analyzed using Analysis of Variance (ANOVA) with treatment and screening angiotensin-converting enzyme inhibitor/ angiotensin receptor blockers (ACEi/ARB) dose status stratification factor.",
+     "statisticalMethod": "ANOVA"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "17.8",
+         "value": "-3.4"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "14.1",
+         "value": "-67.4"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "8"
+      },
+      {
+       "groupId": "OG001",
+       "value": "16"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The baseline for plasma AGT was defined as the average of all values prior to the first dose of study drug.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants received ISIS 757456-matching placebo, SC injection, once-weekly for 8 weeks and an additional loading dose on Day 3.",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Participants received ISIS 757456 80 mg, SC injection, once-weekly for 8 weeks and an additional loading dose on Day 3.",
+     "id": "OG001",
+     "title": "ISIS 757456"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "PPS included all randomized participants who had at least 1 post-baseline efficacy or exploratory measurement, received at least 7 of the 9 doses of study drug, did not alter antihypertensive medications during the treatment period and prior to Day 57, and had no significant protocol deviations that would have been expected to affect efficacy or exploratory assessments.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline up to Day 57 (start of Week 9)",
+   "title": "Percent Change From Baseline in Plasma Angiotensinogen (AGT) at Day 57 Compared to Placebo",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percent change"
+  }
+ ]
+}

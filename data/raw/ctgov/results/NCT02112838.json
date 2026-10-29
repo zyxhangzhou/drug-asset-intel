@@ -1,0 +1,108 @@
+{
+ "nctId": "NCT02112838",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-910.6",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "950.5",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.97",
+     "paramType": "Mean Difference (Final Values)",
+     "paramValue": "19.9",
+     "statisticalMethod": "ANCOVA"
+    },
+    {
+     "ciLowerLimit": "-1320.8",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "521.3",
+     "groupIds": [
+      "OG001",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.40",
+     "paramType": "Mean Difference (Final Values)",
+     "paramValue": "-399.7",
+     "statisticalMethod": "ANCOVA"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "345.6",
+         "value": "-157.5"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "335.7",
+         "value": "-577.2"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "342.4",
+         "value": "-177.4"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "25"
+      },
+      {
+       "groupId": "OG001",
+       "value": "26"
+      },
+      {
+       "groupId": "OG002",
+       "value": "25"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Mean change from Baseline (Visit 2) of proteinuria as measured by the spot Protein-Creatinine Ratio (sPCR) at 24 weeks (Visit 9) for the ITT Population",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Fostamatinib 150 milligram (mg) tablet twice daily by mouth, over the course of 24 weeks\n\nFostamatinib 150 mg: Fostamatinib 150 milligram (mg) tablet twice daily by mouth, over the course of 24 weeks",
+     "id": "OG000",
+     "title": "Fostamatinib 150 mg"
+    },
+    {
+     "description": "Fostamatinib 100 mg tablet twice daily by mouth, over the course of 24 weeks\n\nFostamatinib 100 mg: Fostamatinib 100 mg tablet twice daily by mouth, over the course of 24 weeks",
+     "id": "OG001",
+     "title": "Fostamatinib 100 mg"
+    },
+    {
+     "description": "Placebo tablet twice daily by mouth, over the course of 24 weeks\n\nPlacebo: Placebo tablet twice daily by mouth, over the course of 24 weeks",
+     "id": "OG002",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline to 24 weeks",
+   "title": "Mean Change of Proteinuria as Measured by Spot Urine Protein/Creatinine Ratio (sPCR) at Week 24",
+   "type": "PRIMARY",
+   "unitOfMeasure": "mg/g"
+  }
+ ]
+}

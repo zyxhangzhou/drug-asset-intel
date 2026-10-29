@@ -1,0 +1,140 @@
+{
+ "nctId": "NCT01068782",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "5"
+        },
+        {
+         "groupId": "OG001",
+         "value": "3"
+        },
+        {
+         "groupId": "OG002",
+         "value": "6"
+        },
+        {
+         "groupId": "OG003",
+         "value": "4"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "5"
+      },
+      {
+       "groupId": "OG001",
+       "value": "4"
+      },
+      {
+       "groupId": "OG002",
+       "value": "6"
+      },
+      {
+       "groupId": "OG003",
+       "value": "4"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "An AE was defined as any event with an onset date on or after the date of first dose of study drug, or any ongoing event on the date of first dose that worsened in severity after the date of first dose. TEAEs were defined as AEs that started on or after the first administration of study drug up to the date of last dose plus 30 days. A summary of serious and non-serious AEs regardless of causality is located in 'Reported Adverse Events module'.",
+   "groups": [
+    {
+     "description": "cabozantinib, 25 mg, po QD continuously",
+     "id": "OG000",
+     "title": "Arm 1"
+    },
+    {
+     "description": "cabozantinib, 75 mg, po QD continuously",
+     "id": "OG001",
+     "title": "Arm 2"
+    },
+    {
+     "description": "cabozantinib, starting dose of 125 mg, po QD for 2 weeks, followed by 50 mg, po QD for the remainder of the treatment period.",
+     "id": "OG002",
+     "title": "Arm 3"
+    },
+    {
+     "description": "cabozantinib, starting dose was 125 mg, po QD for 2 weeks, followed by 1 week off.\n\nFor the remainder of the treatment, the dosing frequency was reduced to 125 mg, po QD every 3 weeks, followed by 1 week of rest for the remainder of the treatment period.",
+     "id": "OG003",
+     "title": "Arm 4"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "The safety population included all participants who enrolled and received at least one dose of study drug.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to 13 months",
+   "title": "Randomized Phase: Number of Participants With Treatment Emergent Adverse Events (TEAEs)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "calculatePct": false,
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "0"
+      },
+      {
+       "groupId": "OG001",
+       "value": "0"
+      },
+      {
+       "groupId": "OG002",
+       "value": "0"
+      },
+      {
+       "groupId": "OG003",
+       "value": "0"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "ORR was defined as the number of participants for whom the best overall response at the time of data cutoff is confirmed complete response (CR) or confirmed partial response (PR) as assessed per modified Response Assessment in Neuro-Oncology (RANO) criteria. CR = Disappearance of all enhancing target lesion(s) and no glucocorticoids (other than a physiologic replacement dose of a maximum of 1.2 mg dexamethasone equivalent dose per day) taken for the 5 days immediately preceding the date of the current magnetic resonance imaging (MRI). PR = ≥50% decrease in the sum of the products of perpendicular diameters of all target enhancing lesions on the current MRI scan compared to the baseline MRI scan and glucocorticoids stable or decreased. The sponsor terminated the study early due to business reasons before entering the expansion phase. As such, no data were collected for efficacy analyses.",
+   "groups": [
+    {
+     "description": "cabozantinib, 25 mg, po QD continuously",
+     "id": "OG000",
+     "title": "Arm 1"
+    },
+    {
+     "description": "cabozantinib, 75 mg, po QD continuously",
+     "id": "OG001",
+     "title": "Arm 2"
+    },
+    {
+     "description": "cabozantinib, starting dose of 125 mg, po QD for 2 weeks, followed by 50 mg, po QD for the remainder of the treatment period.",
+     "id": "OG002",
+     "title": "Arm 3"
+    },
+    {
+     "description": "cabozantinib, starting dose was 125 mg, po QD for 2 weeks, followed by 1 week off.\n\nFor the remainder of the treatment, the dosing frequency was reduced to 125 mg, po QD every 3 weeks, followed by 1 week of rest for the remainder of the treatment period.",
+     "id": "OG003",
+     "title": "Arm 4"
+    }
+   ],
+   "populationDescription": "Decision was made to terminate the study prior to entering the expansion phase. As such, no data were collected or analyzed as planned for this outcome measure.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to 13 months",
+   "title": "Expansion Phase: Objective Response Rate (ORR)",
+   "type": "PRIMARY"
+  }
+ ]
+}

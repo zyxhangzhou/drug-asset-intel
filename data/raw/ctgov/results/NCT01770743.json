@@ -1,0 +1,2032 @@
+{
+ "nctId": "NCT01770743",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "39.5",
+         "upperLimit": "72.9",
+         "value": "56.8"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "87.2",
+         "upperLimit": "100",
+         "value": "100"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "81.5",
+         "upperLimit": "100",
+         "value": "100"
+        },
+        {
+         "groupId": "OG003",
+         "lowerLimit": "76.9",
+         "upperLimit": "97.3",
+         "value": "90.2"
+        },
+        {
+         "groupId": "OG004",
+         "lowerLimit": "29.8",
+         "upperLimit": "74.3",
+         "value": "52.4"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "37"
+      },
+      {
+       "groupId": "OG001",
+       "value": "27"
+      },
+      {
+       "groupId": "OG002",
+       "value": "18"
+      },
+      {
+       "groupId": "OG003",
+       "value": "41"
+      },
+      {
+       "groupId": "OG004",
+       "value": "21"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Immunogenicity measured by the lower bound (LB) of the 95% confidence intervals (CIs) for the proportion of subjects in each study arm with Day 63 TNA 50% neutralization factor (NF50) values greater than or equal to threshold",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Route of administration: Intramuscular Dose: 0.5 mL Schedule: Day 0 and Day 14\n\nAV7909: Anthrax Vaccine Adsorbed plus CPG 7909 Adjuvant",
+     "id": "OG000",
+     "title": "AV7909 (Day 0 and 14)"
+    },
+    {
+     "description": "Route of administration: Intramuscular Dose: 0.5 mL Schedule: Day 0 and Day 28\n\nAV7909: Anthrax Vaccine Adsorbed plus CPG 7909 Adjuvant",
+     "id": "OG001",
+     "title": "AV7909 (Day 0 and 28)"
+    },
+    {
+     "description": "Route of administration: Intramuscular Dose: 0.5 mL Schedule: Day 0, Day 14,and Day 28\n\nAV7909: Anthrax Vaccine Adsorbed plus CPG 7909 Adjuvant",
+     "id": "OG002",
+     "title": "AV7909 (Day 0, 14, and 28)"
+    },
+    {
+     "description": "Route of administration: Intramuscular Dose: 0.25 mL Schedule: Day 0, Day 14,and Day 28\n\nAV7909: Anthrax Vaccine Adsorbed plus CPG 7909 Adjuvant",
+     "id": "OG003",
+     "title": "AV7909 Reduced Dose"
+    },
+    {
+     "description": "Route of administration: Intramuscular Dose: 0.5 mL Schedule: Day 0, Day 14,and Day 28\n\nBioThrax",
+     "id": "OG004",
+     "title": "BioThrax"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Per-protocol Population at Day 63 (randomized subjects who did not have any deviation of 1) history of anthrax vaccination; 2) missing or out of window vaccination at Day 14 or 28; 3) incorrect IMP dose at one or more visits; 4) IMP dose associated with a temperature excursion; 5) prohibited medications; or 6) missing Day 63 immunogenicity data).",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Day 63",
+   "title": "Toxin Neutralizing Antibody (TNA) Level at Day 63",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "36"
+        },
+        {
+         "groupId": "OG001",
+         "value": "26"
+        },
+        {
+         "groupId": "OG002",
+         "value": "17"
+        },
+        {
+         "groupId": "OG003",
+         "value": "35"
+        },
+        {
+         "groupId": "OG004",
+         "value": "15"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "44"
+      },
+      {
+       "groupId": "OG001",
+       "value": "34"
+      },
+      {
+       "groupId": "OG002",
+       "value": "23"
+      },
+      {
+       "groupId": "OG003",
+       "value": "44"
+      },
+      {
+       "groupId": "OG004",
+       "value": "23"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Incidence of adverse events (including assessment of symptoms, physical exam findings, clinical laboratory tests, and vital signs) from the time of the first immunization on Day 0 through Day 84",
+   "groups": [
+    {
+     "description": "Route of administration: Intramuscular Dose: 0.5 mL Schedule: Day 0 and Day 14\n\nAV7909: Anthrax Vaccine Adsorbed plus CPG 7909 Adjuvant",
+     "id": "OG000",
+     "title": "AV7909 (Day 0 and 14)"
+    },
+    {
+     "description": "Route of administration: Intramuscular Dose: 0.5 mL Schedule: Day 0 and Day 28\n\nAV7909: Anthrax Vaccine Adsorbed plus CPG 7909 Adjuvant",
+     "id": "OG001",
+     "title": "AV7909 (Day 0 and 28)"
+    },
+    {
+     "description": "Route of administration: Intramuscular Dose: 0.5 mL Schedule: Day 0, Day 14,and Day 28\n\nAV7909: Anthrax Vaccine Adsorbed plus CPG 7909 Adjuvant",
+     "id": "OG002",
+     "title": "AV7909 (Day 0, 14, and 28)"
+    },
+    {
+     "description": "Route of administration: Intramuscular Dose: 0.25 mL Schedule: Day 0, Day 14,and Day 28\n\nAV7909: Anthrax Vaccine Adsorbed plus CPG 7909 Adjuvant",
+     "id": "OG003",
+     "title": "AV7909 Reduced Dose"
+    },
+    {
+     "description": "Route of administration: Intramuscular Dose: 0.5 mL Schedule: Day 0, Day 14,and Day 28\n\nBioThrax",
+     "id": "OG004",
+     "title": "BioThrax"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Safety Population (subjects who received at least one dose of IMP)",
+   "reportingStatus": "POSTED",
+   "timeFrame": "From the time of the first immunization on Day 0 through Day 84",
+   "title": "Incidence of Adverse Events",
+   "type": "PRIMARY",
+   "unitOfMeasure": "participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "2"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        },
+        {
+         "groupId": "OG002",
+         "value": "0"
+        },
+        {
+         "groupId": "OG003",
+         "value": "0"
+        },
+        {
+         "groupId": "OG004",
+         "value": "1"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "44"
+      },
+      {
+       "groupId": "OG001",
+       "value": "34"
+      },
+      {
+       "groupId": "OG002",
+       "value": "23"
+      },
+      {
+       "groupId": "OG003",
+       "value": "44"
+      },
+      {
+       "groupId": "OG004",
+       "value": "23"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Incidence of serious adverse events, from the time of the first immunization on Day 0 through the 12-month safety follow-up telephone call following the last scheduled vaccination",
+   "groups": [
+    {
+     "description": "Route of administration: Intramuscular Dose: 0.5 mL Schedule: Day 0 and Day 14\n\nAV7909: Anthrax Vaccine Adsorbed plus CPG 7909 Adjuvant",
+     "id": "OG000",
+     "title": "AV7909 (Day 0 and 14)"
+    },
+    {
+     "description": "Route of administration: Intramuscular Dose: 0.5 mL Schedule: Day 0 and Day 28\n\nAV7909: Anthrax Vaccine Adsorbed plus CPG 7909 Adjuvant",
+     "id": "OG001",
+     "title": "AV7909 (Day 0 and 28)"
+    },
+    {
+     "description": "Route of administration: Intramuscular Dose: 0.5 mL Schedule: Day 0, Day 14,and Day 28\n\nAV7909: Anthrax Vaccine Adsorbed plus CPG 7909 Adjuvant",
+     "id": "OG002",
+     "title": "AV7909 (Day 0, 14, and 28)"
+    },
+    {
+     "description": "Route of administration: Intramuscular Dose: 0.25 mL Schedule: Day 0, Day 14,and Day 28\n\nAV7909: Anthrax Vaccine Adsorbed plus CPG 7909 Adjuvant",
+     "id": "OG003",
+     "title": "AV7909 Reduced Dose"
+    },
+    {
+     "description": "Route of administration: Intramuscular Dose: 0.5 mL Schedule: Day 0, Day 14,and Day 28\n\nBioThrax",
+     "id": "OG004",
+     "title": "BioThrax"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Safety Population (subjects who received at least one dose of IMP)",
+   "reportingStatus": "POSTED",
+   "timeFrame": "From the time of the first immunization on Day 0 through the 12-month safety follow-up telephone call following the last scheduled vaccination",
+   "title": "Incidence of Serious Adverse Events",
+   "type": "PRIMARY",
+   "unitOfMeasure": "participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "11"
+        },
+        {
+         "groupId": "OG001",
+         "value": "17"
+        },
+        {
+         "groupId": "OG002",
+         "value": "14"
+        },
+        {
+         "groupId": "OG003",
+         "value": "19"
+        },
+        {
+         "groupId": "OG004",
+         "value": "8"
+        }
+       ]
+      }
+     ],
+     "title": "Fatigue/Tiredness Grade 1"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "6"
+        },
+        {
+         "groupId": "OG001",
+         "value": "5"
+        },
+        {
+         "groupId": "OG002",
+         "value": "1"
+        },
+        {
+         "groupId": "OG003",
+         "value": "2"
+        },
+        {
+         "groupId": "OG004",
+         "value": "3"
+        }
+       ]
+      }
+     ],
+     "title": "Fatigue/Tiredness Grade 2"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "3"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        },
+        {
+         "groupId": "OG002",
+         "value": "1"
+        },
+        {
+         "groupId": "OG003",
+         "value": "0"
+        },
+        {
+         "groupId": "OG004",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Fatigue/Tiredness Grade 3"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "25"
+        },
+        {
+         "groupId": "OG001",
+         "value": "19"
+        },
+        {
+         "groupId": "OG002",
+         "value": "13"
+        },
+        {
+         "groupId": "OG003",
+         "value": "27"
+        },
+        {
+         "groupId": "OG004",
+         "value": "13"
+        }
+       ]
+      }
+     ],
+     "title": "Muscle Ache Grade 1"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "6"
+        },
+        {
+         "groupId": "OG001",
+         "value": "6"
+        },
+        {
+         "groupId": "OG002",
+         "value": "7"
+        },
+        {
+         "groupId": "OG003",
+         "value": "9"
+        },
+        {
+         "groupId": "OG004",
+         "value": "3"
+        }
+       ]
+      }
+     ],
+     "title": "Muscle Ache Grade 2"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "2"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        },
+        {
+         "groupId": "OG002",
+         "value": "0"
+        },
+        {
+         "groupId": "OG003",
+         "value": "0"
+        },
+        {
+         "groupId": "OG004",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Muscle Ache Grade 3"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "10"
+        },
+        {
+         "groupId": "OG001",
+         "value": "15"
+        },
+        {
+         "groupId": "OG002",
+         "value": "9"
+        },
+        {
+         "groupId": "OG003",
+         "value": "14"
+        },
+        {
+         "groupId": "OG004",
+         "value": "8"
+        }
+       ]
+      }
+     ],
+     "title": "Headache Grade 1"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "7"
+        },
+        {
+         "groupId": "OG001",
+         "value": "3"
+        },
+        {
+         "groupId": "OG002",
+         "value": "6"
+        },
+        {
+         "groupId": "OG003",
+         "value": "7"
+        },
+        {
+         "groupId": "OG004",
+         "value": "1"
+        }
+       ]
+      }
+     ],
+     "title": "Headache Grade 2"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "4"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        },
+        {
+         "groupId": "OG002",
+         "value": "0"
+        },
+        {
+         "groupId": "OG003",
+         "value": "0"
+        },
+        {
+         "groupId": "OG004",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Headache Grade 3"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        },
+        {
+         "groupId": "OG002",
+         "value": "0"
+        },
+        {
+         "groupId": "OG003",
+         "value": "0"
+        },
+        {
+         "groupId": "OG004",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Fever Grade 1"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "1"
+        },
+        {
+         "groupId": "OG002",
+         "value": "0"
+        },
+        {
+         "groupId": "OG003",
+         "value": "0"
+        },
+        {
+         "groupId": "OG004",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Fever Grade 2"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "2"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        },
+        {
+         "groupId": "OG002",
+         "value": "0"
+        },
+        {
+         "groupId": "OG003",
+         "value": "0"
+        },
+        {
+         "groupId": "OG004",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Fever Grade 3"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "17"
+        },
+        {
+         "groupId": "OG001",
+         "value": "15"
+        },
+        {
+         "groupId": "OG002",
+         "value": "11"
+        },
+        {
+         "groupId": "OG003",
+         "value": "14"
+        },
+        {
+         "groupId": "OG004",
+         "value": "11"
+        }
+       ]
+      }
+     ],
+     "title": "Warmth Grade 1"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        },
+        {
+         "groupId": "OG002",
+         "value": "2"
+        },
+        {
+         "groupId": "OG003",
+         "value": "2"
+        },
+        {
+         "groupId": "OG004",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Warmth Grade 2"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        },
+        {
+         "groupId": "OG002",
+         "value": "1"
+        },
+        {
+         "groupId": "OG003",
+         "value": "0"
+        },
+        {
+         "groupId": "OG004",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Warmth Grade 3"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "31"
+        },
+        {
+         "groupId": "OG001",
+         "value": "27"
+        },
+        {
+         "groupId": "OG002",
+         "value": "17"
+        },
+        {
+         "groupId": "OG003",
+         "value": "29"
+        },
+        {
+         "groupId": "OG004",
+         "value": "14"
+        }
+       ]
+      }
+     ],
+     "title": "Tenderness Grade 1"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "11"
+        },
+        {
+         "groupId": "OG001",
+         "value": "6"
+        },
+        {
+         "groupId": "OG002",
+         "value": "5"
+        },
+        {
+         "groupId": "OG003",
+         "value": "9"
+        },
+        {
+         "groupId": "OG004",
+         "value": "5"
+        }
+       ]
+      }
+     ],
+     "title": "Tenderness Grade 2"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        },
+        {
+         "groupId": "OG002",
+         "value": "0"
+        },
+        {
+         "groupId": "OG003",
+         "value": "0"
+        },
+        {
+         "groupId": "OG004",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Tenderness Grade 3"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "5"
+        },
+        {
+         "groupId": "OG001",
+         "value": "3"
+        },
+        {
+         "groupId": "OG002",
+         "value": "3"
+        },
+        {
+         "groupId": "OG003",
+         "value": "10"
+        },
+        {
+         "groupId": "OG004",
+         "value": "5"
+        }
+       ]
+      }
+     ],
+     "title": "Itching Grade 1"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "2"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        },
+        {
+         "groupId": "OG002",
+         "value": "0"
+        },
+        {
+         "groupId": "OG003",
+         "value": "0"
+        },
+        {
+         "groupId": "OG004",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Itching Grade 2"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        },
+        {
+         "groupId": "OG002",
+         "value": "0"
+        },
+        {
+         "groupId": "OG003",
+         "value": "0"
+        },
+        {
+         "groupId": "OG004",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Itching Grade 3"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "30"
+        },
+        {
+         "groupId": "OG001",
+         "value": "29"
+        },
+        {
+         "groupId": "OG002",
+         "value": "15"
+        },
+        {
+         "groupId": "OG003",
+         "value": "29"
+        },
+        {
+         "groupId": "OG004",
+         "value": "14"
+        }
+       ]
+      }
+     ],
+     "title": "Pain Grade 1"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "9"
+        },
+        {
+         "groupId": "OG001",
+         "value": "2"
+        },
+        {
+         "groupId": "OG002",
+         "value": "7"
+        },
+        {
+         "groupId": "OG003",
+         "value": "8"
+        },
+        {
+         "groupId": "OG004",
+         "value": "6"
+        }
+       ]
+      }
+     ],
+     "title": "Pain Grade 2"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        },
+        {
+         "groupId": "OG002",
+         "value": "0"
+        },
+        {
+         "groupId": "OG003",
+         "value": "0"
+        },
+        {
+         "groupId": "OG004",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Pain Grade 3"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "21"
+        },
+        {
+         "groupId": "OG001",
+         "value": "15"
+        },
+        {
+         "groupId": "OG002",
+         "value": "11"
+        },
+        {
+         "groupId": "OG003",
+         "value": "17"
+        },
+        {
+         "groupId": "OG004",
+         "value": "8"
+        }
+       ]
+      }
+     ],
+     "title": "Arm Motion Limitation Grade 1"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "11"
+        },
+        {
+         "groupId": "OG001",
+         "value": "9"
+        },
+        {
+         "groupId": "OG002",
+         "value": "7"
+        },
+        {
+         "groupId": "OG003",
+         "value": "11"
+        },
+        {
+         "groupId": "OG004",
+         "value": "5"
+        }
+       ]
+      }
+     ],
+     "title": "Arm Motion Limitation Grade 2"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        },
+        {
+         "groupId": "OG002",
+         "value": "0"
+        },
+        {
+         "groupId": "OG003",
+         "value": "0"
+        },
+        {
+         "groupId": "OG004",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Arm Motion Limitation Grade 3"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "6"
+        },
+        {
+         "groupId": "OG001",
+         "value": "5"
+        },
+        {
+         "groupId": "OG002",
+         "value": "3"
+        },
+        {
+         "groupId": "OG003",
+         "value": "10"
+        },
+        {
+         "groupId": "OG004",
+         "value": "8"
+        }
+       ]
+      }
+     ],
+     "title": "Redness Grade 1"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "2"
+        },
+        {
+         "groupId": "OG001",
+         "value": "1"
+        },
+        {
+         "groupId": "OG002",
+         "value": "1"
+        },
+        {
+         "groupId": "OG003",
+         "value": "1"
+        },
+        {
+         "groupId": "OG004",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Redness Grade 2"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        },
+        {
+         "groupId": "OG002",
+         "value": "0"
+        },
+        {
+         "groupId": "OG003",
+         "value": "0"
+        },
+        {
+         "groupId": "OG004",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Redness Grade 3"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "13"
+        },
+        {
+         "groupId": "OG001",
+         "value": "6"
+        },
+        {
+         "groupId": "OG002",
+         "value": "9"
+        },
+        {
+         "groupId": "OG003",
+         "value": "16"
+        },
+        {
+         "groupId": "OG004",
+         "value": "10"
+        }
+       ]
+      }
+     ],
+     "title": "Lump Grade 1"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        },
+        {
+         "groupId": "OG002",
+         "value": "0"
+        },
+        {
+         "groupId": "OG003",
+         "value": "0"
+        },
+        {
+         "groupId": "OG004",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Lump Grade 2"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        },
+        {
+         "groupId": "OG002",
+         "value": "0"
+        },
+        {
+         "groupId": "OG003",
+         "value": "0"
+        },
+        {
+         "groupId": "OG004",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Lump Grade 3"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "12"
+        },
+        {
+         "groupId": "OG001",
+         "value": "7"
+        },
+        {
+         "groupId": "OG002",
+         "value": "7"
+        },
+        {
+         "groupId": "OG003",
+         "value": "14"
+        },
+        {
+         "groupId": "OG004",
+         "value": "7"
+        }
+       ]
+      }
+     ],
+     "title": "Swelling Grade 1"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        },
+        {
+         "groupId": "OG002",
+         "value": "2"
+        },
+        {
+         "groupId": "OG003",
+         "value": "0"
+        },
+        {
+         "groupId": "OG004",
+         "value": "1"
+        }
+       ]
+      }
+     ],
+     "title": "Swelling Grade 2"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        },
+        {
+         "groupId": "OG002",
+         "value": "0"
+        },
+        {
+         "groupId": "OG003",
+         "value": "0"
+        },
+        {
+         "groupId": "OG004",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Swelling Grade 3"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "4"
+        },
+        {
+         "groupId": "OG001",
+         "value": "6"
+        },
+        {
+         "groupId": "OG002",
+         "value": "2"
+        },
+        {
+         "groupId": "OG003",
+         "value": "8"
+        },
+        {
+         "groupId": "OG004",
+         "value": "4"
+        }
+       ]
+      }
+     ],
+     "title": "Bruise Grade 1"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        },
+        {
+         "groupId": "OG002",
+         "value": "0"
+        },
+        {
+         "groupId": "OG003",
+         "value": "0"
+        },
+        {
+         "groupId": "OG004",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Bruise Grade 2"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        },
+        {
+         "groupId": "OG002",
+         "value": "0"
+        },
+        {
+         "groupId": "OG003",
+         "value": "0"
+        },
+        {
+         "groupId": "OG004",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Bruise Grade 3"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "44"
+      },
+      {
+       "groupId": "OG001",
+       "value": "34"
+      },
+      {
+       "groupId": "OG002",
+       "value": "23"
+      },
+      {
+       "groupId": "OG003",
+       "value": "44"
+      },
+      {
+       "groupId": "OG004",
+       "value": "23"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Incidence of solicited systemic reactions and solicited injection site reactions each day for 7 days following each vaccination using subject e-diaries by severity.\n\nReactions were graded using the following scale (note, for redness and swelling, the diameter \\[greater of two perpendicular measurements\\] was assessed by the subject using an injection site measurement tool):\n\nGrade 0 (Absent): Symptom not present; Grade 1 (Mild): Symptom present but does not interfere with activities of daily living, or affected area (redness, swelling) measures \\<3 cm; Grade 2 (Moderate): Symptom causes some interference with activities of daily living, or affected area (redness, swelling) measures 3 - 10 cm; Grade 3 (Severe): Symptom prevents activities of daily living or requires treatment, or affected area (redness, swelling) measures \\> 10 cm.\n\nFor each reaction, subjects are counted once across all vaccinations at the highest reported level of severity.",
+   "groups": [
+    {
+     "description": "Route of administration: Intramuscular Dose: 0.5 mL Schedule: Day 0 and Day 14\n\nAV7909: Anthrax Vaccine Adsorbed plus CPG 7909 Adjuvant",
+     "id": "OG000",
+     "title": "AV7909 (Day 0 and 14)"
+    },
+    {
+     "description": "Route of administration: Intramuscular Dose: 0.5 mL Schedule: Day 0 and Day 28\n\nAV7909: Anthrax Vaccine Adsorbed plus CPG 7909 Adjuvant",
+     "id": "OG001",
+     "title": "AV7909 (Day 0 and 28)"
+    },
+    {
+     "description": "Route of administration: Intramuscular Dose: 0.5 mL Schedule: Day 0, Day 14,and Day 28\n\nAV7909: Anthrax Vaccine Adsorbed plus CPG 7909 Adjuvant",
+     "id": "OG002",
+     "title": "AV7909 (Day 0, 14, and 28)"
+    },
+    {
+     "description": "Route of administration: Intramuscular Dose: 0.25 mL Schedule: Day 0, Day 14,and Day 28\n\nAV7909: Anthrax Vaccine Adsorbed plus CPG 7909 Adjuvant",
+     "id": "OG003",
+     "title": "AV7909 Reduced Dose"
+    },
+    {
+     "description": "Route of administration: Intramuscular Dose: 0.5 mL Schedule: Day 0, Day 14,and Day 28\n\nBioThrax",
+     "id": "OG004",
+     "title": "BioThrax"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Safety Population (subjects who received at least one dose of IMP)",
+   "reportingStatus": "POSTED",
+   "timeFrame": "For 7 days following each vaccination on Days 0, 14, 28",
+   "title": "Incidence of Reactogenicity By Severity",
+   "type": "PRIMARY",
+   "unitOfMeasure": "participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "39"
+        },
+        {
+         "groupId": "OG001",
+         "value": "29"
+        },
+        {
+         "groupId": "OG002",
+         "value": "20"
+        },
+        {
+         "groupId": "OG003",
+         "value": "42"
+        },
+        {
+         "groupId": "OG004",
+         "value": "19"
+        }
+       ]
+      }
+     ],
+     "title": "Hemoglobin"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "8"
+        },
+        {
+         "groupId": "OG001",
+         "value": "4"
+        },
+        {
+         "groupId": "OG002",
+         "value": "3"
+        },
+        {
+         "groupId": "OG003",
+         "value": "3"
+        },
+        {
+         "groupId": "OG004",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Leukocytes"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "2"
+        },
+        {
+         "groupId": "OG001",
+         "value": "1"
+        },
+        {
+         "groupId": "OG002",
+         "value": "1"
+        },
+        {
+         "groupId": "OG003",
+         "value": "3"
+        },
+        {
+         "groupId": "OG004",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Neutrophils"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "1"
+        },
+        {
+         "groupId": "OG002",
+         "value": "4"
+        },
+        {
+         "groupId": "OG003",
+         "value": "2"
+        },
+        {
+         "groupId": "OG004",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Lymphocytes"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "3"
+        },
+        {
+         "groupId": "OG001",
+         "value": "2"
+        },
+        {
+         "groupId": "OG002",
+         "value": "3"
+        },
+        {
+         "groupId": "OG003",
+         "value": "4"
+        },
+        {
+         "groupId": "OG004",
+         "value": "1"
+        }
+       ]
+      }
+     ],
+     "title": "Aspartate Aminotransferase"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "2"
+        },
+        {
+         "groupId": "OG001",
+         "value": "3"
+        },
+        {
+         "groupId": "OG002",
+         "value": "1"
+        },
+        {
+         "groupId": "OG003",
+         "value": "3"
+        },
+        {
+         "groupId": "OG004",
+         "value": "2"
+        }
+       ]
+      }
+     ],
+     "title": "Alanine Aminotransferase"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "9"
+        },
+        {
+         "groupId": "OG001",
+         "value": "7"
+        },
+        {
+         "groupId": "OG002",
+         "value": "8"
+        },
+        {
+         "groupId": "OG003",
+         "value": "13"
+        },
+        {
+         "groupId": "OG004",
+         "value": "2"
+        }
+       ]
+      }
+     ],
+     "title": "Glucose"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        },
+        {
+         "groupId": "OG002",
+         "value": "1"
+        },
+        {
+         "groupId": "OG003",
+         "value": "0"
+        },
+        {
+         "groupId": "OG004",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Glucose Fasting"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1"
+        },
+        {
+         "groupId": "OG001",
+         "value": "2"
+        },
+        {
+         "groupId": "OG002",
+         "value": "1"
+        },
+        {
+         "groupId": "OG003",
+         "value": "0"
+        },
+        {
+         "groupId": "OG004",
+         "value": "1"
+        }
+       ]
+      }
+     ],
+     "title": "Bilirubin"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        },
+        {
+         "groupId": "OG002",
+         "value": "1"
+        },
+        {
+         "groupId": "OG003",
+         "value": "1"
+        },
+        {
+         "groupId": "OG004",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Blood Urea Nitrogen"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "2"
+        },
+        {
+         "groupId": "OG001",
+         "value": "1"
+        },
+        {
+         "groupId": "OG002",
+         "value": "0"
+        },
+        {
+         "groupId": "OG003",
+         "value": "0"
+        },
+        {
+         "groupId": "OG004",
+         "value": "1"
+        }
+       ]
+      }
+     ],
+     "title": "Urine Glucose"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "16"
+        },
+        {
+         "groupId": "OG001",
+         "value": "10"
+        },
+        {
+         "groupId": "OG002",
+         "value": "5"
+        },
+        {
+         "groupId": "OG003",
+         "value": "13"
+        },
+        {
+         "groupId": "OG004",
+         "value": "6"
+        }
+       ]
+      }
+     ],
+     "title": "Urine Protein"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "11"
+        },
+        {
+         "groupId": "OG001",
+         "value": "5"
+        },
+        {
+         "groupId": "OG002",
+         "value": "4"
+        },
+        {
+         "groupId": "OG003",
+         "value": "7"
+        },
+        {
+         "groupId": "OG004",
+         "value": "8"
+        }
+       ]
+      }
+     ],
+     "title": "Urine Erythrocytes"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "44"
+      },
+      {
+       "groupId": "OG001",
+       "value": "34"
+      },
+      {
+       "groupId": "OG002",
+       "value": "23"
+      },
+      {
+       "groupId": "OG003",
+       "value": "44"
+      },
+      {
+       "groupId": "OG004",
+       "value": "23"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Incidence of clinical laboratory abnormalities throughout the study (up to Day 84).\n\nClinical laboratory abnormalities are presented as the total of Grade 1 (mild), Grade 2 (moderate), Grade 3 (severe), and Grade 4 (potentially life-threatening) abnormalities according to criteria adapted from the U.S. Department of Health and Human Services, Food and Drug Administration, Center for Biologics Evaluation and Research: Guidance for Industry. Toxicity Grading Scale for Healthy Adult and Adolescent Volunteers Enrolled in Preventive Vaccine Clinical Trials (September 2007). Within each laboratory parameter, subjects are counted once for their most severe occurrence of clinical laboratory abnormality.",
+   "groups": [
+    {
+     "description": "Route of administration: Intramuscular Dose: 0.5 mL Schedule: Day 0 and Day 14\n\nAV7909: Anthrax Vaccine Adsorbed plus CPG 7909 Adjuvant",
+     "id": "OG000",
+     "title": "AV7909 (Day 0 and 14)"
+    },
+    {
+     "description": "Route of administration: Intramuscular Dose: 0.5 mL Schedule: Day 0 and Day 28\n\nAV7909: Anthrax Vaccine Adsorbed plus CPG 7909 Adjuvant",
+     "id": "OG001",
+     "title": "AV7909 (Day 0 and 28)"
+    },
+    {
+     "description": "Route of administration: Intramuscular Dose: 0.5 mL Schedule: Day 0, Day 14,and Day 28\n\nAV7909: Anthrax Vaccine Adsorbed plus CPG 7909 Adjuvant",
+     "id": "OG002",
+     "title": "AV7909 (Day 0, 14, and 28)"
+    },
+    {
+     "description": "Route of administration: Intramuscular Dose: 0.25 mL Schedule: Day 0, Day 14,and Day 28\n\nAV7909: Anthrax Vaccine Adsorbed plus CPG 7909 Adjuvant",
+     "id": "OG003",
+     "title": "AV7909 Reduced Dose"
+    },
+    {
+     "description": "Route of administration: Intramuscular Dose: 0.5 mL Schedule: Day 0, Day 14,and Day 28\n\nBioThrax",
+     "id": "OG004",
+     "title": "BioThrax"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Safety Population (subjects who received at least one dose of IMP)",
+   "reportingStatus": "POSTED",
+   "timeFrame": "From the time of first immunization on Day 0 to Day 84",
+   "title": "Incidence of Clinical Laborabory Abnormalities",
+   "type": "PRIMARY",
+   "unitOfMeasure": "participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        },
+        {
+         "groupId": "OG002",
+         "value": "0"
+        },
+        {
+         "groupId": "OG003",
+         "value": "0"
+        },
+        {
+         "groupId": "OG004",
+         "value": "0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "44"
+      },
+      {
+       "groupId": "OG001",
+       "value": "34"
+      },
+      {
+       "groupId": "OG002",
+       "value": "23"
+      },
+      {
+       "groupId": "OG003",
+       "value": "44"
+      },
+      {
+       "groupId": "OG004",
+       "value": "23"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Incidence of immunologically significant adverse events of special interest as defined by the Center for Biologics Evaluation and Research from the time of the first immunization on Day 0 through the 12-month safety follow-up telephone call following the last scheduled vaccination",
+   "groups": [
+    {
+     "description": "Route of administration: Intramuscular Dose: 0.5 mL Schedule: Day 0 and Day 14\n\nAV7909: Anthrax Vaccine Adsorbed plus CPG 7909 Adjuvant",
+     "id": "OG000",
+     "title": "AV7909 (Day 0 and 14)"
+    },
+    {
+     "description": "Route of administration: Intramuscular Dose: 0.5 mL Schedule: Day 0 and Day 28\n\nAV7909: Anthrax Vaccine Adsorbed plus CPG 7909 Adjuvant",
+     "id": "OG001",
+     "title": "AV7909 (Day 0 and 28)"
+    },
+    {
+     "description": "Route of administration: Intramuscular Dose: 0.5 mL Schedule: Day 0, Day 14,and Day 28\n\nAV7909: Anthrax Vaccine Adsorbed plus CPG 7909 Adjuvant",
+     "id": "OG002",
+     "title": "AV7909 (Day 0, 14, and 28)"
+    },
+    {
+     "description": "Route of administration: Intramuscular Dose: 0.25 mL Schedule: Day 0, Day 14,and Day 28\n\nAV7909: Anthrax Vaccine Adsorbed plus CPG 7909 Adjuvant",
+     "id": "OG003",
+     "title": "AV7909 Reduced Dose"
+    },
+    {
+     "description": "Route of administration: Intramuscular Dose: 0.5 mL Schedule: Day 0, Day 14,and Day 28\n\nBioThrax",
+     "id": "OG004",
+     "title": "BioThrax"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Safety Population (subjects who received at least one dose of IMP)",
+   "reportingStatus": "POSTED",
+   "timeFrame": "From the time of the first immunization on Day 0 through the 12-month safety follow-up telephone call following the last scheduled vaccination",
+   "title": "Incidence of Immunologically Significant Adverse Events of Special Interest",
+   "type": "PRIMARY",
+   "unitOfMeasure": "participants"
+  }
+ ]
+}

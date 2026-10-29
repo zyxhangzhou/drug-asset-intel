@@ -1,0 +1,76 @@
+{
+ "nctId": "NCT02970968",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": ".0099",
+     "statisticalMethod": "Mixed Models Analysis"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "-1.53",
+         "upperLimit": "-0.98",
+         "value": "-1.25"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "-1.02",
+         "upperLimit": "-0.44",
+         "value": "-0.73"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "73"
+      },
+      {
+       "groupId": "OG001",
+       "value": "68"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The Gastroparesis Core Symptom Daily Diary (GCSDD) is a patient reported diary that asks patients to rate the worst occurrence of each cardinal symptom of gastroparesis (nausea severity, early satiety, postprandial fullness, bloating, and abdominal pain) in the past 24 hours on a Likert scale from 0 (no symptoms) to 5 (very severe). Change from baseline in average nausea severity score is calculated as the weekly average post value minus baseline value of the daily nausea severity score from the GCSDD. A negative change indicates improvement.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "oral, 85 mg/day given bid",
+     "id": "OG000",
+     "title": "Tradipitant"
+    },
+    {
+     "description": "oral, matching placebo given bid",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "The ITT Population included any subject randomized into the study who received a dose of study medication and had at least 1 valid postbaseline efficacy measurement while on study medication. The ITT Population comprised 141 subjects.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "4 weeks",
+   "title": "Change From Baseline in Average Nausea Severity",
+   "type": "PRIMARY",
+   "unitOfMeasure": "score on a scale (change from baseline)"
+  }
+ ]
+}

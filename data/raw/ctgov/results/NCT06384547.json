@@ -1,0 +1,60 @@
+{
+ "nctId": "NCT06384547",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "153"
+        },
+        {
+         "groupId": "OG001",
+         "value": "55"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "173"
+      },
+      {
+       "groupId": "OG001",
+       "value": "58"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "An adverse event (AE) was defined as any untoward medical occurrence that developed or worsened in severity during the conduct of a clinical study and did not necessarily have a causal relationship to study drug. TEAE was defined as an AE occurring on or after the day of the first dose of study medication through the end of the study. A summary of all Serious Adverse Events (SAEs) and Other Adverse Events (nonserious) regardless of causality is located in the 'Reported Adverse Events' Section.",
+   "groups": [
+    {
+     "description": "Participants received 5 IV infusions of veligrotug 10 mg/kg at 3-week intervals for 12 weeks.",
+     "id": "OG000",
+     "title": "Veligrotug 10 mg/kg"
+    },
+    {
+     "description": "Participants received 5 IV infusions of veligrotug 3 mg/kg at 3-week intervals for 12 weeks.",
+     "id": "OG001",
+     "title": "Veligrotug 3 mg/kg"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Safety Population included all enrolled participants who received at least 1 IV infusion of study drug.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline through Week 15",
+   "title": "Number of Participants With Treatment-emergent Adverse Events (TEAEs) Through Week 15",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

@@ -1,0 +1,645 @@
+{
+ "aliases": [
+  "ARS Pharmaceuticals"
+ ],
+ "studies": [
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "ARS-1 with URTI",
+       "interventionNames": [
+        "Drug: ARS-1 with URTI"
+       ],
+       "label": "ARS-1 with URTI",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "ARS-1 without URTI",
+       "interventionNames": [
+        "Drug: ARS-1 without URTI"
+       ],
+       "label": "ARS-1 without URTI",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "ARS-1 with URTI"
+       ],
+       "description": "ARS-1",
+       "name": "ARS-1 with URTI",
+       "otherNames": [
+        "Adrenaline"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "ARS-1 without URTI"
+       ],
+       "description": "ARS-1 without URTI",
+       "name": "ARS-1 without URTI",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Upper Respiratory Tract Infection"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "CROSSOVER",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 15,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Pharmacokinetics of Adrenaline After Administration of ARS -1 in Subjects With Upper Respiratory Tract Infection",
+     "nctId": "NCT04930900",
+     "officialTitle": "A Two-Treatment, Sequential, Crossover Study of the Pharmacokinetics of Adrenaline After Administration of ARS -1 in Subjects With Upper Respiratory Tract Infection (Infectious Rhinitis)",
+     "orgStudyIdInfo": {
+      "id": "EPI 014"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "ARS Pharmaceuticals, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "ARS Pharmaceuticals, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2022-07-25",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2022-07-29",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2022-07-28",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2022-03-31",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2021-08-09",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2022-07",
+     "studyFirstPostDateStruct": {
+      "date": "2021-06-18",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2021-06-09",
+     "studyFirstSubmitQcDate": "2021-06-17"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "ARS 2mg: albuterol: Placebo: ARS 1mg",
+       "interventionNames": [
+        "Drug: ARS-1 1 mg",
+        "Drug: Albuterol MDI",
+        "Drug: Placebo",
+        "Drug: ARS-1 2mg"
+       ],
+       "label": "Sequence 1",
+       "type": "ACTIVE_COMPARATOR"
+      },
+      {
+       "description": "ARS 1mg: Placebo: albuterol: ARS 2mg",
+       "interventionNames": [
+        "Drug: ARS-1 1 mg",
+        "Drug: Albuterol MDI",
+        "Drug: Placebo",
+        "Drug: ARS-1 2mg"
+       ],
+       "label": "Sequence 2",
+       "type": "ACTIVE_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Sequence 1",
+        "Sequence 2"
+       ],
+       "description": "ARS-1 1 mg",
+       "name": "ARS-1 1 mg",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Sequence 1",
+        "Sequence 2"
+       ],
+       "description": "180 mcg",
+       "name": "Albuterol MDI",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Sequence 1",
+        "Sequence 2"
+       ],
+       "description": "Placebo",
+       "name": "Placebo",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Sequence 1",
+        "Sequence 2"
+       ],
+       "description": "ARS-1 2mg",
+       "name": "ARS-1 2mg",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Asthma"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "CROSSOVER",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 18,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Administration of ARS-1 or Albuterol in Subjects With Persistent Asthma",
+     "nctId": "NCT05363670",
+     "officialTitle": "A Phase 2, Single-Dose, Randomized, Active and Placebo Controlled, Four-Period, Cross-Over Study of the Safety and Efficacy of Intranasal Epinephrine After Administration of ARS -1 or Albuterol in Subjects With Persistent Asthma",
+     "orgStudyIdInfo": {
+      "id": "EPI A01"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "ARS Pharmaceuticals, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "ARS Pharmaceuticals, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2024-02-02",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-07-14",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-06-17",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2024-02-02",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2026-07-14",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2026-05-14",
+     "resultsFirstSubmitQcDate": "2026-06-17",
+     "startDateStruct": {
+      "date": "2022-07-28",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-06",
+     "studyFirstPostDateStruct": {
+      "date": "2022-05-06",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2022-04-27",
+     "studyFirstSubmitQcDate": "2022-05-02"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "1 mg ARS-1 IN: placebo: 2 mg ARS-1 IN",
+       "interventionNames": [
+        "Drug: ARS-1"
+       ],
+       "label": "Sequence 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "2 mg ARS-1 IN: placebo: 1 mg ARS-1",
+       "interventionNames": [
+        "Drug: ARS-1"
+       ],
+       "label": "Sequence 2",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Sequence 1",
+        "Sequence 2"
+       ],
+       "description": "A single treatment of ARS-1 1mg, 2 mg or placebo",
+       "name": "ARS-1",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Urticaria"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "CROSSOVER",
+      "interventionModelDescription": "Each subject received all three treatments in a randomized sequence.",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 21,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Safety and Efficacy of Intranasal Epinephrine After Administration of ARS -1 in Subjects With Frequent Urticaria Flares",
+     "nctId": "NCT05496465",
+     "officialTitle": "A Single-Dose, Randomized, Placebo-Controlled, Cross-Over Study of the Safety and Efficacy of Intranasal Epinephrine After Administration of ARS -1 in Subjects With Frequent Urticaria Flares",
+     "orgStudyIdInfo": {
+      "id": "RELIEF-CSU1"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "ARS Pharmaceuticals, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "ARS Pharmaceuticals, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2024-02-29",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-04-07",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-03-18",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2024-02-29",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2026-04-07",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2026-01-30",
+     "resultsFirstSubmitQcDate": "2026-03-18",
+     "startDateStruct": {
+      "date": "2022-07-28",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-03",
+     "studyFirstPostDateStruct": {
+      "date": "2022-08-11",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2022-04-27",
+     "studyFirstSubmitQcDate": "2022-08-10"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: Neffy"
+       ],
+       "label": "Neffy",
+       "type": "ACTIVE_COMPARATOR"
+      },
+      {
+       "interventionNames": [
+        "Drug: Adrenaline"
+       ],
+       "label": "IM adrenaline",
+       "type": "ACTIVE_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Neffy"
+       ],
+       "description": "Epinephrine nasal spray",
+       "name": "Neffy",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "IM adrenaline"
+       ],
+       "description": "Epinephrine injection",
+       "name": "Adrenaline",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Allergic Reactions"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 600,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE4"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Study Evaluating the Safety and Efficacy of Neffy or Intramuscular Adrenalin in Patients With Allergic Reactions After Oral Food Challenge or Allergen Immunotherapy",
+     "nctId": "NCT06834165",
+     "officialTitle": "A Phase IV Study Evaluating the Safety and Efficacy of Neffy or Intramuscular Adrenalin in Patients With Allergic Reactions After Oral Food Challenge or Allergen Immunotherapy",
+     "orgStudyIdInfo": {
+      "id": "EPI R01"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "ARS Pharmaceuticals, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "ARS Pharmaceuticals, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2027-06",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-04-21",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-04-20",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-04",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2025-05-20",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-04",
+     "studyFirstPostDateStruct": {
+      "date": "2025-02-19",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-02-18",
+     "studyFirstSubmitQcDate": "2025-02-18"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Placebo solution nasal spray containing no active drug will be administered using the commercial sprayer device.",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "description": "0.5 mg epinephrine per spray",
+       "interventionNames": [
+        "Drug: 0.5 mg epinephrine"
+       ],
+       "label": "0.5 mg",
+       "type": "ACTIVE_COMPARATOR"
+      },
+      {
+       "description": "1 mg epinephrine per spray",
+       "interventionNames": [
+        "Drug: 1 mg epinephrine"
+       ],
+       "label": "1 mg",
+       "type": "ACTIVE_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Placebo solution nasal spray containing no active drug",
+       "name": "Placebo",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "0.5 mg"
+       ],
+       "description": "0.5 mg epinephrine per spray",
+       "name": "0.5 mg epinephrine",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "1 mg"
+       ],
+       "description": "1 mg epinephrine per spray",
+       "name": "1 mg epinephrine",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Urticaria Chronic"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "CROSSOVER",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 42,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "An Outpatient Study of the Efficacy of ARS-2 in Patients With Chronic Spontaneous Urticaria",
+     "nctId": "NCT06927999",
+     "officialTitle": "An Outpatient, Randomized, Double-Blinded, Placebo-Controlled, Cross-Over Study of the Efficacy of ARS-2 in Patients With Chronic Spontaneous Urticaria",
+     "orgStudyIdInfo": {
+      "id": "EPI U02"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "ARS Pharmaceuticals, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "ARS Pharmaceuticals, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2027-06",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-09-16",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-09-14",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-06",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2025-07-09",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-09",
+     "studyFirstPostDateStruct": {
+      "date": "2025-04-15",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-04-04",
+     "studyFirstSubmitQcDate": "2025-04-07"
+    }
+   }
+  }
+ ]
+}

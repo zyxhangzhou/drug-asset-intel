@@ -1,0 +1,65 @@
+{
+ "nctId": "NCT03037580",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "-195",
+         "upperLimit": "62",
+         "value": "21.0"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "-140",
+         "upperLimit": "104",
+         "value": "23.3"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "29"
+      },
+      {
+       "groupId": "OG001",
+       "value": "28"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The intent of the 6-Minute Walk Test (6MWT) is to evaluate exercise capacity associated with carrying out activities of daily living.",
+   "dispersionType": "Full Range",
+   "groups": [
+    {
+     "description": "Sustained-release oral tablets for TID administration\n\nOral treprostinil: Sustained-release oral tablets for TID administration",
+     "id": "OG000",
+     "title": "Oral Treprostinil"
+    },
+    {
+     "description": "Placebo (sugar pill) for TID oral administration\n\nPlacebo: Placebo (sugar pill) for TID oral administration",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "Safety Population",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline to Week 24",
+   "title": "Change in 6MWD From Baseline to Week 24",
+   "type": "PRIMARY",
+   "unitOfMeasure": "meters"
+  }
+ ]
+}

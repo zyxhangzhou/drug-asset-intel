@@ -1,0 +1,398 @@
+{
+ "nctId": "NCT05021978",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "groupDescription": "Sample size is a convenience sample determined according to feasibility to provide sufficient and safety data to inform the development of future controlled studies with PRAX-944. In the open-label phase of the trial (Part A ), at least 10 participants would provide an 80% probability of observing at least 1 AE with an underlying incidence of 15% or greater and provide approximately 80% power to detect an effect size of 1.0 on the primary endpoint change from baseline in TETRAS Upper Limb score.",
+     "groupIds": [
+      "OG000"
+     ],
+     "nonInferiorityType": "OTHER",
+     "pValue": "0.1048",
+     "pValueComment": "Change from baseline to Day 7 in TETRAS Upper Limb Score",
+     "statisticalComment": "Includes timepoint as fixed effect and baseline TETRAS score as a covariate. Within subject variability modeled using unstructured covariance pattern.",
+     "statisticalMethod": "Mixed Models Analysis"
+    },
+    {
+     "groupIds": [
+      "OG000"
+     ],
+     "nonInferiorityType": "OTHER",
+     "pValue": "0.0028",
+     "pValueComment": "Change from baseline to Day 14 in TETRAS UL score",
+     "statisticalMethod": "Mixed Models Analysis"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "-4.4375",
+         "upperLimit": "1.5845",
+         "value": "-1.427"
+        }
+       ]
+      }
+     ],
+     "title": "Change from baseline to Day 7"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "-4.2779",
+         "upperLimit": "-1.5466",
+         "value": "-2.912"
+        }
+       ]
+      }
+     ],
+     "title": "Change from baseline to Day 14"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "6"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The TETRAS upper limb score is calculated as the sum of the 6 separate upper-limb maneuvers assessed by the clinician: forward-outstretched postural tremor \\[right\\], forward outstretched postural tremor \\[left\\], lateral wing-beating postural tremor \\[right\\], lateral wing-beating postural tremor \\[left\\], kinetic tremor \\[right\\], kinetic tremor \\[left\\], each on a 0 (no tremor) to 4 (maximum tremor) severity scale in 0.5-point increments. TETRAS Part 4 score for both upper limbs ranged from 0 to 24, higher scores indicated more severe tremor. A negative change from baseline indicated less tremor. Baseline is defined as the last non-missing value collected prior to receiving first dose of study drug. Change from baseline will be defined as assessment value minus baseline value.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants in open-label titration phase were administered once daily oral dose of PRAX-944 titrated from 20 mg (7 days) to 40 mg (7 days).",
+     "id": "OG000",
+     "title": "Part A: PRAX-944 20mg to 40mg OLT"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Full Analysis Set (FAS): all participants who took at least 1 dose of study drug and had a valid baseline TETRAS assessment and at least 1 valid post-baseline TETRAS assessment. Only those participants with data available at indicated timepoints have been presented.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline (Day 0), Days 7 and 14",
+   "title": "Part A: Change From Baseline in Essential Tremor Rating Assessment Scale (TETRAS) Upper Limb Score",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Scores on a scale"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "15"
+        },
+        {
+         "groupId": "OG001",
+         "value": "1"
+        },
+        {
+         "groupId": "OG002",
+         "value": "1"
+        }
+       ]
+      }
+     ],
+     "title": "Any AE"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "12"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        },
+        {
+         "groupId": "OG002",
+         "value": "1"
+        }
+       ]
+      }
+     ],
+     "title": "Related AE"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "6"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        },
+        {
+         "groupId": "OG002",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "AE Leading to Treatment Discontinuation"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "13"
+        },
+        {
+         "groupId": "OG001",
+         "value": "1"
+        },
+        {
+         "groupId": "OG002",
+         "value": "1"
+        }
+       ]
+      }
+     ],
+     "title": "Mild AE"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "7"
+        },
+        {
+         "groupId": "OG001",
+         "value": "1"
+        },
+        {
+         "groupId": "OG002",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Moderate AE"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        },
+        {
+         "groupId": "OG002",
+         "value": "1"
+        }
+       ]
+      }
+     ],
+     "title": "Severe AE"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "17"
+      },
+      {
+       "groupId": "OG001",
+       "value": "6"
+      },
+      {
+       "groupId": "OG002",
+       "value": "5"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "An AE is any untoward medical occurrence in a clinical study participant, temporally associated with the use of a study intervention, whether or not considered related to the study intervention. Incidence and Severity of Adverse Events have been reported.",
+   "groups": [
+    {
+     "description": "Participants in open-label titration phase were administered once daily oral dose of PRAX-944 titrated from 20 mg to up to 120 mg for 6-weeks",
+     "id": "OG000",
+     "title": "Part B: PRAX-944 20mg to 120mg OLT"
+    },
+    {
+     "description": "Participants in double-blind, randomized withdrawal phase were administered PRAX-944 120mg for 14 days.",
+     "id": "OG001",
+     "title": "Part B: PRAX-944 120mg RWD"
+    },
+    {
+     "description": "Participants in double-blind, randomized withdrawal phase were administered Placebo for 14 days.",
+     "id": "OG002",
+     "title": "Part B: Placebo RWD"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Safety Analysis Set included all participants who received at least 1 dose of study drug.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to Day 70",
+   "title": "Part B: Number of Participants With Adverse Events (AE), Related AE, and AE Leading to Treatment Discontinuation",
+   "type": "PRIMARY",
+   "unitOfMeasure": "participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        },
+        {
+         "groupId": "OG002",
+         "value": "0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "17"
+      },
+      {
+       "groupId": "OG001",
+       "value": "6"
+      },
+      {
+       "groupId": "OG002",
+       "value": "5"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Vital signs parameters included body temperature, pulse rate, respiratory rate, blood pressure (systolic and diastolic), clinical laboratory measures (chemistry, hematology, urinalysis, and coagulation), electrocardiogram parameters (heart rate, PR, QRS, QT, and corrected QT intervals). Any change in vital sign abnormalities that was clinically significant in the medical and scientific judgment of the investigator and not related to an underlying disease was reported as an unsolicited adverse event (AE). Any clinically significant abnormality associated with underlying disease does not require reporting as an (S)AE unless judged by the investigator to be more severe than expected for the participant's condition.",
+   "groups": [
+    {
+     "description": "Participants in open-label titration phase were administered once daily oral dose of PRAX-944 titrated from 20 mg to up to 120 mg for 6-weeks",
+     "id": "OG000",
+     "title": "Part B: PRAX-944 20mg to 120mg OLT"
+    },
+    {
+     "description": "Participants in double-blind, randomized withdrawal phase were administered PRAX-944 120mg for 14 days.",
+     "id": "OG001",
+     "title": "Part B: PRAX-944 120mg RWD"
+    },
+    {
+     "description": "Participants in double-blind, randomized withdrawal phase were administered Placebo for 14 days.",
+     "id": "OG002",
+     "title": "Part B: Placebo RWD"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Safety Analysis Set",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to Day 70",
+   "title": "Part B: Number of Participants With Clinically Significant Abnormalities in Vital Signs, Laboratory Values and Electrocardiogram Parameters",
+   "type": "PRIMARY",
+   "unitOfMeasure": "participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        },
+        {
+         "groupId": "OG002",
+         "value": "0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "17"
+      },
+      {
+       "groupId": "OG001",
+       "value": "6"
+      },
+      {
+       "groupId": "OG002",
+       "value": "5"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The C-SSRS is described as a scale developed at Columbia University that has 2-6 questions each in categories of Suicidal Ideation, Intensity of Ideation, Suicidal Behavior, and Actual Attempts. Four constructs were measured. Severity of Suicidal ideation is rated on a 5-point ordinal scale. Intensity of ideation is comprised of 5 items (frequency, duration, controllability, deterrents, and reason for ideation), each rated on a 5-point ordinal scale. Suicidal behavior is rated on a nominal scale that includes actual, aborted, and interrupted attempts; preparatory behavior; and non-suicidal self-injurious behavior. Lethality, assesses actual attempts; actual lethality is rated on a 6-point ordinal scale, and if actual lethality is 0, potential lethality of attempts is rated on a 3-point ordinal scale.The higher the C-SSRS score, the higher the suicide risk (ie. worse outcome).",
+   "groups": [
+    {
+     "description": "Participants in open-label titration phase were administered once daily oral dose of PRAX-944 titrated from 20 mg to up to 120 mg for 6-weeks",
+     "id": "OG000",
+     "title": "Part B: PRAX-944 20mg to 120mg OLT"
+    },
+    {
+     "description": "Participants in double-blind, randomized withdrawal phase were administered PRAX-944 120mg for 14 days.",
+     "id": "OG001",
+     "title": "Part B: PRAX-944 120mg RWD"
+    },
+    {
+     "description": "Participants in double-blind, randomized withdrawal phase were administered Placebo for 14 days.",
+     "id": "OG002",
+     "title": "Part B: Placebo RWD"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "FAS population",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to Day 70",
+   "title": "Part B: Number of Participants With Suicidal Ideation or Behavior Assessed Using Columbia Suicide Severity Rating Scale (C-SSRS)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

@@ -1,0 +1,341 @@
+{
+ "nctId": "NCT04988867",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "14"
+        }
+       ]
+      }
+     ],
+     "title": "Patients with TEAEs"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "4"
+        }
+       ]
+      }
+     ],
+     "title": "Patients with SAEs"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "2"
+        }
+       ]
+      }
+     ],
+     "title": "Patients with AEs leading to discontinuation"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1"
+        }
+       ]
+      }
+     ],
+     "title": "Alanine transaminase ≥3 ULN"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1"
+        }
+       ]
+      }
+     ],
+     "title": "Aspartate transaminase ≥3 ULN"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1"
+        }
+       ]
+      }
+     ],
+     "title": "Potassium ≤3.0 mmol/L"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "2"
+        }
+       ]
+      }
+     ],
+     "title": "Leukocytes ≥15 × 10Ê9/L"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "2"
+        }
+       ]
+      }
+     ],
+     "title": "Neutrophils ≤1.5 × 10E9/L"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1"
+        }
+       ]
+      }
+     ],
+     "title": "Hematocrit <0.3"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1"
+        }
+       ]
+      }
+     ],
+     "title": "Hemoglobin <100 g/L"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "15"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Percentage of patients with treatment-emergent adverse events (TEAEs), serious adverse events (SAEs), withdrawals due to AEs, potentially clinically important (PCI) changes in other safety assessments (laboratory values, vital signs, or ECGs, following protocol-defined PCI criteria)",
+   "groups": [
+    {
+     "description": "Trofinetide oral solution was administered twice daily for up to approximately 26 months, orally or administered by gastrostomy (G) tube.",
+     "id": "OG000",
+     "title": "Trofinetide"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "All patients enrolled and treated",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Mean study drug exposure 434 days, corresponding to 1.2 years",
+   "title": "Safety and Tolerability of Treatment With Oral Trofinetide",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "135.9",
+         "value": "1015.7"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "13"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Area under the concentration-time curve from time 0 to 12 h at steady state as obtained from population pharmacokinetic (PK) modelling",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Trofinetide oral solution was administered twice daily for up to approximately 26 months, orally or administered by gastrostomy (G) tube.",
+     "id": "OG000",
+     "title": "Trofinetide"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Patients enrolled, treated, and with at least one quantifiable PK concentration",
+   "reportingStatus": "POSTED",
+   "timeFrame": "PK samples were taken predose and at Weeks 2, 4, 8, and 12",
+   "title": "AUC0-12,ss (Area Under the Concentration-time Curve From Time 0 to 12 h at Steady State)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "μg x h/mL"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "22.8",
+         "value": "181.5"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "13"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Maximum observed drug concentration at steady state as obtained from population pharmacokinetic (PK) modelling",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Trofinetide oral solution was administered twice daily for up to approximately 26 months, orally or administered by gastrostomy (G) tube.",
+     "id": "OG000",
+     "title": "Trofinetide"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Patients enrolled, treated, and with at least one quantifiable PK concentration",
+   "reportingStatus": "POSTED",
+   "timeFrame": "PK samples were taken predose and at Weeks 2, 4, 8, and 12",
+   "title": "Cmax,ss (Maximum Observed Drug Concentration at Steady State)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "μg/mL"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "6.3",
+         "value": "19.6"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "13"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Minimum observed drug concentration at steady state of oral trofinetide as obtained from population pharmacokinetic (PK) modeling",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Trofinetide oral solution was administered twice daily for up to approximately 26 months, orally or administered by gastrostomy (G) tube.",
+     "id": "OG000",
+     "title": "Trofinetide"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Patients enrolled, treated, and with at least one quantifiable PK concentration",
+   "reportingStatus": "POSTED",
+   "timeFrame": "PK samples were taken predose and at Weeks 2, 4, 8, and 12",
+   "title": "Cmin,ss (Minimum Observed Drug Concentration at Steady State of Oral Trofinetide)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "μg/mL"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.2",
+         "value": "1.8"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "13"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Time of the maximum observed drug concentration at steady state as obtained from population pharmacokinetic (PK) modelling",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Trofinetide oral solution was administered twice daily for up to approximately 26 months, orally or administered by gastrostomy (G) tube.",
+     "id": "OG000",
+     "title": "Trofinetide"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Patients enrolled, treated, and with at least one quantifiable PK concentration",
+   "reportingStatus": "POSTED",
+   "timeFrame": "PK samples were taken predose and at Weeks 2, 4, 8, and 12",
+   "title": "Tmax (Time of the Maximum Observed Drug Concentration at Steady State)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "h"
+  }
+ ]
+}

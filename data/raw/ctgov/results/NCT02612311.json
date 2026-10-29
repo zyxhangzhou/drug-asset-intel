@@ -1,0 +1,95 @@
+{
+ "nctId": "NCT02612311",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "27.7",
+         "upperLimit": "39.6",
+         "value": "33.2"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "16.6",
+         "upperLimit": "22.6",
+         "value": "17.5"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "19.1",
+         "upperLimit": "45.0",
+         "value": "32.9"
+        },
+        {
+         "groupId": "OG003",
+         "lowerLimit": "17.2",
+         "upperLimit": "34.7",
+         "value": "22.4"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "210"
+      },
+      {
+       "groupId": "OG001",
+       "value": "211"
+      },
+      {
+       "groupId": "OG002",
+       "value": "91"
+      },
+      {
+       "groupId": "OG003",
+       "value": "91"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "PFS was defined as the interval from enrollment to the earlier of the first documentation of definitive disease progression (PD) or death from any cause. PD was appearance of new nodes \\>1.5 centimetres (cm) in the longest diameter (LD) and \\>1.0 in longest perpendicular diameter (LPD), new or recurrent hepatomegaly or splenomegaly, new or reappearance of an unequivocal extra-nodal lesion, ≥50% increase from the nadir in the sum of products of diameters (SPD) of target lesions, ≥50% increase in the LD of an individual node or extra-nodal mass, splenic/hepatic enlargement of ≥50% from nadir, unequivocal increase in the size of non-target disease, transformation to a more aggressive histology, decrease in platelet count or Hgb, \\>50% decrease from the highest on-study platelet count, \\>20 grams per Liter (g/L) decrease from the highest on-study hemoglobin (Hgb).",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants received ublituximab, 150 milligrams (mg), intravenously (IV), on Day 1, 750 mg on Day 2, followed by 900 mg on Days 8 and 15 of Cycle 1 (cycle length=28 days), Day 1 of Cycles 2-6, and once every 3 cycles thereafter, along with umbralisib, 800 mg, orally, once daily during each cycle until disease progression, lack of tolerability, or until the treatment is commercially available or up to 87 months.",
+     "id": "OG000",
+     "title": "Experimental: Arm A: Ublituximab + Umbralisib"
+    },
+    {
+     "description": "Participants received obinutuzumab 100 mg, IV on Day 1, 900 mg on Day 2, followed by 1000 mg on Days 8 and 5 of cycle 1 (cycle length = 28 days), Day 1 of Cycle 2-6 along with chlorambucil 0.5 milligrams per kilogram (mg/kg) tablet orally on Days 1 and 15 once daily during each cycle until disease progression, lack of tolerability, or until the treatment is commercially available or up to 87 months.",
+     "id": "OG001",
+     "title": "Active Comparator: Arm B: Obinutuzumab + Chlorambucil"
+    },
+    {
+     "description": "Participants received ublituximab, 150 mg, IV, on Day 1, 750 mg on Day 2, followed by 900 mg on Days 8 and 15 of Cycle 1 (cycle length=28 days), Day 1 of Cycles 2-6, and once every 3 cycles thereafter, until disease progression, lack of tolerability, or until the treatment is commercially available or up to 87 months.",
+     "id": "OG002",
+     "title": "Experimental: Arm C: Ublituximab"
+    },
+    {
+     "description": "Participants received umbralisib, 800 mg tablets, orally, once daily during each cycle (cycle length= 28 days) until removal from study or up to 87 months.",
+     "id": "OG003",
+     "title": "Experimental: Arm D: Umbralisib"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "The ITT population included all randomized participants, regardless of administration of study treatment (ublituximab, TGR-1202, obinutuzumab + chlorambucil, or ublituximab + TGR-1202).",
+   "reportingStatus": "POSTED",
+   "timeFrame": "From enrolment to the earlier of the first documentation of definitive disease progression (PD) or death (Up to 87 months)",
+   "title": "Progression-Free Survival (PFS) Per International Workshop on Chronic Lymphocytic Leukemia (iwCLL) Criteria",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Months"
+  }
+ ]
+}

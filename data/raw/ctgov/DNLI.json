@@ -1,0 +1,2641 @@
+{
+ "aliases": [
+  "Denali Therapeutics"
+ ],
+ "studies": [
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: DNL201"
+       ],
+       "label": "DNL201 low dose",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: DNL201"
+       ],
+       "label": "DNL201 high dose",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "DNL201 high dose",
+        "DNL201 low dose"
+       ],
+       "description": "Oral repeating dose",
+       "name": "DNL201",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Oral repeating dose",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Parkinson Disease"
+     ],
+     "keywords": [
+      "LRRK2",
+      "Parkinson's Disease",
+      "Movement Disorders"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 29,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Study to Evaluate DNL201 in Subjects With Parkinson's Disease",
+     "nctId": "NCT03710707",
+     "officialTitle": "A Phase 1b, Multicenter, Randomized, Placebo-Controlled, Double-Blind Study to Determine the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of DNL201 in Subjects With Parkinson's Disease",
+     "orgStudyIdInfo": {
+      "id": "DNLI-B-0002"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Denali Therapeutics Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Denali Therapeutics Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2019-12-06",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2020-01-13",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2020-01-08",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2019-12-06",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2018-12-04",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2020-01",
+     "studyFirstPostDateStruct": {
+      "date": "2018-10-18",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2018-10-15",
+     "studyFirstSubmitQcDate": "2018-10-16"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Subjects will receive DNL747 for 29 days for the first period and then will switch to placebo for 29 days for the second period. There will be a 14-day washout period between the 2 treatment periods.",
+       "interventionNames": [
+        "Drug: DNL747",
+        "Drug: Placebo"
+       ],
+       "label": "DNL747 First, Placebo Second",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Subjects will receive placebo for 29 days for the first period and then will switch to DNL747 for 29 days for the second period. There will be a 14-day washout period between the 2 treatment periods.",
+       "interventionNames": [
+        "Drug: DNL747",
+        "Drug: Placebo"
+       ],
+       "label": "Placebo First, DNL747 Second",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "DNL747 First, Placebo Second",
+        "Placebo First, DNL747 Second"
+       ],
+       "description": "DNL747",
+       "name": "DNL747",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "DNL747 First, Placebo Second",
+        "Placebo First, DNL747 Second"
+       ],
+       "description": "Placebo",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Alzheimer Disease"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "CROSSOVER",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 16,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Study to Evaluate DNL747 in Subjects With Alzheimer's Disease",
+     "nctId": "NCT03757325",
+     "officialTitle": "A Multicenter, Randomized, Placebo-Controlled, Double-Blind, Phase 1b Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of DNL747 in Subjects With Alzheimer's Disease",
+     "orgStudyIdInfo": {
+      "id": "DNLI-D-0002"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Denali Therapeutics Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Denali Therapeutics Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2019-12-05",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2020-02-26",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2020-02-25",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2019-12-05",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2019-02-13",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2020-02",
+     "studyFirstPostDateStruct": {
+      "date": "2018-11-28",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2018-11-27",
+     "studyFirstSubmitQcDate": "2018-11-27"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants from 2 through 10 years of age who have MPS II. Clinical, neurocognitive, laboratory, and biomarker assessments will be conducted.",
+       "interventionNames": [
+        "Other: No Intervention"
+       ],
+       "label": "Part 1"
+      },
+      {
+       "description": "Participants from 2 through 30 years of age who have MPS II; Part 2 will entail a single collection of cerebrospinal fluid (CSF), urine, and blood. Clinical outcome assessments are optional in Part 2 for participants aged 18 years or younger; no clinical assessments are planned for participants older than 18 years.",
+       "interventionNames": [
+        "Other: No Intervention"
+       ],
+       "label": "Part 2"
+      },
+      {
+       "description": "Participants \\<8 years of age who have the neuronopathic form of mucopolysaccharidosis type II (nMPS II). Clinical, neurocognitive, laboratory, and biomarker assessments will be conducted.",
+       "interventionNames": [
+        "Other: No Intervention"
+       ],
+       "label": "Part 3"
+      },
+      {
+       "description": "Participants 6 to 17 years of age with the non-neuronopathic form of mucopolysaccharidosis type II (nnMPS II). Clinical, neurocognitive, laboratory, and biomarker assessments will be conducted.",
+       "interventionNames": [
+        "Other: No Intervention"
+       ],
+       "label": "Part 4"
+      },
+      {
+       "description": "Participants ≤3 years of age with an undetermined MPS II phenotype. Clinical, neurocognitive, laboratory, and biomarker assessments will be conducted.",
+       "interventionNames": [
+        "Other: No Intervention"
+       ],
+       "label": "Part 5"
+      },
+      {
+       "description": "Participants from 1 to 17 years of age with nMPS II. Clinical, neurocognitive, laboratory, and biomarker assessments will be conducted. Part 6 will also include a single collection of CSF.",
+       "interventionNames": [
+        "Other: No Intervention"
+       ],
+       "label": "Part 6"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Part 1",
+        "Part 2",
+        "Part 3",
+        "Part 4",
+        "Part 5",
+        "Part 6"
+       ],
+       "description": "No Intervention",
+       "name": "No Intervention",
+       "type": "OTHER"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Mucopolysaccharidosis II"
+     ],
+     "keywords": [
+      "MPS-II",
+      "Hunter Syndrome",
+      "Lysosomal Storage Disease",
+      "nMPS II",
+      "nnMPS II"
+     ]
+    },
+    "designModule": {
+     "bioSpec": {
+      "description": "Whole blood, serum, cerebrospinal fluid",
+      "retention": "SAMPLES_WITH_DNA"
+     },
+     "designInfo": {
+      "observationalModel": "COHORT",
+      "timePerspective": "PROSPECTIVE"
+     },
+     "enrollmentInfo": {
+      "count": 18,
+      "type": "ACTUAL"
+     },
+     "patientRegistry": false,
+     "studyType": "OBSERVATIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Study of Potential Treatment-Responsive Biomarkers and Clinical Outcomes in Hunter Syndrome",
+     "nctId": "NCT04007536",
+     "officialTitle": "A Prospective, Longitudinal Study of Potential Treatment-Responsive Biomarkers and Clinical Outcomes in Hunter Syndrome",
+     "orgStudyIdInfo": {
+      "id": "DNLI-E-0001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Denali Therapeutics Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Denali Therapeutics Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2024-03-01",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2024-06-10",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2024-06-06",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2024-03-01",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2019-10-23",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2024-06",
+     "studyFirstPostDateStruct": {
+      "date": "2019-07-05",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2019-06-22",
+     "studyFirstSubmitQcDate": "2019-07-01"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Dose escalation followed by a consistent dose level in participants with neuronopathic MPS II",
+       "interventionNames": [
+        "Drug: tividenofusp alfa"
+       ],
+       "label": "Cohort A",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "A consistent dose level in participants with non-neuronopathic MPS II, neuronopathic MPS II, or unknown phenotype followed by dose escalation in some participants.",
+       "interventionNames": [
+        "Drug: tividenofusp alfa"
+       ],
+       "label": "Cohort B",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "A consistent dose level in participants with neuronopathic MPS II",
+       "interventionNames": [
+        "Drug: tividenofusp alfa"
+       ],
+       "label": "Cohort C",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "A consistent dose level in participants with non-neuronopathic MPS II or neuronopathic MPS II",
+       "interventionNames": [
+        "Drug: tividenofusp alfa"
+       ],
+       "label": "Cohort D",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "A consistent dose level in participants with non-neuronopathic MPS II or neuronopathic MPS II",
+       "interventionNames": [
+        "Drug: tividenofusp alfa"
+       ],
+       "label": "Cohort E",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Cohort A",
+        "Cohort B",
+        "Cohort C",
+        "Cohort D",
+        "Cohort E"
+       ],
+       "description": "Intravenous repeating dose",
+       "name": "tividenofusp alfa",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Mucopolysaccharidosis II"
+     ],
+     "keywords": [
+      "MPS II",
+      "Hunter Syndrome",
+      "nMPS II"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 47,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Study of Tividenofusp Alfa (DNL310) in Pediatric Participants With Hunter Syndrome",
+     "nctId": "NCT04251026",
+     "officialTitle": "A Phase 1/2, Multicenter, Open-Label Study to Determine the Safety, Pharmacokinetics, and Pharmacodynamics of DNL310 in Pediatric Participants With Hunter Syndrome",
+     "orgStudyIdInfo": {
+      "id": "DNLI-E-0002"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Denali Therapeutics Inc."
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "2023-508619-22-00",
+       "type": "CTIS"
+      },
+      {
+       "id": "2019-004909-27",
+       "type": "EUDRACT_NUMBER"
+      },
+      {
+       "id": "2019",
+       "link": "https://reporter.nih.gov/quickSearch/2019",
+       "type": "NIH"
+      },
+      {
+       "id": "2023",
+       "link": "https://reporter.nih.gov/quickSearch/2023",
+       "type": "NIH"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Denali Therapeutics Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2031-02",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-08-07",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-08-04",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2031-02",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2020-07-16",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-08",
+     "studyFirstPostDateStruct": {
+      "date": "2020-01-31",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2020-01-28",
+     "studyFirstSubmitQcDate": "2020-01-29"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Cohort A: Single-ascending dose; Cohort B: Multiple-ascending doses",
+       "interventionNames": [
+        "Drug: DNL343"
+       ],
+       "label": "DNL343",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Cohort A: Single-ascending dose; Cohort B: Multiple-ascending doses",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "DNL343"
+       ],
+       "description": "Single and repeating oral dose(s)",
+       "name": "DNL343",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Single and repeating oral dose(s)",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Healthy Volunteers"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 96,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of DNL343 in Healthy Volunteers",
+     "nctId": "NCT04268784",
+     "officialTitle": "A Phase 1, Single-Center, Randomized, Placebo-Controlled, Double-Blind Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of DNL343 In Healthy Volunteers",
+     "orgStudyIdInfo": {
+      "id": "DNLI-F-0001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Denali Therapeutics Inc."
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "2019-004027-21",
+       "type": "EUDRACT_NUMBER"
+      },
+      {
+       "id": "2019",
+       "link": "https://reporter.nih.gov/quickSearch/2019",
+       "type": "NIH"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Denali Therapeutics Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2021-08-03",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2022-02-07",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2022-02-03",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2021-08-03",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2020-02-20",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2022-02",
+     "studyFirstPostDateStruct": {
+      "date": "2020-02-13",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2020-02-10",
+     "studyFirstSubmitQcDate": "2020-02-11"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Part 1: Single-ascending dose cohorts; Part 2: Multiple-ascending dose cohorts (10 days); Part 3: Additional multiple-dose cohort (10 days)",
+       "interventionNames": [
+        "Drug: DNL201"
+       ],
+       "label": "DNL201",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Part 1: Single-ascending dose cohorts; Part 2: Multiple-ascending dose cohorts (10 days); Part 3: Additional multiple-dose cohort (10 days)",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "DNL201"
+       ],
+       "description": "Oral dose(s)",
+       "name": "DNL201",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Oral dose(s)",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Healthy Volunteers"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 122,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of DNL201 in Healthy Volunteers",
+     "nctId": "NCT04551534",
+     "officialTitle": "A First-In-Human Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of Single and Multiple Ascending Oral Doses of DNL201 in Healthy Subjects",
+     "orgStudyIdInfo": {
+      "id": "DNLI-B-0001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Denali Therapeutics Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Denali Therapeutics Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2018-08-08",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2020-09-16",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2020-09-10",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2018-08-08",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2017-06-01",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2020-09",
+     "studyFirstPostDateStruct": {
+      "date": "2020-09-16",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2020-09-10",
+     "studyFirstSubmitQcDate": "2020-09-10"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Part A: Single-ascending dose cohorts; Part B: Multiple-ascending dose cohorts (10 days); Part C: Single-dose cohort; Part D: Additional multiple-dose cohort (28 days); Part E Multiple-ascending dose cohorts (14 days)",
+       "interventionNames": [
+        "Drug: DNL151"
+       ],
+       "label": "DNL151",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Part A: Single-ascending dose cohorts; Part B: Multiple-ascending dose cohorts (10 days); Part C: Single-dose cohort; Part D: Additional multiple-dose cohort (28 days); Part E Multiple-ascending dose cohorts (14 days)",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "DNL151"
+       ],
+       "description": "oral dose(s)",
+       "name": "DNL151",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "oral dose(s)",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Healthy Volunteers"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 186,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of DNL151 in Healthy Volunteers",
+     "nctId": "NCT04557800",
+     "officialTitle": "A Phase 1, Randomized, Placebo-Controlled, Double-Blind Study to Determine the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics Of DNL151 in Healthy Volunteers",
+     "orgStudyIdInfo": {
+      "id": "DNLI-C-0001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Denali Therapeutics Inc."
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "2017-003730-82",
+       "type": "EUDRACT_NUMBER"
+      },
+      {
+       "id": "2017",
+       "link": "https://reporter.nih.gov/quickSearch/2017",
+       "type": "NIH"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Denali Therapeutics Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2021-02-19",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2022-03-07",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2022-02-18",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2021-02-19",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2017-11-16",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2022-02",
+     "studyFirstPostDateStruct": {
+      "date": "2020-09-22",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2020-09-10",
+     "studyFirstSubmitQcDate": "2020-09-15"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: DNL343",
+        "Drug: Placebo"
+       ],
+       "label": "Cohort A",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: DNL343",
+        "Drug: Placebo"
+       ],
+       "label": "Cohort B",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: DNL343"
+       ],
+       "label": "Cohort C",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Cohort A",
+        "Cohort B"
+       ],
+       "description": "Multiple oral doses",
+       "name": "DNL343",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Cohort A",
+        "Cohort B"
+       ],
+       "description": "Single oral dose",
+       "name": "Placebo",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Cohort C"
+       ],
+       "description": "Single oral dose",
+       "name": "DNL343",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Healthy Volunteers"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "CROSSOVER",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 31,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Study to Evaluate the Bioavailability and Safety of DNL343 in Healthy Volunteers",
+     "nctId": "NCT04581772",
+     "officialTitle": "A Phase 1 Open-Label, Randomized, Crossover Study to Evaluate the Bioavailability, Effect of Food, Palatability, and Safety of Various DNL343 Oral Formulations in Healthy Participants",
+     "orgStudyIdInfo": {
+      "id": "DNLI-F-0002"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Denali Therapeutics Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Denali Therapeutics Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2021-06-04",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2021-06-11",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2021-06-10",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2021-06-04",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2020-12-23",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2021-06",
+     "studyFirstPostDateStruct": {
+      "date": "2020-10-09",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2020-09-29",
+     "studyFirstSubmitQcDate": "2020-10-05"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: DNL343"
+       ],
+       "label": "DNL343 (High Dose)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: DNL343"
+       ],
+       "label": "DNL343 (Low Dose)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "DNL343 (High Dose)",
+        "DNL343 (Low Dose)"
+       ],
+       "description": "Oral repeating dose",
+       "name": "DNL343",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Oral repeating dose",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Amyotrophic Lateral Sclerosis"
+     ],
+     "keywords": [
+      "ALS"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 29,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Study to Determine the Safety, Pharmacokinetics, and Pharmacodynamics of DNL343 in Participants With Amyotrophic Lateral Sclerosis",
+     "nctId": "NCT05006352",
+     "officialTitle": "A Phase 1b, Multicenter, Randomized, Placebo-Controlled, Double-Blind Study, Followed by an Open-Label Extension, to Determine the Safety, Pharmacokinetics, and Pharmacodynamics of DNL343 in Participants With Amyotrophic Lateral Sclerosis",
+     "orgStudyIdInfo": {
+      "id": "DNLI-F-0003"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Denali Therapeutics Inc."
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "2021-001766-37",
+       "type": "EUDRACT_NUMBER"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Denali Therapeutics Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2024-06-05",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2024-09-19",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2024-09-12",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2022-12-15",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2021-08-11",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2024-09",
+     "studyFirstPostDateStruct": {
+      "date": "2021-08-16",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2021-08-07",
+     "studyFirstSubmitQcDate": "2021-08-13"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: DNL593"
+       ],
+       "label": "DNL593 (Healthy Participant)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo (Healthy Participant)",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "interventionNames": [
+        "Drug: DNL593"
+       ],
+       "label": "DNL593 (Participants with FTD)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo (Participants with FTD)",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "DNL593 (Healthy Participant)",
+        "DNL593 (Participants with FTD)"
+       ],
+       "description": "Ascending single doses (for healthy participants) and multiple doses (for participants with FTD)",
+       "name": "DNL593",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo (Healthy Participant)",
+        "Placebo (Participants with FTD)"
+       ],
+       "description": "Ascending single doses (for healthy participants) and multiple doses (for participants with FTD)",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Frontotemporal Dementia"
+     ],
+     "keywords": [
+      "FTD",
+      "FTD-GRN",
+      "granulin"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 85,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of DNL593 in Healthy Participants and Participants With Frontotemporal Dementia (FTD-GRN)",
+     "nctId": "NCT05262023",
+     "officialTitle": "A Phase 1/2, Multicenter, Randomized, Placebo-Controlled, Double Blind Single Dose and Multiple Dose Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of DNL593 in Healthy Participants and Participants With Frontotemporal Dementia Followed by an Open-Label Extension",
+     "orgStudyIdInfo": {
+      "id": "DNLI-H-0001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Denali Therapeutics Inc."
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "2023-508697-28-00",
+       "type": "CTIS"
+      },
+      {
+       "id": "2021-005733-16",
+       "type": "EUDRACT_NUMBER"
+      },
+      {
+       "id": "2023",
+       "link": "https://reporter.nih.gov/quickSearch/2023",
+       "type": "NIH"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "collaborators": [
+      {
+       "class": "INDUSTRY",
+       "name": "Takeda"
+      }
+     ],
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Denali Therapeutics Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2028-11",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-01-15",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-01-13",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2026-12",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2022-02-01",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-01",
+     "studyFirstPostDateStruct": {
+      "date": "2022-03-02",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2022-02-01",
+     "studyFirstSubmitQcDate": "2022-02-26"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: tividenofusp alfa",
+        "Drug: idursulfase"
+       ],
+       "label": "Cohort A: Participants with nMPS II",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: tividenofusp alfa",
+        "Drug: idursulfase"
+       ],
+       "label": "Cohort B: Participants with nnMPS II",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants who meet pre-specified criteria may receive DNL310 or idursulfase",
+       "interventionNames": [
+        "Drug: tividenofusp alfa",
+        "Drug: idursulfase"
+       ],
+       "label": "Open-label Treatment Phase",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Cohort A: Participants with nMPS II",
+        "Cohort B: Participants with nnMPS II",
+        "Open-label Treatment Phase"
+       ],
+       "description": "Intravenous repeating dose",
+       "name": "tividenofusp alfa",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Cohort A: Participants with nMPS II",
+        "Cohort B: Participants with nnMPS II",
+        "Open-label Treatment Phase"
+       ],
+       "description": "Intravenous repeating dose",
+       "name": "idursulfase",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Mucopolysaccharidosis II"
+     ],
+     "keywords": [
+      "Hunter Syndrome",
+      "MPS II",
+      "nMPS II",
+      "nnMPS II"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 65,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2",
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "COMPASS",
+     "briefTitle": "A Study to Determine the Efficacy and Safety of Tividenofusp Alfa (DNL310) vs Idursulfase in Pediatric and Young Adult Participants With Neuronopathic (nMPS II) or Non-Neuronopathic Mucopolysaccharidosis Type II (nnMPS II)",
+     "nctId": "NCT05371613",
+     "officialTitle": "A Phase 2/3, Multicenter, Double-Blind, Randomized Study to Determine the Efficacy and Safety of Tividenofusp Alfa (DNL310) vs Idursulfase in Pediatric and Young Adult Participants With Neuronopathic or Non-Neuronopathic Mucopolysaccharidosis Type II",
+     "orgStudyIdInfo": {
+      "id": "DNLI-E-0007"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Denali Therapeutics Inc."
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "2024-510990-21-00",
+       "type": "CTIS"
+      },
+      {
+       "id": "2021-005200-35",
+       "type": "EUDRACT_NUMBER"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Denali Therapeutics Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2027-12",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-09-09",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-09-04",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-12",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2022-07-21",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-09",
+     "studyFirstPostDateStruct": {
+      "date": "2022-05-12",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2022-05-09",
+     "studyFirstSubmitQcDate": "2022-05-09"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: DNL919"
+       ],
+       "label": "DNL919 (Healthy Participant)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo (Healthy Participant)",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "DNL919 (Healthy Participant)"
+       ],
+       "description": "Single doses",
+       "name": "DNL919",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo (Healthy Participant)"
+       ],
+       "description": "Single doses",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Healthy Participant"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 47,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of DNL919 in Healthy Participants",
+     "nctId": "NCT05450549",
+     "officialTitle": "A Phase 1, Randomized, Placebo-Controlled, Double-Blind, Single Ascending Dose Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of DNL919 in Healthy Participants",
+     "orgStudyIdInfo": {
+      "id": "DNLI-G-0001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Denali Therapeutics Inc."
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "2022-000756-10",
+       "type": "EUDRACT_NUMBER"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "collaborators": [
+      {
+       "class": "INDUSTRY",
+       "name": "Takeda"
+      }
+     ],
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Denali Therapeutics Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2023-06-08",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2023-08-16",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2023-08-14",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2023-06-08",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2022-07-14",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2023-08",
+     "studyFirstPostDateStruct": {
+      "date": "2022-07-08",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2022-07-05",
+     "studyFirstSubmitQcDate": "2022-07-05"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants with nMPS II, aged ≥5 to ≤10 years",
+       "interventionNames": [
+        "Drug: tividenofusp alfa"
+       ],
+       "label": "Cohort A2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants with nMPS II or nnMPS II, aged ≥1 to ≤18 years",
+       "interventionNames": [
+        "Drug: tividenofusp alfa"
+       ],
+       "label": "Cohort B2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants with nMPS II, aged \\<4 years",
+       "interventionNames": [
+        "Drug: tividenofusp alfa"
+       ],
+       "label": "Cohort C2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants with nMPS II or nnMPS II, aged ≤18 years with preexisting hepatomegaly who have never taken standard-of-care ERT",
+       "interventionNames": [
+        "Drug: tividenofusp alfa"
+       ],
+       "label": "Cohort D2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants with nMPS II, aged ≥6 years; participants with nnMPS II, aged \\<6 or ≥17 years; or participants with nMPS II, aged ≥1 to ≤18 years, with a history of prior HSCT or gene therapy and have completed at least 48 weeks in Study DNLI-E-0001",
+       "interventionNames": [
+        "Drug: tividenofusp alfa"
+       ],
+       "label": "Cohort E2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants with nMPS II, aged ≥2 to \\<6 years",
+       "interventionNames": [
+        "Drug: tividenofusp alfa"
+       ],
+       "label": "Cohort A7",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants with nnMPS II, aged ≥6 to \\<17 years",
+       "interventionNames": [
+        "Drug: tividenofusp alfa"
+       ],
+       "label": "Cohort B7",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Cohort A2",
+        "Cohort A7",
+        "Cohort B2",
+        "Cohort B7",
+        "Cohort C2",
+        "Cohort D2",
+        "Cohort E2"
+       ],
+       "description": "Intravenous repeating dose",
+       "name": "tividenofusp alfa",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Mucopolysaccharidosis II"
+     ],
+     "keywords": [
+      "Hunter Syndrome",
+      "MPS II",
+      "nMPS II",
+      "nnMPS II"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 99,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE2",
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "An Extension Study of the Long-Term Safety, Tolerability, and Efficacy of Tividenofusp Alfa (DNL310) in Participants With Mucopolysaccharidosis Type II (MPS II) From Study DNLI-E-0002 or Study DNLI-E-0007",
+     "nctId": "NCT06075537",
+     "officialTitle": "An Open-Label Extension to Investigate the Long-Term Safety, Tolerability, and Efficacy of DNL310 in Patients With Mucopolysaccharidosis Type II (MPS II) From Study DNLI-E-0002 or Study DNLI-E-0007",
+     "orgStudyIdInfo": {
+      "id": "DNLI-E-0008"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Denali Therapeutics Inc."
+     },
+     "secondaryIdInfos": [
+      {
+       "domain": "EU Trial Number",
+       "id": "2023-503837-23",
+       "type": "OTHER"
+      },
+      {
+       "id": "2023",
+       "link": "https://reporter.nih.gov/quickSearch/2023",
+       "type": "NIH"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Denali Therapeutics Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2027-06",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-27",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-26",
+     "overallStatus": "ENROLLING_BY_INVITATION",
+     "primaryCompletionDateStruct": {
+      "date": "2027-06",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2023-09-20",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-10",
+     "studyFirstPostDateStruct": {
+      "date": "2023-10-10",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2023-09-18",
+     "studyFirstSubmitQcDate": "2023-10-03"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants with MPS IIIA",
+       "interventionNames": [
+        "Drug: DNL126"
+       ],
+       "label": "Cohort A1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants with MPS IIIA",
+       "interventionNames": [
+        "Drug: DNL126"
+       ],
+       "label": "Cohort A2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants with MPS IIIA",
+       "interventionNames": [
+        "Drug: DNL126"
+       ],
+       "label": "Cohort A3",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants with MPS IIIA",
+       "interventionNames": [
+        "Drug: DNL126"
+       ],
+       "label": "Cohort B1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants with MPS IIIA",
+       "interventionNames": [
+        "Drug: DNL126"
+       ],
+       "label": "Cohort B2",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Cohort A1",
+        "Cohort A2",
+        "Cohort A3",
+        "Cohort B1",
+        "Cohort B2"
+       ],
+       "description": "intravenous repeating dose",
+       "name": "DNL126",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Mucopolysaccharidosis Type IIIA"
+     ],
+     "keywords": [
+      "Sanfilippo Syndrome",
+      "MPS IIIA"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 20,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Study of DNL126 in Pediatric Participants With Mucopolysaccharidosis Type IIIA (Sanfilippo Syndrome Type A)",
+     "nctId": "NCT06181136",
+     "officialTitle": "A Phase 1/2, Multicenter, Open-Label Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of DNL126 in Pediatric Participants With Mucopolysaccharidosis Type IIIA (Sanfilippo Syndrome Type A)",
+     "orgStudyIdInfo": {
+      "id": "DNLI-I-0001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Denali Therapeutics Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Denali Therapeutics Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2028-08",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-07-13",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-07-10",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2028-08",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2023-12-07",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-07",
+     "studyFirstPostDateStruct": {
+      "date": "2023-12-26",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2023-12-04",
+     "studyFirstSubmitQcDate": "2023-12-22"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: [14C]-DNL343"
+       ],
+       "label": "14C-DNL343",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "14C-DNL343"
+       ],
+       "description": "Single dose",
+       "name": "[14C]-DNL343",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Healthy Volunteers"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 7,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Phase 1, Open-label Study of the Absorption, Metabolism, and Excretion of [14C]-DNL343 Following a Single Oral Dose in Healthy Male Participants",
+     "nctId": "NCT06281158",
+     "officialTitle": "A Study of the Pharmacokinetics of [14C]-DNL343 Following a Single Oral Dose in Healthy Male Participants",
+     "orgStudyIdInfo": {
+      "id": "DNLI-F-0009"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Denali Therapeutics Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Denali Therapeutics Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2024-04-30",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2024-06-20",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2024-06-17",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2024-04-30",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2024-03-01",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2024-06",
+     "studyFirstPostDateStruct": {
+      "date": "2024-02-28",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2024-02-20",
+     "studyFirstSubmitQcDate": "2024-02-26"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Oral 225 mg dose, once daily (QD)",
+       "interventionNames": [
+        "Drug: BIIB122 225 mg"
+       ],
+       "label": "BIIB122 225 mg",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Oral BIIB122 matching placebo, once daily (QD)",
+       "interventionNames": [
+        "Other: BIIB122-Matching Placebo"
+       ],
+       "label": "BIIB122 Matching Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "BIIB122 225 mg"
+       ],
+       "description": "Administered as specified in the treatment arm",
+       "name": "BIIB122 225 mg",
+       "otherNames": [
+        "DNL151"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "BIIB122 Matching Placebo"
+       ],
+       "description": "Administered as specified in the treatment arm",
+       "name": "BIIB122-Matching Placebo",
+       "type": "OTHER"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Parkinson Disease"
+     ],
+     "keywords": [
+      "LRRK2",
+      "Movement Disorders"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 50,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Safety and Pharmacodynamic Effects of BIIB122 in Participants With LRRK2-Associated Parkinson's Disease (LRRK2-PD)",
+     "nctId": "NCT06602193",
+     "officialTitle": "A Phase 2a, Multicenter, Randomized, Double-Blind, Placebo-Controlled Study to Evaluate the Safety and Pharmacodynamic Effects of BIIB122 in Participants With LRRK2-Associated Parkinson's Disease (LRRK2-PD)",
+     "orgStudyIdInfo": {
+      "id": "DNLI-C-0009"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Denali Therapeutics Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "collaborators": [
+      {
+       "class": "INDUSTRY",
+       "name": "Biogen"
+      }
+     ],
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Denali Therapeutics Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2028-02-28",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-05-27",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-05-26",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-03",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2024-10-24",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-05",
+     "studyFirstPostDateStruct": {
+      "date": "2024-09-19",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2024-09-16",
+     "studyFirstSubmitQcDate": "2024-09-16"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: DNL628"
+       ],
+       "label": "Experimental Arm",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo Arm",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Experimental Arm"
+       ],
+       "description": "Multiple ascending doses",
+       "name": "DNL628",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo Arm"
+       ],
+       "description": "Multiple ascending doses",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Alzheimer Disease, Early Onset"
+     ],
+     "keywords": [
+      "Alzheimer's Disease"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "maskingDescription": "Sponsor staff directly interacting with the site (clinical operations and medical monitor) will be blinded but may be unblinded if necessary to ensure participant safety.",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 68,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of DNL628 in Participants With Early Alzheimer's Disease",
+     "nctId": "NCT07328451",
+     "officialTitle": "A Phase 1b, Multicenter, Randomized, Placebo-Controlled, Double-Blind Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of DNL628 in Participants With Early Alzheimer's Disease",
+     "orgStudyIdInfo": {
+      "id": "DNLI-K-0001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Denali Therapeutics Inc."
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "2025-523515-11-00",
+       "type": "CTIS"
+      },
+      {
+       "id": "2025",
+       "link": "https://reporter.nih.gov/quickSearch/2025",
+       "type": "NIH"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Denali Therapeutics Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2027-02",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-07-01",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-06-29",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-02",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2026-01-30",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-06",
+     "studyFirstPostDateStruct": {
+      "date": "2026-01-09",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-12-24",
+     "studyFirstSubmitQcDate": "2025-12-24"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants with LOPD",
+       "interventionNames": [
+        "Drug: DNL952"
+       ],
+       "label": "Cohort A1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants with LOPD",
+       "interventionNames": [
+        "Drug: DNL952"
+       ],
+       "label": "Cohort A2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants with LOPD",
+       "interventionNames": [
+        "Drug: DNL952"
+       ],
+       "label": "Cohort A3 (Optional)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants with LOPD",
+       "interventionNames": [
+        "Drug: DNL952"
+       ],
+       "label": "Cohort A4 (Optional)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants with LOPD",
+       "interventionNames": [
+        "Drug: DNL952"
+       ],
+       "label": "Cohort B1 (Optional)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants with LOPD",
+       "interventionNames": [
+        "Drug: DNL952"
+       ],
+       "label": "Cohort B2 (Optional)",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Cohort A1",
+        "Cohort A2",
+        "Cohort A3 (Optional)",
+        "Cohort A4 (Optional)",
+        "Cohort B1 (Optional)",
+        "Cohort B2 (Optional)"
+       ],
+       "description": "Intravenous repeating dose",
+       "name": "DNL952",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Late-onset Pompe Disease"
+     ],
+     "keywords": [
+      "LOPD",
+      "Pompe",
+      "acid maltase deficiency",
+      "glycogen storage disease type II",
+      "ERT",
+      "enzyme replacement therapy"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 32,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Study to Evaluate the Safety, Pharmacokinetics, and Pharmacodynamics of DNL952 in Adult Participants With Late-Onset Pompe Disease",
+     "nctId": "NCT07354724",
+     "officialTitle": "A Phase 1, Multicenter, Open-Label Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of DNL952 in Adult Participants With Late-Onset Pompe Disease",
+     "orgStudyIdInfo": {
+      "id": "DNLI-J-0001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Denali Therapeutics Inc."
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "2025-524082-25-00",
+       "type": "CTIS"
+      },
+      {
+       "id": "2025",
+       "link": "https://reporter.nih.gov/quickSearch/2025",
+       "type": "NIH"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Denali Therapeutics Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2028-08",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-08-17",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-08-14",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2028-08",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2026-05-12",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-08",
+     "studyFirstPostDateStruct": {
+      "date": "2026-01-21",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2026-01-12",
+     "studyFirstSubmitQcDate": "2026-01-12"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: DNL921"
+       ],
+       "label": "Experimental Arm",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo Arm",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Experimental Arm"
+       ],
+       "description": "Single or multiple doses",
+       "name": "DNL921",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo Arm"
+       ],
+       "description": "Single or multiple doses matched to experimental treatment",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Alzheimer's Disease",
+      "Healthy Participants"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 178,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Study to Evaluate the Safety, Pharmacokinetics, and Pharmacodynamics of DNL921 in Healthy Participants and Participants With Alzheimer's Disease",
+     "nctId": "NCT07758595",
+     "officialTitle": "A Phase 1/1b, Multicenter, Randomized, Placebo-Controlled, Double-Blind, Single-Dose and Multiple-Dose Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of DNL921 in Healthy Participants and Participants With Alzheimer's Disease",
+     "orgStudyIdInfo": {
+      "id": "DNLI-L-0001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Denali Therapeutics Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Denali Therapeutics Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2030-04",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-08-20",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-08-18",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2030-04",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2026-08-07",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-08",
+     "studyFirstPostDateStruct": {
+      "date": "2026-08-11",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2026-08-06",
+     "studyFirstSubmitQcDate": "2026-08-06"
+    }
+   }
+  }
+ ]
+}

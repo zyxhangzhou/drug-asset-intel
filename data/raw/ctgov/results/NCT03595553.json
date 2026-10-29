@@ -1,0 +1,77 @@
+{
+ "nctId": "NCT03595553",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "238"
+        },
+        {
+         "groupId": "OG001",
+         "value": "225"
+        }
+       ]
+      }
+     ],
+     "title": "SCR based on Clinical Cure"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "132"
+        },
+        {
+         "groupId": "OG001",
+         "value": "150"
+        }
+       ]
+      }
+     ],
+     "title": "SCR based on Clinical Cure Failure"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "370"
+      },
+      {
+       "groupId": "OG001",
+       "value": "375"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "This primary outcome measures the number of participants with Sustained Clinical Response (SCR). SCR is defined as Clinical Response and no recurrence of CDI through 30 days post End of Treatment (EOT). At D40, D70 and D100 the Investigator or medically qualified designee will determine if the patient has a sustained clinical response or experienced RECURRENCE since the previous assessment. The Investigator will assess cure/failure and recurrence based on available information which includes, but is not limited to, improvement from baseline in the number of UBMs, signs \\& symptoms of CDI, and the requirement for CDI medication. The Investigator should assess cure/failure in a way that best reflects the Investigator's standard clinical practice.",
+   "groups": [
+    {
+     "description": "ridinilazole: ridinilazole (200 mg bid)",
+     "id": "OG000",
+     "title": "Ridinilazole"
+    },
+    {
+     "description": "vancomycin: vancomycin (125 mg qid)",
+     "id": "OG001",
+     "title": "Vancomycin"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Day 40",
+   "title": "Number of Participants With Sustained Clinical Response (SCR) Defined as Clinical Response and no Recurrence of CDI Through 30 Days Post End of Treatment (EOT).",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

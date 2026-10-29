@@ -1,0 +1,106 @@
+{
+ "nctId": "NCT00147199",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "8.0",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "32.8",
+     "groupDescription": "Sample size was calculated based on the primary endpoint; change in 6MWD at Week 12. Assuming a between-treatment difference of 35m, a standard deviation of 75m, and a type I (alpha) error of 0.05 (i.e., two-sided p-value of less than 0.05), in order to have 90% power to detect this difference, 100 subjects per treatment group were required for this trial (total n=200). This allowed for a dropout rate of 10% as 110 subjects per group was planned.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+     "pValue": "0.00044",
+     "paramType": "Hodges-Lehmann Estimate",
+     "paramValue": "20.0",
+     "statisticalComment": "Lowest rank was assigned for death, discontinuation due to disease progression, and for patients who initiated additional approved PAH therapy.",
+     "statisticalMethod": "ANCOVA"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "300.0",
+         "upperLimit": "423.0",
+         "value": "366.0"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "296.0",
+         "upperLimit": "414.9",
+         "value": "360.0"
+        }
+       ]
+      }
+     ],
+     "title": "Week 12"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "-8.0",
+         "upperLimit": "54.0",
+         "value": "21.6"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "-26.0",
+         "upperLimit": "31.5",
+         "value": "3.0"
+        }
+       ]
+      }
+     ],
+     "title": "Change from Baseline"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "115"
+      },
+      {
+       "groupId": "OG001",
+       "value": "120"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Change in peak 6-minute walk distance from baseline to Week 12. Peak 6MWD was defined as a 6-minute walk test (6MWT) within 10 to 60 minutes after study drug inhalation",
+   "dispersionType": "Inter-Quartile Range",
+   "groups": [
+    {
+     "description": "Initial dose: 3 breaths. Titrated to 9 breaths, four times daily.",
+     "id": "OG000",
+     "title": "Inhaled Treprostinil"
+    },
+    {
+     "description": "Initial dose: 3 breaths. Titrated to 9 breaths, four times daily.",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "Intention to treat analysis",
+   "reportingStatus": "POSTED",
+   "timeFrame": "12 weeks",
+   "title": "Peak 6-minute Walk Distance",
+   "type": "PRIMARY",
+   "unitOfMeasure": "meters"
+  }
+ ]
+}

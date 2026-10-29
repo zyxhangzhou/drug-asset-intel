@@ -1,0 +1,139 @@
+{
+ "nctId": "NCT02029430",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "7"
+        },
+        {
+         "groupId": "OG002",
+         "value": "6"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "1"
+      },
+      {
+       "groupId": "OG001",
+       "value": "7"
+      },
+      {
+       "groupId": "OG002",
+       "value": "7"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "To evaluate the uptake of aldoxorubicin into the tumor and the objective response rate (complete and partial response) using RECIST 1.1 criteria in subjects with HIV-infected with Kaposi's sarcoma.\n\nObjective responses will be evaluated using the RECIST 1.1 criteria. Changes (i.e. improvements) in tumor measurements from baseline values will be assigned a status of CR or PR or SD. Objective response measurements will comprise the sum of CR plus PR.\n\nComplete Response (CR): disappearance of all target lesions. Any pathological lymph nodes (whether target or non-target) must have reduction in short axis to \\<10 mm).\n\nPartial Response (PR): 30% decrease in the sum of the longest diameter of target lesions, from the baseline sum longest diameter.",
+   "groups": [
+    {
+     "description": "50 mg/m\\^2 aldoxorubicin",
+     "id": "OG000",
+     "title": "50 mg/m^2 Aldoxorubicin"
+    },
+    {
+     "description": "100 mg/m\\^2 aldoxorubicin",
+     "id": "OG001",
+     "title": "100 mg/m^2 Aldoxorubicin"
+    },
+    {
+     "description": "150 mg/m\\^2 aldoxorubicin",
+     "id": "OG002",
+     "title": "150 mg/m^2 Aldoxorubicin"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "reportingStatus": "POSTED",
+   "timeFrame": "up to 6 months",
+   "title": "Objective Response Rate",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1"
+        },
+        {
+         "groupId": "OG001",
+         "value": "6"
+        },
+        {
+         "groupId": "OG002",
+         "value": "6"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "1"
+      },
+      {
+       "groupId": "OG001",
+       "value": "7"
+      },
+      {
+       "groupId": "OG002",
+       "value": "7"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "All subjects who receive any amount of ALDOXORUBICIN will be included in the safety analyses, which will include the following:\n\nThe incidence, severity, duration, causality, seriousness, and type of AEs and changes in the subject's physical examination, vital signs, and clinical laboratory results.\n\n* vitals signs (systolic/diastolic blood pressure, pulse, respiration, temperature, weight, and body surface area)\n* physical examination\n* laboratory tests (chemistry, hematology, urinalysis, anion gap)",
+   "groups": [
+    {
+     "description": "50 mg/m\\^2 aldoxorubicin",
+     "id": "OG000",
+     "title": "50 mg/m^2 Aldoxorubicin"
+    },
+    {
+     "description": "100 mg/m\\^2 aldoxorubicin",
+     "id": "OG001",
+     "title": "100 mg/m^2 Aldoxorubicin"
+    },
+    {
+     "description": "150 mg/m\\^2 aldoxorubicin",
+     "id": "OG002",
+     "title": "150 mg/m^2 Aldoxorubicin"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "reportingStatus": "POSTED",
+   "timeFrame": "30 days from last dose, up to 199 days",
+   "title": "Number of Participants With Treatment-related Toxicities (Adverse Events) in This Subject Population",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

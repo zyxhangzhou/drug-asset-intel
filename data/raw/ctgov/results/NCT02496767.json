@@ -1,0 +1,144 @@
+{
+ "nctId": "NCT02496767",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-2.089",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "5.503",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "1.9365",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.3782",
+     "paramType": "Least squares mean difference",
+     "paramValue": "1.707",
+     "statisticalMethod": "Repeated-measures mixed model"
+    },
+    {
+     "ciLowerLimit": "-3.359",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "4.583",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "2.0245",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.7625",
+     "paramType": "Least squares mean difference",
+     "paramValue": "0.612",
+     "statisticalMethod": "Repeated-measures mixed model"
+    },
+    {
+     "ciLowerLimit": "-3.711",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "4.566",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "2.1081",
+     "groupIds": [
+      "OG000",
+      "OG003"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.8394",
+     "paramType": "Least squares mean difference",
+     "paramValue": "0.428",
+     "statisticalMethod": "Repeated-measures mixed model"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "1.2270",
+         "value": "-14.354"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "1.5165",
+         "value": "-12.648"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "1.6076",
+         "value": "-13.742"
+        },
+        {
+         "groupId": "OG003",
+         "spread": "1.7213",
+         "value": "-13.927"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "188"
+      },
+      {
+       "groupId": "OG001",
+       "value": "126"
+      },
+      {
+       "groupId": "OG002",
+       "value": "125"
+      },
+      {
+       "groupId": "OG003",
+       "value": "122"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "SVC was measured using a spirometer (in units of liters). Following 3 to 5 breaths at rest, the patients were instructed to take as deep an inspiration as possible followed by a maximum exhalation (blowing out all the air in their lungs). Values obtained were converted to % predicted values (ie, the test result as a percent of predicted values for patients of similar demographic and baseline characteristics \\[eg, height, age, sex\\], based on Knudson 83 normative values).",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Day 1 through Week 48: 2 placebo tablets twice daily",
+     "id": "OG000",
+     "title": "Double-blind, Placebo-controlled: Group 1 - Placebo"
+    },
+    {
+     "description": "Day 1 through Week 48: 1 tablet of tirasemtiv (125 mg) and 1 tablet of matching placebo in the AM and 1 tablet of tirasemtiv (125 mg) and 1 tablet of matching placebo in the PM",
+     "id": "OG001",
+     "title": "Double-blind, Placebo-controlled: Group 2 - 250 mg Tirasemtiv"
+    },
+    {
+     "description": "Day 1 through Week 2: 1 tablet of tirasemtiv (125 mg) and 1 tablet of matching placebo in the AM and 1 tablet of tirasemtiv (125 mg) and 1 tablet of matching placebo in the PM; Weeks 3 through 48: 1 tablet of tirasemtiv (125 mg) and 1 tablet of matching placebo in the AM and 2 tablets of tirasemtiv (250 mg) in the PM",
+     "id": "OG002",
+     "title": "Double-blind, Placebo-controlled: Group 3 - 375 mg Tirasemtiv"
+    },
+    {
+     "description": "Day 1 through Week 2: 1 tablet of tirasemtiv (125 mg) and 1 tablet of matching placebo in the AM and 1 tablet of tirasemtiv (125 mg) and 1 tablet of matching placebo in the PM; Weeks 3 and 4: 1 tablet of tirasemtiv (125 mg) and 1 tablet of matching placebo in the AM and 2 tablets of tirasemtiv (250 mg) in the PM; Weeks 5 through 48: 2 tablets of tirasemtiv (250 mg) in the AM and 2 tablets of tirasemtiv (250 mg) in the PM",
+     "id": "OG003",
+     "title": "Double-blind, Placebo-controlled: Group 4 - 500 mg Tirasemtiv"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "The data presented are for the Full Analysis Set, comprised of patients who received at least 1 dose of study drug during the randomized double-blind, placebo-controlled phase and had at least 1 post-randomization efficacy assessment.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "24 weeks",
+   "title": "Change From Baseline to Week 24 of the Double-blind, Placebo-controlled Phase in Percent Predicted Slow Vital Capacity (SVC)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "% predicted"
+  }
+ ]
+}

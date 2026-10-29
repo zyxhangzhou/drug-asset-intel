@@ -1,0 +1,73 @@
+{
+ "nctId": "NCT03121586",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "128"
+        },
+        {
+         "groupId": "OG001",
+         "value": "111"
+        },
+        {
+         "groupId": "OG002",
+         "value": "110"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "323"
+      },
+      {
+       "groupId": "OG001",
+       "value": "325"
+      },
+      {
+       "groupId": "OG002",
+       "value": "347"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Number of patients with treatment emergent adverse events",
+   "groups": [
+    {
+     "description": "Starting dose of 20 mg at week 1. The dose could be continued, decreased to 10 mg, or increased to 34 mg at investigator discretion through Week 52.",
+     "id": "OG000",
+     "title": "Rollover From ACP-103-034"
+    },
+    {
+     "description": "Starting dose of 20 mg at week 1. The dose could be continued, decreased to 10 mg, or increased to 34 mg at investigator discretion through Week 52.",
+     "id": "OG001",
+     "title": "Rollover From ACP-103-038"
+    },
+    {
+     "description": "Pimavanserin dose of 34 mg throughout the study (Week 26)",
+     "id": "OG002",
+     "title": "Rollover From ACP-103-064"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Safety Analysis Set",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Treatment period (52 weeks) and follow-up period (30 days): planned total of 56 weeks. Since the study was prematurely terminated, the reporting period was shortened; AEs were assessed to the end of treatment, at a mean duration of 319 days (or 46 weeks).",
+   "title": "Treatment Emergent Adverse Events",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

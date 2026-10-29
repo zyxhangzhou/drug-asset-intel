@@ -1,0 +1,153 @@
+{
+ "nctId": "NCT02637557",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-14.222",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "8.318",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.6065",
+     "pValueComment": "P-value based on a pairwise comparison versus placebo in an ANCOVA model with fixed effect terms for treatment group and esophagitis stratum and baseline value as covariate.",
+     "paramType": "LS Mean Difference",
+     "paramValue": "-2.952",
+     "statisticalMethod": "ANCOVA"
+    },
+    {
+     "ciLowerLimit": "-20.318",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "2.245",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.1160",
+     "pValueComment": "P-value based on a pairwise comparison versus placebo in an ANCOVA model with fixed effect terms for treatment group and esophagitis stratum and baseline value as covariate.",
+     "paramType": "LS Mean Difference",
+     "paramValue": "-9.036",
+     "statisticalMethod": "ANCOVA"
+    },
+    {
+     "ciLowerLimit": "-23.334",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-0.551",
+     "groupIds": [
+      "OG000",
+      "OG003"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0400",
+     "pValueComment": "P-value based on a pairwise comparison versus placebo in an ANCOVA model with fixed effect terms for treatment group and esophagitis stratum and baseline value as covariate.",
+     "paramType": "LS Mean Difference",
+     "paramValue": "-11.943",
+     "statisticalMethod": "ANCOVA"
+    },
+    {
+     "groupIds": [
+      "OG000",
+      "OG001",
+      "OG002",
+      "OG003"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0225",
+     "pValueComment": "Dose trend test performed using linear contrast statement.",
+     "statisticalMethod": "trend test"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "4.078",
+         "value": "-46.026"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "4.019",
+         "value": "-48.978"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "4.024",
+         "value": "-55.063"
+        },
+        {
+         "groupId": "OG003",
+         "spread": "4.108",
+         "value": "-57.969"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "69"
+      },
+      {
+       "groupId": "OG001",
+       "value": "71"
+      },
+      {
+       "groupId": "OG002",
+       "value": "71"
+      },
+      {
+       "groupId": "OG003",
+       "value": "68"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The WHSS for an analysis week was defined as the average of available DHSS during that week. DHSS was defined as the maximum on a 6-point scale (0=Did Not Have, 1=Very Mild, 2=Mild, 3=Moderate, 4=Moderately Severe, 5=Severe) of the 3 items measuring heartburn ( \"Heartburn,\" \"Burning feeling behind breastbone or in the center of the upper stomach,\" and \"Pain behind breastbone or in the center of the upper stomach,\") from a particular day. A negative change from Baseline indicates improvement.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Matching placebo BID",
+     "id": "OG000",
+     "title": "Placebo BID"
+    },
+    {
+     "description": "500 mg IW-3718 BID",
+     "id": "OG001",
+     "title": "500 mg IW-3718 BID"
+    },
+    {
+     "description": "1000 mg IW-3718 BID",
+     "id": "OG002",
+     "title": "1000 mg IW-3718 BID"
+    },
+    {
+     "description": "1500 mg IW-3718 BID",
+     "id": "OG003",
+     "title": "1500 mg IW-3718 BID"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "modified Intent-to-Treat Population: all randomized participants who received at least one dose of study treatment with values both at baseline and during the Treatment Period.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline (derived from the eDiary daily data collected from 7 days before randomization up to the time of randomization), Week 8",
+   "title": "Percent Change From Baseline to Week 8 in Weekly Heartburn Severity Score (WHSS)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage change in score"
+  }
+ ]
+}

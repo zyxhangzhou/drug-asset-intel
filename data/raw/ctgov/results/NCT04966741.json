@@ -1,0 +1,123 @@
+{
+ "nctId": "NCT04966741",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "54.1",
+         "upperLimit": "100",
+         "value": "85.7"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "28.4",
+         "upperLimit": "99.5",
+         "value": "80.0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "7"
+      },
+      {
+       "groupId": "OG001",
+       "value": "5"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "A \"responder\" was defined as a decrease from baseline to 52 weeks in the participant's BMI z-score of ≥0.2. BMI was calculated using participant's weight and height assessments, using the following formula: BMI = kg/m\\^2. The BMI Z-scores were based on the World Health Organization's Child Growth Standards 2007 and indicated the number of standard deviations away from the mean. A Z-score of 0 was equal to the mean of a reference population (i.e., healthy, age and sex-matched individuals). A decrease of BMI Z-score (\\< 0) indicated a reduction in BMI from Baseline whereas an increase of BMI-Z score (\\> 0) indicated an increase in BMI from Baseline. Baseline was defined as the most recent measurement prior to the first administration of study drug.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants with POMC/PCSK1/LEPR biallelic mutations collectively referred to as PPL received setmelanotide at a dose of 0.5 mg QD via SC injection for 52 weeks. The dose was escalated by increments of 0.5 mg every 2 weeks, if tolerated, at the dose escalation visits (Weeks 2, 4, and 6) to a maximum dose of 0.5 to 2.0 mg QD with the maximum dose based on body weight.",
+     "id": "OG000",
+     "title": "Setmelanotide: PPL Group"
+    },
+    {
+     "description": "Participants with BBS received setmelanotide at a dose of 0.5 mg QD via SC injection for 52 weeks. The dose was escalated by increments of 0.5 mg every 2 weeks, if tolerated, at the dose escalation visits (Weeks 2, 4, and 6) to a maximum dose of 0.5 to 2.0 mg QD with the maximum dose based on body weight.",
+     "id": "OG001",
+     "title": "Setmelanotide: BBS Group"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "The safety analysis set included all participants who received at least 1 dose of study drug.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline up to Week 52",
+   "title": "Percentage of Participants With Greater Than or Equal to (≥) 0.2 Reduction of BMI Z-Score From Baseline to Week 52",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "11.4911",
+         "value": "-25.597"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "8.8383",
+         "value": "-9.719"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "6"
+      },
+      {
+       "groupId": "OG001",
+       "value": "5"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Mean percent change from baseline to Week 52 in BMI was reported. BMI was calculated using participant's weight and height assessments, using the following formula: BMI = kg/m\\^2. Baseline was defined as the most recent measurement prior to the first administration of study drug.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants with POMC/PCSK1/LEPR biallelic mutations collectively referred to as PPL received setmelanotide at a dose of 0.5 mg QD via SC injection for 52 weeks. The dose was escalated by increments of 0.5 mg every 2 weeks, if tolerated, at the dose escalation visits (Weeks 2, 4, and 6) to a maximum dose of 0.5 to 2.0 mg QD with the maximum dose based on body weight.",
+     "id": "OG000",
+     "title": "Setmelanotide: PPL Group"
+    },
+    {
+     "description": "Participants with BBS received setmelanotide at a dose of 0.5 mg QD via SC injection for 52 weeks. The dose was escalated by increments of 0.5 mg every 2 weeks, if tolerated, at the dose escalation visits (Weeks 2, 4, and 6) to a maximum dose of 0.5 to 2.0 mg QD with the maximum dose based on body weight.",
+     "id": "OG001",
+     "title": "Setmelanotide: BBS Group"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Participants in the Safety Analysis Set with available data were analyzed.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Week 52",
+   "title": "Mean Percent Change From Baseline in BMI",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percent change"
+  }
+ ]
+}

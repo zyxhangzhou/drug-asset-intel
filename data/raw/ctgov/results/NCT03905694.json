@@ -1,0 +1,66 @@
+{
+ "nctId": "NCT03905694",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-77.52",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-66.42",
+     "groupDescription": "Mixed-effect Model Repeated Measures (MMRM) includes scheduled visits (months 3, 4, 5, and 6) and baseline spot urinary oxalate:creatine ratio as fixed effects. Autoregressive (1) was used to model the within-patient error.",
+     "groupIds": [
+      "OG000"
+     ],
+     "nonInferiorityComment": "Not applied",
+     "nonInferiorityType": "OTHER",
+     "paramType": "Least Squares (LS) Mean",
+     "paramValue": "-71.97",
+     "statisticalMethod": "Mixed model for repeated measures (MMRM)"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "2.706",
+         "value": "-71.97"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "18"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Percent change in spot urinary oxalate:creatinine ratio was estimated by an average percent change from baseline across Months 3 through 6. A negative change from Baseline indicates a favorable outcome.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Participants weighing \\<10 kg received loading doses of lumasiran SC injection 6.0 mg/kg QM for 3 months, followed by maintenance doses of 3.0 mg/kg QM during the 6-month PAP \\& QM during the 54-month EP. Participants who transitioned from \\<10 kg to ≥10 kg continued monthly doses at 3.0 mg/kg until the next visit that coincided with a dose for participants weighing ≥10 kg. Thereafter, participants followed Q3M dosing until the end of the study.\n\nParticipants weighing ≥10 to \\<20 kg received lumasiran 6.0 mg/kg QM for 3 months, then maintenance doses of 6.0 mg/kg at Months 3 \\& 6 in the 6-month PAP \\& Q3M during the 54-month EP.\n\nParticipants ≥20 kg received lumasiran 3.0 mg/kg QM for 3 months, followed by maintenance doses of 3.0 mg/kg Months 3 \\& 6 in the 6-month PAP \\& Q3M during the 54-month EP.\n\nParticipants with weight increases to a new dosing category (\\<10 kg to ≥10 kg or \\<20 kg to ≥20 kg) followed the new regimen for the rest of the study or until the next dosing category threshold was reached; participants did not switch back to lower-weight dosing schedules if their body weight subsequently decreased.",
+     "id": "OG000",
+     "title": "Lumasiran"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Efficacy Analysis Set: All participants who received any amount of lumasiran and had at least 1 valid spot urinary oxalate:creatinine ratio value at baseline and at least 1 valid spot urinary oxalate:creatinine ratio value from assessment(s) at Month 3 through Month 6.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline to Month 6",
+   "title": "Percentage Change in Spot Urinary Oxalate:Creatinine Ratio From Baseline to Month 6",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percent change"
+  }
+ ]
+}

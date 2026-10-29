@@ -1,0 +1,250 @@
+{
+ "nctId": "NCT02160899",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<.001",
+     "statisticalMethod": "ANOVA"
+    },
+    {
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<.001",
+     "statisticalMethod": "ANOVA"
+    },
+    {
+     "groupIds": [
+      "OG003",
+      "OG005"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.044",
+     "statisticalMethod": "Exact Wilcoxon Rank Sum Test"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "13.7",
+         "value": "-3.7"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "13.1",
+         "value": "-44.5"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "19.6",
+         "value": "-70.0"
+        },
+        {
+         "groupId": "OG003",
+         "spread": "3.9",
+         "value": "-5.6"
+        },
+        {
+         "groupId": "OG005",
+         "spread": "13.0",
+         "value": "-71.6"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "26"
+      },
+      {
+       "groupId": "OG001",
+       "value": "3"
+      },
+      {
+       "groupId": "OG002",
+       "value": "21"
+      },
+      {
+       "groupId": "OG003",
+       "value": "2"
+      },
+      {
+       "groupId": "OG004",
+       "value": "0"
+      },
+      {
+       "groupId": "OG005",
+       "value": "8"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Data are reported for evaluable participants.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants received placebo (normal saline) subcutaneously on Days 1, 8, 15, 22, 29, 36, 43, 50, 57, 64, 71, and 78.",
+     "id": "OG000",
+     "title": "Cohort A: Placebo"
+    },
+    {
+     "description": "Participants received ISIS-APO(a)Rx subcutaneously: 100 mg on Days 1, 8, 15, and 22; 200 mg on Days 29, 36, 43, and 50 unless down-titrated; and 300 mg on Days 57, 64, 71, and 78 unless down-titrated.",
+     "id": "OG001",
+     "title": "Cohort A: ISIS-APO(a)Rx < 2000 mg"
+    },
+    {
+     "description": "Participants received ISIS-APO(a)Rx subcutaneously: 100 mg on Days 1, 8, 15, and 22; 200 mg on Days 29, 36, 43, and 50 unless down-titrated; and 300 mg on Days 57, 64, 71, and 78 unless down-titrated.",
+     "id": "OG002",
+     "title": "Cohort A: ISIS-APO(a)Rx >= 2000 mg"
+    },
+    {
+     "description": "Participants received placebo (normal saline) subcutaneously on Days 1, 8, 15, 22, 29, 36, 43, 50, 57, 64, 71, and 78.",
+     "id": "OG003",
+     "title": "Cohort B: Placebo"
+    },
+    {
+     "description": "Participants received ISIS-APO(a)Rx subcutaneously: 100 mg on Days 1, 8, 15, and 22; 200 mg on Days 29, 36, 43, and 50 unless down-titrated; and 300 mg on Days 57, 64, 71, and 78 unless down-titrated.",
+     "id": "OG004",
+     "title": "Cohort B: ISIS-APO(a)Rx < 2000 mg"
+    },
+    {
+     "description": "Participants received ISIS-APO(a)Rx subcutaneously: 100 mg on Days 1, 8, 15, and 22; 200 mg on Days 29, 36, 43, and 50 unless down-titrated; and 300 mg on Days 57, 64, 71, and 78 unless down-titrated.",
+     "id": "OG005",
+     "title": "Cohort B: ISIS-APO(a)Rx >= 2000 mg"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "The Per-Protocol Set included the subset of the Full Analysis Set who received at least 9 doses of Study Drug within the 12-week treatment period and who had no significant protocol deviations that would have been expected to affect efficacy assessments. Day 85/Day 99 result is defined as the result at Day 85 or Day 99.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Day 85/Day 99",
+   "title": "Percent Change From Baseline in Lipoprotein Lp(a) Plasma Concentration at Day 85/Day 99",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percent change"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "23"
+        },
+        {
+         "groupId": "OG001",
+         "value": "4"
+        },
+        {
+         "groupId": "OG002",
+         "value": "21"
+        },
+        {
+         "groupId": "OG003",
+         "value": "2"
+        },
+        {
+         "groupId": "OG004",
+         "value": "2"
+        },
+        {
+         "groupId": "OG005",
+         "value": "8"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "26"
+      },
+      {
+       "groupId": "OG001",
+       "value": "4"
+      },
+      {
+       "groupId": "OG002",
+       "value": "21"
+      },
+      {
+       "groupId": "OG003",
+       "value": "3"
+      },
+      {
+       "groupId": "OG004",
+       "value": "2"
+      },
+      {
+       "groupId": "OG005",
+       "value": "8"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "An adverse event is any unfavorable and unintended sign (including a clinically significant abnormal laboratory finding, for example), symptom, or disease temporally associated with the study or use of investigational drug product, whether or not the AE is considered related to the investigational drug product.",
+   "groups": [
+    {
+     "description": "Participants received placebo (normal saline) subcutaneously on Days 1, 8, 15, 22, 29, 36, 43, 50, 57, 64, 71, and 78.",
+     "id": "OG000",
+     "title": "Cohort A: Placebo"
+    },
+    {
+     "description": "Participants received ISIS-APO(a)Rx subcutaneously: 100 mg on Days 1, 8, 15, and 22; 200 mg on Days 29, 36, 43, and 50 unless down-titrated; and 300 mg on Days 57, 64, 71, and 78 unless down-titrated.",
+     "id": "OG001",
+     "title": "Cohort A: ISIS-APO(a)Rx < 2000 mg"
+    },
+    {
+     "description": "Participants received ISIS-APO(a)Rx subcutaneously: 100 mg on Days 1, 8, 15, and 22; 200 mg on Days 29, 36, 43, and 50 unless down-titrated; and 300 mg on Days 57, 64, 71, and 78 unless down-titrated.",
+     "id": "OG002",
+     "title": "Cohort A: ISIS-APO(a)Rx >= 2000 mg"
+    },
+    {
+     "description": "Participants received placebo (normal saline) subcutaneously on Days 1, 8, 15, 22, 29, 36, 43, 50, 57, 64, 71, and 78.",
+     "id": "OG003",
+     "title": "Cohort B: Placebo"
+    },
+    {
+     "description": "Participants received ISIS-APO(a)Rx subcutaneously: 100 mg on Days 1, 8, 15, and 22; 200 mg on Days 29, 36, 43, and 50 unless down-titrated; and 300 mg on Days 57, 64, 71, and 78 unless down-titrated.",
+     "id": "OG004",
+     "title": "Cohort B: ISIS-APO(a)Rx < 2000 mg"
+    },
+    {
+     "description": "Participants received ISIS-APO(a)Rx subcutaneously: 100 mg on Days 1, 8, 15, and 22; 200 mg on Days 29, 36, 43, and 50 unless down-titrated; and 300 mg on Days 57, 64, 71, and 78 unless down-titrated.",
+     "id": "OG005",
+     "title": "Cohort B: ISIS-APO(a)Rx >= 2000 mg"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "The Safety Set included all randomized participants who received at least one dose of study drug.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to approximately 32 weeks",
+   "title": "Number of Participants With at Least One Treatment-emergent Adverse Event (TEAE)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

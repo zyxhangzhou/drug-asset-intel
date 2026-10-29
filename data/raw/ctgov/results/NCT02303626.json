@@ -1,0 +1,77 @@
+{
+ "nctId": "NCT02303626",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.089",
+         "value": "0.675"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.086",
+         "value": "0.589"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "0.088",
+         "value": "0.593"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "36"
+      },
+      {
+       "groupId": "OG001",
+       "value": "38"
+      },
+      {
+       "groupId": "OG002",
+       "value": "36"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "An angioedema attack was defined as swelling at any location reported by participant, which had no swelling earlier. Total number of confirmed attacks during the treatment period standardized to a weekly attack-rate to adjust for the total duration of treatment. The attack rate was derived for each participant by treatment period. The weekly attack rate was equal to the total number of confirmed attacks during a treatment period divided by the duration of the treatment (in days) times 7 days.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Three BCX4161 capsules (100 mg) and two placebo capsules to be taken three times daily by mouth\n\nBCX4161\n\nPlacebo",
+     "id": "OG000",
+     "title": "BCX4161 300 mg three times daily"
+    },
+    {
+     "description": "Five BCX4161 capsules (100 mg) to be taken three times daily by mouth\n\nBCX4161",
+     "id": "OG001",
+     "title": "BCX4161 500 mg three times daily"
+    },
+    {
+     "description": "Five placebo capsules to be taken three times daily by mouth\n\nPlacebo",
+     "id": "OG002",
+     "title": "Placebo three times daily"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "The intent-to-treat (ITT) population included all participants who were randomized and received at least 1 dose of study intervention.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "12 weeks",
+   "title": "The Mean Acute Angioedema Attack Rate",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Confirmed attacks per week"
+  }
+ ]
+}

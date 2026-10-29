@@ -1,0 +1,99 @@
+{
+ "nctId": "NCT01923428",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "groupIds": [
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<0.001",
+     "paramType": "Risk Difference (RD)",
+     "paramValue": "27",
+     "statisticalMethod": "Cochran-Mantel-Haenszel"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "35"
+        },
+        {
+         "groupId": "OG001",
+         "value": "38"
+        },
+        {
+         "groupId": "OG002",
+         "value": "51"
+        },
+        {
+         "groupId": "OG003",
+         "value": "30"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "87"
+      },
+      {
+       "groupId": "OG001",
+       "value": "87"
+      },
+      {
+       "groupId": "OG002",
+       "value": "84"
+      },
+      {
+       "groupId": "OG003",
+       "value": "89"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Weekly complete spontaneous bowel movement resaponders defined as an increase of one or more bowel movement per week from baseline for 6 of the 12 weeks",
+   "groups": [
+    {
+     "description": "AZD1722",
+     "id": "OG000",
+     "title": "5 mg BID"
+    },
+    {
+     "description": "AZD1722",
+     "id": "OG001",
+     "title": "20 mg BID"
+    },
+    {
+     "description": "AZD1722",
+     "id": "OG002",
+     "title": "50 mg BID"
+    },
+    {
+     "description": "Placebo",
+     "id": "OG003",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "reportingStatus": "POSTED",
+   "timeFrame": "12 weeks",
+   "title": "Percent Complete Spontaneous Bowel Movement Responders vs Placebo",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

@@ -1,0 +1,900 @@
+{
+ "aliases": [
+  "Mineralys Therapeutics"
+ ],
+ "studies": [
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Placebo tablet(s) by mouth once or twice daily.",
+       "interventionNames": [
+        "Other: Placebo (Part I)"
+       ],
+       "label": "Placebo (Part I)",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "description": "MLS-101 tablet(s) by mouth once or twice daily.",
+       "interventionNames": [
+        "Drug: MLS-101 (Part I)"
+       ],
+       "label": "Dose 1 (Part I)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "MLS-101 tablet(s) by mouth once or twice daily.",
+       "interventionNames": [
+        "Drug: MLS-101 (Part I)"
+       ],
+       "label": "Dose 2 (Part I)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "MLS-101 tablet(s) by mouth once or twice daily.",
+       "interventionNames": [
+        "Drug: MLS-101 (Part I)"
+       ],
+       "label": "Dose 3 (Part I)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Placebo tablet(s) by mouth once daily.",
+       "interventionNames": [
+        "Other: Placebo (Part II)"
+       ],
+       "label": "Placebo (Part II)",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "description": "MLS-101 tablet(s) by mouth once daily.",
+       "interventionNames": [
+        "Drug: MLS-101 (Part II)"
+       ],
+       "label": "Dose (Part II)",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Dose 1 (Part I)",
+        "Dose 2 (Part I)",
+        "Dose 3 (Part I)"
+       ],
+       "description": "MLS-101 tablet(s) by mouth once or twice daily.",
+       "name": "MLS-101 (Part I)",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo (Part I)"
+       ],
+       "description": "Placebo tablet(s) by mouth once or twice daily.",
+       "name": "Placebo (Part I)",
+       "type": "OTHER"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo (Part II)"
+       ],
+       "description": "Placebo tablet(s) by mouth once daily.",
+       "name": "Placebo (Part II)",
+       "type": "OTHER"
+      },
+      {
+       "armGroupLabels": [
+        "Dose (Part II)"
+       ],
+       "description": "MLS-101 tablet(s) by mouth once daily.",
+       "name": "MLS-101 (Part II)",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Hypertension, Renal"
+     ],
+     "keywords": [
+      "Blood pressure",
+      "Uncontrolled hypertension",
+      "Phase II"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 200,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "Target-HTN",
+     "briefTitle": "Trial on the Safety and Efficacy of MLS-101 in Patients With Uncontrolled Hypertension",
+     "nctId": "NCT05001945",
+     "officialTitle": "A Randomized, Double-blind, Placebo-controlled, Dose-ranging, Multicenter Phase 2 Study to Evaluate the Safety, Efficacy, and Tolerability of MLS-101 in Subjects With Uncontrolled Hypertension",
+     "orgStudyIdInfo": {
+      "id": "MLS-101-201"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Mineralys Therapeutics Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Mineralys Therapeutics Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2022-10-07",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2024-01-05",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2024-01-02",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2022-09-07",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2024-01-05",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2023-10-10",
+     "resultsFirstSubmitQcDate": "2024-01-02",
+     "startDateStruct": {
+      "date": "2021-07-01",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2024-01",
+     "studyFirstPostDateStruct": {
+      "date": "2021-08-12",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2021-07-20",
+     "studyFirstSubmitQcDate": "2021-08-11"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Placebo once daily for 12 weeks",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "description": "lorundrostat Dose 1 once daily for 12 weeks",
+       "interventionNames": [
+        "Drug: lorundrostat Dose 1"
+       ],
+       "label": "Dose 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "lorundrostat Dose 1 once daily for 4 weeks then lorundrostat Dose 2 once daily for 8 weeks",
+       "interventionNames": [
+        "Drug: lorundrostat Dose 2"
+       ],
+       "label": "Dose 2",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Placebo once daily for 12 weeks",
+       "name": "Placebo",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Dose 1"
+       ],
+       "description": "lorundrostat Dose 1 once daily for 12 weeks",
+       "name": "lorundrostat Dose 1",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Dose 2"
+       ],
+       "description": "lorundrostat Dose 1 once daily for 4 weeks then lorundrostat Dose 2 once daily for 8 weeks for subjects who meet prespecified criteria",
+       "name": "lorundrostat Dose 2",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Hypertension"
+     ],
+     "keywords": [
+      "Blood pressure",
+      "Uncontrolled hypertension",
+      "Hypertension",
+      "Hypertensive",
+      "Resistant hypertension"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 285,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Pivotal Study to Evaluate the Efficacy of Lorundrostat in Subjects With Uncontrolled Hypertension on a Standardized Antihypertensive Medication Regimen",
+     "nctId": "NCT05769608",
+     "officialTitle": "A Randomized, Double-Blind, Placebo Controlled, Parallel Arm, Multicenter, Phase 2 Study to Evaluate the Efficacy and Safety of Lorundrostat in Subjects With Uncontrolled Hypertension on a Standardized Medication Regimen",
+     "orgStudyIdInfo": {
+      "id": "MLS-101-202"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Mineralys Therapeutics Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Mineralys Therapeutics Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2025-01-15",
+      "type": "ACTUAL"
+     },
+     "dispFirstPostDateStruct": {
+      "date": "2025-02-18",
+      "type": "ACTUAL"
+     },
+     "dispFirstSubmitDate": "2026-01-13",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-01-20",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-01-13",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2025-01-15",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2023-03-13",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-01",
+     "studyFirstPostDateStruct": {
+      "date": "2023-03-15",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2023-02-24",
+     "studyFirstSubmitQcDate": "2023-03-03"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "lorundrostat once daily for 52 weeks depending on when the subject enrolled",
+       "interventionNames": [
+        "Drug: lorundrostat"
+       ],
+       "label": "Open-Label Arm",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "lorundrostat or placebo once daily for 4 weeks starting at week 12, in the double-blind randomized treatment withdrawal substudy\n\nOptional for subjects from the MLS-101-301 parent study only",
+       "interventionNames": [
+        "Drug: lorundrostat",
+        "Drug: Placebo"
+       ],
+       "label": "RTW Substudy",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "lorundrostat once daily from week 52 or until marketing authorization or early termination of the trial by the sponsor",
+       "interventionNames": [
+        "Drug: lorundrostat"
+       ],
+       "label": "Optional Continuation Period",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Open-Label Arm",
+        "Optional Continuation Period",
+        "RTW Substudy"
+       ],
+       "description": "Tablet, administered orally",
+       "name": "lorundrostat",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "RTW Substudy"
+       ],
+       "description": "Tablet, administered orally",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Hypertension"
+     ],
+     "keywords": [
+      "Blood pressure",
+      "Uncontrolled hypertension",
+      "Hypertension",
+      "Hypertensive"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE",
+       "maskingDescription": "Eligible subjects participating in the RTW will receive double-blind treatment with matching placebo. Upon completion, subjects will return to open-label treatment"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 1076,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Open-Label Extension (OLE) Study to Assess Safety, Efficacy, and Tolerability of Lorundrostat in Subjects With Hypertension",
+     "nctId": "NCT05968430",
+     "officialTitle": "An Open-Label Extension Study to Assess the Long-Term Safety, Efficacy, and Tolerability of Lorundrostat in Subjects With Hypertension",
+     "orgStudyIdInfo": {
+      "id": "MLS-101-901"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Mineralys Therapeutics Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Mineralys Therapeutics Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2027-05",
+      "type": "ESTIMATED"
+     },
+     "dispFirstPostDateStruct": {
+      "date": "2026-02-17",
+      "type": "ACTUAL"
+     },
+     "dispFirstSubmitDate": "2026-07-15",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-27",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-23",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2025-12-30",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2023-07-14",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-07",
+     "studyFirstPostDateStruct": {
+      "date": "2023-08-01",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2023-07-14",
+     "studyFirstSubmitQcDate": "2023-07-26"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: Lorundrostat 25mg+SGLT2i QD, Washout, Placebo+SGLT2i QD"
+       ],
+       "label": "Cohort 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Placebo QD + SGLT2i QD, Washout, Lorundrostat 25mg+SGLT2i QD"
+       ],
+       "label": "Cohort 2",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Cohort 1"
+       ],
+       "description": "Period 1 - Lorundrostat 25mg QD + SGLT2i QD 4 weeks; Washout - Placebo QD + SGLT2i QD 4 weeks; Period 2 - Placebo QD + SGLT2i QD 4 weeks",
+       "name": "Lorundrostat 25mg+SGLT2i QD, Washout, Placebo+SGLT2i QD",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Cohort 2"
+       ],
+       "description": "Period 1 - Placebo QD + SGLT2i QD 4 weeks; Washout - Placebo QD + SGLT2i QD 4 weeks; Period 2 - Lorundrostat 25mg + SGLT2i QD 4 weeks",
+       "name": "Placebo QD + SGLT2i QD, Washout, Lorundrostat 25mg+SGLT2i QD",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Chronic Kidney Disease"
+     ],
+     "keywords": [
+      "Albuminuria",
+      "Arterial hypertension",
+      "Hypertension",
+      "Proteinuria",
+      "Diabetic nephropathy",
+      "Chronic Kidney Disease",
+      "Aldosterone Synthase Inhibitor"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "CROSSOVER",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 60,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Efficacy and Safety of Lorundrostat in Addition to Sodium-Glucose Cotransporter-2 Inhibitors (SGLT2i) in Subjects With Hypertension and Chronic Kidney Disease (CKD) With Albuminuria",
+     "nctId": "NCT06150924",
+     "officialTitle": "A Randomized, Crossover, Double Blind, Placebo Controlled, Phase 2 Study to Evaluate the Efficacy and Safety of Lorundrostat in Addition to Sodium-Glucose Cotransporter-2 Inhibitors, in Adults With Hypertension and Chronic Kidney Disease With Albuminuria",
+     "orgStudyIdInfo": {
+      "id": "MLS-101-206"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Mineralys Therapeutics Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Mineralys Therapeutics Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2025-04-23",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-06-03",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-05-06",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2025-02-27",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2026-06-03",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2026-05-06",
+     "resultsFirstSubmitQcDate": "2026-05-06",
+     "startDateStruct": {
+      "date": "2023-12-14",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-05",
+     "studyFirstPostDateStruct": {
+      "date": "2023-11-29",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2023-11-17",
+     "studyFirstSubmitQcDate": "2023-11-27"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Placebo once daily (QD) for 12 weeks",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "description": "50 mg lorundrostat Dose 1 once daily (QD) for 12 weeks",
+       "interventionNames": [
+        "Drug: lorundrostat Dose 1"
+       ],
+       "label": "Dose 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "50 mg lorundrostat Dose 1 once daily (QD) for 6 weeks then 100 mg lorundrostat Dose 2 once daily (QD) for 6 weeks for subjects who meet prespecified criteria",
+       "interventionNames": [
+        "Drug: lorundrostat Dose 2"
+       ],
+       "label": "Dose 2",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Placebo once daily (QD) for 12 weeks",
+       "name": "Placebo",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Dose 1"
+       ],
+       "description": "50 mg lorundrostat Dose 1 once daily (QD) for 12 weeks",
+       "name": "lorundrostat Dose 1",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Dose 2"
+       ],
+       "description": "50 mg lorundrostat Dose 1 once daily (QD) for 6 weeks then 100 mg lorundrostat Dose 2 once daily (QD) for 6 weeks for subjects who meet prespecified criteria",
+       "name": "lorundrostat Dose 2",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Hypertension"
+     ],
+     "keywords": [
+      "Blood pressure",
+      "Hypertension",
+      "Hypertensive",
+      "Resistant hypertension",
+      "Uncontrolled hypertension"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 1083,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Efficacy and Safety of Lorundrostat in Subjects With Uncontrolled and Resistant Hypertension",
+     "nctId": "NCT06153693",
+     "officialTitle": "A Randomized, Double-Blind, Placebo Controlled, Parallel Arm, Multicenter Phase 3 Study to Evaluate the Efficacy and Safety of Lorundrostat in Subjects With Uncontrolled and Resistant Hypertension",
+     "orgStudyIdInfo": {
+      "id": "MLS-101-301"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Mineralys Therapeutics Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Mineralys Therapeutics Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2025-01-24",
+      "type": "ACTUAL"
+     },
+     "dispFirstPostDateStruct": {
+      "date": "2025-02-24",
+      "type": "ACTUAL"
+     },
+     "dispFirstSubmitDate": "2025-12-08",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-05-01",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-04-28",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2024-12-10",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2023-11-22",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-04",
+     "studyFirstPostDateStruct": {
+      "date": "2023-12-01",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2023-11-17",
+     "studyFirstSubmitQcDate": "2023-11-22"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: Lorundrostat",
+        "Drug: Placebo"
+       ],
+       "label": "Sequence 1: Lorundrostat then Placebo",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Lorundrostat",
+        "Drug: Placebo"
+       ],
+       "label": "Sequence 2: Placebo then Lorundrostat",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Sequence 1: Lorundrostat then Placebo",
+        "Sequence 2: Placebo then Lorundrostat"
+       ],
+       "description": "Lorundrostat tablet.",
+       "name": "Lorundrostat",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Sequence 1: Lorundrostat then Placebo",
+        "Sequence 2: Placebo then Lorundrostat"
+       ],
+       "description": "Lorundrostat matching placebo tablet.",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Obstructive Sleep Apnea",
+      "Hypertension"
+     ],
+     "keywords": [
+      "Blood Pressure",
+      "Hypertension",
+      "Hypertensive",
+      "Sleep Apnea",
+      "Obstructive Sleep Apnea"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "CROSSOVER",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 48,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Study to Assess the Efficacy and Safety of Lorundrostat in Participants With Obstructive Sleep Apnea and Hypertension",
+     "nctId": "NCT06785454",
+     "officialTitle": "A Phase 2, Multicenter, Randomized, Double Blind, Placebo Controlled, Crossover Study to Evaluate the Efficacy and Safety of Lorundrostat in Participants With Moderate to Severe Obstructive Sleep Apnea and Hypertension",
+     "orgStudyIdInfo": {
+      "id": "MLS-101-207"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Mineralys Therapeutics Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Mineralys Therapeutics Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2025-12-29",
+      "type": "ACTUAL"
+     },
+     "dispFirstPostDateStruct": {
+      "date": "2026-01-13",
+      "type": "ACTUAL"
+     },
+     "dispFirstSubmitDate": "2026-08-17",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-08-21",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-08-17",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2025-12-17",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2025-02-28",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-08",
+     "studyFirstPostDateStruct": {
+      "date": "2025-01-21",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-01-16",
+     "studyFirstSubmitQcDate": "2025-01-16"
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,499 @@
+{
+ "aliases": [
+  "Bicara Therapeutics"
+ ],
+ "studies": [
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Route: IV Infusion Frequency: QW Current Dose: 1500mg",
+       "interventionNames": [
+        "Drug: BCA101"
+       ],
+       "label": "BCA101 Monotherapy",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Route: IV Infusion Frequency: Q3W Dose: 200mg",
+       "interventionNames": [
+        "Drug: BCA101",
+        "Drug: Pembrolizumab"
+       ],
+       "label": "BCA101 + pembrolizumab",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "BCA101 + pembrolizumab",
+        "BCA101 Monotherapy"
+       ],
+       "description": "EGFR/TGFβ fusion monoclonal antibody",
+       "name": "BCA101",
+       "otherNames": [
+        "Ficerafusp alfa"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "BCA101 + pembrolizumab"
+       ],
+       "description": "anti-PD-1",
+       "name": "Pembrolizumab",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Head and Neck Squamous Cell Carcinoma",
+      "Squamous Cell Carcinoma of Anal Canal",
+      "Colorectal Cancer",
+      "Squamous Cell Carcinoma of the Lung",
+      "EGFR Amplification",
+      "Epithelial Ovarian Cancer",
+      "Pancreas Cancer",
+      "Cutaneous Squamous Cell Carcinoma",
+      "Head and Neck Neoplasms",
+      "Carcinoma, Squamous Cell",
+      "Squamous Cell Carcinoma of Head and Neck"
+     ],
+     "keywords": [
+      "TGFβ",
+      "EGFR",
+      "pembrolizumab",
+      "ficerafusp alfa"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 473,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Study of Safety and Tolerability of BCA101 Monotherapy and in Combination Therapy in Patients With EGFR-driven Advanced Solid Tumors",
+     "nctId": "NCT04429542",
+     "officialTitle": "First-in-Human, Phase 1/1b, Open-label, Multicenter Study of Bifunctional EGFR/TGFβ Fusion Protein BCA101 Monotherapy and in Combination Therapy in Patients With EGFR-Driven Advanced Solid Tumors",
+     "orgStudyIdInfo": {
+      "id": "BCA101X1101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Bicara Therapeutics"
+     },
+     "secondaryIdInfos": [
+      {
+       "domain": "Merck Sharp & Dohme LLC",
+       "id": "KEYNOTE-E28",
+       "type": "OTHER"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "collaborators": [
+      {
+       "class": "INDUSTRY",
+       "name": "Merck Sharp & Dohme LLC"
+      }
+     ],
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Bicara Therapeutics"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2028-03-30",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-06",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-02",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-10-31",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2020-06-01",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-10",
+     "studyFirstPostDateStruct": {
+      "date": "2020-06-12",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2020-06-10",
+     "studyFirstSubmitQcDate": "2020-06-11"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "ficerafusp alfa 1500 mg QW + pembrolizumab 200 mg every 3 weeks (Q3W)",
+       "interventionNames": [
+        "Drug: Ficerafusp alfa",
+        "Drug: Pembrolizumab (KEYTRUDA®)"
+       ],
+       "label": "Phase 2 Arm A",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "ficerafusp alfa 750 mg QW + pembrolizumab 200 mg Q3W",
+       "interventionNames": [
+        "Drug: Ficerafusp alfa",
+        "Drug: Pembrolizumab (KEYTRUDA®)"
+       ],
+       "label": "Phase 2 Arm B",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "placebo QW + pembrolizumab 200 mg Q3W",
+       "interventionNames": [
+        "Drug: Pembrolizumab (KEYTRUDA®)",
+        "Drug: Placebo"
+       ],
+       "label": "Phase 2 Arm C",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "description": "ficerafusp alfa OBD + pembrolizumab 200 mg Q3W",
+       "interventionNames": [
+        "Drug: Ficerafusp alfa",
+        "Drug: Pembrolizumab (KEYTRUDA®)"
+       ],
+       "label": "Phase 3 OBD Arm",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "placebo QW + pembrolizumab 200 mg Q3W",
+       "interventionNames": [
+        "Drug: Pembrolizumab (KEYTRUDA®)",
+        "Drug: Placebo"
+       ],
+       "label": "Phase 3 Arm C",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Phase 2 Arm A",
+        "Phase 2 Arm B",
+        "Phase 3 OBD Arm"
+       ],
+       "description": "Investigational",
+       "name": "Ficerafusp alfa",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Phase 2 Arm A",
+        "Phase 2 Arm B",
+        "Phase 2 Arm C",
+        "Phase 3 Arm C",
+        "Phase 3 OBD Arm"
+       ],
+       "description": "Immunotherapy agent used in combination with investigational agent",
+       "name": "Pembrolizumab (KEYTRUDA®)",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Phase 2 Arm C",
+        "Phase 3 Arm C"
+       ],
+       "description": "Placebo Control",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Metastatic Head and Neck Squamous Cell Carcinoma",
+      "Recurrent Head and Neck Squamous Cell Carcinoma"
+     ],
+     "keywords": [
+      "Phase 2/3",
+      "Ficerafusp alfa",
+      "BCA101",
+      "Recurrent Head and Neck Squamous Cell Carcinoma (R HNSCC)",
+      "Metastatic Head and Neck Squamous Cell Carcinoma (M HNSCC)",
+      "Pembrolizumab",
+      "EGFR",
+      "TGF-beta",
+      "HNSCC",
+      "PD-L1+",
+      "Head and Neck cancer",
+      "Oral Cavity",
+      "Oropharynx",
+      "Larynx",
+      "Hypopharynx"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "interventionModelDescription": "Randomized",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 650,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE2",
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "FORTIFI-HN01",
+     "briefTitle": "FORTIFI-HN01: A Study of Ficerafusp Alfa (BCA101) or Placebo in Combination With Pembrolizumab in First-Line PD-L1-pos, R or M HNSCC",
+     "nctId": "NCT06788990",
+     "officialTitle": "A Multicenter, Randomized, Double-blind, Phase 2/3 Study of Ficerafusp Alfa (BCA101) or Placebo in Combination With Pembrolizumab for First-Line Treatment of PD-L1-positive, Recurrent or Metastatic Head and Neck Squamous Cell Carcinoma",
+     "orgStudyIdInfo": {
+      "id": "BCA101X301"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Bicara Therapeutics"
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "2024-519654-37-00",
+       "type": "CTIS"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Bicara Therapeutics"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2029-07",
+      "type": "ESTIMATED"
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-02",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-09-30",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2028-04",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2025-01-28",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-07",
+     "studyFirstPostDateStruct": {
+      "date": "2025-01-23",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-01-10",
+     "studyFirstSubmitQcDate": "2025-01-17"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Loading phase (12 weeks): Ficerafusp alfa 1500 mg QW (standard dose) + pembrolizumab 200 mg Q3W.\n\nMaintenance phase: Ficerafusp alfa 2250 mg Q3W (alternative dose) + pembrolizumab 200 mg Q3W.",
+       "interventionNames": [
+        "Drug: Ficerafusp alfa",
+        "Drug: Pembrolizumab (KEYTRUDA®)"
+       ],
+       "label": "Arm A",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Continuous ficerafusp alfa 1500 mg QW (standard dose) + pembrolizumab 200 mg Q3W.",
+       "interventionNames": [
+        "Drug: Ficerafusp alfa",
+        "Drug: Pembrolizumab (KEYTRUDA®)"
+       ],
+       "label": "Arm B",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Arm A",
+        "Arm B"
+       ],
+       "description": "investigational agent",
+       "name": "Ficerafusp alfa",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Arm A",
+        "Arm B"
+       ],
+       "description": "immunotherapy agent used in combination with investigational agent",
+       "name": "Pembrolizumab (KEYTRUDA®)",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Metastatic Head and Neck Squamous Cell Carcinoma",
+      "Recurrent Head and Neck Squamous Cell Carcinoma"
+     ],
+     "keywords": [
+      "head and neck cancer",
+      "HNSCC",
+      "recurrent HNSCC",
+      "metastatic HNSCC",
+      "first line treatment",
+      "Phase 2",
+      "Recurrent Head and Neck Squamous Cell Carcinoma",
+      "Metastatic Head and Neck Squamous Cell Carcinoma",
+      "Pembrolizumab",
+      "PD-L1+",
+      "TGF-beta",
+      "oral cavity",
+      "oropharynx",
+      "larynx",
+      "hypopharynx",
+      "Ficerafusp alfa",
+      "SCCHN",
+      "HPVneg",
+      "HPV negative",
+      "HPV-",
+      "BCA101"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 160,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "FORTIFI-FLEX",
+     "briefTitle": "A Study Evaluating Ficerafusp Alfa (BCA101) QW in Combination With Pembrolizumab vs Alternative Ficerafusp Alfa Dosing in 1L R or M HNSCC",
+     "nctId": "NCT07807163",
+     "officialTitle": "A Multicenter, Open-label, Randomized Phase 2 Study Evaluating Continuous Weekly Dosing of Ficerafusp Alfa (BCA101) in Combination With Pembrolizumab Versus an Alternative Ficerafusp Alfa Dosing Regimen for First-Line Treatment of Recurrent or Metastatic Head and Neck Squamous Cell Carcinoma",
+     "orgStudyIdInfo": {
+      "id": "BCA101X201"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Bicara Therapeutics"
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "2026-526741-10-00",
+       "type": "CTIS"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Bicara Therapeutics"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2029-03",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-13",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-12",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2028-03",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2026-09",
+      "type": "ESTIMATED"
+     },
+     "statusVerifiedDate": "2026-10",
+     "studyFirstPostDateStruct": {
+      "date": "2026-09-08",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2026-08-18",
+     "studyFirstSubmitQcDate": "2026-09-03"
+    }
+   }
+  }
+ ]
+}

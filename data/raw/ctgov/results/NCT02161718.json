@@ -1,0 +1,97 @@
+{
+ "nctId": "NCT02161718",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.53",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "1.56",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "0.251",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.746",
+     "paramType": "Hazard Ratio (HR)",
+     "paramValue": "0.91",
+     "statisticalMethod": "Log Rank"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "25"
+        },
+        {
+         "groupId": "OG001",
+         "value": "29"
+        }
+       ]
+      }
+     ],
+     "title": "Number of Subjects with IAC Adjudicated EEDS"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "87"
+        },
+        {
+         "groupId": "OG001",
+         "value": "88"
+        }
+       ]
+      }
+     ],
+     "title": "Number of Subjects Censored"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "112"
+      },
+      {
+       "groupId": "OG001",
+       "value": "117"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "EEDS was defined as any of the following occurring during the double-blind period \\& was related to worsening of disease symptoms, as confirmed by the Independent Adjudication Committee (IAC):\n\n1. Hospitalization (includes psychiatric\\& treatment of alcohol intoxication/withdrawal)\n2. \\>= 25% or \\>= 15 point increase from randomization in PANSS total score\n3. PANSS items score of P1, P2, P3, P6, P7 or G8 that meets 1 of the following:\n\n3a. Score \\>= 5 for subjects at a 2nd ad hoc visit with a score \\<=3 at randomization 3b. Score \\>= 6 for subjects at a 2nd ad hoc visit with a score =4 at randomization 4. Engagement in self injury, aggressive behavior, or suicidal/homicidal ideation 5. Initiation of rescue medication, including increase in olanzapine dosage initially prescribed at randomization 6. ER visit 7. Subject withdraws or PI discontinues subject for lack of efficacy, lost to follow-up, or withdrawal by subject 8. Arrest or incarceration related to subject's underlying disease",
+   "groups": [
+    {
+     "description": "Oral tablet, taken once daily\n\nALKS 3831: Olanzapine (dose level determined by investigator) + Samidorphan (10mg)",
+     "id": "OG000",
+     "title": "ALKS 3831"
+    },
+    {
+     "description": "Oral tablet, taken once daily\n\nOlanzapine dose level determined by investigator",
+     "id": "OG001",
+     "title": "Olanzapine + Placebo"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Efficacy analyses were carried out using the intent to treat (ITT) population, i.e. all randomized subjects who received at least one dose of study drug post-randomization",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to 15 months",
+   "title": "Number of Participants With Independent Adjudication Committee (IAC) Adjudicated Event of Exacerbation of Disease (EEDS)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

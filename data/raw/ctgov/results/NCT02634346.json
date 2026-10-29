@@ -1,0 +1,115 @@
+{
+ "nctId": "NCT02634346",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-10.0",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-2.8",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "1.83",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<0.001",
+     "paramType": "Least square mean difference",
+     "paramValue": "-6.4",
+     "statisticalComment": "Mixed model for repeated measures is based on observed data without imputation of missing data.",
+     "statisticalMethod": "Mixed Models Analysis"
+    },
+    {
+     "ciLowerLimit": "-8.9",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-1.7",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "1.84",
+     "groupIds": [
+      "OG001",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.004",
+     "paramType": "Least square mean difference",
+     "paramValue": "-5.3",
+     "statisticalComment": "Mixed model for repeated measures is based on observed data without imputation of missing data.",
+     "statisticalMethod": "Mixed Models Analysis"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "1.28",
+         "value": "-23.9"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "1.29",
+         "value": "-22.8"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "1.32",
+         "value": "-17.5"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "132"
+      },
+      {
+       "groupId": "OG001",
+       "value": "132"
+      },
+      {
+       "groupId": "OG002",
+       "value": "133"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "This scale consists of symptom constructs (7 positive, 7 negative, 16 general psychopathology), each to be rated on a 7-point Likert-type scale of severity with 1 being absent to 7 being extreme. Minimum scores (best outcome) equals 30 (total scale); maximum scores (worst outcome) equals 210 (total scale). Change is calculated between the baseline visit and Week 4.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Administered as a coated bilayer tablet\n\nALK3831: Daily dosing",
+     "id": "OG000",
+     "title": "ALKS 3831"
+    },
+    {
+     "description": "Administered as a coated bilayer tablet\n\nOlanzapine: Daily dosing",
+     "id": "OG001",
+     "title": "Olanzapine"
+    },
+    {
+     "description": "Administered as a coated bilayer tablet\n\nPlacebo: Daily dosing",
+     "id": "OG002",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Subjects that received at least 1 dose of study drug and had at least 1 post-baseline PANSS assessment.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "4 weeks",
+   "title": "Change From Baseline in Positive and Negative Syndrome Scale (PANSS) Total Score at Week 4",
+   "type": "PRIMARY",
+   "unitOfMeasure": "units on a scale"
+  }
+ ]
+}

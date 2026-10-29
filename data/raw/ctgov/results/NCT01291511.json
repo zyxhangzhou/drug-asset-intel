@@ -1,0 +1,83 @@
+{
+ "nctId": "NCT01291511",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "3.2",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "8.4",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<0.0001",
+     "paramType": "Cox Proportional Hazard",
+     "paramValue": "5.2",
+     "statisticalMethod": "Log Rank"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "comment": "The median relapse free time could not be estimated as the Kaplan-Meier probability estimate of relapse over the 26-week double-blind period did not exceed 50% (i.e. the median, lower and upper limit of 95% CI was not estimable due to low number of participants with events).",
+         "groupId": "OG000",
+         "lowerLimit": "NA",
+         "upperLimit": "NA",
+         "value": "NA"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "57",
+         "upperLimit": "122",
+         "value": "99"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "151"
+      },
+      {
+       "groupId": "OG001",
+       "value": "150"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Relapse or impending relapse was defined as any of the following: hospitalization due to worsening of schizophrenia; increase (worsening) of the PANSS total score of greater than or equal to 30% from randomization, PANSS total score confirmed at a second visit conducted within 1-7 days; clinically significant emergent or worsening suicidal, homicidal, or aggressive behavior; a CGI-Improvement (CGI-I) score of 6 (much worse) or 7 (very much worse) after randomization; a dose increase in study medication or a need for additional open-label antipsychotic treatment.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "oral, flexible dosing 8-24 mg/day given bid",
+     "id": "OG000",
+     "title": "Iloperidone"
+    },
+    {
+     "description": "oral, matching placebo given bid",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "Two subjects lost to follow-up after randomization were excluded from the analysis population.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to 26 weeks post-randomization",
+   "title": "Time to Relapse or Impending Relapse",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Days"
+  }
+ ]
+}

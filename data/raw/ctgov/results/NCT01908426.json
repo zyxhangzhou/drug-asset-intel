@@ -1,0 +1,83 @@
+{
+ "nctId": "NCT01908426",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.63",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.92",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0049",
+     "paramType": "Hazard Ratio (HR)",
+     "paramValue": "0.76",
+     "statisticalComment": "The Log-Rank Test was stratified by etiology of disease, geo. region, presence of extrahepatic spread of disease and/or macrovascular invasion.",
+     "statisticalMethod": "Log Rank"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "9.1",
+         "upperLimit": "12.0",
+         "value": "10.2"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "6.8",
+         "upperLimit": "9.4",
+         "value": "8.0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "470"
+      },
+      {
+       "groupId": "OG001",
+       "value": "237"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The primary analysis of OS is defined as the time from randomization to death from any cause. The analysis was based on a second planned interim analysis prespecified to be performed at approximately the 75% information fraction (ie, at approximately 466 deaths). The data cutoff date for this event-driven analysis in the Intent to Treat (ITT) population was 01 June 2017. Median OS was calculated using the Kaplan-Meier estimates.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Cabozantinib (XL184) 60 mg tablet once daily\n\nCabozantinib tablets",
+     "id": "OG000",
+     "title": "Cabozantinib (XL184)"
+    },
+    {
+     "description": "Oral cabozantinib-matched placebo tablet once daily\n\nPlacebo tablets",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "The ITT population was used and included 707 randomized subjects (470 cabozantinib, 237 placebo) in the second interim analysis with a cutoff date of 01 June 2017.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to 45 months",
+   "title": "Overall Survival (OS)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "months"
+  }
+ ]
+}

@@ -1,0 +1,167 @@
+{
+ "nctId": "NCT03496623",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "77.41",
+         "value": "225.07"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "77.64",
+         "value": "220.47"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "60.77",
+         "value": "231.50"
+        },
+        {
+         "groupId": "OG003",
+         "spread": "67.78",
+         "value": "283.00"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "46"
+        },
+        {
+         "groupId": "OG001",
+         "value": "47"
+        },
+        {
+         "groupId": "OG002",
+         "value": "6"
+        },
+        {
+         "groupId": "OG003",
+         "value": "5"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Baseline"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "39.01",
+         "value": "-4.47"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "50.71",
+         "value": "-5.14"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "116.99",
+         "value": "20.33"
+        },
+        {
+         "groupId": "OG003",
+         "spread": "42.49",
+         "value": "18.5"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "38"
+        },
+        {
+         "groupId": "OG001",
+         "value": "42"
+        },
+        {
+         "groupId": "OG002",
+         "value": "3"
+        },
+        {
+         "groupId": "OG003",
+         "value": "4"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Change at Week 12"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "46"
+      },
+      {
+       "groupId": "OG001",
+       "value": "47"
+      },
+      {
+       "groupId": "OG002",
+       "value": "6"
+      },
+      {
+       "groupId": "OG003",
+       "value": "5"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "6 MWD was calculated at peak exposure (10 to 60 minutes after dosing). 6MWT was performed by standardized procedures for all participants. Participants were asked to walk a set course for 6 minutes (timed) and the distance walked (in meters) was recorded. Statistical analyses were not performed due to lack of appropriate sample size.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants received up to 72 μg of treprostinil for inhalation QID, for up to 12 weeks",
+     "id": "OG000",
+     "title": "Original Crossover Design - Treprostinil"
+    },
+    {
+     "description": "Participants received placebo to match treprostinil for inhalation QID, for up to 12 weeks",
+     "id": "OG001",
+     "title": "Original Crossover Design - Placebo"
+    },
+    {
+     "description": "Participants received up to 72 μg of treprostinil for inhalation QID, for up to 12 weeks",
+     "id": "OG002",
+     "title": "Contingent Parallel Design - Treprostinil"
+    },
+    {
+     "description": "Participants received placebo to match treprostinil QID, for up to 12 weeks",
+     "id": "OG003",
+     "title": "Contingent Parallel Design - Placebo"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Full Analysis Set included all participants who were randomized and received at least one dose of study drug. Here, 'Overall number of participants analyzed' = participants evaluable for this outcome measure and 'Number analyzed' = participants evaluable at the specified timeframe.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Week 12",
+   "title": "Change From Baseline to Week 12 in 6-Minute Walk Distance (6MWD)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "meters"
+  }
+ ]
+}

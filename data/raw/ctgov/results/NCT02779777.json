@@ -1,0 +1,73 @@
+{
+ "nctId": "NCT02779777",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        },
+        {
+         "groupId": "OG002",
+         "value": "0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "0"
+      },
+      {
+       "groupId": "OG001",
+       "value": "1"
+      },
+      {
+       "groupId": "OG002",
+       "value": "1"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "ORR was assessed by the investigator and included complete response (CR), partial response (PR), marrow complete remission (MR), and hematologic improvement (HI) according to the MDS International Working Group (IWG) criteria.",
+   "groups": [
+    {
+     "description": "Subjects prior to Amendment 3 were considered to be the Original Cohort. Prior to Amendment 3 this was a non-randomized study with 900 BID (Days 1-7 and 15-21) in 28 day cycles, allowing for adjustments in dosing/schedule based on patient tolerability.",
+     "id": "OG000",
+     "title": "Original Cohort"
+    },
+    {
+     "description": "600 mg twice daily (BID) for 7 days on Days 1-7 in 28 day cycles.",
+     "id": "OG001",
+     "title": "Regimen 1: Tipifarnib"
+    },
+    {
+     "description": "300 mg BID for 21 days on Days 1-21 in 28 day cycles.",
+     "id": "OG002",
+     "title": "Regimen 2: Tipifarnib"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Full analysis set (FAS) includes subjects enrolled in Protocol Amendment 3 (version 09 Jul 2017) and received at least one dose of tipifarnib.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "1 year",
+   "title": "Objective Response Rate (ORR)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

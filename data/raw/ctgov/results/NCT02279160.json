@@ -1,0 +1,155 @@
+{
+ "nctId": "NCT02279160",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.575",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.958",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0220",
+     "paramType": "Multiple imputation",
+     "paramValue": "0.742",
+     "statisticalMethod": "ANCOVA"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "1.85",
+         "value": "514.6"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "1.62",
+         "value": "512.0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "40"
+      },
+      {
+       "groupId": "OG001",
+       "value": "21"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Measurements of PVR from right heart catheterization were obtained prior to Day 1 of the dose titration period and at the end of the maintenance period (Week 22), approximately 4 hours after the last dose of study drug.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Multiple dose titration to maximum tolerated dose.\n\nAPD811",
+     "id": "OG000",
+     "title": "APD811"
+    },
+    {
+     "description": "Multiple dose titration to maximum tolerated dose.\n\nPlacebo",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "GEOMETRIC_MEAN",
+   "populationDescription": "Intent-to-Treat Population",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline and 22 Weeks",
+   "title": "Change From Baseline in Pulmonary Vascular Resistance (PVR)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "dyn*sec/cm^5"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-28.0",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "30.0",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.9002",
+     "paramType": "Hodges-Lehmann estimate",
+     "paramValue": "0.0",
+     "statisticalMethod": "Stratified Wilcoxon"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "11.79",
+         "value": "36.2"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "16.16",
+         "value": "29.4"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "38"
+      },
+      {
+       "groupId": "OG001",
+       "value": "21"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The 6MWT was conducted according to the modified guidelines issued by the American Thoracic Society prior to Day 1 of the dose titration period and at the end of the maintenance period (Week 22).",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Multiple dose titration to maximum tolerated dose.\n\nAPD811",
+     "id": "OG000",
+     "title": "APD811"
+    },
+    {
+     "description": "Multiple dose titration to maximum tolerated dose.\n\nPlacebo",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Modified Intent-to-Treat Population",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline and 22 Weeks",
+   "title": "Change From Baseline in 6-minute Walk Distance (6MWD) in Patients With PAH",
+   "type": "PRIMARY",
+   "unitOfMeasure": "meters"
+  }
+ ]
+}

@@ -1,0 +1,105 @@
+{
+ "nctId": "NCT02929329",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.86",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.99",
+     "estimateComment": "Cox proportional-hazards model with baseline hazards stratified according to the randomization setting and geographic region and with the treatment group and baseline eGFR as covariates.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityComment": "The overall type I error was 0.05 for 2-sided testing across primary and secondary outcomes.\n\nControl for multiple comparisons was achieved using the following testing algorithm: if the primary outcome met the P-value threshold of 0.05, the alpha error would be divided unequally between cardiovascular death (96% of the overall alpha error, or 0.048) and change from baseline to week 24 in the Kansas City Cardiomyopathy Questionnaire total symptom score (4% of the overall alpha error, or 0.002).",
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0252",
+     "paramType": "Hazard Ratio (HR)",
+     "paramValue": "0.92",
+     "statisticalComment": "Stratified by randomization setting and region, including terms for baseline estimated glomerular filtration rate (eGFR) and treatment group.",
+     "statisticalMethod": "Regression, Cox"
+    },
+    {
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0211",
+     "statisticalComment": "Log-rank test stratified by randomization setting and region.",
+     "statisticalMethod": "Stratified log-rank test"
+    },
+    {
+     "ciLowerLimit": "0.86",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.99",
+     "estimateComment": "Cox proportional-hazards model with baseline hazards stratified according to the randomization setting and geographic region and with the treatment group and baseline eGFR as covariates.",
+     "groupDescription": "Competing risk subdistribution hazard ratio and associated 95% confidence intervals for treatment were computed. Deaths not included in the endpoint were considered as the competing risk.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "paramType": "Hazard Ratio (HR)",
+     "paramValue": "0.92"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "39.1"
+        },
+        {
+         "groupId": "OG001",
+         "value": "37.0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "4112"
+      },
+      {
+       "groupId": "OG001",
+       "value": "4120"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The primary outcome was a composite of a heart-failure (HF) event or cardiovascular (CV) death, whichever occurred first, in a time-to-event analysis.\n\nA heart-failure event was defined as an urgent clinic visit, emergency department visit, or hospitalization for subjectively and objectively worsening heart failure leading to treatment intensification beyond a change in oral diuretic therapy.\n\nAll deaths and HF events were adjudicated by an independent external clinical events committee (CEC) at the Duke Clinical Research Institute, using standardized definitions based on the recent American College of Cardiology/American Heart Association (ACC/AHA) standards for endpoint definitions in cardiovascular clinical trials.\n\nTime to cardiovascular death or first HF event was analyzed using Kaplan-Meier (KM) methods. Since the median was not calculated, the percentage of participants with a positively adjudicated event during the study is reported.",
+   "groups": [
+    {
+     "description": "Participants received matching placebo tablets (BID).",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Participants received oral omecamtiv mecarbil BID. The starting dose was 25 mg; the dose may have been adjusted at week 4 to 37.5 or 50 mg based on the predose plasma concentration measured at week 2.",
+     "id": "OG001",
+     "title": "Omecamtiv Mecarbil"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Full analysis set",
+   "reportingStatus": "POSTED",
+   "timeFrame": "From randomization to up to earliest of last confirmed survival status date or analysis cut-off date (07 August 2020); the overall median duration of follow-up was 21.8 months up to a maximum of 42 months.",
+   "title": "Time to Cardiovascular Death or First Heart Failure Event",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "nctId": "NCT00550238",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "180"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "459"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Number (%) of patients with drug-related treatment-emergent AEs (i.e. AEs reported by the Investigator as possibly, probably, or highly probably related to study drug)",
+   "groups": [
+    {
+     "description": "Pimavanserin tartrate (ACP-103) tablets taken once daily by mouth for as long as the drug is considered to be tolerated and beneficial to patients",
+     "id": "OG000",
+     "title": "Pimavanserin"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Enrolled patients who received at least 1 dose of study drug",
+   "reportingStatus": "POSTED",
+   "timeFrame": "From first to last study drug dose plus 30 days",
+   "title": "Safety: Number (%) of Patients With Drug-related Treatment-emergent Adverse Events (AEs)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

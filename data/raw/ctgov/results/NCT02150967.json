@@ -1,0 +1,50 @@
+{
+ "nctId": "NCT02150967",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "15.6",
+         "upperLimit": "32.2",
+         "value": "23.1"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "108"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "ORR is defined as the percentage (%) of subjects with a best overall response of Complete Response (CR) or Partial Response (PR), as per Response Evaluation Criteria in Solid Tumors (RECIST), Version 1.1, evaluated by computed tomography (CT) or magnetic resonance imaging (MRI) scans every 28 days.\n\nRECIST (v1.1) response criteria were as follows:\n\nCR: disappearance of all target lesions. Any pathological lymph node (whether target or non-target) must have reduction in short axis to \\<10 mm.\n\nPR: at least a 30% decrease from baseline in the sum of diameters of all target lesions.\n\nNote: The primary efficacy outcome measures were prespecified only for Cohort 1 (FGFR fusions). Results were previously disclosed (22 June 2022). There are no additional efficacy endpoints to assess for Cohort 1, thus efficacy data were not re-analyzed for the final analysis.\n\nDue to early termination of the study, no formal efficacy analyses were performed for Cohorts 2 and 3.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Infigratinib 125 mg once daily (3 wk on/1 wk off treatment)",
+     "id": "OG000",
+     "title": "Cohort 1: FGFR2 Fusions"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Full Analysis Set (FAS), defined as all subjects in Cohort 1 who had received at least one dose of infigratinib.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Analysis was conducted when all subjects in Cohort 1 had the opportunity to be followed for at least 10 months after their initial exposure to infigratinib. Data cutoff 01 March 2021.",
+   "title": "Overall Response Rate (ORR) as Assessed by Blinded Independent Central Imaging Review (BICR)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Percentage (%) of subjects with CR or PR"
+  }
+ ]
+}

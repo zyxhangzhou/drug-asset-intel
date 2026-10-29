@@ -1,0 +1,66 @@
+{
+ "nctId": "NCT02230566",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-69.66",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-59.98",
+     "groupIds": [
+      "OG000"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "< 0.0001",
+     "pValueComment": "P-values are from GEE model including baseline value, and the post UX003 Treatment Week as a categorical variable. The covariance structure within participants was assumed to be exchangeable.",
+     "paramType": "LS Mean",
+     "paramValue": "-64.82",
+     "statisticalMethod": "GEE"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "2.468",
+         "value": "-64.82"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "12"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Baseline was defined as the average of all assessments prior to or on the date of cross-over to active treatment with UX003. (This provides the valid assessment, as placebo effect was subtracted from the treatment effect estimate providing a more conservative assessment of the true treatment effect.) Percent change from baseline in uGAG DS was analyzed by generalized estimating equation (GEE) modeling based on observed data. The GEE model included included baseline value, and the UX003 treatment week as a categorical variable. The covariance structure within subjects was assumed to be exchangeable.\n\nIn the United States (US), this was considered a secondary outcome measure. Per guidance from the Food and Drug Administration (FDA), no primary efficacy variable was declared in the US. Efficacy was to be based on the totality of the clinical data on a per participant basis.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Participants were randomized 1:1:1:1 to 1 of 4 treatment sequence groups to either start treatment with 4 mg/kg UX003 (Group A), or placebo for the first 8 weeks (Group B), 16 weeks (Group C) or 24 weeks (Group D) of the study and cross over to 4 mg/kg UX003. Participants were dosed QOW through Week 46. All groups received a minimum of 24 weeks of treatment with 4 mg/kg UX003 QOW.",
+     "id": "OG000",
+     "title": "UX003 4 mg/kg"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Participants who had non-missing baseline and ≥1 post-baseline value during 24 weeks of UX003 treatment. Given a randomized blind start and single crossover study design, all 4 groups received a minimum of 24 weeks of UX003 treatment, with a placebo treatment period ranging from 0-24 weeks, by group. Analysis of placebo data was not planned.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline (defined as the average of all assessments prior to or on the date of cross-over to active treatment with UX003) to 24 weeks of UX003 study drug treatment",
+   "title": "European Union (EU) and Rest of World: Percentage Change From Baseline in Urinary Glycosaminoglycan (uGAG) Dermatan Sulfate (DS) at UX003 Treatment Week 24",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage change"
+  }
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "nctId": "NCT01315678",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "13.930",
+         "value": "0.47"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "16.050",
+         "value": "1.67"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "129"
+      },
+      {
+       "groupId": "OG001",
+       "value": "137"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Relative Change (%) from baseline to end of study (Day 168) in FEV1 (1 second)",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Arikayce™ is liposomal amikacin for inhalation\n\nLiposomal amikacin for inhalation (Arikayce™) using the PARI Investigational eFlow® Nebulizer: Liposomal amikacin for inhalation is provided as a sterile aqueous liposomal dispersion for inhalation via nebulization.\n\n* 590 mg of liposomal amikacin for inhalation is administered once daily using the PARI Investigational eFlow® Nebulizer.\n* Administration time is approximately 13 minutes.\n* Liposomal amikacin for inhalation will be administered for 3 cycles where each cycle consists of 28 days on-treatment followed by 28 days off-treatment.",
+     "id": "OG000",
+     "title": "Arikayce™"
+    },
+    {
+     "description": "TOBI® is tobramycin inhalation solution\n\nTobramycin inhalation solution using a PARI LC® Plus nebulizer: 300 mg tobramycin inhalation solution is administered twice a day using a PARI LC® Plus nebulizer.\n\n* Nebulization time is approximately 20 minutes for each administration.\n* Tobramycin inhalation solution will be administered for 3 cycles where each cycle consists of 28 days on-treatment followed by 28 days off-treatment",
+     "id": "OG001",
+     "title": "TOBI®"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "The PP is the primary analysis population for the primary efficacy analysis",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline to168 days",
+   "title": "Pulmonary Function Test: Forced Expiratory Volume in 1 Second (FEV1)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Percent (%) change"
+  }
+ ]
+}

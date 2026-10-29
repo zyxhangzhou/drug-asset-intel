@@ -1,0 +1,78 @@
+{
+ "nctId": "NCT04770779",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "8.0",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "27.2",
+     "groupDescription": "The p-value is based on the Mantel-Haenszel stratum weighted method adjusting for randomization stratification factors.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0003",
+     "paramType": "Common Risk Difference on Response Rate",
+     "paramValue": "17.6",
+     "statisticalMethod": "Mantel Haenszel"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "30.4"
+        },
+        {
+         "groupId": "OG001",
+         "value": "12.6"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "171"
+      },
+      {
+       "groupId": "OG001",
+       "value": "87"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "TRR is defined as ≥50% reduction in transfused red blood cells (RBC) units with a reduction of ≥2 units of transfused RBCs in any consecutive 12-week period through Week 48 compared with baseline transfusion burden standardized to 12 weeks. Baseline transfusion burden standardized to 12 weeks= (12/24) × total number of RBC units transfused during 24-week period before the randomization date for participants randomized and not dosed or the start of study treatment for participants randomized and dosed. Participants withdrawn from the study before Week 12 (Day 85) were considered nonresponders.",
+   "groups": [
+    {
+     "description": "Participants randomized to receive mitapivat 100 mg, orally, BID for 48 weeks in the double-blind period.",
+     "id": "OG000",
+     "title": "Mitapivat"
+    },
+    {
+     "description": "Participants randomized to receive placebo matching mitapivat, orally, BID for 48 weeks in the double-blind period.",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "FAS included all participants who were randomized.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Double-blind Period: Baseline through Week 48",
+   "title": "Double-blind Period: Percentage of Participants Who Achieved Transfusion Reduction Response (TRR)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

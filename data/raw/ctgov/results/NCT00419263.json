@@ -1,0 +1,95 @@
+{
+ "nctId": "NCT00419263",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciNumSides": "TWO_SIDED",
+     "groupIds": [
+      "OG000",
+      "OG001",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+     "pValue": "0.377",
+     "statisticalComment": "P-value is based on the treatment parameter from the Cox Regression Model including treatment, current smoking behavior, and geographic region.",
+     "statisticalMethod": "Regression, Cox",
+     "testedNonInferiority": false
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "114.3",
+         "upperLimit": "165.8",
+         "value": "136.2"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "95.2",
+         "upperLimit": "145.5",
+         "value": "114.1"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "78.0",
+         "upperLimit": "135.9",
+         "value": "117.4"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "108"
+      },
+      {
+       "groupId": "OG001",
+       "value": "104"
+      },
+      {
+       "groupId": "OG002",
+       "value": "105"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Descriptive statistics for the primary efficacy variables were tabulated by treatment group. Alleviation of symptoms was determined by data recorded in the Subject Diary. Treatment differences were assessed using a Cox Regression model with effects for current smoking behavior, treatment, and geographic region. Subjects who did not experience alleviation of symptoms were censored at the date of their last assessment. A Bonferroni adjustment for the primary comparisons of each active dose with placebo was performed.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Single dose administered as bilateral 2-mL intramuscular injections in each gluteal muscle (2 injections of placebo).",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Single dose administered as bilateral 2-mL intramuscular injections in each gluteal muscle (one injection of peramivir 150 mg and one injection of placebo).",
+     "id": "OG001",
+     "title": "Peramivir 150 mg"
+    },
+    {
+     "description": "Single dose administered as bilateral 2-mL intramuscular injections in each gluteal muscle (2 injections of peramivir 150 mg).",
+     "id": "OG002",
+     "title": "Peramivir 300 mg"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "The intent-to-treat infected (ITTI) population included all randomized subjects who received study drug and had proven influenza by culture, PCR, or paired serology showing ≥ 4-fold increase in antibody to influenza A or B. Of the 318 subjects in the ITTI population, one subject had insufficient data to determine Time to Alleviation of Symptoms.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to 14 days",
+   "title": "Time to Alleviation of Symptoms (Kaplan-Meier Estimate)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Hours"
+  }
+ ]
+}

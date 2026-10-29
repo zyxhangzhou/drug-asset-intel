@@ -1,0 +1,135 @@
+{
+ "nctId": "NCT01540409",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "113.25",
+         "value": "-199.0"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "175.65",
+         "value": "-258.0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "4"
+      },
+      {
+       "groupId": "OG001",
+       "value": "3"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "This study used a modified version of the 6MWT test procedure described in American Thoracic Society (ATS) 2002 guidelines, specifically adapted for patients with Duchenne muscular dystrophy. The participant was asked to walk a set course of 25 meters for 6 minutes (timed) and the distance walked in meters was recorded. Increases from baseline in 6MWT distance are indicative of improvement and decreases from baseline indicate worsening. Baseline here corresponds to the baseline in the parent study (4658-us-201, NCT01396239).",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants who received 30 mg/kg eteplirsen or placebo once weekly, IV infusion for 24 weeks in the parent study 4658-us-201 (NCT01396239), continued the same treatment with 30 mg/kg eteplirsen once weekly for 212 weeks (up to Week 240) in this extension study.",
+     "id": "OG000",
+     "title": "Eteplirsen 30 mg/kg"
+    },
+    {
+     "description": "Participants who received 50 mg/kg eteplirsen or placebo once weekly, IV infusion for 24 weeks in the parent study 4658-us-201 (NCT01396239), continued the same treatment with 50 mg/kg eteplirsen once weekly for 212 weeks (up to Week 240) in this extension study.",
+     "id": "OG001",
+     "title": "Eteplirsen 50 mg/kg"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "The Intent-to-Treat Population (ITT) population included all participants randomized into parent study 4658-us-201. Here, \"Overall Number of Participants Analyzed\" signifies participants evaluable for this outcome measure. Results are reported below in 2 reporting groups based on evaluation period (Week 240) as applicable for this outcome measure.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Parent Baseline and Week 240",
+   "title": "Change From Baseline in the 6 Minute Walk Test (6MWT) at Week 240",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Meters"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "12.602",
+         "value": "37.70"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "7.089",
+         "value": "51.69"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "13.433",
+         "value": "42.93"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "4"
+      },
+      {
+       "groupId": "OG001",
+       "value": "4"
+      },
+      {
+       "groupId": "OG002",
+       "value": "4"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Dystrophin expression as assessed by percent dystrophin positive fibers was measured by immunohistochemistry (IHC) technique using primary anti-dystrophin antibody. Percent change from baseline is the arithmetic difference of the treatment time point minus baseline divided by baseline calculated for individual subjects. Baseline here corresponds to the baseline in the parent study (4658-us-201, NCT01396239).",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants who received eteplirsen matched placebo once weekly, IV infusion for 24 weeks in the parent study 4658-us-201 (NCT01396239), followed by 30 or 50 mg/kg eteplirsen once weekly for 212 weeks (up to Week 240) in this extension study.",
+     "id": "OG000",
+     "title": "Placebo to Eteplirsen"
+    },
+    {
+     "description": "Participants who received 30 mg/kg eteplirsen once weekly, IV infusion for 24 weeks in the parent study 4658-us-201 (NCT01396239), continued the same treatment with 30 mg/kg eteplirsen once weekly for 212 weeks (up to Week 240) in this extension study.",
+     "id": "OG001",
+     "title": "Eteplirsen 30 mg/kg"
+    },
+    {
+     "description": "Participants who received 50 mg/kg eteplirsen once weekly, IV infusion for 24 weeks in the parent study 4658-us-201 (NCT01396239), continued the same treatment with 50 mg/kg eteplirsen once weekly for 212 weeks (up to Week 240) in this extension study.",
+     "id": "OG002",
+     "title": "Eteplirsen 50 mg/kg"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "The ITT population included all participants randomized into parent study 4658-us-201. Results are reported below in 3 reporting groups of placebo to eteplirsen, eteplirsen 30 mg/kg, and eteplirsen 50 mg/kg, respectively, based on evaluation period (Week 48) as applicable for this outcome measure.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Parent Baseline and Week 48",
+   "title": "Change From Baseline in the Percentage of Dystrophin Positive Fibers (PDPF) at Week 48",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Percentage of Dystrophin Positive Fibers"
+  }
+ ]
+}

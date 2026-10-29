@@ -1,0 +1,153 @@
+{
+ "nctId": "NCT00803205",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.3264",
+     "statisticalMethod": "ANOVA"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "13.6159",
+         "value": "62.092"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "15.1437",
+         "value": "60.232"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "116"
+      },
+      {
+       "groupId": "OG001",
+       "value": "116"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Spirometry was used to assess pulmonary function by measuring the percentage of predicted function, which was determined on the basis of the height value obtained at the same study visit, for FEV1 (the amount of air that can be exhaled in 1 second). Spirometry was assessed by using current guidelines of the American Thoracic Society (ATS) and European Respiratory Society (ERS). Baseline was the average of percent-predicted FEV1 at screening and randomization.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants received ataluren TID: 10 mg/kg of body weight with breakfast, 10 mg/kg with lunch, and 20 mg/kg with dinner (total daily dose 40 mg/kg). Treatment continued for 48 weeks, after which participants were followed for 4 weeks.",
+     "id": "OG000",
+     "title": "Ataluren"
+    },
+    {
+     "description": "Participants received placebo TID: 10 mg/kg of body weight with breakfast, 10 mg/kg with lunch, and 20 mg/kg with dinner (total daily dose 40 mg/kg). Treatment continued for 48 weeks, after which participants were followed for 4 weeks.",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "The ITT Population: all randomized participants with data for FEV1 at Baseline and a minimum of 1 post-Baseline assessment before Week 8. Here, 'Number analyzed' signifies participants evaluable for this outcome measure.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline (Week 1)",
+   "title": "Percentage of Predicted Function (Percent-Predicted) of Forced Expiratory Volume in One Second (FEV1) at Baseline",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of predicted FEV1"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-0.7560",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "6.2640",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "1.78124",
+     "groupDescription": "Least squares (LS) mean estimates based on mixed model for repeated measures (Weeks 8, 16, 24, 32, 40 and 48) of relative change in percent-predicted FEV1 as the dependent variable; independent variables including Baseline percent-predicted FEV1, treatment, visit, interactions between treatment and visit and between Baseline percent-predicted FEV1 and visit; and stratification factors of Baseline age, Baseline inhaled antibiotics, and Baseline percent-predicted FEV1.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.1235",
+     "pValueComment": "The p-value is the LS-mean for the comparison between active treatment and placebo. The level of significance was 0.04998.",
+     "paramType": "Mean Difference (Final Values)",
+     "paramValue": "2.7540",
+     "statisticalMethod": "Mixed Models Analysis"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "13.2452",
+         "value": "-2.534"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "12.5595",
+         "value": "-5.500"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "116"
+      },
+      {
+       "groupId": "OG001",
+       "value": "116"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Spirometry was used to assess pulmonary function by measuring the percentage of predicted function, which was determined on the basis of the height value obtained at the same study visit, for FEV1 (the amount of air that can be exhaled in 1 second). Spirometry was assessed by using current guidelines of the American Thoracic Society (ATS) and European Respiratory Society (ERS). The percentage of change in percent-predicted of FEV1 was calculated as follows: (\\[percent-predicted FEV1-Baseline percent-predicted FEV1\\]/Baseline percent-predicted FEV1)\\*100. Baseline was the average of percent-predicted FEV1 at screening and randomization. A negative change from Baseline indicates that percent-predicted of FEV1 decreased.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants received ataluren TID: 10 mg/kg of body weight with breakfast, 10 mg/kg with lunch, and 20 mg/kg with dinner (total daily dose 40 mg/kg). Treatment continued for 48 weeks, after which participants were followed for 4 weeks.",
+     "id": "OG000",
+     "title": "Ataluren"
+    },
+    {
+     "description": "Participants received placebo TID: 10 mg/kg of body weight with breakfast, 10 mg/kg with lunch, and 20 mg/kg with dinner (total daily dose 40 mg/kg). Treatment continued for 48 weeks, after which participants were followed for 4 weeks.",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "The ITT Population: all randomized participants with data for FEV1 at Baseline and a minimum of 1 post-Baseline assessment before Week 8. Here, 'Number analyzed' signifies participants evaluable for this outcome measure.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "End of Treatment (EOT) (Week 48)",
+   "title": "Percentage Change From Baseline in Percent-Predicted of FEV1 at Week 48",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percent change"
+  }
+ ]
+}

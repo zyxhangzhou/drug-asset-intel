@@ -1,0 +1,85 @@
+{
+ "nctId": "NCT04773587",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "1.881",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "4.647",
+     "estimateComment": "Stratified by pooled study site and vIGA-AD randomization strata with multiple imputation of missing observations",
+     "groupDescription": "Difference in vIGA-AD Success at Week 4",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<0.0001",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "2.96",
+     "statisticalComment": "Stratified by pooled study site and vIGA-AD randomization strata with multiple imputation of missing observations",
+     "statisticalMethod": "Cochran-Mantel-Haenszel"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "27.79",
+         "upperLimit": "36.63",
+         "value": "32.0"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "11.06",
+         "upperLimit": "20.64",
+         "value": "15.2"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "433"
+      },
+      {
+       "groupId": "OG001",
+       "value": "221"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The percentage of participants achieving vIGA-AD \"success\" is presented with multiple imputation of missing observations. vIGA-AD \"success\" is defined as a vIGA-AD score of 'clear' or 'almost clear' PLUS a 2-grade improvement from Baseline. The vIGA-AD is a static evaluation of qualitative overall AD severity. This global assessment scale is an ordinal scale with five severity grades (reported only in integers of 0 to 4 where 0 is clear), with higher scores indicative of greater symptom severity.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants with mild to moderate AD applied roflumilast cream 0.15% once daily (QD) for 4 weeks.",
+     "id": "OG000",
+     "title": "Roflumilast Cream 0.15%"
+    },
+    {
+     "description": "Participants with mild to moderate AD applied vehicle cream QD for 4 weeks.",
+     "id": "OG001",
+     "title": "Vehicle Cream"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "All randomized participants are included.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Week 4",
+   "title": "Achievement of Validated Investigator Global Assessment for Atopic Dermatitis (vIGA-AD) Success at Week 4",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

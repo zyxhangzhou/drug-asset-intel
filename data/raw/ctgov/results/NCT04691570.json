@@ -1,0 +1,431 @@
+{
+ "nctId": "NCT04691570",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "6"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "6"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "An adverse event (AE) was any untoward medical occurrence in a participant who had been administered a pharmaceutical product. An AE did not necessarily have a causal relationship with the product and therefore could be any unfavorable and unintended sign (including an abnormal laboratory finding), symptom, or disease temporally associated with the use of a pharmaceutical product. An AE could arise with any use, route of administration, formulation, dose (including an overdose), or when used in combination with another pharmaceutical product. A TEAE was an AE with an onset date/time after the first infusion of ANX005 until the end of the study.\n\nA summary of serious and all other non-serious adverse events regardless of causality is located in the Adverse Events module.",
+   "groups": [
+    {
+     "description": "Participants were administered intravenous infusion of ANX005 on Day 1 and Day 8.",
+     "id": "OG000",
+     "title": "ANX005"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Safety Population: all participants who received any amount of ANX005.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Day 1 through Day 71",
+   "title": "Number of Participants With Treatment-emergent Adverse Events (TEAEs)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.653",
+         "value": "9.03"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "6"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Baseline"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.846",
+         "value": "1.30"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "5"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Maximum Change from Baseline"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "6"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Maximum change from Baseline was calculated as the maximum post-Baseline value observed up to Day 71 minus the Baseline value. Baseline was defined as the last non-missing observation recorded before the first dose of ANX005.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants were administered intravenous infusion of ANX005 on Day 1 and Day 8.",
+     "id": "OG000",
+     "title": "ANX005"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Safety Population: all participants who received any amount of ANX005. Number analyzed' = participants evaluable at specified timepoint.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline up to Day 71",
+   "title": "Maximum Change From Baseline in Hemoglobin Levels",
+   "type": "PRIMARY",
+   "unitOfMeasure": "grams/deciliters (dL)"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "84.88",
+         "spread": "84.88",
+         "value": "339.8"
+        }
+       ]
+      }
+     ],
+     "title": "Baseline"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "70.02",
+         "spread": "70.02",
+         "value": "7.8"
+        }
+       ]
+      }
+     ],
+     "title": "Change from Baseline"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "6"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Change from Baseline was calculated as the post-Baseline value at Day 71 minus the Baseline value. Baseline was defined as the last non-missing observation recorded before the first dose of ANX005.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants were administered intravenous infusion of ANX005 on Day 1 and Day 8.",
+     "id": "OG000",
+     "title": "ANX005"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Safety Population: all participants who received any amount of ANX005.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Day 71",
+   "title": "Change From Baseline in Lactate Dehydrogenase Levels at Day 71",
+   "type": "PRIMARY",
+   "unitOfMeasure": "units per liter (L)"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "4.706",
+         "value": "6.58"
+        }
+       ]
+      }
+     ],
+     "title": "Baseline"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "1.607",
+         "value": "0.77"
+        }
+       ]
+      }
+     ],
+     "title": "Change from Baseline"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "6"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Change from Baseline was calculated as the post-Baseline value at Day 71 minus the Baseline value.\n\nBaseline was defined as the last non-missing observation recorded before the first dose of ANX005.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants were administered intravenous infusion of ANX005 on Day 1 and Day 8.",
+     "id": "OG000",
+     "title": "ANX005"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Safety Population: all participants who received any amount of ANX005.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Day 71",
+   "title": "Change From Baseline in Percentage of Reticulocytes/Total Cells Count at Day 71",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of reticulocytes/total cells"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "14.21",
+         "spread": "14.21",
+         "value": "9.0"
+        }
+       ]
+      }
+     ],
+     "title": "Baseline"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "8.99",
+         "spread": "8.99",
+         "value": "1.0"
+        }
+       ]
+      }
+     ],
+     "title": "Change from Baseline"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "6"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Change from Baseline was calculated as the post-Baseline value at Day 71 minus the Baseline value. Baseline was defined as the last non-missing observation recorded before the first dose of ANX005.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants were administered intravenous infusion of ANX005 on Day 1 and Day 8.",
+     "id": "OG000",
+     "title": "ANX005"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Safety Population: all participants who received any amount of ANX005.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Day 71",
+   "title": "Change From Baseline in Haptoglobin Levels at Day 71",
+   "type": "PRIMARY",
+   "unitOfMeasure": "milligrams (mg)/dL"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "22.848",
+         "spread": "22.848",
+         "value": "34.43"
+        }
+       ]
+      }
+     ],
+     "title": "Baseline"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "18.940",
+         "spread": "18.940",
+         "value": "8.55"
+        }
+       ]
+      }
+     ],
+     "title": "Change from baseline"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "6"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Change from Baseline was calculated as the post-Baseline value at Day 71 minus the Baseline value. Baseline was defined as the last non-missing observation recorded before the first dose of ANX005.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants were administered intravenous infusion of ANX005 on Day 1 and Day 8.",
+     "id": "OG000",
+     "title": "ANX005"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Safety Population: all participants who received any amount of ANX005.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Day 71",
+   "title": "Change From Baseline in Total Bilirubin Levels at Day 71",
+   "type": "PRIMARY",
+   "unitOfMeasure": "micromole (µmol)/L"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "12.008",
+         "spread": "12.008",
+         "value": "17.22"
+        }
+       ]
+      }
+     ],
+     "title": "Baseline"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "11.951",
+         "spread": "11.951",
+         "value": "4.75"
+        }
+       ]
+      }
+     ],
+     "title": "Change from Baseline"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "6"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Change from Baseline was calculated as the post-Baseline value at Day 71 minus the Baseline value. Baseline was defined as the last non-missing observation recorded before the first dose of ANX005.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants were administered intravenous infusion of ANX005 on Day 1 and Day 8.",
+     "id": "OG000",
+     "title": "ANX005"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Safety Population: all participants who received any amount of ANX005.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Day 71",
+   "title": "Change From Baseline in Indirect Bilirubin Levels at Day 71",
+   "type": "PRIMARY",
+   "unitOfMeasure": "µmol/L"
+  }
+ ]
+}

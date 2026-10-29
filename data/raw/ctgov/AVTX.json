@@ -1,0 +1,1267 @@
+{
+ "aliases": [
+  "Avalo Therapeutics"
+ ],
+ "studies": [
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Drug",
+       "interventionNames": [
+        "Drug: FP01"
+       ],
+       "label": "FP01 Dose 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Drug",
+       "interventionNames": [
+        "Drug: FP01"
+       ],
+       "label": "FP01 Dose 2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Drug",
+       "interventionNames": [
+        "Drug: FP01"
+       ],
+       "label": "FP01 Dose 3",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Drug",
+       "interventionNames": [
+        "Drug: FP01"
+       ],
+       "label": "Comparator",
+       "type": "ACTIVE_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Comparator",
+        "FP01 Dose 1",
+        "FP01 Dose 2",
+        "FP01 Dose 3"
+       ],
+       "description": "comparison of different dosages",
+       "name": "FP01",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Healthy"
+     ],
+     "keywords": [
+      "Safety and Pharmacokinetics of FP01 in Healthy Volunteers"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "BASIC_SCIENCE"
+     },
+     "enrollmentInfo": {
+      "count": 40,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Single Dose Study to Determine the Safety and Pharmacokinetics of FP01 Lozenges in Healthy Volunteers",
+     "nctId": "NCT01579526",
+     "officialTitle": "A Randomized, Single Dose Study to Determine the Safety and Pharmacokinetics of FP01 Lozenges in Healthy Volunteers",
+     "orgStudyIdInfo": {
+      "id": "Clin01-001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Avalo Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Avalo Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2012-05",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2012-05-17",
+      "type": "ESTIMATED"
+     },
+     "lastUpdateSubmitDate": "2012-05-16",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2012-04",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2012-04"
+     },
+     "statusVerifiedDate": "2012-05",
+     "studyFirstPostDateStruct": {
+      "date": "2012-04-18",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2012-04-06",
+     "studyFirstSubmitQcDate": "2012-04-17"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: FP01"
+       ],
+       "label": "FP01 High dose",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: FP01"
+       ],
+       "label": "FP01 Low dose",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: FP01"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "FP01 High dose",
+        "FP01 Low dose",
+        "Placebo"
+       ],
+       "description": "Lozenge 3 times per day, low dose, high dose, or placebo for 48 hours.",
+       "name": "FP01",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Acute Cough"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 208,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Antitussive Effects of FP01 Lozenges in Subjects With Cough Due to Upper Respiratory Tract Infection",
+     "nctId": "NCT01597349",
+     "officialTitle": "An Exploratory, Randomized, Placebo Controlled, Double Blind, Parallel Arm Dose Ranging Study to Determine the Antitussive Effects of FP01 Lozenges in Subjects With Cough Due to Upper Respiratory Tract Infection",
+     "orgStudyIdInfo": {
+      "id": "CLIN01-002-A"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Avalo Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Avalo Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2012-09",
+      "type": "ACTUAL"
+     },
+     "dispFirstPostDateStruct": {
+      "date": "2014-02-28",
+      "type": "ESTIMATED"
+     },
+     "dispFirstSubmitDate": "2014-01-27",
+     "dispFirstSubmitQcDate": "2014-01-27",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2014-02-28",
+      "type": "ESTIMATED"
+     },
+     "lastUpdateSubmitDate": "2014-01-27",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2012-09",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2012-05"
+     },
+     "statusVerifiedDate": "2014-01",
+     "studyFirstPostDateStruct": {
+      "date": "2012-05-14",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2012-05-09",
+     "studyFirstSubmitQcDate": "2012-05-11"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "FP01 6mg Oral",
+       "interventionNames": [
+        "Drug: FP01",
+        "Drug: placebo"
+       ],
+       "label": "FP01 6mg or Placebo",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "FP01 12mg Oral",
+       "interventionNames": [
+        "Drug: FP01",
+        "Drug: placebo"
+       ],
+       "label": "FP01 12mg or Placebo",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "FP01 12mg or Placebo",
+        "FP01 6mg or Placebo"
+       ],
+       "name": "FP01",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "FP01 12mg or Placebo",
+        "FP01 6mg or Placebo"
+       ],
+       "name": "placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Chronic Refractory Cough"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "CROSSOVER",
+      "maskingInfo": {
+       "masking": "TRIPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 83,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "An Exploratory Study of FP01 Lozenges in Subjects With Chronic Refractory Cough",
+     "nctId": "NCT01703923",
+     "officialTitle": "An Exploratory, Randomized, Placebo-Controlled, Double-Blind, Crossover Study of FP01 Lozenges in Subjects With Chronic Refractory Cough",
+     "orgStudyIdInfo": {
+      "id": "Clin01-003"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Avalo Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Avalo Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2013-09",
+      "type": "ACTUAL"
+     },
+     "dispFirstPostDateStruct": {
+      "date": "2014-11-05",
+      "type": "ESTIMATED"
+     },
+     "dispFirstSubmitDate": "2014-10-30",
+     "dispFirstSubmitQcDate": "2014-10-30",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2014-11-05",
+      "type": "ESTIMATED"
+     },
+     "lastUpdateSubmitDate": "2014-10-30",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2013-09",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2012-11"
+     },
+     "statusVerifiedDate": "2014-10",
+     "studyFirstPostDateStruct": {
+      "date": "2012-10-11",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2012-10-08",
+     "studyFirstSubmitQcDate": "2012-10-10"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Treatment Sequence 1 - 7 days on placebo and 28 days on study drug (either 12mg or 8mg)",
+       "interventionNames": [
+        "Drug: CERC-301",
+        "Other: Placebo"
+       ],
+       "label": "CERC-301, Treatment Sequence 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Treatment Sequence 2 - Placebo for 7 days and study drug for 28 days (8 mgs)",
+       "interventionNames": [
+        "Drug: CERC-301",
+        "Other: Placebo"
+       ],
+       "label": "CERC-301, Treatment Sequence 2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Treatment Sequence 3 - Placebo for 35 Day treatment period",
+       "interventionNames": [
+        "Other: Placebo"
+       ],
+       "label": "Placebo, Treatment Sequence 3",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "CERC-301, Treatment Sequence 1",
+        "CERC-301, Treatment Sequence 2"
+       ],
+       "name": "CERC-301",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "CERC-301, Treatment Sequence 1",
+        "CERC-301, Treatment Sequence 2",
+        "Placebo, Treatment Sequence 3"
+       ],
+       "name": "Placebo",
+       "type": "OTHER"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Major Depressive Disorder"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "TRIPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 1357,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Randomized, Double-Blind, Placebo-Controlled, Sequential Parallel Study of CERC-301 in the Adjunctive Treatment of Subjects With Severe Depression and Recent Active Suicidal Ideation Despite Antidepressant Treatment",
+     "nctId": "NCT01941043",
+     "officialTitle": "A Randomized, Double-Blind, Placebo-Controlled, Sequential Parallel Study of CERC-301 in the Adjunctive Treatment of Subjects With Severe Depression and Recent Active Suicidal Ideation Despite Antidepressant Treatment",
+     "orgStudyIdInfo": {
+      "id": "Clin301-201"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Avalo Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Avalo Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2014-10",
+      "type": "ACTUAL"
+     },
+     "dispFirstPostDateStruct": {
+      "date": "2017-09-28",
+      "type": "ACTUAL"
+     },
+     "dispFirstSubmitDate": "2017-09-18",
+     "dispFirstSubmitQcDate": "2017-09-25",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2017-12-21",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2017-12-19",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2014-09",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2013-11"
+     },
+     "statusVerifiedDate": "2017-12",
+     "studyFirstPostDateStruct": {
+      "date": "2013-09-13",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2013-09-05",
+     "studyFirstSubmitQcDate": "2013-09-09"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "The study includes two dose administrations 7 days apart (Day 0 and Day 7) followed by 14 days of observation for a total of 21 days.",
+       "interventionNames": [
+        "Drug: CERC-301"
+       ],
+       "label": "CERC-301 12mg",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "The study includes two dose administrations 7 days apart (Day 0 and Day 7) followed by 14 days of observation for a total of 21 days.",
+       "interventionNames": [
+        "Drug: CERC-301"
+       ],
+       "label": "CERC-301 20mg",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "The study includes two dose administrations 7 days apart (Day 0 and Day 7) followed by 14 days of observation for a total of 21 days.",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "CERC-301 12mg",
+        "CERC-301 20mg"
+       ],
+       "description": "CERC-301, a highly selective, orally bioavailable, NMDA receptor subunit 2B (NR2B), also referred to as Glutamate NMDA receptor subunit epsilon-2 (GluN2B) antagonist",
+       "name": "CERC-301",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Major Depressive Disorder"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "TRIPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 115,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Study of Intermittent Doses of CERC-301 in MDD",
+     "nctId": "NCT02459236",
+     "officialTitle": "A Randomized, Double-Blind, Placebo-Controlled Study of Intermittent Doses of CERC-301 in the Treatment of Subjects With Severe Depression Despite Antidepressant Treatment",
+     "orgStudyIdInfo": {
+      "id": "Clin301-203"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Avalo Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Avalo Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2016-12",
+      "type": "ACTUAL"
+     },
+     "dispFirstPostDateStruct": {
+      "date": "2017-09-28",
+      "type": "ACTUAL"
+     },
+     "dispFirstSubmitDate": "2017-09-18",
+     "dispFirstSubmitQcDate": "2017-09-25",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2017-09-28",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2017-09-25",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2016-09",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2015-06"
+     },
+     "statusVerifiedDate": "2017-09",
+     "studyFirstPostDateStruct": {
+      "date": "2015-06-02",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2015-05-27",
+     "studyFirstSubmitQcDate": "2015-06-01"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "MDGN-002 will be supplied in vials of 150 mg/mL. MDGN-002 will be administered by SQ injection in the abdomen every 14 days at 1 of 2 dose levels: 1.0 mg/kg or 3.0 mg/kg.",
+       "interventionNames": [
+        "Drug: MDGN-002"
+       ],
+       "label": "MDGN-002",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "MDGN-002"
+       ],
+       "description": "MDGN-002 is a fully human IgG4 monoclonal antibody specific to human LIGHT.",
+       "name": "MDGN-002",
+       "otherNames": [
+        "AVTX-002, AEVI-002"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Crohn Disease",
+      "Ulcerative Colitis"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 8,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Evaluation of the Safety, Tolerability, and Efficacy of MDGN-002 in Adults With Moderate to Severe Active Crohn's Disease or Ulcerative Colitis",
+     "nctId": "NCT03169894",
+     "officialTitle": "Phase Ib Escalating Dose, Open-Label, Signal-Finding Study to Evaluate the Safety, Tolerability, and Short-Term Efficacy of the Anti-Light Monoclonal Antibody MDGN-002 in Adults With Moderate to Severe Active Crohn's Disease or Ulcerative Colitis Who Previously Failed Treatment With an Anti-TNFα Agent",
+     "orgStudyIdInfo": {
+      "id": "MDGN-002-CD-101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Avalo Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Avalo Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2021-10-12",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2024-02-26",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2023-07-27",
+     "overallStatus": "TERMINATED",
+     "primaryCompletionDateStruct": {
+      "date": "2021-09-14",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2024-02-26",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2022-09-07",
+     "resultsFirstSubmitQcDate": "2023-07-27",
+     "startDateStruct": {
+      "date": "2017-07-14",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2023-07",
+     "studyFirstPostDateStruct": {
+      "date": "2017-05-30",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2017-05-24",
+     "studyFirstSubmitQcDate": "2017-05-25",
+     "whyStopped": "Strategic reasons"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Open-label, dose-escalation, single-arm",
+       "interventionNames": [
+        "Drug: AEVI-007"
+       ],
+       "label": "AEVI-007",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "AEVI-007"
+       ],
+       "description": "50 mg of AEVI-007 and will be reconstituted with 1.2 mL of water for injection.",
+       "name": "AEVI-007",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Multiple Myeloma"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 13,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Phase 1b Study of AEVI-007 in Subjects With Relapsed or Refractory Multiple Myeloma",
+     "nctId": "NCT04671251",
+     "officialTitle": "A Multicenter, Open-Label, Dose-Escalation Phase 1b Study of AEVI-007 in Subjects With Relapsed or Refractory Multiple Myeloma",
+     "orgStudyIdInfo": {
+      "id": "AEVI-007-MM-101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Avalo Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Avalo Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2022-03-30",
+      "type": "ACTUAL"
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2024-02-29",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2024-02-28",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2022-03-30",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2020-12-15",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2024-02",
+     "studyFirstPostDateStruct": {
+      "date": "2020-12-17",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2020-12-01",
+     "studyFirstSubmitQcDate": "2020-12-11"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Approximately 5 participants will receive CERC-006 at a dose of 0.5 mg twice daily for 28 days.",
+       "interventionNames": [
+        "Drug: CERC-006"
+       ],
+       "label": "Cohort 1: CERC-006 (0.5 mg)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Following a safety review, if there are no clinically important safety findings in Cohort 1, a second cohort of approximately 5 participants will be enrolled to receive CERC-006 at a dose of 1 mg twice daily for 28 days.",
+       "interventionNames": [
+        "Drug: CERC-006"
+       ],
+       "label": "Cohort 2: CERC-006 (1 mg)",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Cohort 1: CERC-006 (0.5 mg)",
+        "Cohort 2: CERC-006 (1 mg)"
+       ],
+       "description": "Oral solution",
+       "name": "CERC-006",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Lymphatic Malformation"
+     ],
+     "keywords": [
+      "Lymphatic Malformation",
+      "Complex Lymphatic Malformations",
+      "CERC-006"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 0,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Pharmacokinetic, Pharmacodynamic, Safety and Tolerability Study of CERC-006 in Adults With Complex Lymphatic Malformations",
+     "nctId": "NCT04994002",
+     "officialTitle": "A Phase 1b, Open-Label, Pharmacokinetic, Pharmacodynamic, Safety and Tolerability Study of CERC-006 in Adults (Aged 18-31 Years) With Complex Lymphatic Malformations",
+     "orgStudyIdInfo": {
+      "id": "CERC-006-LM-101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Avalo Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Avalo Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2022-06",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2022-03-22",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2022-03-07",
+     "overallStatus": "WITHDRAWN",
+     "primaryCompletionDateStruct": {
+      "date": "2022-06",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2021-09-03",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2022-03",
+     "studyFirstPostDateStruct": {
+      "date": "2021-08-06",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2021-07-20",
+     "studyFirstSubmitQcDate": "2021-07-29",
+     "whyStopped": "Sponsor Decision"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Approximately 40 subjects will receive AVTX-002 at a dose of 600 mg three times during the study.",
+       "interventionNames": [
+        "Drug: AVTX-002"
+       ],
+       "label": "AVTX-002",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Approximately 40 subjects will receive placebo sourced as normal saline three times during the study.",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "AVTX-002"
+       ],
+       "description": "Dose of 600 mg administered subcutaneously three times during the study.",
+       "name": "AVTX-002",
+       "otherNames": [
+        "CERC-002, AEVI-002, MDGN-002"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Placebo sourced as normal saline administered subcutaneously three times during the study.",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Non-Eosinophilic Asthma"
+     ],
+     "keywords": [
+      "Non-Eosinophilic Asthma",
+      "AVTX-002"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 91,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Study to Evaluate the Safety and Efficacy of AVTX-002 for the Treatment of Poorly Controlled Non-Eosinophilic Asthma.",
+     "nctId": "NCT05288504",
+     "officialTitle": "A Phase 2, Randomized, Double-Blind, Placebo-Controlled, Parallel Group Study to Evaluate the Safety and Efficacy of AVTX-002 for the Treatment of Poorly Controlled Non-Eosinophilic Asthma",
+     "orgStudyIdInfo": {
+      "id": "AVTX-002-NEA-201"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Avalo Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Avalo Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2023-05-11",
+      "type": "ACTUAL"
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2024-09-05",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2024-08-29",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2023-05-11",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2024-09-05",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2024-05-08",
+     "resultsFirstSubmitQcDate": "2024-08-29",
+     "startDateStruct": {
+      "date": "2022-02-24",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2024-08",
+     "studyFirstPostDateStruct": {
+      "date": "2022-03-21",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2022-03-08",
+     "studyFirstSubmitQcDate": "2022-03-18"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Patients will receive AVTX-009 regimen 1.",
+       "interventionNames": [
+        "Drug: AVTX-009 Regimen 1"
+       ],
+       "label": "AVTX-009 Regimen 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Patients will receive AVTX-009 regimen 2.",
+       "interventionNames": [
+        "Drug: AVTX-009 Regimen 2"
+       ],
+       "label": "AVTX-009 Regimen 2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Patients will receive matching placebo.",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "AVTX-009 Regimen 1"
+       ],
+       "description": "AVTX-009 will be administered as a subcutaneous injection every 4 weeks.",
+       "name": "AVTX-009 Regimen 1",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "AVTX-009 Regimen 2"
+       ],
+       "description": "AVTX-009 will be administered as a subcutaneous injection every 2 weeks.",
+       "name": "AVTX-009 Regimen 2",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Matching placebo will be administered as a subcutaneous injection every 2 weeks.",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Hidradenitis Suppurativa"
+     ],
+     "keywords": [
+      "Hidradenitis Suppurativa",
+      "HS",
+      "acne inversa",
+      "AVTX-009",
+      "LY2189102",
+      "FL-101"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 253,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "LOTUS",
+     "briefTitle": "A Study to Evaluate the Efficacy and Safety of AVTX-009 in Patients With Moderate to Severe Hidradenitis Suppurativa",
+     "nctId": "NCT06603077",
+     "officialTitle": "A Phase 2, Randomized, Double-blind, Placebo-controlled, Parallel-group Study to Evaluate the Efficacy and Safety of AVTX-009 in Patients With Moderate to Severe Hidradenitis Suppurativa (LOTUS)",
+     "orgStudyIdInfo": {
+      "id": "AVTX-009-HS-201"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Avalo Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Avalo Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2026-03-17",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-04-21",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-04-16",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2026-02-23",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2024-09-16",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-04",
+     "studyFirstPostDateStruct": {
+      "date": "2024-09-19",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2024-09-17",
+     "studyFirstSubmitQcDate": "2024-09-17"
+    }
+   }
+  }
+ ]
+}

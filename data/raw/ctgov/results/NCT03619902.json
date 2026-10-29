@@ -1,0 +1,172 @@
+{
+ "nctId": "NCT03619902",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "34.91",
+         "upperLimit": "96.81",
+         "value": "75.0"
+        }
+       ]
+      }
+     ],
+     "title": "Week 4"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "34.91",
+         "upperLimit": "96.81",
+         "value": "75.0"
+        }
+       ]
+      }
+     ],
+     "title": "Week 16"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "8"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Clinical response was defined as \"Very much improved,\" \"Much Improved,\" or \"Minimally Improved\" on the CGI scale according to the Modified Japanese Dermatological Association Severity Index (JDA-SI) total score.\n\nThe JDA-SI includes assessment of skin lesions (area of erythema with pustules, area of erythema total, and area of edema) and fever, white blood cell count, C-reactive protein and serum albumin levels. The total score ranges from 0 to 17 (severe).\n\nCGI was assessed based on the JDA-SI according to the following:\n\n* Very Much Improved: Reduction in JDA-SI total score by 3 or \\> points;\n* Much improved: Reduction in JDA-SI total score by 1 or 2 points;\n* Minimally improved: No change in JDA-SI total score and area of erythema with pustules reduced by \\<20% or clinically meaningful improvement in at least 1 other component of the modified JDA-SI.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants received imsidolimab 750 mg intravenously on Day 1 followed by administration of 3 doses of subcutaneous imsidolimab 100 mg on Days 29, 57, and 85.",
+     "id": "OG000",
+     "title": "Imsidolimab"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "The full analysis set (FAS) included all enrolled participants. Participants with missing data were categorized as non-responders.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Week 4 and Week 16",
+   "title": "Percentage of Participants Achieving Clinical Response on the Clinical Global Impression (CGI) Scale",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "39.895",
+         "value": "-59.63"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "8"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Week 1"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "10.737",
+         "value": "-94.17"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "6"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Week 4"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "5.443",
+         "value": "-97.78"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "6"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Week 16"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "8"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Excluding palms and soles from 0% to 100%. The palmar surface of one hand (using the subject's hand and including the fingers) represents 1% of his or her total BSA.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants received imsidolimab 750 mg intravenously on Day 1 followed by administration of 3 doses of subcutaneous imsidolimab 100 mg on Days 29, 57, and 85.",
+     "id": "OG000",
+     "title": "Imsidolimab"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Full analysis set participants with available data at each time point",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Week 1, Week 4, and Week 16",
+   "title": "Percent Change From Baseline in Body Surface Area of Erythema With Pustules at Week 1, Week 4, and Week 16",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percent change"
+  }
+ ]
+}

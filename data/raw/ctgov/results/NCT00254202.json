@@ -1,0 +1,77 @@
+{
+ "nctId": "NCT00254202",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "1.03",
+         "value": "-12.0"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "1.44",
+         "value": "-12.3"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "1.48",
+         "value": "-7.1"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "283"
+      },
+      {
+       "groupId": "OG001",
+       "value": "144"
+      },
+      {
+       "groupId": "OG002",
+       "value": "140"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The PANSS is a 30-item scale developed to assess the severity of symptoms of schizophrenia. The PANSS items are divided into positive, negative, and general psychopathology factors. Items are rated on a scale of 1 (absent) to 7 (extremely severe). The PANSS-T score is the sum of scores for all 30 PANSS items (i.e., the sum of the three subscales), with a minimum score of 30 and a maximum score of 210. Higher scores indicate more severe symptoms. A negative change from baseline indicates improvement.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Oral iloperidone",
+     "id": "OG000",
+     "title": "Iloperidone"
+    },
+    {
+     "description": "Oral ziprasidone",
+     "id": "OG001",
+     "title": "Ziprasidone"
+    },
+    {
+     "description": "Oral placebo",
+     "id": "OG002",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "The modified Intent-to-Treat (ITT) population comprise all randomized patients who receive at least one dose of study medication in the short-term double-blind phase and for whom a baseline PANSS score measurement is obtained and at least one post-baseline PANSS score measurement is obtained while on study medication. For patients randomized in error at a second site after being randomized once, the data from the second site were excluded from analysis in the modified ITT population.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "4 weeks",
+   "title": "Change From Baseline in Positive and Negative Symptom Scale Total (PANSS-T) Score",
+   "type": "PRIMARY",
+   "unitOfMeasure": "score on a scale"
+  }
+ ]
+}

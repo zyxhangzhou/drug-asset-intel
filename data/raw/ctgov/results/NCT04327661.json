@@ -1,0 +1,72 @@
+{
+ "nctId": "NCT04327661",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "22"
+        },
+        {
+         "groupId": "OG001",
+         "value": "24"
+        },
+        {
+         "groupId": "OG002",
+         "value": "54"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "120"
+      },
+      {
+       "groupId": "OG001",
+       "value": "123"
+      },
+      {
+       "groupId": "OG002",
+       "value": "122"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Prevention of vomiting measured by Vomiting Assessment (VA) score in tradipitant high dose. The VA is a 1-item questionnaire to objectively measure the incidence of emesis. Participants will indicate whether or not they have vomited. The Count of Participants indicates participants who vomited.",
+   "groups": [
+    {
+     "description": "Oral Capsule",
+     "id": "OG000",
+     "title": "Tradipitant High Dose"
+    },
+    {
+     "description": "Oral Capsule",
+     "id": "OG001",
+     "title": "Tradipitant Low Dose"
+    },
+    {
+     "description": "Oral Capsule",
+     "id": "OG002",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "reportingStatus": "POSTED",
+   "timeFrame": "1 day",
+   "title": "Prevention of Vomiting Measured by Vomiting Assessment (VA)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

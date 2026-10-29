@@ -1,0 +1,1586 @@
+{
+ "aliases": [
+  "Kymera Therapeutics"
+ ],
+ "studies": [
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Subjects with active mild, moderate, or severe HS disease using the HS-PGA assessment",
+       "label": "Hidradenitis suppurativa"
+      },
+      {
+       "description": "Subjects with active moderate or severe AD disease using the PGA assessment",
+       "label": "Atopic Dermatitis"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Hidradenitis Suppurativa",
+      "Dermatitis, Atopic"
+     ],
+     "keywords": [
+      "IRAK4"
+     ]
+    },
+    "designModule": {
+     "bioSpec": {
+      "description": "Blood samples, skin biopsies",
+      "retention": "SAMPLES_WITH_DNA"
+     },
+     "designInfo": {
+      "observationalModel": "CASE_CONTROL",
+      "timePerspective": "CROSS_SECTIONAL"
+     },
+     "enrollmentInfo": {
+      "count": 40,
+      "type": "ACTUAL"
+     },
+     "patientRegistry": false,
+     "studyType": "OBSERVATIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Evaluation of Cutaneous and Circulating Inflammatory Biomarkers in Hidradenitis Suppurativa and Atopic Dermatitis",
+     "nctId": "NCT04440410",
+     "officialTitle": "Non-interventional Study to Evaluate Cutaneous and Circulating Inflammatory Biomarkers for a Novel IRAK4-targeted Therapeutic in Hidradenitis Suppurativa and Atopic Dermatitis Patient Samples",
+     "orgStudyIdInfo": {
+      "id": "YDC-2"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Kymera Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "collaborators": [
+      {
+       "class": "UNKNOWN",
+       "name": "York Dermatology Clinic and Research Centre"
+      }
+     ],
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Kymera Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2021-03-24",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2021-04-13",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2021-04-12",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2021-03-24",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2020-05-28",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2021-04",
+     "studyFirstPostDateStruct": {
+      "date": "2020-06-19",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2020-06-01",
+     "studyFirstSubmitQcDate": "2020-06-17"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Healthy volunteer subject cohorts randomized 6:2 receiving a single dose of KT-474 or placebo. The first cohort will receive 25 mg of KT-474 or placebo. Dose escalation will occur if KT-474 or placebo is tolerated.",
+       "interventionNames": [
+        "Drug: KT-474/Placebo"
+       ],
+       "label": "Single ascending dose cohorts in healthy subjects",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Healthy volunteer subject cohorts randomized 9:3 to receive KT-474 or placebo for 14 days continuous dosing. The first cohort will receive a dose of KT-474 or placebo determined to be safe based on data generated in the SAD portion.",
+       "interventionNames": [
+        "Drug: KT-474/Placebo"
+       ],
+       "label": "Multiple ascending dose cohorts in healthy subjects",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Healthy Volunteer SAD subject cohorts (up to 5) will receive a single dose of KT-474 in the fed state.",
+       "interventionNames": [
+        "Drug: KT-474/Placebo"
+       ],
+       "label": "Food Effect Cohort in healthy subjects",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "A single cohort of up to 30 patients with AD or HS to receive a dose of KT-474 determined to be safe based on data generated in the healthy volunteer MAD portion, dosed daily X 28 days.",
+       "interventionNames": [
+        "Drug: KT-474"
+       ],
+       "label": "Multiple dose cohort in HS and AD patients",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Healthy volunteer subject cohorts randomized 9:3 to receive KT-474 or placebo every other day over 14 days, and/or twice weekly over 15 days. The first cohort will receive a dose of KT-474 or placebo determined to be safe based on data generated in the SAD and MAD portion.",
+       "interventionNames": [
+        "Drug: KT-474/Placebo"
+       ],
+       "label": "Multiple dose cohorts in healthy subjects",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Food Effect Cohort in healthy subjects",
+        "Multiple ascending dose cohorts in healthy subjects",
+        "Multiple dose cohorts in healthy subjects",
+        "Single ascending dose cohorts in healthy subjects"
+       ],
+       "description": "KT-474 or matching placebo oral tablet(s)",
+       "name": "KT-474/Placebo",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Multiple dose cohort in HS and AD patients"
+       ],
+       "description": "KT-474 oral tablet(s)",
+       "name": "KT-474",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Healthy Volunteer",
+      "Atopic Dermatitis",
+      "Hidradenitis Suppurativa"
+     ],
+     "keywords": [
+      "Atopic Dermatitis",
+      "Hidradenitis Suppurativa",
+      "Immune-inflammatory diseases"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "interventionModelDescription": "Single ascending dose escalation and multiple ascending dose escalation study followed by an evaluation of food effects on absorption",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "maskingDescription": "randomized double blind (for Parts A and B only)",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 154,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Single and Multiple Ascending Dose Trial of KT-474 in Healthy Adult Volunteers and Patients With Atopic Dermatitis (AD) or Hidradenitis Suppurativa (HS)",
+     "nctId": "NCT04772885",
+     "officialTitle": "A Phase 1 Randomized, Placebo-controlled, Single and Multiple Ascending Dose Trial to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of Orally Administered KT-474 in Healthy Adult Volunteers and Patients With Atopic Dermatitis (AD) or Hidradenitis Suppurativa (HS)",
+     "orgStudyIdInfo": {
+      "id": "KT474-HV-101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Kymera Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Kymera Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2022-10-20",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2022-10-24",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2022-10-21",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2022-10-20",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2021-02-23",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2022-10",
+     "studyFirstPostDateStruct": {
+      "date": "2021-02-26",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2021-02-12",
+     "studyFirstSubmitQcDate": "2021-02-24"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "KT-333 dosed IV weekly in 28 day cycles",
+       "interventionNames": [
+        "Drug: KT-333"
+       ],
+       "label": "Phase 1a Dose Escalation Lymphomas",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "KT-333 dosed IV weekly in 28 day cycles",
+       "interventionNames": [
+        "Drug: KT-333"
+       ],
+       "label": "Phase 1a Dose Escalation Solid Tumors",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "KT-333 dosed IV weekly in 28 day cycles",
+       "interventionNames": [
+        "Drug: KT-333"
+       ],
+       "label": "Phase 1b Dose Expansion PTCL",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "KT-333 dosed IV weekly in 28 day cycles",
+       "interventionNames": [
+        "Drug: KT-333"
+       ],
+       "label": "Phase 1b Dose Expansion CTCL",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "KT-333 dosed IV weekly in 28 day cycles",
+       "interventionNames": [
+        "Drug: KT-333"
+       ],
+       "label": "Phase 1b Dose Expansion LGL-L",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "KT-333 dosed IV weekly in 28 day cycles",
+       "interventionNames": [
+        "Drug: KT-333"
+       ],
+       "label": "Phase 1b Dose Expansion Solid Tumor",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "KT-333 dosed IV weekly in 28 day cycles",
+       "interventionNames": [
+        "Drug: KT-333"
+       ],
+       "label": "Phase 1a Dose Escalation LGL-L",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "KT-333 dosed IV weekly in 28 day cycles",
+       "interventionNames": [
+        "Drug: KT-333"
+       ],
+       "label": "Phase 1a Dose Escalation T-PLL",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Phase 1a Dose Escalation LGL-L",
+        "Phase 1a Dose Escalation Lymphomas",
+        "Phase 1a Dose Escalation Solid Tumors",
+        "Phase 1a Dose Escalation T-PLL",
+        "Phase 1b Dose Expansion CTCL",
+        "Phase 1b Dose Expansion LGL-L",
+        "Phase 1b Dose Expansion PTCL",
+        "Phase 1b Dose Expansion Solid Tumor"
+       ],
+       "description": "KT-333 will be supplied as 10mg/mL concentration frozen solution to be administered intravenously per the protocol defined frequency and dose level.",
+       "name": "KT-333",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Non Hodgkin Lymphoma (NHL)",
+      "Peripheral T-cell Lymphoma (PTCL)",
+      "Cutaneous T-Cell Lymphoma (CTCL)",
+      "Large Granular Lymphocytic Leukemia (LGL-L)",
+      "T-cell Prolymphocytic Leukemia (T-PLL)",
+      "Solid Tumors"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 56,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Safety, PK, PD, Clinical Activity of KT-333 in Adult Patients With Refractory Lymphoma, Large Granular Lymphocytic Leukemia, Solid Tumors",
+     "nctId": "NCT05225584",
+     "officialTitle": "A Phase 1, Multicenter, Open-Label, Dose-Escalation and Expansion Study to Evaluate Safety, Tolerability, Pharmacokinetics, Pharmacodynamics, and Clinical Activity of Intravenously Administered KT-333 in Adult Patients With Relapsed or Refractory Lymphomas, Large Granular Lymphocytic Leukemia, and Solid Tumors",
+     "orgStudyIdInfo": {
+      "id": "KT333-TL-101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Kymera Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Kymera Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2025-03-03",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-03-19",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-03-14",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2025-03-03",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2022-05-19",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-03",
+     "studyFirstPostDateStruct": {
+      "date": "2022-02-04",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2021-12-16",
+     "studyFirstSubmitQcDate": "2022-01-26"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: KT-413"
+       ],
+       "label": "Phase 1a Dose Escalation",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "KT-413 given at the RP2D identified in Phase 1a Dose Escalation in patients with MYD88 mutant DLBCL.",
+       "interventionNames": [
+        "Drug: KT-413"
+       ],
+       "label": "Phase 1b Dose Expansion MYD88MT",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "KT-413 given at the RP2D identified in Phase 1a Dose Escalation in patients with MYD88 wild type DLBCL.",
+       "interventionNames": [
+        "Drug: KT-413"
+       ],
+       "label": "Phase 1b Dose Expansion MYD88WT",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Phase 1a Dose Escalation",
+        "Phase 1b Dose Expansion MYD88MT",
+        "Phase 1b Dose Expansion MYD88WT"
+       ],
+       "description": "KT-413 will be supplied as 10mg/mL concentration frozen solution to be administered intravenously per the protocol defined dose level.",
+       "name": "KT-413",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Non Hodgkin Lymphoma",
+      "Diffuse Large B Cell Lymphoma",
+      "DLBCL",
+      "MYD88 Gene Mutation"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 7,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Safety, PK/PD, and Clinical Activity of KT-413 in Adult Patients with Relapsed or Refractory B-cell NHL",
+     "nctId": "NCT05233033",
+     "officialTitle": "A Phase 1, Multicenter, Open-Label, Dose Escalation and Expansion Study to Evaluate the Safety, Tolerability, PK/PD, and Clinical Activity of Intravenously Administered KT-413 in Adult Patients with Relapsed or Refractory B-cell NHL",
+     "orgStudyIdInfo": {
+      "id": "KT413-DL-101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Kymera Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Kymera Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2023-07-28",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2024-12-10",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2024-12-05",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2023-07-28",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2022-06-13",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2024-12",
+     "studyFirstPostDateStruct": {
+      "date": "2022-02-10",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2022-01-18",
+     "studyFirstSubmitQcDate": "2022-01-31"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "KT-253 dosed intravenous (IV) once every three weeks in 21-day cycles",
+       "interventionNames": [
+        "Drug: KT-253"
+       ],
+       "label": "Phase 1 Dose Escalation Arm A in patients with R/R Solid Tumors and Lymphomas",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "KT-253 dosed IV once every three weeks in 21-day cycles",
+       "interventionNames": [
+        "Drug: KT-253"
+       ],
+       "label": "Phase 1 Dose Escalation Arm B in patients with R/R High Grade Myeloid Malignancies and ALL",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Phase 1 Dose Escalation Arm A in patients with R/R Solid Tumors and Lymphomas",
+        "Phase 1 Dose Escalation Arm B in patients with R/R High Grade Myeloid Malignancies and ALL"
+       ],
+       "description": "KT-253 will be administered intravenously per the defined protocol frequency and dose level.",
+       "name": "KT-253",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Myeloid Malignancies",
+      "Acute Lymphocytic Leukemia",
+      "Lymphomas",
+      "Advanced Solid Tumors"
+     ],
+     "keywords": [
+      "KT-253",
+      "MDM2",
+      "High Grade MDS/MPN",
+      "ALL",
+      "AML",
+      "Lymphoma",
+      "Solid tumor"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 52,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Safety and Clinical Activity of KT-253 in Adult Patients with High Grade Myeloid Malignancies, Acute Lymphocytic Leukemia, Lymphoma, Solid Tumors",
+     "nctId": "NCT05775406",
+     "officialTitle": "A Phase 1, Multicenter, Open-Label, Dose-Escalation Study to Evaluate the Safety, Tolerability, Pharmacokinetics, Pharmacodynamics, and Clinical Activity of Intravenously Administered KT-253 in Adult Patients with High Grade Myeloid Malignancies and Acute Lymphocytic Leukemia, Lymphoma, and Advanced Solid Tumors",
+     "orgStudyIdInfo": {
+      "id": "KT253-AL-101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Kymera Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Kymera Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2024-12-18",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-01-27",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-01-22",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2024-12-18",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2023-05-15",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-01",
+     "studyFirstPostDateStruct": {
+      "date": "2023-03-20",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2023-02-10",
+     "studyFirstSubmitQcDate": "2023-03-16"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Each participant receives either a single oral dose (SAD) or multiple oral doses (MAD) of KT-621.",
+       "interventionNames": [
+        "Drug: KT-621"
+       ],
+       "label": "KT-621",
+       "type": "ACTIVE_COMPARATOR"
+      },
+      {
+       "description": "Each participant receives either a single oral dose (SAD) or multiple oral doses (MAD) of matched placebo.",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "KT-621"
+       ],
+       "description": "Oral drug",
+       "name": "KT-621",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Oral drug",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Healthy Participants Study"
+     ],
+     "keywords": [
+      "Phase 1",
+      "STAT6",
+      "STAT6 degrader",
+      "targeted protein degrader"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "maskingDescription": "The Sponsor is also masked to treatment allocation.",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "OTHER"
+     },
+     "enrollmentInfo": {
+      "count": 118,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "First-in-human Study of Orally Administered KT-621 in Healthy Adult Participants",
+     "nctId": "NCT06673667",
+     "officialTitle": "A Phase 1, Randomized, Placebo-Controlled, First-in-Human, Single and Multiple Ascending Dose Study Designed to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of Orally Administered KT-621 in Healthy Adult Participants",
+     "orgStudyIdInfo": {
+      "id": "KT621-HV-101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Kymera Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Kymera Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2025-04-23",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-10-02",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-09-29",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2025-04-23",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2024-10-22",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-09",
+     "studyFirstPostDateStruct": {
+      "date": "2024-11-05",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2024-10-23",
+     "studyFirstSubmitQcDate": "2024-11-01"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Each participant receives daily oral doses of KT-621 throughout the 28-day treatment period.",
+       "interventionNames": [
+        "Drug: KT-621"
+       ],
+       "label": "KT-621",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "KT-621"
+       ],
+       "description": "Oral drug",
+       "name": "KT-621",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Atopic Dermatitis"
+     ],
+     "keywords": [
+      "KT621",
+      "STAT6",
+      "STAT6 degrader",
+      "Targeted protein degrader",
+      "Phase 1"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 22,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "BroADen",
+     "briefTitle": "Safety, PK, PD, and Clinical Activity of Orally Administered KT-621 in Adult Patients With Atopic Dermatitis (AD)",
+     "nctId": "NCT06945458",
+     "officialTitle": "A Phase 1b Open-label, Multicenter, Single-arm Study to Evaluate the Safety, Tolerability, Pharmacokinetics, Pharmacodynamics, and Clinical Activity of Orally Administered KT-621 in Adult Participants With Moderate to Severe Atopic Dermatitis",
+     "orgStudyIdInfo": {
+      "id": "KT621-AD-102"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Kymera Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Kymera Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2025-11-10",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-01-26",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-01-22",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2025-11-10",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2025-04-17",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-01",
+     "studyFirstPostDateStruct": {
+      "date": "2025-04-25",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-04-09",
+     "studyFirstSubmitQcDate": "2025-04-17"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: KT-621"
+       ],
+       "label": "Group 1: KT-621 Dose 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: KT-621"
+       ],
+       "label": "Group 2: KT-621 Dose 2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: KT-621"
+       ],
+       "label": "Group 3: KT-621 Dose 3",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Other: Placebo"
+       ],
+       "label": "Group 4: Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Group 1: KT-621 Dose 1",
+        "Group 2: KT-621 Dose 2",
+        "Group 3: KT-621 Dose 3"
+       ],
+       "description": "Oral drug",
+       "name": "KT-621",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Group 4: Placebo"
+       ],
+       "description": "Oral placebo matched to KT-621",
+       "name": "Placebo",
+       "type": "OTHER"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Atopic Dermatitis"
+     ],
+     "keywords": [
+      "STAT6",
+      "stat6 degrader",
+      "targeted protein degrader",
+      "Phase 2",
+      "Phase 2b",
+      "kt-621"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "TRIPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 200,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "BROADEN2",
+     "briefTitle": "A Study of KT-621 Administered Orally to Participants With Moderate to Severe Atopic Dermatitis",
+     "nctId": "NCT07217015",
+     "officialTitle": "A Phase 2b, Randomized, Double-blind, Placebo-controlled, Parallel-group, Multicenter, Dose-ranging Study With an Open-label Period Investigating the Efficacy and Safety Profile of KT-621 Administered Orally to Participants With Moderate to Severe Atopic Dermatitis",
+     "orgStudyIdInfo": {
+      "id": "KT621-AD-201"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Kymera Therapeutics, Inc."
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "2025-522370-36-00",
+       "type": "CTIS"
+      },
+      {
+       "id": "2025",
+       "link": "https://reporter.nih.gov/quickSearch/2025",
+       "type": "NIH"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Kymera Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2028-06",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-06",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-02",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-06",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2025-11-24",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-01",
+     "studyFirstPostDateStruct": {
+      "date": "2025-10-15",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-10-13",
+     "studyFirstSubmitQcDate": "2025-10-13"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: KT-621"
+       ],
+       "label": "Group 1: KT-621 Dose 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: KT-621"
+       ],
+       "label": "Group 2: KT-621 Dose 2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: KT-621"
+       ],
+       "label": "Group 3: KT-621 Dose 3",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Other: Placebo"
+       ],
+       "label": "Group 4: Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Group 1: KT-621 Dose 1",
+        "Group 2: KT-621 Dose 2",
+        "Group 3: KT-621 Dose 3"
+       ],
+       "description": "Oral drug",
+       "name": "KT-621",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Group 4: Placebo"
+       ],
+       "description": "Oral placebo matched to KT-621",
+       "name": "Placebo",
+       "type": "OTHER"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Eosinophilic Asthma"
+     ],
+     "keywords": [
+      "kt-621",
+      "stat6 degrader",
+      "stat6",
+      "targeted protein degrader",
+      "Phase 2",
+      "phase 2b"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "TRIPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 264,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "BREADTH",
+     "briefTitle": "A Study of KT-621 Administered Orally to Adult Participants With Moderate to Severe Eosinophilic Asthma",
+     "nctId": "NCT07323654",
+     "officialTitle": "A Phase 2b, Randomized, Double-blind, Placebo-controlled, Parallel-group, Multicenter, Dose-ranging Study Investigating the Efficacy and Safety Profile of KT-621 Administered Orally to Adult Participants With Uncontrolled Moderate to Severe Eosinophilic Asthma",
+     "orgStudyIdInfo": {
+      "id": "KT621-AS-202"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Kymera Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Kymera Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2027-12",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-06",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-02",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-12",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2026-01-28",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-01",
+     "studyFirstPostDateStruct": {
+      "date": "2026-01-07",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2026-01-06",
+     "studyFirstSubmitQcDate": "2026-01-06"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Each participant receives either a single oral dose (SAD) or multiple oral doses (MAD) of KT-579.",
+       "interventionNames": [
+        "Drug: KT-579"
+       ],
+       "label": "KT-579",
+       "type": "ACTIVE_COMPARATOR"
+      },
+      {
+       "description": "Each participant receives either a single oral dose (SAD) or multiple oral doses (MAD) of matched placebo.",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "KT-579"
+       ],
+       "description": "Oral drug",
+       "name": "KT-579",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Oral drug",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Healthy Participants"
+     ],
+     "keywords": [
+      "Phase 1",
+      "IRF5",
+      "IRF5 degrader",
+      "targeted protein degrader"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "maskingDescription": "The Sponsor is also masked to treatment allocation.",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "OTHER"
+     },
+     "enrollmentInfo": {
+      "count": 96,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "First-in-human Study of Orally Administered KT-579 in Healthy Adult Participants",
+     "nctId": "NCT07412288",
+     "officialTitle": "A Phase 1, Randomized, Placebo-Controlled, First-in-Human, Single and Multiple Ascending Dose Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of Orally Administered KT-579 in Healthy Adult Participants",
+     "orgStudyIdInfo": {
+      "id": "KT579-HV-101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Kymera Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Kymera Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2026-12",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-02-27",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-02-26",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2026-12",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2026-02-23",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-02",
+     "studyFirstPostDateStruct": {
+      "date": "2026-02-17",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2026-02-09",
+     "studyFirstSubmitQcDate": "2026-02-09"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: KT-621"
+       ],
+       "label": "KT-621",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "KT-621"
+       ],
+       "description": "Oral drug",
+       "name": "KT-621",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Asthma (Diagnosis)"
+     ],
+     "keywords": [
+      "KT-621",
+      "STAT6",
+      "stat6 degrader",
+      "targeted protein degrader",
+      "Phase 2",
+      "phase 2b",
+      "OLE",
+      "LTE"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 264,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "BREADTH-EXT",
+     "briefTitle": "A Long-term Study of KT-621 Administered Orally to Participants With Asthma Previously Enrolled in a KT-621 Asthma Study",
+     "nctId": "NCT07677059",
+     "officialTitle": "A Multicenter, Open-Label, Long-Term Extension Study to Evaluate the Long-Term Safety and Tolerability of KT-621 in Participants With Asthma Previously Enrolled in a KT-621 Asthma Study",
+     "orgStudyIdInfo": {
+      "id": "KT621-AS-203"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Kymera Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Kymera Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2028-12",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-07",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-02",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2028-12",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2026-06-25",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-06",
+     "studyFirstPostDateStruct": {
+      "date": "2026-06-30",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2026-06-24",
+     "studyFirstSubmitQcDate": "2026-06-24"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants will receive KT-621 in different oral formulations in a one-way crossover design.",
+       "interventionNames": [
+        "Drug: KT-621"
+       ],
+       "label": "Part A: KT-621 Test Formulation #1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants will receive KT-621 in different oral formulations in a one-way crossover design.",
+       "interventionNames": [
+        "Drug: KT-621"
+       ],
+       "label": "Part B: KT-621 Test Formulation #2",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Part A: KT-621 Test Formulation #1",
+        "Part B: KT-621 Test Formulation #2"
+       ],
+       "description": "KT-621 Reference Oral Formulation",
+       "name": "KT-621",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Part A: KT-621 Test Formulation #1"
+       ],
+       "description": "KT-621 Test Oral Formulation #1",
+       "name": "KT-621",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Part B: KT-621 Test Formulation #2"
+       ],
+       "description": "KT-621 Test Oral Formulation #2",
+       "name": "KT-621",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Healthy Participants"
+     ],
+     "keywords": [
+      "STAT6",
+      "STAT6 degrader",
+      "targeted protein degrader"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "CROSSOVER",
+      "interventionModelDescription": "Parts A and B use an open-label, one-way crossover design in which participants receive KT-621 interventions in a fixed sequence across multiple treatment periods.",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "OTHER"
+     },
+     "enrollmentInfo": {
+      "count": 54,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Study to Evaluate Different Oral Formulations of KT-621",
+     "nctId": "NCT07823205",
+     "officialTitle": "A Phase 1, Open-Label, Crossover Study to Evaluate the Relative Bioavailability of Different Oral Formulations of KT-621 in Healthy Adult Participants",
+     "orgStudyIdInfo": {
+      "id": "KT621-HV-105"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Kymera Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Kymera Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2027-05",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-09-16",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-09-11",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-04",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2026-10",
+      "type": "ESTIMATED"
+     },
+     "statusVerifiedDate": "2026-09",
+     "studyFirstPostDateStruct": {
+      "date": "2026-09-16",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2026-09-11",
+     "studyFirstSubmitQcDate": "2026-09-11"
+    }
+   }
+  }
+ ]
+}

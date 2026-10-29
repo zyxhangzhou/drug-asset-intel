@@ -1,0 +1,85 @@
+{
+ "nctId": "NCT00272792",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciPctValue": "95",
+     "groupDescription": "Compared Week 10 to Baseline.",
+     "groupIds": [
+      "OG000"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+     "pValue": "<0.001",
+     "statisticalMethod": "t-test, 1 sided",
+     "testedNonInferiority": false
+    },
+    {
+     "ciPctValue": "95",
+     "groupDescription": "Compared Week 10 to Baseline.",
+     "groupIds": [
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+     "pValue": "0.027",
+     "statisticalMethod": "t-test, 1 sided",
+     "testedNonInferiority": false
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "15.4",
+         "value": "20.9"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "4.0",
+         "value": "2.9"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "33"
+      },
+      {
+       "groupId": "OG001",
+       "value": "12"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Phenoptin, provided in tablets containing 100 mg of sapropterin dihydrochloride each, was administered orally once daily in the morning as the number of tablets equivalent to a 20mg/kg/day dose dissolved in 4-8 oz (120-240 mL) of water or apple juice for 6 weeks. A follow-up call or visit was made 4 weeks later during this double-blind, placebo-controlled study.",
+     "id": "OG000",
+     "title": "Sapropterin Dihydrochloride"
+    },
+    {
+     "description": "Placebo, provided as tablets similar to Phenoptin tablets, was administered orally once daily in the morning as the number of tablets equivalent to a 20mg/kg/day dose dissolved in 4 8 oz (120-240 mL) of water or apple juice. for 6 weeks. A follow-up call or visit was made 4 weeks later during this double-blind, placebo-controlled study.",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "MEAN",
+   "reportingStatus": "POSTED",
+   "timeFrame": "at Week 10",
+   "title": "Amount of Dietary Supplemented Phenylalanine (Phe)Tolerated in Children With Phenylketonuria",
+   "type": "PRIMARY",
+   "unitOfMeasure": "mg/kg/day"
+  }
+ ]
+}

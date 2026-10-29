@@ -1,0 +1,77 @@
+{
+ "nctId": "NCT04439071",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "groupDescription": "Time to respiratory improvement was compared between treatment groups using stratified log-rank test.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "OTHER",
+     "pValue": "0.949",
+     "statisticalMethod": "Log Rank"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "6.0",
+         "upperLimit": "15.0",
+         "value": "10.0"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "8.0",
+         "upperLimit": "13.0",
+         "value": "10.0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "73"
+      },
+      {
+       "groupId": "OG001",
+       "value": "76"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Respiratory improvement was defined as sustained peripheral oxygen saturation (SpO2) ≥94% on room air. Median time to respiratory improvement was estimated via the Kaplan-Meier product limit method.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants received PTC299 at 200 mg, administered orally, BID on Days 1 to 7, then at 50 mg administered orally, QD on Days 8 to 14.",
+     "id": "OG000",
+     "title": "PTC299"
+    },
+    {
+     "description": "Participants received PTC299-matching placebo administered orally, BID on Days 1 to 7, then administered orally, QD on Days 8 to 14.",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "Intent-to-treat (ITT) population included all randomized participants. Here, 'Overall number of participants analyzed' = participants evaluable for this outcome measure.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "up to Day 28",
+   "title": "Time From Randomization to Respiratory Improvement",
+   "type": "PRIMARY",
+   "unitOfMeasure": "days"
+  }
+ ]
+}

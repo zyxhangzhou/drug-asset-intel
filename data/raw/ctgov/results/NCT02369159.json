@@ -1,0 +1,146 @@
+{
+ "nctId": "NCT02369159",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "22"
+        },
+        {
+         "groupId": "OG001",
+         "value": "5"
+        }
+       ]
+      }
+     ],
+     "title": "Adverse Event"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "2"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Severe or life-threatening Adverse Event"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "8"
+        },
+        {
+         "groupId": "OG001",
+         "value": "4"
+        }
+       ]
+      }
+     ],
+     "title": "Adverse Event possibly, probably, or definitely related to study drug"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Serious Adverse Events"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "1"
+        }
+       ]
+      }
+     ],
+     "title": "Adverse Event leading to discontinuation from study"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Adverse Event leading to Death"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "107"
+      },
+      {
+       "groupId": "OG001",
+       "value": "23"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Safety evaluation included assessment of Adverse Events (AEs).",
+   "groups": [
+    {
+     "description": "Age-appropriate single dose Peramivir, administered as a single short iv infusion:\n\nSubjects ≥12 years - 600 mg. Subjects \\<12 years - 12 mg/kg (max. 600 mg). Subjects \\< 6 months - 8 mg/kg.",
+     "id": "OG000",
+     "title": "Peramivir"
+    },
+    {
+     "description": "Age appropriate oral dose of Oseltamivir BID for 5 days:\n\nSubjects ≥ 13 years - 75mg dose as a capsule or oral suspension. Subjects \\< 13 years - weight-based dose as a capsule or oral suspension.",
+     "id": "OG001",
+     "title": "Oseltamivir"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "The Safety population included all randomized subjects who received ≥ 1 partial dose of peramivir or oseltamivir.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "14 days",
+   "title": "Safety and Tolerability, as Measured by the Number of Participants Experiencing Adverse Events.",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

@@ -1,0 +1,149 @@
+{
+ "nctId": "NCT01500200",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "groupDescription": "Analysis was conducted for each stage separately and overall efficacy was based on combined stage analysis where stage-specific estimates were combined using pre-specified weights (0.6/0.4 for Stage 1/Stage 2). Within each stage ALKS 5461 2mg/2mg was compared to placebo (i.e., ALKS 5461 2mg/2mg S1 vs Placebo S1; and ALKS 5461 2mg/2mg S2 vs Placebo S2.",
+     "groupIds": [
+      "OG000",
+      "OG001",
+      "OG003",
+      "OG004"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.014",
+     "pValueComment": "Hypothesis tests were two-sided with an alpha of 0.5.",
+     "statisticalComment": "ALKS 5461 was compared to PBO using stage-specific MMRM for change from Baseline. Model-derived estimates were combined using pre-specified weights.",
+     "statisticalMethod": "Mixed Models Analysis"
+    },
+    {
+     "groupDescription": "Analysis was conducted for each stage separately and overall efficacy was based on combined stage analysis where stage-specific estimates were combined using pre-specified weights (0.6/0.4 for Stage 1/Stage 2). Within each stage ALKS 5461 8mg/8mg was compared to placebo (i.e., ALKS 5461 8mg/8mg S1 vs Placebo S1; and ALKS 5461 8mg/8mg S2 vs Placebo S2.",
+     "groupIds": [
+      "OG000",
+      "OG002",
+      "OG003",
+      "OG005"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.699",
+     "pValueComment": "Hypothesis tests were two-sided with an alpha of 0.05.",
+     "statisticalComment": "ALKS 5461 was compared to PBO using stage-specific MMRM for change from Baseline. Model-derived estimates were combined using pre-specified weights.",
+     "statisticalMethod": "Mixed Models Analysis"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.6",
+         "value": "-7.1"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "1.5",
+         "value": "-9.3"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "1.6",
+         "value": "-6.6"
+        },
+        {
+         "groupId": "OG003",
+         "spread": "1.1",
+         "value": "-1.5"
+        },
+        {
+         "groupId": "OG004",
+         "spread": "1.2",
+         "value": "-5.2"
+        },
+        {
+         "groupId": "OG005",
+         "spread": "1.1",
+         "value": "-3.3"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "95"
+      },
+      {
+       "groupId": "OG001",
+       "value": "20"
+      },
+      {
+       "groupId": "OG002",
+       "value": "20"
+      },
+      {
+       "groupId": "OG003",
+       "value": "20"
+      },
+      {
+       "groupId": "OG004",
+       "value": "23"
+      },
+      {
+       "groupId": "OG005",
+       "value": "22"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The HAM-D17 scale is a clinician-administered questionnaire comprised of 17 items used to measure the severity of MDD symptoms. Scores range from 0 (no apparent symptoms) to 50 (most severe symptoms). Individual questionnaire items include depressed mood, work and activities, insomnia (early), insomnia (middle), insomnia (late), genital symptoms, somatic symptoms (gastrointestinal), loss of weight, somatic symptoms (general), feelings of guilt, suicide, anxiety (psychic), anxiety (somatic), hypochondriasis, insight, agitation, and retardation.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Subjects randomized to placebo in Stage 1",
+     "id": "OG000",
+     "title": "Placebo S1"
+    },
+    {
+     "description": "Subjects randomized to ALKS 5461 2mg/2mg in Stage 1",
+     "id": "OG001",
+     "title": "ALKS 5461 2mg/2mg S1"
+    },
+    {
+     "description": "Subjects randomized to ALKS 5461 8mg/8mg in Stage 1",
+     "id": "OG002",
+     "title": "ALKS 5461 8mg/8mg S1"
+    },
+    {
+     "description": "Subjects randomized to placebo in Stage 2",
+     "id": "OG003",
+     "title": "Placebo S2"
+    },
+    {
+     "description": "Subjects randomized to ALKS 5461 2mg/2mg in Stage 2",
+     "id": "OG004",
+     "title": "ALKS 5461 2mg/2mg S2"
+    },
+    {
+     "description": "Subjects randomized to ALKS 5461 8mg/8mg in Stage 2",
+     "id": "OG005",
+     "title": "ALKS 5461 8mg/8mg S2"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Stage 1 and Stage 2 Full Analysis Sets (FAS) consisted of subjects who were randomized and took at least 1 dose of study drug and had at least 1 postbaseline HAM-D17 assessment in the respective stage. Two subjects randomized to 8/8 in Stage 1 received 2/2. These subjects are included in the 8/8 group for efficacy analysis.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline and 4 weeks for each stage",
+   "title": "Change From Baseline to Week 4 in Hamilton Rating Scale for Depression (HAM-D17) Total Score",
+   "type": "PRIMARY",
+   "unitOfMeasure": "score on a scale"
+  }
+ ]
+}

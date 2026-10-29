@@ -1,0 +1,178 @@
+{
+ "nctId": "NCT02527265",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "5.77",
+         "value": "28.5"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "31.4",
+         "value": "102"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "2"
+        },
+        {
+         "groupId": "OG001",
+         "value": "4"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "4 unit cartridge"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "42.1",
+         "value": "101"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "91.0",
+         "value": "133"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "6"
+        },
+        {
+         "groupId": "OG001",
+         "value": "8"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "8 unit cartridge"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "118",
+         "value": "201"
+        },
+        {
+         "comment": "n=1",
+         "groupId": "OG001",
+         "spread": "NA",
+         "value": "251"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "6"
+        },
+        {
+         "groupId": "OG001",
+         "value": "1"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "12 unit cartridge"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "comment": "n=1",
+         "groupId": "OG000",
+         "spread": "NA",
+         "value": "105"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "1"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "16 unit cartridge"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "15"
+      },
+      {
+       "groupId": "OG001",
+       "value": "13"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Insulin Cmax after a dose of Afrezza",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Individualized dose of Afrezza (Technosphere Insulin) for each patient at each meal (breakfast, lunch, and dinner) for 30 days.\n\nDuring the trial, all patients will receive multiple injections of basal long acting insulin, in general at bedtime every day.\n\nAfrezza: Pharmaceutical form: powder\n\nRoute of administration: inhalation",
+     "id": "OG000",
+     "title": "Afrezza Cohort 1 (Ages 13-17)"
+    },
+    {
+     "description": "Individualized dose of Afrezza (Technosphere Insulin) for each patient at each meal (breakfast, lunch, and dinner) for 30 days.\n\nDuring the trial, all patients will receive multiple injections of basal long acting insulin, in general at bedtime every day.\n\nAfrezza: Pharmaceutical form: powder\n\nRoute of administration: inhalation",
+     "id": "OG001",
+     "title": "Afrezza Cohort 2 (Ages 8-12)"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "All subjects without any major deviations related to study drug administration, and for whom any PK parameters are available, will be included in the PK population.\n\nSubjects who sneeze or cough right after AFREZZA inhalation for PK profiling will be considered as important deviations related to IMP and will be excluded for PK analysis.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "250 minutes post-dose",
+   "title": "Insulin Maximum Observed Concentration (Cmax)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "μU/mL"
+  }
+ ]
+}

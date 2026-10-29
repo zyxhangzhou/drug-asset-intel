@@ -1,0 +1,1359 @@
+{
+ "aliases": [
+  "Sagimet Biosciences"
+ ],
+ "studies": [
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Oral TVB-2640 capsules or tablets of various dose strengths administered QD for 21 - 28 day dosing cycles, alone or in combination with certain standard chemotherapy agents",
+       "interventionNames": [
+        "Drug: TVB-2640"
+       ],
+       "label": "TVB-2640",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "TVB-2640"
+       ],
+       "name": "TVB-2640",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Solid Malignant Tumor"
+     ],
+     "keywords": [
+      "solid tumors",
+      "cancer"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 180,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Phase 1, First-In-Human Study of Escalating Doses of Oral TVB-2640 in Patients With Solid Tumors",
+     "nctId": "NCT02223247",
+     "officialTitle": "A Phase 1, First-In-Human Study of Escalating Doses of Oral TVB-2640 in Patients With Solid Tumors",
+     "orgStudyIdInfo": {
+      "id": "3V2640-CLIN-002"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Sagimet Biosciences Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Sagimet Biosciences Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2017-06",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2017-08-14",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2017-08-11",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2017-06",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2013-11"
+     },
+     "statusVerifiedDate": "2017-08",
+     "studyFirstPostDateStruct": {
+      "date": "2014-08-22",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2014-08-18",
+     "studyFirstSubmitQcDate": "2014-08-21"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Subjects randomly assigned to receive the study drug will take TVB-2640 tablet orally every day for 12 week treatment period. The dose is to be taken at the same time of the day, with each dose separated by 24 hours (±4 hours).",
+       "interventionNames": [
+        "Drug: TVB-2640 25 mg (US)"
+       ],
+       "label": "TVB-2640 25 mg (US)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Subjects randomly assigned to receive the study drug will take TVB-2640 tablet orally every day for 12 week treatment period. The dose is to be taken at the same time of the day, with each dose separated by 24 hours (±4 hours).",
+       "interventionNames": [
+        "Drug: TVB-2640 50 mg (US)"
+       ],
+       "label": "TVB-2640 50 mg (US)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Subjects randomly assigned to placebo will receive placebo tablets orally once a day under the same conditions and frequency as described for TVB-2640.",
+       "interventionNames": [
+        "Drug: Placebo (US)"
+       ],
+       "label": "Placebo (US)",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "description": "Subjects randomly assigned to receive the study drug will take TVB-2640 tablet orally every day for 12 week treatment period. The dose is to be taken at the same time of the day, with each dose separated by 24 hours (±4 hours).",
+       "interventionNames": [
+        "Drug: TVB-2640 50 mg (China)"
+       ],
+       "label": "TVB-2640 50 mg (China)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Subjects randomly assigned to placebo will receive placebo tablets orally once a day under the same conditions and frequency as described for TVB-2640.",
+       "interventionNames": [
+        "Drug: Placebo (China)"
+       ],
+       "label": "Placebo (China)",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "description": "After completion of Cohorts 1 and 2, and if no stopping criteria are met upon review by the Independent SRC, an additional TVB-2640 75 mg open-label Cohort 3 will open in the US",
+       "interventionNames": [
+        "Drug: TVB-2640 75 mg (US)"
+       ],
+       "label": "TVB-2640 75 mg (US)",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "TVB-2640 25 mg (US)"
+       ],
+       "description": "Oral dose, tablet, daily dosing",
+       "name": "TVB-2640 25 mg (US)",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "TVB-2640 50 mg (US)"
+       ],
+       "description": "Oral dose, tablet, daily dosing",
+       "name": "TVB-2640 50 mg (US)",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo (US)"
+       ],
+       "description": "Oral dose, tablet, daily dosing",
+       "name": "Placebo (US)",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "TVB-2640 50 mg (China)"
+       ],
+       "description": "Oral dose, tablet, daily dosing",
+       "name": "TVB-2640 50 mg (China)",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo (China)"
+       ],
+       "description": "Oral dose, tablet, daily dosing",
+       "name": "Placebo (China)",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "TVB-2640 75 mg (US)"
+       ],
+       "description": "Oral dose, tablet, daily dosing",
+       "name": "TVB-2640 75 mg (US)",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "MASLD/MASH (Metabolic Dysfunction-Associated Steatotic Liver Disease / Metabolic Dysfunction-Associated Steatohepatitis)"
+     ],
+     "keywords": [
+      "NASH",
+      "Non-Alcoholic Steatohepatitis",
+      "Fatty Liver Disease",
+      "Fatty Liver",
+      "Liver Diseases",
+      "FASN",
+      "Fatty Acid Synthase Inhibitor"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "interventionModelDescription": "Subjects will be randomly assigned to experimental or placebo arms.",
+      "maskingInfo": {
+       "masking": "SINGLE",
+       "whoMasked": [
+        "PARTICIPANT"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 142,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Study of TVB-2640 in Subjects With Non-Alcoholic Steatohepatitis (NASH)",
+     "nctId": "NCT03938246",
+     "officialTitle": "A Phase 2, Multi-Center, Single-Blind, Randomized, Placebo-Controlled Study of TVB-2640 in Subjects With Non-Alcoholic Steatohepatitis (FASCINATE-1)",
+     "orgStudyIdInfo": {
+      "id": "3V2640-CLIN-005"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Sagimet Biosciences Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Sagimet Biosciences Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2021-10-02",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2024-12-19",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2024-12-17",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2021-10-02",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2024-12-19",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2024-11-21",
+     "resultsFirstSubmitQcDate": "2024-12-17",
+     "startDateStruct": {
+      "date": "2019-03-22",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2024-12",
+     "studyFirstPostDateStruct": {
+      "date": "2019-05-06",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2019-04-24",
+     "studyFirstSubmitQcDate": "2019-05-02"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Subjects will receive TVB-2640 PO QD for 52 weeks, with the first dose administered on Day 1.",
+       "interventionNames": [
+        "Drug: TVB-2640"
+       ],
+       "label": "TVB-2640 50 mg",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Subjects will receive matching placebo PO QD for 52 weeks, with the first dose administered on Day 1.",
+       "interventionNames": [
+        "Other: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "TVB-2640 50 mg"
+       ],
+       "description": "Oral dose, tablet",
+       "name": "TVB-2640",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Oral dose, tablet",
+       "name": "Placebo",
+       "type": "OTHER"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Metabolic Dysfunction-assocated Steatohepatitis/ Nonalcoholic Fatty Liver Disease"
+     ],
+     "keywords": [
+      "NASH",
+      "Nonalcoholic Steatohepatitis",
+      "Fatty Liver Disease",
+      "Biopsy Confirmed",
+      "FASN",
+      "Fatty Liver",
+      "Liver Disease",
+      "Digestive System Diseases",
+      "MASH",
+      "Metabolic dysfunction-associated steatohepatitis"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "interventionModelDescription": "Subjects with liver fibrosis stage F2-F3, will be enrolled and randomized in a 2:1 ratio to receive TVB-2640, or placebo PO QD",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 168,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Study of TVB-2640 in Subjects With Nonalcoholic Steatohepatitis (NASH)",
+     "nctId": "NCT04906421",
+     "officialTitle": "A Phase 2B, Multi-Center, Double-Blind, Randomized, Placebo-Controlled Study of the Safety and Efficacy of TVB-2640 in Subjects With Nonalcoholic Steatohepatitis (FASCINATE-2)",
+     "orgStudyIdInfo": {
+      "id": "SB2640-CLIN-007"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Sagimet Biosciences Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Sagimet Biosciences Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2023-10-02",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-05-09",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-04-28",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2023-10-02",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2025-05-09",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2025-04-28",
+     "resultsFirstSubmitQcDate": "2025-04-28",
+     "startDateStruct": {
+      "date": "2021-08-12",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-04",
+     "studyFirstPostDateStruct": {
+      "date": "2021-05-28",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2021-05-20",
+     "studyFirstSubmitQcDate": "2021-05-24"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Single dose of TVB-2640, 50 mg, oral administration",
+       "interventionNames": [
+        "Drug: [14C]-TVB-2640"
+       ],
+       "label": "Treatment Arm 1",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Treatment Arm 1"
+       ],
+       "description": "50 mg of TVB-2640 oral administration",
+       "name": "[14C]-TVB-2640",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Healthy Volunteers"
+     ],
+     "keywords": [
+      "Absorption",
+      "Metabolism",
+      "Excretion",
+      "Radiolabeled Dose",
+      "Mass Balance [14C]"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "OTHER"
+     },
+     "enrollmentInfo": {
+      "count": 8,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Open-label Study of the Absorption, Metabolism, and Excretion of [14C]TVB-2640 Following a Single Oral Dose in Healthy Male Subjects",
+     "nctId": "NCT05657834",
+     "officialTitle": "A Phase I, Open-label Study of the Absorption, Metabolism, and Excretion of [14C]-TVB-2640 Following a Single Oral Dose in Healthy Male Subjects",
+     "orgStudyIdInfo": {
+      "id": "SB2640-CLIN-008"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Sagimet Biosciences Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Sagimet Biosciences Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2022-12-21",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2022-12-28",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2022-12-23",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2022-12-21",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2022-11-21",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2022-12",
+     "studyFirstPostDateStruct": {
+      "date": "2022-12-20",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2022-12-12",
+     "studyFirstSubmitQcDate": "2022-12-12"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Healthy subjects with normal hepatic function receive 50 mg PO daily from Day 1 to Day 4",
+       "interventionNames": [
+        "Drug: TVB-2640 - 50 mg"
+       ],
+       "label": "TVB-2640 50 mg - normal hepatic function",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Subjects with mild hepatic impairment will receive 50 mg PO daily from Day 1 to Day 4",
+       "interventionNames": [
+        "Drug: TVB-2640 - 50 mg"
+       ],
+       "label": "TVB-2640 50 mg - mild hepatic function",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Subjects with moderate hepatic impairment will receive 50 mg PO daily from Day 1 to Day 4",
+       "interventionNames": [
+        "Drug: TVB-2640 - 50 mg"
+       ],
+       "label": "TVB-2640 50 mg - moderate hepatic function",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Subjects with severe hepatic impairment will receive 50 mg PO daily from Day 1 to Day 4",
+       "interventionNames": [
+        "Drug: TVB-2640 - 50 mg"
+       ],
+       "label": "TVB-2640 50 mg - severe hepatic function",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "TVB-2640 50 mg - mild hepatic function",
+        "TVB-2640 50 mg - moderate hepatic function",
+        "TVB-2640 50 mg - normal hepatic function",
+        "TVB-2640 50 mg - severe hepatic function"
+       ],
+       "description": "TVB-2640 -50 mg administered orally once daily",
+       "name": "TVB-2640 - 50 mg",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Non-alcoholic Steatohepatitis",
+      "Hepatic Impairment",
+      "Cirrhosis"
+     ],
+     "keywords": [
+      "NASH",
+      "Hepatic impairment",
+      "Cirrhosis"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 48,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Phase I Pharmacokinetic Study of TVB-2640 (Denifanstat) in Subjects With Mild, Moderate, or Severe Hepatic Impairment Compared to Subjects With Normal Hepatic Function",
+     "nctId": "NCT05835180",
+     "officialTitle": "A Phase I, Open-label, Pharmacokinetic Study of TVB-2640 in Subjects With Mild, Moderate, or Severe Hepatic Impairment Compared to Subjects With Normal Hepatic Function",
+     "orgStudyIdInfo": {
+      "id": "SB2640-CLIN-009"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Sagimet Biosciences Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Sagimet Biosciences Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2023-12-18",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2023-12-26",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2023-12-22",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2023-12-18",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2023-05-01",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2023-12",
+     "studyFirstPostDateStruct": {
+      "date": "2023-04-28",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2023-04-17",
+     "studyFirstSubmitQcDate": "2023-04-17"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Denifanstat tablet, orally, once daily",
+       "interventionNames": [
+        "Drug: Denifanstat"
+       ],
+       "label": "Denifanstat 50 mg",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Denifanstat tablet, orally, once daily",
+       "interventionNames": [
+        "Drug: Denifanstat"
+       ],
+       "label": "Denifanstat 25 mg",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Placebo tablet, orally, once daily",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Denifanstat 25 mg",
+        "Denifanstat 50 mg"
+       ],
+       "description": "Tablet",
+       "name": "Denifanstat",
+       "otherNames": [
+        "TVB-2640"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Matching Tablet",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "MASH",
+      "NASH",
+      "Metabolic Dysfunction-associated Steatohepatitis",
+      "Noncirrhotic Metabolic Dysfunction-associated Steatohepatitis",
+      "Nonalcoholic Steatohepatitis",
+      "Nonalcoholic Fatty Liver"
+     ],
+     "keywords": [
+      "fibrosis",
+      "fatty liver",
+      "steatohepatitis"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 0,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "FASCINATE-3",
+     "briefTitle": "A Phase 3 Study Evaluating the Safety and Efficacy of Denifanstat in Patients With MASH and F2/F3 Fibrosis",
+     "nctId": "NCT06594523",
+     "officialTitle": "A Phase 3, Randomized, Double-blind, Placebo-controlled Study Evaluating the Safety and Efficacy of Denifanstat in Patients With Noncirrhotic Metabolic Dysfunction-associated Steatohepatitis (MASH) and F2/F3 Fibrosis (FASCINATE-3)",
+     "orgStudyIdInfo": {
+      "id": "SB2640-CLIN-010"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Sagimet Biosciences Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Sagimet Biosciences Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2030-12",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-05-15",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-05-12",
+     "overallStatus": "WITHDRAWN",
+     "primaryCompletionDateStruct": {
+      "date": "2030-12",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2025-03",
+      "type": "ESTIMATED"
+     },
+     "statusVerifiedDate": "2025-05",
+     "studyFirstPostDateStruct": {
+      "date": "2024-09-19",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2024-09-10",
+     "studyFirstSubmitQcDate": "2024-09-10",
+     "whyStopped": "Business decision"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Denifanstat tablet, orally, once daily",
+       "interventionNames": [
+        "Drug: denifanstat"
+       ],
+       "label": "Denifanstat 50 mg",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Placebo tablet, orally, once daily",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Denifanstat 50 mg"
+       ],
+       "description": "Tablet",
+       "name": "denifanstat",
+       "otherNames": [
+        "TVB-2640"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Matching tablet",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "MASLD",
+      "MASH",
+      "NASH",
+      "Metabolic Dysfunction-Associated Steatotic Liver Disease",
+      "Metabolic Dysfunction-Associated Steatohepatitis",
+      "Nonalcoholic Steatohepatitis",
+      "Nonalcoholic Fatty Liver"
+     ],
+     "keywords": [
+      "fatty liver",
+      "steatohepatitis",
+      "steatotic liver"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 0,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "FASCINIT",
+     "briefTitle": "A Phase 3 Study Evaluating the Safety and Efficacy of Denifanstat in Patients With MASLD and MASH",
+     "nctId": "NCT06692283",
+     "officialTitle": "A Phase 3, Randomized, Double-Blind, Placebo-Controlled Study Evaluating the Safety and Efficacy of Denifanstat in Patients With Metabolic Dysfunction-Associated Steatotic Liver Disease (MALSD)/Metabolic Dysfunction-Associated Steatohepatitis (MASH)",
+     "orgStudyIdInfo": {
+      "id": "SB2640-CLIN-011"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Sagimet Biosciences Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Sagimet Biosciences Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2027-06",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-05-15",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-05-12",
+     "overallStatus": "WITHDRAWN",
+     "primaryCompletionDateStruct": {
+      "date": "2026-06",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2025-03",
+      "type": "ESTIMATED"
+     },
+     "statusVerifiedDate": "2025-05",
+     "studyFirstPostDateStruct": {
+      "date": "2024-11-18",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2024-09-10",
+     "studyFirstSubmitQcDate": "2024-11-14",
+     "whyStopped": "Business decision"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: TVB-3567",
+        "Drug: Placebo"
+       ],
+       "label": "Part A (SAD in Healthy Participants)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: TVB-3567"
+       ],
+       "label": "Part B (Food Effect)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: TVB-3567",
+        "Drug: Placebo"
+       ],
+       "label": "Part C (MAD in Healthy Participants)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: TVB-3567",
+        "Drug: Placebo"
+       ],
+       "label": "Part D (MAD in Acne Participants)",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Part A (SAD in Healthy Participants)",
+        "Part B (Food Effect)",
+        "Part C (MAD in Healthy Participants)",
+        "Part D (MAD in Acne Participants)"
+       ],
+       "description": "Orally administered capsule",
+       "name": "TVB-3567",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Part A (SAD in Healthy Participants)",
+        "Part C (MAD in Healthy Participants)",
+        "Part D (MAD in Acne Participants)"
+       ],
+       "description": "Orally administered capsule",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Acne"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "maskingDescription": "Parts A (SAD) and C (MAD in healthy participants) are double-blind and Parts B (food effect) and D (MAD in participants with acne) are open-label",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 152,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Phase 1 Study to Evaluate the Safety, Tolerability, PK, and PD of TVB-3567 in Healthy Participants With or Without Acne",
+     "nctId": "NCT06989840",
+     "officialTitle": "A Phase 1, Randomized, Double-Blind, Placebo-Controlled, Single and Multiple Ascending Dose Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of TVB-3567 in Healthy Participants With or Without Acne and to Assess the Effect of Food in Healthy Participants",
+     "orgStudyIdInfo": {
+      "id": "SB3567-CLIN-001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Sagimet Biosciences Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Sagimet Biosciences Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2027-02",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-21",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-16",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-01",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2025-06-03",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-10",
+     "studyFirstPostDateStruct": {
+      "date": "2025-05-25",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-05-16",
+     "studyFirstSubmitQcDate": "2025-05-16"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Effect of resmetirom on pharmacokinetics of denifanstat",
+       "interventionNames": [
+        "Drug: Denifanstat",
+        "Drug: Resmetirom"
+       ],
+       "label": "Cohort 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Effect of denifanstat on pharmacokinetics of resmetirom",
+       "interventionNames": [
+        "Drug: Denifanstat",
+        "Drug: Resmetirom"
+       ],
+       "label": "Cohort 2",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Cohort 1",
+        "Cohort 2"
+       ],
+       "description": "Once daily",
+       "name": "Denifanstat",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Cohort 1",
+        "Cohort 2"
+       ],
+       "description": "Once daily",
+       "name": "Resmetirom",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Healthy"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "CROSSOVER",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 40,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Drug-Drug Interaction Study of Denifanstat and Resmetirom in Healthy Adult Participants",
+     "nctId": "NCT07216313",
+     "officialTitle": "A Phase 1, Open-Label Study to Evaluate the Mutual Drug-Drug Interaction Potential Between Denifanstat and Resmetirom in Healthy Adult Participants",
+     "orgStudyIdInfo": {
+      "id": "SB2640-CLIN-013"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Sagimet Biosciences Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Sagimet Biosciences Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2025-10-20",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-01-23",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-01-21",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2025-10-20",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2025-09-30",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-01",
+     "studyFirstPostDateStruct": {
+      "date": "2025-10-14",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-10-08",
+     "studyFirstSubmitQcDate": "2025-10-10"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: Denifanstat"
+       ],
+       "label": "Denifanstat",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Other: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Denifanstat"
+       ],
+       "description": "Oral, once daily",
+       "name": "Denifanstat",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Oral, once daily",
+       "name": "Placebo",
+       "type": "OTHER"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Acne Vulgaris"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 800,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Phase 3 Study of Denifanstat in Participants With Moderate to Severe Acne (AURORA)",
+     "nctId": "NCT07863193",
+     "officialTitle": "A Phase 3 Randomized, Double-Blind, Placebo-Controlled, Multicenter, Parallel-Design Trial to Evaluate the Safety and Efficacy of Denifanstat in Participants With Moderate to Severe Acne Vulgaris",
+     "orgStudyIdInfo": {
+      "id": "SB2640-CLIN-017"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Sagimet Biosciences Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Sagimet Biosciences Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2028-04",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-23",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-22",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-08",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2026-10",
+      "type": "ESTIMATED"
+     },
+     "statusVerifiedDate": "2026-10",
+     "studyFirstPostDateStruct": {
+      "date": "2026-10-07",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2026-10-02",
+     "studyFirstSubmitQcDate": "2026-10-02"
+    }
+   }
+  }
+ ]
+}

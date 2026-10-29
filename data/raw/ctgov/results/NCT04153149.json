@@ -1,0 +1,151 @@
+{
+ "nctId": "NCT04153149",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.555",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.929",
+     "groupDescription": "Analysis done using a modified Andersen-Gill model with a robust variance. The model included treatment group, ATTR amyloidosis disease type, New York Heart Association (NYHA) class, age group, and log-transformed baseline N-terminal pro-B-type natriuretic peptide (NT-proBNP) as covariates.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "=0.0118",
+     "paramType": "Hazard Ratio (HR)",
+     "paramValue": "0.718",
+     "statisticalMethod": "Modified Andersen-Gill Model"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "159"
+        },
+        {
+         "groupId": "OG001",
+         "value": "125"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "328"
+      },
+      {
+       "groupId": "OG001",
+       "value": "326"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "All-cause mortality and recurrent CV events (CV hospitalizations and urgent HF visits) were compared between treatment groups using a modified Andersen-Gill model with a robust variance. All-cause mortality included heart transplantation and LVAD placement events along with deaths; recurrent CV events included CV hospitalizations and urgent HF visits. The number of participants with at least one CV event or all-cause mortality event have been reported here. No imputation was done for participants who dropped out early for the primary analysis of this composite outcome endpoint.",
+   "groups": [
+    {
+     "description": "Participants in the DB period received vutrisiran matching placebo, SC injection, q3M for up to 36 months.",
+     "id": "OG000",
+     "title": "DB Period: Placebo"
+    },
+    {
+     "description": "Participants in the DB period received vutrisiran, 25 mg, SC injection, q3M for up to 36 months.",
+     "id": "OG001",
+     "title": "DB Period: Vutrisiran"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "FAS included all participants who were randomized and received any amount of study drug (vutrisiran or placebo).",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to Month 36",
+   "title": "Composite Endpoint of All-Cause Mortality and Recurrent Cardiovascular (CV) Events (CV Hospitalizations and Urgent Heart Failure [HF] Visits) in the Overall Population",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.487",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.929",
+     "groupDescription": "Analysis done using a modified Andersen-Gill model with a robust variance. The model included treatment group, ATTR amyloidosis disease type, NYHA class, age group, and log-transformed baseline NT-proBNP as covariates.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "=0.0162",
+     "paramType": "Hazard Ratio (HR)",
+     "paramValue": "0.672",
+     "statisticalMethod": "Modified Andersen-Gill Model"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "105"
+        },
+        {
+         "groupId": "OG001",
+         "value": "76"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "199"
+      },
+      {
+       "groupId": "OG001",
+       "value": "196"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "All-cause mortality and recurrent CV events (CV hospitalizations and urgent HF visits) were compared between treatment groups using a modified Andersen-Gill model with a robust variance. All-cause mortality included heart transplantation and LVAD placement events along with deaths; recurrent CV events included CV hospitalizations and urgent HF visits. The number of participants with at least one CV event or all-cause mortality event have been reported here. No imputation was done for participants who dropped out early for the primary analysis of this composite outcome endpoint.",
+   "groups": [
+    {
+     "description": "Participants in the DB period received vutrisiran matching placebo, SC injection, q3M for up to 36 months.",
+     "id": "OG000",
+     "title": "DB Period: Placebo"
+    },
+    {
+     "description": "Participants in the DB period received vutrisiran, 25 mg, SC injection, q3M for up to 36 months.",
+     "id": "OG001",
+     "title": "DB Period: Vutrisiran"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Vutrisiran Monotherapy Subgroup FAS included all participants who were not on tafamidis at the study baseline in the FAS. FAS included all participants who were randomized and received any amount of study drug (vutrisiran or placebo).",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to Month 36",
+   "title": "Composite Endpoint of All-Cause Mortality and Recurrent CV Events (CV Hospitalizations and Urgent HF Visits) in the Vutrisiran Monotherapy Subgroup",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

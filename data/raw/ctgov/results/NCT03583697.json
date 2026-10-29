@@ -1,0 +1,299 @@
+{
+ "nctId": "NCT03583697",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "11"
+        },
+        {
+         "groupId": "OG001",
+         "value": "32"
+        },
+        {
+         "groupId": "OG002",
+         "value": "32"
+        }
+       ]
+      }
+     ],
+     "title": "Participants with any AE"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "3"
+        },
+        {
+         "groupId": "OG002",
+         "value": "6"
+        }
+       ]
+      }
+     ],
+     "title": "Participants with any SAE"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "8"
+        },
+        {
+         "groupId": "OG001",
+         "value": "29"
+        },
+        {
+         "groupId": "OG002",
+         "value": "17"
+        }
+       ]
+      }
+     ],
+     "title": "Participants with any treatment-related AE"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        },
+        {
+         "groupId": "OG002",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Participants with any treatment-related SAEs"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "2"
+        },
+        {
+         "groupId": "OG002",
+         "value": "3"
+        }
+       ]
+      }
+     ],
+     "title": "Participants with any AE of CTCAE grade >=3"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "1"
+        },
+        {
+         "groupId": "OG002",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Participants who died"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "11"
+      },
+      {
+       "groupId": "OG001",
+       "value": "32"
+      },
+      {
+       "groupId": "OG002",
+       "value": "32"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "A treatment-emergent Adverse Events (TEAE) is any Adverse Events that newly appeared, increased in frequency or worsened in severity following initiation of study drug administration. A severity grade was defined by the Common Terminology Criteria for Adverse Events (CTCAE) Version 4.03. As per CTCAE, Grade 1 scales as Mild; Grade 2 scales as Moderate; Grade 3 scales as severe or medically significant but not immediately life threatening; Grade 4 scales as life-threatening consequences; and Grade 5 scales as death related to AE.\n\nSafety Population includes all sentinel and randomized participants in the FAS who received at least one dose of vosoritide or placebo in this study.\n\nSerious adverse event (SAE)",
+   "groups": [
+    {
+     "description": "Cohort 1 Sentinel: Participants stratified by age \\>= 24 to \\< 60 months, received vosoritide 15 µg/kg/day single daily subcutaneous injection (n=4)\n\nCohort 2 Sentinel: Participants stratified by age \\>= 6 to \\< 24 months, received vosoritide 15 µg/kg/day \\& 30 µg/kg/day single daily subcutaneous injection (n=4)\n\nCohort 3 Sentinel: Participants stratified by age 0 to \\< 6 months, received vosoritide 30 µg/kg/day single daily subcutaneous injection (n=3)",
+     "id": "OG000",
+     "title": "Sentinel"
+    },
+    {
+     "description": "Cohort 1: Participants stratified by age \\>= 24 to \\< 60 months, received vosoritide 15 µg/kg/day single daily subcutaneous injection (n=15)\n\nCohort 2: Participants stratified by age \\>= 6 to \\< 24 months, received vosoritide 15 µg/kg/day \\& 30 µg/kg/day single daily subcutaneous injection (n=8)\n\nCohort 3: Participants stratified by age 0 to \\< 6 months, received vosoritide 30 µg/kg/day single daily subcutaneous injection (n=9)",
+     "id": "OG001",
+     "title": "Randomized Vosoritide"
+    },
+    {
+     "description": "Cohort 1: Participants stratified by age \\>= 24 to \\< 60 months, received placebo single daily subcutaneous injection (n=16)\n\nCohort 2: Participants stratified by age \\>= 6 to \\< 24 months, received placebo single daily subcutaneous injection (n=8)\n\nCohort 3: Participants stratified by age 0 to \\< 6 months, received placebo single daily subcutaneous injection (n=8)",
+     "id": "OG002",
+     "title": "Randomized Placebo"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Safety Population: The Safety Population was a subset of the FAS who received at least one dose of vosoritide or placebo in the study.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to Week 56 (Safety Follow-Up +/-7d)",
+   "title": "Number of Participants With Adverse Events (AEs) by Severity Grade and Study Drug Treatment-emergent Adverse Events (TEAEs)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-0.02",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.53",
+     "groupDescription": "Z-Scores were derived using age-sex specific reference data (means and SDs) for average stature children per the Centers for Disease Control and Prevention.\n\nParticipants aged \\< 24 months, body length takes precedence over standing height. Participants aged \\< 24 months at baseline and \\>= 24 months at Week 52, body length takes precedence.\n\nDifference in least squares (LS) means were obtained from an analysis of covariance model.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "paramType": "Least Square Mean Difference (Net)",
+     "paramValue": "0.25"
+    },
+    {
+     "ciLowerLimit": "0.07",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.54",
+     "groupDescription": "Z-Scores were derived using age-sex specific reference data (means and SDs) for average stature children per the Centers for Disease Control and Prevention.\n\nParticipants aged \\< 24 months, body length takes precedence over standing height. Participants aged \\< 24 months at baseline and \\>= 24 months at Week 52, body length takes precedence.\n\nDifference in LS means were obtained from an analysis of covariance model.",
+     "groupIds": [
+      "OG002",
+      "OG003"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "paramType": "Least Square Mean Difference (Net)",
+     "paramValue": "0.3"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "-0.26",
+         "upperLimit": "0.15",
+         "value": "-0.06"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "-0.48",
+         "upperLimit": "-0.13",
+         "value": "-0.31"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "-0.15",
+         "upperLimit": "0.17",
+         "value": "0.01"
+        },
+        {
+         "groupId": "OG003",
+         "lowerLimit": "-0.47",
+         "upperLimit": "-0.13",
+         "value": "-0.30"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "32"
+      },
+      {
+       "groupId": "OG001",
+       "value": "32"
+      },
+      {
+       "groupId": "OG002",
+       "value": "43"
+      },
+      {
+       "groupId": "OG003",
+       "value": "32"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Z-Scores were derived using age-sex specific reference data (means and SDS) for average stature children per the Centers for Disease Control and Prevention. A height Z score of 0 would indicate that the subject's height is equal to the mean height for the average stature population of the same sex and age. A positive height Z score indicates that the subjects height is above the mean height for the average stature population of the same sex and age, whilst a negative height Z score indicates that the subjects height is below the mean height for the average stature population of the same sex and age. To conclude if the height Z score increases then this means the height deficit has decreased.\n\nstandard deviation score (SDS).\n\nThe primary efficacy analysis population was the subset of randomized participants in the FAS.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Cohort 1: Participants stratified by age \\>= 24 to \\< 60 months, received vosoritide 15 µg/kg/day single daily subcutaneous injection (n=15)\n\nCohort 2: Participants stratified by age \\>= 6 to \\< 24 months, received vosoritide 15 µg/kg/day \\& 30 µg/kg/day single daily subcutaneous injection (n=8)\n\nCohort 3: Participants stratified by age 0 to \\< 6 months, received vosoritide 30 µg/kg/day single daily subcutaneous injection (n=9)",
+     "id": "OG000",
+     "title": "Randomized Vosoritide"
+    },
+    {
+     "description": "Cohort 1: Participants stratified by age \\>= 24 to \\< 60 months, received placebo single daily subcutaneous injection (n=16)\n\nCohort 2: Participants stratified by age \\>= 6 to \\< 24 months, received placebo single daily subcutaneous injection (n=8)\n\nCohort 3: Participants stratified by age 0 to \\< 6 months, received placebo single daily subcutaneous injection (n=8)",
+     "id": "OG001",
+     "title": "Randomized Placebo"
+    },
+    {
+     "description": "All Vosoritide : 11 sentinel + 32 randomized participants who received vosoritide 15 µg/kg/day or 30 µg/kg/day, single daily subcutaneous injection.",
+     "id": "OG002",
+     "title": "All Vosoritide"
+    },
+    {
+     "description": "Placebo: Participants who received placebo single daily subcutaneous injection.",
+     "id": "OG003",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "FAS \\& FAS (randomized) population:The FAS (randomized) was a subset of the FAS, which included 64 participants who were randomized to study treatment (32 participants randomized to vosoritide \\& 32 participants randomized to placebo).\n\nThis is model-based analysis, it is true that the participants analyzed for placebo FAS \\& FAS (randomized) are the same, but participants analyzed for vosoritide arm FAS \\& FAS(randomized) are different, that's why the model-based results for placebo are different",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline to Week 52",
+   "title": "Change From Baseline in Height Z-score at Week 52.",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Z-score"
+  }
+ ]
+}

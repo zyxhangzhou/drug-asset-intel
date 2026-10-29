@@ -1,0 +1,60 @@
+{
+ "nctId": "NCT03350451",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "13"
+        },
+        {
+         "groupId": "OG001",
+         "value": "7"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "13"
+      },
+      {
+       "groupId": "OG001",
+       "value": "7"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "AE is any untoward medical occurrence in a participant or clinical investigational subject administered a medicinal product and which does not necessarily have a causal relationship with this treatment. Safety analysis set included all participants who received any amount of study drug.",
+   "groups": [
+    {
+     "description": "Participants enrolling from study 001B, received lumasiran, SC injection, at a starting dose of 1.0 mg/kg QM or 3.0 mg/kg Q3M from Day 1 up to a maximum of Month 6. By Month 6, all participants were approved to change dose and/or dosing regimen to receive lumasiran, SC injection at a dose of 3.0 mg/kg, Q3M, up to Month 51 of the treatment period.\n\nAll 3 participants who began treatment at 1 mg/kg QM transitioned to 3 mg/kg Q3M regimen by Month 6. As the cumulative dose administered over 6 months was the same for both 1 mg/kg QM \\& 3 mg/kg Q3M, these participants were pooled into one arm as recommended by the SRC.",
+     "id": "OG000",
+     "title": "Lumasiran (ALN-GO1): 1.0 mg/kg QM or 3.0 mg/kg Q3M"
+    },
+    {
+     "description": "Participants enrolling from study 001B, received lumasiran, SC injection, at a starting dose of 3.0 mg/kg, QM, from Day 1 up to a maximum of Month 21. By Month 21, all participants were approved to change dosing regimen to receive lumasiran, SC injection, at a dose of 3.0 mg/kg, Q3M, up to Month 51 of the treatment period.",
+     "id": "OG001",
+     "title": "Lumasiran (ALN-GO1): 3.0 mg/kg QM"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "The cumulative dose of lumasiran administered over 6 months was the same for both 1 mg/kg QM \\& 3 mg/kg Q3M, these participants were pooled into one arm as recommended by the SRC. As pre-specified in the SAP, participants who began treatment at 1 mg/kg QM, then transitioned to 3 mg/kg Q3M were to be summarized as a single group. All 3 participants who began treatment at 1 mg/kg QM transitioned to 3 mg/kg Q3M regimen by Month 6.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline (Day -1) up to 54 months",
+   "title": "Number of Participants With at Least One Adverse Event (AE)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

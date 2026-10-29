@@ -1,0 +1,535 @@
+{
+ "nctId": "NCT01993186",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-38.63",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "90",
+     "ciUpperLimit": "80.95",
+     "groupDescription": "Non-parametric post-hoc analysis: Hodges-Lehmann estimate of the location shift with 90% confidence interval (CI) and Wilcoxon Rank Sum test p-value, based on Wilcoxon rank-sum test",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.5812",
+     "paramType": "Hodges-Lehmann estimate",
+     "paramValue": "13.45",
+     "statisticalMethod": "Wilcoxon rank-sum test"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "-651",
+         "upperLimit": "100",
+         "value": "12.6"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "-1021",
+         "upperLimit": "100",
+         "value": "0.0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "25"
+      },
+      {
+       "groupId": "OG001",
+       "value": "11"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Reduction from baseline to Week 8 in frequency of seizures (normalized to a 4-week rate): observable seizures measured for 6 weeks after 2-week titration by diary and absence seizures measured overnight by EEG. Observable seizures from the diary include generalized tonic-clonic, generalized tonic, generalized clonic, generalized atonic, partial/focal with secondary generalization, myoclonic, myoclonic (astatic) atonic, myoclonic tonic, complex partial/focal, simple partial/focal motor, simple partial/focal sensory, and simple partial/focal psychological. Absence seizures from EEG include absence awake (\\>=10 sec), absence sleep (\\>=10 sec), indeterminate absence awake (3-10 sec), and indeterminate absence sleep (3-10 sec). A negative value indicates an increase in frequency.",
+   "dispersionType": "Full Range",
+   "groups": [
+    {
+     "description": "Participants randomized to receive UX007 entered a 2-week dose titration period to achieve study drug treatment comprising up to 35% of total daily calories or to the maximum tolerated dose level and maintained at the 35% total daily calorie dose level for a 6-week treatment period.\n\nFollowing completion of the Week 8 study visit, participants continued treatment with open-label UX007 at the 35% dose level for an additional 44 weeks (Weeks 8-52).",
+     "id": "OG000",
+     "title": "UX007"
+    },
+    {
+     "description": "Participants randomized to receive placebo entered a 2-week dose titration period to achieve study drug treatment comprising up to 35% of total daily calories or to the maximum tolerated dose level and maintained at the 35% total daily calorie dose level for a 6-week treatment period.\n\nFollowing completion of the Week 8 study visit, placebo participants continued treatment with open-label UX007 at the 35% dose level for an additional 44 weeks (Weeks 8-52).",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "Efficacy Analysis Set: all randomized participants who received at least one dose of investigational product.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Week 8",
+   "title": "Percent Reduction From Baseline to Week 8 in Frequency of Total Seizures (Normalized to a 4-Week Rate)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percent reduction of seizures per 4 wks"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "22"
+        },
+        {
+         "groupId": "OG001",
+         "value": "9"
+        }
+       ]
+      }
+     ],
+     "title": "TEAE"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Serious TEAE"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "2"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Grade 3 or 4 TEAE"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "TEAE Leading to Study Discontinuation"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "TEAE Leading to Death"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "18"
+        },
+        {
+         "groupId": "OG001",
+         "value": "5"
+        }
+       ]
+      }
+     ],
+     "title": "Gastrointestinal TEAE"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "18"
+        },
+        {
+         "groupId": "OG001",
+         "value": "5"
+        }
+       ]
+      }
+     ],
+     "title": "Related TEAE"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Related Serious TEAE"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "17"
+        },
+        {
+         "groupId": "OG001",
+         "value": "4"
+        }
+       ]
+      }
+     ],
+     "title": "Related Gastrointestinal TEAE"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "22"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "UX007 Emergent AE"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Serious UX007 Emergent AE"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "25"
+      },
+      {
+       "groupId": "OG001",
+       "value": "11"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "An adverse event (AE) was defined as any untoward medical occurrence, whether or not considered drug related. A serious AE was defined as an AE or suspected adverse reaction that at any dose resulted in any of the following outcomes: death, a life-threatening AE, inpatient hospitalization or prolongation of existing hospitalization, persistent or significant incapacity or substantial disruption of the ability to conduct normal life functions, a congenital anomaly/birth defect, or an important medical event that may have jeopardized the subject and may have required medical or surgical intervention to prevent one of the outcomes listed in the definition. An AE was considered a TEAE if it occurred or worsened in severity on or after the date of the first dose of study drug. An AE was considered a UX007 emergent adverse event if it occurred or worsened in severity on or after the first date of first dose of UX007 during the study.",
+   "groups": [
+    {
+     "description": "Participants randomized to receive UX007 entered a 2-week dose titration period to achieve study drug treatment comprising up to 35% of total daily calories or to the maximum tolerated dose level and maintained at the 35% total daily calorie dose level for a 6-week treatment period.\n\nFollowing completion of the Week 8 study visit, participants continued treatment with open-label UX007 at the 35% dose level for an additional 44 weeks (Weeks 8-52).",
+     "id": "OG000",
+     "title": "UX007"
+    },
+    {
+     "description": "Participants randomized to receive placebo entered a 2-week dose titration period to achieve study drug treatment comprising up to 35% of total daily calories or to the maximum tolerated dose level and maintained at the 35% total daily calorie dose level for a 6-week treatment period.\n\nFollowing completion of the Week 8 study visit, placebo participants continued treatment with open-label UX007 at the 35% dose level for an additional 44 weeks (Weeks 8-52).",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Safety Analysis Set: all participants who received at least one dose of investigational product.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Weeks 0 to 8",
+   "title": "Number of Participants With Treatment-Emergent Adverse Events (TEAEs), Serious TEAEs and Discontinuations Due to TEAEs During the Placebo-Controlled Period",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "21"
+        },
+        {
+         "groupId": "OG001",
+         "value": "11"
+        }
+       ]
+      }
+     ],
+     "title": "TEAE"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "2"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Serious TEAE"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Grade 3 or 4 TEAE"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "TEAE Leading to Study Discontinuation"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "TEAE Leading to Death"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "15"
+        },
+        {
+         "groupId": "OG001",
+         "value": "10"
+        }
+       ]
+      }
+     ],
+     "title": "Gastrointestinal TEAE"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "19"
+        },
+        {
+         "groupId": "OG001",
+         "value": "8"
+        }
+       ]
+      }
+     ],
+     "title": "Related TEAE"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Related Serious TEAE"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "13"
+        },
+        {
+         "groupId": "OG001",
+         "value": "8"
+        }
+       ]
+      }
+     ],
+     "title": "Related Gastrointestinal TEAE"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "21"
+        },
+        {
+         "groupId": "OG001",
+         "value": "11"
+        }
+       ]
+      }
+     ],
+     "title": "UX007 Emergent AE"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "2"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Serious UX007 Emergent AE"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "23"
+      },
+      {
+       "groupId": "OG001",
+       "value": "11"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "An AE was defined as any untoward medical occurrence, whether or not considered drug related. A serious AE was defined as an AE or suspected adverse reaction that at any dose resulted in any of the following outcomes: death, a life-threatening AE, inpatient hospitalization or prolongation of existing hospitalization, persistent or significant incapacity or substantial disruption of the ability to conduct normal life functions, a congenital anomaly/birth defect, or an important medical event that may have jeopardized the subject and may have required medical or surgical intervention to prevent one of the outcomes listed in the definition. An AE was considered a TEAE if it occurred or worsened in severity on or after the date of the first dose of study drug. An AE was considered a UX007 emergent adverse event if it occurred or worsened in severity on or after the first date of first dose of UX007 during the study.",
+   "groups": [
+    {
+     "description": "Participants randomized to receive UX007 entered a 2-week dose titration period to achieve study drug treatment comprising up to 35% of total daily calories or to the maximum tolerated dose level and maintained at the 35% total daily calorie dose level for a 6-week treatment period.\n\nFollowing completion of the Week 8 study visit, participants continued treatment with open-label UX007 at the 35% dose level for an additional 44 weeks (Weeks 8-52).",
+     "id": "OG000",
+     "title": "UX007"
+    },
+    {
+     "description": "Participants randomized to receive placebo entered a 2-week dose titration period to achieve study drug treatment comprising up to 35% of total daily calories or to the maximum tolerated dose level and maintained at the 35% total daily calorie dose level for a 6-week treatment period.\n\nFollowing completion of the Week 8 study visit, placebo participants continued treatment with open-label UX007 at the 35% dose level for an additional 44 weeks (Weeks 8-52).",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Safety Analysis Set: all participants who received at least one dose of investigational product.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Weeks 9 to 52 plus 30 days",
+   "title": "Number of Participants With TEAEs, Serious TEAEs and Discontinuations Due to TEAEs During the Extension Period",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

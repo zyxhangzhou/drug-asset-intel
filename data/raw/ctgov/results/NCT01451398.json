@@ -1,0 +1,82 @@
+{
+ "nctId": "NCT01451398",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-0.57",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-0.23",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+     "pValue": "<0.0001",
+     "paramType": "Mean Difference (Final Values)",
+     "paramValue": "-0.40",
+     "statisticalComment": "Change in HbA1c = Baseline HbA1c + Region + Pooled OAD Strata + Visit + Treatment + (Treatment\\*Visit), using AR(1) variance/covariance structure.",
+     "statisticalMethod": "Mixed Models Analysis",
+     "testedNonInferiority": false
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.061",
+         "value": "-0.82"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.062",
+         "value": "-0.42"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "177"
+      },
+      {
+       "groupId": "OG001",
+       "value": "176"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Efficacy as measured by change in glycated hemoglobin (HbA1c) at Week 24",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Technosphere Insulin powder administered via the Gen2 inhaler added to 2 or more stable Oral Antidiabetic Drugs (OADs), doses individualized for each patient",
+     "id": "OG000",
+     "title": "TI Inhalation Powder + OADs"
+    },
+    {
+     "description": "Technosphere powder (with no insulin) administered via the Gen2 inhaler added to 2 or more stable Oral Antidiabetic Drugs (OADs), doses individualized for each patient",
+     "id": "OG001",
+     "title": "Technosphere Powder"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Full analysis set",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline to Week 24",
+   "title": "Change From Baseline to Week 24 in HbA1c",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of hemoglobin"
+  }
+ ]
+}

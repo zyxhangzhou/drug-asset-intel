@@ -1,0 +1,172 @@
+{
+ "nctId": "NCT04832971",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-61.73",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-40.70",
+     "estimateComment": "ARO-ANG3 - Placebo",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<.0001",
+     "pValueComment": "Model includes treatment arm, study visit, randomization stratification factor (LDL-C at Screening \\[≥100 mg/dL vs \\<100 mg/dL\\]),and baseline value as model terms. Model also includes treatment by visit and treatment by baseline as interaction terms.",
+     "paramType": "Difference vs. Placebo at Week 24",
+     "paramValue": "-51.22",
+     "statisticalMethod": "Mixed Models Repeated Measures (MMRM)"
+    },
+    {
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<.0001",
+     "pValueComment": "The adjusted p-value is calculated using the Holm method for multiplicity adjustment.",
+     "statisticalMethod": "Holm method"
+    },
+    {
+     "ciLowerLimit": "-67.09",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-46.04",
+     "estimateComment": "ARO-ANG3 - Placebo",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<.0001",
+     "pValueComment": "Model includes treatment arm, study visit, randomization stratification factor (LDL-C at Screening \\[≥100 mg/dL vs \\<100 mg/dL\\]),and baseline value as model terms. Model also includes treatment by visit and treatment by baseline as interaction terms.",
+     "paramType": "Difference vs Placebo at Week 24",
+     "paramValue": "-56.56",
+     "statisticalMethod": "Mixed Models Repeated Measures (MMRM)"
+    },
+    {
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<.0001",
+     "pValueComment": "The adjusted p-value is calculated using the Holm method for multiplicity adjustment.",
+     "statisticalMethod": "Holm method"
+    },
+    {
+     "ciLowerLimit": "-73.56",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-52.66",
+     "groupIds": [
+      "OG000",
+      "OG003"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<.0001",
+     "pValueComment": "Model includes treatment arm, study visit, randomization stratification factor (LDL-C at Screening \\[≥100 mg/dL vs \\<100 mg/dL\\]),and baseline value as model terms. Model also includes treatment by visit and treatment by baseline as interaction terms.",
+     "paramType": "Difference vs. Placebo at Week 24",
+     "paramValue": "-63.11",
+     "statisticalMethod": "Mixed Model with Repeated Measures"
+    },
+    {
+     "groupIds": [
+      "OG000",
+      "OG003"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<.0001",
+     "pValueComment": "The adjusted p-value is calculated using the Holm method for multiplicity adjustment.",
+     "statisticalMethod": "Holm method"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "3.774",
+         "value": "7.55"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "3.770",
+         "value": "-43.67"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "3.777",
+         "value": "-49.01"
+        },
+        {
+         "groupId": "OG003",
+         "spread": "3.726",
+         "value": "-55.57"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "47"
+      },
+      {
+       "groupId": "OG001",
+       "value": "47"
+      },
+      {
+       "groupId": "OG002",
+       "value": "47"
+      },
+      {
+       "groupId": "OG003",
+       "value": "49"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Placebo calculated volume to match active treatment by subcutaneous (sc) at Day 1 and Week 12 injection during the double-blind treatment period. Up to 8 doses of ARO-ANG3 by sc injection during the open-label extension period.",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "ARO-ANG3 50 mg by sc injection at Day 1 and Week 12 during the double-blind treatment period. Up to 8 doses of ARO-ANG3 by sc injection during the open-label extension period.",
+     "id": "OG001",
+     "title": "ARO-ANG3 50 mg"
+    },
+    {
+     "description": "ARO-ANG3 100 mg by sc injection at Day 1 and Week 12 during the double-blind treatment period. Up to 8 doses of ARO-ANG3 by sc injection during the open-label extension period.",
+     "id": "OG002",
+     "title": "ARO-ANG3 100 mg"
+    },
+    {
+     "description": "ARO-ANG3 200 mg by sc injection at Day 1 and Week 12 during the double-blind treatment period. Up to 8 doses of ARO-ANG3 by sc injection during the open-label extension period.",
+     "id": "OG003",
+     "title": "ARO-ANG3 200 mg"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Full Analysis Set: All randomized participants who received at least 1 dose of investigational product (IP) during the study period, analyzed according to the treatment assigned at randomization.Observed cases.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Week 24",
+   "title": "Percent Change From Baseline in Fasting TG at Week 24",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage change"
+  }
+ ]
+}

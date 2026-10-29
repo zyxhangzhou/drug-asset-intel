@@ -1,0 +1,125 @@
+{
+ "nctId": "NCT03359785",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-0.246",
+     "ciNumSides": "ONE_SIDED",
+     "ciPctValue": "90",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "0.376",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.2401",
+     "paramType": "LS Mean Difference",
+     "paramValue": "0.278",
+     "statisticalMethod": "ANOVA"
+    },
+    {
+     "ciLowerLimit": "-1.513",
+     "ciNumSides": "ONE_SIDED",
+     "ciPctValue": "90",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "0.547",
+     "groupIds": [
+      "OG002",
+      "OG003"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.9053",
+     "paramType": "LS Mean Difference",
+     "paramValue": "-0.766",
+     "statisticalMethod": "ANOVA"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.459",
+         "value": "0.597"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.432",
+         "value": "0.319"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "0.444",
+         "value": "0.578"
+        },
+        {
+         "groupId": "OG003",
+         "spread": "0.428",
+         "value": "1.344"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "10"
+      },
+      {
+       "groupId": "OG001",
+       "value": "12"
+      },
+      {
+       "groupId": "OG002",
+       "value": "11"
+      },
+      {
+       "groupId": "OG003",
+       "value": "11"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "EBC is a method used to investigate cerebellar-dependent learning. In EBC, a conditioned stimulus, a tone precedes but co-terminates with an unconditioned stimulus, an airpuff to the eyelid. Learning is demonstrated when an eyeblink (the conditioned response) occurs prior to the onset of the unconditioned stimulus. The percentage can range from 0% (no conditioned learning has occurred) to 100% (all responses are conditioned). Results are reported as least squares (LS) means at Day 8, determined using an analysis of variance (ANOVA).",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Participants received luvadaxistat 50 mg orally QD for 8 days during either treatment periods 1 or 2 of the study.",
+     "id": "OG000",
+     "title": "Luvadaxistat 50 mg"
+    },
+    {
+     "description": "Participants received matching placebo orally QD for 8 days during either treatment periods 1 or 2 of the study. Placebo treatment in this arm corresponds to participants who received 50 mg luvadaxistat in the alternative treatment period (that is, participants receiving 50 mg and 500 mg luvadaxistat were analyzed separately and placebo treatment was not pooled).",
+     "id": "OG001",
+     "title": "Placebo (Reference for Luvadaxistat 50 mg)"
+    },
+    {
+     "description": "Participants received luvadaxistat 500 mg orally QD for 8 days during either treatment periods 1 or 2 of the study.",
+     "id": "OG002",
+     "title": "Luvadaxistat 500 mg"
+    },
+    {
+     "description": "Participants received matching placebo orally QD for 8 days during either treatment periods 1 or 2 of the study. Placebo treatment in this arm corresponds to participants who received 500 mg luvadaxistat in the alternative treatment period (that is, participants receiving 50 mg and 500 mg luvadaxistat were analyzed separately and placebo treatment was not pooled).",
+     "id": "OG003",
+     "title": "Placebo (Reference for Luvadaxistat 500 mg)"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "The PD set consisted of all randomized participants who received at least 1 dose of study treatment and had at least 1 post- dose PD result. Here, 'Overall number of participants analyzed' = participants evaluable for this outcome measure.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Day 8 of each treatment period",
+   "title": "Change From Baseline in Average Percent of Conditioned Responses During the Eye Blink Conditioning (EBC) Test at Day 8",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Percent of Conditioned Responses"
+  }
+ ]
+}

@@ -1,0 +1,267 @@
+{
+ "nctId": "NCT04906421",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "groupDescription": "ITT Population analysis",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0018",
+     "pValueComment": "Stratified CMH test stratified by T2DM status at baseline (yes or no) and amount of fibrosis at baseline (F2 or F3).",
+     "statisticalComment": "One-sided",
+     "statisticalMethod": "Cochran-Mantel-Haenszel"
+    },
+    {
+     "groupDescription": "ITT Population Analysis",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0035",
+     "pValueComment": "Stratified CMH test stratified by T2DM status at baseline (yes or no) and amount of fibrosis at baseline (F2 or F3).",
+     "statisticalComment": "Two-sided",
+     "statisticalMethod": "Cochran-Mantel-Haenszel"
+    },
+    {
+     "groupDescription": "mITT Population Analysis",
+     "groupIds": [
+      "OG002",
+      "OG003"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0001",
+     "pValueComment": "Stratified CMH test stratified by T2DM status at baseline (yes or no) and amount of fibrosis at baseline (F2 or F3).",
+     "statisticalComment": "One-sided",
+     "statisticalMethod": "t-test, 1 sided"
+    },
+    {
+     "groupDescription": "mITT Population Analysis",
+     "groupIds": [
+      "OG002",
+      "OG003"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0003",
+     "pValueComment": "Stratified CMH test stratified by T2DM status at baseline (yes or no) and amount of fibrosis at baseline (F2 or F3).",
+     "statisticalComment": "Two-sided",
+     "statisticalMethod": "Cochran-Mantel-Haenszel"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "42"
+        },
+        {
+         "groupId": "OG001",
+         "value": "9"
+        },
+        {
+         "groupId": "OG002",
+         "value": "42"
+        },
+        {
+         "groupId": "OG003",
+         "value": "9"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "112"
+      },
+      {
+       "groupId": "OG001",
+       "value": "56"
+      },
+      {
+       "groupId": "OG002",
+       "value": "81"
+      },
+      {
+       "groupId": "OG003",
+       "value": "45"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Histological improvement is defined as ≥2 points improvement in NAS with ≥1 point improvement in ballooning or inflammation",
+   "groups": [
+    {
+     "description": "Subjects will receive TVB-2640 PO QD for 52 weeks, with the first dose administered on Day 1.\n\nTVB-2640: Oral dose, tablet",
+     "id": "OG000",
+     "title": "ITT: TVB-2640 50 mg"
+    },
+    {
+     "description": "Subjects will receive matching placebo PO QD for 52 weeks, with the first dose administered on Day 1.\n\nPlacebo: Oral dose, tablet",
+     "id": "OG001",
+     "title": "ITT: Placebo"
+    },
+    {
+     "description": "Comprises all subjects in the ITT population who have completed at least 42 weeks of treatment and have an evaluable post treatment histological assessment.\n\nTVB-2640: Oral dose, tablet",
+     "id": "OG002",
+     "title": "mITT: TVB-2640 50 mg"
+    },
+    {
+     "description": "Comprises all subjects in the ITT population who have completed at least 42 weeks of treatment and have an evaluable post treatment histological assessment.\n\nPlacebo: Oral dose, tablet",
+     "id": "OG003",
+     "title": "mITT: Placebo"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "ITT and mITT Population",
+   "reportingStatus": "POSTED",
+   "timeFrame": "52 Weeks",
+   "title": "Histological Improvement in Nonalcoholic Fatty Liver Disease (NAFLD) Activity Score (NAS) Without Worsening of Fibrosis (by NASH Clinical Research Network [CRN] Fibrosis Score).",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "analyses": [
+    {
+     "groupDescription": "ITT Population Analysis",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0087",
+     "pValueComment": "Stratified CMH test stratified by T2DM status at baseline (yes or no) and amount of fibrosis at baseline (F2 or F3).",
+     "statisticalComment": "One-sided",
+     "statisticalMethod": "Cochran-Mantel-Haenszel"
+    },
+    {
+     "groupDescription": "ITT Population Analysis",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0173",
+     "pValueComment": "Stratified CMH test stratified by T2DM status at baseline (yes or no) and amount of fibrosis at baseline (F2 or F3).",
+     "statisticalComment": "Two-sided",
+     "statisticalMethod": "Cochran-Mantel-Haenszel"
+    },
+    {
+     "groupDescription": "mITT Population Analysis",
+     "groupIds": [
+      "OG002",
+      "OG003"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0022",
+     "pValueComment": "Stratified CMH test stratified by T2DM status at baseline (yes or no) and amount of fibrosis at baseline (F2 or F3).",
+     "statisticalComment": "One-sided",
+     "statisticalMethod": "Cochran-Mantel-Haenszel"
+    },
+    {
+     "groupDescription": "mITT Population Analysis",
+     "groupIds": [
+      "OG002",
+      "OG003"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0044",
+     "pValueComment": "Stratified CMH test stratified by T2DM status at baseline (yes or no) and amount of fibrosis at baseline (F2 or F3).",
+     "statisticalComment": "Two-sided",
+     "statisticalMethod": "Cochran-Mantel-Haenszel"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "29"
+        },
+        {
+         "groupId": "OG001",
+         "value": "6"
+        },
+        {
+         "groupId": "OG002",
+         "value": "29"
+        },
+        {
+         "groupId": "OG003",
+         "value": "6"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "112"
+      },
+      {
+       "groupId": "OG001",
+       "value": "56"
+      },
+      {
+       "groupId": "OG002",
+       "value": "81"
+      },
+      {
+       "groupId": "OG003",
+       "value": "45"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "NASH resolution defined as absence of fatty liver disease or isolated or simple steatosis without steatohepatitis and a score of either 0 or 1 for inflammation, 0 for ballooning and any value for steatosis and no worsening of liver fibrosis (by NASH CRN fibrosis score). Histological improvement defined as ≥2 point improvement in NAS (with ≥1 point improvement in ballooning or inflammation).",
+   "groups": [
+    {
+     "description": "Subjects will receive TVB-2640 PO QD for 52 weeks, with the first dose administered on Day 1.\n\nTVB-2640: Oral dose, tablet",
+     "id": "OG000",
+     "title": "ITT: TVB-2640 50 mg"
+    },
+    {
+     "description": "Subjects will receive matching placebo PO QD for 52 weeks, with the first dose administered on Day 1.\n\nPlacebo: Oral dose, tablet",
+     "id": "OG001",
+     "title": "ITT: Placebo"
+    },
+    {
+     "description": "Comprises all subjects in the ITT population who have completed at least 42 weeks of treatment and have an evaluable post treatment histological assessment.\n\nTVB-2640: Oral dose, tablet",
+     "id": "OG002",
+     "title": "mITT: TVB-2640 50 mg"
+    },
+    {
+     "description": "Comprises all subjects in the ITT population who have completed at least 42 weeks of treatment and have an evaluable post treatment histological assessment.\n\nPlacebo: Oral dose, tablet",
+     "id": "OG003",
+     "title": "mITT: Placebo"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "ITT and mITT Population",
+   "reportingStatus": "POSTED",
+   "timeFrame": "52 Weeks",
+   "title": "Subjects With Resolution of Steatohepatitis and No Worsening of Liver Fibrosis by NASH CRN Fibrosis Score and Histological Improvement in NAS.",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

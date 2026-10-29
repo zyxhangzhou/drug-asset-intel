@@ -1,0 +1,167 @@
+{
+ "nctId": "NCT04445987",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "17"
+        },
+        {
+         "groupId": "OG001",
+         "value": "23"
+        },
+        {
+         "groupId": "OG002",
+         "value": "90"
+        },
+        {
+         "groupId": "OG003",
+         "value": "3"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "75"
+      },
+      {
+       "groupId": "OG001",
+       "value": "58"
+      },
+      {
+       "groupId": "OG002",
+       "value": "267"
+      },
+      {
+       "groupId": "OG003",
+       "value": "8"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The number of participants with treatment-emergent AEs is reported. An AE is any untoward or unfavorable medical occurrence in a human participant, including any abnormal sign (for example, abnormal physical exam or laboratory finding), symptom, or disease, temporally associated with the participant's participation in the research, whether or not considered related to participation in the research. Data are presented according to cohort group assigned as treatment were identical in this study regardless of the treatment received in the prior study.",
+   "groups": [
+    {
+     "description": "Participants from ARQ-154-203 using either roflumilast foam 0.3% or vehicle foam in the prior study applied roflumilast foam 0.3% QD for 52 weeks in the present study with no gap in treatment.",
+     "id": "OG000",
+     "title": "Cohort 1 Group 1: ARQ-154-203 Roflumilast Foam 0.3% Without Treatment Gap"
+    },
+    {
+     "description": "Participants from ARQ-154-203 using roflumilast foam 0.3% or vehicle foam in the prior study applied roflumilast foam 0.3% QD for 52 weeks in the present study with a gap in treatment.",
+     "id": "OG001",
+     "title": "Cohort 2 Groups 3 and 4: ARQ-154-203 Roflumilast Foam 0.3% With Treatment Gap"
+    },
+    {
+     "description": "Treatment naive participants who had not previously participated in a clinical study of roflumilast foam 0.3% applied roflumilast foam 0.3% QD for 52 weeks in the present study.",
+     "id": "OG002",
+     "title": "Cohort 2 Group 4: De Novo Participants"
+    },
+    {
+     "description": "Participants from study ARQ-154-116 applied roflumilast foam 0.3% in the present study.",
+     "id": "OG003",
+     "title": "Cohort 1 Group 2: ARQ-154-116 Rollover"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "All participants are included.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to 52 weeks",
+   "title": "Number of Participants With ≥1 Adverse Event (AE)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "2"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        },
+        {
+         "groupId": "OG002",
+         "value": "5"
+        },
+        {
+         "groupId": "OG003",
+         "value": "0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "75"
+      },
+      {
+       "groupId": "OG001",
+       "value": "58"
+      },
+      {
+       "groupId": "OG002",
+       "value": "267"
+      },
+      {
+       "groupId": "OG003",
+       "value": "8"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The number of participants with treatment-emergent SAEs is reported. An SAE is any AE that results in death, is life-threatening (places the subject at immediate risk of death from the event as it occurred), requires inpatient hospitalization or prolongation of existing hospitalization, results in a persistent or significant disability/incapacity, results in a congenital anomaly/birth defect, or is any other adverse event that, based upon appropriate medical judgment, may jeopardize the subject's health. Data are presented according to cohort group assigned as treatment were identical in this study regardless of the treatment received in the prior study.",
+   "groups": [
+    {
+     "description": "Participants from ARQ-154-203 using roflumilast (ARQ-154) foam 0.3% or vehicle foam in the prior study applied roflumilast foam 0.3% QD for 52 weeks in the present study with no gap in treatment.",
+     "id": "OG000",
+     "title": "Cohort 1 Group 1: ARQ-154-203 Roflumilast Foam 0.3% Without Treatment Gap"
+    },
+    {
+     "description": "Participants from ARQ-154-203 using vehicle foam in the prior study applied roflumilast foam 0.3% QD for 52 weeks in the present study with a gap in treatment.",
+     "id": "OG001",
+     "title": "Cohort 2 Group 3: ARQ-154-203 Roflumilast Foam 0.3% With Treatment Gap"
+    },
+    {
+     "description": "Treatment naive participants who had not previously participated in a clinical study of roflumilast foam 0.3% applied roflumilast foam 0.3% QD for 52 weeks in the present study.",
+     "id": "OG002",
+     "title": "Cohort 2 Group 4: De Novo Participants"
+    },
+    {
+     "description": "Participants from study ARQ-154-116 applied roflumilast foam 0.3% in the present study.",
+     "id": "OG003",
+     "title": "Cohort 1 Group 2: ARQ-154-116 Rollover"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "All participants are included.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to 52 weeks",
+   "title": "Number of Participants With ≥1 Serious Adverse Event (SAE)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

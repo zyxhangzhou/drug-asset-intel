@@ -1,0 +1,175 @@
+{
+ "nctId": "NCT02344004",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "groupDescription": "The proportion of participants achieving culture conversion by Month 6 was analyzed using the Cochran-Mantel-Haenszel test, stratified by smoking status and prior multi-drug regimen. The treatment comparison was tested at two-sided significance level of 0.05. The null hypothesis assumed that culture conversion by Month 6 is independent of treatment, and the alternative hypothesis assumed that culture conversion by Month 6 is associated with treatment.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "otherAnalysisDescription": "The final analysis of the primary endpoint, the number of participants achieving culture conversion at by Month 6, was performed after the last participants completed Month 6 and his/her Month 6 sputum culture result was available.",
+     "pValue": "<0.0001",
+     "statisticalMethod": "Cochran-Mantel-Haenszel"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "65"
+        },
+        {
+         "groupId": "OG001",
+         "value": "10"
+        }
+       ]
+      }
+     ],
+     "title": "Converter"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "159"
+        },
+        {
+         "groupId": "OG001",
+         "value": "102"
+        }
+       ]
+      }
+     ],
+     "title": "Non-Converter"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "224"
+      },
+      {
+       "groupId": "OG001",
+       "value": "112"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Sputum specimens were collected at Screening (Visit 1), Baseline (Visit 2), and at Visits 3 (Month 1) through 8 (Month 6). A negative culture result reflected a negative culture result for all sputum samples collected at each visit. Participants met the primary endpoint of culture conversion by Month 6 if they had 3 consecutive monthly MAC-negative sputum cultures during the first 6 months of the study. A participant needed to achieve the first of 3 consecutive negative sputum cultures (that defined culture conversion) by Month 4 in order to meet the primary endpoint by Month 6. Each participant in the intent to treat (ITT) population (ie, all randomized participants) was classified as either a converter or non-converter by Month 6.",
+   "groups": [
+    {
+     "description": "Participants received LAI 590 mg once daily (QD) in addition to their already prescribed anti-mycobacterial regimen (based on the 2007 ATS/IDSA Guidelines); LAI 590 mg QD, administered by inhaling drug product that had been aerosolized in an eFlow nebulizer over approximately 14 minutes",
+     "id": "OG000",
+     "title": "LAI + Multi-drug Regimen"
+    },
+    {
+     "description": "Participants received their already prescribed anti-mycobacterial regimen (based on the 2007 ATS/IDSA Guidelines)",
+     "id": "OG001",
+     "title": "Multi-drug Regimen"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "The ITT population was the set of all randomized participants. Participants were classified according to their assigned treatment. There was a total of 336 participants in the ITT population, including 224 participants in the LAI + MDR arm and 112 participants in the MDR alone arm.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "by Month 6",
+   "title": "Number of Participants Achieving Culture Conversion by Month 6 in the Liposomal Amikacin for Inhalation (LAI) + Multi-drug Regimen (MDR) Arm Compared to the MDR Alone Arm",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "analyses": [
+    {
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<0.0001",
+     "statisticalMethod": "Cochran-Mantel-Haenszel"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "36"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Durable Conversion"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "188"
+        },
+        {
+         "groupId": "OG001",
+         "value": "112"
+        }
+       ]
+      }
+     ],
+     "title": "Non-Durable Conversion"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "224"
+      },
+      {
+       "groupId": "OG001",
+       "value": "112"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Sputum specimens were collected at screening, baseline (Day 1), during treatment, and at Months 1, 3, 6, and 12 months off treatment. Culture conversion with durability was defined as achieving culture conversion by Month 6 and then having no more than 2 consecutive broth positive cultures and no Agar positive culture up to 3 months off treatment. Converters with missing broth or Agar sputum culture result after Month 6 up to 3 months off treatment were considered as not achieving culture conversion with durability except those participants who are unable to produce sputum despite reasonable efforts, as reported by source documentation. Participants who had relapse/recurrence, had \"rescue\" medication and/or died before reaching 3 months off treatment were considered as not achieving culture conversion with durability.",
+   "groups": [
+    {
+     "description": "Participants received LAI 590 mg QD in addition to their already prescribed anti-mycobacterial regimen (based on the 2007 ATS/IDSA Guidelines); LAI 590 mg QD, administered by inhaling drug product that had been aerosolized in an eFlow nebulizer over approximately 14 minutes",
+     "id": "OG000",
+     "title": "LAI + Multi-drug Regimen"
+    },
+    {
+     "description": "Participants received their already prescribed anti-mycobacterial regimen (based on the 2007 ATS/IDSA Guidelines)",
+     "id": "OG001",
+     "title": "Multi-drug Regimen"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "The ITT population was the set of all randomized participants. Participants were classified according to their assigned treatment. There was a total of 336 participants in the ITT population, including 224 participants in the LAI + MDR arm and 112 participants in the MDR alone arm.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "up to Month 19",
+   "title": "Number of Participants Achieving Durable Culture Conversion Through 3 Months Off Treatment in the LAI + MDR Arm Compared to the MDR Arm Alone",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

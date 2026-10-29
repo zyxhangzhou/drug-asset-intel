@@ -1,0 +1,1386 @@
+{
+ "aliases": [
+  "Disc Medicine"
+ ],
+ "studies": [
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Single Intravenous (IV) or Subcutaneous (SC) ascending dose in healthy volunteers",
+       "interventionNames": [
+        "Drug: DISC-0974"
+       ],
+       "label": "Healthy Volunteer: Single Ascending Dose of DISC-0974",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Single Intravenous (IV) or Subcutaneous (SC) ascending dose in healthy volunteers",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Healthy Volunteer: Single Ascending Dose of Placebo",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Healthy Volunteer: Single Ascending Dose of DISC-0974"
+       ],
+       "description": "DISC-0974 is administered (IV infusion or Subcutaneous Injection) as a single dose",
+       "name": "DISC-0974",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Healthy Volunteer: Single Ascending Dose of Placebo"
+       ],
+       "description": "Placebo is administered (IV infusion or Subcutaneous Injection) as a single dose",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Healthy Volunteer"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 42,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Study to Evaluate the Safety, Tolerability, PK and PD of DISC-0974 in Healthy Subjects",
+     "nctId": "NCT04999527",
+     "officialTitle": "A Phase 1, Randomized, Double-Blind, Placebo-Controlled Study to Evaluate the Safety, Tolerability, PK and PD of DISC-0974 in Healthy Subjects Following Dose-Escalating Single Intravenous or Subcutaneous Administration",
+     "orgStudyIdInfo": {
+      "id": "DISC-0974-101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Disc Medicine, Inc"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Disc Medicine, Inc"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2022-06-30",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2022-07-19",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2022-07-18",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2022-06-30",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2021-08-10",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2022-07",
+     "studyFirstPostDateStruct": {
+      "date": "2021-08-11",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2021-07-20",
+     "studyFirstSubmitQcDate": "2021-08-07"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "interventionNames": [
+        "Drug: DISC-1459"
+       ],
+       "label": "DISC-1459 oral dose level 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: DISC-1459"
+       ],
+       "label": "DISC-1459 oral dose level 2",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "DISC-1459 oral dose level 1"
+       ],
+       "description": "Oral dose level 1, once a day for 120 days",
+       "name": "DISC-1459",
+       "otherNames": [
+        "Bitopertin",
+        "RO4917838"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "DISC-1459 oral dose level 2"
+       ],
+       "description": "Oral dose level 2, once a day for 120 days",
+       "name": "DISC-1459",
+       "otherNames": [
+        "Bitopertin",
+        "RO4917838"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Oral dose, once a day for 120 days",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Erythropoietic Protoporphyria"
+     ],
+     "keywords": [
+      "EPP",
+      "DISC-1459",
+      "RO4917838",
+      "porphyria"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "TRIPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 75,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Study of Bitopertin to Evaluate the Safety, Tolerability, Efficacy, and PPIX Concentrations in Participants With EPP",
+     "nctId": "NCT05308472",
+     "officialTitle": "(AURORA) A Randomized, Double-blind, Placebo-Controlled Study of Bitopertin to Evaluate the Safety, Tolerability, Efficacy, and Protoporphyrin IX (PPIX) Concentrations in Participants With Erythropoietic Protoporphyria (EPP)",
+     "orgStudyIdInfo": {
+      "id": "DISC-1459-201"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Disc Medicine, Inc"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Disc Medicine, Inc"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2024-08-23",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-01-08",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-12-17",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2024-02-20",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2026-01-08",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2025-10-17",
+     "resultsFirstSubmitQcDate": "2025-12-17",
+     "startDateStruct": {
+      "date": "2022-10-31",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-12",
+     "studyFirstPostDateStruct": {
+      "date": "2022-04-04",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2022-03-21",
+     "studyFirstSubmitQcDate": "2022-03-24"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "In the Phase 1b (dose-escalation) portion of the study, DISC-0974 will be administered subcutaneously every 4 weeks.",
+       "interventionNames": [
+        "Drug: DISC-0974"
+       ],
+       "label": "Phase 1b: Dose Escalation",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "In the Phase 2 (expansion) portion of the study, DISC-0974 will be administered subcutaneously every 4 weeks.",
+       "interventionNames": [
+        "Drug: DISC-0974"
+       ],
+       "label": "Phase 2: Expansion",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Phase 1b: Dose Escalation",
+        "Phase 2: Expansion"
+       ],
+       "description": "DISC-0974 is administered subcutaneously.",
+       "name": "DISC-0974",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Myelofibrosis; Anemia",
+      "Anemia",
+      "Myelofibrosis",
+      "Myelofibrosis Due to and Following Polycythemia Vera",
+      "Primary Myelofibrosis",
+      "Post-essential Thrombocythemia Myelofibrosis",
+      "Myelodysplastic Syndromes"
+     ],
+     "keywords": [
+      "Myeloproliferative Neoplasm",
+      "Myeloproliferative Disorders"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 150,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Study of DISC-0974 (RALLY-MF) in Participants With Myelofibrosis or Myelodysplastic Syndrome and Anemia",
+     "nctId": "NCT05320198",
+     "officialTitle": "RALLY-MF: A Phase 1b/2 Open-Label Study to Evaluate the Safety, Tolerability, Pharmacokinetics, Pharmacodynamics, and Clinical Activity of DISC-0974 in Participants With Myelofibrosis or Myelodysplastic Syndrome and Anemia",
+     "orgStudyIdInfo": {
+      "id": "DISC-0974-102"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Disc Medicine, Inc"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Disc Medicine, Inc"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2027-06",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-22",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-21",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-05",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2022-06-06",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-06",
+     "studyFirstPostDateStruct": {
+      "date": "2022-04-11",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2022-03-15",
+     "studyFirstSubmitQcDate": "2022-04-01"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Single dose of DISC-0974",
+       "label": "Phase 1b Single Dose",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Single dose of placebo",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Single Dose of Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "description": "Multiple doses of DISC-0974",
+       "interventionNames": [
+        "Drug: DISC-0974"
+       ],
+       "label": "Phase 1b Multiple Doses",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Multiple doses of placebo",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Multiple Doses of Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Phase 1b Multiple Doses"
+       ],
+       "description": "DISC-0974 is administered subcutaneously",
+       "name": "DISC-0974",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Multiple Doses of Placebo",
+        "Single Dose of Placebo"
+       ],
+       "description": "Placebo is administered subcutaneously",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Chronic Kidney Diseases",
+      "Anemia of Chronic Kidney Disease"
+     ],
+     "keywords": [
+      "Chronic Kidney Disease",
+      "Anemia"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "maskingDescription": "Quadruple (Participant, Care Provider, Investigator, Outcomes Assessor)",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 55,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Study of DISC-0974 to Assess the Safety, Tolerability, PK and PD of DISC-0974 in Participants With CKD and Anemia",
+     "nctId": "NCT05745883",
+     "officialTitle": "A Phase 1b Multicenter, Randomized, Double-Blind, Placebo-Controlled Ascending Dose Study to Evaluate the Safety, Tolerability, Pharmacokinetics and Pharmacodynamics of DISC-0974 in Participants With Non-Dialysis Dependent Chronic Kidney Disease and Anemia",
+     "orgStudyIdInfo": {
+      "id": "DISC-0974-103"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Disc Medicine, Inc"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Disc Medicine, Inc"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2026-01-16",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-04-22",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-04-21",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2025-10-09",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2023-04-04",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-12",
+     "studyFirstPostDateStruct": {
+      "date": "2023-02-27",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2023-02-16",
+     "studyFirstSubmitQcDate": "2023-02-16"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Oral dose, once a day",
+       "interventionNames": [
+        "Drug: DISC-1459"
+       ],
+       "label": "DISC-1459 Oral Dose Level 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Oral dose, once a day",
+       "interventionNames": [
+        "Drug: DISC-1459"
+       ],
+       "label": "DISC-1459 Oral Dose Level 2",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "DISC-1459 Oral Dose Level 1"
+       ],
+       "description": "DISC-1459 dose level 1",
+       "name": "DISC-1459",
+       "otherNames": [
+        "Bitopertin",
+        "RO4917838"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "DISC-1459 Oral Dose Level 2"
+       ],
+       "description": "DISC-1459 dose level 2",
+       "name": "DISC-1459",
+       "otherNames": [
+        "Bitopertin",
+        "RO4917838"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Erythropoietic Protoporphyria"
+     ],
+     "keywords": [
+      "EPP",
+      "DISC-1459",
+      "porphyria",
+      "RO4917838"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 230,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE2",
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "HELIOS: Open-Label, Long-Term Extension Study to Investigate the Safety, Tolerability, and Efficacy of DISC-1459 (Bitopertin) in Participants With EPP or XLP",
+     "nctId": "NCT05883748",
+     "officialTitle": "HELIOS: An Open-Label, Long-Term Study to Investigate the Safety, Tolerability, and Efficacy of DISC-1459 (Bitopertin) in Participants With Erythropoietic Protoporphyria (EPP) or X-Linked Protoporphyria (XLP)",
+     "orgStudyIdInfo": {
+      "id": "DISC-1459-501"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Disc Medicine, Inc"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Disc Medicine, Inc"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2028-06",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": true,
+      "nctId": "NCT07603401",
+      "statusForNctId": "AVAILABLE"
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-09",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-08",
+     "overallStatus": "ENROLLING_BY_INVITATION",
+     "primaryCompletionDateStruct": {
+      "date": "2028-06",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2023-08-31",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-12",
+     "studyFirstPostDateStruct": {
+      "date": "2023-06-01",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2023-05-22",
+     "studyFirstSubmitQcDate": "2023-05-22"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: DISC-3405"
+       ],
+       "label": "Single Ascending Dose of DISC-3405",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Single Ascending Dose of Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "interventionNames": [
+        "Drug: DISC-3405"
+       ],
+       "label": "Multiple Ascending Dose of DISC-3405",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Multiple Ascending Dose of Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Single Ascending Dose of DISC-3405"
+       ],
+       "description": "DISC-3405 is administered as a single dose IV infusion or subcutaneous injection",
+       "name": "DISC-3405",
+       "otherNames": [
+        "9MW3011"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Multiple Ascending Dose of DISC-3405"
+       ],
+       "description": "DISC-3405 is administered in multiple ascending doses as an IV infusion or subcutaneous injection",
+       "name": "DISC-3405",
+       "otherNames": [
+        "9MW3011"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Single Ascending Dose of Placebo"
+       ],
+       "description": "Placebo is administered as a single dose IV infusion or subcutaneous injection",
+       "name": "Placebo",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Multiple Ascending Dose of Placebo"
+       ],
+       "description": "Placebo is administered in multiple ascending doses as an IV infusion or subcutaneous injection",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Healthy Volunteer"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 64,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Study of DISC-3405 in Healthy Volunteers",
+     "nctId": "NCT06050915",
+     "officialTitle": "A Phase 1, Randomized, Double-Blind, Placebo-Controlled Single and Multiple Ascending Dose Study to Evaluate Safety, Tolerability, Pharmacokinetics, Pharmacodynamics, and Immunogenicity Characteristics of DISC-3405 in Adult Healthy Male and Female Volunteers",
+     "orgStudyIdInfo": {
+      "id": "DISC-3405-101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Disc Medicine, Inc"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Disc Medicine, Inc"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2024-07-09",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2024-12-18",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2024-12-13",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2024-07-09",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2023-10-03",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2024-12",
+     "studyFirstPostDateStruct": {
+      "date": "2023-09-22",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2023-09-07",
+     "studyFirstSubmitQcDate": "2023-09-18"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "interventionNames": [
+        "Drug: DISC-1459"
+       ],
+       "label": "DISC-1459 oral dose",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Oral dose, once a day for 24 weeks",
+       "name": "Placebo",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "DISC-1459 oral dose"
+       ],
+       "description": "Oral dose, once a day for 24 weeks",
+       "name": "DISC-1459",
+       "otherNames": [
+        "Bitopertin",
+        "RO4917838"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Erythropoietic Protoporphyria (EPP)",
+      "X-Linked Protoporphyria (XLP)"
+     ],
+     "keywords": [
+      "EPP",
+      "XLP",
+      "DISC-1459",
+      "RO4917838",
+      "porphyria"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 183,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "APOLLO",
+     "briefTitle": "Study of Bitopertin in Participants With EPP or XLP (APOLLO)",
+     "nctId": "NCT06910358",
+     "officialTitle": "APOLLO: A Randomized, Double-Blind, Placebo-Controlled Study of Bitopertin to Evaluate the Efficacy, Safety, and Tolerability in Participants With Erythropoietic Protoporphyria (EPP) or X-Linked Protoporphyria (XLP)",
+     "orgStudyIdInfo": {
+      "id": "DISC-1459-301"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Disc Medicine, Inc"
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "2024-520407-27-00",
+       "type": "CTIS"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Disc Medicine, Inc"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2026-09-08",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": true,
+      "nctId": "NCT07603401",
+      "statusForNctId": "AVAILABLE"
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-09",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-08",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2026-09-08",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2025-04-04",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-10",
+     "studyFirstPostDateStruct": {
+      "date": "2025-04-04",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-03-17",
+     "studyFirstSubmitQcDate": "2025-03-27"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "This is an open-label, multicenter, within-participant dose escalation study examining up to 2 dose levels of DISC-3405.",
+       "interventionNames": [
+        "Drug: DISC-3405"
+       ],
+       "label": "Within-participant dose escalation",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Within-participant dose escalation"
+       ],
+       "description": "DISC-3405 is administered subcutaneously.",
+       "name": "DISC-3405",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Polycythemia Vera (PV)"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SEQUENTIAL",
+      "interventionModelDescription": "Up to 3 cohorts of participants are planned:\n\n* Cohort A will include 20 participants. The first 4 participants enrolled will be administered a starting dose level of Dose A DISC-3405 subcutaneous which will be followed by within-participant dose escalation. Following Safety Review Committee review of the data, an additional 16 participants will be enrolled and administered a starting dose level of Dose B DISC-3405 subcutaneous.\n* Cohort B will enroll up to 20 participants administered a dose level of Dose B DISC-3405 subcutaneous once every 4 weeks.\n* Cohort C is optional and will enroll up to 20 participants administered a dose level up to that previously studied of DISC-3405 subcutaneous once every 4 weeks.",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 60,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Phase 2, Open-Label Study of DISC-3405 in Participants With Polycythemia Vera (PV)",
+     "nctId": "NCT06985147",
+     "officialTitle": "A Phase 2, Open-Label Study of the Safety, Tolerability, Pharmacokinetics, Pharmacodynamics, and Efficacy of DISC-3405 in Participants With Polycythemia Vera (PV)",
+     "orgStudyIdInfo": {
+      "id": "DISC-3405-201"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Disc Medicine, Inc"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Disc Medicine, Inc"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2029-02",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-07-31",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-07-30",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-02",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2025-08-12",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-09",
+     "studyFirstPostDateStruct": {
+      "date": "2025-05-22",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-05-07",
+     "studyFirstSubmitQcDate": "2025-05-14"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "This is an open-label, multicenter, within-participant dose-escalation study examining up to 3 dose levels of DISC-3405.",
+       "interventionNames": [
+        "Drug: DISC-3405"
+       ],
+       "label": "Within-participant dose escalation",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Within-participant dose escalation"
+       ],
+       "description": "DISC-3405 is administered subcutaneously.",
+       "name": "DISC-3405",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Sickle Cell Disease"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SEQUENTIAL",
+      "interventionModelDescription": "Up to 2 cohorts of participants are planned:\n\n* Cohort A will enroll 12 participants with HbSC or HbSS. At least one-third of participants must be HbSC, and at least one-third of participants must be HbSS.\n* Cohort B is optional and will enroll up to 12 participants with HbSC or HbSS, administering previously studied or lesser dose levels and regimens",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 24,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Phase 1b, Open-Label Study of DISC-3405 in Participants With Sickle Cell Disease (SCD)",
+     "nctId": "NCT07187973",
+     "officialTitle": "A Phase 1b Study of the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of DISC-3405 in Participants With Sickle Cell Disease",
+     "orgStudyIdInfo": {
+      "id": "DISC-3405-102"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Disc Medicine, Inc"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Disc Medicine, Inc"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2027-10",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-05",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-09-30",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-06",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2026-01-06",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-05",
+     "studyFirstPostDateStruct": {
+      "date": "2025-09-23",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-09-08",
+     "studyFirstSubmitQcDate": "2025-09-16"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "DISC-0974 60 mg (n = 14) administered subcutaneously (SC) every 28 days for 3 doses",
+       "interventionNames": [
+        "Drug: DISC-0974"
+       ],
+       "label": "Active",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Placebo (n = 7) administered SC every 28 days for 3 doses",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Active"
+       ],
+       "description": "DISC-0974 is administered subcutaneously.",
+       "name": "DISC-0974",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Placebo is administered subcutaneously",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Inflammatory Bowel Disease (IBD)",
+      "Anemia",
+      "Inflammatory Bowel Disease (IBD); Anemia"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 21,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Study of DISC-0974-201 in Participants With IBD and Anemia",
+     "nctId": "NCT07368972",
+     "officialTitle": "RALLY-IBD: A Phase 2 Randomized, Double-Blind Study to Evaluate the Safety, Tolerability, and Efficacy of DISC-0974 in Participants With Inflammatory Bowel Disease and Anemia of Inflammation",
+     "orgStudyIdInfo": {
+      "id": "DISC-0974-201"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Disc Medicine, Inc"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Disc Medicine, Inc"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2027-03",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-09-23",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-09-22",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2026-10",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2026-02-20",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-03",
+     "studyFirstPostDateStruct": {
+      "date": "2026-01-27",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2026-01-22",
+     "studyFirstSubmitQcDate": "2026-01-23"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "interventions": [
+      {
+       "description": "DISC-1459, 60 mg oral dose once a day",
+       "name": "DISC-1459",
+       "otherNames": [
+        "Bitopertin",
+        "RO4917838"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Erythropoietic Protoporphyria (EPP)",
+      "X-Linked Protoporphyria (XLP)"
+     ],
+     "keywords": [
+      "EPP",
+      "XLP",
+      "DISC-1459",
+      "RO4917838",
+      "Porphyria"
+     ]
+    },
+    "designModule": {
+     "expandedAccessTypes": {
+      "intermediate": true
+     },
+     "nPtrsToThisExpAccNctId": 2,
+     "studyType": "EXPANDED_ACCESS"
+    },
+    "identificationModule": {
+     "briefTitle": "Expanded Access Program of Bitopertin For Participants With EPP or XLP",
+     "nctId": "NCT07603401",
+     "officialTitle": "Expanded Access Program Protocol: Bitopertin (DISC-1459) For The Treatment of Erythropoietic Protoporphyria (EPP) and X-Linked Protoporphyria (XLP)",
+     "orgStudyIdInfo": {
+      "id": "DISC-1459-EAP-US"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Disc Medicine, Inc"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Disc Medicine, Inc"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-06",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-05",
+     "overallStatus": "AVAILABLE",
+     "statusVerifiedDate": "2026-05",
+     "studyFirstPostDateStruct": {
+      "date": "2026-05-22",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2026-05-18",
+     "studyFirstSubmitQcDate": "2026-05-18"
+    }
+   }
+  }
+ ]
+}

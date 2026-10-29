@@ -1,0 +1,47 @@
+{
+ "nctId": "NCT01247207",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "242"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "265"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "An adverse event (AE) was any untoward medical occurrence in a participant who received study drug without regard to possibility of causal relationship. A TEAE was defined as an AE that occurred or worsened on or after the first dose of ataluren and up to 4 weeks after the last dose of ataluren. A summary of other non-serious AEs and all SAEs, regardless of causality is located in the 'Reported AE section'.",
+   "groups": [
+    {
+     "description": "Participants received 3 doses of ataluren oral suspension per day (10 mg/kg in the morning, 10 mg/kg at midday and 20 mg/kg in the evening).",
+     "id": "OG000",
+     "title": "Ataluren"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "The As-treated population included all participants who received at least 1 dose of ataluren.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline up to end of study (up to approximately 15 years)",
+   "title": "Number of Participants With Treatment-emergent Adverse Events (TEAEs)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

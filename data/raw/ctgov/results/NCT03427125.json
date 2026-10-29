@@ -1,0 +1,83 @@
+{
+ "nctId": "NCT03427125",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<0.0001",
+     "statisticalMethod": "ANCOVA"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.199",
+         "value": "0.43"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.196",
+         "value": "1.80"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "63"
+      },
+      {
+       "groupId": "OG001",
+       "value": "68"
+      },
+      {
+       "groupId": "OG002",
+       "value": "0"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Patients with at least a 1.2 mg/dL decrease in serum phosphorus during the first 26 weeks of the study were defined as the responder population.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "During the 26-week open label part, all enrolled subjects will receive 30 mg BID doses of tenapanor. Investigators may decrease or increase the dose in 10 mg increments to a minimum of 10 g BIDor a maximum of 30 mg BID\n\nTenapanor: Active Drug",
+     "id": "OG000",
+     "title": "Tenapanor 10 mg, 20 mg, 30 mg BID"
+    },
+    {
+     "description": "Placebo\n\nPlacebo: Inactive Drug",
+     "id": "OG001",
+     "title": "Placebo"
+    },
+    {
+     "description": "Subjects randomized into the active control group, for safety analysis, will receive sevelamer carbonate, open label, for the entire 52-week study period. Sevelamer carbonate will be dosed based on package insert instructions (standard of care)\n\nSevelamer Carbonate: Active control",
+     "id": "OG002",
+     "title": "Sevelamer Carbonate"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "The sevalmer arm was not included in the randomized withdrawal period. They were treated as an active safety comparator.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "12 weeks (randomized withdrawal period)",
+   "title": "Change in Serum Phosphorus Levels During Placebo Controlled Randomized Withdrawal Period in the Responder Population",
+   "type": "PRIMARY",
+   "unitOfMeasure": "mg/dL"
+  }
+ ]
+}

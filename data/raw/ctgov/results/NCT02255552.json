@@ -1,0 +1,63 @@
+{
+ "nctId": "NCT02255552",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "128.488",
+         "value": "-117.91"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "129.333",
+         "value": "-133.56"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "65"
+      },
+      {
+       "groupId": "OG001",
+       "value": "9"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "6MWT was performed by standardized procedures for all participants. Participants were asked to walk a set course of 25 meters for 6 minutes (timed), and the distance walked (in meters) was recorded. Change from baseline in 6MWT distance at Week 96 was reported.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants with genotypically confirmed Duchenne muscular dystrophy (DMD) with genetic deletions amenable to treatment by exon 51 skipping received Eteplirsen as an Intravenous (IV) infusion, at a dose of 30 milligram per kilogram (mg/kg) once weekly for 96 weeks.",
+     "id": "OG000",
+     "title": "Eteplirsen 30 mg/kg"
+    },
+    {
+     "description": "DMD participants with mutations amenable to skipping of any exon(s) except exon 51 did not receive any treatment, but completed study assessments up to 96 weeks.",
+     "id": "OG001",
+     "title": "Untreated Control Group (Non-exon 51 Amenable Participants)"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Primary efficacy set: all participants in the efficacy set (all participants in eteplirsen-treated and untreated control groups who had at least 1 post-baseline functional assessment) who had a Baseline 6MWT distance of 300 to 450 meters, inclusive. Here, \"Overall Number of Participants Analyzed\"=participants evaluable for this outcome measure.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Week 96",
+   "title": "Change From Baseline in the 6 Minute Walk Test (6MWT) Distance at Week 96",
+   "type": "PRIMARY",
+   "unitOfMeasure": "meters"
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "nctId": "NCT03794583",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "35"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "41"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "An adverse event (AE) can be any unfavorable or unintended sign (including an abnormal laboratory finding), symptom, or disease temporally associated with the use of a medicinal (investigational) product, whether or not related to the medicinal (investigational) product. Treatment-emergent was defined as any AE occurring/worsening at any time after a participant was exposed to study drug up until 7 days after the last dose of study drug. A summary of all Serious Adverse Events and Other Adverse Events (nonserious) regardless of causality is located in the 'Reported Adverse Events' Section.",
+   "groups": [
+    {
+     "description": "Participants received up to 90 μg of treprostinil for inhalation QID, for up to 4 years",
+     "id": "OG000",
+     "title": "Treprostinil"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Safety population included all participants who received at least 1 dose of inhaled treprostinil.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to 4 years",
+   "title": "Number of Participants With Treatment-Emergent Adverse Events (TEAEs)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

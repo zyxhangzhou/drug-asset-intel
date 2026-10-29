@@ -1,0 +1,60 @@
+{
+ "nctId": "NCT00156936",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "62"
+        },
+        {
+         "groupId": "OG001",
+         "value": "11"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "62"
+      },
+      {
+       "groupId": "OG001",
+       "value": "11"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "A TEAE is any adverse event (AE), whether or not considered drug-related, that develops or worsens in severity after study drug administration begins (ie, from the first administration through the end of the follow-up period).",
+   "groups": [
+    {
+     "description": "Subjects in this dosing group received VIVITROL (Medisorb naltrexone 380 mg) via intramuscular (IM) injection once every 4 weeks throughout the base study and continued on the same regimen throughout this extension.",
+     "id": "OG000",
+     "title": "Medisorb Naltrexone 380 mg (VIVITROL)"
+    },
+    {
+     "description": "Subjects in this dosing group switched from oral naltrexone 50 mg daily in the base study to receive VIVITROL (Medisorb naltrexone 380) mg via IM injection once every 4 weeks in this extension study.",
+     "id": "OG001",
+     "title": "Oral Naltrexone to Medisorb Naltrexone 380 mg (VIVITROL)"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Safety population includes all enrolled subjects who received at least 1 dose of study drug (VIVITROL 380 mg) in this extension study.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to 3 years",
+   "title": "Number of Subjects Who Reported at Least 1 Treatment-emergent Adverse Event (TEAE) While on Study.",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

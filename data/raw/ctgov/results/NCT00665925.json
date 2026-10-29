@@ -1,0 +1,91 @@
+{
+ "nctId": "NCT00665925",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG002",
+         "value": "53"
+        },
+        {
+         "groupId": "OG003",
+         "value": "87"
+        },
+        {
+         "groupId": "OG004",
+         "value": "101"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "0"
+      },
+      {
+       "groupId": "OG001",
+       "value": "0"
+      },
+      {
+       "groupId": "OG002",
+       "value": "153"
+      },
+      {
+       "groupId": "OG003",
+       "value": "152"
+      },
+      {
+       "groupId": "OG004",
+       "value": "151"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The number of participants with greater than or equal to 20% improvement in tender and swollen joint counts, AND in any 3 of the following: physician's assessment of disease activity, patient's assessment of disease activity, patient's assessment of pain, HAQ-DI; and C-Reactive Protein (CRP) or erythrocyte sedimentation rate (ESR), after 6 months",
+   "groups": [
+    {
+     "description": "Placebo to R788, oral tablets, once daily, double-blind",
+     "id": "OG000",
+     "title": "Arm 1 - Placebo qd"
+    },
+    {
+     "description": "Placebo to R788, oral tablets, twice daily, double-blind",
+     "id": "OG001",
+     "title": "Arm 2 - Placebo Bid"
+    },
+    {
+     "description": "Placebo to R788, oral tablets once and twice daily pooled",
+     "id": "OG002",
+     "title": "Arm 3 - Placebo Pooled"
+    },
+    {
+     "description": "R788 150 mg, oral tablets, once daily, double-blind",
+     "id": "OG003",
+     "title": "Arm 4 - R788 150 mg qd"
+    },
+    {
+     "description": "R788 100 mg, oral tablets, twice daily, double-blind",
+     "id": "OG004",
+     "title": "Arm 5 - R788 100 mg Bid"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Intent-to-treat population includes all subjects that received study drug",
+   "reportingStatus": "POSTED",
+   "timeFrame": "6 months",
+   "title": "American College of Rheumatology 20 (ACR20) Response at 6 Months",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

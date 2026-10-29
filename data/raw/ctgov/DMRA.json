@@ -1,0 +1,146 @@
+{
+ "aliases": [
+  "Damora Therapeutics"
+ ],
+ "studies": [
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "DMR-001 will be administered starting once every 4 weeks as a subcutaneous injection at the protocol defined starting dose and dosing schedule to identify the maximum tolerated dose and/or recommended dose(s) for expansion.",
+       "interventionNames": [
+        "Drug: DMR-001"
+       ],
+       "label": "Part 1: DMR-001 monotherapy dose escalation phase.",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "DMR-001 will be administered starting once every 4 weeks as a subcutaneous injection at the determined recommended dose(s) for expansion based on Part 1.",
+       "interventionNames": [
+        "Drug: DMR-001"
+       ],
+       "label": "Part 2: DMR-001 monotherapy dose expansion phase.",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "DMR-001 will be administered starting once every 4 weeks as a subcutaneous injection at the determined dose and regimen, but in combination with an oral tablet of ruxolitinib, a standard of care drug approved therapy for the treatment of MF.",
+       "interventionNames": [
+        "Drug: DMR-001",
+        "Drug: Ruxolitinib"
+       ],
+       "label": "Part 3: DMR-001 and ruxolitinib combination dose escalation followed by dose expansion.",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Part 1: DMR-001 monotherapy dose escalation phase.",
+        "Part 2: DMR-001 monotherapy dose expansion phase.",
+        "Part 3: DMR-001 and ruxolitinib combination dose escalation followed by dose expansion."
+       ],
+       "description": "DMR-001 will be administered at protocol defined dose at a frequency of every 4 weeks.",
+       "name": "DMR-001",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Part 3: DMR-001 and ruxolitinib combination dose escalation followed by dose expansion."
+       ],
+       "description": "Ruxolitinib will be administered according to Prescribing Information/SmPC.",
+       "name": "Ruxolitinib",
+       "otherNames": [
+        "Jakafi",
+        "Jakavi"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Myeloproliferative Neoplasms (MPNs)"
+     ],
+     "keywords": [
+      "Myeloproliferative Neoplasms",
+      "Myelofibrosis",
+      "Essential Thrombocythemia",
+      "CALR mutation"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 250,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "CLARITY-101",
+     "briefTitle": "A Study to Evaluate DMR-001 in Participants With CALR-mutant Myeloproliferative Neoplasms",
+     "nctId": "NCT07849231",
+     "officialTitle": "A Phase 1/1b Study Evaluating the Safety, Pharmacokinetics, and Preliminary Efficacy of Mutant Calreticulin Targeted Antibodies, Administered Alone or in Combination With Ruxolitinib, in Participants With CALR-mutant Myeloproliferative Neoplasms",
+     "orgStudyIdInfo": {
+      "id": "DMRA-MPN-101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Damora Therapeutics"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Damora Therapeutics"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2030-06",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-27",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-23",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2030-06",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2026-09",
+      "type": "ESTIMATED"
+     },
+     "statusVerifiedDate": "2026-10",
+     "studyFirstPostDateStruct": {
+      "date": "2026-09-30",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2026-09-21",
+     "studyFirstSubmitQcDate": "2026-09-28"
+    }
+   }
+  }
+ ]
+}

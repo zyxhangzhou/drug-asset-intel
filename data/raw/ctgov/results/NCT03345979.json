@@ -1,0 +1,81 @@
+{
+ "nctId": "NCT03345979",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "groupIds": [
+      "OG000"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<.001",
+     "statisticalMethod": "t-test, 2 sided"
+    },
+    {
+     "groupIds": [
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<.001",
+     "statisticalMethod": "t-test, 2 sided"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "11.57",
+         "value": "-17.4"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "13.72",
+         "value": "-20.1"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "80"
+      },
+      {
+       "groupId": "OG001",
+       "value": "80"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Change within treatment groups of Positive and Negative Syndrome Scale (PANSS) total score between baseline and week 4 based on the observed data without imputation for missing data. The PANSS scale contains 30 questions, each containing an answer range of 1-7. A total PANSS score can range from between 30 to 210; a higher score indicates a worse disease condition.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Aripiprazole lauroxil (AL)1-day initiation regimen (30mg oral aripiprazole + intramuscular injection aripiprazole lauroxil nano-cyrstalline milled dispersion \\[AL-NCD\\]) on day 1, followed by 1064mg intramuscular injection aripiprazole lauroxil on day 8 and every 2 months thereafter",
+     "id": "OG000",
+     "title": "Aripiprazole Lauroxil"
+    },
+    {
+     "description": "Paliperidone palmitate (PP) initiation dosing (234mg intramuscular injection on day 1 + 156mg intramuscular injection on day 8), followed by 156mg intramuscular injection paliperidone palmitate every month thereafter",
+     "id": "OG001",
+     "title": "Paliperidone Palmitate"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "The analysis is based on the subjects who had both baseline and observed week 4 Positive and Negative Syndrome Scale (PANSS) data (160 participants).",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline and 4 weeks",
+   "title": "Change From Baseline in the Positive and Negative Syndrome Scale (PANSS) Total Score at Week 4",
+   "type": "PRIMARY",
+   "unitOfMeasure": "units on a scale"
+  }
+ ]
+}

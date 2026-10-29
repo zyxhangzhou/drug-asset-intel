@@ -1,0 +1,78 @@
+{
+ "nctId": "NCT04770753",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "32.0",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "49.8",
+     "groupDescription": "The estimated adjusted difference in response rate, 95% CI, and p-value are based on Mantel-Haenszel stratum weighted method adjusting for the randomization stratification factors.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<0.0001",
+     "paramType": "Percentage difference",
+     "paramValue": "40.9",
+     "statisticalMethod": "Cochran-Mantel-Haenszel"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "42.3"
+        },
+        {
+         "groupId": "OG001",
+         "value": "1.6"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "130"
+      },
+      {
+       "groupId": "OG001",
+       "value": "64"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Hb response is defined as ≥10 grams/ liter (g/L) (1.0 gram per deciliter) (g/dL) increase in average Hb concentration from Week 12 through Week 24 compared with baseline. Hb response was tested using the Mantel-Haenszel stratum weighted method adjusting for randomization stratification factors. Baseline is defined as the average of all assessments within 42 days before randomization for subjects randomized and not dosed or within 42 days before the start of study treatment for subjects randomized and dosed.",
+   "groups": [
+    {
+     "description": "Participants randomized to receive Mitapivat 100 milligrams (mg), orally, twice daily (BID) for 24 weeks in double blind period and for up to 5 years in open label extension period.",
+     "id": "OG000",
+     "title": "Mitapivat"
+    },
+    {
+     "description": "Participants randomized to receive placebo matching mitapivat, orally, BID for 24 weeks in double blind period followed by Mitapivat 100 mg, orally, BID for up to 5 years in open label extension period.",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "FAS included all participants who were randomized.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Double-Blind Period: Baseline up to Week 12 through Week 24",
+   "title": "Double-Blind Period: Percentage of Participants Who Achieved Hemoglobin (Hb) Response From Week 12 Through Week 24 Compared With Baseline",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Percentage of participants"
+  }
+ ]
+}

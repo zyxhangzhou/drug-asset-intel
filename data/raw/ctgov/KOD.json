@@ -1,0 +1,1860 @@
+{
+ "aliases": [
+  "Kodiak Sciences"
+ ],
+ "studies": [
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "KSI-301 2.5 mg, 3 monthly initiating doses, with subsequent doses per protocol-specified retreatment criteria",
+       "interventionNames": [
+        "Drug: KSI-301"
+       ],
+       "label": "KSI-301 2.5 mg",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "KSI-301 5 mg, 3 monthly initiating doses, with subsequent doses per protocol-specified retreatment criteria",
+       "interventionNames": [
+        "Drug: KSI-301"
+       ],
+       "label": "KSI-301 5 mg",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "KSI-301 2.5 mg",
+        "KSI-301 5 mg"
+       ],
+       "description": "Intravitreal injection",
+       "name": "KSI-301",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Wet Age-related Macular Degeneration",
+      "Retinal Vein Occlusion",
+      "Diabetic Macular Edema"
+     ],
+     "keywords": [
+      "DME",
+      "wAMD",
+      "RVO",
+      "KSI-301",
+      "Kodiak"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 121,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Exploratory Study to Investigate the Bioactivity, Ocular and Systemic Safety, Tolerability, and Pharmacokinetics Following Single and Multiple Intravitreal Administrations of KSI-301 in Subjects With wAMD, DME and RVO",
+     "nctId": "NCT03790852",
+     "officialTitle": "A Phase 1/1b Open Label, Multi-center Exploratory Study to Investigate the Bioactivity, Ocular and Systemic Safety, Tolerability, and Pharmacokinetics Following Single and Multiple Intravitreal Administrations of KSI-301 in Subjects With Wet Age-Related Macular Degeneration (wAMD), Diabetic Macular Edema (DME) and Retinal Vein Occlusion (RVO)",
+     "orgStudyIdInfo": {
+      "id": "KSI-CL-101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Kodiak Sciences Inc"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Kodiak Sciences Inc"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2022-06-09",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2024-03-20",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2024-03-18",
+     "overallStatus": "TERMINATED",
+     "primaryCompletionDateStruct": {
+      "date": "2021-06-02",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2018-12-26",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2022-11",
+     "studyFirstPostDateStruct": {
+      "date": "2019-01-02",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2018-12-27",
+     "studyFirstSubmitQcDate": "2018-12-31",
+     "whyStopped": "All patients past planned primary endpoint; decision by Sponsor to wind down open-label follow-up activities."
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Drug: KSI-301 5 mg. KSI-301 5 mg will be administered by intravitreal injection into the study eye at 12, 16, and 20 weeks intervals as specified in the study protocol.\n\nDrug: Sham Procedure. The sham is a procedure that mimics an intravitreal injection. It involves pressing the blunt end of an empty syringe (without a needle) against the anesthetized eye. It will be administered to participants in both treatments arms at applicable visits to maintain masking.",
+       "interventionNames": [
+        "Drug: KSI-301",
+        "Other: Sham Procedure"
+       ],
+       "label": "KSI-301 5 mg",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Drug: Aflibercept 2 mg. Aflibercept 2 mg will be administered by intravitreal injection into the study eye once every 4 weeks for 3 consecutive months, followed by once every 8 weeks.\n\nDrug: Sham Procedure. The sham is a procedure that mimics an intravitreal injection. It involves pressing the blunt end of an empty syringe (without a needle) against the anesthetized eye. It will be administered to participants in both treatments arms at applicable visits to maintain masking.",
+       "interventionNames": [
+        "Drug: Aflibercept",
+        "Other: Sham Procedure"
+       ],
+       "label": "Aflibercept 2 mg",
+       "type": "ACTIVE_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "KSI-301 5 mg"
+       ],
+       "description": "Intravitreal Injection",
+       "name": "KSI-301",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Aflibercept 2 mg"
+       ],
+       "description": "Intravitreal Injection",
+       "name": "Aflibercept",
+       "otherNames": [
+        "Eylea"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Aflibercept 2 mg",
+        "KSI-301 5 mg"
+       ],
+       "description": "The sham is a procedure that mimics an intravitreal injection. It involves pressing the blunt end of an empty syringe (without a needle) against the anesthetized eye. It will be administered to participants in both treatments arms at applicable visits to maintain masking.",
+       "name": "Sham Procedure",
+       "type": "OTHER"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Wet Macular Degeneration"
+     ],
+     "keywords": [
+      "AMD",
+      "Wet AMD",
+      "choroidal neovascularization secondary to age-related macular degeneration",
+      "KSI-301",
+      "Aflibercept",
+      "Vascular endothelial growth factor",
+      "VEGF",
+      "Anti-VEGF",
+      "Antibody biopolymer conjugate",
+      "Macular Degeneration",
+      "Wet Macular Degeneration",
+      "Retinal Degeneration",
+      "Retinal Diseases",
+      "Eye Diseases",
+      "Vision Disorders",
+      "Vision, low",
+      "Kodiak"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "TRIPLE",
+       "maskingDescription": "A masked evaluating investigator will be responsible for subject care except the injections and the safety assessment following the injections. An unmasked treating investigator will perform the injections and assess patient safety following the injections.",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 559,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2",
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "DAZZLE",
+     "briefTitle": "A Study to Evaluate the Efficacy and Safety of KSI-301, an Anti-VEGF Antibody Biopolymer Conjugate, Versus Aflibercept in Patients With Neovascular (Wet) Age-Related Macular Degeneration.",
+     "nctId": "NCT04049266",
+     "officialTitle": "A Phase 2b/3, Prospective, Randomized, Double-masked, Active Comparator-controlled, Multi-center Study to Investigate the Efficacy and Safety of Repeated Intravitreal Administration of KSI-301 in Subjects With Neovascular (Wet) Age-related Macular Degeneration.",
+     "orgStudyIdInfo": {
+      "id": "KSI-CL-102"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Kodiak Sciences Inc"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Kodiak Sciences Inc"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2022-04-26",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2024-07-18",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2024-07-16",
+     "overallStatus": "TERMINATED",
+     "primaryCompletionDateStruct": {
+      "date": "2021-11-17",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2024-07-18",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2024-04-04",
+     "resultsFirstSubmitQcDate": "2024-07-16",
+     "startDateStruct": {
+      "date": "2019-10-08",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2024-06",
+     "studyFirstPostDateStruct": {
+      "date": "2019-08-08",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2019-08-06",
+     "studyFirstSubmitQcDate": "2019-08-06",
+     "whyStopped": "Primary Endpoint Not Met"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Intravitreal injection of KSI-301 (5 mg) at Day 1, Week 4, and once every 8 weeks through Week 20 followed by an individualized dosing regimen of Intravitreal injection of KSI-301 (5 mg) from Week 24 to Week 44.\n\nIn the Extension Phase, participants randomized to KSI-301 (5 mg) in the Primary Study will continue to receive KSI-301 (5 mg) based on protocol-defined disease activity criteria.",
+       "interventionNames": [
+        "Drug: KSI-301",
+        "Other: Sham Procedure"
+       ],
+       "label": "KSI-301 (Arm A)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Intravitreal injection of aflibercept (2 mg) once every 4 through Week 20 followed by an individualized dosing regimen of Intravitreal injection of Aflibercept (2 mg) once every 4 weeks from Week 24 to Week 44.\n\nIn the Extension Phase, participants randomized to aflibercept in the Primary Study will cross over to treatment with KSI-301 (5 mg). They will receive their first dose of KSI-301 (5 mg) at Week 48 and will receive additional treatment with KSI-301 (5 mg) based on protocol-defined disease activity criteria.",
+       "interventionNames": [
+        "Drug: Aflibercept",
+        "Other: Sham Procedure"
+       ],
+       "label": "Aflibercept (Arm B)",
+       "type": "ACTIVE_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "KSI-301 (Arm A)"
+       ],
+       "description": "Intravitreal Injection",
+       "name": "KSI-301",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Aflibercept (Arm B)"
+       ],
+       "description": "Intravitreal Injection",
+       "name": "Aflibercept",
+       "otherNames": [
+        "Eylea"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Aflibercept (Arm B)",
+        "KSI-301 (Arm A)"
+       ],
+       "description": "The sham is a procedure that mimics an intravitreal injection. It involves pressing the blunt end of an empty syringe (without a needle) against the anesthetized eye. It will be administered to participants in both treatments arms at applicable visits to maintain masking.",
+       "name": "Sham Procedure",
+       "type": "OTHER"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Macular Edema",
+      "Retinal Vein Occlusion"
+     ],
+     "keywords": [
+      "RVO",
+      "Kodiak",
+      "KSI-301",
+      "Vascular endothelial growth factor",
+      "Anti-VEGF",
+      "VEGF",
+      "Antibody biopolymer conjugate",
+      "Retinal Degeneration",
+      "Retinal Diseases",
+      "Eye Diseases",
+      "Vision Disorders",
+      "Vision, low",
+      "Aflibercept",
+      "Eylea"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "interventionModelDescription": "Participants will be randomized 1:1 into one of two treatment arms: KSI-301 or aflibercept.\n\nParticipants in the Extension Phase will be treated with KSI-301.",
+      "maskingInfo": {
+       "masking": "TRIPLE",
+       "maskingDescription": "For masking purposes, sham injections will be administered at every monthly visit if an active treatment is not administered. To preserve masking, two investigators are required for this study. The masked Investigator will be responsible for the examinations and safety assessments. The unmasked Investigator will perform the injections and post-treatment assessments.",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 568,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "BEACON",
+     "briefTitle": "A Study to Evaluate the Efficacy, Durability, and Safety of KSI-301 Compared to Aflibercept in Patients With Macular Edema Due to Retinal Vein Occlusion (RVO)",
+     "nctId": "NCT04592419",
+     "officialTitle": "A Prospective, Randomized, Double-masked, Active Comparator-controlled, Multi-center, Two-arm, Phase 3 Study to Evaluate the Efficacy and Safety of Intravitreal KSI-301 Compared With Intravitreal Aflibercept in Participants With Visual Impairment Due to Treatment-naïve Macular Edema Secondary to Retinal Vein Occlusion (RVO)",
+     "orgStudyIdInfo": {
+      "id": "KS301P103"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Kodiak Sciences Inc"
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "2020-001061-37",
+       "type": "EUDRACT_NUMBER"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Kodiak Sciences Inc"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2023-01-19",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2024-06-26",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2024-06-14",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2022-06-10",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2024-06-06",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2024-04-04",
+     "resultsFirstSubmitQcDate": "2024-05-09",
+     "startDateStruct": {
+      "date": "2020-09-25",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2024-06",
+     "studyFirstPostDateStruct": {
+      "date": "2020-10-19",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2020-10-12",
+     "studyFirstSubmitQcDate": "2020-10-16"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Intravitreal injection of KSI-301 (5 mg) once every 4 weeks for 3 monthly doses followed by an individualized dosing regimen (every 8 to 24 weeks) via intravitreal injection from Week 16 to Week 100.",
+       "interventionNames": [
+        "Drug: KSI-301",
+        "Other: Sham Procedure"
+       ],
+       "label": "KSI-301 (Arm A)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Intravitreal injection of aflibercept (2 mg) once every 4 weeks for 5 monthly doses followed by aflibercept (2 mg) once every 8 weeks via intravitreal injection from Week 24 to 100.",
+       "interventionNames": [
+        "Drug: Aflibercept",
+        "Other: Sham Procedure"
+       ],
+       "label": "Aflibercept (Arm B)",
+       "type": "ACTIVE_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "KSI-301 (Arm A)"
+       ],
+       "description": "Intravitreal Injection",
+       "name": "KSI-301",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Aflibercept (Arm B)"
+       ],
+       "description": "Intravitreal Injection",
+       "name": "Aflibercept",
+       "otherNames": [
+        "Eylea"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Aflibercept (Arm B)",
+        "KSI-301 (Arm A)"
+       ],
+       "description": "The sham is a procedure that mimics an intravitreal injection. It involves pressing the blunt end of an empty syringe (without a needle) against the anesthetized eye. It will be administered to participants in both treatments arms at applicable visits to maintain masking.",
+       "name": "Sham Procedure",
+       "type": "OTHER"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Diabetic Macular Edema"
+     ],
+     "keywords": [
+      "DME",
+      "Kodiak",
+      "Vascular endothelial growth factor",
+      "Anti-VEGF",
+      "VEGF",
+      "Antibody biopolymer conjugate",
+      "Retinal Degeneration",
+      "Retinal Diseases",
+      "Eye Diseases",
+      "Vision Disorders",
+      "Vision, low",
+      "Aflibercept",
+      "Eylea",
+      "Diabetes mellitus",
+      "Diabetes",
+      "Diabetic retinopathy",
+      "Diabetic macular edema",
+      "Macular edema",
+      "KSI-301"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "interventionModelDescription": "Participants will be randomized 1:1 into one of two treatment arms: KSI-301 or aflibercept.",
+      "maskingInfo": {
+       "masking": "TRIPLE",
+       "maskingDescription": "For masking purposes, sham injections will be administered at every monthly visit if an active treatment is not administered. To preserve masking, two investigators are required for this study. The masked Investigator will be responsible for the examinations and safety assessments. The unmasked Investigator will perform the injections and post-treatment assessments.",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 459,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "GLIMMER",
+     "briefTitle": "A Study to Evaluate the Efficacy, Durability, and Safety of KSI-301 Compared to Aflibercept in Participants With Diabetic Macular Edema (DME)",
+     "nctId": "NCT04603937",
+     "officialTitle": "A Prospective, Randomized, Double-masked, Active Comparator-controlled, Multi-center, Two-arm, Phase 3 Study to Evaluate the Efficacy and Safety of Intravitreal KSI-301 Compared With Intravitreal Aflibercept in Participants With Visual Impairment Secondary to Treatment-naïve Diabetic Macular Edema (DME)",
+     "orgStudyIdInfo": {
+      "id": "KS301P105"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Kodiak Sciences Inc"
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "2020-001063-82",
+       "type": "EUDRACT_NUMBER"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Kodiak Sciences Inc"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2023-08-31",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2024-08-22",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2024-08-20",
+     "overallStatus": "TERMINATED",
+     "primaryCompletionDateStruct": {
+      "date": "2023-04-27",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2024-08-22",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2024-07-25",
+     "resultsFirstSubmitQcDate": "2024-08-20",
+     "startDateStruct": {
+      "date": "2020-09-30",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2024-08",
+     "studyFirstPostDateStruct": {
+      "date": "2020-10-27",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2020-10-21",
+     "studyFirstSubmitQcDate": "2020-10-26",
+     "whyStopped": "Study did not meet primary endpoint"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Intravitreal injection of KSI-301 (5 mg) once every 4 weeks for 3 monthly doses followed by an individualized dosing regimen (every 8 to 24 weeks) via intravitreal injection from Week 16 to Week 100.",
+       "interventionNames": [
+        "Drug: KSI-301",
+        "Other: Sham Procedure"
+       ],
+       "label": "KSI-301 (Arm A)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Intravitreal injection of aflibercept (2 mg) once every 4 weeks for 5 monthly doses followed by aflibercept (2 mg) once every 8 weeks via intravitreal injection from Week 24 to 100.",
+       "interventionNames": [
+        "Drug: Aflibercept",
+        "Other: Sham Procedure"
+       ],
+       "label": "Aflibercept (Arm B)",
+       "type": "ACTIVE_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "KSI-301 (Arm A)"
+       ],
+       "description": "Intravitreal Injection",
+       "name": "KSI-301",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Aflibercept (Arm B)"
+       ],
+       "description": "Intravitreal Injection",
+       "name": "Aflibercept",
+       "otherNames": [
+        "Eylea"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Aflibercept (Arm B)",
+        "KSI-301 (Arm A)"
+       ],
+       "description": "The sham is a procedure that mimics an intravitreal injection. It involves pressing the blunt end of an empty syringe (without a needle) against the anesthetized eye. It will be administered to participants in both treatments arms at applicable visits to maintain masking.",
+       "name": "Sham Procedure",
+       "type": "OTHER"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Diabetic Macular Edema"
+     ],
+     "keywords": [
+      "DME",
+      "Kodiak",
+      "Vascular endothelial growth factor",
+      "Anti-VEGF",
+      "VEGF",
+      "Antibody biopolymer conjugate",
+      "Retinal Degeneration",
+      "Retinal Diseases",
+      "Eye Diseases",
+      "Vision Disorders",
+      "Vision, low",
+      "Aflibercept",
+      "Eylea",
+      "Diabetes mellitus",
+      "Diabetes",
+      "Diabetic retinopathy",
+      "Diabetic macular edema",
+      "Macular edema",
+      "KSI-301"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "interventionModelDescription": "Participants will be randomized 1:1 into one of two treatment arms: KSI-301 or aflibercept.",
+      "maskingInfo": {
+       "masking": "TRIPLE",
+       "maskingDescription": "For masking purposes, sham injections will be administered at every monthly visit if an active treatment is not administered. To preserve masking, two investigators are required for this study. The masked Investigator will be responsible for the examinations and safety assessments. The unmasked Investigator will perform the injections and post-treatment assessments.",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 460,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "GLEAM",
+     "briefTitle": "A Trial to Evaluate the Efficacy, Durability, and Safety of KSI-301 Compared to Aflibercept in Participants With Diabetic Macular Edema (DME)",
+     "nctId": "NCT04611152",
+     "officialTitle": "A Prospective, Randomized, Double-masked, Active Comparator-controlled, Multi-center, Two-arm, Phase 3 Study to Evaluate the Efficacy and Safety of Intravitreal KSI-301 Compared With Intravitreal Aflibercept in Participants With Visual Impairment Secondary to Treatment-naïve Diabetic Macular Edema (DME)",
+     "orgStudyIdInfo": {
+      "id": "KS301P104"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Kodiak Sciences Inc"
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "2020-001062-11",
+       "type": "EUDRACT_NUMBER"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Kodiak Sciences Inc"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2023-08-31",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2024-08-22",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2024-08-20",
+     "overallStatus": "TERMINATED",
+     "primaryCompletionDateStruct": {
+      "date": "2023-05-11",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2024-08-22",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2024-07-25",
+     "resultsFirstSubmitQcDate": "2024-08-20",
+     "startDateStruct": {
+      "date": "2020-09-30",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2024-08",
+     "studyFirstPostDateStruct": {
+      "date": "2020-11-02",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2020-10-19",
+     "studyFirstSubmitQcDate": "2020-10-26",
+     "whyStopped": "Study did not meet primary endpoint"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Intravitreal injection of KSI-301 (5 mg) at Day 1 once every 4 weeks via intravitreal injection through Week 44.",
+       "interventionNames": [
+        "Drug: KSI-301"
+       ],
+       "label": "KSI-301 (Treatment Group A)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Intravitreal injection of aflibercept (2 mg) once every 4 weeks for 3 monthly doses followed by intravitreal injection of aflibercept (2 mg) once every 8 weeks from Week 16 to Week 44. Sham injections will be administered at each monthly visit where an active treatment is not administered.",
+       "interventionNames": [
+        "Drug: Aflibercept",
+        "Other: Sham Procedure"
+       ],
+       "label": "Aflibercept (Treatment Group B)",
+       "type": "ACTIVE_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "KSI-301 (Treatment Group A)"
+       ],
+       "description": "Intravitreal Injection",
+       "name": "KSI-301",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Aflibercept (Treatment Group B)"
+       ],
+       "description": "Intravitreal Injection",
+       "name": "Aflibercept",
+       "otherNames": [
+        "Eylea"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Aflibercept (Treatment Group B)"
+       ],
+       "description": "The sham is a procedure that mimics an intravitreal injection. It involves pressing the blunt end of an empty syringe (without a needle) against the anesthetized eye. It will be administered to participants in both treatments arms at applicable visits to maintain masking.",
+       "name": "Sham Procedure",
+       "type": "OTHER"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Wet Age-related Macular Degeneration"
+     ],
+     "keywords": [
+      "AMD",
+      "Wet AMD",
+      "neovascularization secondary to age-related macular degeneration",
+      "KSI-301",
+      "Aflibercept",
+      "Vascular endothelial growth factor",
+      "VEGF",
+      "Anti-VEGF",
+      "Antibody biopolymer conjugate",
+      "Macular Degeneration",
+      "wAMD",
+      "Retinal Degeneration",
+      "Retinal Diseases",
+      "Eye Diseases",
+      "Vision Disorders",
+      "Vision, Low",
+      "Kodiak"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "interventionModelDescription": "Participants will be randomized 1:1 into one of two treatment arms: KSI-301 or aflibercept.",
+      "maskingInfo": {
+       "masking": "TRIPLE",
+       "maskingDescription": "For masking purposes, sham injections will be administered at every monthly visit if an active treatment is not administered. To preserve masking, two investigators are required for this study. The masked Investigator will be responsible for the examinations and safety assessments. The unmasked Investigator will perform the injections and post-treatment assessments.",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 557,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "DAYLIGHT",
+     "briefTitle": "A Study to Evaluate the Efficacy and Safety of Intravitreal KSI-301 Compared With Intravitreal Aflibercept in Participants With Neovascular (Wet) Age-related Macular Degeneration (wAMD)",
+     "nctId": "NCT04964089",
+     "officialTitle": "A Prospective, Randomized, Double-masked, Active Comparator-controlled, Multi-center, Two-arm, Phase 3 Study to Evaluate the Efficacy and Safety of Intravitreal KSI-301 Compared With Intravitreal Aflibercept in Participants With Neovascular (Wet) Age-related Macular Degeneration (wAMD)",
+     "orgStudyIdInfo": {
+      "id": "KS301P107"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Kodiak Sciences Inc"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Kodiak Sciences Inc"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2023-04-06",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2024-07-03",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2024-06-20",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2023-03-28",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2024-05-02",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2024-04-09",
+     "resultsFirstSubmitQcDate": "2024-04-09",
+     "startDateStruct": {
+      "date": "2021-06-23",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2024-06",
+     "studyFirstPostDateStruct": {
+      "date": "2021-07-15",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2021-07-06",
+     "studyFirstSubmitQcDate": "2021-07-06"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Intravitreal injection of KSI-301 (5 mg): three initiating doses, and then every 24 weeks through Week 92",
+       "interventionNames": [
+        "Drug: KSI-301"
+       ],
+       "label": "KSI-301 - Treatment Group A",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Sham injection on the same schedule as Treatment Group A",
+       "interventionNames": [
+        "Other: Sham injection"
+       ],
+       "label": "Treatment Group B",
+       "type": "SHAM_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "KSI-301 - Treatment Group A"
+       ],
+       "description": "Intravitreal injection",
+       "name": "KSI-301",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Treatment Group B"
+       ],
+       "description": "The sham injection is a procedure that mimics an intravitreal injection. It involves pressing the blunt end of an empty syringe (without a needle) against the anesthetized eye. It is performed to maintain masking of the study.",
+       "name": "Sham injection",
+       "type": "OTHER"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Non-proliferative Diabetic Retinopathy"
+     ],
+     "keywords": [
+      "Non-proliferative Diabetic Retinopathy",
+      "Diabetic Retinopathy",
+      "NPDR",
+      "KSI-301",
+      "VEGF",
+      "Anti-VEGF",
+      "Vascular Endothelial Growth Factor",
+      "Antibody Biopolymer Conjugate",
+      "Retinal Degeneration",
+      "Retinal Diseases",
+      "Eye Diseases",
+      "Retinopathy",
+      "Vision Disorders",
+      "Kodiak"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "interventionModelDescription": "Participants will be randomized 1:1 into one of two arms: KSI-301 or sham.",
+      "maskingInfo": {
+       "masking": "TRIPLE",
+       "maskingDescription": "To preserve masking, 2 investigators are required for this study. The masked investigator will be responsible for examinations and safety assessments. The unmasked investigator will perform the injections and post-treatment assessments.",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 253,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "GLOW",
+     "briefTitle": "A Study to Evaluate the Efficacy and Safety of Intravitreal KSI-301 in Non-proliferative Diabetic Retinopathy (NPDR)",
+     "nctId": "NCT05066230",
+     "officialTitle": "A Prospective, Randomized, Double-masked, Sham-controlled, Multicenter, Two-arm Phase3 Study to Evaluate the Efficacy and Safety of Intravitreal KSI-301 in Participants With Moderately Severe to Severe Non-proliferative Diabetic Retinopathy",
+     "orgStudyIdInfo": {
+      "id": "KS301P106"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Kodiak Sciences Inc"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Kodiak Sciences Inc"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2023-08-31",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2024-09-05",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2024-08-30",
+     "overallStatus": "TERMINATED",
+     "primaryCompletionDateStruct": {
+      "date": "2023-08-03",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2024-09-05",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2024-07-16",
+     "resultsFirstSubmitQcDate": "2024-08-30",
+     "startDateStruct": {
+      "date": "2021-09-07",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2024-08",
+     "studyFirstPostDateStruct": {
+      "date": "2021-10-04",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2021-09-23",
+     "studyFirstSubmitQcDate": "2021-09-23",
+     "whyStopped": "All patients completed the primary endpoint assessments. Additional follow-up after the primary endpoint was deemed not necessary by the Sponsor."
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Tarcocimab 5 mg via intravitreal injection at Day 1, Week 4, Week 8, Week 20, and Week 44.",
+       "interventionNames": [
+        "Drug: Tarcocimab"
+       ],
+       "label": "Tarcocimab 5 mg (Treatment Group A)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Sham injection on the same schedule as Treatment Group A",
+       "interventionNames": [
+        "Other: Sham injection"
+       ],
+       "label": "Treatment Group B",
+       "type": "SHAM_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Tarcocimab 5 mg (Treatment Group A)"
+       ],
+       "description": "Intravitreal injection",
+       "name": "Tarcocimab",
+       "otherNames": [
+        "Tarcocimab tedromer",
+        "KSI-301"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Treatment Group B"
+       ],
+       "description": "The sham injection is a procedure that mimics an intravitreal injection. It involves pressing the blunt end of an empty syringe (without a needle) against the anesthetized eye. It is performed to maintain masking of the study.",
+       "name": "Sham injection",
+       "type": "OTHER"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Diabetic Retinopathy"
+     ],
+     "keywords": [
+      "Diabetic Retinopathy",
+      "NPDR",
+      "KSI-301",
+      "VEGF",
+      "Anti-VEGF",
+      "Vascular Endothelial Growth Factor",
+      "Antibody Biopolymer Conjugate",
+      "Retinal Degeneration",
+      "Retinal Diseases",
+      "Eye Diseases",
+      "Retinopathy",
+      "Vision Disorders",
+      "Kodiak",
+      "Tarcocimab Tedromer",
+      "Tarcocimab",
+      "Diabetic Eye Disease"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "interventionModelDescription": "Participants will be randomized 1:1 into one of two arms: KSI-301 or sham.",
+      "maskingInfo": {
+       "masking": "TRIPLE",
+       "maskingDescription": "To preserve masking, 2 investigators are required for this study. The masked investigator will be responsible for examinations and safety assessments. The unmasked investigator will perform the injections and post-treatment assessments.",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 255,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "GLOW2",
+     "briefTitle": "A Study to Evaluate the Efficacy and Safety of Tarcocimab Tedromer Compared With Sham Treatment in Participants With Diabetic Retinopathy (DR)",
+     "nctId": "NCT06270836",
+     "officialTitle": "A Prospective, Randomized, Double-masked, Sham-controlled, Multi-center, Two-arm, Phase 3 Study to Evaluate the Efficacy and Safety of Intravitreal Tarcocimab Tedromer in Participants With Diabetic Retinopathy (DR) - GLOW2",
+     "orgStudyIdInfo": {
+      "id": "KS301P108"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Kodiak Sciences Inc"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Kodiak Sciences Inc"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2026-02-13",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-05-13",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-05-09",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2026-02-13",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2024-05-01",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-05",
+     "studyFirstPostDateStruct": {
+      "date": "2024-02-21",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2024-02-14",
+     "studyFirstSubmitQcDate": "2024-02-14"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Intravitreal injection of tarcocimab tedromer once every 4 weeks for 4 monthly doses followed by individualized dosing every 4 to 24 weeks.",
+       "interventionNames": [
+        "Drug: Tarcocimab tedromer"
+       ],
+       "label": "Tarcocimab tedromer 5 mg (KSI-301)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Intravitreal injection of tabirafusp tedromer once every 4 weeks for 4 monthly doses followed by every-8-week dosing with additional individualized dosing (up to monthly dosing)",
+       "interventionNames": [
+        "Drug: Tabirafusp tedromer"
+       ],
+       "label": "Tabirafusp tedromer 5 mg (KSI-501)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Intravitreal injection of aflibercept once every 4 weeks for 3 monthly doses followed by every-8-week dosing",
+       "interventionNames": [
+        "Drug: Aflibercept"
+       ],
+       "label": "Aflibercept 2 mg",
+       "type": "ACTIVE_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Tarcocimab tedromer 5 mg (KSI-301)"
+       ],
+       "description": "Intravitreal injection",
+       "name": "Tarcocimab tedromer",
+       "otherNames": [
+        "KSI-301"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Tabirafusp tedromer 5 mg (KSI-501)"
+       ],
+       "description": "Intravitreal injection",
+       "name": "Tabirafusp tedromer",
+       "otherNames": [
+        "KSI-501"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Aflibercept 2 mg"
+       ],
+       "description": "Intravitreal injection",
+       "name": "Aflibercept",
+       "otherNames": [
+        "Eylea"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Wet Age-related Macular Degeneration"
+     ],
+     "keywords": [
+      "Wet AMD",
+      "KSI-301",
+      "KSI-501",
+      "Tarcocimab",
+      "Tabirafusp",
+      "Aflibercept",
+      "Antibody biopolymer conjugate",
+      "AMD",
+      "Anti-VEGF",
+      "Vascular endothelial growth factor",
+      "Kodiak Sciences"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "interventionModelDescription": "Participants will be randomized 1:1:1 into one of three treatment groups: tarcocimab-ted, tabirafusp-ted or aflibercept.",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 675,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "DAYBREAK",
+     "briefTitle": "A Study to Evaluate the Efficacy and Safety of Tarcocimab Tedromer and Tabirafusp Tedromer Compared to Aflibercept in Participants With Neovascular (Wet) Age-related Macular Degeneration (wAMD) - DAYBREAK",
+     "nctId": "NCT06556368",
+     "officialTitle": "A Prospective, Randomized, Double-masked, Active Comparator-controlled, Multi-center, Three-arm Phase 3 Study to Evaluate the Efficacy and Safety of Intravitreal Tarcocimab Tedromer and Tabirafusp Tedromer Compared With Intravitreal Aflibercept in Participants With Neovascular (Wet) Age-related Macular Degeneration (wAMD)",
+     "orgStudyIdInfo": {
+      "id": "KS301P109"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Kodiak Sciences Inc"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Kodiak Sciences Inc"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2027-08",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-04-29",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-04-23",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2026-08",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2024-08-23",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-04",
+     "studyFirstPostDateStruct": {
+      "date": "2024-08-16",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2024-08-12",
+     "studyFirstSubmitQcDate": "2024-08-13"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Intravitreal injection of KSI-101 5 mg once every 4 weeks for 6 monthly doses followed by individualized dosing",
+       "interventionNames": [
+        "Drug: KSI-101"
+       ],
+       "label": "KSI-101 5 mg",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Intravitreal injection of KSI-101 10 mg once every 4 weeks for 6 monthly doses followed by individualized dosing",
+       "interventionNames": [
+        "Drug: KSI-101"
+       ],
+       "label": "KSI-101 10 mg",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Sham injection once every 4 weeks for 6 monthly doses followed by individualized sham dosing",
+       "interventionNames": [
+        "Other: Sham Comparator"
+       ],
+       "label": "Sham",
+       "type": "SHAM_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "KSI-101 10 mg",
+        "KSI-101 5 mg"
+       ],
+       "description": "Intravitreal injection",
+       "name": "KSI-101",
+       "otherNames": [
+        "tabirafusp alfa"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Sham"
+       ],
+       "description": "Sham injections",
+       "name": "Sham Comparator",
+       "type": "OTHER"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Macular Edema Secondary to Inflammation"
+     ],
+     "keywords": [
+      "MESI",
+      "macular edema",
+      "inflammatory macular edema",
+      "macular edema associated with inflammation"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 600,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "PEAK",
+     "briefTitle": "A Phase 3 Study to Evaluate the Efficacy and Safety of Intravitreal KSI-101 in Participants With Macular Edema Secondary to Inflammation (MESI) - PEAK",
+     "nctId": "NCT06990399",
+     "officialTitle": "A Randomized, Double-masked, Sham-controlled, Multicenter, Phase 3 Study to Evaluate the Efficacy and Safety of Intravitreal Tabirafusp Alfa (KSI-101) in Participants With Macular Edema Secondary to Inflammation (MESI) - PEAK",
+     "orgStudyIdInfo": {
+      "id": "KSMP001-S1"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Kodiak Sciences Inc"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Kodiak Sciences Inc"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2027-11",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-05-18",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-05-14",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-04",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2025-07-30",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-05",
+     "studyFirstPostDateStruct": {
+      "date": "2025-05-25",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-05-17",
+     "studyFirstSubmitQcDate": "2025-05-17"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Intravitreal injection of KSI-101 5 mg once every 4 weeks for 6 monthly doses followed by individualized dosing",
+       "interventionNames": [
+        "Drug: KSI-101"
+       ],
+       "label": "KSI-101 5 mg",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Intravitreal injection of KSI-101 10 mg once every 4 weeks for 6 monthly doses followed by individualized dosing",
+       "interventionNames": [
+        "Drug: KSI-101"
+       ],
+       "label": "KSI-101 10 mg",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Sham injection once every 4 weeks for 6 monthly doses followed by individualized sham dosing",
+       "interventionNames": [
+        "Other: Sham Comparator"
+       ],
+       "label": "Sham",
+       "type": "SHAM_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "KSI-101 10 mg",
+        "KSI-101 5 mg"
+       ],
+       "description": "Intravitreal injection",
+       "name": "KSI-101",
+       "otherNames": [
+        "tabirafusp alfa"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Sham"
+       ],
+       "description": "Sham injections",
+       "name": "Sham Comparator",
+       "type": "OTHER"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Macular Edema Secondary to Inflammation"
+     ],
+     "keywords": [
+      "MESI",
+      "macular edema",
+      "inflammatory macular edema",
+      "macular edema associated with inflammation"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 300,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "PINNACLE",
+     "briefTitle": "A Phase 3 Study to Evaluate the Efficacy and Safety of Intravitreal KSI-101 in Participants With Macular Edema Secondary to Inflammation (MESI) - PINNACLE",
+     "nctId": "NCT06996080",
+     "officialTitle": "A Randomized, Double-masked, Sham-controlled, Multicenter, Phase 3 Study to Evaluate the Efficacy and Safety of Intravitreal Tabirafusp Alfa (KSI-101) in Participants With Macular Edema Secondary to Inflammation (MESI) - PINNACLE",
+     "orgStudyIdInfo": {
+      "id": "KSMP001-S2"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Kodiak Sciences Inc"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Kodiak Sciences Inc"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2027-08",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-05-18",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-05-14",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-02",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2025-07-16",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-05",
+     "studyFirstPostDateStruct": {
+      "date": "2025-05-30",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-05-21",
+     "studyFirstSubmitQcDate": "2025-05-21"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Intravitreal injection of tabirafusp tedromer once every 4 weeks for 6 monthly doses followed by every-8-week dosing with additional individualized dosing (up to monthly dosing)",
+       "interventionNames": [
+        "Drug: Tabirafusp tedromer"
+       ],
+       "label": "Tabirafusp tedromer 5 mg Q8W",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Intravitreal injection of tabirafusp tedromer once every 4 weeks for 6 monthly doses followed by individualized dosing every 4 to 24 weeks.",
+       "interventionNames": [
+        "Drug: Tabirafusp tedromer"
+       ],
+       "label": "Tabirafusp tedromer 5 mg Q4-24W",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Intravitreal injection of aflibercept once every 4 weeks for 5 monthly doses followed by every-8-week dosing",
+       "interventionNames": [
+        "Drug: Aflibercept (2.0 mg)"
+       ],
+       "label": "Aflibercept 2 mg",
+       "type": "ACTIVE_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Tabirafusp tedromer 5 mg Q4-24W",
+        "Tabirafusp tedromer 5 mg Q8W"
+       ],
+       "description": "Intravitreal injection",
+       "name": "Tabirafusp tedromer",
+       "otherNames": [
+        "KSI-501"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Aflibercept 2 mg"
+       ],
+       "description": "Intravitreal injection",
+       "name": "Aflibercept (2.0 mg)",
+       "otherNames": [
+        "Eylea"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Diabetic Macular Edema (DME)"
+     ],
+     "keywords": [
+      "DME",
+      "KSI-501",
+      "tabirafusp tedromer",
+      "aflibercept",
+      "antibody biopolymer conjugate",
+      "anti-VEGF",
+      "anti-IL-6",
+      "Kodiak Sciences"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "interventionModelDescription": "Participants will be randomized 5:3:5 into one of three treatment groups: tabirafusp-ted Q8W; tabirafusp-ted Q4-24W; or aflibercept.",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 910,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "ALTO",
+     "briefTitle": "A Study to Evaluate the Efficacy and Safety of Tabirafusp Tedromer Compared to Aflibercept in Participants With DME - ALTO",
+     "nctId": "NCT07734844",
+     "officialTitle": "A Randomized, Double-masked, Active-controlled, Multi-center, Phase 3 Study to Evaluate the Efficacy and Safety of Intravitreal Tabirafusp Tedromer 5 mg Compared With Intravitreal Aflibercept 2 mg in Participants With Visual Impairment Secondary to Diabetic Macular Edema (DME) - ALTO",
+     "orgStudyIdInfo": {
+      "id": "KSMP002-S1"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Kodiak Sciences Inc"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Kodiak Sciences Inc"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2029-09",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-08-21",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-08-19",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2028-08-31",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2026-08-03",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-08",
+     "studyFirstPostDateStruct": {
+      "date": "2026-07-29",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2026-05-30",
+     "studyFirstSubmitQcDate": "2026-07-24"
+    }
+   }
+  }
+ ]
+}

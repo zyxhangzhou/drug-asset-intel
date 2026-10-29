@@ -1,0 +1,1894 @@
+{
+ "aliases": [
+  "REGENXBIO"
+ ],
+ "studies": [
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "2.5E12 (genome copies)/kg (kilogram) body weight (E means the exponential constant)",
+       "interventionNames": [
+        "Genetic: AAV directed hLDLR gene therapy"
+       ],
+       "label": "Cohort 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "7.5E12 GC/kg body weight",
+       "interventionNames": [
+        "Genetic: AAV directed hLDLR gene therapy"
+       ],
+       "label": "Cohort 2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "7.5E12 GC/kg body weight\n\nDSMB (Data Safety Monitoring Board) approved expansion of Dose 2 cohort, 3 additional subjects enrolled and received prophylactic corticosteroids",
+       "interventionNames": [
+        "Genetic: AAV directed hLDLR gene therapy"
+       ],
+       "label": "Cohort 2 Expansion",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Cohort 1",
+        "Cohort 2",
+        "Cohort 2 Expansion"
+       ],
+       "description": "AAV directed hLDLR gene therapy is a novel adeno-associated viral (AAV8) vector with human low-density lipoprotein receptor (hLDLR) gene",
+       "name": "AAV directed hLDLR gene therapy",
+       "type": "GENETIC"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Homozygous Familial Hypercholesterolemia (HoFH)"
+     ],
+     "keywords": [
+      "LDL Receptors",
+      "Gene therapy",
+      "Metabolic Diseases",
+      "Rare diseases",
+      "Genetic Diseases",
+      "Atherosclerosis",
+      "cardiovascular disease"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "interventionModelDescription": "dose escalation",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 9,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Gene Therapy Study for Homozygous Familial Hypercholesterolemia (HoFH)",
+     "nctId": "NCT02651675",
+     "officialTitle": "AAV8-mediated Low Density Lipoprotein Receptor (LDLR) Gene Replacement in Subjects With Homozygous Familial Hypercholesterolemia (HoFH)",
+     "orgStudyIdInfo": {
+      "id": "FHGT002"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "REGENXBIO Inc."
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "P01HL059407",
+       "link": "https://reporter.nih.gov/quickSearch/P01HL059407",
+       "type": "NIH"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "collaborators": [
+      {
+       "class": "NIH",
+       "name": "National Heart, Lung, and Blood Institute (NHLBI)"
+      }
+     ],
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "REGENXBIO Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2020-11-27",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2023-07-13",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2023-06-21",
+     "overallStatus": "TERMINATED",
+     "primaryCompletionDateStruct": {
+      "date": "2020-11-27",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2023-07-13",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2023-03-28",
+     "resultsFirstSubmitQcDate": "2023-06-21",
+     "startDateStruct": {
+      "date": "2016-03",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2023-06",
+     "studyFirstPostDateStruct": {
+      "date": "2016-01-11",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2016-01-04",
+     "studyFirstSubmitQcDate": "2016-01-07",
+     "whyStopped": "Terminated by Sponsor for Business Reasons"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "3E9 GC (genome copies)/eye of RGX-314 (E means the exponential constant)",
+       "interventionNames": [
+        "Genetic: RGX-314"
+       ],
+       "label": "Cohort 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "1E10 GC/eye of RGX-314",
+       "interventionNames": [
+        "Genetic: RGX-314"
+       ],
+       "label": "Cohort 2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "6E10 GC/eye of RGX-314",
+       "interventionNames": [
+        "Genetic: RGX-314"
+       ],
+       "label": "Cohort 3",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "1.6E11 GC/eye of RGX-314",
+       "interventionNames": [
+        "Genetic: RGX-314"
+       ],
+       "label": "Cohort 4",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "2.5E11 GC/eye of RGX-314",
+       "interventionNames": [
+        "Genetic: RGX-314"
+       ],
+       "label": "Cohort 5",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Cohort 1",
+        "Cohort 2",
+        "Cohort 3",
+        "Cohort 4",
+        "Cohort 5"
+       ],
+       "description": "RGX-314 is a recombinant adeno-associated virus (AAV) gene therapy vector carrying a coding sequence for a soluble anti-VEGF protein",
+       "name": "RGX-314",
+       "type": "GENETIC"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Neovascular Age-related Macular Degeneration",
+      "Wet Age-related Macular Degeneration"
+     ],
+     "keywords": [
+      "nAMD",
+      "wet AMD",
+      "gene therapy"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "interventionModelDescription": "dose escalation",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 42,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Safety and Tolerability of RGX-314 (Investigational Product) Gene Therapy for Neovascular AMD Trial",
+     "nctId": "NCT03066258",
+     "officialTitle": "A Phase I/IIa (Phase 1/Phase 2a), Open-label, Multiple-cohort, Dose-escalation Study to Evaluate the Safety and Tolerability of Gene Therapy With RGX-314 in Subjects With Neovascular AMD (nAMD)",
+     "orgStudyIdInfo": {
+      "id": "RGX-314-001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "REGENXBIO Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "REGENXBIO Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2021-06-17",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2023-05-16",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2023-05-12",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2019-11-24",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2023-05-16",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2023-02-13",
+     "resultsFirstSubmitQcDate": "2023-05-12",
+     "startDateStruct": {
+      "date": "2017-03-29",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2023-05",
+     "studyFirstPostDateStruct": {
+      "date": "2017-02-28",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2017-02-17",
+     "studyFirstSubmitQcDate": "2017-02-22"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "An observational medical records review study (data collected retrospectively) in subjects with the severe form of MPS II.",
+       "label": "Retrospective"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Mucopolysaccharidosis II"
+     ],
+     "keywords": [
+      "Hunter Syndrome",
+      "Natural History",
+      "Iduronate-2-sulfatase",
+      "glycosaminoglycans"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "observationalModel": "OTHER",
+      "timePerspective": "RETROSPECTIVE"
+     },
+     "enrollmentInfo": {
+      "count": 36,
+      "type": "ACTUAL"
+     },
+     "patientRegistry": false,
+     "studyType": "OBSERVATIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Mucopolysaccharidosis Type II Natural History",
+     "nctId": "NCT03529786",
+     "officialTitle": "A Retrospective and Cross-sectional Study to Evaluate Neurodevelopmental Status in Pediatric Subjects With Severe Mucopolysaccharidosis Type II (Hunter Syndrome)",
+     "orgStudyIdInfo": {
+      "id": "RGX-121-002"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "REGENXBIO Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "REGENXBIO Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2022-03-22",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2022-04-26",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2022-04-22",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2022-03-22",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2017-09-27",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2022-04",
+     "studyFirstPostDateStruct": {
+      "date": "2018-05-18",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2018-02-13",
+     "studyFirstSubmitQcDate": "2018-05-07"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "1.3x10\\^10 GC/g brain mass of RGX-121",
+       "interventionNames": [
+        "Genetic: RGX-121"
+       ],
+       "label": "Part 1: RGX-121 Dose 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "6.5x10\\^10 GC/g brain mass of RGX-121",
+       "interventionNames": [
+        "Genetic: RGX-121"
+       ],
+       "label": "Part 1: RGX-121 Dose 2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "6.5x10\\^10 GC/g brain mass of RGX-121",
+       "interventionNames": [
+        "Genetic: RGX-121"
+       ],
+       "label": "Part 1: RGX-121 Dose 2 Expanded Cohort",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "2.0x10\\^11 GC/g brain mass of RGX-121",
+       "interventionNames": [
+        "Genetic: RGX-121"
+       ],
+       "label": "Part 1: RGX-121 Dose 3",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "2.9x10\\^11 GC/g brain mass of RGX-121 (transgene-specific PCR assay) equivalent to, 2.0x10\\^11 GC/g brain mass of RGX-121 (Poly-A-specific PCR assay)",
+       "interventionNames": [
+        "Genetic: RGX-121"
+       ],
+       "label": "Part 1: RGX-121 Dose 3 Expanded Cohort",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "2.9x10\\^11 GC/g brain mass of RGX-121 (transgene-specific PCR assay)",
+       "interventionNames": [
+        "Genetic: RGX-121"
+       ],
+       "label": "Part 2: RGX-121 Pivotal Expansion",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Part 1: RGX-121 Dose 1",
+        "Part 1: RGX-121 Dose 2",
+        "Part 1: RGX-121 Dose 2 Expanded Cohort",
+        "Part 1: RGX-121 Dose 3",
+        "Part 1: RGX-121 Dose 3 Expanded Cohort",
+        "Part 2: RGX-121 Pivotal Expansion"
+       ],
+       "description": "Recombinant adeno-associated virus serotype 9 capsid containing human iduronate-2-sulfatase expression cassette",
+       "name": "RGX-121",
+       "type": "GENETIC"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Mucopolysaccharidosis Type II (MPS II)"
+     ],
+     "keywords": [
+      "MPS II",
+      "gene therapy",
+      "Hunter Syndrome",
+      "Lysosomal Storage Disorder"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "interventionModelDescription": "Dose escalation",
+      "maskingInfo": {
+       "masking": "NONE",
+       "maskingDescription": "Open Label"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 48,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE2",
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "CAMPSIITE™ RGX-121 Gene Therapy in Subjects With MPS II (Hunter Syndrome)",
+     "nctId": "NCT03566043",
+     "officialTitle": "A Phase 1/2/3 Multicenter, Open-Label Study to Evaluate the Efficacy, Safety, Tolerability, and Pharmacodynamics of RGX-121 in Pediatric Subjects With MPS II (Hunter Syndrome)",
+     "orgStudyIdInfo": {
+      "id": "RGX-121-101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "REGENXBIO Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "REGENXBIO Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2025-08",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-01-28",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-01-24",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2023-11-27",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2018-09-27",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-01",
+     "studyFirstPostDateStruct": {
+      "date": "2018-06-21",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2018-05-01",
+     "studyFirstSubmitQcDate": "2018-06-11"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Genetic: RGX-111"
+       ],
+       "label": "Dose 1; 1x10^10 GC/g brain mass of RGX-111",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Genetic: RGX-111"
+       ],
+       "label": "Dose 2; 5x10^10 GC/g brain mass of RGX-111",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Dose 1; 1x10^10 GC/g brain mass of RGX-111",
+        "Dose 2; 5x10^10 GC/g brain mass of RGX-111"
+       ],
+       "description": "Recombinant adeno-associated virus serotype 9 capsid containing α-L-iduronidase expression cassette",
+       "name": "RGX-111",
+       "type": "GENETIC"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Mucopolysaccharidosis Type I (MPS I)",
+      "Hurler Syndrome",
+      "Hurler-Scheie Syndrome"
+     ],
+     "keywords": [
+      "MPS I , gene therapy, Hurler, Hurler- Scheie"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SINGLE_GROUP",
+      "interventionModelDescription": "Sequential Assignment Dose escalation",
+      "maskingInfo": {
+       "masking": "NONE",
+       "maskingDescription": "Open-Label"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 21,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "RGX-111 Gene Therapy in Patients With MPS I",
+     "nctId": "NCT03580083",
+     "officialTitle": "A Phase I/II Multicenter, Open-Label Study to Evaluate the Safety, Tolerability, and Pharmacodynamics of Intracisternal RGX-111 Gene Therapy in Participants With Mucopolysaccharidosis Type I",
+     "orgStudyIdInfo": {
+      "id": "RGX-111-002"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "REGENXBIO Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "REGENXBIO Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2029-03-06",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-03-12",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-03-09",
+     "overallStatus": "SUSPENDED",
+     "primaryCompletionDateStruct": {
+      "date": "2027-07-07",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2019-04-03",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-03",
+     "studyFirstPostDateStruct": {
+      "date": "2018-07-09",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2018-06-18",
+     "studyFirstSubmitQcDate": "2018-07-05",
+     "whyStopped": "The FDA placed a clinical hold on RGX-111 investigational gene therapy following an initial single case report of neoplasm (intraventricular CNS tumor) in a participant treated in its phase I/II study four years prior."
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Study participants who have received RGX-501 gene therapy in a separate parent trial",
+       "interventionNames": [
+        "Drug: Single intravenous (IV) dose of human Low Density Lipoprotein Receptor (LDLR) Gene Therapy"
+       ],
+       "label": "RGX-501"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "RGX-501"
+       ],
+       "description": "No investigational product will be administered in this study. All participants have previously received a one-time intravenous infusion of RGX-501 in a separate clinical trial",
+       "name": "Single intravenous (IV) dose of human Low Density Lipoprotein Receptor (LDLR) Gene Therapy",
+       "otherNames": [
+        "RGX-501"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Homozygous Familial Hypercholesterolemia (HoFH)"
+     ],
+     "keywords": [
+      "LDL Receptors",
+      "Gene Therapy",
+      "Metabolic Diseases",
+      "Rare Diseases",
+      "Genetic Diseases",
+      "Atherosclerosis",
+      "Cardiovascular Disease"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "observationalModel": "COHORT",
+      "timePerspective": "PROSPECTIVE"
+     },
+     "enrollmentInfo": {
+      "count": 8,
+      "type": "ACTUAL"
+     },
+     "patientRegistry": false,
+     "studyType": "OBSERVATIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Long-term Follow-up Study to Evaluate the Safety and Efficacy of RGX-501",
+     "nctId": "NCT04080050",
+     "officialTitle": "A Long-term Follow-up Study to Evaluate the Safety and Efficacy of RGX-501",
+     "orgStudyIdInfo": {
+      "id": "RGX-501-102"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "REGENXBIO Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "REGENXBIO Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2025-09-29",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastKnownStatus": "ACTIVE_NOT_RECRUITING",
+     "lastUpdatePostDateStruct": {
+      "date": "2023-03-09",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2023-03-08",
+     "overallStatus": "UNKNOWN",
+     "primaryCompletionDateStruct": {
+      "date": "2024-09-29",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2019-09-30",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2023-03",
+     "studyFirstPostDateStruct": {
+      "date": "2019-09-06",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2019-09-03",
+     "studyFirstSubmitQcDate": "2019-09-03"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "conditionsModule": {
+     "conditions": [
+      "Homozygous Familial Hypercholesterolemia (HoFH)"
+     ],
+     "keywords": [
+      "LDL Receptors",
+      "Gene Therapy",
+      "Metabolic Diseases",
+      "Rare Diseases",
+      "Genetic Diseases",
+      "Atherosclerosis",
+      "Cardiovascular Disease",
+      "Genotype"
+     ]
+    },
+    "designModule": {
+     "bioSpec": {
+      "description": "Designed to help identify patients with HoFH due to mutations in the LDLR as confirmed by genotyping.",
+      "retention": "SAMPLES_WITH_DNA"
+     },
+     "designInfo": {
+      "observationalModel": "COHORT",
+      "timePerspective": "PROSPECTIVE"
+     },
+     "enrollmentInfo": {
+      "count": 4,
+      "type": "ACTUAL"
+     },
+     "patientRegistry": false,
+     "studyType": "OBSERVATIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Identifying and Genotyping Homozygous Familial Hypercholesterolemia (HoFH) Patients",
+     "nctId": "NCT04148001",
+     "officialTitle": "Clinical and Laboratory Assessment Study of Patients With a Clinical Presentation Consistent With Homozygous Familial Hypercholesterolemia (HoFH)",
+     "orgStudyIdInfo": {
+      "id": "RGX-501-9101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "REGENXBIO Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "REGENXBIO Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2020-04-08",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2021-02-02",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2021-01-28",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2020-04-08",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2019-12-04",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2021-01",
+     "studyFirstPostDateStruct": {
+      "date": "2019-11-01",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2019-10-11",
+     "studyFirstSubmitQcDate": "2019-10-31"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "conditionsModule": {
+     "conditions": [
+      "Neuronal Ceroid Lipofuscinosis Type 2 (CLN2)"
+     ],
+     "keywords": [
+      "CLN2, Batten Disease"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "observationalModel": "CASE_ONLY",
+      "timePerspective": "PROSPECTIVE"
+     },
+     "enrollmentInfo": {
+      "count": 0,
+      "type": "ACTUAL"
+     },
+     "patientRegistry": false,
+     "studyType": "OBSERVATIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "An Observational Study in Children With CLN2 Batten Disease",
+     "nctId": "NCT04462692",
+     "officialTitle": "A Prospective, Observational Study to Evaluate Ocular Disease Progression in Children With CLN2 Batten Disease",
+     "orgStudyIdInfo": {
+      "id": "RGX-381-9101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "REGENXBIO Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "REGENXBIO Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2023-10",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2021-11-01",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2021-10-25",
+     "overallStatus": "WITHDRAWN",
+     "primaryCompletionDateStruct": {
+      "date": "2023-10",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2021-03-31",
+      "type": "ESTIMATED"
+     },
+     "statusVerifiedDate": "2021-10",
+     "studyFirstPostDateStruct": {
+      "date": "2020-07-08",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2020-07-02",
+     "studyFirstSubmitQcDate": "2020-07-02",
+     "whyStopped": "study stopped due to company decision"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "conditionsModule": {
+     "conditions": [
+      "Late-infantile Neuronal Ceroid Lipofuscinosis Type 2 (CLN2)"
+     ],
+     "keywords": [
+      "CLN2, Batten Disease"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "observationalModel": "CASE_ONLY",
+      "timePerspective": "RETROSPECTIVE"
+     },
+     "enrollmentInfo": {
+      "count": 0,
+      "type": "ACTUAL"
+     },
+     "patientRegistry": false,
+     "studyType": "OBSERVATIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Retrospective, Natural History Study in Children With CLN2",
+     "nctId": "NCT04480476",
+     "officialTitle": "A Retrospective, Chart Review Study to Evaluate Ocular Disease Progression in Children With Late-infantile Neuronal Ceroid Lipofuscinosis Type 2 (CLN2)",
+     "orgStudyIdInfo": {
+      "id": "RGX-381-9102"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "REGENXBIO Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "REGENXBIO Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2022-04",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2021-11-01",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2021-10-25",
+     "overallStatus": "WITHDRAWN",
+     "primaryCompletionDateStruct": {
+      "date": "2022-04",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2021-03-31",
+      "type": "ESTIMATED"
+     },
+     "statusVerifiedDate": "2021-10",
+     "studyFirstPostDateStruct": {
+      "date": "2020-07-21",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2020-07-10",
+     "studyFirstSubmitQcDate": "2020-07-17",
+     "whyStopped": "study stopped due to company decision"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "6.5 × 10\\^10 GC/g brain mass of RGX-121",
+       "interventionNames": [
+        "Genetic: RGX-121"
+       ],
+       "label": "Single Arm",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Single Arm"
+       ],
+       "description": "Recombinant adeno-associated virus serotype 9 capsid containing human iduronate-2-sulfatase expression cassette",
+       "name": "RGX-121",
+       "type": "GENETIC"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Mucopolysaccharidosis Type II (MPS II)"
+     ],
+     "keywords": [
+      "MPS II",
+      "gene therapy",
+      "Hunter"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "interventionModelDescription": "Single-arm",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 6,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "RGX-121 Gene Therapy in Children 5 Years of Age and Over With MPS II (Hunter Syndrome)",
+     "nctId": "NCT04571970",
+     "officialTitle": "A Phase I/II Multicenter, Open-Label Study to Evaluate the Safety, Tolerability, and Pharmacodynamics of RGX-121 in Children 5 Years of Age and Older With MPS II (Hunter Syndrome)",
+     "orgStudyIdInfo": {
+      "id": "RGX-121-1102"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "REGENXBIO Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "REGENXBIO Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2024-05-23",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-01-28",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-01-24",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2023-05-09",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2021-03-11",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-01",
+     "studyFirstPostDateStruct": {
+      "date": "2020-10-01",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2020-09-23",
+     "studyFirstSubmitQcDate": "2020-09-30"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "No Intervention",
+       "interventionNames": [
+        "Other: Observational"
+       ],
+       "label": "Observational"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Observational"
+       ],
+       "description": "An observational study in subjects with the severe form of MPS II.",
+       "name": "Observational",
+       "type": "OTHER"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Mucopolysaccharidosis II"
+     ],
+     "keywords": [
+      "MPS II",
+      "Gene Therapy",
+      "Hunter"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "observationalModel": "OTHER",
+      "timePerspective": "PROSPECTIVE"
+     },
+     "enrollmentInfo": {
+      "count": 0,
+      "type": "ACTUAL"
+     },
+     "patientRegistry": false,
+     "studyType": "OBSERVATIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Mucopolysaccharidosis Type II Observational",
+     "nctId": "NCT04591834",
+     "officialTitle": "A Prospective, Observational Study of Pediatric Patients With Neuronopathic Forms of MPS II (Hunter Syndrome)",
+     "orgStudyIdInfo": {
+      "id": "RGX-121-9101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "REGENXBIO Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "REGENXBIO Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2025-07",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2022-10-10",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2022-10-06",
+     "overallStatus": "WITHDRAWN",
+     "primaryCompletionDateStruct": {
+      "date": "2025-07",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2022-03",
+      "type": "ESTIMATED"
+     },
+     "statusVerifiedDate": "2022-10",
+     "studyFirstPostDateStruct": {
+      "date": "2020-10-19",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2020-09-23",
+     "studyFirstSubmitQcDate": "2020-10-12",
+     "whyStopped": "Sponsor decision"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "No intervention.",
+       "interventionNames": [
+        "Other: Long-term Follow-Up"
+       ],
+       "label": "Long-term Follow-Up"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Long-term Follow-Up"
+       ],
+       "description": "No intervention",
+       "name": "Long-term Follow-Up",
+       "type": "OTHER"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Mucopolysaccharidosis II"
+     ],
+     "keywords": [
+      "MPS II",
+      "Gene Therapy",
+      "Hunter"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "observationalModel": "OTHER",
+      "timePerspective": "PROSPECTIVE"
+     },
+     "enrollmentInfo": {
+      "count": 27,
+      "type": "ACTUAL"
+     },
+     "patientRegistry": false,
+     "studyType": "OBSERVATIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Long-term Follow-Up for RGX-121",
+     "nctId": "NCT04597385",
+     "officialTitle": "A Long-term Follow-up Study to Evaluate the Safety and Efficacy of RGX-121",
+     "orgStudyIdInfo": {
+      "id": "RGX-121-5101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "REGENXBIO Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "REGENXBIO Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2028-10",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-08-19",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-08-17",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2028-10",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2021-03-14",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-08",
+     "studyFirstPostDateStruct": {
+      "date": "2020-10-22",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2020-10-15",
+     "studyFirstSubmitQcDate": "2020-10-15"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "interventions": [
+      {
+       "description": "An in vitro diagnostic assay to detect antibodies to AAV8 in human serum specimens.",
+       "name": "AAV8 DetectCDx",
+       "type": "DIAGNOSTIC_TEST"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Duchenne Muscular Dystrophy"
+     ],
+     "keywords": [
+      "DMD",
+      "Duchenne Muscular Dystrophy",
+      "Duchenne"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "observationalModel": "COHORT",
+      "timePerspective": "PROSPECTIVE"
+     },
+     "enrollmentInfo": {
+      "count": 200,
+      "type": "ESTIMATED"
+     },
+     "patientRegistry": false,
+     "studyType": "OBSERVATIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "AFFINITY BEYOND: Anti-AAV8 Antibody Assessment Study of Males With DMD",
+     "nctId": "NCT05683379",
+     "officialTitle": "Anti-AAV8 Antibody Assessment Study of Males With Duchenne Muscular Dystrophy Aged 0 to <25 Years",
+     "orgStudyIdInfo": {
+      "id": "RGX-202-0101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "REGENXBIO Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "REGENXBIO Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2026-09",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-07-07",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-07-02",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2026-06-30",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2022-12-20",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-07",
+     "studyFirstPostDateStruct": {
+      "date": "2023-01-13",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2023-01-04",
+     "studyFirstSubmitQcDate": "2023-01-12"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "A single IV infusion of RGX-202 at a dose of 1×10\\^14 GC/kg body weight",
+       "interventionNames": [
+        "Genetic: RGX-202"
+       ],
+       "label": "Part 1: Cohort 1 and 1b (enrollment complete): RGX-202 Dose 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "A single IV infusion of RGX-202 at a dose of 2x10\\^14 GC/kg body weight (or a fixed dose of 1.00×10\\^16 GC \\[150 mL\\] for participants weighing \\> 50 kg)",
+       "interventionNames": [
+        "Genetic: RGX-202"
+       ],
+       "label": "Part 1: Cohort 2, 2c;, and Part 2; and Part 3 (enrollment complete for all): RGX-202 Dose 2",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Part 1: Cohort 1 and 1b (enrollment complete): RGX-202 Dose 1",
+        "Part 1: Cohort 2, 2c;, and Part 2; and Part 3 (enrollment complete for all): RGX-202 Dose 2"
+       ],
+       "description": "RGX-202 is a recombinant AAV8 containing a transgene encoding a novel microdystrophin",
+       "name": "RGX-202",
+       "type": "GENETIC"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Duchenne Muscular Dystrophy"
+     ],
+     "keywords": [
+      "Gene therapy",
+      "DMD",
+      "Duchenne Muscular Dystrophy",
+      "Duchenne"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "interventionModelDescription": "Dose Evaluation",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 65,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE2",
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "AFFINITY DUCHENNE: RGX-202 Gene Therapy in Participants With Duchenne Muscular Dystrophy (DMD)",
+     "nctId": "NCT05693142",
+     "officialTitle": "A Phase 1/2/3 Open-label Study to Evaluate the Safety, Tolerability, Efficacy, Pharmacodynamics, and Pharmacokinetics of Intravenous RGX-202 Gene Therapy in Males With Duchenne Muscular Dystrophy (DMD)",
+     "orgStudyIdInfo": {
+      "id": "RGX-202-1101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "REGENXBIO Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "REGENXBIO Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2028-06",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": true,
+      "nctId": "NCT07652606",
+      "statusForNctId": "TEMPORARILY_NOT_AVAILABLE"
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-07-21",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-07-17",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2026-09",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2023-01-04",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-07",
+     "studyFirstPostDateStruct": {
+      "date": "2023-01-20",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2023-01-04",
+     "studyFirstSubmitQcDate": "2023-01-12"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Subjects who have received RGX-111 in a separate parent study.",
+       "interventionNames": [
+        "Genetic: No Intervention"
+       ],
+       "label": "RGX-111 Recipients"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "RGX-111 Recipients"
+       ],
+       "description": "Observational study",
+       "name": "No Intervention",
+       "type": "GENETIC"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Mucopolysaccharidosis I"
+     ],
+     "keywords": [
+      "MPS I",
+      "Hurler Syndrome",
+      "Gene Therapy"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "observationalModel": "OTHER",
+      "timePerspective": "PROSPECTIVE"
+     },
+     "enrollmentInfo": {
+      "count": 21,
+      "type": "ESTIMATED"
+     },
+     "patientRegistry": false,
+     "studyType": "OBSERVATIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Long Term Follow-Up for RGX-111",
+     "nctId": "NCT06103487",
+     "officialTitle": "A Long-term Follow-up Study to Evaluate the Safety of RGX-111",
+     "orgStudyIdInfo": {
+      "id": "RGX-111-5101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "REGENXBIO Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "REGENXBIO Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2027-09",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-04-29",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-04-23",
+     "overallStatus": "ENROLLING_BY_INVITATION",
+     "primaryCompletionDateStruct": {
+      "date": "2027-09",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2023-07-24",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-04",
+     "studyFirstPostDateStruct": {
+      "date": "2023-10-26",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2023-10-05",
+     "studyFirstSubmitQcDate": "2023-10-25"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Subjects who have received RGX-202 in a separate parent study.",
+       "interventionNames": [
+        "Genetic: No Intervention"
+       ],
+       "label": "RGX-202 Recipients"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "RGX-202 Recipients"
+       ],
+       "description": "Observational study",
+       "name": "No Intervention",
+       "type": "GENETIC"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Duchenne Muscular Dystrophy"
+     ],
+     "keywords": [
+      "Gene therapy",
+      "DMD",
+      "Duchenne",
+      "Duchenne Muscular Dystrophy"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "observationalModel": "OTHER",
+      "timePerspective": "PROSPECTIVE"
+     },
+     "enrollmentInfo": {
+      "count": 66,
+      "type": "ESTIMATED"
+     },
+     "patientRegistry": false,
+     "studyType": "OBSERVATIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Long Term Follow-up for RGX-202",
+     "nctId": "NCT06491927",
+     "officialTitle": "A Long-term Follow-up Study to Evaluate the Safety and Efficacy of RGX-202 Gene Therapy in Males With Duchenne Muscular Dystrophy (DMD)",
+     "orgStudyIdInfo": {
+      "id": "RGX-202-5101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "REGENXBIO Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "REGENXBIO Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2029-12-01",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-03-24",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-03-23",
+     "overallStatus": "ENROLLING_BY_INVITATION",
+     "primaryCompletionDateStruct": {
+      "date": "2029-12-01",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2024-05-08",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-03",
+     "studyFirstPostDateStruct": {
+      "date": "2024-07-09",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2024-07-01",
+     "studyFirstSubmitQcDate": "2024-07-01"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "AAV9.CB7.hIDS",
+       "interventionNames": [
+        "Genetic: RGX-121-3102"
+       ],
+       "label": "2.9×1011 GC/g brain mass of RGX 121",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "2.9×1011 GC/g brain mass of RGX 121"
+       ],
+       "description": "Recombinant adeno-associated virus serotype 9 \\[AAV9\\] capsid containing human iduronate-2-sulfatase (hIDS) expression cassette",
+       "name": "RGX-121-3102",
+       "type": "GENETIC"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "MPS II",
+      "Hunter Syndrome (MPS II)"
+     ],
+     "keywords": [
+      "Mucopolysaccharidosis II",
+      "Gene Therapy"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "interventionModelDescription": "Dose Escalation",
+      "maskingInfo": {
+       "masking": "NONE",
+       "maskingDescription": "None (Open Label)"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 2,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "RGX-121-3102 Gene Therapy in Participants With MPS II (Hunter Syndrome)",
+     "nctId": "NCT07236606",
+     "officialTitle": "A Phase 3, Open-Label Study to Evaluate the Efficacy, Safety, and Pharmacodynamics of RGX 121 in Pediatric Participants With Neuronopathic MPS II (Hunter Syndrome)",
+     "orgStudyIdInfo": {
+      "id": "RGX-121-3102"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "REGENXBIO Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "REGENXBIO Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2031-05-30",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-06-04",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-06-02",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2028-04-30",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2025-11-25",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-06",
+     "studyFirstPostDateStruct": {
+      "date": "2025-11-19",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-11-05",
+     "studyFirstSubmitQcDate": "2025-11-14"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "interventions": [
+      {
+       "name": "RGX-202",
+       "type": "GENETIC"
+      }
+     ]
+    },
+    "designModule": {
+     "expandedAccessTypes": {
+      "individual": true
+     },
+     "nPtrsToThisExpAccNctId": 1,
+     "studyType": "EXPANDED_ACCESS"
+    },
+    "identificationModule": {
+     "briefTitle": "Expanded Access to RGX-202",
+     "nctId": "NCT07652606",
+     "orgStudyIdInfo": {
+      "id": "EAP RGX-202"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "REGENXBIO Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "REGENXBIO Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-06-17",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-06-11",
+     "overallStatus": "TEMPORARILY_NOT_AVAILABLE",
+     "statusVerifiedDate": "2026-06",
+     "studyFirstPostDateStruct": {
+      "date": "2026-06-17",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2026-05-20",
+     "studyFirstSubmitQcDate": "2026-06-11"
+    }
+   }
+  }
+ ]
+}

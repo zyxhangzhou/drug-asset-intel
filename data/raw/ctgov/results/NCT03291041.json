@@ -1,0 +1,77 @@
+{
+ "nctId": "NCT03291041",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciNumSides": "TWO_SIDED",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityComment": "LS mean and p-value are from ANCOVA with treatment and time-zone-shift as main effects and baseline value as a covariate.",
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0354",
+     "paramType": "Mean Difference (Net)",
+     "paramValue": "34.75",
+     "statisticalMethod": "ANCOVA"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "11.213",
+         "value": "76.2"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "11.882",
+         "value": "41.4"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "13"
+      },
+      {
+       "groupId": "OG001",
+       "value": "12"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Measured using polysomnography (PSG) and analyzed as change from baseline. Examination of the observational phase baseline data demonstrated that Night 3 was the night most disrupted.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "tasimelteon, administered as oral capsule(s)\n\nTasimelteon: capsule",
+     "id": "OG000",
+     "title": "Tasimelteon"
+    },
+    {
+     "description": "Placebo, administered as oral capsule(s)\n\nPlacebo: capsule",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "reportingStatus": "POSTED",
+   "timeFrame": "4 days",
+   "title": "Total Sleep Time in the First Two-Thirds of the Night on the Night(s) Most Likely to be Disrupted",
+   "type": "PRIMARY",
+   "unitOfMeasure": "minutes"
+  }
+ ]
+}

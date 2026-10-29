@@ -1,0 +1,47 @@
+{
+ "nctId": "NCT05741346",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "27"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "28"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "An adverse event (AE) is any untoward medical occurrence in a clinical study participant. No causal relationship with study intervention or with the clinical study itself is implied. An AE could be an unfavorable and unintended sign, symptom (including an abnormal laboratory finding), syndrome, or illness that developed or worsened during the clinical study. A serious adverse event (SAE) is defined as any untoward medical occurrence that results in death, is life-threatening, requires inpatient hospitalization or prolongation of existing hospitalization, results in persistent or significant disability/incapacity, is a congenital anomaly/birth defect, or other medically important event. An AE is considered treatment emergent if its start date was on or after the date of first dose of study treatment in Study 205 or if the AE was ongoing from the prior study. TEAEs included both serious TEAEs and non-serious TEAEs.",
+   "groups": [
+    {
+     "description": "Participants who had completed at least 12 weeks of treatment with BCX9930 in studies BCX9930-201, BCX9930-202, or BCX9930-203, and in the opinion of the investigator, had benefited from treatment with BCX9930 and were expected to continue benefiting from BCX9930, with no other effective treatment options, continued to receive BCX9930 tablets at a dose of 400 mg BID for up to 96 weeks. For participants who were permanently discontinuing BCX9930, in the absence of alternative complement inhibitor therapy, and if medically appropriate, the dose of BCX9930 was tapered based on investigator medical judgement.",
+     "id": "OG000",
+     "title": "BCX9930"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Safety Population was defined as all participants who received at least 1 dose.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "From Day 1 up to 30 days after last dose (up to approximately 100 weeks)",
+   "title": "Number of Participants With Treatment-emergent Events (TEAEs)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

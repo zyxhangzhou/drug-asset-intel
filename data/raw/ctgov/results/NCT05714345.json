@@ -1,0 +1,43 @@
+{
+ "nctId": "NCT05714345",
+ "primaryOutcomeMeasures": [
+  {
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "0"
+      },
+      {
+       "groupId": "OG001",
+       "value": "0"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "To assess the clinical efficacy of ALLO-647 (in a lymphodepletion regimen before ALLO-501A) compared to FC alone as measured by PFS and assessed by Independent Review Committee (IRC) in subjects with R/R (Relapsed / Refractory) LBCL (Large B Cell Lymphoma).\n\nIn this study, PFS is defined as the time from randomization to disease progression, or relapse per the Lugano classification criteria (Cheson et al, 2014) as assessed by IRC or death.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Lymphodepletion with FCA followed by treatment with ALLO-501A arm.\n\nLymphodepletion:\n\n* Fludarabine (F) 30 mg/m\\^2/day intravenously (IV) on Days -5, -4, -3\n* Cyclophosphamide (C) 300 mg/m\\^2/ day IV on Days -5, -4, -3\n* ALLO-647 (A) 30 mg/day IV on Days -5, -4, -3\n\nTreatment with ALLO-501A:\n\n• ALLO-501A as a single IV dose of 120 × 10\\^6 CAR+ T cells on Day 0",
+     "id": "OG000",
+     "title": "Lymphodepletion With Fludarabine, Cyclophosphamide, and ALLO-647 (FCA)"
+    },
+    {
+     "description": "Lymphodepletion with FC followed by treatment with ALLO-501A arm.\n\nLymphodepletion:\n\n* Fludarabine 30 mg/m\\^2/day IV, on Days -5, -4, -3\n* Cyclophosphamide 300 mg/m\\^2/ day IV on Days -5, -4, -3\n\nTreatment with ALLO-501A:\n\n• ALLO-501A as a single IV dose of 120 × 10\\^6 CAR+ T cells on Day 0",
+     "id": "OG001",
+     "title": "Lymphodepletion With Fludarabine, and Cyclophosphamide (FC)"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "Intent-to-Treat (ITT) Analysis Set: All randomized participants. Data does not exist as assessment of efficacy per Independent Review Committee was not performed.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to 60 months",
+   "title": "Progression-Free Survival (PFS) of a Lymphodepletion Regimen Containing FCA vs FC Alone Per Independent Review Committee",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

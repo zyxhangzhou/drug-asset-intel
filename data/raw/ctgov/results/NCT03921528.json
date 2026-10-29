@@ -1,0 +1,135 @@
+{
+ "nctId": "NCT03921528",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "5.01",
+         "value": "-0.1"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "2.56",
+         "value": "0.0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "11"
+      },
+      {
+       "groupId": "OG001",
+       "value": "12"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The Revised Hammersmith Scale (RHS) is a 36 item clinical assessment of physical abilities in patients with Type 2 SMA and ambulatory or nonambulatory patients with Type 3 SMA. For the ambulatory Type 3 patients 5-21 years of age in Cohort 1 (N=23), the primary endpoint was the change from baseline in RHS total score at month 12. The RHS has a minimum achievable score of 0 and a maximum achievable score of 69. The RHS includes 33 items that are graded on a scale of 0, 1, 2, where 0 denotes the lowest level and 2 denotes the highest level of ability/function. The remaining 3 items are scored 0 or 1, where 0 denotes an inability and 1 denotes an ability to achieve. Higher scores indicate increased motor function. A positive change from Baseline indicates improvement.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Ambulatory Type 3 SMA apitegromab (SRK-015) 20mg/kg\n\nSRK-015: SRK-015 is a fully human anti-proMyostatin monoclonal antibody (mAb) of the immunoglobulin G4 (IgG4)/lambda isotype that binds to human pro/latent myostatin with high affinity. SRK-015 was administered every 4 weeks by intravenous infusion.",
+     "id": "OG000",
+     "title": "Cohort 1 - Monotherapy"
+    },
+    {
+     "description": "Ambulatory Type 3 SMA apitegromab (SRK-015) + nusinersen\n\nSRK-015: SRK-015 is a fully human anti-proMyostatin monoclonal antibody (mAb) of the immunoglobulin G4 (IgG4)/lambda isotype that binds to human pro/latent myostatin with high affinity. SRK-015 was administered every 4 weeks by intravenous infusion.",
+     "id": "OG001",
+     "title": "Cohort 1 - Dual Therapy"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "The ITT Population: all enrolled/randomized patients who receive at least 1 dose of study drug. The ITT Population was the main population for analysis of efficacy endpoints; the analysis includes all assessments from all patients with the exception of assessments after missing 3 consecutive doses due to site access restrictions caused by COVID-19. The last observation carried forward (LOCF) method was used to impute the 12-month primary endpoint for data missing for other reasons.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline up to 12 months",
+   "title": "Cohort 1: Change From Baseline in the Revised Hammersmith Scale (RHS) Total Score at Day 364 (Visit 15) [Month 12]",
+   "type": "PRIMARY",
+   "unitOfMeasure": "score on a scale"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "3.5",
+         "value": "0.6"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "8.93",
+         "value": "5.3"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "6.42",
+         "value": "7.1"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "14"
+      },
+      {
+       "groupId": "OG001",
+       "value": "9"
+      },
+      {
+       "groupId": "OG002",
+       "value": "8"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Cohort 2: For the nonambulatory Type 2 and Type 3 patients 5-21 years of age in Cohort 2 (N=15), the primary efficacy endpoint was the change from baseline in HFMSE total score at month 12.\n\nCohort 3: For the nonambulatory Type 2 patients ≥2 years of age in Cohort 3 (N=20), the primary efficacy endpoint was the change from baseline in HFMSE total score at month 12.\n\nThe Hammersmith Functional Motor Scale Expanded (HFMSE) assesses the physical abilities of patients with Type 2 and Type 3 SMA comprises 33 items graded on a scale of 0, 1, or 2, where 0 denotes unable, 1 denotes performed with modification or adaptation, and 2 denotes performed without modification or adaptation.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Type 2 SMA / Non-Ambulatory Type 3 SMA apitegromab (SRK-015) 20 mg/kg + nusinersen\n\nSRK-015: SRK-015 is a fully human anti-proMyostatin monoclonal antibody (mAb) of the immunoglobulin G4 (IgG4)/lambda isotype that binds to human pro/latent myostatin with high affinity. SRK-015 was administered every 4 weeks by intravenous infusion.",
+     "id": "OG000",
+     "title": "Cohort 2"
+    },
+    {
+     "description": "Type 2 SMA apitegromab (SRK-015) 2 mg/kg + nusinersen\n\nSRK-015: SRK-015 is a fully human anti-proMyostatin monoclonal antibody (mAb) of the immunoglobulin G4 (IgG4)/lambda isotype that binds to human pro/latent myostatin with high affinity. SRK-015 was administered every 4 weeks by intravenous infusion.",
+     "id": "OG001",
+     "title": "Cohort 3 - Low Dose"
+    },
+    {
+     "description": "Type 2 SMA apitegromab (SRK-015) 20mg/kg + nusinersen\n\nSRK-015: SRK-015 is a fully human anti-proMyostatin monoclonal antibody (mAb) of the immunoglobulin G4 (IgG4)/lambda isotype that binds to human pro/latent myostatin with high affinity. SRK-015 was administered every 4 weeks by intravenous infusion.",
+     "id": "OG002",
+     "title": "Cohort 3 - High Dose"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "The ITT Population: all enrolled/randomized patients who receive at least one dose of study drug. The ITT Population was the main population for analysis of efficacy endpoints; the analysis included all assessments from all patients with the exception of assessments after missing 3 consecutive doses due to site access restrictions caused by COVID-19. The last observation carried forward (LOCF) method was used to impute the 12-month primary endpoint for data missing for other reasons.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline up to 12 months",
+   "title": "Cohort 2 and Cohort 3: Change From Baseline in Hammersmith Functional Motor Scale Expanded (HFMSE) Total Score at Day 364 (Visit 15) [Month 12]",
+   "type": "PRIMARY",
+   "unitOfMeasure": "score on a scale"
+  }
+ ]
+}

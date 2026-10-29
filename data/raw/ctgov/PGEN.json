@@ -1,0 +1,988 @@
+{
+ "aliases": [
+  "Precigen"
+ ],
+ "studies": [
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Biological: AG019 - Low Dose"
+       ],
+       "label": "AG019 Cohort 1 - Low Dose/Adults",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Biological: AG019 - High Dose"
+       ],
+       "label": "AG019 Cohort 2 - High Dose/Adults",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Biological: AG019 - Low Dose"
+       ],
+       "label": "AG019 Cohort 3 - Low Dose/Adolescents",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Biological: AG019 - High Dose"
+       ],
+       "label": "AG019 Cohort 4 - High Dose/Adolescents",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Teplizumab",
+        "Drug: Placebo-AG019",
+        "Drug: Placebo-Teplizumab",
+        "Biological: AG019 - High Dose"
+       ],
+       "label": "Combination Cohort 1 - Adults",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Teplizumab",
+        "Drug: Placebo-AG019",
+        "Drug: Placebo-Teplizumab",
+        "Biological: AG019 - High Dose"
+       ],
+       "label": "Combination Cohort 2 - Adolescents",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "AG019 Cohort 1 - Low Dose/Adults",
+        "AG019 Cohort 3 - Low Dose/Adolescents"
+       ],
+       "description": "Solid, orally administered capsule - 2 capsules per day for 1 day (single dose) or 8 weeks (repeat dose)",
+       "name": "AG019 - Low Dose",
+       "type": "BIOLOGICAL"
+      },
+      {
+       "armGroupLabels": [
+        "Combination Cohort 1 - Adults",
+        "Combination Cohort 2 - Adolescents"
+       ],
+       "description": "Daily IV infusions of Teplizumab during the first 12 days of AG019 treatment. Total cumulative dose is approximately 17mg (dose calculation based on body surface area).",
+       "name": "Teplizumab",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Combination Cohort 1 - Adults",
+        "Combination Cohort 2 - Adolescents"
+       ],
+       "description": "Formulated identically to AG019 with the active ingredient removed.",
+       "name": "Placebo-AG019",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Combination Cohort 1 - Adults",
+        "Combination Cohort 2 - Adolescents"
+       ],
+       "description": "Formulated identically to teplizumab with the active ingredient removed.",
+       "name": "Placebo-Teplizumab",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "AG019 Cohort 2 - High Dose/Adults",
+        "AG019 Cohort 4 - High Dose/Adolescents"
+       ],
+       "description": "Solid, orally administered capsule - 6 capsules per day for 1 day (single dose) or 8 weeks",
+       "name": "AG019 - High Dose",
+       "type": "BIOLOGICAL"
+      },
+      {
+       "armGroupLabels": [
+        "Combination Cohort 1 - Adults",
+        "Combination Cohort 2 - Adolescents"
+       ],
+       "description": "Solid, orally administered capsule - 6 capsules per day for 8 weeks.",
+       "name": "AG019 - High Dose",
+       "type": "BIOLOGICAL"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Diabetes type1"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "interventionModelDescription": "The phase 1b part of the study will enroll 4 sequential AG019 cohorts of up to 6 participants, in ascending dose cohorts and descending age cohorts. All participants in these cohorts will be treated with AG019 in an open label fashion.\n\nThe phase 2a part of the study will evaluate 2 cohorts of participants administered AG019 and teplizumab. The first 2 participants will be treated with active treatment in an open label fashion. Participants 3-12 will be randomized (4:1) to receive active treatment or placebo in a double-blind fashion.",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "maskingDescription": "For the randomized participants in the combination cohorts, blinding will be accomplished by arranging for AG019 and placebo components as well as teplizumab and placebo components to have identical packaging.",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 45,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Study to Assess the Safety and Tolerability of Different Doses of AG019 Administered Alone or in Combination With Teplizumab in Participants With Recent-onset Diagnosed Type 1 Diabetes (T1D)",
+     "nctId": "NCT03751007",
+     "officialTitle": "A Prospective, Multi-center, Phase 1b/2a Study to Assess the Safety and Tolerability of Different Doses of AG019 Administered Alone or in Association With Teplizumab in Patients With Clinical Recent-onset Type 1 Diabetes Mellitus (T1D)",
+     "orgStudyIdInfo": {
+      "id": "AG019-T1D-101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Precigen Actobio T1D, LLC"
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "2017-002871-24",
+       "type": "EUDRACT_NUMBER"
+      },
+      {
+       "id": "2017",
+       "link": "https://reporter.nih.gov/quickSearch/2017",
+       "type": "NIH"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "collaborators": [
+      {
+       "class": "UNKNOWN",
+       "name": "Intrexon Actobiotics NV, d/b/a Precigen Actobio"
+      }
+     ],
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Precigen Actobio T1D, LLC"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2021-10-13",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2023-02-01",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2023-01-31",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2021-10-13",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2023-02-01",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2022-10-13",
+     "resultsFirstSubmitQcDate": "2023-01-31",
+     "startDateStruct": {
+      "date": "2018-10-24",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2023-01",
+     "studyFirstPostDateStruct": {
+      "date": "2018-11-23",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2018-11-08",
+     "studyFirstSubmitQcDate": "2018-11-20"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Patients receive autologous PRGN-3005 UltraCAR-T cells via IP administration with or without lymphodepleting chemotherapy.",
+       "interventionNames": [
+        "Biological: PRGN-3005 UltraCAR-T cells"
+       ],
+       "label": "Treatment (PRGN-3005 UltraCAR-T cells) IP Administration",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Patients receive autologous PRGN-3005 UltraCAR-T cells via IV administration with or without lymphodepleting chemotherapy.",
+       "interventionNames": [
+        "Biological: PRGN-3005 UltraCAR-T cells"
+       ],
+       "label": "Treatment (PRGN-3005 UltraCAR-T cells) IV Administration",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Treatment (PRGN-3005 UltraCAR-T cells) IP Administration"
+       ],
+       "description": "Given IP",
+       "name": "PRGN-3005 UltraCAR-T cells",
+       "type": "BIOLOGICAL"
+      },
+      {
+       "armGroupLabels": [
+        "Treatment (PRGN-3005 UltraCAR-T cells) IV Administration"
+       ],
+       "description": "Given IV",
+       "name": "PRGN-3005 UltraCAR-T cells",
+       "type": "BIOLOGICAL"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Platinum-Resistant Fallopian Tube Carcinoma",
+      "Platinum-Resistant Ovarian Carcinoma",
+      "Platinum-Resistant Primary Peritoneal Carcinoma",
+      "Recurrent Fallopian Tube Carcinoma",
+      "Recurrent Ovarian Carcinoma",
+      "Recurrent Primary Peritoneal Carcinoma",
+      "Refractory Fallopian Tube Carcinoma",
+      "Refractory Ovarian Carcinoma",
+      "Refractory Primary Peritoneal Carcinoma",
+      "Stage III Fallopian Tube Cancer AJCC V8",
+      "Stage III Ovarian Cancer AJCC V8",
+      "Stage III Primary Peritoneal Cancer AJCC V8",
+      "Stage IIIA Fallopian Tube Cancer AJCC V8",
+      "Stage IIIA Ovarian Cancer AJCC V8",
+      "Stage IIIA Primary Peritoneal Cancer AJCC V8",
+      "Stage IIIA1 Fallopian Tube Cancer AJCC V8",
+      "Stage IIIA1 Ovarian Cancer AJCC V8",
+      "Stage IIIA2 Fallopian Tube Cancer AJCC V8",
+      "Stage IIIA2 Ovarian Cancer AJCC V8",
+      "Stage IIIB Fallopian Tube Cancer AJCC V8",
+      "Stage IIIB Ovarian Cancer AJCC V8",
+      "Stage IIIB Primary Peritoneal Cancer AJCC V8",
+      "Stage IIIC Fallopian Tube Cancer AJCC V8",
+      "Stage IIIC Ovarian Cancer AJCC V8",
+      "Stage IIIC Primary Peritoneal Cancer AJCC V8",
+      "Stage IV Fallopian Tube Cancer AJCC V8",
+      "Stage IV Ovarian Cancer AJCC V8",
+      "Stage IV Primary Peritoneal Cancer AJCC V8",
+      "Stage IVA Fallopian Tube Cancer AJCC V8",
+      "Stage IVA Ovarian Cancer AJCC V8",
+      "Stage IVA Primary Peritoneal Cancer AJCC V8",
+      "Stage IVB Fallopian Tube Cancer AJCC V8",
+      "Stage IVB Ovarian Cancer AJCC V8",
+      "Stage IVB Primary Peritoneal Cancer AJCC V8"
+     ],
+     "keywords": [
+      "Platinum resistant",
+      "Ovarian Cancer"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 71,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Modified Immune Cells (Autologous CAR T Cells) in Treating Patients with Advanced, Recurrent Platinum Resistant Ovarian, Fallopian Tube or Primary Peritoneal Cancer",
+     "nctId": "NCT03907527",
+     "officialTitle": "Phase I/Ib Study Evaluating Safety and Efficacy of PRGN-3005 UltraCAR-T® (Autologous CAR T Cells) in Advanced Stage Platinum Resistant Ovarian Cancer Patients",
+     "orgStudyIdInfo": {
+      "id": "RG1004303"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Precigen, Inc"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Precigen, Inc"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2028-11-15",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2024-11-08",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2024-11-06",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2024-12-15",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2019-04-30",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2024-11",
+     "studyFirstPostDateStruct": {
+      "date": "2019-04-09",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2019-04-05",
+     "studyFirstSubmitQcDate": "2019-04-05"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants will be treated in dose expansion phase to evaluate the safety and efficacy of the identified dose of PRGN-3006.",
+       "interventionNames": [
+        "Drug: PRGN-3006 T Cells"
+       ],
+       "label": "Dose Escalation and Dose Expansion of PRGN-3006",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Dose Escalation and Dose Expansion of PRGN-3006"
+       ],
+       "description": "Participants will receive up to 2 intravenous (IV) administrations of PRGN-3006 T Cells with or without lymphodepletion and will be monitored for safety, efficacy, and correlative endpoints for up to 12 months following infusion.",
+       "name": "PRGN-3006 T Cells",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Acute Myeloid Leukemia",
+      "Myelodysplastic Syndromes"
+     ],
+     "keywords": [
+      "AML",
+      "MDS"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 88,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "PRGN-3006 Adoptive Cellular Therapy for CD33-Positive Relapsed or Refractory AML, MRD Positive AML or Higher Risk MDS",
+     "nctId": "NCT03927261",
+     "officialTitle": "A Phase 1/1b Safety Study of PRGN-3006 Adoptive Cellular Therapy in Patients with CD33-Positive Relapsed or Refractory Acute Myeloid Leukemia, Minimal Residual Disease Positive Acute Myeloid Leukemia, and Higher Risk Myelodysplastic Syndrome",
+     "orgStudyIdInfo": {
+      "id": "PRGN3006-001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Precigen, Inc"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Precigen, Inc"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2025-08-01",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2024-11-08",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2024-11-06",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2024-08-01",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2019-05-20",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2024-11",
+     "studyFirstPostDateStruct": {
+      "date": "2019-04-25",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2019-04-23",
+     "studyFirstSubmitQcDate": "2019-04-23"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "A standard dose escalation design was used to evaluate PRGN-2012 at a dose level of 1 × 10\\^11",
+       "interventionNames": [
+        "Drug: PRGN-2012 - Phase I; Dose Level 1"
+       ],
+       "label": "Phase I; Dose Level 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "A standard dose escalation design was used to evaluate PRGN-2012 at a dose level of 5 × 10\\^11",
+       "interventionNames": [
+        "Drug: PRGN-2012 - Phase I; Dose Level 2"
+       ],
+       "label": "Phase I; Dose Level 2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "A dose of 5 x 10\\^11 PU was established as the RP2D, and the Phase 2 portion was implemented. The Phase 2 portion is designed as a dose expansion study, where patients were treated at the RP2D to evaluate the safety and efficacy of PRGN-2012.",
+       "interventionNames": [
+        "Drug: PRGN-2012 - Phase II; Dose Level 2"
+       ],
+       "label": "Phase II; Dose Level 2",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Phase I; Dose Level 1"
+       ],
+       "description": "In Phase 1, dose level 1 of the clinical trial, PRGN-2012 is administered at 1 × 10\\^11 particle units as adjuvant therapy prior to standard debulking surgery.",
+       "name": "PRGN-2012 - Phase I; Dose Level 1",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Phase I; Dose Level 2"
+       ],
+       "description": "In Phase 1, dose level 2 of the clinical trial, PRGN-2012 is administered at 5 × 10\\^11 particle units as adjuvant therapy prior to standard debulking surgery.",
+       "name": "PRGN-2012 - Phase I; Dose Level 2",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Phase II; Dose Level 2"
+       ],
+       "description": "The Phase 2 portion is designed as a dose expansion study where patients are treated at the RP2D of 5 x 10\\^11 PU.",
+       "name": "PRGN-2012 - Phase II; Dose Level 2",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Recurrent Respiratory Papillomatosis",
+      "Papillomavirus Infections",
+      "Papillomaviridae"
+     ],
+     "keywords": [
+      "Human Papilloma Virus",
+      "Dose escalation",
+      "laryngotracheal disease",
+      "papillomatous disease"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "interventionModelDescription": "Arm1: Dose level 1: 1x10\\^11 (Phase I) Arm2: Dose level 2: 5x10\\^11 (Phase I) Amr3: Dose level 3: 5x10\\^11 (Phase II)",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 38,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Adjuvant PRGN-2012 in Adult Patients With Recurrent Respiratory Papillomatosis",
+     "nctId": "NCT04724980",
+     "officialTitle": "A Phase 1/2 Study of Adjuvant PRGN-2012 in Adult Patients With Recurrent Respiratory Papillomatosis",
+     "orgStudyIdInfo": {
+      "id": "210013"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Precigen, Inc"
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "21-C-0013"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "collaborators": [
+      {
+       "class": "NIH",
+       "name": "National Cancer Institute (NCI)"
+      }
+     ],
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Precigen, Inc"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2026-06-05",
+      "type": "ESTIMATED"
+     },
+     "dispFirstPostDateStruct": {
+      "date": "2024-11-08",
+      "type": "ACTUAL"
+     },
+     "dispFirstSubmitDate": "2025-06-02",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-06-11",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-06-09",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2024-06-05",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2021-03-16",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-06",
+     "studyFirstPostDateStruct": {
+      "date": "2021-01-26",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2021-01-23",
+     "studyFirstSubmitQcDate": "2021-01-23"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "PRGN-2009 at a dose of 5 x 10\\^11 PU q3W for 3 administrations, then q6w, plus Pembrolizumab, 400mg q6w",
+       "interventionNames": [
+        "Biological: PRGN-2009 plus Pembrolizumab"
+       ],
+       "label": "PRGN-2009 plus Pembrolizumab",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "PRGN-2009 plus Pembrolizumab"
+       ],
+       "description": "Subjects randomized will receive PRGN-2009 (5 x 10\\^11 PU, subcutaneous (SC) injection) every 3 weeks for three administrations, thereafter subjects will continue to receive PRGN-2009 administrations every 6 weeks. Pembrolizumab will be administered concurrently as intravenous (IV) infusion (400 mg) every 6 weeks.",
+       "name": "PRGN-2009 plus Pembrolizumab",
+       "type": "BIOLOGICAL"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Cervical Cancer",
+      "HPV-Related Carcinoma",
+      "HPV-Related Malignancy",
+      "Recurrent Cervical Carcinoma",
+      "Metastatic Cervical Cancer"
+     ],
+     "keywords": [
+      "Human Papilloma Virus",
+      "Cervical Cancer",
+      "Pembrolizumab",
+      "Therapeutic Vaccine",
+      "Cervix Cancer",
+      "Resistance to Checkpoint Inhibitors"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "interventionModelDescription": "This is an open-label, randomized study.",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 24,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "PRGN-2009 in Combination With Pembrolizumab in Patients With Recurrent or Metastatic Cervical Cancer",
+     "nctId": "NCT06157151",
+     "officialTitle": "A Multicenter Phase 2 Study to Evaluate Efficacy and Safety of PRGN-2009 in Combination With Pembrolizumab in Patients With Recurrent or Metastatic Cervical Cancer.",
+     "orgStudyIdInfo": {
+      "id": "PRGN-2009-201"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Precigen, Inc"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "collaborators": [
+      {
+       "class": "NIH",
+       "name": "National Cancer Institute (NCI)"
+      }
+     ],
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Precigen, Inc"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2030-11-30",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-04-23",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-04-20",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2026-11-11",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2025-11-11",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-04",
+     "studyFirstPostDateStruct": {
+      "date": "2023-12-05",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2023-11-27",
+     "studyFirstSubmitQcDate": "2023-11-27"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Zopa administered subcutaneously at 5 × 10\\^11 particle units on Day 1, Week 2, Week 6, and Week 12. Samples for vector shedding to be collected from urine, feces, skin, and nasal tissue.",
+       "interventionNames": [
+        "Drug: Zopapogene imadenovec (Zopa)"
+       ],
+       "label": "Cohort 1 Vector Shedding",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Patients with prior treatment with Zopa (5 × 10\\^11 PU per injection) and require clinically indicated debulking procedure",
+       "interventionNames": [
+        "Drug: Zopapogene imadenovec (Zopa)"
+       ],
+       "label": "Cohort 2 Retreatment",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Cohort 1 Vector Shedding",
+        "Cohort 2 Retreatment"
+       ],
+       "description": "Zopa will be administered as 4 subcutaneous administrations over a 12-week interval.",
+       "name": "Zopapogene imadenovec (Zopa)",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Recurrent Respiratory Papillomatosis",
+      "Papillomavirus Infection",
+      "Papillomaviridae"
+     ],
+     "keywords": [
+      "Human Papilloma Virus",
+      "laryngotracheal disease",
+      "papillomatous disease",
+      "Viral Shedding",
+      "Retreatment",
+      "Zopapogene imadenovec"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 30,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE4"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Zopa Retreatment and Vector Shedding in Adults With RRP",
+     "nctId": "NCT06538480",
+     "officialTitle": "Open-Label Study of Zopapogene Imadenovec Retreatment and Vector Shedding Evaluation in Adult Patients With Recurrent Respiratory Papillomatosis",
+     "orgStudyIdInfo": {
+      "id": "PRGN-2012-301"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Precigen, Inc"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Precigen, Inc"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2028-12-02",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-12-15",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-12-11",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-12-02",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2024-07-11",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-12",
+     "studyFirstPostDateStruct": {
+      "date": "2024-08-05",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2024-08-01",
+     "studyFirstSubmitQcDate": "2024-08-01"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants receive four subcutaneous administrations of zopapogene imadenovec on Day 1, Week 2, Week 6, and Week 12, each in a different limb. Participants aged ≥6 to \\<18 years receive 5 x 10\\^11 particle units per injection; participants aged ≥1 to ≤5 years begin at 2.5 x 10\\^11 particle units per injection with sentinel dosing. All participants undergo a standard-of-care debulking procedure on Day -1.",
+       "interventionNames": [
+        "Biological: Zopapogene imadenovec-drba"
+       ],
+       "label": "Zopapogene imadenovec",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Zopapogene imadenovec"
+       ],
+       "description": "Zopapogene imadenovec",
+       "name": "Zopapogene imadenovec-drba",
+       "type": "BIOLOGICAL"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Recurrent Respiratory Papillomatosis (RRP)",
+      "Juvenile-onset Recurrent Respiratory Papillomatosis",
+      "Papillomavirus Infections"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 15,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Zopapogene Imadenovec for the Treatment of Recurrent Respiratory Papillomatosis in Children",
+     "nctId": "NCT07901738",
+     "officialTitle": "An Open-Label Study of Zopapogene Imadenovec for the Treatment of Recurrent Respiratory Papillomatosis in Pediatric Patients",
+     "orgStudyIdInfo": {
+      "id": "PRGN-2012-302"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Precigen, Inc"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Precigen, Inc"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2033-01",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-28",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-21",
+     "overallStatus": "NOT_YET_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2029-01",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2026-12-31",
+      "type": "ESTIMATED"
+     },
+     "statusVerifiedDate": "2026-10",
+     "studyFirstPostDateStruct": {
+      "date": "2026-10-28",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2026-10-21",
+     "studyFirstSubmitQcDate": "2026-10-21"
+    }
+   }
+  }
+ ]
+}

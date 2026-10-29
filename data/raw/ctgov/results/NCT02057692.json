@@ -1,0 +1,147 @@
+{
+ "nctId": "NCT02057692",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-1.698",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.081",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "0.3969",
+     "groupDescription": "The primary analysis of change from baseline to endpoint (Week 13/ET) average daily ItchRO(Obs) was evaluated by analysis of covariance (ANCOVA) using a PROC MIXED procedure. Least-squares (LS) mean change from baseline to Endpoint (Week 13/ET), along with associated 95% confidence interval (CI) for the LS mean, and pair-wise treatment P-values were calculated for each treatment group.",
+     "groupIds": [
+      "OG000",
+      "OG003"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0321",
+     "paramType": "LS mean difference",
+     "paramValue": "-0.889",
+     "statisticalMethod": "ANCOVA"
+    },
+    {
+     "ciLowerLimit": "-1.620",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-0.192",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "0.3503",
+     "groupDescription": "The primary analysis of change from baseline to endpoint (Week 13/ET) average daily ItchRO(Obs) was evaluated by ANCOVA using a PROC MIXED procedure. LS mean change from baseline to Endpoint (Week 13/ET), along with associated 95% CI for the LS mean, and pair-wise treatment P-values were calculated for each treatment group.",
+     "groupIds": [
+      "OG001",
+      "OG003"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0145",
+     "paramType": "LS mean difference",
+     "paramValue": "-0.906",
+     "statisticalMethod": "ANCOVA"
+    },
+    {
+     "ciLowerLimit": "-0.942",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.863",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "0.4431",
+     "groupDescription": "The primary analysis of change from baseline to endpoint (Week 13/ET) average daily ItchRO(Obs) was evaluated by ANCOVA using a PROC MIXED procedure. LS mean change from baseline to Endpoint (Week 13/ET), along with associated 95% confidence interval (CI) for the LS mean, and pair-wise treatment P-values were calculated for each treatment group.",
+     "groupIds": [
+      "OG002",
+      "OG003"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.9298",
+     "paramType": "LS mean difference",
+     "paramValue": "-0.039",
+     "statisticalMethod": "ANCOVA"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.3034",
+         "value": "-1.470"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.2597",
+         "value": "-1.486"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "0.3575",
+         "value": "-0.620"
+        },
+        {
+         "groupId": "OG003",
+         "spread": "0.2453",
+         "value": "-0.580"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "8"
+      },
+      {
+       "groupId": "OG001",
+       "value": "11"
+      },
+      {
+       "groupId": "OG002",
+       "value": "6"
+      },
+      {
+       "groupId": "OG003",
+       "value": "12"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Pruritus was assessed using Itch report outcome measure (ItchRO\\[Obs\\]), administered as an electronic diary (eDiary) which was completed by the participants twice daily (morning and evening). ItchRO(Obs) score ranged from 0 to 4, with the higher score indicating increasing itch severity. The highest score between the morning and evening ItchRO(Obs) reports represented the daily score: a measure of the worst itching over the previous 24-hour period.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Participants received low dose maralixibat 70 mcg/kg/day oral solution for 10 weeks during the stable dosing period, which was administered after a dose escalation period, in which participants received 14, 35 and 70 mcg/kg/day dose per each week respectively up to 3 weeks.",
+     "id": "OG000",
+     "title": "Maralixibat 70 mcg/kg/Day"
+    },
+    {
+     "description": "Participants received mid dose maralixibat 140 mcg/kg/day oral solution for 9 weeks during the stable dosing period, which was administered after a dose escalation period, in which participants received 14, 35, 70 and 140 mcg/kg/day dose per each week respectively up to 4 weeks.",
+     "id": "OG001",
+     "title": "Maralixibat 140 mcg/kg/Day"
+    },
+    {
+     "description": "Participants received high dose maralixibat 280 mcg/kg/day oral solution for 8 weeks during the stable dosing period, which was administered after a dose escalation period, in which participants received 14, 35, 70, 140 and 280 mcg/kg/day dose per each week respectively up to 5 weeks.",
+     "id": "OG002",
+     "title": "Maralixibat 280 mcg/kg/Day"
+    },
+    {
+     "description": "Participants received placebo matched to maralixibat oral solution for 13 weeks (dose escalation and stable dosing period).",
+     "id": "OG003",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Modified Intent-to-Treat Population (mITT) population included all participants randomly assigned to study treatment, receiving at least 1 dose of treatment, and having at least 1 post baseline observer itch reported outcome (ItchRO\\[Obs\\]) average daily score.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Week 13/Early Termination",
+   "title": "Change From Baseline to Endpoint (Week 13/Early Termination) in Pruritus",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Score on a scale"
+  }
+ ]
+}

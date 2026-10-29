@@ -1,0 +1,83 @@
+{
+ "nctId": "NCT06101823",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-40.6573",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "90",
+     "ciUpperLimit": "-0.3103",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "11.9803",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "=0.095",
+     "pValueComment": "MMRM included percent change from baseline as dependent variable, baseline EASI value as covariate, visit as time factor, stratification factor, treatment group and interaction term for treatment-by-visit as fixed effects.",
+     "paramType": "Least Square (LS) Mean Difference",
+     "paramValue": "-20.484",
+     "statisticalMethod": "Mixed Model for Repeated Measures (MMRM)"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "8.6876",
+         "value": "-71.476"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "8.8073",
+         "value": "-50.992"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "24"
+      },
+      {
+       "groupId": "OG001",
+       "value": "23"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The EASI quantifies the severity of a participant's AD based on both lesion severity and the % of body surface area (BSA) affected. Severity of clinical signs of AD lesions (erythema \\[E\\], induration/papulation\\[I\\], excoriation\\[Ex\\] \\& lichenification\\[L\\]) was scored separately for each of 4 body regions\\[head(h), upper extremities(u), trunk(t), lower extremities(l)\\] on a 4-point scale:0= absent; 1= mild;2= moderate;3= severe. EASI area score was based on % BSA with AD in body region: 0(no involvement), 1(\\< 10%),2 (10 to \\<30%), 3(30 to \\<50%), 4(50 to \\<70%), 5(70 to \\<90%) and 6(90 to 100%). The EASI score is obtained as: EASI(A) = 0.1\\*(Eh+Ih+Exh+Lh)\\*Ah + 0.2\\*(Eu+Iu+Exu+Lu)\\*Au + 0.3\\*(Et +It+Ext+Lt)\\*At + 0.4\\*(El+Il+Exl+Ll)\\*Al. Total EASI score = 0.0 to 72.0; higher scores indicate greater severity of AD. Here, a negative change from baseline indicates less severity in AD.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Participants received OpSCF 600 mg, Q2W, SC, up to 14 weeks in the placebo-controlled period.",
+     "id": "OG000",
+     "title": "OpSCF 600 mg"
+    },
+    {
+     "description": "Participants received OpSCF matching-placebo, Q2W, SC, up to 14 weeks in the placebo-controlled period.",
+     "id": "OG001",
+     "title": "OpSCF Matching-Placebo"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "The mITT set included all randomized participants who received at least one dose of the study drug. Here, \"Overall number analyzed\" signifies the number of participants available for outcome measure analysis. As pre-specified in the protocol, this outcome measure was planned to be analyzed till Week 16, i.e., up to the end of the placebo-controlled period.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Week 16",
+   "title": "Percent Change From Baseline in Eczema Area and Severity Index (EASI) at Week 16",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percent change"
+  }
+ ]
+}

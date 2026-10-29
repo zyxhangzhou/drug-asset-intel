@@ -1,0 +1,75 @@
+{
+ "nctId": "NCT01764854",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "groupDescription": "AZD1722 in-patient and Placebo in-patient are not included in this analysis since it was only a one week evaluation period and an effect was not expected. Also the size (n=8) of the group was too small to .perform this analysis.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.46",
+     "statisticalMethod": "ANCOVA"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.939",
+         "value": "-0.26"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.871",
+         "value": "-0.23"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "37"
+      },
+      {
+       "groupId": "OG001",
+       "value": "35"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Patients are weighed pre dialysis prior to their first dialysis of the week. This measure looks at the change in pre-dialysis weight over time",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Tenapanor\n\nAZD1722 (out-patient): doses between 5 and 45 mg BID",
+     "id": "OG000",
+     "title": "AZD1722 Out-patient"
+    },
+    {
+     "description": "Placebo\n\nPlacebo: Placebo, size and color matched to experimental drug",
+     "id": "OG001",
+     "title": "Placebo Out-patient"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "The out-patient arms were the only groups that were pre-specified to be included in this analysis since the in-patient arms were only treated for one week.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Run-in period (Weeks -2 and -1) versus Week 4 (end of treatment)",
+   "title": "Change in Mean Weekly Interdialytic Weight Gain (IDWG)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "kilograms"
+  }
+ ]
+}

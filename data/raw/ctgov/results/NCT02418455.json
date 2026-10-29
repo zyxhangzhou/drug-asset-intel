@@ -1,0 +1,203 @@
+{
+ "nctId": "NCT02418455",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-73.56",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-48.44",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "6.409",
+     "groupIds": [
+      "OG000"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "< 0.0001",
+     "pValueComment": "P-values are from generalized estimating equation (GEE) model including baseline value and visit as a categorical variable. The covariance structure within subjects is assumed to be exchangeable.",
+     "paramType": "LS Mean",
+     "paramValue": "-61.00",
+     "statisticalMethod": "GEE model"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "16.915",
+         "value": "-58.17"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "7"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Liquid chromatography-mass spectrometry/mass spectrometry-dermatan sulfate (LS-MS/MS-DS) method. For the participant previously treated with UX003 under an eIND, percent change from initial baseline was used.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "UX003 4 mg/kg QOW. Initial treatment period 48 weeks. Continuation period up to 240 weeks.",
+     "id": "OG000",
+     "title": "UX003"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Full analysis set: all enrolled participants who received at least one dose of UX003 during the study and had a non-missing baseline and Week 48 assessment.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline (Week 0), Week 48",
+   "title": "Percent Change From Baseline in uGAG Excretion (LC-MS/MS-DS) at Week 48",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percent change"
+  },
+  {
+   "calculatePct": false,
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "8"
+        }
+       ]
+      }
+     ],
+     "title": "TEAEs"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "3"
+        }
+       ]
+      }
+     ],
+     "title": "Serious TEAEs"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "5"
+        }
+       ]
+      }
+     ],
+     "title": "Treatment-Related TEAEs"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1"
+        }
+       ]
+      }
+     ],
+     "title": "Treatment-Related Serious TEAEs"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "2"
+        }
+       ]
+      }
+     ],
+     "title": "Grade 3 or 4 TEAEs"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "TEAEs Leading to Treatment Discontinuation"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "TEAEs Leading to Study Discontinuation"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "TEAEs Leading to Death"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "8"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Adverse event (AE): any untoward medical occurrence in a participant, whether or not considered drug related. Serious AE (SAE): an AE or suspected adverse reaction that at any dose results in any of the following outcomes: death; a life-threatening AE; inpatient hospitalization or prolongation of existing hospitalization; persistent or significant incapacity or substantial disruption of the ability to conduct normal life functions; a congenital anomaly/birth defect. Other important medical events may also, in the opinion of the Investigator, be considered SAEs. An AE was considered a TEAE if it occurred on or after the first dose, and was not present prior to the first dose, or it was present at the first dose but increased in severity during the study. Events recorded as either possibly, probably, or definitely related to treatment were categorized as related. AE severity was graded using the National Cancer Institute's Common Terminology Criteria for Adverse Events, Version 4.03.",
+   "groups": [
+    {
+     "description": "UX003 4 mg/kg QOW. Initial treatment period 48 weeks. Continuation period up to 240 weeks.",
+     "id": "OG000",
+     "title": "UX003"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Full analysis set: all enrolled participants who received at least one dose of UX003 during the study.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "From first dose of study drug until 30 days after the last dose of study drug. Mean (SD) treatment duration was 98.11 (29.02) weeks",
+   "title": "Number of Participants With Treatment Emergent Adverse Events (TEAEs), Serious TEAEs, and Discontinuations Due to TEAEs",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

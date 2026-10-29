@@ -1,0 +1,77 @@
+{
+ "nctId": "NCT01428661",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.45",
+         "value": "-8.19"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.45",
+         "value": "-7.83"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "0.34",
+         "value": "-13.6"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "249"
+      },
+      {
+       "groupId": "OG001",
+       "value": "243"
+      },
+      {
+       "groupId": "OG002",
+       "value": "339"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Hamilton Rating Scale for Depression (HAM-D) assesses the range of symptoms that are most frequently observed in subjects with major depressive disorder (MDD) on a scale from 0 to 52. Higher HAM-D scores indicate more severe levels of depressive symptoms, thus, a negative change from baseline indicates a reduction (or improvement) in depressive symptoms.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "20 mg tasimelteon capsules, PO daily for 8 weeks",
+     "id": "OG000",
+     "title": "Tasimelteon"
+    },
+    {
+     "description": "Placebo capsules, PO daily for 8 weeks",
+     "id": "OG001",
+     "title": "Placebo"
+    },
+    {
+     "description": "20 mg capsules, PO daily for 52 weeks",
+     "id": "OG002",
+     "title": "Open Label Tasimelteon"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "The Intent-to-Treat (ITT) Population included any subject randomized into the study that receives a dose of study medication and that has completed at least one post-baseline efficacy measurement while on study medication.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "8 weeks",
+   "title": "Change From Baseline to Endpoint at Week 8 Using the Total Score of the Hamilton Depression Rating Scale (HAM-D)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "units on a scale"
+  }
+ ]
+}

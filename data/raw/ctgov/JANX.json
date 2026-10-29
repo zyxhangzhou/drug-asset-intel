@@ -1,0 +1,641 @@
+{
+ "aliases": [
+  "Janux Therapeutics"
+ ],
+ "studies": [
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "IV dosing during 21- or 28-day cycles. Dosage per cohort will increase to determine the maximum tolerable dose.",
+       "interventionNames": [
+        "Biological: JANX007"
+       ],
+       "label": "Dose Escalation",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "IV dosing during 21- or 28-day cycles. Subjects will be dosed at levels previously declared tolerable.",
+       "interventionNames": [
+        "Biological: JANX007"
+       ],
+       "label": "Backfill Expansion",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "IV dosing during 21- or 28-day cycles. Subjects will be dosed at preliminary recommended phase 2 dose (RP2D).",
+       "interventionNames": [
+        "Biological: JANX007"
+       ],
+       "label": "Monotherapy Expansion Parts A - D",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "IV dosing during 21- or 28-day cycles. Subjects will be dosed at preliminary recommended phase 2 dose",
+       "interventionNames": [
+        "Biological: JANX007",
+        "Drug: Darolutamide"
+       ],
+       "label": "Combination Expansion",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Backfill Expansion",
+        "Combination Expansion",
+        "Dose Escalation",
+        "Monotherapy Expansion Parts A - D"
+       ],
+       "description": "JANX007 is dosed via IV in a 21- or 28-day cycle.",
+       "name": "JANX007",
+       "type": "BIOLOGICAL"
+      },
+      {
+       "armGroupLabels": [
+        "Combination Expansion"
+       ],
+       "description": "Darolutamide is dosed via oral tablets",
+       "name": "Darolutamide",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Prostate Cancer",
+      "Metastatic Castration-resistant Prostate Cancer",
+      "Castration Resistant Prostatic Cancer"
+     ],
+     "keywords": [
+      "Prostate Cancer",
+      "Castration-resistant prostate cancer"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 272,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Study of JANX007 in Subjects With Metastatic Castration-Resistant Prostate Cancer (ENGAGER-PSMA-01)",
+     "nctId": "NCT05519449",
+     "officialTitle": "A Phase 1, Open-Label, Multicenter Study of JANX007 in Subjects With Metastatic Castration-Resistant Prostate Cancer",
+     "orgStudyIdInfo": {
+      "id": "PSMA-007-001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Janux Therapeutics"
+     },
+     "secondaryIdInfos": [
+      {
+       "domain": "Janux Therapeutics., Inc",
+       "id": "ENGAGER-PSMA-01",
+       "type": "OTHER"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Janux Therapeutics"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2028-12",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-08-13",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-08-11",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-07",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2022-09-15",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-08",
+     "studyFirstPostDateStruct": {
+      "date": "2022-08-29",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2022-08-25",
+     "studyFirstSubmitQcDate": "2022-08-25"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Subjects will be dosed weekly during each 21-day cycle. Dosage per cohort will increase to determine the maximum tolerable dose.",
+       "interventionNames": [
+        "Drug: JANX008"
+       ],
+       "label": "Dose Escalation",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Subjects will be dosed weekly during each 21-day cycle. Subjects will be dosed at levels previously declared tolerable.",
+       "interventionNames": [
+        "Drug: JANX008"
+       ],
+       "label": "Backfill Expansion",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Subjects will be dosed weekly during each 21-day cycle. Subjects will be dosed at the preliminary recommended Phase 2 dose (RP2D).",
+       "interventionNames": [
+        "Drug: JANX008"
+       ],
+       "label": "Expansion",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Backfill Expansion",
+        "Dose Escalation",
+        "Expansion"
+       ],
+       "description": "JANX008 is dosed via IV weekly in a 21-day cycle",
+       "name": "JANX008",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Non-Small Cell Lung Cancer",
+      "Renal Cell Carcinoma",
+      "Squamous Cell Carcinoma of the Head and Neck",
+      "Colorectal Carcinoma",
+      "Small Cell Lung Cancer",
+      "Pancreatic Ductal Adenocarcinoma",
+      "Triple-negative Breast Cancer"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 130,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Study of JANX008 in Subjects With Advanced or Metastatic Solid Tumor Malignancies",
+     "nctId": "NCT05783622",
+     "officialTitle": "An Open-Label, Multicenter, Phase 1/1b Study of JANX008 in Subjects With Advanced or Metastatic Solid Tumor Malignancies",
+     "orgStudyIdInfo": {
+      "id": "EGFR-008-001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Janux Therapeutics"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Janux Therapeutics"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2026-10-31",
+      "type": "ESTIMATED"
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-06-01",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-05-28",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2026-07-31",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2023-04-19",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-05",
+     "studyFirstPostDateStruct": {
+      "date": "2023-03-24",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2023-03-14",
+     "studyFirstSubmitQcDate": "2023-03-14"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Dosage per cohort will increase to determine the maximum tolerable dose.",
+       "interventionNames": [
+        "Drug: JANX011"
+       ],
+       "label": "Dose Escalation",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Dose Escalation"
+       ],
+       "description": "JANX011 is administered subcutaneously, one time.",
+       "name": "JANX011",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Autoimmune"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SEQUENTIAL",
+      "interventionModelDescription": "Subjects will receive one dose of JANX011 subcutaneously. Dosage per cohort will increase to determine the maximum tolerable dose.",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 60,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "EARLY_PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Study of JANX011 in Healthy Adult Volunteers to Assess Safety and Tolerability.",
+     "nctId": "NCT07291323",
+     "officialTitle": "A Phase 1, Open-Label Study to Investigate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of Single Ascending Doses of JANX011 With Optional Step-Up Dosing in Healthy Adult Volunteers",
+     "orgStudyIdInfo": {
+      "id": "ARMV-011-001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Janux Therapeutics"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Janux Therapeutics"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2026-12",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-04-23",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-04-20",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2026-10",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2026-02-16",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-04",
+     "studyFirstPostDateStruct": {
+      "date": "2025-12-18",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-12-05",
+     "studyFirstSubmitQcDate": "2025-12-05"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "JANX014 will be administered at increasing dose levels per cohort to determine the maximum tolerated dose.",
+       "interventionNames": [
+        "Biological: JANX014"
+       ],
+       "label": "Dose Escalation",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants will be dosed at levels previously declared tolerable.",
+       "interventionNames": [
+        "Biological: JANX014"
+       ],
+       "label": "Dose Expansion",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Dose Escalation",
+        "Dose Expansion"
+       ],
+       "description": "JANX014 will be administered via IV dosing",
+       "name": "JANX014",
+       "type": "BIOLOGICAL"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Prostate Cancer",
+      "Metastatic Castration-resistant Prostate Cancer",
+      "Castration-resistant Prostate Cancer"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 43,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Study of JANX014 in Subjects With Metastatic Castration-Resistant Prostate Cancer",
+     "nctId": "NCT07545811",
+     "officialTitle": "A Phase 1 Open-Label, Multicenter Study of JANX014 in Participants With Prostate Cancer",
+     "orgStudyIdInfo": {
+      "id": "PRCA-014-001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Janux Therapeutics"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Janux Therapeutics"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2029-03",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-09-03",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-09-02",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2028-05",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2026-04-15",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-08",
+     "studyFirstPostDateStruct": {
+      "date": "2026-04-22",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2026-04-16",
+     "studyFirstSubmitQcDate": "2026-04-16"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants receive JANX013 in combination with JANX007 administered at increasing dose levels per cohort",
+       "interventionNames": [
+        "Drug: JANX013",
+        "Drug: JANX007"
+       ],
+       "label": "Dose Escalation",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants receive JANX013 in combination with JANX007. Participants will be dosed at levels previously declared tolerable.",
+       "interventionNames": [
+        "Drug: JANX013",
+        "Drug: JANX007"
+       ],
+       "label": "Dose Expansion",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Dose Escalation"
+       ],
+       "description": "JANX013 will be administered via IV dosing.",
+       "name": "JANX013",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Dose Escalation"
+       ],
+       "description": "JANX007 will be administered via IV dosing.",
+       "name": "JANX007",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Dose Expansion"
+       ],
+       "description": "JANX013 will be administered via IV dosing",
+       "name": "JANX013",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Dose Expansion"
+       ],
+       "description": "JANX007 will be administered via IV dosing",
+       "name": "JANX007",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Prostate Cancer",
+      "Castration-Resistant Prostate Cancer (CRPC)",
+      "Metastatic Prostate Cancer",
+      "Metastatic Castration-Resistant Prostate Cancer Patients"
+     ],
+     "keywords": [
+      "mCRPC",
+      "Metastatic Castration-Resistant Prostate Cancer",
+      "PSMA",
+      "Prostate-Specific Membrane Antigen",
+      "CD3 T cell engager",
+      "T cell engager",
+      "Bispecific antibody",
+      "Immunotherapy",
+      "Prostate cancer metastatic"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "interventionModelDescription": "Participants are assigned to sequential cohorts in a dose-escalation phase followed by dose-expansion cohorts evaluating the safety, tolerability, pharmacokinetics, and preliminary antitumor activity of JANX013 in combination with JANX007 in participants with metastatic castration-resistant prostate cancer.",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 110,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "PSMA-013-001",
+     "briefTitle": "Phase 1 Trial to Study JANX013 and JANX007 Combination in mCRPC",
+     "nctId": "NCT07813637",
+     "officialTitle": "A Phase 1 Open-Label, Multicenter Study of JANX013 Combined With JANX007 in Participants With Metastatic Castration Resistant Prostate Cancer",
+     "orgStudyIdInfo": {
+      "id": "PSMA-013-001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Janux Therapeutics"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Janux Therapeutics"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2030-07",
+      "type": "ESTIMATED"
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-09-17",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-09-15",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2029-07",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2026-09-10",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-09",
+     "studyFirstPostDateStruct": {
+      "date": "2026-09-10",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2026-09-04",
+     "studyFirstSubmitQcDate": "2026-09-04"
+    }
+   }
+  }
+ ]
+}

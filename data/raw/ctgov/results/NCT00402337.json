@@ -1,0 +1,155 @@
+{
+ "nctId": "NCT00402337",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciPctValue": "95",
+     "groupDescription": "The null hypothesis is that the active treatment group is equal to the placebo group.",
+     "groupIds": [
+      "OG000",
+      "OG004"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+     "pValue": "0.0337",
+     "statisticalMethod": "ANCOVA",
+     "testedNonInferiority": false
+    },
+    {
+     "ciPctValue": "95",
+     "groupDescription": "The null hypothesis is that the active treatment group is equal to the placebo group.",
+     "groupIds": [
+      "OG001",
+      "OG004"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+     "pValue": "0.0010",
+     "statisticalMethod": "ANCOVA",
+     "testedNonInferiority": false
+    },
+    {
+     "ciPctValue": "95",
+     "groupDescription": "The null hypothesis is that the active treatment group is equal to the placebo group.",
+     "groupIds": [
+      "OG002",
+      "OG004"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+     "pValue": "<0.0001",
+     "statisticalMethod": "ANCOVA",
+     "testedNonInferiority": false
+    },
+    {
+     "ciPctValue": "95",
+     "groupDescription": "The null hypothesis is that the active treatment group is equal to the placebo group.",
+     "groupIds": [
+      "OG003",
+      "OG004"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+     "pValue": "<0.0001",
+     "statisticalMethod": "ANCOVA",
+     "testedNonInferiority": false
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.407",
+         "value": "2.59"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.412",
+         "value": "3.25"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "0.391",
+         "value": "3.57"
+        },
+        {
+         "groupId": "OG003",
+         "spread": "0.394",
+         "value": "4.29"
+        },
+        {
+         "groupId": "OG004",
+         "spread": "0.383",
+         "value": "1.45"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "59"
+      },
+      {
+       "groupId": "OG001",
+       "value": "56"
+      },
+      {
+       "groupId": "OG002",
+       "value": "62"
+      },
+      {
+       "groupId": "OG003",
+       "value": "62"
+      },
+      {
+       "groupId": "OG004",
+       "value": "68"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Change in SBM frequency during Weeks 1 through 4 of the treatment period from the weekly SBM rate obtained during the pretreatment period.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Linaclotide, 72μg dose, oral administration, once per day",
+     "id": "OG000",
+     "title": "Linaclotide, 72μg"
+    },
+    {
+     "description": "Linaclotide, 145μg dose, oral administration, once per day",
+     "id": "OG001",
+     "title": "Linaclotide, 145μg"
+    },
+    {
+     "description": "Linaclotide, 290μg dose, oral administration, once per day",
+     "id": "OG002",
+     "title": "Linaclotide, 290μg"
+    },
+    {
+     "description": "Linaclotide, 579μg dose, oral administration, once per day",
+     "id": "OG003",
+     "title": "Linaclotide, 579μg"
+    },
+    {
+     "description": "Dose-matched placebo, oral administration, once per day.",
+     "id": "OG004",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "307 patients who received ≥ 1 capsule of study drug and had ≥ 1 post-baseline response to the IVRS Treatment Period Question #12 \"How many bowel movements did you have today or yesterday since your last call?\" were included in the intent-to-treat (ITT) Population.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Change from Baseline to Week 4",
+   "title": "Change From Pretreatment in Weekly Normalized Spontaneous Bowel Movement (SBM) Frequency",
+   "type": "PRIMARY",
+   "unitOfMeasure": "SBMs per week"
+  }
+ ]
+}

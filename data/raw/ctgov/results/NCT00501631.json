@@ -1,0 +1,244 @@
+{
+ "nctId": "NCT00501631",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciPctValue": "95",
+     "groupDescription": "The null hypothesis that there is no difference between two treatment groups (i.e. Placebo and Vivitrol) was tested using a two-sided Van der Waerden test. Response profiles were tabulated as a cumulative percent of subjects at each decile of percent heavy drinking days.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+     "pValue": "0.336",
+     "statisticalMethod": "Van der Waerden test",
+     "testedNonInferiority": false
+    }
+   ],
+   "anticipatedPostingDate": "2011-03",
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "40.8"
+        },
+        {
+         "groupId": "OG001",
+         "value": "47.3"
+        }
+       ]
+      }
+     ],
+     "title": "0% Heavy Drinking Days"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "59.2"
+        },
+        {
+         "groupId": "OG001",
+         "value": "59.5"
+        }
+       ]
+      }
+     ],
+     "title": "<= 10% Heavy Drinking Days"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "65.8"
+        },
+        {
+         "groupId": "OG001",
+         "value": "72.3"
+        }
+       ]
+      }
+     ],
+     "title": "<= 20% Heavy Drinking Days"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "74.3"
+        },
+        {
+         "groupId": "OG001",
+         "value": "79.1"
+        }
+       ]
+      }
+     ],
+     "title": "<= 30% Heavy Drinking Days"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "80.9"
+        },
+        {
+         "groupId": "OG001",
+         "value": "83.1"
+        }
+       ]
+      }
+     ],
+     "title": "<= 40% Heavy Drinking Days"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "83.6"
+        },
+        {
+         "groupId": "OG001",
+         "value": "85.1"
+        }
+       ]
+      }
+     ],
+     "title": "<= 50% Heavy Drinking Days"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "84.9"
+        },
+        {
+         "groupId": "OG001",
+         "value": "87.2"
+        }
+       ]
+      }
+     ],
+     "title": "<= 60% Heavy Drinking Days"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "90.1"
+        },
+        {
+         "groupId": "OG001",
+         "value": "89.9"
+        }
+       ]
+      }
+     ],
+     "title": "<= 70% Heavy Drinking Days"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "93.4"
+        },
+        {
+         "groupId": "OG001",
+         "value": "94.6"
+        }
+       ]
+      }
+     ],
+     "title": "<= 80% Heavy Drinking Days"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "97.4"
+        },
+        {
+         "groupId": "OG001",
+         "value": "98.6"
+        }
+       ]
+      }
+     ],
+     "title": "<= 90% Heavy Drinking Days"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "100.0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "100.0"
+        }
+       ]
+      }
+     ],
+     "title": "<= 100% Heavy Drinking Days"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "152"
+      },
+      {
+       "groupId": "OG001",
+       "value": "148"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Cumulative percentage (%) of subjects reporting heavy drinking by category reflecting the various cut-offs for percentage of days that were heavy drinking days. A \"heavy drinking day\" was defined as 4 or more alcohol drinks in 1 day for women, and 5 or more alcohol drinks in 1 day for men. The Timeline Follow-Back (TLFB) method (Sobell \\& Sobell: Humana Press, 1992) was utilized to collect subjects' daily drinking information (ie, the number of drinks consumed per day per subject which was retrospectively recalled and recorded in a diary).",
+   "groups": [
+    {
+     "id": "OG000",
+     "title": "Vivitrol"
+    },
+    {
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "The primary endpoint is based on percentage rate of heavy drinking days during the double-blind treatment period as per protocol.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "up to 12 weeks",
+   "title": "Cumulative Percentage of Participants by Heavy Drinking Rate",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

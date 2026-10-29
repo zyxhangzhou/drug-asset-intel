@@ -1,0 +1,122 @@
+{
+ "nctId": "NCT04270682",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-3.794",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-2.331",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "0.332",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityComment": "The null (H0) hypothesis and the alternative (Ha) hypothesis to be tested for the primary efficacy endpoint are that H0: Δ = 0 versus Ha: Δ ≠ 0 where Δ is the true paired treatment difference between CDCA and placebo for the change from baseline in loge-transformed urine 23S-pentol in the adult cohort.",
+     "nonInferiorityType": "EQUIVALENCE",
+     "pValue": "<0.0001",
+     "paramType": "Mean Difference (Final Values)",
+     "paramValue": "-3.06",
+     "statisticalMethod": "paired t-test"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.797",
+         "value": "7.18"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "1.076",
+         "value": "6.96"
+        }
+       ]
+      }
+     ],
+     "title": "Pooled Double Blind Baseline"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.675",
+         "value": "7.45"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.788",
+         "value": "10.34"
+        }
+       ]
+      }
+     ],
+     "title": "Pooled last non missing postbaseline Double Blind record"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.732",
+         "value": "0.20"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "1.111",
+         "value": "3.38"
+        }
+       ]
+      }
+     ],
+     "title": "Pooled change from baseline to last non missing postbaseline Double Blind record"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "13"
+      },
+      {
+       "groupId": "OG001",
+       "value": "13"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Primary Analysis of Change from Baseline in Urine 23S-Pentol (Natural Log-Transformed) during the Two Double-blind Periods- Paired T-test",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Active: Contains 250 mg of Chenodiol (the non-proprietary name for CDCA). Open-label and blinded CDCA are the same drug product.",
+     "id": "OG000",
+     "title": "CDCA TID"
+    },
+    {
+     "description": "Control: Placebo study medication is provided in the same form as blinded CDCA, as white film-coated 250-mg tablets with no CDCA.",
+     "id": "OG001",
+     "title": "Placebo TID"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "All adult cohort participants who were randomized and took at least one dose of randomized study medication.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Two double-blind periods: Week 0 to Week 4, Week 12 to Week 16",
+   "title": "Change From Baseline in Urine 23S-Pentol During the Two Double-Blind Periods",
+   "type": "PRIMARY",
+   "unitOfMeasure": "natural log of ng/mL"
+  }
+ ]
+}

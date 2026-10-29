@@ -1,0 +1,214 @@
+{
+ "nctId": "NCT03472040",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "94"
+        },
+        {
+         "groupId": "OG001",
+         "value": "240"
+        }
+       ]
+      }
+     ],
+     "title": "TEAE"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "58"
+        },
+        {
+         "groupId": "OG001",
+         "value": "119"
+        }
+       ]
+      }
+     ],
+     "title": "Drug-related TEAE"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "23"
+        },
+        {
+         "groupId": "OG001",
+         "value": "20"
+        }
+       ]
+      }
+     ],
+     "title": "TESAE"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "3"
+        },
+        {
+         "groupId": "OG001",
+         "value": "1"
+        }
+       ]
+      }
+     ],
+     "title": "Drug-related TESAE"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "18"
+        },
+        {
+         "groupId": "OG001",
+         "value": "35"
+        }
+       ]
+      }
+     ],
+     "title": "DMID Grade 3 or 4 TEAE"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "7"
+        },
+        {
+         "groupId": "OG001",
+         "value": "11"
+        }
+       ]
+      }
+     ],
+     "title": "Drug-related DMID Grade 3 or 4 TEAE"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "8"
+        },
+        {
+         "groupId": "OG001",
+         "value": "28"
+        }
+       ]
+      }
+     ],
+     "title": "TEAE leading to study drug discontinuation"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "8"
+        },
+        {
+         "groupId": "OG001",
+         "value": "32"
+        }
+       ]
+      }
+     ],
+     "title": "TEAE leading to study drug interruption"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "5"
+        },
+        {
+         "groupId": "OG001",
+         "value": "5"
+        }
+       ]
+      }
+     ],
+     "title": "Drug-related rash"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1"
+        },
+        {
+         "groupId": "OG001",
+         "value": "2"
+        }
+       ]
+      }
+     ],
+     "title": "Drug-related rash leading to study drug discontinuation"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "100"
+      },
+      {
+       "groupId": "OG001",
+       "value": "287"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The number and percentage of subjects with treatment-emergent adverse events.",
+   "groups": [
+    {
+     "description": "Subjects were initially treated with berotralstat 110 mg QD. Following the results from Part 1 of Study BCX7353-302, all subjects were transitioned to a berotralstat dose of 150 mg QD.",
+     "id": "OG000",
+     "title": "110 mg Followed by 150 mg Berotralstat"
+    },
+    {
+     "description": "Subjects were treated with berotralstat 150 mg QD.",
+     "id": "OG001",
+     "title": "150 mg Berotralstat"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "The safety population included all subjects who received at least 1 dose of study drug. This population was used in the assessment and reporting of safety data.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to 96 weeks (US) / 216 weeks (Rest of World (ROW)).",
+   "title": "Safety & Tolerability",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

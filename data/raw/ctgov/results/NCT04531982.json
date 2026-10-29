@@ -1,0 +1,76 @@
+{
+ "nctId": "NCT04531982",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "groupDescription": "Difference between LSM changes for adjunctive pimavanserin and adjunctive placebo (pimavanserin - placebo) at the specified visit from MMRM analysis.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.4825",
+     "pValueComment": "Two-sided p-value for treatment difference at Week 26 from MMRM analysis.",
+     "statisticalMethod": "Mixed Models Analysis"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "10.29",
+         "value": "-12.14"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "9.18",
+         "value": "-11.09"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "224"
+      },
+      {
+       "groupId": "OG001",
+       "value": "222"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The NSA-16 is a semi-structured interview and a validated scale containing 16 items for evaluating negative symptoms of schizophrenia, i.e. the reduction or absence of emotional expression and volitional behaviors normally present in a healthy person. Items are scored based on behaviors during the interview (items 1-4, 6, 7, 9, 11, 15, 16) or previous 7 days (items 5, 8, 10, 12-14) on a 6-point scale from 1 to 6. The NSA-16 total score is the sum of item scores. It can range from 16 to a maximum of 96, with higher scores denoting more severe negative symptoms in schizophrenia.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Pimavanserin 34 mg taken as two tablets + background antipsychotic, once daily by mouth\n\nPimavanserin: Pimavanserin 34 mg, taken as two blinded 17 mg tablets once daily by mouth",
+     "id": "OG000",
+     "title": "Drug - Pimavanserin"
+    },
+    {
+     "description": "Placebo + background antipsychotic, taken as two tablets, once daily by mouth\n\nPlacebo: Placebo, taken as two blinded tablets once daily by mouth",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Full Analysis Set",
+   "reportingStatus": "POSTED",
+   "timeFrame": "26 Weeks Treatment Duration",
+   "title": "Negative Symptom Assessment-16 (NSA-16) Total Score - Change From Baseline to Week 26",
+   "type": "PRIMARY",
+   "unitOfMeasure": "score on a scale"
+  }
+ ]
+}

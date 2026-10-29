@@ -1,0 +1,65 @@
+{
+ "nctId": "NCT04084678",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "-3.46",
+         "upperLimit": "-0.45",
+         "value": "-1.953"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "-0.73",
+         "upperLimit": "2.59",
+         "value": "0.929"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "2"
+      },
+      {
+       "groupId": "OG001",
+       "value": "2"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Peak VO2 by CPET was measured at Baseline (prior to starting study drug) and Week 28",
+   "dispersionType": "Full Range",
+   "groups": [
+    {
+     "description": "Ralinepag once daily extended-release tablets (oral) 50, 250, and 400 mcg titrated to the individual maximum tolerated dose (maximum dose of 1400 mcg)\n\nRalinepag: Oral ralinepag",
+     "id": "OG000",
+     "title": "Ralinepag"
+    },
+    {
+     "description": "Matching placebo tablets (oral)",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "The study was discontinued by the Sponsor on 27 February 2023 due to slow enrollment.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline to Week 28",
+   "title": "Change From Baseline in Peak VO2 Assessed by CPET",
+   "type": "PRIMARY",
+   "unitOfMeasure": "mL/kg/min"
+  }
+ ]
+}

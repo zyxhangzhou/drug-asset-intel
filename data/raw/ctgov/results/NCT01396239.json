@@ -1,0 +1,95 @@
+{
+ "nctId": "NCT01396239",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "15.9",
+         "upperLimit": "29.0",
+         "value": "23"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "-8.5",
+         "upperLimit": "-6.5",
+         "value": "-7.48"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "-9.3",
+         "upperLimit": "7.4",
+         "value": "0.79"
+        },
+        {
+         "groupId": "OG003",
+         "lowerLimit": "-5.8",
+         "upperLimit": "4.5",
+         "value": "-0.63"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "4"
+      },
+      {
+       "groupId": "OG001",
+       "value": "2"
+      },
+      {
+       "groupId": "OG002",
+       "value": "4"
+      },
+      {
+       "groupId": "OG003",
+       "value": "2"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The primary efficacy endpoint will be based on the pre-treatment and post-treatment change in the number (%) of dystrophin positive fibers as measured in the muscle biopsy tissue on immunohistochemistry (IHC).",
+   "dispersionType": "Full Range",
+   "groups": [
+    {
+     "description": "30 mg/kg eteplirsen - Biopsied after 24 weeks of dosing",
+     "id": "OG000",
+     "title": "AVI-4658 (Eteplirsen) 30 mg/kg"
+    },
+    {
+     "description": "Placebo: Biopsied after 24 weeks of dosing",
+     "id": "OG001",
+     "title": "Placebo - Week 24 Biopsy"
+    },
+    {
+     "description": "50 mg/kg eteplirsen - Biopsied after 12 weeks of dosing",
+     "id": "OG002",
+     "title": "AVI-4658 (Eteplirsen) 50 mg/kg"
+    },
+    {
+     "description": "Placebo - Biopsied after 12 weeks of dosing",
+     "id": "OG003",
+     "title": "Placebo - Week 12 Biopsy"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "The sample size for the study was selected based on Proof of Principal approach.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "After 12 weeks for 4 patients who received 50 mg/kg and 2 patients who received placebo. After 24 weeks for 4 patients who received 30 mg/kg and 2 patients who received placebo.",
+   "title": "Change in the Number (%) of Dystrophin Positive Fibers",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of dystrophin Pos. fibers"
+  }
+ ]
+}

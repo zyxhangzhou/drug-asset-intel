@@ -1,0 +1,78 @@
+{
+ "nctId": "NCT03796637",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.05874",
+         "value": "0.0844"
+        }
+       ]
+      }
+     ],
+     "title": "Gastrocnemius"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.08060",
+         "value": "0.1002"
+        }
+       ]
+      }
+     ],
+     "title": "Tibialis Anterior"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.08300",
+         "value": "0.1054"
+        }
+       ]
+      }
+     ],
+     "title": "Across Muscle Locations"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "6"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The mean dystrophin protein levels were measured by ECL. Dystrophin levels are reported by muscle group (gastrocnemius, tibialis anterior, and across muscle locations). Results below the limit of quantitation were imputed as half of lower limit of quantitation (LLOQ). LLOQ = 0.5 micrograms (μg)/milliliter (mL)",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants who had been receiving ataluren, were dosed daily 10 mg/kg in the morning, 10 mg/kg at midday, and 20 mg/kg in the evening, for ≥9 months from ongoing PTC-sponsored nmDMD clinical trials.",
+     "id": "OG000",
+     "title": "Ataluren"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "ITT population included all enrolled participants with a valid assessment of dystrophin level, as measured by ECL.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Day 1 of biopsy",
+   "title": "Mean Dystrophin Levels as Measured by Electrochemiluminescence (ECL)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "nanograms (ng)/mg"
+  }
+ ]
+}

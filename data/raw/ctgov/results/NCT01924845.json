@@ -1,0 +1,64 @@
+{
+ "nctId": "NCT01924845",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "17.5",
+         "value": "50.0"
+        }
+       ]
+      }
+     ],
+     "title": "Baseline"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "8.3",
+         "value": "2.2"
+        }
+       ]
+      }
+     ],
+     "title": "Change from Baseline to Week 24"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "18"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Pulmonary function test: Percent Predicted Maximum Inspiratory Pressure",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "BMN701 20 mg/kg",
+     "id": "OG000",
+     "title": "BMN701 20 mg/kg"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Full Analysis Set. Please note the Overall Number of Participants reflects the number of patients in the Analysis Population, while the Number Analyzed of patients at specific visit in the Outcome Measure Table reflects the participants who had data at that visit .",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Week 24",
+   "title": "Percent Predicted Maximum Inspiratory Pressure (MIP)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Percent Predicted"
+  }
+ ]
+}

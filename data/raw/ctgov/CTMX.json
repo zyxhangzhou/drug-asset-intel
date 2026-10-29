@@ -1,0 +1,1402 @@
+{
+ "aliases": [
+  "CytomX Therapeutics"
+ ],
+ "studies": [
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Monotherapy CX-072 (Part A)",
+       "interventionNames": [
+        "Drug: CX-072"
+       ],
+       "label": "CX-072 #1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Monotherapy CX-072 (Part A2)",
+       "interventionNames": [
+        "Drug: CX-072"
+       ],
+       "label": "CX-072 #2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Combination CX-072 + ipilimumab (Part B1)",
+       "interventionNames": [
+        "Drug: CX-072",
+        "Drug: ipilimumab"
+       ],
+       "label": "CX-072 with Ipilimumab #1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Combination CX-072 + ipilimumab (Part B2)",
+       "interventionNames": [
+        "Drug: CX-072",
+        "Drug: ipilimumab"
+       ],
+       "label": "CX-072 with Ipilimumab #2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Combination CX-072 + vemurafenib (Part C)",
+       "interventionNames": [
+        "Drug: CX-072",
+        "Drug: vemurafenib"
+       ],
+       "label": "CX-072 with Vemurafenib",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Monotherapy CX-072 (Part D)",
+       "interventionNames": [
+        "Drug: CX-072"
+       ],
+       "label": "CX-072 expansion",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Monotherapy CX-072",
+       "interventionNames": [
+        "Drug: CX-072"
+       ],
+       "label": "CX-072 long-term extension",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "CX-072 #1",
+        "CX-072 #2",
+        "CX-072 expansion",
+        "CX-072 long-term extension",
+        "CX-072 with Ipilimumab #1",
+        "CX-072 with Ipilimumab #2",
+        "CX-072 with Vemurafenib"
+       ],
+       "description": "Solution for infusion",
+       "name": "CX-072",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "CX-072 with Ipilimumab #1",
+        "CX-072 with Ipilimumab #2"
+       ],
+       "description": "Solution for infusion",
+       "name": "ipilimumab",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "CX-072 with Vemurafenib"
+       ],
+       "description": "Tablet",
+       "name": "vemurafenib",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Solid Tumor",
+      "Lymphoma"
+     ],
+     "keywords": [
+      "cancer",
+      "checkpoint inhibitor",
+      "monotherapy",
+      "combination",
+      "PD-L1",
+      "CTLA-4",
+      "solid tumor",
+      "lymphoma",
+      "BRAF",
+      "PROCLAIM",
+      "CX-072",
+      "PROCLAIM-CX-072"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 196,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "PROCLAIM-CX-072: A Trial to Find Safe and Active Doses of an Investigational Drug CX-072 for Patients With Solid Tumors or Lymphomas",
+     "nctId": "NCT03013491",
+     "officialTitle": "An Open-Label, Dose-Finding and Proof of Concept Study of the PD-L1 Probody® Therapeutic , CX-072, as Monotherapy and in Combination With Yervoy (Ipilimumab) or With Zelboraf (Vemurafenib) in Subjects With Advanced or Recurrent Solid Tumors or Lymphomas",
+     "orgStudyIdInfo": {
+      "id": "CTMX-M-072-001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "CytomX Therapeutics"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "CytomX Therapeutics"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2020-10-27",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-06-17",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-05-30",
+     "overallStatus": "TERMINATED",
+     "primaryCompletionDateStruct": {
+      "date": "2020-10-27",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2025-06-17",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2025-04-23",
+     "resultsFirstSubmitQcDate": "2025-05-30",
+     "startDateStruct": {
+      "date": "2017-01-19",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-05",
+     "studyFirstPostDateStruct": {
+      "date": "2017-01-06",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2016-12-26",
+     "studyFirstSubmitQcDate": "2017-01-05",
+     "whyStopped": "Sponsor's decision"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Dose escalation and determination",
+       "interventionNames": [
+        "Drug: CX-2009"
+       ],
+       "label": "CX-2009 Monotherapy: 21-Day Dosing Regimen-Escalation",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Additional enrollment into previously cleared monotherapy dose levels",
+       "interventionNames": [
+        "Drug: CX-2009"
+       ],
+       "label": "CX-2009 Monotherapy: 21-Day Dosing Regimen-Determination",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Dose expansion",
+       "interventionNames": [
+        "Drug: CX-2009"
+       ],
+       "label": "CX-2009 Monotherapy: 21-Day Dosing Regimen-Expansion",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Dose escalation and determination in selected tumor types",
+       "interventionNames": [
+        "Drug: CX-2009"
+       ],
+       "label": "CX-2009 Monotherapy: 14-Day Dosing Regimen-Expansion",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "CX-2009 Monotherapy: 14-Day Dosing Regimen-Expansion",
+        "CX-2009 Monotherapy: 21-Day Dosing Regimen-Determination",
+        "CX-2009 Monotherapy: 21-Day Dosing Regimen-Escalation",
+        "CX-2009 Monotherapy: 21-Day Dosing Regimen-Expansion"
+       ],
+       "description": "CX-2009 Monotherapy",
+       "name": "CX-2009",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Solid Tumor, Adult",
+      "Breast Cancer",
+      "Non Small Cell Lung Cancer",
+      "Head and Neck Cancer",
+      "Ovarian Cancer"
+     ],
+     "keywords": [
+      "cancer",
+      "solid tumor",
+      "PROCLAIM",
+      "CX-2009",
+      "PROBODY™ Therapeutic",
+      "Drug Conjugate",
+      "Antibody drug conjugate",
+      "CD166"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 99,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "PROCLAIM-CX-2009: A Trial to Find Safe and Active Doses of an Investigational Drug CX-2009 for Patients With Selected Solid Tumors",
+     "nctId": "NCT03149549",
+     "officialTitle": "A Phase 1-2, Open-Label, Dose-Finding, Proof of Concept, First-in-Human Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of CX-2009 in Adults With Metastatic or Locally Advanced Unresectable Solid Tumors (PROCLAIM-CX-2009)",
+     "orgStudyIdInfo": {
+      "id": "CTMX-M-2009-001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "CytomX Therapeutics"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "CytomX Therapeutics"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2020-09-10",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2024-01-05",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2024-01-03",
+     "overallStatus": "TERMINATED",
+     "primaryCompletionDateStruct": {
+      "date": "2020-09-10",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2024-01-05",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2021-10-01",
+     "resultsFirstSubmitQcDate": "2024-01-03",
+     "startDateStruct": {
+      "date": "2017-06-01",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2024-01",
+     "studyFirstPostDateStruct": {
+      "date": "2017-05-11",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2017-05-04",
+     "studyFirstSubmitQcDate": "2017-05-09",
+     "whyStopped": "Covid Pandemic; Business Decision to separate Phase 2 to new study"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Dose Escalation and Determination",
+       "interventionNames": [
+        "Drug: CX-2029"
+       ],
+       "label": "CX-2029 Escalation",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Characterization of CX-2029 in the tumor microenvironment in subjects with select tumor types",
+       "interventionNames": [
+        "Drug: CX-2029"
+       ],
+       "label": "CX-2029 Biomarker",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Evaluate antitumor activity of CX-2029",
+       "interventionNames": [
+        "Drug: CX-2029"
+       ],
+       "label": "CX-2029 Expansion",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "CX-2029 Biomarker",
+        "CX-2029 Escalation",
+        "CX-2029 Expansion"
+       ],
+       "description": "CX-2029 Monotherapy",
+       "name": "CX-2029",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Solid Tumor, Adult",
+      "Head and Neck Cancer",
+      "Non Small Cell Lung Cancer",
+      "Diffuse Large B Cell Lymphoma",
+      "Esophageal Cancer"
+     ],
+     "keywords": [
+      "cancer",
+      "solid tumor",
+      "DLBCL",
+      "CX-2029",
+      "PROBODY™ Therapeutic",
+      "Drug Conjugate",
+      "Antibody drug conjugate",
+      "CD71",
+      "Transferrin receptor 1"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 133,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "PROCLAIM-CX-2029: A Trial to Find Safe and Active Doses of an Investigational Drug CX-2029 for Patients With Solid Tumors or DLBCL",
+     "nctId": "NCT03543813",
+     "officialTitle": "A Phase 1-2, First-in-Human Study of CX-2029 in Adults With Metastatic or Locally Advanced Unresectable Solid Tumors or Diffuse Large B-cell Lymphomas (PROCLAIM-CX-2029)",
+     "orgStudyIdInfo": {
+      "id": "CTMX-M-2029-001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "CytomX Therapeutics"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "CytomX Therapeutics"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2023-06-01",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2024-01-23",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2024-01-22",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2023-06-01",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2018-06-15",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2024-01",
+     "studyFirstPostDateStruct": {
+      "date": "2018-06-01",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2018-05-21",
+     "studyFirstSubmitQcDate": "2018-05-21"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: CX-188"
+       ],
+       "label": "CX-188 Escalation",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: CX-188"
+       ],
+       "label": "CX-188 Alternative Dosing Schedule",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "CX-188 Alternative Dosing Schedule",
+        "CX-188 Escalation"
+       ],
+       "description": "CX-188",
+       "name": "CX-188",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Solid Tumor, Adult"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 0,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "PROCLAIM-CX-188: A Trial to Find Safe and Active Doses of an Investigational Drug CX-188 for Patients With Solid Tumors",
+     "nctId": "NCT03706274",
+     "officialTitle": "A Phase 1, Open-Label, Dose-Ranging Study of the PD-1 Probody Therapeutic CX-188 in Adults With Recurrent or Metastatic Solid Tumors",
+     "orgStudyIdInfo": {
+      "id": "CTMX-M-188-001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "CytomX Therapeutics"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "CytomX Therapeutics"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2022-12",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2021-05-05",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2021-04-30",
+     "overallStatus": "WITHDRAWN",
+     "primaryCompletionDateStruct": {
+      "date": "2020-12",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2020-01",
+      "type": "ESTIMATED"
+     },
+     "statusVerifiedDate": "2021-04",
+     "studyFirstPostDateStruct": {
+      "date": "2018-10-15",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2018-10-11",
+     "studyFirstSubmitQcDate": "2018-10-11",
+     "whyStopped": "Sponsor Decision"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "histologically or cytologically confirmed solid tumor who have received no prior treatment",
+       "interventionNames": [
+        "Drug: CX-072"
+       ],
+       "label": "CX-072 in combination with anti-cancer therapy-front line",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "histologically or cytologically confirmed Stage III (unresectable) or Stage IV melanoma who have experienced progressive disease or relapse following treatment with a PD-1/PD-L1 immune checkpoint inhibitor",
+       "interventionNames": [
+        "Drug: CX-072",
+        "Drug: Ipilimumab"
+       ],
+       "label": "CX-072 in combination with ipilimumab",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "histologically or cytologically confirmed, advanced/unresectable or metastatic solid tumor that have experienced disease progression during or following treatment with platinum based therapy",
+       "interventionNames": [
+        "Drug: CX-072"
+       ],
+       "label": "CX-072 in combination with anti-cancer therapy-Progressed",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "neo-adjuvant study in subjects with histologically confirmed solid tumor",
+       "interventionNames": [
+        "Drug: CX-072"
+       ],
+       "label": "CX-072 in combination with anti-cancer therapy-Neoadjuvant",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "CX-072 in combination with anti-cancer therapy-Neoadjuvant",
+        "CX-072 in combination with anti-cancer therapy-Progressed",
+        "CX-072 in combination with anti-cancer therapy-front line",
+        "CX-072 in combination with ipilimumab"
+       ],
+       "description": "CX-072 in combination with ipilimumab",
+       "name": "CX-072",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "CX-072 in combination with ipilimumab"
+       ],
+       "description": "CX-072 in combination with ipilimumab",
+       "name": "Ipilimumab",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Solid Tumor",
+      "Unresectable or Metastatic Melanoma"
+     ],
+     "keywords": [
+      "Combination",
+      "ipilimumab",
+      "Cancer",
+      "checkpoint inhibitor",
+      "PD-L1",
+      "CTLA-4",
+      "PROCLAIM",
+      "PROCLAIM-CX-072",
+      "Relapsed",
+      "Refractory"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 3,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "PROCLAIM: CX-072-002: Study of PD-L1 Probody Therapeutic CX-072 in Combination With Other Anticancer Therapy in Adults With Solid Tumors",
+     "nctId": "NCT03993379",
+     "officialTitle": "A Phase 2, Open-Label, Multi-cohort Study of PD-L1 Probody Therapeutic CX-072 in Combination With Other Anticancer Therapy in Adults With Solid Tumors",
+     "orgStudyIdInfo": {
+      "id": "CTMX-M-072-002"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "CytomX Therapeutics"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "CytomX Therapeutics"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2020-05-21",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-12-26",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-12-24",
+     "overallStatus": "TERMINATED",
+     "primaryCompletionDateStruct": {
+      "date": "2020-05-21",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2021-12-01",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2021-09-02",
+     "resultsFirstSubmitQcDate": "2021-11-02",
+     "startDateStruct": {
+      "date": "2019-11-20",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-12",
+     "studyFirstPostDateStruct": {
+      "date": "2019-06-20",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2019-05-14",
+     "studyFirstSubmitQcDate": "2019-06-19",
+     "whyStopped": "Sponsor's Decision"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "CX-2009 Monotherapy in advanced, metastatic Hormone Receptor (HR)-positive / Human Epidermal growth factor Receptor 2 (HER2)-negative breast cancer",
+       "interventionNames": [
+        "Drug: CX-2009"
+       ],
+       "label": "ARM A - CX-2009 Monotherapy, HR-positive/HER2-negative",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "CX-2009 Monotherapy in advanced, metastatic Triple-Negative Breast Cancer (TNBC)",
+       "interventionNames": [
+        "Drug: CX-2009"
+       ],
+       "label": "ARM B - CX-2009 Monotherapy, TNBC",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "CX-2009 and CX-072 Combination therapy in advanced, metastatic TNBC",
+       "interventionNames": [
+        "Drug: CX-2009",
+        "Drug: CX-072"
+       ],
+       "label": "ARM C - CX-2009 Combination therapy, TNBC",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "ARM A - CX-2009 Monotherapy, HR-positive/HER2-negative",
+        "ARM B - CX-2009 Monotherapy, TNBC",
+        "ARM C - CX-2009 Combination therapy, TNBC"
+       ],
+       "description": "Intravenous administration of the CX-2009 of 6 mg/kg administered every 3 weeks (Q3W)",
+       "name": "CX-2009",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "ARM C - CX-2009 Combination therapy, TNBC"
+       ],
+       "description": "Intravenous administration of the CX-072 of 1200 mg administered every 3 weeks (Q3W)",
+       "name": "CX-072",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Neoplasms",
+      "Breast Neoplasms",
+      "Breast Neoplasms, Triple-Negative",
+      "Breast Cancer",
+      "Breast Neoplasms, Hormone Receptor Positive/HER2 Negative"
+     ],
+     "keywords": [
+      "HR-positive/HER2-non-amplified",
+      "HR+",
+      "HER2 non-amplified",
+      "Hormone Receptor",
+      "N2'-deacetyl-N2'-(4-mercapto-4-methyl-1-oxopentyl)-maytansine (DM4)",
+      "Cluster of Differentiation 166 (CD166)",
+      "Triple negative breast cancer",
+      "Breast cancer",
+      "Probody",
+      "Armed antibody",
+      "Mytansine",
+      "Hormone Receptor Positive",
+      "DM4",
+      "CD166",
+      "PD-L1",
+      "Praluzatamab Ravtansine",
+      "Pacmilimab"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 125,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Study to Evaluate the Safety and Antitumor Activity of CX-2009 Monotherapy and in Combination With CX-072 in Advanced Breast Cancer",
+     "nctId": "NCT04596150",
+     "officialTitle": "A Phase 2, Open-Label Study to Evaluate the Safety and Antitumor Activity of Praluzatamab Ravtansine (CX-2009) in Advanced HR-Positive/HER2-Negative Breast Cancer and of Praluzatamab Ravtansine as Monotherapy and in Combination With Pacmilimab (CX-072) in Advanced Triple-Negative Breast Cancer (CTMX-2009-002)",
+     "orgStudyIdInfo": {
+      "id": "CTMX-2009-002"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "CytomX Therapeutics"
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "2020-004618-36",
+       "type": "EUDRACT_NUMBER"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "CytomX Therapeutics"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2023-06-02",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2024-01-23",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2024-01-22",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2023-06-02",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2020-12-29",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2024-01",
+     "studyFirstPostDateStruct": {
+      "date": "2020-10-22",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2020-10-02",
+     "studyFirstSubmitQcDate": "2020-10-15"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: CX-904"
+       ],
+       "label": "CX-904",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "CX-904"
+       ],
+       "description": "CX-904 is a T-cell engaging bispecific Probody® candidate against Epidermal Growth Factor Receptor (EGFR) and CD3.",
+       "name": "CX-904",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Solid Tumors"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 83,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Trial to Find Safe and Active Doses for an Investigational Drug, CX-904, for Patients With Advanced Solid Tumors",
+     "nctId": "NCT05387265",
+     "officialTitle": "A Phase 1/1b, Open-label, Dose-finding, First-in-human Study to Evaluate the Safety and Antitumor Activity of CX-904, an EGFR-targeted T-cell Engager in Advanced Solid Tumors (CTMX-904-101)",
+     "orgStudyIdInfo": {
+      "id": "CTMX-904-101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "CytomX Therapeutics"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "CytomX Therapeutics"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2025-06-04",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-07-14",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-07-09",
+     "overallStatus": "TERMINATED",
+     "primaryCompletionDateStruct": {
+      "date": "2025-06-04",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2022-05-16",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-07",
+     "studyFirstPostDateStruct": {
+      "date": "2022-05-24",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2022-05-19",
+     "studyFirstSubmitQcDate": "2022-05-19",
+     "whyStopped": "Sponsor Decision"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: CX-2051"
+       ],
+       "label": "CX-2051",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: CX-2051",
+        "Drug: Bevacizumab"
+       ],
+       "label": "CX-2051 + bevacizumab",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "CX-2051",
+        "CX-2051 + bevacizumab"
+       ],
+       "description": "Investigational drug",
+       "name": "CX-2051",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "CX-2051 + bevacizumab"
+       ],
+       "description": "IV infusion",
+       "name": "Bevacizumab",
+       "otherNames": [
+        "Avastin"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Solid Tumor, Adult"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 160,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "First In Human Study of CX-2051 in Advanced Solid Tumors",
+     "nctId": "NCT06265688",
+     "officialTitle": "An Investigational Study of CX-2051 in Participants With Advanced Solid Tumors",
+     "orgStudyIdInfo": {
+      "id": "CTMX-2051-101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "CytomX Therapeutics"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "CytomX Therapeutics"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2029-03-31",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-07-15",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-07-14",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-11-30",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2024-04-02",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-07",
+     "studyFirstPostDateStruct": {
+      "date": "2024-02-20",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2024-02-12",
+     "studyFirstSubmitQcDate": "2024-02-12"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: CX-801"
+       ],
+       "label": "CX-801",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: CX-801",
+        "Drug: pembrolizumab"
+       ],
+       "label": "CX-801 + pembrolizumab",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "CX-801",
+        "CX-801 + pembrolizumab"
+       ],
+       "description": "Investigational drug",
+       "name": "CX-801",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "CX-801 + pembrolizumab"
+       ],
+       "description": "Standard of Care Therapy",
+       "name": "pembrolizumab",
+       "otherNames": [
+        "KEYTRUDA®"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Solid Tumor, Adult"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 121,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "First In Human Study of CX-801 in Advanced Solid Tumors",
+     "nctId": "NCT06462794",
+     "officialTitle": "An Investigational Study of CX-801 as Monotherapy and in Combination With PD1 Inhibition in Participants With Solid Tumors",
+     "orgStudyIdInfo": {
+      "id": "CTMX-801-101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "CytomX Therapeutics"
+     },
+     "secondaryIdInfos": [
+      {
+       "domain": "Merck Sharp & Dohme LLC",
+       "id": "KEYNOTE-F95",
+       "type": "OTHER"
+      },
+      {
+       "domain": "Merck Sharp & Dohme LLC",
+       "id": "MK-3475-F95",
+       "type": "OTHER"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "collaborators": [
+      {
+       "class": "INDUSTRY",
+       "name": "Merck Sharp & Dohme LLC"
+      }
+     ],
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "CytomX Therapeutics"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2029-06-30",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-08-28",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-08-27",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2028-02-28",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2024-08-28",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-08",
+     "studyFirstPostDateStruct": {
+      "date": "2024-06-17",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2024-06-12",
+     "studyFirstSubmitQcDate": "2024-06-12"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: varsetatug masetecan",
+        "Drug: bevacizumab + 5-FU + leucovorin"
+       ],
+       "label": "varsetatug masetecan + bevacizumab + 5-FU + leucovorin",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: varsetatug masetecan",
+        "Drug: bevacizumab"
+       ],
+       "label": "varsetatug masetecan + bevacizumab",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "varsetatug masetecan + bevacizumab",
+        "varsetatug masetecan + bevacizumab + 5-FU + leucovorin"
+       ],
+       "description": "Investigational Product",
+       "name": "varsetatug masetecan",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "varsetatug masetecan + bevacizumab + 5-FU + leucovorin"
+       ],
+       "description": "IV infusion",
+       "name": "bevacizumab + 5-FU + leucovorin",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "varsetatug masetecan + bevacizumab"
+       ],
+       "description": "IV infusion",
+       "name": "bevacizumab",
+       "otherNames": [
+        "Avastin"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Colo-rectal Cancer"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 368,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Study of Varsetatug Masetecan in Combination With Anti-Cancer Therapies in Colorectal Cancer",
+     "nctId": "NCT07900165",
+     "officialTitle": "A Trial of Varsetatug Masetecan in Combination With Anti-Cancer Therapies in Participants With Metastatic Colorectal Cancer",
+     "orgStudyIdInfo": {
+      "id": "CTMX-2051-201"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "CytomX Therapeutics"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "CytomX Therapeutics"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2029-02",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-28",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-21",
+     "overallStatus": "NOT_YET_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2029-02",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2026-12",
+      "type": "ESTIMATED"
+     },
+     "statusVerifiedDate": "2026-10",
+     "studyFirstPostDateStruct": {
+      "date": "2026-10-28",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2026-10-21",
+     "studyFirstSubmitQcDate": "2026-10-21"
+    }
+   }
+  }
+ ]
+}

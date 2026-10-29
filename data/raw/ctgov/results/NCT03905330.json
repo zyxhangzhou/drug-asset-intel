@@ -1,0 +1,85 @@
+{
+ "nctId": "NCT03905330",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-1.845",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-0.334",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "0.3691",
+     "groupDescription": "The difference between maralixibat and placebo treatment groups in the mean change in the average ItchRO(Obs) severity score between baseline and Weeks 15-26",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "= 0.0063",
+     "paramType": "Least-Square mean",
+     "paramValue": "-1.089",
+     "statisticalMethod": "Mixed Models Analysis"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "-2.272",
+         "upperLimit": "-1.163",
+         "value": "-1.718"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "-1.136",
+         "upperLimit": "-0.121",
+         "value": "-0.628"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "14"
+      },
+      {
+       "groupId": "OG001",
+       "value": "17"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The primary efficacy endpoint is the mean change in the average morning ItchRO(Obs) severity score between baseline and Weeks 15-26, using 4-week average morning ItchRO(Obs) severity scores (Mixed Model Repeated Measures). The baseline average morning ItchRO(Obs) severity score is defined as the 4-week average morning ItchRO(Obs) severity score prior to the first dose of the study medication.\n\nItchRo(Obs) Severity Score = Itch Reported Outcome Observer assessment severity score; scale between 0 (not itchy at all) and 4 (extremely itchy); the lower the score the better.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants received Maralixibat oral solution (up to 600 microgram per kilogram \\[mcg/kg\\]) orally twice daily for 26 weeks.\n\nMaralixibat: Maralixibat oral solution (up to 600 mcg/kg) orally twice daily for 26 weeks.",
+     "id": "OG000",
+     "title": "Primary Cohort Maralixibat"
+    },
+    {
+     "description": "Participants received placebo matched to maralixibat oral solution twice daily for 26 weeks.\n\nPlacebo: Placebo matching to maralixibat orally twice daily for 26 weeks.",
+     "id": "OG001",
+     "title": "Primary Cohort Placebo"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Primary Cohort, defined as participants with genetic testing results consistent with biallelic disease causing variation in ABCB11 (PFIC2, also referred to as BSEP deficiency), based on standard-of-care genotyping, excluding those PFIC2 participants predicted to have complete absence of BSEP function (PFIC2 participants with heterozygosis, biliary diversion, having low or fluctuating sBA levels).",
+   "reportingStatus": "POSTED",
+   "timeFrame": "MMRM model was used with inputs of the average changes from baseline (BL) to Weeks 1-6, 7-10, 11-14, 15-18, 19-22, 23-26, and other covariates. The average change from BL over Weeks 15-26 is calculated in the model and presented as a single number.",
+   "title": "Mean Change in the Average Morning ItchRO(Obs) Severity Score in the Primary Cohort",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Score on a scale"
+  }
+ ]
+}

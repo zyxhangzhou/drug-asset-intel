@@ -1,0 +1,95 @@
+{
+ "nctId": "NCT01609062",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "3"
+        },
+        {
+         "groupId": "OG001",
+         "value": "2"
+        },
+        {
+         "groupId": "OG002",
+         "value": "5"
+        }
+       ]
+      }
+     ],
+     "title": "Serious Adverse Events"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "15"
+        },
+        {
+         "groupId": "OG001",
+         "value": "10"
+        },
+        {
+         "groupId": "OG002",
+         "value": "25"
+        }
+       ]
+      }
+     ],
+     "title": "Other (Not Including Serious) Adverse Events"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "15"
+      },
+      {
+       "groupId": "OG001",
+       "value": "10"
+      },
+      {
+       "groupId": "OG002",
+       "value": "25"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The primary objective of the study is to evaluate the safety of weekly infusions of BMN 110; the safety variables included Adverse Events (AEs).\n\nThe primary outcome measure data is presented in more detail under the Adverse Events section.",
+   "groups": [
+    {
+     "description": "BMN 110: Weekly IV infusions of BMN 110 at 2.0 mg/kg/week over a period of approximately 4 hours per infusion in the primary phase.",
+     "id": "OG000",
+     "title": "BMN 110 Weekly at 2.0 mg/kg/Week"
+    },
+    {
+     "description": "BMN 110: Weekly IV infusions of BMN 110 at 4.0 mg/kg/week over a period of approximately 4 hours per infusion in the primary phase.",
+     "id": "OG001",
+     "title": "BMN 110 Weekly at 4.0 mg/kg/Week"
+    },
+    {
+     "description": "Both groups combined",
+     "id": "OG002",
+     "title": "All Subjects"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "The primary outcome measure data is presented in more detail under the Adverse Events section.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Entire Study Period, up to 192 weeks or ETV (early termination visit)",
+   "title": "Safety Evaluation",
+   "type": "PRIMARY",
+   "unitOfMeasure": "participants"
+  }
+ ]
+}

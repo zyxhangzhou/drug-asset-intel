@@ -1,0 +1,127 @@
+{
+ "nctId": "NCT01839487",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.54",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "1.01",
+     "groupDescription": "Hazard ratio PAG/AG was based on Cox proportional hazards model stratified by the Karnofsky Performance Status (KPS) category (70-80% and 90-100%) at screening using AG as the reference arm.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "OTHER",
+     "pValue": "0.058",
+     "pValueComment": "Threshold for significance at 0.1 level.",
+     "paramType": "Hazard Ratio (HR)",
+     "paramValue": "0.74",
+     "statisticalComment": "P-value was based on stratified log-rank test with the KPS category at screening as the stratification factor.",
+     "statisticalMethod": "Log Rank"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "5.36",
+         "upperLimit": "7.20",
+         "value": "6.05"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "3.91",
+         "upperLimit": "6.54",
+         "value": "5.26"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "139"
+      },
+      {
+       "groupId": "OG001",
+       "value": "92"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "PFS: time from randomization until first occurrence of disease progression, either by central radiologic determination (Response Evaluation Criteria in Solid Tumours \\[RECIST\\] version 1.1) or by clinical progression determined by Investigator, or death during treatment period from any cause. Radiological disease progression was defined as at least a 20 percent (%) increase in sum of diameters of target lesions, taking as reference the smallest sum on study thus far, nadir (this included baseline sum if that was the smallest on study); Sum must also demonstrate an absolute increase of at least 5 millimeters (mm); Appearance of one or more new lesions; Unequivocal progression of existing non-target lesions. Surviving participants without disease progression were censored for PFS analysis at the date of last evaluable post-baseline tumor assessment. Surviving participants without any post-baseline disease assessment were censored on Day 1. PFS was estimated using Kaplan-Meier (KM) method.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants received 3.0 mcg/kg PEGPH20 with 125 mg/m\\^2 NAB and 1000 mg/m\\^2 GEM as an IV infusion. In Cycle 1 Week 1, PEGPH20 was given alone on Days 1 and 4 and NAB+GEM was given on Day 2 at approximately 24 hours after the first dose of PEGPH20. In Cycle 1 Weeks 2 and 3, PEGPH20 was given twice/week on Days 8, 11, 15, and 18 and NAB+GEM were given once/week at 2 to 4 hours after PEGPH20 administration on Days 8 and 15. In Cycle 2 onwards, PEGPH20, NAB, and GEM were given once/week on Days 1, 8, and 15. NAB+GEM were given 2 to 4 hours after the dose of PEGPH20. Each cycle was of 4-weeks (28 days) with Week 4 of every cycle as a rest week (that is; no treatment was given). Treatment was continued until documented disease progression or unacceptable toxicity. Dexamethasone 8 mg was given in each cycle within 2 hours prior to the beginning and 8 to 12 hours after the completion of each PEGPH20 infusion.",
+     "id": "OG000",
+     "title": "PAG: PEGPH20 + Nab-paclitaxel + Gemcitabine"
+    },
+    {
+     "description": "Participants received 125 mg/m\\^2 NAB and 1000 mg/m\\^2 GEM as an IV infusion once weekly on Days 1, 8, and 15 of each cycle. Each cycle was of 4-weeks (28 days) with Week 4 of every cycle as a rest week (that is; no treatment was given). Treatment was continued until documented disease progression or unacceptable toxicity. Dexamethasone 8 mg was given in each cycle within 2 hours prior to the beginning of each NAB infusion and 8 to 12 hours after the completion of GEM infusion.",
+     "id": "OG001",
+     "title": "AG: Nab-paclitaxel + Gemcitabine"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "Efficacy evaluable (EE) population: all randomized participants who received at least 1 dose of any study drug, who had measurable disease at baseline, and had a post-baseline response assessment, or had clinical disease progression without a post-baseline computed tomography (CT) scan, or had died on or prior to 14 days after the last dose date.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "From the date of randomization until disease progression or death from any cause (maximum exposure: 30.72 months for PAG, and 20.27 months for AG)",
+   "title": "Progression-Free Survival (PFS)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "months"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "14.0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "86"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "TE events were identified by applying the Medical Dictionary for Regulatory Activities (MedDRA) Standardized MedDRA Queries (SMQ) search strategy for 3 SMQs: TE arterial, TE venous, and TE vessel type unspecified and mixed arterial and venous. TE events were considered by the Sponsor to be adverse events (AEs) of special interest. All TE events, regardless of type of event, severity, or seriousness were reported. Participants with multiple events were counted only once. A summary of serious and all other non-serious adverse events regardless of causality is located in the 'Reported AE section'.",
+   "groups": [
+    {
+     "description": "Participants received 3.0 mcg/kg PEGPH20 with 125 mg/m\\^2 NAB and 1000 mg/m\\^2 GEM as an IV infusion. In Cycle 1 Week 1, PEGPH20 was given alone on Days 1 and 4 and NAB+GEM was given on Day 2 at approximately 24 hours after the first dose of PEGPH20. In Cycle 1 Weeks 2 and 3, PEGPH20 was given twice/week on Days 8, 11, 15, and 18 and NAB+GEM were given once/week at 2 to 4 hours after PEGPH20 administration on Days 8 and 15. In Cycle 2 onwards, PEGPH20, NAB, and GEM were given once/week on Days 1, 8, and 15. NAB+GEM were given 2 to 4 hours after the dose of PEGPH20. Each cycle was of 4-weeks (28 days) with Week 4 of every cycle as a rest week (that is; no treatment was given). Treatment was continued until documented disease progression or unacceptable toxicity. Dexamethasone 8 mg was given in each cycle within 2 hours prior to the beginning and 8 to 12 hours after the completion of each PEGPH20 infusion.",
+     "id": "OG000",
+     "title": "PAG: PEGPH20 + Nab-paclitaxel + Gemcitabine"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Safety population of Stage 2 included all participants enrolled in Stage 2 of Phase 2 of study after the clinical hold, and who received at least 1 dose of study drug. This outcome was planned to be reported only for PAG arm as pre-specified in protocol.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "From first exposure to any study drug (PEGPH20, NAB, GEM) through 30 days after end of treatment visit (maximum exposure: 30.72 months for PAG)",
+   "title": "Percentage of Participants in the PAG Arm Who Experienced Any Thromboembolic (TE) Event in Stage 2 of the Study",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

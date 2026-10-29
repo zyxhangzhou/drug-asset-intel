@@ -1,0 +1,141 @@
+{
+ "nctId": "NCT01903460",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-191.679",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "110.265",
+     "groupDescription": "Analysis of LUM001 140ug/kg/day",
+     "groupIds": [
+      "OG000",
+      "OG003"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+     "pValue": "0.5740",
+     "paramType": "LS mean difference from placebo",
+     "paramValue": "-40.707",
+     "statisticalMethod": "ANCOVA"
+    },
+    {
+     "ciLowerLimit": "-148.726",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "134.264",
+     "groupDescription": "Analysis of LUM001 280ug/kg/day",
+     "groupIds": [
+      "OG001",
+      "OG003"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+     "pValue": "0.9147",
+     "paramType": "LS mean difference from placebo",
+     "paramValue": "-7.231",
+     "statisticalMethod": "ANCOVA"
+    },
+    {
+     "ciLowerLimit": "-151.969",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "104.031",
+     "groupDescription": "Analysis of all doses of LUM001",
+     "groupIds": [
+      "OG002",
+      "OG003"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+     "pValue": "0.6954",
+     "paramType": "LS mean difference from placebo",
+     "paramValue": "-23.969",
+     "statisticalMethod": "ANCOVA"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "50.1513",
+         "value": "-82.864"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "43.4732",
+         "value": "-49.388"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "33.1208",
+         "value": "-66.126"
+        },
+        {
+         "groupId": "OG003",
+         "spread": "50.0903",
+         "value": "-42.157"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "6"
+      },
+      {
+       "groupId": "OG001",
+       "value": "8"
+      },
+      {
+       "groupId": "OG002",
+       "value": "14"
+      },
+      {
+       "groupId": "OG003",
+       "value": "6"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Participants were required to fast for at least 4 hours; only water was permitted prior to collection. A negative change from baseline indicates that the level of bile acid decreased.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Participants received an escalating dose of LUM001 over 3 to 5 weeks, from 14ug/kg/day to 140ug/kg/day, then received 8 to 10 weeks of treatment at either 140ug/kg/day or the highest tolerated dose below 140ug/kg/day. Participants were then followed for 4 weeks after treatment.",
+     "id": "OG000",
+     "title": "LUM001 140ug/kg/Day"
+    },
+    {
+     "description": "Participants received an escalating dose of LUM001 over 3 to 5 weeks, from 14ug/kg/day to 280ug/kg/day, then received 8 to 10 weeks of treatment at either 280ug/kg/day or the highest tolerated dose below 280ug/kg/day. Participants were then followed for 4 weeks after treatment.",
+     "id": "OG001",
+     "title": "LUM001 280ug/kg/Day"
+    },
+    {
+     "description": "Participants received either dose of LUM001 for up to 10 or 13 weeks, then were followed for 4 weeks after treatment.",
+     "id": "OG002",
+     "title": "LUM001 Overall"
+    },
+    {
+     "description": "Participants received LUM001-matching placebo for up to 13 weeks, then were followed for 4 weeks after treatment.",
+     "id": "OG003",
+     "title": "Placebo Overall"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "The modified Intent-to-Treat (mITT) population, defined as all participants in the Safety population who had at least 1 post-baseline efficacy assessment. The Safety population was defined as all participants who were randomly assigned to study treatment and who received any amount of study drug.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline to 13 weeks or end of treatment",
+   "title": "Change From Baseline to Week 13 (End of Treatment) in Fasting Serum Bile Acid Level",
+   "type": "PRIMARY",
+   "unitOfMeasure": "umol/L"
+  }
+ ]
+}

@@ -1,0 +1,77 @@
+{
+ "nctId": "NCT04522180",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "10.803",
+         "value": "-6.20"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "20.100",
+         "value": "-7.16"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "19.402",
+         "value": "-7.09"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "2"
+      },
+      {
+       "groupId": "OG001",
+       "value": "24"
+      },
+      {
+       "groupId": "OG002",
+       "value": "26"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "IGF-1 is a hormone that manages the effects of growth hormone (GH) in the body. Baseline of IGF-1 is defined as the average value of Screening and Day 1. A negative percent change from Baseline indicated improvement.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants received a maximum dose of GHR-LRX 120 mg SC injection once every month for up to 73 weeks with a booster dose administered on Day 15 (Week 3).",
+     "id": "OG000",
+     "title": "GHR-LRX 120 mg (Per Protocol Set)"
+    },
+    {
+     "description": "Participants received a maximum dose of GHR-LRX 160 mg SC injection once every month for up to 73 weeks with a booster dose administered on Day 15 (Week 3).",
+     "id": "OG001",
+     "title": "GHR-LRX 160 mg (Per Protocol Set)"
+    },
+    {
+     "description": "Overall number of participants analyzed is the number of participants available for analyses. Total of all participants in the Per Protocol Set (received maximum doses of 120 mg or 160 mg doses).",
+     "id": "OG002",
+     "title": "GHR-LRX Total (Per Protocol Set)"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Per protocol set (total dose) included all FAS participants who completed at least 6 of the 8 doses of GHR-LRX with the first 27 Weeks administered and have no significant protocol deviations that would be expected to impact efficacy. Total dose includes results for IGF-1 reduction that combines both 120 mg and 160 mg doses. Analysis based on highest dose received as prespecified in the statistical analysis plan (SAP).",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline to Week 27",
+   "title": "Percent Change in Insulin-like Growth Factor I (IGF-1) From Baseline to Week 27",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Percent change"
+  }
+ ]
+}

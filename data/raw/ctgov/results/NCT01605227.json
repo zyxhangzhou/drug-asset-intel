@@ -1,0 +1,83 @@
+{
+ "nctId": "NCT01605227",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.76",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "1.06",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+     "pValue": "0.213",
+     "paramType": "Cox Proportional Hazard",
+     "paramValue": "0.90",
+     "statisticalComment": "The Log-Rank test was stratified by prior cabazitaxel, baseline pain severity and baseline ECOG performance status.",
+     "statisticalMethod": "Log Rank"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "10.09",
+         "upperLimit": "11.63",
+         "value": "11.0"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "9.00",
+         "upperLimit": "11.53",
+         "value": "9.8"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "682"
+      },
+      {
+       "groupId": "OG001",
+       "value": "346"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The primary analysis of OS is defined as the time from randomization to death due to any cause. Participants that had not died or were permanently lost to follow-up were censored at the last known date alive. Median OS was calculated using Kaplan-Meier estimates. Analysis for OS was performed after 614 events had occurred.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Subjects randomized to the cabozantinib arm will also receive placebo-matched prednisone capsules.\n\nCabozantinib (XL184) 60 mg tablets orally once daily plus prednisone-matched placebo orally twice daily.",
+     "id": "OG000",
+     "title": "Cabozantinib"
+    },
+    {
+     "description": "Subjects randomized to the prednisone arm will also receive placebo-matched cabozantinib.\n\nPrednisone 5 mg capsules orally twice daily plus cabozantinib-matched placebo orally once daily.",
+     "id": "OG001",
+     "title": "Prednisone"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "The Intent to Treat (ITT) population was used and included 1028 randomized subjects (682 cabozantinib, 346 prednisone).",
+   "reportingStatus": "POSTED",
+   "timeFrame": "OS was measured from the time of randomization until 614 events, approximately 24 months after study start",
+   "title": "Overall Survival (OS)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "months"
+  }
+ ]
+}

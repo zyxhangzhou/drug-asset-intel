@@ -1,0 +1,82 @@
+{
+ "nctId": "NCT05186818",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "1.04",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "2.44",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "0.36",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<0.0001",
+     "paramType": "Mean Difference (Final Values)",
+     "paramValue": "1.74",
+     "statisticalMethod": "ANCOVA"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.25",
+         "value": "1.76"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.25",
+         "value": "0.02"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "142"
+      },
+      {
+       "groupId": "OG001",
+       "value": "140"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The effect of CK-3773274 on exercise capacity in participants with symptomatic obstructive hypertrophic cardiomyopathy (oHCM) was determined through changes in peak oxygen uptake (pVO2) after 24 weeks of treatment. pVO2 was measured by cardiopulmonary exercise testing (CPET) on a treadmill or bicycle. A higher pVO2 indicates better cardiorespiratory fitness.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Participants received 5 mg, 10 mg, 15 mg, or 20 mg of aficamten; dose levels were guided by echocardiography assessments. Treatment was administered for up to 24 weeks.\n\nAficamten (5 mg, 10 mg, 15 mg, and 20 mg): Aficamten tablets were administered orally once daily.",
+     "id": "OG000",
+     "title": "Aficamten up to 20 mg"
+    },
+    {
+     "description": "Participants received placebo for up to 24 weeks.\n\nPlacebo to match aficamten: Placebo tablets were administered orally once daily.",
+     "id": "OG001",
+     "title": "Placebo to Match Aficamten"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Full Analysis Set (consisting of all randomized participants)",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline to Week 24",
+   "title": "Change From Baseline in pVO2 at Week 24",
+   "type": "PRIMARY",
+   "unitOfMeasure": "mL/kg/min"
+  }
+ ]
+}

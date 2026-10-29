@@ -1,0 +1,65 @@
+{
+ "nctId": "NCT02200757",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "1.4",
+         "upperLimit": "2.7",
+         "value": "1.5"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "1.5",
+         "upperLimit": "3.0",
+         "value": "2.7"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "69"
+      },
+      {
+       "groupId": "OG001",
+       "value": "66"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "PFS is defined as the time from the date of randomization to first documentation of objective tumor progression or to death due to any cause in the absence of previous documentation of objective tumor progression.\n\nProgressive Disease is defined as: ≥20% increase in the sum of the longest diameter of target lesions from the smallest sum of the longest diameter recorded since the treatment started; the sum must also demonstrate an absolute increase of at least 5 mm. The appearance of ≥1 new lesion is also considered progression.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Aldoxorubicin: 230 mg/m2 (170 mg/m2 doxorubicin equivalent) intravenously on Day 1 of each 21-day cycle. Number of cycles: until tumor progression or unacceptable toxicity occurs.",
+     "id": "OG000",
+     "title": "Aldoxorubicin"
+    },
+    {
+     "description": "Topotecan: 1.5 mg/m2/day intravenously for 5 consecutive days on Day 1 of each 21-day cycle OR 4 mg/m2 intravenously on Days 1, 8 and 15 of each 28-day cycle. Number of cycles: until tumor progression or unacceptable toxicity occurs",
+     "id": "OG001",
+     "title": "Topotecan"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "PFS is measured from randomization, not from treatment start date. 2 subjects were randomized, but not treated in the Aldoxorubicin Arm. 3 subjects were randomized, but not treated in the Topotecan Arm.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "24 months",
+   "title": "Progression-Free Survival (PFS)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Months"
+  }
+ ]
+}

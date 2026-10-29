@@ -1,0 +1,84 @@
+{
+ "nctId": "NCT01960348",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-39.86",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-28.13",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "2.974",
+     "groupDescription": "In the mixed-effect model repeated measures (MMRM) model, the outcome variable is change from baseline in mNIS+7. The model includes baseline mNIS+7 score as covariate and fixed effect terms including treatment group, visit, treatment-by-visit interaction, genotype, age at hATTR symptom onset, previous tetramer stabilizer use and region.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<0.0000001",
+     "pValueComment": "P=9.262E-24",
+     "paramType": "Least Squares Mean Difference",
+     "paramValue": "-33.99",
+     "statisticalMethod": "Mixed-effect Model Repeated Measures"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "1.739",
+         "value": "-6.03"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "2.602",
+         "value": "27.96"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "137"
+      },
+      {
+       "groupId": "OG001",
+       "value": "51"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The difference between the patisiran (ALN-TTR02) and placebo groups in the change from baseline in mNIS+7 at 18 months. The mNIS+7 is a composite score that quantitates motor, sensory, and autonomic neurologic impairment due to injury of large and small nerves. The minimum and maximum values are 0 and 304, respectively. A higher score indicates a worse outcome.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "All patients who received at least 1 dose of patisiran (ALN-TTR02)",
+     "id": "OG000",
+     "title": "Patisiran (ALN-TTR02)"
+    },
+    {
+     "description": "All patients who received at least 1 dose of placebo",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Per protocol (PP) population: All randomized participants who received at least 1 dose of patisiran-LNP or placebo, completed baseline and the 18-month mNIS+7 assessments, and did not experience any major protocol deviations that may have impacted the efficacy results.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "18mo",
+   "title": "Modified Neuropathy Impairment Score +7 (mNIS+7)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "score on a scale"
+  }
+ ]
+}

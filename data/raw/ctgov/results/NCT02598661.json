@@ -1,0 +1,174 @@
+{
+ "nctId": "NCT02598661",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "24.45",
+         "upperLimit": "50.66",
+         "value": "36.8"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "57"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Percentage of participants without any RBC transfusion during any consecutive 8 weeks (56 days) starting from Study Day 1 until subsequent anti-cancer therapy if any were reported. Study Day 1 is defined as the day of the first dose for participants enrolled in Phase 2. The 95% confidence interval (CI) was calculated using Clopper-Pearson method. Percentages were rounded off to the nearest single decimal place.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Imetelstat sodium administered IV, at a starting dose of 7.5 mg/kg, every 4 weeks (on a 28-day cycle) until death, lost to follow-up, withdrawal of consent, or study termination whichever occurs first. Dose escalation to 9.4 mg/kg was allowed before Protocol Amendment 2.",
+     "id": "OG000",
+     "title": "Phase 2: Imetelstat Sodium"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Phase 2: All Treated Analysis Set included all participants who received at least one dose of study drug.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to 5 years in Phase 2",
+   "title": "Phase 2: Percentage of Participants Without Any Red Blood Cell (RBC) Transfusion During Any Consecutive 8-Weeks Period (All Participants)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "26.31",
+         "upperLimit": "59.18",
+         "value": "42.1"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "38"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Percentage of participants without any RBC transfusion during any consecutive 8 weeks (56 days) starting from Study Day 1 until subsequent anti-cancer therapy if any were reported. Study Day 1 is defined as the day of the first dose for participants enrolled in Phase 2. The 95% confidence interval (CI) was calculated using Clopper-Pearson method. Percentages were rounded off to the nearest single decimal place.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Imetelstat sodium administered IV, at a starting dose of 7.5 mg/kg, every 4 weeks (on a 28-day cycle) until death, lost to follow-up, withdrawal of consent, or study termination whichever occurs first. Dose escalation to 9.4 mg/kg was allowed before Protocol Amendment 2.",
+     "id": "OG000",
+     "title": "Phase 2: Imetelstat Sodium"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Phase 2: Target Population included participants without prior hypomethylating agent (HMA) or lenalidomide use and non del(5q) in karyotype at baseline.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to 5 years in Phase 2",
+   "title": "Phase 2: Percentage of Participants Without Any RBC Transfusion During Any Consecutive 8-Weeks Period in Target Population",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "9.90",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "36.89",
+     "estimateComment": "The 95% CI was calculated based on the Wilson Score method.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<0.001",
+     "pValueComment": "The p-value was calculated based on Cochran-Mantel-Haenszel (CMH) controlling for prior RBC transfusion burden (≤6 versus\\[vs.\\]\\>6 units RBC) \\& international prognostic scoring system (IPSS) risk group (low vs. intermediate-1) applied to randomization.",
+     "paramType": "Percentage Difference",
+     "paramValue": "24.8",
+     "statisticalMethod": "Cochran-Mantel-Haenszel"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "30.93",
+         "upperLimit": "49.25",
+         "value": "39.8"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "7.10",
+         "upperLimit": "26.57",
+         "value": "15.0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "118"
+      },
+      {
+       "groupId": "OG001",
+       "value": "60"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Percentage of participants without any RBC transfusion during any consecutive 8 weeks (56 days) starting from Study Day 1 until subsequent anti-cancer therapy if any were reported. Study Day 1 is defined as the day of the first dose for participants enrolled in Phase 2. The 95% CI was calculated using Clopper-Pearson method. Percentages were rounded off to the nearest single decimal place.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Imetelstat sodium administered IV, at a starting dose of 7.5 mg/kg, every 4 weeks (on a 28-day cycle) until death, lost to follow-up, withdrawal of consent, or study termination whichever occurs first.",
+     "id": "OG000",
+     "title": "Phase 3: Imetelstat Sodium"
+    },
+    {
+     "description": "Imetelstat sodium-matching placebo administered IV, every 4 weeks (on a 28-day cycle), until death, lost to follow-up, withdrawal of consent, or study termination whichever occurs first.",
+     "id": "OG001",
+     "title": "Phase 3: Placebo"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Phase 3: The ITT Analysis Set included all participants randomized into the Phase 3 study.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to 3.7 years in Phase 3",
+   "title": "Phase 3: Percentage of Participants Without Any RBC Transfusion During Any Consecutive 8-Weeks Period",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

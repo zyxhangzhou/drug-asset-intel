@@ -1,0 +1,63 @@
+{
+ "nctId": "NCT02651714",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "3.89",
+         "value": "-41.5"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "4.03",
+         "value": "-35.8"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "59"
+      },
+      {
+       "groupId": "OG001",
+       "value": "55"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Responses were measured on a 100-mm Visual Analogue Scale (VAS), where the left endpoint was marked \"no itch\" (0 mm) and in the right endpoint was marked \"worst imaginable itch\" (100 mm).",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Oral\n\nTradipitant",
+     "id": "OG000",
+     "title": "Tradipitant"
+    },
+    {
+     "description": "Oral\n\nPlacebo",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "All participants randomized (1:1) to placebo or tradipitant.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "56 days",
+   "title": "Mean Change From Baseline in Pruritus Symptoms, as Measured by the 24-hour Average Pruritus Visual Analogue Scale (VAS) Score",
+   "type": "PRIMARY",
+   "unitOfMeasure": "score on a scale"
+  }
+ ]
+}

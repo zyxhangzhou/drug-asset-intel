@@ -1,0 +1,84 @@
+{
+ "nctId": "NCT02117713",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-64.72",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "7.54",
+     "dispersionType": "STANDARD_DEVIATION",
+     "dispersionValue": "89.456",
+     "estimateComment": "Difference is only calculated in participants who had baseline and week 48 values for n= 26",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityComment": "Student's t-test used to test if mean change is statistically significant; null hypothesis is that the mean change from baseline is equal to zero.",
+     "nonInferiorityType": "EQUIVALENCE",
+     "pValue": "0.1157",
+     "paramType": "Mean Difference (Net)",
+     "paramValue": "-28.59",
+     "statisticalMethod": "Student's t-test"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "205.041",
+         "value": "223.62"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "178.538",
+         "value": "157.35"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "34"
+      },
+      {
+       "groupId": "OG001",
+       "value": "26"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "This primacy efficacy endpoint is the mean change from MRX baseline to week 48 in fasting sBA levels.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "These are the MRX baseline values for participants",
+     "id": "OG000",
+     "title": "MRX Baseline Value"
+    },
+    {
+     "description": "Week 48 values for participants.",
+     "id": "OG001",
+     "title": "Maralixibat Week 48 Values"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Since most participants escalated to MRX 280 ug/kg/day, the summary is presented as a single arm.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline to Week 48",
+   "title": "Change From MRX Baseline to Week 48 in Fasting Serum Bile Acid (sBA)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "μmol/L"
+  }
+ ]
+}

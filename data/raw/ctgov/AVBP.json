@@ -1,0 +1,812 @@
+{
+ "aliases": [
+  "ArriVent BioPharma"
+ ],
+ "studies": [
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Experimental: Previously treated patients with advanced or metastatic NSCLC with activating EGFR or HER2 mutations",
+       "interventionNames": [
+        "Drug: Furmonertinib"
+       ],
+       "label": "Stage 1 Dose Escalation and Backfill",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Previously Treated NSCLC Patients with EGFR Exon 20 Insertion Mutations",
+       "interventionNames": [
+        "Drug: Furmonertinib"
+       ],
+       "label": "Stage 2 Expansion Cohort 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Previously treated NSCLC Patients with HER2 Exon 20 Insertion Mutations",
+       "interventionNames": [
+        "Drug: Furmonertinib"
+       ],
+       "label": "Stage 2 Expansion Cohort 2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Previously treated NSCLC Patients with EGFR Activating Mutations, who are not eligible for Cohorts 1 and 4",
+       "interventionNames": [
+        "Drug: Furmonertinib"
+       ],
+       "label": "Stage 2 Expansion Cohort 3",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Untreated or Previously treated EGFR TKI Naïve NSCLC Patients with EGFR Uncommon Mutations, excluding EGFR exon 20 insertion mutations",
+       "interventionNames": [
+        "Drug: Furmonertinib"
+       ],
+       "label": "Stage 2 Expansion Cohort 4",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Stage 1 Dose Escalation and Backfill"
+       ],
+       "description": "Furmonertinib tablet",
+       "name": "Furmonertinib",
+       "otherNames": [
+        "AST2818"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Stage 2 Expansion Cohort 1"
+       ],
+       "description": "Furmonertinib tablet",
+       "name": "Furmonertinib",
+       "otherNames": [
+        "AST2818"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Stage 2 Expansion Cohort 2"
+       ],
+       "description": "Furmonertinib tablet",
+       "name": "Furmonertinib",
+       "otherNames": [
+        "AST2818"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Stage 2 Expansion Cohort 3"
+       ],
+       "description": "Furmonertinib tablet",
+       "name": "Furmonertinib",
+       "otherNames": [
+        "AST2818"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Stage 2 Expansion Cohort 4"
+       ],
+       "description": "Furmonertinib tablet",
+       "name": "Furmonertinib",
+       "otherNames": [
+        "AST2818"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Non-Small Cell Lung Cancer (NSCLC)",
+      "Metastatic Non-Small Cell Lung Cancer",
+      "Advanced Non-Small Cell Lung Cancer",
+      "HER2 Exon 20 Mutations",
+      "EGFR Exon 20 Mutations",
+      "EGFR Uncommon Mutations, Including G719X and S768I"
+     ],
+     "keywords": [
+      "Non-small cell lung cancer (NSCLC)",
+      "Metastatic Non-Small Cell Lung Cancer",
+      "Advanced Non-Small Cell Lung Cancer",
+      "EGFR",
+      "HER2",
+      "Exon 20 Insertion Mutations",
+      "HER2 kinase domain mutations",
+      "Epidermal Growth Factor Receptor (EGFR) kinase domain mutations",
+      "Exon 20",
+      "Epidermal Growth Factor Receptor (EGFR) Exon 20 Insertion Mutations",
+      "HER2 Exon 20 Insertion Mutations",
+      "Tyrosine Kinase Inhibitor (TKI)",
+      "Human Epidermal Growth Factor Receptor 2 (HER2)",
+      "Epidermal Growth Factor Receptor (EGFR)",
+      "EGFR uncommon mutations",
+      "EGFR atypical mutations",
+      "EGFR rare mutations",
+      "V774M",
+      "G719X",
+      "S768I",
+      "E709X",
+      "R776C/H",
+      "G724S",
+      "E736K",
+      "I740_K745dup",
+      "N771G",
+      "K757M/R",
+      "V769L/M",
+      "T854X",
+      "T751_I759delinsN",
+      "G719A",
+      "G719S",
+      "R776C",
+      "R776H",
+      "K757M",
+      "K757R",
+      "V769L",
+      "V769M",
+      "osimertinib",
+      "afatinib",
+      "E709_T710del insD",
+      "G779F",
+      "L747X"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 160,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Study of Furmonertinib in Patients With Advanced or Metastatic Non-Small Cell Lung Cancer (NSCLC) With Activating, Including Uncommon, Epidermal Growth Factor Receptor (EGFR) or Human Epidermal Growth Factor Receptor 2 (HER2) Mutations",
+     "nctId": "NCT05364073",
+     "officialTitle": "A Phase 1b Dose Escalation and Dose Expansion Study Evaluating the Safety, Pharmacokinetics, and Antitumor Activity of Furmonertinib in Patients With Advanced or Metastatic Non-Small Cell Lung Cancer (NSCLC) With Activating Epidermal Growth Factor Receptor (EGFR) or Human Epidermal Growth Factor Receptor 2 (HER2) Mutations",
+     "orgStudyIdInfo": {
+      "id": "FURMO-002"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "ArriVent BioPharma, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "ArriVent BioPharma, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2026-12-31",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-03-13",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-03-11",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2025-06-03",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2022-06-30",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-03",
+     "studyFirstPostDateStruct": {
+      "date": "2022-05-06",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2022-04-06",
+     "studyFirstSubmitQcDate": "2022-05-03"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: furmonertinib 240 mg oral, daily"
+       ],
+       "label": "furmonertinib 240 mg",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: furmonertinib 160 mg oral, daily"
+       ],
+       "label": "furmonertinib 160 mg",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "carboplatin or cisplatin based on investigator's choice + pemetrexed intravenously",
+       "interventionNames": [
+        "Drug: platinum-based chemotherapy"
+       ],
+       "label": "platinum-based chemotherapy",
+       "type": "ACTIVE_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "furmonertinib 240 mg"
+       ],
+       "description": "furmonertinib tablet",
+       "name": "furmonertinib 240 mg oral, daily",
+       "otherNames": [
+        "AST2818"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "furmonertinib 160 mg"
+       ],
+       "description": "furmonertinib tablet",
+       "name": "furmonertinib 160 mg oral, daily",
+       "otherNames": [
+        "AST2818"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "platinum-based chemotherapy"
+       ],
+       "description": "(carboplatin or cisplatin based on investigator's choice) + pemetrexed intravenously (IV)",
+       "name": "platinum-based chemotherapy",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Metastatic Non-Small Cell Lung Cancer",
+      "Advanced Non-Small Cell Lung Cancer",
+      "EGFR Exon 20 Mutations"
+     ],
+     "keywords": [
+      "Non-Small Cell Lung Cancer (NSCLC)",
+      "Exon 20",
+      "Furmonertinib",
+      "Firmonertinib",
+      "AST2818",
+      "FURMO-004",
+      "Drug-Therapy"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 398,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Study to Compare Furmonertinib to Platinum-Based Chemotherapy for Patients With Locally Advanced or Metastatic Non-Small Cell Lung Cancer (NSCLC) With Epidermal Growth Factor Receptor (EGFR) Exon 20 Insertion Mutations (FURVENT)",
+     "nctId": "NCT05607550",
+     "officialTitle": "A Global, Phase 3, Randomized, Multicenter, Open-Label Study to Investigate the Efficacy and Safety of Furmonertinib Compared to Platinum-Based Chemotherapy as First-Line Treatment for Patients With Locally Advanced or Metastatic Non-Small Cell Lung Cancer (NSCLC) With Epidermal Growth Factor Receptor (EGFR) Exon 20 Insertion Mutations (FURVENT)",
+     "orgStudyIdInfo": {
+      "id": "FURMO-004"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "ArriVent BioPharma, Inc."
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "2022-502977-41-00",
+       "type": "CTIS"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "collaborators": [
+      {
+       "class": "INDUSTRY",
+       "name": "Allist Pharmaceuticals, Inc."
+      }
+     ],
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "ArriVent BioPharma, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2028-02-15",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-06-22",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-06-18",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2025-08-15",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2023-06-01",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-06",
+     "studyFirstPostDateStruct": {
+      "date": "2022-11-07",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2022-10-31",
+     "studyFirstSubmitQcDate": "2022-11-04"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: MRG007"
+       ],
+       "label": "MRG007",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: MRG007 and Bevacizumab"
+       ],
+       "label": "MRG007 and Bevacizumab",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "MRG007"
+       ],
+       "description": "MRG007 will be administrated as specified in the protocol.",
+       "name": "MRG007",
+       "otherNames": [
+        "ARR-217"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "MRG007 and Bevacizumab"
+       ],
+       "description": "MRG007 will be administered as specified in the protocol",
+       "name": "MRG007 and Bevacizumab",
+       "otherNames": [
+        "ARR-217"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Locally Advanced or Metastatic Solid Tumors",
+      "Colorectal Cancer",
+      "Gastric Cancer",
+      "Pancreatic Cancer"
+     ],
+     "keywords": [
+      "MRG007",
+      "Advanced or Metastatic Solid Tumors",
+      "CDH17",
+      "ARR-217",
+      "ADC"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 572,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Study of MRG007 (ARR-217) in Patients With Advanced Solid Tumors",
+     "nctId": "NCT07066657",
+     "officialTitle": "An Open-Label, Multi-Center, Dose Escalation, Confirmation, and Expansion Phase I Clinical Study to Evaluate the Safety, Tolerability, Efficacy, and Pharmacokinetics of MRG007 (ARR-217) in Participants With Unresectable Locally Advanced or Metastatic Solid Tumors",
+     "orgStudyIdInfo": {
+      "id": "MRG007-001/ARR-217-101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "ArriVent BioPharma, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "collaborators": [
+      {
+       "class": "INDUSTRY",
+       "name": "Lepu Biopharma Co., Ltd."
+      }
+     ],
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "ArriVent BioPharma, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2030-12",
+      "type": "ESTIMATED"
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-08-13",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-08-12",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2028-03",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2025-07-25",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-08",
+     "studyFirstPostDateStruct": {
+      "date": "2025-07-15",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-06-26",
+     "studyFirstSubmitQcDate": "2025-07-04"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: Firmonertinib"
+       ],
+       "label": "Firmonertinib 240 mg",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: EGFR-TKI inhibitor based on investigator's choice"
+       ],
+       "label": "EGFR-TKI inhibitor osimertinib or afatinib based on investigator's choice",
+       "type": "ACTIVE_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Firmonertinib 240 mg"
+       ],
+       "description": "240 mg oral, daily firmonertinib tablet",
+       "name": "Firmonertinib",
+       "otherNames": [
+        "AST2818"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "EGFR-TKI inhibitor osimertinib or afatinib based on investigator's choice"
+       ],
+       "description": "osimertinib 80 mg oral, daily tablet OR afatinib 40 mg oral, daily tablet",
+       "name": "EGFR-TKI inhibitor based on investigator's choice",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Non-Small-Cell Lung Cancer",
+      "Metastatic Non-Small-Cell Lung Cancer",
+      "Advanced Non-Small-Cell Lung Cancer",
+      "EGFR P-Loop and Alpha C-Helix Compressing",
+      "EGFR PACC",
+      "EGFR Uncommon Mutations"
+     ],
+     "keywords": [
+      "Non-Small Cell Lung Cancer (NSCLC)",
+      "PACC",
+      "Firmonertinib",
+      "Furmonertinib",
+      "AST2818",
+      "FURMO-006",
+      "Drug-Therapy",
+      "Metastatic Non-Small Cell Lung Cancer",
+      "Advanced Non-Small Cell Lung Cancer",
+      "NSCLC",
+      "Osimertinib",
+      "Afatinib",
+      "metastatic NSCLC first-line treatment",
+      "Carcinoma NSCLC",
+      "Respiratory tract neoplasms",
+      "Bronchial Neoplasms",
+      "Protein Kinase Inhibitors",
+      "tyrosine kinase inhibitor (TKI)",
+      "Alflutinib",
+      "Lung neoplasms",
+      "EGFR kinase domain mutations",
+      "EGFR activating mutation",
+      "EGFR mutation of unknown significance",
+      "Non-classical EGFR mutation",
+      "EGFR uncommon mutations",
+      "EGFR atypical mutations",
+      "EGFR",
+      "G719X",
+      "S7681",
+      "E709X",
+      "E709_T710delinsD",
+      "G779F",
+      "L747X",
+      "V774M",
+      "L747P/S",
+      "R776C/H",
+      "G724S",
+      "E736K",
+      "1740_K745dup",
+      "N771G",
+      "K757M/R",
+      "V769L/M"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 480,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Study to Evaluate Efficacy and Safety of Firmonertinib Compared With Investigator's Choice of EGFR Inhibitor as First-Line Treatment in Participants Who Have Locally Advanced or Metastatic NSCLC With EGFR P-Loop and Alpha C-Helix Compressing (PACC) Uncommon Mutations",
+     "nctId": "NCT07185997",
+     "officialTitle": "A Global, Phase 3, Randomized, Multicenter, Open-Label Study to Evaluate the Efficacy and Safety of Firmonertinib Compared With Investigator's Choice of Osimertinib or Afatinib as First-Line Treatment in Participants Who Have Locally Advanced or Metastatic Non-Small-Cell Lung Cancer With Epidermal Growth Factor Receptor P-Loop and Alpha C-Helix Compressing (PACC) Uncommon Mutations (ALPACCA)",
+     "orgStudyIdInfo": {
+      "id": "FURMO-006"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "ArriVent BioPharma, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "ArriVent BioPharma, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2030-12",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-14",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-12",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2029-02",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2025-12-17",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-10",
+     "studyFirstPostDateStruct": {
+      "date": "2025-09-22",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-08-15",
+     "studyFirstSubmitQcDate": "2025-09-12"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: ARR-002"
+       ],
+       "label": "ARR-002",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "ARR-002"
+       ],
+       "description": "ARR-002 will be administrated as specified in the protocol.",
+       "name": "ARR-002",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Ovarian Cancer",
+      "Endometrial Cancer",
+      "Platinum-resistant Ovarian Cancer (PROC)",
+      "Metastatic Ovarian Cancer",
+      "Metastatic Endometrial Cancer"
+     ],
+     "keywords": [
+      "PROC",
+      "ARR-002",
+      "ARR002",
+      "Advanced Ovarian Cancer",
+      "Metastatic Ovarian Cancer",
+      "Endometrial Cancer",
+      "Platinum-resistant Ovarian Cancer",
+      "antibody drug conjugates"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 180,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Phase 1 Study to Assess Safety, Tolerability, Pharmacokinetics, Immunogenicity, and Antitumor Activity of ARR-002 in Advanced or Metastatic Ovarian or Endometrial Cancer.",
+     "nctId": "NCT07755436",
+     "officialTitle": "A Phase 1 Study to Assess the Safety, Tolerability, Pharmacokinetics, Immunogenicity, and Preliminary Antitumor Activity of ARR-002 in Adults With Locally Advanced or Metastatic Ovarian or Endometrial Cancer.",
+     "orgStudyIdInfo": {
+      "id": "ARR-002-101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "ArriVent BioPharma, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "ArriVent BioPharma, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2029-05",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-09-03",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-09-02",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-08",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2026-07-23",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-09",
+     "studyFirstPostDateStruct": {
+      "date": "2026-08-10",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2026-08-05",
+     "studyFirstSubmitQcDate": "2026-08-05"
+    }
+   }
+  }
+ ]
+}

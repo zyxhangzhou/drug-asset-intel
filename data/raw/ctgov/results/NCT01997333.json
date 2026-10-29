@@ -1,0 +1,76 @@
+{
+ "nctId": "NCT01997333",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.761",
+     "statisticalComment": "Stratified log rank test.",
+     "statisticalMethod": "Log Rank"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "1.6",
+         "upperLimit": "3.2",
+         "value": "2.8"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "2.8",
+         "upperLimit": "3.5",
+         "value": "2.9"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "109"
+      },
+      {
+       "groupId": "OG001",
+       "value": "218"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "PFS is defined as the time from randomization to the earlier of disease progression or death due to any cause. Disease progression is defined using Response Evaluation Criteria In Solid Tumors Criteria (RECIST v1.1), as a 20% increase in the sum of the longest diameter of target lesions, or progression in a non-target lesion, or the appearance of new lesions. The primary analysis of PFS was based on PFS events determined retrospectively by the central independent review committee, blinded to treatment assignment and investigator assessments according to RECIST 1.1 criteria.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Capecitabine administered on Days 1 through 14 of each 21 day cycle until disease progression, discontinuation due to toxicity, withdrawal of consent, or end of study.",
+     "id": "OG000",
+     "title": "Capecitabine"
+    },
+    {
+     "description": "CDX-011 administered on Day 1 of each 21 day cycle until disease progression, discontinuation due to toxicity, withdrawal of consent, or end of study.",
+     "id": "OG001",
+     "title": "CDX-011"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Evaluated every 6 - 9 weeks following treatment initiation",
+   "title": "Progression Free Survival (PFS)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "months"
+  }
+ ]
+}

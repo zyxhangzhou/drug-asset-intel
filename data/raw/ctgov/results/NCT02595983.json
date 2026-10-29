@@ -1,0 +1,49 @@
+{
+ "nctId": "NCT02595983",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "18.39",
+         "value": "-72.0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "7"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "A negative percentage change from baseline at Month 6 indicates a reduction in serum TTR level.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "All patients who received at least 1 dose of study drug",
+     "id": "OG000",
+     "title": "All Patients"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Safety analysis set: All participants who received at least a single dose of study drug and for whom data were collected at Month 6.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Month 6",
+   "title": "Percentage Change From Baseline in Serum TTR at Month 6",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage change from baseline in TTR"
+  }
+ ]
+}

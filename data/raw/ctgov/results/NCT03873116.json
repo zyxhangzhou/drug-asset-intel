@@ -1,0 +1,666 @@
+{
+ "nctId": "NCT03873116",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-50.1",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "14.0",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.181",
+     "paramType": "negative binomial regression model",
+     "paramValue": "-24.6",
+     "statisticalMethod": "negative binomial regression model"
+    },
+    {
+     "ciLowerLimit": "-67.5",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-20.4",
+     "groupIds": [
+      "OG001",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.003",
+     "paramType": "negative binomial regression model",
+     "paramValue": "-49.1",
+     "statisticalMethod": "negative binomial regression model"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "1.3021",
+         "value": "1.961"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.9168",
+         "value": "1.089"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "1.6359",
+         "value": "2.734"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "6"
+      },
+      {
+       "groupId": "OG001",
+       "value": "7"
+      },
+      {
+       "groupId": "OG002",
+       "value": "6"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The angioedema event rate and the treatment comparisons between each berotralstat dose and placebo in the rate of expert-confirmed angioedema events during the entire dosing period was analyzed using a negative binomial regression model. The number of expert-confirmed angioedema events was included as the dependent variable, the treatment was included as a fixed effect, the stratification variable (baseline monthly angioedema event rate) and study (for the combined study analysis) were included as covariates, and the logarithm of duration on treatment was included as an offset variable. The estimated rate of angioedema events for each treatment group, the treatment differences expressed as the angioedema event rate ratio (berotralstat) over placebo rate ratio), and their associated 95% confidence intervals (CIs) were provided from the negative binomial regression model.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Berotralstat administered as two 55mg capsules, orally QD for 24 weeks.",
+     "id": "OG000",
+     "title": "Berotralstat 110mg Once Daily"
+    },
+    {
+     "description": "Berotralstat administered as two 75mg capsules, orally QD for 24 weeks.",
+     "id": "OG001",
+     "title": "Berotralstat 150mg Once Daily"
+    },
+    {
+     "description": "Placebo administered as two matching capsules, orally QD for 24 weeks.",
+     "id": "OG002",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "The intent to treat (ITT) population included all randomized subjects, regardless of whether study treatment was administered. This population was the primary population for the analysis of the efficacy and health outcomes data.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "24 weeks",
+   "title": "Part 1: The Rate of Expert-confirmed HAE Attacks During Dosing in the Entire 24-week Treatment Period (Day 1 to Day 168)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Angioedema event rate per 28 days"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "6"
+        },
+        {
+         "groupId": "OG001",
+         "value": "1"
+        },
+        {
+         "groupId": "OG002",
+         "value": "7"
+        },
+        {
+         "groupId": "OG003",
+         "value": "2"
+        },
+        {
+         "groupId": "OG004",
+         "value": "6"
+        }
+       ]
+      }
+     ],
+     "title": "TEAE"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "2"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        },
+        {
+         "groupId": "OG002",
+         "value": "3"
+        },
+        {
+         "groupId": "OG003",
+         "value": "0"
+        },
+        {
+         "groupId": "OG004",
+         "value": "2"
+        }
+       ]
+      }
+     ],
+     "title": "Drug-related TEAE"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "2"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        },
+        {
+         "groupId": "OG002",
+         "value": "0"
+        },
+        {
+         "groupId": "OG003",
+         "value": "0"
+        },
+        {
+         "groupId": "OG004",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "SAE"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        },
+        {
+         "groupId": "OG002",
+         "value": "0"
+        },
+        {
+         "groupId": "OG003",
+         "value": "0"
+        },
+        {
+         "groupId": "OG004",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Drug-related SAE"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        },
+        {
+         "groupId": "OG002",
+         "value": "1"
+        },
+        {
+         "groupId": "OG003",
+         "value": "0"
+        },
+        {
+         "groupId": "OG004",
+         "value": "1"
+        }
+       ]
+      }
+     ],
+     "title": "Grade 3 or 4 TEAE"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        },
+        {
+         "groupId": "OG002",
+         "value": "1"
+        },
+        {
+         "groupId": "OG003",
+         "value": "0"
+        },
+        {
+         "groupId": "OG004",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Drug-related grade 3 or 4 TEAE"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        },
+        {
+         "groupId": "OG002",
+         "value": "2"
+        },
+        {
+         "groupId": "OG003",
+         "value": "0"
+        },
+        {
+         "groupId": "OG004",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "TEAE leading to interruption of study drug"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        },
+        {
+         "groupId": "OG002",
+         "value": "1"
+        },
+        {
+         "groupId": "OG003",
+         "value": "0"
+        },
+        {
+         "groupId": "OG004",
+         "value": "1"
+        }
+       ]
+      }
+     ],
+     "title": "TEAE leading to discontinuation of study drug"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        },
+        {
+         "groupId": "OG002",
+         "value": "2"
+        },
+        {
+         "groupId": "OG003",
+         "value": "0"
+        },
+        {
+         "groupId": "OG004",
+         "value": "1"
+        }
+       ]
+      }
+     ],
+     "title": "Investigator-identified rash (event of special interest)"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "3"
+        },
+        {
+         "groupId": "OG001",
+         "value": "1"
+        },
+        {
+         "groupId": "OG002",
+         "value": "3"
+        },
+        {
+         "groupId": "OG003",
+         "value": "1"
+        },
+        {
+         "groupId": "OG004",
+         "value": "1"
+        }
+       ]
+      }
+     ],
+     "title": "GI abdominal related TEAE"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        },
+        {
+         "groupId": "OG002",
+         "value": "0"
+        },
+        {
+         "groupId": "OG003",
+         "value": "0"
+        },
+        {
+         "groupId": "OG004",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "GI abdominal related TEAE leading to discontinuation of study drug"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "6"
+      },
+      {
+       "groupId": "OG001",
+       "value": "2"
+      },
+      {
+       "groupId": "OG002",
+       "value": "7"
+      },
+      {
+       "groupId": "OG003",
+       "value": "2"
+      },
+      {
+       "groupId": "OG004",
+       "value": "6"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The safety data was assessed for the safety population for subjects who entered Part 2, and includes TEAEs that occurred in Part 1 and Part 2 for these subjects with a data cut-off date of 10-April-2020. TEAEs are defined as AEs that occurred on or after first dose of study treatment, whether in Part 1 or 2, and were assigned to the relevant treatment depending on when the TEAE began (Part 1 or Part 2 treatment). TEAEs were assessed for severity (graded) using the Division of Microbiology and Infectious Disease (DMID) criteria for grading AEs. TEAEs not covered by the DMID criteria were assessed as Mild (Grade 1), Moderate (Grade 2), Severe (Grade 3) or Life-threatening (Grade 4).",
+   "groups": [
+    {
+     "description": "Berotralstat administered as two 55mg capsules, orally QD in parts 1 \\& 2.",
+     "id": "OG000",
+     "title": "Berotralstat 110mg Once Daily"
+    },
+    {
+     "description": "Subjects were treated with 110 mg berotralstat QD in part 2 (24-52 weeks), following part 1 placebo treatment.",
+     "id": "OG001",
+     "title": "Berotralstat 110mg QD After Placebo"
+    },
+    {
+     "description": "Berotralstat administered as two 75mg capsules, orally QD in parts 1 \\& 2.",
+     "id": "OG002",
+     "title": "Berotralstat 150mg Once Daily"
+    },
+    {
+     "description": "Subjects were treated with 150 mg berotralstat QD in part 2 (24-52 weeks), following part 1 placebo treatment.",
+     "id": "OG003",
+     "title": "Berotralstat 150mg QD After Placebo"
+    },
+    {
+     "description": "Subjects were treated with Placebo in Part 1",
+     "id": "OG004",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "The safety population included all subjects who received at least 1 capsule of study treatment.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Part 1: 24 weeks (Week 0 to 24 to 52), Part 2: 28 weeks (Week 24 to 52)",
+   "title": "Part 2: To Evaluate the Long-term Safety and Tolerability of Berotralstat 110 and 150 mg in Subjects With HAE",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "6"
+        }
+       ]
+      }
+     ],
+     "title": "TEAE"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Drug-related TEAE"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1"
+        }
+       ]
+      }
+     ],
+     "title": "SAE"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Drug-related SAE"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1"
+        }
+       ]
+      }
+     ],
+     "title": "Grade 3 or 4 TEAE"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Drug-related grade 3 or 4 TEAE"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "TEAE leading to interruption of study drug"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "TEAE leading to discontinuation of study drug"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Investigator-identified rash (event of special interest)"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "GI abdominal related TEAE"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "GI abdominal related TEAE leading to discontinuation of study drug"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "11"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The safety data was assessed for the safety population for subjects who entered Part 3, and includes TEAEs that occurred in Part 3 for these subjects.",
+   "groups": [
+    {
+     "description": "Berotralstat administered as two 75mg capsules, orally QD.",
+     "id": "OG000",
+     "title": "Berotralstat 150mg Once Daily"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Part 3: Week 52 to up to Week 104.",
+   "title": "Part 3: To Evaluate the Long-term Safety and Tolerability of Berotralstat Administered QD Over a 52- to up to 104-week Administration Period in Subjects With HAE.",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

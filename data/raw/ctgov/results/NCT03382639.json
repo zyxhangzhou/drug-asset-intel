@@ -1,0 +1,144 @@
+{
+ "nctId": "NCT03382639",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-1.4",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "1.2",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "0.66",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.426",
+     "paramType": "LS Mean Difference",
+     "paramValue": "-0.1",
+     "statisticalMethod": "Mixed Models Analysis"
+    },
+    {
+     "ciLowerLimit": "-1.5",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "1.1",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "0.66",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.725",
+     "paramType": "LS Mean Difference",
+     "paramValue": "-0.2",
+     "statisticalMethod": "Mixed Models Analysis"
+    },
+    {
+     "ciLowerLimit": "-0.7",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "1.9",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "0.68",
+     "groupIds": [
+      "OG000",
+      "OG003"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.808",
+     "paramType": "LS Mean Difference",
+     "paramValue": "0.6",
+     "statisticalMethod": "Mixed Models Analysis"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.44",
+         "value": "-3.1"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.52",
+         "value": "-3.3"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "0.51",
+         "value": "-3.4"
+        },
+        {
+         "groupId": "OG003",
+         "spread": "0.55",
+         "value": "-2.5"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "87"
+      },
+      {
+       "groupId": "OG001",
+       "value": "58"
+      },
+      {
+       "groupId": "OG002",
+       "value": "56"
+      },
+      {
+       "groupId": "OG003",
+       "value": "55"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "PANSS assesses the positive symptoms, negative symptoms and general psychopathology associated with schizophrenia. The scale consists of 30 items. Each item is rated on a scale from 1 (symptom not present) to 7 (symptoms extremely severe). Here, the PANSS NSFS subscale consists of 7 items which assess the negative symptoms with subscale score ranging from 7 to 49, where a higher score indicates greater severity. Baseline was defined as the last observed value before the first dose of study treatment. Results are reported as least squares (LS) mean change from baseline at Week 12, determined using a mixed model for repeated measures (MMRM). A negative change from baseline indicates improvement.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Participants received placebo (matching luvadaxistat) orally QD for 12 weeks (Days 1 to 84).",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Participants received luvadaxistat 50 mg orally QD for 12 weeks (Days 1 to 84).",
+     "id": "OG001",
+     "title": "Luvadaxistat 50 mg"
+    },
+    {
+     "description": "Participants received luvadaxistat 125 mg orally QD for 12 weeks (Days 1 to 84).",
+     "id": "OG002",
+     "title": "Luvadaxistat 125 mg"
+    },
+    {
+     "description": "Participants received luvadaxistat 500 mg orally QD for 12 weeks (Days 1 to 84).",
+     "id": "OG003",
+     "title": "Luvadaxistat 500 mg"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "The FAS included all randomized participants who received at least 1 dose of double-blind study treatment.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline and Week 12",
+   "title": "Change From Baseline on the PANSS NSFS at Week 12",
+   "type": "PRIMARY",
+   "unitOfMeasure": "scores on a scale"
+  }
+ ]
+}

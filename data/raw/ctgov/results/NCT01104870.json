@@ -1,0 +1,154 @@
+{
+ "nctId": "NCT01104870",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciNumSides": "TWO_SIDED",
+     "groupDescription": "Peak total pulmonary resistance index (TPRI) is defined as the TPRI value observed during exercise at the highest matching wattage achieved at both Baseline and Week 12. Where peak wattage cannot be matched, the closest higher wattage will be chosen for comparison.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+     "pValue": "0.95",
+     "pValueComment": "Primary comparisons are between Dose Group 1 \\& Dose Group 3 and Dose Group 1 \\& Dose Group 2. The study is not powered to test for a difference between Dose Group 2 \\& Dose Group 3.",
+     "statisticalMethod": "Wilcoxon (Mann-Whitney)",
+     "testedNonInferiority": false
+    },
+    {
+     "ciNumSides": "TWO_SIDED",
+     "groupDescription": "Peak total pulmonary resistance index (TPRI) is defined as the TPRI value observed during exercise at the highest matching wattage achieved at both Baseline and Week 12. Where peak wattage cannot be matched, the closest higher wattage will be chosen for comparison.",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+     "pValue": "0.27",
+     "pValueComment": "Primary comparisons are between Dose Group 1 \\& Dose Group 3 and Dose Group 1 \\& Dose Group 2. The study is not powered to test for a difference between Dose Group 2 \\& Dose Group 3.",
+     "statisticalMethod": "Wilcoxon (Mann-Whitney)",
+     "testedNonInferiority": false
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "11.668",
+         "value": "15.096"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "9.397",
+         "value": "13.954"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "10.013",
+         "value": "15.441"
+        }
+       ]
+      }
+     ],
+     "title": "Baseline"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "9.274",
+         "value": "14.608"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "9.463",
+         "value": "14.509"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "7.257",
+         "value": "13.423"
+        }
+       ]
+      }
+     ],
+     "title": "Week 12"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "7.132",
+         "value": "-0.488"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "4.428",
+         "value": "0.555"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "5.332",
+         "value": "-2.019"
+        }
+       ]
+      }
+     ],
+     "title": "Change from Baseline"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "10"
+      },
+      {
+       "groupId": "OG001",
+       "value": "14"
+      },
+      {
+       "groupId": "OG002",
+       "value": "17"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The effects of 12-week treatment with different doses of UT-15C on peak TPRI during exercise will be evaluated by comparing the change from Baseline to Week 12 at peak wattage on a pairwise basis between treatment groups.\n\nThe primary measure of efficacy was the change from Baseline to Week 12 in peak TPRI during exercise assessed 3 to 6 hours after the subject's morning dose of UT-15C to obtain measurements at peak concentrations of treprostinil. The equation used to determine the Total Pulmonary Resistance Index (TPRI) (mmHg/\\[L/min/m\\^2\\]) is Mean Pulmonary Artery Pressure (PAPm)/ Cardiac Index (CI).",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "0.25 mg twice daily\n\nUT-15C: oral",
+     "id": "OG000",
+     "title": "Dose Group 1"
+    },
+    {
+     "description": "1.25 mg twice daily\n\nUT-15C: oral",
+     "id": "OG001",
+     "title": "Dose Group 2"
+    },
+    {
+     "description": "individual Maximum Tolerated Dose\n\nUT-15C: oral",
+     "id": "OG002",
+     "title": "Dose Group 3"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "All subjects with Baseline and Week 12 TPRI values recorded were included in the analysis.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline and Week 12",
+   "title": "Change in Peak Total Pulmonary Resistance Index (TPRI) During Exercise From Baseline to Week 12",
+   "type": "PRIMARY",
+   "unitOfMeasure": "mmHg/(L/min/m^2)"
+  }
+ ]
+}

@@ -1,0 +1,112 @@
+{
+ "nctId": "NCT01977820",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "AEs"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "SAEs"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "AEs leading to death"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "AEs leading to discontinuation"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "1"
+      },
+      {
+       "groupId": "OG001",
+       "value": "1"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "An AE was defined as any new untoward medical occurrences/worsening of pre-existing medical condition without regard to possibility of causal relationship. A SAE was an AE that resulted in any of the following outcomes: death; life threatening; persistent/significant disability/incapacity; initial or prolonged inpatient hospitalization; congenital anomaly/birth defect.",
+   "groups": [
+    {
+     "description": "Subject was administered with 20 mg/kg sapropterin tablets orally once daily during the 2-week response test period. The subject upon completing the 2-Week response test period was randomized to receive sapropterin during the 24-week study period. The subject completed the study according to the study protocol until the study was terminated by the Sponsor.",
+     "id": "OG000",
+     "title": "Sapropterin"
+    },
+    {
+     "description": "Subject was administered with 20 mg/kg sapropterin tablets orally once daily during the 2-week response test period. The subject upon completing the 2-Week response test period was randomized to receive placebo tablets matching to sapropterin orally once daily during the 24-week study period. The subject completed the study according to the study protocol until the study was terminated by the Sponsor.",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "The safety analysis population included all the randomized subjects who received at least one dose of study treatment.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Screening up to 24 weeks + 4-week follow-up",
+   "title": "Number of Subjects With Adverse Events (AEs), Serious AEs (SAEs), AEs Leading to Death and AEs Leading to Discontinuation",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Subjects"
+  }
+ ]
+}

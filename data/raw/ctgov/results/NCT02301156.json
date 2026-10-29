@@ -1,0 +1,72 @@
+{
+ "nctId": "NCT02301156",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0463",
+     "statisticalComment": "P-value was estimated by Cochran-Mantel-Haenszel (CMH) test stratified by the randomization strata prior lines of therapy.",
+     "statisticalMethod": "Cochran-Mantel-Haenszel"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "84.4"
+        },
+        {
+         "groupId": "OG001",
+         "value": "69.4"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "64"
+      },
+      {
+       "groupId": "OG001",
+       "value": "62"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "ORR: Percentage of participants with best overall response of partial response(PR) and complete response(CR). CR criteria: No evidence of new disease; Absolute lymphocyte count(ALC)\\<4x10\\^9/liter(L); Regression of all target nodal masses to ≤1.5 centimeters(cm) in longest diameter(LD); Normal spleen,liver size; Regression to normal of all nodal non-target disease and disappearance of all detectable; Non-nodal, non-target disease; Morphologically negative bone marrow; No lymphoid nodules; Absolute neutrophil count(ANC)\\>1.5x10\\^9/L,platelets≥100x10\\^9/L,hemoglobin (Hgb)≥110 gram per liter(g/L). PR criteria: No evidence of new disease; Response in 2 of following if abnormal at baseline: ALC\\<4x10\\^9/L or \\>=50% decrease from baseline in sum of products(SPD) of target nodal lesions; splenomegaly; hepatomegaly;\\>=50% decrease from baseline in CLL marrow infiltrate/B-lymphoid nodules; response in any 1:ANC\\>1.5x10\\^9/L,platelets\\>100x10\\^9/L,Hgb\\>110g/L or \\>=50% increase over baseline in any of these.",
+   "groups": [
+    {
+     "description": "Participants received ublituximab IV infusion, up to 150 mg once on Day 1, 750 mg on Day 2, 900 mg on Days 8 and 15 of Cycle 1 (Cycle duration=28 days) followed by 900 mg on Day 1 of Cycles 2 to 6 and 900 mg on Day 1 of every 3rd cycle thereafter for up to 54.6 months along with ibrutinib 420 mg capsules, orally, QD in each 28-day cycle for up to 51.6 months.",
+     "id": "OG000",
+     "title": "Ublituximab + Ibrutinib"
+    },
+    {
+     "description": "Participants received ibrutinib 420 mg capsules, orally, QD in each 28-day cycle up to 56.3 months.",
+     "id": "OG001",
+     "title": "Ibrutinib"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "ITT Population included all randomized participants.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to 62 months",
+   "title": "Overall Response Rate (ORR)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

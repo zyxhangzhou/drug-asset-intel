@@ -1,0 +1,79 @@
+{
+ "nctId": "NCT00632463",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "4.07",
+         "upperLimit": "21.02",
+         "value": "9.24"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "2.22",
+         "upperLimit": "10.59",
+         "value": "4.85"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "0.64",
+         "upperLimit": "3.17",
+         "value": "1.42"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "7"
+      },
+      {
+       "groupId": "OG001",
+       "value": "7"
+      },
+      {
+       "groupId": "OG002",
+       "value": "7"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The primary endpoint of this study was the mean fold titer increase from baseline to Day 18 in circulating serum anti-RSV neutralizing antibody following treatment with RI-001.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Dose regimen 1 (High Dose): RI-001 1,500 mg/kg dose on day 1, and 750 mg/kg dose on day 3.",
+     "id": "OG000",
+     "title": "1 (High Dose)"
+    },
+    {
+     "description": "Dose regimen 2 (Low Dose): RI-001 750 mg/kg dose on day 1, and 750 mg/kg dose on day 3.",
+     "id": "OG001",
+     "title": "2 (Low Dose)"
+    },
+    {
+     "description": "Placebo (Normal saline): 7.5 mL/kg or 15 mL/kg dose on day 1, and 7.5 mL/kg dose on day 2.",
+     "id": "OG002",
+     "title": "3 (Placebo)"
+    }
+   ],
+   "paramType": "MEAN",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Study day 18",
+   "title": "Circulating RI-001 Titer",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Fold Change"
+  }
+ ]
+}

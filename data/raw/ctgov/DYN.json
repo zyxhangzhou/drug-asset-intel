@@ -1,0 +1,700 @@
+{
+ "aliases": [
+  "Dyne Therapeutics"
+ ],
+ "studies": [
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants will be randomized to receive ascending doses of DYNE-101, once every 4 weeks (Q4W) or once every 8 weeks (Q8W) for up to 24 weeks.",
+       "interventionNames": [
+        "Drug: DYNE-101"
+       ],
+       "label": "MAD Cohort: Placebo-Controlled Period: DYNE-101",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants will be randomized to receive DYNE-101 matching placebo, Q4W or Q8W for up to 24 weeks.",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "MAD Cohort: Placebo-Controlled Period: Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "description": "Participants who receive DYNE-101 in Placebo-Controlled Period will continue to receive DYNE-101, Q4W or Q8W for up to 24 weeks.\n\nParticipants who receive placebo in Placebo-Controlled Period will receive DYNE-101, Q4W or Q8W for up to 24 weeks.",
+       "interventionNames": [
+        "Drug: DYNE-101",
+        "Drug: Placebo"
+       ],
+       "label": "MAD Cohort: Treatment Period: DYNE-101",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants will receive DYNE-101, Q4W or Q8W for up to 208 weeks.",
+       "interventionNames": [
+        "Drug: DYNE-101"
+       ],
+       "label": "MAD Cohort: Long-Term Extension Period: DYNE-101",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants will receive DYNE-101, Q8W for up to 24 weeks.",
+       "interventionNames": [
+        "Drug: DYNE-101"
+       ],
+       "label": "Dose Expansion Cohort: Placebo-Controlled Period: DYNE-101",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants will receive DYNE-101 matching placebo, Q8W for up to 24 weeks.",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Dose Expansion Cohort: Placebo-Controlled Period: Placebo",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants who receive DYNE-101 in Placebo-Controlled Period will continue to receive DYNE-101, Q8W for up to 24 weeks.\n\nParticipants who receive placebo in Placebo-Controlled Period will receive DYNE-101, Q8W for up to 24 weeks.",
+       "interventionNames": [
+        "Drug: DYNE-101",
+        "Drug: Placebo"
+       ],
+       "label": "Dose Expansion Cohort: Treatment Period: DYNE-101",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants will receive DYNE-101, Q8W for up to 208 weeks.",
+       "interventionNames": [
+        "Drug: DYNE-101"
+       ],
+       "label": "Dose Expansion Cohort: Long-Term Extension Period: DYNE-101",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Dose Expansion Cohort: Long-Term Extension Period: DYNE-101",
+        "Dose Expansion Cohort: Placebo-Controlled Period: DYNE-101",
+        "Dose Expansion Cohort: Treatment Period: DYNE-101",
+        "MAD Cohort: Long-Term Extension Period: DYNE-101",
+        "MAD Cohort: Placebo-Controlled Period: DYNE-101",
+        "MAD Cohort: Treatment Period: DYNE-101"
+       ],
+       "description": "Administered by IV infusion",
+       "name": "DYNE-101",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Dose Expansion Cohort: Placebo-Controlled Period: Placebo",
+        "Dose Expansion Cohort: Treatment Period: DYNE-101",
+        "MAD Cohort: Placebo-Controlled Period: Placebo",
+        "MAD Cohort: Treatment Period: DYNE-101"
+       ],
+       "description": "Administered by IV infusion",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Myotonic Dystrophy Type 1 (DM1)"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 127,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "ACHIEVE",
+     "briefTitle": "Safety, Tolerability, Pharmacodynamic, Efficacy, and Pharmacokinetic Study of DYNE-101 in Participants With Myotonic Dystrophy Type 1",
+     "nctId": "NCT05481879",
+     "officialTitle": "A Randomized, Placebo-Controlled, Multiple Ascending Dose Study Assessing Safety, Tolerability, Pharmacodynamics, Efficacy, and Pharmacokinetics of DYNE-101 Administered to Participants With Myotonic Dystrophy Type 1",
+     "orgStudyIdInfo": {
+      "id": "DYNE101-DM1-201"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Dyne Therapeutics"
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "2023-510353-42-00",
+       "type": "CTIS"
+      },
+      {
+       "id": "2023",
+       "link": "https://reporter.nih.gov/quickSearch/2023",
+       "type": "NIH"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Dyne Therapeutics"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2029-07",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-09-23",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-09-19",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2029-07",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2022-09-05",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-09",
+     "studyFirstPostDateStruct": {
+      "date": "2022-08-01",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2022-07-28",
+     "studyFirstSubmitQcDate": "2022-07-28"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "DYNE-251 will be administered once every 4 weeks (Q4W) or once every 8 weeks (Q8W) over 24 weeks.",
+       "interventionNames": [
+        "Drug: DYNE-251"
+       ],
+       "label": "Placebo-Controlled MAD Period - DYNE-251",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Placebo will be administered Q4W or Q8W over 24 weeks.",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo-Controlled MAD Period - Placebo",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "DYNE-251 will be administered Q4W or Q8W for up to 288 weeks after participants complete the Placebo-Controlled MAD Period of the study.",
+       "interventionNames": [
+        "Drug: DYNE-251"
+       ],
+       "label": "Open-Label and Long-Term Extension Period - DYNE-251",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Open-Label and Long-Term Extension Period - DYNE-251",
+        "Placebo-Controlled MAD Period - DYNE-251"
+       ],
+       "description": "Administered by IV infusion",
+       "name": "DYNE-251",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo-Controlled MAD Period - Placebo"
+       ],
+       "description": "Administered by IV infusion",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Duchenne Muscular Dystrophy (DMD)"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 86,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "DELIVER",
+     "briefTitle": "Safety, Tolerability, Pharmacodynamic, Efficacy, and Pharmacokinetic Study of DYNE-251 in Participants With Duchenne Muscular Dystrophy Amenable to Exon 51 Skipping",
+     "nctId": "NCT05524883",
+     "officialTitle": "A Randomized, Double-Blind, Placebo-Controlled, Multiple Ascending Dose Study Assessing Safety, Tolerability, Pharmacodynamics, Efficacy, and Pharmacokinetics of DYNE-251 Administered to Participants With Duchenne Muscular Dystrophy Amenable to Exon 51 Skipping",
+     "orgStudyIdInfo": {
+      "id": "DYNE251-DMD-201"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Dyne Therapeutics"
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "2023-510351-31-00",
+       "type": "CTIS"
+      },
+      {
+       "domain": "Health Canada Investigational Testing Authorization (ITA)",
+       "id": "ITA 362546 (model PA-000798)",
+       "type": "OTHER"
+      },
+      {
+       "id": "2023",
+       "link": "https://reporter.nih.gov/quickSearch/2023",
+       "type": "NIH"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Dyne Therapeutics"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2031-09",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-08-11",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-08-08",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2031-09",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2022-08-12",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-08",
+     "studyFirstPostDateStruct": {
+      "date": "2022-09-01",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2022-08-30",
+     "studyFirstSubmitQcDate": "2022-08-30"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants will be randomized to receive DYNE-101, once every 8 weeks (Q8W) for up to 48 weeks.",
+       "interventionNames": [
+        "Drug: zeleciment basivarsen (DYNE-101)"
+       ],
+       "label": "Placebo-Controlled Period: DYNE-101",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants will be randomized to receive DYNE-101 matching placebo, Q8W for up to 48 weeks.",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo-Controlled Period: Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "description": "Participants who receive DYNE-101 in Placebo-Controlled Period will continue to received DYNE-101, Q8W for up to 24 weeks.\n\nParticipants who received placebo in Placebo-Controlled Period will receive DYNE-101, Q8W for up to 24 weeks.",
+       "interventionNames": [
+        "Drug: zeleciment basivarsen (DYNE-101)",
+        "Drug: Placebo"
+       ],
+       "label": "Long-Term Extension Period: DYNE-101",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Long-Term Extension Period: DYNE-101",
+        "Placebo-Controlled Period: DYNE-101"
+       ],
+       "description": "Administered by IV infusion",
+       "name": "zeleciment basivarsen (DYNE-101)",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Long-Term Extension Period: DYNE-101",
+        "Placebo-Controlled Period: Placebo"
+       ],
+       "description": "Administered by IV infusion",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Myotonic Dystrophy Type 1 (DM1)",
+      "DM1",
+      "Myotonic Dystrophy",
+      "Steinert Disease",
+      "Steinert"
+     ],
+     "keywords": [
+      "DM1",
+      "Myotonic Dystrophy",
+      "Myotonic Dystrophy 1",
+      "Myotonia",
+      "Myotonic Dystrophy Type 1 (DM1)",
+      "Dystrophy Myotonic",
+      "Myotonic Disorders",
+      "Steinert Disease",
+      "Steinert",
+      "Myotonic Muscular Dystrophy",
+      "HARMONIA",
+      "Dyne Therapeutics",
+      "Dyne",
+      "DYNE-101",
+      "zeleciment basivarsen",
+      "z-basivarsen"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 150,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Efficacy, Safety, and Tolerability of Zeleciment Basivarsen (DYNE-101) in Participants With Myotonic Dystrophy Type 1",
+     "nctId": "NCT07486934",
+     "officialTitle": "A Phase 3, Randomized, Double-Blind, 48-Week Placebo-Controlled Study to Assess the Efficacy, Safety, and Tolerability of DYNE-101 Administered to Participants With Myotonic Dystrophy Type 1",
+     "orgStudyIdInfo": {
+      "id": "DYNE101-DM1-301"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Dyne Therapeutics"
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "2025-522957-20-00",
+       "type": "CTIS"
+      },
+      {
+       "id": "2025",
+       "link": "https://reporter.nih.gov/quickSearch/2025",
+       "type": "NIH"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Dyne Therapeutics"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2029-01",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-13",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-07",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2028-07",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2026-05-14",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-04",
+     "studyFirstPostDateStruct": {
+      "date": "2026-03-23",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2026-03-17",
+     "studyFirstSubmitQcDate": "2026-03-17"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants will be randomized to receive zeleciment rostudirsen, once every 4 weeks (Q4W) for up to 72 weeks.",
+       "interventionNames": [
+        "Drug: Zeleciment Rostudirsen (DYNE-251)"
+       ],
+       "label": "Placebo-Controlled Period: Zeleciment Rostudirsen (DYNE-251)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants will be randomized to receive placebo, Q4W for up to 72 weeks.",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo-Controlled Period: Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "description": "All participants who complete the Placebo-Controlled Period of the study will receive zeleciment rostudirsen administered Q4W for up to 96 weeks.",
+       "interventionNames": [
+        "Drug: Zeleciment Rostudirsen (DYNE-251)"
+       ],
+       "label": "Open-Label Long-Term Extension Period: Zeleciment Rostudirsen (DYNE-251)",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Open-Label Long-Term Extension Period: Zeleciment Rostudirsen (DYNE-251)",
+        "Placebo-Controlled Period: Zeleciment Rostudirsen (DYNE-251)"
+       ],
+       "description": "Administered by IV infusion",
+       "name": "Zeleciment Rostudirsen (DYNE-251)",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo-Controlled Period: Placebo"
+       ],
+       "description": "Administered by IV infusion",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Duchenne Muscular Dystrophy (DMD)",
+      "Muscular Dystrophy, Duchenne",
+      "Muscular Dystrophy (DMD)",
+      "DMD",
+      "Muscular Dystrophies",
+      "Muscular Dystrophy in Children",
+      "Muscular Dystrophy, Duchenne Type",
+      "Muscular Dystrophy, Duchenne and Becker Types",
+      "Muscular Dystrophies (Duchenne, Becker, Myotonic Dystrophy)",
+      "Genetic Disease, Inborn",
+      "Genetic Disease, X-Linked",
+      "Congenital, Hereditary, and Neonatal Diseases and Abnormalities",
+      "Neuromuscular Diseases (NMD)"
+     ],
+     "keywords": [
+      "Ambulatory",
+      "DMD",
+      "Duchenne Muscular Dystrophy",
+      "Duchenne",
+      "Dyne",
+      "Dyne Therapeutics",
+      "DYNE-251",
+      "Dystrophy",
+      "Exon Skipping",
+      "Exon 51",
+      "FORZETTO",
+      "Pediatric",
+      "PMO",
+      "Muscle Function",
+      "Muscular Dystropy, Duchenne",
+      "Rise From Floor",
+      "RFF",
+      "RFF Velocity",
+      "Rostudirsen",
+      "Time to rise",
+      "TTR",
+      "TTR Velocity",
+      "Zeleciment rostudirsen",
+      "Z-rostudirsen"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 90,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "FORZETTO",
+     "briefTitle": "Efficacy, Safety, and Tolerability of Zeleciment Rostudirsen (DYNE-251) Administered Intravenously Every 4 Weeks in Ambulatory Participants With Duchenne Muscular Dystrophy (FORZETTO)",
+     "nctId": "NCT07608432",
+     "officialTitle": "A Phase 3, Randomized, Double-Blind, Placebo-Controlled Study to Investigate the Efficacy, Safety, and Tolerability of DYNE-251 Administered Intravenously in Ambulatory Male Participants 4 to 18 Years of Age With Duchenne Muscular Dystrophy Amenable to Exon-51 Skipping",
+     "orgStudyIdInfo": {
+      "id": "DYNE251-DMD-301"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Dyne Therapeutics"
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "2025-524096-23-00",
+       "type": "CTIS"
+      },
+      {
+       "id": "2025",
+       "link": "https://reporter.nih.gov/quickSearch/2025",
+       "type": "NIH"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Dyne Therapeutics"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2032-10",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-05-27",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-05-20",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2030-12",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2026-06",
+      "type": "ESTIMATED"
+     },
+     "statusVerifiedDate": "2026-05",
+     "studyFirstPostDateStruct": {
+      "date": "2026-05-27",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2026-05-20",
+     "studyFirstSubmitQcDate": "2026-05-20"
+    }
+   }
+  }
+ ]
+}

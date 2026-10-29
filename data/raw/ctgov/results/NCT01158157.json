@@ -1,0 +1,73 @@
+{
+ "nctId": "NCT01158157",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "52"
+        }
+       ]
+      }
+     ],
+     "title": "Vaccination complications"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "8"
+        }
+       ]
+      }
+     ],
+     "title": "Headache"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "4"
+        }
+       ]
+      }
+     ],
+     "title": "injection site scab"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "25"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "groups": [
+    {
+     "description": "Participants received a single percutaneous administration of a droplet (2.5 μL) of the ACAM2000 smallpox vaccine using a bifurcated needle on Day 0.",
+     "id": "OG000",
+     "title": "ACAM200 Vaccination Dose"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Post-vaccination adverse events were assessed in the safety population.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Days 0 to 90 post-vaccination",
+   "title": "Percent of Participants With Adverse Events Related to ACAM2000 Vaccine Administration",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

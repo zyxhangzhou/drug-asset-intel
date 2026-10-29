@@ -1,0 +1,192 @@
+{
+ "nctId": "NCT04294472",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityComment": "Cohort 1 vs Placebo",
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.1866",
+     "statisticalMethod": "Log Rank"
+    },
+    {
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityComment": "Cohort 2 vs Placebo",
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.2627",
+     "statisticalMethod": "Log Rank"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "11.75",
+         "value": "19.61"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "11.50",
+         "value": "10.80"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "16.28",
+         "value": "18.25"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "8"
+      },
+      {
+       "groupId": "OG001",
+       "value": "10"
+      },
+      {
+       "groupId": "OG002",
+       "value": "10"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The efficacy of MAU868 in treating BK viremia will be measured primarily by measuring the BK Viral Load in the plasma over time.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Placebo: 5% dextrose in water \\[D5W\\] IV delivered every 28 days for a total of 4 doses",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "MAU868 1350 mg every 28 days for a total of 4 doses",
+     "id": "OG001",
+     "title": "Active Arm (Cohort 1)"
+    },
+    {
+     "description": "MAU868 6750 once and 1350 mg every 28 days for a total of 4 doses",
+     "id": "OG002",
+     "title": "Active Arm (Cohort 2)"
+    }
+   ],
+   "paramType": "MEAN",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Study Week 1 - Study Week 36",
+   "title": "Time (Weeks) to Decrease of BKV Plasma Viral Load by 1 Log",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Weeks"
+  },
+  {
+   "analyses": [
+    {
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityComment": "Cohort 1 vs Placebo",
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0639",
+     "statisticalMethod": "Log Rank"
+    },
+    {
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityComment": "Cohort 2 vs Placebo",
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0508",
+     "statisticalMethod": "Log Rank"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "comment": "No subjects in placebo group achieved BKV plasma viral load to less than lower limit of quantification",
+         "groupId": "OG000",
+         "spread": "NA",
+         "value": "NA"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "13.57",
+         "value": "16.79"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "6.46",
+         "value": "8.18"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "8"
+      },
+      {
+       "groupId": "OG001",
+       "value": "10"
+      },
+      {
+       "groupId": "OG002",
+       "value": "10"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The efficacy of MAU868 in treating BK viremia will be measured primarily by measuring the BK Viral Load in the plasma over time.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Placebo: 5% dextrose in water \\[D5W\\] IV delivered every 28 days for a total of 4 doses",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "MAU868 1350 mg every 28 days for a total of 4 doses",
+     "id": "OG001",
+     "title": "Active Arm (Cohort 1)"
+    },
+    {
+     "description": "MAU868 6750 once and 1350 mg every 28 days for a total of 4 doses",
+     "id": "OG002",
+     "title": "Active Arm (Cohort 2)"
+    }
+   ],
+   "paramType": "MEAN",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Study Week 1 - Study Week 36",
+   "title": "Time (Weeks) to First Decrease of BKV Plasma Viral Load to Less Than Lower Limit of Quantification (LLOQ)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Weeks"
+  }
+ ]
+}

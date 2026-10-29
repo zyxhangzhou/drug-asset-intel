@@ -1,0 +1,156 @@
+{
+ "nctId": "NCT02694328",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-3.88",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-0.88",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "0.765",
+     "groupIds": [
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.003",
+     "pValueComment": "P-value was adjusted using the Cui, Hung, and Wang (CHW) method to account for the unblinded interim analysis for sample size re-estimation.",
+     "paramType": "Least Squares Mean Difference",
+     "paramValue": "-2.38",
+     "statisticalComment": "Missing values at Week 24 were imputed using multiple imputation.",
+     "statisticalMethod": "ANCOVA"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.668",
+         "value": "6.59"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.681",
+         "value": "4.21"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "272"
+      },
+      {
+       "groupId": "OG001",
+       "value": "266"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Administered as a coated bilayer tablet\n\nOlanzapine: Daily dosing",
+     "id": "OG000",
+     "title": "Olanzapine"
+    },
+    {
+     "description": "Administered as a coated bilayer tablet\n\nALKS 3831: Daily dosing",
+     "id": "OG001",
+     "title": "ALKS 3831"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "The full analysis set (FAS) population includes all randomized subjects who received at least 1 dose of study drug and had at least 1 postbaseline weight assessment",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline and Week 24",
+   "title": "Percent Change From Baseline in Body Weight at Week 24",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Percent change in body weight"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-22.8",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-4.6",
+     "estimateComment": "Risk difference (RD) of ALKS 3831 vs. Olanzapine",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.003",
+     "pValueComment": "P-value was adjusted using the CHW method to account for the unblinded interim analysis for sample size re-estimation.",
+     "paramType": "Risk Difference (RD)",
+     "paramValue": "-13.7",
+     "statisticalComment": "Missing values at Week 24 were imputed using multiple imputation.",
+     "statisticalMethod": "Regression, Logistic"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "29.8"
+        },
+        {
+         "groupId": "OG001",
+         "value": "17.8"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "272"
+      },
+      {
+       "groupId": "OG001",
+       "value": "266"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "groups": [
+    {
+     "description": "Administered as a coated bilayer tablet\n\nOlanzapine: Daily dosing",
+     "id": "OG000",
+     "title": "Olanzapine"
+    },
+    {
+     "description": "Administered as a coated bilayer tablet\n\nALKS 3831: Daily dosing",
+     "id": "OG001",
+     "title": "ALKS 3831"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "The FAS population included all randomized subjects who received at least 1 dose of study drug and had at least 1 postbaseline weight assessment.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline and Week 24",
+   "title": "Percentage of Participants With >/= 10% Weight Gain at Week 24",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Percentage of participants"
+  }
+ ]
+}

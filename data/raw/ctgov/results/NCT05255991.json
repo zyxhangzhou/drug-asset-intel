@@ -1,0 +1,85 @@
+{
+ "nctId": "NCT05255991",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "52.2",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "139.0",
+     "estimateComment": "Hodges-Lehmann location-shift estimate of the overall treatment difference with 95% CI was reported.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<0.0001",
+     "pValueComment": "P-value was obtained from the aligned rank stratified Wilcoxon test with background therapy as strata.",
+     "paramType": "Treatment difference",
+     "paramValue": "95.6",
+     "statisticalComment": "Participants who died before Week 52, had missing % predicted FVC change from baseline values at visit(s) on or after death date imputed.",
+     "statisticalMethod": "Aligned Rank Stratified Wilcoxon"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "-79.2",
+         "upperLimit": "-19.5",
+         "value": "-49.9"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "-172.5",
+         "upperLimit": "104.0",
+         "value": "-136.4"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "298"
+      },
+      {
+       "groupId": "OG001",
+       "value": "295"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The FVC measurement indicates the amount of air a person can forcefully and quickly exhale after taking a deep breath.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Treprostinil for inhalation solution (0.6 mg/mL) delivered via an ultrasonic nebulizer which emits a dose of approximately 6 mcg per breath. Inhaled QID and titrated up to a target of 12 breaths QID or until the subject reaches their maximum clinically tolerated dose.",
+     "id": "OG000",
+     "title": "Inhaled Treprostinil"
+    },
+    {
+     "description": "Matching placebo inhaled using an ultrasonic nebulizer QID",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "Intent-to-Treat (ITT) Population (all participants randomized into the study who received at least 1 dose of the study drug)",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline to Week 52",
+   "title": "Change in Absolute FVC From Baseline to Week 52",
+   "type": "PRIMARY",
+   "unitOfMeasure": "mL"
+  }
+ ]
+}

@@ -1,0 +1,111 @@
+{
+ "nctId": "NCT00704288",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "17.6"
+        },
+        {
+         "groupId": "OG001",
+         "value": "27.0"
+        },
+        {
+         "groupId": "OG002",
+         "value": "8.8"
+        },
+        {
+         "groupId": "OG003",
+         "value": "8.3"
+        },
+        {
+         "groupId": "OG004",
+         "value": "0"
+        },
+        {
+         "groupId": "OG005",
+         "value": "5.6"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "34"
+      },
+      {
+       "groupId": "OG001",
+       "value": "37"
+      },
+      {
+       "groupId": "OG002",
+       "value": "80"
+      },
+      {
+       "groupId": "OG003",
+       "value": "12"
+      },
+      {
+       "groupId": "OG004",
+       "value": "22"
+      },
+      {
+       "groupId": "OG005",
+       "value": "36"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Response and progression were determined per modified MacDonald Criteria and modified RANO criteria for GBM using imaging and clinical features",
+   "groups": [
+    {
+     "description": "Cabozantinib 175 mg (L-malate salt weight; 140 mg freebase equivalent) taken orally once per day (qd)",
+     "id": "OG000",
+     "title": "Treatment Group A1 (175 mg) - Naive"
+    },
+    {
+     "description": "Cabozantinib 125 mg (L-malate salt weight; 100 mg freebase equivalent) taken orally once per day (qd)",
+     "id": "OG001",
+     "title": "Treatment Group B1 (125 mg) - Naive"
+    },
+    {
+     "description": "Cabozantinib 125 mg (L-malate salt weight; 100 mg freebase equivalent) taken orally once per day (qd)",
+     "id": "OG002",
+     "title": "Treatment Group C1 (125 mg) - Naive"
+    },
+    {
+     "description": "Cabozantinib 175 mg (L-malate salt weight; 140 mg freebase equivalent) taken orally once per day (qd)",
+     "id": "OG003",
+     "title": "Treatment Group A2 (175 mg) - Pre-Treated"
+    },
+    {
+     "description": "Cabozantinib 125 mg (L-malate salt weight; 100 mg freebase equivalent) taken orally once per day (qd)",
+     "id": "OG004",
+     "title": "Treatment Group B2 (125 mg) - Pre-Treated"
+    },
+    {
+     "description": "Cabozantinib 125 mg (L-malate salt weight; 100 mg freebase equivalent) taken orally once per day (qd)",
+     "id": "OG005",
+     "title": "Treatment Group C2 (125 mg) - Pre-Treated"
+    }
+   ],
+   "paramType": "NUMBER",
+   "reportingStatus": "POSTED",
+   "timeFrame": "8 weeks until progressive disease",
+   "title": "Objective Response Rate (ORR)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

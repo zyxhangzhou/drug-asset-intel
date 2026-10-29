@@ -1,0 +1,97 @@
+{
+ "nctId": "NCT01445951",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.02",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.36",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "0.086",
+     "groupDescription": "MMRM (mixed model repeated measures) model with auto-regression (1): HbA1c = Baseline HbA1c + region + basal insulin stratum + visit + treatment + (visit\\*treatment)",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityComment": "Non-inferiority with 0.4 margin",
+     "nonInferiorityType": "NON_INFERIORITY_OR_EQUIVALENCE",
+     "paramType": "Mean Difference (Net)",
+     "paramValue": "0.19",
+     "testedNonInferiority": true
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.062",
+         "value": "-0.21"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.061",
+         "value": "-0.29"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "0.060",
+         "value": "-0.40"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "174"
+      },
+      {
+       "groupId": "OG001",
+       "value": "174"
+      },
+      {
+       "groupId": "OG002",
+       "value": "170"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Effect of treatment as measured by change from baseline in glycated hemoglobin (HbA1c). Primary treatment difference is TI-Gen2 vs. Insulin Aspart at Week 24",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Technosphere Insulin delivered via the Gen2 Inhaler plus subcutaneous basal insulin, doses individualized for each patient",
+     "id": "OG000",
+     "title": "Technosphere Insulin-Gen2 + Basal Insulin"
+    },
+    {
+     "description": "Technosphere Insulin delivered via the MedTone C Inhaler plus subcutaneous basal insulin, doses individualized for each patient",
+     "id": "OG001",
+     "title": "Technosphere Insulin-MedTone + Basal Insulin"
+    },
+    {
+     "description": "Subcutaneous insulin aspart plus subcutaneous basal insulin, doses individualized for each patient",
+     "id": "OG002",
+     "title": "Insulin Aspart + Basal Insulin"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Full analysis set",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline to Week 24",
+   "title": "Change From Baseline to Week 24 in HbA1c",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Percent of hemoglobin"
+  }
+ ]
+}

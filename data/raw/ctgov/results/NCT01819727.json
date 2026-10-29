@@ -1,0 +1,60 @@
+{
+ "nctId": "NCT01819727",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "111"
+        },
+        {
+         "groupId": "OG001",
+         "value": "119"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "131"
+      },
+      {
+       "groupId": "OG001",
+       "value": "130"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Hypersensitivity AEs will be identified in two ways:\n\n* Broad Algorithmic anaphylactic reaction Standardized MedDRA Queries (SMQ)\n* Modified Hypersensitivity SMQ to include above additional preferred terms",
+   "groups": [
+    {
+     "description": "Subjects who meet the eligibility criteria will be randomized 1:1 to titrate to one of two dose regimens: 20 or 40 mg/day. Randomization will be stratified by the last available blood Phe concentration prior to Day 1 (600-900 μmol/L and \\> 900 μmol/L). All subjects will initiate IP at a fixed-dose of 2.5 mg/week for 4 weeks (Induction). After the IP, subjects will enter the Titration Period (Weeks 5 up to 34) where they will increase their weekly dose to a daily dose regimen of 20 or 40 mg/day. The Titration Period will be individualized to each subject based on a minimum of 6 weeks (the amount of time it takes to reach a dose regimen of 20 mg/day with no dose interruptions) and up to 30 weeks (accounts for dose reduction or interruption due to AEs). Subjects will stop titration once they have achieved either the 20 or 40 mg/day dose regimen. The majority of subjects will maintain the 20 or 40 mg/day dose regimen for at least an additional 2 weeks until 26 weeks-36 weeks in the study.",
+     "id": "OG000",
+     "title": "BMN 165, 20mg/Day"
+    },
+    {
+     "description": "Subjects who meet the eligibility criteria will be randomized 1:1 to titrate to one of two dose regimens: 20 or 40 mg/day. Randomization will be stratified by the last available blood Phe concentration prior to Day 1 (600-900 μmol/L and \\> 900 μmol/L). All subjects will initiate IP at a fixed-dose of 2.5 mg/week for 4 weeks (Induction). After the IP, subjects will enter the Titration Period (Weeks 5 up to 34) where they will increase their weekly dose to a daily dose regimen of 20 or 40 mg/day. The Titration Period will be individualized to each subject based on a minimum of 6 weeks (the amount of time it takes to reach a dose regimen of 20 mg/day with no dose interruptions) and up to 30 weeks (accounts for dose reduction or interruption due to AEs). Subjects will stop titration once they have achieved either the 20 or 40 mg/day dose regimen. The majority of subjects will maintain the 20 or 40 mg/day dose regimen for at least an additional 2 weeks until 26 weeks-36 weeks in the study.",
+     "id": "OG001",
+     "title": "BMN 165, 40mg/Day"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "The safety population will consist of all subjects who receive any pegvaliase throughout the study duration. The safety population will be analyzed according to the treatment assignment actually received.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "baseline and 36 weeks",
+   "title": "Number of Participants With Hypersensitivity Adverse Reaction",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

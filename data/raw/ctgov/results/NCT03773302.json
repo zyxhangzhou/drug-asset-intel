@@ -1,0 +1,64 @@
+{
+ "nctId": "NCT03773302",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "0.03",
+         "upperLimit": "12.85",
+         "value": "7.39"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "0.03",
+         "upperLimit": "12.88",
+         "value": "8.02"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "12"
+      },
+      {
+       "groupId": "OG001",
+       "value": "7"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Defined as the time from randomization until date of disease progression by blinded independent central imaging assessment (Response Evaluation Criteria in Solid Tumors \\[RECIST\\] v. 1.1) or death, whichever occurs first.",
+   "dispersionType": "Full Range",
+   "groups": [
+    {
+     "description": "Infigratinib (BGJ398) 125 mg orally daily, 3 weeks on, 1 week off.",
+     "id": "OG000",
+     "title": "Infigratinib (BGJ398) 125 mg"
+    },
+    {
+     "description": "Gemcitabine: Gemcitabine 1000 mg/m2 IV D1 and D8 for a 21-day cycle.\n\nCisplatin: Cisplatin 25 mg/m2 IV D1 and D8 for a 21-day cycle.",
+     "id": "OG001",
+     "title": "Gemcitabine + Cisplatin"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "reportingStatus": "POSTED",
+   "timeFrame": "From the time of randomization to end of treatment due to confirmed disease progression or death. Note: PFS is an event driven endpoint. Subjects without confirmed disease progression at the end of study were censored at their last valid tumor assessment.",
+   "title": "Progression-free Survival (Central Imaging Assessment)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Months"
+  }
+ ]
+}

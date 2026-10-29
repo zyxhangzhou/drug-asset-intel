@@ -1,0 +1,147 @@
+{
+ "nctId": "NCT03945292",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-77.18",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-56.45",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "5.107",
+     "groupIds": [
+      "OG000",
+      "OG003"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "< 0.0001",
+     "pValueComment": "From a mixed model with repeated measures, including fixed effects for treatment, week, treatment-by-week interaction, presence of metabolic syndrome, presence of NAFLD or NASH, baseline serum Z-AAT as covariate, and subject as a random effect.",
+     "paramType": "Difference",
+     "paramValue": "-66.81",
+     "statisticalComment": "NAFLD=non-alcoholic fatty liver disease; NSH=non-alcoholic steatohepatitis",
+     "statisticalMethod": "Mixed model repeated measures (MMRM)"
+    },
+    {
+     "ciLowerLimit": "-100.72",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-79.34",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "5.26",
+     "groupIds": [
+      "OG001",
+      "OG003"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "< 0.0001",
+     "pValueComment": "From a mixed model with repeated measures, including fixed effects for treatment, week, treatment-by-week interaction, presence of metabolic syndrome, presence of NAFLD or NASH, baseline serum Z-AAT as covariate, and subject as a random effect.",
+     "paramType": "Difference",
+     "paramValue": "-90.03",
+     "statisticalMethod": "MMRM"
+    },
+    {
+     "ciLowerLimit": "-108.21",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-86.94",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "5.24",
+     "groupIds": [
+      "OG002",
+      "OG003"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "< 0.0001",
+     "pValueComment": "From a mixed model with repeated measures, including fixed effects for treatment, week, treatment-by-week interaction, presence of metabolic syndrome, presence of NAFLD or NASH, baseline serum Z-AAT as covariate, and subject as a random effect.",
+     "paramType": "Difference",
+     "paramValue": "-97.57",
+     "statisticalMethod": "MMRM"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "4.279",
+         "value": "-62.17"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "4.634",
+         "value": "-85.39"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "4.341",
+         "value": "-92.93"
+        },
+        {
+         "groupId": "OG003",
+         "spread": "3.211",
+         "value": "4.64"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "9"
+      },
+      {
+       "groupId": "OG001",
+       "value": "8"
+      },
+      {
+       "groupId": "OG002",
+       "value": "9"
+      },
+      {
+       "groupId": "OG003",
+       "value": "14"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Participants with no fibrosis: Fazirsiran 25 mg administered on Day 1 and Week 4.\n\nParticipants with fibrosis: Fazirsiran 25 mg administered on Day 1, Week 4, and Week 16, then every 12 weeks up to 18 total doses.",
+     "id": "OG000",
+     "title": "Fazirsiran 25 mg"
+    },
+    {
+     "description": "Participants with no fibrosis: Fazirsiran 100 mg administered on Day 1 and Week 4.\n\nParticipants with fibrosis: Fazirsiran 100 mg administered on Day 1, Week 4, and Week 16, then every 12 weeks up to 18 total doses.",
+     "id": "OG001",
+     "title": "Fazirsiran 100 mg"
+    },
+    {
+     "description": "Participants with no fibrosis: Fazirsiran 200 mg administered on Day 1 and Week 4.\n\nParticipants with fibrosis: Fazirsiran 200 mg administered on Day 1, Week 4, and Week 16, then every 12 weeks up to 18 total doses.",
+     "id": "OG002",
+     "title": "Fazirsiran 200 mg"
+    },
+    {
+     "description": "Participants with no fibrosis: Placebo administered on Day 1 and Week 4.\n\nParticipants with fibrosis: Placebo administered on Day 1, Week 4, and Week 16, then every 12 weeks up to 18 total doses.",
+     "id": "OG003",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Full Analysis Set: All randomized participants who received at least one dose of study drug.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Week 16 (+/- 2 weeks)",
+   "title": "Percent Change From Baseline in Serum Z-Alpha-1 Antitrypsin (Z-AAT) at Week 16",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage change"
+  }
+ ]
+}

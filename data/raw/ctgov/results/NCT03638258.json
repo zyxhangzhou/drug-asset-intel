@@ -1,0 +1,97 @@
+{
+ "nctId": "NCT03638258",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityComment": "Missing data imputed using linear interpolation and last observation carried forward (LOCF) where linear interpolation was not computationally possible.",
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<0.001",
+     "statisticalComment": "Logistic regression with a factor of treatment group and a covariate of baseline IGA score.",
+     "statisticalMethod": "Regression, Logistic"
+    },
+    {
+     "groupIds": [
+      "OG001",
+      "OG002"
+     ],
+     "nonInferiorityComment": "Missing data imputed using linear interpolation and LOCF where linear interpolation was not computationally possible.",
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.004",
+     "statisticalComment": "Logistic regression with a factor of treatment group and a covariate of baseline IGA score.",
+     "statisticalMethod": "Regression, Logistic"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "28.0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "22.8"
+        },
+        {
+         "groupId": "OG002",
+         "value": "8.3"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "109"
+      },
+      {
+       "groupId": "OG001",
+       "value": "113"
+      },
+      {
+       "groupId": "OG002",
+       "value": "109"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The percentage of participants with an IGA score of 0 ('clear') or 1 ('almost clear') at Week 6 is reported. The IGA is 5-point scale assessing the severity of plaque psoriasis, with scores ranging from 0 ('clear') to 4 ('severe'), with higher scores indicating greater plaque severity.",
+   "groups": [
+    {
+     "description": "Roflumilast cream 0.3% was topically applied QD for 12 weeks.",
+     "id": "OG000",
+     "title": "Roflumilast Cream 0.3%"
+    },
+    {
+     "description": "Roflumilast cream 0.15% was topically applied QD for 12 weeks.",
+     "id": "OG001",
+     "title": "Roflumilast Cream 0.15%"
+    },
+    {
+     "description": "Vehicle cream matched to roflumilast cream (containing only excipients of ARQ-151 cream) was applied topically QD for 12 weeks.",
+     "id": "OG002",
+     "title": "Vehicle Cream"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "All randomized participants are included.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Week 6",
+   "title": "Percentage of Participants With an Investigator Global Assessment (IGA) Score of 'Clear' or 'Almost Clear' at Week 6",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

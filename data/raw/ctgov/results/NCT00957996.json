@@ -1,0 +1,65 @@
+{
+ "nctId": "NCT00957996",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "-2.32",
+         "upperLimit": "-0.61",
+         "value": "-1.66"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "-1.89",
+         "upperLimit": "-0.75",
+         "value": "-1.47"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "20"
+      },
+      {
+       "groupId": "OG001",
+       "value": "24"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The time-weighted change from baseline in log10 tissue culture infective dose50 (TCID50/mL) was calculated on a by-subject basis through 48 hours using the trapezoidal rule with all available data minus the baseline value. Ninety-five percent confidence intervals about the median time-weighted change from baseline were presented for each treatment group.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "300 mg twice daily\n\nPeramivir: 300 mg twice daily",
+     "id": "OG000",
+     "title": "Peramivir 300 mg"
+    },
+    {
+     "description": "600 mg once daily\n\nPeramivir: 600 mg once daily",
+     "id": "OG001",
+     "title": "Peramivir 600 mg"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "The Intent-to-Treat Infected (ITTI) population included all randomized subjects who received at least 1 dose/infusion of study drug, and had confirmed influenza A or B by culture, PCR, or serology. Overall, 83 subjects were excluded due to negative Baseline titers (log10 TCID50 0.5).",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline and 48 hours",
+   "title": "Change From Baseline in Influenza Virus Titer (48 Hours)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "log10 TCID50/mL"
+  }
+ ]
+}

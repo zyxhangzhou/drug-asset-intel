@@ -1,0 +1,84 @@
+{
+ "nctId": "NCT02160782",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-232.38",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-2.18",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "52.828",
+     "groupDescription": "The difference between treatment groups in change from Week 18 to Week 22 in fasting sBA levels was evaluated using an analysis of covariance (ANCOVA) model with treatment group as a factor, and Week 18 sBA as a covariate. The analysis used a tabulation of fitted summary statistics from ANCOVA in the MITT population, which included all participants who were enrolled, received study drug through Week 18, and had a reduction from baseline in sBA of ≥50% at the Week 12 or Week 18 measurement.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityComment": "The P-value for testing if the treatment group least squares (LS) means were equal was calculated to determine if the change in sBA levels between the treatment groups was statistically significant.",
+     "nonInferiorityType": "EQUIVALENCE",
+     "pValue": "0.0464",
+     "paramType": "Mean Difference (Net)",
+     "paramValue": "-117.28",
+     "statisticalMethod": "ANCOVA"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "43.125",
+         "value": "-21.73"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "30.488",
+         "value": "95.55"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "5"
+      },
+      {
+       "groupId": "OG001",
+       "value": "10"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The primary efficacy endpoint of this study was the mean change from Week 18 to Week 22 (the RWD period) of fasting sBA levels in participants who had a reduction in sBA ≥50% from baseline to Week 12 or Week 18 (Modified Intent-to-Treat \\[MITT\\] Population). Five participants in the MRX group and 10 participants in the placebo group met the prespecified sBA reduction criteria.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Participants continued to receive MRX at 400 μg/kg QD during the RWD period",
+     "id": "OG000",
+     "title": "Randomized Withdrawal Period: MRX"
+    },
+    {
+     "description": "Participants received a corresponding placebo during the RWD period",
+     "id": "OG001",
+     "title": "Randomized Withdrawal Period: Placebo"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Primary outcome used the (Modified Intent-to-Treat \\[MITT\\]Population. The MITT population is defined as participants who had a reduction in sBA ≥50% from baseline to Week 12 or Week 18. Five participants in the MRX group and 10 participants in the placebo group met the prespecified sBA reduction criteria.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Week 18 to Week 22",
+   "title": "Change From Week 18 to Week 22 in Fasting sBA Levels in Participants Who Had a Reduction in sBA ≥50% From Baseline to Week 12 or Week 18",
+   "type": "PRIMARY",
+   "unitOfMeasure": "μmol/L"
+  }
+ ]
+}

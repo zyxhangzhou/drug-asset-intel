@@ -1,0 +1,83 @@
+{
+ "nctId": "NCT06173531",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-1.8",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "2.4",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "1.08",
+     "estimateComment": "Estimated using a mixed-effects model for repeated measures (MMRM) based on the Full Analysis Set; missing data handled under a missing at random assumption.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.7889",
+     "paramType": "LSM difference",
+     "paramValue": "0.3",
+     "statisticalMethod": "Mixed-effects model for repeated measure"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.78",
+         "value": "-4.8"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.75",
+         "value": "-5.1"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "83"
+      },
+      {
+       "groupId": "OG001",
+       "value": "88"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The HQ-CT is a caregiver-reported, 9-item assessment of observable hyperphagia-related behaviors in participants with PWS. The questionnaire is administered to the caregiver by a trained rater using standardized prompts, and the same caregiver is expected to complete the assessment throughout the study whenever possible. Each item is scored from 0 to 4, resulting in a total score ranging from 0 to 36, with higher scores indicating greater severity of hyperphagia. A decrease from baseline reflects improvement, and a reduction of 7.7 points has been identified as a clinically meaningful within-participant improvement.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Carbetocin nasal spray 3.2 mg administered intranasally three times daily (TID). Each dose consisted of four sprays (two per nostril) of study drug during the 12-week double-blind treatment period.",
+     "id": "OG000",
+     "title": "Carbetocin"
+    },
+    {
+     "description": "Matching placebo nasal spray administered intranasally three times daily (TID). Each dose consisted of four sprays (two per nostril) during the 12-week double-blind treatment period.",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Efficacy outcomes were analyzed in the Full Analysis Set (FAS), defined as all randomized participants with PWS who received at least one dose of study drug and had a Baseline HQ-CT assessment.\n\nAnalyses are presented for enrolled participants with PWS only. Caregivers completed assessments as informants regarding the participant with PWS but were not enrolled study participants, were not randomized, did not receive study treatment, and were not included in the analysis population.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline to Week 12",
+   "title": "Change From Baseline at Week 12 in Hyperphagia Questionnaire for Clinical Trials (HQ-CT) Score",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Score on a scale"
+  }
+ ]
+}

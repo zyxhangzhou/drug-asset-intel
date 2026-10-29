@@ -1,0 +1,60 @@
+{
+ "nctId": "NCT00473824",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "5"
+      },
+      {
+       "groupId": "OG001",
+       "value": "2"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Percentage of subjects who achieve reduction in viral load from the baseline pre-transplant value. Baseline is the pre-transplant HCV viral load as measeured by RT-PCR. Post-transplant HCV viral load is determined at both 1 month and 6 months post-tranplant.",
+   "groups": [
+    {
+     "description": "Subjects received Hepatitis C Immune Globulin Intravenous (Human) 5% \\[Civacir\\], 18 infusions total, per schedule, of Civacir 300 or 400 mg/kg of body weight, in addition to their standard site specific routine post-tranplant immunosuppressant therapy.",
+     "id": "OG000",
+     "title": "Civacir Treatment Arm"
+    },
+    {
+     "description": "Observation on standard site specific routine post-tranplant immunosuppressant therapy without infusions of Hepatitis C Immune Globulin Intravenous (Human) 5%. Standard post-tranplant therapy includes immunosuppressive agents.",
+     "id": "OG001",
+     "title": "No Civacir (Control)"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "As the study was terminated early and since no participant in either arm achieved reduction in viral load, it was recorded that zero particpants and zero percent in each arm achieved reduction in viral load.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Outcome evaluations at 1 month (Day 28) and 6 months ( 24 weeks) post-tranplant.",
+   "title": "Post Transplant Reduction in Viral Load (as Measured Quantitatively by Hepatitis C Virus (HCV) Reverse Transcription-Polymerase Chain Reaction (HCV RT-PCR)).",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

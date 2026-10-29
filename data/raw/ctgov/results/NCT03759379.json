@@ -1,0 +1,85 @@
+{
+ "nctId": "NCT03759379",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-21.78",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-12.22",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "2.44",
+     "groupDescription": "Multiple imputation estimates and p-value derived per combining least squares (LS) estimates per Rubin's rules based on 100 datasets where missing Month 9 values were imputed using a regression procedure including select baseline variables. LS estimates derived from analysis of covariance model, controlling for categorical factors (treatment, genotype, age of disease onset) and continuous covariate (baseline value).",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityComment": "H0: No difference between vutrisiran and external placebo comparator (APOLLO): difference (vutrisiran - placebo) = 0",
+     "nonInferiorityType": "EQUIVALENCE",
+     "pValue": "<0.0000001",
+     "pValueComment": "P=3.542E-12",
+     "paramType": "LS Mean Difference",
+     "paramValue": "-17.00",
+     "statisticalMethod": "ANCOVA with Multiple Imputation"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "2.00",
+         "value": "14.76"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "1.43",
+         "value": "-2.24"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "77"
+      },
+      {
+       "groupId": "OG001",
+       "value": "122"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The mNIS+7 is a composite score that measures neurologic impairment which includes the following components: physical exam of lower limbs, upper limbs and cranial nerves to assess motor strength/weakness, electrophysiologic measurement of small and large nerve fiber function, sensory testing and postural blood pressure. The mNIS+7 is scored from 0 (no impairment) to 304 points (maximum impairment). A higher score indicates a worse outcome.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Participants in the APOLLO study (NCT01960348) who received at least 1 dose of placebo.",
+     "id": "OG000",
+     "title": "External Placebo Comparator (APOLLO)"
+    },
+    {
+     "description": "Participants will receive vutrisiran 25 mg subcutaneous (SC) injection once every 3 months (q3M) for 18 months during the Treatment Period followed by vutrisiran SC injection during the Randomized Treatment Extension (RTE) Period.",
+     "id": "OG001",
+     "title": "Vutrisiran + Vutrisiran (HELIOS-A)"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Modified Intent-to-Treat (mITT) Population: All randomized participants who received any amount of study drug. Participants were analyzed according to the treatment to which they were randomized.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Month 9",
+   "title": "Change From Baseline in the Modified Neurologic Impairment Score +7 (mNIS+7) at Month 9 Between the Vutrisiran Group (HELIOS-A) and the External Placebo Comparator Group [APOLLO (NCT01960348)]",
+   "type": "PRIMARY",
+   "unitOfMeasure": "score on a scale"
+  }
+ ]
+}

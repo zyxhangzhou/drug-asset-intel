@@ -1,0 +1,125 @@
+{
+ "nctId": "NCT02426086",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "0",
+         "upperLimit": "7.4",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "3.8",
+         "upperLimit": "20.8",
+         "value": "10.2"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "48"
+      },
+      {
+       "groupId": "OG001",
+       "value": "59"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Spleen response rate is defined as the percentage of participants who achieved ≥ 35% reduction in spleen volume at Week 24 from baseline performed by the IRC using magnetic resonance imaging (MRI).",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants received imetelstat 4.7 mg/kg of body weight as intravenous infusion on Day 1 of each 21-day cycle until disease progression, unacceptable toxicity, or study end. After the first interim analysis, treatment for all participants was unblinded and participants assigned to the imetelstat 4.7 mg/kg arm could continue with their same imetelstat dose or have it increased to 9.4 mg/kg at the investigator's discretion. After the end of main study, participants who were receiving benefit from study treatment opted to continue to receive imetelstat during the Extension Phase until there is loss of benefit or unacceptable toxicity. (Maximum duration on study was approximately 2.3 years and Maximum duration on extension phase was approximately 1.8 years).",
+     "id": "OG000",
+     "title": "Imetelstat 4.7 mg/kg"
+    },
+    {
+     "description": "Participants received imetelstat 9.4 mg/kg of body weight as intravenous infusion on Day 1 of each 21-day cycle until disease progression, unacceptable toxicity, or study end. After the end of the main study, participants who were receiving benefit from study treatment opted to continue to receive imetelstat during the Extension Phase until there is loss of benefit or unacceptable toxicity. (Maximum duration on study was approximately 2.3 years and Maximum duration on extension phase was approximately 1.8 years).",
+     "id": "OG001",
+     "title": "Imetelstat 9.4 mg/kg"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Treated analysis set included all participants who received at least 1 dose of study drug.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Week 24",
+   "title": "Percentage of Participants With Spleen Response",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "1.3",
+         "upperLimit": "17.2",
+         "value": "6.3"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "20.6",
+         "upperLimit": "45.6",
+         "value": "32.2"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "48"
+      },
+      {
+       "groupId": "OG001",
+       "value": "59"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Symptom response rate is defined as percentage of participants who achieved ≥ 50% reduction in total symptom score (TSS) at Week 24 from baseline as measured by the modified Myelofibrosis Symptom Assessment Form (MFSAF) version 2.0 diary. The MFSAF assessed following symptoms due to Myelofibrosis (MF): night sweats, itchiness, abdominal discomfort, pain under ribs on left side, feeling of fullness, bone or muscle pain and degree of inactivity. Each item is scored on a scale of 0 (absent) to 10 (worst imaginable) with higher scores indicating more severe symptoms and greater inactivity. The total score ranges from 0-70, where 0 indicates absent/as good as it can be and 70 indicates worst imaginable/as bad as it can be.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants received imetelstat 4.7 mg/kg of body weight as intravenous infusion on Day 1 of each 21-day cycle until disease progression, unacceptable toxicity, or study end. After the first interim analysis, treatment for all participants was unblinded and participants assigned to the imetelstat 4.7 mg/kg arm could continue with their same imetelstat dose or have it increased to 9.4 mg/kg at the investigator's discretion. After the end of main study, participants who were receiving benefit from study treatment opted to continue to receive imetelstat during the Extension Phase until there is loss of benefit or unacceptable toxicity. (Maximum duration on study was approximately 2.3 years and Maximum duration on extension phase was approximately 1.8 years).",
+     "id": "OG000",
+     "title": "Imetelstat 4.7 mg/kg"
+    },
+    {
+     "description": "Participants received imetelstat 9.4 mg/kg of body weight as intravenous infusion on Day 1 of each 21-day cycle until disease progression, unacceptable toxicity, or study end. After the end of the main study, participants who were receiving benefit from study treatment opted to continue to receive imetelstat during the Extension Phase until there is loss of benefit or unacceptable toxicity. (Maximum duration on study was approximately 2.3 years and Maximum duration on extension phase was approximately 1.8 years).",
+     "id": "OG001",
+     "title": "Imetelstat 9.4 mg/kg"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Treated analysis set included all participants who received at least 1 dose of study drug.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Week 24",
+   "title": "Percentage of Participants With Symptom Response",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

@@ -1,0 +1,356 @@
+{
+ "nctId": "NCT02004028",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "comment": "True baseline sample were not available so post-treatment samples were compared with post-study surgical specimens which was not an accurate baseline measure.",
+         "groupId": "OG000",
+         "lowerLimit": "NA",
+         "upperLimit": "NA",
+         "value": "NA"
+        },
+        {
+         "comment": "True baseline sample were not available so post-treatment samples were compared with post-study surgical specimens which was not an accurate baseline measure.",
+         "groupId": "OG001",
+         "lowerLimit": "NA",
+         "upperLimit": "NA",
+         "value": "NA"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "-12.57",
+         "upperLimit": "100",
+         "value": "85.6"
+        },
+        {
+         "comment": "Inhibition of tumor FAK was not included in Cohort 4, as per the protocol.",
+         "groupId": "OG003",
+         "lowerLimit": "NA",
+         "upperLimit": "NA",
+         "value": "NA"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "10"
+      },
+      {
+       "groupId": "OG001",
+       "value": "10"
+      },
+      {
+       "groupId": "OG002",
+       "value": "10"
+      },
+      {
+       "groupId": "OG003",
+       "value": "5"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "percentage VS-6063 (defactinib)",
+   "dispersionType": "Full Range",
+   "groups": [
+    {
+     "description": "Defactinib 400 mg BID for 12 Days",
+     "id": "OG000",
+     "title": "Cohort 1"
+    },
+    {
+     "description": "Defactinib 400 mg BID for 35 Days",
+     "id": "OG001",
+     "title": "Cohort 2"
+    },
+    {
+     "description": "Defactinib 400 mg BID for 21 Days",
+     "id": "OG002",
+     "title": "Cohort 3"
+    },
+    {
+     "description": "Defactinib 100 mg BID for 21 Days",
+     "id": "OG003",
+     "title": "Cohort 4"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Cohort 1, From Baseline to Day 12; Cohort 2, From Baseline to Day 35; Cohorts 3, From Baseline to Day 21; Cohorts 3, From Baseline to day 21 day.",
+   "title": "Percentage of pFAK Inhibition in Tumor Tissue",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of pFAK inhibition in a tumor"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "126",
+         "value": "1052"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "126",
+         "value": "1052"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "180",
+         "value": "513"
+        },
+        {
+         "groupId": "OG003",
+         "spread": "76",
+         "value": "517"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "10"
+      },
+      {
+       "groupId": "OG001",
+       "value": "9"
+      },
+      {
+       "groupId": "OG002",
+       "value": "9"
+      },
+      {
+       "groupId": "OG003",
+       "value": "5"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Maximum observed plasma concentration",
+   "dispersionType": "Geometric Coefficient of Variation",
+   "groups": [
+    {
+     "description": "Cohort 1: Defactinib 400 mg BID for 12 days",
+     "id": "OG000",
+     "title": "Cohort 1"
+    },
+    {
+     "description": "Cohort 2: Defactinib 400 mg BID for 35 days",
+     "id": "OG001",
+     "title": "Cohort 2"
+    },
+    {
+     "description": "Defactinib 400 mg for 21 days",
+     "id": "OG002",
+     "title": "Cohort 3 (Fed)"
+    },
+    {
+     "description": "Defactinib 100 mg BID for 21 days",
+     "id": "OG003",
+     "title": "Cohort 4 (Fasted)"
+    }
+   ],
+   "paramType": "GEOMETRIC_MEAN",
+   "reportingStatus": "POSTED",
+   "timeFrame": "0-24 hours",
+   "title": "Evaluate the Pharmacokinetics of VS-6063 (Defactinib), CMax",
+   "type": "PRIMARY",
+   "unitOfMeasure": "ng/mL"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "136",
+         "value": "5280"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "136",
+         "value": "5280"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "198",
+         "value": "2753"
+        },
+        {
+         "groupId": "OG003",
+         "spread": "69",
+         "value": "1891"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "10"
+      },
+      {
+       "groupId": "OG001",
+       "value": "9"
+      },
+      {
+       "groupId": "OG002",
+       "value": "9"
+      },
+      {
+       "groupId": "OG003",
+       "value": "5"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Area under plasma Concentration (AUC) 0 to t",
+   "dispersionType": "Geometric Coefficient of Variation",
+   "groups": [
+    {
+     "description": "Defactinib 400 mg BID for 12 days",
+     "id": "OG000",
+     "title": "Cohort 1"
+    },
+    {
+     "description": "Defactinib 400 mg BID for 35 days",
+     "id": "OG001",
+     "title": "Cohort 2 (Fasted)"
+    },
+    {
+     "description": "Defactinib 400 mg for 21 days",
+     "id": "OG002",
+     "title": "Cohort 3 (Fed)"
+    },
+    {
+     "description": "Defactinib 100 mg BID for 21 days",
+     "id": "OG003",
+     "title": "Cohort 4 (Fasted)"
+    }
+   ],
+   "paramType": "GEOMETRIC_MEAN",
+   "reportingStatus": "POSTED",
+   "timeFrame": "0-8 hours",
+   "title": "Evaluate the Pharmacokinetics of VS-6063 (Defactinib), AUC (Area Under the Curve)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "ng*h/mL"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "1",
+         "upperLimit": "4",
+         "value": "1"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "1",
+         "upperLimit": "4",
+         "value": "1"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "2",
+         "upperLimit": "8",
+         "value": "4"
+        },
+        {
+         "groupId": "OG003",
+         "lowerLimit": "1",
+         "upperLimit": "2",
+         "value": "1"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "10"
+      },
+      {
+       "groupId": "OG001",
+       "value": "9"
+      },
+      {
+       "groupId": "OG002",
+       "value": "9"
+      },
+      {
+       "groupId": "OG003",
+       "value": "5"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Time to Maximum concentration (Tmax)",
+   "dispersionType": "Full Range",
+   "groups": [
+    {
+     "description": "Cohort 1: Defactinib 400 mg BID for 12 days Cohort 2: Defactinib 400 mg BID for 35 days",
+     "id": "OG000",
+     "title": "Cohort 1"
+    },
+    {
+     "description": "Defactinib 400 mg BID for 35 days",
+     "id": "OG001",
+     "title": "Cohort 2"
+    },
+    {
+     "description": "Defactinib 400 mg for 21 days",
+     "id": "OG002",
+     "title": "Cohort 3 (Fed)"
+    },
+    {
+     "description": "Defactinib 100 mg BID for 21 days",
+     "id": "OG003",
+     "title": "Cohort 4 (Fasted)"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "reportingStatus": "POSTED",
+   "timeFrame": "0-24 hours",
+   "title": "Evaluate the Pharmacokinetics of VS-6063 (Defactinib), Median Tmax (h)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "hour"
+  }
+ ]
+}

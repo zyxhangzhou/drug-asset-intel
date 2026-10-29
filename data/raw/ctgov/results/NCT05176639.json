@@ -1,0 +1,78 @@
+{
+ "nctId": "NCT05176639",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "51.97",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "77.51",
+     "groupDescription": "The PRR was analyzed using a logistic regression model adjusted for repeated measurements.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "OTHER",
+     "pValue": "<0.0001",
+     "paramType": "Risk Difference (RD)",
+     "paramValue": "64.74",
+     "statisticalMethod": "Regression, Logistic"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "70.00"
+        },
+        {
+         "groupId": "OG001",
+         "value": "5.26"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "75"
+      },
+      {
+       "groupId": "OG001",
+       "value": "38"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Proptosis responder in the study eye was defined as a reduction of proptosis of ≥2 millimeters (mm) from baseline in the study eye (without a corresponding increase of ≥2 mm in the fellow eye) as measured by exophthalmometer. Missing data were imputed with the Multiple Imputation method.",
+   "groups": [
+    {
+     "description": "Participants received veligrotug 10 mg/kg as an IV infusion Q3W for 12 weeks.",
+     "id": "OG000",
+     "title": "Veligrotug"
+    },
+    {
+     "description": "Participants received placebo matched to veligrotug as an IV infusion Q3W for 12 weeks.",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "mITT population included all randomized participants who received at least 1 dose of study drug. As prespecified, data were collected and reported for the participants. Therefore, the 'Ns' reported below = number of participants analyzed regardless of which eye was evaluated.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline to Week 15",
+   "title": "Proptosis Responder Rate (PRR) in the Study Eye As Measured by Exophthalmometer",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

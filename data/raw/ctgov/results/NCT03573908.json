@@ -1,0 +1,82 @@
+{
+ "nctId": "NCT03573908",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-0.998",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-0.433",
+     "estimateComment": "Least squares (LS) mean difference (linaclotide - placebo)",
+     "groupDescription": "The overall family-wise Type I error rate for the primary and secondary outcome measures were controlled at the α=0.05 level by employing a fixed-sequence testing procedure. Outcome measures were tested using 10 hypotheses, each comparing linaclotide versus placebo, in the sequence of presentation of statistical analyses in this record. If the hypothesis comparing the 2 groups was statistically significant (α=0.05), then the next hypothesis was to be tested; otherwise, testing would stop.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "< 0.0001",
+     "paramType": "Least squares (LS) mean difference",
+     "paramValue": "-0.715",
+     "statisticalMethod": "MMRM"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.109",
+         "value": "-1.182"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.111",
+         "value": "-1.898"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "306"
+      },
+      {
+       "groupId": "OG001",
+       "value": "306"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "A participant's daily abdominal score was calculated as the average of daily e-diary abdominal pain, abdominal bloating and abdominal discomfort scores, each based on an 11-point scale of 0 (none) and 10 (worst possible). Baseline abdominal score was derived from the eDiary data collected daily in the Pretreatment Period, specifically the period of time from 14 days before randomization up to the time of randomization. The participant's abdominal score was averaged on a weekly basis, and each weekly change from baseline was calculated for the treatment period and used as the dependent variable in the mixed model with repeated measures (MMRM) model. MMRM results are based on a model with treatment, analysis week, region and treatment-by-week interaction as fixed effects and baseline as a covariate. An unstructured covariance structure was used to model intra-subject correlation with subjects as a random effect.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Participants randomized to receive placebo to linaclotide orally once daily for 12 weeks during the Treatment Period.",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Participants randomized to receive linaclotide 290 µg orally once daily for 12 weeks during the Treatment Period.",
+     "id": "OG001",
+     "title": "Linaclotide 290 µg"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Intent to Treat Population: all randomized participants. Two participants were excluded from the analysis due to missing scores.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline (14 days before randomization up to the time of randomization), Treatment Period (Weeks 1-12)",
+   "title": "Overall Change From Baseline in Abdominal Score (Abdominal Bloating, Abdominal Discomfort, and Abdominal Pain) Throughout the Treatment Period",
+   "type": "PRIMARY",
+   "unitOfMeasure": "score on a scale"
+  }
+ ]
+}

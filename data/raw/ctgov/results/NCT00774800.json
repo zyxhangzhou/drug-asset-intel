@@ -1,0 +1,121 @@
+{
+ "nctId": "NCT00774800",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "groupDescription": "Due to the exploratory nature of this study, the sample size is not based on a formal calculation.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+     "pValue": "0.0011",
+     "pValueComment": "Statistical testing was considered exploratory, with no adjustment for inflation of Type 1 error due to multiplicity of testing.",
+     "paramType": "Geometric Least Squares Means Ratio",
+     "paramValue": "1.54",
+     "statisticalMethod": "ANOVA"
+    },
+    {
+     "groupDescription": "Due to the exploratory nature of this study, the sample size is not based on a formal calculation.",
+     "groupIds": [
+      "OG002",
+      "OG003"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+     "pValue": "<0.0001",
+     "pValueComment": "Statistical testing was considered exploratory, with no adjustment for inflation of Type 1 error due to multiplicity of testing.",
+     "paramType": "Geometric Least Squares Means Ratio",
+     "paramValue": "3.06",
+     "statisticalMethod": "ANOVA"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "10.98",
+         "spread": "4996.79",
+         "upperLimit": "24.78",
+         "value": "12346.67"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "3670.03",
+         "value": "8297.62"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "6770.61",
+         "value": "11607.65"
+        },
+        {
+         "groupId": "OG003",
+         "spread": "3068.10",
+         "value": "4331.76"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "21"
+      },
+      {
+       "groupId": "OG001",
+       "value": "21"
+      },
+      {
+       "groupId": "OG002",
+       "value": "17"
+      },
+      {
+       "groupId": "OG003",
+       "value": "17"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "AUC was derived as the area under the serum insulin concentration profile from 0 to time \"t.\" Samples were taken 30, 20, and 10 minutes (mins) prior to treatment; every 3 mins from mins 0 through 15; and at 20, 30, 45, and 60 mins postdose.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Humalog + recombinant human hyaluronidase PH20 (rHuPH20) was delivered for up to 3 dose-finding visits (each visit was separated by 3-10 days) until an appropriate dose of Humalog was identified. For each dose-finding visit, a total of 24 units (U) of rHuPH20 was injected subcutaneously per unit of Humalog, corresponding to a mass concentration of 18.2 micrograms per milliliter (μg/mL) rHuPH20 (at final concentration of 91 U/mL of Humalog).",
+     "id": "OG000",
+     "title": "Humalog + rHuPH20"
+    },
+    {
+     "description": "After a 3-10 day washout, a single subcutaneous injection of the appropriate identified dose of Humalog was delivered before a liquid meal.",
+     "id": "OG001",
+     "title": "Humalog Alone"
+    },
+    {
+     "description": "After a 3-10 day washout, Humulin-R + recombinant human hyaluronidase PH20 (rHuPH20) was delivered for up to 2 dose-finding visits (both visits were separated by 3-10 days) until an appropriate dose of Humulin-R was identified. For each dose-finding visit, a total of 24 units (U) of rHuPH20 was injected subcutaneously per unit of Humulin-R, corresponding to a mass concentration of 20.0 micrograms per milliliter (μg/mL) rHuPH20 (at final concentration of 100 U/mL of Humulin-R).",
+     "id": "OG002",
+     "title": "Humulin-R + rHuPH20"
+    },
+    {
+     "description": "After a 3-10 day washout, a single subcutaneous injection of the appropriate identified dose of Humulin-R was delivered before a liquid meal.",
+     "id": "OG003",
+     "title": "Humulin-R Alone"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Participants who received at least one dose of Humalog alone, Humalog + rHuPH20, Humulin-R + rHuPH20, or Humulin-R alone with evaluable AUC0-60 data.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Predose up to 60 minutes postdose",
+   "title": "Area Under the Insulin Concentration-time Curve for the First Hour (AUC0-60)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "nanomole*minute per liter (nmol*min/L)"
+  }
+ ]
+}

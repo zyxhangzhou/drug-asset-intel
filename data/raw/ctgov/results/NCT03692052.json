@@ -1,0 +1,61 @@
+{
+ "nctId": "NCT03692052",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "groupIds": [
+      "OG000"
+     ],
+     "nonInferiorityType": "OTHER",
+     "pValue": "<.0001",
+     "statisticalComment": "Significance of p-value associated with the test of H0:Hb response rate =0.3 vs H1:Hb response rate \\> 0.3.",
+     "statisticalMethod": "Clopper-Pearson Method"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "59.90",
+         "upperLimit": "92.86",
+         "value": "80.0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "20"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "HR was defined as a ≥1.0 gram per deciliter (g/dL) increase in Hb concentration from Baseline at 1 or more assessments between Week 4 and Week 12 (inclusive). A participant's Baseline Hb concentration was defined as the average of all the participant's available Hb concentrations during the screening period up to the first dose of study drug.",
+   "dispersionType": "90% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants with alpha or beta thalassemia received AG-348 50 mg BID, orally up to Week 6. Following Week 6, depending on the participants' safety and Hb concentrations, they could undergo one potential dose-level increase from 50 to 100 mg BID. After completion of the Core Period of 24 weeks, participants were eligible to continue to receive AG-348 in the Extension Period which is up to 10 years.",
+     "id": "OG000",
+     "title": "AG-348"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "FAS included all participants who received at least 1 dose of study treatment.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to 12 weeks",
+   "title": "Percentage of Participants Achieving a Hemoglobin Response (HR)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

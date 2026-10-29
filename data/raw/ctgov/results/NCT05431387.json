@@ -1,0 +1,113 @@
+{
+ "nctId": "NCT05431387",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "1.062",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "7.098",
+     "estimateComment": "Common odds ratio",
+     "groupDescription": "Abstinence from Week 9 to 12",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0350",
+     "pValueComment": "Two-sided, calculated by exact computations with whether subjects had smoked \\>100 cigarettes in their lifetime (yes, no) as stratification.",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "2.64",
+     "statisticalMethod": "Exact computations"
+    },
+    {
+     "ciLowerLimit": "1.133",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "6.491",
+     "estimateComment": "Marginal (unadjusted) odds ratio",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0348",
+     "pValueComment": "Derived from marginal odds ratio.",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "2.62",
+     "statisticalMethod": "Exact computations"
+    },
+    {
+     "ciLowerLimit": "0.012",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.284",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0120",
+     "pValueComment": "p-value for difference in proportions",
+     "paramType": "Difference in proportions",
+     "paramValue": "0.17",
+     "statisticalMethod": "Cochran-Mantel-Haenszel"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "15.1"
+        },
+        {
+         "groupId": "OG001",
+         "value": "31.8"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "53"
+      },
+      {
+       "groupId": "OG001",
+       "value": "107"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Vaping abstinence verified weekly using quantitative saliva cotinine levels at \\< 10 ng/mL for biochemical verification and participants' self-report of no vaping.",
+   "groups": [
+    {
+     "description": "one placebo tablet PO TID plus behavioral support for 12 weeks",
+     "id": "OG000",
+     "title": "Placebo + Behavioral Support"
+    },
+    {
+     "description": "one cytisinicline tablet PO TID plus behavioral support for 12 weeks",
+     "id": "OG001",
+     "title": "Cytisinicline + Behavioral Support"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "All randomized participants",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Weeks 9 to 12",
+   "title": "Percentage of Participants With Vaping Abstinence From Week 9 to 12",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

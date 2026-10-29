@@ -1,0 +1,159 @@
+{
+ "nctId": "NCT03755791",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.44",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "99",
+     "ciUpperLimit": "0.91",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "OTHER",
+     "pValue": "0.0012",
+     "paramType": "Hazard Ratio (HR)",
+     "paramValue": "0.63",
+     "statisticalMethod": "Log Rank"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "5.55",
+         "upperLimit": "8.34",
+         "value": "6.80"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "2.79",
+         "upperLimit": "7.03",
+         "value": "4.21"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "250"
+      },
+      {
+       "groupId": "OG001",
+       "value": "122"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "PFS was defined as the time from randomization to the earlier of either the date of radiographic progression defined as a 20% increase in the sum of the longest diameters of target lesions, or the unequivocal appearance of new lesions, or progression of non-target disease per Blinded Independent Radiology Committee (BIRC) or the date of death due to any cause per Response Evaluation Criteria in Solid Tumors (RECIST) version 1.1.",
+   "dispersionType": "99% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants received 40 mg cabozantinib oral tablets once daily + 1200 mg IV infusion of atezolizumab once every 3 weeks for up to 38 months.",
+     "id": "OG000",
+     "title": "Experimental Arm: Cabozantinib + Atezolizumab"
+    },
+    {
+     "description": "Participants received 400 mg sorafenib oral tablets twice daily for up to 38 months.",
+     "id": "OG001",
+     "title": "Control Arm: Sorafenib"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "PITT population included the first 372 participants randomized to the experimental (cabozantinib + atezolizumab) arm and control (sorafenib) arm.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "From the date of first participant randomization up to 28 months",
+   "title": "Progression Free Survival (PFS) for the Experimental Arm Versus the Control Arm in the PFS Intent to Treat (PITT) Population",
+   "type": "PRIMARY",
+   "unitOfMeasure": "months"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.78",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "96",
+     "ciUpperLimit": "1.24",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "OTHER",
+     "pValue": "0.9056",
+     "paramType": "Hazard Ratio (HR)",
+     "paramValue": "0.99",
+     "statisticalMethod": "Log Rank"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "14.46",
+         "upperLimit": "18.56",
+         "value": "16.46"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "12.19",
+         "upperLimit": "19.98",
+         "value": "15.51"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "432"
+      },
+      {
+       "groupId": "OG001",
+       "value": "217"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "OS was defined as the time from randomization to death due to any cause.",
+   "dispersionType": "96% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants received 40 mg cabozantinib oral tablets once daily + 1200 mg IV infusion of atezolizumab once every 3 weeks for up to 38 months.",
+     "id": "OG000",
+     "title": "Experimental Arm: Cabozantinib + Atezolizumab"
+    },
+    {
+     "description": "Participants received 400 mg sorafenib oral tablets twice daily for up to 38 months.",
+     "id": "OG001",
+     "title": "Control Arm: Sorafenib"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "ITT population included all participants randomized to the experimental (cabozantinib + atezolizumab) arm and control (sorafenib) arm.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "From the date of first participant randomization up to 36 months",
+   "title": "Overall Survival (OS) for the Experimental Arm Versus the Control Arm in the ITT Population",
+   "type": "PRIMARY",
+   "unitOfMeasure": "months"
+  }
+ ]
+}

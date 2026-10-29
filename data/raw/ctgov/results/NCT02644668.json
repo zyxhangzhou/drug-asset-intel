@@ -1,0 +1,1143 @@
+{
+ "nctId": "NCT02644668",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-0.13",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.11",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "0.060",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.9086",
+     "paramType": "Least squares mean difference",
+     "paramValue": "-0.01",
+     "statisticalMethod": "Mixed Models Analysis"
+    },
+    {
+     "ciLowerLimit": "-0.18",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.08",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "0.065",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.4361",
+     "paramType": "Least squares mean difference",
+     "paramValue": "-0.05",
+     "statisticalMethod": "Mixed Models Analysis"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.042",
+         "value": "-0.02"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.043",
+         "value": "-0.03"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "0.050",
+         "value": "-0.07"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "25"
+      },
+      {
+       "groupId": "OG001",
+       "value": "24"
+      },
+      {
+       "groupId": "OG002",
+       "value": "18"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "FVC was measured using a calibrated spirometer (in units of liters). Patients were instructed to take as deep an inspiration as possible followed by a maximum exhalation (blowing out all the air in their lungs).",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Patients randomized to this treatment arm received a placebo suspension twice daily for 8 weeks.",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Patient randomized to this treatment arm received reldesemtiv suspension at a dose of 150 mg, twice daily for 8 weeks.",
+     "id": "OG001",
+     "title": "Reldesemtiv 150 mg Twice Daily"
+    },
+    {
+     "description": "Patients randomized to this treatment arm received reldesemtiv suspension at a dose of 450 mg, twice daily for 8 weeks.",
+     "id": "OG002",
+     "title": "Reldesemtiv 450 mg Twice Daily"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "The analysis population includes patients who received at least 1 dose of reldesemtiv and had results from the relevant outcome measure at Week 8.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "baseline and 8 weeks",
+   "title": "Change From Baseline to Week 8 in Forced Vital Capacity (FVC)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "liters"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-12.43",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "6.55",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "4.749",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.5382",
+     "paramType": "Least squares mean difference",
+     "paramValue": "-2.94",
+     "statisticalMethod": "Mixed Models Analysis"
+    },
+    {
+     "ciLowerLimit": "-9.19",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "11.18",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "5.099",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.8464",
+     "paramType": "Least squares mean difference",
+     "paramValue": "0.99",
+     "statisticalMethod": "Mixed Models Analysis"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "3.317",
+         "value": "-2.62"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "3.401",
+         "value": "-5.56"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "3.901",
+         "value": "-1.63"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "25"
+      },
+      {
+       "groupId": "OG001",
+       "value": "24"
+      },
+      {
+       "groupId": "OG002",
+       "value": "18"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "MIP was measured (in units of cm H20) using a calibrated spirometer with an inspiratory pressure valve attached. For the test, patients were asked to inhale as forcefully as possible, to their maximum pressure.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Patients randomized to this treatment arm received a placebo suspension twice daily for 8 weeks.",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Patient randomized to this treatment arm received reldesemtiv suspension at a dose of 150 mg, twice daily for 8 weeks.",
+     "id": "OG001",
+     "title": "Reldesemtiv 150 mg Twice Daily"
+    },
+    {
+     "description": "Patients randomized to this treatment arm received reldesemtiv suspension at a dose of 450 mg, twice daily for 8 weeks.",
+     "id": "OG002",
+     "title": "Reldesemtiv 450 mg Twice Daily"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "The analysis population includes patients who received at least 1 dose of reldesemtiv and had results from the relevant outcome measure at Week 8.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "baseline and 8 weeks",
+   "title": "Change From Baseline to Week 8 in Maximum Inspiratory Pressure (MIP)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "cm H2O"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.68",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "22.70",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "5.506",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0378",
+     "paramType": "Least squares mean difference",
+     "paramValue": "11.69",
+     "statisticalMethod": "Mixed Models Analysis"
+    },
+    {
+     "ciLowerLimit": "1.33",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "24.97",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "5.913",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0298",
+     "paramType": "Least squares mean difference",
+     "paramValue": "13.15",
+     "statisticalMethod": "Mixed Models Analysis"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "3.843",
+         "value": "-4.22"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "3.941",
+         "value": "7.47"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "4.517",
+         "value": "8.93"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "25"
+      },
+      {
+       "groupId": "OG001",
+       "value": "24"
+      },
+      {
+       "groupId": "OG002",
+       "value": "18"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "MEP was measured (in units of cm H20) using a calibrated spirometer with an exspiratory pressure valve attached. For the test, patients were asked to maximally inhale then perform a forced exhalation with as forcefully as possible.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Patients randomized to this treatment arm received a placebo suspension twice daily for 8 weeks.",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Patient randomized to this treatment arm received reldesemtiv suspension at a dose of 150 mg, twice daily for 8 weeks.",
+     "id": "OG001",
+     "title": "Reldesemtiv 150 mg Twice Daily"
+    },
+    {
+     "description": "Patients randomized to this treatment arm received reldesemtiv suspension at a dose of 450 mg, twice daily for 8 weeks.",
+     "id": "OG002",
+     "title": "Reldesemtiv 450 mg Twice Daily"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "The analysis population includes patients who received at least 1 dose of reldesemtiv and had results from the relevant outcome measure at Week 8.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "baseline and 8 weeks",
+   "title": "Change From Baseline to Week 8 in Maximum Expiratory Pressure (MEP)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "cm H2O"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-19.69",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "10.52",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "7.560",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.5461",
+     "paramType": "Least squares mean difference",
+     "paramValue": "-4.59",
+     "statisticalMethod": "Mixed Models Analysis"
+    },
+    {
+     "ciLowerLimit": "-31.56",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "1.11",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "8.175",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0672",
+     "paramType": "Least squares mean difference",
+     "paramValue": "-15.23",
+     "statisticalMethod": "Mixed Models Analysis"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "5.298",
+         "value": "14.34"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "5.393",
+         "value": "9.76"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "6.247",
+         "value": "-0.88"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "25"
+      },
+      {
+       "groupId": "OG001",
+       "value": "24"
+      },
+      {
+       "groupId": "OG002",
+       "value": "18"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Muscle strength of 3 muscle groups (elbow flexion, knee extension, and shoulder abduction) were measured bilaterally using a hand-held dynamometer. Muscle strength was measured twice for each body location; if the variability between the 2 measures was \\> 15%, a third measure was obtained.\n\nThe maximum muscle strength of the 2 measurements was identified and transformed as a percent change from baseline using the equation: (\\[postbaseline value - baseline value\\] / baseline value) × 100.\n\nThe mega-score was a composite score that averaged strength across the 3 muscle groups. It was calculated as the mean of the non-missing transformed muscle strength scores among the 3 muscle groups each measure bilaterally (totaling 6 body locations).",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Patients randomized to this treatment arm received a placebo suspension twice daily for 8 weeks.",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Patient randomized to this treatment arm received reldesemtiv suspension at a dose of 150 mg, twice daily for 8 weeks.",
+     "id": "OG001",
+     "title": "Reldesemtiv 150 mg Twice Daily"
+    },
+    {
+     "description": "Patients randomized to this treatment arm received reldesemtiv suspension at a dose of 450 mg, twice daily for 8 weeks.",
+     "id": "OG002",
+     "title": "Reldesemtiv 450 mg Twice Daily"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "The analysis population includes patients who received at least 1 dose of reldesemtiv and had results from the relevant outcome measure at Week 8.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "baseline and 8 weeks",
+   "title": "Muscle Strength Mega-Score at Week 8",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percent change"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-2.23",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "1.48",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "0.928",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.6849",
+     "paramType": "Least squares mean difference",
+     "paramValue": "-0.38",
+     "statisticalMethod": "Mixed Models Analysis"
+    },
+    {
+     "ciLowerLimit": "-2.96",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.95",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "0.980",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.3091",
+     "paramType": "Least squares mean difference",
+     "paramValue": "-1.00",
+     "statisticalMethod": "Mixed Models Analysis"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.637",
+         "value": "1.40"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.675",
+         "value": "1.02"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "0.748",
+         "value": "0.39"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "25"
+      },
+      {
+       "groupId": "OG001",
+       "value": "22"
+      },
+      {
+       "groupId": "OG002",
+       "value": "18"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The HFMS-E evaluated the level of independent mobility and motor skills through assessment of 33 test-items, each scored from 0 (worse) to 2 (better). The total score was calculated as the sum of the scores among the 33 test items, and has a range from 0 to 66.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Patients randomized to this treatment arm received a placebo suspension twice daily for 8 weeks.",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Patient randomized to this treatment arm received reldesemtiv suspension at a dose of 150 mg, twice daily for 8 weeks.",
+     "id": "OG001",
+     "title": "Reldesemtiv 150 mg Twice Daily"
+    },
+    {
+     "description": "Patients randomized to this treatment arm received reldesemtiv suspension at a dose of 450 mg, twice daily for 8 weeks.",
+     "id": "OG002",
+     "title": "Reldesemtiv 450 mg Twice Daily"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "The analysis population includes patients who received at least 1 dose of reldesemtiv and had results from the relevant outcome measure at Week 8.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "baseline and 8 weeks",
+   "title": "Change From Baseline to Week 8 in the Hammersmith Functional Motor Scale-Expanded (HFMS-E)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "score on a scale"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-0.53",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "1.75",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "0.571",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.2878",
+     "paramType": "Least squares mean difference",
+     "paramValue": "0.61",
+     "statisticalMethod": "Mixed Models Analysis"
+    },
+    {
+     "ciLowerLimit": "-1.34",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "1.11",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "0.616",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.8512",
+     "paramType": "Least squares mean difference",
+     "paramValue": "-0.12",
+     "statisticalMethod": "Mixed Models Analysis"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.397",
+         "value": "0.54"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.406",
+         "value": "1.15"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "0.468",
+         "value": "0.43"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "25"
+      },
+      {
+       "groupId": "OG001",
+       "value": "24"
+      },
+      {
+       "groupId": "OG002",
+       "value": "18"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The RULM assessed motor function in the upper limbs (specifically shoulder, elbow, wrist, and hand function) that related to activities of everyday life. The RULM consisted of 20 items, 1 of which was scored on a 7-point scale (from 0 to 6), 18 were scored on a 3-point scale (from 0 to 2), and 1 was scored on a 2-point scale (0 or 1). The total score was the sum of each response and could range from a minimum of 0 to a maximum of 43 points. Higher scores reflected better motor function.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Patients randomized to this treatment arm received a placebo suspension twice daily for 8 weeks.",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Patient randomized to this treatment arm received reldesemtiv suspension at a dose of 150 mg, twice daily for 8 weeks.",
+     "id": "OG001",
+     "title": "Reldesemtiv 150 mg Twice Daily"
+    },
+    {
+     "description": "Patients randomized to this treatment arm received reldesemtiv suspension at a dose of 450 mg, twice daily for 8 weeks.",
+     "id": "OG002",
+     "title": "Reldesemtiv 450 mg Twice Daily"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "The analysis population includes patients who received at least 1 dose of reldesemtiv and had results from the relevant outcome measure at Week 8.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "baseline and 8 weeks",
+   "title": "Change From Baseline to Week 8 in Revised Upper Limb Module (RULM)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "score on a scale"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-6.08",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "4.52",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "2.528",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.7612",
+     "paramType": "Least squares mean difference",
+     "paramValue": "-0.78",
+     "statisticalMethod": "Mixed Models Analysis"
+    },
+    {
+     "ciLowerLimit": "-9.91",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "3.70",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "3.231",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.3502",
+     "paramType": "Least squares mean difference",
+     "paramValue": "-3.10",
+     "statisticalMethod": "Mixed Models Analysis"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "1.837",
+         "value": "0.24"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "1.708",
+         "value": "-0.54"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "2.675",
+         "value": "-2.87"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "8"
+      },
+      {
+       "groupId": "OG001",
+       "value": "10"
+      },
+      {
+       "groupId": "OG002",
+       "value": "4"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The TUG test measured the time (in seconds) it took for a patient to rise from a chair, walk 3 meters, turn around, walk back to the chair and sit down.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Patients randomized to this treatment arm received a placebo suspension twice daily for 8 weeks.",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Patient randomized to this treatment arm received reldesemtiv suspension at a dose of 150 mg, twice daily for 8 weeks.",
+     "id": "OG001",
+     "title": "Reldesemtiv 150 mg Twice Daily"
+    },
+    {
+     "description": "Patients randomized to this treatment arm received reldesemtiv suspension at a dose of 450 mg, twice daily for 8 weeks.",
+     "id": "OG002",
+     "title": "Reldesemtiv 450 mg Twice Daily"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "This test was evaluated in ambulatory patients only.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "baseline and 8 weeks",
+   "title": "Change From Baseline to Week 8 in the TUG Test",
+   "type": "PRIMARY",
+   "unitOfMeasure": "seconds"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-13.86",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "29.30",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "10.484",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.4684",
+     "paramType": "Least squares mean difference",
+     "paramValue": "7.72",
+     "statisticalMethod": "Mixed Models Analysis"
+    },
+    {
+     "ciLowerLimit": "-0.95",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "50.74",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "12.550",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0584",
+     "paramType": "Least squares mean difference",
+     "paramValue": "24.89",
+     "statisticalMethod": "Mixed Models Analysis"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "7.692",
+         "value": "1.39"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "6.826",
+         "value": "9.11"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "9.641",
+         "value": "26.28"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "9"
+      },
+      {
+       "groupId": "OG001",
+       "value": "12"
+      },
+      {
+       "groupId": "OG002",
+       "value": "6"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The 6MWT measured the distance (in meters) a patient walked in 6 minutes.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Patients randomized to this treatment arm received a placebo suspension twice daily for 8 weeks.",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Patient randomized to this treatment arm received reldesemtiv suspension at a dose of 150 mg, twice daily for 8 weeks.",
+     "id": "OG001",
+     "title": "Reldesemtiv 150 mg Twice Daily"
+    },
+    {
+     "description": "Patients randomized to this treatment arm received reldesemtiv suspension at a dose of 450 mg, twice daily for 8 weeks.",
+     "id": "OG002",
+     "title": "Reldesemtiv 450 mg Twice Daily"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "This test was evaluated in ambulatory patients only.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "baseline and 8 weeks",
+   "title": "Change From Baseline to Week 8 in the 6MWT",
+   "type": "PRIMARY",
+   "unitOfMeasure": "meters"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.13",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "1.43",
+     "groupDescription": "Odds ratio of active vs placebo comparison of the patients' global assessment of better than pre-dose vs same or worse than pre-dose",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.1686",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "0.43",
+     "statisticalMethod": "Regression, Logistic"
+    },
+    {
+     "ciLowerLimit": "0.20",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "2.30",
+     "groupDescription": "Odds ratio of active vs placebo comparison of the patients' global assessment of better than pre-dose vs same or worse than pre-dose",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.5259",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "0.67",
+     "statisticalMethod": "Regression, Logistic"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "12"
+        },
+        {
+         "groupId": "OG001",
+         "value": "7"
+        },
+        {
+         "groupId": "OG002",
+         "value": "7"
+        }
+       ],
+       "title": "Better than pre-dose"
+      },
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "13"
+        },
+        {
+         "groupId": "OG001",
+         "value": "15"
+        },
+        {
+         "groupId": "OG002",
+         "value": "11"
+        }
+       ],
+       "title": "Same as pre-dose"
+      },
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "2"
+        },
+        {
+         "groupId": "OG002",
+         "value": "0"
+        }
+       ],
+       "title": "Worse than pre-dose"
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "25"
+      },
+      {
+       "groupId": "OG001",
+       "value": "24"
+      },
+      {
+       "groupId": "OG002",
+       "value": "18"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Patients assessed whether they felt the same, better, or worse than prior to dosing on Day 1.",
+   "groups": [
+    {
+     "description": "Patients randomized to this treatment arm received a placebo suspension twice daily for 8 weeks.",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Patient randomized to this treatment arm received reldesemtiv suspension at a dose of 150 mg, twice daily for 8 weeks.",
+     "id": "OG001",
+     "title": "Reldesemtiv 150 mg Twice Daily"
+    },
+    {
+     "description": "Patients randomized to this treatment arm received reldesemtiv suspension at a dose of 450 mg, twice daily for 8 weeks.",
+     "id": "OG002",
+     "title": "Reldesemtiv 450 mg Twice Daily"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "The analysis population includes patients who received at least 1 dose of reldesemtiv and had results from the relevant outcome measure at Week 8.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "8 weeks",
+   "title": "Patient Global Assessment at the End of Week 8",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.34",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "4.40",
+     "groupDescription": "Odds ratio of active vs placebo comparison of the patients' global assessment of better than pre-dose vs same or worse than pre-dose",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.7655",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "1.22",
+     "statisticalMethod": "Regression, Logistic"
+    },
+    {
+     "ciLowerLimit": "0.41",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "6.25",
+     "groupDescription": "Odds ratio of active vs placebo comparison of the patients' global assessment of better than pre-dose vs same or worse than pre-dose",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.4920",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "1.61",
+     "statisticalMethod": "Regression, Logistic"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "6"
+        },
+        {
+         "groupId": "OG001",
+         "value": "7"
+        },
+        {
+         "groupId": "OG002",
+         "value": "6"
+        }
+       ],
+       "title": "Better than pre-dose"
+      },
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "18"
+        },
+        {
+         "groupId": "OG001",
+         "value": "17"
+        },
+        {
+         "groupId": "OG002",
+         "value": "11"
+        }
+       ],
+       "title": "Same as pre-dose"
+      },
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        },
+        {
+         "groupId": "OG002",
+         "value": "0"
+        }
+       ],
+       "title": "Worse than pre-dose"
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "24"
+      },
+      {
+       "groupId": "OG001",
+       "value": "24"
+      },
+      {
+       "groupId": "OG002",
+       "value": "17"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The Investigator assessed whether patient appeared the same, better, or worse than prior to dosing on Day 1.",
+   "groups": [
+    {
+     "description": "Patients randomized to this treatment arm received a placebo suspension twice daily for 8 weeks.",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Patient randomized to this treatment arm received reldesemtiv suspension at a dose of 150 mg, twice daily for 8 weeks.",
+     "id": "OG001",
+     "title": "Reldesemtiv 150 mg Twice Daily"
+    },
+    {
+     "description": "Patients randomized to this treatment arm received reldesemtiv suspension at a dose of 450 mg, twice daily for 8 weeks.",
+     "id": "OG002",
+     "title": "Reldesemtiv 450 mg Twice Daily"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "The analysis population includes patients who received at least 1 dose of reldesemtiv and had results from the relevant outcome measure at Week 8.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "8 weeks",
+   "title": "Investigator Global Assessment at the End of Week 8",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

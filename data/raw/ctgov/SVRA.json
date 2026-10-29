@@ -1,0 +1,1541 @@
+{
+ "aliases": [
+  "Savara"
+ ],
+ "studies": [
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: AeroVanc"
+       ],
+       "label": "Aerovanc 16 mg in healthy volunteers",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: AeroVanc"
+       ],
+       "label": "AeroVanc 32 mg in healthy volunteers",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: AeroVanc"
+       ],
+       "label": "AeroVanc 80 mg in healthy volunteers",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: IV vancomycin hydrochloride"
+       ],
+       "label": "IV vancomycin in healthy volunteers",
+       "type": "ACTIVE_COMPARATOR"
+      },
+      {
+       "interventionNames": [
+        "Drug: AeroVanc"
+       ],
+       "label": "AeroVanc 32 mg in CF patients",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: AeroVanc"
+       ],
+       "label": "AeroVanc 80 mg in CF patients",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "AeroVanc 32 mg in CF patients",
+        "AeroVanc 32 mg in healthy volunteers",
+        "AeroVanc 80 mg in CF patients",
+        "AeroVanc 80 mg in healthy volunteers",
+        "Aerovanc 16 mg in healthy volunteers"
+       ],
+       "description": "Vancomycin hydrochloride dry powder for inhalation",
+       "name": "AeroVanc",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "IV vancomycin in healthy volunteers"
+       ],
+       "description": "Vancomycin hydrochloride solution for intravenous administration",
+       "name": "IV vancomycin hydrochloride",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Healthy",
+      "Cystic Fibrosis"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 25,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Inhaled Vancomycin Tolerability, Safety and Pharmacokinetics",
+     "nctId": "NCT01537666",
+     "officialTitle": "Phase I, Reference-controlled, Dose Escalating Study to Examine the Pharmacokinetics and Safety of AeroVanc Inhalation Powder.",
+     "orgStudyIdInfo": {
+      "id": "SAV005-01"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Savara Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "collaborators": [
+      {
+       "class": "INDUSTRY",
+       "name": "INC Research Limited"
+      }
+     ],
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Savara Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2012-03",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2014-03-31",
+      "type": "ESTIMATED"
+     },
+     "lastUpdateSubmitDate": "2014-03-03",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2012-03",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2014-03-04",
+      "type": "ESTIMATED"
+     },
+     "resultsFirstSubmitDate": "2013-10-30",
+     "resultsFirstSubmitQcDate": "2014-01-15",
+     "startDateStruct": {
+      "date": "2011-11"
+     },
+     "statusVerifiedDate": "2014-03",
+     "studyFirstPostDateStruct": {
+      "date": "2012-02-23",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2012-02-17",
+     "studyFirstSubmitQcDate": "2012-02-17"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "32 or 64 mg twice daily (BID)",
+       "interventionNames": [
+        "Drug: Vancomycin hydrochloride inhalation powder"
+       ],
+       "label": "Vancomycin hydrochloride inhalation powder",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Matching placebo inhalation powder BID",
+       "interventionNames": [
+        "Drug: Placebo inhalation powder"
+       ],
+       "label": "Placebo inhalation powder",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Vancomycin hydrochloride inhalation powder"
+       ],
+       "description": "There will be two treatment cohorts in this study, each comprised of 40 randomized (1:1 active to placebo) and treated patients (adults ≥18 and children ≥12 years of age). In Cohort 1, patients will be enrolled and randomized to receive the 32 mg dose of AeroVanc bid or placebo bid. Prior to starting enrollment in Cohort 2, a safety evaluation will be carried out by the Data Monitoring Committee (DMC) based on treatment data from the first 20 patients in Cohort 1. Subject to the Sponsor's written communication of the DMC's opinion of acceptable safety, the dose for the active arm in Cohort 2 will be escalated to 64 mg bid. Optionally, the active arm for Cohort 2 may also be kept the same (32 mg bid), or reduced to 16 mg bid, depending on the outcome of the DMC's safety evaluation.",
+       "name": "Vancomycin hydrochloride inhalation powder",
+       "otherNames": [
+        "AeroVanc"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo inhalation powder"
+       ],
+       "name": "Placebo inhalation powder",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Cystic Fibrosis"
+     ],
+     "keywords": [
+      "Cystic Fibrosis",
+      "MRSA",
+      "Methicillin-resistant Staphylococcus aureus",
+      "Lung infection",
+      "AeroVanc",
+      "Vancomycin"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 87,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Efficacy and Safety Study of AeroVanc for the Treatment of Persistent MRSA Lung Infection in Cystic Fibrosis Patients",
+     "nctId": "NCT01746095",
+     "officialTitle": "A Phase 2, Randomized, Double Blind, Placebo-controlled Study of AeroVanc for the Treatment of Persistent Methicillin-resistant Staphylococcus Aureus Lung Infection in Cystic Fibrosis Patients",
+     "orgStudyIdInfo": {
+      "id": "SAV005-02"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Savara Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "collaborators": [
+      {
+       "class": "INDUSTRY",
+       "name": "Synteract, Inc."
+      },
+      {
+       "class": "OTHER",
+       "name": "Cystic Fibrosis Foundation"
+      }
+     ],
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Savara Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2014-11",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2020-01-13",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2019-12-23",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2014-11",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2020-01-13",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2019-06-01",
+     "resultsFirstSubmitQcDate": "2019-12-23",
+     "startDateStruct": {
+      "date": "2013-03"
+     },
+     "statusVerifiedDate": "2019-12",
+     "studyFirstPostDateStruct": {
+      "date": "2012-12-10",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2012-12-06",
+     "studyFirstSubmitQcDate": "2012-12-06"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Single dose 150, 300 and 600 ug, multiple dose 300 and 600 ug for 6 days",
+       "interventionNames": [
+        "Drug: Molgramostim"
+       ],
+       "label": "Molgramostim nebuliser solution, inhaled",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Inhaled nebuliser solution",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Nebuliser solution, inhaled",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Molgramostim nebuliser solution, inhaled"
+       ],
+       "name": "Molgramostim",
+       "otherNames": [
+        "Granulocyte Macrophage-Colony Stimulating Factor (rhGM-CSF)"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Nebuliser solution, inhaled"
+       ],
+       "name": "Placebo",
+       "otherNames": [
+        "Nebuliser solution"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Pulmonary Alveolar Proteinosis",
+      "Bronchiectasis",
+      "Cystic Fibrosis",
+      "Acute Respiratory Distress Syndrome"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 42,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Inhaled Molgramostim (rhGM-CSF) in Healthy Adult Subjects",
+     "nctId": "NCT02468908",
+     "officialTitle": "A Randomized, Double-Blind, Placebo-Controlled, Single-Centre, Single Ascending Dose and Multiple Ascending Dose Study of the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of Molgramostim When Administered by Inhalation to Healthy Adult Subjects",
+     "orgStudyIdInfo": {
+      "id": "MOL-001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Savara Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "collaborators": [
+      {
+       "class": "INDUSTRY",
+       "name": "Celerion"
+      }
+     ],
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Savara Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2015-10",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2017-02-23",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2017-02-20",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2015-10",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2015-05"
+     },
+     "statusVerifiedDate": "2015-11",
+     "studyFirstPostDateStruct": {
+      "date": "2015-06-11",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2015-06-03",
+     "studyFirstSubmitQcDate": "2015-06-08"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Inhalation of molgramostim nebuliser solution 300 mcg once daily for 24 weeks",
+       "interventionNames": [
+        "Drug: Molgramostim",
+        "Device: PARI eFlow nebulizer system"
+       ],
+       "label": "Double-blind molgramostim once daily",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Inhalation of molgramostim nebuliser solution 300 mcg for 7 days and placebo nebuliser solution for 7 days for 24 weeks (12 cycles)",
+       "interventionNames": [
+        "Drug: Molgramostim",
+        "Device: PARI eFlow nebulizer system"
+       ],
+       "label": "Double-blind molgramostim intermittent",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Inhalation of placebo nebuliser solution once daily for 24 weeks",
+       "interventionNames": [
+        "Drug: Placebo",
+        "Device: PARI eFlow nebulizer system"
+       ],
+       "label": "Double-blind placebo",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "description": "Inhalation of molgramostim nebuliser solution 300 mcg for 7 days and placebo nebuliser solution for 7 days for 24 or 48 weeks from completion of the double-blind period",
+       "interventionNames": [
+        "Drug: Molgramostim",
+        "Device: PARI eFlow nebulizer system"
+       ],
+       "label": "Open-label molgramostim intermittent",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Double-blind molgramostim intermittent",
+        "Double-blind molgramostim once daily",
+        "Open-label molgramostim intermittent"
+       ],
+       "description": "300 mcg molgramostim (rhGM-CSF) nebulizer solution for inhalation",
+       "name": "Molgramostim",
+       "otherNames": [
+        "rhGM-CSF"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Double-blind placebo"
+       ],
+       "description": "Placebo nebulizer solution for inhalation",
+       "name": "Placebo",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Double-blind molgramostim intermittent",
+        "Double-blind molgramostim once daily",
+        "Double-blind placebo",
+        "Open-label molgramostim intermittent"
+       ],
+       "description": "PARI eFlow nebulizer system",
+       "name": "PARI eFlow nebulizer system",
+       "type": "DEVICE"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Autoimmune Pulmonary Alveolar Proteinosis"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 139,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "IMPALA",
+     "briefTitle": "Efficacy and Safety of Inhaled Molgramostim (rhGM-CSF) in Autoimmune Pulmonary Alveolar Proteinosis",
+     "nctId": "NCT02702180",
+     "officialTitle": "A Randomised, Double-blind, Placebo-controlled Multicentre Clinical Trial of Inhaled Molgramostim in Autoimmune Pulmonary Alveolar Proteinosis Patients",
+     "orgStudyIdInfo": {
+      "id": "MOL-PAP-002"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Savara Inc."
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "2015-003878-33",
+       "type": "EUDRACT_NUMBER"
+      },
+      {
+       "id": "2015",
+       "link": "https://reporter.nih.gov/quickSearch/2015",
+       "type": "NIH"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Savara Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2019-09-27",
+      "type": "ACTUAL"
+     },
+     "dispFirstPostDateStruct": {
+      "date": "2020-03-18",
+      "type": "ACTUAL"
+     },
+     "dispFirstSubmitDate": "2020-03-17",
+     "dispFirstSubmitQcDate": "2020-03-17",
+     "lastUpdatePostDateStruct": {
+      "date": "2023-04-12",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2023-04-11",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2019-04-19",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2022-04-15",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2022-02-16",
+     "resultsFirstSubmitQcDate": "2022-03-22",
+     "startDateStruct": {
+      "date": "2016-03-21",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2023-04",
+     "studyFirstPostDateStruct": {
+      "date": "2016-03-08",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2016-02-28",
+     "studyFirstSubmitQcDate": "2016-03-02"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Vancomycin inhalation powder 30 mg is administered twice daily (BID) during the 24-week double-blind period (Period 1) by inhalation during three dosing cycles, each cycle being 28 days of treatment followed by 28 days of observation.",
+       "interventionNames": [
+        "Drug: Vancomycin inhalation powder"
+       ],
+       "label": "Double-blind vancomycin inhalation powder",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Matching placebo is administered BID during the 24-week double-blind period (Period 1) by inhalation during three dosing cycles, each cycle being 28 days of treatment followed by 28 days of observation.",
+       "interventionNames": [
+        "Drug: Placebo inhalation powder"
+       ],
+       "label": "Double-blind placebo inhalation powder",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "description": "In the 24-week Period 2, all participants receive AeroVanc 30 mg BID by inhalation during three dosing cycles, each cycle being 28 days of treatment followed by 28 days of observation.",
+       "interventionNames": [
+        "Drug: Vancomycin inhalation powder"
+       ],
+       "label": "Open-label vancomycin inhalation powder",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Double-blind vancomycin inhalation powder"
+       ],
+       "description": "100 participants are to be treated with double-blind vancomycin inhalation powder (75 subjects ≤21 years old, 25 subjects \\>21 years old) for 24 weeks during Period 1.",
+       "name": "Vancomycin inhalation powder",
+       "otherNames": [
+        "AeroVanc"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Double-blind placebo inhalation powder"
+       ],
+       "description": "100 participants are to be treated with double-blind placebo (75 subjects ≤21 years old, 25 subjects \\>21 years old) for 24 weeks during Period 1.",
+       "name": "Placebo inhalation powder",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Open-label vancomycin inhalation powder"
+       ],
+       "description": "In the 24-week Period 2, all participants are to be treated with open-label vancomycin inhalation powder.",
+       "name": "Vancomycin inhalation powder",
+       "otherNames": [
+        "AeroVanc"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "MRSA",
+      "Cystic Fibrosis"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 188,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "AeroVanc in the Treatment of Methicillin-resistant Staphylococcus Aureus Infection in Patients With Cystic Fibrosis",
+     "nctId": "NCT03181932",
+     "officialTitle": "A Phase III, Randomized, Double-blind, Placebo-controlled Study of AeroVanc for the Treatment of Persistent Methicillin-resistant Staphylococcus Aureus Lung Infection in Cystic Fibrosis Patients",
+     "orgStudyIdInfo": {
+      "id": "SAV005-04"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Savara Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Savara Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2021-01-15",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2022-12-16",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2022-12-14",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2020-07-28",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2021-11-05",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2021-09-02",
+     "resultsFirstSubmitQcDate": "2021-10-10",
+     "startDateStruct": {
+      "date": "2017-09-20",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2022-12",
+     "studyFirstPostDateStruct": {
+      "date": "2017-06-09",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2017-06-01",
+     "studyFirstSubmitQcDate": "2017-06-07"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Inhaled molgramostim administered in participants who remain sputum culture positive while currently on a multidrug NTM guideline-based antimycobacterial regimen, which has been ongoing for at least 6 months prior to the Baseline Visit",
+       "interventionNames": [
+        "Drug: Inhaled molgramostim",
+        "Drug: Antimycobacterial regimen"
+       ],
+       "label": "Inhaled molgramostim/antimycobacterials",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Inhaled molgramostim administered in participants who remain sputum culture positive but have stopped a multidrug NTM guideline-based antimycobacterial regimen at least 28 days prior to Screening due to lack of response or intolerance, or who never started such treatment",
+       "interventionNames": [
+        "Drug: Inhaled molgramostim"
+       ],
+       "label": "Inhaled molgramostim",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Inhaled molgramostim",
+        "Inhaled molgramostim/antimycobacterials"
+       ],
+       "description": "300 µg / dose molgramostim (recombinant human GM-CSF) for inhalation",
+       "name": "Inhaled molgramostim",
+       "otherNames": [
+        "rh-GM-CSF"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Inhaled molgramostim/antimycobacterials"
+       ],
+       "description": "Multidrug NTM guideline-based antimycobacterial regimen",
+       "name": "Antimycobacterial regimen",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Mycobacterium Infections, Nontuberculous"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "interventionModelDescription": "Open-label, non-controlled, multicenter, pilot clinical trial",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 32,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "OPTIMA",
+     "briefTitle": "Pilot Trial of Inhaled Molgramostim in Non-tuberculous Mycobacterial (NTM) Infection",
+     "nctId": "NCT03421743",
+     "officialTitle": "An Open-label, Non-controlled, Multicentre, Pilot Clinical Trial of Inhaled Molgramostim in Subjects With Antibiotic-resistant Non-tuberculosis Mycobacterial (NTM) Infection",
+     "orgStudyIdInfo": {
+      "id": "SAV008-01"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Savara Inc."
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "2017-003374-14",
+       "type": "EUDRACT_NUMBER"
+      },
+      {
+       "id": "2017",
+       "link": "https://reporter.nih.gov/quickSearch/2017",
+       "type": "NIH"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Savara Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2020-01-13",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2024-07-03",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2024-01-18",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2019-10-15",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2024-07-03",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2023-03-24",
+     "resultsFirstSubmitQcDate": "2024-01-18",
+     "startDateStruct": {
+      "date": "2018-03-01",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2023-03",
+     "studyFirstPostDateStruct": {
+      "date": "2018-02-05",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2018-01-16",
+     "studyFirstSubmitQcDate": "2018-01-29"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Open-label treatment with molgramostim nebulizer solution (300 μg) administered intermittently (repetitive cycles of 7 days of treatment followed by 7 days off-treatment).",
+       "interventionNames": [
+        "Drug: Molgramostim"
+       ],
+       "label": "Molgramostim nebulizer solution (300 μg)",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Molgramostim nebulizer solution (300 μg)"
+       ],
+       "description": "300 µg inhaled molgramostim in cycles of once daily administration for 7 days, then 7 days off treatment.",
+       "name": "Molgramostim",
+       "otherNames": [
+        "Recombinant human GM-CSF"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Autoimmune Pulmonary Alveolar Proteinosis"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "interventionModelDescription": "Open label, non-controlled.",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 60,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "IMPALA-X",
+     "briefTitle": "Safety Extension Trial of Inhaled Molgramostim in Autoimmune Pulmonary Alveolar Proteinosis",
+     "nctId": "NCT03482752",
+     "officialTitle": "An Open-label, Non-controlled, Multicentre Clinical Trial of Inhaled Molgramostim in Autoimmune Pulmonary Alveolar Proteinosis Patients",
+     "orgStudyIdInfo": {
+      "id": "SAV006-03"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Savara Inc."
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "2017-004078-32",
+       "type": "EUDRACT_NUMBER"
+      },
+      {
+       "id": "2017",
+       "link": "https://reporter.nih.gov/quickSearch/2017",
+       "type": "NIH"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Savara Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2021-01-14",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2024-07-03",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2024-01-18",
+     "overallStatus": "TERMINATED",
+     "primaryCompletionDateStruct": {
+      "date": "2021-01-14",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2024-07-03",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2023-03-24",
+     "resultsFirstSubmitQcDate": "2024-01-18",
+     "startDateStruct": {
+      "date": "2018-04-16",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2024-01",
+     "studyFirstPostDateStruct": {
+      "date": "2018-03-29",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2018-03-21",
+     "studyFirstSubmitQcDate": "2018-03-28",
+     "whyStopped": "SAV006-03 was initiated before the evaluation of the IMPALA study (NCT02702180) results. Considering these results and authority advice there would not be adequate efficacy and safety data from SAV006-03 and the study was terminated."
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants with chronic pulmonary MAC or MABSC infection who have not consistently achieved negative NTM sputum cultures while currently on a multidrug NTM guideline-based antimycobacterial regimen, which has been ongoing for at least 9 months prior to the Baseline visit.",
+       "interventionNames": [
+        "Drug: Molgramostim nebulizer solution",
+        "Device: PARI eFlow nebulizer system"
+       ],
+       "label": "Group 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants with chronic pulmonary MAC or MABSC infection who remain sputum culture positive but have stopped a multidrug NTM guideline-based antimycobacterial regimen at least 28 days prior to Screening due to lack of response or intolerance.",
+       "interventionNames": [
+        "Drug: Molgramostim nebulizer solution",
+        "Device: PARI eFlow nebulizer system"
+       ],
+       "label": "Group 2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants with chronic pulmonary MAC or MABSC infection not meeting recommendations for treatment with a multidrug NTM guideline-based antimycobacterial regimen based on failure to meet American Thoracic Society/Infectious Diseases Society of America (ATS/IDSA) criteria for NTM pulmonary disease (i.e. absence of radiologic findings and clinical symptoms beyond what is expected from underlying CF).",
+       "interventionNames": [
+        "Drug: Molgramostim nebulizer solution",
+        "Device: PARI eFlow nebulizer system"
+       ],
+       "label": "Group 3",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Group 1",
+        "Group 2",
+        "Group 3"
+       ],
+       "description": "300 µg / dose molgramostim (recombinant human GM-CSF) for inhalation",
+       "name": "Molgramostim nebulizer solution",
+       "otherNames": [
+        "rhGM-CSF"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Group 1",
+        "Group 2",
+        "Group 3"
+       ],
+       "description": "PARI eFlow nebulizer system",
+       "name": "PARI eFlow nebulizer system",
+       "type": "DEVICE"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Mycobacterium Infections, Nontuberculous",
+      "Cystic Fibrosis (CF)"
+     ],
+     "keywords": [
+      "Nontuberculosis mycobacterial infection",
+      "Cystic fibrosis",
+      "M. avium complex",
+      "M. abscessus complex",
+      "Mycobacterium Infections, Nontuberculous"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 14,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "ENCORE",
+     "briefTitle": "Trial of Inhaled Molgramostim in Cystic Fibrosis Subjects With Nontuberculous Mycobacterial Infection",
+     "nctId": "NCT03597347",
+     "officialTitle": "An Open-label, Non-controlled, Multicenter, Pilot Trial, Using Inhaled Molgramostim in Cystic Fibrosis Subjects With Nontuberculous Mycobacterial (NTM) Infection",
+     "orgStudyIdInfo": {
+      "id": "SAV008-02"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Savara Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Savara Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2020-10-02",
+      "type": "ACTUAL"
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2023-01-10",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2022-12-14",
+     "overallStatus": "TERMINATED",
+     "primaryCompletionDateStruct": {
+      "date": "2020-10-02",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2021-10-11",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2021-09-13",
+     "resultsFirstSubmitQcDate": "2021-09-13",
+     "startDateStruct": {
+      "date": "2019-06-20",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2022-12",
+     "studyFirstPostDateStruct": {
+      "date": "2018-07-24",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2018-07-12",
+     "studyFirstSubmitQcDate": "2018-07-12",
+     "whyStopped": "Recruitment for trial stopped early due to limitations from COVID-19, additionally changes in the standard of care for CF patients during the study period resulted in confounding of the primary endpoint."
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Double-blind treatment with molgramostim nebulizer solution 300 µg once daily (Mol OD) for 48 weeks",
+       "interventionNames": [
+        "Drug: Molgramostim"
+       ],
+       "label": "Molgramostim",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Double-blind treatment with placebo (PBO) nebulizer solution once daily for 48 weeks",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "description": "Open-label treatment with molgramostim nebulizer solution 300 µg once daily (Mol OD) for 96 weeks",
+       "interventionNames": [
+        "Drug: Molgramostim Open-label"
+       ],
+       "label": "Molgramostim Open-label Extension",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Molgramostim"
+       ],
+       "description": "Molgramostim 300 µg nebulizer solution",
+       "name": "Molgramostim",
+       "otherNames": [
+        "Recombinant human granulocyte-macrophage colony stimulating factor (rhGM-CSF)"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Matching placebo nebulizer solution",
+       "name": "Placebo",
+       "otherNames": [
+        "Placebo nebulizer"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Molgramostim Open-label Extension"
+       ],
+       "description": "Molgramostim 300 µg nebulizer solution",
+       "name": "Molgramostim Open-label",
+       "otherNames": [
+        "Recombinant human granulocyte-macrophage colony stimulating factor (rhGM-CSF)"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Autoimmune Pulmonary Alveolar Proteinosis"
+     ],
+     "keywords": [
+      "aPAP"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "interventionModelDescription": "Subject will be randomized 1:1 to treatment with inhaled molgramostim or placebo",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 164,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "IMPALA-2",
+     "briefTitle": "Clinical Trial of Inhaled Molgramostim Nebulizer Solution in Autoimmune Pulmonary Alveolar Proteinosis (aPAP)",
+     "nctId": "NCT04544293",
+     "officialTitle": "A Randomized, Double-blind, Placebo-controlled Clinical Trial of Once-daily Inhaled Molgramostim Nebulizer Solution in Adult Subjects With Autoimmune Pulmonary Alveolar Proteinosis (aPAP)",
+     "orgStudyIdInfo": {
+      "id": "SAV006-05"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Savara Inc."
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "2020-001263-85",
+       "type": "EUDRACT_NUMBER"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Savara Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2027-05-30",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-08-26",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-08-20",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2023-11-30",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2025-08-07",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2025-05-12",
+     "resultsFirstSubmitQcDate": "2025-07-18",
+     "startDateStruct": {
+      "date": "2021-05-19",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-08",
+     "studyFirstPostDateStruct": {
+      "date": "2020-09-10",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2020-09-03",
+     "studyFirstSubmitQcDate": "2020-09-03"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Molgramostim 300 mcg administered once daily via nebulizer for 48 weeks.",
+       "interventionNames": [
+        "Drug: Molgramostim"
+       ],
+       "label": "molgramostim",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "molgramostim"
+       ],
+       "description": "Molgramostim nebulizer solution will be administered once daily using a proprietary nebulizer optimized for the delivery of high molecular weight biologic compounds.",
+       "name": "Molgramostim",
+       "otherNames": [
+        "Recombinant human granulocyte-macrophage colony stimulating factor (rhGM-CSF)."
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Autoimmune Pulmonary Alveolar Proteinosis"
+     ],
+     "keywords": [
+      "alveolar proteinosis",
+      "autoimmune",
+      "lung lavage",
+      "GM-CSF",
+      "children"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "interventionModelDescription": "Open-label study",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 5,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Inhaled Molgramostim in Pediatric Participants With Autoimmune Pulmonary Alveolar Proteinosis (aPAP).",
+     "nctId": "NCT06431776",
+     "officialTitle": "An Open-label, Multicenter Clinical Study to Evaluate the Efficacy and Safety of Inhaled Molgramostim in Pediatric Participants With Autoimmune Pulmonary Alveolar Proteinosis (aPAP).",
+     "orgStudyIdInfo": {
+      "id": "SAV006-04"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Savara Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Savara Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2027-12",
+      "type": "ESTIMATED"
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-02-19",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-02-17",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-06",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2025-10-22",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-02",
+     "studyFirstPostDateStruct": {
+      "date": "2024-05-29",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2024-05-22",
+     "studyFirstSubmitQcDate": "2024-05-22"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "interventions": [
+      {
+       "description": "Solution for inhalation",
+       "name": "Molgramostim nebulizer solution",
+       "otherNames": [
+        "Recombinant human granulocyte-macrophage colony stimulating factor (rhGM-CSF)"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Autoimmune Pulmonary Alveolar Proteinosis"
+     ],
+     "keywords": [
+      "surfactant accumulation",
+      "autoimmune",
+      "alveolar proteinosis",
+      "GM-CSF"
+     ]
+    },
+    "designModule": {
+     "expandedAccessTypes": {
+      "treatment": true
+     },
+     "studyType": "EXPANDED_ACCESS"
+    },
+    "identificationModule": {
+     "briefTitle": "Molgramostim Nebulizer Solution Expanded Access Program Protocol",
+     "nctId": "NCT06546098",
+     "officialTitle": "Expanded Access to Inhaled Molgramostim Nebulizer Solution in Adults With Autoimmune Pulmonary Alveolar Proteinosis (aPAP)",
+     "orgStudyIdInfo": {
+      "id": "SAV006-06"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Savara Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Savara Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-26",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-22",
+     "overallStatus": "AVAILABLE",
+     "statusVerifiedDate": "2026-07",
+     "studyFirstPostDateStruct": {
+      "date": "2024-08-09",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2024-08-05",
+     "studyFirstSubmitQcDate": "2024-08-05"
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,180 @@
+{
+ "nctId": "NCT02628600",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "68"
+        },
+        {
+         "groupId": "OG001",
+         "value": "90"
+        }
+       ]
+      }
+     ],
+     "title": "≥1 Treatment-emergent AE (TEAE)"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "20"
+        },
+        {
+         "groupId": "OG001",
+         "value": "32"
+        }
+       ]
+      }
+     ],
+     "title": "≥1 Serious TEAE (sTEAE)"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "8"
+        },
+        {
+         "groupId": "OG001",
+         "value": "24"
+        }
+       ]
+      }
+     ],
+     "title": "≥1 TEAE leading to study drug withdrawn"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "6"
+        },
+        {
+         "groupId": "OG001",
+         "value": "22"
+        }
+       ]
+      }
+     ],
+     "title": "≥1 TE AE Leading to LAI withdrawn"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "4"
+        },
+        {
+         "groupId": "OG001",
+         "value": "8"
+        }
+       ]
+      }
+     ],
+     "title": "≥1 TEAE Leading to MDR for NTM withdrawn"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1"
+        },
+        {
+         "groupId": "OG001",
+         "value": "5"
+        }
+       ]
+      }
+     ],
+     "title": "≥1 TEAE Leading to LAI and MDR for NTM withdrawn"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "3"
+        },
+        {
+         "groupId": "OG001",
+         "value": "9"
+        }
+       ]
+      }
+     ],
+     "title": "≥1 sTEAE leading to LAI withdrawn"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "2"
+        },
+        {
+         "groupId": "OG001",
+         "value": "4"
+        }
+       ]
+      }
+     ],
+     "title": "≥1 TEAE leading to death"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "73"
+      },
+      {
+       "groupId": "OG001",
+       "value": "90"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "TEAEs are defined as those AEs that occurred on or after the date of first dose of study medication in INS-312 and within 28 days after the last dose. If it couldn't be determined whether the AE is treatment emergent due to a partial onset date, then it was classified as treatment emergent.",
+   "groups": [
+    {
+     "description": "Participants in the prior Study INS-212 who received LAI+MDR. All participants in this safety extension study received LAI+MDR.",
+     "id": "OG000",
+     "title": "Prior LAI + Multidrug Regimen"
+    },
+    {
+     "description": "Participants in the prior Study INS-212 who received MDR alone. All participants in this safety extension study received LAI+MDR.",
+     "id": "OG001",
+     "title": "Prior Multidrug Regimen Alone"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Safety population",
+   "reportingStatus": "POSTED",
+   "timeFrame": "From baseline to 28 days after end of treatment, up to 13 months",
+   "title": "Number of Participants With Treatment-Emergent Adverse Events (TEAEs)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "participants"
+  }
+ ]
+}

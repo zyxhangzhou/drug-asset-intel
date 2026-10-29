@@ -1,0 +1,1576 @@
+{
+ "aliases": [
+  "Ocugen"
+ ],
+ "studies": [
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Combination Therapy: brimonidine (0.2%) administered as eye drops, followed by corticosteroid eye drops, two times a day (BID) for 12 weeks",
+       "interventionNames": [
+        "Drug: Brimonidine",
+        "Drug: Corticosteroid Eye Drop"
+       ],
+       "label": "Study Drug Arm #1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Monotherapy: brimonidine (0.2%) administered as eye drops followed by placebo, two times a day (BID) for 12 weeks",
+       "interventionNames": [
+        "Drug: Brimonidine Mono Therapy"
+       ],
+       "label": "Study Drug Arm #2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Placebo: sodium carboxymethylcellulose (0.25%) administered as eye drops followed by a second application, two time a day (BID) for 12 weeks",
+       "interventionNames": [
+        "Drug: sodium carboxymethylcellulose"
+       ],
+       "label": "Control Arm",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Study Drug Arm #1"
+       ],
+       "description": "Two products delivered in sequence twice daily.",
+       "name": "Brimonidine",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Study Drug Arm #2"
+       ],
+       "description": "Brimonidine given twice daily along with placebo drops",
+       "name": "Brimonidine Mono Therapy",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Control Arm"
+       ],
+       "description": "Placebo given twice daily.",
+       "name": "sodium carboxymethylcellulose",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Study Drug Arm #1"
+       ],
+       "description": "Eye drop to be administered after Brimonidine in treatment arm 1",
+       "name": "Corticosteroid Eye Drop",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Dry Eye"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 84,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Dry Eye Disease Study With Brimonidine",
+     "nctId": "NCT03418727",
+     "officialTitle": "A Randomized, Placebo-Controlled, Double-Blind, Multicenter, Proof-of-Concept Study of Brimonidine Eye Drops for the Treatment of Dry Eye Disease (DED)",
+     "orgStudyIdInfo": {
+      "id": "OCU-310-DED-2017"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Ocugen"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Ocugen"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2018-03-29",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2022-07-06",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2022-06-10",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2018-03-29",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2022-07-06",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2022-06-10",
+     "resultsFirstSubmitQcDate": "2022-06-10",
+     "startDateStruct": {
+      "date": "2017-09-06",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2022-06",
+     "studyFirstPostDateStruct": {
+      "date": "2018-02-01",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2017-10-10",
+     "studyFirstSubmitQcDate": "2018-01-25"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Brimonidine Tartrate Nanoemulsion Eye Drops 0.18% given 2 times a day for 12 weeks.",
+       "interventionNames": [
+        "Drug: Brimonidine Tartrate"
+       ],
+       "label": "OCU-300",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Placebo - Ophthalmic buffered saline Eye Drops given 2 times a day for 12 weeks.",
+       "interventionNames": [
+        "Drug: Placebos"
+       ],
+       "label": "Placebos",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "OCU-300"
+       ],
+       "description": "Brimonidine Tartrate Nanoemulsion Eye Drops given 2 times a day for 12 weeks.",
+       "name": "Brimonidine Tartrate",
+       "otherNames": [
+        "OCU-300"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebos"
+       ],
+       "description": "Opthalmic buffered saline solution Eye Drops given 2 times a day for 12 weeks.",
+       "name": "Placebos",
+       "otherNames": [
+        "Placebo (For Brimonidine Tartrate)"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Graft Versus Host Disease",
+      "Ocular Surface Disease",
+      "oGVHD",
+      "Ocular Graft vs Host Disease",
+      "Brimonidine Tartrate",
+      "Lubricant Eye Drops",
+      "Ophthalmic Solutions",
+      "Graft vs Host Disease"
+     ],
+     "keywords": [
+      "ogvhd",
+      "ocular graft vs host",
+      "Ocular Surface Disease",
+      "Ocular Graft vs Host Disease",
+      "Brimonidine Tartrate",
+      "Lubricant Eye Drops",
+      "Ophthalmic Solutions",
+      "Graft vs Host Disease"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "interventionModelDescription": "This will be a randomized, placebo-controlled, double-masked, multicenter phase 3 study.",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "maskingDescription": "All subjects, investigators, and study personnel involved in the conduct of the study, including data management and statistics, will be masked to treatment assignment except for a specified staff member from the designated packaging vendor who will do the package labeling.\n\nUnmasking will be permitted in a medical emergency that requires immediate knowledge of the subject's treatment assignment.",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 59,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "oGVHD",
+     "briefTitle": "Study of Brimonidine Tartrate Nanoemulsion Eye Drops in Patients With Ocular Graft-vs-Host Disease",
+     "nctId": "NCT03591874",
+     "officialTitle": "A Phase 3 Randomized, Placebo-Controlled, Double-Masked, Multicenter, Safety and Efficacy Study of Brimonidine Tartrate Nanoemulsion Eye Drops in Patients With Ocular Graft-vs-Host Disease",
+     "orgStudyIdInfo": {
+      "id": "OCU-300-301"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Ocugen"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Ocugen"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2020-04-30",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2022-07-06",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2022-06-10",
+     "overallStatus": "TERMINATED",
+     "primaryCompletionDateStruct": {
+      "date": "2020-04-30",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2022-07-06",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2022-06-10",
+     "resultsFirstSubmitQcDate": "2022-06-10",
+     "startDateStruct": {
+      "date": "2018-12-23",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2022-06",
+     "studyFirstPostDateStruct": {
+      "date": "2018-07-19",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2018-07-09",
+     "studyFirstSubmitQcDate": "2018-07-09",
+     "whyStopped": "Primary endpoint was not met."
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Brimonidine Tartrate Nanoemulsion Eye Drops 0.20% given 2 times a day for 4 weeks",
+       "interventionNames": [
+        "Drug: Brimonidine Tartrate"
+       ],
+       "label": "OCU-310",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Ophthalmic buffered saline Eye Drops given 2 times a day for 4 weeks",
+       "interventionNames": [
+        "Drug: Placebos"
+       ],
+       "label": "Placebos",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "OCU-310"
+       ],
+       "description": "Brimonidine Tartrate Nanoemulsion Eye Drops 0.20% given 2 times a day for 4 weeks.",
+       "name": "Brimonidine Tartrate",
+       "otherNames": [
+        "OCU-310"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebos"
+       ],
+       "description": "Ophthalmic buffered saline Eye Drops given 2 times a day for 4 weeks.",
+       "name": "Placebos",
+       "otherNames": [
+        "Ophthalmic buffered saline solution"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Dry Eye"
+     ],
+     "keywords": [
+      "Dry Eye Disease"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 252,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Study of Brimonidine Tartrate Nanoemulsion Eye Drop Solution in the Treatment of Dry Eye Disease (DED)",
+     "nctId": "NCT03785340",
+     "officialTitle": "A Phase 3 Randomized, Placebo-Controlled, Double-Masked, Multicenter, Safety and Efficacy Study of Brimonidine Tartrate 0.2% Nanoemulsion Eye Drops in Patients With Dry Eye Disease (DED)",
+     "orgStudyIdInfo": {
+      "id": "OCU-310-301"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Ocugen"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Ocugen"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2019-02-25",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2022-07-18",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2022-06-29",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2019-02-25",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2022-06-06",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2022-04-25",
+     "resultsFirstSubmitQcDate": "2022-05-24",
+     "startDateStruct": {
+      "date": "2018-12-03",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2022-06",
+     "studyFirstPostDateStruct": {
+      "date": "2018-12-24",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2018-12-20",
+     "studyFirstSubmitQcDate": "2018-12-20"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Biallelic autosomal recessive NR2E3 mutations subgroup or Autosomal dominant NR2E3 mutation or RHO mutations subgroup",
+       "interventionNames": [
+        "Drug: OCU400 Low Dose"
+       ],
+       "label": "Cohort 1 (Low Dose)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Biallelic autosomal recessive NR2E3 mutations subgroup or Autosomal dominant NR2E3 mutation or RHO mutations subgroup",
+       "interventionNames": [
+        "Drug: OCU400 Med Dose"
+       ],
+       "label": "Cohort 2 (Mid Dose)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Biallelic autosomal recessive NR2E3 mutations subgroup or Autosomal dominant NR2E3 mutation, RHO mutations subgroup",
+       "interventionNames": [
+        "Drug: OCU400 High Dose"
+       ],
+       "label": "Cohort 3 (High Dose)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Pediatric subjects will receive the medium dose concentration",
+       "interventionNames": [
+        "Drug: OCU400 Med Dose"
+       ],
+       "label": "Pediatric Arm",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Following DSMB confirmation, adult RP subjects with Biallelic autosomal recessive NR2E3 mutations, autosomal dominant NR2E3 mutations, Autosomal dominant RHO mutations will receive a high dose concentration of OCU400 or LCA patients with CEP290 mutation will receive a medium dose concentration of OCU400.",
+       "interventionNames": [
+        "Drug: OCU400 Med Dose",
+        "Drug: OCU400 High Dose"
+       ],
+       "label": "Phase 2 (High and Medium Dose)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Biallelic autosomal recessive NR2E3 mutations subgroup or Autosomal dominant NR2E3 mutation, RHO mutations subgroup will receive a high dose concentration of OCU400 and LCA patients with CEP290 will receive a medium dose concentration of OCU400",
+       "interventionNames": [
+        "Drug: OCU400 Med Dose",
+        "Drug: OCU400 High Dose"
+       ],
+       "label": "Adult Arm",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Eligible RP participants will be dosed in the untreated fellow eye with a therapeutic dose used in Phase 3 study of OCU400 (1.0x10E11vg/mL in 250 μl ) and will be followed for an additional 48 weeks.",
+       "interventionNames": [
+        "Drug: OCU400 Second Eye Dosing"
+       ],
+       "label": "Second Eye Dosing",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "A Prospective and Retrospective Natural History Study of RP and LCA:\n\nThis is an observatory study for the prospective natural history of RP and LCA in adult and pediatric subjects. The study will also collect and review retrospective data and ophthalmology examination of natural history and progression of disease for all subjects starting with earliest timepoint on or after the date of their diagnosis of RP or LCA.\n\nSubjects will be seen up to a total of four times during the 12 months of the Observational Period, at baseline, 3 months, 6 months and 12 months.\n\nA total of up to 100 subjects will be enrolled in the study, including:\n\nApproximately 76 newly enrolled subjects consisting of 50 adult RP subjects, 6 adult LCA subjects, 20 pediatric RP/LCA subjects. Up to 24 subjects that reconsent from the OCU400-101 study (subjects from OCU400-101 will provide data on their untreated eye)",
+       "label": "Natural History Study (OCU400-104)",
+       "type": "NO_INTERVENTION"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Cohort 1 (Low Dose)"
+       ],
+       "description": "subretinal injection of up to 1.66×10E10 vg/mL",
+       "name": "OCU400 Low Dose",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Adult Arm",
+        "Cohort 2 (Mid Dose)",
+        "Pediatric Arm",
+        "Phase 2 (High and Medium Dose)"
+       ],
+       "description": "subretinal injection of up to 3.33×10E10 vg/mL",
+       "name": "OCU400 Med Dose",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Adult Arm",
+        "Cohort 3 (High Dose)",
+        "Phase 2 (High and Medium Dose)"
+       ],
+       "description": "subretinal injection of up to 1.66×10E11 vg/mL",
+       "name": "OCU400 High Dose",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Second Eye Dosing"
+       ],
+       "description": "subretinal injection of 1.0x10E11vg/mL in 250 μl",
+       "name": "OCU400 Second Eye Dosing",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Retinitis Pigmentosa",
+      "Leber Congenital Amaurosis"
+     ],
+     "keywords": [
+      "NR2E3",
+      "Rhodopsin",
+      "Enhanced S-cone syndrome",
+      "Cep290"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 22,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Study to Assess the Safety and Efficacy of OCU400 for Retinitis Pigmentosa and Leber Congenital Amaurosis",
+     "nctId": "NCT05203939",
+     "officialTitle": "A Phase 1/2 Study to Assess the Safety and Efficacy of OCU400 for Retinitis Pigmentosa Associated With NR2E3 and RHO Mutations and Leber Congenital Amaurosis With Mutation(s) in CEP290 Gene",
+     "orgStudyIdInfo": {
+      "id": "OCU400-101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Ocugen"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Ocugen"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2027-03",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-07-31",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-07-30",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-03",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2022-01-24",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-07",
+     "studyFirstPostDateStruct": {
+      "date": "2022-01-24",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2021-11-16",
+     "studyFirstSubmitQcDate": "2022-01-10"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "BBV152",
+       "interventionNames": [
+        "Biological: BBV152"
+       ],
+       "label": "BBV152",
+       "type": "ACTIVE_COMPARATOR"
+      },
+      {
+       "description": "0.9% normal saline",
+       "interventionNames": [
+        "Biological: BBV152"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "BBV152",
+        "Placebo"
+       ],
+       "description": "Each participant will receive 2 doses of the investigational product intramuscular injection of either 6 μg of BBV15 vaccine or placebo.",
+       "name": "BBV152",
+       "otherNames": [
+        "Covaxin"
+       ],
+       "type": "BIOLOGICAL"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "COVID-19"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "interventionModelDescription": "1:1 randomization ratio",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "maskingDescription": "An unblinded pharmacist or another qualified individual will prepare and provide the syringe in a blinded manner to the study vaccine administrator (a trained and qualified study nurse, medical doctor, or otherwise qualified health care professional) who will perform the injection.",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "PREVENTION"
+     },
+     "enrollmentInfo": {
+      "count": 400,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE2",
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Immuno-bridging and Broadening Study of a Whole, Inactivated COVID-19 Vaccine BBV152 in Healthy Adults",
+     "nctId": "NCT05258669",
+     "officialTitle": "A Phase 2/3, Observer-Blind, Immuno-bridging, and Broadening Study of a Whole, Inactivated Severe Acute Respiratory Syndrome Coronavirus (SARS-CoV-2) Vaccine (BBV152) in Healthy Adults",
+     "orgStudyIdInfo": {
+      "id": "OCU-002"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Ocugen"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Ocugen"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2023-10-31",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastKnownStatus": "RECRUITING",
+     "lastUpdatePostDateStruct": {
+      "date": "2023-03-27",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2023-03-24",
+     "overallStatus": "UNKNOWN",
+     "primaryCompletionDateStruct": {
+      "date": "2023-09-01",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2022-02-20",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2023-03",
+     "studyFirstPostDateStruct": {
+      "date": "2022-02-28",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2022-02-22",
+     "studyFirstSubmitQcDate": "2022-02-25"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "interventions": [
+      {
+       "description": "Single Arm; BBV152 (COVAXIN™)",
+       "name": "BBV152",
+       "otherNames": [
+        "COVAXIN"
+       ],
+       "type": "BIOLOGICAL"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "COVID-19"
+     ],
+     "keywords": [
+      "Expanded Access",
+      "EAP",
+      "COVAXIN",
+      "BBV152"
+     ]
+    },
+    "designModule": {
+     "expandedAccessTypes": {
+      "intermediate": true
+     },
+     "studyType": "EXPANDED_ACCESS"
+    },
+    "identificationModule": {
+     "briefTitle": "Expanded Access Program of Whole, Inactivated COVID-19 Vaccine COVAXIN™ (BBV152) in Adults Aged 18 Years and Older",
+     "nctId": "NCT05541289",
+     "officialTitle": "An Intermediate Size Expanded Access Program of Whole, Inactivated SARS-CoV-2 Vaccine COVAXIN™ (BBV152) in Adults Aged 18 Years and Older",
+     "orgStudyIdInfo": {
+      "id": "OCU-004EA"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Ocugen"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Ocugen"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2022-09-22",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2022-09-20",
+     "overallStatus": "NO_LONGER_AVAILABLE",
+     "statusVerifiedDate": "2022-09",
+     "studyFirstPostDateStruct": {
+      "date": "2022-09-15",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2022-09-09",
+     "studyFirstSubmitQcDate": "2022-09-14"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "3+3 participants will receive intravitreal injection of OCU200 (0.5 mg/mL concentration).",
+       "interventionNames": [
+        "Drug: OCU200"
+       ],
+       "label": "Cohort 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "3+3 participants will receive intravitreal injection of OCU200 (1 mg/ML concentration).",
+       "interventionNames": [
+        "Drug: OCU200"
+       ],
+       "label": "Cohort 2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "3+3 participants will receive intravitreal injection of OCU200 (2 mg/mL concentration).",
+       "interventionNames": [
+        "Drug: OCU200"
+       ],
+       "label": "Cohort 3",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "3+3 participants will receive intravitreal injection of OCU200 (5 mg/mL concentration).",
+       "interventionNames": [
+        "Drug: OCU200"
+       ],
+       "label": "Cohort 4",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Cohort 1",
+        "Cohort 2",
+        "Cohort 3",
+        "Cohort 4"
+       ],
+       "description": "Intravitreal Injection",
+       "name": "OCU200",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Center Involved Diabetic Macular Edema",
+      "Diabetic Macular Edema"
+     ],
+     "keywords": [
+      "anti-VEGF",
+      "Transferrin",
+      "Tumstatin",
+      "DME"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "interventionModelDescription": "3+3 design with parallel and sequential dosing.",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 24,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "DME",
+     "briefTitle": "Phase I Study to Assess the Safety and Efficacy of OCU200 for Center-Involved Diabetic Macular Edema (DME)",
+     "nctId": "NCT05802329",
+     "officialTitle": "A Phase 1 Study To Assess The Safety And Efficacy Of OCU200 For Center-Involved Diabetic Macular Edema",
+     "orgStudyIdInfo": {
+      "id": "OCU200-101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Ocugen"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Ocugen"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2026-07-31",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-07-31",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-07-30",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2026-07-31",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2024-01-13",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-07",
+     "studyFirstPostDateStruct": {
+      "date": "2023-04-06",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2023-03-27",
+     "studyFirstSubmitQcDate": "2023-03-27"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Subjects will receive a single subretinal injection of 200uL OCU410ST in concentration of 1.5 x 10E11vg/mL",
+       "interventionNames": [
+        "Drug: OCU410ST"
+       ],
+       "label": "Phase 2/3 Randomized Treatment Arm",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Subjects will not receive any active study intervention",
+       "label": "Phase 2/3 Randomized Control Arm",
+       "type": "NO_INTERVENTION"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Phase 2/3 Randomized Treatment Arm"
+       ],
+       "description": "Subretinal Administration of OCU410ST",
+       "name": "OCU410ST",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Stargardt Disease"
+     ],
+     "keywords": [
+      "ABCA4-associated retinopathies"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "interventionModelDescription": "The study will be conducted in two phases.\n\nPhase 2/3 Pivotal Confirmatory Clinical Trial is a randomized, outcome assessor-masked, multicenter study.\n\nA total of fifty-one (51) subjects will be enrolled in a 2:1 ratio to either the treatment group (n=34 subjects) or to an untreated control group (n=17 subjects).\n\nTreatment group: 34 subjects. Subjects will receive a single subretinal injection of 200 µL OCU410ST in concentration of 1.5×10E11 vg/mL.\n\nControl group: 17 subjects. Subjects who are enrolled in the untreated control group of the study will not receive any treatment. They will be followed according to the same treatment schedule as the treated subjects.\n\nPhase 1 was a multicenter, open-label, dose-ranging/dose escalation study. A 3+3 study design will be used for the sequential dose-escalation cohorts in which subjects will receive a single subretinal injection of OCU410ST. Enrollment is complete for Phase 1.",
+      "maskingInfo": {
+       "masking": "SINGLE",
+       "maskingDescription": "The masked biostatistician and other study team members identified by the masking plan",
+       "whoMasked": [
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 51,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE2",
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "GARDian3",
+     "briefTitle": "A Phase 2/3 Trial to Assess the Efficacy and Safety of OCU410ST for Stargardt Disease",
+     "nctId": "NCT05956626",
+     "officialTitle": "A PHASE 1 STUDY TO ASSESS THE SAFETY AND EFFICACY OF OCU410ST FOR STARGARDT DISEASE AND PHASE 2/3 PIVOTAL CONFIRMATORY CLINICAL TRIAL TO ASSESS THE SAFETY AND EFFICACY OF OCU410ST FOR STARGARDT DISEASE",
+     "orgStudyIdInfo": {
+      "id": "OCU410ST-101/301"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Ocugen"
+     },
+     "secondaryIdInfos": [
+      {
+       "domain": "Ocugen",
+       "id": "OCU410ST-101",
+       "type": "OTHER"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Ocugen"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2026-09-28",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-07-31",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-07-30",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2026-09-28",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2023-08-25",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-07",
+     "studyFirstPostDateStruct": {
+      "date": "2023-07-21",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2023-06-30",
+     "studyFirstSubmitQcDate": "2023-07-13"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Low Dose (2.5×10E10 vg/mL): Subjects will receive a subretinal injection of OCU410 in the low dose concentration.",
+       "interventionNames": [
+        "Genetic: OCU410"
+       ],
+       "label": "Phase1 Dose Escalation- Low Dose (2.5×10E10 vg/mL):",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Medium Dose (5×10E10 vg/mL): Subjects will receive a subretinal injection of OCU410 in the medium dose concentration.",
+       "interventionNames": [
+        "Genetic: OCU410"
+       ],
+       "label": "Phase1 Dose Escalation- Medium Dose (5×10E10 vg/mL):",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "High Dose (1.5×10E11 vg/mL): Subjects will receive a subretinal injection in the high dose concentration.",
+       "interventionNames": [
+        "Genetic: OCU410"
+       ],
+       "label": "Phase1 Dose Escalation- High Dose (1.5×10E11 vg/mL):",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Maximum tolerated dose (MTD) from Phase 1: Subjects will receive a subretinal injection in the MTD concentration.",
+       "interventionNames": [
+        "Genetic: OCU410"
+       ],
+       "label": "Phase 2 Dose Expansion: Maximum tolerated dose (MTD) from Phase 1-Randomized Arm",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Subjects will receive a subretinal injection of OCU410 in a Lower Dose concentration.",
+       "interventionNames": [
+        "Genetic: OCU410"
+       ],
+       "label": "Phase 2 Dose Expansion: Lower Dose from Phase 1-Randomized Arm",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "No Intervention Control Arm: Subject will not receive any active study intervention",
+       "label": "Control Arm",
+       "type": "NO_INTERVENTION"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Phase 2 Dose Expansion: Lower Dose from Phase 1-Randomized Arm",
+        "Phase 2 Dose Expansion: Maximum tolerated dose (MTD) from Phase 1-Randomized Arm",
+        "Phase1 Dose Escalation- High Dose (1.5×10E11 vg/mL):",
+        "Phase1 Dose Escalation- Low Dose (2.5×10E10 vg/mL):",
+        "Phase1 Dose Escalation- Medium Dose (5×10E10 vg/mL):"
+       ],
+       "description": "Subretinal administration of OCU410",
+       "name": "OCU410",
+       "type": "GENETIC"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Geographic Atrophy"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "interventionModelDescription": "Study will be conducted in 2 phases:\n\nPhase 1 will be 3+3 design will be used for sequential dose-escalation cohorts in which subjects will receive a single subretinal injection of OCU410 in the study eye.\n\nPhase 2 is a dose-expansion phase of the study, where up to 51 subjects will be randomized in 1:1:1 ratio to either two OCU410 dose groups (n=17 per group) or to an untreated control group (n=17).",
+      "maskingInfo": {
+       "masking": "SINGLE",
+       "maskingDescription": "The following team members will be masked:\n\nBio-Statistician, Data Programmer, Imaging Reading Center Team, Head of Clinical Development and Medical Affairs.",
+       "whoMasked": [
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 60,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "ArMaDa",
+     "briefTitle": "Study to Assess the Safety and Efficacy of OCU410 for Geographic Atrophy",
+     "nctId": "NCT06018558",
+     "officialTitle": "A Phase 1/2 Study to Assess the Safety And Efficacy Of OCU410 For Geographic Atrophy Secondary To Dry Age-Related Macular Degeneration",
+     "orgStudyIdInfo": {
+      "id": "OCU410-101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Ocugen"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Ocugen"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2030-02-03",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-07-31",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-07-30",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2026-02-03",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2023-02-23",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-12",
+     "studyFirstPostDateStruct": {
+      "date": "2023-08-30",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2023-06-30",
+     "studyFirstSubmitQcDate": "2023-08-25"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Subjects will receive a sub-retinal injection of OCU400-301 modifier gene therapy product with a concentration of 2.5 x 10\\^10 vg/eye",
+       "interventionNames": [
+        "Genetic: Sub-Retinal Administration of OCU400-301"
+       ],
+       "label": "RHO Arm",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Subjects will receive a sub-retinal injection of OCU400-301 modifier gene therapy product with a concentration of 2.5 x 10\\^10 vg/eye",
+       "interventionNames": [
+        "Genetic: Sub-Retinal Administration of OCU400-301"
+       ],
+       "label": "Gene Agnostic Arm",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Will not receive any active study intervention",
+       "label": "Control for RHO Arm",
+       "type": "NO_INTERVENTION"
+      },
+      {
+       "description": "Will not receive any active study intervention",
+       "label": "Control for Gene Agnostic Arm",
+       "type": "NO_INTERVENTION"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Gene Agnostic Arm",
+        "RHO Arm"
+       ],
+       "description": "Sub-Retinal Administration of OCU400-301",
+       "name": "Sub-Retinal Administration of OCU400-301",
+       "type": "GENETIC"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Retinitis Pigmentosa"
+     ],
+     "keywords": [
+      "Modified Gene therapy",
+      "Retinitis Pigmentosa",
+      "RHO",
+      "RP",
+      "NR2E3",
+      "Subretinal Injection"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "SINGLE",
+       "maskingDescription": "This is outcome assessor blinded study",
+       "whoMasked": [
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 140,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "liMeliGhT",
+     "briefTitle": "A Phase 3 Study Of OCU400 Gene Therapy for the Treatment Of Retinitis Pigmentosa",
+     "nctId": "NCT06388200",
+     "officialTitle": "A Phase 3, Multi-Center, Randomized Study to Assess The Efficacy, Safety and Tolerability of Subretinal OCU400 Gene Therapy for the Treatment of Retinitis Pigmentosa",
+     "orgStudyIdInfo": {
+      "id": "OCU400-301"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Ocugen"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Ocugen"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2027-02-12",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": true,
+      "nctId": "NCT06574997",
+      "statusForNctId": "NO_LONGER_AVAILABLE"
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-07-31",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-07-30",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-02-12",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2024-06-18",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-07",
+     "studyFirstPostDateStruct": {
+      "date": "2024-04-29",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2024-04-09",
+     "studyFirstSubmitQcDate": "2024-04-24"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "interventions": [
+      {
+       "description": "Participants will receive a subretinal injection of OCU400 modifier gene therapy product.",
+       "name": "OCU400",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Retinitis Pigmentosa"
+     ],
+     "keywords": [
+      "Retinitis Pigmentosa",
+      "Modifier Gene Therapy",
+      "Modified Gene Therapy",
+      "RHO",
+      "RP",
+      "NR2E3",
+      "Subretinal Injection"
+     ]
+    },
+    "designModule": {
+     "expandedAccessTypes": {
+      "individual": true,
+      "intermediate": true
+     },
+     "nPtrsToThisExpAccNctId": 1,
+     "studyType": "EXPANDED_ACCESS"
+    },
+    "identificationModule": {
+     "briefTitle": "Expanded Access Program for RP in Adults",
+     "nctId": "NCT06574997",
+     "officialTitle": "An Expanded Access Program for Retinitis Pigmentosa in Adults Aged 18 Years and Older",
+     "orgStudyIdInfo": {
+      "id": "OCU400-EAP"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Ocugen"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Ocugen"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-02",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-09-29",
+     "overallStatus": "NO_LONGER_AVAILABLE",
+     "statusVerifiedDate": "2026-09",
+     "studyFirstPostDateStruct": {
+      "date": "2024-08-28",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2024-08-23",
+     "studyFirstSubmitQcDate": "2024-08-27"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "OCU410 Single Sub Retinal Injection, 200 µL, 1×10\\^10 vg/eye",
+       "interventionNames": [
+        "Biological: OCU410"
+       ],
+       "label": "OCU410",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Control Arm (Untreated)",
+       "label": "Untreated Control Arm",
+       "type": "NO_INTERVENTION"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "OCU410"
+       ],
+       "description": "Subretinal Injection",
+       "name": "OCU410",
+       "type": "BIOLOGICAL"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Dry Age-related Macular Degeneration"
+     ],
+     "keywords": [
+      "Geographical Atrophy",
+      "Dry Age Related"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "interventionModelDescription": "Multicenter, randomized, controlled, assessor masked study",
+      "maskingInfo": {
+       "masking": "SINGLE",
+       "maskingDescription": "Assessor Masked",
+       "whoMasked": [
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 237,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Phase 3 Study to Assess Efficacy, Safety & Tolerability of OCU410 For Geographic Atrophy Secondary to Dry AMD",
+     "nctId": "NCT07770828",
+     "officialTitle": "A Phase 3 Registrational Study To Assess The Efficacy, Safety, And Tolerability Of OCU410 For Geographic Atrophy Secondary To Dry Age-Related Macular Degeneration",
+     "orgStudyIdInfo": {
+      "id": "OCU410-301"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Ocugen"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Ocugen"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2031-07-30",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-08-19",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-08-17",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2028-07-30",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2026-08-11",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-08",
+     "studyFirstPostDateStruct": {
+      "date": "2026-08-18",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2026-08-13",
+     "studyFirstSubmitQcDate": "2026-08-13"
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,77 @@
+{
+ "nctId": "NCT00548340",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "2.965",
+         "value": "45.0"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "2.954",
+         "value": "46.4"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "3.020",
+         "value": "28.3"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "108"
+      },
+      {
+       "groupId": "OG001",
+       "value": "109"
+      },
+      {
+       "groupId": "OG002",
+       "value": "104"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Average latency to persistent sleep is defined as the length of time elapsed between lights off and onset of persistent sleep (defined as the point at which 10 minutes of uninterrupted sleep has begun as determined by PSG) between Baseline and the average of nights 1 and 8.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "VEC-162: 20 mg VEC-162 capsules, PO daily for five weeks",
+     "id": "OG000",
+     "title": "VEC-162 20 mg"
+    },
+    {
+     "description": "VEC-162: 50 mg VEC-162 capsules, PO daily for five weeks",
+     "id": "OG001",
+     "title": "VEC-162 50 mg"
+    },
+    {
+     "description": "Placebo: Placebo capsules, PO daily for five weeks",
+     "id": "OG002",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "One subject randomized to VEC-162 20 mg did not have any post-baseline PSG data and was excluded from the Full Analysis Population.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Night 1, and Night 8 measurement",
+   "title": "Average Change From Baseline - Latency to Persistent Sleep (LPS)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "minutes"
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "nctId": "NCT05210790",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "3.81",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "10.80",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<0.0001",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "6.42",
+     "statisticalComment": "P-value was obtained from the Cochran-Mantel-Haenszel test stratified by ongoing PV therapy.",
+     "statisticalMethod": "Cochran-Mantel-Haenszel"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "32.9"
+        },
+        {
+         "groupId": "OG001",
+         "value": "76.9"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "146"
+      },
+      {
+       "groupId": "OG001",
+       "value": "147"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Response was defined as absence of phlebotomy eligibility. Phlebotomy eligibility was defined as either: 1) A confirmed hematocrit (HCT) greater than or equal to (≥) 45% that was at least 3% higher than the baseline HCT, where confirmation was defined as 2 consecutive HCT assessments that were ≥ 45% and at least 3% higher than the baseline HCT, or 2) HCT ≥ 48%.",
+   "groups": [
+    {
+     "description": "Participants received their ongoing therapy for PV along with rusfertide matching placebo, SC injection, once weekly, from baseline up to Week 32.",
+     "id": "OG000",
+     "title": "Part 1a: Randomized, Double-Blind Period: Placebo"
+    },
+    {
+     "description": "Participants received their ongoing therapy for PV along with rusfertide once weekly, SC injection from baseline up to Week 32. Rusfertide doses were titrated to maintain hematocrit \\< 45%. The starting dose was 19 mg. The doses that were administered to Part 1a participants were 9.5, 19, 28, 41, 54, 69 and 82 mg.",
+     "id": "OG001",
+     "title": "Part 1a: Randomized, Double-Blind Period: Rusfertide"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "The ITT Set comprised all randomized participants according to the treatment assigned at randomization.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "From Weeks 20 to 32",
+   "title": "Part 1a: Percentage of Participants Who Achieved Response",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

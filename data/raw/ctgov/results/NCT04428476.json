@@ -1,0 +1,186 @@
+{
+ "nctId": "NCT04428476",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "11"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "13"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Adverse event (AE) is defined as any unfavourable and unintended sign (including an abnormal laboratory finding), symptom, or disease temporally associated with the use of study drug, whether or not considered related to the study drug. Serious AE: an AE that resulted in any of the following outcomes: death; life threatening; persistent/significant disability/incapacity; initial or prolonged inpatient hospitalization; congenital anomaly/birth defect or was otherwise considered medically important. TEAE: AE with onset after start of treatment or with onset date before the treatment start date but worsening after the treatment start date. TEAEs included both serious and non-serious TEAEs.",
+   "groups": [
+    {
+     "description": "Participants will receive an intravenous (IV) infusion of deramiocel (150 million Cardiosphere-Derived Cells (CDCs) per infusion) every 3 months for a total of 20 IV infusions.",
+     "id": "OG000",
+     "title": "Deramiocel"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Safety population included all participants who received investigational product.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline up to Month 12",
+   "title": "Number of Participants With Treatment-Emergent Adverse Events (TEAEs) From Baseline Through Month 12",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "6"
+        }
+       ]
+      }
+     ],
+     "title": "Grade 1"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "3"
+        }
+       ]
+      }
+     ],
+     "title": "Grade 2"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "2"
+        }
+       ]
+      }
+     ],
+     "title": "Grade 3"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Grade 4"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Grade 5"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "13"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Severity of adverse events (AE) were assessed by the investigator as Grade 1 = Mild (Transient or mild discomfort; no limitation in activity; no medical intervention/therapy required), Grade 2 = Moderate (Mild to moderate limitation in activity - some assistance may be needed; no or minimal medical intervention/therapy required), Grade 3 = Severe (Marked limitation in activity, some assistance usually required; medical intervention/therapy required and often requiring hospitalization or prolongation of hospitalization), Grade 4 = Life-threatening (Extreme limitation in activity, significant assistance required; significant medical intervention/therapy required; hospitalization, prolongation of hospitalization, or hospice care) and Grade 5 = Death.",
+   "groups": [
+    {
+     "description": "Participants will receive an intravenous (IV) infusion of deramiocel (150 million Cardiosphere-Derived Cells (CDCs) per infusion) every 3 months for a total of 20 IV infusions.",
+     "id": "OG000",
+     "title": "Deramiocel"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Safety population included all participants who received investigational product.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline up to Month 12",
+   "title": "Number of Participants With Treatment-Emergent Adverse Events (TEAEs) by Severity From Baseline Through Month 12",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "3.07",
+         "value": "-1.8"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "13"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "PUL 2.0 scale is a 22-item scale used to assess the change that occurs in motor performance of the upper limb overtime from when a participant is still ambulant to the time participant loses all arm function when non-ambulant. PUL 2.0 includes an entry item to define broad starting functional level and 22 items subdivided into shoulder level (six items), mid-level (nine items), and distal level (seven items). Each dimension (shoulder, mid, distal) can be scored separately. There is maximum score of 12 for shoulder level, 17 for mid-level, and 13 for distal level. The total score was calculated by adding three level scores and ranged from 0-42. Higher score indicates better upper limb function.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants will receive an intravenous (IV) infusion of deramiocel (150 million Cardiosphere-Derived Cells (CDCs) per infusion) every 3 months for a total of 20 IV infusions.",
+     "id": "OG000",
+     "title": "Deramiocel"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Safety population included all participants who received investigational product.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Month 12",
+   "title": "Change From Baseline in Functional Capacity as Assessed by Performance of the Upper Limb Test, Version 2 (PUL 2.0) Total Score.",
+   "type": "PRIMARY",
+   "unitOfMeasure": "units on a scale"
+  }
+ ]
+}

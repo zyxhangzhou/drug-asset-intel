@@ -1,0 +1,67 @@
+{
+ "nctId": "NCT03530293",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "comment": "Kaplan-Meier estimates for the time to loss of treatment response were not able to be calculated because of the low incidence of loss of treatment response events.",
+         "groupId": "OG000",
+         "lowerLimit": "NA",
+         "upperLimit": "NA",
+         "value": "NA"
+        },
+        {
+         "comment": "Kaplan-Meier estimates for the time to loss of treatment response were not able to be calculated because of the low incidence of loss of treatment response events.",
+         "groupId": "OG001",
+         "lowerLimit": "NA",
+         "upperLimit": "NA",
+         "value": "NA"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "26"
+      },
+      {
+       "groupId": "OG001",
+       "value": "26"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Loss of treatment response during the withdrawal period was defined as: 2 consecutive visits with 1) an increase in the Yale Global Tic Severity Scale (YGTSS) Total Tic Score (TTS) of greater than 35% or 7 points from the randomized withdrawal period baseline and 2) an increase in CGI-Tics-Severity score of ≥2 points from the randomized withdrawal period baseline; or discontinuation due to lack of efficacy or a treatment-emergent adverse event (TEAE) of worsening of tics. Median (lower and upper quartiles) Kaplan-Meier estimates for the time to loss of treatment response were not able to be calculated because of the low incidence of loss of treatment response events.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants received placebo (matching valbenazine) once daily from randomization (Week 8, 10, or 12) through Week 36. Randomization into this arm occurred after treatment with valbenazine once daily through randomization.\n\nPlacebo oral capsule: non-active dosage form",
+     "id": "OG000",
+     "title": "Randomized Placebo"
+    },
+    {
+     "description": "Participants received their optimized dose of valbenazine once daily from randomization (Week 8, 10, or 12) through Week 36. Randomization into this arm occurred after treatment with valbenazine once daily through randomization.\n\nValbenazine: vesicular monoamine transporter 2 (VMAT2) inhibitor",
+     "id": "OG001",
+     "title": "Randomized Valbenazine"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "The full analysis set includes all subjects who were randomized to a treatment group and had at least one post-randomization visit where loss of treatment response was able to be assessed.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Randomization (Week 8, 10 or 12) through Week 36",
+   "title": "Time to Loss of Treatment Response",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Days"
+  }
+ ]
+}

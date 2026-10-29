@@ -1,0 +1,127 @@
+{
+ "nctId": "NCT00325403",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "4",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "41",
+     "groupDescription": "Using an allocation ratio of 2:1 between oral treprostinil and placebo, a fixed sample size of approximately 195 subjects with access to 0.25 mg tablets at randomization would provide at least 90% power at a significance level of 0.01 (two-sided hypothesis) to detect a between-treatment difference in the change from Baseline to Week 12 in distance traversed during the 6-minute walk, assuming a true underlying treatment difference of 45 meters with a SD of 75 meters in both treatment groups.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER_LEGACY",
+     "pValue": "0.0125",
+     "pValueComment": "P-Value",
+     "paramType": "Hodges-Lehmann (H-L)",
+     "paramValue": "23",
+     "statisticalMethod": "ANCOVA"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "282",
+         "upperLimit": "381",
+         "value": "339"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "283",
+         "upperLimit": "386",
+         "value": "350"
+        }
+       ]
+      }
+     ],
+     "title": "6MWD at Baseline"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "246",
+         "upperLimit": "403",
+         "value": "343"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "300",
+         "upperLimit": "418",
+         "value": "370"
+        }
+       ]
+      }
+     ],
+     "title": "6MWD at Week 12"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "-41",
+         "upperLimit": "49",
+         "value": "-5"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "-16",
+         "upperLimit": "63",
+         "value": "25"
+        }
+       ]
+      }
+     ],
+     "title": "Change in 6MWD from Baseline to Week 12"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "77"
+      },
+      {
+       "groupId": "OG001",
+       "value": "151"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Placebo corrected change in six minute walk distance (6MWD) from Baseline to Week 12, correlates with the historical clinical standard for assessing patient functional status in the treatment of PAH and is considered an objective measure of patient functional status by the American Thoracic Society (ATS).\n\nThe six minute walk test was to be conducted 3 to 6 hours after the previous dose of study drug.\n\nThe Hodges-Lehmann median difference between treatment groups was used to estimate the treatment effect on 6MWD from Baseline to Week 12. A rank-based methodology was used instead of parametric-based methodology to avoid statistical bias caused by extreme outliers resulting from the handling of data that are missing due to death or clinical worsening of PAH. It is a more robust estimator than the between-treatment difference in medians.",
+   "dispersionType": "Inter-Quartile Range",
+   "groups": [
+    {
+     "description": "These subjects were randomly allocated to receive placebo twice daily and were included in the primary analysis population.",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "These subjects were randomly allocated to receive oral treprostinil twice daily and were included in the primary analysis population.",
+     "id": "OG001",
+     "title": "UT-15C (Oral Treprostinil)"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "Analyses were conducted using the modified intention to treat (mITT) group, which includes subjects with access to 0.25 mg tablets at randomization (n=228). All alpha was spent on this subgroup, thereby maintaining an overall type I error rate of 0.05. For sensitivity purposes, efficacy analyses were also performed on all enrolled subjects (n=349).",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline and Week 12",
+   "title": "Six Minute Walk Distance (6MWD)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "meters"
+  }
+ ]
+}

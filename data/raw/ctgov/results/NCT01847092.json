@@ -1,0 +1,73 @@
+{
+ "nctId": "NCT01847092",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.279",
+     "statisticalMethod": "Mixed Models Analysis"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "898.4",
+         "value": "-64.6"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "668.0",
+         "value": "104.8"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "77"
+      },
+      {
+       "groupId": "OG001",
+       "value": "77"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The difference between tenapanor and placebo in the change in UACR from baseline to the end of 12 weeks of treatment",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "AZD1722 in 5, 15, 30, or 60 mg capsules. Starting dose is 15 mg BID PO for 12 Weeks\n\nAZD1722",
+     "id": "OG000",
+     "title": "AZD1722"
+    },
+    {
+     "description": "Placebo capsule BID PO for 12 Weeks\n\nPlacebo: Placebo for AZD1722",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "MEAN",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Week 12",
+   "title": "Changes in Urine Albumin to Creatinine Ratio (UACR)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "mg/g"
+  }
+ ]
+}

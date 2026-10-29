@@ -1,0 +1,85 @@
+{
+ "nctId": "NCT00958776",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.69",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "1.55",
+     "estimateComment": "The hazard ratio was calculated using a Cox regression model with factors of duration of illness at randomization, ICU status at Baseline, use of supplemental oxygen at Baseline, influenza season, and influenza type.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+     "pValue": "0.973",
+     "paramType": "Hazard Ratio (HR)",
+     "paramValue": "1.03",
+     "statisticalComment": "Analysis stratified by duration of illness at randomization, ICU status and use of supplemental oxygen at Baseline, influenza season and type.",
+     "statisticalMethod": "Wilcoxon-Gehan statistic",
+     "testedNonInferiority": false
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "40.0",
+         "upperLimit": "61.9",
+         "value": "49.5"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "34.0",
+         "upperLimit": "57.9",
+         "value": "42.5"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "43"
+      },
+      {
+       "groupId": "OG001",
+       "value": "78"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Time to clinical resolution was defined as the time in hours from initiation of study treatment until normalization of at least 4 of the 5 signs within the respective normalization criteria, maintained for at least 24-hours. Time to clinical resolution was summarized by treatment group using the method of Kaplan-Meier. For subjects who did not experience clinical resolution, values were censored at the date of their last non-missing assessment of clinical resolution during the study (whether this assessment occurred as an inpatient or as an outpatient).",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Placebo Peramivir (BCX1812) administered intravenously, once daily (every 24 hrs) for 5 days (5 doses) in addition to institution's standard of care.",
+     "id": "OG000",
+     "title": "Placebo+SOC"
+    },
+    {
+     "description": "Adults (≥ 18 years): Peramivir (BCX-1812) 600 mg, administered intravenously, once daily (every 24 hrs) for 5 days (5 doses) in addition to institution's standard of care.\n\nAdolescents (12-17 years): Peramivir (BCX-1812) 10 mg/kg (not to exceed a maximum dose of 600 mg), administered intravenously, once daily (every 24 hrs) for 5 days (5 doses) in addition to institution's standard of care.",
+     "id": "OG001",
+     "title": "Peramivir+SOC"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "The Intent-to-Treat Infected-Non-NAI-Containing SOC (ITTI-Non-NAI) population included randomized subjects who received at least 1 dose of study drug, had confirmed influenza, and who received an SOC that does not contain a NAI at randomization.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "10 days",
+   "title": "Time to Clinical Resolution (Kaplan-Meier Estimate)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "hours"
+  }
+ ]
+}

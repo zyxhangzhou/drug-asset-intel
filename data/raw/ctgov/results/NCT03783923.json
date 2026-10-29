@@ -1,0 +1,84 @@
+{
+ "nctId": "NCT03783923",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "2.0178",
+         "value": "5.476"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "7"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Baseline"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "-0.200"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "1"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Change at Week 26"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "7"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants received deflazacort tablets, administered orally once daily at a target dose of 0.6 mg/kg/day.",
+     "id": "OG000",
+     "title": "Deflazacort"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Safety population included all enrolled participants who received at least 1 dose of deflazacort. Here, 'Number analyzed' = participants evaluable at specified timepoint.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Week 26",
+   "title": "Change From Baseline in Time to Climb 4 Stairs After 26 Weeks of Treatment With Deflazacort",
+   "type": "PRIMARY",
+   "unitOfMeasure": "seconds"
+  }
+ ]
+}

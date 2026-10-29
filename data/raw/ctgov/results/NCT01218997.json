@@ -1,0 +1,60 @@
+{
+ "nctId": "NCT01218997",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "336"
+        },
+        {
+         "groupId": "OG001",
+         "value": "53"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "371"
+      },
+      {
+       "groupId": "OG001",
+       "value": "65"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "A TEAE was defined as any adverse event (AE) that started or worsened on or after the administration of the first dose of study medication through 30 days after the end of study treatment.",
+   "groups": [
+    {
+     "description": "Administered once every 4 weeks via intramuscular (IM) injection for up to 1 year.",
+     "id": "OG000",
+     "title": "Medisorb Naltrexone 380 mg (VIVITROL)"
+    },
+    {
+     "description": "Oral tablet taken once each day for up to 1 year.",
+     "id": "OG001",
+     "title": "Oral Naltrexone 50 mg"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "All subjects who received at least 1 dose of study drug are included in the safety population.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "up to 1 year",
+   "title": "Number of Subjects Reporting at Least 1 Treatment-emergent Adverse Event (TEAE) While on Study",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

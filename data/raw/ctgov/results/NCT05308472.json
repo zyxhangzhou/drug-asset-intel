@@ -1,0 +1,79 @@
+{
+ "nctId": "NCT05308472",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "-6.200",
+         "upperLimit": "22.338",
+         "value": "8.07"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "-35.842",
+         "upperLimit": "-7.125",
+         "value": "-21.48"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "-56.531",
+         "upperLimit": "-26.950",
+         "value": "-41.74"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "24"
+      },
+      {
+       "groupId": "OG001",
+       "value": "26"
+      },
+      {
+       "groupId": "OG002",
+       "value": "25"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Percent change from baseline in PPIX concentration was analyzed using a mixed model repeated measures analysis in the ITT population.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Placebo: Oral dose, once a day for 120 days",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "DISC-1459: Oral 20 mg dose, once a day for 120 days",
+     "id": "OG001",
+     "title": "DISC-1459 Oral Low Dose"
+    },
+    {
+     "description": "DISC-1459: Oral 60 mg dose, once a day for 120 days",
+     "id": "OG002",
+     "title": "DISC-1459 Oral High Dose l"
+    }
+   ],
+   "paramType": "MEAN",
+   "reportingStatus": "POSTED",
+   "timeFrame": "121 days",
+   "title": "Percent Change From Baseline in Whole Blood Metal-free PPIX Levels",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Percent Change"
+  }
+ ]
+}

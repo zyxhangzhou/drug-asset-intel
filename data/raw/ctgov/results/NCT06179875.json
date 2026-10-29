@@ -1,0 +1,60 @@
+{
+ "nctId": "NCT06179875",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "21.1"
+        },
+        {
+         "groupId": "OG001",
+         "value": "51.2"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "57"
+      },
+      {
+       "groupId": "OG001",
+       "value": "82"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Proptosis response in the most proptotic eye was defined as a reduction of proptosis of ≥2 millimeters (mm) from baseline in the most proptotic eye (without a corresponding increase of ≥2 mm in the other eye) as measured by exophthalmometer. Missing data were not imputed.",
+   "groups": [
+    {
+     "description": "Non-responder participants who received veligrotug in the parent Study VRDN-001-101 received veligrotug 10 mg/kg Q3W for 12 weeks.",
+     "id": "OG000",
+     "title": "Veligrotug/Veligrotug"
+    },
+    {
+     "description": "Non-responder participants who received placebo in the parent Study VRDN-001-101 received veligrotug 10 mg/kg Q3W for 12 weeks.",
+     "id": "OG001",
+     "title": "Placebo/Veligrotug"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "mITT population included all randomized participants who received at least 1 dose of study drug. As prespecified, data were collected and reported for the participants. Therefore, the 'Ns' reported below = number of participants analyzed regardless of which eye was evaluated.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline to Week 15",
+   "title": "Proptosis Responder Rate (PRR) in the Most Proptotic Eye as Measured by Exophthalmometer",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

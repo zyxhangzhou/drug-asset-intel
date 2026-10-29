@@ -1,0 +1,63 @@
+{
+ "nctId": "NCT03559699",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "groupIds": [
+      "OG000"
+     ],
+     "nonInferiorityType": "OTHER",
+     "pValue": "0.0002",
+     "pValueComment": "1-sided P-value",
+     "statisticalMethod": "Binomial exact test"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "19.4",
+         "upperLimit": "57.6",
+         "value": "37"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "27"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Reduction in transfusion burden is defined as a ≥33% reduction in the number of RBC units transfused during the Fixed Dose Period standardized to 24 weeks compared with the historical transfusion burden standardized to 24 weeks (Standardized Control Period). The on-study (Fixed Dose Period) transfusion burden was calculated as the total number of transfused RBC units received in the Fixed Dose Period standardized to 24 weeks.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants received AG-348 tablets, administered orally, at a starting dose of 5 mg, BID, followed by two sequential dose level increases to 20 mg and 50 mg BID, for a period of 16 weeks in Part 1. This was followed by optimized dose BID, as determined by the investigator in Part 1, for a period of 24 weeks in Part 2.",
+     "id": "OG000",
+     "title": "AG-348"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Full analysis set included all participants who received at least 1 dose of study drug.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "From Part 2, Day 1 to Part 2 Week 24",
+   "title": "Percentage of Participants Achieving a Reduction in Transfusion Burden in Part 2",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

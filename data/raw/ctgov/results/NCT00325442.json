@@ -1,0 +1,125 @@
+{
+ "nctId": "NCT00325442",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "22",
+     "groupDescription": "Change in 6MWD from Baseline to Week 16",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+     "pValue": "0.072",
+     "paramType": "Hodges-Lehmann",
+     "paramValue": "11.0",
+     "statisticalMethod": "ANCOVA"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "302.0",
+         "upperLimit": "400.0",
+         "value": "362.5"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "304.0",
+         "upperLimit": "397.0",
+         "value": "362.5"
+        }
+       ]
+      }
+     ],
+     "title": "6MWD at Baseline"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "283.0",
+         "upperLimit": "420.5",
+         "value": "367.0"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "323.0",
+         "upperLimit": "420.0",
+         "value": "381.0"
+        }
+       ]
+      }
+     ],
+     "title": "6MWD at Week 16"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "-22.0",
+         "upperLimit": "35.5",
+         "value": "4.8"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "-10.0",
+         "upperLimit": "47.0",
+         "value": "14.5"
+        }
+       ]
+      }
+     ],
+     "title": "Change in 6MWD from Baseline to Week 16"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "176"
+      },
+      {
+       "groupId": "OG001",
+       "value": "174"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Placebo corrected change in six minute walk distance (6MWD) from Baseline to Week 16, correlates with the historical clinical standard for assessing patient functional status in the treatment of PAH and is considered an objective measure of patient functional status by the American Thoracic Society (ATS).\n\nThe six minute walk test was to be conducted 3 to 6 hours after the previous dose of study drug.",
+   "dispersionType": "Inter-Quartile Range",
+   "groups": [
+    {
+     "description": "Subjects were randomly allocated to receive oral placebo twice daily.",
+     "id": "OG000",
+     "title": "Placebo Arm"
+    },
+    {
+     "description": "Subjects in this arm were randomly allocated to receive oral treprostinil twice daily.",
+     "id": "OG001",
+     "title": "Active"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline and 16 Weeks",
+   "title": "Six Minute Walk Distance (6MWD)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "meters"
+  }
+ ]
+}

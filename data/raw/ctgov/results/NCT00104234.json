@@ -1,0 +1,63 @@
+{
+ "nctId": "NCT00104234",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "187",
+         "value": "187"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "127",
+         "value": "118"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "18"
+      },
+      {
+       "groupId": "OG001",
+       "value": "18"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Mean change in meters walked in 12 minutes. Mean change is the mean difference between the 12-Minute Walk Test at 96 weeks and that measured before first ever treatment with rhASB. For the rhASB/rhASB group, mean change is calculated for Week 96 - Baseline. For the placebo/rhASB group, mean change is calculated for Week 96 - Week 24.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Patients received rhASB in the double-blind study(ASB-03-05, NCT00067470)and continued to receive rhASB in the extension study(ASB-03-06).",
+     "id": "OG000",
+     "title": "rhASB/rhASB"
+    },
+    {
+     "description": "Patients received placebo in the double-blind study (ASB-03-05, NCT00067470)then received rhASB in the extension study (ASB-03-06).",
+     "id": "OG001",
+     "title": "Placebo/rhASB"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "The efficacy analysis included all subjects who continued in the extension study (ASB-03-06) except the 1 subject from the rhASB/rhASB group and 1 subject from the placebo/rhASB group who missed the Week 96 measurement.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline of ASB-03-05 through week 96 of ASB-03-06",
+   "title": "12-Minute Walk Test",
+   "type": "PRIMARY",
+   "unitOfMeasure": "meters"
+  }
+ ]
+}

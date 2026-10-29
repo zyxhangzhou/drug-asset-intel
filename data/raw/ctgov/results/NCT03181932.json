@@ -1,0 +1,121 @@
+{
+ "nctId": "NCT03181932",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-1.4",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "4.1",
+     "groupDescription": "Based on previous experience, a sample size of 45 participants per arm would provide 89% power to detect a statistically significant difference at alpha level of 0.05. To account for potential dropouts and/or smaller effect size in a 3-cycle trial, a sample size of 75 participants per arm was to be enrolled in the primary analysis population, which if all completed would provide 90% power to detect a difference of 3.4% at 20 weeks assuming the same standard deviation of 6.3%.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityComment": "The primary efficacy endpoint was tested sequentially at Week 4 (end of Cycle 1), Week 12 (end of Cycle 2) and at Week 20 (end of Cycle 3). If a statistically significant difference was observed in favor of vancomycin inhalation powder compared to placebo after Cycle 1, then the mean change in the FEV1 percent predicted during Cycle 2 was to be tested. Similarly, if the effect after Cycle 2 was statistically significant, then the analysis of Baseline to end of Cycle 3 was to be tested.",
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.325",
+     "paramType": "Least square mean difference",
+     "paramValue": "1.4",
+     "statisticalMethod": "Mixed Models Analysis"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "8.078",
+         "value": "2.39"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "8.581",
+         "value": "1.18"
+        }
+       ]
+      }
+     ],
+     "title": "Week 4"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "8.414",
+         "value": "1.52"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "8.056",
+         "value": "0.13"
+        }
+       ]
+      }
+     ],
+     "title": "Week 12"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "9.967",
+         "value": "1.61"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "8.924",
+         "value": "-1.94"
+        }
+       ]
+      }
+     ],
+     "title": "Week 20"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "64"
+      },
+      {
+       "groupId": "OG001",
+       "value": "69"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The mean absolute change from baseline in FEV1 percent predicted was analyzed sequentially at Week 4 (end of Cycle 1), Week 12 (end of Cycle 2) and at Week 20 (end of Cycle 3).",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Vancomycin inhalation powder 30 mg is administered twice daily (BID) during the 24-week double-blind period (Period 1) by inhalation during three dosing cycles, each cycle being 28 days of treatment followed by 28 days of observation.\n\nVancomycin inhalation powder: 100 participants are to be treated with double-blind vancomycin inhalation powder (75 subjects ≤21 years old, 25 subjects \\>21 years old) for 24 weeks during Period 1.",
+     "id": "OG000",
+     "title": "Double-blind Vancomycin Inhalation Powder"
+    },
+    {
+     "description": "Matching placebo is administered BID during the 24-week double-blind period (Period 1) by inhalation during three dosing cycles, each cycle being 28 days of treatment followed by 28 days of observation.\n\nPlacebo inhalation powder: 100 participants are to be treated with double-blind placebo (75 subjects ≤21 years old, 25 subjects \\>21 years old) for 24 weeks during Period 1.",
+     "id": "OG001",
+     "title": "Double-blind Placebo Inhalation Powder"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Intention-to-treat (ITT) population (defined as all randomized participants). Participants were analyzed according to randomized treatment. The ITT population was also split out by age (≤21 years, \\>21 years). The population of participants ≤21 years was used for all main analyses of efficacy endpoints.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline and Week 4, 12 and 20",
+   "title": "Absolute Change From Baseline in Forced Expiratory Volume in 1 Second (FEV1) Percent Predicted",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Percent predicted"
+  }
+ ]
+}

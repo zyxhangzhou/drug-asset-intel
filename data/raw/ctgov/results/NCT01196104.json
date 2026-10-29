@@ -1,0 +1,84 @@
+{
+ "nctId": "NCT01196104",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-0.4901",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.3956",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "0.2158",
+     "groupDescription": "ANCOVA model with terms of treatment as a fixed effect and baseline HbA1c as covariate",
+     "groupIds": [
+      "OG001"
+     ],
+     "nonInferiorityComment": "Study terminated early due to business reasons, results are not properly powered.",
+     "nonInferiorityType": "NON_INFERIORITY_OR_EQUIVALENCE",
+     "pValue": "0.8283",
+     "paramType": "Mean Difference (Final Values)",
+     "paramValue": "-0.0473",
+     "statisticalMethod": "ANCOVA",
+     "testedNonInferiority": true
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.1468",
+         "value": "-1.2179"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.1571",
+         "value": "-1.2652"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "16"
+      },
+      {
+       "groupId": "OG001",
+       "value": "14"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Change from Baseline in glycated hemoglobin at Week 16",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Technosphere Insulin Inhalation Powder (administered prior to each meal) in combination with insulin glargine (once or twice daily); doses individualized for each patient",
+     "id": "OG000",
+     "title": "Technosphere Insulin + Insulin Glargine"
+    },
+    {
+     "description": "Insulin Aspart (prior to each meal) and Insulin Glargine (once or twice daily) ; doses individualized for each patient",
+     "id": "OG001",
+     "title": "Insulin Aspart + Insulin Glargine"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Safety Population, participants with data available at Baseline and Week 16",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline to Week 16",
+   "title": "Change in HbA1c (%) From Baseline to Week 16",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Percentage of total hemoglobin"
+  }
+ ]
+}

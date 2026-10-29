@@ -1,0 +1,104 @@
+{
+ "nctId": "NCT03482882",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-12.0",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-9.5",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "0.63",
+     "groupIds": [
+      "OG000"
+     ],
+     "nonInferiorityType": "OTHER",
+     "pValue": "<0.0001",
+     "paramType": "LSM",
+     "paramValue": "-10.8",
+     "statisticalMethod": "Mixed-effect model repeated measures"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.46",
+         "value": "19.2"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "45"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Baseline HAMD-17 total score"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.77",
+         "value": "8.1"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "39"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Week 8 HAMD-17 total score"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "45"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The HAMD-17 is a multiple-item questionnaire to assess the severity of depression, including items of mood, feelings of guilt, suicide ideation, insomnia, agitation or retardation, anxiety, weight loss, and somatic symptoms. Each of the 17 items is scored on a 3- or 5-point scale (depending on the item). The minimum total score is 0; the maximum total score is 52. A higher total score signifies more severe depression.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "The Full Analysis Set (FAS) includes all subjects (45 participants) who received at least one dose of study drug (34mg pimavanserin taken as two 17mg tablets, once daily by mouth) and who have both a baseline value and post-baseline value for the Hamilton Depression Scales (17 items; HAMD-17)",
+     "id": "OG000",
+     "title": "Pimavanserin Full Analysis Set"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Patients treated with study drug and with at least one post-baseline assessment of the HAMD-17. The Full Analysis Set had 45 participants at baseline. The Full Analysis Set at Week 8 had 39 participants.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "From baseline to Week 8",
+   "title": "Change From Baseline to Week 8 in HAMD-17 (Hamilton Depression Scale -17 Items) Total Score",
+   "type": "PRIMARY",
+   "unitOfMeasure": "score on a scale"
+  }
+ ]
+}

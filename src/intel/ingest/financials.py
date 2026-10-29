@@ -63,7 +63,9 @@ DEBT_TOTAL = ("LongTermDebt",)
 DEBT_SPLIT = ("LongTermDebtNoncurrent", "LongTermDebtCurrent")
 DEBT_CONVERTIBLE = ("ConvertibleNotesPayable", "ConvertibleDebtNoncurrent")
 OCF = "NetCashProvidedByUsedInOperatingActivities"
-SHARES = "EntityCommonStockSharesOutstanding"
+SHARES = "EntityCommonStockSharesOutstanding"  # dei, cover page
+BALANCE_SHARES = "CommonStockSharesOutstanding"  # us-gaap, balance sheet
+STALE_SHARES_DAYS = 120
 US_GAAP_TAGS = {
     *CASH_COMBINED,
     CASH,
@@ -74,6 +76,7 @@ US_GAAP_TAGS = {
     *DEBT_SPLIT,
     *DEBT_CONVERTIBLE,
     OCF,
+    BALANCE_SHARES,
 }
 FORMS = {"10-K", "10-Q"}
 RUNWAY_NOTE = "资金可支撑月数 = 现金及投资 ÷ 月均经营现金消耗（−经营现金流 ÷ 期间月数）；推算值"
@@ -230,8 +233,14 @@ def months(fact: Fact) -> int:
     return round((fact.end - fact.start).days / 30.44)
 
 
-def shares_outstanding(dei: dict) -> Fact | None:
-    facts = _facts(dei, SHARES, "shares")
+def shares_outstanding(dei: dict, gaap: dict) -> Fact | None:
+    """The most recent of the cover-page count and the balance-sheet count.
+
+    Some filers stop tagging the cover-page count; its last value can be years old.
+    """
+    facts = _facts(dei, SHARES, "shares") + [
+        f for f in _facts(gaap, BALANCE_SHARES, "shares") if f.start is None
+    ]
     return max(facts, key=lambda f: (f.end, f.filed)) if facts else None
 
 
@@ -352,13 +361,24 @@ def _snapshot_for(ctx: BuildContext, company: Company, target: Target) -> None:
         snap.operating_cash_flow_months = months(ocf)
     else:
         ctx.gap("financial_snapshot", company.ticker, "operating_cash_flow_ytd", "no_ocf_tag", "")
-    shares = shares_outstanding(dei)
+    shares = shares_outstanding(dei, gaap)
+    if shares and (end - shares.end).days > STALE_SHARES_DAYS:
+        ctx.gap(
+            "financial_snapshot",
+            company.ticker,
+            "shares_outstanding",
+            "shares_stale",
+            f"最新流通股日期 {shares.end}，早于资产负债表日 {end} 超过 {STALE_SHARES_DAYS} 天",
+        )
+        shares = None
     if shares:
+        label = "封面页日期" if shares.tag == SHARES else "资产负债表日"
+        ns = "dei" if shares.tag == SHARES else "us-gaap"
         record(
             "shares_outstanding",
             shares.value,
             [shares],
-            f"dei:{SHARES}；封面页日期 {shares.end}；{shares.form} 申报于 {shares.filed}",
+            f"{ns}:{shares.tag}；{label} {shares.end}；{shares.form} 申报于 {shares.filed}",
         )
 
     if cash and ocf and ocf.value < 0:
@@ -411,7 +431,7 @@ def _snapshot_for(ctx: BuildContext, company: Company, target: Target) -> None:
             snap.market_cap = cap
             note = (
                 f"市值 = {day} 收盘价 {close} × 流通股 {shares.value:,.0f}"
-                f"（封面页日期 {shares.end}）"
+                f"（流通股日期 {shares.end}）"
             )
             ctx.claim(
                 "financial_snapshot",

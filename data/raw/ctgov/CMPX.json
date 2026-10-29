@@ -1,0 +1,752 @@
+{
+ "aliases": [
+  "Compass Therapeutics"
+ ],
+ "studies": [
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Escalating doses of CTX-471 depending on cohort at enrollment",
+       "interventionNames": [
+        "Drug: CTX-471"
+       ],
+       "label": "Arm 1 Part 1 Dose Escalation",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Two dose groups of CTX-471 (0.3 mg/kg and 0.6 mg/kg)",
+       "interventionNames": [
+        "Drug: CTX-471"
+       ],
+       "label": "Arm 1 Part 2 Dose Expansion",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Escalating doses of CTX-471 in combination with pembrolizumab (KEYTRUDA® ) depending on cohort at enrollment",
+       "interventionNames": [
+        "Drug: CTX-471",
+        "Drug: Pembrolizumab (KEYTRUDA®)"
+       ],
+       "label": "Arm 2 Part 1 Dose Escalation",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Two cohorts of CTX-471 (0.3 mg/kg and 0.6 mg/kg) in combination with pembrolizumab (KEYTRUDA® ) (400 mg) in three tumor type subgroups. Cohort 1 - Group 1A - NSCLC , Group 1B -SCLC and Group 1C - Melanoma. Cohort 2 Group 2A - NSCLC, Group 2B - SCLC and Group 2C -Melanoma.",
+       "interventionNames": [
+        "Drug: CTX-471",
+        "Drug: Pembrolizumab (KEYTRUDA®)"
+       ],
+       "label": "Arm 2 Part 2 Dose Expansion",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Arm 1 Part 1 Dose Escalation",
+        "Arm 1 Part 2 Dose Expansion",
+        "Arm 2 Part 1 Dose Escalation",
+        "Arm 2 Part 2 Dose Expansion"
+       ],
+       "description": "IV infusion every 2 weeks",
+       "name": "CTX-471",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Arm 2 Part 1 Dose Escalation",
+        "Arm 2 Part 2 Dose Expansion"
+       ],
+       "description": "IV infusion every 6 weeks",
+       "name": "Pembrolizumab (KEYTRUDA®)",
+       "otherNames": [
+        "KEYTRUDA®"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Locally Advanced Solid Tumor",
+      "Metastatic Cancer",
+      "Non-small Cell Lung Cancer",
+      "Small Cell Lung Cancer",
+      "Mesothelioma",
+      "Melanoma",
+      "Head and Neck Cancer"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 100,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Study of CTX-471 as a Monotherapy or in Combination With Pembrolizumab in Patients Post PD-1/PD-L1 Inhibitors in Metastatic or Locally Advanced Malignancies",
+     "nctId": "NCT03881488",
+     "officialTitle": "A Phase 1, Open-Label, Multiple-Ascending Dose Study of the Safety and Tolerability of CTX-471 Administered Either as a Monotherapy or in Combination With Pembrolizumab in Patients With Inadequate Responses to PD-1/PD-L1 Checkpoint Inhibitors in Metastatic or Locally Advanced Malignancies",
+     "orgStudyIdInfo": {
+      "id": "CTX-471-001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Compass Therapeutics"
+     },
+     "secondaryIdInfos": [
+      {
+       "domain": "Merck, Sharp & Dohme, LLC, Rahway, NJ USA",
+       "id": "KEYNOTE-E65",
+       "type": "OTHER"
+      },
+      {
+       "domain": "Merck, Sharp & Dohme, LLC, Rahway, NJ USA",
+       "id": "MK-3475-E65",
+       "type": "OTHER"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "collaborators": [
+      {
+       "class": "INDUSTRY",
+       "name": "IQVIA Pty Ltd"
+      },
+      {
+       "class": "UNKNOWN",
+       "name": "Merck, Sharp & Dohme, LLC, Rahway, NJ USA"
+      }
+     ],
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Compass Therapeutics"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2025-05-21",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-09",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-07-16",
+     "overallStatus": "TERMINATED",
+     "primaryCompletionDateStruct": {
+      "date": "2025-05-21",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2026-10-09",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2026-05-20",
+     "resultsFirstSubmitQcDate": "2026-07-16",
+     "startDateStruct": {
+      "date": "2019-05-17",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-06",
+     "studyFirstPostDateStruct": {
+      "date": "2019-03-19",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2019-03-13",
+     "studyFirstSubmitQcDate": "2019-03-18",
+     "whyStopped": "The combination therapy arm of the study with pembrolizumab did not yield an efficacy signal, so enrollment into the combination therapy arm was terminated. The monotherapy arm of the study was fully enrolled and completed."
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: CTX-009",
+        "Drug: Paclitaxel"
+       ],
+       "label": "CTX-009 plus Paclitaxel",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Patients randomized to receive paclitaxel only have the option to crossover to the CTX-009 plus paclitaxel arm after documented disease progression per RECIST v1.1.",
+       "interventionNames": [
+        "Drug: Paclitaxel"
+       ],
+       "label": "Paclitaxel",
+       "type": "ACTIVE_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "CTX-009 plus Paclitaxel"
+       ],
+       "description": "IV infusion on day 1 and 14 of every 28 day cycle",
+       "name": "CTX-009",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "CTX-009 plus Paclitaxel",
+        "Paclitaxel"
+       ],
+       "description": "IV infusion on day 1, 8, and 15 of every 28 day cycle",
+       "name": "Paclitaxel",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Biliary Tract Cancer",
+      "Cholangiocarcinoma",
+      "Gall Bladder Cancer",
+      "Ampullary Cancer"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "SINGLE",
+       "maskingDescription": "A blinded independent review committee will be used to assess the primary study endpoint.",
+       "whoMasked": [
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 168,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2",
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Study of CTX-009 in Combination With Paclitaxel in Adult Patients With Unresectable Advanced, Metastatic or Recurrent Biliary Tract Cancers (COMPANION-002)",
+     "nctId": "NCT05506943",
+     "officialTitle": "A Phase 2/3 Randomized, Controlled Study of CTX-009 in Combination With Paclitaxel Versus Paclitaxel Alone in Adult Patients With Unresectable Advanced, Metastatic or Recurrent Biliary Tract Cancers Who Have Received One Prior Systemic Chemotherapy Regimen",
+     "orgStudyIdInfo": {
+      "id": "CTX-009-002"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Compass Therapeutics"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Compass Therapeutics"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2027-08-31",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-09-02",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-09-01",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-08-31",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2023-01-09",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-08",
+     "studyFirstPostDateStruct": {
+      "date": "2022-08-18",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2022-08-15",
+     "studyFirstSubmitQcDate": "2022-08-16"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: CTX-009"
+       ],
+       "label": "CTX-009 Treatment",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "CTX-009 Treatment"
+       ],
+       "description": "IV infusion administered on day 1 and 15 of every 28-day cycle",
+       "name": "CTX-009",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Metastatic Colorectal Cancer",
+      "Colon Cancer",
+      "Rectal Cancer"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "interventionModelDescription": "Approximately 37 patients will be enrolled into Stage 1, and if criteria are met to move to Stage 2, an additional 47 patients will be enrolled, for a total of approximately 84 patients.",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 49,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "COMPANION-003",
+     "briefTitle": "A Study of CTX-009 in Adult Patients With Metastatic Colorectal Cancer",
+     "nctId": "NCT05513742",
+     "officialTitle": "A Phase 2 Study of CTX-009 in Adult Patients With Metastatic Colorectal Cancer Who Have Received Two or Three Prior Systemic Chemotherapy Regimens",
+     "orgStudyIdInfo": {
+      "id": "CTX-009-003"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Compass Therapeutics"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Compass Therapeutics"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2025-05-15",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-09-25",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-09-01",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2025-05-15",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2026-07-28",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2026-05-14",
+     "resultsFirstSubmitQcDate": "2026-06-30",
+     "startDateStruct": {
+      "date": "2022-12-08",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-06",
+     "studyFirstPostDateStruct": {
+      "date": "2022-08-24",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2022-08-22",
+     "studyFirstSubmitQcDate": "2022-08-22"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Escalating doses of CTX-8371",
+       "interventionNames": [
+        "Drug: CTX-8371"
+       ],
+       "label": "Dose Escalation Cohort 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Two CTX-8371 dose groups (3.0 mg/kg and 10.0 mg/kg) in three tumor type subgroups (NSCLC, TNBC, and HL)",
+       "interventionNames": [
+        "Drug: CTX-8371"
+       ],
+       "label": "Dose Expansion Cohort 2",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Dose Escalation Cohort 1",
+        "Dose Expansion Cohort 2"
+       ],
+       "description": "Intravenous (IV) infusion every two weeks.",
+       "name": "CTX-8371",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Non Small Cell Lung Cancer",
+      "Triple Negative Breast Cancer",
+      "Hodgkin Lymphoma",
+      "Head and Neck Squamous Cell Carcinoma",
+      "Malignant Melanoma"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 85,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Phase 1 of CTX-8371 in Patients With Advanced Malignancies",
+     "nctId": "NCT06150664",
+     "officialTitle": "A Phase 1, Open-Label, Multiple-Ascending Dose Study of the Safety and Tolerability of CTX-8371 in Patients With Advanced Malignancies",
+     "orgStudyIdInfo": {
+      "id": "CTX-8371-001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Compass Therapeutics"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Compass Therapeutics"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2027-05",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-07-28",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-07-27",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2026-12",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2024-03-19",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-04",
+     "studyFirstPostDateStruct": {
+      "date": "2023-11-29",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2023-11-17",
+     "studyFirstSubmitQcDate": "2023-11-27"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Escalating doses of CTX-10726",
+       "interventionNames": [
+        "Drug: CTX-10726"
+       ],
+       "label": "Dose Escalation Cohort 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Dose of CTX-10726 depending on Cohort 1 data",
+       "interventionNames": [
+        "Drug: CTX-10726"
+       ],
+       "label": "Dose Expansion Cohort 2",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Dose Escalation Cohort 1",
+        "Dose Expansion Cohort 2"
+       ],
+       "description": "Intravenous (IV) infusion (0.3-10.0mg/kg) every two weeks.",
+       "name": "CTX-10726",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Gastroesophageal Cancer (GC)",
+      "Hepatocellular Carcinoma (HCC)",
+      "Endometrial Cancer",
+      "Renal Cell Carcinoma (RCC)"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SINGLE_GROUP",
+      "interventionModelDescription": "Sequential Assignment",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 70,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Phase 1 Study of the Safety and Tolerability of CTX-10726",
+     "nctId": "NCT07419841",
+     "officialTitle": "A Phase 1, Open-Label, Multiple-Ascending Dose Study of the Safety and Tolerability of CTX-10726 in Patients With Advanced Malignancies",
+     "orgStudyIdInfo": {
+      "id": "CTX-10726-001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Compass Therapeutics"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Compass Therapeutics"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2028-11-01",
+      "type": "ESTIMATED"
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-23",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-22",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2028-04-01",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2026-05-28",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-02",
+     "studyFirstPostDateStruct": {
+      "date": "2026-02-19",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2026-02-12",
+     "studyFirstSubmitQcDate": "2026-02-12"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: CTX-471"
+       ],
+       "label": "Dose Level 0.3 mg/kg",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: CTX-471"
+       ],
+       "label": "Dose Level 0.6 mg/kg",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Dose Level 0.3 mg/kg",
+        "Dose Level 0.6 mg/kg"
+       ],
+       "description": "Patients will receive CTX-471 as an intravenous (IV) infusion every 2 weeks until disease progression or unacceptable toxicity.",
+       "name": "CTX-471",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Neuroendocrine Neoplasm",
+      "Neuroendocrine Carcinomas",
+      "Neuroendocrine Tumors"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 58,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Study of CTX-471 in Patients With Neural Cell Adhesion Molecule (NCAM) Positive Neuroendocrine Neoplasms",
+     "nctId": "NCT07684170",
+     "officialTitle": "A Phase 2, Open-Label Study of CTX-471 in Patients With NCAM Positive Tumors",
+     "orgStudyIdInfo": {
+      "id": "CTX-471-002"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Compass Therapeutics"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Compass Therapeutics"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2029-09",
+      "type": "ESTIMATED"
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-07-06",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-07-01",
+     "overallStatus": "NOT_YET_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2028-09",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2026-09",
+      "type": "ESTIMATED"
+     },
+     "statusVerifiedDate": "2026-06",
+     "studyFirstPostDateStruct": {
+      "date": "2026-07-06",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2026-06-17",
+     "studyFirstSubmitQcDate": "2026-07-01"
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,159 @@
+{
+ "nctId": "NCT05099640",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-463.07",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-328.66",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "33.848",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "OTHER",
+     "pValue": "<0.0001",
+     "paramType": "LS Mean Difference",
+     "paramValue": "-395.87",
+     "statisticalMethod": "Mixed Models Analysis"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "24.066",
+         "value": "-415.75"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "24.223",
+         "value": "-19.88"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "49"
+      },
+      {
+       "groupId": "OG001",
+       "value": "49"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Baseline was defined as the average of Day -1 and Day 1 predose blood Phe levels in Part 2, and mean level at Weeks 5 and 6 was calculated as the average of blood Phe levels collected during the Week 5-6 analysis visit window. Least square (LS) mean and standard error (SE) were calculated using mixed model repeated measures (MMRM) method.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Participants received sepiapterin 20 mg/kg daily for Weeks 1 and 2, then sepiapterin 40 mg/kg daily for Weeks 3 and 4, then sepiapterin 60 mg/kg daily for Weeks 5 and 6.",
+     "id": "OG000",
+     "title": "Part 2: Sepiapterin"
+    },
+    {
+     "description": "Participants received equivalent quantities of placebo to match the 20 to 40 to 60 mg/kg dose escalation of the sepiapterin treatment arm.",
+     "id": "OG001",
+     "title": "Part 2: Placebo"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Full Analysis Set (FAS) included all participants who were randomized and received at least 1 dose of double-blind study drug in Part 2. Non-responders in Part 1 did not continue to Part 2 and were not included in the analysis. Here, 'Overall number of participants analyzed' = participants of FAS with Phe reduction from Baseline ≥30% during Part 1, who continued in Part 2. This outcome measure was pre-specified to collect data only for Part 2.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Weeks 5 and 6 (average of the 2-week period)",
+   "title": "Part 2 Double-blind Phase: Mean Change From Baseline in Blood Phenylketonuria (Phe) Level to Weeks 5 and 6 (Averaged Over a 2-week Period) in Participants With Phe Reduction From Baseline ≥30% During Part 1",
+   "type": "PRIMARY",
+   "unitOfMeasure": "μmol/L"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-74.09",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-54.35",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "4.973",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "OTHER",
+     "pValue": "<0.0001",
+     "paramType": "LS Mean Difference",
+     "paramValue": "-64.22",
+     "statisticalMethod": "Mixed Models Analysis"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "3.537",
+         "value": "-63.40"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "3.561",
+         "value": "0.82"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "49"
+      },
+      {
+       "groupId": "OG001",
+       "value": "49"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Baseline was defined as the average of Day -1 and Day 1 predose blood Phe levels in Part 2, and mean level at Weeks 5 and 6 was calculated as the average of blood Phe levels collected during the Week 5-6 analysis visit window. LS mean and SE were calculated using MMRM method.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Participants received sepiapterin 20 mg/kg daily for Weeks 1 and 2, then sepiapterin 40 mg/kg daily for Weeks 3 and 4, then sepiapterin 60 mg/kg daily for Weeks 5 and 6.",
+     "id": "OG000",
+     "title": "Part 2: Sepiapterin"
+    },
+    {
+     "description": "Participants received equivalent quantities of placebo to match the 20 to 40 to 60 mg/kg dose escalation of the sepiapterin treatment arm.",
+     "id": "OG001",
+     "title": "Part 2: Placebo"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "FAS included all participants who were randomized and received at least 1 dose of double-blind study drug in Part 2. Non-responders in Part 1 did not continue to Part 2 and were not included in the analysis. Here, 'Overall number of participants analyzed' = participants of FAS with Phe reduction from Baseline ≥30% during Part 1, who continued in Part 2. This outcome measure was pre-specified to collect data only for Part 2.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Weeks 5 and 6 (average of the 2-week period)",
+   "title": "Part 2 Double-blind Phase: Percent Change From Baseline in Blood Phe Level to Weeks 5 and 6 (Averaged Over a 2-week Period) in Participants With Phe Reduction From Baseline ≥30% During Part 1",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percent change"
+  }
+ ]
+}

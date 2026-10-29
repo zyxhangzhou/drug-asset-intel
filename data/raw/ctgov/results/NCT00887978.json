@@ -1,0 +1,106 @@
+{
+ "nctId": "NCT00887978",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-2.0",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "22.0",
+     "groupDescription": "Using an allocation ratio of 1:1 between UT-15C SR and placebo, a fixed sample size of approximately 266 subjects would provide at least 90% power at a significance level of 0.05 (two-sided hypothesis) to detect a 30 meter between-treatment difference in the change from Baseline in distance traversed during the 6-Minute Walk, assuming a standard deviation of 75 meters. A total sample size of approximately 300 subjects was determined to account for discontinuations during the enrollment period.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+     "pValue": "0.089",
+     "paramType": "Hodges-Lehmann (H-L)",
+     "paramValue": "10.0",
+     "statisticalMethod": "non-parametric ANCOVA",
+     "testedNonInferiority": false
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "292",
+         "upperLimit": "419",
+         "value": "370"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "300",
+         "upperLimit": "405",
+         "value": "365"
+        }
+       ]
+      }
+     ],
+     "title": "Week 16 Values"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "-12",
+         "upperLimit": "55",
+         "value": "15"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "-14",
+         "upperLimit": "39",
+         "value": "11"
+        }
+       ]
+      }
+     ],
+     "title": "Change from Baseline"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "157"
+      },
+      {
+       "groupId": "OG001",
+       "value": "153"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Placebo-corrected change in 6MWD from Baseline to Week 16, correlates with the current clinical standard for assessing patient functional status in the treatment of PAH and is considered an objective measure of patient functional status by the American Thoracic Society (ATS).\n\nThe 6MWD was to be assessed between 3 and 6 hours after the morning dose of study drug and background therapy(ies).",
+   "dispersionType": "Inter-Quartile Range",
+   "groups": [
+    {
+     "description": "At Week 16, the mean(SD) dose of UT-15C was 3.1mg (1.9).",
+     "id": "OG000",
+     "title": "UT-15C SR"
+    },
+    {
+     "description": "At Week 16, the mean(SD) dose of placebo was 6.1mg (3.6).",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "Intention to treat analysis",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline and 16 weeks",
+   "title": "6-minute Walk Distance (6MWD)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "meters"
+  }
+ ]
+}

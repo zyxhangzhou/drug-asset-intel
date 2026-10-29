@@ -1,0 +1,90 @@
+{
+ "nctId": "NCT05363670",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.223",
+         "value": "0.150"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.216",
+         "value": "0.233"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "0.118",
+         "value": "-0.002"
+        },
+        {
+         "groupId": "OG003",
+         "spread": "0.265",
+         "value": "0.378"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "18"
+      },
+      {
+       "groupId": "OG001",
+       "value": "18"
+      },
+      {
+       "groupId": "OG002",
+       "value": "18"
+      },
+      {
+       "groupId": "OG003",
+       "value": "18"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Difference in forced expiratory volume in 1 second (FEV1) based on area under the curve (AUC)",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "1 mg dose of ARS-1",
+     "id": "OG000",
+     "title": "ARS-1 1mg"
+    },
+    {
+     "description": "2 mg dose of ARS-1",
+     "id": "OG001",
+     "title": "ARS-1 2mg"
+    },
+    {
+     "description": "Placebo",
+     "id": "OG002",
+     "title": "Placebo"
+    },
+    {
+     "description": "Albuterol MDI 180 mcg",
+     "id": "OG003",
+     "title": "Albuterol"
+    }
+   ],
+   "paramType": "MEAN",
+   "reportingStatus": "POSTED",
+   "timeFrame": "From baseline (timepoints 0) to 1 hour",
+   "title": "Effect of ARS-1 Versus Albuterol and Placebo",
+   "type": "PRIMARY",
+   "unitOfMeasure": "FEV1 L per hour"
+  }
+ ]
+}

@@ -1,0 +1,73 @@
+{
+ "nctId": "NCT04734873",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "14"
+        },
+        {
+         "groupId": "OG001",
+         "value": "12"
+        },
+        {
+         "groupId": "OG002",
+         "value": "9"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "15"
+      },
+      {
+       "groupId": "OG001",
+       "value": "14"
+      },
+      {
+       "groupId": "OG002",
+       "value": "11"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Proportion of participants who are alive and free from respiratory deterioration in each active arm compared to placebo arm as measured by the modified World Health Organization (WHO) 8-point Ordinal Scale for Clinical Improvement in which: 1=Not hospitalized, no limitations on activities; 2=Not hospitalized, limitation on activities and/or requiring home oxygen; 3=Hospitalized, not requiring supplemental oxygen - no longer requiring ongoing medical care; 4=Hospitalized, not requiring supplemental oxygen - requiring ongoing medical care (Covid-19 related or otherwise); 5=Hospitalized, requiring supplemental oxygen; 6=Hospitalized, on non-invasive ventilation or high flow oxygen devices; 7=Hospitalized, on invasive mechanical ventilation or extracorporeal membrane oxygenation; 8=Death.",
+   "groups": [
+    {
+     "description": "IV CPI-006 2 mg/kg up to a maximum dose of 200 mg on Day 1 plus standard of care",
+     "id": "OG000",
+     "title": "Treatment A: CPI-006 2 mg/kg + SOC"
+    },
+    {
+     "description": "IV CPI-006 1 mg/kg up to a maximum dose of 100 mg on Day 1 plus standard of care",
+     "id": "OG001",
+     "title": "Treatment B: CPI-006 1 mg/kg + SOC"
+    },
+    {
+     "description": "IV placebo on Day 1 plus standard of care",
+     "id": "OG002",
+     "title": "Treatment C: Placebo + SOC"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "All participants who received any amount of study drug (CPI-006 or placebo) and have post-baseline efficacy assessment based on the 8-point ordinal scale.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "During the 28 days after dosing",
+   "title": "Proportion of Participants Alive and Respiratory Failure Free of CPI-006 Plus SOC Versus Placebo Plus SOC",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

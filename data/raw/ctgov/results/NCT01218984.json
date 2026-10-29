@@ -1,0 +1,77 @@
+{
+ "nctId": "NCT01218984",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.3473",
+         "value": "-0.5540"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.3998",
+         "value": "-0.3607"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "0.1745",
+         "value": "-0.1410"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "6"
+      },
+      {
+       "groupId": "OG001",
+       "value": "4"
+      },
+      {
+       "groupId": "OG002",
+       "value": "6"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Photographs of subjects' pupils were measured horizontally and vertically, 15 minutes before the first hydromorphone dose and every 15 minutes after each hydromorphone/placebo for hydromorphone dose, for up to 1 hour. Size was the product of vertical and horizontal measures. The slope, determined by linear regression, was used as a summary measure of the dose-response relationship between the hydromorphone dose and pupil size. The steeper the slope, the greater the hydromorphone effect. A slope of zero indicated no evidence of a hydromorphone effect.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Administered as a single gluteal intramuscular (IM) injection",
+     "id": "OG000",
+     "title": "Medisorb Naltrexone 75 mg"
+    },
+    {
+     "description": "Administered as a single gluteal IM injection",
+     "id": "OG001",
+     "title": "Medisorb Naltrexone 150 mg"
+    },
+    {
+     "description": "Administered as a single gluteal IM injection",
+     "id": "OG002",
+     "title": "Medisorb Naltrexone 300 mg"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Placebo hydromorphone challenge sessions were excluded from the analysis. Results for subjects who discontinued prior to Day 28 were not imputed.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "4 weeks (Baseline to Day 28)",
+   "title": "Slope Change From Baseline for Pupil Size",
+   "type": "PRIMARY",
+   "unitOfMeasure": "cm(2)/hr"
+  }
+ ]
+}

@@ -1,0 +1,86 @@
+{
+ "nctId": "NCT04804605",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "151"
+        },
+        {
+         "groupId": "OG001",
+         "value": "90"
+        },
+        {
+         "groupId": "OG002",
+         "value": "189"
+        },
+        {
+         "groupId": "OG003",
+         "value": "91"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "439"
+      },
+      {
+       "groupId": "OG001",
+       "value": "218"
+      },
+      {
+       "groupId": "OG002",
+       "value": "382"
+      },
+      {
+       "groupId": "OG003",
+       "value": "180"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The number of participants with ≥1 TEAE(s) is reported.",
+   "groups": [
+    {
+     "description": "Participants who received roflumilast cream 0.15% in parent studies received roflumilast 0.15% cream qd for up to 52 weeks in the present study.",
+     "id": "OG000",
+     "title": "ARQ-151-311/312: RC/RC 0.15% Group"
+    },
+    {
+     "description": "Participants who received vehicle cream in the parent studies received roflumilast 0.15% cream qd for up to 52 weeks in the present study.",
+     "id": "OG001",
+     "title": "ARQ-151-311/312: VC/RC 0.15% Group"
+    },
+    {
+     "description": "Participants who received roflumilast cream 0.05% or 0.15% in the parent study received roflumilast 0.15% cream qd for up to 52 weeks in the present study. Participants received 0.05% until the first study visit after turning 6 years of age, and were then switched to 0.15%.",
+     "id": "OG002",
+     "title": "ARQ-151-315: RC/RC 0.05% or 0.15% Group"
+    },
+    {
+     "description": "Participants who received vehicle cream in the parent study received roflumilast 0.05% or 0.15% cream qd for up to 52 weeks in the present study. Participants received 0.05% until the first study visit after turning 6 years of age, and were then switched to 0.15%.",
+     "id": "OG003",
+     "title": "ARQ-151-315: VC/RC 0.05% or 0.15% Group"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "All treated participants are included.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to 52 weeks",
+   "title": "Number of Participants With ≥1 Treatment-emergent Adverse Event (TEAE)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

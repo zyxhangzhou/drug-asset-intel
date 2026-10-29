@@ -1,0 +1,107 @@
+{
+ "nctId": "NCT05463068",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "29549.6",
+         "upperLimit": "39800.9",
+         "value": "34294.3"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "31430.8",
+         "upperLimit": "41560.8",
+         "value": "36142.6"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "28863.0",
+         "upperLimit": "38265.4",
+         "value": "33233.4"
+        }
+       ]
+      }
+     ],
+     "title": "Baseline (Day 1)"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "82821.7",
+         "upperLimit": "102075.0",
+         "value": "91945.8"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "84250.8",
+         "upperLimit": "102843.7",
+         "value": "93084.2"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "86164.5",
+         "upperLimit": "96589.6",
+         "value": "88811.3"
+        }
+       ]
+      }
+     ],
+     "title": "Day 29"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "275"
+      },
+      {
+       "groupId": "OG001",
+       "value": "283"
+      },
+      {
+       "groupId": "OG002",
+       "value": "290"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Serum Immunoglobulin G (IgG) geometric mean ELISA unit concentrations (GMEU/mL) to the SARS-CoV-2 spike protein at Day 29 in each treatment arm.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "1 intramuscular (IM) injection of NVX-CoV2373 of 0.5 mL injection volume on Day 1.\n\nNVX-Cov2373: Intramuscular (deltoid) injection of SARS-CoV-2 rS co-formulated with Matrix-M adjuvant (0.5 mL) on Day 1",
+     "id": "OG000",
+     "title": "Lot 1"
+    },
+    {
+     "description": "1 intramuscular (IM) injection of NVX-CoV2373 of 0.5 mL injection volume on Day 1.\n\nNVX-Cov2373: Intramuscular (deltoid) injection of SARS-CoV-2 rS co-formulated with Matrix-M adjuvant (0.5 mL) on Day 1",
+     "id": "OG001",
+     "title": "Lot 2"
+    },
+    {
+     "description": "1 intramuscular (IM) injection of NVX-CoV2373 of 0.5 mL injection volume on Day 1.\n\nNVX-Cov2373: Intramuscular (deltoid) injection of SARS-CoV-2 rS co-formulated with Matrix-M adjuvant (0.5 mL) on Day 1",
+     "id": "OG002",
+     "title": "Lot 3"
+    }
+   ],
+   "paramType": "GEOMETRIC_MEAN",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline (Day 1) and Day 29",
+   "title": "Serum Immunoglobulin G (IgG) Antibody Levels to the SARS-CoV-2 Spike Protein Expressed as Geometric Mean ELISA Unit [GMEUs]",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Elisa Units per mL"
+  }
+ ]
+}

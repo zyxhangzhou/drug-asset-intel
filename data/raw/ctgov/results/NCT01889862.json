@@ -1,0 +1,157 @@
+{
+ "nctId": "NCT01889862",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-1204.19",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-741.85",
+     "groupDescription": "Change in blood Phe concentration during Part 2 in subjects previously exposed to BMN165 who self administer BMN165 20mg/day compared with those who self administer matching placebo.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<0.0001",
+     "pValueComment": "Based on Mixed-Effect Model Repeated Measure (MMRM) model with change from baseline as the response variable, and treatment, visit and treatment by visit interaction and baseline blood phe concentration as factors.",
+     "paramType": "Mean Difference (Net)",
+     "paramValue": "-973.02",
+     "statisticalMethod": "ANCOVA"
+    },
+    {
+     "ciLowerLimit": "-830.07",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-346.94",
+     "groupDescription": "Change in blood Phe concentration during Part 2 in subjects previously exposed to BMN165 who self administer BMN165 40mg/day compared with those who self administer matching placebo.",
+     "groupIds": [
+      "OG002",
+      "OG003"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<0.0001",
+     "pValueComment": "Based on Mixed-Effect Model Repeated Measure (MMRM) model with change from baseline as the response variable, and treatment, visit and treatment by visit interaction and baseline blood phe concentration as factors.",
+     "paramType": "Mean Difference (Net)",
+     "paramValue": "-588.50",
+     "statisticalMethod": "ANCOVA"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "582.75",
+         "value": "596.8"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "504.62",
+         "value": "563.9"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "439.95",
+         "value": "410.9"
+        },
+        {
+         "groupId": "OG003",
+         "spread": "363.68",
+         "value": "508.2"
+        }
+       ]
+      }
+     ],
+     "title": "Part 2 Baseline"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "192.02",
+         "value": "-65.9"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "555.00",
+         "value": "996.4"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "332.40",
+         "value": "114.1"
+        },
+        {
+         "groupId": "OG003",
+         "spread": "507.40",
+         "value": "599.0"
+        }
+       ]
+      }
+     ],
+     "title": "Change from Baseline Part 2 Week 8"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "29"
+      },
+      {
+       "groupId": "OG001",
+       "value": "14"
+      },
+      {
+       "groupId": "OG002",
+       "value": "29"
+      },
+      {
+       "groupId": "OG003",
+       "value": "14"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Blood phe concentration in subjects previously exposed to BMN165 who were administered BMN165 20 or 40 mg/day compared with those who were administered a matching placebo.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "BMN165 20mg/day subcutaneous injection administered using vial and syringe in Part 1, 2 and 3A.\n\nBMN165 20mg/day subcutaneous injection administered using a prefilled syringe in Part 3B.",
+     "id": "OG000",
+     "title": "BMN165 20mg/Day"
+    },
+    {
+     "description": "Matching placebo 20mg/day subcutaneous injection administered using vial and syringe in Part 2.",
+     "id": "OG001",
+     "title": "Placebo 20mg/Day"
+    },
+    {
+     "description": "BMN165 40mg/day subcutaneous injection administered using vial and syringe in Part 1, 2 and 3A.\n\nBMN165 40mg/day subcutaneous injection administered using a prefilled syringe in Part 3B.",
+     "id": "OG002",
+     "title": "BMN165 40mg/Day"
+    },
+    {
+     "description": "Matching placebo 40mg/day subcutaneous injection administered using vial and syringe in Part 2.",
+     "id": "OG003",
+     "title": "Placebo 40mg/Day"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Modified Intent-to-Treat (mITT) population consists of all subjects who reached the randomized dose of 20mg/day or 40mg/day and were randomized into Part 2 with a mean blood Phe reduction of ≥20% (using the last two consecutive blood Phe assessments of Part 1) from the baseline of 165-301 (or the Phase 2 study in which they initiated BMN165).",
+   "reportingStatus": "POSTED",
+   "timeFrame": "At Part 2 baseline and change from baseline at Part 2 week 8",
+   "title": "Change From Baseline in the Blood Plasma Phenylalanine (Phe) Concentration at Part 2",
+   "type": "PRIMARY",
+   "unitOfMeasure": "µmol/L"
+  }
+ ]
+}

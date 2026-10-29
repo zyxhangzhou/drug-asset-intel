@@ -1,0 +1,74 @@
+{
+ "nctId": "NCT01311674",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.96",
+     "statisticalMethod": "t-test, 2 sided"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "3065.6",
+         "value": "1675.8"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "1097.3",
+         "value": "4124.8"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "28"
+      },
+      {
+       "groupId": "OG001",
+       "value": "29"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The primary endpoint for study HB-012 is area under the anti-HBs antibody concentration-time curve (AUC0-t) through Day 210. This endpoint was chosen because it allowed for the assessment of changes in anti HBs antibody concentration over time, and addressed one of the study objectives: to determine the effectiveness of Engerix-B booster vaccinations in the production of high anti-HBs titer plasma. By comparing AUC0-t between the two dosing schedules, the primary endpoint of AUC0-t also addressed the study objective to determine the optimal vaccination schedule to obtain high anti-HBs titer plasma for the manufacture of HepaGam B.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Schedule 1 subjects will receive 20 µg/1.0 mL of Engerix-B® on Day 0, Day 30, Day 180 with booster of 20 µg/1.0 mL of Engerix-B® every 120 days (4 months) (after Day 180 vaccination)\n\nhepatitis B vaccine: Primary vaccination series 20 µg/1.0 mL at baseline, month 1, month 6; followed by booster vaccinations 20 µg/1.0 mL",
+     "id": "OG000",
+     "title": "Schedule 1- Standard Dose Primary Vaccination Series"
+    },
+    {
+     "description": "Schedule 2 subjects will receive 40 µg/1.0 mL of Engerix-B® on Day 0, Day 30, Day 60, Day 180 with booster of 20 µg/1.0 mL of Engerix-B® every 120 days (4 months) (after Day 180 vaccination)\n\nhepatitis B vaccine: Primary vaccination series 40 µg/2.0 mL at baseline, month 1, month 2, month 6; followed by booster vaccinations 20 µg/1.0 mL",
+     "id": "OG001",
+     "title": "Schedule 2 - High Dose Primary Vaccination Series"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "The efficacy analysis population was used to assess the primary endpoint and to generate study conclusions. The efficacy analysis population included all subjects who were vaccinated prior to the interim analysis cut-off date of 1 September 2010 and assessed on visit Day 210.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Day 0 to Day 210",
+   "title": "Comparison Between Vaccination Schedules Using Day 210 Anti-HBs Antibody Titers AUC(0-t)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "IU*days/mL"
+  }
+ ]
+}

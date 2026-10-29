@@ -1,0 +1,969 @@
+{
+ "aliases": [
+  "Vor Biopharma"
+ ],
+ "studies": [
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "VOR33 infusion followed by Mylotarg Dose Level 1",
+       "interventionNames": [
+        "Biological: VOR33",
+        "Drug: Mylotarg"
+       ],
+       "label": "Cohort 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "VOR33 infusion followed by Mylotarg Dose Level 2",
+       "interventionNames": [
+        "Biological: VOR33",
+        "Drug: Mylotarg"
+       ],
+       "label": "Cohort 2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "VOR33 infusion followed by Mylotarg Dose Level 3",
+       "interventionNames": [
+        "Biological: VOR33",
+        "Drug: Mylotarg"
+       ],
+       "label": "Cohort 3",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Cohort 1",
+        "Cohort 2",
+        "Cohort 3"
+       ],
+       "description": "Allogeneic, human leukocyte antigen (HLA) matched, genome edited hematopoietic stem and progenitor cell (HSPC) therapy product lacking the CD33 myeloid protein",
+       "name": "VOR33",
+       "type": "BIOLOGICAL"
+      },
+      {
+       "armGroupLabels": [
+        "Cohort 1",
+        "Cohort 2",
+        "Cohort 3"
+       ],
+       "description": "Infusion of Mylotarg",
+       "name": "Mylotarg",
+       "otherNames": [
+        "gemtuzumab ozogamicin"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Leukemia, Myeloid, Acute",
+      "Myelodysplastic Syndromes"
+     ],
+     "keywords": [
+      "Leukemia",
+      "Acute Myeloid Leukemia",
+      "AML",
+      "Hematopoietic stem cell transplant",
+      "HCT",
+      "CD33",
+      "Allogeneic",
+      "Myelodysplastic Syndromes",
+      "Myelodysplastic Syndromes with excess blasts",
+      "MDS",
+      "MDS-EB",
+      "Cell therapy"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 67,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Allogeneic Engineered Hematopoietic Stem Cell Transplant (HCT) Lacking the CD33 Protein, and Post-HCT Treatment With Mylotarg, for Patients With CD33+ AML or MDS",
+     "nctId": "NCT04849910",
+     "officialTitle": "A First-In-Human, Open-Label, Multicenter Study of VOR33 in Patients With Acute Myeloid Leukemia Who Are at High-Risk for Leukemia Relapse Following Hematopoietic Cell Transplantation",
+     "orgStudyIdInfo": {
+      "id": "VBP101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Vor Biopharma"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Vor Biopharma"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2025-05-28",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-07-29",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-07-25",
+     "overallStatus": "TERMINATED",
+     "primaryCompletionDateStruct": {
+      "date": "2025-05-28",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2021-12-16",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-05",
+     "studyFirstPostDateStruct": {
+      "date": "2021-04-19",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2021-03-25",
+     "studyFirstSubmitQcDate": "2021-04-16",
+     "whyStopped": "Lack of Funding"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Telitacicept + Standard of Care (SoC)",
+       "interventionNames": [
+        "Biological: Telitacicept"
+       ],
+       "label": "Telitacicept",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Placebo + Standard of Care (SoC)",
+       "interventionNames": [
+        "Biological: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Telitacicept"
+       ],
+       "description": "Subcutaneous injection weekly for 52 weeks",
+       "name": "Telitacicept",
+       "otherNames": [
+        "RC18",
+        "RC18-L"
+       ],
+       "type": "BIOLOGICAL"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Subcutaneous injection weekly for 52 weeks",
+       "name": "Placebo",
+       "type": "BIOLOGICAL"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Systemic Lupus Erythematosus"
+     ],
+     "keywords": [
+      "Systemic Lupus Erythematosus",
+      "SLE"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 91,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Study of Telitacicept for the Treatment of Moderately to Severely Active Systemic Lupus Erythematosus (REMESLE-1)",
+     "nctId": "NCT05306574",
+     "officialTitle": "A Multicenter, Randomized, Double-Blind, Placebo-Controlled, 2-Stage Trial to Evaluate Efficacy and Safety of Telitacicept Compared to Placebo in Patients With Moderately to Severely Active Systemic Lupus Erythematosus (REMESLE-1)",
+     "orgStudyIdInfo": {
+      "id": "RC18G001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Vor Biopharma"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Vor Biopharma"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2025-01-06",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-01-09",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-01-07",
+     "overallStatus": "TERMINATED",
+     "primaryCompletionDateStruct": {
+      "date": "2025-01-06",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2022-06-20",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-01",
+     "studyFirstPostDateStruct": {
+      "date": "2022-04-01",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2022-03-23",
+     "studyFirstSubmitQcDate": "2022-03-23",
+     "whyStopped": "Business decision"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "All patients who have received any part of or all of a VOR33 genome-edited hematopoietic stem and progenitor cell therapy product.",
+       "interventionNames": [
+        "Genetic: VOR33"
+       ],
+       "label": "Observational Cohort 1"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Observational Cohort 1"
+       ],
+       "description": "VOR33 is an allogeneic CRISPR/Cas9 genome-edited hematopoietic stem and progenitor cell therapy product that lacks the CD33 myeloid protein.",
+       "name": "VOR33",
+       "type": "GENETIC"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Leukemia, Myeloid, Acute"
+     ],
+     "keywords": [
+      "AML",
+      "Acute Myeloid Leukemia",
+      "CD33",
+      "allogeneic",
+      "HCT",
+      "hematopoietic stem cell transplant",
+      "leukemia"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "observationalModel": "COHORT",
+      "timePerspective": "PROSPECTIVE"
+     },
+     "enrollmentInfo": {
+      "count": 10,
+      "type": "ACTUAL"
+     },
+     "patientRegistry": false,
+     "studyType": "OBSERVATIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Long-term Follow-up Study of Patients Who Received VOR33",
+     "nctId": "NCT05309733",
+     "officialTitle": "A Long-term Follow-up Study of Patients Who Received VOR33",
+     "orgStudyIdInfo": {
+      "id": "VBP201"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Vor Biopharma"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Vor Biopharma"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2025-05-28",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-07-29",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-07-25",
+     "overallStatus": "TERMINATED",
+     "primaryCompletionDateStruct": {
+      "date": "2025-05-28",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2022-04-15",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-05",
+     "studyFirstPostDateStruct": {
+      "date": "2022-04-04",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2022-03-24",
+     "studyFirstSubmitQcDate": "2022-03-24",
+     "whyStopped": "Lack of Funding"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "VCAR33 Dose Level 1",
+       "interventionNames": [
+        "Biological: VCAR33"
+       ],
+       "label": "Morphologic Disease: Cohort 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "VCAR33 Dose Level 2",
+       "interventionNames": [
+        "Biological: VCAR33"
+       ],
+       "label": "Morphologic Disease: Cohort 2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "VCAR33 Dose Level 3",
+       "interventionNames": [
+        "Biological: VCAR33"
+       ],
+       "label": "Morphologic Disease: Cohort 3",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "VCAR33 Dose Level 1",
+       "interventionNames": [
+        "Biological: VCAR33"
+       ],
+       "label": "MRD Positive: Cohort 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "VCAR33 Dose Level 2",
+       "interventionNames": [
+        "Biological: VCAR33"
+       ],
+       "label": "MRD Positive: Cohort 2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "VCAR33 Dose Level 3",
+       "interventionNames": [
+        "Biological: VCAR33"
+       ],
+       "label": "MRD Positive: Cohort 3",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "MRD Positive: Cohort 1",
+        "MRD Positive: Cohort 2",
+        "MRD Positive: Cohort 3",
+        "Morphologic Disease: Cohort 1",
+        "Morphologic Disease: Cohort 2",
+        "Morphologic Disease: Cohort 3"
+       ],
+       "description": "Allogeneic Anti-CD33 Chimeric Antigen Receptor (CAR) T Cell therapy",
+       "name": "VCAR33",
+       "type": "BIOLOGICAL"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Leukemia, Myeloid, Acute"
+     ],
+     "keywords": [
+      "Leukemia",
+      "Acute Myeloid Leukemia",
+      "AML",
+      "Hematopoietic stem cell transplant",
+      "HCT",
+      "CD33",
+      "Allogeneic",
+      "CAR T",
+      "CAR-T",
+      "Chimeric Antigen Receptor T Cell",
+      "CAR T Cells",
+      "CAR-T Cells",
+      "Immunotherapy"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 38,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Donor-Derived Anti-CD33 CAR T Cell Therapy (VCAR33) in Patients With Relapsed or Refractory AML After Allogeneic Hematopoietic Cell Transplant",
+     "nctId": "NCT05984199",
+     "officialTitle": "Phase 1/2 Study of Donor-Derived Anti-CD33 Chimeric Antigen Receptor Expressing T Cells (VCAR33) in Patients With Relapsed or Refractory Acute Myeloid Leukemia After Allogeneic Hematopoietic Cell Transplantation",
+     "orgStudyIdInfo": {
+      "id": "VBP301"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Vor Biopharma"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Vor Biopharma"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2025-05-28",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-07-29",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-07-25",
+     "overallStatus": "TERMINATED",
+     "primaryCompletionDateStruct": {
+      "date": "2025-05-28",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2023-12-11",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-05",
+     "studyFirstPostDateStruct": {
+      "date": "2023-08-09",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2023-07-19",
+     "studyFirstSubmitQcDate": "2023-08-01",
+     "whyStopped": "Lack of Funding"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Telitacicept + Standard of Care (SOC)",
+       "interventionNames": [
+        "Biological: Telitacicept"
+       ],
+       "label": "Telitacicept",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Placebo + Standard of Care (SOC)",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Telitacicept"
+       ],
+       "description": "Subcutaneous injection",
+       "name": "Telitacicept",
+       "type": "BIOLOGICAL"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Subcutaneous injection",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Systemic Lupus Erythematosus"
+     ],
+     "keywords": [
+      "Systemic Lupus Erythematosus",
+      "SLE"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 0,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Study of Telitacicept for the Treatment of Moderately to Severely Active Systemic Lupus Erythematosus (REMESLE-2)",
+     "nctId": "NCT06456567",
+     "officialTitle": "A Multicenter, Randomized, Double-Blind, Placebo-Controlled, Phase 3 Study to Evaluate the Efficacy and Safety of Telitacicept Compared to Placebo in Patients With Moderately to Severely Active Systemic Lupus Erythematosus (REMESLE-2)",
+     "orgStudyIdInfo": {
+      "id": "RC18G002"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Vor Biopharma"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Vor Biopharma"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2025-01-06",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-01-09",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-01-07",
+     "overallStatus": "WITHDRAWN",
+     "primaryCompletionDateStruct": {
+      "date": "2025-01-02",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2024-09",
+      "type": "ESTIMATED"
+     },
+     "statusVerifiedDate": "2026-01",
+     "studyFirstPostDateStruct": {
+      "date": "2024-06-13",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2024-06-07",
+     "studyFirstSubmitQcDate": "2024-06-07",
+     "whyStopped": "Sponsor business decision"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Telitacicept",
+       "interventionNames": [
+        "Biological: Telitacicept"
+       ],
+       "label": "Telitacicept",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Placebo",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Telitacicept"
+       ],
+       "description": "Subcutaneous injection",
+       "name": "Telitacicept",
+       "otherNames": [
+        "RC18",
+        "RC18-L"
+       ],
+       "type": "BIOLOGICAL"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Subcutaneous injection",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Generalized Myasthenia Gravis"
+     ],
+     "keywords": [
+      "Myasthenia Gravis",
+      "gMG"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 191,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Study of Telitacicept for the Treatment of Generalized Myasthenia Gravis (UPSTREAM MG)",
+     "nctId": "NCT06456580",
+     "officialTitle": "A Phase 3, Randomized, Double-Blind, Placebo-Controlled Study With an Open-label Extension Period to Evaluate the Efficacy and Safety of Telitacicept in Patients With Generalized Myasthenia Gravis",
+     "orgStudyIdInfo": {
+      "id": "RC18G006"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Vor Biopharma"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Vor Biopharma"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2029-01",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-15",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-09",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-03",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2024-07-17",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-10",
+     "studyFirstPostDateStruct": {
+      "date": "2024-06-13",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2024-06-07",
+     "studyFirstSubmitQcDate": "2024-06-07"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Telitacicept",
+       "interventionNames": [
+        "Biological: Telitacicept"
+       ],
+       "label": "Telitacicept",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Placebo",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Telitacicept"
+       ],
+       "description": "Subcutaneous injection",
+       "name": "Telitacicept",
+       "otherNames": [
+        "RC18",
+        "RC18-L"
+       ],
+       "type": "BIOLOGICAL"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Subcutaneous injection",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Primary Sjogren's Disease"
+     ],
+     "keywords": [
+      "Sjögren's Disease",
+      "pSD",
+      "Primary Sjogren's Syndrome",
+      "Sjogren's Syndrome",
+      "SjD"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 250,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "UPSTREAM SjD",
+     "briefTitle": "Phase 3 Study of Telitacicept in Active Primary Sjögren's Disease",
+     "nctId": "NCT07404865",
+     "officialTitle": "A Multicenter, Randomized, Double-Blind, Placebo-Controlled, Phase 3 Study to Evaluate the Efficacy and Safety of Telitacicept in Adult Participants With Active Primary Sjögren's Disease",
+     "orgStudyIdInfo": {
+      "id": "RC18G007"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Vor Biopharma"
+     },
+     "secondaryIdInfos": [
+      {
+       "domain": "Active Primary Sjögren's Disease",
+       "id": "pSD",
+       "type": "REGISTRY"
+      },
+      {
+       "domain": "Vor Biopharma Inc.",
+       "id": "Telitacicept",
+       "type": "OTHER"
+      },
+      {
+       "domain": "Vor Biopharma Inc.",
+       "id": "UPSTREAM SjD",
+       "type": "OTHER"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Vor Biopharma"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2029-01",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-19",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-14",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2028-12",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2026-02-26",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-08",
+     "studyFirstPostDateStruct": {
+      "date": "2026-02-12",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2026-02-04",
+     "studyFirstSubmitQcDate": "2026-02-04"
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,150 @@
+{
+ "nctId": "NCT03993379",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        },
+        {
+         "groupId": "OG002",
+         "value": "0"
+        },
+        {
+         "groupId": "OG003",
+         "value": "0"
+        }
+       ],
+       "title": "Complete Response (CR)"
+      },
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        },
+        {
+         "groupId": "OG002",
+         "value": "0"
+        },
+        {
+         "groupId": "OG003",
+         "value": "0"
+        }
+       ],
+       "title": "Partial Response (PR)"
+      },
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        },
+        {
+         "groupId": "OG002",
+         "value": "0"
+        },
+        {
+         "groupId": "OG003",
+         "value": "0"
+        }
+       ],
+       "title": "Stable Disease (SD)"
+      },
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "2"
+        },
+        {
+         "groupId": "OG002",
+         "value": "0"
+        },
+        {
+         "groupId": "OG003",
+         "value": "0"
+        }
+       ],
+       "title": "Progressive Disease (PD)"
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "0"
+      },
+      {
+       "groupId": "OG001",
+       "value": "2"
+      },
+      {
+       "groupId": "OG002",
+       "value": "0"
+      },
+      {
+       "groupId": "OG003",
+       "value": "0"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "ORR by RECIST v1.1",
+   "groups": [
+    {
+     "description": "Histologically or cytologically confirmed solid tumor who have received no prior treatment\n\nCX-072 in combination with ipilimumab\n\nPart A Dosing Regimen:\n\n* Combination treatment: 800 mg CX-072 + 3 mg/kg ipilimumab, q3w\n* Monotherapy treatment: 800 mg CX-072, q2w",
+     "id": "OG000",
+     "title": "Cohort A1: CX-072 in Combination With Anti-cancer Therapy-front Line"
+    },
+    {
+     "description": "Histologically or cytologically confirmed Stage III (unresectable) or Stage IV melanoma who have experienced progressive disease or relapse following treatment with a PD-1/PD-L1 immune checkpoint inhibitor\n\nCX-072 in combination with ipilimumab\n\nPart A Dosing Regimen:\n\n* Combination treatment: 800 mg CX-072 + 3 mg/kg ipilimumab, q3w\n* Monotherapy treatment: 800 mg CX-072, q2w",
+     "id": "OG001",
+     "title": "Cohort A2: CX-072 in Combination With Ipilimumab"
+    },
+    {
+     "description": "Histologically or cytologically confirmed, advanced/unresectable or metastatic solid tumor that have experienced disease progression during or following treatment with platinum based therapy\n\nCX-072 in combination with ipilimumab\n\nPart A Dosing Regimen:\n\n* Combination treatment: 800 mg CX-072 + 3 mg/kg ipilimumab, q3w\n* Monotherapy treatment: 800 mg CX-072, q2w",
+     "id": "OG002",
+     "title": "Cohort A3: CX-072 in Combination With Anti-cancer Therapy-Progressed"
+    },
+    {
+     "description": "Neo-adjuvant study in subjects with histologically confirmed solid tumor\n\nCX-072 in combination with ipilimumab\n\nPart B Dosing Regimen:\n\n* Combination treatment: 800 mg CX-072 + 1 mg/kg ipilimumab, q3w\n* Monotherapy treatment: 800 mg CX-072, q2w",
+     "id": "OG003",
+     "title": "Cohort B1: CX-072 in Combination With Anti-cancer Therapy-Neoadjuvant"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "All subjects who have at least one measurable lesion at baseline, receive at least 1 infusion of CX-072 DP and have at least 1 postbaseline RECIST 1.1 assessment, or who discontinue treatment/study due to disease progression by RECIST v 1.1.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "1 year",
+   "title": "Overall Response Rate by RECIST v 1.1",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

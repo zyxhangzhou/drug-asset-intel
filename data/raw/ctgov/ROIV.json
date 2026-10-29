@@ -1,0 +1,792 @@
+{
+ "aliases": [
+  "Roivant Sciences",
+  "Priovant Therapeutics"
+ ],
+ "studies": [
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: Brepocitinib"
+       ],
+       "label": "Brepocitinib Dose Level 1 PO QD",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Brepocitinib"
+       ],
+       "label": "Brepocitinib Dose Level 2 PO QD",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo PO QD",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Brepocitinib Dose Level 1 PO QD",
+        "Brepocitinib Dose Level 2 PO QD"
+       ],
+       "description": "Oral Brepocitinib",
+       "name": "Brepocitinib",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo PO QD"
+       ],
+       "description": "Oral Placebo",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Dermatomyositis"
+     ],
+     "keywords": [
+      "brepocitinib",
+      "dermatomyositis",
+      "TYK2/JAK1 inhibitor",
+      "PF-06700841",
+      "PVT-2201"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "TRIPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 241,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "VALOR",
+     "briefTitle": "A Study to Investigate the Efficacy and Safety of Brepocitinib in Adults With Dermatomyositis",
+     "nctId": "NCT05437263",
+     "officialTitle": "A Phase 3, Randomized, Double-Blind, Placebo-Controlled Study to Investigate the Efficacy and Safety of Oral Brepocitinib in Adults With Dermatomyositis",
+     "orgStudyIdInfo": {
+      "id": "PVT-2201-301"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Priovant Therapeutics, Inc."
+     },
+     "secondaryIdInfos": [
+      {
+       "domain": "EU CT Number",
+       "id": "2022-500367-12-00",
+       "type": "REGISTRY"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Priovant Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2026-09-09",
+      "type": "ACTUAL"
+     },
+     "dispFirstPostDateStruct": {
+      "date": "2025-09-29",
+      "type": "ACTUAL"
+     },
+     "dispFirstSubmitDate": "2026-07-15",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-09-15",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-09-12",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2025-07-17",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2022-10-31",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-09",
+     "studyFirstPostDateStruct": {
+      "date": "2022-06-29",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2022-06-24",
+     "studyFirstSubmitQcDate": "2022-06-24"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: Brepocitinib"
+       ],
+       "label": "Brepocitinib Dose Level 1 by mouth (PO) once daily (QD)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Brepocitinib"
+       ],
+       "label": "Brepocitinib Dose Level 2 by mouth (PO) once daily (QD)",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Brepocitinib Dose Level 1 by mouth (PO) once daily (QD)",
+        "Brepocitinib Dose Level 2 by mouth (PO) once daily (QD)"
+       ],
+       "description": "Oral Brepocitinib",
+       "name": "Brepocitinib",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Non-infectious Intermediate Uveitis",
+      "Non-infectious Posterior Uveitis",
+      "Non-infectious Pan Uveitis"
+     ],
+     "keywords": [
+      "Brepocitinib",
+      "PF-06700841",
+      "uveitis",
+      "NIU"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "TRIPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "OTHER"
+     },
+     "enrollmentInfo": {
+      "count": 26,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "NEPTUNE",
+     "briefTitle": "A Study of Brepocitinib in Adults With Active Non-Infectious Non-Anterior Uveitis",
+     "nctId": "NCT05523765",
+     "officialTitle": "A Phase 2 Randomized, Double-Masked, Dose-Ranging Study to Investigate the Safety and Efficacy of Oral Brepocitinib in Adults With Active Non-Infectious Intermediate-, Posterior-, and Panuveitis",
+     "orgStudyIdInfo": {
+      "id": "PVT-2201-201"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Priovant Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Priovant Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2024-07-30",
+      "type": "ACTUAL"
+     },
+     "dispFirstPostDateStruct": {
+      "date": "2024-11-26",
+      "type": "ACTUAL"
+     },
+     "dispFirstSubmitDate": "2025-07-22",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-07-25",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-07-23",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2024-07-30",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2022-11-14",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-07",
+     "studyFirstPostDateStruct": {
+      "date": "2022-08-31",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2022-08-25",
+     "studyFirstSubmitQcDate": "2022-08-30"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: Brepocitinib PO QD"
+       ],
+       "label": "Arm 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Placebo PO QD"
+       ],
+       "label": "Arm 2",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Arm 1"
+       ],
+       "description": "Brepocitinib PO QD",
+       "name": "Brepocitinib PO QD",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Arm 2"
+       ],
+       "description": "Placebo PO QD",
+       "name": "Placebo PO QD",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Uveitis, Posterior",
+      "Uveitis, Intermediate",
+      "Uveitis"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 371,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "CLARITY",
+     "briefTitle": "A Study of Brepocitinib in Adults With Active, Non-Infectious, Non-Anterior Uveitis",
+     "nctId": "NCT06431373",
+     "officialTitle": "A Phase 3 Randomized, Double-Masked, Placebo-Controlled Study to Investigate the Safety and Efficacy of Oral Brepocitinib in Adults With Active, Non-Infectious Intermediate-, Posterior-, and Panuveitis",
+     "orgStudyIdInfo": {
+      "id": "PVT-2201-303"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Priovant Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Priovant Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2028-02-01",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-01-12",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-01-08",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2026-09-11",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2024-09-11",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-12",
+     "studyFirstPostDateStruct": {
+      "date": "2024-05-28",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2024-05-22",
+     "studyFirstSubmitQcDate": "2024-05-22"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: Brepocitinib"
+       ],
+       "label": "Brepocitinib",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Brepocitinib"
+       ],
+       "description": "Oral Brepocitinib PO QD",
+       "name": "Brepocitinib",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Dermatomyositis",
+      "Dermatomyositis, Adult Type"
+     ],
+     "keywords": [
+      "skin-predominant dermatomyositis",
+      "dermatomyositis"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 5,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A 12-Week Open-Label Study to Investigate the Efficacy and Safety of Brepocitinib in Adults With Skin-Predominant Dermatomyositis",
+     "nctId": "NCT06433999",
+     "officialTitle": "A 12-Week Open-Label Pilot Study to Investigate the Efficacy and Safety of Oral Brepocitinib in Adults With Skin-Predominant Dermatomyositis",
+     "orgStudyIdInfo": {
+      "id": "PVT-2201-202"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Priovant Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Priovant Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2025-02-28",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-05-20",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-05-15",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2025-02-28",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2024-08-28",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-05",
+     "studyFirstPostDateStruct": {
+      "date": "2024-05-30",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2024-05-23",
+     "studyFirstSubmitQcDate": "2024-05-23"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Oral Brepocitinib",
+       "interventionNames": [
+        "Drug: Oral Brepocitinib"
+       ],
+       "label": "Part 1: Brepocitinib Dose Level 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Oral Brepocitinib",
+       "interventionNames": [
+        "Drug: Oral Brepocitinib"
+       ],
+       "label": "Part 1: Brepocitinib Dose Level 2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Oral Placebo"
+       ],
+       "label": "Part 1: Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "description": "Oral Brepocitinib",
+       "interventionNames": [
+        "Drug: Oral Brepocitinib"
+       ],
+       "label": "Part 2: Brepocitinib Dose Level 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Oral Placebo"
+       ],
+       "label": "Part 2: Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Part 1: Brepocitinib Dose Level 1",
+        "Part 1: Brepocitinib Dose Level 2",
+        "Part 2: Brepocitinib Dose Level 1"
+       ],
+       "description": "Oral Brepocitinib",
+       "name": "Oral Brepocitinib",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Part 1: Placebo",
+        "Part 2: Placebo"
+       ],
+       "description": "Placebo",
+       "name": "Oral Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Cutaneous Sarcoidosis"
+     ],
+     "keywords": [
+      "sarcoidosis",
+      "cutaneous sarcoidosis",
+      "brepocitinib"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "TRIPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 168,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE2",
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "BEACON",
+     "briefTitle": "A Study of Brepocitinib in Adults With Cutaneous Sarcoidosis",
+     "nctId": "NCT06978725",
+     "officialTitle": "A Phase 2/3 Randomized, Double-Blind, Placebo-Controlled, Dose-Ranging Study to Investigate the Safety and Efficacy of Oral Brepocitinib in Adults With Cutaneous Sarcoidosis",
+     "orgStudyIdInfo": {
+      "id": "PVT-2201-203"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Priovant Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Priovant Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2029-12-31",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-21",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-20",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2028-12-31",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2025-04-09",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-08",
+     "studyFirstPostDateStruct": {
+      "date": "2025-05-18",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-04-30",
+     "studyFirstSubmitQcDate": "2025-05-09"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: Oral Brepocitinib"
+       ],
+       "label": "Brepocitinib Dose Level 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Brepocitinib Dose Level 1"
+       ],
+       "description": "Oral",
+       "name": "Oral Brepocitinib",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Oral",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Lichen Planopilaris"
+     ],
+     "keywords": [
+      "brepocitinib",
+      "lichen planopilaris"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "TRIPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 342,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE2",
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "ALPINE",
+     "briefTitle": "A Phase 2/3 Study of Brepocitinib in Adults With Lichen Planopilaris",
+     "nctId": "NCT07532603",
+     "officialTitle": "A Phase 2/3 Randomized, Double-Blind, Placebo-Controlled Study to Investigate the Safety and Efficacy of Oral Brepocitinib in Adults With Lichen Planopilaris",
+     "orgStudyIdInfo": {
+      "id": "PVT-2201-304"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Priovant Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Priovant Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2029-07-31",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-07-08",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-07-06",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2028-12-31",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2026-03-19",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-07",
+     "studyFirstPostDateStruct": {
+      "date": "2026-04-16",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2026-04-03",
+     "studyFirstSubmitQcDate": "2026-04-09"
+    }
+   }
+  }
+ ]
+}

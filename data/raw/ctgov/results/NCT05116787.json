@@ -1,0 +1,82 @@
+{
+ "nctId": "NCT05116787",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "1.556",
+         "value": "8.49"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "1.721",
+         "value": "9.48"
+        }
+       ]
+      }
+     ],
+     "title": "Baseline"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "2.146",
+         "value": "2.23"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.330",
+         "value": "-1.23"
+        }
+       ]
+      }
+     ],
+     "title": "Change at Week 12"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "10"
+      },
+      {
+       "groupId": "OG001",
+       "value": "2"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants received BCX9930 monotherapy in double blind manner (Part 1) for 12 weeks. Initially participants were to receive BCX9930 500 mg BID orally. Per protocol amendment, participants who previously received 500 mg BID and remained on study treatment were dose adjusted to 400 mg BID. For all newly enrolled participants, at the initiation of BCX9930 dosing, participants were administered a dose of 200 mg BID for the first 14 days of treatment before increasing to 400 mg BID.",
+     "id": "OG000",
+     "title": "BCX9930"
+    },
+    {
+     "description": "Participants received BCX9930 matching placebo in double blind manner for 12 weeks (Part 1).",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Participants in the All Subjects as Treated (ASaT) population (all participants who received at least 1 dose of study drug and had a post baseline laboratory assessment) in Part 1 were analyzed.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Week 12",
+   "title": "Part 1: Change From Baseline in Hemoglobin at Week 12",
+   "type": "PRIMARY",
+   "unitOfMeasure": "grams per deciliter (g/dL)"
+  }
+ ]
+}

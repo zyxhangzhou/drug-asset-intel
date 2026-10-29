@@ -1,0 +1,133 @@
+{
+ "nctId": "NCT02464228",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "groupDescription": "Null hypothesis H0: PORR = 10% versus HA: PORR \\> 10% will be tested at a = 0.05 significance level using a two-sided binomial test. The choice of test statistics was driven by the method used for interval estimation.",
+     "groupIds": [
+      "OG000"
+     ],
+     "nonInferiorityType": "OTHER",
+     "pValue": "0.000",
+     "statisticalMethod": "Wilson approximation"
+    },
+    {
+     "groupDescription": "Null hypothesis H0: PORR = 10% versus HA: PORR \\> 10% will be tested at a = 0.05 significance level using a two-sided binomial test. The choice of test statistics was driven by the method used for interval estimation.",
+     "groupIds": [
+      "OG001"
+     ],
+     "nonInferiorityType": "OTHER",
+     "pValue": "1.000",
+     "statisticalMethod": "Wilson approximation"
+    },
+    {
+     "groupDescription": "Null hypothesis H0: PORR = 10% versus HA: PORR \\> 10% will be tested at a = 0.05 significance level using a two-sided binomial test. The choice of test statistics was driven by the method used for interval estimation.",
+     "groupIds": [
+      "OG002"
+     ],
+     "nonInferiorityType": "OTHER",
+     "pValue": "0.026",
+     "statisticalMethod": "Wilson approximation"
+    },
+    {
+     "groupDescription": "Null hypothesis H0: PORR = 10% versus HA: PORR \\> 10% will be tested at a = 0.05 significance level using a two-sided binomial test. The choice of test statistics was driven by the method used for interval estimation.",
+     "groupIds": [
+      "OG003"
+     ],
+     "nonInferiorityType": "OTHER",
+     "pValue": "1.000",
+     "statisticalMethod": "Clopper-Pearson method"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "39.3",
+         "upperLimit": "71.8",
+         "value": "56.3"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "0.2",
+         "upperLimit": "33.9",
+         "value": "7.1"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "12.2",
+         "upperLimit": "73.8",
+         "value": "40.0"
+        },
+        {
+         "groupId": "OG003",
+         "lowerLimit": "0.0",
+         "upperLimit": "84.2",
+         "value": "0.0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "32"
+      },
+      {
+       "groupId": "OG001",
+       "value": "14"
+      },
+      {
+       "groupId": "OG002",
+       "value": "10"
+      },
+      {
+       "groupId": "OG003",
+       "value": "2"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The ORR (complete response \\[CR\\] or partial response \\[PRs\\]) of tipifarnib was based on response assessments according to the Lugano Classification. Two-sided 95% confidence intervals (CIs) were based on either Wilson approximation (N \\> 4) or Clopper-Pearson method (N ≤ 4).\n\nCR: PET-CT-based response, score of 1-3 on five-point scale (5PS) for lymph nodes and extralymphatic sites, no evidence of fluorodeoxyglucose (FDG)-avid disease in marrow. CT-based response, target nodes and masses regress to 1.5 cm in longest transverse diameter, no extralymphatic sites of disease, normal bone marrow morphology.\n\nPR: PET-CT-based response, score of 4-5 on 5PS with reduced uptake compared to baseline for lymph nodes and extralymphatic sites, residual uptake reduced compared to baseline in the bone marrow. CT-based response, ≥ 50% decrease in sum of the product of perpendicular diameters of up to 6 target measurable nodes and extranodal sites, spleen regressed by \\> 50% in length beyond normal.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Subjects with AITL received tipifarnib as monotherapy. Tipifarnib was administered with food at a starting dose of 300 mg orally BID on Days 1 - 21 of 28-day treatment cycles.\n\nIn the absence of unmanageable toxicity, treatment may have been continued as long as the investigator considered that the treatment was providing clinical benefit for up to 12 months since the subject's enrollment. Treatment may have continued beyond 12 months upon agreement by the investigator and sponsor if there was documented evidence of sustained clinical benefit.",
+     "id": "OG000",
+     "title": "Cohort AITL"
+    },
+    {
+     "description": "Subjects with PTCL-NOS (not including subjects with PTCL-NOS CXCL12+) received tipifarnib as monotherapy. Tipifarnib was administered with food at a starting dose of 300 mg orally BID on Days 1 - 21 of 28-day treatment cycles.\n\nIn the absence of unmanageable toxicity, treatment may have been continued as long as the investigator considered that the treatment was providing clinical benefit for up to 12 months since the subject's enrollment. Treatment may have continued beyond 12 months upon agreement by the investigator and sponsor if there was documented evidence of sustained clinical benefit.",
+     "id": "OG001",
+     "title": "Cohort PTCL-NOS"
+    },
+    {
+     "description": "Subjects with PTCL-NOS CXCL12+ (not including subjects with PTCL-NOS) received tipifarnib as monotherapy. Tipifarnib was administered with food at a starting dose of 300 mg orally BID on Days 1 - 21 of 28-day treatment cycles.\n\nIn the absence of unmanageable toxicity, treatment may have been continued as long as the investigator considered that the treatment was providing clinical benefit for up to 12 months since the subject's enrollment. Treatment may have continued beyond 12 months upon agreement by the investigator and sponsor if there was documented evidence of sustained clinical benefit.",
+     "id": "OG002",
+     "title": "Cohort PTCL-NOS, CXCL12+"
+    },
+    {
+     "description": "Subjects with other indications (including ALCL-ALK negative and PTCL-subtype not specified per protocol) received tipifarnib as monotherapy. Tipifarnib was administered with food at a starting dose of 300 mg orally BID on Days 1 - 21 of 28-day treatment cycles.\n\nIn the absence of unmanageable toxicity, treatment may have been continued as long as the investigator considered that the treatment was providing clinical benefit for up to 12 months since the subject's enrollment. Treatment may have continued beyond 12 months upon agreement by the investigator and sponsor if there was documented evidence of sustained clinical benefit.",
+     "id": "OG003",
+     "title": "Cohort Other"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "The Full Analysis Set (FAS) Population excluding subjects for the following reasons: no baseline data; failure to receive at least 1 dose of tipifarnib; no post-baseline endpoint data subsequent to at least 1 dose of study drug.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to approximately 3 years",
+   "title": "Objective Response Rate (ORR)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

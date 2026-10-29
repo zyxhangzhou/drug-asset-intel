@@ -1,0 +1,118 @@
+{
+ "nctId": "NCT01265433",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "44"
+        },
+        {
+         "groupId": "OG001",
+         "value": "33"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "20"
+      },
+      {
+       "groupId": "OG001",
+       "value": "21"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Progression free survival (PFS) rate will be calculated from the time of randomization to first evidence of disease recurrence or death of any cause.",
+   "groups": [
+    {
+     "description": "Galinpepimut-S + Montanide + GM-CSF",
+     "id": "OG000",
+     "title": "Galinpepimut-S"
+    },
+    {
+     "description": "Montanide + GM-CSF",
+     "id": "OG001",
+     "title": "Control"
+    }
+   ],
+   "paramType": "NUMBER",
+   "reportingStatus": "POSTED",
+   "timeFrame": "1 year",
+   "title": "1-year Progression-free Survival",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "5.5",
+         "upperLimit": "20.8",
+         "value": "10.1"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "2.8",
+         "upperLimit": "14.6",
+         "value": "7.4"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "20"
+      },
+      {
+       "groupId": "OG001",
+       "value": "21"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Median progression free survival (PFS) is where PFS are assessed from the time of randomization to first evidence of disease recurrence or death of any cause.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Galinpepimut-S + Montanide + GM-CSF",
+     "id": "OG000",
+     "title": "Galinpepimut-S"
+    },
+    {
+     "description": "Montanide + GM-CSF",
+     "id": "OG001",
+     "title": "Control"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to 5 years and 11 months",
+   "title": "Progression-free Survival",
+   "type": "PRIMARY",
+   "unitOfMeasure": "months"
+  }
+ ]
+}

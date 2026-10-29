@@ -1,0 +1,345 @@
+{
+ "nctId": "NCT06536465",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1"
+        },
+        {
+         "groupId": "OG001",
+         "value": "1"
+        },
+        {
+         "groupId": "OG002",
+         "value": "1"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "1"
+      },
+      {
+       "groupId": "OG001",
+       "value": "1"
+      },
+      {
+       "groupId": "OG002",
+       "value": "1"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Recurrent CDI was defined as a new episode of CDI associated with a new positive Clostridioides difficile stool toxin or requirement for additional CDI treatment during the 8-week Follow-up Period after cure of preceding CDI with initial curative treatment.",
+   "groups": [
+    {
+     "description": "Participants received REC-3964 given at a dose 250 mg q12h.",
+     "id": "OG000",
+     "title": "REC-3964 250 mg"
+    },
+    {
+     "description": "Participants received REC-3964 given at a dose of 500 mg q12h.",
+     "id": "OG001",
+     "title": "REC-3964 500 mg"
+    },
+    {
+     "description": "Participants underwent watchful waiting. No treatment was administered.",
+     "id": "OG002",
+     "title": "Observation"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "All randomized participants who received at least 1 dose of REC-3964 intervention or who were followed-up on in the Observational arm.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "8 weeks",
+   "title": "Number of Participants With Survival Without Recurrence or Requirement for Additional Clostridioides Difficile Infection (CDI) Treatment",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        },
+        {
+         "groupId": "OG002",
+         "value": "1"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "1"
+      },
+      {
+       "groupId": "OG001",
+       "value": "1"
+      },
+      {
+       "groupId": "OG002",
+       "value": "1"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "A TEAE was the development of an undesirable medical condition or the deterioration of a pre-existing medical condition following or during exposure to a pharmaceutical product, whether or not considered causally related to the product.",
+   "groups": [
+    {
+     "description": "Participants received REC-3964 given at a dose 250 mg q12h.",
+     "id": "OG000",
+     "title": "REC-3964 250 mg"
+    },
+    {
+     "description": "Participants received REC-3964 given at a dose of 500 mg q12h.",
+     "id": "OG001",
+     "title": "REC-3964 500 mg"
+    },
+    {
+     "description": "Participants underwent watchful waiting. No treatment was administered.",
+     "id": "OG002",
+     "title": "Observation"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "All randomized participants who received at least 1 dose of REC-3964 intervention or who were followed-up on in the Observation arm.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to 8 weeks",
+   "title": "Number of Participants With Treatment-emergent Adverse Events (TEAEs)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        },
+        {
+         "groupId": "OG002",
+         "value": "0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "1"
+      },
+      {
+       "groupId": "OG001",
+       "value": "1"
+      },
+      {
+       "groupId": "OG002",
+       "value": "1"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "A TEAE was the development of an undesirable medical condition or the deterioration of a pre-existing medical condition following or during exposure to a pharmaceutical product, whether or not considered causally related to the product. An Investigator who was qualified in medicine determined relationship to the study drug for each AE (unrelated or related). The Investigator decided whether, in his or her medical judgment, if there was a reasonable biological possibility that the event may have been caused by the study drug.",
+   "groups": [
+    {
+     "description": "Participants received REC-3964 given at a dose 250 mg q12h.",
+     "id": "OG000",
+     "title": "REC-3964 250 mg"
+    },
+    {
+     "description": "Participants received REC-3964 given at a dose of 500 mg q12h.",
+     "id": "OG001",
+     "title": "REC-3964 500 mg"
+    },
+    {
+     "description": "Participants underwent watchful waiting. No treatment was administered.",
+     "id": "OG002",
+     "title": "Observation"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "All randomized participants who received at least 1 dose of REC-3964 intervention or who were followed-up on in the Observation arm.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to 8 weeks",
+   "title": "Number of Participants With Related TEAEs",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        },
+        {
+         "groupId": "OG002",
+         "value": "0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "1"
+      },
+      {
+       "groupId": "OG001",
+       "value": "1"
+      },
+      {
+       "groupId": "OG002",
+       "value": "1"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "A TEAE was the development of an undesirable medical condition or the deterioration of a pre-existing medical condition following or during exposure to a pharmaceutical product, whether or not considered causally related to the product. A Serious TEAE was defined as results in death, immediately life-threatening, requires in-participant hospitalization or prolongation of existing hospitalization, results in persistent or significant disability or incapacity in conducting activities of daily living for at least 28 days, results in a congenital abnormality or birth defect, or an important medical event that may jeopardize the participant or may require medical intervention.",
+   "groups": [
+    {
+     "description": "Participants received REC-3964 given at a dose 250 mg q12h.",
+     "id": "OG000",
+     "title": "REC-3964 250 mg"
+    },
+    {
+     "description": "Participants received REC-3964 given at a dose of 500 mg q12h.",
+     "id": "OG001",
+     "title": "REC-3964 500 mg"
+    },
+    {
+     "description": "Participants underwent watchful waiting. No treatment was administered.",
+     "id": "OG002",
+     "title": "Observation"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "All randomized participants who received at least 1 dose of REC-3964 intervention or who were followed-up on in the Observation arm.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to 8 weeks",
+   "title": "Number of Participants With Serious TEAEs",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        },
+        {
+         "groupId": "OG002",
+         "value": "0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "1"
+      },
+      {
+       "groupId": "OG001",
+       "value": "1"
+      },
+      {
+       "groupId": "OG002",
+       "value": "1"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "A TEAE was the development of an undesirable medical condition or the deterioration of a pre-existing medical condition following or during exposure to a pharmaceutical product, whether or not considered causally related to the product.",
+   "groups": [
+    {
+     "description": "Participants received REC-3964 given at a dose 250 mg q12h.",
+     "id": "OG000",
+     "title": "REC-3964 250 mg"
+    },
+    {
+     "description": "Participants received REC-3964 given at a dose of 500 mg q12h.",
+     "id": "OG001",
+     "title": "REC-3964 500 mg"
+    },
+    {
+     "description": "Participants underwent watchful waiting. No treatment was administered.",
+     "id": "OG002",
+     "title": "Observation"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "All randomized participants who received at least 1 dose of REC-3964 intervention or who were followed-up on in the Observation arm.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to 8 weeks",
+   "title": "Number of Participants With TEAEs Leading to Study Drug Discontinuation",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

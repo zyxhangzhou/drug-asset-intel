@@ -1,0 +1,82 @@
+{
+ "nctId": "NCT05767346",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "1.52",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "3.07",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "0.393",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<0.0001",
+     "paramType": "Least Squares Mean Difference",
+     "paramValue": "2.30",
+     "statisticalMethod": "ANCOVA"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "2.767",
+         "value": "1.07"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "2.186",
+         "value": "-1.24"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "83"
+      },
+      {
+       "groupId": "OG001",
+       "value": "82"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Effect of aficamten compared with metoprolol succinate on exercise capacity in patients with symptomatic obstructive hypertrophic cardiomyopathy (oHCM). Exercise capacity was determined through changes in peak oxygen uptake (pVO2) after 24 weeks of treatment. pVO2 was measured by cardiopulmonary exercise testing (CPET) on a treadmill or bicycle. A higher pVO2 indicates better cardiorespiratory fitness.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants received doses of 5 mg, 10 mg, 15 mg or 20 mg of aficamten",
+     "id": "OG000",
+     "title": "Aficamten"
+    },
+    {
+     "description": "Participants received 50 mg, 100 mg, 150 mg or 200 mg of metoprolol succinate plus placebo for aficamten",
+     "id": "OG001",
+     "title": "Metoprolol"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Full Analysis Set: all randomized participants with available Week 24 pVO2 assessment data",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline to Week 24",
+   "title": "Change in Peak Oxygen Uptake (pVO2) by Cardiopulmonary Exercise Testing (CPET)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "mL/kg/min"
+  }
+ ]
+}

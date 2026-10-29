@@ -1,0 +1,113 @@
+{
+ "nctId": "NCT00104247",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciPctValue": "95",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+     "pValue": "<0.001",
+     "statisticalMethod": "ANCOVA",
+     "testedNonInferiority": false
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "300",
+         "value": "843"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "323",
+         "value": "888"
+        }
+       ]
+      }
+     ],
+     "title": "Baseline Blood Phe Level"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "377",
+         "value": "607"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "348",
+         "value": "891"
+        }
+       ]
+      }
+     ],
+     "title": "Week 6 Blood Phe Level"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "38",
+         "value": "-239"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "36",
+         "value": "6"
+        }
+       ]
+      }
+     ],
+     "title": "Mean Change in Blood Phe from Baseline to Week 6"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "41"
+      },
+      {
+       "groupId": "OG001",
+       "value": "46"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Patients administered 10 mg /kg orally once daily.",
+     "id": "OG000",
+     "title": "Sapropterin Dihydrochloride"
+    },
+    {
+     "description": "Placebo",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "MEAN",
+   "reportingStatus": "POSTED",
+   "timeFrame": "baseline to week 6",
+   "title": "Change in Blood Phenylalanine Levels From Baseline to Week 6.",
+   "type": "PRIMARY",
+   "unitOfMeasure": "micromole per liter"
+  }
+ ]
+}

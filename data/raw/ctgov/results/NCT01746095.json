@@ -1,0 +1,91 @@
+{
+ "nctId": "NCT01746095",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.181",
+         "value": "-0.25"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.182",
+         "value": "-0.30"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "0.232",
+         "value": "-0.63"
+        },
+        {
+         "groupId": "OG003",
+         "spread": "0.201",
+         "value": "0.16"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "17"
+      },
+      {
+       "groupId": "OG001",
+       "value": "17"
+      },
+      {
+       "groupId": "OG002",
+       "value": "15"
+      },
+      {
+       "groupId": "OG003",
+       "value": "22"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Change from Baseline at Day 29 of the dosing period (start of AeroVanc/Placebo administration is considered Day 1 of the dosing period) in the number of MRSA colony forming units (CFU) in sputum culture.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Vancomycin hydrochloride inhalation powder 32 mg BID",
+     "id": "OG000",
+     "title": "AeroVanc 32 mg"
+    },
+    {
+     "description": "Placebo inhalation powder BID",
+     "id": "OG001",
+     "title": "Placebo to 32 mg"
+    },
+    {
+     "description": "Vancomycin hydrochloride inhalation powder 64 mg BID",
+     "id": "OG002",
+     "title": "AeroVanc 64 mg"
+    },
+    {
+     "description": "Placebo inhalation powder BID",
+     "id": "OG003",
+     "title": "Placebo to 64 mg"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Modified ITT population, which included all randomized patients who received any amount of study drug and had at least one scheduled post baseline measurement.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Day 29 of treatment period",
+   "title": "Change From Baseline in MRSA Sputum Density.",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Log10 CFU/mL"
+  }
+ ]
+}

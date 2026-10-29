@@ -1,0 +1,134 @@
+{
+ "nctId": "NCT02604199",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-0.183",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.011",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "0.048",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0810",
+     "pValueComment": "Mixed effect model repeat measurement (MMRM) includes terms of parameter baseline as continuous covariate, and treatment and visit as fixed factors, interaction of treatment and visit, and interaction of parameter baseline and visit.",
+     "paramType": "LS Mean Difference",
+     "paramValue": "-0.086",
+     "statisticalComment": "Within-subject covariance is unstructured.",
+     "statisticalMethod": "MMRM"
+    },
+    {
+     "ciLowerLimit": "-0.406",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-0.212",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "0.048",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<.0001",
+     "pValueComment": "MMRM includes terms of parameter baseline as continuous covariate, and treatment and visit as fixed factors, interaction of treatment and visit, and interaction of parameter baseline and visit. Within-subject covariance is unstructured.",
+     "paramType": "LS Mean Difference",
+     "paramValue": "-0.309",
+     "statisticalMethod": "MMRM"
+    },
+    {
+     "ciLowerLimit": "-0.322",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-0.124",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "0.049",
+     "groupIds": [
+      "OG001",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<.0001",
+     "pValueComment": "MMRM includes terms of parameter baseline as continuous covariate, and treatment and visit as fixed factors, interaction of treatment and visit, and interaction of parameter baseline and visit. Within-subject covariance is unstructured.",
+     "paramType": "LS Mean Difference",
+     "paramValue": "-0.223",
+     "statisticalMethod": "MMRM"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.033",
+         "value": "-0.070"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.036",
+         "value": "-0.157"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "0.033",
+         "value": "-0.379"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "15"
+      },
+      {
+       "groupId": "OG001",
+       "value": "14"
+      },
+      {
+       "groupId": "OG002",
+       "value": "15"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Change From Baseline in log qHBsAg at Day 113 in response to multiple doses of ARC-520 versus placebo, using a a mixed effect model for repeated measures (MMRM). Includes parameter baseline as a continuous covariate, and treatment and visit as fixed factors, interaction of treatment and visit, and interaction of parameter baseline and visit.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Placebo (low dose or high dose) 0.9% normal saline, once every 4 weeks for 4 doses plus daily oral entecavir (0.5 or 1.0 mg/day) or tenofovir (300 mg) throughout the study period",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Intravenous ARC-520 at 1.0 mg/kg, once every 4 weeks for 4 doses plus daily oral entecavir (0.5 or 1.0 mg/day) or tenofovir (300 mg) throughout the study period",
+     "id": "OG001",
+     "title": "ARC-520 Injection 1 mg/kg"
+    },
+    {
+     "description": "Intravenous ARC-520 at 2.0 mg/kg, once every 4 weeks for 4 doses plus daily oral entecavir (0.5 or 1.0 mg/day) or tenofovir (300 mg) throughout the study period",
+     "id": "OG002",
+     "title": "ARC-520 Injection 2 mg/kg"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Intent to treat population: all participants who received at least 1 dose of study drug and had valid qHBsAg values at baseline and at least one time point on or after the Day 15 visit.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Day 113",
+   "title": "Change From Baseline in Quantitative Hepatitis B Surface Antigen (Log qHBsAg) at Day 113",
+   "type": "PRIMARY",
+   "unitOfMeasure": "log IU/mL"
+  }
+ ]
+}

@@ -1,0 +1,84 @@
+{
+ "nctId": "NCT04964089",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-3.88",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95.03",
+     "ciUpperLimit": "-0.29",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "0.91",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityComment": "The maximum clinically acceptable true difference between KSI-301 and aflibercept participants to be considered non-inferior is 4.5 ETDRS letters, i.e. the non-inferiority margin (NI) is 4.5 letters.",
+     "nonInferiorityType": "NON_INFERIORITY",
+     "pValue": "0.0083",
+     "paramType": "Adjusted mean difference",
+     "paramValue": "-2.1",
+     "statisticalComment": "MMRM model with treatment, visit, treatment by visit interaction, randomization stratification factors, and continuous baseline BCVA as covariates.",
+     "statisticalMethod": "Mixed Models Analysis"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.78",
+         "value": "2.5"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.76",
+         "value": "4.6"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "276"
+      },
+      {
+       "groupId": "OG001",
+       "value": "281"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Best Corrected Visual Acuity (BCVA) was measured on the Early Treatment Diabetic Retinopathy Study (ETDRS) chart at a starting distance of 4 meters. The BCVA letter score ranges from 0 to 100 (best score), and a gain in BCVA letter score from baseline indicates an improvement in visual acuity.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Intravitreal injection of KSI-301 (5 mg) at Day 1 once every 4 weeks via intravitreal injection through Week 44.\n\nKSI-301: Intravitreal Injection",
+     "id": "OG000",
+     "title": "KSI-301 (Treatment Group A)"
+    },
+    {
+     "description": "Intravitreal injection of aflibercept (2 mg) once every 4 weeks for 3 monthly doses followed by intravitreal injection of aflibercept (2 mg) once every 8 weeks from Week 16 to Week 44. Sham injections will be administered at each monthly visit where an active treatment is not administered.\n\nAflibercept: Intravitreal Injection\n\nSham Procedure: The sham is a procedure that mimics an intravitreal injection. It involves pressing the blunt end of an empty syringe (without a needle) against the anesthetized eye. It will be administered to participants in both treatments arms at applicable visits to maintain masking.",
+     "id": "OG001",
+     "title": "Aflibercept (Treatment Group B)"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Full analysis set defined as all randomized subjects who received at least one treatment injection. Subjects will be analyzed according to their randomized treatment.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Day 1 to Week 48",
+   "title": "Mean Change in Best Corrected Visual Acuity (BCVA) From Day 1 to the Average of Non-missing BCVA Values of Weeks 40, 44 and 48.",
+   "type": "PRIMARY",
+   "unitOfMeasure": "ETDRS Letters"
+  }
+ ]
+}

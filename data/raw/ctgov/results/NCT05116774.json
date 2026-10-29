@@ -1,0 +1,112 @@
+{
+ "nctId": "NCT05116774",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "1.096",
+         "value": "9.12"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.847",
+         "value": "9.13"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "8"
+        },
+        {
+         "groupId": "OG001",
+         "value": "4"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Baseline"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.674",
+         "value": "3.48"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.884",
+         "value": "0.72"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "6"
+        },
+        {
+         "groupId": "OG001",
+         "value": "2"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Change at Week 24"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "8"
+      },
+      {
+       "groupId": "OG001",
+       "value": "4"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants were randomized to receive BCX9930 during Part 1. Per protocol amendment, participants who previously received 500 mg BID and remained on study treatment were dose adjusted to 400 mg BID. For all newly enrolled participants, at the initiation of BCX9930 dosing, participants were administered a dose of 200 mg BID for the first 14 days of treatment before increasing to 400 mg BID. The maximum treatment duration on BCX9930 in Part 1 was 24 weeks.",
+     "id": "OG000",
+     "title": "BCX9930"
+    },
+    {
+     "description": "Participants randomized to this group continued the existing C5-INH therapy during Part 1. The maximum treatment duration on C5-INH in Part 1 was 24 weeks.",
+     "id": "OG001",
+     "title": "C5-INH"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Participants in the all subjects as treated (ASaT) population in Part 1 with available data were analyzed.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Week 24",
+   "title": "Part 1: Change From Baseline in Hemoglobin at Week 24",
+   "type": "PRIMARY",
+   "unitOfMeasure": "grams per deciliter (g/dL)"
+  }
+ ]
+}

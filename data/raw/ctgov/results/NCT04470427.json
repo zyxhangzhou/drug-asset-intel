@@ -1,0 +1,512 @@
+{
+ "nctId": "NCT04470427",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "91.0",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "94.8",
+     "estimateComment": "VE (percent) was estimated with 1 - Hazard Ratio (mRNA-1273 vs. placebo) from stratified Cox proportional hazard model.",
+     "groupDescription": "Vaccine efficacy was defined as the percent reduction in the hazard of the primary endpoint (mRNA-1273 vs. placebo).\n\nNull hypothesis of Vaccine Efficacy ≤30%, 95% CI.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "OTHER",
+     "pValue": "<.0001",
+     "paramType": "VE",
+     "paramValue": "93.2",
+     "statisticalComment": "VE (percent) is demonstrated if the lower limit of the 2-sided confidence interval for the VE is above 30%.",
+     "statisticalMethod": "Vaccine Efficacy (VE)"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "744"
+        },
+        {
+         "groupId": "OG001",
+         "value": "55"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "14164"
+      },
+      {
+       "groupId": "OG001",
+       "value": "14287"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "COVID-19 cases were defined as participants meeting clinical criteria based both on symptoms for COVID-19 and on RT-PCR detection of SARS-CoV-2 from samples collected within 72 hours of the study participant reporting symptoms that met the definition of COVID-19.\n\nAn adjudication committee was assembled for the purpose of reviewing potential cases to determine if the criteria for COVID-19 were met.",
+   "groups": [
+    {
+     "description": "Participants received mRNA-1273-matching placebo on a 2-dose injection schedule (Day 1 and Day 29).",
+     "id": "OG000",
+     "title": "Part A (Blinded): Placebo"
+    },
+    {
+     "description": "Participants received 100 μg mRNA-1273 on a 2-dose injection schedule (Day 1 and Day 29).",
+     "id": "OG001",
+     "title": "Part A (Blinded): mRNA-1273"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Part A PP Set. Number analyzed=participants evaluable at specified timepoint.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "From Day 43 (14 days after second dose) up to approximately 7 months after the second dose",
+   "title": "Part A: Number of Participants With a First Occurrence of COVID-19 Starting 14 Days After Second Dose",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "5134"
+        },
+        {
+         "groupId": "OG001",
+         "value": "9329"
+        }
+       ]
+      }
+     ],
+     "title": "Grade 1"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1782"
+        },
+        {
+         "groupId": "OG001",
+         "value": "3134"
+        }
+       ]
+      }
+     ],
+     "title": "Grade 2"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "363"
+        },
+        {
+         "groupId": "OG001",
+         "value": "849"
+        }
+       ]
+      }
+     ],
+     "title": "Grade 3"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "6"
+        },
+        {
+         "groupId": "OG001",
+         "value": "5"
+        }
+       ]
+      }
+     ],
+     "title": "Grade 4"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "15151"
+      },
+      {
+       "groupId": "OG001",
+       "value": "15166"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Solicited ARs (local and systemic) were collected in electronic diary (eDiary) within 7 days of dosing. Local ARs included: pain at injection site, erythema (redness) at injection site, swelling/induration (hardness) at injection site, and localized axillary swelling or tenderness ipsilateral to the injection arm. Systemic ARs included: headache, fatigue, myalgia (muscle aches all over the body), arthralgia (aching in several joints), nausea/vomiting, rash, body temperature (potentially fever), and chills. Severity grading for solicited ARs is based on modified Toxicity Grading Scale for Healthy Adult and Adolescent Volunteers Enrolled in Preventative Vaccine Clinical Trials. Severity was graded 0-4; a lower score indicated lower severity and a higher score indicated greater severity. The Investigator determined if solicited AR was also to be recorded as an AE. Summary of serious AEs (SAEs) and nonserious AEs (\"Other\"), regardless of causality, is in Reported \"Adverse Events\" section.",
+   "groups": [
+    {
+     "description": "Participants received mRNA-1273-matching placebo on a 2-dose injection schedule (Day 1 and Day 29).",
+     "id": "OG000",
+     "title": "Part A (Blinded): Placebo"
+    },
+    {
+     "description": "Participants received 100 μg mRNA-1273 on a 2-dose injection schedule (Day 1 and Day 29).",
+     "id": "OG001",
+     "title": "Part A (Blinded): mRNA-1273"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Solicited Safety Set: All randomized participants who received at least 1 dose and contributed any solicited AR data; (had at least 1 post-baseline solicited safety assessment. Participants were included in the treatment group corresponding to the study vaccination they actually received. Number analyzed=participants evaluable at specified timepoint.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "up to Day 7 (7 days after first dose)",
+   "title": "Part A: Number of Participants With Solicited Local and Systemic Adverse Reactions (ARs) After First Dose",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "4346"
+        },
+        {
+         "groupId": "OG001",
+         "value": "4847"
+        }
+       ]
+      }
+     ],
+     "title": "Grade 1"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1558"
+        },
+        {
+         "groupId": "OG001",
+         "value": "5800"
+        }
+       ]
+      }
+     ],
+     "title": "Grade 2"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "348"
+        },
+        {
+         "groupId": "OG001",
+         "value": "2895"
+        }
+       ]
+      }
+     ],
+     "title": "Grade 3"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "3"
+        },
+        {
+         "groupId": "OG001",
+         "value": "14"
+        }
+       ]
+      }
+     ],
+     "title": "Grade 4"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "14578"
+      },
+      {
+       "groupId": "OG001",
+       "value": "14691"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Solicited ARs (local and systemic) were collected in eDiary within 7 days of dosing. Local ARs included: pain at injection site, erythema (redness) at injection site, swelling/induration (hardness) at injection site, and localized axillary swelling or tenderness ipsilateral to the injection arm. Systemic ARs included: headache, fatigue, myalgia (muscle aches all over the body), arthralgia (aching in several joints), nausea/vomiting, rash, body temperature (potentially fever), and chills. Severity grading for solicited ARs is based on modified Toxicity Grading Scale for Healthy Adult and Adolescent Volunteers Enrolled in Preventative Vaccine Clinical Trials. Severity was graded 0-4; lower score indicated lower severity and a higher score indicated greater severity. The Investigator determined if solicited AR was also to be recorded as an AE. Summary of serious AEs (SAEs) and nonserious AEs (\"Other\"), regardless of causality, is in Reported \"Adverse Events\" section",
+   "groups": [
+    {
+     "description": "Participants received mRNA-1273-matching placebo on a 2-dose injection schedule (Day 1 and Day 29).",
+     "id": "OG000",
+     "title": "Part A (Blinded): Placebo"
+    },
+    {
+     "description": "Participants received 100 μg mRNA-1273 on a 2-dose injection schedule (Day 1 and Day 29).",
+     "id": "OG001",
+     "title": "Part A (Blinded): mRNA-1273"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Solicited Safety Set: Randomized participants who received at least 1 dose and contributed any solicited AR data. Participants were included in the treatment group corresponding to the study vaccination they actually received. Number analyzed=participants evaluable at specified timepoint. No solicited ARs were collected in Part B because sufficient data had already been captured and analyzed in Part A.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Day 29 to Day 35 (from second dose to 7 days after second dose)",
+   "title": "Part A: Number of Participants With Solicited Local and Systemic Adverse Reactions (ARs) After Second Dose",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "4561"
+        },
+        {
+         "groupId": "OG001",
+         "value": "3921"
+        },
+        {
+         "groupId": "OG002",
+         "value": "109"
+        },
+        {
+         "groupId": "OG003",
+         "value": "5513"
+        },
+        {
+         "groupId": "OG004",
+         "value": "5809"
+        }
+       ]
+      }
+     ],
+     "title": "MAAEs"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "25"
+        },
+        {
+         "groupId": "OG001",
+         "value": "27"
+        },
+        {
+         "groupId": "OG002",
+         "value": "3"
+        },
+        {
+         "groupId": "OG003",
+         "value": "30"
+        },
+        {
+         "groupId": "OG004",
+         "value": "35"
+        }
+       ]
+      }
+     ],
+     "title": "AEs Leading to Discontinuation"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "15162"
+      },
+      {
+       "groupId": "OG001",
+       "value": "15184"
+      },
+      {
+       "groupId": "OG002",
+       "value": "2513"
+      },
+      {
+       "groupId": "OG003",
+       "value": "12649"
+      },
+      {
+       "groupId": "OG004",
+       "value": "15184"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "An MAAE is an AE that leads to an unscheduled visit to a healthcare practitioner (HCP). A summary of SAEs and all nonserious AEs (\"Other\"), regardless of causality, is located in the Reported \"Adverse Events\" section.",
+   "groups": [
+    {
+     "description": "Participants received mRNA-1273-matching placebo on a 2-dose injection schedule (Day 1 and Day 29).",
+     "id": "OG000",
+     "title": "Part A (Blinded): Placebo"
+    },
+    {
+     "description": "Participants received 100 μg mRNA-1273 on a 2-dose injection schedule (Day 1 and Day 29).",
+     "id": "OG001",
+     "title": "Part A (Blinded): mRNA-1273"
+    },
+    {
+     "description": "Participants received placebo on a 2-dose injection schedule in Part A and did not receive mRNA-1273 in Part B.",
+     "id": "OG002",
+     "title": "Part B (Open-label): Placebo"
+    },
+    {
+     "description": "Participants received placebo on a 2-dose injection schedule in Part A and received 100 μg mRNA-1273 in Part B.",
+     "id": "OG003",
+     "title": "Part B (Open-label): Placebo/mRNA-1273"
+    },
+    {
+     "description": "Participants received mRNA-1273 on a 2-dose injection schedule in Part A and continued follow-up in Part B.",
+     "id": "OG004",
+     "title": "Part B (Open-label): mRNA-1273"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Safety Set: All randomized participants who received at least 1 dose. Participants were included in the treatment group corresponding to dose they actually received. For a participant who was randomized to placebo but received any dose of mRNA-1273 at any injection, the participant was included in the mRNA-1273 group in the Safety Set.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Day 1 (after dosing) through end of study (up to Day 759)",
+   "title": "Parts A and B: Number of Participants With Medically Attended AEs (MAAEs) and AEs Leading to Discontinuation",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "308"
+        },
+        {
+         "groupId": "OG001",
+         "value": "292"
+        },
+        {
+         "groupId": "OG002",
+         "value": "15"
+        },
+        {
+         "groupId": "OG003",
+         "value": "536"
+        },
+        {
+         "groupId": "OG004",
+         "value": "516"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "15162"
+      },
+      {
+       "groupId": "OG001",
+       "value": "15184"
+      },
+      {
+       "groupId": "OG002",
+       "value": "2513"
+      },
+      {
+       "groupId": "OG003",
+       "value": "12649"
+      },
+      {
+       "groupId": "OG004",
+       "value": "15184"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "An SAE was defined as any AE that resulted in death, is life-threatening, required inpatient hospitalization or prolongation of existing hospitalization, resulted in disability/permanent damage, was a congenital anomaly/birth defect, or was an important medical event. A summary of SAEs and all nonserious AEs (\"Other\"), regardless of causality, is located in the Reported \"Adverse Events\" section.",
+   "groups": [
+    {
+     "description": "Participants received mRNA-1273-matching placebo on a 2-dose injection schedule (Day 1 and Day 29).",
+     "id": "OG000",
+     "title": "Part A (Blinded): Placebo"
+    },
+    {
+     "description": "Participants received 100 μg mRNA-1273 on a 2-dose injection schedule (Day 1 and Day 29).",
+     "id": "OG001",
+     "title": "Part A (Blinded): mRNA-1273"
+    },
+    {
+     "description": "Participants received placebo on a 2-dose injection schedule in Part A and did not receive mRNA-1273 in Part B.",
+     "id": "OG002",
+     "title": "Part B (Open-label): Placebo"
+    },
+    {
+     "description": "Participants received placebo on a 2-dose injection schedule in Part A and received 100 μg mRNA-1273 in Part B.",
+     "id": "OG003",
+     "title": "Part B (Open-label): Placebo/mRNA-1273"
+    },
+    {
+     "description": "Participants received mRNA-1273 on a 2-dose injection schedule in Part A and continued follow-up in Part B.",
+     "id": "OG004",
+     "title": "Part B (Open-label): mRNA-1273"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Safety Set: All randomized participants who received at least 1 dose. Participants were included in the treatment group corresponding to dose they actually received. For a participant who was randomized to placebo but received any dose of mRNA-1273 at any injection, the participant was included in the mRNA-1273 group in the Safety Set.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Day 1 (after dosing) through end of study (up to Day 759)",
+   "title": "Parts A and B: Number of Participants With Serious AEs (SAEs)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

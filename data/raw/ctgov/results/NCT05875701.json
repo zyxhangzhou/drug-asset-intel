@@ -1,0 +1,129 @@
+{
+ "nctId": "NCT05875701",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "123.0",
+         "upperLimit": "243.8",
+         "value": "173.2"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "94.3",
+         "upperLimit": "269.9",
+         "value": "159.5"
+        }
+       ]
+      }
+     ],
+     "title": "Date of 1st booster dose (Study 307)"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "328.7",
+         "upperLimit": "478.6",
+         "value": "396.6"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "305.6",
+         "upperLimit": "622.2",
+         "value": "436.0"
+        }
+       ]
+      }
+     ],
+     "title": "28 days after 1st booster dose (Study 307)"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "222.6",
+         "upperLimit": "421.6",
+         "value": "306.4"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "282.5",
+         "upperLimit": "626.6",
+         "value": "420.7"
+        }
+       ]
+      }
+     ],
+     "title": "Date of 2nd booster dose (Study 312)"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "318.0",
+         "upperLimit": "486.2",
+         "value": "393.2"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "597.1",
+         "upperLimit": "1167.6",
+         "value": "835.0"
+        }
+       ]
+      }
+     ],
+     "title": "28 days after 2nd booster dose (Study 312)"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "98"
+      },
+      {
+       "groupId": "OG001",
+       "value": "40"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Neutralizing Antibody responses to ancestral strain Novavax vaccine (NVX-CoV2373) for the participants in the ancestral strain NVX-2373 group and NVX-CoV2540 group at Day 29",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "1dose of NVX-COV2373 on Day 1\n\nNVX-CoV2373: 1 intramuscular (IM) injection of 5 µg SARS-CoV-2 rS + 50 µg Matrix-M1 adjuvant (0.5 mL) given on Day 1",
+     "id": "OG000",
+     "title": "NVX CoV2373 (Ancestral Strain)"
+    },
+    {
+     "description": "1dose of updated COVID-19 vaccine on Day 1\n\nSARS-CoV-2 rS antigen/Matrix-M Adjuvant: 1 intramuscular (IM) injection of 5 µg SARS-CoV-2 rS antigen+ 50 µg Matrix-M1 adjuvant (0.5 mL) given on Day 1",
+     "id": "OG001",
+     "title": "NVX-CoV2540(Updated COVID-19 Vaccine)"
+    }
+   ],
+   "paramType": "GEOMETRIC_MEAN",
+   "populationDescription": "Per Protocol Analysis Set",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Day 28",
+   "title": "Neutralizing Antibody (Nab) for SARS-CoV-2 Wildtype Virus (Wuhan) Responses Expressed as Geometric Mean Titers (GMT)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "titers"
+  }
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "nctId": "NCT03568331",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "2.8",
+         "value": "-3.6"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "2.75",
+         "value": "-3.5"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "171"
+      },
+      {
+       "groupId": "OG001",
+       "value": "170"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Reduction of worst itch in atopic dermatitis as measured by Numerical Rating Scale (NRS). Worst Itch NRS is an assessment tool that is used to report the maximum intensity of participant's itch during a 24-hour recall period. Participants were asked the following question: Please rate the itching severity that describes your worst level of itching in the past 24 hours \\[0=No Itch, 10=Worst Itch Imaginable\\].",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Tradipitant: Oral Capsule",
+     "id": "OG000",
+     "title": "Tradipitant"
+    },
+    {
+     "description": "Placebo: Oral Capsule",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "All participants randomized (1:1) to placebo or tradipitant.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "8 weeks",
+   "title": "Reduction of Worst Itch in Atopic Dermatitis",
+   "type": "PRIMARY",
+   "unitOfMeasure": "units on a scale"
+  }
+ ]
+}

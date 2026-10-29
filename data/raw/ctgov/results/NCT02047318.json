@@ -1,0 +1,85 @@
+{
+ "nctId": "NCT02047318",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-145.26",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-43.55",
+     "dispersionType": "STANDARD_DEVIATION",
+     "dispersionValue": "98.915",
+     "groupDescription": "This analysis investigated whether a statistically significant change in sBA levels was observed when comparing MRX baseline to Week 48. The analysis was based on the safety population.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityComment": "The null hypothesis that the mean change was equal to zero was tested using the Student's t-test to determine if the mean change in sBA levels between MRX baseline and Week 48 was statistically significant.",
+     "nonInferiorityType": "EQUIVALENCE",
+     "pValue": "0.0012",
+     "pValueComment": "Data for this analysis were obtained from 19 participants at MRX baseline; 17 of those participants contributed Week 48 data.",
+     "paramType": "Mean Difference (Net)",
+     "paramValue": "-94.4",
+     "statisticalMethod": "Student's t-test"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "206.839",
+         "value": "261.96"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "101.742",
+         "value": "128.32"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "19"
+      },
+      {
+       "groupId": "OG001",
+       "value": "17"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The primary endpoint of this study was the mean change from MRX baseline to Week 48 in fasting sBA level.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "These are the MRX baseline values for participants. The last observation obtained before the first dose of MRX (whether before receiving MRX in Study LUM001-302 for participants who received MRX in Study LUM001-302, or in Study LUM001-303 for participants who received placebo in Study LUM001-302) was used as the MRX baseline observation for all calculations of change from MRX baseline. For participants who were assigned MRX in Study LUM001-302, results at each post-baseline analysis visit included up to 13 more weeks of treatment than participants who were assigned placebo in Study LUM001-302.",
+     "id": "OG000",
+     "title": "Core Study Period: MRX Baseline Values"
+    },
+    {
+     "description": "These are the Week 48 values for participants. These participants are also represented in the Core study period: MRX baseline values group; the analyses look at the change from MRX baseline to Week 48 in the same participants.",
+     "id": "OG001",
+     "title": "Core Study Period: Week 48 Values"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Data collected from 19 participants at MRX baseline. Data collected at Week 48 from 17 of the 19 participants who contributed values at MRX baseline.\n\nSince all participants escalated to MRX 280 ug/kg/day by Week 48, the summary is presented as a single arm.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "MRX baseline to Week 48",
+   "title": "Change From MRX Baseline to Week 48 in Fasting sBA Levels",
+   "type": "PRIMARY",
+   "unitOfMeasure": "μmol/L"
+  }
+ ]
+}

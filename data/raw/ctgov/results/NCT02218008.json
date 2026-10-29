@@ -1,0 +1,415 @@
+{
+ "nctId": "NCT02218008",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-2.7",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-0.3",
+     "estimateComment": "Estimates below zero favor ALKS 5461.",
+     "groupDescription": "Analysis was conducted for each stage separately and overall efficacy was based on combined stage analysis where stage-specific estimates were combined using pre-specified equal weights. Within each stage ALKS 5461 2mg/2mg was compared to placebo (i.e., ALKS 5461 2mg/2mg S1 vs Placebo S1; and ALKS 5461 2mg/2mg S2 vs Placebo S2. The pre-specified order of hypothesis tests was ALKS 5461 2/2 compared to placebo followed by ALKS 5461 1/1 compared to placebo.",
+     "groupIds": [
+      "OG000",
+      "OG002",
+      "OG003",
+      "OG005"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.018",
+     "pValueComment": "Hypothesis tests were two-sided with an alpha of 0.05. Control of type 1 error inflation due to multiplicity was achieved by pre-specifying a fixed sequence for statistical tests.",
+     "paramType": "Least Squares Mean Difference",
+     "paramValue": "-1.5",
+     "statisticalComment": "ALKS 5461 was compared to pbo using stage-specific MMRM for MADRS-10 Change from Baseline. Model-derived estimates were combined using equal weights.",
+     "statisticalMethod": "Mixed Models Analysis"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.34",
+         "value": "-5.6"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.74",
+         "value": "-6.0"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "0.75",
+         "value": "-6.8"
+        },
+        {
+         "groupId": "OG003",
+         "spread": "0.65",
+         "value": "-1.5"
+        },
+        {
+         "groupId": "OG004",
+         "spread": "0.67",
+         "value": "-2.2"
+        },
+        {
+         "groupId": "OG005",
+         "spread": "0.67",
+         "value": "-3.2"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "273"
+      },
+      {
+       "groupId": "OG001",
+       "value": "62"
+      },
+      {
+       "groupId": "OG002",
+       "value": "63"
+      },
+      {
+       "groupId": "OG003",
+       "value": "60"
+      },
+      {
+       "groupId": "OG004",
+       "value": "62"
+      },
+      {
+       "groupId": "OG005",
+       "value": "63"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The MADRS-6 scale is a clinician-administered questionnaire used to measure the severity of MDD symptoms. The MADRS-6 scale is a subset of the MADRS-10 scale, comprised of the following individual questionnaire items: Apparent Sadness, Reported Sadness, Inner Tension, Lassitude, Inability to Feel, and Pessimistic Thoughts. Scores range from 0 (no apparent symptoms) to 36 (most severe symptoms).",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Randomized to placebo in Stage 1",
+     "id": "OG000",
+     "title": "Placebo S1"
+    },
+    {
+     "description": "Randomized to ALKS 5461 1mg/1mg in Stage 1",
+     "id": "OG001",
+     "title": "ALKS 5461 1mg/1mg S1"
+    },
+    {
+     "description": "Randomized to ALKS 5461 2mg/2mg in Stage 1",
+     "id": "OG002",
+     "title": "ALKS 5461 2mg/2mg S1"
+    },
+    {
+     "description": "Randomized to placebo in Stage 2",
+     "id": "OG003",
+     "title": "Placebo S2"
+    },
+    {
+     "description": "Randomized to ALKS 5461 1mg/1mg in Stage 2",
+     "id": "OG004",
+     "title": "ALKS 5461 1mg/1mg S2"
+    },
+    {
+     "description": "Randomized to ALKS 5461 2mg/2mg in Stage 2",
+     "id": "OG005",
+     "title": "ALKS 5461 2mg/2mg S2"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Stage 1 and Stage 2 Full Analysis Sets (FAS) consisted of subjects who were randomized and took at least 1 dose of study drug and had at least 1 postbaseline MADRS assessment in the respective stage.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline and 5 weeks (Stage 1) and baseline and 6 weeks (Stage 2), combined together for the overall estimate of treatment effect",
+   "title": "Change in Montgomery Asberg Depression Rating Scale (MADRS)-6 Score Using Average of Changes From Baseline to Week 3 Through the End of Treatment Period (Week 5 for Stage 1, Week 6 for Stage 2)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Units on a scale"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-3.6",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-0.2",
+     "estimateComment": "Estimates below zero favor ALKS 5461.",
+     "groupDescription": "Analysis was conducted for each stage separately and overall efficacy was based on combined stage analysis where stage-specific estimates were combined using pre-specified equal weights. Within each stage ALKS 5461 2mg/2mg was compared to placebo (i.e., ALKS 5461 2mg/2mg S1 vs Placebo S1; and ALKS 5461 2mg/2mg S2 vs Placebo S2. The pre-specified order of hypothesis tests was ALKS 5461 2/2 compared to placebo followed by ALKS 5461 1/1 compared to placebo.",
+     "groupIds": [
+      "OG000",
+      "OG002",
+      "OG003",
+      "OG005"
+     ],
+     "nonInferiorityComment": "Hypothesis tests were two-sided with an alpha of 0.05. Control of type 1 error inflation due to multiplicity was achieved by pre-specifying a fixed sequence for statistical tests.",
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.026",
+     "pValueComment": "ALKS 5461 was compared to pbo using stage-specific MMRM for MADRS-10 Change from Baseline. Model-derived estimates were combined using equal weights.",
+     "paramType": "Least Squares Mean Difference",
+     "paramValue": "-1.9",
+     "statisticalMethod": "Mixed Models Analysis"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.48",
+         "value": "-8.1"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "1.05",
+         "value": "-8.8"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "1.06",
+         "value": "-10.3"
+        },
+        {
+         "groupId": "OG003",
+         "spread": "0.88",
+         "value": "-2.1"
+        },
+        {
+         "groupId": "OG004",
+         "spread": "0.91",
+         "value": "-3.2"
+        },
+        {
+         "groupId": "OG005",
+         "spread": "0.90",
+         "value": "-3.7"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "273"
+      },
+      {
+       "groupId": "OG001",
+       "value": "62"
+      },
+      {
+       "groupId": "OG002",
+       "value": "63"
+      },
+      {
+       "groupId": "OG003",
+       "value": "60"
+      },
+      {
+       "groupId": "OG004",
+       "value": "62"
+      },
+      {
+       "groupId": "OG005",
+       "value": "63"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The MADRS-10 scale is a clinician-administered questionnaire comprised of 10 items used to measure the severity of MDD symptoms. Scores range from 0 (no apparent symptoms) to 60 (most severe symptoms). Individual questionnaire items include: Apparent Sadness, Reported Sadness, Inner Tension, Reduced Sleep, Reduced Appetite, Concentration Difficulties, Lassitude, Inability to Feel, Pessimistic Thoughts, and Suicidal Thoughts.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Randomized to placebo in Stage 1",
+     "id": "OG000",
+     "title": "Placebo S1"
+    },
+    {
+     "description": "Randomized to ALKS 5461 1mg/1mg in Stage 1",
+     "id": "OG001",
+     "title": "ALKS 5461 1mg/1mg S1"
+    },
+    {
+     "description": "Randomized to ALKS 5461 2mg/2mg in Stage 1",
+     "id": "OG002",
+     "title": "ALKS 5461 2mg/2mg S1"
+    },
+    {
+     "description": "Randomized to placebo in Stage 2",
+     "id": "OG003",
+     "title": "Placebo S2"
+    },
+    {
+     "description": "Randomized to ALKS 5461 1mg/1mg in Stage 2",
+     "id": "OG004",
+     "title": "ALKS 5461 1mg/1mg S2"
+    },
+    {
+     "description": "Randomized to ALKS 5461 2mg/2mg in Stage 2",
+     "id": "OG005",
+     "title": "ALKS 5461 2mg/2mg S2"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Stage 1 and Stage 2 Full Analysis Sets (FAS) consisted of subjects who were randomized and took at least 1 dose of study drug and had at least 1 postbaseline MADRS-10 assessment in the respective stage.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "5-6 Weeks (5 weeks for Stage 1 and 6 weeks for Stage 2)",
+   "title": "Change in MADRS-10 Score Using Average of Changes From Baseline to Week 3 Through the End of Treatment Period (Week 5 for Stage 1, Week 6 for Stage 2)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Units on a scale"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-3.6",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.2",
+     "groupDescription": "ALKS 5461 is compared to placebo within each of the 2 stages (i.e., ALKS 5461 2/2 S1 vs Placebo S1; and ALKS 5461 2/2 S2 vs Placebo S2). Efficacy was estimated as a weighted average across 2 stages using equal weights.",
+     "groupIds": [
+      "OG000",
+      "OG002",
+      "OG003",
+      "OG005"
+     ],
+     "nonInferiorityComment": "The primary hypotheses were evaluated using a 6-step, fixed sequence approach to adjust for multiple comparisons. Using this method, hypothesis testing (using alpha=0.05) continued through the sequence until statistical significance was not achieved. Steps 1-3 included testing the ALKS 5461 2mg/2mg dose vs placebo for the 3 primary endpoints.",
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.076",
+     "pValueComment": "ALKS 5461 is compared to placebo within each of the 2 stages, and resulting treatment effects from each stage are combined for a single hypothesis test using equal weights of 0.5 for both stages.",
+     "paramType": "Least Squares Mean Difference",
+     "paramValue": "-1.7",
+     "statisticalMethod": "Mixed Models Analysis"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.55",
+         "value": "-9.2"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "1.19",
+         "value": "-10.3"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "1.22",
+         "value": "-10.8"
+        },
+        {
+         "groupId": "OG003",
+         "spread": "0.96",
+         "value": "-1.9"
+        },
+        {
+         "groupId": "OG004",
+         "spread": "0.98",
+         "value": "-3.4"
+        },
+        {
+         "groupId": "OG005",
+         "spread": "0.98",
+         "value": "-3.6"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "273"
+      },
+      {
+       "groupId": "OG001",
+       "value": "62"
+      },
+      {
+       "groupId": "OG002",
+       "value": "63"
+      },
+      {
+       "groupId": "OG003",
+       "value": "60"
+      },
+      {
+       "groupId": "OG004",
+       "value": "62"
+      },
+      {
+       "groupId": "OG005",
+       "value": "63"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The MADRS-10 scale is a clinician-administered questionnaire comprised of 10 items used to measure the severity of MDD symptoms. Scores range from 0 (no apparent symptoms) to 60 (most severe symptoms). Individual questionnaire items include: Apparent Sadness, Reported Sadness, Inner Tension, Reduced Sleep, Reduced Appetite, Concentration Difficulties, Lassitude, Inability to Feel, Pessimistic Thoughts, and Suicidal Thoughts.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Randomized to placebo in Stage 1",
+     "id": "OG000",
+     "title": "Placebo S1"
+    },
+    {
+     "description": "Randomized to ALKS 5461 1mg/1mg in Stage 1",
+     "id": "OG001",
+     "title": "ALKS 5461 1mg/1mg S1"
+    },
+    {
+     "description": "Randomized to ALKS 5461 2mg/2mg in Stage 1",
+     "id": "OG002",
+     "title": "ALKS 5461 2mg/2mg S1"
+    },
+    {
+     "description": "Randomized to placebo in Stage 2",
+     "id": "OG003",
+     "title": "Placebo S2"
+    },
+    {
+     "description": "Randomized to ALKS 5461 1mg/1mg in Stage 2",
+     "id": "OG004",
+     "title": "ALKS 5461 1mg/1mg S2"
+    },
+    {
+     "description": "Randomized to ALKS 5461 2mg/2mg in Stage 2",
+     "id": "OG005",
+     "title": "ALKS 5461 2mg/2mg S2"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Stage 1 and Stage 2 Full Analysis Sets (FAS) consisted of subjects who were randomized and took at least 1 dose of study drug and had at least 1 postbaseline MADRS-10 assessment in the respective stage.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "5-6 Weeks (5 weeks for Stage 1 and 6 weeks for Stage 2)",
+   "title": "Change From Baseline to End of Treatment in the MADRS-10",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Units on a scale"
+  }
+ ]
+}

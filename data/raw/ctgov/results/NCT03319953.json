@@ -1,0 +1,256 @@
+{
+ "nctId": "NCT03319953",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.2079",
+     "pValueComment": "Bayesian method was used to calculate the posterior probability. High posterior probability of a difference between TAK-041 and placebo \\>2.0.",
+     "statisticalMethod": "Bayesian Normal Linear Model"
+    },
+    {
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0633",
+     "pValueComment": "Bayesian method was used to calculate the posterior probability. High posterior probability of a difference between TAK-041 and placebo \\>2.0.",
+     "statisticalMethod": "Bayesian Normal Linear Model"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "12.867",
+         "value": "29.72"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "12.753",
+         "value": "27.35"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "8.214",
+         "value": "27.89"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "21"
+        },
+        {
+         "groupId": "OG001",
+         "value": "7"
+        },
+        {
+         "groupId": "OG002",
+         "value": "15"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Baseline"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "6.963",
+         "value": "2.28"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "6.944",
+         "value": "5.35"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "5.618",
+         "value": "1.31"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "21"
+        },
+        {
+         "groupId": "OG001",
+         "value": "6"
+        },
+        {
+         "groupId": "OG002",
+         "value": "14"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Day 14"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "21"
+      },
+      {
+       "groupId": "OG001",
+       "value": "7"
+      },
+      {
+       "groupId": "OG002",
+       "value": "15"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "BACS is a reliable and sensitive measure of cognitive function in schizophrenia. The BACS consists of items across six subtests: Verbal Memory, Digit Sequencing, Token Motor, Verbal Fluency, Symbol Coding, and Tower of London. The subtest scale scores were used to compute a composite BACS t-score of 50 (20) is the mean (standard deviation) of a relevant index population. Higher values indicate better performance. Bayesian normal linear model was used for analysis.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "TAK-041 placebo-matching, suspension, orally on Day 1 of Treatment Period 1 or 2. All participants took a stable dose of antipsychotics as per standard of care throughout the duration of the Treatment Period.",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "TAK-041 40 mg, suspension, orally on Day 1 of Treatment Period 1 or 2. All participants took a stable dose of antipsychotics as per standard of care throughout the duration of the Treatment Period.",
+     "id": "OG001",
+     "title": "TAK-041 40 mg"
+    },
+    {
+     "description": "TAK-041 160 mg, suspension, orally on Day 1 of Treatment Period 1 or 2. All participants took a stable dose of antipsychotics as per standard of care throughout the duration of the Treatment Period.",
+     "id": "OG002",
+     "title": "TAK-041 160 mg"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Pharmacodynamic (PD) Analysis Set included all participants who received at least 1 dose of study drug and had at least 1 evaluable primary or exploratory PD measurement. Number analyzed is the number of participants with data available for analyses.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline (Day -1) and Day 14",
+   "title": "Change From Baseline in the Brief Assessment of Cognition in Schizophrenia (BACS) Composite Score at Second Testing After TAK-041 Administration",
+   "type": "PRIMARY",
+   "unitOfMeasure": "t-scale"
+  },
+  {
+   "analyses": [
+    {
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.1706",
+     "pValueComment": "Bayesian method was used to calculate the posterior probability. High posterior probability of a difference between TAK-041 and placebo \\>0.09.",
+     "statisticalMethod": "Bayesian Normal Linear Model"
+    },
+    {
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0373",
+     "pValueComment": "Bayesian method was used to calculate the posterior probability. High posterior probability of a difference between TAK-041 and placebo \\>0.09.",
+     "statisticalMethod": "Bayesian Normal Linear Model"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.396",
+         "value": "0.23"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.202",
+         "value": "0.23"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "0.458",
+         "value": "0.03"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "20"
+      },
+      {
+       "groupId": "OG001",
+       "value": "6"
+      },
+      {
+       "groupId": "OG002",
+       "value": "13"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Blood-oxygen-level-dependent imaging, or BOLD-contrast imaging, is a method used in functional magnetic resonance imaging (fMRI) to observe different areas of the brain or other organs, which are found to be active at any given time. The MID task is a reward anticipation paradigm that robustly engages the VS, a key area associated with coding incentive reward. Dysfunctional processing of reward information is associated with motivational impairments in schizophrenia. Motivational impairment is a key aspect of negative symptoms, and has been associated with reduced activity in the VS. Any change in BOLD signal that comes in fMRI is reported.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "TAK-041 placebo-matching, suspension, orally on Day 1 of Treatment Period 1 or 2. All participants took a stable dose of antipsychotics as per standard of care throughout the duration of the Treatment Period.",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "TAK-041 40 mg, suspension, orally on Day 1 of Treatment Period 1 or 2. All participants took a stable dose of antipsychotics as per standard of care throughout the duration of the Treatment Period.",
+     "id": "OG001",
+     "title": "TAK-041 40 mg"
+    },
+    {
+     "description": "TAK-041 160 mg, suspension, orally on Day 1 of Treatment Period 1 or 2. All participants took a stable dose of antipsychotics as per standard of care throughout the duration of the Treatment Period.",
+     "id": "OG002",
+     "title": "TAK-041 160 mg"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "PD Analysis Set included all participants who received at least 1 dose of study drug and had at least 1 evaluable primary or exploratory PD measurement. Overall number of participants analyzed is the number of participants with data available for analyses.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Day 1",
+   "title": "Blood-Oxygen-Level-Dependent (BOLD) Signal in the Average Ventral Striatum (VS) Region of Interest (ROI) Activation in the Monetary Incentive Delay (MID) Reward Task at First Testing After TAK-041 Administration",
+   "type": "PRIMARY",
+   "unitOfMeasure": "BOLD signal"
+  }
+ ]
+}

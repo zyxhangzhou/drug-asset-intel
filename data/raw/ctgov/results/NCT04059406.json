@@ -1,0 +1,80 @@
+{
+ "nctId": "NCT04059406",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "0.0",
+         "upperLimit": "45.9",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "0.0",
+         "upperLimit": "45.9",
+         "value": "0"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "0.2",
+         "upperLimit": "31.9",
+         "value": "6.7"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "6"
+      },
+      {
+       "groupId": "OG001",
+       "value": "6"
+      },
+      {
+       "groupId": "OG002",
+       "value": "15"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Blood hemoglobin",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Subjects initially received 30 mg/0.3 mL of sapablursen by SC injection once every four weeks up to Week 105. After the protocol Amendment 2 the dose was increased to a maximum of 160 mg.",
+     "id": "OG000",
+     "title": "Cohort A: Sapablursen"
+    },
+    {
+     "description": "Subjects initially received 50 mg/0.5 mL of sapablursen by SC injection once every four weeks up to Week 105. After the protocol Amendment 2 the dose was increased to a maximum of 160 mg.",
+     "id": "OG001",
+     "title": "Cohort B: Sapablursen"
+    },
+    {
+     "description": "Subjects initially received 80 mg/0.8 mL of sapablursen by SC injection once every four weeks up to Week 105. After the protocol Amendment 2 the dose was increased to a maximum of 160 mg.",
+     "id": "OG002",
+     "title": "Cohort C: Sapablursen"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Full Analysis Set (FAS) included all randomized participants who received at least 1 dose of sapablursen and who had at least 1 Hb assessment collected after Day 1. Here, the \"overall number of participants analyzed\" signifies the number of participants available for analysis for this outcome measure.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline and Week 27",
+   "title": "Percentage of Participants With a ≥1.0 Grams Per Deciliter (g/dL) Increase From Baseline in Hemoglobin (Hb) at Week 27",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

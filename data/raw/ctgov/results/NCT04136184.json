@@ -1,0 +1,380 @@
+{
+ "nctId": "NCT04136184",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-30.9552",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-18.5635",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.00000001",
+     "paramType": "Difference in LS Mean",
+     "paramValue": "-24.7593",
+     "statisticalMethod": "MMRM"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "2.4123",
+         "value": "0.2964"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "2.3874",
+         "value": "25.0557"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "128"
+      },
+      {
+       "groupId": "OG001",
+       "value": "52"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "mNIS+7 composite score is a measure of neurologic impairment evaluating muscle weakness, sensation, reflexes, nerve conduction, and autonomic function. mNIS+7 consists of 2 composite scores: the NIS composite score (maximum of 244 points) \\& the modified +7 composite score (maximum of 102.32 points). mNIS+7 composite total score range= -22.32 to 346.32. Higher score indicated a lower function. Least square (LS) mean \\& standard error (SE) were analyzed using Mixed Effects Model with Repeated Measures (MMRM). As pre-specified in the protocol, the efficacy of eplontersen was to be assessed by comparing participants enrolled in the eplontersen arm only with the external placebo group. There was no statistical comparison planned between the inotersen arm and the eplontersen-treated/external placebo group arms.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Participants received eplontersen, 45 mg, SC, once every 4 weeks up to Week 81.",
+     "id": "OG000",
+     "title": "Eplontersen"
+    },
+    {
+     "description": "Participants in the external placebo arm received 3 SC doses of placebo during Week 1, followed by once-weekly SC administration for 64 weeks of the NEURO-TTR study.",
+     "id": "OG001",
+     "title": "External Placebo"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "FAS: all randomized participants who received at least 1 injection of ION-682884/inotersen \\& had a baseline \\& 1 post-baseline efficacy assessment for mNIS+7 score/Norfolk QOL-DN questionnaire total score. NEURO-TTR, FAS: all randomized participants who received at least 1 injection of study drug \\& had a baseline \\& 1 post-baseline efficacy assessment for the mNIS+7 or Norfolk QOL-DN questionnaire total score. Overall number analyzed = number of participants with data available for analysis.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Week 66",
+   "title": "Change From Baseline in Modified Neuropathy Impairment Score Plus 7 (mNIS+7) at Week 66",
+   "type": "PRIMARY",
+   "unitOfMeasure": "scores on a scale"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-25.6301",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-13.8403",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.00000001",
+     "paramType": "Difference in LS Mean",
+     "paramValue": "-19.7352",
+     "statisticalMethod": "MMRM"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "2.2976",
+         "value": "-5.4964"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "2.3488",
+         "value": "14.2388"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "128"
+      },
+      {
+       "groupId": "OG001",
+       "value": "52"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The Norfolk QoL-DN score is a measure of physical function/large fiber neuropathy, symptoms, activities of daily living, small fiber neuropathy, and autonomic neuropathy. The Norfolk QoL-DN total score has a range of -4 to 138, and a higher score indicates poorer quality of life. LS mean and SE were analyzed using MMRM. As pre-specified in the protocol, the efficacy of eplontersen was to be assessed by comparing participants enrolled in the eplontersen arm only with the external placebo group. There was no statistical comparison planned between the inotersen arm and the eplontersen-treated/external placebo group arms.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Participants received eplontersen, 45 mg, SC, once every 4 weeks up to Week 81.",
+     "id": "OG000",
+     "title": "Eplontersen"
+    },
+    {
+     "description": "Participants in the external placebo arm received 3 SC doses of placebo during Week 1, followed by once-weekly SC administration for 64 weeks of the NEURO-TTR study.",
+     "id": "OG001",
+     "title": "External Placebo"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "FAS: all randomized participants who received at least 1 injection of ION-682884/inotersen \\& had a baseline \\& 1 post-baseline efficacy assessment for mNIS+7 score/Norfolk QOL-DN questionnaire total score. NEURO-TTR, FAS: all randomized participants who received at least 1 injection of study drug \\& had a baseline \\& 1 post-baseline efficacy assessment for the mNIS+7 or Norfolk QOL-DN questionnaire total score. Overall number analyzed = number of participants with data available for analysis.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Week 66",
+   "title": "Change From Baseline in the Norfolk Quality of Life Diabetic Neuropathy (QoL-DN) Questionnaire at Week 66",
+   "type": "PRIMARY",
+   "unitOfMeasure": "scores on a scale"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-75.17",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-65.66",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.00000001",
+     "paramType": "Difference in LS Mean",
+     "paramValue": "-70.42",
+     "statisticalMethod": "MMRM"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "1.605",
+         "value": "-81.65"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "1.910",
+         "value": "-11.24"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "135"
+      },
+      {
+       "groupId": "OG001",
+       "value": "51"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "As pre-specified in the protocol, the efficacy of eplontersen was to be assessed by comparing participants enrolled in the eplontersen arm only with the external placebo group. There was no statistical comparison planned between the inotersen arm and the eplontersen-treated/external placebo group arms. Overall number analyzed is the number of participants with data available for analysis.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Participants received eplontersen, 45 mg, SC, once every 4 weeks up to Week 81.",
+     "id": "OG000",
+     "title": "Eplontersen"
+    },
+    {
+     "description": "Participants in the external placebo arm received 3 SC doses of placebo during Week 1, followed by once-weekly SC administration for 64 weeks of the NEURO-TTR study.",
+     "id": "OG001",
+     "title": "External Placebo"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "FAS was defined as all randomized participants who received at least 1 injection of ION-682884/inotersen and had a baseline \\& at least 1 post-baseline efficacy assessment for mNIS+7 score or Norfolk QOL-DN questionnaire total score. For NEURO-TTR trial, FAS included all randomized participants who received at least 1 injection of study drug and had a baseline and at least 1 post-baseline efficacy assessment for the mNIS+7 score or Norfolk QOL-DN questionnaire total score.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Week 65",
+   "title": "Percent Change From Baseline in Serum TTR Concentration at Week 65",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-71.59",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-61.71",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.00000001",
+     "paramType": "Difference in LS Mean",
+     "paramValue": "-66.65",
+     "statisticalMethod": "MMRM"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "1.674",
+         "value": "-81.14"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "1.966",
+         "value": "-14.49"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "139"
+      },
+      {
+       "groupId": "OG001",
+       "value": "57"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "As pre-specified in the protocol, the efficacy of eplontersen was to be assessed by comparing participants enrolled in the eplontersen arm only with the external placebo group. There was no statistical comparison planned between the inotersen arm and the eplontersen-treated/external placebo group arms. Overall number analyzed is the number of participants with data available for analysis.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Participants received eplontersen, 45 mg, SC, once every 4 weeks up to Week 81.",
+     "id": "OG000",
+     "title": "Eplontersen"
+    },
+    {
+     "description": "Participants in the external placebo arm received 3 SC doses of placebo during Week 1, followed by once-weekly SC administration for 64 weeks of the NEURO-TTR study.",
+     "id": "OG001",
+     "title": "External Placebo"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "FAS was defined as all randomized participants who received at least 1 injection of ION-682884/inotersen and had a baseline \\& at least 1 post-baseline efficacy assessment for mNIS+7 score or Norfolk QOL-DN questionnaire total score. For NEURO-TTR trial, FAS included all randomized participants who received at least 1 injection of study drug and had a baseline and at least 1 post-baseline efficacy assessment for the mNIS+7 score or Norfolk QOL-DN questionnaire total score.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Week 35",
+   "title": "Percent Change From Baseline in Serum TTR Concentration at Week 35",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-13.8691",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-4.8394",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.00012203",
+     "paramType": "Difference in LS Mean",
+     "paramValue": "-9.3542",
+     "statisticalMethod": "MMRM"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "1.9073",
+         "value": "0.6795"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "1.8544",
+         "value": "10.0337"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "138"
+      },
+      {
+       "groupId": "OG001",
+       "value": "55"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "mNIS+7 composite score is a measure of neurologic impairment evaluating muscle weakness, sensation, reflexes, nerve conduction, and autonomic function. mNIS+7 consists of 2 composite scores: NIS composite score (maximum of 244 points) \\& the modified +7 composite score (maximum of 102.32 points). mNIS+7 composite total score range= -22.32 to 346.32. Higher score indicated a lower function. LS mean and SE were analyzed using MMRM. As pre-specified in the protocol, the efficacy of eplontersen was to be assessed by comparing participants enrolled in the eplontersen arm only with the external placebo group. There was no statistical comparison planned between the inotersen arm and the eplontersen-treated/external placebo group arms.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Participants received eplontersen, 45 mg, SC, once every 4 weeks up to Week 81.",
+     "id": "OG000",
+     "title": "Eplontersen"
+    },
+    {
+     "description": "Participants in the external placebo arm received 3 SC doses of placebo during Week 1, followed by once-weekly SC administration for 64 weeks of the NEURO-TTR study.",
+     "id": "OG001",
+     "title": "External Placebo"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "FAS: all randomized participants who received at least 1 injection of ION-682884/inotersen \\& had a baseline \\& 1 post-baseline efficacy assessment for mNIS+7 score/Norfolk QOL-DN questionnaire total score. NEURO-TTR, FAS: all randomized participants who received at least 1 injection of study drug \\& had a baseline \\& 1 post-baseline efficacy assessment for the mNIS+7 or Norfolk QOL-DN questionnaire total score. Overall number analyzed = number of participants with data available for analysis.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Week 35",
+   "title": "Change From Baseline in Modified Neuropathy Impairment Score Plus 7 (mNIS+7) at Week 35",
+   "type": "PRIMARY",
+   "unitOfMeasure": "scores on a scale"
+  }
+ ]
+}

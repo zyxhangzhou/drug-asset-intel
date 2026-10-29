@@ -1,0 +1,113 @@
+{
+ "nctId": "NCT05523895",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-4.6",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "1.4",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "1.52",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.2986",
+     "paramType": "Mean Difference (Final Values)",
+     "paramValue": "-1.6",
+     "statisticalMethod": "Mixed Models Analysis"
+    },
+    {
+     "ciLowerLimit": "-4.5",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "1.3",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "1.49",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.2859",
+     "paramType": "Mean Difference (Final Values)",
+     "paramValue": "-1.6",
+     "statisticalMethod": "Mixed Models Analysis"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "1.06",
+         "value": "-9.6"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "1.09",
+         "value": "-11.2"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "1.05",
+         "value": "-11.2"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "72"
+      },
+      {
+       "groupId": "OG001",
+       "value": "64"
+      },
+      {
+       "groupId": "OG002",
+       "value": "74"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The Aberrant Behavior Checklist (ABC) is a caregiver-rated scale comprised of 5 empirically-derived subscales encompassing 58 items that describe various behavior problems. It measures domains of irritability, lethargy/social withdrawal, stereotypic behavior, hyperactivity/noncompliance, and inappropriate speech. ABC-I is one of the subscales and comprises of 15 items. Minimum score is 0, maximum is 45. A score for each item ranges from 0 indicating \"not at all a problem\" to 3 indicating \"the problem is severe in degree\". Subscale scores are calculated by summing the items within that subscale. Higher scores indicate greater impairment.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Pimavanserin-matching placebo, given as 1 capsule once daily",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Pimavanserin given as 1 capsule once daily. Patients aged 5-12 years: 10 mg/day; patients aged 13-17 years: 20 mg/day",
+     "id": "OG001",
+     "title": "Pimavanserin Low Dose"
+    },
+    {
+     "description": "Pimavanserin given as 1 capsule once daily. Patients aged 5-12 years: 20 mg/day; patients aged 13-17 years: 34mg/day",
+     "id": "OG002",
+     "title": "Pimavanserin High Dose"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Full Analysis Set: all randomized patients who received at least one dose of study drug and have a baseline value and at least one post-baseline value for the ABC-I subscale score.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "6 weeks",
+   "title": "Change From Baseline at Week 6 in Caregiver-rated Aberrant Behavior Checklist Irritability (ABC-I) Subscale Score",
+   "type": "PRIMARY",
+   "unitOfMeasure": "score on a scale"
+  }
+ ]
+}

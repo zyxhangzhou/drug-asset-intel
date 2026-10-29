@@ -1,0 +1,147 @@
+{
+ "nctId": "NCT04253236",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "5"
+      },
+      {
+       "groupId": "OG001",
+       "value": "0"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Responders were defined as the participants with level of hemoglobin (Hb) \\>=10 grams per deciliter (g/dL) with at least a \\>=2 g/dL increase from Baseline without rescue therapy or blood transfusions in the previous two weeks.",
+   "groups": [
+    {
+     "description": "Participants received RVT-1401 680 milligram (mg) subcutaneous (SC) injection weekly for 12 weeks.",
+     "id": "OG000",
+     "title": "Cohort 1: RVT-1401 680 mg/Week"
+    },
+    {
+     "description": "Participants were planned to receive RVT-1401 340 mg SC injection weekly for 12 weeks.",
+     "id": "OG001",
+     "title": "Cohort 2: RVT-1401 340 mg/Week"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Safety population: All participants who enrolled in the study and received at least 1 dose of study treatment. Data was not collected for Cohort 2 due to early termination of the trial.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Week 13",
+   "title": "Number of Responders at Week 13",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "5"
+        }
+       ]
+      }
+     ],
+     "title": "TEAEs"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1"
+        }
+       ]
+      }
+     ],
+     "title": "SAEs"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "4"
+        }
+       ]
+      }
+     ],
+     "title": "Treatment-related AEs"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Deaths"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "5"
+      },
+      {
+       "groupId": "OG001",
+       "value": "0"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "AEs were defined as any untoward medical occurrence in a participant or clinical investigation participant, temporally associated with the use of a medicinal product, whether or not considered related to the medicinal product. Clinically significant changes determined by the Investigator such as vital signs, Electrocardiograms (ECGs), and clinical laboratory values were also reported as AEs. TEAEs were defined as AEs that either started on or after the date of the first dose of study drug. SAEs were defined as any untoward medical occurrence that, at any dose: resulted in death, was life-threatening, required hospitalization or prolongation of existing hospitalization, resulted in disability/incapacity, was a congenital anomaly/birth defect, or was an important medical event that may have jeopardized the participant or may have required medical or surgical intervention to prevent one of the other outcomes listed in the definition.",
+   "groups": [
+    {
+     "description": "Participants received RVT-1401 680 milligram (mg) subcutaneous (SC) injection weekly for 12 weeks.",
+     "id": "OG000",
+     "title": "Cohort 1: RVT-1401 680 mg/Week"
+    },
+    {
+     "description": "Participants were planned to receive RVT-1401 340 mg SC injection weekly for 12 weeks.",
+     "id": "OG001",
+     "title": "Cohort 2: RVT-1401 340 mg/Week"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Safety Population. Data was not collected for Cohort 2 due to early termination of the trial.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to Week 20",
+   "title": "Number of Participants With Any Treatment-emergent Adverse Event (TEAE), Serious AE (SAE), Treatment-related Adverse Event (AE), and Death",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

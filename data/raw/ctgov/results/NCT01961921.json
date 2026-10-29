@@ -1,0 +1,74 @@
+{
+ "nctId": "NCT01961921",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "26"
+        }
+       ]
+      }
+     ],
+     "title": "At least 1 Treatment Emergent Adverse Event (TAE)"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "7"
+        }
+       ]
+      }
+     ],
+     "title": "At least 1 Serious Adverse Event (SAE)"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "2"
+        }
+       ]
+      }
+     ],
+     "title": "Study Drug Discontinuation for any reason"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "27"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "An AE is any untoward medical occurrence in a patient or clinical investigational patient administered a pharmaceutical product and which does not necessarily have a causal relationship with this treatment.",
+   "groups": [
+    {
+     "description": "Patients received 0.3 mg/kg of ALN-TTR02 (patisiran) every three weeks",
+     "id": "OG000",
+     "title": "ALN-TTR02 (Patisiran)"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Safety Analysis Set: All participants who received at least one dose of study drug.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "From Baseline up to 56 days post last dose",
+   "title": "The Number of Participants Experiencing Adverse Events (AEs), Serious Adverse Events (SAEs) and Study Drug Discontinuation",
+   "type": "PRIMARY",
+   "unitOfMeasure": "participants"
+  }
+ ]
+}

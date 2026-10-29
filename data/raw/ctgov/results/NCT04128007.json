@@ -1,0 +1,80 @@
+{
+ "nctId": "NCT04128007",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "6.64",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "32.32",
+     "estimateComment": "Stratified by country, baseline S-IGA, and baseline B-IGA per randomization with multiple imputation of missing data.",
+     "groupDescription": "S-IGA Success at Week 8 Odds Ratio",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<0.0001",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "14.65",
+     "statisticalComment": "Stratified by country, baseline S-IGA, and baseline B-IGA per randomization with multiple imputation of missing data.",
+     "statisticalMethod": "Cochran-Mantel-Haenszel"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "107"
+        },
+        {
+         "groupId": "OG001",
+         "value": "10"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "181"
+      },
+      {
+       "groupId": "OG001",
+       "value": "88"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The number of participants achieving success in the S-IGA scale is presented for each arm. Success is defined as an S-IGA score of 0 ('clear') or 1 ('almost clear'), plus a 2-grade improvement from baseline.The S-IGA is 5-point scale assessing the severity of plaque psoriasis on the scalp, with scores ranging from 0 ('clear') to 4 ('severe'). Higher scores indicate greater symptom severity.",
+   "groups": [
+    {
+     "description": "Participants applied roflumilast foam 0.3% QD for 8 weeks. Areas of application were all areas affected, including the scalp, face, trunk, and intertriginous regions. There was a 1-week follow-up period after completing treatment.",
+     "id": "OG000",
+     "title": "Roflumilast Foam 0.3%"
+    },
+    {
+     "description": "Participants applied vehicle foam QD for 8 weeks. Areas of application were all areas affected, including the scalp, face, trunk, and intertriginous regions. There was a 1-week follow-up period after completing treatment.",
+     "id": "OG001",
+     "title": "Vehicle Foam"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "All randomized participants with S-IGA score at baseline ≥2 and data available are included.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Week 8",
+   "title": "Number of Participants Achieving Success in the Scalp Investigator Global Assessment (S-IGA) Scale",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

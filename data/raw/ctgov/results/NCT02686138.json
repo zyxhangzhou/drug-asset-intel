@@ -1,0 +1,73 @@
+{
+ "nctId": "NCT02686138",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciNumSides": "TWO_SIDED",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<0.001",
+     "paramType": "Risk Difference (RD)",
+     "paramValue": "12.85",
+     "statisticalMethod": "Cochran-Mantel-Haenszel"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "107"
+        },
+        {
+         "groupId": "OG001",
+         "value": "71"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "293"
+      },
+      {
+       "groupId": "OG001",
+       "value": "300"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "An overall responder is defined as a weekly responder for the first 6/12 weeks where both CSBM and abdominal pain response criteria were met for the week. The CSBM response criteria are defined as an increase of one or more change in average weekly CSBMs from baseline. The definition of a CSBM is as follows: A CSBM is a spontaneous bowel movement (SBM) for which the subject responds \"yes\" to the following question; \"Did you feel like you completely emptied your bowels?\" The abdominal pain response criterion is defined as a decrease of 30% or more of percent change in average weekly worst abdominal pain from baseline.",
+   "groups": [
+    {
+     "description": "Tenapanor, 50mg BID (100mg total)\n\nTenapanor",
+     "id": "OG000",
+     "title": "50mg BID"
+    },
+    {
+     "description": "Placebo\n\nPlacebo",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "reportingStatus": "POSTED",
+   "timeFrame": "First 12 weeks",
+   "title": "Percentage of Subjects With Overall Response for 6 Out of 12 Weeks",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

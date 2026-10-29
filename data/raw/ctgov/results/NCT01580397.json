@@ -1,0 +1,47 @@
+{
+ "nctId": "NCT01580397",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "9"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Objective responses were evaluated using the Response Evaluation Criteria In Solid Tumors 1.1 (RECIST 1.1). Changes (ie, improvements) in tumor measurements from baseline values were assigned a status of CR or PR or SD. Objective response measurements comprised the sum of CR plus PR.\n\nComplete Response (CR): disappearance of all target lesions. Any pathological lymph nodes (whether target or non-target) must have reduction in short axis to \\<10 mm).\n\nPartial Response (PR): \\>=30% decrease in the sum of the longest diameter of target lesions, from the baseline sum longest diameter.",
+   "groups": [
+    {
+     "description": "INNO-206 administered at 350 mg/m\\^2 (260 mg/m\\^2 doxorubicin equivalent) intravenously (IV) on Day 1 every 21 days for up to 8 consecutive cycles.\n\nINNO-206: INNO-206 at a total dose of 350 mg/m\\^2 (260 mg/m\\^2 doxorubicin equivalent) will be administered as a 30 minute IV infusion every 21 days.",
+     "id": "OG000",
+     "title": "INNO-206"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "These subjects had more than one cycle of treatment and/or were able to be evaluated for response or disease progression.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Approximately 12 months from enrollment",
+   "title": "Objective Response Rate",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

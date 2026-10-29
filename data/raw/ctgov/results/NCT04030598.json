@@ -1,0 +1,95 @@
+{
+ "nctId": "NCT04030598",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-96.00",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-76.00",
+     "estimateComment": "The percentage difference in mean investigator-confirmed HAE attack rate between donidalorsen 80 mg and placebo was calculated as 100 percentage (%) × (mean rate ratio -1).",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.001",
+     "paramType": "Percentage Difference",
+     "paramValue": "-90.00",
+     "statisticalMethod": "Wald Chi-Square"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "1.558",
+         "value": "2.21"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.268",
+         "value": "0.23"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "2.221",
+         "value": "1.52"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "6"
+      },
+      {
+       "groupId": "OG001",
+       "value": "14"
+      },
+      {
+       "groupId": "OG002",
+       "value": "3"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The Week 1 to end of on-treatment period HAE attack rate was calculated for each participant as number of HAE attacks occurring from Week 1 to 28 days after the last dose date divided by the number of days the participant contributed to the period multiplied by 28 days. An HAE attack was defined as an event with signs or symptoms consistent with an attack in at least 1 of the locations: peripheral angioedema (cutaneous swelling involving an extremity, the face, neck, torso, and/or genitourinary region), abdominal angioedema (abdominal pain, with or without abdominal distention, nausea, vomiting, or diarrhea), laryngeal angioedema (stridor, dyspnea, difficulty speaking, difficulty swallowing, throat tightening, or swelling of the tongue, palate, uvula, or larynx).",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants with HAE-1/HAE-2 received placebo subcutaneously (SC) every 4 weeks at Weeks 1, 5, 9, and 13.",
+     "id": "OG000",
+     "title": "Part A: Placebo"
+    },
+    {
+     "description": "Participants with HAE-1/HAE-2 received donidalorsen, 80 mg, SC, every 4 weeks at Weeks 1, 5, 9, and 13.",
+     "id": "OG001",
+     "title": "Part A: Donidalorsen 80 mg"
+    },
+    {
+     "description": "Participants with hereditary angioedema with normal C1-inhibitor (HAE-nC1-INH) received donidalorsen, 80 mg, SC, every 4 weeks at Weeks 1, 5, 9, and 13.",
+     "id": "OG002",
+     "title": "Part B: Donidalorsen 80 mg"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "The intent-to-treat (ITT) population included all enrolled or randomized participants.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Week 1 to Week 17",
+   "title": "Time-normalized Number of HAE Attacks (Per Month) From Week 1 to Week 17",
+   "type": "PRIMARY",
+   "unitOfMeasure": "HAE attacks per month"
+  }
+ ]
+}

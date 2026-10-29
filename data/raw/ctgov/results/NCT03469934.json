@@ -1,0 +1,352 @@
+{
+ "nctId": "NCT03469934",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-0.265",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.150",
+     "groupDescription": "Mixed-model repeated measures (MMRM) analysis with fixed terms for treatment, time point of measurement, and treatment by time point interaction, baseline eosinophil count as a covariate, and a repeated time point effect within a participant.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "OTHER",
+     "pValue": "0.5703",
+     "paramType": "Least Squares (LS) Mean Difference",
+     "paramValue": "-0.058",
+     "statisticalMethod": "Mixed-model repeated measures"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "-0.351",
+         "upperLimit": "-0.046",
+         "value": "-0.199"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "-0.280",
+         "upperLimit": "-0.002",
+         "value": "-0.141"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "11"
+      },
+      {
+       "groupId": "OG001",
+       "value": "13"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants received a single dose of 300 mg etokimab administered on Day 1 by IV infusion over 1 hour. After completing the Day 1 assessments, all participants were followed up for 18 weeks.",
+     "id": "OG000",
+     "title": "Etokimab"
+    },
+    {
+     "description": "Participants received a single dose of placebo (0.9% sodium chloride) administered on Day 1 by IV infusion over 1 hour. After completing the Day 1 assessments, all participants were followed up for 18 weeks.",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Participants in the PD analysis set with available data were evaluated.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Day 22",
+   "title": "Change From Baseline in Peripheral Eosinophil Count at Day 22",
+   "type": "PRIMARY",
+   "unitOfMeasure": "10^9 cells/Liters"
+  },
+  {
+   "calculatePct": false,
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "6"
+        },
+        {
+         "groupId": "OG001",
+         "value": "5"
+        }
+       ]
+      }
+     ],
+     "title": "Any TEAEs"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Serious TEAEs"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "12"
+      },
+      {
+       "groupId": "OG001",
+       "value": "13"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "An adverse event (AE) is any untoward medical occurrence in a participant or clinical investigation participant administered a pharmaceutical product and which does not necessarily have a causal relationship with this treatment.\n\nAn AE was considered \"serious\" if there was any of the following outcomes: death, life-threatening, Inpatient hospitalization or prolongation of existing hospitalization, persistent or significant incapacity or substantial disruption of ability to conduct normal life functions, congenital anomaly/birth defect, other important medical events.\n\nTreatment-emergent adverse events (TEAEs) were defined as AEs that started or worsened in severity on or after the date and time of the study drug infusion.",
+   "groups": [
+    {
+     "description": "Participants received a single dose of 300 mg etokimab administered on Day 1 by IV infusion over 1 hour. After completing the Day 1 assessments, all participants were followed up for 18 weeks.",
+     "id": "OG000",
+     "title": "Etokimab"
+    },
+    {
+     "description": "Participants received a single dose of placebo (0.9% sodium chloride) administered on Day 1 by IV infusion over 1 hour. After completing the Day 1 assessments, all participants were followed up for 18 weeks.",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Participants in the safety analysis set were evaluated.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "From first dose to Day 127",
+   "title": "Number of Participants With Treatment-Emergent Adverse Events",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1"
+        },
+        {
+         "groupId": "OG001",
+         "value": "1"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "12"
+      },
+      {
+       "groupId": "OG001",
+       "value": "13"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Asthma exacerbation was defined as follows:\n\n1. Use of systemic corticosteroids (or a temporary increase in a stable oral corticosteroid background dose) for at least 3 days; a single depo-injectable dose of corticosteroids was considered equivalent to a 3-day course of systemic corticosteroids.\n\n   OR\n2. An emergency room/urgent care visit (defined as evaluation and treatment for \\<24 hours in an emergency department or urgent care center) due to asthma that required systemic corticosteroids (as per above).\n\n   OR\n3. An inpatient hospitalization (defined as admission to an inpatient facility and/or evaluation and treatment in a healthcare facility for ≥24 hours due to asthma).",
+   "groups": [
+    {
+     "description": "Participants received a single dose of 300 mg etokimab administered on Day 1 by IV infusion over 1 hour. After completing the Day 1 assessments, all participants were followed up for 18 weeks.",
+     "id": "OG000",
+     "title": "Etokimab"
+    },
+    {
+     "description": "Participants received a single dose of placebo (0.9% sodium chloride) administered on Day 1 by IV infusion over 1 hour. After completing the Day 1 assessments, all participants were followed up for 18 weeks.",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Full analysis set included all participants who received etokimab or placebo and had at least one post-baseline blood eosinophils count assessment.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "From first dose to Day 127",
+   "title": "Number of Asthma Exacerbations",
+   "type": "PRIMARY",
+   "unitOfMeasure": "asthma exacerbations"
+  },
+  {
+   "calculatePct": false,
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1"
+        },
+        {
+         "groupId": "OG001",
+         "value": "1"
+        }
+       ]
+      }
+     ],
+     "title": "Day 1"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "2"
+        }
+       ]
+      }
+     ],
+     "title": "Day 8"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "2"
+        }
+       ]
+      }
+     ],
+     "title": "Day 36"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1"
+        },
+        {
+         "groupId": "OG001",
+         "value": "1"
+        }
+       ]
+      }
+     ],
+     "title": "Day 85"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1"
+        },
+        {
+         "groupId": "OG001",
+         "value": "1"
+        }
+       ]
+      }
+     ],
+     "title": "Day 106"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "2"
+        },
+        {
+         "groupId": "OG001",
+         "value": "1"
+        }
+       ]
+      }
+     ],
+     "title": "End of Study (up to Day 127)"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "12"
+      },
+      {
+       "groupId": "OG001",
+       "value": "12"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "groups": [
+    {
+     "description": "Participants received a single dose of 300 mg etokimab administered on Day 1 by IV infusion over 1 hour. After completing the Day 1 assessments, all participants were followed up for 18 weeks.",
+     "id": "OG000",
+     "title": "Etokimab"
+    },
+    {
+     "description": "Participants received a single dose of placebo (0.9% sodium chloride) administered on Day 1 by IV infusion over 1 hour. After completing the Day 1 assessments, all participants were followed up for 18 weeks.",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Participants in the safety analysis set with available data were analyzed.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Day 1, Day 8, Day 36, Day 85, Day 106, end of study (up to Day 127)",
+   "title": "Number of Participants With Positive Anti-drug Antibody",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

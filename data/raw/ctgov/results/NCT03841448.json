@@ -1,0 +1,81 @@
+{
+ "nctId": "NCT03841448",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-60.951",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "90",
+     "ciUpperLimit": "0.460",
+     "estimateComment": "Placebo-adjusted GM percent change, 90% CIs were calculated by exponentially back-transforming the model based LS mean difference (cemdisiran - placebo) and the corresponding 90% CI then subtracting by 1.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.1032",
+     "paramType": "Placebo-adjusted GM Percent Change",
+     "paramValue": "-37.367",
+     "statisticalMethod": "MMRM"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.258",
+         "value": "1.095"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.098",
+         "value": "0.686"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "9"
+      },
+      {
+       "groupId": "OG001",
+       "value": "22"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "UPCR is a way of assessing the amount of protein in the urine. The primary analysis for UPCR was performed using Mixed-Effect Model Repeated Measures (MMRM) approach. Geometric mean (GM)ratios were obtained by exponentially back-transforming the arithmetic mean of change in log-transformed 24h UPCR. Standard error of the mean (SEM) was calculated as exponential (mean of change in log-transformed data) \\* (standard error of change in log-transformed data). Adjusted GM ratio to baseline and 90% confidence interval (CIs) were calculated by exponentially back-transforming the model-based least square (LS) mean and the corresponding 90% CI.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Participants received cemdisiran matching placebo, SC injection, Q4W in combination with standard of care treatment up to a maximum of 38 weeks in the DBT period.",
+     "id": "OG000",
+     "title": "DBT Period: Placebo"
+    },
+    {
+     "description": "Participants received cemdisiran, 600 mg, SC injection, Q4W in combination with standard of care treatment up to a maximum of 38 weeks in the DBT period.",
+     "id": "OG001",
+     "title": "DBT Period: Cemdisiran"
+    }
+   ],
+   "paramType": "GEOMETRIC_MEAN",
+   "populationDescription": "mITT Analysis Set included all participants who received any amount of study drug and had at least one post baseline 24-hour UPCR assessment. Number analyzed is the number of participants with data available for analysis at the specified timepoint.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline to Week 32",
+   "title": "Percent Change From Baseline in UPCR as Measured in 24-hour Urine at Week 32",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percent change"
+  }
+ ]
+}

@@ -1,0 +1,82 @@
+{
+ "nctId": "NCT05269355",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.45",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.83",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "OTHER",
+     "pValue": "0.0017",
+     "paramType": "Hazard Ratio (HR)",
+     "paramValue": "0.61",
+     "statisticalMethod": "Regression, Cox"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "2.8",
+         "upperLimit": "5.5",
+         "value": "3.6"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "1.5",
+         "upperLimit": "3.0",
+         "value": "2.6"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "209"
+      },
+      {
+       "groupId": "OG001",
+       "value": "105"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "PFS was defined as the time from randomization to the documented disease progression or death due to any cause, whichever occurred first. Disease progression was defined as at least a 20% increase in the sum of diameters of target lesions, taking as reference the smallest sum on study. In addition to the relative increase of 20%, the sum must also demonstrate an absolute increase of at least 5 millimeters (mm). The appearance of one or more new lesions was also considered progression.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants received unesbulin 300 mg tablets administered orally twice weekly in each 3-week treatment cycle in combination with dacarbazine 1000 mg/m\\^2 IV once every 21 days. Treatment was continued for each participant until evidence of unacceptable toxicity, disease progression, or treatment discontinuation for another reason.",
+     "id": "OG000",
+     "title": "Unesbulin and Dacarbazine"
+    },
+    {
+     "description": "Participants received placebo matching to unesbulin tablets administered orally twice weekly in each 3-week treatment cycle in combination with dacarbazine 1000 mg/m\\^2 IV once every 21 days. Treatment was continued for each participant until evidence of unacceptable toxicity, disease progression, or treatment discontinuation for another reason.",
+     "id": "OG001",
+     "title": "Placebo and Dacarbazine"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "The modified intent-to-treat (mITT) set included randomized participants with 1 to 3 prior lines of therapy.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to approximately 2 years",
+   "title": "Progression Free Survival (PFS) Per Independent Central Review Using Response Evaluation Criteria in Solid Tumors (RECIST) V1.1",
+   "type": "PRIMARY",
+   "unitOfMeasure": "months"
+  }
+ ]
+}

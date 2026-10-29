@@ -1,0 +1,83 @@
+{
+ "nctId": "NCT03759392",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-1.024",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.131",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "0.2931",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.13",
+     "paramType": "Least squares mean difference",
+     "paramValue": "-0.447",
+     "statisticalComment": "Using multiple imputation",
+     "statisticalMethod": "ANCOVA"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.1718",
+         "value": "-0.239"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.2412",
+         "value": "0.207"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "162"
+      },
+      {
+       "groupId": "OG001",
+       "value": "81"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The effect of treatment on exercise capacity, as assessed by peak oxygen uptake, was assessed during cardiopulmonary exercise testing (CPET) with gas-exchange analysis. Cycle ergometry was the preferred modality for exercise testing; treadmill exercise testing was an acceptable alternative. Participants were to use the same testing modality for all exercise tests during the study. Whenever possible, CPET was administered by the same study personnel using the same equipment throughout the study.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Omecamtiv mecarbil was administered as an oral modified-release tablet twice daily for up to 20 weeks. Participants randomized to this arm started at an omecamtiv mecarbil dose of 25 mg twice daily. The dose could be increased based on plasma concentrations at Weeks 2 and 6.",
+     "id": "OG000",
+     "title": "Omecamtiv Mecarbil"
+    },
+    {
+     "description": "Participants randomized this arm received placebo tablets (matching the appearance of the omecamtiv mecarbil tablets) twice daily for up to 20 weeks.",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Full Analysis Set (all randomized participants who received at least 1 dose of randomized study drug)",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline and Week 20",
+   "title": "Change in Peak Oxygen Uptake on Cardiopulmonary Exercise Testing From Baseline to Week 20",
+   "type": "PRIMARY",
+   "unitOfMeasure": "mL/min/kg"
+  }
+ ]
+}

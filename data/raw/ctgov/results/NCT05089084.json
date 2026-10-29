@@ -1,0 +1,133 @@
+{
+ "nctId": "NCT05089084",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-89.6",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-27.9",
+     "estimateComment": "Hodges-Lehmann method was used to estimate the median difference (location shift) and its corresponding 95% confidence interval for percent changes between plozasiran doses and placebo (pooled).",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "< 0.0001",
+     "paramType": "Median Difference (Final Values)",
+     "paramValue": "-58.7",
+     "statisticalMethod": "Wilcoxon rank-sum test"
+    },
+    {
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<0.0001",
+     "pValueComment": "The adjusted p-value was calculated using the Holm method for multiplicity adjustment.",
+     "statisticalMethod": "Holm method"
+    },
+    {
+     "ciLowerLimit": "-83.1",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-21.9",
+     "estimateComment": "Hodges-Lehmann method was used to estimate the median difference (location shift) and its corresponding 95% confidence interval for percent changes between plozasiran doses and placebo (pooled).",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0002",
+     "paramType": "Median Difference (Final Values)",
+     "paramValue": "-52.5",
+     "statisticalMethod": "Wilcoxon rank-sum test"
+    },
+    {
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0002",
+     "pValueComment": "The adjusted p-value was calculated using the Holm method for multiplicity adjustment.",
+     "statisticalMethod": "Holm method"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "-49.1",
+         "upperLimit": "47.0",
+         "value": "-17.1"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "-89.9",
+         "upperLimit": "-61.0",
+         "value": "-80.1"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "-87.7",
+         "upperLimit": "-48.6",
+         "value": "-77.6"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "19"
+      },
+      {
+       "groupId": "OG001",
+       "value": "24"
+      },
+      {
+       "groupId": "OG002",
+       "value": "22"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "dispersionType": "Inter-Quartile Range",
+   "groups": [
+    {
+     "description": "Randomized Period: volume-matched placebo Q3M for a total of 4 doses.\n\nOpen-label Period: plozasiran 25 mg or 50 mg (Part A), then 25 mg (Part B) Q3M for a total of 8 doses.",
+     "id": "OG000",
+     "title": "Placebo (Pooled)"
+    },
+    {
+     "description": "Randomized Period: plozasiran 25 mg Q3M for a total of 4 doses.\n\nOpen-label Period (Parts A and B): plozasiran 25 mg Q3M for a total of 8 doses.",
+     "id": "OG001",
+     "title": "ARO-APOC3 (Plozasiran) 25 mg"
+    },
+    {
+     "description": "Randomized Period: plozasiran 50 mg Q3M for a total of 4 doses.\n\nOpen-label Period: plozasiran 50 mg (Part A), then 25 mg (Part B) Q3M for a total of 8 doses.",
+     "id": "OG002",
+     "title": "ARO-APOC3 (Plozasiran) 50 mg"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "Full Analysis Set: all randomized participants regardless of adherence to the treatment, analyzed according to the treatment assigned at randomization. Participants with an assessment at baseline and Month 10.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Month 10",
+   "title": "Percent Change From Baseline at Month 10 in Fasting Triglycerides (TG)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage change"
+  }
+ ]
+}

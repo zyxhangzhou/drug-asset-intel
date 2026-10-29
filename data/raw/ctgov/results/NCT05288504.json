@@ -1,0 +1,60 @@
+{
+ "nctId": "NCT05288504",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "12"
+        },
+        {
+         "groupId": "OG001",
+         "value": "14"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "45"
+      },
+      {
+       "groupId": "OG001",
+       "value": "45"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Percentage of patients who experience any of the following asthma related events:\n\n* ≥6 additional reliever puffs of Short-Acting Beta-Agonist (compared to baseline) in a 24-hour period on 2 consecutive days or,\n* increase in inhaled corticosteroid dose ≥4 times than the dose at baseline or,\n* a decrease in peak flow of 30% or more (compared to baseline) on 2 consecutive days of treatment, or\n* an asthma exacerbation requiring the use of systemic corticosteroids (tablets, suspension, or injection) for at least 3 days, or\n* a hospitalization or emergency room visit because of an asthma exacerbation",
+   "groups": [
+    {
+     "description": "AVTX-002: Dose of 600 mg administered subcutaneously three times during the study.",
+     "id": "OG000",
+     "title": "AVTX-002"
+    },
+    {
+     "description": "Placebo: Placebo sourced as normal saline administered subcutaneously three times during the study.",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Full Analysis Set",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Through Week 14",
+   "title": "The Ability of AVTX-002 to Improve Asthma Control in Subjects With Poorly Controlled Non-eosinophilic Asthma (NEA) Based on the Percentage of Patients Who Experience Asthma Related Events.",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

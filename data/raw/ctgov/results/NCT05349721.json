@@ -1,0 +1,81 @@
+{
+ "nctId": "NCT05349721",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-13.86",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "27.59",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "OTHER",
+     "pValue": "0.516",
+     "paramType": "Treatment Difference",
+     "paramValue": "6.86",
+     "statisticalComment": "Estimates were derived from the ANCOVA model (following multiple imputation), where participant ranks served as the response variable.",
+     "statisticalMethod": "ANCOVA"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "13.25",
+         "value": "172.22"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "14.65",
+         "value": "165.36"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "202"
+      },
+      {
+       "groupId": "OG001",
+       "value": "104"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The CAFS is a composite endpoint based on time to earlier occurrence of death and change from baseline in ALSFRS-R score. ALSFRS-R is a rating scale where 12 functions were rated on 5-point scales (from 0 to 4) with a maximum score of 48 (sum of all 12 items), with a higher score indicating better function. Each participant's outcome was compared to every other participant's outcome in a pairwise fashion by time to death and change on ALSFRS-R, assigned a score which was sum of comparisons (+1 \\[better\\], 0 \\[tie\\], -1 \\[worse\\]), and summed scores were ranked, from 1 to 306 (ITT1 Analysis Set) lowest rank corresponds to participant who died first and highest rank to the participant with best ALSFRS-R outcome among those who survived. Multiple imputation was used to impute participants with missing ALSFRS-R score at Week 24. A higher rank was considered a better outcome. Least square (LS) means and standard error (SE) were calculated using analysis of covariance (ANCOVA) model.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Participants received utreloxastat during the 24-Week Treatment Period. Following successful completion of the Treatment Period, participants who entered the LTE Period received open-label utreloxastat for 28 weeks. Following completion of the LTE period, participants who entered the Continued LTE Period received open-label utreloxastat for an additional 108 weeks.",
+     "id": "OG000",
+     "title": "Utreloxastat"
+    },
+    {
+     "description": "Participants received matching placebo during the 24-Week Treatment Period. Following successful completion of the Treatment Period, participants who entered the LTE Period received open-label utreloxastat for 28 weeks. Following completion of the LTE period, participants who entered the Continued LTE Period received open-label utreloxastat for an additional 108 weeks.",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "ITT1 Analysis Set included all randomized participants who received at least 1 dose of double-blind study drug in the Treatment Period and who had a decrease in the ALSFRS-R score of ≤4 points during the Screening Period.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Week 24",
+   "title": "Combined Assessment of Function (ALS Functional Rating Scale-Revised [ALSFRS-R]) and Survival (CAFS) Rank After 24 Weeks of Treatment (Intention-to-Treat [ITT] 1 Analysis Population)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "units on a scale"
+  }
+ ]
+}

@@ -1,0 +1,82 @@
+{
+ "nctId": "NCT03824587",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-1.13",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "99",
+     "ciUpperLimit": "-0.18",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "0.182",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0004",
+     "paramType": "Mean Difference (Net)",
+     "paramValue": "-0.65",
+     "statisticalMethod": "Mixed Models Analysis"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.131",
+         "value": "-0.84"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.130",
+         "value": "-0.19"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "116"
+      },
+      {
+       "groupId": "OG001",
+       "value": "119"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Difference in mean change from baseline in s-P level at Week 4 between the tenapanor and placebo groups.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "During the Double-Blind Treatment Period, subjects will receive tenapanor starting at a dose of 30 mg bid (three 10 mg tablets each time).\n\nInvestigators may decrease or increase the dose of study medication based on s-P levels and/or gastrointestinal (GI) tolerability in 10 mg increments to a minimum of 10 mg bid or a maximum of 30 mg bid at any time during the Double-Blind Treatment Period.\n\nTenapanor: Active Drug\n\nPhosphate Binder Agents: standard of care phosphate binder use at study entry was maintained throughout the entire study",
+     "id": "OG000",
+     "title": "Tenapanor 30 mg BID"
+    },
+    {
+     "description": "same size, weight and appearance of experimental drug\n\nPlacebo: Inactive Drug\n\nPhosphate Binder Agents: standard of care phosphate binder use at study entry was maintained throughout the entire study",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "One patient did not receive study drug so was therefore not included in the modified ITT analysis",
+   "reportingStatus": "POSTED",
+   "timeFrame": "4 Weeks (28 days randomization period; from baseline to week 4)",
+   "title": "Change in Serum Phosphorus (s-P) Level From Baseline to Week 4.",
+   "type": "PRIMARY",
+   "unitOfMeasure": "mg/dL"
+  }
+ ]
+}

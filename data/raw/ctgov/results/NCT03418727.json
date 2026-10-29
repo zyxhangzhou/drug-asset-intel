@@ -1,0 +1,238 @@
+{
+ "nctId": "NCT03418727",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "74.5",
+         "upperLimit": "89.8",
+         "value": "82.1"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "82.2",
+         "upperLimit": "91.9",
+         "value": "87.0"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "92.3",
+         "upperLimit": "97.7",
+         "value": "95.0"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "29"
+        },
+        {
+         "groupId": "OG001",
+         "value": "28"
+        },
+        {
+         "groupId": "OG002",
+         "value": "27"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Day 1"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "86.6",
+         "upperLimit": "95.5",
+         "value": "91.1"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "82.5",
+         "upperLimit": "92.3",
+         "value": "87.4"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "82.7",
+         "upperLimit": "93.7",
+         "value": "88.2"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "28"
+        },
+        {
+         "groupId": "OG001",
+         "value": "28"
+        },
+        {
+         "groupId": "OG002",
+         "value": "24"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Day 28"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "88.3",
+         "upperLimit": "95.8",
+         "value": "92.0"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "80.6",
+         "upperLimit": "90.7",
+         "value": "85.6"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "84.2",
+         "upperLimit": "97.9",
+         "value": "91.0"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "27"
+        },
+        {
+         "groupId": "OG001",
+         "value": "26"
+        },
+        {
+         "groupId": "OG002",
+         "value": "24"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Day 56"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "82.2",
+         "upperLimit": "93.5",
+         "value": "87.8"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "78.6",
+         "upperLimit": "93.1",
+         "value": "85.9"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "91.6",
+         "upperLimit": "98.1",
+         "value": "94.8"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "28"
+        },
+        {
+         "groupId": "OG001",
+         "value": "25"
+        },
+        {
+         "groupId": "OG002",
+         "value": "25"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Day 84"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "29"
+      },
+      {
+       "groupId": "OG001",
+       "value": "28"
+      },
+      {
+       "groupId": "OG002",
+       "value": "27"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Participants assessed their tolerance to the administration of the study drug, utilizing a VAS. The VAS is a 100-mm horizontal line with verbal descriptors at either end. Participants placed a single slash mark across the horizontal line between the end labeled \"completely intolerable\" (0 mm) and \"easily tolerable\" (100mm).",
+   "dispersionType": "90% Confidence Interval",
+   "groups": [
+    {
+     "description": "Brimonidine (0.2%) administered as eye drops, followed by loteprednol ophthalmic suspension (0.2%) BID for 12 weeks",
+     "id": "OG000",
+     "title": "Brimonidine and Corticosteroid Combination Therapy"
+    },
+    {
+     "description": "Brimonidine (0.2%) administered as eye drops followed by placebo BID for 12 weeks",
+     "id": "OG001",
+     "title": "Brimonidine Monotherapy"
+    },
+    {
+     "description": "Sodium carboxymethylcellulose (0.25%) administered as eye drops followed by a second application BID for 12 weeks",
+     "id": "OG002",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Safety population that included all randomized participants who received at least one dose of study medication. Here, the overall number of participants analyzed are those evaluable for this Outcome Measure and the Number Analyzed per Row is the number of participants with evaluable data at each time point.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Days 1, 28, 56, and 84",
+   "title": "Tolerance of Test Substance Visual Analogue Scale (VAS) Score",
+   "type": "PRIMARY",
+   "unitOfMeasure": "score on a scale"
+  }
+ ]
+}

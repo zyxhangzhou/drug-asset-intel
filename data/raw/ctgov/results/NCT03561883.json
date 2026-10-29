@@ -1,0 +1,82 @@
+{
+ "nctId": "NCT03561883",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-0.270",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.146",
+     "estimateComment": "Treatment difference (IW-3718 - placebo)",
+     "groupDescription": "Treatment difference calculated as least squares mean (LSM) change from baseline at Week 8; IW-3718 - placebo based on an mixed models repeated measures (MMRM) model with week (categorical), treatment group, week-by-treatment group and week-by-baseline value interactions, baseline esophagitis status (present vs. not present), and baseline WHSS (\\< 3 vs. ≥ 3) as fixed effect terms and baseline value as a covariate, with subject as a random effect. An unstructured covariance structure was used.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.5566",
+     "paramType": "Least squares (LS) mean difference",
+     "paramValue": "-0.062",
+     "statisticalMethod": "MMRM"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.081",
+         "value": "-1.751"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.082",
+         "value": "-1.814"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "276"
+      },
+      {
+       "groupId": "OG001",
+       "value": "277"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The WHSS is defined as the weekly average of the DHSS. The DHSS for a day is the greater of the 2 items assessing heartburn severity (Item #1 \"Burning feeling behind the breastbone or in the center of the upper stomach\" and Item #2 \"Pain behind the breastbone or in the center of the upper stomach\"). The DHSS items are assessed on a 5-point ordinal scale, where 0=Did Not Have, 1=Very Mild, 2=Mild, 3=Moderate, 4=Moderately Severe, and 5=Severe; higher scores indicate worse symptoms. A negative change from baseline indicates improvement.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Three placebo tablets administered BID immediately after the morning and evening meals. Standard-dose PPIs administered QD approximately 30-60 minutes before morning meal each day.",
+     "id": "OG000",
+     "title": "Placebo BID + PPIs"
+    },
+    {
+     "description": "Three 500 mg IW-3718 tablets administered BID, immediately after the morning and evening meals. Standard-dose PPIs administered QD approximately 30-60 minutes before morning meal each day.",
+     "id": "OG001",
+     "title": "1500 mg IW-3718 BID + PPIs"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "mITT Population: all participants who 1) were randomized prior to or on 05 June 2020, 2) had received at least 1 dose of study drug, and 3) had at least 1 postbaseline primary efficacy assessment.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Week 8",
+   "title": "Change From Baseline in WHSS at Week 8",
+   "type": "PRIMARY",
+   "unitOfMeasure": "score on a scale"
+  }
+ ]
+}

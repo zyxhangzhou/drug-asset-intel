@@ -1,0 +1,1286 @@
+{
+ "aliases": [
+  "Zenas BioPharma",
+  "Zenas BioPharma (USA), LLC"
+ ],
+ "studies": [
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Treated different dose cohorts with single intravenous injection of ZB001",
+       "interventionNames": [
+        "Drug: ZB001 for injection"
+       ],
+       "label": "ZB001 for injection",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "ZB001 for injection"
+       ],
+       "description": "Dose Cohort1 (3mg/kg) ZB001 of single IV injection",
+       "name": "ZB001 for injection",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "ZB001 for injection"
+       ],
+       "description": "Dose Cohort2 (10mg/kg) ZB001 of single IV injection",
+       "name": "ZB001 for injection",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "ZB001 for injection"
+       ],
+       "description": "Dose Cohort3 (20mg/kg) ZB001 of single IV injection",
+       "name": "ZB001 for injection",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Healthy Volunteers"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 24,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Safety, Tolerability and Pharmacokinetics Study of ZB001 in Healthy Subjects",
+     "nctId": "NCT05542303",
+     "officialTitle": "A Single Ascending Dose, Safety, and Pharmacokinetic Study of ZB001 in Healthy Chinese Subjects",
+     "orgStudyIdInfo": {
+      "id": "ZB001-01-001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Zenas BioPharma (USA), LLC"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Zenas BioPharma (USA), LLC"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2023-04-04",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-04-06",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-04-04",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2023-04-04",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2022-10-16",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-04",
+     "studyFirstPostDateStruct": {
+      "date": "2022-09-15",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2022-09-01",
+     "studyFirstSubmitQcDate": "2022-09-13"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Healthy volunteers will receive a single dose of ZB002 or placebo",
+       "interventionNames": [
+        "Drug: ZB002",
+        "Drug: Placebo"
+       ],
+       "label": "Part A: SAD in Healthy Volunteers",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "RA participants will receive ZB002 or placebo every 4 weeks (Q4W) × 3 administrations",
+       "interventionNames": [
+        "Drug: ZB002",
+        "Drug: Placebo"
+       ],
+       "label": "Part B: MAD in RA Participants",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Part A: SAD in Healthy Volunteers"
+       ],
+       "description": "ZB002 will be administered subcutaneously as per schedule specified in the respective arm.",
+       "name": "ZB002",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Part A: SAD in Healthy Volunteers"
+       ],
+       "description": "Placebo will be administered subcutaneously as per schedule specified in the respective arm.",
+       "name": "Placebo",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Part B: MAD in RA Participants"
+       ],
+       "description": "ZB002 will be administered subcutaneously as per schedule specified in the respective arm.",
+       "name": "ZB002",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Part B: MAD in RA Participants"
+       ],
+       "description": "Placebo will be administered subcutaneously as per schedule specified in the respective arm.",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Healthy Volunteers",
+      "Rheumatoid Arthritis"
+     ],
+     "keywords": [
+      "Healthy Volunteers",
+      "Healthy Subjects",
+      "Healthy Participants",
+      "Patients",
+      "Rheumatoid Arthritis",
+      "RA"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 72,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Study to Evaluate Safety and Pharmacokinetics of ZB002 in Healthy Participants and Participants With Rheumatoid Arthritis",
+     "nctId": "NCT05638854",
+     "officialTitle": "A Phase 1, 2-Part, Single Ascending Dose (SAD) Study to Evaluate the Safety and Pharmacokinetics (PK) of ZB002 in Healthy Volunteers (HVs) and Multiple Ascending Dose (MAD) Study to Evaluate the Safety and PK of ZB002 in Participants With Rheumatoid Arthritis (RA)",
+     "orgStudyIdInfo": {
+      "id": "ZB002-01-001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Zenas BioPharma (USA), LLC"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Zenas BioPharma (USA), LLC"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2026-02-16",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-09-04",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-09-01",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2026-02-16",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2022-12-08",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-09",
+     "studyFirstPostDateStruct": {
+      "date": "2022-12-06",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2022-11-15",
+     "studyFirstSubmitQcDate": "2022-12-04"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Obexelimab administered as an SC injection.",
+       "interventionNames": [
+        "Drug: Obexelimab"
+       ],
+       "label": "ZB012",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Placebo administered as an SC injection.",
+       "interventionNames": [
+        "Other: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "ZB012"
+       ],
+       "description": "Obexelimab is a monoclonal antibody that co-engages CD19 and FcγRIIb to inhibit B cell activity",
+       "name": "Obexelimab",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Placebo",
+       "name": "Placebo",
+       "type": "OTHER"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "IgG4 Related Disease"
+     ],
+     "keywords": [
+      "IgG4",
+      "IgG4-RD"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 194,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "INDIGO",
+     "briefTitle": "A Phase 3 Study of Obexelimab in Patients With IgG4-Related Disease",
+     "nctId": "NCT05662241",
+     "officialTitle": "A Phase 3, Multicenter, Randomized, Double-blind, Placebo-controlled Study to Evaluate the Efficacy and Safety of Obexelimab in Patients With IgG4-Related Disease (INDIGO)",
+     "orgStudyIdInfo": {
+      "id": "ZB012-03-001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Zenas BioPharma (USA), LLC"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "collaborators": [
+      {
+       "class": "INDUSTRY",
+       "name": "Bristol-Myers Squibb"
+      }
+     ],
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Zenas BioPharma (USA), LLC"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2029-02-15",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-02-04",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-02-02",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2025-11-13",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2023-01-09",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-02",
+     "studyFirstPostDateStruct": {
+      "date": "2022-12-22",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2022-12-14",
+     "studyFirstSubmitQcDate": "2022-12-14"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Treat different dose cohorts with four intravenous injections of ZB001",
+       "interventionNames": [
+        "Drug: ZB001 for injection"
+       ],
+       "label": "ZB001 for injection",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "ZB001 for injection"
+       ],
+       "description": "Dose Cohort1 (3 mg/kg) ZB001 four IV injections",
+       "name": "ZB001 for injection",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "ZB001 for injection"
+       ],
+       "description": "Dose Cohort2 (10 mg/kg) ZB001 four IV injections",
+       "name": "ZB001 for injection",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Thyroid Eye Disease"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 17,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Study of ZB001 in Chinese Patients With Thyroid Eye Disease",
+     "nctId": "NCT05776121",
+     "officialTitle": "A Multiple Ascending Doses Study of ZB001 in Chinese Patients With Thyroid-Associated Ophthalmopathy",
+     "orgStudyIdInfo": {
+      "id": "ZB001-01-002"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Zenas BioPharma (USA), LLC"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Zenas BioPharma (USA), LLC"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2024-04-17",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-04-11",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-04-10",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2024-04-17",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2023-05-10",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-04",
+     "studyFirstPostDateStruct": {
+      "date": "2023-03-20",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2023-02-16",
+     "studyFirstSubmitQcDate": "2023-03-07"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Obexelimab will be administered as an SC injection for 24 weeks.",
+       "interventionNames": [
+        "Drug: Obexelimab"
+       ],
+       "label": "Safety and Dose Confirmation Run-in Period (SRP): Obexelimab",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Obexelimab will be administered as an SC injection for 24 weeks.",
+       "interventionNames": [
+        "Drug: Obexelimab"
+       ],
+       "label": "Randomized Control Period (RCP): Obexelimab",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Placebo will be administered as an SC injection for 24 weeks",
+       "interventionNames": [
+        "Other: Placebo"
+       ],
+       "label": "Randomized Control Period (RCP): Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Safety and Dose Confirmation Run-in Period (SRP): Obexelimab"
+       ],
+       "description": "Obexelimab is a monoclonal antibody that simultaneously binds CD19 and FcγRIIb, resulting in down regulation of B cell activity.",
+       "name": "Obexelimab",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Randomized Control Period (RCP): Obexelimab"
+       ],
+       "description": "Obexelimab is a monoclonal antibody that simultaneously binds CD19 and FcγRIIb, resulting in down regulation of B cell activity.",
+       "name": "Obexelimab",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Randomized Control Period (RCP): Placebo"
+       ],
+       "description": "Placebo",
+       "name": "Placebo",
+       "type": "OTHER"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Warm Autoimmune Hemolytic Anemia"
+     ],
+     "keywords": [
+      "Warm Autoimmune Hemolytic Anemia",
+      "wAIHA"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 134,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Study of Obexelimab in Patients With Warm Autoimmune Hemolytic Anemia (SApHiAre)",
+     "nctId": "NCT05786573",
+     "officialTitle": "A Phase 3, Multicenter, Randomized, Double-Blind, Placebo-Controlled Study With An Open Label Safety and Dose Confirmation Run-In Period, To Evaluate the Efficacy and Safety of Obexelimab in Patients With Warm Autoimmune Hemolytic Anemia (SApHiAre)",
+     "orgStudyIdInfo": {
+      "id": "ZB012-03-002"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Zenas BioPharma (USA), LLC"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Zenas BioPharma (USA), LLC"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2026-08-31",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-06-25",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-06-23",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2026-06-30",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2023-09-25",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-06",
+     "studyFirstPostDateStruct": {
+      "date": "2023-03-27",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2023-03-13",
+     "studyFirstSubmitQcDate": "2023-03-24"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: ZB004"
+       ],
+       "label": "ZB004",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "ZB004"
+       ],
+       "description": "ZB004 single doses administered subcutaneously as solution",
+       "name": "ZB004",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Placebo single doses administered subcutaneously as solution",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Healthy Volunteers"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 40,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Safety and Pharmacokinetics Study of ZB004 in Healthy Participants",
+     "nctId": "NCT05794516",
+     "officialTitle": "A Single Ascending Dose (SAD) Study to Evaluate the Safety and Pharmacokinetics (PK) of ZB004 in Healthy Volunteers",
+     "orgStudyIdInfo": {
+      "id": "ZB004-01-001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Zenas BioPharma (USA), LLC"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Zenas BioPharma (USA), LLC"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2024-03-21",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-04-13",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-04-09",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2024-03-21",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2023-06-19",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-04",
+     "studyFirstPostDateStruct": {
+      "date": "2023-04-03",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2023-03-20",
+     "studyFirstSubmitQcDate": "2023-03-20"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Obexelimab will be administered as a subcutaneous injection for 24 weeks.",
+       "interventionNames": [
+        "Drug: Obexelimab"
+       ],
+       "label": "Obexelimab",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Placebo will be administered as a subcutaneous injection for 24 weeks.",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Obexelimab"
+       ],
+       "description": "Obexelimab is a monoclonal antibody that simultaneously binds CD19 and FcyRllb, resulting in down regulation of B cell activity.",
+       "name": "Obexelimab",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Placebo",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Systemic Lupus Erythematosus"
+     ],
+     "keywords": [
+      "Systemic Lupus Erythematosus",
+      "SLE",
+      "Lupus"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 190,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "SunStone",
+     "briefTitle": "A Study of Obexelimab in Patients With Systemic Lupus Erythematosus",
+     "nctId": "NCT06559163",
+     "officialTitle": "A Phase 2, Multicenter, Randomized, Double-Blind, Placebo-Controlled Study to Evaluate the Efficacy and Safety of Obexelimab in Patients With Systemic Lupus Erythematosus",
+     "orgStudyIdInfo": {
+      "id": "ZB012-02-001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Zenas BioPharma (USA), LLC"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Zenas BioPharma (USA), LLC"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2026-12",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-08-18",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-08-14",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2026-09",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2024-09-17",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-08",
+     "studyFirstPostDateStruct": {
+      "date": "2024-08-19",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2024-08-14",
+     "studyFirstSubmitQcDate": "2024-08-14"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Obexelimab will be administered as a subcutaneous injection for 76 weeks",
+       "interventionNames": [
+        "Drug: Obexelimab"
+       ],
+       "label": "Obexelimab",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Placebo will be administered as a subcutaneous injection for 12 weeks",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Obexelimab"
+       ],
+       "description": "Obexelimab is a monoclonal antibody that simultaneously binds CD19 and FcyRIIb, resulting in down regulation of B cell activity",
+       "name": "Obexelimab",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Placebo",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Relapsing Multiple Sclerosis"
+     ],
+     "keywords": [
+      "Relapsing Multiple Sclerosis",
+      "RMS",
+      "MS",
+      "Multiple Sclerosis"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "interventionModelDescription": "This is a Phase 2, multicenter, double-blind, placebo-controlled study to evaluate the efficacy and safety of obexelimab in patients with RMS. The study consists of a Screening Period (Day 28 to Day -1), followed by a 24-week Treatment Period (Part A or RCP consists of 12 doses of obexelimab or placebo; Part B or OLP consists of 12 doses of open-label obexelimab), a 52-week OLE and an expected 12-week Follow-up Period.",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "maskingDescription": "Participants, Care Providers, Investigator, Outcomes Assessor",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 93,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Study of Obexelimab in Patients With Relapsing Multiple Sclerosis (MoonStone)",
+     "nctId": "NCT06564311",
+     "officialTitle": "A Phase 2, Multicenter, Randomized, Double-Blind, Placebo-Controlled Study to Evaluate the Efficacy and Safety of Obexelimab in Patients With Relapsing Multiple Sclerosis",
+     "orgStudyIdInfo": {
+      "id": "ZB012-02-002"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Zenas BioPharma (USA), LLC"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Zenas BioPharma (USA), LLC"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2026-02",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-11-17",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-11-14",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2025-08-28",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2024-08-26",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-06",
+     "studyFirstPostDateStruct": {
+      "date": "2024-08-21",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2024-08-19",
+     "studyFirstSubmitQcDate": "2024-08-19"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: Orelabrutinib"
+       ],
+       "label": "Orelabrutinib Group",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo Group",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Orelabrutinib Group"
+       ],
+       "description": "Orally",
+       "name": "Orelabrutinib",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo Group"
+       ],
+       "description": "Orally",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Multiple Sclerosis (MS) Primary Progressive"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 705,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Study of Orelabrutinib in Patients With Primary Progressive Multiple Sclerosis",
+     "nctId": "NCT07067463",
+     "officialTitle": "A Phase 3, Randomized, Double-blind, Efficacy and Safety Study Comparing Orelabrutinib to Placebo in Patients With Primary Progressive Multiple Sclerosis",
+     "orgStudyIdInfo": {
+      "id": "ZB020-03-001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Zenas BioPharma (USA), LLC"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Zenas BioPharma (USA), LLC"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2030-07",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-27",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-23",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2030-06",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2026-03-23",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-10",
+     "studyFirstPostDateStruct": {
+      "date": "2025-07-16",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-07-03",
+     "studyFirstSubmitQcDate": "2025-07-14"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Orelabrutinib PO daily",
+       "interventionNames": [
+        "Drug: Orelabrutinib"
+       ],
+       "label": "Orelabrutinib Group",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Placebo PO daily",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo Group",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Orelabrutinib Group"
+       ],
+       "description": "Orelabrutinib orally",
+       "name": "Orelabrutinib",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo Group"
+       ],
+       "description": "Placebo orally",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Secondary Progressive Multiple Sclerosis"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 990,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Study of Orelabrutinib in Patients With Secondary Progressive Multiple Sclerosis",
+     "nctId": "NCT07299019",
+     "officialTitle": "A Phase 3, Randomized, Double-blind, Efficacy and Safety Study Comparing Orelabrutinib to Placebo in Patients With Non-active Secondary Progressive Multiple Sclerosis",
+     "orgStudyIdInfo": {
+      "id": "ZB020-03-002"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Zenas BioPharma (USA), LLC"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Zenas BioPharma (USA), LLC"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2030-07",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-27",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-23",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2030-06",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2026-03-23",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-10",
+     "studyFirstPostDateStruct": {
+      "date": "2025-12-23",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-12-18",
+     "studyFirstSubmitQcDate": "2025-12-19"
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,365 @@
+{
+ "nctId": "NCT05566639",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "5620"
+        },
+        {
+         "groupId": "OG001",
+         "value": "7989"
+        }
+       ]
+      }
+     ],
+     "title": "Any"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "3840"
+        },
+        {
+         "groupId": "OG001",
+         "value": "4433"
+        }
+       ]
+      }
+     ],
+     "title": "Grade 1"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1535"
+        },
+        {
+         "groupId": "OG001",
+         "value": "3050"
+        }
+       ]
+      }
+     ],
+     "title": "Grade 2"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "245"
+        },
+        {
+         "groupId": "OG001",
+         "value": "500"
+        }
+       ]
+      }
+     ],
+     "title": "Grade 3"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "6"
+        }
+       ]
+      }
+     ],
+     "title": "Grade 4"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "11160"
+      },
+      {
+       "groupId": "OG001",
+       "value": "11168"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Solicited ARs (local and systemic) were collected in an electronic diary (eDiary). Local ARs included: injection site pain, injection site erythema (redness), injection site swelling/induration (hardness), and axillary (underarm) swelling or tenderness ipsilateral to the side of injection. Systemic ARs included: fever, headache, fatigue, myalgia, arthralgia, nausea/vomiting, and chills. All solicited ARs considered causally related to injection were graded 0-4 (per Toxicity Grading Scale for Healthy Adult and Adolescent Volunteers Enrolled in Preventive Vaccine Clinical Trials); lower score indicates lower severity, and a higher score indicates greater severity. Note, not all solicited ARs were considered adverse events (AEs). The Investigator reviewed whether the solicited AR was also to be recorded as an AE. A Summary of serious AEs (SAEs) and nonserious AEs (\"Other\"), regardless of causality, is located in the \"Reported Adverse Events\" section.",
+   "groups": [
+    {
+     "description": "Participants received a single dose of Fluarix Quadrivalent by IM injection on Day 1.",
+     "id": "OG000",
+     "title": "Fluarix Quadrivalent"
+    },
+    {
+     "description": "Participants received a single dose of mRNA-1010 by IM injection on Day 1.",
+     "id": "OG001",
+     "title": "mRNA-1010"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Solicited Safety Set included all randomized participants who received any study intervention and contributed to any solicited AR data.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "7 days post-vaccination",
+   "title": "Number of Participants With Solicited Local and Systemic Reactogenicity Adverse Reactions (ARs)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1495"
+        },
+        {
+         "groupId": "OG001",
+         "value": "1351"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "11200"
+      },
+      {
+       "groupId": "OG001",
+       "value": "11210"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "An unsolicited AE was an AE that was not solicited using a participant diary and that was communicated by a participant who has signed the informed consent. An AE was defined as any untoward medical occurrence associated with the use of a drug in humans, whether or not considered drug related. Any abnormal laboratory test result (hematology, clinical chemistry, or prothrombin time \\[PT\\]/partial thromboplastin time \\[PTT\\]) or other safety assessment (for example, electrocardiogram, radiological scan, vital sign measurement), including one that worsened from baseline and was considered clinically significant in the medical and scientific judgment of the Investigator was recorded as an AE. Number of participants with unsolicited AEs (SAEs and non-serious AEs) up to 28 days post-vaccination are reported in this outcome measure.",
+   "groups": [
+    {
+     "description": "Participants received a single dose of Fluarix Quadrivalent by IM injection on Day 1.",
+     "id": "OG000",
+     "title": "Fluarix Quadrivalent"
+    },
+    {
+     "description": "Participants received a single dose of mRNA-1010 by IM injection on Day 1.",
+     "id": "OG001",
+     "title": "mRNA-1010"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Safety Set included all randomized participants who received any study intervention. Participants were included in the vaccination group corresponding to the study intervention that they actually received.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to 28 days post-vaccination",
+   "title": "Number of Participants With Unsolicited Adverse Events (AEs)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "495"
+        },
+        {
+         "groupId": "OG001",
+         "value": "518"
+        }
+       ]
+      }
+     ],
+     "title": "SAEs"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "13"
+        },
+        {
+         "groupId": "OG001",
+         "value": "10"
+        }
+       ]
+      }
+     ],
+     "title": "AESIs"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "3166"
+        },
+        {
+         "groupId": "OG001",
+         "value": "3126"
+        }
+       ]
+      }
+     ],
+     "title": "MAAEs"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "47"
+        },
+        {
+         "groupId": "OG001",
+         "value": "49"
+        }
+       ]
+      }
+     ],
+     "title": "AEs Leading to Discontinuation"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "11200"
+      },
+      {
+       "groupId": "OG001",
+       "value": "11210"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "An SAE was defined as any AE that resulted in death, was life-threatening, required inpatient hospitalization or prolongation of existing hospitalization, resulted in disability/permanent damage, was a congenital anomaly/birth defect, or was an important medical event. AESIs included thrombocytopenia, new onset of or worsening of the protocol specified neurologic diseases, anaphylaxis, and myocarditis/pericarditis. An MAAE is an AE that lead to an unscheduled visit to an healthcare practitioner. This included visits to a study site for unscheduled assessments (for example, abnormal laboratory follow-up, and/or coronavirus disease 2019 \\[COVID-19\\] and visits to healthcare practitioners external to the study site (for example, urgent care, primary care physician). Number of participants with SAEs, AESIs, MAAEs, and AEs leading to discontinuation up to the end of study (Day 361) are reported in this outcome measure.",
+   "groups": [
+    {
+     "description": "Participants received a single dose of Fluarix Quadrivalent by IM injection on Day 1.",
+     "id": "OG000",
+     "title": "Fluarix Quadrivalent"
+    },
+    {
+     "description": "Participants received a single dose of mRNA-1010 by IM injection on Day 1.",
+     "id": "OG001",
+     "title": "mRNA-1010"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Safety Set included all randomized participants who received any study intervention. Participants were included in the vaccination group corresponding to the study intervention that they actually received.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Day 1 through Day 361 (Month 12)",
+   "title": "Number of Participants With Serious Adverse Events (SAEs), AEs of Special Interest (AESIs), Medically Attended AEs (MAAEs), and AEs Leading to Discontinuation",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-24.1",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "22.2",
+     "estimateComment": "rVE = 100 \\* (1 - HR) % was defined as the percent reduction in the hazard (mRNA-1010 vs active comparator), where HR was the hazard ratio between mRNA-1010 vs the active comparator.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityComment": "Noninferiority margin = 10%",
+     "nonInferiorityType": "NON_INFERIORITY",
+     "pValue": "0.1715",
+     "paramType": "Relative vaccine efficacy (rVE)",
+     "paramValue": "1.7",
+     "statisticalMethod": "Stratified Cox proportional hazards"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "142"
+        },
+        {
+         "groupId": "OG001",
+         "value": "140"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "11026"
+      },
+      {
+       "groupId": "OG001",
+       "value": "11055"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Protocol-defined ILI: The presence of body temperature ≥37.5 degrees celsius (°C) (≥99.5 degrees fahrenheit \\[°F\\]), accompanied by at least one of the respiratory illness symptoms (sore throat, cough, sputum production, wheezing, or difficulty breathing) and a positive Reverse Transcription Polymerase Chain Reaction (RT-PCR) for influenza.",
+   "groups": [
+    {
+     "description": "Participants received a single dose of Fluarix Quadrivalent by IM injection on Day 1.",
+     "id": "OG000",
+     "title": "Fluarix Quadrivalent"
+    },
+    {
+     "description": "Participants received a single dose of mRNA-1010 by IM injection on Day 1.",
+     "id": "OG001",
+     "title": "mRNA-1010"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Per-Protocol (PP) Set included all participants in the Modified Intent-to-Treat (mITT) Set (all randomized participants who received any study intervention except those who discontinued from the study prior to 14 days following administration of study intervention) who did not have major protocol deviations that could adversely impact efficacy, for example, disease or therapeutic intervention that might cause suboptimal response to the study intervention.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "14 days post-vaccination through Day 181 (Month 6)",
+   "title": "Number of Participants With First Episode of RT-PCR-Confirmed Protocol-Defined Influenza-Like Illness (ILI) Caused by Any Seasonal Influenza A or B Virus Strains Regardless of Antigenic Match to Strains Selected for the Seasonal Vaccine",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

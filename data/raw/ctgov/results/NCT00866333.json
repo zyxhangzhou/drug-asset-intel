@@ -1,0 +1,80 @@
+{
+ "nctId": "NCT00866333",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "0.2",
+         "upperLimit": "38.5",
+         "value": "8.3"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "1.5",
+         "upperLimit": "36.4",
+         "value": "11.8"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "2.1",
+         "upperLimit": "48.4",
+         "value": "16.7"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "12"
+      },
+      {
+       "groupId": "OG001",
+       "value": "17"
+      },
+      {
+       "groupId": "OG002",
+       "value": "12"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Best Overall Response was defined as Complete Response (CR) or Partial Response (PR). Tumor response was assessed by the Investigators using the International Working Group revised response criteria for malignant lymphoma (Cheson, Pfistner et al. 2007). CR was defined as complete disappearance of all detectable clinical and radiographic evidence of disease and disappearance of all disease-related symptoms if present before therapy, and normalization of those biochemical abnormalities definitely assignable to HL. PR was defined as: At least a 50% decrease in sum of the products of the greatest diameters (SPD) of the six largest dominant nodes or nodal masses, No increase in the size of other nodes, No new sites of disease.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Regimen 1: entinostat 10 mg (two 5 mg tablets) orally, once every two weeks (Days 1 and 15) in a 28-day cycle until disease progression or unacceptable toxicity.",
+     "id": "OG000",
+     "title": "Regimen 1: Entinostat 10 mg"
+    },
+    {
+     "description": "Regimen 2: entinostat 10 mg (two 5 mg tablets) orally on Day 1, increased to 15 mg (three 5 mg tablets) beginning on Day 15 of Cycle 1 for participants who had not experienced treatment-related adverse events with severity grade ≥2 (moderate), then continue 15 mg every two weeks (Days 1 and 15) in a 28-day cycle until disease progression or unacceptable toxicity.",
+     "id": "OG001",
+     "title": "Regimen 2: Entinostat 10 mg/15 mg"
+    },
+    {
+     "description": "Regimen 3: entinostat 15 mg (three 5 mg tablets), orally, once weekly for 3 weeks followed by a 1-week break in a 4-week (28-day) cycle until disease progression or unacceptable toxicity.",
+     "id": "OG002",
+     "title": "Regimen 3: Entinostat 15 mg"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Per-Protocol (PP) population included all participants who met all of the following criteria: Completed at least 2 cycles of entinostat therapy and Underwent computed tomography (CT) or positron emission tomography (PET) scans at Screening and Day 1 of Cycle 3.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to 6 months",
+   "title": "Percentage of Participants With Best Overall Response Based on the Participant's Best Response That is Documented Within the First 6 Cycles of Protocol Therapy",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

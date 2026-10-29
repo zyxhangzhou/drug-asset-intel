@@ -1,0 +1,60 @@
+{
+ "nctId": "NCT04323098",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "groupIds": [
+      "OG000"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0057",
+     "pValueComment": "P-value was based on two-sided t-test against 0.",
+     "statisticalMethod": "t-test, 2 sided"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "22.38",
+         "value": "15.13"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "21"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The change from baseline (assuming no treatment for severe hemophilia A) in FVIII activity, as measured by chromogenic substrate assay (CSA), at Week 52 (during Weeks 49 - 52) post-BMN 270 infusion.\n\nEach participant's FVIII activity level at Week 52 is defined as the median of the values obtained within the analysis window at Weeks 49-52. The baseline value will be imputed as 1 IU/dL, since there will be no washout of severe hemophilia A participants' usual FVIII prophylaxis (in order to avoid increasing the risk of bleeding) prior to BMN 270 infusion. Post-BMN 270 infusion values for FVIII activity will be excluded from analysis if obtained within 72 hours (or 3 calendar days if time is not available) since the last infusion of exogenous FVIII replacement therapy.\n\nBaseline: prior to BMN 270 infusion while receiving FVIII prophylaxis.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Single administration of valoctocogene roxaparvovec at a dose of 6E13 vg/kg with prophylactic corticosteroids\n\nvaloctocogene roxaparvovec: Adeno-Associated Virus Vector-Mediated Gene Transfer of Human Factor VIII in Hemophilia A subjects",
+     "id": "OG000",
+     "title": "BMN 270 (Valoctocogene roxaparvovec)"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Modified intention-to-treat (mITT) population (N=21) - all participants who received BMN 270 infusion in 270-303 and were on adequate prophylactic hemophilia therapy for at least 12 months (adequate prophylaxis was defined as \\>= 52 doses of FVIII replacement therapy in 12 months if on FVIII prophylaxis) prior to BMN 270 infusion.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline to Week 52",
+   "title": "Change From Baseline in FVIII Activity as Measured by Chromogenic Substrate Assay at Week 52.",
+   "type": "PRIMARY",
+   "unitOfMeasure": "IU /dL"
+  }
+ ]
+}

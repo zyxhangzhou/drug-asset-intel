@@ -1,0 +1,410 @@
+{
+ "nctId": "NCT03709823",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-31.141",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-9.821",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0002",
+     "pValueComment": "Based on analysis of variance models with percent of expected cigarettes smoked as the dependent variable, treatment and body mass index class as main fixed effects, with covariate of baseline cigarettes.",
+     "paramType": "LS Mean Difference vs. Placebo",
+     "paramValue": "-20.48",
+     "statisticalMethod": "ANOVA"
+    },
+    {
+     "ciLowerLimit": "-32.791",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-11.342",
+     "groupIds": [
+      "OG001",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "< 0.0001",
+     "pValueComment": "Based on analysis of variance models with percent of expected cigarettes smoked as the dependent variable, treatment and body mass index class as main fixed effects, with covariate of baseline cigarettes.",
+     "paramType": "LS Mean Difference vs. Placebo",
+     "paramValue": "-22.07",
+     "statisticalMethod": "ANOVA"
+    },
+    {
+     "ciLowerLimit": "-16.463",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "4.660",
+     "groupIds": [
+      "OG003",
+      "OG005"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.2708",
+     "pValueComment": "Based on analysis of variance models with percent of expected cigarettes smoked as the dependent variable, treatment and body mass index class as main fixed effects, with covariate of baseline cigarettes.",
+     "paramType": "LS Mean Difference vs. Placebo",
+     "paramValue": "-5.90",
+     "statisticalMethod": "ANOVA"
+    },
+    {
+     "ciLowerLimit": "-13.438",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "7.820",
+     "groupIds": [
+      "OG004",
+      "OG005"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.6018",
+     "pValueComment": "Based on analysis of variance models with percent of expected cigarettes smoked as the dependent variable, treatment and body mass index class as main fixed effects, with covariate of baseline cigarettes.",
+     "paramType": "LS Mean Difference vs. Placebo",
+     "paramValue": "-2.81",
+     "statisticalMethod": "ANOVA"
+    },
+    {
+     "ciLowerLimit": "-26.869",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "2.535",
+     "groupIds": [
+      "OG002",
+      "OG005"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.1025",
+     "pValueComment": "Based on analysis of variance models with percent of expected cigarettes smoked as the dependent variable, treatment and body mass index class as main fixed effects, with covariate of baseline cigarettes.",
+     "paramType": "LS Mean Difference vs. Commercial Sched.",
+     "paramValue": "-12.17",
+     "statisticalMethod": "ANOVA"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "3.085",
+         "value": "26.62"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "3.123",
+         "value": "25.04"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "4.417",
+         "value": "47.10"
+        },
+        {
+         "groupId": "OG003",
+         "spread": "3.046",
+         "value": "29.40"
+        },
+        {
+         "groupId": "OG004",
+         "spread": "3.105",
+         "value": "32.50"
+        },
+        {
+         "groupId": "OG005",
+         "spread": "4.392",
+         "value": "35.30"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "51"
+      },
+      {
+       "groupId": "OG001",
+       "value": "50"
+      },
+      {
+       "groupId": "OG002",
+       "value": "25"
+      },
+      {
+       "groupId": "OG003",
+       "value": "52"
+      },
+      {
+       "groupId": "OG004",
+       "value": "50"
+      },
+      {
+       "groupId": "OG005",
+       "value": "26"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The daily cigarette counts (number of cigarettes smoked in the past 24 hours) were self-reported by participants in the diary. Percentage of expected cigarettes smoked was computed for each participant at the end of treatment (cigarette score), based on daily cigarette counts during treatment vs the screening period. The percentage of expected cigarettes smoked was computed as Y = (100 x N) / (T x R) where N represents total number of cigarettes smoked each day over the treatment period from Day 1 to Day 25; T represents number of post-randomization days where number of cigarettes smoked is recorded; and R represents the average number of cigarettes smoked daily over the 7-day screening period as baseline. T\\*R represents the total number of cigarettes that would have been smoked without intervention over the number of recorded days. Separate statistical analyses were performed for the two cytisine administration schedules (commercial and TID).",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "1.5 mg cytisine dose using the commercial 25-day titration schedule + behavioral support",
+     "id": "OG000",
+     "title": "1.5 mg Cytisine, Commercial Schedule"
+    },
+    {
+     "description": "3.0 mg cytisine dose using the commercial 25-day titration schedule + behavioral support",
+     "id": "OG001",
+     "title": "3.0 mg Cytisine, Commercial Schedule"
+    },
+    {
+     "description": "Placebo tablets using the commercial 25-day titration schedule + behavioral support",
+     "id": "OG002",
+     "title": "Placebo, Commercial Schedule"
+    },
+    {
+     "description": "1.5 mg cytisine dose for 25 days using a simplified TID schedule + behavioral support",
+     "id": "OG003",
+     "title": "1.5 mg Cytisine, TID Schedule"
+    },
+    {
+     "description": "3.0 mg cytisine dose for 25 days using a simplified TID schedule + behavioral support",
+     "id": "OG004",
+     "title": "3.0 mg Cytisine, TID Schedule"
+    },
+    {
+     "description": "Placebo tablets for 25 days using a simplified TID schedule + behavioral support",
+     "id": "OG005",
+     "title": "Placebo, TID Schedule"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Day 1 through Day 25",
+   "title": "Primary Efficacy Analysis of Primary Outcome Measure: Percentage of Expected Cigarettes Smoked Per Participant During Study Treatment",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of cigarettes smoked"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-23.216",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-6.009",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0010",
+     "pValueComment": "Based on analysis of variance models with percent of expected cigarettes smoked as the dependent variable, treatment and body mass index class as main fixed effects, with covariate of baseline cigarettes.",
+     "paramType": "LS Mean Difference vs. Placebo",
+     "paramValue": "-14.61",
+     "statisticalMethod": "ANOVA"
+    },
+    {
+     "ciLowerLimit": "-24.862",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-7.548",
+     "groupIds": [
+      "OG001",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0003",
+     "pValueComment": "Based on analysis of variance models with percent of expected cigarettes smoked as the dependent variable, treatment and body mass index class as main fixed effects, with covariate of baseline cigarettes.",
+     "paramType": "LS Mean Difference vs. Placebo",
+     "paramValue": "-16.20",
+     "statisticalMethod": "ANOVA"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "3.065",
+         "value": "26.68"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "3.100",
+         "value": "25.08"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "3.099",
+         "value": "41.29"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "51"
+      },
+      {
+       "groupId": "OG001",
+       "value": "50"
+      },
+      {
+       "groupId": "OG002",
+       "value": "51"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The daily cigarette counts (number of cigarettes smoked in the past 24 hours) were self-reported by participants in the diary. Percentage of expected cigarettes smoked was computed for each participant at the end of treatment (cigarette score), based on daily cigarette counts during treatment vs the screening period. (See Outcome Measure 1 description for details.) The sensitivity analysis of the primary outcome measure was only performed if results of \"Statistical Analysis 5\" for Outcome Measure 1 demonstrated the placebo treatment arms (commercial and TID) were not significantly different, and so could be pooled. Separate statistical analyses were performed for the two cytisine administration schedules (commercial and TID).",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "1.5 mg cytisine dose using the commercial 25-day titration schedule + behavioral support",
+     "id": "OG000",
+     "title": "1.5 mg Cytisine, Commercial Schedule"
+    },
+    {
+     "description": "3.0 mg cytisine dose using the commercial 25-day titration schedule + behavioral support",
+     "id": "OG001",
+     "title": "3.0 mg Cytisine, Commercial Schedule"
+    },
+    {
+     "description": "Placebo tablets using the commercial 25-day titration schedule + behavioral support pooled with Placebo tablets for 25 days using a simplified TID schedule + behavioral support",
+     "id": "OG002",
+     "title": "Pooled Placebo"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Day 1 through Day 25",
+   "title": "Sensitivity Analysis of Primary Outcome Measure: Analysis for Percentage of Expected Cigarettes Smoked Versus Pooled Placebo Arms, Commercial Schedule",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of expected cigarettes smoked"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-21.695",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-3.135",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0091",
+     "pValueComment": "Based on analysis of variance models with percent of expected cigarettes smoked as the dependent variable, treatment and body mass index class as main fixed effects, with covariate of baseline cigarettes.",
+     "paramType": "LS Mean Difference vs. Placebo",
+     "paramValue": "-12.41",
+     "statisticalMethod": "ANOVA"
+    },
+    {
+     "ciLowerLimit": "-18.667",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.075",
+     "groupIds": [
+      "OG001",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0518",
+     "pValueComment": "Based on analysis of variance models with percent of expected cigarettes smoked as the dependent variable, treatment and body mass index class as main fixed effects, with covariate of baseline cigarettes.",
+     "paramType": "LS Mean Difference vs. Placebo",
+     "paramValue": "-9.30",
+     "statisticalMethod": "ANOVA"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "3.291",
+         "value": "29.29"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "3.355",
+         "value": "32.41"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "3.358",
+         "value": "41.71"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "52"
+      },
+      {
+       "groupId": "OG001",
+       "value": "50"
+      },
+      {
+       "groupId": "OG002",
+       "value": "51"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The daily cigarette counts (number of cigarettes smoked in the past 24 hours) were self-reported by participants in the diary. Percentage of expected cigarettes smoked was computed for each participant at the end of treatment (cigarette score), based on daily cigarette counts during treatment vs the screening period. (See Outcome Measure 1 description for details.) The sensitivity analysis of the primary outcome measure was only performed if results of \"Statistical Analysis 5\" for Outcome Measure 1 demonstrated the placebo treatment arms (commercial and TID) were not significantly different, and so could be pooled. Separate statistical analyses were performed for the two cytisine administration schedules (commercial and TID).",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "1.5 mg cytisine dose for 25 days using a simplified TID schedule + behavioral support",
+     "id": "OG000",
+     "title": "1.5 mg Cytisine, TID Schedule"
+    },
+    {
+     "description": "3.0 mg cytisine dose for 25 days using a simplified TID schedule + behavioral support",
+     "id": "OG001",
+     "title": "3.0 mg Cytisine, TID Schedule"
+    },
+    {
+     "description": "Placebo tablets using the commercial 25-day titration schedule + behavioral support pooled with Placebo tablets for 25 days using a simplified TID schedule + behavioral support",
+     "id": "OG002",
+     "title": "Pooled Placebo"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Day 1 through Day 25",
+   "title": "Sensitivity Analysis of Primary Outcome Measure: Analysis for Percentage of Expected Cigarettes Smoked Versus Pooled Placebo Arms, TID Schedule",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of expected cigarettes smoked"
+  }
+ ]
+}

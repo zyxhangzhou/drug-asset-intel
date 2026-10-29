@@ -1,0 +1,85 @@
+{
+ "nctId": "NCT04102579",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-4.37",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-1.95",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "0.61",
+     "estimateComment": "LS Means Difference = Valbenazine - Placebo",
+     "groupDescription": "Results were analyzed using a mixed-effect model repeated measures (MMRM) analysis. The model included the screening period baseline TMC as a covariate, and treatment group, visit, treatment group-by-visit interaction, and baseline-by-visit interaction as fixed effects. Participant was included as a random effect.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "OTHER",
+     "pValue": "<0.0001",
+     "pValueComment": "Statistical significance achieved if p-value \\<0.05.",
+     "paramType": "Least Squares (LS) Means Difference",
+     "paramValue": "-3.16",
+     "statisticalMethod": "MMRM"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.43",
+         "value": "-4.60"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.44",
+         "value": "-1.44"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "64"
+      },
+      {
+       "groupId": "OG001",
+       "value": "61"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The TMC is part of the motor assessment of the UHDRS and measures chorea in 7 different body parts including the face, oral-buccal-lingual region, trunk and each limb independently. The TMC score is the sum of the individual scores and ranges from 0 to 28. A decrease in TMC scores indicates improvement in chorea symptoms.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Capsule, administered orally once daily for 12 weeks.",
+     "id": "OG000",
+     "title": "Valbenazine"
+    },
+    {
+     "description": "Capsule, administered orally once daily for 12 weeks.",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "All participants who are randomly assigned to a treatment group and who had at least 1 evaluable TMC change from baseline score during the 12-week double-blind treatment period.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline (average of screening and Day -1), maintenance (average of Weeks 10 and 12)",
+   "title": "Change From Screening Period Baseline to Maintenance Period in the Unified Huntington's Disease Rating Scale (UHDRS) Total Maximal Chorea (TMC) Score.",
+   "type": "PRIMARY",
+   "unitOfMeasure": "units on a scale"
+  }
+ ]
+}

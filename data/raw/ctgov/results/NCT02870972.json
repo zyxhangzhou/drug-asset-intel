@@ -1,0 +1,545 @@
+{
+ "nctId": "NCT02870972",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-0.703",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-0.214",
+     "groupDescription": "The primary analysis of treatment-effect was performed using an ANCOVA with the adjusted qualifying attack rate as the covariate.",
+     "groupIds": [
+      "OG004",
+      "OG005"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<0.001",
+     "paramType": "Difference in Least Square Means",
+     "paramValue": "-0.458",
+     "statisticalMethod": "ANCOVA"
+    },
+    {
+     "ciLowerLimit": "-0.740",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-0.127",
+     "groupDescription": "The primary analysis of treatment-effect was performed using an ANCOVA with the adjusted qualifying attack rate as the covariate.",
+     "groupIds": [
+      "OG000",
+      "OG005"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.006",
+     "paramType": "Difference in Least Square Means",
+     "paramValue": "-0.433",
+     "statisticalMethod": "ANCOVA"
+    },
+    {
+     "ciLowerLimit": "-0.755",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-0.095",
+     "groupDescription": "The primary analysis of treatment-effect was performed using an ANCOVA with the adjusted qualifying attack rate as the covariate.",
+     "groupIds": [
+      "OG001",
+      "OG005"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.012",
+     "paramType": "Difference in Least Square Means",
+     "paramValue": "-0.425",
+     "statisticalMethod": "ANCOVA"
+    },
+    {
+     "ciLowerLimit": "-1.033",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.373",
+     "groupDescription": "The primary analysis of treatment-effect was performed using an ANCOVA with the adjusted qualifying attack rate as the covariate.",
+     "groupIds": [
+      "OG002",
+      "OG005"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<0.001",
+     "paramType": "Difference in Least Square Means",
+     "paramValue": "-0.703",
+     "statisticalMethod": "ANCOVA"
+    },
+    {
+     "ciLowerLimit": "-0.52",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.32",
+     "groupDescription": "The primary analysis of treatment-effect was performed using an ANCOVA with the adjusted qualifying attack rate as the covariate.",
+     "groupIds": [
+      "OG003",
+      "OG005"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.639",
+     "paramType": "Difference in Least Square Means",
+     "paramValue": "-0.10",
+     "statisticalMethod": "ANCOVA"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.115",
+         "value": "0.519"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.130",
+         "value": "0.527"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "0.130",
+         "value": "0.249"
+        },
+        {
+         "groupId": "OG003",
+         "spread": "0.185",
+         "value": "0.852"
+        },
+        {
+         "groupId": "OG004",
+         "spread": "0.067",
+         "value": "0.494"
+        },
+        {
+         "groupId": "OG005",
+         "spread": "0.104",
+         "value": "0.952"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "18"
+      },
+      {
+       "groupId": "OG001",
+       "value": "14"
+      },
+      {
+       "groupId": "OG002",
+       "value": "14"
+      },
+      {
+       "groupId": "OG003",
+       "value": "7"
+      },
+      {
+       "groupId": "OG004",
+       "value": "53"
+      },
+      {
+       "groupId": "OG005",
+       "value": "22"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Efficacy was evaluated by the number of acute angioedema attacks. To ensure that consistent, objective assessments were used in accepting subject-reported attack data, a panel of expert physicians in the treatment of HAE patients adjudicated all subject-reported attacks prior to their inclusion in primary efficacy analyses.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Berotralstat capsules (350 mg) administered QD for 28 days",
+     "id": "OG000",
+     "title": "Berotralstat 350 mg"
+    },
+    {
+     "description": "Berotralstat capsules (250 mg) administered QD for 28 days",
+     "id": "OG001",
+     "title": "Berotralstat 250 mg"
+    },
+    {
+     "description": "Berotralstat capsules (125 mg) administered QD for 28 days",
+     "id": "OG002",
+     "title": "Berotralstat 125 mg"
+    },
+    {
+     "description": "Berotralstat capsules (62.5 mg) administered QD for 28 days",
+     "id": "OG003",
+     "title": "Berotralstat 62.5 mg"
+    },
+    {
+     "description": "Berotralstat capsules administered QD for 28 days",
+     "id": "OG004",
+     "title": "Berotralstat"
+    },
+    {
+     "description": "Placebo capsules administered QD for 28 days",
+     "id": "OG005",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "The Full Analysis Set population included all subjects who were randomized, received at least 1 dose of study drug, and had post baseline HAE diary data recorded.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Investigators collected data from patient diaries from the first day of dosing through to Day 29 or last day of dosing +24 hrs (the effective dosing period).",
+   "title": "Number of Confirmed HAE Attacks",
+   "type": "PRIMARY",
+   "unitOfMeasure": "HAE attacks per week"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-3.4",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "38.8",
+     "groupIds": [
+      "OG000",
+      "OG005"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.155",
+     "paramType": "Difference vs placebo (%)",
+     "paramValue": "17.7",
+     "statisticalMethod": "Fisher Exact"
+    },
+    {
+     "ciLowerLimit": "-6.3",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "40.1",
+     "groupIds": [
+      "OG001",
+      "OG005"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.277",
+     "paramType": "Difference vs placebo (%)",
+     "paramValue": "16.9",
+     "statisticalMethod": "Fisher Exact"
+    },
+    {
+     "ciLowerLimit": "-1.2",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "49.2",
+     "groupIds": [
+      "OG002",
+      "OG005"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.064",
+     "paramType": "Difference vs placebo (%)",
+     "paramValue": "24.0",
+     "statisticalMethod": "Fisher Exact"
+    },
+    {
+     "ciLowerLimit": "-13.2",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "4.2",
+     "groupIds": [
+      "OG003",
+      "OG005"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "1.000",
+     "paramType": "Difference vs placebo (%)",
+     "paramValue": "-4.5",
+     "statisticalMethod": "Fisher Exact"
+    },
+    {
+     "ciLowerLimit": "-30.2",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-2.2",
+     "groupIds": [
+      "OG004",
+      "OG005"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.097",
+     "paramType": "Difference vs placebo (%)",
+     "paramValue": "-16.2",
+     "statisticalMethod": "Fisher Exact"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "4"
+        },
+        {
+         "groupId": "OG001",
+         "value": "3"
+        },
+        {
+         "groupId": "OG002",
+         "value": "4"
+        },
+        {
+         "groupId": "OG003",
+         "value": "0"
+        },
+        {
+         "groupId": "OG004",
+         "value": "11"
+        },
+        {
+         "groupId": "OG005",
+         "value": "1"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "18"
+        },
+        {
+         "groupId": "OG001",
+         "value": "14"
+        },
+        {
+         "groupId": "OG002",
+         "value": "14"
+        },
+        {
+         "groupId": "OG003",
+         "value": "7"
+        },
+        {
+         "groupId": "OG004",
+         "value": "53"
+        },
+        {
+         "groupId": "OG005",
+         "value": "22"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "HAE Attack Free"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "2"
+        },
+        {
+         "groupId": "OG001",
+         "value": "3"
+        },
+        {
+         "groupId": "OG002",
+         "value": "4"
+        },
+        {
+         "groupId": "OG003",
+         "value": "0"
+        },
+        {
+         "groupId": "OG004",
+         "value": "9"
+        },
+        {
+         "groupId": "OG005",
+         "value": "1"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "18"
+        },
+        {
+         "groupId": "OG001",
+         "value": "14"
+        },
+        {
+         "groupId": "OG002",
+         "value": "14"
+        },
+        {
+         "groupId": "OG003",
+         "value": "7"
+        },
+        {
+         "groupId": "OG004",
+         "value": "53"
+        },
+        {
+         "groupId": "OG005",
+         "value": "22"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "HAE Attack Free (missing diary = attack)"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "2"
+        },
+        {
+         "groupId": "OG001",
+         "value": "3"
+        },
+        {
+         "groupId": "OG002",
+         "value": "4"
+        },
+        {
+         "groupId": "OG003",
+         "value": "0"
+        },
+        {
+         "groupId": "OG004",
+         "value": "9"
+        },
+        {
+         "groupId": "OG005",
+         "value": "1"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "14"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        },
+        {
+         "groupId": "OG002",
+         "value": "14"
+        },
+        {
+         "groupId": "OG003",
+         "value": "7"
+        },
+        {
+         "groupId": "OG004",
+         "value": "48"
+        },
+        {
+         "groupId": "OG005",
+         "value": "22"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "HAE Attack Free (missing diary = exclude)"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "18"
+      },
+      {
+       "groupId": "OG001",
+       "value": "14"
+      },
+      {
+       "groupId": "OG002",
+       "value": "14"
+      },
+      {
+       "groupId": "OG003",
+       "value": "7"
+      },
+      {
+       "groupId": "OG004",
+       "value": "53"
+      },
+      {
+       "groupId": "OG005",
+       "value": "22"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Assessment of the proportion of subjects who had no HAE attacks during the entire dosing period",
+   "groups": [
+    {
+     "description": "Berotralstat capsules (350 mg) administered QD for 28 days",
+     "id": "OG000",
+     "title": "Berotralstat 350 mg"
+    },
+    {
+     "description": "Berotralstat capsules (250 mg) administered QD for 28 days",
+     "id": "OG001",
+     "title": "Berotralstat 250 mg"
+    },
+    {
+     "description": "Berotralstat capsules (125 mg) administered QD for 28 days",
+     "id": "OG002",
+     "title": "Berotralstat 125 mg"
+    },
+    {
+     "description": "Berotralstat capsules (62.5 mg) administered QD for 28 days",
+     "id": "OG003",
+     "title": "Berotralstat 62.5 mg"
+    },
+    {
+     "description": "Berotralstat capsules administered QD for 28 days",
+     "id": "OG004",
+     "title": "Berotralstat"
+    },
+    {
+     "description": "Placebo capsules administered QD for 28 days",
+     "id": "OG005",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "The Full Analysis Set population included all subjects who were randomized, received at least 1 dose of study drug, and had post-baseline HAE diary data recorded.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Investigators collected data from patient diaries from the first day of dosing through to Day 29 or last day of dosing +24 hrs (the effective dosing period).",
+   "title": "Proportion of Subjects Who Were HAE Attack-free During the Entire Dosing Period",
+   "type": "PRIMARY",
+   "unitOfMeasure": "participants"
+  }
+ ]
+}

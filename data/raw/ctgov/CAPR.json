@@ -1,0 +1,1450 @@
+{
+ "aliases": [
+  "Capricor Therapeutics",
+  "Capricor Inc."
+ ],
+ "studies": [
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "interventionNames": [
+        "Biological: CAP-1002 Allogeneic Cardiosphere-Derived Cells"
+       ],
+       "label": "CAP-1002 Allogeneic Cardiosphere-Derived Cells",
+       "type": "ACTIVE_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "CAP-1002 Allogeneic Cardiosphere-Derived Cells"
+       ],
+       "description": "Single dose, blinded, intracoronary infusion of 25 Million cardiosphere-derived cells",
+       "name": "CAP-1002 Allogeneic Cardiosphere-Derived Cells",
+       "type": "BIOLOGICAL"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Single, blinded, intracoronary infusion of a placebo solution",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Myocardial Infarction"
+     ],
+     "keywords": [
+      "Myocardial Infarction",
+      "Heart Attack",
+      "Stem cell",
+      "Left ventricular dysfunction",
+      "Congestive heart failure"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "TRIPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 135,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "ALLSTAR",
+     "briefTitle": "Allogeneic Heart Stem Cells to Achieve Myocardial Regeneration",
+     "nctId": "NCT01458405",
+     "officialTitle": "Randomized, Double-Blind, Placebo-Controlled Phase I/II Study of the Safety and Efficacy of Intracoronary Delivery of Allogeneic Cardiosphere-Derived Cells in Patients With a Myocardial Infarction and Ischemic Left Ventricular Dysfunction",
+     "orgStudyIdInfo": {
+      "id": "1002-01"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Capricor Inc."
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "RC3HL103356-01",
+       "link": "https://reporter.nih.gov/quickSearch/RC3HL103356-01",
+       "type": "NIH"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "collaborators": [
+      {
+       "class": "NIH",
+       "name": "National Institutes of Health (NIH)"
+      },
+      {
+       "class": "NIH",
+       "name": "National Heart, Lung, and Blood Institute (NHLBI)"
+      },
+      {
+       "class": "OTHER",
+       "name": "California Institute for Regenerative Medicine (CIRM)"
+      }
+     ],
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Capricor Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2019-02-28",
+      "type": "ACTUAL"
+     },
+     "dispFirstPostDateStruct": {
+      "date": "2018-10-09",
+      "type": "ACTUAL"
+     },
+     "dispFirstSubmitDate": "2018-10-05",
+     "dispFirstSubmitQcDate": "2018-10-05",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2024-04-09",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2024-03-14",
+     "overallStatus": "TERMINATED",
+     "primaryCompletionDateStruct": {
+      "date": "2017-07-03",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2024-04-09",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2024-02-10",
+     "resultsFirstSubmitQcDate": "2024-03-14",
+     "startDateStruct": {
+      "date": "2012-11-13",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2024-02",
+     "studyFirstPostDateStruct": {
+      "date": "2011-10-24",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2011-10-20",
+     "studyFirstSubmitQcDate": "2011-10-21",
+     "whyStopped": "On February 28, 2019, Capricor ceased ongoing follow-up activities and terminated the ALLSTAR trial to focus resourcing on its active CAP-1002 program, HOPE-2."
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "The Phase I study consists of a Phase Ia portion and a Phase Ib portion. The Phase Ia portion (N=14 subjects) consists of an open-label, single-arm, study design. The potentially conducted Phase Ib portion of the study (N=28 subjects) consists of a double-blind, randomized, placebo-controlled study design.\n\nThe Phase Ia portion is an open-label, dose escalation of Allogeneic Cardiosphere-Derived Cells (CDCs).",
+       "interventionNames": [
+        "Biological: Allogeneic Cardiosphere-Derived Cells (CDCs)"
+       ],
+       "label": "Allogeneic Cardiosphere-Derived Cells",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "The placebo study arm only applies to the Phase Ib portion of the study design. The Phase Ia portion (N=14 subjects) consists of an open-label, single-arm, study design. The potentially conducted Phase Ib portion of the study (N=28 subjects) consists of a double-blind, randomized, placebo-controlled study design.",
+       "interventionNames": [
+        "Biological: Allogeneic Cardiosphere-Derived Cells (CDCs)"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Allogeneic Cardiosphere-Derived Cells",
+        "Placebo"
+       ],
+       "description": "Intracoronary delivery of CAP-1002 or placebo",
+       "name": "Allogeneic Cardiosphere-Derived Cells (CDCs)",
+       "otherNames": [
+        "CAP-1002"
+       ],
+       "type": "BIOLOGICAL"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Dilated Cardiomyopathy (DCM)",
+      "Ischemic Cardiomyopathy",
+      "Nonischemic Cardiomyopathy",
+      "Heart Failure"
+     ],
+     "keywords": [
+      "cardiomyopathy",
+      "cardiosphere-derived stem cells",
+      "intracoronary infusion",
+      "adult stem cells",
+      "heart disease",
+      "ventricular dysfunction",
+      "pathological processes",
+      "cardiovascular diseases",
+      "heart failure"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 42,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "DYNAMIC",
+     "briefTitle": "Dilated cardiomYopathy iNtervention With Allogeneic MyocardIally-regenerative Cells (DYNAMIC)",
+     "nctId": "NCT02293603",
+     "nctIdAliases": [
+      "NCT01815060"
+     ],
+     "officialTitle": "A Randomized, Double-blind, Placebo-controlled, Phase I Study of the Safety of Multi-vessel Intra-coronary Delivery of Allogeneic Human Cardiosphere-Derived Stem Cells in Patients With Dilated Cardiomyopathy (DCM)",
+     "orgStudyIdInfo": {
+      "id": "CAP-1002 (DYNAMIC)"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Capricor Inc."
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "R44HL095203",
+       "link": "https://reporter.nih.gov/quickSearch/R44HL095203",
+       "type": "NIH"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "collaborators": [
+      {
+       "class": "OTHER",
+       "name": "Cedars-Sinai Medical Center"
+      },
+      {
+       "class": "NIH",
+       "name": "National Institutes of Health (NIH)"
+      },
+      {
+       "class": "NIH",
+       "name": "National Heart, Lung, and Blood Institute (NHLBI)"
+      }
+     ],
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Capricor Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2020-04",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastKnownStatus": "ACTIVE_NOT_RECRUITING",
+     "lastUpdatePostDateStruct": {
+      "date": "2016-06-21",
+      "type": "ESTIMATED"
+     },
+     "lastUpdateSubmitDate": "2016-06-17",
+     "overallStatus": "UNKNOWN",
+     "primaryCompletionDateStruct": {
+      "date": "2015-05",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2014-11"
+     },
+     "statusVerifiedDate": "2016-06",
+     "studyFirstPostDateStruct": {
+      "date": "2014-11-18",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2014-11-05",
+     "studyFirstSubmitQcDate": "2014-11-14"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Cenderitide will be administered as four, 48-hour, continuous, subcutaneous infusion rates of 0.5, 1.0, 2.0 and 3.0 ng/kg/min totaling up to eight sequential days of dosing.",
+       "interventionNames": [
+        "Drug: Cenderitide"
+       ],
+       "label": "Cenderitide",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Cenderitide"
+       ],
+       "description": "Cenderitide is a dual receptor natriuretic peptide.",
+       "name": "Cenderitide",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Heart Failure"
+     ],
+     "keywords": [
+      "Chronic Heart Failure",
+      "Natriuretic Peptides",
+      "Cenderitide"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 14,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Safety Study of Cenderitide in Stable Chronic Heart Failure",
+     "nctId": "NCT02359227",
+     "officialTitle": "A Study Assessing the Safety and Tolerability, Pharmacokinetics, and Pharmacodynamics of Open-Label, Continuous, Stepwise, Dose Increasing, Subcutaneous Infusion of Cenderitide Via the Insulet Drug Delivery System in Subjects With Stable, Chronic Heart Failure",
+     "orgStudyIdInfo": {
+      "id": "CDNP-578-01"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Capricor Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Capricor Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2015-04-02",
+      "type": "ACTUAL"
+     },
+     "dispFirstPostDateStruct": {
+      "date": "2020-02-11",
+      "type": "ACTUAL"
+     },
+     "dispFirstSubmitDate": "2020-02-06",
+     "dispFirstSubmitQcDate": "2020-02-06",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2020-02-11",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2020-02-06",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2015-04-02",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2015-01",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2018-10",
+     "studyFirstPostDateStruct": {
+      "date": "2015-02-09",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2015-02-02",
+     "studyFirstSubmitQcDate": "2015-02-04"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "CAP-1002 is an investigational product consisting of allogeneic cardiosphere-derived cells (CDCs). All subjects assigned to the active treatment arm will receive an intended total dose of 75 million (M) CAP-1002 cells infused as 25M cells into each of the three left ventricle cardiac territories (anterior, lateral, inferior/posterior). If any of the three coronary arteries are deemed by the infusing Investigator to supply less than 30% of the left ventricular myocardium, the infusing Investigator may choose to infuse only 12.5M cells into that coronary artery or arteries. Therefore the full dose of CAP-1002 delivered may range from 50M cells to 75M cells provided that all three arteries are infused.",
+       "interventionNames": [
+        "Drug: Allogeneic Cardiosphere-Derived Cells (CAP-1002)"
+       ],
+       "label": "Allogeneic Cardiosphere-Derived Cells (CAP-1002)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Subjects randomized to receive usual care will continue to be cared for and treated in whatever manner the investigator deems most appropriate for the subject on an ongoing basis, and will receive no infusion.",
+       "label": "Usual Care",
+       "type": "NO_INTERVENTION"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Allogeneic Cardiosphere-Derived Cells (CAP-1002)"
+       ],
+       "description": "Intracoronary delivery of Allogeneic Cardiosphere-Derived Cells (CAP-1002)",
+       "name": "Allogeneic Cardiosphere-Derived Cells (CAP-1002)",
+       "otherNames": [
+        "CAP-1002"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Duchenne Muscular Dystrophy",
+      "Cardiomyopathy"
+     ],
+     "keywords": [
+      "Duchenne Muscular Dystrophy",
+      "Cardiomyopathy"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 25,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "HOPE",
+     "briefTitle": "HOPE-Duchenne (Halt cardiomyOPathy progrEssion in Duchenne)",
+     "nctId": "NCT02485938",
+     "officialTitle": "A Randomized, Open-label Study of the Safety and Efficacy of Multi- Vessel Intracoronary Delivery of Allogeneic Cardiosphere-Derived Cells in Patients With Cardiomyopathy Secondary to Duchenne Muscular Dystrophy",
+     "orgStudyIdInfo": {
+      "id": "CAP-1002-DMD-01"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Capricor Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Capricor Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2017-09-14",
+      "type": "ACTUAL"
+     },
+     "dispFirstPostDateStruct": {
+      "date": "2018-07-20",
+      "type": "ACTUAL"
+     },
+     "dispFirstSubmitDate": "2018-07-17",
+     "dispFirstSubmitQcDate": "2018-07-18",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-01-09",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-01-06",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2017-09-14",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2025-01-09",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2024-02-29",
+     "resultsFirstSubmitQcDate": "2025-01-06",
+     "startDateStruct": {
+      "date": "2016-01-07",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-01",
+     "studyFirstPostDateStruct": {
+      "date": "2015-06-30",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2015-06-19",
+     "studyFirstSubmitQcDate": "2015-06-26"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Infusion Period A: Cenderitide Infusion Period B: Placebo\n\nThis is a randomized, double-blind, placebo-controlled, cross-over trial. The sequence was either cenderitide crossed over to placebo or placebo crossed over to cenderitide, with the sequence divided into two 7-day infusion periods (Infusion Period A and Infusion Period B).",
+       "interventionNames": [
+        "Drug: Cenderitide",
+        "Drug: Placebo"
+       ],
+       "label": "Cenderitide-Placebo",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Infusion Period A: Placebo Infusion Period B: Cenderitide\n\nThis is a randomized, double-blind, placebo-controlled, cross-over trial. The sequence was either cenderitide crossed over to placebo or placebo crossed over to cenderitide, with the sequence divided into two 7-day infusion periods (Infusion Period A and Infusion Period B).",
+       "interventionNames": [
+        "Drug: Cenderitide",
+        "Drug: Placebo"
+       ],
+       "label": "Placebo-Cenderitide",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Cenderitide-Placebo",
+        "Placebo-Cenderitide"
+       ],
+       "description": "Cenderitide is a dual receptor natriuretic peptide.",
+       "name": "Cenderitide",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Cenderitide-Placebo",
+        "Placebo-Cenderitide"
+       ],
+       "description": "Placebo control",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Heart Failure",
+      "Renal Insufficiency"
+     ],
+     "keywords": [
+      "Chronic Heart Failure",
+      "Renal Insufficiency",
+      "Natriuretic Peptides",
+      "Cenderitide"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "CROSSOVER",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 8,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Safety Study of Cenderitide in Chronic Stable Heart Failure With Moderate Renal Impairment",
+     "nctId": "NCT02603614",
+     "officialTitle": "A Randomized, Double Blind, Placebo-Controlled, Dose Escalating, Cross Over Designed Study to Assess the Safety and Tolerability, Pharmacokinetics, and Pharmacodynamics of Open-Label, Continuous Subcutaneous Infusion of Cenderitide Via the Insulet Drug Delivery System in Chronic Stable Heart Failure Subjects With Moderate Renal Impairment",
+     "orgStudyIdInfo": {
+      "id": "CDNP-578-02"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Capricor Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Capricor Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2016-03-31",
+      "type": "ACTUAL"
+     },
+     "dispFirstPostDateStruct": {
+      "date": "2020-02-11",
+      "type": "ACTUAL"
+     },
+     "dispFirstSubmitDate": "2020-02-06",
+     "dispFirstSubmitQcDate": "2020-02-06",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2020-02-11",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2020-02-06",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2016-03-31",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2015-12"
+     },
+     "statusVerifiedDate": "2018-10",
+     "studyFirstPostDateStruct": {
+      "date": "2015-11-13",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2015-11-05",
+     "studyFirstSubmitQcDate": "2015-11-10"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Patients will receive 150 million Cardiosphere-derived Cells (CDCs) via intravenous infusion every 3 months for a total of 4 doses.",
+       "interventionNames": [
+        "Biological: CAP-1002"
+       ],
+       "label": "CAP-1002",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Patients will receive a placebo solution via intravenous infusion every 3 months for a total of 4 doses.",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "CAP-1002"
+       ],
+       "description": "The active pharmaceutical ingredient in CAP-1002 is Cardiosphere-Derived Cells (CDCs). CDCs are known to secrete numerous bioactive elements (growth factors, exosomes) which impact the therapeutic benefits of the cell-based therapy. The mechanism of action is the composite ability to be immunomodulatory, anti-fibrotic, anti-inflammatory, and pro-angiogenic.",
+       "name": "CAP-1002",
+       "otherNames": [
+        "Cardiosphere-Derived Cells",
+        "CDCs",
+        "deramiocel"
+       ],
+       "type": "BIOLOGICAL"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Placebo",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Muscular Dystrophies",
+      "Muscular Dystrophy, Duchenne",
+      "Muscular Disorders, Atrophic",
+      "Muscular Diseases",
+      "Neuromuscular Diseases",
+      "Nervous System Diseases",
+      "Genetic Diseases, X-Linked",
+      "Genetic Diseases, Inborn"
+     ],
+     "keywords": [
+      "Duchenne Muscular Dystrophy",
+      "Cell Therapy",
+      "Performance of the Upper Limb",
+      "Pulmonary Function",
+      "Ambulatory",
+      "Non-Ambulatory",
+      "Glucocorticoids"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 20,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "HOPE-2",
+     "briefTitle": "A Study of CAP-1002 in Ambulatory and Non-Ambulatory Patients With Duchenne Muscular Dystrophy",
+     "nctId": "NCT03406780",
+     "officialTitle": "A Phase 2, Randomized, Double-Blind, Placebo-Controlled Trial Evaluating the Safety and Efficacy of Intravenous Delivery of Allogeneic Cardiosphere-Derived Cells in Subjects With Duchenne Muscular Dystrophy",
+     "orgStudyIdInfo": {
+      "id": "CAP-1002-DMD-02"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Capricor Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Capricor Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2020-03-10",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-05-28",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-05-12",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2020-03-10",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2025-02-24",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2025-01-31",
+     "resultsFirstSubmitQcDate": "2025-01-31",
+     "startDateStruct": {
+      "date": "2018-04-04",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-05",
+     "studyFirstPostDateStruct": {
+      "date": "2018-01-23",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2018-01-15",
+     "studyFirstSubmitQcDate": "2018-01-19"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "interventions": [
+      {
+       "description": "Extracellular Vesicles (EVs) from Cardiosphere-Derived Cells (CDCs)",
+       "name": "CAP-1002 Allogeneic Cardiosphere-Derived Cells",
+       "type": "BIOLOGICAL"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "COVID-19"
+     ]
+    },
+    "designModule": {
+     "expandedAccessTypes": {
+      "intermediate": true,
+      "treatment": true
+     },
+     "studyType": "EXPANDED_ACCESS"
+    },
+    "identificationModule": {
+     "briefTitle": "CAP-1002 in Severe COVID-19 Disease",
+     "nctId": "NCT04338347",
+     "officialTitle": "CAP-1002 Treatment in Patients With Severe COVID-19 and in Critical Condition as Indicated by Life Support Measurements",
+     "orgStudyIdInfo": {
+      "id": "CAP-1002-COVID-19"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Capricor Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Capricor Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "lastUpdatePostDateStruct": {
+      "date": "2020-12-01",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2020-11-29",
+     "overallStatus": "NO_LONGER_AVAILABLE",
+     "statusVerifiedDate": "2020-11",
+     "studyFirstPostDateStruct": {
+      "date": "2020-04-08",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2020-03-31",
+     "studyFirstSubmitQcDate": "2020-04-06"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants will receive an intravenous (IV) infusion of deramiocel (150 million Cardiosphere-Derived Cells (CDCs) per infusion) every 3 months",
+       "interventionNames": [
+        "Biological: Deramiocel (CAP-1002)"
+       ],
+       "label": "Deramiocel",
+       "type": "OTHER"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Deramiocel"
+       ],
+       "description": "Peripheral infusion of 150 million allogeneic cardiosphere-derived cells administered every three months",
+       "name": "Deramiocel (CAP-1002)",
+       "otherNames": [
+        "Allogeneic Cardiosphere-Derived Cells"
+       ],
+       "type": "BIOLOGICAL"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Duchenne Muscular Dystrophy"
+     ],
+     "keywords": [
+      "DMD, Muscular dystrophy, Duchenne"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "interventionModelDescription": "Open Label Extension of the HOPE-2 Trial",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 13,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "HOPE-2-OLE",
+     "briefTitle": "Open-label Extension of the HOPE-2 Trial",
+     "nctId": "NCT04428476",
+     "officialTitle": "Open-Label Extension of the HOPE-2 Duchenne Muscular Dystrophy Trial",
+     "orgStudyIdInfo": {
+      "id": "CAP-1002-DMD-02-OLE"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Capricor Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Capricor Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2027-03",
+      "type": "ESTIMATED"
+     },
+     "dispFirstPostDateStruct": {
+      "date": "2023-02-13",
+      "type": "ACTUAL"
+     },
+     "dispFirstSubmitDate": "2023-02-03",
+     "dispFirstSubmitQcDate": "2023-02-03",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-09-22",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-08-26",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2022-02-16",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2025-02-24",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2025-01-31",
+     "resultsFirstSubmitQcDate": "2025-01-31",
+     "startDateStruct": {
+      "date": "2020-08-05",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-07",
+     "studyFirstPostDateStruct": {
+      "date": "2020-06-11",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2020-06-09",
+     "studyFirstSubmitQcDate": "2020-06-09"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "The active pharmaceutical ingredient in CAP-1002 is Cardiosphere-Derived Cells (CDCs). CDCs are known to secrete numerous bioactive elements (growth factors, exosomes) which impact the therapeutic benefits of the cell-based therapy. The mechanism of action is the composite ability to be immunomodulatory, anti-fibrotic, anti-inflammatory, and pro-angiogenic.",
+       "interventionNames": [
+        "Biological: CAP-1002"
+       ],
+       "label": "CAP-1002",
+       "type": "ACTIVE_COMPARATOR"
+      },
+      {
+       "description": "Matching placebo solution",
+       "interventionNames": [
+        "Biological: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "CAP-1002"
+       ],
+       "description": "Peripheral infusion of 150 million cardiosphere-derived cells (CDCs)",
+       "name": "CAP-1002",
+       "otherNames": [
+        "Allogeneic Cardiosphere-Derived Cells",
+        "CDCs"
+       ],
+       "type": "BIOLOGICAL"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Matching placebo solution",
+       "name": "Placebo",
+       "type": "BIOLOGICAL"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Covid19"
+     ],
+     "keywords": [
+      "SARS-CoV-2",
+      "COVID",
+      "COVID-19",
+      "COVID19"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "maskingDescription": "Syringes (60-mL) with amber film-covered barrels",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 55,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "INSPIRE",
+     "briefTitle": "Intravenous Infusion of CAP-1002 in Patients With COVID-19",
+     "nctId": "NCT04623671",
+     "officialTitle": "A Randomized, Double-Blind, Placebo-Controlled Study Evaluating the Safety and Efficacy of Intravenous Infusion of CAP-1002 in Patients With COVID-19 (INSPIRE)",
+     "orgStudyIdInfo": {
+      "id": "CAP-1002-COVID-19-02"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Capricor Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Capricor Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2022-02-04",
+      "type": "ACTUAL"
+     },
+     "dispFirstPostDateStruct": {
+      "date": "2023-02-13",
+      "type": "ACTUAL"
+     },
+     "dispFirstSubmitDate": "2023-02-03",
+     "dispFirstSubmitQcDate": "2023-02-03",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-02-20",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-01-31",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2022-02-04",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2025-02-20",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2025-01-31",
+     "resultsFirstSubmitQcDate": "2025-01-31",
+     "startDateStruct": {
+      "date": "2020-11-15",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-01",
+     "studyFirstPostDateStruct": {
+      "date": "2020-11-10",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2020-10-07",
+     "studyFirstSubmitQcDate": "2020-11-09"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Cohort A: Approximatetly 29 subjects will receive deramiocel (CAP-1002A) active treatment consisting of 150 million cardiosphere-derived cells (CDCs) via intravenous infusion every 3 months\n\nCohort B: Approximately 22 participants will receive deramiocel (CAP-1002B) active treatment consisting of 150 million cardiosphere-derived cells (CDCs) via intravenous infusion every 3 months\n\nOpen-Label Extension: After completion of the double-blind, placebo-controlled phase, subjects will receive deramiocel (CAP-1002) active treatment consisting of 150 million cardiosphere-derived cells (CDCs) via intravenous infusion every 3 months for 12 months followed by the long-term open label extension phase which continues deramiocel administration every 3 months until sponsor decision.",
+       "interventionNames": [
+        "Biological: Deramiocel (CAP-1002)"
+       ],
+       "label": "Deramiocel (CAP-1002)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Cohort A: Approximately 29 subjects will receive a Placebo solution via intravenous infusion every 3 months\n\nCohort B: Approximately 22 participants will receive a Placebo solution via intravenous infusion every 3 months",
+       "interventionNames": [
+        "Biological: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Deramiocel (CAP-1002)"
+       ],
+       "description": "Cohort A: CAP-1002A manufactured in Los Angeles, CA; Cohort B: CAP-1002B manufactured in San Diego, CA; Open-Label Extension: CAP-1002A or CAP-1002B",
+       "name": "Deramiocel (CAP-1002)",
+       "otherNames": [
+        "Cardiosphere-Derived Cells (CDCs)"
+       ],
+       "type": "BIOLOGICAL"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Placebo",
+       "name": "Placebo",
+       "type": "BIOLOGICAL"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Muscular Dystrophies",
+      "Muscular Dystrophy, Duchenne",
+      "Muscular Disorders, Atrophic",
+      "Muscular Diseases",
+      "Neuromuscular Diseases",
+      "Genetic Diseases, X-Linked",
+      "Genetic Diseases, Inborn",
+      "Nervous System Diseases"
+     ],
+     "keywords": [
+      "Duchenne Muscular Dystrophy",
+      "Cell Therapy",
+      "Performance of the Upper Limb",
+      "Ambulatory",
+      "Non-Ambulatory"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "interventionModelDescription": "Cohort A: placebo-controlled, double-blind, randomized 1:1 (active:placebo); Cohort B: placebo-controlled, double-blind, randomized 1:1 (active:placebo)",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 106,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "HOPE-3",
+     "briefTitle": "A Study of Deramiocel (CAP-1002) in Ambulatory and Non-Ambulatory Patients With Duchenne Muscular Dystrophy",
+     "nctId": "NCT05126758",
+     "officialTitle": "A Phase 3, Randomized, Double-Blind, Placebo-Controlled Trial Evaluating the Efficacy and Safety of Human Allogeneic Cardiosphere-Derived Cells for the Treatment of Duchenne Muscular Dystrophy",
+     "orgStudyIdInfo": {
+      "id": "CAP-1002-DMD-04"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Capricor Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Capricor Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2027-03",
+      "type": "ESTIMATED"
+     },
+     "dispFirstPostDateStruct": {
+      "date": "2025-12-17",
+      "type": "ACTUAL"
+     },
+     "dispFirstSubmitDate": "2026-06-03",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-08-28",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-08-26",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2025-06-18",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2022-06-22",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-07",
+     "studyFirstPostDateStruct": {
+      "date": "2021-11-19",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2021-11-04",
+     "studyFirstSubmitQcDate": "2021-11-16"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "All participants who were randomized to the Usual Care Treatment Group and completed 12 months of follow-up in the HOPE-Duchenne trial (NCT02485938), will receive CAP-1002 intravenous infusion on Day 1 and at Month 3 in the current study.",
+       "interventionNames": [
+        "Biological: Allogeneic Cardiosphere-Derived Cells (CAP-1002)"
+       ],
+       "label": "Allogeneic Cardiosphere-Derived Cells (CAP-1002)",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Allogeneic Cardiosphere-Derived Cells (CAP-1002)"
+       ],
+       "description": "Intravenous infusion delivery of Allogeneic Cardiosphere-Derived Cells (CAP-1002; 75 million CDCs)",
+       "name": "Allogeneic Cardiosphere-Derived Cells (CAP-1002)",
+       "otherNames": [
+        "CAP-1002"
+       ],
+       "type": "BIOLOGICAL"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Duchenne Muscular Dystrophy"
+     ],
+     "keywords": [
+      "Duchenne Muscular Dystrophy",
+      "Cardiomyopathy",
+      "Duchenne"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 8,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "HOPE-OLE",
+     "briefTitle": "Halt cardiomyOPathy progrEssion in Duchenne (HOPE-OLE)",
+     "nctId": "NCT06304064",
+     "officialTitle": "Open-Label Extension of the Halt Cardiomyopathy Progression in Duchenne (HOPE-Duchenne) Trial (CAP-1002-DMD-03)",
+     "orgStudyIdInfo": {
+      "id": "CAP-1002-DMD-03"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Capricor Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Capricor Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2019-03-06",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2024-04-24",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2024-03-29",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2019-03-06",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2024-04-24",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2024-03-29",
+     "resultsFirstSubmitQcDate": "2024-03-29",
+     "startDateStruct": {
+      "date": "2018-06-21",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2024-03",
+     "studyFirstPostDateStruct": {
+      "date": "2024-03-12",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2024-03-05",
+     "studyFirstSubmitQcDate": "2024-03-05"
+    }
+   }
+  }
+ ]
+}

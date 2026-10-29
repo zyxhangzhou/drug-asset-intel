@@ -1,0 +1,95 @@
+{
+ "nctId": "NCT02383927",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "0.0",
+         "upperLimit": "25.9",
+         "value": "0.0"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "0.0",
+         "upperLimit": "32.4",
+         "value": "0.0"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "25.6",
+         "upperLimit": "63.2",
+         "value": "43.5"
+        },
+        {
+         "groupId": "OG003",
+         "lowerLimit": "8.2",
+         "upperLimit": "64.1",
+         "value": "28.6"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "11"
+      },
+      {
+       "groupId": "OG001",
+       "value": "8"
+      },
+      {
+       "groupId": "OG002",
+       "value": "23"
+      },
+      {
+       "groupId": "OG003",
+       "value": "7"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The ORR of tipifarnib was response assessments according to RECIST 1.1. The estimate of the ORR was calculated based on the maximum likelihood estimator (i.e., crude percentage of subjects whose best overall response was complete response \\[CR\\] or partial response \\[PR\\]). The estimate of the ORR was accompanied by 2-sided 95% confidence interval (CI). The 95% CI was estimated using the Wilson score test-based method.\n\nCR: Disappearance of all target lesions. Any pathological lymph nodes (whether target or non-target) must have reduction in short axis to \\< 10 mm. Disappearance of all non-target lesions and normalization of tumor marker level. All lymph nodes must be non-pathological in size (\\< 10 mm short axis).\n\nPR: At least a 30% decrease in the sum of diameters of target lesions, taking as reference the baseline sum diameters. Persistence of one or more non-target lesion(s) and/or maintenance of tumor marker level above the normal limits.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Subjects with thyroid cancer with HRAS mutations.\n\nSubjects received tipifarnib as monotherapy orally BID on Days 1-7 and 15-21 of each 28-day treatment cycle.\n\nIn the absence of unacceptable tipifarnib-related emergent toxicity or disease progression, subjects could receive treatment with tipifarnib for up to 12 months at the discretion of the Investigator. Treatment beyond 12 months may have continued upon agreement of the Investigator and the Sponsor.",
+     "id": "OG000",
+     "title": "Cohort 1"
+    },
+    {
+     "description": "Subjects with any solid tumour with HRAS mutation.\n\nSubjects received tipifarnib as monotherapy orally BID on Days 1-7 and 15-21 of each 28-day treatment cycle.\n\nIn the absence of unacceptable tipifarnib-related emergent toxicity or disease progression, subjects could receive treatment with tipifarnib for up to 12 months at the discretion of the Investigator. Treatment beyond 12 months may have continued upon agreement of the Investigator and the Sponsor.",
+     "id": "OG001",
+     "title": "Cohort 2/Stage 1"
+    },
+    {
+     "description": "Subjects with HNSCC with HRAS mutations.\n\nSubjects received tipifarnib as monotherapy orally BID on Days 1-7 and 15-21 of each 28-day treatment cycle.\n\nIn the absence of unacceptable tipifarnib-related emergent toxicity or disease progression, subjects could receive treatment with tipifarnib for up to 12 months at the discretion of the Investigator. Treatment beyond 12 months may have continued upon agreement of the Investigator and the Sponsor.",
+     "id": "OG002",
+     "title": "Cohort 2/Stage 2"
+    },
+    {
+     "description": "Subjects with any SCC (excluding HNSCC) with HRAS mutation.\n\nSubjects received tipifarnib as monotherapy orally BID on Days 1-7 and 15-21 of each 28-day treatment cycle.\n\nIn the absence of unacceptable tipifarnib-related emergent toxicity or disease progression, subjects could receive treatment with tipifarnib for up to 12 months at the discretion of the Investigator. Treatment beyond 12 months may have continued upon agreement of the Investigator and the Sponsor.",
+     "id": "OG003",
+     "title": "Cohort 3"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "The Full Analysis Set (FAS) Population excluding subjects for the following reasons: no baseline data; failure to receive at least 1 dose of tipifarnib; no post-baseline endpoint data subsequent to at least 1 dose of study drug.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to approximately 3 years",
+   "title": "Antitumor Activity by Objective Response Rate (ORR)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

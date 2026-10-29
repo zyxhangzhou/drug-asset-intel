@@ -1,0 +1,83 @@
+{
+ "nctId": "NCT01865747",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.45",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.74",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<0.0001",
+     "paramType": "Hazard Ratio (HR)",
+     "paramValue": "0.58",
+     "statisticalComment": "The Log-Rank Test was stratified by the Memorial Sloan-Kettering Cancer Center (MSKCC) group and number of prior VEGFR TKIs.",
+     "statisticalMethod": "Log Rank"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "5.6",
+         "upperLimit": "9.1",
+         "value": "7.4"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "3.7",
+         "upperLimit": "5.4",
+         "value": "3.8"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "187"
+      },
+      {
+       "groupId": "OG001",
+       "value": "188"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The primary analysis of PFS is the time from randomization to date of first documented tumor progression as determined by investigator (per RECIST 1.1 criteria) or death due to any cause, whichever occurred first. A Kaplan-Meier analysis was performed to estimate the median duration.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Cabozantinib (XL184) 60 mg tablet once daily.\n\nCabozantinib tablets",
+     "id": "OG000",
+     "title": "Cabozantinib (XL184)"
+    },
+    {
+     "description": "Everolimus (Afinitor) 10 mg tablet once daily.\n\nEverolimus (Afinitor) tablets",
+     "id": "OG001",
+     "title": "Everolimus (Afinitor)"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "The pre-specified primary analysis of PFS was based on the first 375 randomized subjects (187 cabozantinib and 188 everolimus).",
+   "reportingStatus": "POSTED",
+   "timeFrame": "PFS is measured from the date of randomization until the date of first documented disease progression or date of death from any cause as determined by the Independent Radiology Committee (IRC) per RECIST 1.1, assessed for up to 17 months.",
+   "title": "Progression-free Survival (PFS)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "months"
+  }
+ ]
+}

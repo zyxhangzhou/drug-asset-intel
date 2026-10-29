@@ -1,0 +1,78 @@
+{
+ "nctId": "NCT04718961",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "2"
+        },
+        {
+         "groupId": "OG001",
+         "value": "2"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "2"
+      },
+      {
+       "groupId": "OG001",
+       "value": "2"
+      },
+      {
+       "groupId": "OG002",
+       "value": "0"
+      },
+      {
+       "groupId": "OG003",
+       "value": "0"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "To assess the safety and tolerability of volixibat in participants with ICP on the basis of the following endpoints:\n\nProportion of participants experiencing one or more of the following:\n\nTreatment-emergent adverse events (TEAEs), serious adverse events (SAEs), adverse events of special interest (AESIs), events of clinical interest (ECIs), and adverse events (AEs) that lead to discontinuation of study drugs.\n\nClinically significant laboratory abnormalities",
+   "groups": [
+    {
+     "description": "Participants randomized to this arm will receive volixibat 20mg twice daily.\n\nVolixibat: Oral capsules, administered twice daily. Volixibat is an ileal bile acid transporter (IBAT) inhibitor.",
+     "id": "OG000",
+     "title": "Part 1 Arm 1 - Volixibat 20mg (Experimental)"
+    },
+    {
+     "description": "Participants randomized to this arm will receive volixibat 80mg twice daily.\n\nVolixibat: Oral capsules, administered twice daily. Volixibat is an ileal bile acid transporter (IBAT) inhibitor.",
+     "id": "OG001",
+     "title": "Part 1 Arm 2 - Volixibat 80mg (Experimental)"
+    },
+    {
+     "description": "Participants randomized to this arm will receive volixibat selected dose (mg) twice daily.\n\nVolixibat: Oral capsules, administered twice daily. Volixibat is an ileal bile acid transporter (IBAT) inhibitor.",
+     "id": "OG002",
+     "title": "Part 2 Arm 1 - Volixibat Selected Dose mg (Experimental)"
+    },
+    {
+     "description": "Participants in this arm will receive capsules matched to the study drug minus the active volixibat substance, twice daily.\n\nPlacebo: Oral capsules, administered twice daily. Capsules matched to study drug minus active substance.",
+     "id": "OG003",
+     "title": "Part 2 Arm 2 - Placebo (Placebo Comparator)"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Part 2 was early terminated due to lack of enrollment and the company's assessment of enrollment feasibility.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Through to end of treatment, up to 21 weeks",
+   "title": "Assess the Safety and Tolerability of Volixibat in Participants With ICP",
+   "type": "PRIMARY",
+   "unitOfMeasure": "participants"
+  }
+ ]
+}

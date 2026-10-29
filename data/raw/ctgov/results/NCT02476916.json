@@ -1,0 +1,60 @@
+{
+ "nctId": "NCT02476916",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "96.3"
+        },
+        {
+         "groupId": "OG001",
+         "value": "100.0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "27"
+      },
+      {
+       "groupId": "OG001",
+       "value": "25"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "An AE was defined as any untoward medical occurrence associated with the use of a drug in humans, whether or not considered study drug-related.",
+   "groups": [
+    {
+     "description": "Participants with PK deficiency received AG-348, 50 mg, as initial dose, BID for 24 weeks (Core Period). Participants were assigned to initial doses, however, over the course of the Core Period were treated across a range of doses due to treatment emergent AEs and Hb levels exceeding mid-point of sex-adjusted ranges. At the Week 24 visit, Core Period participants who had safely tolerated AG-348 and demonstrated clinical activity in response to AG-348 were potentially eligible to immediately roll over to the Extension Period for continued treatment. If participants chose not to enroll, they were followed up to four weeks after the last dose of AG-348.",
+     "id": "OG000",
+     "title": "AG-348 50 mg BID"
+    },
+    {
+     "description": "Participants with PK deficiency received AG-348, 300 mg, as initial dose, BID for 24 weeks (Core Period). Participants were assigned to initial doses, however, over the course of the Core Period were treated across a range of doses due to treatment emergent AEs and Hb levels exceeding mid-point of sex-adjusted ranges. At the Week 24 visit, Core Period participants who had safely tolerated AG-348 and demonstrated clinical activity in response to AG-348 were potentially eligible to immediately roll over to the Extension Period for continued treatment. If participants chose not to enroll, they were followed up to four weeks after the last dose of AG-348.",
+     "id": "OG001",
+     "title": "AG-348 300 mg BID"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "The Safety Analysis Set included all participants who had received at least one dose of study drug.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to Week 24",
+   "title": "Percentage of Participants Experiencing at Least One Adverse Event (AEs) in the Core Period",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

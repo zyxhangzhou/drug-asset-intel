@@ -1,0 +1,60 @@
+{
+ "nctId": "NCT01626456",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "51"
+        },
+        {
+         "groupId": "OG001",
+         "value": "190"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "110"
+      },
+      {
+       "groupId": "OG001",
+       "value": "368"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "This measure includes incidences \\>5%.",
+   "groups": [
+    {
+     "description": "ALKS 9072, Low: IM injection, given monthly",
+     "id": "OG000",
+     "title": "ALKS 9072, Low"
+    },
+    {
+     "description": "ALKS 9072, High: IM injection, given monthly",
+     "id": "OG001",
+     "title": "ALKS 9072, High"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Safety population includes all subjects who receive at least 1 dose of ALKS 9072 in the current study.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "52 weeks",
+   "title": "Number of Subjects With Treatment-emergent Adverse Events (TEAEs)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "participants"
+  }
+ ]
+}

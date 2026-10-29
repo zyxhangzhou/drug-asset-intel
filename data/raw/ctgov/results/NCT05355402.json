@@ -1,0 +1,116 @@
+{
+ "nctId": "NCT05355402",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-59.02",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-39.54",
+     "estimateComment": "Difference in the LS mean was calculated as olezarsen 50 mg - placebo.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<0.0001",
+     "pValueComment": "Analysis of covariance (ANCOVA) included percent change from baseline to Month 6 in fasting TG as the dependent variable, treatment group as a fixed effect, and log-transformed baseline TG value as a covariate.",
+     "paramType": "Least Squares (LS) Mean Difference",
+     "paramValue": "-49.28",
+     "statisticalMethod": "ANCOVA"
+    },
+    {
+     "ciLowerLimit": "-62.92",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-43.38",
+     "estimateComment": "Difference in the LS mean was calculated as olezarsen 80 mg - placebo.",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<0.0001",
+     "pValueComment": "ANCOVA included percent change from baseline to Month 6 in fasting TG as the dependent variable, treatment group as a fixed effect, and log-transformed baseline TG value as a covariate.",
+     "paramType": "LS Mean Difference",
+     "paramValue": "-53.15",
+     "statisticalMethod": "ANCOVA"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "-15.34",
+         "upperLimit": "-0.21",
+         "value": "-7.77"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "-63.19",
+         "upperLimit": "-50.92",
+         "value": "-57.05"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "-67.11",
+         "upperLimit": "-54.73",
+         "value": "-60.92"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "39"
+      },
+      {
+       "groupId": "OG001",
+       "value": "58"
+      },
+      {
+       "groupId": "OG002",
+       "value": "57"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Baseline was defined as the average of the pre-dose measurement on Day 1 and all non-missing measurements from the qualification period. If the Day 1 pre-dose and qualification period measurements were all missing, then the last non-missing measurement from the screening period was used as baseline. Month 6 was defined as the average of Weeks 25 and 27. If 1 of the 2 assessments was missing, then the non-missing assessment was used. Missing data after the last observed value for participants in the olezarsen arms were imputed using the jump to reference (J2R) approach.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants received olezarsen-matching placebo, as a single SC injection, once every 4 weeks for 53 weeks treatment period.",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Participants received olezarsen 50 mg, as a single 0.5 mL SC injection, once every 4 weeks for 53 weeks treatment period.",
+     "id": "OG001",
+     "title": "Olezarsen 50 mg"
+    },
+    {
+     "description": "Participants received olezarsen 80 mg, as a single 0.8 mL SC injection, once every 4 weeks for 53 weeks treatment period.",
+     "id": "OG002",
+     "title": "Olezarsen 80 mg"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "FAS included all participants who were randomized and received any amount of study drug (olezarsen or placebo).",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Month 6",
+   "title": "Percent Change From Baseline in Fasting TG at Month 6",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Percent Change"
+  }
+ ]
+}

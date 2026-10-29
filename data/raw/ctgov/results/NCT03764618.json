@@ -1,0 +1,59 @@
+{
+ "nctId": "NCT03764618",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "16"
+        },
+        {
+         "groupId": "OG001",
+         "value": "12"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "45"
+      },
+      {
+       "groupId": "OG001",
+       "value": "45"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Proportion of subjects achieving a hemoglobin level ≥ 10 g/dL with an increase from Baseline in hemoglobin level of ≥ 2 g/dL on 3 consecutive available visits during the 24-week treatment period.",
+   "groups": [
+    {
+     "description": "Initial dose is 100 mg PO bid. At week 4 dose will be increased to fostamatinib 150 mg PO bid if subjects have adequately tolerated the study drug in the opinion of the Investigator.\n\nFostamatinib disodium: Fostamatinib (100mg PO bid or 150 mg PO bid)\n\nThe dose may be reduced at any time to a dose as low as fostamatinib 100 mg PO qd or matching placebo if dose limiting adverse events are observed.",
+     "id": "OG000",
+     "title": "Fostamatinib"
+    },
+    {
+     "description": "Initial dose is 100 mg PO bid. At week 4 dose will be increased to placebo 150 mg PO bid if subjects have adequately tolerated the study drug in the opinion of the Investigator.\n\nPlacebo: Placebo",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "reportingStatus": "POSTED",
+   "timeFrame": "24 Weeks",
+   "title": "Durable Hemoglobin Response",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

@@ -1,0 +1,111 @@
+{
+ "nctId": "NCT00658567",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "-6.5",
+         "upperLimit": "-2.3",
+         "value": "-4.4"
+        },
+        {
+         "comment": "Only the high dose comparison was incorporated in the ANCOVA model analysis following the early termination of the study. The prospective SAP eliminated the analysis of the low dose, 10 mg arm.",
+         "groupId": "OG001",
+         "lowerLimit": "NA",
+         "upperLimit": "NA",
+         "value": "NA"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "-8.5",
+         "upperLimit": "-4.5",
+         "value": "-6.5"
+        }
+       ]
+      }
+     ],
+     "title": "Change from Baseline"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "comment": "Calculation is a comparison of active arm versus placebo.",
+         "groupId": "OG000",
+         "lowerLimit": "NA",
+         "upperLimit": "NA",
+         "value": "NA"
+        },
+        {
+         "comment": "Only the high dose comparison was incorporated in the ANCOVA model analysis following the early termination of the study. The prospective SAP eliminated the analysis of the low dose, 10 mg arm.",
+         "groupId": "OG001",
+         "lowerLimit": "NA",
+         "upperLimit": "NA",
+         "value": "NA"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "-4.9",
+         "upperLimit": "0.8",
+         "value": "-2.1"
+        }
+       ]
+      }
+     ],
+     "title": "Difference of Least Squares Mean versus Placebo"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "38"
+      },
+      {
+       "groupId": "OG001",
+       "value": "38"
+      },
+      {
+       "groupId": "OG002",
+       "value": "41"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Antipsychotic efficacy was defined as a decrease in the severity and/or frequency of hallucinations and/or delusions. This is measured as the change from baseline (Day 1) to Day 42 in the Scale for the Assessment of Positive Symptoms - Hallucinations and Delusions scales (SAPS-H+D) score for the ITT Analysis Set. The possible total score is 1 to 100 and a negative change in score indicates improvement.\n\nAnalysis Method: Analysis of Covariance (ANCOVA) and missing data was imputed using Last Observation Carried Forward (LOCF) method.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Placebo tablet, once daily by mouth, 6 weeks",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Pimavanserin tartrate (ACP-103) 10 mg, tablet, once daily by mouth, 6 weeks",
+     "id": "OG001",
+     "title": "Pimavanserin 10 mg"
+    },
+    {
+     "description": "Pimavanserin tartrate (ACP-103) 20 mg, tablet, once daily by mouth, 6 weeks",
+     "id": "OG002",
+     "title": "Pimavanserin 20 mg"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "This is the \"Intent to Treat\" population, defined as patients who received at least one dose of study drug and had both the baseline SAPS assessment and at least one post-baseline SAPS assessment.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Each study visit (i.e. Days 1, 8, 15, 29 and 42)",
+   "title": "Antipsychotic Efficacy",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Scores on the SAPS H+D scale"
+  }
+ ]
+}

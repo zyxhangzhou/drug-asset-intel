@@ -1,0 +1,223 @@
+{
+ "nctId": "NCT03018340",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-3.4",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-0.1",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "0.85",
+     "groupDescription": "This is the primary statistical comparison for Stage 1 and Stage 2 combined.",
+     "groupIds": [
+      "OG000",
+      "OG001",
+      "OG002",
+      "OG003"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0390",
+     "paramType": "Difference in weighted MMRM LSMs",
+     "paramValue": "-1.7",
+     "statisticalMethod": "Mixed Models Analysis"
+    },
+    {
+     "ciLowerLimit": "-6.1",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-1.9",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "1.09",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0003",
+     "paramType": "Difference in MMRM LSMs",
+     "paramValue": "-4.0",
+     "statisticalMethod": "Mixed Models Analysis"
+    },
+    {
+     "ciLowerLimit": "-2.1",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "3.1",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "1.30",
+     "groupIds": [
+      "OG002",
+      "OG003"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.6940",
+     "paramType": "Difference in MMRM LSMs",
+     "paramValue": "0.5",
+     "statisticalMethod": "Mixed Models Analysis"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.62",
+         "value": "22.9"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.34",
+         "value": "22.0"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "0.83",
+         "value": "20.3"
+        },
+        {
+         "groupId": "OG003",
+         "spread": "0.79",
+         "value": "20.4"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "51"
+        },
+        {
+         "groupId": "OG001",
+         "value": "152"
+        },
+        {
+         "groupId": "OG002",
+         "value": "29"
+        },
+        {
+         "groupId": "OG003",
+         "value": "29"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Baseline (BL)"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "1.14",
+         "value": "-11.9"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.55",
+         "value": "-7.1"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "0.75",
+         "value": "-2.8"
+        },
+        {
+         "groupId": "OG003",
+         "spread": "1.17",
+         "value": "-3.2"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "45"
+        },
+        {
+         "groupId": "OG001",
+         "value": "127"
+        },
+        {
+         "groupId": "OG002",
+         "value": "29"
+        },
+        {
+         "groupId": "OG003",
+         "value": "24"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Change from BL to Week 5"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "51"
+      },
+      {
+       "groupId": "OG001",
+       "value": "152"
+      },
+      {
+       "groupId": "OG002",
+       "value": "29"
+      },
+      {
+       "groupId": "OG003",
+       "value": "29"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The Hamilton Rating Scale for Depression (HAMD-17) is a 17-item scale to assess depression. The HAMD-17 consists of 8 items with a score on a 3 point scale and 9 items with a score on a 5 point scale. Each item is rated from least (0) to most frequent or most severe, as applicable, with highest scores of 2 to 4, depending on the item. Items are summed up to calculate the HAMD-17 total score. The total score ranges from 0 to 52. A higher total score indicates more severe depression.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Patients randomized to Pimavanserin at the beginning of Stage 1. Patients on Pimavanserin remained on their assigned treatment throughout Stage 1 and 2 of the study. Pimavanserin 34 mg (2 x 17 mg), once daily by mouth. All patients continued to receive selective serotonin reuptake inhibitor/serotonin norepinephrine reuptake inhibitor (SSRI/SNRI) antidepressants at a stable dose for the duration of the study.",
+     "id": "OG000",
+     "title": "Pimavanserin 34 mg + SSRI/SNRI, Stage 1"
+    },
+    {
+     "description": "Patients randomized to Placebo at the beginning of Stage 1. This group includes all patients randomized to placebo in Stage 1, irrespective of response in Stage 1 and later rerandomization to Pimavanserin or Placebo in Stage 2. Placebo (2 x Placebo tablets), once daily by mouth. All patients continued to receive selective serotonin reuptake inhibitor/serotonin norepinephrine reuptake inhibitor (SSRI/SNRI) antidepressants at a stable dose for the duration of the study.",
+     "id": "OG001",
+     "title": "Placebo + SSRI/SNRI, Stage 1"
+    },
+    {
+     "description": "Patients rerandomized to Pimavanserin 34 mg at the beginning of Stage 2. Patients represent a subset of the placebo patients not responding to treatment (by protocol-defined criteria) in Stage 1, who were then randomly assigned (1:1) to pimavanserin or placebo in Stage 2. Pimavanserin 34 mg (2 x 17 mg tablets), once daily by mouth. All patients continued to receive selective serotonin reuptake inhibitor/serotonin norepinephrine reuptake inhibitor (SSRI/SNRI) antidepressants at a stable dose for the duration of the study.",
+     "id": "OG002",
+     "title": "Pimavanserin 34 mg + SSRI/SNRI, Stage 2"
+    },
+    {
+     "description": "Patients rerandomized to Placebo at the beginning of Stage 2. Patients represent a subset of the placebo patients not responding to treatment (by protocol-defined criteria) in Stage 1 who were then randomly assigned (1:1) to pimavanserin or placebo in Stage 2. Placebo (2 x placebo tablets), once daily by mouth. All patients continued to receive selective serotonin reuptake inhibitor/serotonin norepinephrine reuptake inhibitor (SSRI/SNRI) antidepressants at a stable dose for the duration of the study.",
+     "id": "OG003",
+     "title": "Placebo + SSRI/SNRI, Stage 2"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "FAS Stage 1: pts randomized to Stage 1, received ≥1 dose of study drug in Stage 1, and had a baseline value and ≥1 post-baseline value for HAMD-17 total score in Stage 1.\n\nFAS Stage 2: pts randomized to Stage 2, received ≥1 dose of study drug in Stage 2, and had a baseline value and ≥1 post-baseline value for HAMD-17 total score in Stage 2.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, 5 weeks and 10 weeks during Stage 1 and Stage 2, respectively",
+   "title": "Change From Baseline to Week 5 in the HAMD-17 Total Score",
+   "type": "PRIMARY",
+   "unitOfMeasure": "score on a scale"
+  }
+ ]
+}

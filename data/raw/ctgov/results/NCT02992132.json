@@ -1,0 +1,217 @@
+{
+ "nctId": "NCT02992132",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-4.8",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "15.0",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "5.0",
+     "groupDescription": "Mixed-effect model repeated measures (MMRM), with the dependent variable being the change from Baseline in CMAI total score.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "paramType": "Difference in LSM",
+     "paramValue": "5.1"
+    },
+    {
+     "ciLowerLimit": "-8.5",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "10.5",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "4.8",
+     "groupDescription": "Mixed-effect model repeated measures (MMRM), with the dependent variable being the change from Baseline in CMAI total score.",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "paramType": "Difference in LSM",
+     "paramValue": "1.0"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "4.5",
+         "value": "70.3"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "2.2",
+         "value": "56.9"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "3.3",
+         "value": "68.0"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "37"
+        },
+        {
+         "groupId": "OG001",
+         "value": "34"
+        },
+        {
+         "groupId": "OG002",
+         "value": "35"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Baseline"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "4.3",
+         "value": "54.3"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "4.3",
+         "value": "52.5"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "3.0",
+         "value": "53.7"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "29"
+        },
+        {
+         "groupId": "OG001",
+         "value": "28"
+        },
+        {
+         "groupId": "OG002",
+         "value": "29"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Week 12"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "5.0",
+         "value": "-16.8"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "3.7",
+         "value": "-3.7"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "2.7",
+         "value": "-12.3"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "29"
+        },
+        {
+         "groupId": "OG001",
+         "value": "28"
+        },
+        {
+         "groupId": "OG002",
+         "value": "29"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Week 12 change from baseline"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "37"
+      },
+      {
+       "groupId": "OG001",
+       "value": "34"
+      },
+      {
+       "groupId": "OG002",
+       "value": "35"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The Cohen-Mansfield Agitation Inventory (CMAI) is a 29-item scale to assess agitation. Each item is rated on a 7-point scale of frequency, from least (1) to most frequent (7). Items are summed to calculate the CMAI total score. The CMAI total score has a range of 29-203 points; higher scores indicate more severe agitation",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Placebo, taken as two tablets, once daily by mouth\n\nPlacebo: Placebo, taken as two tablets, once daily by mouth",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Drug- pimavanserin tartrate, 20 mg, taken as two 10 mg tablets, once daily by mouth\n\nPimavanserin 20 mg: Pimavanserin 20 mg, tablet, taken as two 10 mg tablets, once daily by mouth",
+     "id": "OG001",
+     "title": "Pimavanserin 20 mg"
+    },
+    {
+     "description": "Drug- pimavanserin tartrate, 34 mg, taken as two 17 mg tablets, once daily by mouth\n\nPimavanserin 34 mg: Pimavanserin 34 mg, tablet, taken as two 17 mg tablets, once daily by mouth",
+     "id": "OG002",
+     "title": "Pimavanserin 34 mg"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Full Analysis set, i.e. patients who had been randomized and treated and had both a baseline value and at least 1 post-baseline value for the CMAI total score.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline to 12 weeks",
+   "title": "Cohen-Mansfield Agitation Inventory (CMAI)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "score on a scale"
+  }
+ ]
+}

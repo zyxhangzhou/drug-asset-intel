@@ -1,0 +1,779 @@
+{
+ "nctId": "NCT03315104",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "6"
+        },
+        {
+         "groupId": "OG001",
+         "value": "6"
+        },
+        {
+         "groupId": "OG002",
+         "value": "1"
+        }
+       ]
+      }
+     ],
+     "title": "Mild"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "3"
+        },
+        {
+         "groupId": "OG001",
+         "value": "5"
+        },
+        {
+         "groupId": "OG002",
+         "value": "6"
+        }
+       ]
+      }
+     ],
+     "title": "Moderate"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1"
+        },
+        {
+         "groupId": "OG001",
+         "value": "1"
+        },
+        {
+         "groupId": "OG002",
+         "value": "4"
+        }
+       ]
+      }
+     ],
+     "title": "Severe"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "19"
+      },
+      {
+       "groupId": "OG001",
+       "value": "19"
+      },
+      {
+       "groupId": "OG002",
+       "value": "22"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Frequency counts and percentage of subjects with Adverse Events by severity",
+   "groups": [
+    {
+     "description": "Participants received a single infusion of high dose of FLU-IGIV, administered over approximately 3 hours on Day 1. Administered intravenously at a dose of 450 mL of 65 g/mL FLU-IGIV diluted to 500 mL with normal saline. Participants also received standard of care (SOC) antiviral treatment for flu.\n\nFLU-IGIV: Single dose, sterile liquid formulation for IV administration.",
+     "id": "OG000",
+     "title": "FLU-IGIV High Dose (450 mL)"
+    },
+    {
+     "description": "Participants received a single infusion of low dose of FLU-IGIV, administered over approximately 3 hours on Day 1. Administered intravenously at a dose of 225 mL of 65 g/mL FLU-IGIV diluted to 500 mL with normal saline. Participants also received standard of care (SOC) antiviral treatment for flu.\n\nFLU-IGIV: Single dose, sterile liquid formulation for IV administration.",
+     "id": "OG001",
+     "title": "FLU-IGIV Low Dose (225 mL)"
+    },
+    {
+     "description": "Participants received a single infusion of placebo for FLU-IGIV, administered over approximately 3 hours on Day 1. Administered IV as 500 mL of normal saline. Participants also received SOC antiviral treatment for flu.\n\nPlacebo for FLU-IGIV: Single dose, normal saline solution for IV administration.",
+     "id": "OG002",
+     "title": "Placebo (500 mL Normal Saline)"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "The safety population includes all subjects who receive any amount of study medication (FLU-IGIV or placebo). In the case of incorrect treatment administration, subjects are analyzed according to the treatment received. The safety population is the primary analysis population for all safety data.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Measured through Day 60",
+   "title": "Frequency Counts and Percentage of Subjects With Adverse Events",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "65.2",
+         "value": "8589.9"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "87.8",
+         "value": "4955.4"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "85.0",
+         "value": "1973.1"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "7"
+        },
+        {
+         "groupId": "OG001",
+         "value": "10"
+        },
+        {
+         "groupId": "OG002",
+         "value": "13"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "H1N1 California"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "67.6",
+         "value": "5266.3"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "123.2",
+         "value": "3446.3"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "106.4",
+         "value": "1630.2"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "7"
+        },
+        {
+         "groupId": "OG001",
+         "value": "10"
+        },
+        {
+         "groupId": "OG002",
+         "value": "13"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "H1N1 Michigan"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "47.4",
+         "value": "11729.3"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "39.1",
+         "value": "7054.8"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "126.7",
+         "value": "3682.5"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "7"
+        },
+        {
+         "groupId": "OG001",
+         "value": "10"
+        },
+        {
+         "groupId": "OG002",
+         "value": "11"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "H3N2 Hong Kong"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "34.2",
+         "value": "6754.0"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "45.3",
+         "value": "4431.6"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "219.6",
+         "value": "2511.3"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "7"
+        },
+        {
+         "groupId": "OG001",
+         "value": "10"
+        },
+        {
+         "groupId": "OG002",
+         "value": "11"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "H3N2 Singapore"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "7"
+      },
+      {
+       "groupId": "OG001",
+       "value": "10"
+      },
+      {
+       "groupId": "OG002",
+       "value": "13"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Levels of anti-influenza A antibodies circulating in blood over time. We initially intended to look at this variable through Day 8, however, potential native antibody level changes and sparse sampling confounded results from 0 to 48 hours post-dose from PK samples collected from Baseline Day 1 pre-dose (time 0), Day 1 post-dose, Day 2 and Day 3 (if continued hospitalization), and Day 8. For AUC from time 0 to 48 hours, subjects who did not have a sample collected within +/-10% of 48 hours post-dose had this parameter set to missing, which is why the number of subjects who contributed data for this outcome measure is lower than the overall number of subjects analyzed.",
+   "dispersionType": "Geometric Coefficient of Variation",
+   "groups": [
+    {
+     "description": "Participants received a single infusion of high dose of FLU-IGIV, administered over approximately 3 hours on Day 1. Administered intravenously at a dose of 450 mL of 65 g/mL FLU-IGIV diluted to 500 mL with normal saline. Participants also received standard of care (SOC) antiviral treatment for flu.\n\nFLU-IGIV: Single dose, sterile liquid formulation for IV administration.",
+     "id": "OG000",
+     "title": "FLU-IGIV High Dose (450 mL)"
+    },
+    {
+     "description": "Participants received a single infusion of low dose of FLU-IGIV, administered over approximately 3 hours on Day 1. Administered intravenously at a dose of 225 mL of 65 g/mL FLU-IGIV diluted to 500 mL with normal saline. Participants also received standard of care (SOC) antiviral treatment for flu.\n\nFLU-IGIV: Single dose, sterile liquid formulation for IV administration.",
+     "id": "OG001",
+     "title": "FLU-IGIV Low Dose (225 mL)"
+    },
+    {
+     "description": "Participants received a single infusion of placebo for FLU-IGIV, administered over approximately 3 hours on Day 1. Administered IV as 500 mL of normal saline. Participants also received SOC antiviral treatment for flu.\n\nPlacebo for FLU-IGIV: Single dose, normal saline solution for IV administration.",
+     "id": "OG002",
+     "title": "Placebo (500 mL Normal Saline)"
+    }
+   ],
+   "paramType": "GEOMETRIC_MEAN",
+   "populationDescription": "The PK population includes all safety subjects who have adequate PK data for analysis that includes Day 1 baseline (pre-infusion) and at least one post-infusion time point. Subjects are analyzed according to the treatment received. See outcome measure description for subject exclusion details.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Measured through 48 Hours post-dose",
+   "title": "Area Under the Plasma Concentration Curve [AUC] From Time 0 to 48 Hours Post-dose by Hemagglutinin Inhibition Assay",
+   "type": "PRIMARY",
+   "unitOfMeasure": "titer*hours/mL"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "99.8",
+         "value": "408.3"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "81.6",
+         "value": "152.5"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "135.9",
+         "value": "54.7"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "19"
+        },
+        {
+         "groupId": "OG001",
+         "value": "19"
+        },
+        {
+         "groupId": "OG002",
+         "value": "20"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "H1N1 California"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "138.2",
+         "value": "371.6"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "114.6",
+         "value": "121.7"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "155.8",
+         "value": "54.7"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "19"
+        },
+        {
+         "groupId": "OG001",
+         "value": "19"
+        },
+        {
+         "groupId": "OG002",
+         "value": "18"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "H1N1 Michigan"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "38.4",
+         "value": "309.6"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "97.2",
+         "value": "239.8"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "317.2",
+         "value": "117.7"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "19"
+        },
+        {
+         "groupId": "OG001",
+         "value": "19"
+        },
+        {
+         "groupId": "OG002",
+         "value": "18"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "H3N2 Hong Kong"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "35.1",
+         "value": "206.7"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "95.2",
+         "value": "192.7"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "297.0",
+         "value": "86.7"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "19"
+        },
+        {
+         "groupId": "OG001",
+         "value": "19"
+        },
+        {
+         "groupId": "OG002",
+         "value": "21"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "H3N2 Singapore"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "19"
+      },
+      {
+       "groupId": "OG001",
+       "value": "19"
+      },
+      {
+       "groupId": "OG002",
+       "value": "21"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Maximum observed concentration (reported as a titer) of anti-influenza A antibodies measured from Day 1 pre-dose (time 0) through Day 8 post-dose from PK samples collected from Baseline Day 1 pre-dose (time 0), Day 1 post-dose, Day 2 and Day 3 (if continued hospitalization), and Day 8.",
+   "dispersionType": "Geometric Coefficient of Variation",
+   "groups": [
+    {
+     "description": "Participants received a single infusion of high dose of FLU-IGIV, administered over approximately 3 hours on Day 1. Administered intravenously at a dose of 450 mL of 65 g/mL FLU-IGIV diluted to 500 mL with normal saline. Participants also received standard of care (SOC) antiviral treatment for flu.\n\nFLU-IGIV: Single dose, sterile liquid formulation for IV administration.",
+     "id": "OG000",
+     "title": "FLU-IGIV High Dose (450 mL)"
+    },
+    {
+     "description": "Participants received a single infusion of low dose of FLU-IGIV, administered over approximately 3 hours on Day 1. Administered intravenously at a dose of 225 mL of 65 g/mL FLU-IGIV diluted to 500 mL with normal saline. Participants also received standard of care (SOC) antiviral treatment for flu.\n\nFLU-IGIV: Single dose, sterile liquid formulation for IV administration.",
+     "id": "OG001",
+     "title": "FLU-IGIV Low Dose (225 mL)"
+    },
+    {
+     "description": "Participants received a single infusion of placebo for FLU-IGIV, administered over approximately 3 hours on Day 1. Administered IV as 500 mL of normal saline. Participants also received SOC antiviral treatment for flu.\n\nPlacebo for FLU-IGIV: Single dose, normal saline solution for IV administration.",
+     "id": "OG002",
+     "title": "Placebo (500 mL Normal Saline)"
+    }
+   ],
+   "paramType": "GEOMETRIC_MEAN",
+   "populationDescription": "The PK population includes all safety subjects who have adequate PK data for analysis that includes Day 1 baseline (pre-infusion) and at least one post-infusion time point. Subjects are analyzed according to the treatment received.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Measured through Day 8 post-dose",
+   "title": "Maximum Plasma Concentration [Cmax] Reported as a Titer for Hemagglutinin Inhibition Assay",
+   "type": "PRIMARY",
+   "unitOfMeasure": "titer"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "660.7",
+         "value": "24.4"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "358.8",
+         "value": "17.4"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "64.3",
+         "value": "108.7"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "19"
+        },
+        {
+         "groupId": "OG001",
+         "value": "19"
+        },
+        {
+         "groupId": "OG002",
+         "value": "20"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "H1N1 California"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "522.5",
+         "value": "40.3"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "423.6",
+         "value": "13.9"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "58.4",
+         "value": "120.3"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "19"
+        },
+        {
+         "groupId": "OG001",
+         "value": "19"
+        },
+        {
+         "groupId": "OG002",
+         "value": "20"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "H1N1 Michigan"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "127.1",
+         "value": "4.8"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "298.4",
+         "value": "14.6"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "119.9",
+         "value": "76.8"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "19"
+        },
+        {
+         "groupId": "OG001",
+         "value": "19"
+        },
+        {
+         "groupId": "OG002",
+         "value": "18"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "H3N2 Hong Kong"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "146.0",
+         "value": "6.0"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "328.2",
+         "value": "23.0"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "171.4",
+         "value": "64.8"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "19"
+        },
+        {
+         "groupId": "OG001",
+         "value": "19"
+        },
+        {
+         "groupId": "OG002",
+         "value": "18"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "H3N2 Singapore"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "19"
+      },
+      {
+       "groupId": "OG001",
+       "value": "19"
+      },
+      {
+       "groupId": "OG002",
+       "value": "21"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Time that anti-influenza A antibodies are at maximum concentration from Day 1 pre-dose (time 0) through Day 8 post-dose from PK samples collected from Baseline Day 1 pre-dose (time 0), Day 1 post-dose, Day 2 and Day 3 (if continued hospitalization), and Day 8.\n\nThe rate of study drug elimination and dependent parameters were not accurately estimable due to rising or sustained levels of anti-influenza A antibodies, this includes First Order Terminal Elimination Rate Constant \\[Kel\\], Plasma Clearance \\[Cl\\] and Total Volume of Distribution \\[Vz\\].",
+   "dispersionType": "Geometric Coefficient of Variation",
+   "groups": [
+    {
+     "description": "Participants received a single infusion of high dose of FLU-IGIV, administered over approximately 3 hours on Day 1. Administered intravenously at a dose of 450 mL of 65 g/mL FLU-IGIV diluted to 500 mL with normal saline. Participants also received standard of care (SOC) antiviral treatment for flu.\n\nFLU-IGIV: Single dose, sterile liquid formulation for IV administration.",
+     "id": "OG000",
+     "title": "FLU-IGIV High Dose (450 mL)"
+    },
+    {
+     "description": "Participants received a single infusion of low dose of FLU-IGIV, administered over approximately 3 hours on Day 1. Administered intravenously at a dose of 225 mL of 65 g/mL FLU-IGIV diluted to 500 mL with normal saline. Participants also received standard of care (SOC) antiviral treatment for flu.\n\nFLU-IGIV: Single dose, sterile liquid formulation for IV administration.",
+     "id": "OG001",
+     "title": "FLU-IGIV Low Dose (225 mL)"
+    },
+    {
+     "description": "Participants received a single infusion of placebo for FLU-IGIV, administered over approximately 3 hours on Day 1. Administered IV as 500 mL of normal saline. Participants also received SOC antiviral treatment for flu.\n\nPlacebo for FLU-IGIV: Single dose, normal saline solution for IV administration.",
+     "id": "OG002",
+     "title": "Placebo (500 mL Normal Saline)"
+    }
+   ],
+   "paramType": "GEOMETRIC_MEAN",
+   "populationDescription": "The PK population includes all safety subjects who have adequate PK data for analysis that includes Day 1 baseline (pre-infusion) and at least one post-infusion time point. Subjects are analyzed according to the treatment received.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Measured through Day 8 post-dose",
+   "title": "Time Cmax is Observed [Tmax] by Hemagglutinin Inhibition Assay",
+   "type": "PRIMARY",
+   "unitOfMeasure": "hours"
+  }
+ ]
+}

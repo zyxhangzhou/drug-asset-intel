@@ -1,0 +1,78 @@
+{
+ "nctId": "NCT03197766",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "< 0.0001",
+     "pValueComment": "Confirmatory statistical testing controlling for the Type I error rate was performed on the primary analysis for the primary endpoint.",
+     "statisticalComment": "Two subjects in the BMN 111 group discontinued from the study before Week 52. The values for these 2 subjects were imputed for this analysis.",
+     "statisticalMethod": "ANCOVA"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "1.40",
+         "upperLimit": "2.01",
+         "value": "1.71"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "-0.18",
+         "upperLimit": "0.45",
+         "value": "0.13"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "60"
+      },
+      {
+       "groupId": "OG001",
+       "value": "61"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "AGV at a Post-baseline Visit is defined as \\[(Height at Post-baseline Visit - Height at Baseline)/(Date of Post-baseline Visit - Date of Baseline Assessment)\\] x 365.25\n\nAGV at Baseline is defined as \\[(Height at Baseline - last height measurement in Study 111-901 at least 6 months prior to Baseline)/(Date of Baseline Assessment - Date of last height measurement in Study 111-901 at least 6 months prior to Baseline)\\] x 365.25",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "BMN 111: Subcutaneous injection of 15 μg/kg of BMN 111 daily",
+     "id": "OG000",
+     "title": "BMN 111 - 15 μg/kg"
+    },
+    {
+     "description": "Placebo: Subcutaneous injection of placebo daily",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Analysis were performed on the Full Analysis Set (FAS) which included all randomized subjects with a signed informed consent",
+   "reportingStatus": "POSTED",
+   "timeFrame": "At Baseline and Week 52",
+   "title": "Change From Baseline in Annualized Growth Velocity (AGV) at Week 52",
+   "type": "PRIMARY",
+   "unitOfMeasure": "cm/year"
+  }
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "nctId": "NCT02085135",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "27"
+        },
+        {
+         "groupId": "OG001",
+         "value": "28"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "34"
+      },
+      {
+       "groupId": "OG001",
+       "value": "32"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "groups": [
+    {
+     "description": "ALKS 5461: Sublingual tablet taken once daily in ascending doses over a 1-week titration period",
+     "id": "OG000",
+     "title": "1-Week Titration"
+    },
+    {
+     "description": "ALKS 5461: Sublingual tablet taken once daily in ascending doses over a 2-week titration period",
+     "id": "OG001",
+     "title": "2-Week Titration"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Number of subjects who received at least 1 dose of study drug.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "8 weeks",
+   "title": "Number of Subjects With Adverse Events (AEs)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

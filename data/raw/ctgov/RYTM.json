@@ -1,0 +1,4147 @@
+{
+ "aliases": [
+  "Rhythm Pharmaceuticals"
+ ],
+ "studies": [
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants received 1 milligram (mg) setmelanotide every day by continuous subcutaneous infusion using the Omnipod insulin pump for a duration of 90 days.",
+       "interventionNames": [
+        "Drug: Setmelanotide"
+       ],
+       "label": "Setmelanotide",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants received placebo matching setmelanotide every day by continuous subcutaneous infusion using the Omnipod insulin pump for a duration of 90 days.",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Setmelanotide"
+       ],
+       "description": "Daily subcutaneous infusion",
+       "name": "Setmelanotide",
+       "otherNames": [
+        "RM-493"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Daily subcutaneous infusion",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Overweight"
+     ],
+     "keywords": [
+      "Overweight"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 74,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Phase 2 Study to Evaluate Safety and Efficacy of RM-493 in Obese Participants",
+     "nctId": "NCT01749137",
+     "officialTitle": "A Phase 2, Randomized, Double-blind, Placebo-controlled Study to Evaluate the Safety and Efficacy of RM-493, a Melanocortin 4 Receptor (MC4R) Agonist in Obese Patients",
+     "orgStudyIdInfo": {
+      "id": "RM-493-003"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Rhythm Pharmaceuticals, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Rhythm Pharmaceuticals, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2013-09-28",
+      "type": "ACTUAL"
+     },
+     "dispFirstPostDateStruct": {
+      "date": "2014-11-19",
+      "type": "ESTIMATED"
+     },
+     "dispFirstSubmitDate": "2014-11-06",
+     "dispFirstSubmitQcDate": "2014-11-06",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2023-08-14",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2023-07-19",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2013-09-28",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2023-08-14",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2023-07-19",
+     "resultsFirstSubmitQcDate": "2023-07-19",
+     "startDateStruct": {
+      "date": "2013-01-14",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2023-07",
+     "studyFirstPostDateStruct": {
+      "date": "2012-12-13",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2012-12-11",
+     "studyFirstSubmitQcDate": "2012-12-11"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Double blind RM-493 will be administered at a dose of 1 mg/24 hrs via subcutaneous infusion for 3 days",
+       "interventionNames": [
+        "Drug: RM-493"
+       ],
+       "label": "RM-493",
+       "type": "ACTIVE_COMPARATOR"
+      },
+      {
+       "description": "Double blind placebo will be administered via subcutaneous infusion for 3 days",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Sterile solution (vehicle) for subcutaneous infusion",
+       "name": "Placebo",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "RM-493"
+       ],
+       "description": "Sterile solution (2mg/ml) for subcutaneous infusion",
+       "name": "RM-493",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Obesity",
+      "Morbid Obesity"
+     ],
+     "keywords": [
+      "24 Hour Energy Expenditure",
+      "Resting Energy Expenditure",
+      "Obesity",
+      "Healthy Volunteers"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "CROSSOVER",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 15,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Effects of RM-493 on Energy Expenditure in Obese Individuals",
+     "nctId": "NCT01867437",
+     "officialTitle": "A Phase 1b, Randomized, Double-Blind, Placebo-Controlled, Multiple Dose, 2-Period Crossover Study to Evaluate the Effect of RM-493 on Energy Expenditure in Obese Subjects",
+     "orgStudyIdInfo": {
+      "id": "130136"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Rhythm Pharmaceuticals, Inc."
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "13-DK-0136"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "collaborators": [
+      {
+       "class": "NIH",
+       "name": "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)"
+      }
+     ],
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Rhythm Pharmaceuticals, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2014-03",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2017-04-20",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2017-04-18",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2014-03",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2013-05",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2017-04",
+     "studyFirstPostDateStruct": {
+      "date": "2013-06-04",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2013-05-22",
+     "studyFirstSubmitQcDate": "2013-06-03"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Once daily in the morning, equivalent placebo in evening.",
+       "interventionNames": [
+        "Drug: Setmelanotide",
+        "Drug: Placebo"
+       ],
+       "label": "Setmelanotide Once Daily",
+       "type": "ACTIVE_COMPARATOR"
+      },
+      {
+       "description": "Split dose, one half in the morning and one half in the evening.",
+       "interventionNames": [
+        "Drug: Setmelanotide"
+       ],
+       "label": "Setmelanotide Split Dose",
+       "type": "ACTIVE_COMPARATOR"
+      },
+      {
+       "description": "Placebo in the morning, placebo in the evening.",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Setmelanotide Once Daily",
+        "Setmelanotide Split Dose"
+       ],
+       "name": "Setmelanotide",
+       "otherNames": [
+        "RM-493"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo",
+        "Setmelanotide Once Daily"
+       ],
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Overweight and Obesity"
+     ],
+     "keywords": [
+      "Overweight"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 99,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Phase 1b/2a Study to Evaluate Safety and Efficacy of Setmelanotide in Obese Patients",
+     "nctId": "NCT02041195",
+     "officialTitle": "A Staged, Phase 1b/Phase 2a, Randomized, Double-blind, Placebo-controlled Study to Evaluate Safety and Efficacy of RM-493, a Melanocortin 4 Receptor (MC4R) Agonist in Obese Patients Using a Once or Twice Daily Sub-Cutaneous Injection Formulation",
+     "orgStudyIdInfo": {
+      "id": "RM-493-009"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Rhythm Pharmaceuticals, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Rhythm Pharmaceuticals, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2014-12",
+      "type": "ACTUAL"
+     },
+     "dispFirstPostDateStruct": {
+      "date": "2015-05-05",
+      "type": "ESTIMATED"
+     },
+     "dispFirstSubmitDate": "2015-04-13",
+     "dispFirstSubmitQcDate": "2015-04-13",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2023-08-07",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2023-07-16",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2014-08",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2023-08-07",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2021-03-05",
+     "resultsFirstSubmitQcDate": "2023-07-16",
+     "startDateStruct": {
+      "date": "2014-01",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2023-07",
+     "studyFirstPostDateStruct": {
+      "date": "2014-01-20",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2014-01-17",
+     "studyFirstSubmitQcDate": "2014-01-17"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants received setmelanotide 0.5 milligrams (mg) once daily as a subcutaneous injection from Day 15 to Day 41 (4-week, double-blind randomized treatment period) and Day 42 to Day 55 (2-week, randomized withdrawal period).",
+       "interventionNames": [
+        "Drug: Setmelanotide"
+       ],
+       "label": "Setmelanotide 0.5 mg",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants received setmelanotide 1.5 once daily as a subcutaneous injection from Day 15 to Day 41 (4-week, double-blind randomized treatment period), Day 42 to Day 55 (2-week, randomized withdrawal period), and Day 56 to Day 69 (optional 2-week, open-label extension period).",
+       "interventionNames": [
+        "Drug: Setmelanotide"
+       ],
+       "label": "Setmelanotide 1.5 mg",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants received setmelanotide 2.5 once daily as a subcutaneous injection from Day 15 to Day 41 (4-week, double-blind randomized treatment period), Day 42 to Day 55 (2-week, randomized withdrawal period), and Day 56 to Day 69 (optional 2-week, open-label extension period).",
+       "interventionNames": [
+        "Drug: Setmelanotide"
+       ],
+       "label": "Setmelanotide 2.5 mg",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants received placebo matched to setmelanotide once daily as a subcutaneous injection from Day 1 to Day 14 (2-week, single-blind run-in period), Day 15 to Day 41 (4-week, double-blind randomized treatment period), and Day 42 to Day 55 (2-week, randomized withdrawal period).",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Setmelanotide 0.5 mg",
+        "Setmelanotide 1.5 mg",
+        "Setmelanotide 2.5 mg"
+       ],
+       "description": "subcutaneous injection",
+       "name": "Setmelanotide",
+       "otherNames": [
+        "RM-493"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Subcutaneous injection",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Prader-Willi Syndrome"
+     ],
+     "keywords": [
+      "Prader-Willi Syndrome",
+      "obesity",
+      "hyperphagia"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 40,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Phase 2 Trial to Evaluate Safety and Efficacy of Setmelanotide (RM-493) in Obese Participants With Prader-Willi Syndrome",
+     "nctId": "NCT02311673",
+     "officialTitle": "A Phase 2, Randomized, Double-Blind, Placebo-controlled Pilot Study to Assess the Effects of RM-493, a Melanocortin 4 Receptor (MC4R) Agonist, in Obese Subjects With Prader-Willi Syndrome (PWS) on Safety, Weight Reduction, and Food-Related Behaviors",
+     "orgStudyIdInfo": {
+      "id": "RM-493-010"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Rhythm Pharmaceuticals, Inc."
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "R01FD005094-01A1",
+       "link": "https://reporter.nih.gov/quickSearch/R01FD005094-01A1",
+       "type": "FDA"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Rhythm Pharmaceuticals, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2016-10-26",
+      "type": "ACTUAL"
+     },
+     "dispFirstPostDateStruct": {
+      "date": "2018-01-31",
+      "type": "ACTUAL"
+     },
+     "dispFirstSubmitDate": "2018-01-29",
+     "dispFirstSubmitQcDate": "2018-01-30",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2023-07-27",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2023-07-06",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2016-10-26",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2023-07-27",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2023-05-18",
+     "resultsFirstSubmitQcDate": "2023-07-06",
+     "startDateStruct": {
+      "date": "2015-03-19",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2023-07",
+     "studyFirstPostDateStruct": {
+      "date": "2014-12-08",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2014-11-25",
+     "studyFirstSubmitQcDate": "2014-12-04"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Double-blind RM-493 will be administered at a dose of 0.01 mg/kg/24 hours via subcutaneous continuous infusion for 14 days (1 panel, all male subjects)",
+       "interventionNames": [
+        "Drug: RM-493"
+       ],
+       "label": "Cohort 1: RM-493 SC Infusion 14 Days",
+       "type": "ACTIVE_COMPARATOR"
+      },
+      {
+       "description": "Double-blind RM-493 will be administered at a dose of 0.01 mg/kg/24 hours via subcutaneous continuous infusion for 28 days (1 panel)",
+       "interventionNames": [
+        "Drug: RM-493"
+       ],
+       "label": "Cohort 2: RM-493 SC Infusion 28 Days",
+       "type": "ACTIVE_COMPARATOR"
+      },
+      {
+       "description": "Double-blind RM-493 will be administered at a dose of 0.01 mg/kg/24 hours via subcutaneous continuous infusion for 28 days (1 panel)",
+       "interventionNames": [
+        "Drug: RM-493"
+       ],
+       "label": "Cohort 3: RM-493 SC Infusion 28 Days",
+       "type": "ACTIVE_COMPARATOR"
+      },
+      {
+       "description": "Double-blind RM-493 will be administered at a dose of 0.015 mg/kg/24 hours via subcutaneous continuous infusion for 28 days (1 panel)",
+       "interventionNames": [
+        "Drug: RM-493"
+       ],
+       "label": "Cohort 4: RM-493 SC Infusion 28 Days",
+       "type": "ACTIVE_COMPARATOR"
+      },
+      {
+       "description": "Double-blind RM-493 will be administered at a dose of 0.0075 mg/kg every 12 hours via a subcutaneous injection for 14 days (1 panel)",
+       "interventionNames": [
+        "Drug: RM-493"
+       ],
+       "label": "Cohort 5: RM-493 SC Injection 14 days",
+       "type": "ACTIVE_COMPARATOR"
+      },
+      {
+       "description": "Double-blind RM-493 will be administered at a dose of 0.01 mg/kg/24 hours via subcutaneous continuous infusion for 28 days (1 panel, heterozygous MC4R subjects)",
+       "interventionNames": [
+        "Drug: RM-493"
+       ],
+       "label": "Cohort 6: RM-493 SC Infusion 28 Days",
+       "type": "ACTIVE_COMPARATOR"
+      },
+      {
+       "description": "Double-blind Placebo will be administered via subcutaneous continuous infusion for 14 days (1 panel, all male subject)",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Cohort 1: Placebo SC Infusion 14 Days",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "description": "Double-blind Placebo will be via subcutaneous continuous infusion for 14 days (1 panel)",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Cohort 2: Placebo SC Infusion 28 Days",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "description": "Double-blind Placebo will be administered via subcutaneous continuous infusion for 28 days (1 panel)",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Cohort 3: Placebo SC Infusion 28 Days",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "description": "Double-blind Placebo will be administered via subcutaneous continuous infusion for 28 days (1 panel)",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Cohort 4: Placebo SC Infusion 28 Days",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "description": "Double-blind Placebo will be administered via a subcutaneous injection every 12 hours for 14 days (1 panel)",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Cohort 5: Placebo SC Injection 14 days",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "description": "Double-blind Placebo will be administered via subcutaneous continuous infusion for 28 days (1 panel, heterozygous MC4R subjects)",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Cohort 6: Placebo SC Infusion 28 Days",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Cohort 1: RM-493 SC Infusion 14 Days",
+        "Cohort 2: RM-493 SC Infusion 28 Days",
+        "Cohort 3: RM-493 SC Infusion 28 Days",
+        "Cohort 4: RM-493 SC Infusion 28 Days",
+        "Cohort 5: RM-493 SC Injection 14 days",
+        "Cohort 6: RM-493 SC Infusion 28 Days"
+       ],
+       "name": "RM-493",
+       "otherNames": [
+        "setmelanotide"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Cohort 1: Placebo SC Infusion 14 Days",
+        "Cohort 2: Placebo SC Infusion 28 Days",
+        "Cohort 3: Placebo SC Infusion 28 Days",
+        "Cohort 4: Placebo SC Infusion 28 Days",
+        "Cohort 5: Placebo SC Injection 14 days",
+        "Cohort 6: Placebo SC Infusion 28 Days"
+       ],
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Overweight",
+      "Obese"
+     ],
+     "keywords": [
+      "Heterozygous",
+      "MC4R deficiency",
+      "associated"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "TRIPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 57,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Study to Evaluate Safety, Tolerability, Pharmacokinetics and Pharmacodynamics of RM-493 Administered to Healthy, Obese, Non-diabetic Volunteers",
+     "nctId": "NCT02431442",
+     "officialTitle": "A Phase 1, Randomized, Double-blind, Placebo-controlled, Multiple Ascending Dose Study to Evaluate the Safety, Tolerability, Pharmacokinetics and Pharmacodynamics of RM 493 Administered to Healthy Obese Non-diabetic Volunteers",
+     "orgStudyIdInfo": {
+      "id": "RM-493-002"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Rhythm Pharmaceuticals, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Rhythm Pharmaceuticals, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2014-01",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2015-05-01",
+      "type": "ESTIMATED"
+     },
+     "lastUpdateSubmitDate": "2015-04-30",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2014-01",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2012-01"
+     },
+     "statusVerifiedDate": "2015-04",
+     "studyFirstPostDateStruct": {
+      "date": "2015-05-01",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2015-04-22",
+     "studyFirstSubmitQcDate": "2015-04-30"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "If the subject has a history of hyperphagia, early onset obesity and/or clinical characteristics known to be related to mutations in the MC4R pathway and related to obesity (1.4 times 95th percentile in children).",
+       "label": "Cohort 1"
+      },
+      {
+       "description": "If the subject has exponentially high BMI (≥50 to 59), without hyperphagia and early onset obesity, whose obesity may be driven by an MC4R pathway mutation in the absence of other clear history or clinical characteristics (1.5 - 1.6 times 95th percentile in children).",
+       "label": "Cohort 2"
+      },
+      {
+       "description": "If the subject has exponentially high BMI (≥60), without hyperphagia and early onset obesity, whose obesity may be driven by an MC4R pathway mutation in the absence of other clear history or clinical characteristics (1.6 times 95th percentile in children).",
+       "label": "Cohort 3"
+      },
+      {
+       "description": "If the subject has had or is undergoing bariatric surgery, who represents a refractory population of severely obese individuals whose obesity may be driven by an MC4R pathway mutation in the absence of other clear history or clinical characteristics (1.4 times 95th percentile in children and adolescents aged 12 and older).",
+       "label": "Cohort 4"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Pro-opiomelanocortin (POMC), Proprotein Convertase Subtilisin/Kexin Type 1 (PCSK1) and Leptin Receptor (LepR) Gene Mutations"
+     ],
+     "keywords": [
+      "POMC",
+      "PCSK1",
+      "Pro-opiomelanocortin"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "observationalModel": "CASE_ONLY",
+      "timePerspective": "PROSPECTIVE"
+     },
+     "enrollmentInfo": {
+      "count": 5966,
+      "type": "ACTUAL"
+     },
+     "patientRegistry": false,
+     "studyType": "OBSERVATIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Genetic Testing and Phenotypic Characterization of Severely Obese Pediatric and Adult Volunteers",
+     "nctId": "NCT02849977",
+     "officialTitle": "Genetic Testing and Phenotypic Characterization of Severely Obese Pediatric and Adult Volunteers",
+     "orgStudyIdInfo": {
+      "id": "RM-493-013"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Rhythm Pharmaceuticals, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Rhythm Pharmaceuticals, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2020-06-09",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2022-11-15",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2022-11-14",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2020-06-09",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2016-09-28",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2022-11",
+     "studyFirstPostDateStruct": {
+      "date": "2016-07-29",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2016-07-26",
+     "studyFirstSubmitQcDate": "2016-07-26"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants received titrated doses of setmelanotide once daily, by subcutaneous (SC) injection during titration period for 2 - 12 weeks. Thereafter, participants continued setmelanotide at their specific therapeutic dose for an additional 10 weeks during the open label treatment period. Participants who achieved at least a 5 kilograms (kg) weight loss (or at least 5% weight loss if baseline body weight was \\<100 kg) at the end of the open label treatment period, continued into the 8-week double-blind withdrawal period and received 4 weeks setmelanotide and 4 weeks placebo. Following the withdrawal period, participants entered open label treatment period and received setmelanotide to complete approximately 52 weeks (\\~1 year) of treatment at a therapeutic dose.",
+       "interventionNames": [
+        "Drug: Setmelanotide",
+        "Drug: Placebo"
+       ],
+       "label": "Setmelanotide",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Setmelanotide"
+       ],
+       "description": "Once daily SC injection",
+       "name": "Setmelanotide",
+       "otherNames": [
+        "RM-493"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Setmelanotide"
+       ],
+       "description": "Once daily SC injection",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Pro-opiomelanocortin (POMC) Deficiency Obesity"
+     ],
+     "keywords": [
+      "POMC deficiency obesity",
+      "PCSK1 deficiency obesity",
+      "Setmelanotide",
+      "RM-493",
+      "Obesity",
+      "Melanocortin 4 receptor",
+      "MC4R pathway"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "interventionModelDescription": "Open-label with an 8 week Double-Blind Placebo-Controlled Withdrawal Period",
+      "maskingInfo": {
+       "masking": "NONE",
+       "maskingDescription": "During the 8 week double-blind placebo-controlled withdrawal period, participants received 4 weeks of daily setmelanotide and 4 weeks of daily placebo. Participants, investigators, and sites remained blinded as to when placebo treatment was administered."
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 15,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Setmelanotide for the Treatment of Early-Onset Pro-Opiomelanocortin (POMC) Deficiency Obesity",
+     "nctId": "NCT02896192",
+     "officialTitle": "An Open-Label, 1-Year Trial, Including a Double-Blind Placebo-Controlled Withdrawal Period, of Setmelanotide (RM-493), a Melanocortin 4 Receptor (MC4R) Agonist, in Early Onset POMC Deficiency Obesity Due to Bi-Allelic Loss-of-Function POMC or PCSK1 Genetic Mutation",
+     "orgStudyIdInfo": {
+      "id": "RM-493-012"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Rhythm Pharmaceuticals, Inc."
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "2016-002320-83",
+       "type": "EUDRACT_NUMBER"
+      },
+      {
+       "id": "2016",
+       "link": "https://reporter.nih.gov/quickSearch/2016",
+       "type": "NIH"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Rhythm Pharmaceuticals, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2020-05-25",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2023-09-21",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2023-08-30",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2020-05-25",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2023-09-21",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2023-05-18",
+     "resultsFirstSubmitQcDate": "2023-08-30",
+     "startDateStruct": {
+      "date": "2017-02-14",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2023-08",
+     "studyFirstPostDateStruct": {
+      "date": "2016-09-12",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2016-08-18",
+     "studyFirstSubmitQcDate": "2016-09-06"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants with chromosomal rearrangement of the p11.2 region of chromosome 16 (16p11.2) locus causing obesity received setmelanotide once daily (QD) via subcutaneous (SC) injection for 16 weeks. All participants initiated treatment with setmelanotide (starting dose being age dependent) and the dose was escalated up to a maximum dose of 3.0 mg QD. Participants either continued setmelanotide treatment by enrolling in an extension study (RM-493-022; NCT03651765) immediately following the last dose in this study or if the extension study was not open at the current clinic site, participants continued treatment in the current study for up to 1 year, resulting in treatment duration of up to 16 months.",
+       "interventionNames": [
+        "Drug: Setmelanotide"
+       ],
+       "label": "16p11.2 Cohort",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants with Alström syndrome (AS) received setmelanotide QD via SC injection for 16 weeks. All participants initiated treatment with setmelanotide (starting dose being age dependent) and the dose was escalated up to a maximum dose of 3.0 mg QD. Participants either continued setmelanotide treatment by enrolling in an extension study (RM-493-022; NCT03651765) immediately following the last dose in this study or if the extension study was not open at the current clinic site, participants continued treatment in the current study for up to 1 year, resulting in treatment duration of up to 16 months.",
+       "interventionNames": [
+        "Drug: Setmelanotide"
+       ],
+       "label": "AS Cohort",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants with Bardet-Biedl syndrome (BBS) received setmelanotide QD via SC injection for 16 weeks. All participants initiated treatment with setmelanotide (starting dose being age dependent) and the dose was escalated up to a maximum dose of 3.0 mg QD. Participants either continued setmelanotide treatment by enrolling in an extension study (RM-493-022; NCT03651765) immediately following the last dose in this study or if the extension study was not open at the current clinic site, participants continued treatment in the current study for up to 1 year, resulting in treatment duration of up to 16 months.",
+       "interventionNames": [
+        "Drug: Setmelanotide"
+       ],
+       "label": "BBS Cohort",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants with melanocortin-4 receptor (MC4R) deficiency obesity received setmelanotide QD via SC injection for 16 weeks. All participants initiated treatment with setmelanotide (starting dose being age dependent) and the dose was escalated up to a maximum dose of 3.0 mg QD. Participants either continued setmelanotide treatment by enrolling in an extension study (RM-493-022; NCT03651765) immediately following the last dose in this study or if the extension study was not open at the current clinic site, participants continued treatment in the current study for up to 1 year, resulting in treatment duration of up to 16 months.",
+       "interventionNames": [
+        "Drug: Setmelanotide"
+       ],
+       "label": "MC4R Cohort",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants with pro-opiomelanocortin (POMC)/proprotein convertase subtilisin/kexin type 1 (PCSK1)/leptin receptor (LEPR) heterozygous mutations received setmelanotide QD via SC injection for 16 weeks. All participants initiated treatment with setmelanotide (starting dose being age dependent) and the dose was escalated up to a maximum dose of 3.0 mg QD. Participants either continued setmelanotide treatment by enrolling in an extension study (RM-493-022; NCT03651765) immediately following the last dose in this study or if the extension study was not open at the current clinic site, participants continued treatment in the current study for up to 1 year, resulting in treatment duration of up to 16 months.",
+       "interventionNames": [
+        "Drug: Setmelanotide"
+       ],
+       "label": "POMC/PCSK1/LEPR Heterozygous Cohort",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants with POMC/PCSK1/LEPR composite heterozygous mutations received setmelanotide QD via SC injection for 16 weeks. All participants initiated treatment with setmelanotide (starting dose being age dependent) and the dose was escalated up to a maximum dose of 3.0 mg QD. Participants either continued setmelanotide treatment by enrolling in an extension study (RM-493-022; NCT03651765) immediately following the last dose in this study or if the extension study was not open at the current clinic site, participants continued treatment in the current study for up to 1 year, resulting in treatment duration of up to 16 months.",
+       "interventionNames": [
+        "Drug: Setmelanotide"
+       ],
+       "label": "POMC/PCSK1/LEPR Composite Heterozygous Cohort",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants with POMC/PCSK1/LEPR compound heterozygous mutations received setmelanotide QD via SC injection for 16 weeks. All participants initiated treatment with setmelanotide (starting dose being age dependent) and the dose was escalated up to a maximum dose of 3.0 mg QD. Participants either continued setmelanotide treatment by enrolling in an extension study (RM-493-022; NCT03651765) immediately following the last dose in this study or if the extension study was not open at the current clinic site, participants continued treatment in the current study for up to 1 year, resulting in treatment duration of up to 16 months.",
+       "interventionNames": [
+        "Drug: Setmelanotide"
+       ],
+       "label": "POMC/PCSK1/LEPR Compound Heterozygous Cohort",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants with steroid receptor coactivator (SRC) homology 2B adapter protein 1 (SH2B1) haploinsufficiency received setmelanotide QD via SC injection for 16 weeks. All participants initiated treatment with setmelanotide (starting dose being age dependent) and the dose was escalated up to a maximum dose of 3.0 mg QD. Participants either continued setmelanotide treatment by enrolling in an extension study (RM-493-022; NCT03651765) immediately following the last dose in this study or if the extension study was not open at the current clinic site, participants continued treatment in the current study for up to 1 year, resulting in treatment duration of up to 16 months.",
+       "interventionNames": [
+        "Drug: Setmelanotide"
+       ],
+       "label": "SH2B1 Cohort",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants with Smith-Magenis Syndrome (SMS) received setmelanotide QD via SC injection for 16 weeks. All participants initiated treatment with setmelanotide (starting dose being age dependent) and the dose was escalated up to a maximum dose of 3.0 mg QD. Participants either continued setmelanotide treatment by enrolling in an extension study (RM-493-022; NCT03651765) immediately following the last dose in this study or if the extension study was not open at the current clinic site, participants continued treatment in the current study for up to 1 year, resulting in treatment duration of up to 16 months.",
+       "interventionNames": [
+        "Drug: Setmelanotide"
+       ],
+       "label": "SMS Cohort",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants with steroid receptor coactivator 1 (SRC1) mutations received setmelanotide QD via SC injection for 16 weeks. All participants initiated treatment with setmelanotide (starting dose being age dependent) and the dose was escalated up to a maximum dose of 3.0 mg QD. Participants either continued setmelanotide treatment by enrolling in an extension study (RM-493-022; NCT03651765) immediately following the last dose in this study or if the extension study was not open at the current clinic site, participants continued treatment in the current study for up to 1 year, resulting in treatment duration of up to 16 months.",
+       "interventionNames": [
+        "Drug: Setmelanotide"
+       ],
+       "label": "SRC1 Cohort",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "16p11.2 Cohort",
+        "AS Cohort",
+        "BBS Cohort",
+        "MC4R Cohort",
+        "POMC/PCSK1/LEPR Composite Heterozygous Cohort",
+        "POMC/PCSK1/LEPR Compound Heterozygous Cohort",
+        "POMC/PCSK1/LEPR Heterozygous Cohort",
+        "SH2B1 Cohort",
+        "SMS Cohort",
+        "SRC1 Cohort"
+       ],
+       "description": "RM-493 QD SC injection",
+       "name": "Setmelanotide",
+       "otherNames": [
+        "RM-493"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Genetic Obesity",
+      "Obesity",
+      "Obesity Due to Melanocortin 4 Receptor Deficiency"
+     ],
+     "keywords": [
+      "Pro-opiomelanocortin (POMC) deficiency obesity",
+      "LepR deficiency obesity",
+      "Smith-Magenis Syndrome",
+      "MC4R deficiency obesity",
+      "SRC1 deficiency obesity",
+      "SH2B1 deficiency obesity"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 213,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Setmelanotide Phase 2 Treatment Trial in Participants With Rare Genetic Disorders of Obesity",
+     "nctId": "NCT03013543",
+     "officialTitle": "Setmelanotide (RM-493) Phase 2 Treatment Trial in Patients With Rare Genetic Disorders of Obesity",
+     "orgStudyIdInfo": {
+      "id": "RM-493-014"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Rhythm Pharmaceuticals, Inc."
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "2017-000387-14",
+       "type": "EUDRACT_NUMBER"
+      },
+      {
+       "id": "2017",
+       "link": "https://reporter.nih.gov/quickSearch/2017",
+       "type": "NIH"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Rhythm Pharmaceuticals, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2022-03-01",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2023-08-18",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2023-07-25",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2022-03-01",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2023-08-18",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2023-07-25",
+     "resultsFirstSubmitQcDate": "2023-07-25",
+     "startDateStruct": {
+      "date": "2017-02-10",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2023-07",
+     "studyFirstPostDateStruct": {
+      "date": "2017-01-06",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2017-01-03",
+     "studyFirstSubmitQcDate": "2017-01-04"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Up to 18 weeks setmelanotide treatment.",
+       "interventionNames": [
+        "Drug: Setmelanotide"
+       ],
+       "label": "Setmelanotide daily subcutaneous injection",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Setmelanotide daily subcutaneous injection"
+       ],
+       "description": "daily subcutaneous injection",
+       "name": "Setmelanotide",
+       "otherNames": [
+        "RM-493"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Hypertriglyceridemia",
+      "Obesity"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 1,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Setmelanotide in a Single Patient With Partial Lipodystrophy",
+     "nctId": "NCT03262610",
+     "officialTitle": "Expanded-access for the Use of Setmelanotide in a Single Patient With Partial Lipodystrophy (LD) Associated With Leptin Deficiency and Multiple Autoimmune Diseases",
+     "orgStudyIdInfo": {
+      "id": "RM-493-019"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Rhythm Pharmaceuticals, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Rhythm Pharmaceuticals, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2018-01-31",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2022-01-04",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2021-12-13",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2018-01-31",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2017-08-15",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2021-12",
+     "studyFirstPostDateStruct": {
+      "date": "2017-08-25",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2017-08-22",
+     "studyFirstSubmitQcDate": "2017-08-22"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants received titrated doses of setmelanotide once daily, by SC injection during titration period for 2 - 12 weeks. Thereafter, participants continued setmelanotide at their specific therapeutic dose for an additional 10 weeks during the open label treatment period. Participants who achieved at least a 5 kg weight loss (or at least 5% weight loss if baseline body weight was \\<100 kg) at the end of the open label treatment period, continued into the 8-week double-blind withdrawal period and received 4 weeks setmelanotide and 4 weeks placebo. Following the withdrawal period, participants entered open label treatment period and received setmelanotide to complete approximately 52 weeks (\\~1 year) of treatment at a therapeutic dose.",
+       "interventionNames": [
+        "Drug: Setmelanotide",
+        "Drug: Placebo"
+       ],
+       "label": "Setmelanotide",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Setmelanotide"
+       ],
+       "description": "Once daily subcutaneous injection",
+       "name": "Setmelanotide",
+       "otherNames": [
+        "RM-493"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Setmelanotide"
+       ],
+       "description": "Once daily subcutaneous injection",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Leptin Receptor Deficiency Obesity"
+     ],
+     "keywords": [
+      "LEPR deficiency obesity",
+      "setmelanotide",
+      "RM-493",
+      "Leptin receptor",
+      "Obesity",
+      "Melanocortin 4 receptor"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "interventionModelDescription": "Open-label with an 8 week Double-Blind Placebo-Controlled Withdrawal Period",
+      "maskingInfo": {
+       "masking": "NONE",
+       "maskingDescription": "During the 8 week double-blind placebo-controlled withdrawal period, participants received 4 weeks of daily setmelanotide and 4 weeks of daily placebo. Participants, investigators, and sites remained blinded as to when placebo treatment was administered."
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 15,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Setmelanotide for the Treatment of Leptin Receptor (LEPR) Deficiency Obesity",
+     "nctId": "NCT03287960",
+     "officialTitle": "An Open Label, 1-Year Trial, Including a Double-Blind Placebo-Controlled Withdrawal Period, of Setmelanotide (RM-493), a Melanocortin 4 Receptor (MC4R) Agonist, in Leptin Receptor (LEPR) Deficiency Obesity Due to Bi-Allelic Loss-of-Function LEPR Genetic Mutation",
+     "orgStudyIdInfo": {
+      "id": "RM-493-015"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Rhythm Pharmaceuticals, Inc."
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "2017-002005-36",
+       "type": "EUDRACT_NUMBER"
+      },
+      {
+       "id": "2017",
+       "link": "https://reporter.nih.gov/quickSearch/2017",
+       "type": "NIH"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Rhythm Pharmaceuticals, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2020-09-25",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2023-05-23",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2023-05-18",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2020-09-25",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2023-05-23",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2023-04-11",
+     "resultsFirstSubmitQcDate": "2023-05-18",
+     "startDateStruct": {
+      "date": "2018-01-30",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2023-05",
+     "studyFirstPostDateStruct": {
+      "date": "2017-09-19",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2017-09-14",
+     "studyFirstSubmitQcDate": "2017-09-15"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "conditionsModule": {
+     "conditions": [
+      "Genetic Forms of Extreme Obesity"
+     ],
+     "keywords": [
+      "Obesity",
+      "Melanocortin",
+      "TEMPO",
+      "MC4R",
+      "Genetic Obesity",
+      "hypothalamic",
+      "POMC",
+      "LEPR",
+      "PCSK1"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "observationalModel": "OTHER",
+      "timePerspective": "PROSPECTIVE"
+     },
+     "enrollmentInfo": {
+      "count": 303,
+      "type": "ACTUAL"
+     },
+     "patientRegistry": true,
+     "studyType": "OBSERVATIONAL",
+     "targetDuration": "5 Years"
+    },
+    "identificationModule": {
+     "briefTitle": "The TEMPO (Tracing the Effect of the MC4 Pathway in Obesity) Registry",
+     "nctId": "NCT03479437",
+     "officialTitle": "The TEMPO (Tracing the Effect of the MC4 Pathway in Obesity) Registry Involving Variants in Hypothalamic Genes Upstream or Downstream From the Melanocortin-4 Receptor (MC4R)",
+     "orgStudyIdInfo": {
+      "id": "RM-493-020"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Rhythm Pharmaceuticals, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Rhythm Pharmaceuticals, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2020-12-01",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2021-05-04",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2021-04-30",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2020-12-01",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2018-04-15",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2021-04",
+     "studyFirstPostDateStruct": {
+      "date": "2018-03-27",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2018-03-12",
+     "studyFirstSubmitQcDate": "2018-03-20"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "label": "POMC deficiency obesity"
+      },
+      {
+       "label": "LEPR deficiency obesity"
+      },
+      {
+       "label": "PCSK1 deficiency obesity"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "POMC Deficiency Obesity",
+      "PCSK1 Deficiency Obesity",
+      "LEPR Deficiency Obesity"
+     ],
+     "keywords": [
+      "POMC",
+      "LEPR",
+      "PCSK1",
+      "Bi-Allelic Loss",
+      "Obesity"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "observationalModel": "COHORT",
+      "timePerspective": "PROSPECTIVE"
+     },
+     "enrollmentInfo": {
+      "count": 8,
+      "type": "ACTUAL"
+     },
+     "patientRegistry": false,
+     "studyType": "OBSERVATIONAL"
+    },
+    "identificationModule": {
+     "acronym": "NHS",
+     "briefTitle": "An Observational,Prospective Natural History Study of Early-Onset Extreme Obesity Due to Bi-Allelic Loss-of-Function Mutations in the POMC, PCSK1 or LEPR Genes",
+     "nctId": "NCT03621007",
+     "officialTitle": "An Observational,Prospective Natural History Study of Early-Onset Extreme Obesity Due to Bi-Allelic Loss-of-Function Mutations in the POMC, PCSK1 or LEPR Genes",
+     "orgStudyIdInfo": {
+      "id": "RM-493-016"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Rhythm Pharmaceuticals, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Rhythm Pharmaceuticals, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2021-01-22",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2021-06-30",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2021-06-28",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2021-01-22",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2019-08-06",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2021-06",
+     "studyFirstPostDateStruct": {
+      "date": "2018-08-08",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2018-07-30",
+     "studyFirstSubmitQcDate": "2018-08-02"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants received setmelanotide at the same starting dose as received in the index trials as a Subcutaneous (SC) injection once daily for up to 5.6 years in this extension trial.",
+       "interventionNames": [
+        "Drug: Setmelanotide"
+       ],
+       "label": "Setmelanotide",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Setmelanotide"
+       ],
+       "description": "Once daily subcutaneous injection",
+       "name": "Setmelanotide",
+       "otherNames": [
+        "RM-493"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Obesity Associated With Defects in Leptin-melanocortin Pathway"
+     ],
+     "keywords": [
+      "setmelanotide",
+      "RM-493",
+      "obesity",
+      "leptin-melanocortin",
+      "melanocortin 4 receptor"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "interventionModelDescription": "Open label treatment",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 205,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2",
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Long Term Extension Trial of Setmelanotide",
+     "nctId": "NCT03651765",
+     "officialTitle": "Long Term Extension Trial of Setmelanotide (RM-493) for Patients Who Have Completed a Trial of Setmelanotide for the Treatment of Obesity Associated With Genetic Defects Upstream of the MC4 Receptor in the Leptin-melanocortin Pathway",
+     "orgStudyIdInfo": {
+      "id": "RM-493-022"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Rhythm Pharmaceuticals, Inc."
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "2017-005006-35",
+       "type": "EUDRACT_NUMBER"
+      },
+      {
+       "id": "2017",
+       "link": "https://reporter.nih.gov/quickSearch/2017",
+       "type": "NIH"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Rhythm Pharmaceuticals, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2025-01-09",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-05-31",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-05-20",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2025-01-09",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2025-05-31",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2025-05-20",
+     "resultsFirstSubmitQcDate": "2025-05-20",
+     "startDateStruct": {
+      "date": "2018-07-15",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-05",
+     "studyFirstPostDateStruct": {
+      "date": "2018-08-29",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2018-01-18",
+     "studyFirstSubmitQcDate": "2018-08-27"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants received once daily SC injection of setmelanotide for 14 weeks in a double-blind placebo-controlled treatment period (Period 1). Participants ≥16 years of age started on setmelanotide 2.0 mg with dose escalation to 3.0 mg. Participants \\<16 years of age started on setmelanotide 1.0 mg with dose escalation to 3.0 mg.",
+       "interventionNames": [
+        "Drug: Setmelanotide"
+       ],
+       "label": "Setmelanotide (Double-Blind)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants received once daily SC injection of placebo (matching setmelanotide) for 14 weeks in a double-blind placebo-controlled treatment period (Period 1).",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo (Double-Blind)",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "description": "After the initial 14-week double-blind treatment period, all participants immediately transitioned to open-label setmelanotide once daily SC injection for 38 weeks (Period 2) and then continued to receive setmelanotide in the 14-week open-label treatment period (Period 3).",
+       "interventionNames": [
+        "Drug: Setmelanotide"
+       ],
+       "label": "Setmelanotide (Open-label)",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Setmelanotide (Double-Blind)",
+        "Setmelanotide (Open-label)"
+       ],
+       "description": "SC injection of setmelanotide",
+       "name": "Setmelanotide",
+       "otherNames": [
+        "SET",
+        "RM-493"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo (Double-Blind)"
+       ],
+       "description": "SC injection of placebo",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Bardet Biedl Syndrome (BBS)",
+      "Alström Syndrome (AS)"
+     ],
+     "keywords": [
+      "MC4R Pathway",
+      "Obesity",
+      "BBS",
+      "AS"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 52,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Setmelanotide (RM-493), Melanocortin-4 Receptor (MC4R) Agonist, in Bardet-Biedl Syndrome (BBS) and Alström Syndrome (AS) Participants With Moderate to Severe Obesity",
+     "nctId": "NCT03746522",
+     "officialTitle": "A Phase 3 Trial of Setmelanotide (RM-493), a Melanocortin-4 Receptor (MC4R) Agonist, in Bardet-Biedl Syndrome (BBS) and Alström Syndrome (AS) Patients With Moderate to Severe Obesity",
+     "orgStudyIdInfo": {
+      "id": "RM-493-023"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Rhythm Pharmaceuticals, Inc."
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "2018-004058-11",
+       "type": "EUDRACT_NUMBER"
+      },
+      {
+       "id": "2018",
+       "link": "https://reporter.nih.gov/quickSearch/2018",
+       "type": "NIH"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Rhythm Pharmaceuticals, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2021-03-08",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2023-12-01",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2023-11-09",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2020-11-16",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2023-12-01",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2023-05-18",
+     "resultsFirstSubmitQcDate": "2023-11-09",
+     "startDateStruct": {
+      "date": "2018-11-23",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2023-11",
+     "studyFirstPostDateStruct": {
+      "date": "2018-11-19",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2018-11-15",
+     "studyFirstSubmitQcDate": "2018-11-15"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: Setmelanotide"
+       ],
+       "label": "Mild impairment",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Setmelanotide"
+       ],
+       "label": "Moderate impairment",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Setmelanotide"
+       ],
+       "label": "Severe impairment",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Setmelanotide"
+       ],
+       "label": "Normal (control)",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Mild impairment",
+        "Moderate impairment",
+        "Normal (control)",
+        "Severe impairment"
+       ],
+       "description": "Setmelanotide will be administered as a single SC dose of 2.0 mg on Day 1. A dose higher than 2.0 mg will not be used during the study. Dose may be lowered based on safety data.",
+       "name": "Setmelanotide",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Renal Insufficiency"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "OTHER"
+     },
+     "enrollmentInfo": {
+      "count": 32,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Phase 1 Study to Evaluate the Pharmacokinetics of Setmelanotide in Subjects With Varying Degrees of Renal Impairment",
+     "nctId": "NCT04348175",
+     "officialTitle": "A Phase 1, Open-Label, Single-Dose Study to Evaluate the Pharmacokinetics of Setmelanotide in Subjects With Varying Degrees of Renal Impairment",
+     "orgStudyIdInfo": {
+      "id": "RM-493-029"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Rhythm Pharmaceuticals, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Rhythm Pharmaceuticals, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2021-04-17",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2021-06-30",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2021-06-28",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2021-04-17",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2020-07-09",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2021-06",
+     "studyFirstPostDateStruct": {
+      "date": "2020-04-16",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2020-03-30",
+     "studyFirstSubmitQcDate": "2020-04-13"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants received setmelanotide once daily (QD) via SC injection for 16 weeks. All participants initiated treatment with setmelanotide (starting dose being age dependent) and dose escalated up to a maximum dose of 3.0 milligrams (mg) QD.",
+       "interventionNames": [
+        "Drug: Setmelanotide"
+       ],
+       "label": "Setmelanotide",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Setmelanotide"
+       ],
+       "description": "Setmelanotide for SC injection",
+       "name": "Setmelanotide",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Hypothalamic Obesity"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 18,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Open-Label Study of Setmelanotide in Hypothalamic Obesity",
+     "nctId": "NCT04725240",
+     "officialTitle": "A Phase 2, Open-Label 20-Week Study to Evaluate the Safety and Efficacy of Setmelanotide in Subjects With Hypothalamic Obesity",
+     "orgStudyIdInfo": {
+      "id": "RM-493-030"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Rhythm Pharmaceuticals, Inc."
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "2022-004107-32",
+       "type": "EUDRACT_NUMBER"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Rhythm Pharmaceuticals, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2022-06-28",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-02-07",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-01-16",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2022-06-28",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2023-09-21",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2023-06-21",
+     "resultsFirstSubmitQcDate": "2023-08-30",
+     "startDateStruct": {
+      "date": "2021-06-07",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-01",
+     "studyFirstPostDateStruct": {
+      "date": "2021-01-26",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2021-01-06",
+     "studyFirstSubmitQcDate": "2021-01-22"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants received once daily SC injection of setmelanotide from Day 1 to Week 16 in an open-label treatment stage (Stage 1). Participants ≥12 years of age started on setmelanotide 2.0 milligrams (mg) once daily for approximately 2 weeks, then increased to 3.0 mg once daily. Participants \\<12 years of age started on setmelanotide 1.0 mg once daily for approximately 1 week, then increased to 2.0 mg once daily for approximately 1 week, then increased to 3.0 mg once daily.",
+       "interventionNames": [
+        "Drug: Setmelanotide"
+       ],
+       "label": "Stage 1: Setmelanotide (Open-Label)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants from Stage 1 who were eligible for Stage 2 received once daily SC injection of setmelanotide 3.0 mg from Week 16 to Week 40 in a double-blind treatment Stage (Stage 2).",
+       "interventionNames": [
+        "Drug: Setmelanotide"
+       ],
+       "label": "Stage 2: Setmelanotide (Double-Blind)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants from Stage 1 who were eligible for Stage 2 received once daily SC injection of matching placebo 3.0 mg from Week 16 to Week 40 in a double-blind treatment Stage (Stage 2).",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Stage 2: Placebo (Double-Blind)",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Stage 1: Setmelanotide (Open-Label)",
+        "Stage 2: Setmelanotide (Double-Blind)"
+       ],
+       "description": "SC injection",
+       "name": "Setmelanotide",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Stage 2: Placebo (Double-Blind)"
+       ],
+       "description": "SC injection",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Genetic Obesity"
+     ],
+     "keywords": [
+      "Melanocortin-4 Receptor",
+      "Genetic Obesity",
+      "Leptin"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "TRIPLE",
+       "maskingDescription": "Stage 1 of the trial is open-label. Participants who were eligible to enter Stage 2 of the trial were randomized in a blinded manner at the Stage 2 Entry Visit in a 2:1 ratio to receive either setmelanotide or placebo.",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 164,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "DAYBREAK: A Study of Setmelanotide in Participants With Specific Gene Variants in the Melanocortin-4 Receptor (MC4R) Pathway",
+     "nctId": "NCT04963231",
+     "officialTitle": "A 2-Stage (Open-Label Followed by Randomized Double-Blind, Placebo-Controlled Stage), Phase 2 Trial of Setmelanotide in Patients With Specific Gene Variants in the Melanocortin-4 Receptor Pathway",
+     "orgStudyIdInfo": {
+      "id": "RM-493-034"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Rhythm Pharmaceuticals, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Rhythm Pharmaceuticals, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2024-09-30",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-07-02",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-07-01",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2023-08-04",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2024-10-24",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2024-08-23",
+     "resultsFirstSubmitQcDate": "2024-10-02",
+     "startDateStruct": {
+      "date": "2021-11-30",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-07",
+     "studyFirstPostDateStruct": {
+      "date": "2021-07-15",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2021-06-28",
+     "studyFirstSubmitQcDate": "2021-07-14"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants with POMC)/PCSK1/LEPR biallelic mutations collectively referred to as PPL received setmelanotide at a dose of 0.5 milligrams (mg) per day (QD) via SC injection for 52 weeks. The dose was escalated by increments of 0.5 mg every 2 weeks, if tolerated, at the dose escalation visits (Weeks 2, 4, and 6) to a maximum dose of 0.5 to 2.0 mg QD with the maximum dose based on body weight. Following the last dose in this study, participants who were considered likely to benefit from continued setmelanotide treatment and who had completed this trial could be eligible to enter an open-label long-term extension (LTE) trial with setmelanotide.",
+       "interventionNames": [
+        "Drug: Setmelanotide"
+       ],
+       "label": "Setmelanotide: PPL Group",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants with BBS received setmelanotide at a dose of 0.5 mg QD via SC injection for 52 weeks. The dose was escalated by increments of 0.5 mg every 2 weeks, if tolerated, at the dose escalation visits (Weeks 2, 4, and 6) to a maximum dose of 0.5 to 2.0 mg QD with the maximum dose based on body weight. Following the last dose in this study, participants who were considered likely to benefit from continued setmelanotide treatment and who had completed this trial could be eligible to enter an open-label long-term extension (LTE) trial with setmelanotide.",
+       "interventionNames": [
+        "Drug: Setmelanotide"
+       ],
+       "label": "Setmelanotide: BBS Group",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Setmelanotide: BBS Group",
+        "Setmelanotide: PPL Group"
+       ],
+       "description": "SC injection once daily.",
+       "name": "Setmelanotide",
+       "otherNames": [
+        "IMCIVREE"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Bardet-Biedl Syndrome",
+      "POMC Deficiency Obesity",
+      "PCSK1 Deficiency Obesity",
+      "LEPR Deficiency Obesity"
+     ],
+     "keywords": [
+      "Bardet Biedl Syndrome",
+      "POMC Deficiency",
+      "PCSK1",
+      "LEPR",
+      "Obesity",
+      "Pediatric Obesity"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 12,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Setmelanotide in Pediatric Participants With Rare Genetic Diseases of Obesity",
+     "nctId": "NCT04966741",
+     "officialTitle": "A Phase 3 Multi-Center, 1-Year, Open-Label Study of Setmelanotide in Pediatric Patients Aged 2 to <6 Years of Age With Rare Genetic Causes of Obesity",
+     "orgStudyIdInfo": {
+      "id": "RM-493-033"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Rhythm Pharmaceuticals, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Rhythm Pharmaceuticals, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2024-11-08",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2024-11-27",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2024-11-11",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2023-09-18",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2024-07-10",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2024-06-18",
+     "resultsFirstSubmitQcDate": "2024-06-18",
+     "startDateStruct": {
+      "date": "2022-03-08",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2024-11",
+     "studyFirstPostDateStruct": {
+      "date": "2021-07-19",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2021-03-29",
+     "studyFirstSubmitQcDate": "2021-07-07"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants received titrated doses of 2-7 milligrams (mg) setmelanotide once daily by subcutaneous (SC) injection, starting with a dose of 2 mg from Days 1 to 7, 3 mg from Days 8 to 10, 5 mg from Days 11 to 13 and 7 mg from Days 14 to 16. Participants also received single oral dose of placebo matching moxifloxacin on Days 10 and 16.",
+       "interventionNames": [
+        "Drug: Setmelanotide",
+        "Drug: Oral Placebo"
+       ],
+       "label": "Group 1: Setmelanotide 2-7 mg + Placebo for Moxifloxacin",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants received placebo matching setmelanotide once daily by SC injection from Days 1 to 16. Participants also received a single oral dose of 400 mg moxifloxacin on Day 10 and a single oral dose of placebo matching moxifloxacin on Day 16.",
+       "interventionNames": [
+        "Drug: Moxifloxacin",
+        "Drug: Oral Placebo",
+        "Drug: SC Placebo"
+       ],
+       "label": "Group 2: Placebo for Setmelanotide + Moxifloxacin 400 mg + Placebo for Moxifloxacin",
+       "type": "ACTIVE_COMPARATOR"
+      },
+      {
+       "description": "Participants received placebo matching setmelanotide once daily by SC injection from Days 1 to 16. Participants also received a single oral dose of placebo matching moxifloxacin on Day 10 and a single oral dose of 400 mg moxifloxacin on Day 16.",
+       "interventionNames": [
+        "Drug: Moxifloxacin",
+        "Drug: Oral Placebo",
+        "Drug: SC Placebo"
+       ],
+       "label": "Group 3: Placebo for Setmelanotide + Placebo for Moxifloxacin + Moxifloxacin 400 mg",
+       "type": "ACTIVE_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Group 1: Setmelanotide 2-7 mg + Placebo for Moxifloxacin"
+       ],
+       "description": "Administered once daily via SC injection.",
+       "name": "Setmelanotide",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Group 2: Placebo for Setmelanotide + Moxifloxacin 400 mg + Placebo for Moxifloxacin",
+        "Group 3: Placebo for Setmelanotide + Placebo for Moxifloxacin + Moxifloxacin 400 mg"
+       ],
+       "description": "Moxifloxacin capsules via oral administration.",
+       "name": "Moxifloxacin",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Group 1: Setmelanotide 2-7 mg + Placebo for Moxifloxacin",
+        "Group 2: Placebo for Setmelanotide + Moxifloxacin 400 mg + Placebo for Moxifloxacin",
+        "Group 3: Placebo for Setmelanotide + Placebo for Moxifloxacin + Moxifloxacin 400 mg"
+       ],
+       "description": "Placebo capsules via oral administration.",
+       "name": "Oral Placebo",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Group 2: Placebo for Setmelanotide + Moxifloxacin 400 mg + Placebo for Moxifloxacin",
+        "Group 3: Placebo for Setmelanotide + Placebo for Moxifloxacin + Moxifloxacin 400 mg"
+       ],
+       "description": "Placebo via SC injection.",
+       "name": "SC Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Healthy"
+     ],
+     "keywords": [
+      "Healthy Volunteers"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "TRIPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 77,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE4"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Study of Setmelanotide Effects on QTc (Corrected QT) Interval in Healthy Participants",
+     "nctId": "NCT05046132",
+     "officialTitle": "A Randomized, Double-Blind, 3-arm, Parallel Group, Placebo- and Positive-controlled Study to Investigate the Effects of Setmelanotide on QTc Interval in Healthy Subjects",
+     "orgStudyIdInfo": {
+      "id": "RM-493-032"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Rhythm Pharmaceuticals, Inc."
+     },
+     "secondaryIdInfos": [
+      {
+       "domain": "Paraxel",
+       "id": "263791",
+       "type": "OTHER"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Rhythm Pharmaceuticals, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2022-04-07",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2024-05-03",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2024-04-05",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2022-04-07",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2024-05-03",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2023-09-08",
+     "resultsFirstSubmitQcDate": "2024-04-05",
+     "startDateStruct": {
+      "date": "2021-08-05",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2024-04",
+     "studyFirstPostDateStruct": {
+      "date": "2021-09-16",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2021-07-30",
+     "studyFirstSubmitQcDate": "2021-09-07"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "1:1 Randomization",
+       "interventionNames": [
+        "Drug: Setmelanotide",
+        "Drug: Placebo"
+       ],
+       "label": "POMC or PCSK1 variant",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "1:1 Randomization",
+       "interventionNames": [
+        "Drug: Setmelanotide",
+        "Drug: Placebo"
+       ],
+       "label": "LEPR variant",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "1:1 Randomization",
+       "interventionNames": [
+        "Drug: Setmelanotide",
+        "Drug: Placebo"
+       ],
+       "label": "NCOA1 (SRC1) variant",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "1:1 Randomization",
+       "interventionNames": [
+        "Drug: Setmelanotide",
+        "Drug: Placebo"
+       ],
+       "label": "SH2B1 variant",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "LEPR variant",
+        "NCOA1 (SRC1) variant",
+        "POMC or PCSK1 variant",
+        "SH2B1 variant"
+       ],
+       "description": "Subcutaneous Injection",
+       "name": "Setmelanotide",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "LEPR variant",
+        "NCOA1 (SRC1) variant",
+        "POMC or PCSK1 variant",
+        "SH2B1 variant"
+       ],
+       "description": "Subcutaneous Injection",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Obesity",
+      "Genetic Obesity"
+     ],
+     "keywords": [
+      "Melanocortin-4 Receptor Pathway",
+      "Genetic Obesity",
+      "Hunger",
+      "Hyperphagia",
+      "POMC",
+      "PCSK1",
+      "LEPR",
+      "SH2B1",
+      "NCOA1 (SRC1)"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "TRIPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 296,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "EMANATE: A Study of Setmelanotide in Patients With Specific Gene Variants in the MC4R Pathway",
+     "nctId": "NCT05093634",
+     "officialTitle": "A Phase 3, Randomized, Double-Blind, Placebo-Controlled Trial: Multiple Independent Sub-studies of Setmelanotide in Patients With POMC/PCSK1, LEPR, NCOA1(SRC1), or SH2B1 Gene Variants in the Melanocortin-4 Receptor Pathway",
+     "orgStudyIdInfo": {
+      "id": "RM-493-035"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Rhythm Pharmaceuticals, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Rhythm Pharmaceuticals, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2026-06-30",
+      "type": "ACTUAL"
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-08-06",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-08-04",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2025-12-22",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2021-12-10",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-08",
+     "studyFirstPostDateStruct": {
+      "date": "2021-10-26",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2021-09-30",
+     "studyFirstSubmitQcDate": "2021-10-13"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "interventions": [
+      {
+       "description": "Dosing based on age, and titrated from starting dose to target dose.",
+       "name": "Setmelanotide, administered subcutaneously [SC], once daily.",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Bardet-Biedl Syndrome (BBS)",
+      "Obesity"
+     ]
+    },
+    "designModule": {
+     "expandedAccessTypes": {
+      "treatment": true
+     },
+     "studyType": "EXPANDED_ACCESS"
+    },
+    "identificationModule": {
+     "briefTitle": "An Expanded Access Protocol for Setmelanotide for Treatment of Bardet-Biedl Syndrome (BBS)",
+     "nctId": "NCT05183802",
+     "officialTitle": "An Expanded Access Protocol for Setmelanotide for Treatment of Bardet-Biedl Syndrome (BBS)",
+     "orgStudyIdInfo": {
+      "id": "RM-493-036"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Rhythm Pharmaceuticals, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Rhythm Pharmaceuticals, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2022-08-10",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2022-08-08",
+     "overallStatus": "APPROVED_FOR_MARKETING",
+     "statusVerifiedDate": "2022-08",
+     "studyFirstPostDateStruct": {
+      "date": "2022-01-11",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2021-11-08",
+     "studyFirstSubmitQcDate": "2022-01-07"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants received subcutaneous (SC) injection of 2 mg setmelanotide once daily (QD) for 1 week in the run-in period.",
+       "interventionNames": [
+        "Drug: Setmelanotide 2 mg"
+       ],
+       "label": "Run-in Period: Setmelanotide 2 mg QD",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants received SC injection of 2.5 mg setmelanotide QD for 1 week in the run-in period.",
+       "interventionNames": [
+        "Drug: Setmelanotide 2.5 mg"
+       ],
+       "label": "Run-in Period: Setmelanotide 2.5 mg QD",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants received SC injection of 3 mg setmelanotide QD for 1 week in the run-in period.",
+       "interventionNames": [
+        "Drug: Setmelanotide 3 mg"
+       ],
+       "label": "Run-in Period: Setmelanotide 3 mg QD",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants who received 2 mg setmelanotide QD in the run-in period, received SC injection of 20 mg setmelanotide once weekly (QW) and placebo matched to setmelanotide QD for 13 weeks in the DB period.",
+       "interventionNames": [
+        "Drug: Setmelanotide 20 mg"
+       ],
+       "label": "DB Period: Setmelanotide 20 mg QW",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants who received 2.5 mg setmelanotide QD in the run-in period, received SC injection of 25 mg setmelanotide QW and placebo matched to setmelanotide QD for 13 weeks in the DB period.",
+       "interventionNames": [
+        "Drug: Setmelanotide 25 mg"
+       ],
+       "label": "DB Period: Setmelanotide 25 mg QW",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants who received 3 mg setmelanotide QD in the run-in period, received SC injection of 3 mg setmelanotide QD and placebo matched to setmelanotide QW for 13 weeks in the DB period.",
+       "interventionNames": [
+        "Drug: Setmelanotide 3 mg"
+       ],
+       "label": "DB Period: Setmelanotide 3 mg QD",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants who received 3 mg setmelanotide QD in the run-in period, received SC injection of 30 mg setmelanotide QW and placebo matched to setmelanotide QD for 13 weeks in the DB period.",
+       "interventionNames": [
+        "Drug: Setmelanotide 30 mg"
+       ],
+       "label": "DB Period: Setmelanotide 30 mg QW",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants who received 2 mg setmelanotide QD in the run-in period and 20 mg setmelanotide QW in the DB period, received SC injection of 20 mg setmelanotide QW for 13 weeks in the OL period.",
+       "interventionNames": [
+        "Drug: Setmelanotide 20 mg"
+       ],
+       "label": "OL Period: Setmelanotide 20 mg QW",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants who received 2.5 mg setmelanotide QD in the run-in period and 25 mg setmelanotide QW in the DB period, received SC injection of 25 mg setmelanotide QW for 13 weeks in the OL period.",
+       "interventionNames": [
+        "Drug: Setmelanotide 25 mg"
+       ],
+       "label": "OL Period: Setmelanotide 25 mg QW",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants who received 3 setmelanotide QD in the run-in period and 3 mg setmelanotide QD or 30 mg setmelanotide QW in the DB period, received SC injection of 30 mg setmelanotide QW for 13 weeks in the OL period.",
+       "interventionNames": [
+        "Drug: Setmelanotide 30 mg"
+       ],
+       "label": "OL Period: Setmelanotide 30 mg QW",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Run-in Period: Setmelanotide 2 mg QD"
+       ],
+       "description": "Administered as SC injection",
+       "name": "Setmelanotide 2 mg",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Run-in Period: Setmelanotide 2.5 mg QD"
+       ],
+       "description": "Administered as SC injection",
+       "name": "Setmelanotide 2.5 mg",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "DB Period: Setmelanotide 3 mg QD",
+        "Run-in Period: Setmelanotide 3 mg QD"
+       ],
+       "description": "Administered as SC injection",
+       "name": "Setmelanotide 3 mg",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "DB Period: Setmelanotide 20 mg QW",
+        "OL Period: Setmelanotide 20 mg QW"
+       ],
+       "description": "Administered as SC injection",
+       "name": "Setmelanotide 20 mg",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "DB Period: Setmelanotide 25 mg QW",
+        "OL Period: Setmelanotide 25 mg QW"
+       ],
+       "description": "Administered as SC injection",
+       "name": "Setmelanotide 25 mg",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "DB Period: Setmelanotide 30 mg QW",
+        "OL Period: Setmelanotide 30 mg QW"
+       ],
+       "description": "Administered as SC injection",
+       "name": "Setmelanotide 30 mg",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Bardet-Biedl Syndrome",
+      "POMC Deficiency"
+     ],
+     "keywords": [
+      "Melanocortin-4 Receptor Pathway",
+      "Genetic Obesity",
+      "Hunger",
+      "Hyperphagia"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "CROSSOVER",
+      "maskingInfo": {
+       "masking": "TRIPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 19,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Phase 3 Crossover Trial of Two Formulations of Setmelanotide in Participants With Specific Gene Defects in the MC4R Pathway",
+     "nctId": "NCT05194124",
+     "officialTitle": "A Phase 3, Randomized, Double-Blind Trial of Two Formulations of Setmelanotide (Daily and Weekly) With a Crossover to Open-Label Once Weekly Setmelanotide in Patients With Specific Gene Defects in the Melanocortin-4 Receptor Pathway Who Are Currently on a Stable Dose of the Once Daily Formulation",
+     "orgStudyIdInfo": {
+      "id": "RM-493-037"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Rhythm Pharmaceuticals, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Rhythm Pharmaceuticals, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2023-10-19",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2024-11-26",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2024-11-15",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2023-10-19",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2024-11-26",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2024-09-26",
+     "resultsFirstSubmitQcDate": "2024-11-15",
+     "startDateStruct": {
+      "date": "2021-12-21",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2024-11",
+     "studyFirstPostDateStruct": {
+      "date": "2022-01-18",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2021-07-27",
+     "studyFirstSubmitQcDate": "2022-01-03"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Randomized 2:1 (Setmelanotide: Placebo)",
+       "interventionNames": [
+        "Drug: Setmelanotide"
+       ],
+       "label": "Setemelanotide",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Randomized 2:1 (Setmelanotide: Placebo)",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Setemelanotide"
+       ],
+       "description": "Solution for daily subcutaneous injection",
+       "name": "Setmelanotide",
+       "otherNames": [
+        "RM-493",
+        "Imcivree"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Placebo matched to setmelanotide for daily subcutaneous injection",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Hypothalamic Obesity"
+     ],
+     "keywords": [
+      "melancortin 4 receptor, MC4R"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "TRIPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 143,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Trial of Setmelanotide in Acquired Hypothalamic Obesity",
+     "nctId": "NCT05774756",
+     "officialTitle": "A Phase 3, Double Blind, Randomized, Placebo-Controlled Trial to Evaluate the Efficacy and Safety of Setmelanotide in Patients With Acquired Hypothalamic Obesity",
+     "orgStudyIdInfo": {
+      "id": "RM-493-040"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Rhythm Pharmaceuticals, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Rhythm Pharmaceuticals, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2027-04-16",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-08-10",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-07-16",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2025-03-18",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2026-05-29",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2026-03-17",
+     "resultsFirstSubmitQcDate": "2026-05-04",
+     "startDateStruct": {
+      "date": "2023-04-26",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-07",
+     "studyFirstPostDateStruct": {
+      "date": "2023-03-20",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2023-03-01",
+     "studyFirstSubmitQcDate": "2023-03-16"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants will be randomized to receive LB54640 low dose, middle dose, or high dose, or placebo by oral administration in a 1:1:1:1 ratio.",
+       "interventionNames": [
+        "Drug: LB54640"
+       ],
+       "label": "LB54640 Low dose",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants will be randomized to receive LB54640 low dose, middle dose, or high dose, or placebo by oral administration in a 1:1:1:1 ratio.",
+       "interventionNames": [
+        "Drug: LB54640"
+       ],
+       "label": "LB54640 Middle dose",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants will be randomized to receive LB54640 low dose, middle dose, or high dose, or placebo by oral administration in a 1:1:1:1 ratio.",
+       "interventionNames": [
+        "Drug: LB54640"
+       ],
+       "label": "LB54640 High dose",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants will be randomized to receive LB54640 low dose, middle dose, or high dose, or placebo by oral administration in a 1:1:1:1 ratio.",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "description": "Eligible participants who provide consent to continue into the open-label portion of the study will receive open-label LB54640.",
+       "interventionNames": [
+        "Drug: LB54640"
+       ],
+       "label": "Open-label LB54640",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "LB54640 High dose",
+        "LB54640 Low dose",
+        "LB54640 Middle dose",
+        "Open-label LB54640"
+       ],
+       "description": "Oral daily administration",
+       "name": "LB54640",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Placebo matched to LB54640",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Hypothalamic Obesity"
+     ],
+     "keywords": [
+      "melanocortin 4 receptor, MC4R",
+      "MC4R agonism"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "TRIPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 28,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Study to Assess Efficacy and Safety of LB54640 in Patients With Hypothalamic Obesity",
+     "nctId": "NCT06046443",
+     "officialTitle": "A Randomized, Placebo-controlled, Double-Blind Phase 2 Study to Assess Efficacy and Safety of LB54640 in Patients With Hypothalamic Obesity, With an Open-Label Extension",
+     "orgStudyIdInfo": {
+      "id": "LG-MCCL005"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Rhythm Pharmaceuticals, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Rhythm Pharmaceuticals, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2026-02-09",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-02-12",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-02-10",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2026-02-09",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2024-07-11",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-02",
+     "studyFirstPostDateStruct": {
+      "date": "2023-09-21",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2023-09-14",
+     "studyFirstSubmitQcDate": "2023-09-14"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Single dose of RM-718 (4) or placebo (2)",
+       "interventionNames": [
+        "Drug: Part A: RM-718 or placebo (matched to specific RM-718 dose cohort)"
+       ],
+       "label": "RM-718 (Cohort A1)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Single dose of RM-718 (4) or placebo (2)",
+       "interventionNames": [
+        "Drug: Part A: RM-718 or placebo (matched to specific RM-718 dose cohort)"
+       ],
+       "label": "RM-718 (Cohort A2)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Single dose of RM-718 (4) or placebo (2)",
+       "interventionNames": [
+        "Drug: Part A: RM-718 or placebo (matched to specific RM-718 dose cohort)"
+       ],
+       "label": "RM-718 (Cohort A3)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Single dose of RM-718 (4) or placebo (2)",
+       "interventionNames": [
+        "Drug: Part A: RM-718 or placebo (matched to specific RM-718 dose cohort)"
+       ],
+       "label": "RM-718 (Cohort A4)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Single dose of RM-718 (4) or placebo (2)",
+       "interventionNames": [
+        "Drug: Part A: RM-718 or placebo (matched to specific RM-718 dose cohort)"
+       ],
+       "label": "RM-718 (Cohort A5)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Single dose of RM-718 (4) or placebo (2)",
+       "interventionNames": [
+        "Drug: Part A: RM-718 or placebo (matched to specific RM-718 dose cohort)"
+       ],
+       "label": "RM-718 (Cohort A6)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Single dose of RM-718 (4) or placebo (2)",
+       "interventionNames": [
+        "Drug: Part A: RM-718 or placebo (matched to specific RM-718 dose cohort)"
+       ],
+       "label": "RM-718 (Cohort A7)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Single dose of RM-718 (4) or placebo (2)",
+       "interventionNames": [
+        "Drug: Part A: RM-718 or placebo (matched to specific RM-718 dose cohort)"
+       ],
+       "label": "RM-718 (Cohort A8)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Single dose of RM-718 (4) or placebo (2)",
+       "interventionNames": [
+        "Drug: Part A: RM-718 or placebo (matched to specific RM-718 dose cohort)"
+       ],
+       "label": "RM-718 (Cohort A9)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Multiple ascending doses of RM-718 (4) or placebo (2)",
+       "interventionNames": [
+        "Drug: Part B: RM-718 or placebo (matched to specific RM-718 dose cohort)"
+       ],
+       "label": "RM-718 (Cohort B1)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Multiple ascending doses of RM-718 (4) or placebo (2)",
+       "interventionNames": [
+        "Drug: Part B: RM-718 or placebo (matched to specific RM-718 dose cohort)"
+       ],
+       "label": "RM-718 (Cohort B2)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Multiple ascending doses of RM-718 (4) or placebo (2)",
+       "interventionNames": [
+        "Drug: Part B: RM-718 or placebo (matched to specific RM-718 dose cohort)"
+       ],
+       "label": "RM-718 (Cohort B3)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Multiple ascending doses of RM-718 (4) or placebo (2)",
+       "interventionNames": [
+        "Drug: Part B: RM-718 or placebo (matched to specific RM-718 dose cohort)"
+       ],
+       "label": "RM-718 (Cohort B4)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Multiple ascending doses of RM-718 (4) or placebo (2)",
+       "interventionNames": [
+        "Drug: Part B: RM-718 or placebo (matched to specific RM-718 dose cohort)"
+       ],
+       "label": "RM-718 (Cohort B5)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Multiple ascending doses of RM-718 (4) or placebo (2)",
+       "interventionNames": [
+        "Drug: Part B: RM-718 or placebo (matched to specific RM-718 dose cohort)"
+       ],
+       "label": "RM-718 (Cohort B6)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Multiple ascending doses of RM-718 (30)",
+       "interventionNames": [
+        "Drug: Part C: RM-718"
+       ],
+       "label": "RM-718 (Cohort C1)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Multiple ascending doses of RM-718 (up to 30)",
+       "interventionNames": [
+        "Drug: Part D: RM-718"
+       ],
+       "label": "RM-718 (Cohort D1)",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "RM-718 (Cohort A1)",
+        "RM-718 (Cohort A2)",
+        "RM-718 (Cohort A3)",
+        "RM-718 (Cohort A4)",
+        "RM-718 (Cohort A5)",
+        "RM-718 (Cohort A6)",
+        "RM-718 (Cohort A7)",
+        "RM-718 (Cohort A8)",
+        "RM-718 (Cohort A9)"
+       ],
+       "description": "Single ascending dose of RM-718 or placebo (matched to specific RM-718 Part A dose cohort)",
+       "name": "Part A: RM-718 or placebo (matched to specific RM-718 dose cohort)",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "RM-718 (Cohort B1)",
+        "RM-718 (Cohort B2)",
+        "RM-718 (Cohort B3)",
+        "RM-718 (Cohort B4)",
+        "RM-718 (Cohort B5)",
+        "RM-718 (Cohort B6)"
+       ],
+       "description": "Multiple ascending doses of RM-718 or placebo (matched to specific RM-718 Part B dose cohorts)",
+       "name": "Part B: RM-718 or placebo (matched to specific RM-718 dose cohort)",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "RM-718 (Cohort C1)"
+       ],
+       "description": "Multiple ascending doses of RM-718",
+       "name": "Part C: RM-718",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "RM-718 (Cohort D1)"
+       ],
+       "description": "Multiple ascending doses of RM-718",
+       "name": "Part D: RM-718",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Hypothalamic Obesity",
+      "Prader-Willi Syndrome",
+      "PWS"
+     ],
+     "keywords": [
+      "melanocortin 4 receptor (MC4R)",
+      "MC4R agonism",
+      "obesity"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "TRIPLE",
+       "maskingDescription": "Study Parts A and B are blinded. Study Parts C and D are open-label.",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 111,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Study of RM-718 in Healthy Subjects and Patients With MC4R Pathway Impairment",
+     "nctId": "NCT06239116",
+     "officialTitle": "A Study of RM-718 Weekly Formulation in Healthy Subjects With Obesity and in Patients With Obesity Due to MC4R Impairment",
+     "orgStudyIdInfo": {
+      "id": "RM-718-001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Rhythm Pharmaceuticals, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Rhythm Pharmaceuticals, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2028-11-01",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-09",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-08",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-05-07",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2024-03-05",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-10",
+     "studyFirstPostDateStruct": {
+      "date": "2024-02-02",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2024-01-25",
+     "studyFirstSubmitQcDate": "2024-01-25"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Once daily (QD) subcutaneous injection of setmelanotide",
+       "interventionNames": [
+        "Drug: Setmelanotide"
+       ],
+       "label": "Setelanotide (Open-label)",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Setelanotide (Open-label)"
+       ],
+       "description": "Open-label daily injections of setmelanotide",
+       "name": "Setmelanotide",
+       "otherNames": [
+        "RM-493",
+        "Imcivree"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Obesity Associated With Defects in Leptin-melanocortin Pathway"
+     ],
+     "keywords": [
+      "setmelanotide",
+      "RM-493",
+      "obesity",
+      "melanocortin 4 receptor",
+      "hypothalamic obesity"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 28,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Open-Label Extension Study of Setmelanotide",
+     "nctId": "NCT06596135",
+     "officialTitle": "Open-Label Extension Study of Setmelanotide in Patients With a Rare Genetic, Syndromic or Acquired Disease of the MC4R Pathway",
+     "orgStudyIdInfo": {
+      "id": "RM-493-042"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Rhythm Pharmaceuticals, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Rhythm Pharmaceuticals, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2026-06-24",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-07-15",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-07-13",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2026-06-24",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2024-10-21",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-07",
+     "studyFirstPostDateStruct": {
+      "date": "2024-09-19",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2024-09-10",
+     "studyFirstSubmitQcDate": "2024-09-13"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Randomized 2:1 (Setmelanotide: Placebo)",
+       "interventionNames": [
+        "Drug: Setmelanotide"
+       ],
+       "label": "Setemelanotide",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Randomized 2:1 (Setmelanotide: Placebo)",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Setemelanotide"
+       ],
+       "description": "Solution for daily subcutaneous injection",
+       "name": "Setmelanotide",
+       "otherNames": [
+        "RM-493",
+        "Imcivree"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Placebo matched to setmelanotide for daily subcutaneous injection",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Hypothalamic Obesity",
+      "Multiple Pituitary Hormone Deficiency Genetic Form",
+      "Septo-Optic Dysplasia",
+      "Optic Nerve Hypoplasia",
+      "Childhood-onset Combined Pituitary Hormone Deficiency",
+      "Pituitary Stalk Interruption Syndrome"
+     ],
+     "keywords": [
+      "melancortin 4 receptor, MC4R"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "TRIPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 39,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Trial of Setmelanotide in Patients With Congenital Hypothalamic Obesity (Sub-study of NCT05774756)",
+     "nctId": "NCT06760546",
+     "officialTitle": "A Phase 3, Double Blind, Randomized, Placebo-Controlled Trial to Evaluate the Efficacy and Safety of Setmelanotide in Patients With Acquired Hypothalamic Obesity",
+     "orgStudyIdInfo": {
+      "id": "RM-493-040-A"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Rhythm Pharmaceuticals, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Rhythm Pharmaceuticals, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2028-03-13",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-02-12",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-02-10",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-03-13",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2025-09-23",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-02",
+     "studyFirstPostDateStruct": {
+      "date": "2025-01-07",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2024-12-31",
+     "studyFirstSubmitQcDate": "2024-12-31"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: Setmelanotide"
+       ],
+       "label": "Setmelanotide (Open-label)",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Setmelanotide (Open-label)"
+       ],
+       "description": "Setmelanotide (daily subcutaneous injection)",
+       "name": "Setmelanotide",
+       "otherNames": [
+        "Imcivree"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Prader-Willi Syndrome",
+      "Obesity",
+      "Hyperphagia"
+     ],
+     "keywords": [
+      "melanocortin 4 receptor (MC4R), MC4R agonist"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 18,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Study of Setmelanotide in Patients With Prader-Willi Syndrome",
+     "nctId": "NCT06772597",
+     "officialTitle": "A Phase 2 Open-label Study of Setmelanotide in Patients With Prader-Willi Syndrome",
+     "orgStudyIdInfo": {
+      "id": "RM-493-043"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Rhythm Pharmaceuticals, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Rhythm Pharmaceuticals, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2027-10-31",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-02-12",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-02-10",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2026-10-31",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2025-03-04",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-02",
+     "studyFirstPostDateStruct": {
+      "date": "2025-01-13",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-01-10",
+     "studyFirstSubmitQcDate": "2025-01-10"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: Bivamelagon"
+       ],
+       "label": "Bivamelagon (open-label)",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Bivamelagon (open-label)"
+       ],
+       "description": "daily dose of oral bivamelagon",
+       "name": "Bivamelagon",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Hypothalamic Obesity"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 25,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Long-Term Study of Bivamelagon in Participants With Hypothalamic Obesity (HO)",
+     "nctId": "NCT07156578",
+     "officialTitle": "A Long-Term, Open-Label Extension Study of Bivamelagon in Participants With Hypothalamic Obesity (HO)",
+     "orgStudyIdInfo": {
+      "id": "RM-MC72-002"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Rhythm Pharmaceuticals, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Rhythm Pharmaceuticals, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2028-04-15",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-02-10",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-02-06",
+     "overallStatus": "ENROLLING_BY_INVITATION",
+     "primaryCompletionDateStruct": {
+      "date": "2028-04-15",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2025-11-10",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-02",
+     "studyFirstPostDateStruct": {
+      "date": "2025-09-05",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-08-25",
+     "studyFirstSubmitQcDate": "2025-08-27"
+    }
+   }
+  }
+ ]
+}

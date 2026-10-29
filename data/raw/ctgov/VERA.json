@@ -1,0 +1,798 @@
+{
+ "aliases": [
+  "Vera Therapeutics"
+ ],
+ "studies": [
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Cohort 1: MAU868 1350 mg IV approximately every 28 days for a total of 4 doses",
+       "interventionNames": [
+        "Drug: MAU868"
+       ],
+       "label": "Cohort 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Cohort 2: MAU868 6750 mg IV on Study Day 1 and then 1350 mg IV approximately every 28 days for a total of 4 doses",
+       "interventionNames": [
+        "Drug: MAU868"
+       ],
+       "label": "Cohort 2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Cohort 3: MAU868 6750 mg IV approximately every 28 days for a total of 4 doses",
+       "interventionNames": [
+        "Drug: MAU868"
+       ],
+       "label": "Cohort 3",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "5% dextrose in water \\[D5W\\] IV delivered every 28 days for a total of 4 doses",
+       "interventionNames": [
+        "Other: Placebo"
+       ],
+       "label": "Placebo Cohort 1, 2, 3",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Cohort 1",
+        "Cohort 2",
+        "Cohort 3"
+       ],
+       "description": "MAU868 is a human monoclonal antibody (IgG1) that binds the viral capsid protein, VP1, that is responsible for binding to the surface of host cells",
+       "name": "MAU868",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo Cohort 1, 2, 3"
+       ],
+       "description": "250 mL D5W placebo IV to be labeled to match that of MAU868",
+       "name": "Placebo",
+       "type": "OTHER"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "BK Virus Infection"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "TRIPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 30,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Safety, Pharmacokinetics and Efficacy Study of MAU868 for the Treatment of BK Viremia in Kidney Transplant Recipients",
+     "nctId": "NCT04294472",
+     "officialTitle": "A Randomized, Double-blind, Placebo-controlled Study to Assess the Safety, Pharmacokinetics and Efficacy of MAU868 for the Treatment of BK Viremia in Kidney Transplant Recipients (Neutra4)",
+     "orgStudyIdInfo": {
+      "id": "MAU868-201"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Vera Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Vera Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2022-02-10",
+      "type": "ACTUAL"
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2023-06-07",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2023-06-05",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2022-02-10",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2023-05-24",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2023-02-09",
+     "resultsFirstSubmitQcDate": "2023-05-01",
+     "startDateStruct": {
+      "date": "2020-08-05",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2023-02",
+     "studyFirstPostDateStruct": {
+      "date": "2020-03-04",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2020-02-26",
+     "studyFirstSubmitQcDate": "2020-03-02"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Atacicept 150mg once weekly subcutaneous (SC) injections",
+       "interventionNames": [
+        "Biological: Atacicept"
+       ],
+       "label": "Atacicept Dose 150mg",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Placebo to match Atacicept once weekly subcutaneous (SC) injection",
+       "interventionNames": [
+        "Other: Placebo to match Atacicept"
+       ],
+       "label": "Placebo to match Atacicept (Part C/D)",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Atacicept Dose 150mg"
+       ],
+       "description": "Once weekly subcutaneous (SC) injections by prefilled syringe",
+       "name": "Atacicept",
+       "otherNames": [
+        "VT-001"
+       ],
+       "type": "BIOLOGICAL"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo to match Atacicept (Part C/D)"
+       ],
+       "description": "Once weekly subcutaneous (SC) injections by prefilled syringe",
+       "name": "Placebo to match Atacicept",
+       "type": "OTHER"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "IgA Nephropathy",
+      "Berger Disease"
+     ],
+     "keywords": [
+      "Berger Disease",
+      "Berger's Disease",
+      "IGA Glomerulonephritis",
+      "IGA Nephropathy",
+      "Iga Nephropathy 1",
+      "Immunoglobulin A Nephropathy Nephritis",
+      "IGA Type Nephropathy, IGA"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 428,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "ORIGIN 3",
+     "briefTitle": "Atacicept in Subjects With IgA Nephropathy",
+     "nctId": "NCT04716231",
+     "officialTitle": "A Phase 2b/3, Multi-part, Randomized, Double-Blinded, Placebo-Controlled Study to Evaluate the Efficacy and Safety of Atacicept in Subjects With IgA Nephropathy (IgAN)",
+     "orgStudyIdInfo": {
+      "id": "VT-001-0050"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Vera Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Vera Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2028-07",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-01",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-09-09",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2025-05-15",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2026-10-01",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2026-08-11",
+     "resultsFirstSubmitQcDate": "2026-09-09",
+     "startDateStruct": {
+      "date": "2023-06-29",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-09",
+     "studyFirstPostDateStruct": {
+      "date": "2021-01-20",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2021-01-11",
+     "studyFirstSubmitQcDate": "2021-01-15"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Atacicept Dose once weekly subcutaneous (SC) Injection",
+       "interventionNames": [
+        "Drug: Atacicept"
+       ],
+       "label": "Atacicept Dose",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Placebo to match Atacicept once weekly subcutaneous (SC) injection",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo to match Atacicept",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Atacicept Dose"
+       ],
+       "description": "Once weekly subcutaneous (SC) injections by prefilled syringe",
+       "name": "Atacicept",
+       "otherNames": [
+        "VT-001"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo to match Atacicept"
+       ],
+       "description": "placebo",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Lupus Nephritis (LN)"
+     ],
+     "keywords": [
+      "Systemic Lupus erythematosus (SLE)",
+      "estimated glomerular filtration rate (eGFR)",
+      "protenuria"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 0,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "COMPASS",
+     "briefTitle": "Atacicept in Subjects With Active Lupus Nephritis (COMPASS)",
+     "nctId": "NCT05609812",
+     "officialTitle": "A Phase 3 Randomized, Double-Blind, Placebo-Controlled Multicenter, Multinational Study to Evaluate the Efficacy and Safety of Atacicept in Subjects With Active Lupus Nephritis",
+     "orgStudyIdInfo": {
+      "id": "VT-001-0070"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Vera Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Vera Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2028-12-15",
+      "type": "ESTIMATED"
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-05-23",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-05-19",
+     "overallStatus": "WITHDRAWN",
+     "primaryCompletionDateStruct": {
+      "date": "2026-03-15",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2022-11-02",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2024-10",
+     "studyFirstPostDateStruct": {
+      "date": "2022-11-08",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2022-11-02",
+     "studyFirstSubmitQcDate": "2022-11-07",
+     "whyStopped": "Study recruitment is paused due to business reasons, but not due to regulatory or safety concerns."
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Other Names:\n\nVT-001",
+       "interventionNames": [
+        "Drug: Atacicept 150 mg"
+       ],
+       "label": "Atacicept 150mg once weekly subcutaneous (SC) injection",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Atacicept 150mg once weekly subcutaneous (SC) injection"
+       ],
+       "description": "The atacicept drug product is available as a ready to use injection solution in the following prefilled syringe (PFS) that is composed of: \\*BD Hypak™ SCF™ Barrel Glass barrel 1ml long with staked needle 27G ½\" 5B with Rigid Needle Shield BD260 \\*BD SCF™ Stopper 1ml long W4023 Flurotec",
+       "name": "Atacicept 150 mg",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "IgA Nephropathy (IgAN)",
+      "Renal and Urinary Disorders",
+      "Berger Disease"
+     ],
+     "keywords": [
+      "IGA Glomerulonephritis",
+      "IGA Nephropathy",
+      "Iga Nephropathy 1",
+      "Immunoglobulin A Nephropathy Nephritis",
+      "IGA Type Nephropathy, IGA",
+      "renal and urinary disorders",
+      "Berger Disease",
+      "Berger's Disease"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "interventionModelDescription": "Single group assignment",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 750,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "ORIGIN EXTEND",
+     "briefTitle": "A Rollover Study to Evaluate the Long-Term Safety and Efficacy of Atacicept",
+     "nctId": "NCT06674577",
+     "officialTitle": "A Multicenter, Rollover Study to Evaluate the Long-Term Safety and Efficacy of Atacicept",
+     "orgStudyIdInfo": {
+      "id": "VT-001-0051"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Vera Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Vera Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2031-05-21",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-06-22",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-06-17",
+     "overallStatus": "ENROLLING_BY_INVITATION",
+     "primaryCompletionDateStruct": {
+      "date": "2031-05-21",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2024-12-01",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-06",
+     "studyFirstPostDateStruct": {
+      "date": "2024-11-05",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2024-10-03",
+     "studyFirstSubmitQcDate": "2024-11-03"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Adult and pediatric patients with biopsy proven IgAN or IgAVN with varied severity of proteinuria and kidney function beyond what is currently included in most clinical trials. Adults with post-transplant IgAN recurrence are also included.",
+       "interventionNames": [
+        "Drug: Atacicept"
+       ],
+       "label": "IgAN or IgAVN",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Adults with biopsy-proven pMN associated with anti-PLA2R antibodies at low risk of spontaneous remission, or experiencing recurrent or resistant disease.",
+       "interventionNames": [
+        "Drug: Atacicept"
+       ],
+       "label": "pMN",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Adults with biopsy-proven primary MCD or FSGS and evidence of anti-nephrin antibodies. Children with frequently relapsing, steroid-dependent, or non-genetic steroid-resistant nephrotic syndrome with evidence of anti-nephrin antibodies.",
+       "interventionNames": [
+        "Drug: Atacicept"
+       ],
+       "label": "Primary Nephrotic Syndrome (MCD/FSGS)",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "IgAN or IgAVN",
+        "Primary Nephrotic Syndrome (MCD/FSGS)",
+        "pMN"
+       ],
+       "description": "Atacicept 150 mg SC QW via pre-filled syringe",
+       "name": "Atacicept",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "pMN",
+      "IgAN",
+      "Nephrotic Syndrome",
+      "MCD",
+      "FSGS"
+     ],
+     "keywords": [
+      "IGA Glomerulonephritis",
+      "IGA Nephropathy",
+      "Iga Nephropathy 1",
+      "Immunoglobulin A Nephropathy Nephritis",
+      "IGA Type Nephropathy, IGA",
+      "Primary Membranous Nephropathy",
+      "Nephrotic Syndrome",
+      "Immunoglobulin A (IgA)",
+      "Immunoglobulin A vasculitis with nephritis (IgAVN)",
+      "Anti-PLA2R associated membranous nephropathy (PLA2R-MN)",
+      "Idiopathic/primary nephrotic syndrome (MCD/FSGS)",
+      "Glomerulonephritis",
+      "Nephritis",
+      "Autoimmune Diseases",
+      "Immune System Diseases",
+      "Kidney Diseases",
+      "Glomerulonephritis, IGA"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 250,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Atacicept in Multiple Glomerular Diseases",
+     "nctId": "NCT06983028",
+     "officialTitle": "A Phase 2 Study to Evaluate the Safety and Efficacy of Atacicept in Multiple Autoimmune Glomerular Diseases (PIONEER)",
+     "orgStudyIdInfo": {
+      "id": "VT-001-0060"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Vera Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Vera Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2027-11",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-06-26",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-06-23",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-11",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2025-07-07",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-06",
+     "studyFirstPostDateStruct": {
+      "date": "2025-05-21",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-05-13",
+     "studyFirstSubmitQcDate": "2025-05-13"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Atacicept dose A administered subcutaneous (sc) injection monthly",
+       "interventionNames": [
+        "Drug: Atacicept"
+       ],
+       "label": "Atacicept Arm 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Atacicept dose B administered subcutaneous (sc) injection monthly",
+       "label": "Atacicept Arm 2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Atacicept dose C administered subcutaneous (sc) injection monthly",
+       "label": "Atacicept Arm 3",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Atacicept dose D administered subcutaneous (sc) injection weekly",
+       "label": "Atacicept Arm 4",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Atacicept dose E administered subcutaneous (sc) injection weekly for 24 weeks, followed by monthly sc injections",
+       "label": "Atacicept Arm 5",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Atacicept Arm 1"
+       ],
+       "description": "Drug: Atacicept",
+       "name": "Atacicept",
+       "otherNames": [
+        "VT-001"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "IgA Nephropathy (IgAN)",
+      "Berger Disease"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 90,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Monthly Dosing of Atacicept in IgAN",
+     "nctId": "NCT07020923",
+     "officialTitle": "A Study Evaluating Monthly (Every 4 Weeks) Dosing of Atacicept in Patients With IgAN",
+     "orgStudyIdInfo": {
+      "id": "VT-001-0020"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Vera Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Vera Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2027-09",
+      "type": "ESTIMATED"
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-04-13",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-04-08",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2026-09",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2025-05-29",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-04",
+     "studyFirstPostDateStruct": {
+      "date": "2025-06-13",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-05-13",
+     "studyFirstSubmitQcDate": "2025-06-05"
+    }
+   }
+  }
+ ]
+}

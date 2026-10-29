@@ -1,0 +1,61 @@
+{
+ "nctId": "NCT03287960",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "groupIds": [
+      "OG000"
+     ],
+     "nonInferiorityComment": "Two-sided confidence interval obtained using Clopper-Pearson method and one-sided p-value obtained from exact binomial test, testing that at least 5% of participants in the population of interest will achieve 10% weight loss.",
+     "nonInferiorityType": "OTHER",
+     "pValue": "0.0001",
+     "statisticalMethod": "Clopper-Pearson method"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "19.96",
+         "upperLimit": "72.88",
+         "value": "45.5"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "11"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The percentage of participants who met the ≥10% weight loss threshold (responders) after approximately Week 52 (\\~1 year) of treatment were analyzed.",
+   "dispersionType": "90% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants received setmelanotide once daily by SC injection for approximately 52 weeks (\\~ 1 year).",
+     "id": "OG000",
+     "title": "Setmelanotide (Entire Study)"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "The full analysis set (FAS) consisted of participants who received any of the study drug injections and at least one baseline assessment (included those who did and did not demonstrate ≥5 kg weight loss or 5% of body weight if weight is \\<100 kg at baseline over the initial12-week open label treatment period and proceeded into the double blind, placebo-controlled withdrawal period). Participants in pivotal cohort were included in the analysis.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Week 52",
+   "title": "Percentage of Participants Who Reached ≥10% Weight Loss Threshold After 1 Year (Pivotal Cohort)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

@@ -1,0 +1,109 @@
+{
+ "nctId": "NCT02537574",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.61",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "1.70",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "0.264",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.940",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "1.02",
+     "statisticalMethod": "Regression, Logistic"
+    },
+    {
+     "ciLowerLimit": "0.48",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "1.33",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "0.207",
+     "groupIds": [
+      "OG001",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.383",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "0.80",
+     "statisticalMethod": "Regression, Logistic"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "57"
+        },
+        {
+         "groupId": "OG001",
+         "value": "51"
+        },
+        {
+         "groupId": "OG002",
+         "value": "57"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "124"
+      },
+      {
+       "groupId": "OG001",
+       "value": "126"
+      },
+      {
+       "groupId": "OG002",
+       "value": "124"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Toleration to the injection was demonstrated by mild opioid withdrawal symptoms (Clinical Opiate Withdrawal Scale \\[COWS\\] \\</=12 or Subjective Opiate Withdrawal Scale \\[SOWS\\] \\</=10) following VIVITROL administration. The COWS is a clinician-rated questionnaire designed to measure 11 common opioid withdrawal signs or symptoms. The summed score provides information about the level of physical dependence on opioids. The range of COWS scores is 0-4 (none to minimal); 5-12 (mild); 13-24 (moderate); 25-36 (moderately severe); and 37-48 (severe withdrawal. The SOWS is a 16-item self-report questionnaire designed to measure the severity of opioid withdrawal symptoms. The subject rates the intensity of symptoms using a 5-point scale. The range of SOWS scores is 1-10 (mild); 11-20 (moderate); and 21-30 (severe).",
+   "groups": [
+    {
+     "description": "Oral naltrexone + sublingual buprenorphine\n\nNTX/BUP: Daily doses",
+     "id": "OG000",
+     "title": "NTX/BUP"
+    },
+    {
+     "description": "Oral naltrexone + sublingual placebo\n\nNTX/PBO-B: Daily doses",
+     "id": "OG001",
+     "title": "NTX/PBO-B"
+    },
+    {
+     "description": "Oral placebo naltrexone + sublingual placebo buprenorphine\n\nPBO-N/PBO-B: Daily doses",
+     "id": "OG002",
+     "title": "PBO-N/PBO-B"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "The Full Analysis Set (FAS) includes all subjects in the Safety Population (randomized subjects who received at least 1 dose of study drug), excluding the second enrollment of duplicate subjects (those subjects who enrolled multiple times in the same study).",
+   "reportingStatus": "POSTED",
+   "timeFrame": "1 week",
+   "title": "Proportion of Subjects Who Receive and Tolerate a VIVITROL Injection",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

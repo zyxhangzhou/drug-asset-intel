@@ -1,0 +1,181 @@
+{
+ "nctId": "NCT02090959",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "202"
+        }
+       ]
+      }
+     ],
+     "title": "Any AEs"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "24"
+        }
+       ]
+      }
+     ],
+     "title": "SAEs"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "44"
+        }
+       ]
+      }
+     ],
+     "title": "Drug-Related AEs"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1"
+        }
+       ]
+      }
+     ],
+     "title": "AEs Leading to Withdrawal From Study"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "87"
+        }
+       ]
+      }
+     ],
+     "title": "Mild AEs"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "71"
+        }
+       ]
+      }
+     ],
+     "title": "Moderate AEs"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "42"
+        }
+       ]
+      }
+     ],
+     "title": "Severe AEs"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "2"
+        }
+       ]
+      }
+     ],
+     "title": "Life-threatening AEs"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "218"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "An adverse event (AE): any untoward medical occurrence in a participant who received study drug without regard to possibility of causal relationship. Severity of AEs: graded per Common Terminology Criteria for AEs (CTCAE), Version 3.0 as Grade 1 (mild), 2 (moderate), 3 (severe), 4 (life-threatening), 5 (death). Drug-related AEs: AEs with possible, probable, unlikely relationship, or unrelated to study drug. Serious AEs (SAEs): death, a life-threatening AE, inpatient hospitalization or prolongation of existing hospitalization, persistent or significant disability or incapacity, a congenital anomaly or birth defect, or an important medical event that jeopardized participant and required medical intervention. TEAE: an AE that occurred or worsened in the period extending from first dose of study drug in this study to 6 weeks after last dose of study drug in this study. A summary of other non-serious AEs and all SAEs, regardless of causality is located in Reported AE section.",
+   "groups": [
+    {
+     "description": "Participants received ataluren suspension orally TID, 10 mg/kg at morning, 10 mg/kg at midday, and 20 mg/kg at evening (total daily dose 40 mg/kg) for up to 144 weeks.",
+     "id": "OG000",
+     "title": "Ataluren"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "AT population included all participants who received at least 1 dose of ataluren treatment in this extension study.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline (Day 1) up to 6 weeks post-treatment (Week 150)",
+   "title": "Number of Participants With Treatment-Emergent Adverse Events (TEAEs)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "29"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "218"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Abnormalities in laboratory variables as pre-defined in protocol for safety-monitoring were: Hepatic (Serum alanine aminotransferase \\[ALT\\]: increase of greater than \\[\\>\\] 150 units/liter \\[U/L\\] with stable or decrease of creatinine kinese \\[CK\\]; Serum glutamyl amino transferase \\[GGT\\] \\[U/L\\]: Grade 2 \\[\\>2.5 - 5.0 \\* upper limit of normal {ULN}\\]), renal (Serum cystatin C miiligrams/liter \\[mg/L\\] \\>1.33 - 2.00 mg/L; Serum blood urea nitrogen \\[UREAN\\] \\[millimoles/liter {mmol/L}\\] greater than or equal to \\[≥\\]1.5 - 3.0 \\* ULN; Urine occult blood: 2+ \\[Small\\], 3+ \\[Moderate\\], 4+ \\[Large\\]), and electrolytes (Serum sodium: low \\[mmol/L\\], Grade 3-4 \\[less than {\\<}130 mmol/L\\]; serum potassium: high \\[mmol/L\\], Grade 3-4 \\[\\>6.0 mmol/L\\]; and Serum bicarbonate \\[mmol/L\\]: Grade 2 \\[\\<16 - 11 mmol/L\\]).",
+   "groups": [
+    {
+     "description": "Participants received ataluren suspension orally TID, 10 mg/kg at morning, 10 mg/kg at midday, and 20 mg/kg at evening (total daily dose 40 mg/kg) for up to 144 weeks.",
+     "id": "OG000",
+     "title": "Ataluren"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "AT population included all participants who received at least 1 dose of ataluren treatment in this extension study.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline (Day 1) up to 6 weeks post-treatment (Week 150)",
+   "title": "Number of Participants With Abnormalities in Clinical Laboratory Parameters",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

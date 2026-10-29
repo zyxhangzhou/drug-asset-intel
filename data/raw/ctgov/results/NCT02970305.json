@@ -1,0 +1,132 @@
+{
+ "nctId": "NCT02970305",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-3.8",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-0.1",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "0.95",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0434",
+     "paramType": "Difference in MMRM LSMs",
+     "paramValue": "-1.9",
+     "statisticalMethod": "Mixed-effects model for repeated measure"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.60",
+         "value": "61.8"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.61",
+         "value": "61.0"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "199"
+        },
+        {
+         "groupId": "OG001",
+         "value": "201"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Baseline"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.69",
+         "value": "-10.5"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.69",
+         "value": "-8.8"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "174"
+        },
+        {
+         "groupId": "OG001",
+         "value": "173"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Change from baseline to Week 26"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "199"
+      },
+      {
+       "groupId": "OG001",
+       "value": "201"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The NSA-16 is a semi-structured interview and a validated scale containing 16 items for evaluating negative symptoms of schizophrenia, i.e. the reduction or absence of emotional expression and volitional behaviors normally present in a healthy person. Items are scored based on behaviors during the interview (items 1-4, 6, 7, 9, 11, 15, 16) or previous 7 days (items 5, 8, 10, 12-14) on a 6-point scale from 1 to 6. The NSA-16 total score is the sum of item scores. It can range from 16 to a maximum of 96, with higher scores denoting more severe negative symptoms in schizophrenia.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Treatment was to be started at a daily dose of pimavanserin 20 mg; this dose was to be continued for the first 2 weeks of treatment . Subsequently, during the flexible-dosing period of double-blind treatment period (Weeks 2-8), the dose could be continued unchanged, increased to up to 34 mg daily, or decreased to up to 10 mg daily at the investigator's discretion, based on clinical benefit and safety/tolerability. No dose adjustments were allowed during the fixed-dosing period of the double-blind treatment period (Weeks 8-26).\n\nPatients were to continue their background antipsychotic treatment",
+     "id": "OG000",
+     "title": "Pimavanserin"
+    },
+    {
+     "description": "Pimavanserin matching placebo once daily\n\nPatients were to continue their background antipsychotic treatment",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Patients who were randomised and treated (received at least one dose of study drug) and had a baseline value and at least one post-baseline value for NSA-16 total score.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "From baseline to Week 26",
+   "title": "Change From Baseline to Week 26 in the Negative Symptom Assessment-16 (NSA-16) Total Score",
+   "type": "PRIMARY",
+   "unitOfMeasure": "score on a scale"
+  }
+ ]
+}

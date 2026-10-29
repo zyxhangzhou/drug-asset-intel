@@ -1,0 +1,82 @@
+{
+ "nctId": "NCT02211209",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-121.7",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-66.6",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "< 0.0001",
+     "paramType": "Least Squares Mean Difference",
+     "paramValue": "-94.1",
+     "statisticalMethod": "ANCOVA"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "-4.0",
+         "upperLimit": "39.2",
+         "value": "17.6"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "-97.4",
+         "upperLimit": "-55.5",
+         "value": "-76.5"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "33"
+      },
+      {
+       "groupId": "OG001",
+       "value": "33"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The Month 3 endpoint was defined as the average of Week 12 (Day 78) and Week 13 (Day 85) fasting assessments.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Volanesorsen-matching placebo administered subcutaneously once-weekly for 52 weeks.",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Volanesorsen 300 mg administered subcutaneously once-weekly for 52 weeks.",
+     "id": "OG001",
+     "title": "Volanesorsen"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "The full analysis set included all participants who were randomized, received at least one dose of study drug, and had a baseline TG assessment.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline to 3 months",
+   "title": "Percent Change in Fasting Triglycerides (TG) From Baseline to Month 3",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percent change"
+  }
+ ]
+}

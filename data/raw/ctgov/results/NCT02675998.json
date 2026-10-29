@@ -1,0 +1,92 @@
+{
+ "nctId": "NCT02675998",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "groupIds": [
+      "OG002",
+      "OG003"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.01",
+     "statisticalMethod": "ANCOVA"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG002",
+         "spread": "0.23",
+         "value": "1.4"
+        },
+        {
+         "groupId": "OG003",
+         "spread": "0.21",
+         "value": "0.6"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "0"
+      },
+      {
+       "groupId": "OG001",
+       "value": "0"
+      },
+      {
+       "groupId": "OG002",
+       "value": "43"
+      },
+      {
+       "groupId": "OG003",
+       "value": "37"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Serum phosphorus difference between placebo and tenapanor in the change from the end of the 8 week treatment period to the end of the randomized withdrawal period in Efficacy Analysis Set. The efficacy analysis was pre-defined to be a pooled analysis of all tenapanor treated patients with a minimum of a 1.2 mg/dL decrease in serum phosphorus during the 8-week treatment period",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Tenapanor, 3mg BID (6mg total)\n\nTenapanor",
+     "id": "OG000",
+     "title": "3mg BID"
+    },
+    {
+     "description": "Tenapanor, 10mg BID (20mg total)\n\nTenapanor",
+     "id": "OG001",
+     "title": "10mg BID"
+    },
+    {
+     "description": "Tenapanor, patients start at 30mg BID and can down titrate weekly to 20, 15, 10, and 3mg BID, sequentially based on a GI tolerability question\n\nTenapanor",
+     "id": "OG002",
+     "title": "30 mg Dose Titration"
+    },
+    {
+     "description": "Placebo\n\nPlacebo",
+     "id": "OG003",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Patients who completed the first 8-weeks and had a minimum of a 1.2 mg/dL decrease in serum phosphorus were included in the analysis. Also, it was a pre-specificied pooled analysis where all the tenapanor treated patients were combined thus all patients are included in the 30 mg dose titration group.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "4 weeks",
+   "title": "Placebo Adjusted Change in Serum Phosphate During Randomized Withdrawal Period From Pooled Tenapanor Arms",
+   "type": "PRIMARY",
+   "unitOfMeasure": "mg/dL"
+  }
+ ]
+}

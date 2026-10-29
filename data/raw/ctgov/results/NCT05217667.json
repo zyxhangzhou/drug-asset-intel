@@ -1,0 +1,102 @@
+{
+ "nctId": "NCT05217667",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "28.916",
+         "value": "-36.79"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "18.335",
+         "value": "-40.10"
+        }
+       ]
+      }
+     ],
+     "title": "LDL-C Friedewald Formula"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "28.554",
+         "value": "-35.68"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "18.122",
+         "value": "-39.94"
+        }
+       ]
+      }
+     ],
+     "title": "LDL-C PUC"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "28.870",
+         "value": "-38.34"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "18.612",
+         "value": "-40.88"
+        }
+       ]
+      }
+     ],
+     "title": "LDL-C Martin-Hopkins Methodology"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "9"
+      },
+      {
+       "groupId": "OG001",
+       "value": "9"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "LDL-C, computed using Friedewald formula, Martin-Hopkins methodology and preparative ultracentrifugation (PUC).",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants will be randomized to receive ARO-ANG3 200 mg subcutaneous (SC) injection on Day 1 and Day 84 during the initial 36 weeks of the study and on Day1 and Months 3, 6, 9, 12, 15, 18, and 21 of the extension period.",
+     "id": "OG000",
+     "title": "ARO-ANG3 200 mg/EXT ARO-ANG3 200 mg"
+    },
+    {
+     "description": "Participants will be randomized to receive ARO-ANG3 300 mg SC injection on Day 1 and Day 84 during the initial 36 weeks of the study and on Day1 and Months 3, 6, 9, 12, 15, 18, and 21 of the extension period.",
+     "id": "OG001",
+     "title": "ARO-ANG3 300 mg / EXT ARO-ANG3 300 mg"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Full Analysis Set: All randomized participants who receive at least 1 dose of investigational product (IP)",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Week 24",
+   "title": "Percent Change From Baseline in Fasting LDL-C at Week 24",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage change"
+  }
+ ]
+}

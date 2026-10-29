@@ -1,0 +1,221 @@
+{
+ "nctId": "NCT04576949",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "3.94",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "16.25",
+     "estimateComment": "Stratified by site",
+     "groupDescription": "Abstinence from Week 3 to Week 6",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "< 0.0001",
+     "pValueComment": "Two-sided, calculated by exact computations with clinical site as a stratifier.",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "8.00",
+     "statisticalMethod": "exact computations"
+    },
+    {
+     "ciLowerLimit": "3.92",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "14.38",
+     "estimateComment": "Marginal (unadjusted) odds ratio",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<0.0001",
+     "pValueComment": "Two-sided, derived from marginal odds ratio",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "7.30",
+     "statisticalMethod": "Exact computations"
+    },
+    {
+     "ciLowerLimit": "0.16",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.25",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<0.0001",
+     "pValueComment": "p-value for difference in proportions",
+     "paramType": "Marginal Difference in Proportions",
+     "paramValue": "0.21",
+     "statisticalMethod": "Cochran-Mantel-Haenszel"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "4.4"
+        },
+        {
+         "groupId": "OG001",
+         "value": "25.3"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "271"
+      },
+      {
+       "groupId": "OG001",
+       "value": "269"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Smoking abstinence as verified by weekly expired carbon monoxide (CO) measurements ≤10 parts per million (ppm).",
+   "groups": [
+    {
+     "description": "one placebo tablet orally (PO) three times daily (TID) plus behavioral support for 12 weeks",
+     "id": "OG000",
+     "title": "Placebo + Behavioral Support"
+    },
+    {
+     "description": "one cytisinicline tablet PO TID plus behavioral support for 6 weeks followed by one placebo tablet PO TID plus behavioral support for 6 weeks",
+     "id": "OG001",
+     "title": "6 Week Cytisinicline + 6 Week Placebo + Behavioral Support"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "All Randomized Set: all randomized participants. Placebo and 6-week treatment arms only.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Weeks 3 to 6",
+   "title": "Percentage of Participants With Smoking Abstinence From Weeks 3 to Week 6",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "3.69",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "11.57",
+     "estimateComment": "Stratified by site",
+     "groupDescription": "Abstinence from Week 9 to Week 12",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "< 0.0001",
+     "pValueComment": "Two-sided, calculated by exact computations with clinical site as a stratifier.",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "6.29",
+     "statisticalMethod": "exact computations"
+    },
+    {
+     "ciLowerLimit": "3.81",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "11.12",
+     "estimateComment": "Marginal (unadjusted) odds ratio",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<0.0001",
+     "pValueComment": "Two-sided, derived from marginal odds ratio.",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "6.41",
+     "statisticalMethod": "Exact computations"
+    },
+    {
+     "ciLowerLimit": "0.20",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.30",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<0.0001",
+     "pValueComment": "p-value for difference in proportions",
+     "paramType": "Marginal Difference in Proportions",
+     "paramValue": "0.26",
+     "statisticalMethod": "Cochran-Mantel-Haenszel"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "7.0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "32.6"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "271"
+      },
+      {
+       "groupId": "OG001",
+       "value": "270"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Smoking abstinence as verified by weekly expired CO measurements ≤10 ppm.",
+   "groups": [
+    {
+     "description": "one placebo tablet orally (PO) three times daily (TID) plus behavioral support for 12 weeks",
+     "id": "OG000",
+     "title": "Placebo + Behavioral Support"
+    },
+    {
+     "description": "one cytisinicline tablet PO TID plus behavioral support for 12 weeks",
+     "id": "OG001",
+     "title": "12 Week Cytisinicline + Behavioral Support"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "All Randomized Set: all randomized participants. Placebo and 12-week treatment arms only.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Weeks 9 to 12",
+   "title": "Percentage of Participants With Smoking Abstinence From Weeks 9 to Week 12",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

@@ -1,0 +1,77 @@
+{
+ "nctId": "NCT02040623",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "2.9",
+         "value": "-4.2"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "3.7",
+         "value": "-6.2"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "2.6",
+         "value": "-2.1"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "7"
+      },
+      {
+       "groupId": "OG001",
+       "value": "6"
+      },
+      {
+       "groupId": "OG002",
+       "value": "9"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Change from baseline (Visit 1) of total CFS score at 12 weeks. Total CFS score range 0-20, where '0' represents no fluorescein staining of any region and '20' represents severe staining the entire cornea.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "R348 Ophthalmic Solution 0.2% 2 drops per eye twice a day\n\nR348 Ophthalmic Solution, 0.2%: R348 Ophthalmic Solution 0.2% 2 drops per eye twice a day",
+     "id": "OG000",
+     "title": "R348 Ophthalmic Solution, 0.2%"
+    },
+    {
+     "description": "R348 Ophthalmic Solution, 0.5% 2 drops per eye twice a day\n\nR348 Ophthalmic Solution, 0.5%: R348 Ophthalmic Solution, 0.5% 2 drops per eye twice a day",
+     "id": "OG001",
+     "title": "R348 Ophthalmic Solution, 0.5%"
+    },
+    {
+     "description": "Placebo Ophthalmic Solution 2 drops per eye twice a day\n\nPlacebo Ophthalmic Solution: Placebo Ophthalmic Solution 2 drops per eye twice a day",
+     "id": "OG002",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "The per-protocol (PP) population excludes subjects with significant protocol deviations or with early study termination",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline to 12 weeks",
+   "title": "Change From Baseline (Visit 1) of Total Corneal Fluorescein Staining Score at 12 Weeks.",
+   "type": "PRIMARY",
+   "unitOfMeasure": "units on a scale"
+  }
+ ]
+}

@@ -1,0 +1,49 @@
+{
+ "nctId": "NCT03254927",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "0.8",
+         "upperLimit": "22.1",
+         "value": "7"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "30"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The percentage of patients who achieve a complete response or partial response per Per Response Evaluation Criteria In Solid Tumors Criteria (RECIST version 1.1), Complete Response (CR) = disappearance of all target lesions and non-target lesions, Partial Response (PR), \\>= 30% decrease in the sum of the longest diameter of target lesions with no progression in non-target lesions and no new lesions.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "During the treatment phase of the study, eligible patients will receive assigned treatments in 3 week cycles until progression.\n\nCDX-3379 and cetuximab: Dose: 12 mg/kg CDX-3379 once every 3 weeks in combination with 400 mg/m2 cetuximab on the first day followed by weekly doses of 250 mg/m2 cetuximab.",
+     "id": "OG000",
+     "title": "CDX-3379 and Cetuximab"
+    }
+   ],
+   "paramType": "NUMBER",
+   "reportingStatus": "POSTED",
+   "timeFrame": "The proportion of evaluable patients who achieve a best overall response of complete or partial response according to RECIST 1.1 assessed up to 24 months.",
+   "title": "Objective Response Rate",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

@@ -1,0 +1,288 @@
+{
+ "nctId": "NCT03334214",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.003",
+     "statisticalMethod": "ANOVA"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "5.82",
+         "value": "-0.04"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "5.41",
+         "value": "-5.37"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "15"
+      },
+      {
+       "groupId": "OG001",
+       "value": "26"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Absolute change in liver fat percentage as quantified by magnetic resonance imaging-estimated proton density fat fraction (MRI-PDFF) from baseline to post-treatment MRI.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Calculated volume to match active comparator administered subcutaneously once weekly for 13 weeks",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Single dose of DGAT2Rx administered subcutaneously once weekly for 13 weeks.",
+     "id": "OG001",
+     "title": "IONIS DGAT2Rx 250 mg"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "The randomized population included all participants who are randomized into the study regardless of whether they received the study drug.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline to Week 15",
+   "title": "Absolute Change in Liver Fat Percentage (Randomized Population)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "liver fat percentage"
+  },
+  {
+   "analyses": [
+    {
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.026",
+     "statisticalMethod": "ANOVA"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "6.11",
+         "value": "-0.64"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "5.40",
+         "value": "-5.15"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "12"
+      },
+      {
+       "groupId": "OG001",
+       "value": "25"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Absolute change in liver fat percentage as quantified by MRI-PDFF from baseline to post-treatment MRI.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Calculated volume to match active comparator administered subcutaneously once weekly for 13 weeks.",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Single dose of DGAT2Rx administered subcutaneously once weekly for 13 weeks.",
+     "id": "OG001",
+     "title": "IONIS DGAT2Rx 250 mg"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "The per protocol set included all randomized participants who received at least 10 of the prescribed doses and received the first 4 doses in the first 5 weeks, not missing 3 consecutive weekly doses and having no significant protocol deviations.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline to Week 15",
+   "title": "Absolute Change in Liver Fat Percentage (Per Protocol Population)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "liver fat percentage"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "13.3"
+        },
+        {
+         "groupId": "OG001",
+         "value": "48.3"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "15"
+      },
+      {
+       "groupId": "OG001",
+       "value": "29"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "An adverse event (AE) is any unfavorable and unintended sign (including a clinically-significant abnormal laboratory finding, for example), symptom, or disease temporally associated with the study or use of investigational drug product, whether or not the AE is considered related to the investigational drug product.",
+   "groups": [
+    {
+     "description": "Calculated volume to match active comparator administered subcutaneously once weekly for 13 weeks.",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Single dose of DGAT2Rx administered subcutaneously once weekly for 13 weeks.",
+     "id": "OG001",
+     "title": "IONIS DGAT2Rx 250 mg"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "The safety set included all randomized participants who received at least one dose of study drug.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to 176 days",
+   "title": "Percentage of Participants With Adverse Events That Were Related to Treatment With IONIS DGAT2Rx",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "6.7"
+        },
+        {
+         "groupId": "OG001",
+         "value": "37.9"
+        }
+       ]
+      }
+     ],
+     "title": "Mild"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "6.7"
+        },
+        {
+         "groupId": "OG001",
+         "value": "6.9"
+        }
+       ]
+      }
+     ],
+     "title": "Moderate"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0.0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "3.4"
+        }
+       ]
+      }
+     ],
+     "title": "Severe"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "15"
+      },
+      {
+       "groupId": "OG001",
+       "value": "29"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "AEs were graded according to the Common Terminology Criteria for Adverse Events (CTCAE) Version 4.03, June 2010. Grades: mild - the event is easily tolerated by the participant and does not affect the participant's usual daily activities; moderate - the event causes the participant more discomfort and interrupts the participant's usual daily activities; severe - the event is incapacitating and causes considerable interference with the participant's usual daily activities.",
+   "groups": [
+    {
+     "description": "Calculated volume to match active comparator administered subcutaneously once weekly for 13 weeks.",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Single dose of DGAT2Rx administered subcutaneously once weekly for 13 weeks.",
+     "id": "OG001",
+     "title": "IONIS DGAT2Rx 250 mg"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "The safety set included all randomized participants who received at least one dose of study drug.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to 176 days",
+   "title": "Percentage of Participants With Adverse Events, Graded by Severity, That Were Related to Treatment With IONIS DGAT2Rx",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

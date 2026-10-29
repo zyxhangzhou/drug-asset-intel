@@ -1,0 +1,115 @@
+{
+ "nctId": "NCT03764475",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "104"
+        },
+        {
+         "groupId": "OG001",
+         "value": "60"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "230"
+      },
+      {
+       "groupId": "OG001",
+       "value": "102"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "An AE is any untoward medical occurrence associated with the use of a drug in humans, whether or not it is considered drug related. An AE can therefore be any unfavorable and unintended sign (including an abnormal laboratory finding), symptom, or disease temporally associated with the use of a medicinal (investigational) product, whether or not related to the medicinal (investigational) product. All AEs that began after initiating study treatment (treatment-emergent AEs \\[TEAEs\\]) in ARQ-151-202 are presented.",
+   "groups": [
+    {
+     "description": "This arm consisted of participants who previously participated in study ARQ-151-201 and received either roflumilast (ARQ-151) cream (0.15% or 0.3%) or vehicle cream, and agreed to enroll in the 202 study. Upon completing the 201 study, participants applied roflumilast cream 0.3% once daily for 52 weeks for long-term safety monitoring in the 202 study.",
+     "id": "OG000",
+     "title": "Cohort 1: Study 201 Participants"
+    },
+    {
+     "description": "This arm consisted of participants who did not previously participate in study ARQ-151-201, and were enrolled after the time of amendment 1 in this study. Participants applied roflumilast cream 0.3% once daily for 52 weeks to monitor long-term safety.",
+     "id": "OG001",
+     "title": "Cohort 2: Non-study 201 Participants"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "All randomized participants who received ≥1 dose of study treatment are included.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to 52 weeks",
+   "title": "Number of Participants Experiencing ≥1 Treatment-emergent Adverse Event (TEAE)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "8"
+        },
+        {
+         "groupId": "OG001",
+         "value": "2"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "230"
+      },
+      {
+       "groupId": "OG001",
+       "value": "102"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "An SAE is any AE that in the view of either the PI or Sponsor, results in any of the following outcomes: Death, a life-threatening AE, inpatient hospitalization or prolongation of existing hospitalization, a persistent or significant incapacity or substantial disruption of the ability to conduct normal life functions, or a congenital anomaly/birth defect.",
+   "groups": [
+    {
+     "description": "This arm consisted of participants who previously participated in study ARQ-151-201 and received either ARQ-151 cream (0.15% or 0.3%) or vehicle cream, and agreed to enroll in the 202 study. Upon completing the 201 study, participants applied ARQ-151 cream 0.3% once daily for 52 weeks for long-term safety monitoring in the 202 study.",
+     "id": "OG000",
+     "title": "Cohort 1: Study 201 Participants"
+    },
+    {
+     "description": "This arm consisted of participants who did not previously participate in study ARQ-151-201, and were enrolled in the 202 study after the time of amendment 1. Participants applied ARQ-151 cream 0.3% once daily for 52 weeks for long-term safety monitoring.",
+     "id": "OG001",
+     "title": "Cohort 2: Non-study 201 Participants"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "All randomized participants who received ≥1 dose of study drug are included.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to 52 weeks",
+   "title": "Number of Participants Experiencing ≥1 Serious Adverse Event (SAE)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

@@ -1,0 +1,130 @@
+{
+ "nctId": "NCT03772340",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.238",
+         "value": "3.4"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.239",
+         "value": "3.75"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "63"
+      },
+      {
+       "groupId": "OG001",
+       "value": "63"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "As measured by the Motion Sickness Severity Scale (MSSS) (NRS 0-6); Lower score indicates improvement",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Tradipitant: Oral capsule",
+     "id": "OG000",
+     "title": "Tradipitant"
+    },
+    {
+     "description": "Placebo: Oral capsule",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "reportingStatus": "POSTED",
+   "timeFrame": "1 day",
+   "title": "The Most Severe Motion Sickness Severity During Vehicle Travel",
+   "type": "PRIMARY",
+   "unitOfMeasure": "units on a scale"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "52"
+        },
+        {
+         "groupId": "OG001",
+         "value": "38"
+        }
+       ],
+       "title": "Vomiting No"
+      },
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "11"
+        },
+        {
+         "groupId": "OG001",
+         "value": "25"
+        }
+       ],
+       "title": "Vomiting Yes"
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "63"
+      },
+      {
+       "groupId": "OG001",
+       "value": "63"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Defined as subjects ever vomited (MSSS=6) or terminated early due to severity during the vehicle travel. As measured by the Motion Sickness Severity Scale (NRS 0-6).",
+   "groups": [
+    {
+     "description": "Tradipitant: Oral capsule",
+     "id": "OG000",
+     "title": "Tradipitant"
+    },
+    {
+     "description": "Placebo: Oral capsule",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "reportingStatus": "POSTED",
+   "timeFrame": "1 day",
+   "title": "Percentage of Vomiting",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

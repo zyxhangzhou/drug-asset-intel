@@ -1,0 +1,187 @@
+{
+ "nctId": "NCT01731951",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "15.2",
+         "upperLimit": "58.5",
+         "value": "36.84"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "10.6",
+         "upperLimit": "60.8",
+         "value": "35.7"
+        },
+        {
+         "comment": "Upper and lower limits of 95% CI were not estimable due to limited number of participants with the event.",
+         "groupId": "OG002",
+         "lowerLimit": "NA",
+         "upperLimit": "NA",
+         "value": "0"
+        },
+        {
+         "groupId": "OG003",
+         "lowerLimit": "11.6",
+         "upperLimit": "55.1",
+         "value": "33.3"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "19"
+      },
+      {
+       "groupId": "OG001",
+       "value": "14"
+      },
+      {
+       "groupId": "OG002",
+       "value": "9"
+      },
+      {
+       "groupId": "OG003",
+       "value": "18"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "OR:CI/PR/CR per IWG-MRT. CR:Bone marrow (BM):\\<5% blasts;≤Grade 1 MF, AND Peripheral blood:Hemoglobin (Hb) ≥100 g/liter (g/L) and \\<upper normal limit (UNL);Neutrophil count(NC) ≥1x10\\^9/L and \\<UNL; Platelet(PLT) count ≥100x10\\^9/L and \\<UNL;\\<2% immature myeloid cells(IMCs), AND Clinical: Resolution of disease symptoms; Spleen and liver not palpable; No evidence of extramedullary hematopoeisis(EMH). PR:All CR criteria plus peripheral blood: Hb≥85 but \\<100g/L and \\<UNL; NC ≥1x10\\^9/L and \\<UNL; PLT count ≥50 but \\<100x10\\^9/L and \\<UNL;\\<2%IMCs. CI:achievement of anemia (≥20 g/L increase in Hb level), spleen(baseline splenomegaly palpable at 5-10 cm, below left costal margin(LCM), becomes not palpable), symptoms response (50% reduction in total symptom score) without progressive disease (PD) (appearance of new splenomegaly- palpable at least \\[≥\\]5 cm below LCM)/increase in severity of anemia, thrombocytopenia/neutropenia. Data is reported separately for arms whose response was assessed per IWG-MRT.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants with MF regardless of spliceosome mutation status or presence of ring sideroblasts received imetelstat 9.4 mg/kg, IV as 2-hour infusion on Day 1 of each 21-day cycle in Core Phase up to 9 cycles. Participants could receive imetelstat beyond Cycle 9 in the Extension Phase if they did not meet any of the withdrawal criteria, did not have disease progression and were receiving clinical benefit from treatment as determined by the investigator. Following treatment discontinuation, participants entered the Event Monitoring Phase for collection of survival status, disease status, and subsequent treatment information (Up to approximately 5.7 years).",
+     "id": "OG000",
+     "title": "Arm A: Imetelstat 9.4 mg/kg (MF)"
+    },
+    {
+     "description": "Participants with MF regardless of spliceosome mutation status or presence of ring sideroblasts received imetelstat 9.4 mg/kg, IV as 2-hour infusion on Days 1, 8, and 15 of 21-day cycle in Cycle 1 followed by 9.4 mg/kg on Day 1 of each 21-day cycle up to 9 cycles in the Core Phase. Participants could receive imetelstat beyond Cycle 9 in the Extension Phase if they did not meet any of the withdrawal criteria, did not have disease progression and were receiving clinical benefit from treatment as determined by the investigator. Following treatment discontinuation, participants entered the Event Monitoring Phase for collection of survival status, disease status, and subsequent treatment information (Up to approximately 5.7 years).",
+     "id": "OG001",
+     "title": "Arm B: Imetelstat 9.4 mg/kg as Induction + Maintenance (MF)"
+    },
+    {
+     "description": "Participants with MF and spliceosome mutations or ring sideroblasts present received 2 cycles (Cycles 1-2) of imetelstat 7.5 mg/kg, IV as 2-hour infusion on Day 1 of a 28-day cycle followed by maintenance therapy with the same regimen or the possibility of dose escalation to imetelstat 9.4 mg/kg weekly if response to the initial dose was insufficient up to 9 cycles in the Core Phase. Participants could receive imetelstat beyond Cycle 9 in the Extension Phase if they did not meet any of the withdrawal criteria, did not have disease progression and were receiving clinical benefit from treatment as determined by the investigator. Following treatment discontinuation, participants entered the Event Monitoring Phase for collection of survival status, disease status, and subsequent treatment information (Up to approximately 5.7 years).",
+     "id": "OG002",
+     "title": "Arm E: Imetelstat 7.5 - 9.4 mg/kg (MF [With Spliceosome Mutation or Ring Sideroblasts])"
+    },
+    {
+     "description": "Participants with MF without spliceosome mutations or ring sideroblasts present received 2 cycles (Cycles 1-2) of imetelstat 9.4 mg/kg, IV as 2-hour infusion on Day 1 of a 28-day cycle followed by maintenance therapy with the same regimen or imetelstat 7.5 mg/kg twice weekly on Days 1, 3 for 2 cycles of 28-day cycle (Cycles 3-4) followed by imetelstat 7.5 mg/kg 3-times-weekly on Days 1, 3, 5 of Cycles 5 and beyond of 28-day cycle up to 9 cycles in the Core Phase. Participants could receive imetelstat beyond Cycle 9 in the Extension Phase if they did not meet any of the withdrawal criteria, did not have disease progression and were receiving clinical benefit from treatment as determined by the investigator. Following treatment discontinuation, participants entered the Event Monitoring Phase for collection of survival status, disease status, and subsequent treatment information (Up to approximately 5.7 years).",
+     "id": "OG003",
+     "title": "Arm F: Imetelstat 7.5 - 9.4 mg/kg (MF [Without Spliceosome Mutation and Ring Sideroblasts])"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Eligible Analysis Set included subset of all participants who received at least one dose of study drug that excludes ineligible participants who did not satisfy each and every eligibility criteria for study entry. Data is reported for arm groups (Arms A, B, E and F) whose overall response was assessed by IWG-MRT criteria.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to first 9 cycles of treatment (each cycle was of 21 days for Arms A and B and 28 days for Arms E and F)",
+   "title": "MF Participants: Percentage of Participants With Overall Response (OR) - (Clinical Improvement[CI] or Partial Remission[PR] or Complete Remission[CR]) Per International Working Group - Myeloproliferative Neoplasms Research and Treatment (IWG-MRT) Criteria",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "comment": "Upper and lower limits of 95% CI were not estimable due to limited number of participants with the event.",
+         "groupId": "OG000",
+         "lowerLimit": "NA",
+         "upperLimit": "NA",
+         "value": "0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "9"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "For this pilot study, overall response was defined as achievement of a leukemic response (i.e. a clinically meaningful reduction in Blast cells). This was quantified as \\<5% peripheral blood and bone marrow blasts % that lasts for at least two months. Data is reported separately for this arm where response was assessed by this specific criterion.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants with blast-phase MF/AML received imetelstat 9.4 mg/kg, IV as 2-hour infusion weekly on Days 1, 8, 15, 22 of a 28-day cycle up to 9 cycles in the Core Phase. Participants could receive imetelstat beyond Cycle 9 in the Extension Phase if they did not meet any of the withdrawal criteria, did not have disease progression and were receiving clinical benefit from treatment as determined by the investigator. Following treatment discontinuation, participants entered the Event Monitoring Phase for collection of survival status, disease status, and subsequent treatment information (Up to approximately 5.7 years).",
+     "id": "OG000",
+     "title": "Arm D: Imetelstat 9.4 mg/kg (Blast-phase MF/Acute Myeloid Leukemia)"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "All Treated Analysis Set included all participants who received at least one dose of study drug. Data is reported for Arm D: Imetelstat 9.4 mg/kg (Blastic MF/AML) participants whose overall response was assessed by a specific criterion.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to first 9 cycles of treatment (each cycle was of 28 days for Arm D)",
+   "title": "Blastic MF/AML Participants: Percentage of Participants With Overall Response",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "2.5",
+         "upperLimit": "64.1",
+         "value": "33.3"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "9"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "OR: HI/PR/CR per IWG. CR: BM:≤5% myeloblasts (all cell lines normal maturation), Peripheral blood:Hgb ≥11g/dL, PLTs ≥100x10\\^9/L, Neutrophils ≥1.0x10\\^9/L, Blasts 0%. PR: All CR criteria if abnormal before treatment except- BM blasts decreased ≥50% over pretreatment but still \\>5%, Cellularity, morphology not relevant. HI responses:1) Erythroid: Hgb increase ≥1.5 g/dL, Relevant reduction of red blood cell(RBC) units transfusions by absolute ≥4 RBC transfusions/8 week (wk) compared with pretreatment transfusion number in previous 8 wk. Only RBC transfusions given for Hgb of ≤9.0 g/dL.2)PLTs:Absolute increase ≥30x10\\^9/L starting \\>20x10\\^9/L PLTs; Increase from \\<20x10\\^9/L to \\>20x10\\^9/L and by ≥100%; 3)Neutrophil: ≥100% increase, absolute increase \\>0.5x10\\^9/L; 4)Progression/relapse after HI:≥1 of following:≥50% decrement from maximum response levels in granulocytes/PLTs, Reduction in Hgb ≥1.5 g/dL,Transfusion dependence. Data is reported separately for arm whose response was assessed per IWG.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants with either MDS/MPN or MDS and spliceosome mutations or ring sideroblasts present received 2 cycles of 28-day cycle (Cycles 1-2) of imetelstat 7.5 mg/kg, IV as 2-hour infusion on Day 1 of a 28-day cycle followed by maintenance therapy with the same regimen or the possibility of dose escalation to imetelstat 9.4 mg/kg weekly if response to the initial dose was insufficient up to 9 cycles in the Core Phase. Participants could receive imetelstat beyond Cycle 9 in the Extension Phase if they did not meet any of the withdrawal criteria, did not have disease progression and were receiving clinical benefit from treatment as determined by the investigator. Following treatment discontinuation, participants entered the Event Monitoring Phase for collection of survival status, disease status, and subsequent treatment information (Up to approximately 5.7 years).",
+     "id": "OG000",
+     "title": "Arm G: Imetelstat 7.5 - 9.4 mg/kg (MDS/MPN or MDS With Spliceosome Mutations or Ring Sideroblasts)"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "All Treated Analysis Set included all participants who received at least one dose of the study drug. Data is reported for Arm G: Imetelstat 9.4 mg/kg (MDS/MPN or MDS and spliceosome mutations or ring sideroblasts) participants whose overall response was assessed by IWG criteria.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to first 9 cycles of treatment (each cycle was of 28 days for Arm G)",
+   "title": "MDS Participants: Percentage of Participants With Overall Response (Hematologic Improvement [HI] or PR or CR) Per IWG Criteria",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

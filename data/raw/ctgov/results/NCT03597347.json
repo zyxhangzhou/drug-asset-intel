@@ -1,0 +1,73 @@
+{
+ "nctId": "NCT03597347",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "3"
+        },
+        {
+         "groupId": "OG001",
+         "value": "1"
+        },
+        {
+         "groupId": "OG002",
+         "value": "3"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "7"
+      },
+      {
+       "groupId": "OG001",
+       "value": "3"
+      },
+      {
+       "groupId": "OG002",
+       "value": "4"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "NTM sputum culture conversion to negative (defined as at least three consecutive negative mycobacterial cultures collected at least 4 weeks apart during the treatment period).",
+   "groups": [
+    {
+     "description": "Participants with chronic pulmonary MAC or MABSC infection who have not consistently achieved negative NTM sputum cultures while currently on a multidrug NTM guideline-based antimycobacterial regimen, which has been ongoing for at least 9 months prior to the Baseline visit.\n\nMolgramostim nebulizer solution: 300 µg / dose molgramostim (recombinant human GM-CSF) for inhalation\n\nPARI eFlow nebulizer system: PARI eFlow nebulizer system",
+     "id": "OG000",
+     "title": "Group 1"
+    },
+    {
+     "description": "Participants with chronic pulmonary MAC or MABSC infection who remain sputum culture positive but have stopped a multidrug NTM guideline-based antimycobacterial regimen at least 28 days prior to Screening due to lack of response or intolerance.\n\nMolgramostim nebulizer solution: 300 µg / dose molgramostim (recombinant human GM-CSF) for inhalation\n\nPARI eFlow nebulizer system: PARI eFlow nebulizer system",
+     "id": "OG001",
+     "title": "Group 2"
+    },
+    {
+     "description": "Participants with chronic pulmonary MAC or MABSC infection not meeting recommendations for treatment with a multidrug NTM guideline-based antimycobacterial regimen based on failure to meet American Thoracic Society/Infectious Diseases Society of America (ATS/IDSA) criteria for NTM pulmonary disease (i.e. absence of radiologic findings and clinical symptoms beyond what is expected from underlying CF).\n\nMolgramostim nebulizer solution: 300 µg / dose molgramostim (recombinant human GM-CSF) for inhalation\n\nPARI eFlow nebulizer system: PARI eFlow nebulizer system",
+     "id": "OG002",
+     "title": "Group 3"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Safety analysis set (participants who received at least one dose of trial treatment).",
+   "reportingStatus": "POSTED",
+   "timeFrame": "48 weeks",
+   "title": "Number of Participants With Sputum NTM Culture Conversion to Negative",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

@@ -1,0 +1,115 @@
+{
+ "nctId": "NCT04856917",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-2.47",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "90",
+     "ciUpperLimit": "8.19",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "3.21",
+     "groupDescription": "Least square (LS) Mean, SE, 90% CI, \\& p-value was based on a linear repeated measures model (LRMM) which included treatment, visit, treatment by visit interaction \\& facial IGA at baseline (Grade 3 vs. 4) as categorical covariates \\& baseline facial inflammatory lesion count as continuous covariate.",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.3757",
+     "paramType": "LS Mean Difference",
+     "paramValue": "2.9",
+     "statisticalMethod": "LRMM"
+    },
+    {
+     "ciLowerLimit": "-3.73",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "90",
+     "ciUpperLimit": "6.95",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "3.22",
+     "groupDescription": "LS Mean, SE, 90% CI, \\& p-value was based on a LRMM which included treatment, visit, treatment by visit interaction \\& facial IGA at baseline (Grade 3 vs. 4) as categorical covariates \\& baseline facial inflammatory lesion count as continuous covariate.",
+     "groupIds": [
+      "OG001",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.6183",
+     "paramType": "LS Mean Difference",
+     "paramValue": "1.6",
+     "statisticalMethod": "LRMM"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "13.63",
+         "value": "-6.8"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "16.38",
+         "value": "-7.4"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "10.66",
+         "value": "-9.6"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "34"
+      },
+      {
+       "groupId": "OG001",
+       "value": "35"
+      },
+      {
+       "groupId": "OG002",
+       "value": "36"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The number of facial inflammatory lesions (pustules, papules, and nodular lesions) on the forehead, left and right cheeks, nose, and chin were counted. Baseline was defined as the last available measurement taken prior to the first dose of study treatment.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants received imsidolimab 400 mg by SC injection on Day 1, followed by 200 mg on Days 29 and 57.",
+     "id": "OG000",
+     "title": "Imsidolimab 400/200 mg"
+    },
+    {
+     "description": "Participants received imsidolimab 200 mg by SC injection on Day 1, followed by 100 mg on Days 29 and 57.",
+     "id": "OG001",
+     "title": "Imsidolimab 200/100 mg"
+    },
+    {
+     "description": "Participants received imsidolimab matching placebo by SC injection on Days 1, 29, and 57.",
+     "id": "OG002",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Participants in ITT Analysis Set with available data were analyzed.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Week 12",
+   "title": "Change From Baseline in Facial Inflammatory Lesion Counts at Week 12",
+   "type": "PRIMARY",
+   "unitOfMeasure": "lesions"
+  }
+ ]
+}

@@ -1,0 +1,314 @@
+{
+ "nctId": "NCT03931785",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-0.42",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.58",
+     "estimateComment": "MD-7246 minus placebo",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.7467",
+     "paramType": "Least squares (LS) mean difference",
+     "paramValue": "0.08",
+     "statisticalMethod": "MMRM"
+    },
+    {
+     "ciLowerLimit": "-0.07",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.93",
+     "estimateComment": "MD-7246 minus placebo",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0941",
+     "paramType": "LS mean difference",
+     "paramValue": "0.43",
+     "statisticalMethod": "MMRM"
+    },
+    {
+     "ciLowerLimit": "-0.44",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.56",
+     "estimateComment": "MD-7246 minus placebo",
+     "groupIds": [
+      "OG000",
+      "OG003"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.8098",
+     "paramType": "LS mean difference",
+     "paramValue": "0.06",
+     "statisticalMethod": "MMRM"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.179",
+         "value": "-2.01"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.179",
+         "value": "-1.93"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "0.182",
+         "value": "-1.58"
+        },
+        {
+         "groupId": "OG003",
+         "spread": "0.180",
+         "value": "-1.95"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "97"
+      },
+      {
+       "groupId": "OG001",
+       "value": "97"
+      },
+      {
+       "groupId": "OG002",
+       "value": "97"
+      },
+      {
+       "groupId": "OG003",
+       "value": "97"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Abdominal pain is measured daily in an eDiary, using an 11-point NRS, where 0 is anchored with \"no abdominal pain\" and 10 is anchored with \"worst possible abdominal pain.\" The postbaseline weekly abdominal pain score is the average of the non-missing daily abdominal pain at its worst scores during a week (Weeks 1-12) if there are at least 4 daily scores entered into the eDiary during the week. Weekly change from baseline was calculated for each week as the weekly score minus the baseline score.\n\nMixed model repeated measures (MMRM) results are based on a repeated measures analysis with treatment, analysis week, and treatment-by-week interaction as fixed effects and baseline as covariate. An unstructured covariance structure was used to model intra-subject correlation with subjects as a random effect.\n\nBaseline is derived from the eDiary data collected daily in the Pretreatment Period, specifically the period of time from 14 days before randomization up to the time of randomization.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "4 matching placebo oral tablets once daily (QD) for 12 weeks",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "1 MD-7246 300-μg oral tablet and 3 matching placebo oral tablets QD for 12 weeks",
+     "id": "OG001",
+     "title": "MD-7246 300 μg"
+    },
+    {
+     "description": "2 MD-7246 300-μg oral tablets and 2 matching placebo oral tablets QD for 12 weeks",
+     "id": "OG002",
+     "title": "MD-7246 600 μg"
+    },
+    {
+     "description": "4 MD-7246 300-μg oral tablets QD for 12 weeks",
+     "id": "OG003",
+     "title": "MD-7246 1200 μg"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Modified Intent-to-Treat (mITT) Population: all randomized participants who received at least 1 dose of study drug. Participants with an assessment at Baseline and during the treatment period.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, up to Week 12 (end of the Treatment Period)",
+   "title": "Change From Baseline in Abdominal Pain at Its Worst on a NRS Through the Treatment Period",
+   "type": "PRIMARY",
+   "unitOfMeasure": "units on a scale"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-12.9",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "15.0",
+     "estimateComment": "Difference in responder rate (MD-7246 - placebo). 95% confidence intervals (CIs) for differences in responder rates were obtained using the normal approximation to the binomial distribution.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "paramType": "Difference in Responder Rate",
+     "paramValue": "1.0"
+    },
+    {
+     "ciLowerLimit": "-25.3",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "2.6",
+     "estimateComment": "Difference in responder rate (MD-7246 - placebo). 95% CIs for differences in responder rates were obtained using the normal approximation to the binomial distribution.",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "paramType": "Difference in Responder Rate",
+     "paramValue": "-11.3"
+    },
+    {
+     "ciLowerLimit": "-21.2",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "6.8",
+     "estimateComment": "Difference in responder rate (MD-7246 - placebo). 95% CIs for differences in responder rates were obtained using the normal approximation to the binomial distribution.",
+     "groupIds": [
+      "OG000",
+      "OG003"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "paramType": "Difference in Responder Rate",
+     "paramValue": "-7.2"
+    },
+    {
+     "ciLowerLimit": "0.591",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "1.839",
+     "estimateComment": "Odds ratio for response (MD-7246 : placebo)",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.8852",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "1.043",
+     "statisticalMethod": "Cochran-Mantel-Haenszel"
+    },
+    {
+     "ciLowerLimit": "0.360",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "1.117",
+     "estimateComment": "Odds ratio for response (MD-7246 : placebo)",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.1152",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "0.634",
+     "statisticalMethod": "Cochran-Mantel-Haenszel"
+    },
+    {
+     "ciLowerLimit": "0.425",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "1.317",
+     "estimateComment": "Odds ratio for response (MD-7246 : placebo)",
+     "groupIds": [
+      "OG000",
+      "OG003"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.3157",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "0.749",
+     "statisticalMethod": "Cochran-Mantel-Haenszel"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "55.7"
+        },
+        {
+         "groupId": "OG001",
+         "value": "56.7"
+        },
+        {
+         "groupId": "OG002",
+         "value": "44.3"
+        },
+        {
+         "groupId": "OG003",
+         "value": "48.5"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "97"
+      },
+      {
+       "groupId": "OG001",
+       "value": "97"
+      },
+      {
+       "groupId": "OG002",
+       "value": "97"
+      },
+      {
+       "groupId": "OG003",
+       "value": "97"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "A 6/12 Week Abdominal Pain 30% Responder was a participant who had a decrease from baseline of ≥30% in the weekly abdominal pain score for that week for at least 6 out of the 12 weeks of the Treatment Period; for any week, a participant with \\< 4 daily abdominal pain scores available was considered a non-responder for that week.\n\nAbdominal pain is measured daily in an eDiary, using an 11-point NRS, where 0 is anchored with \"no abdominal pain\" and 10 is anchored with \"worst possible abdominal pain.\" The postbaseline weekly abdominal pain score is the average of the non-missing daily abdominal pain at its worst scores during a week (Weeks 1-12) if there are at least 4 daily scores entered into the eDiary during the week.",
+   "groups": [
+    {
+     "description": "4 matching placebo oral tablets once daily (QD) for 12 weeks",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "1 MD-7246 300-μg oral tablet and 3 matching placebo oral tablets QD for 12 weeks",
+     "id": "OG001",
+     "title": "MD-7246 300 μg"
+    },
+    {
+     "description": "2 MD-7246 300-μg oral tablets and 2 matching placebo oral tablets QD for 12 weeks",
+     "id": "OG002",
+     "title": "MD-7246 600 μg"
+    },
+    {
+     "description": "4 MD-7246 300-μg oral tablets QD for 12 weeks",
+     "id": "OG003",
+     "title": "MD-7246 1200 μg"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Modified Intent-to-Treat (mITT) Population: all randomized participants who received at least 1 dose of study drug. Participants with an assessment at Baseline and during the treatment period.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline through Week 12",
+   "title": "Percentage of Participants Who Were 6/12 Week Abdominal Pain 30% Change Responders",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

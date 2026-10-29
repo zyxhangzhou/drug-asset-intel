@@ -1,0 +1,167 @@
+{
+ "nctId": "NCT02158533",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-4.1",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.4",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "1.14",
+     "estimateComment": "Estimates below zero favor ALKS 5461.",
+     "groupDescription": "Analysis was conducted for each stage separately and overall efficacy was based on combined stage analysis where stage-specific estimates were combined using pre-specified equal weights. Within each stage ALKS 5461 2mg/2mg was compared to placebo (i.e., ALKS 5461 2mg/2mg S1 vs Placebo S1; and ALKS 5461 2mg/2mg S2 vs Placebo S2. The pre-specified order of hypothesis tests was ALKS 5461 2/2 compared to placebo followed by ALKS 5461 0.5mg/0.5mg compared to placebo.",
+     "groupIds": [
+      "OG000",
+      "OG002",
+      "OG003",
+      "OG005"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.109",
+     "pValueComment": "Hypothesis tests were two-sided with an alpha of 0.05. Control of type 1 error inflation due to multiplicity was achieved by pre-specifying a fixed sequence for statistical tests.",
+     "paramType": "Least squares mean difference",
+     "paramValue": "-1.8",
+     "statisticalComment": "ALKS 5461 was compared to pbo using stage-specific MMRM for MADRS-10 Change from Baseline. Model-derived estimates were combined using equal weights.",
+     "statisticalMethod": "Mixed Models Analysis"
+    },
+    {
+     "ciLowerLimit": "-2.3",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "2.3",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "1.17",
+     "estimateComment": "Estimates below zero favor ALKS 5461.",
+     "groupDescription": "Analysis was conducted for each stage separately and overall efficacy was based on combined stage analysis where stage-specific estimates were combined using pre-specified equal weights. Within each stage ALKS 5461 0.5mg/0.5mg was compared to placebo (i.e., ALKS 5461 0.5mg/0.5mg S1 vs Placebo S1; and ALKS 5461 0.5mg/0.5mg S2 vs Placebo S2). The pre-specified order of hypothesis tests was ALKS 5461 2/2 compared to placebo followed by ALKS 5461 0.5/0.5 compared to placebo.",
+     "groupIds": [
+      "OG000",
+      "OG001",
+      "OG003",
+      "OG004"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.975",
+     "pValueComment": "Hypothesis tests were two-sided with an alpha of 0.05. Control of type 1 error inflation due to multiplicity was achieved by pre-specifying a fixed sequence for statistical tests.",
+     "paramType": "Least squares mean difference",
+     "paramValue": "0.0",
+     "statisticalComment": "ALKS 5461 was compared to pbo using stage-specific MMRM for MADRS-10 Change from Baseline. Model-derived estimates were combined using equal weights.",
+     "statisticalMethod": "Mixed Models Analysis"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.67",
+         "value": "-11.1"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "1.49",
+         "value": "-8.4"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "1.50",
+         "value": "-13.0"
+        },
+        {
+         "groupId": "OG003",
+         "spread": "1.08",
+         "value": "-2.2"
+        },
+        {
+         "groupId": "OG004",
+         "spread": "1.27",
+         "value": "-4.8"
+        },
+        {
+         "groupId": "OG005",
+         "spread": "1.13",
+         "value": "-3.9"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "256"
+      },
+      {
+       "groupId": "OG001",
+       "value": "58"
+      },
+      {
+       "groupId": "OG002",
+       "value": "59"
+      },
+      {
+       "groupId": "OG003",
+       "value": "54"
+      },
+      {
+       "groupId": "OG004",
+       "value": "55"
+      },
+      {
+       "groupId": "OG005",
+       "value": "54"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The MADRS-10 scale is a clinician-administered questionnaire comprised of 10 items used to measure the severity of MDD symptoms. Scores range from 0 (no apparent symptoms) to 60 (most severe symptoms). Individual questionnaire items include: Apparent Sadness, Reported Sadness, Inner Tension, Reduced Sleep, Reduced Appetite, Concentration Difficulties, Lassitude, Inability to Feel, Pessimistic Thoughts, and Suicidal Thoughts.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Randomized to placebo in Stage 1",
+     "id": "OG000",
+     "title": "Placebo S1"
+    },
+    {
+     "description": "Randomized to ALKS 5461 0.5mg/0.5mg in Stage 1",
+     "id": "OG001",
+     "title": "ALKS 5461 0.5mg/0.5mg S1"
+    },
+    {
+     "description": "Randomized to ALKS 5461 2mg/2mg in Stage 1",
+     "id": "OG002",
+     "title": "ALKS 5461 2mg/2mg S1"
+    },
+    {
+     "description": "Randomized to placebo in Stage 2",
+     "id": "OG003",
+     "title": "Placebo S2"
+    },
+    {
+     "description": "Randomized to ALKS 5461 0.5mg/0.5mg in Stage 2",
+     "id": "OG004",
+     "title": "ALKS 5461 0.5mg/0.5mg S2"
+    },
+    {
+     "description": "Randomized to ALKS 5461 2mg/2mg in Stage 2",
+     "id": "OG005",
+     "title": "ALKS 5461 2mg/2mg S2"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Stage 1 and Stage 2 Full Analysis Sets (FAS) consisted of subjects who were randomized and took at least 1 dose of study drug and had at least 1 postbaseline MADRS-10 assessment in the respective stage.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline and 5 weeks for each stage",
+   "title": "Change From Baseline to Week 5 in the Montgomery Asberg Depression Rating Scale (MADRS) Total Score",
+   "type": "PRIMARY",
+   "unitOfMeasure": "units on a scale"
+  }
+ ]
+}

@@ -1,0 +1,82 @@
+{
+ "nctId": "NCT00532844",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "1.2",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "1.8",
+     "groupDescription": "To determine if administration of saproprterin dihydrochloride administered with Vitamin C results in higher plasma BH4 concentrations when compared with administration of sapropterin dihydrochloride alone in subjects with endothelial dysfunction. The difference in the plasma BH4 concentration (AUC0-12 hr) between the 2 regimens will be compared using a mixed model with a 0.05 level of significance. The difference is represented as the geometric mean ratio.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<0.001",
+     "pValueComment": "The model will constitute the independent variables of treatment regimen, treatment sequence, and period as fixed effects, and subject as a random effect. The dependent variable plasma BH4 concentration (AUC0-12 hr) expressed in log transformation.",
+     "paramType": "Geometric Mean Ratio",
+     "paramValue": "1.5",
+     "statisticalMethod": "Mixed Models Analysis"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "286",
+         "value": "633"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "545",
+         "value": "993"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "44"
+      },
+      {
+       "groupId": "OG001",
+       "value": "43"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Plasma BH4 concentration area under the curve (AUC0-12 hrs) at the end of each regimen in subjects with endothelial dysfunction.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Sapropterin dihydrochloride 5 mg/kg twice a day administered as whole tablets orally within 1 hour after morning and evening meals for 13 days and the last dose within 1 hour after a morning meal on Day 14 or Day 28.",
+     "id": "OG000",
+     "title": "Sapropterin Dihydrochloride 10 mg/kg"
+    },
+    {
+     "description": "Sapropterin dihydrochloride 5 mg/kg and 500 mg Vitamin C twice a day administered as whole tablets orally within 1 hour after morning and evening meals for 13 days and the last dose within 1 hour after a morning meal on Day 14 or Day 28.",
+     "id": "OG001",
+     "title": "Sapropterin Dihydrochloride+Vitamin C 10 mg/kg"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Intent-to-treat (ITT) Population",
+   "reportingStatus": "POSTED",
+   "timeFrame": "At 30 minutes prior to dosing, 0.5, 1.0, 1.5, 2.0, 3.0, 4.0, 5.0, 6.0, 8.0, 10.0, and 12.0 hours after dosing.",
+   "title": "Area Under the Curve (AUC0-12hrs) of Plasma BH4 Concentration",
+   "type": "PRIMARY",
+   "unitOfMeasure": "nM*hr"
+  }
+ ]
+}

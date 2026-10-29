@@ -1,0 +1,481 @@
+{
+ "nctId": "NCT03877926",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.93",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "1.10",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityComment": "The 95% CIs for the Day 64 TNA NF50 GMT ratios between AV7909 Lot 1 and Lot 2 had to be within 0.5 to 2.0 equivalence margin.",
+     "nonInferiorityType": "EQUIVALENCE",
+     "paramType": "Ratio",
+     "paramValue": "1.01"
+    },
+    {
+     "ciLowerLimit": "0.96",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "1.14",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityComment": "The 95% CIs for the Day 64 TNA NF50 GMT ratios between AV7909 Lot 1 and Lot 3 had to be within 0.5 to 2.0 equivalence margin.",
+     "nonInferiorityType": "EQUIVALENCE",
+     "paramType": "Ratio",
+     "paramValue": "1.05"
+    },
+    {
+     "ciLowerLimit": "0.95",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "1.13",
+     "groupIds": [
+      "OG001",
+      "OG002"
+     ],
+     "nonInferiorityComment": "The 95% CIs for the Day 64 TNA NF50 GMT ratios between AV7909 Lot 2 and Lot 3 had to be within 0.5 to 2.0 equivalence margin.",
+     "nonInferiorityType": "EQUIVALENCE",
+     "paramType": "Ratio",
+     "paramValue": "1.04"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "0.718",
+         "upperLimit": "0.814",
+         "value": "0.765"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "0.698",
+         "upperLimit": "0.788",
+         "value": "0.741"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "0.673",
+         "upperLimit": "0.762",
+         "value": "0.716"
+        },
+        {
+         "groupId": "OG003",
+         "lowerLimit": "0.299",
+         "upperLimit": "0.363",
+         "value": "0.330"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "835"
+      },
+      {
+       "groupId": "OG001",
+       "value": "854"
+      },
+      {
+       "groupId": "OG002",
+       "value": "854"
+      },
+      {
+       "groupId": "OG003",
+       "value": "430"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "GMT of TNA NF50 at Day 64 in AV7909 study groups (Lots 1, 2 and 3) and BioThrax group. The outcome measure in AV7909 study groups was assessed for AV7909 lot-to-lot consistency, which was based on GMT TNA NF50 response at Day 64, wherein the 95% confidence interval (CI) for ratios of geometric mean titer (GMT) of TNA NF50 at Day 64 (seven weeks after second AV7909 vaccination) for each of the three AV7909 lot-to-lot comparisons had to be within equivalence margin of 0.5 and 2.0.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Eligible participants who received AV7909 vaccine lot 1.",
+     "id": "OG000",
+     "title": "AV7909 Lot 1"
+    },
+    {
+     "description": "Eligible participants who received AV7909 vaccine lot 2.",
+     "id": "OG001",
+     "title": "AV7909 Lot 2"
+    },
+    {
+     "description": "Eligible participants who received AV7909 vaccine lot 3.",
+     "id": "OG002",
+     "title": "AV7909 Lot 3"
+    },
+    {
+     "description": "Eligible participants who received BioThrax vaccine.",
+     "id": "OG003",
+     "title": "BioThrax"
+    }
+   ],
+   "paramType": "GEOMETRIC_MEAN",
+   "populationDescription": "Participants that met protocol-defined immunogenicity criteria from AV7909 Lot 1 group (n=835), AV7909 Lot 2 group (n=854), AV7909 Lot 3 group (n=854) and BioThrax group (n=430) are included.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Day 64 (seven weeks after second AV7909 vaccination)",
+   "title": "Geometric Mean Titer (GMT) of Toxin Neutralizing Antibody (TNA) 50% Neutralization Factor (NF50) at Day 64",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Titer (TNA NF50)"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "65.6",
+         "upperLimit": "72.0",
+         "value": "68.9"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "62.3",
+         "upperLimit": "68.8",
+         "value": "65.6"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "61.1",
+         "upperLimit": "67.6",
+         "value": "64.4"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "835"
+      },
+      {
+       "groupId": "OG001",
+       "value": "854"
+      },
+      {
+       "groupId": "OG002",
+       "value": "854"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Proportion of participants with TNA NF50 ≥0.56 at Day 64 in each AV7909 study groups (Lot 1, Lot 2, Lot 3). The assessment of the immune response in each study group was pre-defined as the lower bound of the two-sided 95% CI to be ≥40% for the percentage of AV7909 participants in each of the three lots achieving a TNA NF50 ≥0.56 at seven weeks after second AV7909 vaccination (Day 64).",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Eligible participants who received AV7909 vaccine lot 1.",
+     "id": "OG000",
+     "title": "AV7909 Lot 1"
+    },
+    {
+     "description": "Eligible participants who received AV7909 vaccine lot 2.",
+     "id": "OG001",
+     "title": "AV7909 Lot 2"
+    },
+    {
+     "description": "Eligible participants who received AV7909 vaccine lot 3.",
+     "id": "OG002",
+     "title": "AV7909 Lot 3"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Data from participants that met protocol-defined criteria for inclusion in the immunogenicity population are included in the analysis; i.e., AV7909 Lot 1 n=835; AV7909 Lot 2 n=854; AV7909 Lot 3 n=854. Pre-defined success criteria (lower bound of the two-sided 95% CI to be ≥40% for the percentage of participants achieving a TNA NF50 ≥0.56 at Day 64) was only applicable for AV7909 study groups and not for BioThrax group; therefore, BioThrax group is not included.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Day 64 (seven weeks after second AV7909 vaccination)",
+   "title": "Percentage of Participants in AV7909 Lot 1, Lot 2 and Lot 3 Groups Achieving a TNA NF50 ≥0.56 on Day 64",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "64.5",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "68.1",
+     "groupIds": [
+      "OG000"
+     ],
+     "nonInferiorityType": "OTHER",
+     "paramType": "Percentage of participants",
+     "paramValue": "66.3"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "64.4",
+         "upperLimit": "68.1",
+         "value": "66.3"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "2543"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Percentage of AV7909 participants (from all three AV7909 study groups pooled) achieving a TNA NF50 ≥0.56 on Day 64 (seven weeks after second AV7909 vaccination). The assessment of the immune response in AV7909 participants was pre-defined as the lower bound of the two-sided 95% CI for proportion of AV7909 participants with TNA NF50 ≥0.56 at Day 64 ≥40%.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants from groups 1-3 \\[.e., AV7909 Lot 1 (group 1), AV7909 Lot 2 (group 2) and AV7909 Lot 3 (group 3)\\] were pooled to assess TNA NF50 response at Day 64.",
+     "id": "OG000",
+     "title": "Pooled AV7909"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Data from participants who met protocol-defined criteria for inclusion in the immunogenicity population from all three AV7909 study groups (i.e., pooled AV7909; n=2543) were used for the analysis. The pre-defined success criteria (lower bound of the two-sided 95% CI to be ≥40% for the percentage of participants achieving a TNA NF50 ≥0.56 on Day 64) was not applicable for BioThrax participants, therefore BioThrax group was not included.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Day 64 (seven weeks after second AV7909 vaccination)",
+   "title": "Percentage of AV7909 Participants Achieving a TNA NF50 ≥0.56 on Day 64",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "20.0",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "29.2",
+     "groupIds": [
+      "OG000",
+      "OG001",
+      "OG002",
+      "OG003"
+     ],
+     "nonInferiorityComment": "A non-inferiority margin of -15% was used for the difference in percentage of AV7909 participants (pooled from three AV7909 study groups \\[Lot 1, 2, and 3\\]) vs. BioThrax participants who achieved TNA NF50 ≥0.29 at Day 64. The success criterion was defined as the lower bound of 95% confidence interval of the difference in the percentage of AV7909 vs. BioThrax participants being greater than -15%.",
+     "nonInferiorityType": "NON_INFERIORITY",
+     "paramType": "Difference in percentage",
+     "paramValue": "24.5"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "85.0",
+         "upperLimit": "89.6",
+         "value": "87.4"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "84.3",
+         "upperLimit": "89.0",
+         "value": "86.8"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "83.2",
+         "upperLimit": "88.0",
+         "value": "85.7"
+        },
+        {
+         "groupId": "OG003",
+         "lowerLimit": "56.6",
+         "upperLimit": "66.0",
+         "value": "61.4"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "835"
+      },
+      {
+       "groupId": "OG001",
+       "value": "854"
+      },
+      {
+       "groupId": "OG002",
+       "value": "854"
+      },
+      {
+       "groupId": "OG003",
+       "value": "430"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Proportion of AV7909 participants (in each AV7909 study groups) and BioThrax participants who achieved TNA NF50 ≥0.29 at Day 64. Non-inferiority of AV7909 vaccine to BioThrax vaccine at Day 64 was assessed as determined by the two-sided lower bound for the 95% CI of the difference in the percentage of AV7909 participants (three lots pooled) with a TNA NF50 ≥0.29 and the percentage of BioThrax participants with a TNA NF50 ≥0.29 being greater than -15%.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Eligible participants who received AV7909 vaccine lot 1 and achieved TNA NF50 ≥0.29 at Day 64.",
+     "id": "OG000",
+     "title": "AV7909 Lot 1"
+    },
+    {
+     "description": "Eligible participants who received AV7909 vaccine lot 2 and achieved TNA NF50 ≥0.29 at Day 64.",
+     "id": "OG001",
+     "title": "AV7909 Lot 2"
+    },
+    {
+     "description": "Eligible participants who received AV7909 vaccine lot 3 and achieved TNA NF50 ≥0.29 at Day 64.",
+     "id": "OG002",
+     "title": "AV7909 Lot 3"
+    },
+    {
+     "description": "Eligible participants who received BioThrax vaccine and achieved TNA NF50 ≥0.29 at Day 64.",
+     "id": "OG003",
+     "title": "BioThrax"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Data from participants who met protocol-defined criteria for inclusion in the immunogenicity population from each AV7909 study group (Lot 1 n=835; Lot 2 n=854; Lot 3 n=854) and BioThrax group (n=430) were used in the analysis. For the non-inferiority assessment, participants who met pre-defined criteria (achievement of TNA NF50 ≥0.29 at Day 64) from the pooled AV7909 study groups 1-3 (AV7909 Lot 1, Lot 2, Lot 3; i.e., Pooled AV7909) and BioThrax group were included.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Day 64 (seven weeks after second AV7909 vaccination; five weeks after third BioThrax vaccination)",
+   "title": "Percentage of AV7909 Participants and BioThrax Participants With TNA NF50 ≥0.29 at Day 64",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.9",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "6.5",
+     "estimateComment": "The 95% CI of the relative risk was derived using the Farrington-Manning relative risk score statistic.",
+     "groupIds": [
+      "OG000",
+      "OG001",
+      "OG002",
+      "OG003"
+     ],
+     "nonInferiorityComment": "Relative risk of serious adverse events incidence between AV7909 (combined from all three AV7909 lots) and BioThrax.",
+     "nonInferiorityType": "OTHER",
+     "paramType": "Relative risk (AV7909/BioThrax)",
+     "paramValue": "2.5"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "21"
+        },
+        {
+         "groupId": "OG001",
+         "value": "16"
+        },
+        {
+         "groupId": "OG002",
+         "value": "21"
+        },
+        {
+         "groupId": "OG003",
+         "value": "4"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "1050"
+      },
+      {
+       "groupId": "OG001",
+       "value": "1053"
+      },
+      {
+       "groupId": "OG002",
+       "value": "1048"
+      },
+      {
+       "groupId": "OG003",
+       "value": "533"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Number of AV7909 participants or BioThrax participants who received at least one vaccination and reported serious adverse event(s) (SAEs) from the time of the first vaccination on Day 1 through Day 394.",
+   "groups": [
+    {
+     "description": "Eligible participants who received at least one dose of AV7909 Lot 1.",
+     "id": "OG000",
+     "title": "AV7909 Lot 1"
+    },
+    {
+     "description": "Eligible participants who received at least one dose of AV7909 Lot 2.",
+     "id": "OG001",
+     "title": "AV7909 Lot 2"
+    },
+    {
+     "description": "Eligible participants who received at least one dose of AV7909 Lot 3.",
+     "id": "OG002",
+     "title": "AV7909 Lot 3"
+    },
+    {
+     "description": "Eligible participants who received at least one dose of BioThrax vaccine.",
+     "id": "OG003",
+     "title": "BioThrax"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "For the relative risk of SAE incidence analysis, participants from all three AV7909 study groups (Lot 1, Lot 2, Lot 3) since AV7909 lots 1, 2 and 3 were considered the same product (consecutively manufactured, and released with the same product specifications); hence, it was pre-defined to combine SAE data from participants across the three AV7909 lots for SAE relative risk analysis.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Day 1 though Day 394",
+   "title": "Incidence of Serious Adverse Events",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

@@ -1,0 +1,305 @@
+{
+ "nctId": "NCT00662857",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.846",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "90",
+     "ciUpperLimit": "1.141",
+     "estimateComment": "Geometric Mean Ratio of serum insulin from a single 30 U cartridge to 2 x 15 U cartridges of TI.\n\nBased on pair-wise comparisons from analysis of covariance fitting the model: natural log of parameter = cohort, treatment, visit, subject (cohort).",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+     "paramType": "Ratio of Geometric Means",
+     "paramValue": "0.982",
+     "testedNonInferiority": false
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "1.096",
+         "value": "3337.2"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "1.096",
+         "value": "3396.6"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "25"
+      },
+      {
+       "groupId": "OG001",
+       "value": "25"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Dose-normalized baseline-corrected area under the serum insulin vs. time curve",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "30 U of Technosphere Insulin (TI) administered as 2 x 15 U cartridges as a single-dose during a glucose clamp procedure",
+     "id": "OG000",
+     "title": "Techosphere Insulin - A (2 x 15 U)"
+    },
+    {
+     "description": "30 U of Technosphere Insulin (TI) administered as 1 x 30 U cartridges as a single-dose during a glucose clamp procedure",
+     "id": "OG001",
+     "title": "Techosphere Insulin - B (1 x 30 U)"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Per Protocol Population - All subjects who completed the crossover portion of the trial (through Visit 3), had serum insulin concentration data for both TI Inhalation Powder A and TI Inhalation Powder B and were deemed to be protocol compliant (no major protocol violations during the clinical trial).",
+   "reportingStatus": "POSTED",
+   "timeFrame": "0 to 360 minutes post-dose",
+   "title": "Bioequivalence of Two 15 U Cartridges (TI Inhalation Powder A) and One 30 U Cartridge (TI Inhalation Powder B) Based on Baseline Corrected Insulin AUC0-360",
+   "type": "PRIMARY",
+   "unitOfMeasure": "(micro U)*min/mL"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.823",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "90",
+     "ciUpperLimit": "1.099",
+     "estimateComment": "Geometric Mean Ratio of serum insulin from a single 30 U cartridge to 2 x 15 U cartridges of TI.\n\nBased on pair-wise comparisons from analysis of covariance fitting the model: natural log of parameter = cohort, treatment, visit, subject (cohort).",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+     "paramType": "Ratio of Geometric Means",
+     "paramValue": "0.951",
+     "testedNonInferiority": false
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "0.823",
+         "spread": "1.098",
+         "upperLimit": "1.099",
+         "value": "65.72"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "1.098",
+         "value": "69.08"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "25"
+      },
+      {
+       "groupId": "OG001",
+       "value": "25"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Maximum observed baseline-corrected serum insulin concentration",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "30 U of Technosphere Insulin (TI) administered as 2 x 15 U cartridges as a single-dose during a glucose clamp procedure",
+     "id": "OG000",
+     "title": "Techosphere Insulin - A (2 x 15 U)"
+    },
+    {
+     "description": "30 U of Technosphere Insulin (TI) administered as 1 x 30 U cartridges as a single-dose during a glucose clamp procedure",
+     "id": "OG001",
+     "title": "Techosphere Insulin - B (1 x 30 U)"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Per Protocol Population - All subjects who completed the crossover portion of the trial (through Visit 3), had serum insulin concentration data for both TI Inhalation Powder A and TI Inhalation Powder B and were deemed to be protocol compliant (no major protocol violations during the clinical trial).",
+   "reportingStatus": "POSTED",
+   "timeFrame": "0 to 360 minutes post-dose",
+   "title": "Bioequivalence of Two 15 U Cartridges (TI Inhalation Powder A) and One 30 U Cartridge (TI Inhalation Powder B) Based on Baseline Corrected Insulin Cmax.",
+   "type": "PRIMARY",
+   "unitOfMeasure": "(micro U)/mL"
+  },
+  {
+   "analyses": [
+    {
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+     "pValue": "0.3531",
+     "paramType": "Median Difference (Final Values)",
+     "paramValue": "0",
+     "statisticalMethod": "Signed Rank Test",
+     "testedNonInferiority": false
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "5",
+         "upperLimit": "24",
+         "value": "10"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "5",
+         "upperLimit": "20",
+         "value": "10"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "25"
+      },
+      {
+       "groupId": "OG001",
+       "value": "25"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "dispersionType": "Full Range",
+   "groups": [
+    {
+     "description": "30 U of Technosphere Insulin (TI) administered as 2 x 15 U cartridges as a single-dose during a glucose clamp procedure",
+     "id": "OG000",
+     "title": "Techosphere Insulin - A (2 x 15 U)"
+    },
+    {
+     "description": "30 U of Technosphere Insulin (TI) administered as 1 x 30 U cartridges as a single-dose during a glucose clamp procedure",
+     "id": "OG001",
+     "title": "Techosphere Insulin - B (1 x 30 U)"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "Per Protocol Population - All subjects who completed the crossover portion of the trial (through Visit 3), had serum insulin concentration data for both TI Inhalation Powder A and TI Inhalation Powder B and were deemed to be protocol compliant (no major protocol violations during the clinical trial).",
+   "reportingStatus": "POSTED",
+   "timeFrame": "0 to 360 minutes post-dose",
+   "title": "Bioequivalence of Two 15 U Cartridges (TI Inhalation Powder A) and One 30 U Cartridge (TI Inhalation Powder B) Based on Baseline Corrected Insulin Tmax",
+   "type": "PRIMARY",
+   "unitOfMeasure": "min"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.366",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "90",
+     "ciUpperLimit": "0.578",
+     "estimateComment": "Geometric Mean Ratio of serum insulin from a single 30 U cartridge of TI to 10 U sc insulin lispro.\n\nBased on pair-wise comparisons from analysis of covariance fitting the model: natural log of parameter = cohort, treatment, visit, subject (cohort).",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+     "paramType": "Ratio of Geometric Means",
+     "paramValue": "0.460",
+     "testedNonInferiority": false
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "1.095",
+         "value": "3406.8"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "1.102",
+         "value": "7404.0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "25"
+      },
+      {
+       "groupId": "OG001",
+       "value": "25"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Dose-normalized baseline-corrected area under the serum insulin vs. time curve (time 0 to 360 minutes post-dose)",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "30 U of Technosphere Insulin (TI) administered as 1 x 30 U cartridges as a single-dose during a glucose clamp procedure",
+     "id": "OG000",
+     "title": "Techosphere Insulin - B (1 x 30 U)"
+    },
+    {
+     "description": "10 U of insulin lispro administered subcutaneously during a glucose clamp procedure",
+     "id": "OG001",
+     "title": "10 U Subcutaneous (sc) Insulin Lispro"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Rapid-acting insulin Analogue (RAA) Population\n\nAll subjects who had serum insulin concentration data for both TI Inhalation Powder B and insulin lispro and were deemed to be protocol compliant (no major protocol violations during the clinical trial).",
+   "reportingStatus": "POSTED",
+   "timeFrame": "0 to 360 minutes post-dose",
+   "title": "Relative Bioavailability of 30 U of TI (TI Inhalation Powder B) Versus 10 U of sc Insulin Lispro",
+   "type": "PRIMARY",
+   "unitOfMeasure": "(micro U)*min/mL"
+  }
+ ]
+}

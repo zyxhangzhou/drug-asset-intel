@@ -1,0 +1,60 @@
+{
+ "nctId": "NCT05054725",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "11"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "4"
+      },
+      {
+       "groupId": "OG001",
+       "value": "43"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Evaluation of the antitumor effects of RMC-4630 and sotorasib in locally advanced or metastatic NSCLC patients with KRASG12C mutation with and without co-existing genetic aberrations in specific genes such as STK11/LKB1, KEAP1, and PIK3CA after failure of prior standard therapy. Objective Response Rate (%) is defined as the proportion of patients with Best Overall Response of confirmed CR, or PR. Response was confirmed by a repeat assessment no less than 28 days.",
+   "groups": [
+    {
+     "description": "The two arms have been broken down per dose level rather than by phase or cohort per the CSR, which is provided to FDA and not uploaded to ct.gov. Participants were administered 140 or 200 mg of RMC-4630 twice weekly (BIW) on D1D2 of each week in a 21-day cycle and Sotorasib 960 mg once daily (QD) in a 21-day cycle. The 140mg and 200mg dose levels were explored at the safety run-in stage, and after completion of the safety run-in (DLT clearance) of both dose levels, additional patients were enrolled at both dose levels for the purpose of dose optimization before selecting the final expansion dose. Therefore, both the 140mg and 200mg dose levels included patients in the safety-run in and dose optimization. After that, 200mg was identified as the RP2D dose, which moved to the expansion phase.\n\nStatistical analysis for all sections in the results was performed for all treated patients by dose level, i.e., 140mg vs 200mg. For patients enrolled at the RP2D dose level of 200mg, analysis was further performed based on mutation status, i.e., cohorts 1 vs 2.",
+     "id": "OG000",
+     "title": "RMC-4630 140 mg BIW D1D2 + Sotorasib 960 mg QD"
+    },
+    {
+     "description": "The two arms have been broken down per dose level rather than by phase or cohort per the CSR, which is provided to FDA and not uploaded to ct.gov. Participants were administered 140 or 200 mg of RMC-4630 twice weekly (BIW) on D1D2 of each week in a 21-day cycle and Sotorasib 960 mg once daily (QD) in a 21-day cycle. The 140mg and 200mg dose levels were explored at the safety run-in stage, and after completion of the safety run-in (DLT clearance) of both dose levels, additional patients were enrolled at both dose levels for the purpose of dose optimization before selecting the final expansion dose. Therefore, both the 140mg and 200mg dose levels included patients in the safety-run in and dose optimization. After that, 200mg was identified as the RP2D dose, which moved to the expansion phase.\n\nStatistical analysis for all sections in the results was performed for all treated patients by dose level, i.e., 140mg vs 200mg. For patients enrolled at the RP2D dose level of 200mg, analysis was further performed based on mutation status, i.e., cohorts 1 vs 2.",
+     "id": "OG001",
+     "title": "RMC-4630 200 mg BIW D1D2 + Sotorasib 960 mg QD"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Objective Response Rate (%) is defined as the proportion of patients with Best Overall Response of confirmed CR, or PR.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "31 months",
+   "title": "Objective Response Rate (ORR) as Assessed Per RECIST v1.1",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

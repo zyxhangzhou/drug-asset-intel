@@ -1,0 +1,83 @@
+{
+ "nctId": "NCT05165394",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-8.4",
+     "ciNumSides": "ONE_SIDED",
+     "ciPctValue": "90",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "3.5",
+     "estimateComment": "Confidence interval and p-value are one-sided for test of null hypothesis that the LS mean difference between NBI-1065846 and placebo in DARS total score at Day 57 is greater than or equal to zero.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.8663",
+     "pValueComment": "Significance level = 0.1",
+     "paramType": "Least-Squares Mean Treatment Difference",
+     "paramValue": "-3.9",
+     "statisticalMethod": "ANCOVA"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "3.7",
+         "value": "17.4"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "3.6",
+         "value": "13.5"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "44"
+      },
+      {
+       "groupId": "OG001",
+       "value": "45"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The DARS is a dynamic scale that measured desire, motivation, effort and consummatory pleasure across hedonic domains. The DARS is a self-report questionnaire that measured anhedonia across 4 domains: hobbies/past-times, food/drinks, social activities, and sensory experiences. The DARs was rated on a five-point Likert scale from 0 (not at all) to 4 (very much), higher values indicating less anhedonia. All items were summed up to a total score in the range of 0 to 68.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Participant follows placebo schedule (57 days).",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Participant follows NBI-1065846 schedule (57 days).",
+     "id": "OG001",
+     "title": "NBI-1065846"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Full Analysis Set (FAS): All randomized participants. Here, 'Overall number of participants analyzed' = participants evaluable for specified outcome measure.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Day 57",
+   "title": "Change in Anhedonia Severity, as Measured by Change in DARS Score From Baseline to Day 57",
+   "type": "PRIMARY",
+   "unitOfMeasure": "units on a scale"
+  }
+ ]
+}

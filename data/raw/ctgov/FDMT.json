@@ -1,0 +1,1594 @@
+{
+ "aliases": [
+  "4D Molecular Therapeutics"
+ ],
+ "studies": [
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "No intervention",
+       "interventionNames": [
+        "Other: Observation"
+       ],
+       "label": "Primary Cohort"
+      },
+      {
+       "description": "No intervention",
+       "interventionNames": [
+        "Other: Observation"
+       ],
+       "label": "Expansion Cohort"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Expansion Cohort",
+        "Primary Cohort"
+       ],
+       "name": "Observation",
+       "type": "OTHER"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Choroideremia"
+     ],
+     "keywords": [
+      "retinal degeneration",
+      "eye",
+      "REP-1 gene"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "observationalModel": "COHORT",
+      "timePerspective": "PROSPECTIVE"
+     },
+     "enrollmentInfo": {
+      "count": 57,
+      "type": "ACTUAL"
+     },
+     "patientRegistry": false,
+     "studyType": "OBSERVATIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "\"Natural History\" Study of Choroideremia",
+     "nctId": "NCT02994368",
+     "officialTitle": "A Multicenter Prospective Observational \"Natural History\" Study in Patients With Choroideremia",
+     "orgStudyIdInfo": {
+      "id": "4D-CHM-001-NH-0001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "4D Molecular Therapeutics"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "4D Molecular Therapeutics"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2021-10",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2022-01-06",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2022-01-04",
+     "overallStatus": "TERMINATED",
+     "primaryCompletionDateStruct": {
+      "date": "2021-10",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2016-12"
+     },
+     "statusVerifiedDate": "2022-01",
+     "studyFirstPostDateStruct": {
+      "date": "2016-12-15",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2016-12-13",
+     "studyFirstSubmitQcDate": "2016-12-14"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "4D-110 IVT injection",
+       "interventionNames": [
+        "Biological: 4D-110"
+       ],
+       "label": "4D-110 Dose 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "4D-110 IVT injection",
+       "interventionNames": [
+        "Biological: 4D-110"
+       ],
+       "label": "4D-110 Dose 2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "4D-110 IVT injection",
+       "interventionNames": [
+        "Biological: 4D-110"
+       ],
+       "label": "4D-110 Dose 3",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "4D-110 Dose 1",
+        "4D-110 Dose 2",
+        "4D-110 Dose 3"
+       ],
+       "description": "4D-110 drug product developed for gene therapy which comprises an AAV capsid variant (4D-R100) carrying a transgene encoding a codon-optimized human CHM gene.",
+       "name": "4D-110",
+       "type": "BIOLOGICAL"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Choroideremia"
+     ],
+     "keywords": [
+      "CHM",
+      "transgene",
+      "gene therapy",
+      "AAV"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "interventionModelDescription": "Each dose escalation cohort will initially recruit up to 3 patients to receive a single uniocular intravitreal injection of 4D-110 in a standard 3+3 design. The cohort will be expanded in the event of a dose limiting toxicity (DLT). Once the maximum tolerated dose (MTD)/maximum feasible dose (MFD) has been identified, up to 4 additional patients may be enrolled at that dose level to provide additional safety information.",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 13,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Dose Escalation Study of Intravitreal 4D-110 in Patients With Choroideremia",
+     "nctId": "NCT04483440",
+     "officialTitle": "Phase 1 Open-Label, Dose-Escalation Study of the Safety, Tolerability and Preliminary Efficacy of Intravitreal 4D-110 in Patients With Choroideremia",
+     "orgStudyIdInfo": {
+      "id": "4D-110-CP-0001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "4D Molecular Therapeutics"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "4D Molecular Therapeutics"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2027-08-31",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-05-22",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-05-20",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-05-26",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2020-06-02",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-05",
+     "studyFirstPostDateStruct": {
+      "date": "2020-07-23",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2020-07-20",
+     "studyFirstSubmitQcDate": "2020-07-20"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Dose 1 and Dose 2\n\n4D-125 will be administered at the assigned dose level as a single dose, IVT injection on Day 1. The contralateral eye may also be dosed with 4D-125 as a single dose, IVT injection provided the subject is eligible and provides consent.",
+       "interventionNames": [
+        "Biological: 4D-125 IVT Injection"
+       ],
+       "label": "4D-125 Dose Exploration",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "4D-125 will be administered at the assigned dose level as a single dose, IVT injection on Day 1 in both adults and pediatric participants. For adult participants only, the contralateral eye may also be dosed with 4D-125 as a single dose, IVT injection provided the subject is eligible and provides consent.",
+       "interventionNames": [
+        "Biological: 4D-125 IVT Injection"
+       ],
+       "label": "4D-125 Dose Expansion",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Natural History",
+       "interventionNames": [
+        "Other: Observational"
+       ],
+       "label": "Observational",
+       "type": "OTHER"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "4D-125 Dose Expansion",
+        "4D-125 Dose Exploration"
+       ],
+       "description": "4D-125 drug product developed for gene therapy, which comprises an AAV capsid variant (4D-R100) carrying a codon-optimized human Retinitis Pigmentosa GTPase Regulator transgene.",
+       "name": "4D-125 IVT Injection",
+       "type": "BIOLOGICAL"
+      },
+      {
+       "armGroupLabels": [
+        "Observational"
+       ],
+       "description": "Natural History",
+       "name": "Observational",
+       "type": "OTHER"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "X-Linked Retinitis Pigmentosa"
+     ],
+     "keywords": [
+      "XLRP",
+      "Gene therapy"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "interventionModelDescription": "In Phase 1, up to 2 dose exploration cohorts will be enrolled; each cohort will initially recruit up to 3 patients to receive a single uniocular IVT injection of 4D-125 in a standard 3+3 design. The cohort will be expanded in the event of a dose limiting toxicity (DLT). Any cohort may be expanded by an additional 3 subjects (to a maximum of 12 patients) to provide additional safety information and/or to confirm the selected dose for expansion. Once the dose level has been selected, the Phase 2 Dose Expansion Cohort will be opened to dose an additional 6-12 adult patients, and includes a pediatric sub-population of up to 6 patients. For adult participants only, the contralateral eye may also be dosed with 4D-125 as a single dose, IVT injection provided the subject is eligible and provides consent.",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 21,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "4D-125 in Patients With X-Linked Retinitis Pigmentosa (XLRP)",
+     "nctId": "NCT04517149",
+     "officialTitle": "An Open-label, Phase 1/2 Trial of Gene Therapy 4D-125 in Males With X-linked Retinitis Pigmentosa (XLRP) Caused by Mutations in the RPGR Gene",
+     "orgStudyIdInfo": {
+      "id": "4D-125-C001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "4D Molecular Therapeutics"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "4D Molecular Therapeutics"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2029-05",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-03-21",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-03-19",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2026-06",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2020-06-09",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-03",
+     "studyFirstPostDateStruct": {
+      "date": "2020-08-18",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2020-08-14",
+     "studyFirstSubmitQcDate": "2020-08-14"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Single IV administration of 4D-310 Dose Level 1 - AAV NAb Titer Group A patients",
+       "interventionNames": [
+        "Biological: 4D-310"
+       ],
+       "label": "4D-310 Dose Level 1 - AAV Neutralizing Antibody (NAb) Group A",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Single IV administration of 4D-310 Dose Level 1 - AAV NAb titer Group B patients",
+       "interventionNames": [
+        "Biological: 4D-310"
+       ],
+       "label": "4D-310 Dose Level 1 - AAV NAb Titer Group B",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Single IV administration of 4D-310 at Dose Level 2 in AAV NAb titer Group A and/or B patients",
+       "interventionNames": [
+        "Biological: 4D-310"
+       ],
+       "label": "4D-310 Dose Level 2 - AAV NAb Titer Group A and/or B",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Dose expansion cohort of single IV administration of 4D-310 at the selected dose and selected AAV Nab titer group(s) patients",
+       "interventionNames": [
+        "Biological: 4D-310"
+       ],
+       "label": "4D-310 Dose Expansion",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "4D-310 Dose Expansion",
+        "4D-310 Dose Level 1 - AAV NAb Titer Group B",
+        "4D-310 Dose Level 1 - AAV Neutralizing Antibody (NAb) Group A",
+        "4D-310 Dose Level 2 - AAV NAb Titer Group A and/or B"
+       ],
+       "description": "4D-310 is a novel adeno-associated virus (AAV) gene therapy comprised of two active components: the capsid (4D-C102) and the transgene cassette, which encodes a codon-optimized full length human GLA transgene driven by the CAG promoter. 4D-310 has been engineered so that it cannot replicate (replication incompetent).",
+       "name": "4D-310",
+       "type": "BIOLOGICAL"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Fabry Disease"
+     ],
+     "keywords": [
+      "Lysosomal Storage Diseases",
+      "Nervous System Brain Diseases",
+      "Metabolic",
+      "Inborn Brain Diseases",
+      "Metabolic Brain Diseases",
+      "Central Nervous System Diseases",
+      "Nervous System Diseases",
+      "Cerebral Small Vessel Diseases",
+      "Cerebrovascular Disorders",
+      "Vascular Diseases",
+      "Cardiovascular Diseases",
+      "Genetic Diseases",
+      "X-Linked",
+      "Inborn",
+      "Metabolic Diseases",
+      "Lipid Metabolism Disorders",
+      "Sphingolipidoses",
+      "Metabolism",
+      "Inborn Errors",
+      "Lipidoses",
+      "Lipid Metabolism"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 18,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "An Open-label, Phase 1/2 Trial of Gene Therapy 4D-310 in Adults With Fabry Disease",
+     "nctId": "NCT04519749",
+     "officialTitle": "An Open-label, Phase 1/2 Trial of Gene Therapy 4D-310 in Adults With Fabry Disease",
+     "orgStudyIdInfo": {
+      "id": "4D-310-C001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "4D Molecular Therapeutics"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "4D Molecular Therapeutics"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2030-06",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2024-04-08",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2024-04-05",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2026-01",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2020-09-01",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2024-04",
+     "studyFirstPostDateStruct": {
+      "date": "2020-08-20",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2020-08-14",
+     "studyFirstSubmitQcDate": "2020-08-17"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "4D-150 will be administered at the assigned dose level as a single dose IVT injection on Day 1.",
+       "interventionNames": [
+        "Biological: 4D-150 IVT"
+       ],
+       "label": "4D-150 Dose Escalation up to 4 dose levels",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "4D-150 will be administered at the assigned dose level as a single dose IVT injection on Day 1.",
+       "interventionNames": [
+        "Biological: 4D-150 IVT"
+       ],
+       "label": "4D-150 Dose Expansion Dose 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "4D-150 will be administered at the assigned dose level as a single dose IVT injection on Day 1.",
+       "interventionNames": [
+        "Biological: 4D-150 IVT"
+       ],
+       "label": "4D-150 Dose Expansion Dose 2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Aflibercept at a fixed regimen will be administered.",
+       "interventionNames": [
+        "Biological: Aflibercept IVT"
+       ],
+       "label": "4D-150 Dose Expansion Control",
+       "type": "ACTIVE_COMPARATOR"
+      },
+      {
+       "description": "4D-150 will be administered at the assigned dose level as a single dose IVT injection on Day 1.",
+       "interventionNames": [
+        "Biological: 4D-150 IVT"
+       ],
+       "label": "4D-150 Steroid Optimization",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "4D-150 will be administered at the assigned dose level as a single dose IVT injection on Day 1.",
+       "interventionNames": [
+        "Biological: 4D-150 IVT"
+       ],
+       "label": "4D-150 Population Extension Dose 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "4D-150 will be administered at the assigned dose level as a single dose IVT injection on Day 1.",
+       "interventionNames": [
+        "Biological: 4D-150 IVT"
+       ],
+       "label": "4D-150 Population Extension Dose 2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "4D-150 will be administered at the assigned dose",
+       "interventionNames": [
+        "Biological: 4D-150 IVT"
+       ],
+       "label": "4D-150 Population Extension Dose 3",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "4D-150 will be administered at the assigned dose level as a single dose IVT injection on Day 1.",
+       "interventionNames": [
+        "Biological: 4D-150 IVT"
+       ],
+       "label": "4D-150 Contralateral Eye Dose",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "4D-150 will be administered at the assigned dose level as a single dose IVT injection on Day 1.",
+       "interventionNames": [
+        "Biological: 4D-150 IVT"
+       ],
+       "label": "4D-150 Vector Shedding Dose",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "4D-150 Contralateral Eye Dose",
+        "4D-150 Dose Escalation up to 4 dose levels",
+        "4D-150 Dose Expansion Dose 1",
+        "4D-150 Dose Expansion Dose 2",
+        "4D-150 Population Extension Dose 1",
+        "4D-150 Population Extension Dose 2",
+        "4D-150 Population Extension Dose 3",
+        "4D-150 Steroid Optimization",
+        "4D-150 Vector Shedding Dose"
+       ],
+       "description": "4D-150: AAV-based gene therapy comprised of miRNA targeting VEGF-C and codon-optimized sequence encoding aflibercept",
+       "name": "4D-150 IVT",
+       "type": "BIOLOGICAL"
+      },
+      {
+       "armGroupLabels": [
+        "4D-150 Dose Expansion Control"
+       ],
+       "description": "Commercially available Active Comparator Other Name: Eylea",
+       "name": "Aflibercept IVT",
+       "type": "BIOLOGICAL"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Neovascular (Wet) Age-Related Macular Degeneration"
+     ],
+     "keywords": [
+      "Age-related macular degeneration",
+      "AMD",
+      "Exudative AMD",
+      "Exudative age-related macular degeneration",
+      "Neovascular AMD",
+      "Neovascular age-related macular degeneration",
+      "Wet age-related macular degeneration",
+      "Wet macular degeneration",
+      "Wet AMD",
+      "wAMD",
+      "Retinal gene therapy",
+      "Intravitreal gene therapy",
+      "Genetic Medicine",
+      "Ocular Gene Therapy"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "interventionModelDescription": "In Dose Escalation, the safety and tolerability of multiple dose levels of 4D-150 will be examined following an open-label, 3+3 dose escalation design (n=3-5 per dose level). In Dose Expansion, subjects (n=50) will be randomized to receive one of 2 dose levels of 4D-150 (n=20 for each dose level) based on results from Dose Escalation, or aflibercept (n=10). In Steroid Optimization (n=up to 96) and Population Extension (n=up to 45) Cohorts, subjects will be assigned sequentially to receive 4D-150 at doses cleared by the DSMC.\n\nContralateral sub-study: Up to 20 subjects from the 4D-150-C001 trial who have previously received 4D-150 in study eye-1 will be enrolled and administered a single open-label IVT injection of 4D-150 in the contralateral eye.\n\nVector Shedding sub-study: Approximately 15 subjects will receive an open-label IVT injection of 4D-150 to evaluate vector shedding.",
+      "maskingInfo": {
+       "masking": "SINGLE",
+       "maskingDescription": "Dose Escalation will be open-label. During Dose Expansion, outcome assessors will be masked to treatment assignment. Other site personnel (including investigator) and subjects will be unmasked to treatment assignment but will be masked to 4D-150 dose level. The Sponsor and its representatives and the site dose preparer/pharmacist will be unmasked to treatment assignment. Steroid Optimization and Population Extension will be open-label.",
+       "whoMasked": [
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 215,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "4D-150 in Patients With Neovascular (Wet) Age-Related Macular Degeneration",
+     "nctId": "NCT05197270",
+     "officialTitle": "A Phase 1/2 Dose-Escalation and Randomized, Controlled, Masked Expansion Trial of Intravitreal 4D-150 Gene Therapy in Adults With Neovascular (Wet) Age-Related Macular Degeneration",
+     "orgStudyIdInfo": {
+      "id": "4D-150-C001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "4D Molecular Therapeutics"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "4D Molecular Therapeutics"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2031-01",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-08-21",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-08-20",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-03",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2021-12-09",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-08",
+     "studyFirstPostDateStruct": {
+      "date": "2022-01-19",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2022-01-05",
+     "studyFirstSubmitQcDate": "2022-01-05"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants who are ineligible for or intolerant of modulator therapy will receive one of various dose levels of 4D-710 to identify recommended phase 2 dose(s) for further evaluation.",
+       "interventionNames": [
+        "Biological: 4D-710"
+       ],
+       "label": "4D-710 Phase 1: Dose Exploration",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants will receive a single inhalational administration of 4D-710 at the dose level(s) selected for dose expansion.",
+       "interventionNames": [
+        "Biological: 4D-710"
+       ],
+       "label": "4D-710 Phase 2: Dose Expansion",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants who are on currently available CFTR modulator therapy will receive a dose of 4D-710 at various dose levels.",
+       "interventionNames": [
+        "Biological: 4D-710"
+       ],
+       "label": "4D-710 Dose Exploration (Sub-Study)",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "4D-710 Dose Exploration (Sub-Study)",
+        "4D-710 Phase 1: Dose Exploration",
+        "4D-710 Phase 2: Dose Expansion"
+       ],
+       "description": "4D-710 is an adeno-associated virus (AAV) gene therapy comprised of an AAV capsid variant (4D-A101) carrying a transgene cassette encoding human cystic fibrosis transmembrane conductance regulator with a deletion in the regulatory domain (CFTRΔR).",
+       "name": "4D-710",
+       "type": "BIOLOGICAL"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Cystic Fibrosis Lung"
+     ],
+     "keywords": [
+      "CF",
+      "Cystic Fibrosis",
+      "Gene Therapy"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 30,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "CF",
+     "briefTitle": "4D-710 in Adult Patients With Cystic Fibrosis",
+     "nctId": "NCT05248230",
+     "officialTitle": "An Open-label, Phase 1/2 Trial of Gene Therapy 4D-710 in Adults With Cystic Fibrosis",
+     "orgStudyIdInfo": {
+      "id": "4D-710-C001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "4D Molecular Therapeutics"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "4D Molecular Therapeutics"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2031-06",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-07-06",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-07-01",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-06",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2022-03-29",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-07",
+     "studyFirstPostDateStruct": {
+      "date": "2022-02-21",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2022-02-10",
+     "studyFirstSubmitQcDate": "2022-02-10"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Single IV administration of 4D-310 Dose Level -1",
+       "interventionNames": [
+        "Biological: 4D-310"
+       ],
+       "label": "4D-310 Dose Level -1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Single IV administration of 4D-310 Dose Level 2",
+       "interventionNames": [
+        "Biological: 4D-310"
+       ],
+       "label": "4D-310 Dose Level 2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Single IV administration of 4D-310 at Dose Level 3",
+       "interventionNames": [
+        "Biological: 4D-310"
+       ],
+       "label": "4D-310 Dose Level 3",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "No longer enrolling - Single IV administration of 4D-310 at Dose Level 1",
+       "interventionNames": [
+        "Biological: 4D-310"
+       ],
+       "label": "4D-310 Dose Level 1 (No longer enrolling)",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "4D-310 Dose Level -1",
+        "4D-310 Dose Level 1 (No longer enrolling)",
+        "4D-310 Dose Level 2",
+        "4D-310 Dose Level 3"
+       ],
+       "description": "Single IV administration of 4D-310",
+       "name": "4D-310",
+       "type": "BIOLOGICAL"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Fabry Disease"
+     ],
+     "keywords": [
+      "Lysosomal Storage Diseases",
+      "Nervous System Brain Diseases",
+      "Metabolic",
+      "Inborn Brain Diseases",
+      "Central Nervous System Diseases",
+      "Nervous System Diseases",
+      "Cerebral Small Vessel Diseases",
+      "Cerebrovascular Disorders",
+      "Vascular Diseases",
+      "Cardiovascular Diseases",
+      "Genetic Diseases",
+      "X-Linked",
+      "Inborn",
+      "Metabolic Diseases",
+      "Lipid Metabolism Disorders",
+      "Sphingolipidoses",
+      "Metabolism",
+      "Inborn Errors",
+      "Lipidoses",
+      "Lipid Metabolism"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 18,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "4D-310 in Adults With Fabry Disease and Cardiac Involvement",
+     "nctId": "NCT05629559",
+     "officialTitle": "An Open-Label, Phase 1/2a Trial of Gene Therapy 4D-310 in Adults With Fabry Disease and Cardiac Involvement",
+     "orgStudyIdInfo": {
+      "id": "4D-310-C002"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "4D Molecular Therapeutics"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "4D Molecular Therapeutics"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2030-06",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-02-21",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-02-19",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2026-06",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2022-10-16",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-02",
+     "studyFirstPostDateStruct": {
+      "date": "2022-11-29",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2022-11-04",
+     "studyFirstSubmitQcDate": "2022-11-17"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "4D-150 will be administered at the assigned dose level as a single dose IVT injection on Day 1.",
+       "interventionNames": [
+        "Biological: 4D-150 IVT"
+       ],
+       "label": "4D-150 Part 1 Dose Confirmation Dose Level 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "4D-150 will be administered at the assigned dose level as a single dose IVT injection on Day 1.",
+       "interventionNames": [
+        "Biological: 4D-150 IVT"
+       ],
+       "label": "4D-150 Part 1 Dose Confirmation Dose Level 2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "4D-150 will be administered at the assigned dose level as a single dose IVT injection on Day 1.",
+       "interventionNames": [
+        "Biological: 4D-150 IVT"
+       ],
+       "label": "4D-150 Part 2 Dose Expansion Dose Level 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "4D-150 will be administered at the assigned dose level as a single dose IVT injection on Day 1.",
+       "interventionNames": [
+        "Biological: 4D-150 IVT"
+       ],
+       "label": "4D-150 Part 2 Dose Expansion Dose Level 2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Aflibercept at a fixed regimen will be administered.",
+       "interventionNames": [
+        "Biological: Aflibercept IVT"
+       ],
+       "label": "4D-150 Part 2 Dose Expansion Control",
+       "type": "ACTIVE_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "4D-150 Part 1 Dose Confirmation Dose Level 1",
+        "4D-150 Part 1 Dose Confirmation Dose Level 2",
+        "4D-150 Part 2 Dose Expansion Dose Level 1",
+        "4D-150 Part 2 Dose Expansion Dose Level 2"
+       ],
+       "description": "4D-150: AAV-based gene therapy comprised of miRNA targeting VEGF-C and codon-optimized sequence encoding aflibercept.",
+       "name": "4D-150 IVT",
+       "type": "BIOLOGICAL"
+      },
+      {
+       "armGroupLabels": [
+        "4D-150 Part 2 Dose Expansion Control"
+       ],
+       "description": "Commercially available Active Comparator",
+       "name": "Aflibercept IVT",
+       "otherNames": [
+        "Eylea"
+       ],
+       "type": "BIOLOGICAL"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Diabetic Macular Edema",
+      "Diabetic Retinopathy"
+     ],
+     "keywords": [
+      "Retinal gene therapy",
+      "Intravitreal gene therapy",
+      "DME",
+      "SPECTRA"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "interventionModelDescription": "In Dose Confirmation (Part 1), subjects (n=12-18) will be sequentially assigned to one of two open-label dose levels of 4D-150 (n=6-9 per dose level). In Dose Expansion (Part 2), subjects (n=54) will be randomized to receive one of two dose levels of 4D-150 (n=18 per dose level) based on results from Dose Confirmation, or aflibercept control (n=18). Subjects will be masked to treatment arm in Dose Expansion (Part 2).",
+      "maskingInfo": {
+       "masking": "DOUBLE",
+       "maskingDescription": "No masking in Dose Confirmation (Part 1). In Dose Expansion (Part 2), participants and outcomes assessors will be masked to the treatment arm for the duration of the trial.",
+       "whoMasked": [
+        "PARTICIPANT",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 72,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "4D-150 in Patients With Diabetic Macular Edema",
+     "nctId": "NCT05930561",
+     "officialTitle": "A Phase 2 Randomized, Active-Controlled, Double-masked Trial of Intravitreal 4D-150 Gene Therapy in Adults With Diabetic Macular Edema (SPECTRA)",
+     "orgStudyIdInfo": {
+      "id": "4D-150-C002"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "4D Molecular Therapeutics"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "4D Molecular Therapeutics"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2029-02-28",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-08-21",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-08-19",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2029-02-28",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2023-08-09",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-08",
+     "studyFirstPostDateStruct": {
+      "date": "2023-07-05",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2023-06-26",
+     "studyFirstSubmitQcDate": "2023-06-26"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Biological: 4D-150 IVT (3E10 vg/eye)"
+       ],
+       "label": "4D-150 IVT (3E10 vg/eye)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Biological: EYLEA® (aflibercept) Injection 2 mg (0.05mL)"
+       ],
+       "label": "Aflibercept (AFLB) 2 mg IVT",
+       "type": "ACTIVE_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "4D-150 IVT (3E10 vg/eye)"
+       ],
+       "description": "If randomized to the 4D-150 treatment arm, 4D-150 will be administered at the assigned dose level as a single dose IVT injection on Day 1",
+       "name": "4D-150 IVT (3E10 vg/eye)",
+       "type": "BIOLOGICAL"
+      },
+      {
+       "armGroupLabels": [
+        "Aflibercept (AFLB) 2 mg IVT"
+       ],
+       "description": "Eylea (aflibercept) will be administered at applicable visits",
+       "name": "EYLEA® (aflibercept) Injection 2 mg (0.05mL)",
+       "type": "BIOLOGICAL"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Macular Neovascularization Secondary to Age-Related Macular Degeneration"
+     ],
+     "keywords": [
+      "Age-related macular degeneration",
+      "AMD",
+      "Exudative AMD",
+      "Neovascular AMD",
+      "Exudative age-related macular degeneration",
+      "Neovascular age-related macular degeneration",
+      "Wet age-related macular degeneration",
+      "Wet macular degeneration",
+      "Wet AMD",
+      "wAMD",
+      "Retinal gene therapy",
+      "Intravitreal gene therapy",
+      "Genetic Medicine",
+      "Ocular Gene Therapy",
+      "nAMD"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 480,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "4D-150 in Patients With Macular Neovascularization Secondary to Age-Related Macular Degeneration",
+     "nctId": "NCT06864988",
+     "officialTitle": "A Phase 3, Randomized, Double-Masked, Active-Controlled Trial of a Single Intravitreal Injection of 4D-150 in Adults With Macular Neovascularization Secondary to Age-Related Macular Degeneration",
+     "orgStudyIdInfo": {
+      "id": "4D-150-C003"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "4D Molecular Therapeutics"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "4D Molecular Therapeutics"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2028-06",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-26",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-22",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-06",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2025-03-03",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-10",
+     "studyFirstPostDateStruct": {
+      "date": "2025-03-07",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-03-04",
+     "studyFirstSubmitQcDate": "2025-03-04"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Biological: 4D-150 IVT (3E10 vg/eye)"
+       ],
+       "label": "4D-150 IVT (3E10 vg/eye)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Biological: EYLEA® (aflibercept) Injection 2 mg (0.05mL)"
+       ],
+       "label": "Aflibercept (AFLB) 2 mg IVT",
+       "type": "ACTIVE_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "4D-150 IVT (3E10 vg/eye)"
+       ],
+       "description": "If randomized to the 4D-150 treatment arm, 4D-150 will be administered at the assigned dose level as a single dose IVT injection on Day 1",
+       "name": "4D-150 IVT (3E10 vg/eye)",
+       "type": "BIOLOGICAL"
+      },
+      {
+       "armGroupLabels": [
+        "Aflibercept (AFLB) 2 mg IVT"
+       ],
+       "description": "Eylea (aflibercept) will be administered at applicable visits",
+       "name": "EYLEA® (aflibercept) Injection 2 mg (0.05mL)",
+       "type": "BIOLOGICAL"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Neovascular Age-Related Macular Degeneration (nAMD)"
+     ],
+     "keywords": [
+      "Age-related macular degeneration",
+      "AMD",
+      "Exudative AMD",
+      "Neovascular AMD",
+      "Exudative age-related macular degeneration",
+      "Neovascular age-related macular degeneration",
+      "Wet age-related macular degeneration",
+      "Wet macular degeneration",
+      "Wet AMD",
+      "WAMD",
+      "nAMD",
+      "Retinal gene therapy",
+      "Intravitreal gene therapy",
+      "Genetic Medicine",
+      "Ocular Gene Therapy",
+      "Gene Therapy",
+      "4FRONT",
+      "4FRONT-2"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 480,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "4FRONT-2",
+     "briefTitle": "Single Intravitreal (IVT) Injection of 4D-150 in Patients With Macular Neovascularization Secondary to Age-Related Macular Degeneration",
+     "nctId": "NCT07064759",
+     "officialTitle": "A Phase 3, Randomized, Double-Masked, Active-Controlled Trial of a Single Intravitreal Injection of 4D-150 in Adults With Macular Neovascularization Secondary to Age-Related Macular Degeneration",
+     "orgStudyIdInfo": {
+      "id": "4D-150-C004"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "4D Molecular Therapeutics"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "4D Molecular Therapeutics"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2029-11",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-19",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-14",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-11",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2025-07-22",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-10",
+     "studyFirstPostDateStruct": {
+      "date": "2025-07-15",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-07-07",
+     "studyFirstSubmitQcDate": "2025-07-07"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Biological: 4D-150 IVT (3x10^10 vg)"
+       ],
+       "label": "4D-150 IVT (3x10^10 vg/eye)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Biological: EYELEA ® (aflibercept) Injection 2 mg (0.05mL)"
+       ],
+       "label": "Active Comparator (AFLB) 2mg IVT",
+       "type": "ACTIVE_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "4D-150 IVT (3x10^10 vg/eye)"
+       ],
+       "description": "If randomized to the 4D-150 treatment arm, 4D-150 will be administered at the assigned dose level as a single dose IVT injection on Day 1",
+       "name": "4D-150 IVT (3x10^10 vg)",
+       "type": "BIOLOGICAL"
+      },
+      {
+       "armGroupLabels": [
+        "Active Comparator (AFLB) 2mg IVT"
+       ],
+       "description": "EYLEA ® (aflibercept) will be administered at applicable visits",
+       "name": "EYELEA ® (aflibercept) Injection 2 mg (0.05mL)",
+       "type": "BIOLOGICAL"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Diabetic Macular Edema (DME)"
+     ],
+     "keywords": [
+      "Diabetic Macular Edema",
+      "DME",
+      "Retinal gene therapy",
+      "Intravitreal gene therapy",
+      "Genetic Medicine",
+      "Ocular Gene Therapy",
+      "Eye Diseases",
+      "Intravitreal Injections",
+      "Aflibercept"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 514,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "4SIGHT",
+     "briefTitle": "A Phase 3 Trial for Intravitreal Injection of 4D-150 in Adults With Diabetic Macular Edema (DME).",
+     "nctId": "NCT07867080",
+     "officialTitle": "A Phase 3, Randomized, Double-Masked, Active-Controlled Trial to Evaluate the Efficacy, Safety, and Durability of a Single Intravitreal Injection of 4D-150 Versus Aflibercept in Adults With Diabetic Macular Edema (4SIGHT)",
+     "orgStudyIdInfo": {
+      "id": "4D-150-C005"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "4D Molecular Therapeutics"
+     },
+     "secondaryIdInfos": [
+      {
+       "domain": "Sponsor",
+       "id": "4SIGHT",
+       "type": "OTHER"
+      },
+      {
+       "domain": "Sponsor",
+       "id": "4D-150-C005",
+       "type": "OTHER"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "4D Molecular Therapeutics"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2030-01",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-13",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-08",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2029-01",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2026-09-18",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-10",
+     "studyFirstPostDateStruct": {
+      "date": "2026-10-09",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2026-10-05",
+     "studyFirstSubmitQcDate": "2026-10-05"
+    }
+   }
+  }
+ ]
+}

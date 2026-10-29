@@ -1,0 +1,1040 @@
+{
+ "aliases": [
+  "CG Oncology"
+ ],
+ "studies": [
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Interventions: CG0070 oncolytic virus intravesical instillations weekly X6 with each instillation lasting 45 minutes after prior transduction agent of DDM intravesically for 15 minutes",
+       "interventionNames": [
+        "Biological: CG0070 Adenovirus Vector"
+       ],
+       "label": "CG0070 oncolytic virus",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Quadruple Choice as interventions\n\n1. Mitomycin C\n2. Interferon\n3. Valrubicin\n4. Gemcitabine",
+       "interventionNames": [
+        "Other: Control Arm: Quadruple Choice"
+       ],
+       "label": "Chemotherapy or Interferon",
+       "type": "ACTIVE_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "CG0070 oncolytic virus"
+       ],
+       "description": "CG0070 adenoviral vector with GM-CSF expression given intravesically 1x10e12 viral particles for each instillations, weekly times six",
+       "name": "CG0070 Adenovirus Vector",
+       "otherNames": [
+        "oncolytic virus",
+        "CG0070",
+        "GM-CSF expression",
+        "adenoviral vector"
+       ],
+       "type": "BIOLOGICAL"
+      },
+      {
+       "armGroupLabels": [
+        "Chemotherapy or Interferon"
+       ],
+       "description": "Quadruple Choice Treatment Options: (same as listed above)",
+       "name": "Control Arm: Quadruple Choice",
+       "otherNames": [
+        "Mitomycin C",
+        "Interferon",
+        "Valrubicin",
+        "Gemcitabine"
+       ],
+       "type": "OTHER"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Transitional Cell Carcinoma",
+      "Bladder Cancer",
+      "Carcinoma in Situ",
+      "Carcinoma in Situ Concurrent With Papillary Tumors"
+     ],
+     "keywords": [
+      "cancer",
+      "bladder cancer",
+      "transitional cell",
+      "virus",
+      "oncolytic",
+      "GM-CSF",
+      "adenovirus",
+      "intravesical",
+      "neoadjuvant",
+      "cystectomy",
+      "gene therapy",
+      "oncolytic virus",
+      "carcinoma in situ",
+      "carcinoma in situ concurrent with papillary tumors"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 22,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2",
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "BOND",
+     "briefTitle": "Efficacy Study of Recombinant Adenovirus for Non Muscle Invasive Bladder Cancer",
+     "nctId": "NCT01438112",
+     "officialTitle": "An Integrated Phase II/III, Open Label, Randomized and Controlled Study of the Safety and Efficacy of CG0070 Adenovirus Vector Expressing GM-CSF in Patients With NMIBC With Carcinoma In Situ Disease Who Have Failed BCG",
+     "orgStudyIdInfo": {
+      "id": "12154"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "CG Oncology, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "CG Oncology, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2016-06",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2021-04-14",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2021-04-12",
+     "overallStatus": "TERMINATED",
+     "primaryCompletionDateStruct": {
+      "date": "2016-06",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2014-03"
+     },
+     "statusVerifiedDate": "2021-04",
+     "studyFirstPostDateStruct": {
+      "date": "2011-09-21",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2011-09-19",
+     "studyFirstSubmitQcDate": "2011-09-20",
+     "whyStopped": "Change in study design"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "oncolytic virus genetically modified to express GM-CSF",
+       "interventionNames": [
+        "Biological: oncolytic adenovirus expressing GMCSF"
+       ],
+       "label": "CG0070",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "CG0070"
+       ],
+       "description": "Treatment once weekly by intravesical route. Use of DDM to first remove the GAG layer of the bladder and to improve virus transduction. Installation of 100 ml. of CG0070 at 10e12 viral particles for 45 minutes inside bladder.",
+       "name": "oncolytic adenovirus expressing GMCSF",
+       "otherNames": [
+        "CG0070",
+        "Adenovirus with GMCSF expression",
+        "DDM"
+       ],
+       "type": "BIOLOGICAL"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Bladder Cancer",
+      "High Grade",
+      "Non Muscle Invasive"
+     ],
+     "keywords": [
+      "Oncolytic virus",
+      "GMCSF",
+      "pRb",
+      "PDL1",
+      "Immunotherapy",
+      "Adenovirus"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 0,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "exBOND",
+     "briefTitle": "Safety and Efficacy of CG0070 Oncolytic Virus Regimen in Patients With High Grade Non-Muscle Invasive Bladder Cancer",
+     "nctId": "NCT02143804",
+     "officialTitle": "Phase II Safety and Efficacy Study of CG0070 Oncolytic Vector Regimen in Patients With High Grade Non-Muscle Invasive Bladder Carcinoma Disease (NMIBC) Who Have Failed BCG and Refused Cystectomy",
+     "orgStudyIdInfo": {
+      "id": "exBOND 2.1"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "CG Oncology, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "CG Oncology, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2015-03",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-04-02",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-03-27",
+     "overallStatus": "WITHDRAWN",
+     "primaryCompletionDateStruct": {
+      "date": "2015-03",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2014-03"
+     },
+     "statusVerifiedDate": "2026-03",
+     "studyFirstPostDateStruct": {
+      "date": "2014-05-21",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2014-05-19",
+     "studyFirstSubmitQcDate": "2014-05-19",
+     "whyStopped": "Change in trial design"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Single arm intervention with CG0070 to be given at a dose of 1e12 vp weekly for six weeks. Patients who achieve a partial response or a complete response at 6 months post first intravesical intervention will be maintained with the same induction cycle of weekly times six. Patients will be followed every 3 months through Month 24.",
+       "interventionNames": [
+        "Biological: CG0070"
+       ],
+       "label": "CG0070",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "CG0070"
+       ],
+       "name": "CG0070",
+       "otherNames": [
+        "oncolytic adenovirus with a E2F promotor and expresses GMCSF"
+       ],
+       "type": "BIOLOGICAL"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Bladder Cancer"
+     ],
+     "keywords": [
+      "Bladder Cancer"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 66,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "BOND2",
+     "briefTitle": "Safety and Efficacy of CG0070 Oncolytic Virus Regimen for High Grade NMIBC After BCG Failure",
+     "nctId": "NCT02365818",
+     "officialTitle": "An Open Label, Single Arm, Phase II, Multicenter Study of the Safety and Efficacy of CG0070 Oncolytic Vector Regimen in Patients With Non-Muscle Invasive Bladder Carcinoma Who Have Failed BCG (Bacillus Calmette-Guerin) Therapy and Refused Cystectomy",
+     "orgStudyIdInfo": {
+      "id": "BOND 2 version 3.8"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "CG Oncology, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "CG Oncology, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2019-02",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2021-04-14",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2021-04-12",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2018-08",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2015-06-02",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2021-04",
+     "studyFirstPostDateStruct": {
+      "date": "2015-02-19",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2015-02-09",
+     "studyFirstSubmitQcDate": "2015-02-11"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "CG0070 will be administered intravesically (IVE) following a sequence of bladder washes with 5% DDM and normal saline. CG0070 will be administered weekly x 6 on Day 1 to Week 6. If the patient shows persistent high-grade disease at Week 13, the patient will receive another cycle of 6 weekly treatments. If there is no disease present at Week 13 (e.g., complete response) then the patient will receive 3 weekly treatments.\n\nBeginning at Week 25, patients will receive weekly x 3 treatments every 3 months through Week 49 then every 24 weeks thereafter.\n\nPembrolizumab will be given intravenous (IV) concurrently starting on Day 1 and continue every 6 weeks for up to 2 years.",
+       "interventionNames": [
+        "Biological: CG0070",
+        "Biological: Pembrolizumab Injection",
+        "Other: n-dodecyl-B-D-maltoside"
+       ],
+       "label": "Single Arm",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Single Arm"
+       ],
+       "description": "Engineered Oncolytic Adenovirus",
+       "name": "CG0070",
+       "type": "BIOLOGICAL"
+      },
+      {
+       "armGroupLabels": [
+        "Single Arm"
+       ],
+       "description": "Immune checkpoint inhibitor, Monoclonal antibody",
+       "name": "Pembrolizumab Injection",
+       "otherNames": [
+        "KEYTRUDA®"
+       ],
+       "type": "BIOLOGICAL"
+      },
+      {
+       "armGroupLabels": [
+        "Single Arm"
+       ],
+       "description": "Transduction-enhancing agent.",
+       "name": "n-dodecyl-B-D-maltoside",
+       "otherNames": [
+        "DDM"
+       ],
+       "type": "OTHER"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Non Muscle Invasive Bladder Cancer"
+     ],
+     "keywords": [
+      "high-grade Ta papillary disease",
+      "high-grade T1 papillary disease",
+      "carcinoma in situ",
+      "Bacillus-Calmette-Guerin Unresponsive"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 35,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "CORE-001",
+     "briefTitle": "Study of CG0070 Given in Combination With Pembrolizumab, in Non-Muscle Invasive Bladder Cancer, Unresponsive to Bacillus Calmette-Guerin",
+     "nctId": "NCT04387461",
+     "officialTitle": "A Phase 2, Single Arm Study of CG0070 Combined With Pembrolizumab in Patients With Non Muscle Invasive Bladder Cancer (NMIBC) Unresponsive to Bacillus Calmette-Guerin (BCG)",
+     "orgStudyIdInfo": {
+      "id": "CG2003C"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "CG Oncology, Inc."
+     },
+     "secondaryIdInfos": [
+      {
+       "domain": "Merck Sharp & Dohme LLC",
+       "id": "KEYNOTE-935",
+       "type": "OTHER"
+      },
+      {
+       "domain": "Merck Sharp & Dohme LLC",
+       "id": "MK-3475-935",
+       "type": "OTHER"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "collaborators": [
+      {
+       "class": "INDUSTRY",
+       "name": "Merck Sharp & Dohme LLC"
+      }
+     ],
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "CG Oncology, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2024-05-28",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2024-09-25",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2024-09-23",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2023-03-07",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2020-12-08",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2024-09",
+     "studyFirstPostDateStruct": {
+      "date": "2020-05-13",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2020-05-05",
+     "studyFirstSubmitQcDate": "2020-05-12"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Patients with CIS with or without HG Ta/T1 papillary disease. Cretostimogene will be administered intravesically following a series of bladder washes with 5% DDM and normal saline. Cretostimogene will be administered weekly x 6 on Weeks 1, 2, 3, 4, 5, and 6. If the patient has disease recurrence at Week 13, they will receive another cycle of 6 weekly treatments. If there is no disease present at Week 13 then the patient will receive 3 weekly treatments. Cohort C(All Countries):Beginning at Week 25, patients will receive weekly x 3 treatments every 12 weeks through week 51 then every 6 months and then a last treatment at Weeks 73, 74, and 75 until the tumor returns or study treatment is completed at Week 97. Cohort C Extension( Japan and the US) At Week 25, patients will receive weekly x 3 treatments every 12 weeks through week 51 then every 6 months starting at Weeks 73, 74, and 75 through Weeks 157, 158, and 159 until the tumor returns or study treatment is completed at Week 159.",
+       "interventionNames": [
+        "Biological: Cretostimogene Grenadenorepvec",
+        "Other: n-dodecyl-B-D-maltoside"
+       ],
+       "label": "Cohort C(All Countries):Enrollment Closed",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "HG Ta/T1 papillary disease bladder cancer patients.\n\nIn Cohort P, cretostimogene will be administered at a dose of 1 × 1012vp IVE following instillation of 5% DDM. Cretostimogene will be administered every week for 6 treatments on Weeks 1, 2, 3, 4, 5, and 6. If the patient has recurrence at Week 13 or any timepoint, the patient will receive a second induction of 6 weekly treatments (Weeks 13, 14, 15, 16, 17, and 18.). If the tumor has not returned they will receive 3 weekly treatments every 12 weeks (approximately 3 months) starting Weeks 13, 14, and 15 through Week 51 (approximately 12 months), and then every 6 months starting at Weeks 73, 74, and 75 (approximately 18 months) through Month 36.",
+       "interventionNames": [
+        "Biological: Cretostimogene Grenadenorepvec",
+        "Other: n-dodecyl-B-D-maltoside"
+       ],
+       "label": "Cohort P(Japan and United States Only) :Open to Enrollment",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Cohort C(All Countries):Enrollment Closed",
+        "Cohort P(Japan and United States Only) :Open to Enrollment"
+       ],
+       "description": "Engineered Oncolytic Adenovirus",
+       "name": "Cretostimogene Grenadenorepvec",
+       "type": "BIOLOGICAL"
+      },
+      {
+       "armGroupLabels": [
+        "Cohort C(All Countries):Enrollment Closed",
+        "Cohort P(Japan and United States Only) :Open to Enrollment"
+       ],
+       "description": "Transduction-enhancing agent.",
+       "name": "n-dodecyl-B-D-maltoside",
+       "otherNames": [
+        "DDM"
+       ],
+       "type": "OTHER"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Non Muscle Invasive Bladder Cancer",
+      "High-grade Ta/ T1 Papillary Disease Bladder Cancer"
+     ],
+     "keywords": [
+      "high-grade Ta papillary disease",
+      "high-grade T1 papillary disease",
+      "carcinoma in situ",
+      "Bacillus-Calmette-Guerin unresponsive"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 190,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "BOND-003",
+     "briefTitle": "Study of Cretostimogene Given in Patients With Non-Muscle Invasive Bladder Cancer ,Unresponsive to Bacillus-Calmette-Guerin",
+     "nctId": "NCT04452591",
+     "officialTitle": "A Phase 3 Study of Cretostimogene Grenadenorepvec in Patients With Non-Muscle Invasive Bladder Cancer (NMIBC) Unresponsive to Bacillus-Calmette-Guerin (BCG)",
+     "orgStudyIdInfo": {
+      "id": "CG3002S"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "CG Oncology, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "CG Oncology, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2031-12-24",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": true,
+      "nctId": "NCT06443944",
+      "statusForNctId": "AVAILABLE"
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-07-10",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-07-09",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2030-06-16",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2020-10-27",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-07",
+     "studyFirstPostDateStruct": {
+      "date": "2020-06-30",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2020-06-26",
+     "studyFirstSubmitQcDate": "2020-06-29"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Following screening confirmation of IR-NMIBC and complete resection of the tumor, participants will be treated with adjuvant cretostimogene.",
+       "interventionNames": [
+        "Drug: Cretostimogene Grenadenorepvec",
+        "Other: n-dodecyl-B-D-maltoside"
+       ],
+       "label": "Cretostimogene after TURBT",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Following screening confirmation of IR-NMIBC and complete resection of tumor, participants will enter surveillance.\n\nParticipants who recur with IR-NMIBC after TURBT and surveillance will be offered treatment with cretostimogene as per the treatment schedule in Arm A. This arm will be called the Extension Arm.",
+       "label": "Observation after TURBT",
+       "type": "NO_INTERVENTION"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Cretostimogene after TURBT"
+       ],
+       "description": "Engineered Oncolytic Adenovirus",
+       "name": "Cretostimogene Grenadenorepvec",
+       "otherNames": [
+        "CG0070"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Cretostimogene after TURBT"
+       ],
+       "description": "Transduction-enhancing agent",
+       "name": "n-dodecyl-B-D-maltoside",
+       "otherNames": [
+        "DDM"
+       ],
+       "type": "OTHER"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Non Muscle Invasive Bladder Cancer",
+      "Urologic Cancer",
+      "Bladder Cancer",
+      "Urothelial Carcinoma"
+     ],
+     "keywords": [
+      "Urology",
+      "Bladder Cancer",
+      "Non Muscle Invasive Bladder Cancer",
+      "Intermediate Risk Non Muscle Invasive Bladder Cancer",
+      "Cretostimogene Grenadenorepvec"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "interventionModelDescription": "This is a Phase 3, open-label, randomized trial designed to evaluate the RFS of TURBT followed by adjuvant cretostimogene versus TURBT alone for the treatment of participants with IR-NMIBC",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 367,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Study of Adjuvant Cretostimogene Grenadenorepvec for Treatment of Intermediate Risk NMIBC Following TURBT",
+     "nctId": "NCT06111235",
+     "officialTitle": "A Phase 3, Randomized Study of Adjuvant Cretostimogene Grenadenorepvec Versus Observation for the Treatment of Intermediate Risk Non-Muscle Invasive Bladder Cancer (IR-NMIBC) Following Transurethral Resection of Bladder Tumor (TURBT)",
+     "orgStudyIdInfo": {
+      "id": "PIVOT-006"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "CG Oncology, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "CG Oncology, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2029-02",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-07-01",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-06-30",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2026-11",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2023-12-14",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-06",
+     "studyFirstPostDateStruct": {
+      "date": "2023-11-01",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2023-10-25",
+     "studyFirstSubmitQcDate": "2023-10-30"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "interventions": [
+      {
+       "description": "Engineered Oncolytic Adenovirus",
+       "name": "Cretostimogene Grenadenorepvec",
+       "otherNames": [
+        "CG0070"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "description": "Transduction-enhancing agent",
+       "name": "n-dodecyl-B-D-maltoside",
+       "otherNames": [
+        "DDM"
+       ],
+       "type": "OTHER"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Non-Muscle Invasive Bladder Cancer",
+      "Urothelial Carcinoma",
+      "Urologic Cancer",
+      "Bladder Cancer"
+     ],
+     "keywords": [
+      "Urology",
+      "Bladder Cancer",
+      "Non Muscle Invasive Bladder Cancer",
+      "Cretostimogene Grenadenorepvec"
+     ]
+    },
+    "designModule": {
+     "expandedAccessTypes": {
+      "treatment": true
+     },
+     "nPtrsToThisExpAccNctId": 1,
+     "studyType": "EXPANDED_ACCESS"
+    },
+    "identificationModule": {
+     "briefTitle": "An Expanded Access Program of Cretostimogene Grenadenorepvec for Treatment of NMIBC for Patients Unresponsive to BCG",
+     "nctId": "NCT06443944",
+     "officialTitle": "An Expanded Access Program of Cretostimogene Grenadenorepvec in Patients With Non-Muscle Invasive Bladder Cancer (NMIBC) Unresponsive to Bacillus Calmette-Guerin (BCG)",
+     "orgStudyIdInfo": {
+      "id": "CRETO-EAP"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "CG Oncology, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "CG Oncology, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-09-11",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-09-09",
+     "overallStatus": "AVAILABLE",
+     "statusVerifiedDate": "2026-09",
+     "studyFirstPostDateStruct": {
+      "date": "2024-06-05",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2024-05-30",
+     "studyFirstSubmitQcDate": "2024-05-30"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Cretostimogene (1 x 1012 vp) will be administered intravesically via the current instillation method",
+       "interventionNames": [
+        "Drug: Cretostimogene Grenadenorepvec"
+       ],
+       "label": "Experimental: Cohort A, Arm 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Cretostimogene (1 x 1012 vp) will be administered intravesically via an alternative instillation method.",
+       "interventionNames": [
+        "Drug: Cretostimogene Grenadenorepvec"
+       ],
+       "label": "Experimental: Cohort A, Arm 2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Cretostimogene (1 x 1012 vp) will be administered intravesically via an alternative instillation method.",
+       "interventionNames": [
+        "Drug: Cretostimogene Grenadenorepvec"
+       ],
+       "label": "Experimental: Cohort A, Arm 3",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Cretostimogene (1 x 1012 vp) will be administered intravesically via an alternative instillation method.",
+       "interventionNames": [
+        "Drug: Cretostimogene Grenadenorepvec"
+       ],
+       "label": "Experimental: Cohort B, Arm 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Cretostimogene (1 x 1012 vp) will be administered intravesically via an alternative instillation method.",
+       "interventionNames": [
+        "Drug: Cretostimogene Grenadenorepvec"
+       ],
+       "label": "Experimental: Cohort B, Arm 2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "At all treatment visits cretostimogene (1 x 1012 vp) will be administered intravesically via an alternative instillation method followed by gemcitabine instilled intravesically",
+       "interventionNames": [
+        "Drug: Cretostimogene Grenadenorepvec"
+       ],
+       "label": "Experimental: Cohort CX, Arm 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Cretostimogene (1 x 1012 vp) will be administered intravesically via an alternative instillation method for two consecutive weeks, followed by gemcitabine administered intravesically in the third week on a cyclic 2:1 visit schedule basis",
+       "interventionNames": [
+        "Drug: Cretostimogene Grenadenorepvec"
+       ],
+       "label": "Experimental: Cohort CX, Arm 2",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Experimental: Cohort A, Arm 1",
+        "Experimental: Cohort A, Arm 2",
+        "Experimental: Cohort A, Arm 3",
+        "Experimental: Cohort B, Arm 1",
+        "Experimental: Cohort B, Arm 2",
+        "Experimental: Cohort CX, Arm 1",
+        "Experimental: Cohort CX, Arm 2"
+       ],
+       "description": "Respective Cohort",
+       "name": "Cretostimogene Grenadenorepvec",
+       "otherNames": [
+        "CG0070"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "High-Risk Non-Muscle-Invasive Bladder Cancer"
+     ],
+     "keywords": [
+      "Bladder Cancer"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 325,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Phase 2 Study to Evaluate Safety and Efficacy of Cretostimogene Grenadenorepvec in High-Risk NMIBC",
+     "nctId": "NCT06567743",
+     "officialTitle": "A Phase 2, Multi-Arm, Multi-Cohort, Open-Label Study to Evaluate the Safety and Efficacy of Cretostimogene Grenadenorepvec in Participants With High-Risk Non-Muscle-Invasive Bladder Cancer (NMIBC)",
+     "orgStudyIdInfo": {
+      "id": "CORE-008"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "CG Oncology, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "CG Oncology, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2027-12-30",
+      "type": "ESTIMATED"
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-09-03",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-09-01",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-03-31",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2024-09-16",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-09",
+     "studyFirstPostDateStruct": {
+      "date": "2024-08-23",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2024-08-14",
+     "studyFirstSubmitQcDate": "2024-08-20"
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,84 @@
+{
+ "nctId": "NCT04378075",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-31.3",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "16.4",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "OTHER",
+     "pValue": "= 0.173",
+     "paramType": "Median Difference (Final Values)",
+     "paramValue": "-8.31",
+     "statisticalMethod": "ANCOVA"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "-28.67",
+         "spread": "-28.67",
+         "upperLimit": "9.42",
+         "value": "-12.74"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "-28.97",
+         "spread": "-28.97",
+         "upperLimit": "17.06",
+         "value": "-0.33"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "34"
+      },
+      {
+       "groupId": "OG001",
+       "value": "34"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The 28-day motor seizure frequency in the double-blind period was calculated as the (number of motor seizures)/ (the number of valid days where motor seizure count information is present) \\* 28 within the double-blind period. The baseline of the seizure frequency used the 28 days observations immediately prior to treatment start date for this calculation.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants received vatiquinone 15 mg/kg if body weight \\<13 kg, and 200 mg if body weight ≥13 kg, administered orally, TID for up to 24 weeks during the double-blind period.",
+     "id": "OG000",
+     "title": "Double-blind Period: Vatiquinone"
+    },
+    {
+     "description": "Participants received vatiquinone-matched placebo, administered orally, TID for up to 24 weeks during the double-blind period.",
+     "id": "OG001",
+     "title": "Double-blind Period: Placebo"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "ITT population included all randomized participants who received at least 1 dose of treatment.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline to Week 24",
+   "title": "Percent Change From Baseline to Week 24 in the Number of Observable Motor Seizures Per 28 Days During the Double-blind Period",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percent change"
+  }
+ ]
+}

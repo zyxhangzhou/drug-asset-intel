@@ -1,0 +1,448 @@
+{
+ "nctId": "NCT02214160",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "groupIds": [
+      "OG000"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0347",
+     "statisticalMethod": "Paired T-test"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "1.64",
+         "value": "1.76"
+        }
+       ]
+      }
+     ],
+     "title": "Pre-UX007 Period"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "1.00",
+         "value": "1.00"
+        }
+       ]
+      }
+     ],
+     "title": "UX007 Treatment Period"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "24"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The annualized LC-FAOD MCE rate, inclusive of skeletal myopathy (rhabdomyolysis), hepatic (hypoglycemia) and cardiomyopathy events, defined as any visit to the emergency room (ER)/acute care, hospitalization, emergency intervention (i.e. any unscheduled administration of therapeutics at home or in the clinic), or any similar event whether caused primarily by LC-FAOD or by an intercurrent illness complicated by LC-FAOD.\n\nThe annualized event rate was calculated at the number of events divided by the duration of data collection period in days/365.25",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants who participated in the UX007-CL201 study (NCT01886378) receive UX007, administered orally with food or by gastronomy tube (usually 4 times per day: breakfast, lunch, dinner, and before bed), at the target dose range of 25-35% of total calories.",
+     "id": "OG000",
+     "title": "UX007-CL201-Rollover Cohort"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Full Analysis Set: all participants enrolled who had at least 1 post-baseline efficacy assessment.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Pre-UX007 treatment period (up to 18 months) and post-UX007 treatment period (up to 2072 days)",
+   "title": "Annualized LC-FAOD Major Clinical Events (MCEs) Rate: 18 Months Pre- and Entire UX007 Period Comparison for UX007-CL201-Rollover Cohort",
+   "type": "PRIMARY",
+   "unitOfMeasure": "events/year"
+  },
+  {
+   "analyses": [
+    {
+     "groupIds": [
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0343",
+     "statisticalMethod": "Wilcoxon Signed Rank Test"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG001",
+         "lowerLimit": "0.67",
+         "upperLimit": "3.33",
+         "value": "2.00"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "33"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Pre-UX007 Period"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "0.0",
+         "upperLimit": "1.67",
+         "value": "0.57"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "0.00",
+         "upperLimit": "1.43",
+         "value": "0.28"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "37"
+        },
+        {
+         "groupId": "OG001",
+         "value": "33"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "UX007 Treatment Period"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "37"
+      },
+      {
+       "groupId": "OG001",
+       "value": "33"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The annualized LC-FAOD MCE rate, inclusive of skeletal myopathy (rhabdomyolysis), hepatic (hypoglycemia) and cardiomyopathy events, defined as any visit to the emergency room (ER)/acute care, hospitalization, emergency intervention (i.e. any unscheduled administration of therapeutics at home or in the clinic), or any similar event whether caused primarily by LC-FAOD or by an intercurrent illness complicated by LC-FAOD.\n\nThe annualized event rate was calculated at the number of events divided by the duration of data collection period in days/365.25",
+   "dispersionType": "Inter-Quartile Range",
+   "groups": [
+    {
+     "description": "Participants who were previously treated with UX007/triheptanoin (including food-grade triheptanoin) in an investigator sponsored trial (IST) or another UX007/triheptanoin study receive UX007, administered orally with food or by gastronomy tube (usually 4 times per day: breakfast, lunch, dinner, and before bed), at the target dose range of 25-35% of total calories.",
+     "id": "OG000",
+     "title": "IST/Other Cohort"
+    },
+    {
+     "description": "Participants who are UX007 treatment-naïve (i.e., naïve to both UX007 and food-grade triheptanoin), or who had failed conventional therapy (including those who participated in UX007-CL201 study previously but were off UX007 for more than 2 years preceding enrollment into CL202) receive UX007, administered orally with food or by gastronomy tube (usually 4 times per day: breakfast, lunch, dinner, and before bed), at the target dose range of 25-35% of total calories.",
+     "id": "OG001",
+     "title": "Triheptanoin-Naïve Cohort"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "Full Analysis Set: all participants enrolled who had at least 1 post-baseline efficacy assessment. Per protocol, pre-UX007 MCE data was not collected in the IST/Other Cohort.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Pre-UX007 treatment period (up to 18 months) and post-UX007 treatment period (up to 2072 days)",
+   "title": "Annualized LC-FAOD MCEs Rate: 18 Months Pre- and Entire UX007 Period Comparison for IST/Other Cohort and Triheptanoin-Naïve Cohort",
+   "type": "PRIMARY",
+   "unitOfMeasure": "events/year"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "24"
+        },
+        {
+         "groupId": "OG001",
+         "value": "35"
+        },
+        {
+         "groupId": "OG002",
+         "value": "32"
+        }
+       ]
+      }
+     ],
+     "title": ">= 1 TEAE"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "14"
+        },
+        {
+         "groupId": "OG001",
+         "value": "22"
+        },
+        {
+         "groupId": "OG002",
+         "value": "28"
+        }
+       ]
+      }
+     ],
+     "title": "Treatment-Related TEAEs"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "10"
+        },
+        {
+         "groupId": "OG001",
+         "value": "19"
+        },
+        {
+         "groupId": "OG002",
+         "value": "27"
+        }
+       ]
+      }
+     ],
+     "title": "Treatment-Related Gastrointestinal (GI) TEAEs"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "16"
+        },
+        {
+         "groupId": "OG001",
+         "value": "26"
+        },
+        {
+         "groupId": "OG002",
+         "value": "18"
+        }
+       ]
+      }
+     ],
+     "title": "Grade 3 TEAEs"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "3"
+        },
+        {
+         "groupId": "OG001",
+         "value": "2"
+        },
+        {
+         "groupId": "OG002",
+         "value": "2"
+        }
+       ]
+      }
+     ],
+     "title": "Grade 4 TEAEs"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "20"
+        },
+        {
+         "groupId": "OG001",
+         "value": "28"
+        },
+        {
+         "groupId": "OG002",
+         "value": "22"
+        }
+       ]
+      }
+     ],
+     "title": "Serious TEAEs"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1"
+        },
+        {
+         "groupId": "OG001",
+         "value": "1"
+        },
+        {
+         "groupId": "OG002",
+         "value": "3"
+        }
+       ]
+      }
+     ],
+     "title": "Treatment-Related Serious TEAEs"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1"
+        },
+        {
+         "groupId": "OG001",
+         "value": "1"
+        },
+        {
+         "groupId": "OG002",
+         "value": "1"
+        }
+       ]
+      }
+     ],
+     "title": "TEAEs Leading to Treatment Discontinuation"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "1"
+        },
+        {
+         "groupId": "OG002",
+         "value": "1"
+        }
+       ]
+      }
+     ],
+     "title": "TEAEs Leading to Study Discontinuation"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "2"
+        },
+        {
+         "groupId": "OG001",
+         "value": "2"
+        },
+        {
+         "groupId": "OG002",
+         "value": "1"
+        }
+       ]
+      }
+     ],
+     "title": "TEAEs Leading to Death"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "24"
+      },
+      {
+       "groupId": "OG001",
+       "value": "37"
+      },
+      {
+       "groupId": "OG002",
+       "value": "33"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "An adverse event (AE) was defined as any untoward medical occurrence, whether or not considered drug related. A serious adverse event (SAE) results in any of the following outcomes: death; a life-threatening AE; inpatient hospitalization or prolongation of existing hospitalization; persistent or significant incapacity or disability; a congenital anomaly/birth defect; an important medical event. AEs were graded using the National Cancer Institute (NCI) Common Terminology Criteria for Adverse Events (CTCAE) Version 4.0 (mild=1, moderate=2, severe=3, life-threatening=4, death=5).",
+   "groups": [
+    {
+     "description": "Participants who participated in the UX007-CL201 study (NCT01886378) receive UX007, administered orally with food or by gastronomy tube (usually 4 times per day: breakfast, lunch, dinner, and before bed), at the target dose range of 25-35% of total calories.",
+     "id": "OG000",
+     "title": "UX007-CL201-Rollover Cohort"
+    },
+    {
+     "description": "Participants who were previously treated with UX007/triheptanoin (including food-grade triheptanoin) in an investigator sponsored trial (IST) or another UX007/triheptanoin study receive UX007, administered orally with food or by gastronomy tube (usually 4 times per day: breakfast, lunch, dinner, and before bed), at the target dose range of 25-35% of total calories.",
+     "id": "OG001",
+     "title": "IST/Other Cohort"
+    },
+    {
+     "description": "Participants who are UX007 treatment-naïve (i.e., naïve to both UX007 and food-grade triheptanoin), or who had failed conventional therapy (including those who participated in UX007-CL201 study previously but were off UX007 for more than 2 years preceding enrollment into CL202) receive UX007, administered orally with food or by gastronomy tube (usually 4 times per day: breakfast, lunch, dinner, and before bed), at the target dose range of 25-35% of total calories.",
+     "id": "OG002",
+     "title": "Triheptanoin-Naïve Cohort"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Safety Analysis Set: participants who received at least 1 dose of study drug.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Post-UX007 treatment through the end of treatment (up to 2072 days) plus 30-35 days",
+   "title": "Number of Participants With Treatment-Emergent Adverse Events (TEAEs) or Serious TEAEs",
+   "type": "PRIMARY",
+   "unitOfMeasure": "participants"
+  }
+ ]
+}

@@ -1,0 +1,545 @@
+{
+ "nctId": "NCT02678689",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityComment": "The two-sample T-test with unequal variance was conducted at a significance level of 0.05",
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "< 0.0001",
+     "statisticalMethod": "t-test, unequal variance"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.243",
+         "value": "0.15"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.857",
+         "value": "1.30"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "12"
+      },
+      {
+       "groupId": "OG001",
+       "value": "29"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Rate of decline in 0 to 6-point ML score, \\& primary analysis was based on up to 3-1 matching of Study 190-901 evaluable participants with Study 190-203 ITT participants.\n\nRate of decline =(-1)x(48x7)x(Ending score - Starting score)/(Ending date - Starting date)\n\nA positive rate of decline means that subject declined, a negative rate of decline means that subject improved.\n\nThe combined motor/gait and language (ML) score, as derived from Hamburg CLN2 rating scale, immediately preceding first infusion. The combined ML score is determined as sum of 0-3 point motor(M) \\& language(L) subscales where 0 represents no function, \\& 3 represents normal function, \\& can range from 0(severely impaired) to 6(normal). Thus,high scores describe better function \\& low scores describe poor function.\n\nThe starting assessment is baseline ML assessment \\& ending assessment is last ML score \\>0. Note for Study 190-901, baseline ML assessment is defined as assessment of matching to Study 190-203 subj.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "BMN 190 was administered by continuous Intracerebroventricular (ICV) infusion at the rate of 2.5 mL/hour for approximately 4 hours every 14 (+/-3) days, preferably in the morning. The recommended dose of BMN 190 is according to the participant's age: Birth to \\< 6 months: 100 mg, 6 months to \\< 1 year: 150 mg, 1 year to \\< 2 years: 200 mg (first four doses), 300 mg (subsequent doses) \\>=2 years: 300 mg. The treatment continued for the duration of at least 144 weeks or until all procedures were completed or the participant discontinued from the study.\n\nBMN 190 recombinant human tripeptidyl peptidase-1 (rhTPP1)\n\nIntracerebroventricular access device: Surgical implantation of an MRI compatible ICV access device in the lateral ventricle of the right hemisphere is required for administration of study drug.",
+     "id": "OG000",
+     "title": "BMN 190-203"
+    },
+    {
+     "description": "The NH comparator population consisted of subjects from the DEM-CHILD database who satisfied the 190-203 inclusion criteria. The Study 190-901 evaluable population was required to have:\n\n* At least one assessment ML \\>= 3\n* At least two ML assessments in the range 1 - 6 and at least 6 months apart",
+     "id": "OG001",
+     "title": "Natural History Comparator: 190-901 Participants"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Matched ITT BMN 190-203: Two subjects in 190-203 ITT population (N=14) were excluded from the 190-203 ITT analysis with matching (N=12) who did not match with any 190-901 subjects on the matching criteria. The matching criteria at baseline were: • Equal ML score • Age within 3 months • Genome: equal number of common alleles (c.622C→T, c.509.1G→C)\n\nMatched 190-901 Natural history population: 29 subjects from DEM-CHILD database satisfying the criteria listed in the Arm/Group description.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline to Last assessment (Week 169)",
+   "title": "Motor Language (ML) Scale: Rate of Decline in the 0 to 6-point ML Score.",
+   "type": "PRIMARY",
+   "unitOfMeasure": "change in score/48 wk"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.021",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.393",
+     "estimateComment": "Hazard ratio is based on Cox proportional hazards model with a factor of study group",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<.0001",
+     "paramType": "Hazard Ratio (HR)",
+     "paramValue": "0.091",
+     "statisticalMethod": "Cox Model Wald Test"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "0.00",
+         "upperLimit": "0.00",
+         "value": "0.0"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "0.05",
+         "upperLimit": "0.35",
+         "value": "0.141"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "12"
+        },
+        {
+         "groupId": "OG001",
+         "value": "23"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Probability of decline: Week 49"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "0.01",
+         "upperLimit": "0.46",
+         "value": "0.083"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "0.23",
+         "upperLimit": "0.62",
+         "value": "0.397"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "11"
+        },
+        {
+         "groupId": "OG001",
+         "value": "16"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Probability of decline: Week 97"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "0.04",
+         "upperLimit": "0.52",
+         "value": "0.167"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "0.59",
+         "upperLimit": "0.92",
+         "value": "0.774"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "10"
+        },
+        {
+         "groupId": "OG001",
+         "value": "6"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Probability of decline: Week 145"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "12"
+      },
+      {
+       "groupId": "OG001",
+       "value": "29"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "An unreversed 2-point decline is any decline of 2 points or more that had not reversed to a 1-point decline (or better) at last recorded observation. An unreversed score of 0 is a decline to 0 that had not increased to a score \\>0 at last recorded observation\n\nML score decline is measured by motor \\& language domains on CLN2 rating scale. Combined motor/gait \\&language (ML) score, as derived from Hamburg CLN2 rating scale, immediately preceding first infusion. Combined ML score is determined as sum of the 0-3 point motor(M)\\&language(L) where 0 represents no function, \\& 3 represents normal function, \\& can range from 0 (severely impaired) to 6 (normal). Thus, high scores describe better function \\& low scores describe poor function\n\nModel includes data up to week 169. Estimates from the model are presented for Wks 49, 97 \\& 145\n\nNo.analyzed is no.of subj out of overall no.of participants analyzed who have not been censored/had unreversed 2-point decline/score of 0 at given time points.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "BMN 190 was administered by continuous Intracerebroventricular (ICV) infusion at the rate of 2.5 mL/hour for approximately 4 hours every 14 (+/-3) days, preferably in the morning. The recommended dose of BMN 190 is according to the participant's age: Birth to \\< 6 months: 100 mg, 6 months to \\< 1 year: 150 mg, 1 year to \\< 2 years: 200 mg (first four doses), 300 mg (subsequent doses) \\>=2 years: 300 mg. The treatment continued for the duration of at least 144 weeks or until all procedures were completed or the participant discontinued from the study.\n\nBMN 190 recombinant human tripeptidyl peptidase-1 (rhTPP1)\n\nIntracerebroventricular access device: Surgical implantation of an MRI compatible ICV access device in the lateral ventricle of the right hemisphere is required for administration of study drug.",
+     "id": "OG000",
+     "title": "BMN 190-203"
+    },
+    {
+     "description": "The NH comparator population consisted of subjects from the DEM-CHILD database who satisfied the 190-203 inclusion criteria. The Study 190-901 evaluable population was required to have:\n\n* At least one assessment ML \\>= 3\n* At least two ML assessments in the range 1 - 6 and at least 6 months apart",
+     "id": "OG001",
+     "title": "Natural History Comparator: 190-901 Participants"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Matched ITT BMN 190-203: Two subjects in 190-203 ITT Population(N=14) were excluded from the 190-203 ITT analysis with matching (N=12) who did not match with any 190-901 subjects on the matching criteria. The matching criteria at baseline were: Equal ML score, age within 3 months and genome with equal number of common alleles(c.622C→T, c.509.1G→C).\n\nMatched 190-901 Natural history population: 29 subjects from DEM-CHILD database satisfying the criteria listed in the Arm/Group description.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline to Last assessment (Week 169)",
+   "title": "Probability of Unreversed 2-Point Decline in Motor-language (ML) Score or Score of 0",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Probability of decline"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.000",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.000",
+     "estimateComment": "Hazard ratio is based on Cox proportional hazards model with a factor of study group",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0032",
+     "paramType": "Hazard Ratio (HR)",
+     "paramValue": "0.000",
+     "statisticalMethod": "Cox Model Wald Test"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "0.00",
+         "upperLimit": "0.00",
+         "value": "0.0"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "0.00",
+         "upperLimit": "0.26",
+         "value": "0.03"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "12"
+        },
+        {
+         "groupId": "OG001",
+         "value": "26"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Probability of decline: Week 49"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "0.00",
+         "upperLimit": "0.00",
+         "value": "0.0"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "0.06",
+         "upperLimit": "0.37",
+         "value": "0.149"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "12"
+        },
+        {
+         "groupId": "OG001",
+         "value": "22"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Probability of decline: Week 97"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "0.00",
+         "upperLimit": "0.00",
+         "value": "0.0"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "0.18",
+         "upperLimit": "0.57",
+         "value": "0.336"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "12"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Probability of decline: Week 145"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "12"
+      },
+      {
+       "groupId": "OG001",
+       "value": "29"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The combined motor/gait and language (ML) score, as derived from the Hamburg CLN2 rating scale, immediately preceding the first infusion. The combined ML score is determined as the sum of the 0-3 point motor (M) and language (L) subscales where 0 represents no function, and 3 represents normal function, and can range from 0 (severely impaired) to 6 (normal). Thus, high scores describe better function and low scores describe poor function.\n\nModel includes data up to week 169. Estimates from the model are presented for Weeks 49, 97 and 145.\n\nNo.analyzed is no.of subj out of overall no.of participants analyzed who have not been censored/had unreversed decline/score of 0 at given time points",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "BMN 190 was administered by continuous Intracerebroventricular (ICV) infusion at the rate of 2.5 mL/hour for approximately 4 hours every 14 (+/-3) days, preferably in the morning. The recommended dose of BMN 190 is according to the participant's age: Birth to \\< 6 months: 100 mg, 6 months to \\< 1 year: 150 mg, 1 year to \\< 2 years: 200 mg (first four doses), 300 mg (subsequent doses) \\>=2 years: 300 mg. The treatment continued for the duration of at least 144 weeks or until all procedures were completed or the participant discontinued from the study.\n\nBMN 190 recombinant human tripeptidyl peptidase-1 (rhTPP1)\n\nIntracerebroventricular access device: Surgical implantation of an MRI compatible ICV access device in the lateral ventricle of the right hemisphere is required for administration of study drug.",
+     "id": "OG000",
+     "title": "BMN 190-203"
+    },
+    {
+     "description": "The NH comparator population consisted of subjects from the DEM-CHILD database who satisfied the 190-203 inclusion criteria. The Study 190-901 evaluable population was required to have:\n\n* At least one assessment ML \\>= 3\n* At least two ML assessments in the range 1 - 6 and at least 6 months apart",
+     "id": "OG001",
+     "title": "Natural History Comparator: 190-901 Participants"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Matched ITT BMN 190-203: Two subjects in 190-203 ITT Population (N=14) were excluded from the 190-203 ITT analysis with matching (N=12) who did not match with any 190-901 subjects on the matching criteria. The matching criteria at baseline were: Equal ML score, age within 3 months and genome with equal number of common alleles (c.622C→T, c.509.1G→C).\n\nMatched 190-901 Natural history population: 29 subjects from DEM-CHILD database satisfying the criteria listed in the Arm/Group description",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline to Last assessment (Week 169)",
+   "title": "Probability of Decline of Unreversed Motor-language (ML) Score of 0",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Probability of decline"
+  },
+  {
+   "analyses": [
+    {
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<.0001",
+     "statisticalMethod": "t-test, unequal variance"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.120",
+         "value": "0.05"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.496",
+         "value": "0.59"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "12"
+      },
+      {
+       "groupId": "OG001",
+       "value": "29"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Rate of decline = (-1) x (48 x 7) x (Ending score - Starting score)/(Ending date - Starting date).\n\nA positive rate of decline means that the subject declined, a negative rate of decline means that the subject improved.\n\nThe 0-3 point motor (M) subscales, as derived from the Hamburg CLN2 rating scale, where 0 represents no function, and 3 represents normal function. Thus, high scores describe better function, and low scores describe poor function.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "BMN 190 was administered by continuous Intracerebroventricular (ICV) infusion at the rate of 2.5 mL/hour for approximately 4 hours every 14 (+/-3) days, preferably in the morning. The recommended dose of BMN 190 is according to the participant's age: Birth to \\< 6 months: 100 mg, 6 months to \\< 1 year: 150 mg, 1 year to \\< 2 years: 200 mg (first four doses), 300 mg (subsequent doses) \\>=2 years: 300 mg. The treatment continued for the duration of at least 144 weeks or until all procedures were completed or the participant discontinued from the study.\n\nBMN 190 recombinant human tripeptidyl peptidase-1 (rhTPP1)\n\nIntracerebroventricular access device: Surgical implantation of an MRI compatible ICV access device in the lateral ventricle of the right hemisphere is required for administration of study drug.",
+     "id": "OG000",
+     "title": "BMN 190-203"
+    },
+    {
+     "description": "The NH comparator population consisted of subjects from the DEM-CHILD database who satisfied the 190-203 inclusion criteria. The Study 190-901 evaluable population was required to have:\n\n* At least one assessment ML \\>= 3\n* At least two ML assessments in the range 1 - 6 and at least 6 months apart",
+     "id": "OG001",
+     "title": "Natural History Comparator: 190-901 Participants"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Matched ITT BMN 190-203: Two subjects in 190-203 ITT Population (N=14) were excluded from the 190-203 ITT analysis with matching (N=12) who did not match with any 190-901 subjects on the matching criteria. The matching criteria at baseline were: Equal ML score, age within 3 months and genome with equal number of common alleles (c.622C→T, c.509.1G→C).\n\nMatched 190-901 Natural history population: 29 subjects from DEM-CHILD database satisfying the criteria listed in the Arm/Group description.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline to Last assessment (Week 169)",
+   "title": "Rate of Decline in Individual Motor Domains",
+   "type": "PRIMARY",
+   "unitOfMeasure": "change in score/48 wk"
+  },
+  {
+   "analyses": [
+    {
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<.0001",
+     "statisticalMethod": "t-test, unequal variance"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.146",
+         "value": "0.10"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.715",
+         "value": "0.77"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "12"
+      },
+      {
+       "groupId": "OG001",
+       "value": "28"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Rate of decline = (-1) x (48 x 7) x (Ending score - Starting score)/(Ending date - Starting date).\n\nA positive rate of decline means that the subject declined, a negative rate of decline means that the subject improved.\n\nThe 0-3 point language (L) subscales, as derived from the Hamburg CLN2 rating scale, where 0 represents no function, and 3 represents normal function. Thus, high scores describe better function and low scores describe poor function.\n\nPatients with baseline score of 0 are excluded.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "BMN 190 was administered by continuous Intracerebroventricular (ICV) infusion at the rate of 2.5 mL/hour for approximately 4 hours every 14 (+/-3) days, preferably in the morning. The recommended dose of BMN 190 is according to the participant's age: Birth to \\< 6 months: 100 mg, 6 months to \\< 1 year: 150 mg, 1 year to \\< 2 years: 200 mg (first four doses), 300 mg (subsequent doses) \\>=2 years: 300 mg. The treatment continued for the duration of at least 144 weeks or until all procedures were completed or the participant discontinued from the study.\n\nBMN 190 recombinant human tripeptidyl peptidase-1 (rhTPP1)\n\nIntracerebroventricular access device: Surgical implantation of an MRI compatible ICV access device in the lateral ventricle of the right hemisphere is required for administration of study drug.",
+     "id": "OG000",
+     "title": "BMN 190-203"
+    },
+    {
+     "description": "The NH comparator population consisted of subjects from the DEM-CHILD database who satisfied the 190-203 inclusion criteria. The Study 190-901 evaluable population was required to have:\n\n* At least one assessment ML \\>= 3\n* At least two ML assessments in the range 1 - 6 and at least 6 months apart",
+     "id": "OG001",
+     "title": "Natural History Comparator: 190-901 Participants"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Matched ITT BMN 190-203: Two subjects in 190-203 ITT Population (N=14) were excluded from the 190-203 ITT analysis with matching (N=12) who did not match with any 190-901 subjects on the matching criteria. The matching criteria at baseline were: Equal ML score, age within 3 months and genome with equal number of common alleles (c.622C→T, c.509.1G→C).\n\nMatched 190-901 Natural history population: 29 subjects from DEM-CHILD database satisfying the criteria listed in the Arm/Group description.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline to Last assessment (Week 169)",
+   "title": "Rate of Decline in Individual Language Domains",
+   "type": "PRIMARY",
+   "unitOfMeasure": "change in score/48 wk"
+  }
+ ]
+}

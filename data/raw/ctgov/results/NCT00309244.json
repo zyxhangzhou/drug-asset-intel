@@ -1,0 +1,82 @@
+{
+ "nctId": "NCT00309244",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-0.05",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.29",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "0.085",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityComment": "Sample size was set to meet regulatory requirement of 250 subjects per arm with 52-week data, resulting in \\> 90% power for a non-inferiority test of the difference in 12-month change of HbA1c scores between treatment groups with non-inferiority margin of 0.4%, standard deviation of 1.2 and 1-sided alpha of 0.025. Allowing for a 25% drop-out rate, 677 subjects were randomized.",
+     "nonInferiorityType": "NON_INFERIORITY_OR_EQUIVALENCE",
+     "paramType": "Mean Difference (Final Values)",
+     "paramValue": "0.12",
+     "statisticalMethod": "ANCOVA",
+     "testedNonInferiority": true
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.063",
+         "value": "-0.59"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.061",
+         "value": "-0.71"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "302"
+      },
+      {
+       "groupId": "OG001",
+       "value": "316"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Technosphere® Insulin Inhalation Powder + Insulin glargine",
+     "id": "OG000",
+     "title": "TI + Insulin Glargine"
+    },
+    {
+     "description": "70% insulin aspart protamine suspension and 30% insulin aspart injection (rDNA origin)",
+     "id": "OG001",
+     "title": "BPR 70/30"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Intention to treat (ITT) with Last Observation Carried Forward (LOCF); participants with available data at baseline and post-baseline.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline to Week 52",
+   "title": "Change From Baseline in HbA1c to Week 52",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percent"
+  }
+ ]
+}

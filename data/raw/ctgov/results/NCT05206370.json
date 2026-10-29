@@ -1,0 +1,221 @@
+{
+ "nctId": "NCT05206370",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "1.475",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "5.617",
+     "estimateComment": "Common odds ratio (stratified by site)",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityComment": "Abstinence from Week 3 to Week 6",
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0008",
+     "pValueComment": "Two-sided, calculated by exact computations with clinical site as a stratifier.",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "2.85",
+     "statisticalMethod": "Exact computations"
+    },
+    {
+     "ciLowerLimit": "1.485",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "5.094",
+     "estimateComment": "Marginal (unadjusted) odds ratio",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0010",
+     "pValueComment": "Two-sided, derived from marginal odds ratio",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "2.71",
+     "statisticalMethod": "Exact computations"
+    },
+    {
+     "ciLowerLimit": "0.033",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.134",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0006",
+     "pValueComment": "p-value for difference in proportions",
+     "paramType": "Difference in proportions",
+     "paramValue": "0.09",
+     "statisticalMethod": "Cochran-Mantel-Haenszel"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "6.0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "14.8"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "265"
+      },
+      {
+       "groupId": "OG001",
+       "value": "263"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Smoking abstinence as verified by weekly expired carbon monoxide (CO) measurements ≤ 10 parts per million (ppm).",
+   "groups": [
+    {
+     "description": "One placebo tablet PO TID for 12 weeks plus behavioral support",
+     "id": "OG000",
+     "title": "Placebo + Behavioral Support"
+    },
+    {
+     "description": "One cytisinicline tablet PO TID for 6 weeks followed by one placebo tablet PO TID for 6 weeks plus behavioral support",
+     "id": "OG001",
+     "title": "6-Week Cytisinicline + 6-Week Placebo + Behavioral Support"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "All Randomized Set: all randomized participants. Placebo and 6-week treatment arms only.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Weeks 3 to 6",
+   "title": "Percentage of Participants With Smoking Abstinence From Weeks 3 to Week 6",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "2.566",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "7.343",
+     "estimateComment": "Common odds ratio (stratified by site)",
+     "groupDescription": "Abstinence from Week 9 to Week 12",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "< 0.0001",
+     "pValueComment": "Two-sided, calculated by exact computations with clinical site as a stratifier.",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "4.40",
+     "statisticalMethod": "Exact computations"
+    },
+    {
+     "ciLowerLimit": "2.575",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "6.885",
+     "estimateComment": "Marginal (unadjusted) odds ratio",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "< 0.0001",
+     "pValueComment": "Two-sided, derived from marginal odds ratio.",
+     "paramType": "Odds Ratio (OR)",
+     "paramValue": "4.17",
+     "statisticalMethod": "Exact computations"
+    },
+    {
+     "ciLowerLimit": "0.141",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.267",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "< 0.0001",
+     "pValueComment": "p-value for difference in proportions4",
+     "paramType": "Difference in proportions",
+     "paramValue": "0.21",
+     "statisticalMethod": "Cochran-Mantel-Haenszel"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "9.4"
+        },
+        {
+         "groupId": "OG001",
+         "value": "30.3"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "265"
+      },
+      {
+       "groupId": "OG001",
+       "value": "264"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Smoking abstinence as verified by weekly expired CO measurements ≤ 10 ppm.",
+   "groups": [
+    {
+     "description": "one placebo tablet PO TID for 12 weeks plus behavioral support",
+     "id": "OG000",
+     "title": "Placebo + Behavioral Support"
+    },
+    {
+     "description": "One cytisinicline tablet PO TID for 12 weeks plus behavioral support",
+     "id": "OG001",
+     "title": "12-Week Cytisinicline + Behavioral Support"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "All Randomized Set: all randomized participants, Placebo and 12-week treatment arms only.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Weeks 9 to 12",
+   "title": "Percentage of Participants With Smoking Abstinence From Weeks 9 to Week 12",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

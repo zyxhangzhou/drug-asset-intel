@@ -1,0 +1,616 @@
+{
+ "aliases": [
+  "Dianthus Therapeutics",
+  "Dianthus Therapeutics Inc. /DE/"
+ ],
+ "studies": [
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "interventionNames": [
+        "Drug: Claseprubart"
+       ],
+       "label": "Claseprubart 300 mg Q2W",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Claseprubart"
+       ],
+       "label": "Claseprubart 600 mg Q2W",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Claseprubart 300 mg Q2W",
+        "Claseprubart 600 mg Q2W"
+       ],
+       "description": "Day 1: IV loading dose Week 1 to Week 11: Claseprubart administered SC every 2 weeks",
+       "name": "Claseprubart",
+       "otherNames": [
+        "DNTH103"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Day 1: IV infusion of placebo Week 1 to Week 11: placebo administered SC every 2 weeks",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Myasthenia Gravis, Generalized"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 65,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "MAGIC",
+     "briefTitle": "A Phase 2 Study to Evaluate DNTH103 in Adults With Generalized Myasthenia Gravis (MAGIC)",
+     "nctId": "NCT06282159",
+     "officialTitle": "A Phase 2, Randomized, Blinded, Placebo-Controlled, Study to Evaluate Safety, Tolerability, Pharmacometrics, and Efficacy of DNTH103 in Adults With Generalized Myasthenia Gravis (MAGIC)",
+     "orgStudyIdInfo": {
+      "id": "DNTH103-MG-201"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Dianthus Therapeutics"
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "2024-512865-15-00",
+       "type": "CTIS"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Dianthus Therapeutics"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2028-10",
+      "type": "ESTIMATED"
+     },
+     "dispFirstPostDateStruct": {
+      "date": "2026-06-08",
+      "type": "ACTUAL"
+     },
+     "dispFirstSubmitDate": "2026-07-23",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-07-27",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-07-23",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2025-07-28",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2024-02-23",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-07",
+     "studyFirstPostDateStruct": {
+      "date": "2024-02-28",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2023-12-15",
+     "studyFirstSubmitQcDate": "2024-02-20"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "interventionNames": [
+        "Drug: Claseprubart"
+       ],
+       "label": "Claseprubart 300 mg Q2W",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Claseprubart"
+       ],
+       "label": "Claseprubart 600 mg Q2W",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Claseprubart 300 mg Q2W",
+        "Claseprubart 600 mg Q2W"
+       ],
+       "description": "* Day 1: IV loading dose\n* Week 1 to Week 15: Claseprubart administered SC every 2 weeks",
+       "name": "Claseprubart",
+       "otherNames": [
+        "DNTH103"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "* Day 1: IV infusion of placebo\n* Week 1 to Week 15: placebo administered SC every 2 weeks",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Multifocal Motor Neuropathy"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 46,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "MOMENTUM",
+     "briefTitle": "A Clinical Study to Evaluate DNTH103 in Adults With Multifocal Motor Neuropathy",
+     "nctId": "NCT06537999",
+     "officialTitle": "A Phase 2, Randomized, Double-Blinded, Placebo-Controlled, Study to Evaluate Safety, Tolerability, Pharmacometrics, and Efficacy of DNTH103 in Adults With Multifocal Motor Neuropathy (MOMENTUM)",
+     "orgStudyIdInfo": {
+      "id": "DNTH103-MMN-201"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Dianthus Therapeutics"
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "2024-513128-40-00",
+       "type": "CTIS"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Dianthus Therapeutics"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2028-03-31",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-08-10",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-08-06",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2026-12",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2024-09-17",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-08",
+     "studyFirstPostDateStruct": {
+      "date": "2024-08-05",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2024-07-31",
+     "studyFirstSubmitQcDate": "2024-07-31"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Claseprubart intravenous (IV) loading dose on Day 1.\n\nClaseprubart subcutaneous (SC) once every 2 weeks for up to 13 weeks.",
+       "interventionNames": [
+        "Drug: Claseprubart"
+       ],
+       "label": "Claseprubart (Part A)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Claseprubart SC once every 2 weeks for up to 52 weeks.",
+       "interventionNames": [
+        "Drug: Claseprubart"
+       ],
+       "label": "Claseprubart (Part B)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Placebo SC once every 2 weeks for up to 52 weeks.",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo (Part B)",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "description": "Claseprubart SC once every 2 weeks for up to 104 weeks.",
+       "interventionNames": [
+        "Drug: Claseprubart"
+       ],
+       "label": "Claseprubart (Optional OLE)",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Claseprubart (Part A)"
+       ],
+       "description": "IV Infusion",
+       "name": "Claseprubart",
+       "otherNames": [
+        "DNTH103"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Claseprubart (Optional OLE)",
+        "Claseprubart (Part A)",
+        "Claseprubart (Part B)"
+       ],
+       "description": "SC injection",
+       "name": "Claseprubart",
+       "otherNames": [
+        "DNTH103"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo (Part B)"
+       ],
+       "description": "SC injection",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Chronic Inflammatory Demyelinating Polyneuropathy"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "TRIPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 256,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "CAPTIVATE",
+     "briefTitle": "A Study to Evaluate the Efficacy and Safety of DNTH103 in Adults With Chronic Inflammatory Demyelinating Polyneuropathy (CAPTIVATE)",
+     "nctId": "NCT06858579",
+     "officialTitle": "A Phase 3 Randomized, Double-Blind, Placebo-Controlled Study To Evaluate The Efficacy And Safety Of DNTH103 In Adults With Chronic Inflammatory Demyelinating Polyneuropathy (CAPTIVATE)",
+     "orgStudyIdInfo": {
+      "id": "DNTH103-CIDP-301"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Dianthus Therapeutics"
+     },
+     "secondaryIdInfos": [
+      {
+       "domain": "EU CT Number",
+       "id": "2024-517529-26",
+       "type": "OTHER"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Dianthus Therapeutics"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2030-12-31",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-28",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-26",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2028-12-31",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2025-02-10",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-04",
+     "studyFirstPostDateStruct": {
+      "date": "2025-03-05",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-02-18",
+     "studyFirstSubmitQcDate": "2025-02-27"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Intravenous (IV) infusion of Placebo on Day 1 followed by subcutaneous (SC) injections of Placebo every 2 weeks (Q2W) starting at Week 1 (Day 8).",
+       "interventionNames": [
+        "Drug: Placebo",
+        "Combination Product: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "description": "IV loading dose of claseprubart on Day 1 followed by SC injections of claseprubart Q2W starting at Week 1 (Day 8).",
+       "interventionNames": [
+        "Drug: Claseprubart",
+        "Combination Product: Claseprubart"
+       ],
+       "label": "Claseprubart Q2W",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "IV loading dose of claseprubart on Day 1 followed by SC injections of claseprubart or Placebo Q2W starting at Week 1 (Day 8), with doses alternating between claseprubart and placebo.",
+       "interventionNames": [
+        "Drug: Claseprubart",
+        "Combination Product: Claseprubart",
+        "Combination Product: Placebo"
+       ],
+       "label": "Claseprubart Every 4 weeks (Q4W)",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Claseprubart Every 4 weeks (Q4W)",
+        "Claseprubart Q2W"
+       ],
+       "description": "IV loading dose on Day 1",
+       "name": "Claseprubart",
+       "otherNames": [
+        "DNTH103"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "IV infusion on Day 1",
+       "name": "Placebo",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Claseprubart Every 4 weeks (Q4W)",
+        "Claseprubart Q2W"
+       ],
+       "description": "Prefilled syringe containing claseprubart for SC administration",
+       "name": "Claseprubart",
+       "type": "COMBINATION_PRODUCT"
+      },
+      {
+       "armGroupLabels": [
+        "Claseprubart Every 4 weeks (Q4W)",
+        "Placebo"
+       ],
+       "description": "Prefilled syringe containing placebo for SC administration",
+       "name": "Placebo",
+       "type": "COMBINATION_PRODUCT"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Myasthenia Gravis, Generalized"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 195,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Phase 3 Study to Evaluate Claseprubart in Adults With Generalized Myasthenia Gravis (EMERGE)",
+     "nctId": "NCT07647510",
+     "officialTitle": "A Phase 3 Global, Multicenter, Randomized, Double-blind, Placebo-controlled Study to Demonstrate the Efficacy, Safety, and Tolerability of Claseprubart (DNTH103) in Patients With Generalized Myasthenia Gravis (EMERGE)",
+     "orgStudyIdInfo": {
+      "id": "DNTH103-MG-301"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Dianthus Therapeutics"
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "2026-525298-38-00",
+       "type": "CTIS"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Dianthus Therapeutics"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2031-09",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-28",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-26",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2028-12",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2026-06-29",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-06",
+     "studyFirstPostDateStruct": {
+      "date": "2026-06-15",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2026-05-27",
+     "studyFirstSubmitQcDate": "2026-06-09"
+    }
+   }
+  }
+ ]
+}

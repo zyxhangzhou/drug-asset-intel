@@ -1,0 +1,82 @@
+{
+ "nctId": "NCT02035553",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-3.64",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-0.04",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0451",
+     "paramType": "Diff in MMRM LSM",
+     "paramValue": "-1.84",
+     "statisticalMethod": "Mixed Models Analysis"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "-3.18",
+         "upperLimit": "-0.67",
+         "value": "-1.93"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "-5.05",
+         "upperLimit": "-2.47",
+         "value": "-3.76"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "91"
+      },
+      {
+       "groupId": "OG001",
+       "value": "87"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Change from Baseline to Day 43 in the Neuropsychiatric Inventory-Nursing Home Version (NPI-NH) psychosis score (Delusions \\[Domain A\\]+Hallucinations \\[Domain B\\]) in the Full Analysis Set (FAS). The NPI-NH is a questionnaire that quantifies behavioral changes in dementia in nursing home patients and evaluates 12 behavioral domains. For each of the 12 behavioral domains the Frequency (scale:1=occasionally to 4=very frequently) is multiplied by the Severity (scale:1=Mild to 3=Severe) to obtain a domain score (frequency x severity), The NPI-NH Psychosis Subscale consists of the two domains of Delusions and Hallucinations, calculated by adding the Individual domain scores, to yield a possible total score of 0 to 24. Lower scores correspond to less severity. A negative change score from baseline indicates improvement.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Placebo, two tablets, once daily by mouth",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Pimavanserin tartrate, 40 mg (two 20 mg tablets), once daily by mouth (equivalent to 34 mg free base pimavanserin)",
+     "id": "OG001",
+     "title": "Pimavanserin 40 mg"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "All randomized subjects who received at least one dose of study treatment and have both a Baseline and at least one post-Baseline NPI-NH psychosis score evaluation.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Day 43",
+   "title": "Antipsychotic Efficacy",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Score on the NPI-NH scale"
+  }
+ ]
+}

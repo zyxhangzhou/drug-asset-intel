@@ -1,0 +1,142 @@
+{
+ "nctId": "NCT05001945",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "2.62",
+         "value": "-4.10"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "3.15",
+         "value": "-11.3"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "2.65",
+         "value": "-11.07"
+        },
+        {
+         "groupId": "OG003",
+         "spread": "3.16",
+         "value": "-5.63"
+        },
+        {
+         "groupId": "OG004",
+         "spread": "2.67",
+         "value": "-13.69"
+        },
+        {
+         "groupId": "OG005",
+         "spread": "2.77",
+         "value": "-11.92"
+        },
+        {
+         "groupId": "OG007",
+         "spread": "2.41",
+         "value": "-11.43"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "29"
+      },
+      {
+       "groupId": "OG001",
+       "value": "19"
+      },
+      {
+       "groupId": "OG002",
+       "value": "28"
+      },
+      {
+       "groupId": "OG003",
+       "value": "19"
+      },
+      {
+       "groupId": "OG004",
+       "value": "28"
+      },
+      {
+       "groupId": "OG005",
+       "value": "25"
+      },
+      {
+       "groupId": "OG006",
+       "value": "0"
+      },
+      {
+       "groupId": "OG007",
+       "value": "31"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The primary outcome was defined as the change in office-measured (mean of last 2 of 5 unattended measurements using an automated oscillometric sphygmomanometer device after approximately 5 minutes of rest in the seated position) SBP from baseline to the end of Study Week 8. The primary efficacy analysis was performed using a mixed model repeated measures (MMRM) approach with defined fixed effects per the statistical analysis plan. A least-square estimate of the mean difference between each dose group and the placebo group is provided for Week 8.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Participants received matching placebo, taken orally, for 8 weeks in Part 1 of the study",
+     "id": "OG000",
+     "title": "Placebo - Part 1"
+    },
+    {
+     "description": "Participants received 12.5 mg of lorundrostat twice daily, taken orally, for 8 weeks in Part 1 of the study",
+     "id": "OG001",
+     "title": "Lorundrostat 12.5 mg BID - Part 1"
+    },
+    {
+     "description": "Participants received 25 mg of lorundrostat twice daily, taken orally, for 8 weeks in Part 1 of the study",
+     "id": "OG002",
+     "title": "Lorundrostat 25 mg BID - Part 1"
+    },
+    {
+     "description": "Participants received 12.5 mg of lorundrostat once daily, taken orally, for 8 weeks in Part 1 of the study",
+     "id": "OG003",
+     "title": "Lorundrostat 12.5 mg QD - Part 1"
+    },
+    {
+     "description": "Participants received 50 mg of lorundrostat once daily, taken orally, for 8 weeks in Part 1 of the study",
+     "id": "OG004",
+     "title": "Lorundrostat 50 mg QD - Part 1"
+    },
+    {
+     "description": "Participants received 100 mg of lorundrostat once daily, taken orally, for 8 weeks in Part 1 of the study",
+     "id": "OG005",
+     "title": "Lorundrostat 100 mg QD - Part 1"
+    },
+    {
+     "description": "Participants received matching placebo, taken orally, for 8 weeks in Part 2 of the study",
+     "id": "OG006",
+     "title": "Placebo - Part 2"
+    },
+    {
+     "description": "Participants received 100 mg of lorundrostat once daily, taken orally, for 8 weeks in Part 2 of the study",
+     "id": "OG007",
+     "title": "Lorundrostat 100 mg QD - Part 2"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "The full analysis set included all randomized subjects who received at least 1 dose of randomized study treatment (lorundrostat or placebo). Subjects were analyzed according to the randomized study treatment group.\n\nPer the study SAP, modelled analysis comparisons for Part 2 were performed for 100 mg QD Part 2 vs 100mg QD Part 1, and not to Placebo - Part 2. Accordingly, while subjects were analyzed, modelled LSmeans for Placebo - Part 2 were not reported.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "8 Weeks",
+   "title": "Change From Baseline in Office-measured Systolic Blood Pressure (SBP) at Study Week 8 Compared to Placebo",
+   "type": "PRIMARY",
+   "unitOfMeasure": "mmHg"
+  }
+ ]
+}

@@ -1,0 +1,116 @@
+{
+ "nctId": "NCT04594369",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.680",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.916",
+     "groupDescription": "Model treatment \\& randomization stratification factor=geographic region, sputum sample (Pseudomonas aeruginosa) at start \\& PE last 12 months, age group (fixed effects) \\& time at risk (log scale) as offset variable. Robust sandwich covariance estimator used.",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "=0.0019",
+     "pValueComment": "Adjusted p-value = 0.0038. The enhanced mixture-based gatekeeping procedure was used to control the overall type I error rate. Multiplicity adjusted p-value for the primary endpoint was tested at two-sided alpha = 0.01.",
+     "paramType": "Rate ratio",
+     "paramValue": "0.789",
+     "statisticalMethod": "Negative binomial regression"
+    },
+    {
+     "ciLowerLimit": "0.694",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.936",
+     "groupDescription": "Model treatment \\& randomization stratification factor=geographic region, sputum sample (Pseudomonas aeruginosa) at start \\& PE last 12 months, age group (fixed effects) \\& time at risk (log scale) as offset variable. Robust sandwich covariance estimator used.",
+     "groupIds": [
+      "OG001",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "=0.0046",
+     "pValueComment": "Adjusted p-value = 0.0048. The enhanced mixture-based gatekeeping procedure was used to control the overall type I error rate. Multiplicity adjusted p-value for the primary endpoint was tested at two-sided alpha = 0.01.",
+     "paramType": "Rate ratio",
+     "paramValue": "0.806",
+     "statisticalMethod": "Negative binomial regression"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "0.910",
+         "upperLimit": "1.132",
+         "value": "1.015"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "0.927",
+         "upperLimit": "1.157",
+         "value": "1.036"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "1.158",
+         "upperLimit": "1.428",
+         "value": "1.286"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "583"
+      },
+      {
+       "groupId": "OG001",
+       "value": "575"
+      },
+      {
+       "groupId": "OG002",
+       "value": "563"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "PE was defined as having 3 or more of these symptoms for at least 48 hours resulting in a physician's decision to prescribe antibiotics: 1. Increased cough 2. Increased sputum volume or change in sputum consistency 3. Increased sputum purulence 4. Increased breathlessness and/or decreased exercise tolerance 5. Fatigue and/or malaise 6. Hemoptysis. A severe pulmonary exacerbation was that required intravenous (IV) antibacterial drug treatment and/or hospitalization. A minimum of 14 days must have occurred between one exacerbation onset and the next. Any exacerbation that occurred less than 14 days from the prior exacerbation was not considered a new exacerbation. Independent adjudication committee with pulmonary physicians adjudicated reported PE events to see if they fulfil the protocol definition. The rate of PE was analyzed using the negative binomial model.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants received brensocatib 10 mg, tablets orally, once daily, for 52 weeks.",
+     "id": "OG000",
+     "title": "Brensocatib 10 mg"
+    },
+    {
+     "description": "Participants received brensocatib 25 mg, tablets orally, once daily, for 52 weeks.",
+     "id": "OG001",
+     "title": "Brensocatib 25 mg"
+    },
+    {
+     "description": "Participants received a brensocatib matching placebo, tablets orally, once daily, for 52 weeks.",
+     "id": "OG002",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "The ITT analysis set included all participants who were randomized.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to Week 52",
+   "title": "Annualized Rate of Pulmonary Exacerbations (PEs)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "exacerbation per participant-year"
+  }
+ ]
+}

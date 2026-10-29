@@ -269,3 +269,28 @@ def test_trimmed_cache_keeps_verbatim_entries(tmp_path):
     cached = json.loads(path.read_text())
     assert cached["us-gaap"] == {fin.CASH: {"USD": [entry]}}  # Revenues dropped, entry verbatim
     assert len(json.loads(meta_path(path).read_text())["requests"][0]["sha256"]) == 64
+
+
+def test_newer_balance_sheet_count_beats_stale_cover_page():
+    data = facts(
+        {fin.CASH: [instant(1.0)]},
+        shares=[instant(10.0, end="2022-05-02", filed="2022-05-09")],
+    )
+    data["us-gaap"][fin.BALANCE_SHARES] = {"shares": [instant(40.0)]}
+    shares = fin.shares_outstanding(data["dei"], data["us-gaap"])
+    assert shares.value == 40.0 and shares.tag == fin.BALANCE_SHARES
+
+
+def test_stale_shares_skip_market_cap(tmp_path):
+    raw = tmp_path / "raw"
+    stale = facts(
+        {fin.CASH: [instant(5.0)], fin.OCF: [duration(-1.0)]},
+        shares=[instant(10.0, end="2022-05-02", filed="2022-05-09")],
+    )
+    write_company(raw, "ANNX", "1528115", stale, PRICE_ROWS)
+    inputs = Inputs(assignment_dir=ROOT / "docs" / "assignment", raw_dir=raw, manual_dir=tmp_path)
+    report = build_snapshot(tmp_path / "x.db", inputs)
+    assert any(g.key == "ANNX" and g.reason == "shares_stale" for g in report.gaps)
+    with Session(rw_engine(tmp_path / "x.db")) as s:
+        target = s.exec(select(Target).where(Target.ticker == "ANNX")).one()
+        assert target.financials[0].market_cap is None

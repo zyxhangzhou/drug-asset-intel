@@ -1,0 +1,60 @@
+{
+ "nctId": "NCT03532542",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "12"
+        },
+        {
+         "groupId": "OG001",
+         "value": "22"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "74"
+      },
+      {
+       "groupId": "OG001",
+       "value": "97"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "A treatment-emergent adverse event (TEAE) was any untoward medical occurrence in a clinical study participant that did not necessarily have a causal relationship with the study drug. A TEAE could, therefore, be any unfavorable and unintended symptom, sign, disease, condition, or test abnormality that occurred during or after administration of the study drug, whether or not considered related to the study drug. A TESAE was any TEAE that resulted in any of the following outcomes: death, a life-threatening event, required or prolonged inpatient hospitalization, persistent or significant disability/incapacity, or an important medical event (that is, may have jeopardized the participant and may have required medical or surgical intervention to prevent one of the previously mentioned outcomes). A summary of serious and all other non-serious TEAEs regardless of causality is located in the Reported Adverse Events module.",
+   "groups": [
+    {
+     "description": "Participants amenable to exon 53 skipping who have completed a clinical trial evaluating golodirsen received open-label golodirsen IV infusions, weekly, at 30 mg/kg for up to 144 weeks.",
+     "id": "OG000",
+     "title": "Golodirsen"
+    },
+    {
+     "description": "Participants amenable to exon 45 skipping who have completed a clinical trial evaluating casimersen received open-label casimersen IV infusions, weekly, at 30 mg/kg for up to 144 weeks.",
+     "id": "OG001",
+     "title": "Casimersen"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Safety Analysis Set: All enrolled participants who received at least 1 dose of study drug (golodirsen or casimersen).",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to 33 days after the last infusion of study drug (up to approximately 149 weeks)",
+   "title": "Number of Participants With Treatment-emergent Serious Adverse Events (TESAEs)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

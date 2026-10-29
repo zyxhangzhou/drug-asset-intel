@@ -1,0 +1,79 @@
+{
+ "nctId": "NCT03187769",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-3.33",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-.41",
+     "groupIds": [
+      "OG000"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": ".012",
+     "paramType": "Least Squares Mean Difference",
+     "paramValue": "-1.87",
+     "statisticalMethod": "ANCOVA"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": ".597",
+         "value": "4.91"
+        },
+        {
+         "groupId": "OG001",
+         "spread": ".596",
+         "value": "6.77"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "202"
+      },
+      {
+       "groupId": "OG001",
+       "value": "206"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The efficacy analyses were performed using the Final Analysis Set which is defined as all randomized subjects who received one dose of study drug and had at least 1 primary efficacy assessment after administration of study drug",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Coated bilayer tablet\n\nALKS 3831: Olanzapine + samidorphan, daily oral dosing",
+     "id": "OG000",
+     "title": "ALKS 3831"
+    },
+    {
+     "description": "Coated bilayer tablet\n\nOlanzapine: Daily oral dosing",
+     "id": "OG001",
+     "title": "Olanzapine"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "The efficacy analyses were performed using the Final Analysis Set (FAS) which is defined as all randomized subjects who received one dose of study drug and had at least 1 primary efficacy assessment after administration of study drug",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline and 12 weeks",
+   "title": "Percent Change From Baseline in Body Weight at Week 12",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Percentage of change in body weight"
+  }
+ ]
+}

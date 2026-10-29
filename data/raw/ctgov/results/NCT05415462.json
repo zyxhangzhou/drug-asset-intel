@@ -1,0 +1,783 @@
+{
+ "nctId": "NCT05415462",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.952",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "97.5",
+     "ciUpperLimit": "1.071",
+     "groupDescription": "GMR (mRNA-1010 vs Fluarix) for Influenza A H1N1 Antibody",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityComment": "The endpoint was tested for noninferiority of mRNA-1010 vs Fluarix for Influenza A H1N1 strain at a 2-sided 0.025 level.",
+     "nonInferiorityType": "NON_INFERIORITY",
+     "paramType": "Geometric Mean Ratio (GMR)",
+     "paramValue": "1.010"
+    },
+    {
+     "ciLowerLimit": "1.562",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "97.5",
+     "ciUpperLimit": "1.757",
+     "groupDescription": "GMR (mRNA-1010 vs Fluarix) for Influenza A H3N2 Antibody",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityComment": "The endpoint was tested for noninferiority of mRNA-1010 vs Fluarix for Influenza A H3N2 strain at a 2-sided 0.025 level.",
+     "nonInferiorityType": "NON_INFERIORITY",
+     "paramType": "GMR",
+     "paramValue": "1.657"
+    },
+    {
+     "ciLowerLimit": "0.630",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "97.5",
+     "ciUpperLimit": "0.702",
+     "groupDescription": "GMR (mRNA-1010 vs Fluarix) for Influenza B/ Victoria Lineage",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityComment": "The endpoint was tested for noninferiority of mRNA-1010 vs Fluarix for Influenza B Victoria-lineage strain at a 2-sided 0.025 level.",
+     "nonInferiorityType": "NON_INFERIORITY",
+     "paramType": "GMR",
+     "paramValue": "0.665"
+    },
+    {
+     "ciLowerLimit": "0.630",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "97.5",
+     "ciUpperLimit": "0.693",
+     "groupDescription": "GMR (mRNA-1010 vs Fluarix) for Influenza B/ Yamagata Lineage",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityComment": "The endpoint was tested for noninferiority of mRNA-1010 vs Fluarix for Influenza B Yamagata-lineage strain at a 2-sided 0.025 level.",
+     "nonInferiorityType": "NON_INFERIORITY",
+     "paramType": "GMR",
+     "paramValue": "0.661"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "256.16",
+         "upperLimit": "277.29",
+         "value": "266.52"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "259.28",
+         "upperLimit": "278.95",
+         "value": "268.94"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "2801"
+        },
+        {
+         "groupId": "OG001",
+         "value": "2831"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Influenza A H1N1 Antibody"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "167.61",
+         "upperLimit": "182.85",
+         "value": "175.06"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "277.90",
+         "upperLimit": "303.02",
+         "value": "290.19"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "2823"
+        },
+        {
+         "groupId": "OG001",
+         "value": "2850"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Influenza A H3N2 Antibody"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "122.13",
+         "upperLimit": "133.11",
+         "value": "127.50"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "80.66",
+         "upperLimit": "87.80",
+         "value": "84.16"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "2801"
+        },
+        {
+         "groupId": "OG001",
+         "value": "2831"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Influenza B/ Victoria Lineage"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "245.52",
+         "upperLimit": "263.57",
+         "value": "254.38"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "164.41",
+         "upperLimit": "175.74",
+         "value": "169.98"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "2821"
+        },
+        {
+         "groupId": "OG001",
+         "value": "2850"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Influenza B/ Yamagata Lineage"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "2823"
+      },
+      {
+       "groupId": "OG001",
+       "value": "2850"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Seasonal influenza A strains included H1N1 and H3N2 and seasonal influenza B strains included Victoria-lineage and Yamagata-lineage.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants received a single dose of Fluarix Tetra by IM injection on Day 1.",
+     "id": "OG000",
+     "title": "Fluarix Tetra"
+    },
+    {
+     "description": "Participants received a single dose of mRNA-1010 by IM injection on Day 1.",
+     "id": "OG001",
+     "title": "mRNA-1010"
+    }
+   ],
+   "paramType": "GEOMETRIC_MEAN",
+   "populationDescription": "The Per Protocol Immunogenicity Set (PPIS) included all randomized participants who received any study vaccination, who had baseline and Day 29 antibody assessment via HAI assay, complied with the immunogenicity testing schedule, and had no significant protocol deviations that impacted key or critical data. Number Analyzed = participants evaluable for specified categories.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Day 29",
+   "title": "Geometric Mean Titer (GMT) of Anti-Hemagglutinin (HA) Antibodies at Day 29, as Measured by Hemagglutination Inhibition (HAI) Assay for Vaccine-matched Influenza A and B Strains",
+   "type": "PRIMARY",
+   "unitOfMeasure": "titer"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "3.12",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "97.5",
+     "ciUpperLimit": "8.38",
+     "groupDescription": "Percentage Difference (mRNA-1010 vs Fluarix) for Influenza A H1N1 Antibody",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityComment": "The endpoint was tested for noninferiority of mRNA-1010 vs Fluarix for Influenza A H1N1 strain at a 2-sided 0.025 level.",
+     "nonInferiorityType": "NON_INFERIORITY",
+     "paramType": "Percentage Difference",
+     "paramValue": "5.75"
+    },
+    {
+     "ciLowerLimit": "14.27",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "97.5",
+     "ciUpperLimit": "19.54",
+     "groupDescription": "Percentage Difference (mRNA-1010 vs Fluarix) for Influenza A H3N2 Antibody",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityComment": "The endpoint was tested for noninferiority of mRNA-1010 vs Fluarix for Influenza A H3N2 strain at a 2-sided 0.025 level.",
+     "nonInferiorityType": "NON_INFERIORITY",
+     "paramType": "Percentage Difference",
+     "paramValue": "16.91"
+    },
+    {
+     "ciLowerLimit": "-20.22",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "97.5",
+     "ciUpperLimit": "-14.43",
+     "groupDescription": "Percentage Difference (mRNA-1010 vs Fluarix) for Influenza B/Victoria Lineage",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityComment": "The endpoint was tested for noninferiority of mRNA-1010 vs Fluarix for Influenza B Victoria-lineage strain at a 2-sided 0.025 level.",
+     "nonInferiorityType": "NON_INFERIORITY",
+     "paramType": "Percentage Difference",
+     "paramValue": "-17.34"
+    },
+    {
+     "ciLowerLimit": "-18.57",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "97.5",
+     "ciUpperLimit": "-12.76",
+     "groupDescription": "Percentage Difference (mRNA-1010 vs Fluarix) for Influenza B/Yamagata Lineage",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityComment": "The endpoint was tested for noninferiority of mRNA-1010 vs Fluarix for Influenza B Yamagata-lineage strain at a 2-sided 0.025 level.",
+     "nonInferiorityType": "NON_INFERIORITY",
+     "paramType": "Percentage Difference",
+     "paramValue": "-15.68"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "68.89",
+         "upperLimit": "72.30",
+         "value": "70.6"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "74.76",
+         "upperLimit": "77.92",
+         "value": "76.4"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "2801"
+        },
+        {
+         "groupId": "OG001",
+         "value": "2831"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Influenza A H1N1 Antibody"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "61.35",
+         "upperLimit": "64.94",
+         "value": "63.2"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "78.56",
+         "upperLimit": "81.52",
+         "value": "80.1"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "2823"
+        },
+        {
+         "groupId": "OG001",
+         "value": "2850"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Influenza A H3N2 Antibody"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "47.83",
+         "upperLimit": "51.57",
+         "value": "49.7"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "30.63",
+         "upperLimit": "34.11",
+         "value": "32.4"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "2801"
+        },
+        {
+         "groupId": "OG001",
+         "value": "2831"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Influenza B/ Victoria Lineage"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "63.36",
+         "upperLimit": "66.91",
+         "value": "65.2"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "47.62",
+         "upperLimit": "51.33",
+         "value": "49.5"
+        }
+       ]
+      }
+     ],
+     "denoms": [
+      {
+       "counts": [
+        {
+         "groupId": "OG000",
+         "value": "2821"
+        },
+        {
+         "groupId": "OG001",
+         "value": "2850"
+        }
+       ],
+       "units": "Participants"
+      }
+     ],
+     "title": "Influenza B/ Yamagata Lineage"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "2823"
+      },
+      {
+       "groupId": "OG001",
+       "value": "2850"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Seasonal influenza A strains included H1N1 and H3N2 and seasonal influenza B strains included Victoria-lineage and Yamagata-lineage.\n\nSeroconversion was defined as either a Baseline HAI titer \\<1:10 and a post-Baseline titer ≥1:40 or a Baseline HAI titer ≥1:10 and a minimum 4-fold rise in post-Baseline HAI Ab titer.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants received a single dose of Fluarix Tetra by IM injection on Day 1.",
+     "id": "OG000",
+     "title": "Fluarix Tetra"
+    },
+    {
+     "description": "Participants received a single dose of mRNA-1010 by IM injection on Day 1.",
+     "id": "OG001",
+     "title": "mRNA-1010"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "The PPIS included all randomized participants who received any study vaccination, who had baseline and Day 29 antibody assessment via HAI assay, complied with the immunogenicity testing schedule, and had no significant protocol deviations that impacted key or critical data. Number Analyzed = participants evaluable for specified categories.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Day 29",
+   "title": "Percentage of Participants Reaching Seroconversion at Day 29, as Measured by HAI Assay for Vaccine-matched Influenza A and B Strains",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1463"
+        },
+        {
+         "groupId": "OG001",
+         "value": "2137"
+        }
+       ]
+      }
+     ],
+     "title": "Any"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1051"
+        },
+        {
+         "groupId": "OG001",
+         "value": "1160"
+        }
+       ]
+      }
+     ],
+     "title": "Grade 1"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "309"
+        },
+        {
+         "groupId": "OG001",
+         "value": "659"
+        }
+       ]
+      }
+     ],
+     "title": "Grade 2"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "93"
+        },
+        {
+         "groupId": "OG001",
+         "value": "312"
+        }
+       ]
+      }
+     ],
+     "title": "Grade 3"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "10"
+        },
+        {
+         "groupId": "OG001",
+         "value": "6"
+        }
+       ]
+      }
+     ],
+     "title": "Grade 4"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "3046"
+      },
+      {
+       "groupId": "OG001",
+       "value": "3035"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Solicited ARs (local and systemic) were collected in an electronic diary (eDiary). Local ARs included: injection site pain, injection site erythema (redness), injection site swelling/induration (hardness), and axillary (underarm) swelling or tenderness ipsilateral to the side of injection. Systemic ARs included: fever, headache, fatigue, myalgia, arthralgia, nausea/vomiting, and chills. All solicited ARs considered causally related to injection were graded 0-4 (per Toxicity Grading Scale for Healthy Adult and Adolescent Volunteers Enrolled in Preventive Vaccine Clinical Trials); lower score indicates lower severity, and a higher score indicates greater severity. Note, not all solicited ARs were considered adverse events (AEs). The Investigator reviewed whether the solicited AR was also to be recorded as an AE. A Summary of serious AEs (SAEs) and nonserious AEs (\"Other\"), regardless of causality, is located in the \"Reported Adverse Events\" section.",
+   "groups": [
+    {
+     "description": "Participants received a single dose of Fluarix Tetra by IM injection on Day 1.",
+     "id": "OG000",
+     "title": "Fluarix Tetra"
+    },
+    {
+     "description": "Participants received a single dose of mRNA-1010 by IM injection on Day 1.",
+     "id": "OG001",
+     "title": "mRNA-1010"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "The Solicited Safety Set included all randomized participants who received any study vaccination and contributed any solicited AR data, that is, had at least 1 post-baseline solicited safety assessment.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "7 days post-vaccination",
+   "title": "Number of Participants With Solicited Local and Systemic Reactogenicity Adverse Reactions (ARs)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "749"
+        },
+        {
+         "groupId": "OG001",
+         "value": "800"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "3048"
+      },
+      {
+       "groupId": "OG001",
+       "value": "3035"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "An AE was defined as any untoward medical occurrence associated with the use of a drug in humans, whether or not considered drug related. Any abnormal laboratory test result (hematology, clinical chemistry, or prothrombin time \\[PT\\]/partial thromboplastin time \\[PTT\\]) or other safety assessment (for example, electrocardiogram, radiological scan, vital sign measurement), including one that worsened from baseline and was considered clinically significant in the medical and scientific judgment of the Investigator was recorded as an AE. Number of participants with unsolicited AEs (SAEs and non-serious AEs) up to 28 days post-vaccination are reported in this outcome measure.",
+   "groups": [
+    {
+     "description": "Participants received a single dose of Fluarix Tetra by IM injection on Day 1.",
+     "id": "OG000",
+     "title": "Fluarix Tetra"
+    },
+    {
+     "description": "Participants received a single dose of mRNA-1010 by IM injection on Day 1.",
+     "id": "OG001",
+     "title": "mRNA-1010"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "The Safety Set included all participants who were randomized and received any study vaccination.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to 28 days post-vaccination",
+   "title": "Number of Participants With Unsolicited AEs",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "131"
+        },
+        {
+         "groupId": "OG001",
+         "value": "132"
+        }
+       ]
+      }
+     ],
+     "title": "SAEs"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "13"
+        },
+        {
+         "groupId": "OG001",
+         "value": "9"
+        }
+       ]
+      }
+     ],
+     "title": "AESIs"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1481"
+        },
+        {
+         "groupId": "OG001",
+         "value": "1422"
+        }
+       ]
+      }
+     ],
+     "title": "MAAEs"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "17"
+        },
+        {
+         "groupId": "OG001",
+         "value": "10"
+        }
+       ]
+      }
+     ],
+     "title": "AEs Leading to Discontinuation"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "3048"
+      },
+      {
+       "groupId": "OG001",
+       "value": "3035"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "An SAE was defined as any AE that resulted in death, was life-threatening, required inpatient hospitalization or prolongation of existing hospitalization, resulted in disability/permanent damage, was a congenital anomaly/birth defect, or was an important medical event. AESIs included thrombocytopenia, new onset of or worsening of the protocol specified neurologic diseases, anaphylaxis, and myocarditis/pericarditis. An MAAE is an AE that lead to an unscheduled visit to an healthcare practitioner. This included visits to a study site for unscheduled assessments (for example, abnormal laboratory follow-up, and/or coronavirus disease 2019 \\[COVID-19\\] and visits to healthcare practitioners external to the study site (for example, urgent care, primary care physician). Number of participants with SAEs, AESIs, MAAEs, and AEs leading to discontinuation up to the end of study (Day 361) are reported in this outcome measure.",
+   "groups": [
+    {
+     "description": "Participants received a single dose of Fluarix Tetra by IM injection on Day 1.",
+     "id": "OG000",
+     "title": "Fluarix Tetra"
+    },
+    {
+     "description": "Participants received a single dose of mRNA-1010 by IM injection on Day 1.",
+     "id": "OG001",
+     "title": "mRNA-1010"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "The Safety Set included all participants who were randomized and received any study vaccination.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Day 1 through Day 361 (Month 12)",
+   "title": "Number of Participants With Serious Adverse Events (SAEs), AEs of Special Interest (AESIs), Medically Attended AEs (MAAEs), and AEs Leading to Discontinuation",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

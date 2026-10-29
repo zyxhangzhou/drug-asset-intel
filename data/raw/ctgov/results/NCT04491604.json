@@ -1,0 +1,96 @@
+{
+ "nctId": "NCT04491604",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "23.6",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "68.0",
+     "estimateComment": "The difference is the treatment/discordance difference in percentage of responders (primary wounds with complete healing), which is the same as the difference in the percentage of treatment responders and the percentage of placebo responders.",
+     "groupDescription": "The null hypothesis of interest was the absence of a treatment effect on wound healing and the alternative hypothesis is the presence of a treatment effect on wound healing. The Hypothesis was tested by exact McNemar's test on the paired primary wound healing data. For subjects with missing primary wound healing data, a multiple imputation approach was used.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityComment": "The Hypothesis was tested by exact McNemar's test on the paired primary wound healing data.",
+     "nonInferiorityType": "EQUIVALENCE",
+     "pValue": "0.00192",
+     "paramType": "responder rate difference",
+     "paramValue": "45.8",
+     "statisticalComment": "The Hypothesis was tested by exact McNemar's test on the paired primary wound healing data. A multiple imputation approach was used for missing data.",
+     "statisticalMethod": "McNemar"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "20.9"
+        },
+        {
+         "groupId": "OG001",
+         "value": "6.7"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denomUnitsSelected": "Wounds",
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "31"
+      },
+      {
+       "groupId": "OG001",
+       "value": "31"
+      }
+     ],
+     "units": "Participants"
+    },
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "31"
+      },
+      {
+       "groupId": "OG001",
+       "value": "31"
+      }
+     ],
+     "units": "Wounds"
+    }
+   ],
+   "description": "The primary wound was defined as a responder wound that met either of the following conditions:\n\n* Complete wound healing on Week 22 and Week 24, or\n* Complete wound healing on Week 24 and Week 26.\n\nFor subjects with missing primary wound healing data, a multiple imputation approach (10 repliates) was used. The total numbers of primary wounds with complete healing for B-VEC and Placebo presented below were the average of those from the multiple imputation replicates, and therefore, they would not be whole numbers (integers).",
+   "groups": [
+    {
+     "description": "Topical gel of non-integrating, replication-incompetent HSV-1 expressing the human collagen VII protein",
+     "id": "OG000",
+     "title": "B-VEC"
+    },
+    {
+     "description": "Matching masked inactive topical gel",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "The intent-to-treat (ITT) population included subjects whose primary wounds were randomized regardless of whether they received randomized treatment or not.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "26 weeks post-baseline",
+   "title": "Primary Wound With Complete Wound Healing (100% Wound Closure) on Weeks 22 and 24 or Weeks 24 and 26",
+   "type": "PRIMARY",
+   "typeUnitsAnalyzed": "Wounds",
+   "unitOfMeasure": "number of wounds with complete healing"
+  }
+ ]
+}

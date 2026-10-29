@@ -1,0 +1,879 @@
+{
+ "aliases": [
+  "BridgeBio Oncology Therapeutics",
+  "TheRas, Inc., d/b/a BBOT (BridgeBio Oncology Therapeutics)"
+ ],
+ "studies": [
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants enrolled in this cohort will receive BBO-8520 (different dose levels will be evaluated) once a day (QD) as monotherapy",
+       "interventionNames": [
+        "Drug: BBO-8520"
+       ],
+       "label": "Cohort 1a - Dose Escalation/Dose Finding Monotherapy",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants enrolled in this cohort will receive BBO-8520 (different dose levels will be evaluated) once a day (QD) in combination with pembrolizumab infusion (IV)",
+       "interventionNames": [
+        "Drug: BBO-8520",
+        "Drug: Pembrolizumab"
+       ],
+       "label": "Cohort 1b - Dose Escalation/Dose Finding Combination Therapy",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants enrolled in this cohort will receive BBO-8520 once a day (QD) as monotherapy",
+       "interventionNames": [
+        "Drug: BBO-8520"
+       ],
+       "label": "Cohort 2a - Dose Expansion Monotherapy",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants enrolled in this cohort will receive BBO-8520 once a day (QD) in combination with pembrolizumab infusion (IV)",
+       "interventionNames": [
+        "Drug: BBO-8520",
+        "Drug: Pembrolizumab"
+       ],
+       "label": "Cohort 2b - Dose Expansion Combination Therapy",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants enrolled in this cohort will receive BBO-8520 once a day (QD) in combination with BBO-10203 once a day (QD)",
+       "interventionNames": [
+        "Drug: BBO-8520",
+        "Drug: BBO-10203"
+       ],
+       "label": "Cohort 1b Safety Lead-In - Dose Expansion Doublet Combination Therapy",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants enrolled in this cohort will receive BBO-8520 once a day (QD) in combination with BBO-10203 once a day (QD)",
+       "interventionNames": [
+        "Drug: BBO-8520",
+        "Drug: BBO-10203"
+       ],
+       "label": "Cohort 1b - Dose Expansion Doublet Combination Therapy",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants enrolled in this cohort will receive BBO-8520 once a day (QD) in combination with BBO-10203 once a day (QD) and pembrolizumab infusion (IV)",
+       "interventionNames": [
+        "Drug: BBO-8520",
+        "Drug: Pembrolizumab",
+        "Drug: BBO-10203"
+       ],
+       "label": "Cohort 1b Safety Lead-In - Dose Expansion Triplet Combination Therapy",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants enrolled in this cohort will receive BBO-8520 once a day (QD) in combination with BBO-10203 once a day (QD) and pembrolizumab infusion (IV)",
+       "interventionNames": [
+        "Drug: BBO-8520",
+        "Drug: Pembrolizumab",
+        "Drug: BBO-10203"
+       ],
+       "label": "Cohort 1b - Dose Expansion Triplet Combination Therapy",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Cohort 1a - Dose Escalation/Dose Finding Monotherapy",
+        "Cohort 1b - Dose Escalation/Dose Finding Combination Therapy",
+        "Cohort 1b - Dose Expansion Doublet Combination Therapy",
+        "Cohort 1b - Dose Expansion Triplet Combination Therapy",
+        "Cohort 1b Safety Lead-In - Dose Expansion Doublet Combination Therapy",
+        "Cohort 1b Safety Lead-In - Dose Expansion Triplet Combination Therapy",
+        "Cohort 2a - Dose Expansion Monotherapy",
+        "Cohort 2b - Dose Expansion Combination Therapy"
+       ],
+       "description": "Participants will receive assigned dose of BBO-8520 orally (PO), QD",
+       "name": "BBO-8520",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Cohort 1b - Dose Escalation/Dose Finding Combination Therapy",
+        "Cohort 1b - Dose Expansion Triplet Combination Therapy",
+        "Cohort 1b Safety Lead-In - Dose Expansion Triplet Combination Therapy",
+        "Cohort 2b - Dose Expansion Combination Therapy"
+       ],
+       "description": "Patients will receive IV pembrolizumab",
+       "name": "Pembrolizumab",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Cohort 1b - Dose Expansion Doublet Combination Therapy",
+        "Cohort 1b - Dose Expansion Triplet Combination Therapy",
+        "Cohort 1b Safety Lead-In - Dose Expansion Doublet Combination Therapy",
+        "Cohort 1b Safety Lead-In - Dose Expansion Triplet Combination Therapy"
+       ],
+       "description": "Participants will receive assigned dose of BBO-8520 orally (PO), QD",
+       "name": "BBO-10203",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Non-small Cell Lung Cancer",
+      "Metastatic Non-Small Cell Lung Cancer",
+      "NSCLC",
+      "KRAS G12C",
+      "Metastatic Lung Cancer",
+      "Advanced Lung Carcinoma"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "interventionModelDescription": "Phase 1a: sequential/parallel, Phase 1b: parallel",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 350,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Open-label Study of BBO-8520 in Adult Subjects With KRASG12C Non-small Cell Lung Cancer",
+     "nctId": "NCT06343402",
+     "officialTitle": "A Phase 1a/1b Open-Label Study Evaluating the Safety, Tolerability, Pharmacokinetics, and Efficacy of BBO-8520 in Subjects With Advanced KRASG12C Mutant Non-Small Cell Lung Cancer - The ONKORAS-101 Study",
+     "orgStudyIdInfo": {
+      "id": "TBBO8520-101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "TheRas, Inc., d/b/a BBOT (BridgeBio Oncology Therapeutics)"
+     },
+     "secondaryIdInfos": [
+      {
+       "domain": "TheRas, Inc., d/b/a BBOT (BridgeBio Oncology Therapeutics)",
+       "id": "ONKORAS-101",
+       "type": "OTHER"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "TheRas, Inc., d/b/a BBOT (BridgeBio Oncology Therapeutics)"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2031-09",
+      "type": "ESTIMATED"
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-09-03",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-09-01",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2031-04",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2024-05-22",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-09",
+     "studyFirstPostDateStruct": {
+      "date": "2024-04-02",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2024-03-22",
+     "studyFirstSubmitQcDate": "2024-04-01"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants enrolled in this cohort will receive BBO-10203 tablets orally (different dose levels will be evaluated) once daily as monotherapy. This cohort will enroll patients with HER2-positive advanced breast cancer, HR-positive HER2-negative advanced breast cancer, advanced colorectal cancer, and advanced lung cancer.",
+       "interventionNames": [
+        "Drug: BBO-10203"
+       ],
+       "label": "BBO-10203",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants enrolled in this cohort will receive BBO-10203 tablets orally in combination with trastuzumab. This cohort will enroll patients with HER2-positive advanced breast cancer.",
+       "interventionNames": [
+        "Drug: BBO-10203",
+        "Drug: Trastuzumab"
+       ],
+       "label": "BBO-10203 + Trastuzumab",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants enrolled in this cohort will receive BBO-10203 tablets orally in combination with fulvestrant. This cohort will enroll patients with HR-positive, HER2-negative advanced breast cancer.",
+       "interventionNames": [
+        "Drug: BBO-10203",
+        "Drug: Fulvestrant",
+        "Drug: Ribociclib"
+       ],
+       "label": "BBO-10203 + Fulvestrant",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants enrolled in this cohort will receive BBO-10203 tablets orally in combination with fulvestrant and ribociclib as determined in the dose escalation. This cohort will enroll patients with HR-positive, HER2-negative advanced breast cancer.",
+       "interventionNames": [
+        "Drug: BBO-10203",
+        "Drug: Fulvestrant",
+        "Drug: Ribociclib"
+       ],
+       "label": "BBO10203 + Fulvestrant + Ribociclib",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants enrolled in this cohort will receive BBO-10203 tablets orally in combination with FOLFOX and bevacizumab. This cohort will enroll patients with KRAS-mutant advanced colorectal cancer.",
+       "interventionNames": [
+        "Drug: BBO-10203",
+        "Drug: FOLFOX",
+        "Drug: Bevacizumab"
+       ],
+       "label": "BBO10203 + FOLFOX + Bevacizumab",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "BBO-10203",
+        "BBO-10203 + Fulvestrant",
+        "BBO-10203 + Trastuzumab",
+        "BBO10203 + FOLFOX + Bevacizumab",
+        "BBO10203 + Fulvestrant + Ribociclib"
+       ],
+       "description": "Participants will receive assigned dose of BBO-10203 orally once daily",
+       "name": "BBO-10203",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "BBO-10203 + Trastuzumab"
+       ],
+       "description": "Participants will receive trastuzumab as infusion or subcutaneous injection every 21 days",
+       "name": "Trastuzumab",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "BBO-10203 + Fulvestrant",
+        "BBO10203 + Fulvestrant + Ribociclib"
+       ],
+       "description": "Patients will receive Fulvestrant as an intramuscular injection every 28 days (additional dose on C1D15)",
+       "name": "Fulvestrant",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "BBO-10203 + Fulvestrant",
+        "BBO10203 + Fulvestrant + Ribociclib"
+       ],
+       "description": "Patients will receive Ribociclib orally once a day (21 days on treatment, 7 days off)",
+       "name": "Ribociclib",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "BBO10203 + FOLFOX + Bevacizumab"
+       ],
+       "description": "Patients will receive FOLFOX as infusion every 14 days",
+       "name": "FOLFOX",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "BBO10203 + FOLFOX + Bevacizumab"
+       ],
+       "description": "Patients will receive bevacizumab as infusion every 28 days",
+       "name": "Bevacizumab",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Solid Tumor, Adult",
+      "Metastatic Breast Cancer",
+      "Advanced Breast Cancer",
+      "HER2 Mutation-Related Tumors",
+      "HER2-positive Metastatic Breast Cancer",
+      "KRAS Mutant Metastatic Colorectal Cancer",
+      "Metastatic Lung Cancer",
+      "Metastatic Colorectal Cancer",
+      "Advanced Lung Cancer",
+      "HR-positive, HER2-negative Advanced Breast Cancer",
+      "HER2-positive Advanced Breast Cancer"
+     ],
+     "keywords": [
+      "BREAKER-101",
+      "BridgeBio Oncology Therapeutics",
+      "BBOT",
+      "Phase1",
+      "Phase 1a/1b",
+      "Trastuzumab",
+      "Breast",
+      "Colorectal",
+      "Non-Small Cell Lung Cancer",
+      "CRC",
+      "NSCLC",
+      "Metastatic Cancer",
+      "Advanced Cancer",
+      "HER2-positive",
+      "HR-positive",
+      "HR-positive, HER2-negative",
+      "HER2-negative"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 392,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Open-Label Study of BBO-10203 in Subjects With Advanced Solid Tumors",
+     "nctId": "NCT06625775",
+     "officialTitle": "A Phase 1a/1b Open-Label Study Evaluating the Safety, Tolerability, Pharmacokinetics, and Efficacy of BBO-10203 in Subjects With Advanced Solid Tumors (The BREAKER-101 Study)",
+     "orgStudyIdInfo": {
+      "id": "TBBO10203-101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "TheRas, Inc., d/b/a BBOT (BridgeBio Oncology Therapeutics)"
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "2024-519445-29-00",
+       "type": "CTIS"
+      },
+      {
+       "domain": "TheRas, Inc., d/b/a BBOT (BridgeBio Oncology Therapeutics)",
+       "id": "BREAKER-101",
+       "type": "OTHER"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "TheRas, Inc., d/b/a BBOT (BridgeBio Oncology Therapeutics)"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2028-11",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-01",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-09-28",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2028-11",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2024-10-29",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-09",
+     "studyFirstPostDateStruct": {
+      "date": "2024-10-03",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2024-10-01",
+     "studyFirstSubmitQcDate": "2024-10-01"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants enrolled in this cohort will receive BBO-11818 as monotherapy",
+       "interventionNames": [
+        "Drug: BBO-11818"
+       ],
+       "label": "Cohort 1a - Dose Escalation Monotherapy",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants enrolled in this cohort will receive BBO-11818 in combination with pembrolizumab infusion (IV)",
+       "interventionNames": [
+        "Drug: BBO-11818",
+        "Drug: Pembrolizumab"
+       ],
+       "label": "Cohort 1b - Dose Escalation Combination Therapy (Pembrolizumab)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants enrolled in this cohort will receive BBO-11818 in combination with pembrolizumab infusion (IV), cis/carboplatin infusion (IV), and pemetrexed infusion (IV)",
+       "interventionNames": [
+        "Drug: BBO-11818",
+        "Drug: Pembrolizumab",
+        "Drug: Platinum chemotherapy (cisplatin or carboplatin)",
+        "Drug: Pemetrexed"
+       ],
+       "label": "Cohort 1c - Dose Escalation Combination Therapy (Pembrolizumab + Cis/carboplatin + Pemetrexed)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants enrolled in this cohort will receive BBO-11818 in combination with cetuximab infusion (IV) with or without mFOLFOX6 infusion (IV)",
+       "interventionNames": [
+        "Drug: BBO-11818",
+        "Drug: Cetuximab",
+        "Drug: mFOLFOX6"
+       ],
+       "label": "Cohort 1d - Dose Escalation Combination Therapy (Cetuximab ± mFOLFOX6)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants enrolled in this cohort will receive BBO-11818 in combination with BBO-10203 and mFOLFOX6 infusion (IV)",
+       "interventionNames": [
+        "Drug: BBO-11818",
+        "Drug: mFOLFOX6",
+        "Drug: BBO-10203"
+       ],
+       "label": "Cohort 1e - Dose Escalation Combination Therapy (BBO-10203 + mFOLFOX6)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants enrolled in this cohort will receive BBO-11818 in combination with BBO-10203 and cetuximab infusion (IV)",
+       "interventionNames": [
+        "Drug: BBO-11818",
+        "Drug: Cetuximab",
+        "Drug: BBO-10203"
+       ],
+       "label": "Cohort 1f - Dose Escalation Combination Therapy (BBO-10203 + Cetuximab)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants enrolled in this cohort will receive BBO-11818 in combination with cetuximab infusion (IV)",
+       "interventionNames": [
+        "Drug: BBO-11818",
+        "Drug: Cetuximab"
+       ],
+       "label": "Cohort 1g - Dose Escalation Combination Therapy (Cetuximab)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants enrolled in this cohort will receive BBO-11818 in combination with mFOLFIRINOX infusion (IV)",
+       "interventionNames": [
+        "Drug: BBO-11818",
+        "Drug: mFOLFIRINOX"
+       ],
+       "label": "Cohort 1h - Dose Escalation Combination Therapy (mFOLFIRINOX)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants enrolled in this cohort will receive BBO-11818 in combination with gemcitabine infusion (IV) and nab-paclitaxel infusion (IV)",
+       "interventionNames": [
+        "Drug: BBO-11818",
+        "Drug: Gemcitabine",
+        "Drug: Nab-paclitaxel"
+       ],
+       "label": "Cohort 1i - Dose Escalation Combination Therapy (Gemcitabine + Nab-paclitaxel)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants enrolled in this cohort will receive BBO-11818 in combination with BBO-10203",
+       "interventionNames": [
+        "Drug: BBO-11818",
+        "Drug: BBO-10203"
+       ],
+       "label": "Cohort 1j - Dose Escalation Combination Therapy (BBO-10203)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants enrolled in this cohort will receive BBO-11818 as monotherapy",
+       "interventionNames": [
+        "Drug: BBO-11818"
+       ],
+       "label": "Cohort 2a - Dose Expansion Monotherapy",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants enrolled in this cohort will receive BBO-11818 in combination with pembrolizumab infusion (IV)",
+       "interventionNames": [
+        "Drug: BBO-11818",
+        "Drug: Pembrolizumab"
+       ],
+       "label": "Cohort 2b - Dose Expansion Combination (Pembrolizumab)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants enrolled in this cohort will receive BBO-11818 in combination with pembrolizumab infusion (IV), cis/carboplatin infusion (IV), and pemetrexed infusion (IV)",
+       "interventionNames": [
+        "Drug: BBO-11818",
+        "Drug: Pembrolizumab",
+        "Drug: Platinum chemotherapy (cisplatin or carboplatin)",
+        "Drug: Pemetrexed"
+       ],
+       "label": "Cohort 2c - Dose Expansion Combination Therapy (Pembrolizumab + Cis/carboplatin + Pemetrexed)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants enrolled in this cohort will receive BBO-11818 in combination with cetuximab infusion (IV) with or without mFOLFOX6 infusion (IV)",
+       "interventionNames": [
+        "Drug: BBO-11818",
+        "Drug: Cetuximab",
+        "Drug: mFOLFOX6"
+       ],
+       "label": "Cohort 2d - Dose Expansion Combination Therapy (Cetuximab ± mFOLFOX6)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants enrolled in this cohort will receive BBO-11818 in combination with BBO-10203 and mFOLFOX6 infusion (IV)",
+       "interventionNames": [
+        "Drug: BBO-11818",
+        "Drug: mFOLFOX6",
+        "Drug: BBO-10203"
+       ],
+       "label": "Cohort 2e - Dose Expansion Combination Therapy (BBO-10203 + mFOLFOX6)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants enrolled in this cohort will receive BBO-11818 in combination with BBO-10203 and cetuximab infusion (IV)",
+       "interventionNames": [
+        "Drug: BBO-11818",
+        "Drug: Cetuximab",
+        "Drug: BBO-10203"
+       ],
+       "label": "Cohort 2f - Dose Expansion Combination Therapy (BBO-10203 + Cetuximab)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants enrolled in this cohort will receive BBO-11818 in combination with cetuximab infusion (IV)",
+       "interventionNames": [
+        "Drug: BBO-11818",
+        "Drug: Cetuximab"
+       ],
+       "label": "Cohort 2g - Dose Expansion Combination Therapy (Cetuximab)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants enrolled in this cohort will receive BBO-11818 in combination with mFOLFIRINOX infusion (IV)",
+       "interventionNames": [
+        "Drug: BBO-11818",
+        "Drug: mFOLFIRINOX"
+       ],
+       "label": "Cohort 2h - Dose Expansion Combination Therapy (mFOLFIRINOX)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants enrolled in this cohort will receive BBO-11818 in combination with gemcitabine infusion (IV) and nab-paclitaxel infusion (IV)",
+       "interventionNames": [
+        "Drug: BBO-11818",
+        "Drug: Gemcitabine",
+        "Drug: Nab-paclitaxel"
+       ],
+       "label": "Cohort 2i - Dose Expansion Combination Therapy (Gemcitabine + Nab-paclitaxel)",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants enrolled in this cohort will receive BBO-11818 in combination with BBO-10203",
+       "interventionNames": [
+        "Drug: BBO-11818",
+        "Drug: BBO-10203"
+       ],
+       "label": "Cohort 2j - Dose Expansion Combination Therapy (BBO-10203)",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Cohort 1a - Dose Escalation Monotherapy",
+        "Cohort 1b - Dose Escalation Combination Therapy (Pembrolizumab)",
+        "Cohort 1c - Dose Escalation Combination Therapy (Pembrolizumab + Cis/carboplatin + Pemetrexed)",
+        "Cohort 1d - Dose Escalation Combination Therapy (Cetuximab ± mFOLFOX6)",
+        "Cohort 1e - Dose Escalation Combination Therapy (BBO-10203 + mFOLFOX6)",
+        "Cohort 1f - Dose Escalation Combination Therapy (BBO-10203 + Cetuximab)",
+        "Cohort 1g - Dose Escalation Combination Therapy (Cetuximab)",
+        "Cohort 1h - Dose Escalation Combination Therapy (mFOLFIRINOX)",
+        "Cohort 1i - Dose Escalation Combination Therapy (Gemcitabine + Nab-paclitaxel)",
+        "Cohort 1j - Dose Escalation Combination Therapy (BBO-10203)",
+        "Cohort 2a - Dose Expansion Monotherapy",
+        "Cohort 2b - Dose Expansion Combination (Pembrolizumab)",
+        "Cohort 2c - Dose Expansion Combination Therapy (Pembrolizumab + Cis/carboplatin + Pemetrexed)",
+        "Cohort 2d - Dose Expansion Combination Therapy (Cetuximab ± mFOLFOX6)",
+        "Cohort 2e - Dose Expansion Combination Therapy (BBO-10203 + mFOLFOX6)",
+        "Cohort 2f - Dose Expansion Combination Therapy (BBO-10203 + Cetuximab)",
+        "Cohort 2g - Dose Expansion Combination Therapy (Cetuximab)",
+        "Cohort 2h - Dose Expansion Combination Therapy (mFOLFIRINOX)",
+        "Cohort 2i - Dose Expansion Combination Therapy (Gemcitabine + Nab-paclitaxel)",
+        "Cohort 2j - Dose Expansion Combination Therapy (BBO-10203)"
+       ],
+       "description": "Participants will receive assigned dose of BBO-11818 orally (PO)",
+       "name": "BBO-11818",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Cohort 1b - Dose Escalation Combination Therapy (Pembrolizumab)",
+        "Cohort 1c - Dose Escalation Combination Therapy (Pembrolizumab + Cis/carboplatin + Pemetrexed)",
+        "Cohort 2b - Dose Expansion Combination (Pembrolizumab)",
+        "Cohort 2c - Dose Expansion Combination Therapy (Pembrolizumab + Cis/carboplatin + Pemetrexed)"
+       ],
+       "description": "Patients will receive IV pembrolizumab",
+       "name": "Pembrolizumab",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Cohort 1c - Dose Escalation Combination Therapy (Pembrolizumab + Cis/carboplatin + Pemetrexed)",
+        "Cohort 2c - Dose Expansion Combination Therapy (Pembrolizumab + Cis/carboplatin + Pemetrexed)"
+       ],
+       "description": "Patients will receive IV platinum chemotherapy (cisplatin or carboplatin)",
+       "name": "Platinum chemotherapy (cisplatin or carboplatin)",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Cohort 1c - Dose Escalation Combination Therapy (Pembrolizumab + Cis/carboplatin + Pemetrexed)",
+        "Cohort 2c - Dose Expansion Combination Therapy (Pembrolizumab + Cis/carboplatin + Pemetrexed)"
+       ],
+       "description": "Patients will receive IV pemetrexed",
+       "name": "Pemetrexed",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Cohort 1d - Dose Escalation Combination Therapy (Cetuximab ± mFOLFOX6)",
+        "Cohort 1f - Dose Escalation Combination Therapy (BBO-10203 + Cetuximab)",
+        "Cohort 1g - Dose Escalation Combination Therapy (Cetuximab)",
+        "Cohort 2d - Dose Expansion Combination Therapy (Cetuximab ± mFOLFOX6)",
+        "Cohort 2f - Dose Expansion Combination Therapy (BBO-10203 + Cetuximab)",
+        "Cohort 2g - Dose Expansion Combination Therapy (Cetuximab)"
+       ],
+       "description": "Patients will receive IV cetuximab",
+       "name": "Cetuximab",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Cohort 1d - Dose Escalation Combination Therapy (Cetuximab ± mFOLFOX6)",
+        "Cohort 2d - Dose Expansion Combination Therapy (Cetuximab ± mFOLFOX6)"
+       ],
+       "description": "Patients may receive IV mFOLFOX6",
+       "name": "mFOLFOX6",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Cohort 1e - Dose Escalation Combination Therapy (BBO-10203 + mFOLFOX6)",
+        "Cohort 2e - Dose Expansion Combination Therapy (BBO-10203 + mFOLFOX6)"
+       ],
+       "description": "Patients will receive IV mFOLFOX6",
+       "name": "mFOLFOX6",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Cohort 1e - Dose Escalation Combination Therapy (BBO-10203 + mFOLFOX6)",
+        "Cohort 1f - Dose Escalation Combination Therapy (BBO-10203 + Cetuximab)",
+        "Cohort 1j - Dose Escalation Combination Therapy (BBO-10203)",
+        "Cohort 2e - Dose Expansion Combination Therapy (BBO-10203 + mFOLFOX6)",
+        "Cohort 2f - Dose Expansion Combination Therapy (BBO-10203 + Cetuximab)",
+        "Cohort 2j - Dose Expansion Combination Therapy (BBO-10203)"
+       ],
+       "description": "Participants will receive BBO-10203 orally (PO)",
+       "name": "BBO-10203",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Cohort 1h - Dose Escalation Combination Therapy (mFOLFIRINOX)",
+        "Cohort 2h - Dose Expansion Combination Therapy (mFOLFIRINOX)"
+       ],
+       "description": "Patients will receive IV mFOLFIRINOX",
+       "name": "mFOLFIRINOX",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Cohort 1i - Dose Escalation Combination Therapy (Gemcitabine + Nab-paclitaxel)",
+        "Cohort 2i - Dose Expansion Combination Therapy (Gemcitabine + Nab-paclitaxel)"
+       ],
+       "description": "Patients will receive IV gemcitabine",
+       "name": "Gemcitabine",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Cohort 1i - Dose Escalation Combination Therapy (Gemcitabine + Nab-paclitaxel)",
+        "Cohort 2i - Dose Expansion Combination Therapy (Gemcitabine + Nab-paclitaxel)"
+       ],
+       "description": "Patients will receive IV nab-paclitaxel",
+       "name": "Nab-paclitaxel",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Non-Small Cell Lung Cancer",
+      "NSCLC",
+      "PDAC - Pancreatic Ductal Adenocarcinoma",
+      "CRC (Colorectal Cancer)",
+      "Metastatic Non-Small Lung Cell Cancer",
+      "Metastatic Colorectal Cancer (CRC)",
+      "KRAS G12A",
+      "KRAS G12C",
+      "KRAS G12D",
+      "KRAS G12S",
+      "KRAS G12V",
+      "Metastatic Pancreatic Ductal Adenocarcinoma",
+      "Advanced Lung Carcinoma",
+      "Solid Tumor, Adult"
+     ],
+     "keywords": [
+      "BBOT",
+      "BridgeBio Oncology Therapeutics",
+      "Phase1",
+      "Phase 1a/1b",
+      "NSCLC",
+      "CRC",
+      "PDAC",
+      "Metastatic Cancer",
+      "Advanced Cancer",
+      "Pembrolizumab",
+      "Cetuximab",
+      "Platinum Chemotherapy",
+      "Pemetrexed",
+      "KONQUER",
+      "KONQUER-101",
+      "mFOLFOX6",
+      "mFOLFIRINOX",
+      "Gemcitabine",
+      "Nab-paclitaxel"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "interventionModelDescription": "Phase 1a: sequential/parallel, Phase 1b: parallel",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 665,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "BBO-11818 in Adult Subjects With KRAS Mutant Cancer",
+     "nctId": "NCT06917079",
+     "officialTitle": "A Phase 1a/1b Open-Label Study Evaluating the Safety, Tolerability, Pharmacokinetics, and Efficacy of BBO-11818 in Subjects With Advanced KRAS Mutant Cancers",
+     "orgStudyIdInfo": {
+      "id": "TBBO11818-101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "TheRas, Inc., d/b/a BBOT (BridgeBio Oncology Therapeutics)"
+     },
+     "secondaryIdInfos": [
+      {
+       "domain": "TheRas, Inc., d/b/a BBOT (BridgeBio Oncology Therapeutics)",
+       "id": "KONQUER-101",
+       "type": "OTHER"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "TheRas, Inc., d/b/a BBOT (BridgeBio Oncology Therapeutics)"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2029-09",
+      "type": "ESTIMATED"
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-06-02",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-05-29",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-08",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2025-03-31",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-05",
+     "studyFirstPostDateStruct": {
+      "date": "2025-04-08",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-04-01",
+     "studyFirstSubmitQcDate": "2025-04-01"
+    }
+   }
+  }
+ ]
+}

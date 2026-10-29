@@ -1,0 +1,84 @@
+{
+ "nctId": "NCT04544293",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "2.5",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "9.4",
+     "estimateComment": "Difference from placebo",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0007",
+     "paramType": "Mean Difference (Net)",
+     "paramValue": "6.0",
+     "statisticalComment": "Modelled using MMRM adjusted for baseline % predicted DLCOadj, treatment, visit, region, severity stratification and treatment-visit interaction.",
+     "statisticalMethod": "Mixed Models Analysis"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "7.3",
+         "upperLimit": "12.3",
+         "value": "9.8"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "1.4",
+         "upperLimit": "6.3",
+         "value": "3.8"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "81"
+      },
+      {
+       "groupId": "OG001",
+       "value": "83"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "As a measure of pulmonary gas transfer, a standardized lung function test, DLCO, was conducted. The single-breath DLCO test was performed in accordance with American Thoracic Society/European Respiratory Society (ATS/ERS) guidelines for DLCO testing. Results reported as % predicted DLCO adjusted for hemoglobin concentration (%predicted DLCOadj).",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Double-blind treatment with molgramostim nebulizer solution 300 µg once daily for 48 weeks\n\nMolgramostim: Molgramostim 300 µg nebulizer solution",
+     "id": "OG000",
+     "title": "Molgramostim"
+    },
+    {
+     "description": "Double-blind treatment with placebo nebulizer solution once daily for 48 weeks\n\nPlacebo: Matching placebo nebulizer solution",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Full Analysis Set",
+   "reportingStatus": "POSTED",
+   "timeFrame": "From Baseline to Week 24",
+   "title": "Change From Baseline in Percent (%) Predicted Diffusing Capacity of the Lung for Carbon Monoxide (DLCO) Adjusted for Hemoglobin Concentration to Week 24",
+   "type": "PRIMARY",
+   "unitOfMeasure": "% predicted DLCO adjusted for hemoglobin"
+  }
+ ]
+}

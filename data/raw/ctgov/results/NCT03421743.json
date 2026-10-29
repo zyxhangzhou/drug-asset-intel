@@ -1,0 +1,59 @@
+{
+ "nctId": "NCT03421743",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "2"
+        },
+        {
+         "groupId": "OG001",
+         "value": "3"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "14"
+      },
+      {
+       "groupId": "OG001",
+       "value": "18"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Sputum culture conversion is defined as at least 3 consecutive sputum samples without growth of NTM during the treatment period.",
+   "groups": [
+    {
+     "description": "Inhaled molgramostim administered in participants who remain sputum culture positive while currently on a multidrug NTM-guideline based antimycobacterial regimen, which has been ongoing for at least 6 months prior to the Baseline Visit\n\nInhaled molgramostim: 300 µg / dose molgramostim (recombinant human GM-CSF) for inhalation\n\nAntimycobacterial regimen: Multidrug NTM-guideline based antimycobacterial regimen",
+     "id": "OG000",
+     "title": "Inhaled Molgramostim/Antimycobacterials"
+    },
+    {
+     "description": "Inhaled molgramostim administered in participants who remain sputum culture positive but have stopped a multidrug NTM-guideline based antimycobacterial regimen at least 28 days prior to Screening due to lack of response or intolerance, or who never started such treatment\n\nInhaled molgramostim: 300 µg / dose molgramostim (recombinant human GM-CSF) for inhalation",
+     "id": "OG001",
+     "title": "Inhaled Molgramostim"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "reportingStatus": "POSTED",
+   "timeFrame": "48 weeks",
+   "title": "Number of Participants With Sputum Culture Conversion to Negative",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

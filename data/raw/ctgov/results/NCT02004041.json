@@ -1,0 +1,62 @@
+{
+ "nctId": "NCT02004041",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "5.30",
+         "value": "-40.5"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "4.96",
+         "value": "-36.5"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "34"
+      },
+      {
+       "groupId": "OG001",
+       "value": "33"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Responses were measured on a 100-mm Visual Analogue Scale (VAS), where the left end point was marked \"no itch\" (0 mm) and in the right end point was marked \"worst imaginable itch\" (100 mm).",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "VLY-686",
+     "id": "OG000",
+     "title": "VLY-686"
+    },
+    {
+     "description": "Placebo",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "reportingStatus": "POSTED",
+   "timeFrame": "28 days",
+   "title": "Change From Baseline to Endpoint (Day 28 or Early Termination) in Visual Analogue Scale (VAS) Pruritus 24 Hour Average Intensity.",
+   "type": "PRIMARY",
+   "unitOfMeasure": "mm"
+  }
+ ]
+}

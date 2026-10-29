@@ -1,0 +1,242 @@
+{
+ "nctId": "NCT02920021",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "15"
+        },
+        {
+         "groupId": "OG001",
+         "value": "5"
+        }
+       ]
+      }
+     ],
+     "title": "Any treatment-emergent adverse event (TEAE)"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Serious TEAE"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "3"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Mild TEAE"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "9"
+        },
+        {
+         "groupId": "OG001",
+         "value": "5"
+        }
+       ]
+      }
+     ],
+     "title": "Moderate TEAE"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "3"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Severe"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "TEAE related to study drug"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Discontinued from the study due to TEAE"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "15"
+      },
+      {
+       "groupId": "OG001",
+       "value": "5"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "An adverse event (AE) is any untoward medical occurrence in a patient or clinical investigation patient administered a pharmaceutical product and which does not necessarily have a causal relationship with this treatment. AEs include any clinical laboratory test results determined to be clinically significant by the investigator. AE was considered \"serious\" if there was any of the following outcomes: death, life-threatening AE, inpatient hospitalization or prolongation of existing hospitalization, persistent or significant incapacity or substantial disruption of the ability to conduct normal life functions, congenital anomaly/birth defect, other important medical events. Each AE was evaluated for severity (mild, moderate, or severe) and causal relationship to the study drug. AE was considered TEAE if the date of onset was during or after first dose of study treatment, or if the AE present at baseline worsened in either intensity or frequency after first dose of study treatment.",
+   "groups": [
+    {
+     "description": "Participants received a single dose of 300 mg etokimab administered by 1-hour IV infusion on Day 1.",
+     "id": "OG000",
+     "title": "Etokimab"
+    },
+    {
+     "description": "Participants received a single dose of placebo administered by 1-hour IV infusion on Day 1.",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Safety Analysis Set included all participants who received any portion of etokimab or placebo infusion.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "From first dose of study drug up to 45 days.",
+   "title": "Number of Participants With Treatment-emergent Adverse Events (TEAEs)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-108.566",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "228.657",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "79.918",
+     "estimateComment": "Treatment Difference = Etokimab - Placebo",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.463",
+     "paramType": "Least Squares (LS) Mean Difference",
+     "paramValue": "60.046",
+     "statisticalComment": "Analysis of covariance (ANCOVA) model with treatment as fixed effect and baseline value as covariate.",
+     "statisticalMethod": "ANCOVA"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "39.053",
+         "value": "387.511"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "68.692",
+         "value": "327.466"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "15"
+      },
+      {
+       "groupId": "OG001",
+       "value": "5"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Oral food challenges were performed at Baseline and Day 14 in accordance with the Practical Allergy (PRACTALL) consensus report. Escalating doses of peanut protein (peanut flour mixed with a non-allergic food vehicle such as apple sauce) consisting of 5, 20, 50, 100, 100, 100, and 125 mg (for a cumulative maximum dose of 500 mg) were given at 20 minute intervals. If the participant developed any signs of an objective allergic reaction, the challenge was stopped. The total cumulative tolerated dose of blinded peanut reached prior to reaction was recorded.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Participants received a single dose of 300 mg etokimab administered by 1-hour IV infusion on Day 1.",
+     "id": "OG000",
+     "title": "Etokimab"
+    },
+    {
+     "description": "Participants received a single dose of placebo administered by 1-hour IV infusion on Day 1.",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Full Analysis Set (FAS) included all participants who received etokimab or placebo who were present in the study until Day 14 with post-baseline OFC results.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline and Day 14",
+   "title": "Change From Baseline in Cumulative Tolerated Peanut Dose During Oral Food Challenge",
+   "type": "PRIMARY",
+   "unitOfMeasure": "mg"
+  }
+ ]
+}

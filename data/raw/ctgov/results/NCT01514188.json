@@ -1,0 +1,64 @@
+{
+ "nctId": "NCT01514188",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "48",
+         "upperLimit": "132",
+         "value": "83"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "92",
+         "upperLimit": "246",
+         "value": "170"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "40"
+      },
+      {
+       "groupId": "OG001",
+       "value": "83"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Progression-free survival is defined as the interval from the date of registration (ie, assignment of subject number) to the earliest date of documented evidence of recurrent or progressive disease, or the date of death due to any cause, whichever occurs first.\n\nProgressive Disease is defined as: 20% increase in the sum of the longest diameter of target lesions from the smallest sum of the longest diameter recorded since the treatment started; the sum must also demonstrate an absolute increase of at least 5 mm. The appearance of 1 new lesion is also considered progression.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Doxorubicin: Doxorubicin administered at 75 mg/m\\^2 for up to 6 consecutive cycles.",
+     "id": "OG000",
+     "title": "Doxorubicin"
+    },
+    {
+     "description": "INNO-206: INNO-206 administered at 350 mg/m\\^2 (260 mg/m\\^2 doxorubicin equivalent) intravenously (IV) on Day 1 every 21 days for up to 6 consecutive cycles",
+     "id": "OG001",
+     "title": "INNO-206"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Approximately 24 months",
+   "title": "Progression-free Survival",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Days"
+  }
+ ]
+}

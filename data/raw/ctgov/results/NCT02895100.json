@@ -1,0 +1,86 @@
+{
+ "nctId": "NCT02895100",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1"
+        },
+        {
+         "groupId": "OG001",
+         "value": "2"
+        },
+        {
+         "groupId": "OG002",
+         "value": "3"
+        },
+        {
+         "groupId": "OG003",
+         "value": "4"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "16"
+      },
+      {
+       "groupId": "OG001",
+       "value": "16"
+      },
+      {
+       "groupId": "OG002",
+       "value": "16"
+      },
+      {
+       "groupId": "OG003",
+       "value": "17"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The primary efficacy endpoint for this study was the proportion of subjects receiving PTG-100 with clinical remission at Week 12. Clinical remission was defined using the Mayo subscores of stool frequency, rectal bleeding, and endoscopy.",
+   "groups": [
+    {
+     "description": "Low dose\n\nPTG-100: Daily dosing of PTG-100 by subject for a 12 week treatment period.",
+     "id": "OG000",
+     "title": "PTG-100 (150 mg QD)"
+    },
+    {
+     "description": "Medium dose\n\nPTG-100: Daily dosing of PTG-100 by subject for a 12 week treatment period.",
+     "id": "OG001",
+     "title": "PTG-100 (300 mg QD)"
+    },
+    {
+     "description": "High dose\n\nPTG-100: Daily dosing of PTG-100 by subject for a 12 week treatment period.",
+     "id": "OG002",
+     "title": "PTG-100 (900 mg QD)"
+    },
+    {
+     "description": "Placebo control\n\nPlacebo: Daily dosing of Placebo capsules by subject for a 12 week treatment period.",
+     "id": "OG003",
+     "title": "Placebo Group"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "All participants who completed 12 weeks of dosing or terminated early.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "12 week treatment period",
+   "title": "Proportion of Subjects Receiving PTG-100 With Clinical Remission at Week 12 Compared With Placebo",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

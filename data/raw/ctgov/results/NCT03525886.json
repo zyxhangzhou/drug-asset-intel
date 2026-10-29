@@ -1,0 +1,95 @@
+{
+ "nctId": "NCT03525886",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "-85",
+         "upperLimit": "-32",
+         "value": "-60"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "-93",
+         "upperLimit": "8",
+         "value": "-58"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "-86",
+         "upperLimit": "-43",
+         "value": "-53"
+        },
+        {
+         "groupId": "OG003",
+         "lowerLimit": "-86",
+         "upperLimit": "-51",
+         "value": "-64"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "8"
+      },
+      {
+       "groupId": "OG001",
+       "value": "7"
+      },
+      {
+       "groupId": "OG002",
+       "value": "8"
+      },
+      {
+       "groupId": "OG003",
+       "value": "8"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Percent changes in 17-OHP were assessed through the collection of samples from 0600 hours to 1000 hours both prior to study drug administration (i.e., at baseline) and after 14 days of study drug dosing. The 3 samples collected during this morning window at each visit were averaged and used to determine the percent change from baseline.",
+   "dispersionType": "Inter-Quartile Range",
+   "groups": [
+    {
+     "description": "NBI-74788 50 mg once daily at bedtime (QHS) administered orally for 14 consecutive days.",
+     "id": "OG000",
+     "title": "Cohort 1 (50 mg QHS)"
+    },
+    {
+     "description": "NBI-74788 100 mg once daily at bedtime (QHS) administered orally for 14 consecutive days.",
+     "id": "OG001",
+     "title": "Cohort 2 (100 mg QHS)"
+    },
+    {
+     "description": "NBI-74788 100 mg once daily in the evening (QPM) administered orally for 14 consecutive days.",
+     "id": "OG002",
+     "title": "Cohort 3 (100 mg QPM)"
+    },
+    {
+     "description": "NBI-74788 100 mg twice daily (BID) administered orally for 14 consecutive days.",
+     "id": "OG003",
+     "title": "Cohort 4 (100 mg BID)"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "Pharmacodynamic (PD) analysis set, which includes all enrolled participants who received at least one dose of study drug and have at least one PD parameter measurement at baseline and at least one PD parameter measurement at the Day 14 visit.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline and Day 14",
+   "title": "Percent Change From Baseline to Day 14 in 17-hydroxyprogesterone (17-OHP) Morning Window Averages",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Percent (%)"
+  }
+ ]
+}

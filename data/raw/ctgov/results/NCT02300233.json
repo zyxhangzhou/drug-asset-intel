@@ -1,0 +1,81 @@
+{
+ "nctId": "NCT02300233",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-85.4",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-55.3",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<0.0001",
+     "paramType": "Difference in Least Squares Mean (LSM)",
+     "paramValue": "-70.3",
+     "statisticalMethod": "ANCOVA"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "-13.9",
+         "upperLimit": "12.2",
+         "value": "-0.9"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "-79.3",
+         "upperLimit": "-63.2",
+         "value": "-71.2"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "38"
+      },
+      {
+       "groupId": "OG001",
+       "value": "75"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Volanesorsen-matching placebo administered subcutaneously once-weekly for 26 weeks.",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Volanesorsen 300 mg administered subcutaneously once-weekly for 26 weeks; or once-weekly for 13 weeks, then bi-weekly for 13 weeks.",
+     "id": "OG001",
+     "title": "Volanesorsen Total"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "The full analysis set (FAS) included all participants who were randomized, received at least one dose of study drug, and had a baseline TG assessment.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline to 3 months",
+   "title": "Percent Change in Fasting Triglycerides (TG) From Baseline to Month 3",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percent change"
+  }
+ ]
+}

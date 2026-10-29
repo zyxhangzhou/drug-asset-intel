@@ -1,0 +1,82 @@
+{
+ "nctId": "NCT03968159",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-2.5",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.8",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "0.82",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.2956",
+     "paramType": "LSM difference",
+     "paramValue": "-0.9",
+     "statisticalMethod": "Mixed-effects model for repeated measure"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.58",
+         "value": "-9.0"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.58",
+         "value": "-8.1"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "148"
+      },
+      {
+       "groupId": "OG001",
+       "value": "149"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The HAMD-17 consists of 8 items with a score on a 3 point scale and 9 items with a score on a 5 point scale. The total score ranging from 0 to 52 will be calculated as the sum of the scores for all 17 items. Higher total scores denote more severe depression.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Pimavanserin 34 mg administered orally as a single dose once daily",
+     "id": "OG000",
+     "title": "Pimavanserin"
+    },
+    {
+     "description": "Placebo tablets administered orally as a single dose once daily",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Full Analysis Set: all subjects who were randomized, received at least one dose of study drug, and had a baseline value and at least one postbaseline value for HAMD-17 total score.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Week 5",
+   "title": "Change From Baseline to Week 5 in Hamilton Depression Scale (17 Items) (HAMD-17) Total Score",
+   "type": "PRIMARY",
+   "unitOfMeasure": "score on a scale"
+  }
+ ]
+}

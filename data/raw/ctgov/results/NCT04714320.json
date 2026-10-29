@@ -1,0 +1,103 @@
+{
+ "nctId": "NCT04714320",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "groupDescription": "Change From Baseline in Seated Automated Office SBP to Day 85",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "=0.135",
+     "pValueComment": "The stratification factor (screening estimated glomerular filtration rate (eGFR) status \\[\\<60 vs. ≥60 mL/min/1.73 m\\^2\\]), treatment received, and baseline measure were included in the analysis of covariate (ANCOVA) model as independent variables.",
+     "statisticalMethod": "ANCOVA"
+    },
+    {
+     "groupDescription": "Change From Baseline in Seated Automated Office SBP to Day 85",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "=0.867",
+     "pValueComment": "The stratification factor (screening eGFR status \\[\\<60 vs. ≥60 mL/min/1.73 m2\\]), treatment received, and baseline measure were included in the ANCOVA model as independent variables.",
+     "statisticalMethod": "ANCOVA"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "-14",
+         "upperLimit": "-3",
+         "value": "-9"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "-18",
+         "upperLimit": "-8",
+         "value": "-13"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "-14",
+         "upperLimit": "-4",
+         "value": "-9"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "45"
+      },
+      {
+       "groupId": "OG001",
+       "value": "45"
+      },
+      {
+       "groupId": "OG002",
+       "value": "46"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants received ISIS 757456 matching placebo, SC injection, once weekly for 12 weeks.",
+     "id": "OG000",
+     "title": "Pooled Placebo"
+    },
+    {
+     "description": "Participants received ISIS 757456 80mg, SC injection, once weekly for 12 weeks.",
+     "id": "OG001",
+     "title": "IONIS-AGT-LRx 80 mg"
+    },
+    {
+     "description": "Participants received ISIS 757456 120 mg, SC injection, once weekly for 12 weeks.",
+     "id": "OG002",
+     "title": "IONIS-AGT-LRx 120 mg"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "PPS included all FAS participants who received at least 10 of the 12 doses of study drug, did not alter antihypertensive medications during the treatment period and prior to Day 85, and had no significant protocol deviations that would have been expected to affect efficacy assessment.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline to Day 85",
+   "title": "Change From Baseline in Seated Automated Office SBP to Day 85",
+   "type": "PRIMARY",
+   "unitOfMeasure": "mmHg"
+  }
+ ]
+}

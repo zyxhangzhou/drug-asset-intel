@@ -1,0 +1,113 @@
+{
+ "nctId": "NCT01393600",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-3.3",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "1.9",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "1.3",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "OTHER",
+     "pValue": "0.5880",
+     "paramType": "Mean Difference (Final Values)",
+     "paramValue": "-0.7",
+     "statisticalMethod": "ANOVA"
+    },
+    {
+     "ciLowerLimit": "-3.8",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "1.6",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "1.3",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "OTHER",
+     "pValue": "0.4184",
+     "paramType": "Mean Difference (Final Values)",
+     "paramValue": "-1.1",
+     "statisticalMethod": "ANOVA"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.7",
+         "value": "9.9"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "1.2",
+         "value": "9.1"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "1.2",
+         "value": "8.8"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "33"
+      },
+      {
+       "groupId": "OG001",
+       "value": "17"
+      },
+      {
+       "groupId": "OG002",
+       "value": "15"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Severity of TD symptoms assessed by AIMS dyskinesia total score (sum of items 1 through 7), as assessed by blinded central AIMS video raters. The AIMS Total Dyskinesia Score rates a total of 7 items, rating involuntary movement from 0 (no dyskinesia) to 4 (severe dyskinesia). Items 1 through 7 include facial and oral movements (Items 1-4), extremity movements (Items 5-6), and trunk movements (Item 7). The AIMS dyskinesia total score for Items 1-7 ranges from 0 to 28; a higher score reflects increased severity.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Placebo (matching valbenazine solution)",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Valbenazine 12.5 mg solution",
+     "id": "OG001",
+     "title": "Valbenazine 12.5 mg"
+    },
+    {
+     "description": "Valbenazine 50 mg solution",
+     "id": "OG002",
+     "title": "Valbenazine 50 mg"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Intent to treat (ITT) analysis set (all subjects who received at least 8 doses of study drug during Treatment Period 1 and had an AIMS dyskinesia total score value for Day 15).",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Day 15 and 29, averaged",
+   "title": "Abnormal Involuntary Movement Scale (AIMS) Dyskinesia Total Score",
+   "type": "PRIMARY",
+   "unitOfMeasure": "units on a scale"
+  }
+ ]
+}

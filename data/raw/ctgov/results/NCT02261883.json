@@ -1,0 +1,74 @@
+{
+ "nctId": "NCT02261883",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "8"
+        },
+        {
+         "groupId": "OG001",
+         "value": "12"
+        }
+       ],
+       "title": "Yes"
+      },
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "12"
+        },
+        {
+         "groupId": "OG001",
+         "value": "9"
+        }
+       ],
+       "title": "No"
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "20"
+      },
+      {
+       "groupId": "OG001",
+       "value": "21"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Clinical worsening was a composite endpoint defined by the occurrence of 1 of the following: death, initiation of ECMO per institutional policies, or need for additional treatment (initiation of additional targeted pulmonary vasodilator therapy).",
+   "groups": [
+    {
+     "description": "The starting dose was 1 ng/kg/min (not to exceed to 2 ng/kg/min) and was titrated by up to 2 ng/kg/min every 2 hours, as tolerated and clinically indicated by the Investigator. Doses were titrated and maximized throughout the study until the desired clinical effect was observed or to each individual subject's maximally tolerated dose. There was no maximum dose.\n\nIV Remodulin: Treprostinil is a chemically stable tricyclic analogue of prostacyclin.",
+     "id": "OG000",
+     "title": "IV Remodulin"
+    },
+    {
+     "description": "The starting dose was 1 ng/kg/min (not to exceed to 2 ng/kg/min) and was titrated by up to 2 ng/kg/min every 2 hours, as tolerated and clinically indicated by the Investigator. Doses were titrated and maximized throughout the study until the desired clinical effect was observed or to each individual subject's maximally tolerated dose. There was no maximum dose.\n\nPlacebo: Sodium citrate USP/EP/JP, sodium chloride USP/EP/JP, sodium hydroxide pellets, metacresol, and citric acid (anhydrous).",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Intent-to-Treat Population",
+   "reportingStatus": "POSTED",
+   "timeFrame": "From Baseline to Day 14",
+   "title": "Number of Subjects Experiencing Clinical Worsening",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

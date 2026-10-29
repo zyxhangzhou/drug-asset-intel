@@ -1,0 +1,50 @@
+{
+ "nctId": "NCT03719690",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "10.03",
+         "upperLimit": "33.72",
+         "value": "20.0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "50"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "ORR was defined as the percentage of participants who experienced a best overall response (BOR) of complete response (CR; disappearance of all target lesions) or partial response (PR; at least a 30% decrease in the sum of diameters of target lesions) and was assessed using Response Evaluation Criteria in Solid Tumors (RECIST) v1.1 by IRF. 95% confidence interval (CI) was calculated by the exact binomial (Clopper-Pearson) method.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants enrolled as part of AIM-HN received tipifarnib administered with food at a starting dose of 600 mg, orally, bid on Days 1-7 and 15-21 of 28-day cycles.",
+     "id": "OG000",
+     "title": "Tipifarnib Treatment Cohort: AIM-HN"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "mITT Analysis Set: consisted of all participants who received at least one dose of tipifarnib. Analysis was pre-specified for participants with high VAF only. Data collection and analysis of ORR for participants in the Observational SEQ-HN Cohort was not pre-specified.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to approximately 28 months",
+   "title": "Objective Response Rate (ORR) in High Variable Allele Frequency (VAF) Population, as Assessed by Independent Review Facility (IRF)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage of participants"
+  }
+ ]
+}

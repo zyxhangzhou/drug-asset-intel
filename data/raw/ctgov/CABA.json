@@ -1,0 +1,926 @@
+{
+ "aliases": [
+  "Cabaletta Bio"
+ ],
+ "studies": [
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Single or multiple intravenous infusion(s) of DSG3-CAART at varying dose levels.\n\nThis study is now closed to enrollment.",
+       "interventionNames": [
+        "Biological: DSG3-CAART"
+       ],
+       "label": "DSG3-CAART",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Infusion of CABA-201 with or without cyclophosphamide and fludarabine preconditioning, or with or without cyclophosphamide preconditioning.\n\nThis sub-study is open to enrollment.",
+       "interventionNames": [
+        "Biological: CABA-201"
+       ],
+       "label": "CABA-201",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "DSG3-CAART"
+       ],
+       "description": "Intravenous infusions of DSG3-CAART alone at different doses and different fractionations, with or without intravenous immunoglobulin, cyclophosphamide, and/or fludarabine.",
+       "name": "DSG3-CAART",
+       "type": "BIOLOGICAL"
+      },
+      {
+       "armGroupLabels": [
+        "CABA-201"
+       ],
+       "description": "Single intravenous infusion of CABA-201 at escalating doses, with or without preconditioning.",
+       "name": "CABA-201",
+       "type": "BIOLOGICAL"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Pemphigus Vulgaris"
+     ],
+     "keywords": [
+      "Pemphigus",
+      "Pemphigus Vulgaris",
+      "CAAR-T Therapy",
+      "CAR-T Therapy",
+      "Desmoglein 3",
+      "Cell Therapy",
+      "Autoimmune Disease",
+      "Autoimmunity",
+      "Skin Diseases, Vesiculobullous",
+      "Immunotherapy, Adoptive",
+      "Immune System Diseases",
+      "CABA-201",
+      "Anti-CD19 CAR-T therapy",
+      "Resecabtagene Autoleucel",
+      "Rese-cel"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 40,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Phase 1/2, Open-label, Safety and Dosing Study of Autologous CART Cells (Desmoglein 3 Chimeric Autoantibody Receptor T Cells [DSG3-CAART] or CD19-specific Chimeric Antigen Receptor T Cells [CABA-201]) in Subjects With Active, Pemphigus Vulgaris (RESET-PV)",
+     "nctId": "NCT04422912",
+     "officialTitle": "A Phase 1/2, Open-label, Safety and Dosing Study of Autologous CART Cells (Desmoglein 3 Chimeric Autoantibody Receptor T Cells [DSG3-CAART] or CD19-specific Chimeric Antigen Receptor T Cells [CABA-201]) in Subjects With Active, Pemphigus Vulgaris",
+     "orgStudyIdInfo": {
+      "id": "CAB-101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Cabaletta Bio"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Cabaletta Bio"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2029-01",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-15",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-13",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2029-01",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2020-09-29",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-10",
+     "studyFirstPostDateStruct": {
+      "date": "2020-06-09",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2020-06-02",
+     "studyFirstSubmitQcDate": "2020-06-05"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Cohort A: Infusion of MuSK-CAART at various dose levels with or without pre-treatment (6 groups planned).\n\nCohort B: Infusion of MuSK-CAART at the dose regimen selected from Part A.",
+       "interventionNames": [
+        "Biological: MuSK-CAART"
+       ],
+       "label": "MuSK-CAART",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "MuSK-CAART"
+       ],
+       "description": "Intravenous infusion of MuSK-CAART at different doses. Subjects may also receive MuSK-CAART following pre-treatment with CY, or CY plus FLU.",
+       "name": "MuSK-CAART",
+       "type": "BIOLOGICAL"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "MuSK Myasthenia Gravis"
+     ],
+     "keywords": [
+      "CAAR-T (Chimeric Autoantibody Receptor T Cells) Therapy",
+      "CAR-T (Chimeric Antigen Receptor T Cells) Therapy",
+      "Cell Therapy",
+      "Autoimmune Disease",
+      "Autoimmunity",
+      "Immunotherapy, Adoptive",
+      "Immune System Diseases",
+      "Myasthenia Gravis (MG)",
+      "Muscle-specific tyrosine kinase (MuSK)",
+      "Muscle Weakness",
+      "Neuromuscular Diseases",
+      "Musculoskeletal Diseases"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 7,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Open-label Study to Evaluate the Safety of Various Dosing Regimens of MuSK-CAART for MuSK Myasthenia Gravis",
+     "nctId": "NCT05451212",
+     "officialTitle": "A Phase 1, Open-label, Safety and Dose-finding Study of Autologous Muscle-specific Tyrosine Kinase Chimeric Autoantibody Receptor T Cells (MuSK-CAART) in Subjects With Anti-MuSK-antibody-positive Myasthenia Gravis",
+     "orgStudyIdInfo": {
+      "id": "CAB-MuSK-101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Cabaletta Bio"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Cabaletta Bio"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2025-07-24",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-11-10",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-11-06",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2025-07-24",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2022-11-23",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-11",
+     "studyFirstPostDateStruct": {
+      "date": "2022-07-11",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2022-06-30",
+     "studyFirstSubmitQcDate": "2022-07-05"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "LN Cohort: Infusion of CABA-201 with preconditioning in subjects with LN\n\nNon-renal SLE Cohort: Infusion of CABA-201 with preconditioning in subjects with non-renal SLE who do not meet criteria for inclusion in the LN cohort\n\nExpansion Cohort: Infusion of CABA-201 with preconditioning in subjects with LN and SLE",
+       "interventionNames": [
+        "Biological: CABA-201"
+       ],
+       "label": "CABA-201 with FLU/CY Preconditioning",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Infusion of CABA-201 with no preconditioning in subjects with LN and non-renal SLE",
+       "interventionNames": [
+        "Biological: CABA-201"
+       ],
+       "label": "CABA-201, No Preconditioning",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "CABA-201 with FLU/CY Preconditioning"
+       ],
+       "description": "Single intravenous infusion of CABA-201 at a single dose level following preconditioning with fludarabine and cyclophosphamide",
+       "name": "CABA-201",
+       "type": "BIOLOGICAL"
+      },
+      {
+       "armGroupLabels": [
+        "CABA-201, No Preconditioning"
+       ],
+       "description": "Single intravenous infusion of CABA-201 at escalating dose levels without preconditioning",
+       "name": "CABA-201",
+       "type": "BIOLOGICAL"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Systemic Lupus Erythematosus",
+      "Lupus Nephritis"
+     ],
+     "keywords": [
+      "CABA-201",
+      "Autoimmune Disease",
+      "Anti-CD19 CAR-T therapy",
+      "Cellular Therapy",
+      "Systemic Lupus Erythematosus",
+      "Lupus Nephritis"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 28,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "RESET-SLE: A Phase 1/2 Open-Label Study to Evaluate the Safety and Efficacy of CABA-201 in Subjects With Active Systemic Lupus Erythematosus",
+     "nctId": "NCT06121297",
+     "officialTitle": "A Phase 1/2, Open-label Study to Evaluate the Safety and Efficacy of Autologous CD19-specific Chimeric Antigen Receptor T Cells (CABA-201) in Subjects With Active Systemic Lupus Erythematosus",
+     "orgStudyIdInfo": {
+      "id": "CAB-201-001"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Cabaletta Bio"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Cabaletta Bio"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2029-12",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-06",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-05",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2029-12",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2024-02-16",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-10",
+     "studyFirstPostDateStruct": {
+      "date": "2023-11-07",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2023-10-23",
+     "studyFirstSubmitQcDate": "2023-11-01"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "DM Cohort: Infusion of CABA-201 following preconditioning with fludarabine and cyclophosphamide in subjects with DM.\n\nASyS Cohort: Infusion of CABA-201 following preconditioning with fludarabine and cyclophosphamide in subjects with ASyS.\n\nIMNM Cohort: Infusion of CABA-201 following preconditioning with fludarabine and cyclophosphamide in subjects with IMNM.\n\nJIIM Cohort: Infusion of CABA-201 following preconditioning with fludarabine and cyclophosphamide in subjects with JIIM.",
+       "interventionNames": [
+        "Biological: CABA-201 following preconditioning with fludarabine and cyclophosphamide"
+       ],
+       "label": "CABA-201 Phase 1/2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Infusion of CABA-201 following preconditioning with fludarabine and cyclophosphamide in subjects with DM and ASyS.",
+       "interventionNames": [
+        "Biological: CABA-201 following preconditioning with fludarabine and cyclophosphamide"
+       ],
+       "label": "CABA-201 Phase 2b - Sub-study 1",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Infusion of CABA-201 following preconditioning with fludarabine and cyclophosphamide in subjects with IMNM.",
+       "interventionNames": [
+        "Biological: CABA-201 following preconditioning with fludarabine and cyclophosphamide"
+       ],
+       "label": "CABA-201 Phase 2b - Sub-study 2",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "CABA-201 Phase 1/2",
+        "CABA-201 Phase 2b - Sub-study 1",
+        "CABA-201 Phase 2b - Sub-study 2"
+       ],
+       "description": "Single intravenous infusion of CABA-201 at a single dose level following preconditioning with fludarabine and cyclophosphamide",
+       "name": "CABA-201 following preconditioning with fludarabine and cyclophosphamide",
+       "otherNames": [
+        "Rese-cel",
+        "Resecabtagene autoleucel"
+       ],
+       "type": "BIOLOGICAL"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Idiopathic Inflammatory Myopathy",
+      "Dermatomyositis",
+      "Anti-Synthetase Syndrome",
+      "Immune-Mediated Necrotizing Myopathy",
+      "Juvenile Dermatomyositis",
+      "Juvenile Polymyositis",
+      "Juvenile Idiopathic Inflammatory Myopathy (JIIM)",
+      "Juvenile Myositis"
+     ],
+     "keywords": [
+      "CABA-201",
+      "Autoimmune Disease",
+      "Anti-CD19 CAR-T therapy",
+      "Cellular Therapy",
+      "Idiopathic Inflammatory Myopathy",
+      "Myositis",
+      "Dermatomyositis",
+      "Anti-synthetase Syndrome",
+      "Immune-mediated Necrotizing Myopathy",
+      "Juvenile Dermatomyositis",
+      "Juvenile Polymyositis",
+      "Juvenile Idiopathic Inflammatory Myopathy (JIIM)",
+      "Juvenile Myositis"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 74,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE2",
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "RESET-Myositis: An Open-Label Study to Evaluate the Safety and Efficacy of CABA-201 in Subjects With Active Idiopathic Inflammatory Myopathy or Juvenile Idiopathic Inflammatory Myopathy",
+     "nctId": "NCT06154252",
+     "officialTitle": "A Phase 1/2, Open-Label Study to Evaluate the Safety and Efficacy of Autologous CD19-specific Chimeric Antigen Receptor T Cells (CABA-201) in Subjects With Active Idiopathic Inflammatory Myopathy or Juvenile Idiopathic Inflammatory Myopathy",
+     "orgStudyIdInfo": {
+      "id": "CAB-201-002"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Cabaletta Bio"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Cabaletta Bio"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2028-07",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-15",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-13",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2028-07",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2023-12-20",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-10",
+     "studyFirstPostDateStruct": {
+      "date": "2023-12-04",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2023-11-16",
+     "studyFirstSubmitQcDate": "2023-11-30"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Severe Skin Cohort: Infusion of CABA-201 with preconditioning in subjects with SSc with severe skin involvement\n\nOrgan Cohort: Infusion of CABA-201 with preconditioning in subjects with SSc with organ involvement",
+       "interventionNames": [
+        "Biological: CABA-201"
+       ],
+       "label": "CABA-201 Phase 1/2",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Infusion of CABA-201 with preconditioning in subjects with SSc",
+       "interventionNames": [
+        "Biological: CABA-201"
+       ],
+       "label": "CABA-201 Phase 2b - Sub-study",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "CABA-201 Phase 1/2"
+       ],
+       "description": "Single intravenous infusion of CABA-201 at a single dose level following preconditioning with fludarabine and cyclophosphamide",
+       "name": "CABA-201",
+       "otherNames": [
+        "Rese-cel",
+        "Resecabtagene autoleucel"
+       ],
+       "type": "BIOLOGICAL"
+      },
+      {
+       "armGroupLabels": [
+        "CABA-201 Phase 2b - Sub-study"
+       ],
+       "description": "Single intravenous infusion of CABA-201 at a single dose level following preconditioning with fludarabine and cyclophosphamide",
+       "name": "CABA-201",
+       "otherNames": [
+        "Rese-cel",
+        "Resecabtagene autoleucel"
+       ],
+       "type": "BIOLOGICAL"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Systemic Sclerosis",
+      "Scleroderma",
+      "Interstitial Lung Diseases"
+     ],
+     "keywords": [
+      "CABA-201",
+      "autoimmune disease",
+      "anti-CD19 CAR-T therapy",
+      "systemic sclerosis",
+      "scleroderma",
+      "Interstitial lung disease"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 37,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE2",
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "RESET-SSc: An Open-Label Study to Evaluate the Safety and Efficacy of CABA-201, a CD19-CAR T Cell Therapy, in Subjects With Systemic Sclerosis",
+     "nctId": "NCT06328777",
+     "officialTitle": "A Phase 1/2, Open-Label Study to Evaluate the Safety and Efficacy of Autologous CD19-specific Chimeric Antigen Receptor T Cells (CABA-201) in Subjects With Systemic Sclerosis",
+     "orgStudyIdInfo": {
+      "id": "CAB-201-003"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Cabaletta Bio"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Cabaletta Bio"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2029-07",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-16",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-15",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2029-07",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2024-07-02",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-10",
+     "studyFirstPostDateStruct": {
+      "date": "2024-03-25",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2024-03-19",
+     "studyFirstSubmitQcDate": "2024-03-19"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "AChR Antibody-Positive Cohort or AChR Antibody-Negative Cohort",
+       "interventionNames": [
+        "Biological: CABA-201"
+       ],
+       "label": "CABA-201",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Infusion of CABA-201 with no preconditioning in subjects with gMG",
+       "interventionNames": [
+        "Biological: CABA-201"
+       ],
+       "label": "CABA-201, No Preconditioning",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "CABA-201"
+       ],
+       "description": "Single intravenous infusion of CABA-201 at a single dose level following preconditioning with fludarabine and cyclophosphamide",
+       "name": "CABA-201",
+       "type": "BIOLOGICAL"
+      },
+      {
+       "armGroupLabels": [
+        "CABA-201, No Preconditioning"
+       ],
+       "description": "Single intravenous infusion of CABA-201 at escalating dose levels without preconditioning",
+       "name": "CABA-201",
+       "type": "BIOLOGICAL"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Generalized Myasthenia Gravis (gMG)"
+     ],
+     "keywords": [
+      "CABA-201",
+      "autoimmune disease",
+      "anti-CD19 CAR-T therapy",
+      "cellular therapy",
+      "Myasthenia Gravis",
+      "Neuromuscular",
+      "Anti-AChR",
+      "Anti-LRP4",
+      "Anti-MuSK"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 24,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "RESET-MG: A Study to Evaluate the Safety and Efficacy of CABA-201 in Participants With Generalized Myasthenia Gravis",
+     "nctId": "NCT06359041",
+     "officialTitle": "RESET-MG: A Phase 1/2, Open-Label Study to Evaluate the Safety and Efficacy of Autologous CD19-specific Chimeric Antigen Receptor T Cells (CABA-201) in Participants With Generalized Myasthenia Gravis",
+     "orgStudyIdInfo": {
+      "id": "CAB-201-004"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Cabaletta Bio"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Cabaletta Bio"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2029-09",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-19",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-16",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2029-09",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2024-12-17",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-10",
+     "studyFirstPostDateStruct": {
+      "date": "2024-04-11",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2024-03-21",
+     "studyFirstSubmitQcDate": "2024-04-05"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Biological: CABA-201"
+       ],
+       "label": "Relapsing MS Cohort",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Biological: CABA-201"
+       ],
+       "label": "Progressive MS Cohort",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Progressive MS Cohort",
+        "Relapsing MS Cohort"
+       ],
+       "description": "Single intravenous infusion of CABA-201 following preconditioning with fludarabine and cyclophosphamide",
+       "name": "CABA-201",
+       "type": "BIOLOGICAL"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Relapsing Multiple Sclerosis (RMS)",
+      "Progressive Multiple Sclerosis (PMS)",
+      "Multiple Sclerosis - Relapsing Remitting",
+      "Multiple Sclerosis",
+      "Multiple Sclerosis (Relapsing Remitting)",
+      "Multiple Sclerosis (MS) - Relapsing-remitting",
+      "Progressive Multiple Sclerosis"
+     ],
+     "keywords": [
+      "CABA-201",
+      "Rese-cel",
+      "autoimmune disease",
+      "anti-CD19 CAR-T therapy",
+      "cellular therapy",
+      "Multiple Sclerosis",
+      "Relapsing MS",
+      "RRMS",
+      "Progressive MS",
+      "PPMS",
+      "SPMS",
+      "Neurology",
+      "Resecabtagene autoleucel"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 0,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "RESET-MS: A Study to Evaluate the Safety and Efficacy of CABA-201 in Participants With Multiple Sclerosis",
+     "nctId": "NCT07006805",
+     "officialTitle": "RESET-MS: A Phase 1/2, Open-Label Study to Evaluate the Safety and Efficacy of Autologous CD19-specific Chimeric Antigen Receptor T Cells (CABA-201) in Participants With Multiple Sclerosis",
+     "orgStudyIdInfo": {
+      "id": "CAB-201-005"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Cabaletta Bio"
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Cabaletta Bio"
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2029-10",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-06-25",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-06-23",
+     "overallStatus": "WITHDRAWN",
+     "primaryCompletionDateStruct": {
+      "date": "2028-09",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2026-06",
+      "type": "ESTIMATED"
+     },
+     "statusVerifiedDate": "2026-06",
+     "studyFirstPostDateStruct": {
+      "date": "2025-06-05",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-04-22",
+     "studyFirstSubmitQcDate": "2025-05-27",
+     "whyStopped": "The study was withdrawn prior to site activation and before enrollment of any participants due to sponsor decision to reprioritize the development portfolio."
+    }
+   }
+  }
+ ]
+}

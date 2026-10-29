@@ -1,0 +1,65 @@
+{
+ "nctId": "NCT02049905",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "2.79",
+         "upperLimit": "4.83",
+         "value": "4.04"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "2.63",
+         "upperLimit": "4.17",
+         "value": "2.96"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "218"
+      },
+      {
+       "groupId": "OG001",
+       "value": "215"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "PFS is defined as the time from the date of randomization to first documentation of objective tumor progression, according to RECIST 1.1 Criteria, or to death due to any cause in the absence of previous documentation of objective tumor progression. For subjects without documentation of objective tumor progression, who started other anti-tumor treatment, or lost to follow up/withdrew consent prior to confirmed progression, PFS is censored at the date of the last tumor assessment.\n\nPFS is defined as the interval from the date of randomization to the earliest date of documented evidence of recurrent or progressive disease, or the date of death due to any cause, whichever occurs first.\n\nPD is defined as: 20% increase in the sum of the longest diameter of target lesions from the smallest sum of the longest diameter recorded since the treatment started; the sum must also demonstrate an absolute increase of at least 5 mm. The appearance of 1 new lesion is also considered PD.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Aldoxorubicin is administered at 350 mg/m\\^2 (260 mg/m\\^2 doxorubicin equivalent) intravenously on Day 1 every 21-day cycles until tumor progression or unacceptable toxicity occurs.",
+     "id": "OG000",
+     "title": "Aldoxorubicin"
+    },
+    {
+     "description": "These treatments include:\n\n1. Dacarbazine administered at 1000 mg/m2 by intravenous infusion (IVI), over 90±15 minutes on Day 1 every 21 days until tumor progression or unacceptable toxicity occurs;\n2. Pazopanib, 800 mg orally each day until tumor progression or unacceptable toxicity occurs;\n3. Gemcitabine, 900 mg/m2 by IVI over 90 minutes on Days 1 and 8, plus docetaxel, 100 mg/m2 by IVI over 1 hour on Day 8 of a 28 day cycle until tumor progression or unacceptable toxicity occurs;\n4. Doxorubicin, 75 mg/m2 by IVI over 5 to 30 minutes every 21 days for a maximum cumulative dose of 550 mg/m2 or unacceptable toxicity occurs; or\n5. Ifosfamide 2.0 g/m2 administered over 2 to 4 hours on Days 1-4 of a 21 day cycle + mesna per standard site administration regimen until tumor progression or unacceptable toxicity occurs.\n\nInvestigator's Choice Treatment (Darcabazine, Pazopanib, Gemcitabine + Docetaxel, Doxorubicin, Ifosfamide)",
+     "id": "OG001",
+     "title": "Investigator's Choice of Treatment"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "5 patients were randomized, but not treated on Aldoxorubicin arm. 8 patients were randomized, but not treated on Investigator's Choice of Treatment.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "24 months",
+   "title": "Progression-Free Survival (PFS)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Months"
+  }
+ ]
+}

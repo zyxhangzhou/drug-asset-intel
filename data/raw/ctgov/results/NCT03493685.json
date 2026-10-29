@@ -1,0 +1,156 @@
+{
+ "nctId": "NCT03493685",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-1.74",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "2.41",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "1.05",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "OTHER",
+     "pValue": "0.7491",
+     "paramType": "Slope difference",
+     "paramValue": "0.3",
+     "statisticalMethod": "Mixed Models Analysis"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "-6.89",
+         "upperLimit": "-3.93",
+         "value": "-5.4"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "-7.20",
+         "upperLimit": "-4.29",
+         "value": "-5.7"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "184"
+      },
+      {
+       "groupId": "OG001",
+       "value": "187"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The total eGFR slope over 2 years, defined as the slope of eGFR following initiation of randomized treatment (ie, Day 1 to Week 108). Estimates are calculated from a mixed-effects model with treatment, Baseline eGFR, analysis visit, treatment-by-analysis visit, randomization stratification factors as fixed effects, and intercept and slope for each participant as a random effect.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants were randomized to receive initial dose of Sparsentan as 400 milligrams (mg) over-encapsulated (blinded) with size 00 capsules orally once daily. A dose adjustment was made for participants whose body weight was ≤50 kilograms (kg) at screening; these participants received one-half of the specified dose of Sparsentan. The dose was then titrated to achieve the maximum daily target dose of 800 mg.",
+     "id": "OG000",
+     "title": "Sparsentan"
+    },
+    {
+     "description": "Participants were randomized to receive active control doses of Irbesartan 150 mg over-encapsulated (blinded) with size 00 capsules orally once daily. A dose adjustment was made for participants whose body weight was ≤50 kg at screening; these participants received one-half of the specified dose of Irbesartan. The dose was then titrated to achieve the maximum daily target dose of 300 mg.",
+     "id": "OG001",
+     "title": "Irbesartan"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Full Analysis Set.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "From Day 1 to Week 108",
+   "title": "Slope of Estimated Glomerular Filtration Rate (eGFR)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "milliliters/minute/1.73square meter/year"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "3.96",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "28.04",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "OTHER",
+     "pValue": "0.0094",
+     "paramType": "Risk Difference (RD)",
+     "paramValue": "16.00",
+     "statisticalMethod": "Mixed Models Analysis"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "42.0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "26.0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "184"
+      },
+      {
+       "groupId": "OG001",
+       "value": "187"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Percentage of participants achieving FPRE, defined as urine protein-to-creatinine ratio (UP/C) ≤1.5 grams/gram (g/g) (170 milligrams per millimoles \\[mg/mmol\\]) and a \\>40% reduction from Baseline was analyzed using a generalized linear model to model probability of achieving FPRE. Missing responses were imputed prior to analysis using multiple imputation. A generalized linear model with appropriate link function was implemented with Baseline log (UP/C), treatment, analysis visit, treatment by analysis visit interaction, and randomization strata as fixed effects. For estimates of probability of achieving FPRE, risk difference, and odds ratio, binomial distribution with logit link was used. For relative risk, Poisson distribution with log link was used. Using Rubin's approach, estimated treatment effects are combined across all imputations to obtain overall estimates for probabilities.",
+   "groups": [
+    {
+     "description": "Participants were randomized to receive initial dose of Sparsentan as 400 milligrams (mg) over-encapsulated (blinded) with size 00 capsules orally once daily. A dose adjustment was made for participants whose body weight was ≤50 kilograms (kg) at screening; these participants received one-half of the specified dose of Sparsentan. The dose was then titrated to achieve the maximum daily target dose of 800 mg.",
+     "id": "OG000",
+     "title": "Sparsentan"
+    },
+    {
+     "description": "Participants were randomized to receive active control doses of Irbesartan 150 mg over-encapsulated (blinded) with size 00 capsules orally once daily. A dose adjustment was made for participants whose body weight was ≤50 kg at screening; these participants received one-half of the specified dose of Irbesartan. The dose was then titrated to achieve the maximum daily target dose of 300 mg.",
+     "id": "OG001",
+     "title": "Irbesartan"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Full Analysis Set.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Week 36",
+   "title": "Percentage of Participants Achieving FSGS Partial Remission Endpoint (FPRE)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Percentage of participants"
+  }
+ ]
+}

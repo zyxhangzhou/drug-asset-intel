@@ -1,0 +1,320 @@
+{
+ "nctId": "NCT03118570",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "groupIds": [
+      "OG000"
+     ],
+     "nonInferiorityComment": "Comparison is between the Visit and Baseline",
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.644",
+     "pValueComment": "Analysis is based on a log transformed analysis of covariance (ANCOVA) model with change from baseline as outcome parameter; including categorical effects of treatment and randomization stratum as well as the associated baseline value as a covariate.",
+     "statisticalMethod": "ANCOVA"
+    },
+    {
+     "groupIds": [
+      "OG001"
+     ],
+     "nonInferiorityComment": "Comparison is between the Visit and Baseline",
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.485",
+     "pValueComment": "Analysis is based on a log transformed ANCOVA model with change from baseline as outcome parameter; including categorical effects of treatment and randomization stratum as well as the associated baseline value as a covariate.",
+     "statisticalMethod": "ANCOVA"
+    },
+    {
+     "groupIds": [
+      "OG002"
+     ],
+     "nonInferiorityComment": "Comparison is between the Visit and Baseline",
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.404",
+     "pValueComment": "Analysis is based on a log transformed ANCOVA model with change from baseline as outcome parameter; including categorical effects of treatment and randomization stratum as well as the associated baseline value as a covariate.",
+     "statisticalMethod": "ANCOVA"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "0.987",
+         "upperLimit": "1.021",
+         "value": "1.004"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "0.975",
+         "upperLimit": "1.012",
+         "value": "0.993"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "0.974",
+         "upperLimit": "1.011",
+         "value": "0.992"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "31"
+      },
+      {
+       "groupId": "OG001",
+       "value": "29"
+      },
+      {
+       "groupId": "OG002",
+       "value": "30"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Assessed by high resolution peripheral quantitative computed tomography (HRpQCT). HRpQCT scans were performed on the participant's distal non-dominant arm. In cases of an arm that had been supported with rods or had significant deformity, the dominant limb was selected. Data presents the ratio of the means between the visit and Baseline from analysis of covariance (ANCOVA).",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Setrusumab 20 mg/kg IV infusion once a month for 12 months plus 500 mg calcium oral tablets and 800 IU vitamin D capsules.",
+     "id": "OG000",
+     "title": "Setrusumab 20 mg/kg (Blinded)"
+    },
+    {
+     "description": "Setrusumab 8 mg/kg IV infusion once a month for 12 months plus 500 mg calcium oral tablets and 800 IU vitamin D capsules.",
+     "id": "OG001",
+     "title": "Setrusumab 8 mg/kg (Blinded)"
+    },
+    {
+     "description": "Setrusumab 2 mg/kg IV infusion once a month for 12 months plus 500 mg calcium oral tablets and 800 IU vitamin D capsules.",
+     "id": "OG002",
+     "title": "Setrusumab 2 mg/kg (Blinded)"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Full Analysis Set: all participants who are randomized to one of the blinded treatment arms and took at least 1 dose of study treatment (per protocol almost all efficacy endpoints were to be analyzed only in the blinded treatment arms). Participants with an assessment at given time point.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Month 12 (end of treatment [EOT])",
+   "title": "Change From Baseline in Radial Trabecular Volumetric Bone Mineral Density (Tr vBMD) at Month 12",
+   "type": "PRIMARY",
+   "unitOfMeasure": "ratio"
+  },
+  {
+   "analyses": [
+    {
+     "groupIds": [
+      "OG000"
+     ],
+     "nonInferiorityComment": "Comparison is between the Visit and Baseline",
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.006",
+     "pValueComment": "Analysis is based on an ANCOVA model with Change from Baseline as outcome parameter; including categorical effects of treatment and randomization stratum as well as the associated baseline value as a covariate.",
+     "statisticalMethod": "ANCOVA"
+    },
+    {
+     "groupIds": [
+      "OG001"
+     ],
+     "nonInferiorityComment": "Comparison is between the Visit and Baseline",
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.190",
+     "pValueComment": "Analysis is based on an ANCOVA model with Change from Baseline as outcome parameter; including categorical effects of treatment and randomization stratum as well as the associated baseline value as a covariate.",
+     "statisticalMethod": "ANCOVA"
+    },
+    {
+     "groupIds": [
+      "OG002"
+     ],
+     "nonInferiorityComment": "Comparison is between the Visit and Baseline",
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.704",
+     "pValueComment": "Analysis is based on an ANCOVA model with Change from Baseline as outcome parameter; including categorical effects of treatment and randomization stratum as well as the associated baseline value as a covariate.",
+     "statisticalMethod": "ANCOVA"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "21.669",
+         "value": "61.25"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "24.342",
+         "value": "32.25"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "23.200",
+         "value": "8.86"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "28"
+      },
+      {
+       "groupId": "OG001",
+       "value": "22"
+      },
+      {
+       "groupId": "OG002",
+       "value": "25"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Assessed by finite element analysis (FEA) of models generated from HRpQCT images of the distal radius.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Setrusumab 20 mg/kg IV infusion once a month for 12 months plus 500 mg calcium oral tablets and 800 IU vitamin D capsules.",
+     "id": "OG000",
+     "title": "Setrusumab 20 mg/kg (Blinded)"
+    },
+    {
+     "description": "Setrusumab 8 mg/kg IV infusion once a month for 12 months plus 500 mg calcium oral tablets and 800 IU vitamin D capsules.",
+     "id": "OG001",
+     "title": "Setrusumab 8 mg/kg (Blinded)"
+    },
+    {
+     "description": "Setrusumab 2 mg/kg IV infusion once a month for 12 months plus 500 mg calcium oral tablets and 800 IU vitamin D capsules.",
+     "id": "OG002",
+     "title": "Setrusumab 2 mg/kg (Blinded)"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Full Analysis Set: all participants who are randomized to one of the blinded treatment arms and took at least 1 dose of study treatment. Participants with an assessment at given time point.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Month 12 (EOT)",
+   "title": "Change From Baseline in Radial Bone Strength (Failure Load) at Month 12",
+   "type": "PRIMARY",
+   "unitOfMeasure": "newton (N)"
+  },
+  {
+   "analyses": [
+    {
+     "groupIds": [
+      "OG000"
+     ],
+     "nonInferiorityComment": "Comparison is between the Visit and Baseline",
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.011",
+     "pValueComment": "Analysis is based on an ANCOVA model with Change from Baseline as outcome parameter; including categorical effects of treatment and randomization stratum as well as the associated baseline value as a covariate.",
+     "statisticalMethod": "ANCOVA"
+    },
+    {
+     "groupIds": [
+      "OG001"
+     ],
+     "nonInferiorityComment": "Comparison is between the Visit and Baseline",
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.047",
+     "pValueComment": "Analysis is based on an ANCOVA model with Change from Baseline as outcome parameter; including categorical effects of treatment and randomization stratum as well as the associated baseline value as a covariate.",
+     "statisticalMethod": "ANCOVA"
+    },
+    {
+     "groupIds": [
+      "OG002"
+     ],
+     "nonInferiorityComment": "Comparison is between the Visit and Baseline",
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.756",
+     "pValueComment": "Analysis is based on an ANCOVA model with Change from Baseline as outcome parameter; including categorical effects of treatment and randomization stratum as well as the associated baseline value as a covariate.",
+     "statisticalMethod": "ANCOVA"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "625.808",
+         "value": "1638.70"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "703.275",
+         "value": "1422.00"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "671.777",
+         "value": "209.89"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "28"
+      },
+      {
+       "groupId": "OG001",
+       "value": "22"
+      },
+      {
+       "groupId": "OG002",
+       "value": "25"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Assessed by FEA of models generated from HRpQCT images of the distal radius.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Setrusumab 20 mg/kg IV infusion once a month for 12 months plus 500 mg calcium oral tablets and 800 IU vitamin D capsules.",
+     "id": "OG000",
+     "title": "Setrusumab 20 mg/kg (Blinded)"
+    },
+    {
+     "description": "Setrusumab 8 mg/kg IV infusion once a month for 12 months plus 500 mg calcium oral tablets and 800 IU vitamin D capsules.",
+     "id": "OG001",
+     "title": "Setrusumab 8 mg/kg (Blinded)"
+    },
+    {
+     "description": "Setrusumab 2 mg/kg IV infusion once a month for 12 months plus 500 mg calcium oral tablets and 800 IU vitamin D capsules.",
+     "id": "OG002",
+     "title": "Setrusumab 2 mg/kg (Blinded)"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Full Analysis Set: all participants who are randomized to one of the blinded treatment arms and took at least 1 dose of study treatment. Participants with an assessment at given time point.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Month 12 (EOT)",
+   "title": "Change From Baseline in Radial Bone Strength (Stiffness) at Month 12",
+   "type": "PRIMARY",
+   "unitOfMeasure": "N/mm"
+  }
+ ]
+}

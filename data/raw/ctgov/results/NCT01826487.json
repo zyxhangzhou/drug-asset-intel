@@ -1,0 +1,84 @@
+{
+ "nctId": "NCT01826487",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-7.44",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "33.39",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "10.415",
+     "groupDescription": "Analysis was performed using analysis of covariance (ANCOVA) method including stratification factors for age (less than \\[\\<\\] 9 years versus \\[vs.\\] greater than or equal to \\[\\>=\\] 9 years), duration of use of corticosteroids at baseline (approx. \\>=6 to \\<12 months vs. \\>=12 months), and baseline 6MWD category (\\>=350 meters vs \\<350 meters), as well as baseline 6MWD as covariate.",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "OTHER",
+     "pValue": "0.213",
+     "pValueComment": "Threshold for significance at 0.05. Secondary endpoints were tested for significance, only if the primary endpoint was statistically significant.",
+     "paramType": "Mean Difference (Final Values)",
+     "paramValue": "12.98",
+     "statisticalMethod": "Mixed Models Analysis"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "9.323",
+         "value": "-60.67"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "9.247",
+         "value": "-47.69"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "114"
+      },
+      {
+       "groupId": "OG001",
+       "value": "114"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The 6MWD test is a non-encouraged test performed in a 30 meters long flat corridor, where the participant is instructed to walk as far as possible, back and forth around two cones, with the permission to slow down, rest, or stop if needed. Ambulation was assessed via the 6MWD test following standardized procedures by measuring the 6MWD in meters. Participants were not permitted to use assistive devices (walker, long leg braces, or short leg braces) during the 6MWD test. Participants with confirmed loss of ambulation at a particular visit were assigned a 6MWD result of 0. Baseline and Week 48 6MWD values are each the average of two valid 6MWD values, or a single available value if one was missing.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Participants received placebo matched to ataluren orally TID at morning, midday, and evening for 48 weeks.",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Participants received ataluren suspension orally TID, 10 mg/kg at morning, 10 mg/kg at midday, and 20 mg/kg at evening (total daily dose 40 mg/kg) for 48 weeks.",
+     "id": "OG001",
+     "title": "Ataluren"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "ITT population included all participants who were randomized and received any study treatment; and had a valid baseline, and at least one valid post-baseline 6MWD value. Multiple imputation was applied to impute missing values within the treatment groups.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Week 48",
+   "title": "Change From Baseline in 6MWD at Week 48",
+   "type": "PRIMARY",
+   "unitOfMeasure": "meters"
+  }
+ ]
+}

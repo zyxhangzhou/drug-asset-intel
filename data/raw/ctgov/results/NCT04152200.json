@@ -1,0 +1,131 @@
+{
+ "nctId": "NCT04152200",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-81.82",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "15.16",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "17.63",
+     "groupDescription": "Restricted maximum likelihood (REML) based Mixed Model Repeated Measures (MMRM) was used to test against the null hypothesis of mean change from baseline outcome being equal to 0. The model includes scheduled visits and baseline plasma oxalate (μmol/L) as fixed effects and patient as a random factor. Autoregressive (1) was used to model the within-patient variability.",
+     "groupIds": [
+      "OG000"
+     ],
+     "nonInferiorityComment": "Not applied",
+     "nonInferiorityType": "OTHER",
+     "paramType": "Least Squares (LS) Mean",
+     "paramValue": "-33.33",
+     "statisticalMethod": "Mixed model repeated measures (MMRM)"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "17.63",
+         "value": "-33.33"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "6"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Percent change in plasma oxalate (umol/L) was estimated by an average percent change from baseline across Months 3 through 6. A negative change from Baseline indicates a favorable outcome. For Cohort A, the baseline was defined as the mean of all plasma oxalate level values collected prior to the first dose of lumasiran.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Patients not on dialysis received open-label lumasiran based on weight. Patients weighing \\<10 kg received loading doses of lumasiran subcutaneous (SC) injection 6.0 mg/kg monthly for 3 months, followed by maintenance doses of lumasiran SC injection 3.0 mg/kg monthly during the 6-month primary analysis period and monthly during the 54-month extension period. Patients in maintenance dosing who transitioned from \\<10 kg to ≥10 kg continued to receive monthly doses at 3.0 mg/kg until the next visit that coincided with a dose for patients weighing ≥10 kg. Thereafter, patients followed every-3-months dosing until the end of the study. Patients weighing ≥10 to \\<20 kg received loading doses of lumasiran SC injection 6.0 mg/kg monthly for 3 months, followed by maintenance doses of lumasiran SC injection 6.0 mg/kg at Months 3 and 6 in the 6-month primary analysis period and every three months during the 54-month extension period. Patients weighing ≥20 kg received loading doses of lumasiran SC injection 3.0 mg/kg monthly for 3 months, followed by maintenance doses of lumasiran SC injection 3.0 mg/kg at Months 3 and 6 in the 6-month primary analysis period and every three months during the 54-month extension period. Patients with weight increases crossing the threshold for the next weight-based dosing category (\\<10 kg to ≥10 kg or \\<20 kg to ≥20 kg) followed the new dosing regimen for the remainder of the study or until the next dosing category threshold was reached.",
+     "id": "OG000",
+     "title": "Cohort A: Lumasiran"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Full Analysis Set (FAS): All patients who received any amount of lumasiran and had at least 1 evaluable plasma oxalate value (pre-dialysis in Cohort B) at baseline and at least 1 evaluable plasma oxalate value from assessment(s) at Month 3 through Month 6.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline to Month 6",
+   "title": "Cohort A: Percent Change in Plasma Oxalate From Baseline to Month 6",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percent change"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-50.71",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-34.15",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "3.95",
+     "groupDescription": "REML based Mixed Model Repeated Measures MMRM was used to test against the null hypothesis of mean change from baseline outcome being equal to 0. The model includes scheduled visits and baseline plasma oxalate (μmol/L) as fixed effects and patient as a random factor. Autoregressive (1) was used to model the within-patient variability.",
+     "groupIds": [
+      "OG000"
+     ],
+     "nonInferiorityComment": "Not applied",
+     "nonInferiorityType": "OTHER",
+     "paramType": "Least Squares (LS) Mean",
+     "paramValue": "-42.43",
+     "statisticalMethod": "MMRM"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "3.95",
+         "value": "-42.43"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "15"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Percent change in plasma oxalate (umol/L) was estimated by an average percent change from baseline across Months 3 through 6. A negative change from Baseline indicates a favorable outcome. For Cohort B, the baseline is defined as the mean of the last four pre-dialysis plasma oxalate samples collected prior to the first dose of lumasiran. In Cohort B, only pre-dialysis samples are utilized.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Patients on dialysis received open-label lumasiran based on weight. Patients weighing \\<10 kg received loading doses of lumasiran subcutaneous (SC) injection 6.0 mg/kg monthly for 3 months, followed by maintenance doses of lumasiran SC injection 3.0 mg/kg monthly during the 6-month primary analysis period and monthly during the 54-month extension period. Patients in maintenance dosing who transitioned from \\<10 kg to ≥10 kg continued to receive monthly doses at 3.0 mg/kg until the next visit that coincided with a dose for patients weighing ≥10 kg. Thereafter, patients followed every-3-months dosing until the end of the study. Patients weighing ≥10 to \\<20 kg received loading doses of lumasiran SC injection 6.0 mg/kg monthly for 3 months, followed by maintenance doses of lumasiran SC injection 6.0 mg/kg at Months 3 and 6 in the 6-month primary analysis period and every three months during the 54-month extension period. Patients weighing ≥20 kg received loading doses of lumasiran SC injection 3.0 mg/kg monthly for 3 months, followed by maintenance doses of lumasiran SC injection 3.0 mg/kg at Months 3 and 6 in the 6-month primary analysis period and every three months during the 54-month extension period. Patients with weight increases crossing the threshold for the next weight-based dosing category (\\<10 kg to ≥10 kg or \\<20 kg to ≥20 kg) followed the new dosing regimen for the remainder of the study or until the next dosing category threshold was reached.",
+     "id": "OG000",
+     "title": "Cohort B: Lumasiran"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "FAS: All patients who received any amount of lumasiran and had at least 1 evaluable plasma oxalate value (pre-dialysis in Cohort B) at baseline and at least 1 evaluable plasma oxalate value from assessment(s) at Month 3 through Month 6.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline to Month 6",
+   "title": "Cohort B: Percent Change in Pre-dialysis Plasma Oxalate From Baseline to Month 6",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percent change"
+  }
+ ]
+}

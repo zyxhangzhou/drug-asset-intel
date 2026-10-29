@@ -1,0 +1,181 @@
+{
+ "nctId": "NCT04729751",
+ "primaryOutcomeMeasures": [
+  {
+   "calculatePct": false,
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "16"
+        },
+        {
+         "groupId": "OG001",
+         "value": "10"
+        }
+       ]
+      }
+     ],
+     "title": "At least one TEAE"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "4"
+        },
+        {
+         "groupId": "OG001",
+         "value": "3"
+        }
+       ]
+      }
+     ],
+     "title": "TEAE related to study drug"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "6"
+        },
+        {
+         "groupId": "OG001",
+         "value": "1"
+        }
+       ]
+      }
+     ],
+     "title": "Grade ≥3 TEAE"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Grade ≥3 TEAE related to study drug"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "6"
+        },
+        {
+         "groupId": "OG001",
+         "value": "2"
+        }
+       ]
+      }
+     ],
+     "title": "Serious TEAE"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Serious TEAE related to study drug"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "1"
+        }
+       ]
+      }
+     ],
+     "title": "TEAE that led to study discontinuation"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "TEAE that led to death"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "17"
+      },
+      {
+       "groupId": "OG001",
+       "value": "10"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "TEAEs = Treatment-emergent Adverse Events",
+   "groups": [
+    {
+     "description": "Includes all participants with Alagille Syndrome (ALGS) who received at least one dose of maralixibat.\n\nParticipants with ALGS received maralixibat doses of either: 200 µg/kg or 400 µg/kg QD.",
+     "id": "OG000",
+     "title": "Maralixibat: ALGS"
+    },
+    {
+     "description": "Includes all participants with Progressive Familial Intrahepatic Cholestasis (PFIC) who received at least one dose of maralixibat.\n\nParticipants with PFIC received maralixibat doses of either: 300 µg/kg QD, 300 µg/kg BID, or 600 µg/kg BID.",
+     "id": "OG001",
+     "title": "Maralixibat: PFIC"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Includes all participants with Alagille Syndrome (ALGS) or Progressive Familial Intrahepatic Cholestasis (PFIC) who received at least one dose of maralixibat.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "From Baseline through to Week 13",
+   "title": "Frequency of Treatment-emergent Adverse Events [TEAEs]",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

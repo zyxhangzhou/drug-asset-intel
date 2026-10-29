@@ -1,0 +1,233 @@
+{
+ "nctId": "NCT03614923",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-1.01",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.25",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "0.319",
+     "groupDescription": "A general linear mixed effects model with repeated measures (MMRM) was used including the change from Baseline in NPS as dependent variable; treatment group, stratification factor, time (Weeks 4, 8, 12, and 16), treatment by stratification factor, and treatment by time interaction as fixed effect factors; Baseline NPS as covariate; and subject as random effect.",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityComment": "Statistical significance for the co-primary efficacy endpoints would be declared if both p-values for the tests of the individual hypotheses were \\< 0.05.",
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.2364",
+     "pValueComment": "Testing was conducted in a hierarchical manner such that the comparison of etokimab Q4W versus placebo was conducted first. If the results of this comparison were statistically significant, the etokimab Q8W treatment arm would be compared to placebo.",
+     "paramType": "Least Squares (LS) Mean Difference",
+     "paramValue": "-0.38",
+     "statisticalMethod": "General linear MMRM"
+    },
+    {
+     "ciLowerLimit": "-1.03",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.22",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "0.316",
+     "groupDescription": "A general linear mixed effects model with repeated measures (MMRM) was used including the change from Baseline in NPS as dependent variable; treatment group, stratification factor, time (Weeks 4, 8, 12, and 16), treatment by stratification factor, and treatment by time interaction as fixed effect factors; Baseline NPS as covariate; and subject as random effect.",
+     "groupIds": [
+      "OG001",
+      "OG002"
+     ],
+     "nonInferiorityComment": "Statistical significance for the co-primary efficacy endpoints was to be declared if both p-values for the tests of the individual hypotheses were \\< 0.05.",
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.2024",
+     "pValueComment": "Testing was conducted in a hierarchical manner such that the comparison of etokimab Q4W versus placebo was conducted first. If the results of this comparison were statistically significant, the etokimab Q8W treatment arm would be compared to placebo.",
+     "paramType": "LS Mean Difference",
+     "paramValue": "-0.41",
+     "statisticalMethod": "General linear MMRM"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.225",
+         "value": "-0.87"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.221",
+         "value": "-0.89"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "0.225",
+         "value": "-0.49"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "29"
+      },
+      {
+       "groupId": "OG001",
+       "value": "33"
+      },
+      {
+       "groupId": "OG002",
+       "value": "31"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Nasal polyps were evaluated by nasal endoscopy using centralized imaging data assessments scored by an independent reviewer.\n\nEach nostril was scored on a scale from 0 to 4, where a score of 0 means no polyps, and a score of 4 means the presence of polyps causing complete obstruction of the inferior nasal cavity.\n\nThe bilateral NPS score is the sum of the right and left nostril scores, and hence the total NPS value is between 0 and 8 (worst). A negative change from Baseline indicates improvement.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Participants received a 300 mg loading dose of etokimab administered by subcutaneous injection at Week 0 then 150 mg etokimab by subcutaneous injection Q4W up to Week 12 (Weeks 4, 8, and 12). Participants also used MFNS of 2 actuations (50 μg/actuation) in each nostril BID.",
+     "id": "OG000",
+     "title": "Etokimab 300 mg + 150 mg Q4W"
+    },
+    {
+     "description": "Participants received a 300 mg loading dose of etokimab administered by subcutaneous injection at Week 0 then etokimab 150 mg by subcutaneous injection Q8W up to Week 12 and placebo at Weeks 4 and 12. Participants also used MFNS of 2 actuations (50 μg/actuation) in each nostril BID.",
+     "id": "OG001",
+     "title": "Etokimab 300 mg + 150 mg Q8W"
+    },
+    {
+     "description": "Participants received placebo subcutaneous injection once every 4 weeks up to Week 12. Participants also used MFNS of 2 actuations (50 μg/actuation) in each nostril BID.",
+     "id": "OG002",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Full analysis set with available data",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline and Week 16",
+   "title": "Change From Baseline in Nasal Polyp Score (NPS) to Week 16",
+   "type": "PRIMARY",
+   "unitOfMeasure": "score on a scale"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-15.34",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "2.06",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "4.383",
+     "groupDescription": "A general linear mixed effects model with repeated measures (MMRM) was used including the change from Baseline in SNOT-22 as dependent variable; treatment group, stratification factor, time (Weeks 4, 8, 12, and 16), treatment by stratification factor, and treatment by time interaction as fixed effect factors; Baseline SNOT-22 as covariate; and subject as random effect.",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityComment": "Statistical significance for the co-primary efficacy endpoints was to be declared if both p-values for the tests of the individual hypotheses were \\< 0.05.",
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.1330",
+     "pValueComment": "Testing was conducted in a hierarchical manner such that the comparison of etokimab Q4W versus placebo was conducted first. If the results of this comparison were statistically significant, the etokimab Q8W treatment arm would be compared to placebo.",
+     "paramType": "LS Mean Difference",
+     "paramValue": "-6.64",
+     "statisticalMethod": "General linear MMRM"
+    },
+    {
+     "ciLowerLimit": "-10.70",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "6.67",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "4.375",
+     "groupDescription": "A general linear mixed effects model with repeated measures (MMRM) was used including the change from Baseline in SNOT-22 as dependent variable; treatment group, stratification factor, time (Weeks 4, 8, 12, and 16), treatment by stratification factor, and treatment by time interaction as fixed effect factors; Baseline SNOT-22 as covariate; and subject as random effect.",
+     "groupIds": [
+      "OG001",
+      "OG002"
+     ],
+     "nonInferiorityComment": "Statistical significance for the co-primary efficacy endpoints was to be declared if both p-values for the tests of the individual hypotheses were \\< 0.05.",
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.6464",
+     "pValueComment": "Testing was conducted in a hierarchical manner such that the comparison of etokimab Q4W versus placebo was conducted first. If the results of this comparison were statistically significant, the etokimab Q8W treatment arm would be compared to placebo.",
+     "paramType": "LS Mean Difference",
+     "paramValue": "-2.01",
+     "statisticalMethod": "General linear MMRM"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "3.084",
+         "value": "-22.97"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "3.077",
+         "value": "-18.34"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "3.112",
+         "value": "-16.32"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "30"
+      },
+      {
+       "groupId": "OG001",
+       "value": "33"
+      },
+      {
+       "groupId": "OG002",
+       "value": "31"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "SNOT-22 is a 22-item outcome measure on a 5-category scale that assesses symptoms and social/emotional consequences of rhinosinusitis. Each item is scored from 0 (No problem at all) to 5 (Problem as bad as it can be), and the total score ranges from 0 to 110. Higher SNOT-22 scores are indicative of greater impact of rhinosinusitis on quality of life. A negative change from Baseline indicates improvement.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Participants received a 300 mg loading dose of etokimab administered by subcutaneous injection at Week 0 then 150 mg etokimab by subcutaneous injection Q4W up to Week 12 (Weeks 4, 8, and 12). Participants also used MFNS of 2 actuations (50 μg/actuation) in each nostril BID.",
+     "id": "OG000",
+     "title": "Etokimab 300 mg + 150 mg Q4W"
+    },
+    {
+     "description": "Participants received a 300 mg loading dose of etokimab administered by subcutaneous injection at Week 0 then etokimab 150 mg by subcutaneous injection Q8W up to Week 12 and placebo at Weeks 4 and 12. Participants also used MFNS of 2 actuations (50 μg/actuation) in each nostril BID.",
+     "id": "OG001",
+     "title": "Etokimab 300 mg + 150 mg Q8W"
+    },
+    {
+     "description": "Participants received placebo subcutaneous injection once every 4 weeks up to Week 12. Participants also used MFNS of 2 actuations (50 μg/actuation) in each nostril BID.",
+     "id": "OG002",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Full analysis set participants with available data",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline and Week 16",
+   "title": "Change From Baseline in Sino-Nasal Outcome Test-22 (SNOT-22) Score at Week 16",
+   "type": "PRIMARY",
+   "unitOfMeasure": "score on a scale"
+  }
+ ]
+}

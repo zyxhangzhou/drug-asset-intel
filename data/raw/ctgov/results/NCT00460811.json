@@ -1,0 +1,154 @@
+{
+ "nctId": "NCT00460811",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "groupDescription": "For each of the 4 active linaclotide groups, the null hypothesis was that there was no difference between placebo and the dose group in the change from baseline in the weekly normalized CSBM Rate. An observed cases (OC) approach to missing post-baseline data was applied: any missing data were not imputed.",
+     "groupIds": [
+      "OG000",
+      "OG004"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+     "pValue": "0.0002",
+     "statisticalMethod": "ANCOVA",
+     "testedNonInferiority": false
+    },
+    {
+     "ciPctValue": "95",
+     "groupDescription": "For each of the 4 active linaclotide groups, the null hypothesis was that there was no difference between placebo and the dose group in the change from baseline in the weekly normalized CSBM Rate. An observed cases (OC) approach to missing post-baseline data was applied: any missing data were not imputed.",
+     "groupIds": [
+      "OG001",
+      "OG004"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+     "pValue": "0.0036",
+     "statisticalMethod": "ANCOVA",
+     "testedNonInferiority": false
+    },
+    {
+     "ciPctValue": "95",
+     "groupDescription": "For each of the 4 active linaclotide groups, the null hypothesis was that there was no difference between placebo and the dose group in the change from baseline in the weekly normalized CSBM Rate. An observed cases (OC) approach to missing post-baseline data was applied: any missing data were not imputed.",
+     "groupIds": [
+      "OG002",
+      "OG004"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+     "pValue": "<0.0001",
+     "statisticalMethod": "ANCOVA",
+     "testedNonInferiority": false
+    },
+    {
+     "ciPctValue": "95",
+     "groupDescription": "For each of the 4 active linaclotide groups, the null hypothesis was that there was no difference between placebo and the dose group in the change from baseline in the weekly normalized CSBM Rate. An observed cases (OC) approach to missing post-baseline data was applied: any missing data were not imputed.",
+     "groupIds": [
+      "OG003",
+      "OG004"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+     "pValue": "0.0008",
+     "statisticalMethod": "ANCOVA",
+     "testedNonInferiority": false
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.385",
+         "value": "2.90"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.380",
+         "value": "2.49"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "0.372",
+         "value": "3.61"
+        },
+        {
+         "groupId": "OG003",
+         "spread": "0.369",
+         "value": "2.68"
+        },
+        {
+         "groupId": "OG004",
+         "spread": "0.372",
+         "value": "1.01"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "79"
+      },
+      {
+       "groupId": "OG001",
+       "value": "82"
+      },
+      {
+       "groupId": "OG002",
+       "value": "84"
+      },
+      {
+       "groupId": "OG003",
+       "value": "89"
+      },
+      {
+       "groupId": "OG004",
+       "value": "85"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The change in the weekly normalized CSBM Rate during Weeks 1 through 12 of the Treatment Period from the weekly normalized CSBM Rate obtained during the Pretreatment Period.\n\nThe CSBM rate was normalized based on the number of CSBMs occurring in that week, adjusting for differences in the duration of the week and black-out periods (time not covered due to a missed IVRS call) versus 7x24 hours.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Linaclotide, 72μg dose, oral administration, once per day",
+     "id": "OG000",
+     "title": "72 ug Linaclotide Acetate"
+    },
+    {
+     "description": "Linaclotide, 145μg dose, oral administration, once per day",
+     "id": "OG001",
+     "title": "145 ug Linaclotide Acetate"
+    },
+    {
+     "description": "Linaclotide, 290μg dose, oral administration, once per day",
+     "id": "OG002",
+     "title": "290 ug Linaclotide Acetate"
+    },
+    {
+     "description": "Linaclotide, 579μg dose, oral administration, once per day",
+     "id": "OG003",
+     "title": "579 ug Linaclotide Acetate"
+    },
+    {
+     "description": "Dose-matched placebo, oral administration, once per day.",
+     "id": "OG004",
+     "title": "Matching Placebo"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "The Intent-to-treat (ITT) Population included 419 patients of the Safety Population who also had ≥ 1 post-dose evaluation of the primary efficacy assessment (i.e., CSBM Frequency)",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Change from Baseline to Week 12",
+   "title": "Change From Baseline in the Weekly Normalized Complete Spontaneous Bowel Movement (CSBM) Rate During Weeks 1 Through 12 of the Treatment Period",
+   "type": "PRIMARY",
+   "unitOfMeasure": "CSBMs per week"
+  }
+ ]
+}

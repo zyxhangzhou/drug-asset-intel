@@ -1,0 +1,50 @@
+{
+ "nctId": "NCT03862807",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "86.1",
+         "upperLimit": "92.3",
+         "value": "91.0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "22"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Serum TTR was assessed using enzyme linked immunosorbent assay (ELISA). The average of the percentage reduction in serum TTR observed at Month 6 and at Month 12 is first calculated for each patient and then the median (95% CI) of these averaged values is summarized for the Safety Analysis Set.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Participants received patisiran 0.3 milligrams/kilogram (mg/kg) via intravenous (IV) infusion once every 3 weeks (q3w) for 12 months. Dosing was based on actual body weight. For participants weighing 100 kg or more, patisiran was administered at a total dose of 30 mg IV q3w.",
+     "id": "OG000",
+     "title": "Patisiran"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "Safety Analysis Set: All participants who received any amount of patisiran.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Months 6 and 12",
+   "title": "Average of Month 6 and Month 12 Percentage Reduction From Baseline in Serum Transthyretin (TTR)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percent reduction"
+  }
+ ]
+}

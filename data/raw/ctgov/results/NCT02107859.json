@@ -1,0 +1,220 @@
+{
+ "nctId": "NCT02107859",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "61"
+        }
+       ]
+      }
+     ],
+     "title": "Any TEAEs"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "4"
+        }
+       ]
+      }
+     ],
+     "title": "Mild AEs"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "26"
+        }
+       ]
+      }
+     ],
+     "title": "Moderate AEs"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "30"
+        }
+       ]
+      }
+     ],
+     "title": "Severe AEs"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Life-threatening AEs"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1"
+        }
+       ]
+      }
+     ],
+     "title": "Fatal AEs"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "35"
+        }
+       ]
+      }
+     ],
+     "title": "AEs unrelated to ataluren"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "12"
+        }
+       ]
+      }
+     ],
+     "title": "AEs unlikely related to ataluren"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "13"
+        }
+       ]
+      }
+     ],
+     "title": "AEs possible related to ataluren"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1"
+        }
+       ]
+      }
+     ],
+     "title": "AEs probable related to ataluren"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "36"
+        }
+       ]
+      }
+     ],
+     "title": "Serious TEAEs"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "61"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "AE: any untoward medical occurrence in a participant who received study drug without regard to possibility of causal relationship. Severity of an AE was classified as: mild (does not interfere with usual function), moderate (interferes to some extent with usual function), severe (interferes significantly with usual function), life threatening (results in potential threat to life), and fatal AEs. Drug-related AEs: AEs with a possible or probable relationship to study drug. Serious AEs: death, a life-threatening AE, inpatient hospitalization or prolongation of existing hospitalization, persistent or significant disability or incapacity, a congenital anomaly or birth defect, or an important medical event that jeopardized participant and required medical intervention. TEAE: AE that occurred or worsened from first dose of study drug to 4 weeks after last dose of study drug. A summary of other non-serious AEs and all serious AEs, regardless of causality is located in Reported AE section.",
+   "groups": [
+    {
+     "description": "Participants received ataluren suspension orally TID, 10 mg/kg at morning, 10 mg/kg at midday, and 20 mg/kg at evening (total daily dose 40 mg/kg) for 192 weeks.",
+     "id": "OG000",
+     "title": "Ataluren"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "As-treated population included all participants who received at least 1 dose of ataluren.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline (Day 1) up to end of study (Week 196)",
+   "title": "Number of Participants With Treatment-Emergent Adverse Events (TEAEs)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "61"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Laboratory parameters tests included hematology, biochemistry assay (hepatic, renal, and serum electrolyte values), adrenal assays, and urinalysis. Clinical significance was defined as per investigator's judgement.",
+   "groups": [
+    {
+     "description": "Participants received ataluren suspension orally TID, 10 mg/kg at morning, 10 mg/kg at midday, and 20 mg/kg at evening (total daily dose 40 mg/kg) for 192 weeks.",
+     "id": "OG000",
+     "title": "Ataluren"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "As-treated population included all participants who received at least 1 dose of ataluren.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline (Day 1) up to end of study (Week 196)",
+   "title": "Number of Participants With Clinically Significant Laboratory Abnormalities",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

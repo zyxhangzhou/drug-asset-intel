@@ -1,0 +1,72 @@
+{
+ "nctId": "NCT02736955",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "35"
+        },
+        {
+         "groupId": "OG001",
+         "value": "117"
+        },
+        {
+         "groupId": "OG002",
+         "value": "8"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "35"
+      },
+      {
+       "groupId": "OG001",
+       "value": "117"
+      },
+      {
+       "groupId": "OG002",
+       "value": "8"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Incidence of adverse events and monitoring of vital signs, clinical laboratory values, and electrocardiograms. All AEs were coded into preferred terms according to MedDRA (Medical Dictionary for Regulatory Activities) and classified by system organ class (SOC). Summaries of the incidence of all treatment-emergent AEs, treatment-related AEs, SAEs, and AEs leading to study drug discontinuation were prepared.",
+   "groups": [
+    {
+     "description": "Participants received 40 mg valbenazine oral capsule once daily for up to 60 weeks.",
+     "id": "OG000",
+     "title": "Valbenazine 40 mg"
+    },
+    {
+     "description": "Participants received 40 mg valbenazine oral capsule once daily for 4 weeks, followed by 80 mg (provided as 2 x 40 mg valbenazine oral capsule) once daily for up to 56 weeks",
+     "id": "OG001",
+     "title": "Valbenazine 80 mg"
+    },
+    {
+     "description": "Participants received 40 mg valbenazine oral capsule once daily for 4 weeks. Participants were then increased to 80 mg (provided as 2 x 40 mg valbenazine oral capsule) once daily, and due to poor tolerance, were subsequently reduced back to one 40 mg valbenazine oral capsule once daily for the remainder of the study, up to 56 weeks",
+     "id": "OG002",
+     "title": "Valbenazine 40/80 mg"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "reportingStatus": "POSTED",
+   "timeFrame": "60 weeks",
+   "title": "Number of Participants Monitored for Long-term Safety of Valbenazine",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

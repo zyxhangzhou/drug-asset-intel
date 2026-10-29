@@ -1,0 +1,50 @@
+{
+ "nctId": "NCT01027949",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "-345.0",
+         "upperLimit": "282.0",
+         "value": "22.0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "572"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Assess the effect of continued therapy with oral treprostinil on exercise capacity as assessed by the change from Baseline in 6-Minute Walk Test (6MWT) after 1 year of treatment. The 6MWT is the clinical standard for assessing subject functional status in the treatment of PAH and has been considered an objective measure of subject functional status by the American Thoracic Society. The distance a subject can walk in 6 minutes is recorded in meters.",
+   "dispersionType": "Full Range",
+   "groups": [
+    {
+     "description": "Subjects eligible for TDE-PH-304 previously participated in Studies TDE PH-202, TDE-PH-203, TDE-PH-205, TDE-PH-301, TDE-PH-302, or TDE PH-308.",
+     "id": "OG000",
+     "title": "Oral Treprostinil"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "All subjects enrolled in the study with Baseline and matched follow-up 6MWTs.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "From First Visit (Visit 1) to Month 12",
+   "title": "Change in Exercise Capacity at Month 12",
+   "type": "PRIMARY",
+   "unitOfMeasure": "meters"
+  }
+ ]
+}

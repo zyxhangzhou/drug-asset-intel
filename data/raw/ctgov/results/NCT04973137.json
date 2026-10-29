@@ -1,0 +1,90 @@
+{
+ "nctId": "NCT04973137",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": ".508",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "1.649",
+     "groupIds": [
+      "OG000"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.7680",
+     "paramType": "Hazard Ratio (HR)",
+     "paramValue": ".915",
+     "statisticalMethod": "Log Rank"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "32"
+        },
+        {
+         "groupId": "OG001",
+         "value": "17"
+        }
+       ],
+       "title": "Event (Death) Occurred"
+      },
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "107"
+        },
+        {
+         "groupId": "OG001",
+         "value": "51"
+        }
+       ],
+       "title": "Number of Subjects Censored"
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "139"
+      },
+      {
+       "groupId": "OG001",
+       "value": "68"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Comparison of time to all-cause mortality for birtamimab and placebo control.",
+   "groups": [
+    {
+     "description": "Birtamimab, 24 mg/kg IV every 4 weeks with Standard of Care",
+     "id": "OG000",
+     "title": "Birtamimab (24 mg/kg) + Standard of Care"
+    },
+    {
+     "description": "Placebo 0.9% Saline IV every 4 weeks with Standard of Care",
+     "id": "OG001",
+     "title": "Placebo + Standard of Care"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "ITT Population",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Time from the first dose of study drug until the pre-defined number of events (all-cause mortality) have been reached, assessed up to 39 months.",
+   "title": "Time to All-cause Mortality for the Double Blind Phase",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "nctId": "NCT04202965",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "19.4",
+         "value": "-6.07"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "14"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Change from Baseline to Week 24 (or End of Treatment) in transferrin saturation (TSAT) as measured by blood laboratory tests.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "PTG-300: Active treatment with PTG-300 subcutaneously",
+     "id": "OG000",
+     "title": "PTG-300"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Subjects who had paired values to allow determination of change from baseline",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Week 24 (or End of Treatment if treated for less than 24 weeks)",
+   "title": "Effect of PTG-300 on Transferrin Saturation",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percent saturation"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "9.76",
+         "value": "-2.34"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "14"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Change from Baseline to Week 24 (or End of Treatment) in serum iron as measured by blood laboratory tests.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "PTG-300: Active treatment with PTG-300 subcutaneously",
+     "id": "OG000",
+     "title": "PTG-300"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Subjects who had paired values to allow determination of change from baseline",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Week 24 (or End of Treatment if treated for less than 24 weeks)",
+   "title": "Effect of PTG-300 on Serum Iron",
+   "type": "PRIMARY",
+   "unitOfMeasure": "micromol/L"
+  }
+ ]
+}

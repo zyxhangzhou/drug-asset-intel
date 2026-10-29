@@ -1,0 +1,83 @@
+{
+ "nctId": "NCT02630316",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "7.0",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "37.0",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0043",
+     "pValueComment": "p-value is obtained from nonparametric ANCOVA adjusted for Baseline 6MWD category.",
+     "paramType": "Hodges-Lehmann",
+     "paramValue": "21.0",
+     "statisticalMethod": "ANCOVA"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "-426",
+         "upperLimit": "179",
+         "value": "-9.0"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "-396",
+         "upperLimit": "183",
+         "value": "6.0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "163"
+      },
+      {
+       "groupId": "OG001",
+       "value": "163"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The intent of the 6MWD test is to evaluate exercise capacity associated with carrying out activities of daily living. Change in 6MWD from Baseline to Week 16, correlates with the current clinical standard for assessing patient functional status in the treatment of PH and is considered an objective measure of patient functional status. Subjects will be instructed to walk down a corridor at a comfortable speed as far as they can manage for six minutes. Peak exposure 6MWD will occur by conducting 6-minute walk test (6MWT) within 10 to 60 minutes after the most recent dose of study drug dose.",
+   "dispersionType": "Full Range",
+   "groups": [
+    {
+     "description": "Matching placebo inhaled using an ultrasonic nebulizer four times daily\n\nPlacebo: Placebo administered four times daily",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Active Treprostinil for inhalation solution (0.6 mg/mL) delivered via an ultrasonic nebulizer which emits a dose of approximately 6 mcg per breath. Inhaled four times daily and titrated up to a maximum of 12 breaths four times daily\n\nInhaled Treprostinil: Inhaled treprostinil (6 mcg/breath) administered four times daily",
+     "id": "OG001",
+     "title": "Inhaled Treprostinil"
+    }
+   ],
+   "paramType": "MEDIAN",
+   "populationDescription": "All Subjects Dosed",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline and Week 16",
+   "title": "Change in 6-minute Walk Distance (6MWD) Measured at Peak Exposure From Baseline to Week 16",
+   "type": "PRIMARY",
+   "unitOfMeasure": "meters"
+  }
+ ]
+}

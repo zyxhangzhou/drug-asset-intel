@@ -1,0 +1,82 @@
+{
+ "nctId": "NCT01733121",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-4.5",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-1.6",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "0.7",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "OTHER",
+     "pValue": "<.0001",
+     "paramType": "Mean Difference (Final Values)",
+     "paramValue": "-3.0",
+     "statisticalMethod": "ANCOVA"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "1.1",
+         "value": "-0.3"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "1.2",
+         "value": "-3.4"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "44"
+      },
+      {
+       "groupId": "OG001",
+       "value": "32"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The AIMS Total Dyskinesia Score rates a total of 7 items, rating involuntary movement from 0 (no dyskinesia) to 4 (severe dyskinesia). Items 1 through 7 include facial and oral movements (Items 1-4), extremity movements (Items 5-6), and trunk movements (Item 7). The AIMS dyskinesia total score for Items 1-7 ranges from 0 to 28; a higher score reflects increased severity.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Participants received Placebo capsule (matching valbenazine capsules) once daily for 6 weeks.",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Participants first received valbenazine 25mg once daily for 2 weeks, then 50mg once daily for 2 weeks, then 75mg once daily for 2 weeks (a total of 6 weeks).",
+     "id": "OG001",
+     "title": "Valbenazine"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Per protocol analysis set (subjects in the ITT analysis set that had an evaluable, blinded, central video raters' AIMS dyskinesia total score change from baseline value at Week 6, had a quantifiable NBI-98782 plasma concentration at Week 6 \\[for subjects in the NBI-98854 group\\], and had no efficacy-related important protocol deviations)",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline and Week 6",
+   "title": "Abnormal Involuntary Movement Scale (AIMS) Dyskinesia Total Score Change From Baseline at Week 6",
+   "type": "PRIMARY",
+   "unitOfMeasure": "units on a scale"
+  }
+ ]
+}

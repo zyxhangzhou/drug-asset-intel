@@ -1,0 +1,141 @@
+{
+ "nctId": "NCT00291187",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-33.1",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-9.9",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+     "pValue": "<0.001",
+     "paramType": "Mean Difference (Final Values)",
+     "paramValue": "-21.5",
+     "statisticalMethod": "ANCOVA",
+     "testedNonInferiority": false
+    },
+    {
+     "ciLowerLimit": "-37.8",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-14.7",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+     "pValue": "<0.001",
+     "paramType": "Mean Difference (Final Values)",
+     "paramValue": "-26.3",
+     "statisticalMethod": "ANCOVA",
+     "testedNonInferiority": false
+    },
+    {
+     "ciLowerLimit": "-34.2",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-11.3",
+     "groupIds": [
+      "OG000",
+      "OG003"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+     "pValue": "<0.001",
+     "paramType": "Mean Difference (Final Values)",
+     "paramValue": "-22.8",
+     "statisticalMethod": "ANCOVA",
+     "testedNonInferiority": false
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "4.28",
+         "value": "45.8"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "4.35",
+         "value": "24.3"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "4.31",
+         "value": "19.6"
+        },
+        {
+         "groupId": "OG003",
+         "spread": "4.21",
+         "value": "23.1"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "103"
+      },
+      {
+       "groupId": "OG001",
+       "value": "100"
+      },
+      {
+       "groupId": "OG002",
+       "value": "102"
+      },
+      {
+       "groupId": "OG003",
+       "value": "106"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The average improvement in Latency to persistent sleep (the number of minutes between Lights Off and the onset of at least 10 minutes of persistent sleep, as measured by polysomnography) is defined as the difference observed in the VEC-162 treated subjects compared with placebo treated subjects.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Taken orally 30 minutes prior to bedtime.",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "20 mg taken orally 30 minutes prior to bedtime.",
+     "id": "OG001",
+     "title": "VEC-162 20 mg"
+    },
+    {
+     "description": "50 mg taken orally 30 minutes prior to bedtime.",
+     "id": "OG002",
+     "title": "VEC-162 50 mg"
+    },
+    {
+     "description": "100 mg taken orally 30 minutes prior to bedtime.",
+     "id": "OG003",
+     "title": "VEC-162 100 mg"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Modified ITT defined as any subject randomized into the study who received a dose of study drug and had PSG data. For the purposes of this trial, a subject was considered to have PSG data if 50% or more of the full night PSG was scored.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Night 1",
+   "title": "Average Improvement of Latency to Persistent Sleep (LPS)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "minutes"
+  }
+ ]
+}

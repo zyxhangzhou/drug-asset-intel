@@ -1,0 +1,677 @@
+{
+ "nctId": "NCT03548415",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.306",
+     "pValueComment": "The p-value was analyzed using the nonparametric test, Van Elteren test with IGF-1 level as stratification factor.",
+     "statisticalMethod": "Van Elteren test"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "31.5",
+         "value": "8.9"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "33.1",
+         "value": "-2.8"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "16.3",
+         "value": "-7.5"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "12"
+      },
+      {
+       "groupId": "OG001",
+       "value": "22"
+      },
+      {
+       "groupId": "OG002",
+       "value": "7"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "IGF-1 is a hormone that manages the effects of growth hormone (GH) in the body. Percent change from Baseline in IGF-1 levels was measured at Day 141. Baseline was defined as the last non-missing value prior to the first administration of Study Drug (ISIS 766720 or placebo). A negative percent change from Baseline indicated improvement. To perform a meaningful assessment of the pharmacodynamic (PD) activity of ISIS 766720, the lower dose groups (60 mg and 80 mg) and higher dose groups (120 mg and 160 mg) were combined to achieve group size of 7 or more for PD assessments and these were designated as low-dose and high-dose groups respectively.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "Participants received placebo by subcutaneous injection (SC) once every 4 weeks for 16 weeks.",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Participants received IONIS GHR-LRx, 60 or 80 milligrams (mg), SC, once every 4 weeks for 16 weeks.",
+     "id": "OG001",
+     "title": "ISIS 766720 Low Dose"
+    },
+    {
+     "description": "Participants received IONIS GHR-LRx, 120 or 160 mg, SC, once every 4 weeks for 16 weeks.",
+     "id": "OG002",
+     "title": "ISIS 766720 High Dose"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "The Per-protocol Set included all randomized participants who received at least one dose of Study Drug and had at least one post-baseline efficacy or pharmacodynamic assessment, received at least 5 of the 6 doses of Study Drug with the first 3 doses administered on schedule, and had no significant protocol deviations that would have been expected to affect efficacy. Low dose refers to 60 mg or 80 mg, High dose refers to 120 mg or 160 mg.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline and 28 days after last dose (Day 141)",
+   "title": "Percent Change in Serum Insulin-like Growth Factor-1 (IGF-1) From Baseline to 28 Days After Last Dose",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percent change"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "8"
+        },
+        {
+         "groupId": "OG001",
+         "value": "11"
+        },
+        {
+         "groupId": "OG002",
+         "value": "7"
+        },
+        {
+         "groupId": "OG003",
+         "value": "2"
+        },
+        {
+         "groupId": "OG004",
+         "value": "5"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "12"
+      },
+      {
+       "groupId": "OG001",
+       "value": "12"
+      },
+      {
+       "groupId": "OG002",
+       "value": "11"
+      },
+      {
+       "groupId": "OG003",
+       "value": "2"
+      },
+      {
+       "groupId": "OG004",
+       "value": "6"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "A TEAE was defined as an adverse event that occurred after the initiation of study drug dosing and before the end of the follow-up period.",
+   "groups": [
+    {
+     "description": "Participants received placebo by subcutaneous injection (SC) once every 4 weeks for 16 weeks.",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Participants received IONIS GHR-LRx, 60 milligrams (mg), SC, once every 4 weeks for 16 weeks.",
+     "id": "OG001",
+     "title": "Cohort A: IONIS GHR-LRx, 60 mg"
+    },
+    {
+     "description": "Participants received IONIS GHR-LRx, 80 mg, SC, once every 4 weeks for 16 weeks.",
+     "id": "OG002",
+     "title": "Cohort B: IONIS GHR-LRx, 80 mg"
+    },
+    {
+     "description": "Participants received IONIS GHR-LRx, 120 mg, SC, once every 4 weeks for 16 weeks.",
+     "id": "OG003",
+     "title": "Cohort C: IONIS GHR-LRx, 120 mg"
+    },
+    {
+     "description": "Participants received IONIS GHR-LRx, 160 mg, SC, once every 4 weeks for 16 weeks.",
+     "id": "OG004",
+     "title": "Cohort D: IONIS GHR-LRx, 160 mg"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "The Safety Set included all participants who were randomized and received at least one dose of Study Drug.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to 211 days",
+   "title": "Number of Participants With Treatment-emergent Adverse Events (TEAEs)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "1"
+        },
+        {
+         "groupId": "OG002",
+         "value": "0"
+        },
+        {
+         "groupId": "OG003",
+         "value": "0"
+        },
+        {
+         "groupId": "OG004",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Hypotension"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        },
+        {
+         "groupId": "OG002",
+         "value": "1"
+        },
+        {
+         "groupId": "OG003",
+         "value": "0"
+        },
+        {
+         "groupId": "OG004",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Hypertension"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "12"
+      },
+      {
+       "groupId": "OG001",
+       "value": "12"
+      },
+      {
+       "groupId": "OG002",
+       "value": "11"
+      },
+      {
+       "groupId": "OG003",
+       "value": "2"
+      },
+      {
+       "groupId": "OG004",
+       "value": "6"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Vitals signs included blood pressure, heart rate, respiratory rate, and temperature recorded throughout the study. Clinical significance was determined by the investigator.",
+   "groups": [
+    {
+     "description": "Participants received placebo by subcutaneous injection (SC) once every 4 weeks for 16 weeks.",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Participants received IONIS GHR-LRx, 60 milligrams (mg), SC, once every 4 weeks for 16 weeks.",
+     "id": "OG001",
+     "title": "Cohort A: IONIS GHR-LRx, 60 mg"
+    },
+    {
+     "description": "Participants received IONIS GHR-LRx, 80 mg, SC, once every 4 weeks for 16 weeks.",
+     "id": "OG002",
+     "title": "Cohort B: IONIS GHR-LRx, 80 mg"
+    },
+    {
+     "description": "Participants received IONIS GHR-LRx, 120 mg, SC, once every 4 weeks for 16 weeks.",
+     "id": "OG003",
+     "title": "Cohort C: IONIS GHR-LRx, 120 mg"
+    },
+    {
+     "description": "Participants received IONIS GHR-LRx, 160 mg, SC, once every 4 weeks for 16 weeks.",
+     "id": "OG004",
+     "title": "Cohort D: IONIS GHR-LRx, 160 mg"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "The Safety Set included all participants who were randomized and received at least one dose of Study Drug.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to 211 days",
+   "title": "Number of Participants With TEAEs Related to Clinically Significant Vital Sign Findings",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        },
+        {
+         "groupId": "OG002",
+         "value": "0"
+        },
+        {
+         "groupId": "OG003",
+         "value": "0"
+        },
+        {
+         "groupId": "OG004",
+         "value": "0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "12"
+      },
+      {
+       "groupId": "OG001",
+       "value": "12"
+      },
+      {
+       "groupId": "OG002",
+       "value": "11"
+      },
+      {
+       "groupId": "OG003",
+       "value": "2"
+      },
+      {
+       "groupId": "OG004",
+       "value": "6"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Physical examination included weight and body mass index (BMI) recorded throughout the study. Clinical significance was determined by the investigator.",
+   "groups": [
+    {
+     "description": "Participants received placebo by subcutaneous injection (SC) once every 4 weeks for 16 weeks.",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Participants received IONIS GHR-LRx, 60 milligrams (mg), SC, once every 4 weeks for 16 weeks.",
+     "id": "OG001",
+     "title": "Cohort A: IONIS GHR-LRx, 60 mg"
+    },
+    {
+     "description": "Participants received IONIS GHR-LRx, 80 mg, SC, once every 4 weeks for 16 weeks.",
+     "id": "OG002",
+     "title": "Cohort B: IONIS GHR-LRx, 80 mg"
+    },
+    {
+     "description": "Participants received IONIS GHR-LRx, 120 mg, SC, once every 4 weeks for 16 weeks.",
+     "id": "OG003",
+     "title": "Cohort C: IONIS GHR-LRx, 120 mg"
+    },
+    {
+     "description": "Participants received IONIS GHR-LRx, 160 mg, SC, once every 4 weeks for 16 weeks.",
+     "id": "OG004",
+     "title": "Cohort D: IONIS GHR-LRx, 160 mg"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "The Safety Set included all participants who were randomized and received at least one dose of Study Drug.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to 211 days",
+   "title": "Number of Participants With TEAEs Related to Clinically Significant Physical Examination Findings",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        },
+        {
+         "groupId": "OG002",
+         "value": "0"
+        },
+        {
+         "groupId": "OG003",
+         "value": "1"
+        },
+        {
+         "groupId": "OG004",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Blood urine present"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "1"
+        },
+        {
+         "groupId": "OG002",
+         "value": "0"
+        },
+        {
+         "groupId": "OG003",
+         "value": "0"
+        },
+        {
+         "groupId": "OG004",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Mean cell volume increased"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        },
+        {
+         "groupId": "OG002",
+         "value": "1"
+        },
+        {
+         "groupId": "OG003",
+         "value": "0"
+        },
+        {
+         "groupId": "OG004",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Urine protein/creatinine ratio increased"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        },
+        {
+         "groupId": "OG002",
+         "value": "0"
+        },
+        {
+         "groupId": "OG003",
+         "value": "1"
+        },
+        {
+         "groupId": "OG004",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Hyperglycaemia"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "12"
+      },
+      {
+       "groupId": "OG001",
+       "value": "12"
+      },
+      {
+       "groupId": "OG002",
+       "value": "11"
+      },
+      {
+       "groupId": "OG003",
+       "value": "2"
+      },
+      {
+       "groupId": "OG004",
+       "value": "6"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Clinical laboratory assessments included clinical chemistry, hematology, and urinalysis. Clinically-significant abnormal laboratory values were reported as TEAEs if the results may, in the opinion of the Investigator, constitute or be associated with an AE.",
+   "groups": [
+    {
+     "description": "Participants received placebo by subcutaneous injection (SC) once every 4 weeks for 16 weeks.",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Participants received IONIS GHR-LRx, 60 milligrams (mg), SC, once every 4 weeks for 16 weeks.",
+     "id": "OG001",
+     "title": "Cohort A: IONIS GHR-LRx, 60 mg"
+    },
+    {
+     "description": "Participants received IONIS GHR-LRx, 80 mg, SC, once every 4 weeks for 16 weeks.",
+     "id": "OG002",
+     "title": "Cohort B: IONIS GHR-LRx, 80 mg"
+    },
+    {
+     "description": "Participants received IONIS GHR-LRx, 120 mg, SC, once every 4 weeks for 16 weeks.",
+     "id": "OG003",
+     "title": "Cohort C: IONIS GHR-LRx, 120 mg"
+    },
+    {
+     "description": "Participants received IONIS GHR-LRx, 160 mg, SC, once every 4 weeks for 16 weeks.",
+     "id": "OG004",
+     "title": "Cohort D: IONIS GHR-LRx, 160 mg"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "The Safety Set included all participants who were randomized and received at least one dose of Study Drug.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to 211 days",
+   "title": "Number of Participants With TEAEs Related to Clinically Significant Laboratory Evaluation Findings",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "2"
+        },
+        {
+         "groupId": "OG001",
+         "value": "2"
+        },
+        {
+         "groupId": "OG002",
+         "value": "1"
+        },
+        {
+         "groupId": "OG003",
+         "value": "1"
+        },
+        {
+         "groupId": "OG004",
+         "value": "0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "12"
+      },
+      {
+       "groupId": "OG001",
+       "value": "12"
+      },
+      {
+       "groupId": "OG002",
+       "value": "11"
+      },
+      {
+       "groupId": "OG003",
+       "value": "2"
+      },
+      {
+       "groupId": "OG004",
+       "value": "6"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "ECG assessments included QT, QRS duration, PR interval, ventricular rate, QTcB, QTcF.",
+   "groups": [
+    {
+     "description": "Participants received placebo by subcutaneous injection (SC) once every 4 weeks for 16 weeks.",
+     "id": "OG000",
+     "title": "Placebo"
+    },
+    {
+     "description": "Participants received IONIS GHR-LRx, 60 milligrams (mg), SC, once every 4 weeks for 16 weeks.",
+     "id": "OG001",
+     "title": "Cohort A: IONIS GHR-LRx, 60 mg"
+    },
+    {
+     "description": "Participants received IONIS GHR-LRx, 80 mg, SC, once every 4 weeks for 16 weeks.",
+     "id": "OG002",
+     "title": "Cohort B: IONIS GHR-LRx, 80 mg"
+    },
+    {
+     "description": "Participants received IONIS GHR-LRx, 120 mg, SC, once every 4 weeks for 16 weeks.",
+     "id": "OG003",
+     "title": "Cohort C: IONIS GHR-LRx, 120 mg"
+    },
+    {
+     "description": "Participants received IONIS GHR-LRx, 160 mg, SC, once every 4 weeks for 16 weeks.",
+     "id": "OG004",
+     "title": "Cohort D: IONIS GHR-LRx, 160 mg"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "The Safety Set included all participants who were randomized and received at least one dose of Study Drug.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Up to 211 days",
+   "title": "Number of Participants With TEAEs Related to Clinically Significant Electrocardiogram (ECG) Findings",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

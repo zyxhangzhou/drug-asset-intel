@@ -1,0 +1,1094 @@
+{
+ "nctId": "NCT01886378",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-155.66",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "1002.85",
+     "estimateComment": "LS Mean, 95% confidence interval (CI), and p-values are based on the GEE model.",
+     "groupIds": [
+      "OG000"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.1518",
+     "pValueComment": "The GEE model included the change from Baseline for each parameter as the dependent variable, time as the categorical variable, and adjusted for Baseline measurement with compound symmetry covariance structure.",
+     "paramType": "Least squares (LS) mean",
+     "paramValue": "423.594",
+     "statisticalMethod": "GEE model"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "295.54",
+         "value": "423.594"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "7"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "To evaluate the impact 24 weeks of treatment with UX007 has on exercise intolerance, the change from Baseline in time adjusted-AUC (AUC/time) for workload during 40-minute cycle ergometry tests at Week 24 were assessed using the generalized estimation equation (GEE) model. A cycle ergometer can measure the work performed by an individual over time during physical exercise, the work was measured every 10 minutes from 0 to 40 minutes at Baseline and Week 24. The GEE model included the change from Baseline as the dependent variable, time as the categorical variable, and adjusted for Baseline measurement with compound symmetry covariance structure. An increase in AUC is reflective of improved exercise tolerance; a negative change from Baseline indicates worsening.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "UX007 dosing was titrated to a target dose of 25-35% of total caloric intake or maximum tolerated dose. Participants were followed to evaluate the effects of UX007 over 24 weeks (Treatment Period), then continued treatment in the Extension Period for an additional 54 weeks for a total of 78 weeks of treatment.",
+     "id": "OG000",
+     "title": "UX007"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Primary Analysis Set - Cycle Ergometry: the subset of participants in the primary analysis set (all enrolled participants who completed the 4 week Run-in Period and received at least one dose of UX007) who had at least one cycle ergometry test performed with any duration.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Week 24",
+   "title": "Change From Baseline in Time Adjusted-Area Under the Curve (AUC/Time) for Workload During Cycle Ergometry at Week 24",
+   "type": "PRIMARY",
+   "unitOfMeasure": "watts"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-0.04",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.01",
+     "estimateComment": "LS Mean, 95% CI, and p-values are based on the GEE model.",
+     "groupIds": [
+      "OG000"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.3964",
+     "pValueComment": "The GEE model included the change from Baseline for each parameter as the dependent variable, time as the categorical variable, and adjusted for Baseline measurement with compound symmetry covariance structure.",
+     "paramType": "LS mean",
+     "paramValue": "-0.011",
+     "statisticalMethod": "GEE model"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.0132",
+         "value": "-0.011"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "7"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Change from baseline in time-adjusted-AUC for respiratory exchange ratio (RER) during cycle ergometry at Week 24, assessed using the GEE model, which included change from baseline as dependent variable, time as categorical variable, and adjusted for baseline measurement with compound symmetry covariance structure.\n\nRER during exercise is calculated as volume of carbon dioxide/volume of oxygen. RER measures whether carbohydrates or fats are being used as fuel. RER ≥1.0 indicates carbohydrates are the predominate fuel source. RER \\<1.0 and RER \\>0.70 indicates both fats and carbohydrates are the predominate fuel source. RER approximately =0.70 means fat is the predominant fuel source. RER would be expected to be lower, at similar exercise intensities, if a participant is able to utilize fat as an energy source. Therefore, an increase in RER (positive change from baseline) would suggest participants are still utilizing carbohydrates rather than fat, reflective a physiological response.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "UX007 dosing was titrated to a target dose of 25-35% of total caloric intake or maximum tolerated dose. Participants were followed to evaluate the effects of UX007 over 24 weeks (Treatment Period), then continued treatment in the Extension Period for an additional 54 weeks for a total of 78 weeks of treatment.",
+     "id": "OG000",
+     "title": "UX007"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Primary Analysis Set - Cycle Ergometry: the subset of participants in the primary analysis set (all enrolled participants who completed the 4 week Run-in Period and received at least one dose of UX007) who had at least one cycle ergometry test performed with any duration.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Week 24",
+   "title": "Change From Baseline in Time-Adjusted-AUC for Respiratory Exchange Ratio (RER) During Cycle Ergometry at Week 24",
+   "type": "PRIMARY",
+   "unitOfMeasure": "respiratory exchange ratio"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-0.52",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "9.86",
+     "estimateComment": "LS Mean, 95% CI, and p-values are based on the GEE model.",
+     "groupIds": [
+      "OG000"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0777",
+     "pValueComment": "The GEE model included the change from Baseline for each parameter as the dependent variable, time as the categorical variable, and adjusted for Baseline measurement with compound symmetry covariance structure.",
+     "paramType": "LS mean",
+     "paramValue": "4.671",
+     "statisticalMethod": "GEE model"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "2.65",
+         "value": "4.671"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "7"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "To evaluate the impact of 24 weeks of treatment with UX007 on exercise intolerance, the change from Baseline in actual duration of exercise during 40-minute cycle ergometry tests at Week 24 was assessed using the GEE model. The GEE model included the change from Baseline as the dependent variable, time as the categorical variable, and adjusted for Baseline measurement with compound symmetry covariance structure. Duration of exercise is expected to increase as exercise tolerance improves.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "UX007 dosing was titrated to a target dose of 25-35% of total caloric intake or maximum tolerated dose. Participants were followed to evaluate the effects of UX007 over 24 weeks (Treatment Period), then continued treatment in the Extension Period for an additional 54 weeks for a total of 78 weeks of treatment.",
+     "id": "OG000",
+     "title": "UX007"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Primary Analysis Set - Cycle Ergometry: the subset of participants in the primary analysis set (all enrolled participants who completed the 4 week Run-in Period and received at least one dose of UX007) who had at least one cycle ergometry test performed with any duration.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Week 24",
+   "title": "Change From Baseline in Actual Duration of Exercise During Cycle Ergometry at Week 24",
+   "type": "PRIMARY",
+   "unitOfMeasure": "minutes"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-23.70",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "386.45",
+     "estimateComment": "LS Mean, 95% CI, and p-values are based on the GEE model.",
+     "groupIds": [
+      "OG000"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0830",
+     "pValueComment": "The GEE model included the change from Baseline for each parameter as the dependent variable, time as the categorical variable, and adjusted for Baseline measurement with compound symmetry covariance structure.",
+     "paramType": "LS mean",
+     "paramValue": "181.37",
+     "statisticalMethod": "GEE model"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "104.63",
+         "value": "181.37"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "8"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "To evaluate the impact 18 weeks of treatment with UX007 has on muscle function, the change from Baseline in distance traveled during a 12MWT at Week 18 was assessed using the GEE model. The GEE model included the change from Baseline as the dependent variable, time as the categorical variable, and adjusted for Baseline measurement with compound symmetry covariance structure. Distance traveled during the 12MWT is expected to increase as muscle function increases.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "UX007 dosing was titrated to a target dose of 25-35% of total caloric intake or maximum tolerated dose. Participants were followed to evaluate the effects of UX007 over 24 weeks (Treatment Period), then continued treatment in the Extension Period for an additional 54 weeks for a total of 78 weeks of treatment.",
+     "id": "OG000",
+     "title": "UX007"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Primary Analysis Set - 12MWT: the subset of participants in the primary analysis set (all enrolled participants who completed the 4 week Run-in Period and received at least one dose of UX007) who had at least one 12MWT performed with any distance walked.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline (last assessment during the 4-week run-in period), Week 18",
+   "title": "Change From Baseline in Distance Traveled During the 12-Minute Walk Test (12MWT) at Week 18",
+   "type": "PRIMARY",
+   "unitOfMeasure": "meters"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-0.35",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-0.02",
+     "estimateComment": "LS Mean, 95% CI, and p-values are based on the GEE model.",
+     "groupIds": [
+      "OG000"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0320",
+     "pValueComment": "The GEE model included the change from Baseline for each parameter as the dependent variable, time as the categorical variable, and adjusted for Baseline measurement with compound symmetry covariance structure.",
+     "paramType": "LS mean",
+     "paramValue": "-0.185",
+     "statisticalMethod": "GEE model"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.09",
+         "value": "-0.185"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "8"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "To evaluate the impact 18 weeks of treatment with UX007 has on muscle function, the change from Baseline of EEI during the 12MWT at Week 18 was assessed using the GEE model. The GEE model included the change from Baseline as the dependent variable, time as the categorical variable, and adjusted for Baseline measurement with compound symmetry covariance structure. EEI is quantified as the post-test heart rate minus the pre-test heart rate (in beats/min) divided by overall velocity, and is valued in beats/meter. A decrease in EEI when walking a similar distance or no change when walking longer distances, may indicate improved exercise tolerance.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "UX007 dosing was titrated to a target dose of 25-35% of total caloric intake or maximum tolerated dose. Participants were followed to evaluate the effects of UX007 over 24 weeks (Treatment Period), then continued treatment in the Extension Period for an additional 54 weeks for a total of 78 weeks of treatment.",
+     "id": "OG000",
+     "title": "UX007"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Primary Analysis Set - 12MWT: the subset of participants in the primary analysis set (all enrolled participants who completed the 4 week Run-in Period and received at least one dose of UX007) who had at least one 12MWT performed with any distance walked.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline (last assessment during the 4-week run-in period), Week 18",
+   "title": "Change From Baseline in Energy Expenditure Index (EEI) During the 12MWT at Week 18",
+   "type": "PRIMARY",
+   "unitOfMeasure": "beats/meter"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-1.72",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "26.60",
+     "estimateComment": "LS Mean, 95% CI, and p-values are based on the GEE model.",
+     "groupIds": [
+      "OG000"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0850",
+     "pValueComment": "The GEE model included the change from Baseline for each parameter as the dependent variable, time as the categorical variable, and adjusted for Baseline measurement with compound symmetry covariance structure.",
+     "paramType": "LS mean",
+     "paramValue": "12.44",
+     "statisticalMethod": "GEE model"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "7.22",
+         "value": "12.44"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "8"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "To evaluate the impact 18 weeks of treatment with UX007 has on muscle function, the change from Baseline in the percentage of the predicted distance traveled during the first 6 minutes (6MWT) of the 12MWT at Week 18 was assessed using the GEE model. A participant's mathematical formula to calculate their percent predicted (PP) distance walked in the 6MWT was based on their demographics at baseline. For participants \\< 20 years old, the formula used was referenced from (Gieger, et. al. 2007) which calculated PP distance walked based on age, gender, and height. For participants \\>= 20 years old, the formula used was referenced from (Gibbons, et. al. 2001) and calculated the PP distance walked based on age and gender.\n\nThe GEE model included the change from Baseline as the dependent variable, time as the categorical variable, and adjusted for Baseline measurement with compound symmetry covariance structure. Percent predicted values are expected to increase as muscle function increases.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "UX007 dosing was titrated to a target dose of 25-35% of total caloric intake or maximum tolerated dose. Participants were followed to evaluate the effects of UX007 over 24 weeks (Treatment Period), then continued treatment in the Extension Period for an additional 54 weeks for a total of 78 weeks of treatment.",
+     "id": "OG000",
+     "title": "UX007"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Primary Analysis Set - 12MWT: the subset of participants in the primary analysis set (all enrolled participants who completed the 4 week Run-in Period and received at least one dose of UX007) who had at least one 12MWT performed with any distance walked.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline (last assessment during the 4-week run-in period), Week 18",
+   "title": "Change From Baseline in Percentage of the Predicted 6-Minute Walk Test (6MWT) Distance Walked at Week 18",
+   "type": "PRIMARY",
+   "unitOfMeasure": "% of predicted distance (in meters)"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-2.62",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "6.94",
+     "groupIds": [
+      "OG000"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.3754",
+     "pValueComment": "The LS Mean, standard error (SE), 95% CI, and 2-sided p-value are from the GEE model.",
+     "paramType": "LS mean",
+     "paramValue": "2.16",
+     "statisticalMethod": "GEE model"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "2.16",
+         "value": "2.16"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "5"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "To evaluate the impact treatment with UX007 has on functional disability and health in participants between 5 and 17 years of age, change from Baseline in the T-scores of the PHS-10 were assessed at Week 24 and analyzed using the GEE model. The GEE model included the change from Baseline as the dependent variable, time as the categorical variable, and adjusted for Baseline measurement with compound symmetry covariance structure.\n\nThe SF-10 Health Survey for Children is a 10-item caregiver-completed assessment designed to measure children's health-related quality of life. The PHS-10 of the SF-10 is scored such that higher scores indicate more favorable functioning. The T-score based scoring signifies that scale scores are centered so that a score of 50 corresponds to the average score in a comprehensive sample of US population (scale scores are standardized to a mean of 50 and a standard deviation of 10).",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "UX007 dosing was titrated to a target dose of 25-35% of total caloric intake or maximum tolerated dose. Participants were followed to evaluate the effects of UX007 over 24 weeks (Treatment Period), then continued treatment in the Extension Period for an additional 54 weeks for a total of 78 weeks of treatment.",
+     "id": "OG000",
+     "title": "UX007"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Primary Analysis Set - SF-10: the subset of participants in the primary analysis set (all enrolled participants who completed the 4 week Run-in Period and received at least one dose of UX007) who had at least one SF-10 test performed.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Week 24",
+   "title": "Change From Baseline in Physical Summary Score (PHS-10) of the Short Form 10 (SF-10) at Week 24",
+   "type": "PRIMARY",
+   "unitOfMeasure": "T-score"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-4.34",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "5.97",
+     "groupIds": [
+      "OG000"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.7564",
+     "pValueComment": "The LS Mean, SE, 95% CI, and 2-sided p-value are from the GEE model.",
+     "paramType": "LS mean",
+     "paramValue": "0.816",
+     "statisticalMethod": "GEE model"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "2.63",
+         "value": "0.816"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "5"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "To evaluate the impact treatment with UX007 has on functional disability and health in participants between 5 and 17 years of age, changes from Baseline in the T-scores of the PSS-10 were assessed at Week 24 and analyzed using the GEE model. The GEE model included the change from Baseline as the dependent variable, time as the categorical variable, and adjusted for Baseline measurement with compound symmetry covariance structure.\n\nThe PSS-10 of the SF-10 is scored such that higher scores indicate more favorable functioning. The T-score based scoring signifies that scale scores are centered so that a score of 50 corresponds to the average score in a comprehensive sample of US population (scale scores are standardized to a mean of 50 and a standard deviation of 10). Lower numbers indicate values lower than the mean and higher numbers indicate values higher than the mean. Higher values are indicative of more favorable functioning/better health.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "UX007 dosing was titrated to a target dose of 25-35% of total caloric intake or maximum tolerated dose. Participants were followed to evaluate the effects of UX007 over 24 weeks (Treatment Period), then continued treatment in the Extension Period for an additional 54 weeks for a total of 78 weeks of treatment.",
+     "id": "OG000",
+     "title": "UX007"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Primary Analysis Set - SF-10: the subset of participants in the primary analysis set (all enrolled participants who completed the 4 week Run-in Period and received at least one dose of UX007) who had at least one SF-10 test performed.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Week 24",
+   "title": "Change From Baseline in Psychosocial Summary Score (PSS-10) of the SF10 at Week 24",
+   "type": "PRIMARY",
+   "unitOfMeasure": "T-score"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "5.67",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "12.08",
+     "groupIds": [
+      "OG000"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "<0.0001",
+     "pValueComment": "The GEE model included the change from Baseline for each parameter as the dependent variable, time as the categorical variable, and adjusted for Baseline measurement with compound symmetry covariance structure.",
+     "paramType": "LS mean",
+     "paramValue": "8.88",
+     "statisticalMethod": "GEE model"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "1.63",
+         "value": "8.88"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "5"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Changes from baseline in T-scores as assessed by the PCS-12 Short-Form Health Survey, version 2 (SF-12v2) at Week 24 were assessed using the GEE model, which included the change from Baseline as the dependent variable, time as the categorical variable, and adjusted for Baseline measurement with compound symmetry covariance structure.\n\nPCS-12 scores were calculated from the individual responses to those questions that contribute to physical health. Raw scores range from 0 to 100 with higher scores indicating better health. The T-score based scoring signifies that scale scores are centered so that a score of 50 corresponds to the average score in the US general population (scale scores are standardized to a mean of 50 and a standard deviation of 10). Lower numbers indicate values lower than the mean and higher numbers indicate values higher than the mean. Higher values are indicative of more favorable functioning/better health.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "UX007 dosing was titrated to a target dose of 25-35% of total caloric intake or maximum tolerated dose. Participants were followed to evaluate the effects of UX007 over 24 weeks (Treatment Period), then continued treatment in the Extension Period for an additional 54 weeks for a total of 78 weeks of treatment.",
+     "id": "OG000",
+     "title": "UX007"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Primary Analysis Set - SF-12: the subset of participants in the primary analysis set (those who completed the 4-week run-in period and received at least one dose of UX007) who had at least one SF-12 test performed.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Week 24",
+   "title": "Change From Baseline in the Physical Component Summary Scale (PCS-12) at Week 24",
+   "type": "PRIMARY",
+   "unitOfMeasure": "T-score"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "1.87",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "17.54",
+     "estimateComment": "LS Mean, 95% CI, and p-values are based on the GEE model.",
+     "groupIds": [
+      "OG000"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.0152",
+     "pValueComment": "The GEE model included the change from Baseline for each parameter as the dependent variable, time as the categorical variable, and adjusted for Baseline measurement with compound symmetry covariance structure.",
+     "paramType": "LS mean",
+     "paramValue": "9.70",
+     "statisticalMethod": "GEE model"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "4.0",
+         "value": "9.7"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "5"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Changes from baseline of T-scores as assessed by the MCS-12 of the SF-12v2 at Week 24 were assessed using the GEE model, which included the change from Baseline as the dependent variable, time as the categorical variable, and adjusted for Baseline measurement with compound symmetry covariance structure.\n\nMCS-12 scores were calculated from the individual responses to those questions that contribute to mental health. Raw scores range from 0 to 100 with higher scores indicating better health. The T-score based scoring signifies that scale scores are centered so that a score of 50 corresponds to the average score in the US general population (scale scores are standardized to a mean of 50 and a standard deviation of 10). Lower numbers indicate values lower than the mean and higher numbers indicate values higher than the mean. Higher values are indicative of more favorable functioning/better health.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "UX007 dosing was titrated to a target dose of 25-35% of total caloric intake or maximum tolerated dose. Participants were followed to evaluate the effects of UX007 over 24 weeks (Treatment Period), then continued treatment in the Extension Period for an additional 54 weeks for a total of 78 weeks of treatment.",
+     "id": "OG000",
+     "title": "UX007"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Primary Analysis Set - SF-12: the subset of participants in the primary analysis set (those who completed the 4-week run-in period and received at least one dose of UX007) who had at least one SF-12 test performed.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Week 24",
+   "title": "Change From Baseline in the Mental Component Summary Scale (MCS-12) at Week 24",
+   "type": "PRIMARY",
+   "unitOfMeasure": "T-score"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "1.6081",
+         "value": "1.69"
+        }
+       ]
+      }
+     ],
+     "title": "Pre-UX007"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "1.142",
+         "value": "0.877"
+        }
+       ]
+      }
+     ],
+     "title": "Post-UX007"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "29"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Major clinical events are defined as adverse events (AEs) resulting in hospitalizations, emergency room (ER) visits, and emergency intervention.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "UX007 dosing was titrated to a target dose of 25-35% of total caloric intake or maximum tolerated dose. Participants were followed to evaluate the effects of UX007 over 24 weeks (Treatment Period), then continued treatment in the Extension Period for an additional 54 weeks for a total of 78 weeks of treatment.",
+     "id": "OG000",
+     "title": "UX007"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Primary Analysis Set: participants who completed the 4-week run-in period and received at least one dose of UX007.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "18 months before and after UX007 initiation",
+   "title": "Annualized Event Rate of All Major Clinical Events Pre- and Post-Treatment With UX007",
+   "type": "PRIMARY",
+   "unitOfMeasure": "events/year"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "6.0783",
+         "value": "5.961"
+        }
+       ]
+      }
+     ],
+     "title": "Pre-UX007"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "3.9733",
+         "value": "2.964"
+        }
+       ]
+      }
+     ],
+     "title": "Post-UX007"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "29"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Major clinical events are defined as AEs resulting in hospitalizations, ER visits, and emergency intervention.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "UX007 dosing was titrated to a target dose of 25-35% of total caloric intake or maximum tolerated dose. Participants were followed to evaluate the effects of UX007 over 24 weeks (Treatment Period), then continued treatment in the Extension Period for an additional 54 weeks for a total of 78 weeks of treatment.",
+     "id": "OG000",
+     "title": "UX007"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Primary Analysis Set: participants who completed the 4-week run-in period and received at least one dose of UX007.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "18 months before and after UX007 initiation",
+   "title": "Annualized Duration Rate of All Major Clinical Events Pre- and Post-Treatment With UX007",
+   "type": "PRIMARY",
+   "unitOfMeasure": "days/year"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "1.5007",
+         "value": "1.303"
+        }
+       ]
+      }
+     ],
+     "title": "Pre-UX007"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "1.1513",
+         "value": "0.833"
+        }
+       ]
+      }
+     ],
+     "title": "Post-UX007"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "29"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Rhabdomyolysis is a condition in which damaged skeletal muscle breaks down rapidly. Major rhabdomyolysis clinical events are defined as those AEs resulting in hospitalizations, ER visits, and emergency intervention.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "UX007 dosing was titrated to a target dose of 25-35% of total caloric intake or maximum tolerated dose. Participants were followed to evaluate the effects of UX007 over 24 weeks (Treatment Period), then continued treatment in the Extension Period for an additional 54 weeks for a total of 78 weeks of treatment.",
+     "id": "OG000",
+     "title": "UX007"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Primary Analysis Set: participants who completed the 4-week run-in period and received at least one dose of UX007.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "18 months before and after UX007 initiation",
+   "title": "Annualized Event Rate of Major Rhabdomyolysis Clinical Events Pre- and Post-Treatment With UX007",
+   "type": "PRIMARY",
+   "unitOfMeasure": "events/year"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "4.3687",
+         "value": "3.949"
+        }
+       ]
+      }
+     ],
+     "title": "Pre-UX007"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "3.8452",
+         "value": "2.792"
+        }
+       ]
+      }
+     ],
+     "title": "Post-UX007"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "29"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Rhabdomyolysis is a condition in which damaged skeletal muscle breaks down rapidly. Major rhabdomyolysis clinical events are defined as those AEs resulting in hospitalizations, ER visits, and emergency intervention.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "UX007 dosing was titrated to a target dose of 25-35% of total caloric intake or maximum tolerated dose. Participants were followed to evaluate the effects of UX007 over 24 weeks (Treatment Period), then continued treatment in the Extension Period for an additional 54 weeks for a total of 78 weeks of treatment.",
+     "id": "OG000",
+     "title": "UX007"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Primary Analysis Set: participants who completed the 4-week run-in period and received at least one dose of UX007.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "18 months before and after UX007 initiation",
+   "title": "Annualized Duration Rate of Major Rhabdomyolysis Clinical Events Pre- and Post-Treatment With UX007",
+   "type": "PRIMARY",
+   "unitOfMeasure": "days/year"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.9053",
+         "value": "0.318"
+        }
+       ]
+      }
+     ],
+     "title": "Pre-UX007"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.1224",
+         "value": "0.023"
+        }
+       ]
+      }
+     ],
+     "title": "Post-UX007"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "29"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Major hypoglycemia clinical events are defined as those AEs resulting in hospitalizations, ER visits, and emergency intervention.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "UX007 dosing was titrated to a target dose of 25-35% of total caloric intake or maximum tolerated dose. Participants were followed to evaluate the effects of UX007 over 24 weeks (Treatment Period), then continued treatment in the Extension Period for an additional 54 weeks for a total of 78 weeks of treatment.",
+     "id": "OG000",
+     "title": "UX007"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Primary Analysis Set: participants who completed the 4-week run-in period and received at least one dose of UX007.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "18 months before and after UX007 initiation",
+   "title": "Annualized Event Rate of Major Hypoglycemia Clinical Events Pre- and Post-Treatment With UX007",
+   "type": "PRIMARY",
+   "unitOfMeasure": "events/year"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "4.3025",
+         "value": "1.414"
+        }
+       ]
+      }
+     ],
+     "title": "Pre-UX007"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.1224",
+         "value": "0.023"
+        }
+       ]
+      }
+     ],
+     "title": "Post-UX007"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "29"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Major hypoglycemia clinical events are defined as those AEs resulting in hospitalizations, ER visits, and emergency intervention.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "UX007 dosing was titrated to a target dose of 25-35% of total caloric intake or maximum tolerated dose. Participants were followed to evaluate the effects of UX007 over 24 weeks (Treatment Period), then continued treatment in the Extension Period for an additional 54 weeks for a total of 78 weeks of treatment.",
+     "id": "OG000",
+     "title": "UX007"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Primary Analysis Set: participants who completed the 4-week run-in period and received at least one dose of UX007.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "18 months before and after UX007 initiation",
+   "title": "Annualized Duration Rate of Major Hypoglycemia Clinical Events Pre- and Post-Treatment With UX007",
+   "type": "PRIMARY",
+   "unitOfMeasure": "days/year"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.2728",
+         "value": "0.069"
+        }
+       ]
+      }
+     ],
+     "title": "Pre-UX007"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.115",
+         "value": "0.021"
+        }
+       ]
+      }
+     ],
+     "title": "Post-UX007"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "29"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Major cardiac clinical events are defined as those AEs resulting in hospitalizations, ER visits, and emergency intervention.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "UX007 dosing was titrated to a target dose of 25-35% of total caloric intake or maximum tolerated dose. Participants were followed to evaluate the effects of UX007 over 24 weeks (Treatment Period), then continued treatment in the Extension Period for an additional 54 weeks for a total of 78 weeks of treatment.",
+     "id": "OG000",
+     "title": "UX007"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Primary Analysis Set: participants who completed the 4-week run-in period and received at least one dose of UX007.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "18 months before and after UX007 initiation",
+   "title": "Annualized Event Rate of Major Cardiac Clinical Events Pre- and Post-Treatment With UX007",
+   "type": "PRIMARY",
+   "unitOfMeasure": "events/year"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "2.4054",
+         "value": "0.598"
+        }
+       ]
+      }
+     ],
+     "title": "Pre-UX007"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.8047",
+         "value": "0.149"
+        }
+       ]
+      }
+     ],
+     "title": "Post-UX007"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "29"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Major cardiac clinical events are defined as those AEs resulting in hospitalizations, ER visits, and emergency intervention.",
+   "dispersionType": "Standard Deviation",
+   "groups": [
+    {
+     "description": "UX007 dosing was titrated to a target dose of 25-35% of total caloric intake or maximum tolerated dose. Participants were followed to evaluate the effects of UX007 over 24 weeks (Treatment Period), then continued treatment in the Extension Period for an additional 54 weeks for a total of 78 weeks of treatment.",
+     "id": "OG000",
+     "title": "UX007"
+    }
+   ],
+   "paramType": "MEAN",
+   "populationDescription": "Primary Analysis Set: participants who completed the 4-week run-in period and received at least one dose of UX007.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "18 months before and after UX007 initiation",
+   "title": "Annualized Duration Rate of Major Cardiac Clinical Events Pre- and Post-Treatment With UX007",
+   "type": "PRIMARY",
+   "unitOfMeasure": "days/year"
+  }
+ ]
+}

@@ -1,0 +1,1306 @@
+{
+ "aliases": [
+  "Tango Therapeutics"
+ ],
+ "studies": [
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants with MTAP-deleted solid tumors will receive escalating doses of TNG908 to estimate the MTD",
+       "interventionNames": [
+        "Drug: TNG908"
+       ],
+       "label": "Dose Escalation",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants with MTAP-deleted NSCLC (squamous and non squamous) will receive TNG908 at the identified RP2D",
+       "interventionNames": [
+        "Drug: TNG908"
+       ],
+       "label": "Dose Expansion in NSCLC",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants with MTAP-deleted mesothelioma will receive TNG908 at the identified RP2D",
+       "interventionNames": [
+        "Drug: TNG908"
+       ],
+       "label": "Dose Expansion in Mesothelioma",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants with MTAP-deleted pancreatic ductal adenocarcinoma will receive TNG908 at the identified RP2D",
+       "interventionNames": [
+        "Drug: TNG908"
+       ],
+       "label": "Dose Expansion in Pancreatic Ductal Adenocarcinoma",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants with MTAP-deleted sarcoma (soft tissue and bone) will receive TNG908 at the identified RP2D",
+       "interventionNames": [
+        "Drug: TNG908"
+       ],
+       "label": "Dose Expansion in Sarcoma",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants with other MTAP-deleted solid tumors will receive TNG908 at the identified RP2D",
+       "interventionNames": [
+        "Drug: TNG908"
+       ],
+       "label": "Dose Expansion in solid tumors",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants with MTAP-deleted relapsed/refractory glioblastoma will receive TNG908 at the identified RP2D",
+       "interventionNames": [
+        "Drug: TNG908"
+       ],
+       "label": "Dose Expansion in Glioblastoma",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Dose Escalation",
+        "Dose Expansion in Glioblastoma",
+        "Dose Expansion in Mesothelioma",
+        "Dose Expansion in NSCLC",
+        "Dose Expansion in Pancreatic Ductal Adenocarcinoma",
+        "Dose Expansion in Sarcoma",
+        "Dose Expansion in solid tumors"
+       ],
+       "description": "TNG908, a selective PRMT5 inhibitor, will be administered orally",
+       "name": "TNG908",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Locally Advanced Solid Tumor"
+     ],
+     "keywords": [
+      "MTAP deletion",
+      "PRMT5",
+      "cholangiocarcinoma",
+      "NSCLC",
+      "mesothelioma",
+      "MPNST",
+      "Tango",
+      "Glioblastoma multiforme",
+      "pancreatic",
+      "GBM",
+      "sarcoma"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "interventionModelDescription": "Phase 1 dose escalation (sequential) followed by phase 2 dose expansion in 6 arms (parallel)",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 110,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Safety and Tolerability of TNG908 in Patients With MTAP-deleted Solid Tumors",
+     "nctId": "NCT05275478",
+     "officialTitle": "A Phase 1/2, Multi-Center, Open-Label Study to Evaluate the Safety, Tolerability, and Preliminary Anti-tumor Activity of TNG908 in Patients With MTAP-deleted Advanced or Metastatic Solid Tumors",
+     "orgStudyIdInfo": {
+      "id": "TNG908-C101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Tango Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Tango Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2025-12-30",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-04-15",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-04-10",
+     "overallStatus": "TERMINATED",
+     "primaryCompletionDateStruct": {
+      "date": "2025-12-30",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2022-03-23",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-04",
+     "studyFirstPostDateStruct": {
+      "date": "2022-03-11",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2022-02-18",
+     "studyFirstSubmitQcDate": "2022-03-01",
+     "whyStopped": "Sponsor Decision - Business Decisions"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants with MTAP-deleted solid tumors (excluding primary CNS) will receive escalating doses of TNG462 single agent and in combination with pembrolizumab to estimate the MTD",
+       "interventionNames": [
+        "Drug: TNG462",
+        "Drug: Pembrolizumab"
+       ],
+       "label": "Dose Escalation",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants with MTAP-deleted NSCLC (squamous and non squamous) will receive TNG462 at the identified RP2D(s)",
+       "interventionNames": [
+        "Drug: TNG462"
+       ],
+       "label": "Dose Expansion in NSCLC",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants with MTAP-deleted mesothelioma will receive TNG462 at the identified RP2D(s)",
+       "interventionNames": [
+        "Drug: TNG462"
+       ],
+       "label": "Dose Expansion in Mesothelioma",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants with MTAP-deleted pancreatic ductal adenocarcinoma will receive TNG462 at the identified RP2D(s)",
+       "interventionNames": [
+        "Drug: TNG462"
+       ],
+       "label": "Dose Expansion in Pancreatic Ductal Adenocarcinoma",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants with MTAP-deleted sarcoma (soft tissue or bone) will receive TNG462 at the identified RP2D(s)",
+       "interventionNames": [
+        "Drug: TNG462"
+       ],
+       "label": "Dose Expansion in Sarcoma",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants with other MTAP-deleted solid tumors will receive TNG462 at the identified RP2D(s)",
+       "interventionNames": [
+        "Drug: TNG462"
+       ],
+       "label": "Dose Expansion in Solid Tumors",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants NSCLC (squamous and non squamous) MTAP-deleted solid tumors will receive TNG462 at the identified RP2D(s)",
+       "interventionNames": [
+        "Drug: TNG462",
+        "Drug: Pembrolizumab"
+       ],
+       "label": "Dose Expansion in NSCLC in Combination with Pembrolizumab",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Dose Escalation",
+        "Dose Expansion in Mesothelioma",
+        "Dose Expansion in NSCLC",
+        "Dose Expansion in NSCLC in Combination with Pembrolizumab",
+        "Dose Expansion in Pancreatic Ductal Adenocarcinoma",
+        "Dose Expansion in Sarcoma",
+        "Dose Expansion in Solid Tumors"
+       ],
+       "description": "TNG462, a selective PRMT5 inhibitor, will be administered orally",
+       "name": "TNG462",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Dose Escalation",
+        "Dose Expansion in NSCLC in Combination with Pembrolizumab"
+       ],
+       "description": "An anti PD-1 antibody, will be administered intravenously",
+       "name": "Pembrolizumab",
+       "otherNames": [
+        "Keytruda"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Locally Advanced Solid Tumor"
+     ],
+     "keywords": [
+      "MTAP deletion",
+      "PRMT5",
+      "cholangiocarcinoma",
+      "NSCLC",
+      "mesothelioma",
+      "MPNST",
+      "Tango",
+      "pancreatic",
+      "sarcoma",
+      "urothelial",
+      "gallbladder",
+      "liver",
+      "renal",
+      "breast"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "interventionModelDescription": "Phase 1 dose escalation (sequential) followed by phase 2 dose expansion in 5 arms (parallel)",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 225,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Safety and Tolerability of TNG462 in Patients With MTAP-deleted Solid Tumors",
+     "nctId": "NCT05732831",
+     "officialTitle": "A Phase 1/2, Multi-Center, Open-Label Study to Evaluate the Safety, Tolerability, and Preliminary Anti-tumor Activity of TNG462 as a Single Agent and in Combination in Patients With MTAP-deleted Advanced or Metastatic Solid Tumors",
+     "orgStudyIdInfo": {
+      "id": "TNG462-C101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Tango Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Tango Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2028-06",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-09-08",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-09-04",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-06",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2023-05-26",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-09",
+     "studyFirstPostDateStruct": {
+      "date": "2023-02-17",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2023-01-30",
+     "studyFirstSubmitQcDate": "2023-02-07"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants with STK11-mutant solid tumors will receive escalating doses of TNG260 in combination with pembrolizumab to estimate the MTD",
+       "interventionNames": [
+        "Drug: TNG260",
+        "Drug: Pembrolizumab"
+       ],
+       "label": "Dose Escalation",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants with STK11-mutant and KRAS-mutant NSCLC (squamous and non squamous) will receive TNG260 at the identified RP2D in combination with pembrolizumab",
+       "interventionNames": [
+        "Drug: TNG260",
+        "Drug: Pembrolizumab"
+       ],
+       "label": "Dose Expansion in NSCLC with KRAS Mutation",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants with STK11-mutant and KRAS-wild type NSCLC (squamous and non-squamous) will receive TNG260 at the identified RP2D in combination with pembrolizumab",
+       "interventionNames": [
+        "Drug: TNG260",
+        "Drug: Pembrolizumab"
+       ],
+       "label": "Dose Expansion in NSCLC with KRAS Wild type",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants with STK11-mutant solid tumors (including but not limited to pancreatic, endometrial, cervical, breast, and carcinoma of unknown primary) will receive TNG260 at the identified RP2D in combination with pembrolizumab",
+       "interventionNames": [
+        "Drug: TNG260",
+        "Drug: Pembrolizumab"
+       ],
+       "label": "Dose Expansion in Advanced or Metastatic Solid Tumors",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Dose Escalation",
+        "Dose Expansion in Advanced or Metastatic Solid Tumors",
+        "Dose Expansion in NSCLC with KRAS Mutation",
+        "Dose Expansion in NSCLC with KRAS Wild type"
+       ],
+       "description": "CoREST inhibitor, administered orally",
+       "name": "TNG260",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Dose Escalation",
+        "Dose Expansion in Advanced or Metastatic Solid Tumors",
+        "Dose Expansion in NSCLC with KRAS Mutation",
+        "Dose Expansion in NSCLC with KRAS Wild type"
+       ],
+       "description": "Pembrolizumab, an anti-PD-1 antibody, administered intravenously",
+       "name": "Pembrolizumab",
+       "otherNames": [
+        "Keytruda"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Non Small Cell Lung Cancer",
+      "Solid Tumors, Adult",
+      "Lung Cancer",
+      "Lung Adenocarcinoma"
+     ],
+     "keywords": [
+      "STK11",
+      "KRAS wild type",
+      "LKB1"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "interventionModelDescription": "Phase 1 (Dose Escalation) and Phase 2 (Dose Expansion)",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 126,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Study of TNG260 and an Anti-PD Antibody in STK11 Mutated Solid Tumors",
+     "nctId": "NCT05887492",
+     "officialTitle": "A Phase 1/2, Open-Label Study to Evaluate the Safety, Tolerability, Pharmacokinetics and Efficacy of TNG260 as Single Agent and in Combination With an Anti-PD-1 Antibody In Patients With STK11 Mutated Advanced Solid Tumors",
+     "orgStudyIdInfo": {
+      "id": "TNG260-C101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Tango Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Tango Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2026-09",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-07-06",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-07-01",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2026-09",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2023-06-12",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-07",
+     "studyFirstPostDateStruct": {
+      "date": "2023-06-02",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2023-04-18",
+     "studyFirstSubmitQcDate": "2023-05-24"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants with BRCA 1/2 mutant or HRD+ solid tumors will receive escalating doses of TNG348 to estimate the MTD",
+       "interventionNames": [
+        "Drug: TNG348"
+       ],
+       "label": "Single Agent Dose Escalation",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants with BRCA 1/2 mutant or HRD+ solid tumors will receive escalating doses of TNG348 in combination with olaparib to estimate the MTD",
+       "interventionNames": [
+        "Drug: TNG348",
+        "Drug: Olaparib"
+       ],
+       "label": "Combination Dose Escalation",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants with BRCA 1/2 mutant breast cancer will receive TNG348 at the identified RP2D",
+       "interventionNames": [
+        "Drug: TNG348"
+       ],
+       "label": "Single agent dose expansion in breast cancer",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants with BRCA 1/2 mutant ovarian cancer will receive TNG348 at the identified RP2D",
+       "interventionNames": [
+        "Drug: TNG348"
+       ],
+       "label": "Single agent dose expansion in ovarian cancer",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants with BRCA 1/2 mutant breast cancer will receive TNG348 in combination with olaparib at the identified RP2D",
+       "interventionNames": [
+        "Drug: TNG348",
+        "Drug: Olaparib"
+       ],
+       "label": "Combination therapy dose expansion in breast cancer",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants with BRCA 1/2 mutant ovarian cancer will receive TNG348 in combination with olaparib at the identified RP2D",
+       "interventionNames": [
+        "Drug: TNG348",
+        "Drug: Olaparib"
+       ],
+       "label": "Combination therapy dose expansion in ovarian cancer",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants with BRCA 1/2 mutant pancreatic or prostate cancer will receive TNG348 in combination with olaparib at the identified RP2D",
+       "interventionNames": [
+        "Drug: TNG348",
+        "Drug: Olaparib"
+       ],
+       "label": "Combination therapy dose expansion in pancreatic or prostate cancer",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants with HRD+ advanced or metastatic solid tumors will receive TNG348 in combination with olaparib at the identified RP2D",
+       "interventionNames": [
+        "Drug: TNG348",
+        "Drug: Olaparib"
+       ],
+       "label": "Combination therapy dose expansion in HRD+ advanced or metastatic solid tumors",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Combination Dose Escalation",
+        "Combination therapy dose expansion in HRD+ advanced or metastatic solid tumors",
+        "Combination therapy dose expansion in breast cancer",
+        "Combination therapy dose expansion in ovarian cancer",
+        "Combination therapy dose expansion in pancreatic or prostate cancer",
+        "Single Agent Dose Escalation",
+        "Single agent dose expansion in breast cancer",
+        "Single agent dose expansion in ovarian cancer"
+       ],
+       "description": "Ubiquitin Specific Peptidase 1 (USP1) inhibitor",
+       "name": "TNG348",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Combination Dose Escalation",
+        "Combination therapy dose expansion in HRD+ advanced or metastatic solid tumors",
+        "Combination therapy dose expansion in breast cancer",
+        "Combination therapy dose expansion in ovarian cancer",
+        "Combination therapy dose expansion in pancreatic or prostate cancer"
+       ],
+       "description": "PARP inhibitor",
+       "name": "Olaparib",
+       "otherNames": [
+        "Lynparza"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Breast Cancer",
+      "Ovarian Cancer",
+      "Pancreas Cancer",
+      "Prostate Cancer",
+      "BRCA1 Mutation",
+      "BRCA-Mutated Ovarian Carcinoma",
+      "BRCA-Associated Breast Carcinoma",
+      "HRD Positive Advanced Ovarian Cancer"
+     ],
+     "keywords": [
+      "BRCA mutant",
+      "HRD positive",
+      "solid tumors",
+      "USP1",
+      "TNG348"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "interventionModelDescription": "Phase 1 Dose Escalation and Phase 2 Dose Expansion",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 7,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Study to Evaluate TNG348 Alone and With a PARP Inhibitor in Patients With BRCA 1/2 Mutant or HRD+ Solid Tumors",
+     "nctId": "NCT06065059",
+     "officialTitle": "Phase 1/2, Multi-Center, Open-Label Study to Evaluate the Safety, Tolerability, and Preliminary Antitumor Activity of TNG348 Single Agent and in Combination With a PARP Inhibitor in Patients With BRCA 1/2 Mutant or Other HRD+ Solid Tumors",
+     "orgStudyIdInfo": {
+      "id": "TNG348-C101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Tango Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Tango Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2024-05-22",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2024-08-13",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2024-08-12",
+     "overallStatus": "TERMINATED",
+     "primaryCompletionDateStruct": {
+      "date": "2024-05-22",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2023-12-08",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2024-08",
+     "studyFirstPostDateStruct": {
+      "date": "2023-10-03",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2023-09-15",
+     "studyFirstSubmitQcDate": "2023-09-26",
+     "whyStopped": "Terminated due to safety"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Solid tumor participants with confirmed MTAP loss will receive escalating doses of TNG456 single agent and in combination with abemaciclib to estimate the MTD",
+       "interventionNames": [
+        "Drug: TNG456",
+        "Drug: abemaciclib"
+       ],
+       "label": "Single Agent and Combination Dose Escalation",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "NSCLC (squamous and non squamous) participants with confirmed MTAP loss will receive TNG456 at the identified RP2D(s)",
+       "interventionNames": [
+        "Drug: TNG456"
+       ],
+       "label": "NSCLC Single Agent Dose Expansion",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "GBM participants with confirmed MTAP loss will receive TNG456 at the identified RP2D(s)",
+       "interventionNames": [
+        "Drug: TNG456"
+       ],
+       "label": "GBM Single Agent Dose Expansion",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Patients with specific solid tumor types that have a confirmed MTAP loss will receive TNG456 at the identified RP2D(s)",
+       "interventionNames": [
+        "Drug: TNG456"
+       ],
+       "label": "Tumor Agnostic Single Agent Dose Expansion",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "NSCLC (squamous and non-squamous) participants with confirmed MTAP loss will receive TNG456 at the identified RP2D(s) with abemaciclib",
+       "interventionNames": [
+        "Drug: TNG456",
+        "Drug: abemaciclib"
+       ],
+       "label": "NSCLC Combination Expansion",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "GBM participants with confirmed MTAP loss will receive TNG456 at the identified RP2D(s) with abemaciclib",
+       "interventionNames": [
+        "Drug: TNG456",
+        "Drug: abemaciclib"
+       ],
+       "label": "GBM Combination Expansion",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants with specific tumor types with confirmed MTAP loss will receive TNG456 at the identified RP2D(s) with abemaciclib",
+       "interventionNames": [
+        "Drug: TNG456",
+        "Drug: abemaciclib"
+       ],
+       "label": "Tumor Agnostic Combination Expansion",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "GBM Combination Expansion",
+        "GBM Single Agent Dose Expansion",
+        "NSCLC Combination Expansion",
+        "NSCLC Single Agent Dose Expansion",
+        "Single Agent and Combination Dose Escalation",
+        "Tumor Agnostic Combination Expansion",
+        "Tumor Agnostic Single Agent Dose Expansion"
+       ],
+       "description": "A selective PRMT5 inhibitor",
+       "name": "TNG456",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "GBM Combination Expansion",
+        "NSCLC Combination Expansion",
+        "Single Agent and Combination Dose Escalation",
+        "Tumor Agnostic Combination Expansion"
+       ],
+       "description": "A kinase inhibitor",
+       "name": "abemaciclib",
+       "otherNames": [
+        "Verzenio"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Non Small Cell Lung Cancer",
+      "Glioma Glioblastoma Multiforme",
+      "Glioma, Malignant",
+      "Solid Tumor",
+      "Non-Small Cell Adenocarcinoma",
+      "Lung Cancer",
+      "Brain Tumor"
+     ],
+     "keywords": [
+      "MTAP",
+      "PRMT5 inhibitor",
+      "CDK 4/6",
+      "abemaciclib",
+      "Tango"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "interventionModelDescription": "Phase 1 dose escalation (sequential) followed by phase 2 dose expansion (parallel)",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 191,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Safety and Tolerability of TNG456 Alone and in Combination With Abemaciclib in Patients With Solid Tumors With MTAP Loss",
+     "nctId": "NCT06810544",
+     "officialTitle": "A Phase 1/2, Multicenter, Open-Label Study to Evaluate the Safety, Tolerability, and Preliminary Antitumor Activity of TNG456 Monotherapy and in Combination With Abemaciclib in Patients With Solid Tumors With MTAP Loss",
+     "orgStudyIdInfo": {
+      "id": "TNG456-C101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Tango Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "collaborators": [
+      {
+       "class": "INDUSTRY",
+       "name": "Eli Lilly and Company"
+      }
+     ],
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Tango Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2027-09-30",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-21",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-16",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-03-31",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2025-03-24",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-04",
+     "studyFirstPostDateStruct": {
+      "date": "2025-02-05",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-01-24",
+     "studyFirstSubmitQcDate": "2025-01-30"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Escalating oral doses of TNG462 in combination with oral RMC-6236",
+       "interventionNames": [
+        "Drug: TNG462",
+        "Drug: RMC-6236"
+       ],
+       "label": "Dose Escalation 1A",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Escalating oral doses of TNG462 in combination with oral RMC-9805",
+       "interventionNames": [
+        "Drug: TNG462",
+        "Drug: RMC-9805"
+       ],
+       "label": "Dose escalation 1B",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Expansion arm at the RDE(s) of oral TNG462 in combination with oral RMC-6236",
+       "interventionNames": [
+        "Drug: TNG462",
+        "Drug: RMC-6236"
+       ],
+       "label": "Dose Expansion 2A",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Expansion arm at the RDE(s) of oral TNG462 in combination with oralRMC-9805",
+       "interventionNames": [
+        "Drug: TNG462",
+        "Drug: RMC-9805"
+       ],
+       "label": "Dose Expansion 2B",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Escalating doses of TNG462 in combination with mFOLFIRINOX",
+       "interventionNames": [
+        "Drug: TNG462",
+        "Drug: mFOLFIRINOX"
+       ],
+       "label": "Experimental: Dose Escalation 1C",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Escalating doses of TNG462 in combination with gemcitabine/nab-paclitaxel",
+       "interventionNames": [
+        "Drug: TNG462",
+        "Drug: gemcitabine/nab-paclitaxel"
+       ],
+       "label": "Experimental: Dose Escalation 1D",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Expansion arm at the RDE(s) of TNG462 in combination with mFOLFIRINOX",
+       "interventionNames": [
+        "Drug: TNG462",
+        "Drug: mFOLFIRINOX"
+       ],
+       "label": "Experimental: Dose Expansion 2C",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Expansion arm at the RDE(s) of TNG462 in combination with gemcitabine/nab-paclitaxel",
+       "interventionNames": [
+        "Drug: TNG462",
+        "Drug: gemcitabine/nab-paclitaxel"
+       ],
+       "label": "Experimental: Dose Expansion 2D",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Dose Escalation 1A",
+        "Dose Expansion 2A",
+        "Dose Expansion 2B",
+        "Dose escalation 1B",
+        "Experimental: Dose Escalation 1C",
+        "Experimental: Dose Escalation 1D",
+        "Experimental: Dose Expansion 2C",
+        "Experimental: Dose Expansion 2D"
+       ],
+       "description": "MTA cooperative PRMT5 inhibitor",
+       "name": "TNG462",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Dose Expansion 2B",
+        "Dose escalation 1B"
+       ],
+       "description": "RAS(ON) G12D selective covalent inhibitor",
+       "name": "RMC-9805",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Dose Escalation 1A",
+        "Dose Expansion 2A"
+       ],
+       "description": "RAS(ON) multi-selective inhibitor",
+       "name": "RMC-6236",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Experimental: Dose Escalation 1C",
+        "Experimental: Dose Expansion 2C"
+       ],
+       "description": "Chemotherapy",
+       "name": "mFOLFIRINOX",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Experimental: Dose Escalation 1D",
+        "Experimental: Dose Expansion 2D"
+       ],
+       "description": "Chemotherapy",
+       "name": "gemcitabine/nab-paclitaxel",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "PDAC",
+      "PDAC - Pancreatic Ductal Adenocarcinoma",
+      "NSCLC",
+      "RAS Mutation",
+      "MTAP Deletion",
+      "Lung Cancer",
+      "Pancreatic Cancer Metastatic",
+      "Thoracic Cancer"
+     ],
+     "keywords": [
+      "PRMT5 inhibitor",
+      "RAS G12D",
+      "Multi RAS",
+      "RMC-9805",
+      "RMC-6236",
+      "Thoracic",
+      "Targeted therapy"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "interventionModelDescription": "Dose escalation of TNG462 + RMC-9805, TNG462 + RMC-6236, TNG462 + mFOLFIRINOX and TNG462 + gemcitabine/nab-paclitaxel, followed by expansion of each combination in MTAP loss and RAS mutant PDAC and NSCLC",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 183,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Study to Evaluate the Safety, Tolerability & Efficacy of TNG462 in Combination in PDAC & NSCLC Patients",
+     "nctId": "NCT06922591",
+     "officialTitle": "A Phase 1/2, Multicenter, Open-Label Study to Evaluate Safety, Tolerability & Antitumor Activity of TNG462 in Combination With Other Agents in Patients With Pancreatic Cancer With MTAP Loss and Pancreatic or Non-Small Cell Lung Cancer With MTAP Loss & RAS Mutation",
+     "orgStudyIdInfo": {
+      "id": "TNG462-C102"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Tango Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "collaborators": [
+      {
+       "class": "INDUSTRY",
+       "name": "Revolution Medicines, Inc."
+      }
+     ],
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Tango Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2027-12",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-23",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-22",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-06",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2025-05-31",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-05",
+     "studyFirstPostDateStruct": {
+      "date": "2025-04-10",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-03-28",
+     "studyFirstSubmitQcDate": "2025-04-03"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Escalating doses of vopimetostat in combination with ERAS-0015",
+       "interventionNames": [
+        "Drug: vopimetostat",
+        "Drug: ERAS-0015"
+       ],
+       "label": "Dose Escalation PDAC",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Expansion arm at the RD(s) of vopimetostat in combination with ERAS-0015",
+       "interventionNames": [
+        "Drug: vopimetostat",
+        "Drug: ERAS-0015"
+       ],
+       "label": "Dose expansion 1L PDAC",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Expansion arm at the RD(s) of vopimetostat in combination with ERAS-0015",
+       "interventionNames": [
+        "Drug: vopimetostat",
+        "Drug: ERAS-0015"
+       ],
+       "label": "Dose Expansion 2L PDAC",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Expansion arm at the RD(s) of vopimetostat in combination with ERAS-0015",
+       "interventionNames": [
+        "Drug: vopimetostat",
+        "Drug: ERAS-0015"
+       ],
+       "label": "Dose Expansion 2L or 3L NSCLC",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Dose Escalation PDAC",
+        "Dose Expansion 2L PDAC",
+        "Dose Expansion 2L or 3L NSCLC",
+        "Dose expansion 1L PDAC"
+       ],
+       "description": "MTA-cooperative PRMT5 inhibitor",
+       "name": "vopimetostat",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Dose Escalation PDAC",
+        "Dose Expansion 2L PDAC",
+        "Dose Expansion 2L or 3L NSCLC",
+        "Dose expansion 1L PDAC"
+       ],
+       "description": "Pan-RAS molecular glue",
+       "name": "ERAS-0015",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "PDAC",
+      "PDAC - Pancreatic Ductal Adenocarcinoma",
+      "NSCLC",
+      "RAS Mutation",
+      "MTAP Deletion",
+      "Lung Cancer",
+      "Pancreatic Cancer Metastatic",
+      "Thoracic Cancer"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "interventionModelDescription": "Dose escalation of vopimetostat + ERAS-0015 in MTAP-null PDAC followed by expansion in MTAP-null PDAC and MTAP-null NSCLC with RAS Mutation",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 188,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "TNG462-C103: Study to Evaluate the Safety, Tolerability, and Antitumor Activity of Vopimetostat in Combination With ERAS-0015 in PDAC and NSCLC Patients",
+     "nctId": "NCT07897734",
+     "officialTitle": "A Phase 1/2, Multicenter, Open-Label Study to Evaluate the Safety, Tolerability, and Antitumor Activity of Vopimetostat in Combination With ERAS-0015 (RAS Inhibitor) in Patients With MTAP-null Pancreatic Cancer and MTAP-null Non-Small Cell Lung Cancer With RAS Mutation",
+     "orgStudyIdInfo": {
+      "id": "TNG462-C103"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Tango Therapeutics, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "collaborators": [
+      {
+       "class": "INDUSTRY",
+       "name": "Erasca, Inc."
+      }
+     ],
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Tango Therapeutics, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2032-05",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-27",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-20",
+     "overallStatus": "NOT_YET_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2031-11",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2026-11",
+      "type": "ESTIMATED"
+     },
+     "statusVerifiedDate": "2026-10",
+     "studyFirstPostDateStruct": {
+      "date": "2026-10-27",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2026-10-20",
+     "studyFirstSubmitQcDate": "2026-10-20"
+    }
+   }
+  }
+ ]
+}

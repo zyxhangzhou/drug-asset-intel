@@ -1,0 +1,4626 @@
+{
+ "aliases": [
+  "Biohaven",
+  "Biohaven Therapeutics Ltd."
+ ],
+ "studies": [
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Troriluzole - Randomization Phase: Participants received Troriluzole 140 mg capsules orally once daily (QD) for 8 weeks.",
+       "interventionNames": [
+        "Drug: Troriluzole"
+       ],
+       "label": "Troriluzole - Randomization Phase",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Placebo - Randomization Phase: Participants received matching placebo capsules orally QD for 8 weeks.",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo - Randomization Phase",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "description": "Participants received Troriluzole 140 mg capsules orally QD for 48 weeks in the extension period and were allowed to participate in 288 weeks for expanded extension phase, for a total of 336 weeks of open-label treatment.",
+       "interventionNames": [
+        "Drug: Troriluzole"
+       ],
+       "label": "Troriluzole/Troriluzole - OLE (Open Label Extension) Phase",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants who received placebo during randomization phase, received Troriluzole 140 mg capsules orally QD for 48 weeks in the extension period and were allowed to participate in 288 weeks for expanded extension phase, for a total of 336 weeks of open-label treatment.",
+       "interventionNames": [
+        "Drug: Placebo",
+        "Drug: Troriluzole"
+       ],
+       "label": "Placebo/Troriluzole - OLE Phase",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Troriluzole - Randomization Phase",
+        "Troriluzole/Troriluzole - OLE (Open Label Extension) Phase"
+       ],
+       "description": "Randomization Phase: Neat (i.e., drug substance without excipients); loose filled capsule.",
+       "name": "Troriluzole",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo - Randomization Phase",
+        "Placebo/Troriluzole - OLE Phase"
+       ],
+       "description": "Drug: Placebo Randomization Phase: Matching placebo loose filled capsule.",
+       "name": "Placebo",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo/Troriluzole - OLE Phase",
+        "Troriluzole/Troriluzole - OLE (Open Label Extension) Phase"
+       ],
+       "description": "OLE phase: Neat capsule or formulated capsule (i.e., drug substance with excipients).",
+       "name": "Troriluzole",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Spinocerebellar Ataxias",
+      "Spinocerebellar Ataxia Genotype Type 1",
+      "Spinocerebellar Ataxia Genotype Type 2",
+      "Spinocerebellar Ataxia Genotype Type 3",
+      "Spinocerebellar Ataxia Genotype Type 6",
+      "Spinocerebellar Ataxia Genotype Type 7",
+      "Spinocerebellar Ataxia Genotype Type 8",
+      "Spinocerebellar Ataxia Genotype Type 10"
+     ],
+     "keywords": [
+      "Spinocerebellar Ataxia",
+      "SCA"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 141,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2",
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Trial in Adult Participants With Spinocerebellar Ataxia (SCA)",
+     "nctId": "NCT02960893",
+     "officialTitle": "A Phase IIb/III, Randomized, Double-blind, Placebo-controlled Trial of Troriluzole in Adult Participants With Spinocerebellar Ataxia",
+     "orgStudyIdInfo": {
+      "id": "BHV4157-201"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Biohaven Pharmaceuticals, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Biohaven Pharmaceuticals, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2024-09-20",
+      "type": "ACTUAL"
+     },
+     "dispFirstPostDateStruct": {
+      "date": "2018-08-08",
+      "type": "ACTUAL"
+     },
+     "dispFirstSubmitDate": "2018-08-01",
+     "dispFirstSubmitQcDate": "2018-08-06",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": true,
+      "nctId": "NCT06034886",
+      "statusForNctId": "AVAILABLE"
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-10-08",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-09-19",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2017-08-18",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2020-08-14",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2020-07-24",
+     "resultsFirstSubmitQcDate": "2020-08-13",
+     "startDateStruct": {
+      "date": "2016-12-15",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-09",
+     "studyFirstPostDateStruct": {
+      "date": "2016-11-10",
+      "type": "ESTIMATED"
+     },
+     "studyFirstSubmitDate": "2016-11-04",
+     "studyFirstSubmitQcDate": "2016-11-08"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: Troriluzole"
+       ],
+       "label": "Troriluzole",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Troriluzole"
+       ],
+       "description": "Troriluzole, 140 mg capsules once daily (QD) orally for the first 4 weeks and 200 mg (140 mg+ 60 mg capsules QD) for an additional 8 weeks",
+       "name": "Troriluzole",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Matching capsule once daily (QD)",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Obsessive-Compulsive Disorder"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 426,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2",
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Troriluzole (BHV-4157) in Adult Participants With Obsessive Compulsive Disorder",
+     "nctId": "NCT03299166",
+     "officialTitle": "A Randomized, Double-blind, Placebo-controlled Trial of Adjunctive Troriluzole in Obsessive Compulsive Disorder",
+     "orgStudyIdInfo": {
+      "id": "BHV4157-202"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Biohaven Pharmaceuticals, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Biohaven Pharmaceuticals, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2025-12-08",
+      "type": "ACTUAL"
+     },
+     "dispFirstPostDateStruct": {
+      "date": "2021-05-10",
+      "type": "ACTUAL"
+     },
+     "dispFirstSubmitDate": "2021-05-05",
+     "dispFirstSubmitQcDate": "2021-05-05",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-01-22",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-01-05",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2020-06-02",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2023-06-02",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2023-05-04",
+     "resultsFirstSubmitQcDate": "2023-05-04",
+     "startDateStruct": {
+      "date": "2017-12-19",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-01",
+     "studyFirstPostDateStruct": {
+      "date": "2017-10-02",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2017-09-28",
+     "studyFirstSubmitQcDate": "2017-09-29"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "riluzole 40 mg sublingual tablet",
+       "interventionNames": [
+        "Drug: BHV-0223"
+       ],
+       "label": "BHV-0223",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "BHV-0223"
+       ],
+       "description": "BHV-0223, 40 mg BID",
+       "name": "BHV-0223",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Amyotrophic Lateral Sclerosis",
+      "ALS",
+      "Lou Gehrig Disease",
+      "Lou Gehrig's Disease",
+      "Lou-Gehrigs Disease",
+      "Motor Neuron Disease, Amyotrophic Lateral Sclerosis"
+     ],
+     "keywords": [
+      "Amyotrophic Lateral Sclerosis",
+      "ALS",
+      "Biohaven",
+      "Motor Neuron Disease, Amyotrophic Lateral Sclerosis",
+      "Lou Gehrig's Disease",
+      "Lou-Gehrigs Disease",
+      "Lou Gehrig Disease",
+      "Riluzole",
+      "Rilutek®",
+      "Neuroprotective Agents",
+      "Administration, Sublingual",
+      "Administration, Oral",
+      "Biological Availability"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 22,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Open-label Study to Evaluate Safety, Tolerability and PK of BHV-0223 in ALS",
+     "nctId": "NCT03520517",
+     "officialTitle": "Open-Label Study to Evaluate Safety, Tolerability and Pharmacokinetics of Multiple Doses of BHV-0223 in Subjects With Amyotrophic Lateral Sclerosis",
+     "orgStudyIdInfo": {
+      "id": "BHV0223-103"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Biohaven Pharmaceuticals, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "collaborators": [
+      {
+       "class": "INDUSTRY",
+       "name": "Cognitive Research Corporation"
+      }
+     ],
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Biohaven Pharmaceuticals, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2018-10-08",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2022-10-06",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2022-10-04",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2018-10-08",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2018-02-02",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2022-02",
+     "studyFirstPostDateStruct": {
+      "date": "2018-05-09",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2018-04-17",
+     "studyFirstSubmitQcDate": "2018-05-08"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "interventions": [
+      {
+       "description": "For adult patients, one 40mg of BHV-0223, administered sublingually, on a twice daily basis (approximately every 12 hours).",
+       "name": "Riluzole",
+       "otherNames": [
+        "Riluzole Zydis® sublingual"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Amyotrophic Lateral Sclerosis",
+      "ALS",
+      "Lou Gehrig Disease",
+      "Lou Gehrig's Disease",
+      "Lou-Gehrigs Disease",
+      "Motor Neuron Disease, Amyotrophic Lateral Sclerosis"
+     ],
+     "keywords": [
+      "Amyotrophic Lateral Sclerosis",
+      "ALS",
+      "Lou Gehrig Disease",
+      "Lou Gehrig's Disease",
+      "Lou-Gehrigs Disease",
+      "Motor Neuron Disease, Amyotrophic Lateral Sclerosis",
+      "Riluzole",
+      "Rilutek®",
+      "Sublingual",
+      "Oral formulation",
+      "Neuroprotective Agents",
+      "Administration, Sublingual",
+      "Administration, Oral",
+      "Biological Availability"
+     ]
+    },
+    "designModule": {
+     "expandedAccessTypes": {
+      "treatment": true
+     },
+     "studyType": "EXPANDED_ACCESS"
+    },
+    "identificationModule": {
+     "briefTitle": "Expanded Access Protocol of BHV-0223 for Patients With Amyotrophic Lateral Sclerosis (ALS)",
+     "nctId": "NCT03537807",
+     "officialTitle": "BHV-0223 Expanded Access Protocol in Patients With Amyotrophic Lateral Sclerosis",
+     "orgStudyIdInfo": {
+      "id": "BHV0223-401"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Biohaven Pharmaceuticals, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Biohaven Pharmaceuticals, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "lastUpdatePostDateStruct": {
+      "date": "2019-07-26",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2019-07-24",
+     "overallStatus": "NO_LONGER_AVAILABLE",
+     "statusVerifiedDate": "2019-07",
+     "studyFirstPostDateStruct": {
+      "date": "2018-05-25",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2018-05-09",
+     "studyFirstSubmitQcDate": "2018-05-15"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "troriluzole, 280 mg (2 x 140 mg) capsules, QD",
+       "interventionNames": [
+        "Drug: troriluzole"
+       ],
+       "label": "BHV-4157",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "matching 280 mg (2 x 140 mg) placebo capsules, QD",
+       "interventionNames": [
+        "Drug: Placebo oral capsule"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "BHV-4157"
+       ],
+       "description": "Oral BHV-4157 will be given daily for up to 48 weeks",
+       "name": "troriluzole",
+       "otherNames": [
+        "BHV-4157"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Oral matching placebo will be given daily for up to 48 weeks",
+       "name": "Placebo oral capsule",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Alzheimer Disease"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 350,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "T2 Protect AD",
+     "briefTitle": "Study of BHV-4157 in Alzheimer's Disease",
+     "nctId": "NCT03605667",
+     "officialTitle": "A Phase 2 Randomized Double-Blind Placebo-Controlled Trial to Evaluate the Efficacy and Safety of BHV-4157 in Patients With Mild to Moderate Alzheimer's Disease",
+     "orgStudyIdInfo": {
+      "id": "BHV4157-203"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Biohaven Pharmaceuticals, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "collaborators": [
+      {
+       "class": "OTHER",
+       "name": "Alzheimer's Disease Cooperative Study (ADCS)"
+      }
+     ],
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Biohaven Pharmaceuticals, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2021-12-23",
+      "type": "ACTUAL"
+     },
+     "dispFirstPostDateStruct": {
+      "date": "2023-12-06",
+      "type": "ACTUAL"
+     },
+     "dispFirstSubmitDate": "2021-10-26",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2023-12-06",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2023-11-14",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2020-12-15",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2023-12-06",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2023-10-23",
+     "resultsFirstSubmitQcDate": "2023-11-14",
+     "startDateStruct": {
+      "date": "2018-07-31",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2023-11",
+     "studyFirstPostDateStruct": {
+      "date": "2018-07-30",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2018-07-23",
+     "studyFirstSubmitQcDate": "2018-07-27"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Randomization phase (Randomization through Week 48):\n\nParticipants received starting dose of troriluzole 140 milligrams (mg) capsules orally once daily for first 4 weeks, followed by 200 mg once daily for the remaining 44 weeks of 48-week duration of the double-blind randomization phase.\n\nOpen-label extension (OLE) phase (OLE Week 1 up to Week 192): Participants who were eligible and agreed to enroll in an OLE phase, will receive troriluzole 200 mg capsules orally once daily for 4 weeks in a blinded manner. After OLE Week 4, all participants will then receive open label troriluzole 200 mg up to Week 192.",
+       "interventionNames": [
+        "Drug: troriluzole"
+       ],
+       "label": "Troriluzole",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Randomization phase (Randomization through Week 48):\n\nParticipants received troriluzole matching placebo capsules orally once daily for 48 weeks duration of the double-blind randomization phase.\n\nOLE phase (Week 1 up to Week 192): Participants who were eligible and agreed to enroll in an OLE phase, will receive troriluzole 140 mg capsules orally once daily for the first 4 weeks in a blinded manner. After OLE Week 4, all participants will then receive open label troriluzole 200 mg up to Week 192.",
+       "interventionNames": [
+        "Drug: troriluzole",
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Placebo",
+        "Troriluzole"
+       ],
+       "description": "Administered orally",
+       "name": "troriluzole",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Administered orally",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Spinocerebellar Ataxias",
+      "Spinocerebellar Ataxia Type 1",
+      "Spinocerebellar Ataxia Type 2",
+      "Spinocerebellar Ataxia Type 3",
+      "Spinocerebellar Ataxia Type 6",
+      "Spinocerebellar Ataxia Type 7",
+      "Spinocerebellar Ataxia Type 8",
+      "Spinocerebellar Ataxia Type 10"
+     ],
+     "keywords": [
+      "Ataxia, SCA, Spinocerebellar Ataxia"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 299,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Troriluzole in Adult Participants With Spinocerebellar Ataxia",
+     "nctId": "NCT03701399",
+     "officialTitle": "A Phase III, Long-Term, Randomized, Double-blind, Placebo-controlled Trial of Troriluzole in Adult Participants With Spinocerebellar Ataxia.",
+     "orgStudyIdInfo": {
+      "id": "BHV4157-206"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Biohaven Pharmaceuticals, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Biohaven Pharmaceuticals, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2026-08",
+      "type": "ESTIMATED"
+     },
+     "dispFirstPostDateStruct": {
+      "date": "2023-01-20",
+      "type": "ACTUAL"
+     },
+     "dispFirstSubmitDate": "2023-01-18",
+     "dispFirstSubmitQcDate": "2023-01-19",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": true,
+      "nctId": "NCT06034886",
+      "statusForNctId": "AVAILABLE"
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-06-24",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-06-07",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2022-02-18",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2025-02-10",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2025-01-16",
+     "resultsFirstSubmitQcDate": "2025-01-16",
+     "startDateStruct": {
+      "date": "2019-03-08",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-06",
+     "studyFirstPostDateStruct": {
+      "date": "2018-10-10",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2018-10-05",
+     "studyFirstSubmitQcDate": "2018-10-08"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Randomization phase (Weeks 1 through 8): Participants received troriluzole 100 mg capsules twice daily (BID) orally for up to 8 weeks in the double-blind (DB) randomization phase.\n\nExtension phase (Weeks 9 through 56): Participants, who completed the randomization phase and for whom the investigator believed open-label (OL) treatment could offer an acceptable risk-benefit profile, entered the extension phase and received OL troriluzole capsules (continuing on the same dose and regimen that was taken at the end of the randomization phase) for up to additional 48 weeks.",
+       "interventionNames": [
+        "Drug: Troriluzole"
+       ],
+       "label": "Troriluzole",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Randomization Phase (Weeks 1 through 8): Participants received troriluzole matching placebo capsules BID orally for up to 8 weeks in the DB randomization phase.\n\nExtension Phase (Weeks 9 through 56): Participants, who completed the randomization phase and for whom the investigator believed OL treatment could offer an acceptable risk-benefit profile, entered the extension phase and received OL troriluzole capsules (continuing on the same dose and regimen that was taken at the end of the randomization phase) for up to additional 48 weeks.",
+       "interventionNames": [
+        "Drug: Troriluzole",
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Placebo",
+        "Troriluzole"
+       ],
+       "description": "100 mg capsule",
+       "name": "Troriluzole",
+       "otherNames": [
+        "BHV-4157"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Placebo matched to troriluzole",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Generalized Anxiety Disorder"
+     ],
+     "keywords": [
+      "Generalized Anxiety Disorder (GAD)"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "TRIPLE",
+       "maskingDescription": "Double-blind to Sponsor, Investigator and Subject",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 881,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Randomized Trial of Adult Participants With Generalized Anxiety Disorder",
+     "nctId": "NCT03829241",
+     "officialTitle": "A Multicenter, Randomized, Double-Blind, Placebo Controlled Trial of Troriluzole in Generalized Anxiety Disorder",
+     "orgStudyIdInfo": {
+      "id": "BHV4157-207"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Biohaven Pharmaceuticals, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Biohaven Pharmaceuticals, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2020-05-08",
+      "type": "ACTUAL"
+     },
+     "dispFirstPostDateStruct": {
+      "date": "2020-12-21",
+      "type": "ACTUAL"
+     },
+     "dispFirstSubmitDate": "2020-12-15",
+     "dispFirstSubmitQcDate": "2020-12-15",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2024-05-08",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2024-05-06",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2020-01-14",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2022-12-28",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2022-12-05",
+     "resultsFirstSubmitQcDate": "2022-12-05",
+     "startDateStruct": {
+      "date": "2019-02-19",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2024-05",
+     "studyFirstPostDateStruct": {
+      "date": "2019-02-04",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2019-02-01",
+     "studyFirstSubmitQcDate": "2019-02-01"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants received verdiperstat 300 mg tablet orally once daily for 1 week, followed by 300 mg twice daily for 1 week, and then 600 mg twice daily for the remaining 46 weeks of the double-blind phase.\n\nParticipants who completed the double-blind phase were offered the opportunity to enroll in an open-label extension (OLE) phase to continue verdiperstat 600 mg twice daily for 48 weeks.",
+       "interventionNames": [
+        "Drug: Verdiperstat"
+       ],
+       "label": "Verdiperstat",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants received placebo matching with verdiperstat for 48 weeks. Participants who completed the double-blind phase were offered the opportunity to enroll in an OLE phase to receive verdiperstat 600 mg tablet orally twice daily for 48 weeks.",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Verdiperstat"
+       ],
+       "description": "300mg 2 oral tablets, twice daily",
+       "name": "Verdiperstat",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Matching placebo",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Multiple System Atrophy"
+     ],
+     "keywords": [
+      "Multiple System Atrophy (MSA)"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "TRIPLE",
+       "maskingDescription": "Double-blind to Sponsor, Investigator and Subject",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 421,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "M-STAR",
+     "briefTitle": "Study of BHV-3241 in Participants With Multiple System Atrophy",
+     "nctId": "NCT03952806",
+     "officialTitle": "Randomized, Double-Blind, Placebo-Controlled, Parallel-Group Study to Evaluate the Efficacy and Safety of BHV-3241 in Subjects With Multiple System Atrophy (M-STAR Study)",
+     "orgStudyIdInfo": {
+      "id": "BHV3241-301"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Biohaven Pharmaceuticals, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Biohaven Pharmaceuticals, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2022-06-30",
+      "type": "ACTUAL"
+     },
+     "dispFirstPostDateStruct": {
+      "date": "2023-09-29",
+      "type": "ACTUAL"
+     },
+     "dispFirstSubmitDate": "2022-07-25",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2023-09-29",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2023-09-06",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2021-07-29",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2023-09-29",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2023-06-27",
+     "resultsFirstSubmitQcDate": "2023-09-06",
+     "startDateStruct": {
+      "date": "2019-07-29",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2023-09",
+     "studyFirstPostDateStruct": {
+      "date": "2019-05-16",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2019-05-15",
+     "studyFirstSubmitQcDate": "2019-05-15"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Combination Product: BHV-1100 plus cytokine induced memory-like (CIML) NK cells plus IVIG and low dose IL-2"
+       ],
+       "label": "BHV-1100 Combination Treatment",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "BHV-1100 Combination Treatment"
+       ],
+       "description": "Single dose infusion of BHV-1100 plus CIML NK Cells plus IVIG, followed by low dose IL-2",
+       "name": "BHV-1100 plus cytokine induced memory-like (CIML) NK cells plus IVIG and low dose IL-2",
+       "type": "COMBINATION_PRODUCT"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Multiple Myeloma"
+     ],
+     "keywords": [
+      "Cell Therapy",
+      "CIML NK cell therapy",
+      "cytokine induced memory-like natural killer cell therapy",
+      "immunotherapy",
+      "antibody-dependent cell-mediated cytotoxicity",
+      "ADCC",
+      "CD38 positive",
+      "CD38+",
+      "plasma cells",
+      "multiple myeloma",
+      "hematological malignancies"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 7,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Autologous Memory-like NK Cell Therapy With BHV-1100 and Low Dose IL-2 in Multiple Myeloma Patients",
+     "nctId": "NCT04634435",
+     "officialTitle": "A Phase 1 Study of Autologous Memory-like Natural Killer (NK) Cell Immunotherapy With BHV-1100 and IVIG Followed by Low Dose IL-2 as Early Post-Autologous Transplant Consolidation in Minimal Residual Disease Positive, Multiple Myeloma (MM) Patients in First or Second Remission",
+     "orgStudyIdInfo": {
+      "id": "BHV1100-101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Biohaven Pharmaceuticals, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "collaborators": [
+      {
+       "class": "OTHER",
+       "name": "Dana-Farber Cancer Institute"
+      }
+     ],
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Biohaven Pharmaceuticals, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2025-01-10",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-01-20",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-01-16",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2025-01-10",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2021-10-21",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-01",
+     "studyFirstPostDateStruct": {
+      "date": "2020-11-18",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2020-10-21",
+     "studyFirstSubmitQcDate": "2020-11-12"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Troriluzole - 2 100mg capsules once daily for the first two weeks. Troriluzole - 2 140mg capsules once daily from week two through week ten.",
+       "interventionNames": [
+        "Drug: Troriluzole"
+       ],
+       "label": "Troriluzole",
+       "type": "ACTIVE_COMPARATOR"
+      },
+      {
+       "description": "Placebo - 2 100mg capsules once daily for the first two weeks. Placebo - 2 140mg capsules once daily from week two through week ten.",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Troriluzole"
+       ],
+       "description": "Troriluzole - 2 100mg capsules QD for the first two weeks.",
+       "name": "Troriluzole",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Matching placebo - 2 140mg capsules QD from week two through week ten.",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Obsessive-Compulsive Disorder"
+     ],
+     "keywords": [
+      "Obsessive-Compulsive Disorder",
+      "OCD"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 456,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Efficacy and Safety Study of Adjunctive Troriluzole in Obsessive Compulsive Disorder",
+     "nctId": "NCT04641143",
+     "officialTitle": "A Randomized, Double-Blind, Placebo-Controlled Trial of Adjunctive Troriluzole in Obsessive Compulsive Disorder",
+     "orgStudyIdInfo": {
+      "id": "BHV4157-302"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Biohaven Pharmaceuticals, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Biohaven Pharmaceuticals, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2025-10-27",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-01-07",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-01-05",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2025-10-27",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2020-12-22",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-01",
+     "studyFirstPostDateStruct": {
+      "date": "2020-11-23",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2020-11-12",
+     "studyFirstSubmitQcDate": "2020-11-20"
+    }
+   }
+  },
+  {
+   "hasResults": true,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Participants received troriluzole 200 milligrams (mg) (100 mg\\*2) capsules orally once daily for the first two weeks and up-titrated to 280 mg (140 mg\\*2) capsules orally once daily for the next eight weeks, in the double-blind randomization phase.",
+       "interventionNames": [
+        "Drug: Troriluzole"
+       ],
+       "label": "Troriluzole",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Participants received placebo-matched to troriluzole capsules orally once daily for 10 weeks of the double-blind randomization phase.",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Troriluzole"
+       ],
+       "description": "Capsules for oral administration.",
+       "name": "Troriluzole",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Drug- matching capsules for oral administration.",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Obsessive-Compulsive Disorder"
+     ],
+     "keywords": [
+      "Obsessive-Compulsive Disorder (OCD)"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 589,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Study to Evaluate the Efficacy and Safety of Adjunctive Troriluzole in Obsessive-Compulsive Disorder",
+     "nctId": "NCT04693351",
+     "officialTitle": "A Randomized, Double-Blind, Placebo- Controlled Trial of Adjunctive Troriluzole in Obsessive Compulsive Disorder",
+     "orgStudyIdInfo": {
+      "id": "BHV4157-303"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Biohaven Pharmaceuticals, Inc."
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "2024-514585-39-00",
+       "type": "CTIS"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Biohaven Pharmaceuticals, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2025-04-29",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-05-22",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-04-29",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2025-04-29",
+      "type": "ACTUAL"
+     },
+     "resultsFirstPostDateStruct": {
+      "date": "2026-05-22",
+      "type": "ACTUAL"
+     },
+     "resultsFirstSubmitDate": "2026-04-29",
+     "resultsFirstSubmitQcDate": "2026-04-29",
+     "startDateStruct": {
+      "date": "2021-01-29",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-04",
+     "studyFirstPostDateStruct": {
+      "date": "2021-01-05",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2020-12-30",
+     "studyFirstSubmitQcDate": "2020-12-30"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "200 mg daily first 2 weeks, 280 daily following first 2 weeks",
+       "interventionNames": [
+        "Drug: Troriluzole (BHV-4157)"
+       ],
+       "label": "Troriluzole (BHV-4157)",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Troriluzole (BHV-4157)"
+       ],
+       "description": "200 mg daily first 2 weeks, 280 daily following first 2 weeks",
+       "name": "Troriluzole (BHV-4157)",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Obsessive Compulsive Disorder"
+     ],
+     "keywords": [
+      "Obsessive compulsive disorder",
+      "OCD",
+      "troriluzole",
+      "Biohaven"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 772,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Long-term Safety Study of Adjunctive Troriluzole in Subjects With Obsessive Compulsive Disorder",
+     "nctId": "NCT04708834",
+     "officialTitle": "A Multicenter, Long-Term Open-Label Safety Study of Adjunctive Troriluzole in Subjects With Obsessive Compulsive Disorder",
+     "orgStudyIdInfo": {
+      "id": "BHV4157-209"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Biohaven Pharmaceuticals, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Biohaven Pharmaceuticals, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2026-02-13",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-02-25",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-02-23",
+     "overallStatus": "TERMINATED",
+     "primaryCompletionDateStruct": {
+      "date": "2026-02-13",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2021-03-30",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-02",
+     "studyFirstPostDateStruct": {
+      "date": "2021-01-14",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2021-01-11",
+     "studyFirstSubmitQcDate": "2021-01-12",
+     "whyStopped": "Sponsor Decision"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "interventions": [
+      {
+       "description": "BHV3241/Verdiperstat 600mg BID",
+       "name": "BHV3241, verdiperstat",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Multiple System Atrophy (MSA)"
+     ],
+     "keywords": [
+      "Multiple System Atrophy",
+      "MSA",
+      "verdiperstat",
+      "BHV3241",
+      "MPO inhibitor",
+      "Myeloperoxidase inhibitor",
+      "MSA-P",
+      "MSA-C"
+     ]
+    },
+    "designModule": {
+     "expandedAccessTypes": {
+      "treatment": true
+     },
+     "studyType": "EXPANDED_ACCESS"
+    },
+    "identificationModule": {
+     "briefTitle": "Expanded Access Protocol of Verdiperstat in Patients With Multiple System Atrophy (MSA)",
+     "nctId": "NCT05086094",
+     "officialTitle": "Intermediate-Size Patient Population Expanded Access Protocol of Verdiperstat in Patients With Multiple System Atrophy (MSA)",
+     "orgStudyIdInfo": {
+      "id": "BHV3241-401"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Biohaven Pharmaceuticals, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Biohaven Pharmaceuticals, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2022-10-06",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2022-10-04",
+     "overallStatus": "NO_LONGER_AVAILABLE",
+     "statusVerifiedDate": "2021-10",
+     "studyFirstPostDateStruct": {
+      "date": "2021-10-20",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2021-10-08",
+     "studyFirstSubmitQcDate": "2021-10-08"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "taldefgrobep alfa - Double-blind (DB) Phase: Participants receive weight based 35 mg/50 mg weekly subcutaneous injection for 48-week DB phase.\n\ntaldefgrobep alfa/taldefgrobep alfa - Extension Phase: Participants receive weight based 35 mg/50 mg weekly subcutaneous injection for Open label Extension (OLE) phase.",
+       "interventionNames": [
+        "Drug: taldefgrobep alfa"
+       ],
+       "label": "taldefgrobep alfa",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Placebo - Double-blind (DB) Phase: Participants receive weight based 35 mg/50 mg weekly subcutaneous injection for 48-week DB phase.\n\nPlacebo/taldefgrobep alfa - Extension Phase: Participants who receive placebo during DB phase, receive weight based 35 mg/50 mg weekly subcutaneous taldefgrobep alfa injection for OLE phase.",
+       "interventionNames": [
+        "Drug: Placebo",
+        "Drug: taldefgrobep alfa"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "taldefgrobep alfa"
+       ],
+       "description": "DB Phase: 35 mg/50 mg weekly subcutaneous injection",
+       "name": "taldefgrobep alfa",
+       "otherNames": [
+        "BHV-2000",
+        "BMS-986089"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "DB Phase: matching placebo 35 mg/50 mg weekly subcutaneous injection",
+       "name": "Placebo",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo",
+        "taldefgrobep alfa"
+       ],
+       "description": "Extension Phase: 35 mg/50 mg weekly subcutaneous injection",
+       "name": "taldefgrobep alfa",
+       "otherNames": [
+        "BHV-2000",
+        "BMS-986089"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Spinal Muscular Atrophy",
+      "Neuromuscular Diseases",
+      "SMA"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 269,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "RESILIENT",
+     "briefTitle": "A Study to Evaluate the Efficacy and Safety of Taldefgrobep Alfa in Participants With Spinal Muscular Atrophy",
+     "nctId": "NCT05337553",
+     "officialTitle": "A Randomized, Double-Blind, Placebo-Controlled, Study to Evaluate the Efficacy and Safety of Taldefgrobep Alfa in Ambulatory and Non-Ambulatory Participants With Spinal Muscular Atrophy With Open-Label Extension",
+     "orgStudyIdInfo": {
+      "id": "BHV2000-301"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Biohaven Pharmaceuticals, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Biohaven Pharmaceuticals, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2027-12",
+      "type": "ESTIMATED"
+     },
+     "dispFirstPostDateStruct": {
+      "date": "2025-06-18",
+      "type": "ACTUAL"
+     },
+     "dispFirstSubmitDate": "2025-08-22",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-06-01",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-05-29",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2024-09-25",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2022-07-06",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-05",
+     "studyFirstPostDateStruct": {
+      "date": "2022-04-20",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2022-04-14",
+     "studyFirstSubmitQcDate": "2022-04-14"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "interventions": [
+      {
+       "description": "BHV-4157 140mg, 200mg or 280mg once daily by mouth.",
+       "name": "Troriluzole",
+       "otherNames": [
+        "BHV-4157"
+       ],
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "SCA",
+      "Spinocerebellar Ataxias"
+     ]
+    },
+    "designModule": {
+     "expandedAccessTypes": {
+      "intermediate": true
+     },
+     "nPtrsToThisExpAccNctId": 2,
+     "studyType": "EXPANDED_ACCESS"
+    },
+    "identificationModule": {
+     "briefTitle": "Expanded Access Protocol of Troriluzole in Patients With Spinocerebellar Ataxia (SCA)",
+     "nctId": "NCT06034886",
+     "officialTitle": "Intermediate-Size Patient Population Expanded Access Protocol of Troriluzole in Patients With Spinocerebellar Ataxia (SCA)",
+     "orgStudyIdInfo": {
+      "id": "BHV4157-401"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Biohaven Pharmaceuticals, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Biohaven Pharmaceuticals, Inc."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-01-09",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-01-08",
+     "overallStatus": "AVAILABLE",
+     "statusVerifiedDate": "2026-01",
+     "studyFirstPostDateStruct": {
+      "date": "2023-09-13",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2023-09-05",
+     "studyFirstSubmitQcDate": "2023-09-06"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: BHV-7000"
+       ],
+       "label": "BHV-7000 25 mg Part A",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: BHV-7000"
+       ],
+       "label": "BHV-7000 50 mg Part A",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo Part A",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "interventionNames": [
+        "Drug: BHV-7000"
+       ],
+       "label": "BHV-7000 75 mg Part B",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo Part B",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "BHV-7000 25 mg Part A"
+       ],
+       "description": "BHV-7000 25 mg. Participants will take blinded investigational product (IP) once daily",
+       "name": "BHV-7000",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "BHV-7000 50 mg Part A"
+       ],
+       "description": "BHV-7000 50 mg. Participants will take blinded investigational product (IP) once daily",
+       "name": "BHV-7000",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo Part A"
+       ],
+       "description": "Matching placebo taken once daily",
+       "name": "Placebo",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "BHV-7000 75 mg Part B"
+       ],
+       "description": "BHV-7000 75 mg. Participants willtake blinded investigational product(IP) once daily",
+       "name": "BHV-7000",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo Part B"
+       ],
+       "description": "Matching placebo taken once daily",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Focal Epilepsy"
+     ],
+     "keywords": [
+      "Focal Epilepsy",
+      "Epilepsy",
+      "Seizure",
+      "Refractory Epilepsy",
+      "Partial Epilepsy"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 390,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE2",
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "RISE 2",
+     "briefTitle": "A Study to Determine if BHV-7000 is Effective and Safe in Adults With Refractory Focal Onset Epilepsy",
+     "nctId": "NCT06132893",
+     "officialTitle": "A Phase 2/3 Multicenter, Randomized, Double-Blind, Placebo-Controlled, Study to Evaluate the Efficacy, Safety and Tolerability of BHV-7000 in Subjects With Refractory Focal Onset Epilepsy",
+     "orgStudyIdInfo": {
+      "id": "BHV7000-302"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Biohaven Pharmaceuticals, Inc."
+     },
+     "secondaryIdInfos": [
+      {
+       "domain": "EU CTR",
+       "id": "2023-508539-30",
+       "type": "REGISTRY"
+      },
+      {
+       "id": "2023",
+       "link": "https://reporter.nih.gov/quickSearch/2023",
+       "type": "NIH"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Biohaven Therapeutics Ltd."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2026-12",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-09-30",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-09-28",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2026-12",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2024-03-14",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-09",
+     "studyFirstPostDateStruct": {
+      "date": "2023-11-15",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2023-11-10",
+     "studyFirstSubmitQcDate": "2023-11-10"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: BHV-7000"
+       ],
+       "label": "BHV-7000 50 mg",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: BHV-7000"
+       ],
+       "label": "BHV-7000 75 mg",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "BHV-7000 50 mg"
+       ],
+       "description": "BHV-7000 50 mg. Participants will take blinded investigational product (IP) once daily",
+       "name": "BHV-7000",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "BHV-7000 75 mg"
+       ],
+       "description": "BHV-7000 75 mg. Participants will take blinded investigational product (IP) once daily",
+       "name": "BHV-7000",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Matching placebo taken once daily",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Focal Epilepsy"
+     ],
+     "keywords": [
+      "Focal Epilepsy",
+      "Epilepsy",
+      "Seizure",
+      "Refractory Epilepsy",
+      "Partial Epilepsy"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 390,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE2",
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "RISE 3",
+     "briefTitle": "Study to Determine if BHV-7000 is Effective and Safe in Adults With Refractory Focal Onset Epilepsy",
+     "nctId": "NCT06309966",
+     "officialTitle": "A Phase 2/3 Multicenter, Randomization, Double-Blind, Placebo-Controlled, Study to Evaluate the Efficacy, Safety and Tolerability of BHV-7000 in Subjects With Refractory Focal Onset Epilepsy",
+     "orgStudyIdInfo": {
+      "id": "BHV7000-303"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Biohaven Pharmaceuticals, Inc."
+     },
+     "secondaryIdInfos": [
+      {
+       "domain": "EU CTR",
+       "id": "2023-508811-21",
+       "type": "REGISTRY"
+      },
+      {
+       "id": "2023",
+       "link": "https://reporter.nih.gov/quickSearch/2023",
+       "type": "NIH"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Biohaven Therapeutics Ltd."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2026-10",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-08-13",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-08-12",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2026-10",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2024-05-13",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-08",
+     "studyFirstPostDateStruct": {
+      "date": "2024-03-13",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2024-03-08",
+     "studyFirstSubmitQcDate": "2024-03-08"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: BHV-1510"
+       ],
+       "label": "BHV-1510 Monotherapy Dose Escalation",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: BHV-1510",
+        "Drug: Cemiplimab"
+       ],
+       "label": "BHV-1510 in combination with Cemiplimab dose escalation",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "BHV-1510 Monotherapy Dose Escalation",
+        "BHV-1510 in combination with Cemiplimab dose escalation"
+       ],
+       "description": "BHV-1510 will be administered on Day 1 every 3 weeks",
+       "name": "BHV-1510",
+       "otherNames": [
+        "PBI-410",
+        "GQ1010"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "BHV-1510 in combination with Cemiplimab dose escalation"
+       ],
+       "description": "cemiplimab (350mg) will be administered as an IV infusion on Day 1 every 3 weeks",
+       "name": "Cemiplimab",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "BHV-1510 Monotherapy Dose Escalation",
+        "BHV-1510 in combination with Cemiplimab dose escalation"
+       ],
+       "description": "BHV-1510 will be administered on Day 1 every 2 weeks",
+       "name": "BHV-1510",
+       "otherNames": [
+        "PBI-410",
+        "GQ1010"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "BHV-1510 Monotherapy Dose Escalation",
+        "BHV-1510 in combination with Cemiplimab dose escalation"
+       ],
+       "description": "BHV-1510 will be administered on Day 1 and Day 8 every 3 weeks",
+       "name": "BHV-1510",
+       "otherNames": [
+        "PBI-410",
+        "GQ1010"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "BHV-1510 in combination with Cemiplimab dose escalation"
+       ],
+       "description": "cemiplimab (350mg) will be administered as an IV infusion on Day 1 and Day 8 every 3 weeks",
+       "name": "Cemiplimab",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Solid Tumor"
+     ],
+     "keywords": [
+      "Trop2 targeting ADC",
+      "Antibody-drug conjugate",
+      "Trop2",
+      "ADC"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "interventionModelDescription": "Dose escalation followed by enrollment in signal-finding cohorts.",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 500,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1",
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Phase 1/2 Study of BHV-1510 (Previously PBI-410) in Advanced Solid Tumors",
+     "nctId": "NCT06384807",
+     "officialTitle": "A Phase 1/2, First in Human, Dose Escalation and Dose Expansion Study of BHV-1510 (Previously PBI-410) as Monotherapy and in Combination With Anti-Cancer Agents in Participants With Advanced Solid Tumors",
+     "orgStudyIdInfo": {
+      "id": "BHV1510-101 (PBI-410-101)"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Biohaven Pharmaceuticals, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Biohaven Therapeutics Ltd."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2028-02",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-09-28",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-09-24",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2028-02",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2024-04-22",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-09",
+     "studyFirstPostDateStruct": {
+      "date": "2024-04-25",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2024-04-22",
+     "studyFirstSubmitQcDate": "2024-04-22"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: BHV-7000"
+       ],
+       "label": "BHV-7000",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "BHV-7000"
+       ],
+       "description": "BHV-7000 75 mg taken once daily for 21 days",
+       "name": "BHV-7000",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Matching placebo taken once daily for 21 days",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Bipolar Disorder"
+     ],
+     "keywords": [
+      "bipolar",
+      "mania",
+      "manic episode",
+      "manic state",
+      "bipolar disorder type 1",
+      "manic depressive",
+      "manic bipolar",
+      "mixed features",
+      "mixed episode",
+      "mixed mania",
+      "bipolar episode"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 274,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2",
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "BHV-7000 Acute Treatment of Bipolar Mania",
+     "nctId": "NCT06419582",
+     "officialTitle": "A Phase 2/3, Multicenter, Inpatient, Placebo-Controlled, Double-blind Trial of BHV-7000 for the Acute Treatment of Manic Episodes, With or Without Mixed Features, Associated With Bipolar I Disorder",
+     "orgStudyIdInfo": {
+      "id": "BHV7000-204"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Biohaven Pharmaceuticals, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Biohaven Therapeutics Ltd."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2025-01-30",
+      "type": "ACTUAL"
+     },
+     "dispFirstPostDateStruct": {
+      "date": "2025-03-05",
+      "type": "ACTUAL"
+     },
+     "dispFirstSubmitDate": "2025-12-13",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-12-16",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-12-13",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2025-01-15",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2024-05-28",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-12",
+     "studyFirstPostDateStruct": {
+      "date": "2024-05-17",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2024-05-14",
+     "studyFirstSubmitQcDate": "2024-05-14"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: BHV-7000"
+       ],
+       "label": "BHV-7000",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "BHV-7000"
+       ],
+       "description": "BHV-7000 75 mg taken once daily for 6 weeks",
+       "name": "BHV-7000",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Matching placebo taken once daily for 6 weeks",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Major Depressive Disorder"
+     ],
+     "keywords": [
+      "depression",
+      "depressed",
+      "depressive disorder",
+      "major depression",
+      "major depressive episode",
+      "antidepressant"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 336,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Efficacy and Safety Study of BHV-7000 Monotherapy in Major Depression",
+     "nctId": "NCT06419608",
+     "officialTitle": "A Phase 2 Multicenter, Randomized, Double-blind, Placebo-controlled, Study to Evaluate the Efficacy and Safety of BHV-7000 Monotherapy in Major Depressive Disorder",
+     "orgStudyIdInfo": {
+      "id": "BHV7000-305"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Biohaven Pharmaceuticals, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Biohaven Therapeutics Ltd."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2025-11-07",
+      "type": "ACTUAL"
+     },
+     "dispFirstPostDateStruct": {
+      "date": "2026-01-07",
+      "type": "ACTUAL"
+     },
+     "dispFirstSubmitDate": "2026-10-10",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-14",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-10",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2025-11-07",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2024-05-28",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-10",
+     "studyFirstPostDateStruct": {
+      "date": "2024-05-17",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2024-05-14",
+     "studyFirstSubmitQcDate": "2024-05-14"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: BHV-7000"
+       ],
+       "label": "BHV-7000",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "BHV-7000"
+       ],
+       "description": "BHV-7000 75 mg taken once daily",
+       "name": "BHV-7000",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Major Depressive Disorder"
+     ],
+     "keywords": [
+      "depression",
+      "major depression",
+      "antidepressant",
+      "major depressive disorder",
+      "MDD"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 233,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Long-term Safety Study of BHV-7000 in Participants With Major Depressive Disorder (MDD)",
+     "nctId": "NCT06423781",
+     "officialTitle": "A Phase 2, Multicenter, Open-Label Extension Study to Assess the Long-Term Safety and Tolerability of BHV-7000 in Treatment of Major Depressive Disorder (MDD)",
+     "orgStudyIdInfo": {
+      "id": "BHV7000-203"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Biohaven Pharmaceuticals, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Biohaven Therapeutics Ltd."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2026-03-18",
+      "type": "ACTUAL"
+     },
+     "dispFirstPostDateStruct": {
+      "date": "2026-04-01",
+      "type": "ACTUAL"
+     },
+     "dispFirstSubmitDate": "2026-10-10",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-14",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-10",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2026-03-18",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2024-08-01",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-10",
+     "studyFirstPostDateStruct": {
+      "date": "2024-05-21",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2024-05-16",
+     "studyFirstSubmitQcDate": "2024-05-16"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: BHV-7000"
+       ],
+       "label": "BHV-7000",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "BHV-7000"
+       ],
+       "description": "BHV-7000 75 mg taken once daily",
+       "name": "BHV-7000",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Bipolar Disorder"
+     ],
+     "keywords": [
+      "bipolar",
+      "mania",
+      "manic episode",
+      "manic state",
+      "bipolar disorder type 1",
+      "manic depressive",
+      "manic bipolar",
+      "mixed features",
+      "mixed episode",
+      "mixed mania",
+      "bipolar episode",
+      "bipolar disorder"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 94,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "BHV-7000 Open-Label Extension Bipolar Mania Study",
+     "nctId": "NCT06423794",
+     "officialTitle": "A Phase 2, Multicenter, Open-Label Extension Study to Assess the Long-Term Safety and Tolerability of BHV-7000 in Treatment of Bipolar I Disorder",
+     "orgStudyIdInfo": {
+      "id": "BHV7000-202"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Biohaven Pharmaceuticals, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Biohaven Therapeutics Ltd."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2025-04-25",
+      "type": "ACTUAL"
+     },
+     "dispFirstPostDateStruct": {
+      "date": "2025-06-08",
+      "type": "ACTUAL"
+     },
+     "dispFirstSubmitDate": "2025-12-13",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2025-12-16",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2025-12-13",
+     "overallStatus": "TERMINATED",
+     "primaryCompletionDateStruct": {
+      "date": "2025-04-25",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2024-06-24",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2025-12",
+     "studyFirstPostDateStruct": {
+      "date": "2024-05-21",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2024-05-16",
+     "studyFirstSubmitQcDate": "2024-05-16",
+     "whyStopped": "Business Decision"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: BHV-7000"
+       ],
+       "label": "BHV-7000 75 mg",
+       "type": "ACTIVE_COMPARATOR"
+      },
+      {
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "BHV-7000 75 mg"
+       ],
+       "description": "BHV-7000 75mg. Participants will take blinded investigational product (IP) once daily",
+       "name": "BHV-7000",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Matching placebo taken once daily",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Generalized Epilepsy"
+     ],
+     "keywords": [
+      "Idiopathic Generalized Epilepsy",
+      "Generalized",
+      "Epilepsy",
+      "tonic-clonic",
+      "generalized tonic-clonic",
+      "tonic",
+      "clonic",
+      "seizure",
+      "refractory epilepsy",
+      "generalized tonic-clonic alone",
+      "juvenile myoclonic epilepsy",
+      "juvenile absence epilepsy"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 27,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2",
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "acronym": "SHINE",
+     "briefTitle": "A Study to Determine if BHV-7000 is Effective and Safe in Adults With Idiopathic Generalized Epilepsy With Generalized Tonic-clonic Seizures",
+     "nctId": "NCT06425159",
+     "officialTitle": "A Phase 2/3 Multicenter, Randomized, Double-blind, Placebo-controlled Study to Evaluate the Efficacy, Safety, and Tolerability of BHV-7000 as Adjunctive Therapy in Subjects With Idiopathic Generalized Epilepsy With Generalized Tonic-clonic Seizures, With Open-label Extension",
+     "orgStudyIdInfo": {
+      "id": "BHV7000-304"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Biohaven Pharmaceuticals, Inc."
+     },
+     "secondaryIdInfos": [
+      {
+       "domain": "EU CTR",
+       "id": "2023-508812-45-00",
+       "type": "OTHER"
+      },
+      {
+       "id": "2023",
+       "link": "https://reporter.nih.gov/quickSearch/2023",
+       "type": "NIH"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Biohaven Therapeutics Ltd."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2026-03-12",
+      "type": "ACTUAL"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-03-24",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-03-20",
+     "overallStatus": "TERMINATED",
+     "primaryCompletionDateStruct": {
+      "date": "2026-03-12",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2024-06-20",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-03",
+     "studyFirstPostDateStruct": {
+      "date": "2024-05-22",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2024-05-17",
+     "studyFirstSubmitQcDate": "2024-05-17",
+     "whyStopped": "Sponsor Decision"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: BHV-7000"
+       ],
+       "label": "BHV-7000 50 mg",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: BHV-7000"
+       ],
+       "label": "BHV-7000 75 mg",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "BHV-7000 50 mg"
+       ],
+       "description": "BHV-7000 50 mg. Participants will take open-label investigational product (IP) once daily",
+       "name": "BHV-7000",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "BHV-7000 75 mg"
+       ],
+       "description": "BHV-7000 75 mg. Participants will take open-label investigational product (IP) once daily",
+       "name": "BHV-7000",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Focal Epilepsy"
+     ],
+     "keywords": [
+      "Focal Epilepsy",
+      "Epilepsy",
+      "Seizure",
+      "Refractory Epilepsy",
+      "Partial Epilepsy"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 660,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Long-term Safety and Tolerability of BHV-7000",
+     "nctId": "NCT06443463",
+     "officialTitle": "A Phase 2, Global, Multicenter, Long-term Safety Study Designed to Assess the Safety and Tolerability of BHV-7000 in Subjects With Refractory Focal Onset Epilepsy",
+     "orgStudyIdInfo": {
+      "id": "BHV7000-201"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Biohaven Pharmaceuticals, Inc."
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "2023-508813-18-00",
+       "type": "CTIS"
+      },
+      {
+       "id": "2023",
+       "link": "https://reporter.nih.gov/quickSearch/2023",
+       "type": "NIH"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Biohaven Therapeutics Ltd."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2027-01",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-05-01",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-04-30",
+     "overallStatus": "ENROLLING_BY_INVITATION",
+     "primaryCompletionDateStruct": {
+      "date": "2026-12",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2024-07-30",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-04",
+     "studyFirstPostDateStruct": {
+      "date": "2024-06-05",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2024-05-30",
+     "studyFirstSubmitQcDate": "2024-05-30"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "The BHV4157-206 study is a Phase III, multicenter, randomized, double-blind, 2-arm, placebo-controlled parallel-group study designed to assess the safety, tolerability, and efficacy of troriluzole in a population of patients with SCA. Subjects were randomized to receive placebo (QD) or troriluzole (200 mg QD). BHV4157-206 consisted of a randomization phase and an OLE phase. Subjects in the trorilzuole-treated cohort are from study BHV4157-206, were originally randomized to troriluzole, and extended an opportunity to continue treatment in an open-label extenstion (OLE) phase. All subjects had the opportunity to complete 3-years of treatment.",
+       "interventionNames": [
+        "Drug: BHV-4157"
+       ],
+       "label": "Troriluzole-treated SCA subjects"
+      },
+      {
+       "description": "The natural history comparison group includes SCA subjects from the CRC-SCA and EUROSCA natural history studies. The CRC-SCA study includes individuals with SCA 1, 2, 3, 6, 7, 8, and 10, with the time period of data collection spanning 2010 to present. Patients taking riluzole or troriluzole in the CRC-SCA study were not included in this analysis. The EUROSCA study included individuals with SCA genotypes 1, 2, 3, and 6, with the time period of data collection spanning 2005-2009. The natural history protocols were finalized prior to our conduct of the present analysis, as each was designed for independent research purposes.",
+       "label": "SCA Natural History Comparator"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Troriluzole-treated SCA subjects"
+       ],
+       "description": "BHV-4157 (troriluzole) 200 mg QD",
+       "name": "BHV-4157",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Spinocerebellar Ataxias"
+     ],
+     "keywords": [
+      "propensity score match",
+      "natural history",
+      "disease registry",
+      "SCA",
+      "f-SARA"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "observationalModel": "COHORT",
+      "timePerspective": "RETROSPECTIVE"
+     },
+     "enrollmentInfo": {
+      "count": 909,
+      "type": "ACTUAL"
+     },
+     "patientRegistry": false,
+     "studyType": "OBSERVATIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Real-World Data Study of Troriluzole-Treated Patients With Spinocerebellar Ataxia (SCA) Compared to a Matched Natural History Control",
+     "nctId": "NCT06529146",
+     "officialTitle": "Real-World Data Study Assessing the Efficacy of Troriluzole-Treated Subjects With Spinocerebellar Ataxia (SCA) Compared to a Matched External SCA Control Using Natural History Cohort Data",
+     "orgStudyIdInfo": {
+      "id": "BHV4157-206-RWE"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Biohaven Pharmaceuticals, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Biohaven Therapeutics Ltd."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2026-08",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-06-09",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-06-07",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2024-09-06",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2019-03-18",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-06",
+     "studyFirstPostDateStruct": {
+      "date": "2024-07-31",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2024-07-26",
+     "studyFirstSubmitQcDate": "2024-07-30"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: BHV-2100"
+       ],
+       "label": "BHV-2100 75 mg",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: BHV-2100"
+       ],
+       "label": "BHV-2100 150 mg",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "BHV-2100 75 mg"
+       ],
+       "description": "BHV-2100 75mg",
+       "name": "BHV-2100",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "BHV-2100 150 mg"
+       ],
+       "description": "BHV-2100 150 mg",
+       "name": "BHV-2100",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "matching placebo",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Migraine"
+     ],
+     "keywords": [
+      "Acute Migraine"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 647,
+      "type": "ACTUAL"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Efficacy and Safety Trial of BHV-2100 for the Acute Treatment of Migraine",
+     "nctId": "NCT06603623",
+     "officialTitle": "Phase 2 Double-Blind, Randomized, Placebo Controlled, Efficacy and Safety Trial of BHV-2100 for the Acute Treatment of Migraine",
+     "orgStudyIdInfo": {
+      "id": "BHV2100-201"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Biohaven Pharmaceuticals, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Biohaven Therapeutics Ltd."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2025-03-28",
+      "type": "ACTUAL"
+     },
+     "dispFirstPostDateStruct": {
+      "date": "2025-07-08",
+      "type": "ACTUAL"
+     },
+     "dispFirstSubmitDate": "2026-02-23",
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-02-25",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-02-23",
+     "overallStatus": "COMPLETED",
+     "primaryCompletionDateStruct": {
+      "date": "2025-03-24",
+      "type": "ACTUAL"
+     },
+     "startDateStruct": {
+      "date": "2024-10-10",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-02",
+     "studyFirstPostDateStruct": {
+      "date": "2024-09-19",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2024-09-13",
+     "studyFirstSubmitQcDate": "2024-09-16"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: BHV-1530"
+       ],
+       "label": "BHV-1530 Monotherapy",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: BHV-1530",
+        "Drug: Cemiplimab"
+       ],
+       "label": "Experimental: BHV-1530 in combination with Cemiplimab",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "BHV-1530 Monotherapy",
+        "Experimental: BHV-1530 in combination with Cemiplimab"
+       ],
+       "description": "BHV-1530 will be administered as an IV infusion on Day 1 of each 21-day cycle",
+       "name": "BHV-1530",
+       "otherNames": [
+        "AMB302"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Experimental: BHV-1530 in combination with Cemiplimab"
+       ],
+       "description": "cemiplimab (350 mg) will be administered as an IV infusion on Day 1 of each 21-day cycle",
+       "name": "Cemiplimab",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Solid Tumor"
+     ],
+     "keywords": [
+      "FGFR3-targeting ADC",
+      "antibody-drug conjugate",
+      "FGRF3",
+      "ADC",
+      "FGFR3 alteration",
+      "advanced cancers",
+      "cemiplimab"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NON_RANDOMIZED",
+      "interventionModel": "SEQUENTIAL",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 140,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Phase 1 Study of BHV-1530 in Advanced Solid Tumors",
+     "nctId": "NCT06874335",
+     "officialTitle": "A Phase 1, Multicenter, Open-Label, Dose Escalation, Dose Expansion and Dose Optimization Study of BHV-1530 as Monotherapy and in Combination With Other Anti-Cancer Agents in Adult Participants With Advanced or Metastatic Solid Tumors",
+     "orgStudyIdInfo": {
+      "id": "BHV1530-101"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Biohaven Pharmaceuticals, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Biohaven Therapeutics Ltd."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2029-03",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-07-09",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-07-08",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2029-03",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2025-03-20",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-07",
+     "studyFirstPostDateStruct": {
+      "date": "2025-03-13",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-03-04",
+     "studyFirstSubmitQcDate": "2025-03-07"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "Double-blind (DB) Phase (Randomization through Week 48): Participants will receive blinded IP.\n\nOpen-label Phase: Participants will receive BHV-8000.",
+       "interventionNames": [
+        "Drug: BHV-8000 10mg",
+        "Drug: BHV-8000 20 mg",
+        "Drug: Placebo"
+       ],
+       "label": "BHV-8000 10 mg",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Double-blind (DB) Phase (Randomization through Week 48): Participants will receive blinded IP.\n\nOpen-label Phase: Participants will receive BHV-8000.",
+       "interventionNames": [
+        "Drug: BHV-8000 10mg",
+        "Drug: BHV-8000 20 mg",
+        "Drug: Placebo"
+       ],
+       "label": "BHV-8000 20 mg",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Double-blind (DB) Phase (Randomization through Week 48): Participants will receive blinded IP (matching placebo).\n\nOpen-label Phase: Participants will receive BHV-8000.",
+       "interventionNames": [
+        "Drug: BHV-8000 10mg",
+        "Drug: BHV-8000 20 mg",
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "BHV-8000 10 mg",
+        "BHV-8000 20 mg",
+        "Placebo"
+       ],
+       "description": "taken orally",
+       "name": "BHV-8000 10mg",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "BHV-8000 10 mg",
+        "BHV-8000 20 mg",
+        "Placebo"
+       ],
+       "description": "taken orally",
+       "name": "BHV-8000 20 mg",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "BHV-8000 10 mg",
+        "BHV-8000 20 mg",
+        "Placebo"
+       ],
+       "description": "taken orally",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Parkinson Disease"
+     ],
+     "keywords": [
+      "Early Parkinson's Disease",
+      "Parkinson's Disease",
+      "Early stage Parkinson's Disease",
+      "treatment naiive early Parkinson's Disease"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 550,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE2",
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Study to Determine if BHV-8000 is Effective, Safe and Tolerable as a Treatment for Adults Living With Early Parkinson's Disease",
+     "nctId": "NCT06976268",
+     "officialTitle": "A Phase 2/3, Double-Blind, Placebo-Controlled Study of BHV-8000 in Participants With Early Parkinson's Disease",
+     "orgStudyIdInfo": {
+      "id": "BHV8000-301"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Biohaven Pharmaceuticals, Inc."
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "2025-521113-13-00",
+       "type": "CTIS"
+      },
+      {
+       "id": "2025",
+       "link": "https://reporter.nih.gov/quickSearch/2025",
+       "type": "NIH"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Biohaven Therapeutics Ltd."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2028-09",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-22",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-21",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-08",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2025-05-28",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-10",
+     "studyFirstPostDateStruct": {
+      "date": "2025-05-16",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-05-09",
+     "studyFirstSubmitQcDate": "2025-05-09"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: BHV-1300"
+       ],
+       "label": "BHV-1300",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "BHV-1300"
+       ],
+       "description": "BHV-1300 is delivered subcutaneously (SC)",
+       "name": "BHV-1300",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Graves Disease"
+     ],
+     "keywords": [
+      "Autoimmune thyroid disease",
+      "hyperthyroidism",
+      "anti thyroid drug",
+      "thyroid disease",
+      "autoimmune diseases",
+      "endocrine system diseases"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 15,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Study of BHV-1300 in Graves' Disease",
+     "nctId": "NCT06980649",
+     "officialTitle": "An Open-Label Biomarker Study of BHV-1300 in Graves' Disease",
+     "orgStudyIdInfo": {
+      "id": "BHV1300-202"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Biohaven Pharmaceuticals, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Biohaven Therapeutics Ltd."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2027-09",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-07-31",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-07-29",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-09",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2025-08-21",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-07",
+     "studyFirstPostDateStruct": {
+      "date": "2025-05-20",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-05-12",
+     "studyFirstSubmitQcDate": "2025-05-12"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: BHV-1400"
+       ],
+       "label": "BHV-1400",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "BHV-1400"
+       ],
+       "description": "BHV-1400 is delivered subcutaneously (SC)",
+       "name": "BHV-1400",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "IgA Nephropathy"
+     ],
+     "keywords": [
+      "IgAN",
+      "proteinuria",
+      "glomerulonephropathy",
+      "chronic kidney disease",
+      "kidney disease",
+      "CKD",
+      "nephritis",
+      "urologic disease",
+      "glomerulonephritis",
+      "Glomerular disease",
+      "Iga nephropathy",
+      "renal disease"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 20,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Study of BHV-1400 in IgA Nephropathy",
+     "nctId": "NCT07054684",
+     "officialTitle": "An Open-Label Biomarker Study of BHV-1400 in IgA Nephropathy",
+     "orgStudyIdInfo": {
+      "id": "BHV1400-102"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Biohaven Pharmaceuticals, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Biohaven Therapeutics Ltd."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2027-07",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-06-23",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-06-19",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2027-07",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2025-07-30",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-06",
+     "studyFirstPostDateStruct": {
+      "date": "2025-07-08",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-06-27",
+     "studyFirstSubmitQcDate": "2025-06-27"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: BHV-7000"
+       ],
+       "label": "BHV-7000",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "BHV-7000"
+       ],
+       "description": "Participants will take blinded investigational product (IP) orally once daily",
+       "name": "BHV-7000",
+       "otherNames": [
+        "opakalim"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Matching placebo taken orally once daily",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Familial Erythromelalgia"
+     ],
+     "keywords": [
+      "Erythomelalgia",
+      "IEM",
+      "Primary Erythomelalgia",
+      "SCN9A",
+      "NaV1.7",
+      "Channelopathy",
+      "Red Neuralgia",
+      "Neuropathic Pain",
+      "Inherited Erythomelalgia"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "CROSSOVER",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 5,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE1"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Phase 1b Study of BHV-7000 in Participants With Inherited Erythromelalgia",
+     "nctId": "NCT07262268",
+     "officialTitle": "A Phase 1b, Double-Blind, Crossover Study of BHV-7000 in Patients With Inherited Erythromelalgia (IEM) With NaV1.7 Gain of Function Mutations",
+     "orgStudyIdInfo": {
+      "id": "BHV7000-119"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Biohaven Pharmaceuticals, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Biohaven Therapeutics Ltd."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2026-11",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-04-08",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-04-07",
+     "overallStatus": "ENROLLING_BY_INVITATION",
+     "primaryCompletionDateStruct": {
+      "date": "2026-11",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2026-01-15",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-04",
+     "studyFirstPostDateStruct": {
+      "date": "2025-12-03",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-11-17",
+     "studyFirstSubmitQcDate": "2025-11-21"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "interventionNames": [
+        "Drug: Taldefgrobep Alfa"
+       ],
+       "label": "Taldefgrobep Alpha once weekly",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo once weekly",
+       "type": "PLACEBO_COMPARATOR"
+      },
+      {
+       "interventionNames": [
+        "Drug: Taldefgrobep Alfa"
+       ],
+       "label": "Taldefgrobep Alpha once every 4 weeks",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo once every 4 weeks",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "Taldefgrobep Alpha once weekly"
+       ],
+       "description": "Subcutaneous injection administered once each week",
+       "name": "Taldefgrobep Alfa",
+       "otherNames": [
+        "BHV-2000"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo once weekly"
+       ],
+       "description": "Subcutaneous injection (matching placebo) administered once each week",
+       "name": "Placebo",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Taldefgrobep Alpha once every 4 weeks"
+       ],
+       "description": "Subcutaneous injection administered once every 4 weeks",
+       "name": "Taldefgrobep Alfa",
+       "otherNames": [
+        "BHV-2000"
+       ],
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo once every 4 weeks"
+       ],
+       "description": "Subcutaneous injection (matching placebo) administered once every 4 weeks",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Obesity",
+      "Overweight"
+     ],
+     "keywords": [
+      "myostatin",
+      "activin"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 150,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE2"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Taldefgrobep Alfa in Adults With Overweight and Obesity",
+     "nctId": "NCT07281495",
+     "officialTitle": "A Phase 2b, Multicenter, Randomized, Double-Blind, Placebo-Controlled, Multiple Dose Study With Open-Label Extension to Assess the Efficacy, Safety, and Pharmacokinetics of Subcutaneously Administered Taldefgrobep Alfa in Adults Living With Overweight and Obesity",
+     "orgStudyIdInfo": {
+      "id": "BHV2000-202"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Biohaven Pharmaceuticals, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Biohaven Therapeutics Ltd."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2026-09",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-03-20",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-03-19",
+     "overallStatus": "ACTIVE_NOT_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2026-09",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2025-11-24",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-03",
+     "studyFirstPostDateStruct": {
+      "date": "2025-12-15",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2025-12-04",
+     "studyFirstSubmitQcDate": "2025-12-04"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "500mg BHV-1400 is delivered subcutaneously via autoinjector. Participants will be randomized in a 2:1 ratio to receive either BHV-1400 or placebo.",
+       "interventionNames": [
+        "Drug: BHV-1400"
+       ],
+       "label": "BHV-1400",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Matching placebo is delivered subcutaneously via autoinjector. Participants will be randomized in a 2:1 ratio to receive either BHV-1400 or placebo.",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "BHV-1400"
+       ],
+       "description": "500 mg delivered subcutaneously via autoinjector",
+       "name": "BHV-1400",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "Matching placebo delivered subcutaneously via autoinjector",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "IgA Nephropathy"
+     ],
+     "keywords": [
+      "IgAN",
+      "Chronic Kidney disease",
+      "Nephropathy",
+      "proteinuria",
+      "glomerulonephropathy",
+      "CKD",
+      "nephritis",
+      "urologic disease",
+      "glomerulonephritis",
+      "Glomerular disease",
+      "Iga nephropathy",
+      "renal disease",
+      "kidney disease"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 420,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "A Study to Determine if BHV-1400 is Effective and Safe in Adults With IgA Nephropathy",
+     "nctId": "NCT07642050",
+     "officialTitle": "A Multi-Center, Randomized, Double-Blind, Placebo Controlled Study to Evaluate the Efficacy and Safety of BHV-1400 in the Treatment of IgA Nephropathy",
+     "orgStudyIdInfo": {
+      "id": "BHV1400-301"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Biohaven Pharmaceuticals, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Biohaven Therapeutics Ltd."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2029-10",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-06-11",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-06-08",
+     "overallStatus": "NOT_YET_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2028-09",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2026-06",
+      "type": "ESTIMATED"
+     },
+     "statusVerifiedDate": "2026-06",
+     "studyFirstPostDateStruct": {
+      "date": "2026-06-11",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2026-06-08",
+     "studyFirstSubmitQcDate": "2026-06-08"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "BHV-1300 is delivered subcutaneously via autoinjector. Participants will be randomized in a 2:1 ratio to receive either BHV-1300 or placebo.",
+       "interventionNames": [
+        "Drug: BHV-1300"
+       ],
+       "label": "BHV-1300",
+       "type": "EXPERIMENTAL"
+      },
+      {
+       "description": "Matching placebo is delivered subcutaneously via autoinjector. Participants will be randomized in a 2:1 ratio to receive either BHV-1300 or placebo.",
+       "interventionNames": [
+        "Drug: Placebo"
+       ],
+       "label": "Placebo",
+       "type": "PLACEBO_COMPARATOR"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "BHV-1300"
+       ],
+       "description": "delivered subcutaneously via autoinjector",
+       "name": "BHV-1300",
+       "type": "DRUG"
+      },
+      {
+       "armGroupLabels": [
+        "Placebo"
+       ],
+       "description": "delivered subcutaneously via autoinjector",
+       "name": "Placebo",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Graves Disease"
+     ],
+     "keywords": [
+      "Hyperthyroidism"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "RANDOMIZED",
+      "interventionModel": "PARALLEL",
+      "maskingInfo": {
+       "masking": "QUADRUPLE",
+       "whoMasked": [
+        "PARTICIPANT",
+        "CARE_PROVIDER",
+        "INVESTIGATOR",
+        "OUTCOMES_ASSESSOR"
+       ]
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 300,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "Study to Determine if BHV-1300 is Effective and Safe in Adults With Graves' Disease",
+     "nctId": "NCT07661056",
+     "officialTitle": "A Phase 3, Double-blind, Multicenter, Randomized, Placebo-Controlled Study to Evaluate the Efficacy, Safety and Tolerability of BHV-1300 in the Treatment of Adults With Graves' Disease",
+     "orgStudyIdInfo": {
+      "id": "BHV1300-302"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Biohaven Pharmaceuticals, Inc."
+     },
+     "secondaryIdInfos": [
+      {
+       "id": "2026-526455-53-00",
+       "type": "CTIS"
+      }
+     ]
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Biohaven Therapeutics Ltd."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2028-02",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-19",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-15",
+     "overallStatus": "RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2028-01",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2026-06-26",
+      "type": "ACTUAL"
+     },
+     "statusVerifiedDate": "2026-10",
+     "studyFirstPostDateStruct": {
+      "date": "2026-06-22",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2026-06-16",
+     "studyFirstSubmitQcDate": "2026-06-16"
+    }
+   }
+  },
+  {
+   "hasResults": false,
+   "protocolSection": {
+    "armsInterventionsModule": {
+     "armGroups": [
+      {
+       "description": "BHV-1300 is delivered subcutaneously via autoinjector",
+       "interventionNames": [
+        "Drug: BHV-1300"
+       ],
+       "label": "BHV-1300",
+       "type": "EXPERIMENTAL"
+      }
+     ],
+     "interventions": [
+      {
+       "armGroupLabels": [
+        "BHV-1300"
+       ],
+       "description": "delivered subcutaneously via autoinjector",
+       "name": "BHV-1300",
+       "type": "DRUG"
+      }
+     ]
+    },
+    "conditionsModule": {
+     "conditions": [
+      "Graves' Disease"
+     ],
+     "keywords": [
+      "Hyperthyroidism"
+     ]
+    },
+    "designModule": {
+     "designInfo": {
+      "allocation": "NA",
+      "interventionModel": "SINGLE_GROUP",
+      "maskingInfo": {
+       "masking": "NONE"
+      },
+      "primaryPurpose": "TREATMENT"
+     },
+     "enrollmentInfo": {
+      "count": 356,
+      "type": "ESTIMATED"
+     },
+     "phases": [
+      "PHASE2",
+      "PHASE3"
+     ],
+     "studyType": "INTERVENTIONAL"
+    },
+    "identificationModule": {
+     "briefTitle": "An Open-Label Study to Determine if BHV-1300 is Safe in Adults With Graves' Disease",
+     "nctId": "NCT07901244",
+     "officialTitle": "A Phase 2b/3, Open-label, Multicenter, Study to Evaluate the Safety and Tolerability of BHV-1300 in the Treatment of Adults With Graves' Disease",
+     "orgStudyIdInfo": {
+      "id": "BHV1300-203"
+     },
+     "organization": {
+      "class": "INDUSTRY",
+      "fullName": "Biohaven Pharmaceuticals, Inc."
+     }
+    },
+    "sponsorCollaboratorsModule": {
+     "leadSponsor": {
+      "class": "INDUSTRY",
+      "name": "Biohaven Therapeutics Ltd."
+     },
+     "responsibleParty": {
+      "type": "SPONSOR"
+     }
+    },
+    "statusModule": {
+     "completionDateStruct": {
+      "date": "2029-01",
+      "type": "ESTIMATED"
+     },
+     "expandedAccessInfo": {
+      "hasExpandedAccess": false
+     },
+     "lastUpdatePostDateStruct": {
+      "date": "2026-10-28",
+      "type": "ACTUAL"
+     },
+     "lastUpdateSubmitDate": "2026-10-22",
+     "overallStatus": "NOT_YET_RECRUITING",
+     "primaryCompletionDateStruct": {
+      "date": "2028-12",
+      "type": "ESTIMATED"
+     },
+     "startDateStruct": {
+      "date": "2026-10",
+      "type": "ESTIMATED"
+     },
+     "statusVerifiedDate": "2026-10",
+     "studyFirstPostDateStruct": {
+      "date": "2026-10-28",
+      "type": "ACTUAL"
+     },
+     "studyFirstSubmitDate": "2026-10-22",
+     "studyFirstSubmitQcDate": "2026-10-22"
+    }
+   }
+  }
+ ]
+}

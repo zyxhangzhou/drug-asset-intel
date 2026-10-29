@@ -1,0 +1,90 @@
+{
+ "nctId": "NCT03853317",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "9"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "9"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The safety of the combination treatment of avelumab, haNK, and N-803 in subjects with MCC that has progressed on or after checkpoint inhibitor therapy",
+   "groups": [
+    {
+     "description": "The primary objective is to determine the efficacy of the combination treatment of avelumab, haNK, and N-803 in subjects with MCC that has progressed on or after checkpoint inhibitor therapy by objective response rate (ORR) using Response Evaluation Criteria in Solid Tumors Version 1.1 (RECIST 1.1)\n\nAvelumab: For the treatment of adults and pediatric patients 12 years and older with Metastatic Merkel Cell Carcinoma (MCC).\n\nN-803: Recombinant human super agonist interleukin-15 (IL-15) complex\n\nhaNK™: haNK™ for Infusion is a human, allogeneic, NK cell line that has been engineered to produce endogenous, intracellularly retained IL-2 and to express CD16, the high-affinity (158V) Fc gamma receptor (FcγRIIIa/CD16a).",
+     "id": "OG000",
+     "title": "Treatment With Avelumab, haNK™ and N-803"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "reportingStatus": "POSTED",
+   "timeFrame": "30 days after last dose, approximately 1 year 7 months",
+   "title": "Number of Participants With Adverse Events",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  },
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "0.0",
+         "upperLimit": "33.6",
+         "value": "0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "9"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Percent of subjects with confirmed complete Response (CR; disappearance of all target lesions) or partial response (PR; \\>=30% decrease in the sum of the longest diameter of target lesions) by RECIST v1.1",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "The primary objective is to determine the efficacy of the combination treatment of avelumab, haNK, and N-803 in subjects with MCC that has progressed on or after checkpoint inhibitor therapy by objective response rate (ORR) using Response Evaluation Criteria in Solid Tumors Version 1.1 (RECIST 1.1)\n\nAvelumab: For the treatment of adults and pediatric patients 12 years and older with Metastatic Merkel Cell Carcinoma (MCC).\n\nN-803: Recombinant human super agonist interleukin-15 (IL-15) complex\n\nhaNK™: haNK™ for Infusion is a human, allogeneic, NK cell line that has been engineered to produce endogenous, intracellularly retained IL-2 and to express CD16, the high-affinity (158V) Fc gamma receptor (FcγRIIIa/CD16a).",
+     "id": "OG000",
+     "title": "Treatment With Avelumab, haNK™ and N-803"
+    }
+   ],
+   "paramType": "NUMBER",
+   "reportingStatus": "POSTED",
+   "timeFrame": "approximately 1 year 7 months",
+   "title": "Objective Response Rate",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Percent of Subjects"
+  }
+ ]
+}

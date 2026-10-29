@@ -1,0 +1,159 @@
+{
+ "nctId": "NCT01114737",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-8.9",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "0.6",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "2.3",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+     "pValue": "0.085",
+     "paramType": "Mean Difference (Final Values)",
+     "paramValue": "-4.2",
+     "statisticalComment": "Adjusted for baseline ADHD-RS/ASRS total score, age group, and ADHD medication.",
+     "statisticalMethod": "ANCOVA",
+     "testedNonInferiority": false
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "-8.9",
+         "upperLimit": "-0.9",
+         "value": "-4.9"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "-13.5",
+         "upperLimit": "-4.7",
+         "value": "-9.1"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "19"
+      },
+      {
+       "groupId": "OG001",
+       "value": "19"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Effects of 6R-BH4 on symptoms of ADHD in PKU subjects who had symptoms of ADHD at screening in the subjects that had a blood Phe level reduction after treatment with 6R-BH4.\n\nThe total ADHD-RS score and the corrected total ARS score range from 0 to 54, with higher scores corresponding to worse severity of ADHD symptoms.",
+   "dispersionType": "95% Confidence Interval",
+   "groups": [
+    {
+     "description": "Included all subjects in the Placebo arm who had a blood Phe level reduction ≥ 20% from Baseline within their first 4 weeks of sapropterin treatment with ADHD symptoms at Baseline",
+     "id": "OG000",
+     "title": "Responders in Placebo Arm With ADHD Symptoms"
+    },
+    {
+     "description": "Included all subjects in the 6R-BH4 20 mg/kg/day Arm who had a blood Phe level reduction ≥ 20% from Baseline within their first 4 weeks of sapropterin treatment with ADHD symptoms at Baseline",
+     "id": "OG001",
+     "title": "Responders in 6R-BH4 20 mg/kg/Day Arm With ADHD Symptoms"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline to Week 13",
+   "title": "Change in Attention-Deficit Hyperactivity Disorder Rating Scale-IV (ADHD-RS) / Adult ADHD Self-Report Scale (ASRS) Total Score From Baseline to Week 13",
+   "type": "PRIMARY",
+   "unitOfMeasure": "units on a scale"
+  },
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "0.46",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "1.64",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY_OR_OTHER",
+     "pValue": "0.67",
+     "paramType": "Relative Risk",
+     "paramValue": "0.87",
+     "statisticalComment": "Adjusted for age group, ADHD symptom, and ADHD medication",
+     "statisticalMethod": "Cochran-Mantel-Haenszel",
+     "testedNonInferiority": false
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "15"
+        },
+        {
+         "groupId": "OG001",
+         "value": "13"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "57"
+      },
+      {
+       "groupId": "OG001",
+       "value": "60"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Effects of 6R-BH4 on global function in PKU subjects in subjects that had a blood Phe level reduction after treatment with 6R-BH4 at screening.\n\nThe CGI-I is a 7-point scale that requires the clinician to assess how much the participant's illness has improved or worsened relative to a baseline state at the beginning of the intervention and rated as: 1=very much improved; 2=much improved; 3=minimally improved; 4=no change; 5=minimally worse; 6=much worse; 7=very much worse.",
+   "groups": [
+    {
+     "description": "Included all subjects in the Placebo arm who had a blood Phe level reduction ≥ 20% from Baseline within their first 4 weeks of sapropterin treatment",
+     "id": "OG000",
+     "title": "Responders in Placebo Arm"
+    },
+    {
+     "description": "Included all subjects in the 6R-BH4 20 mg/kg/day Arm who had a blood Phe level reduction ≥ 20% from Baseline within their first 4 weeks of sapropterin treatment",
+     "id": "OG001",
+     "title": "Responders in 6R-BH4 20 mg/kg/Day Arm"
+    }
+   ],
+   "paramType": "NUMBER",
+   "populationDescription": "Missing data for 1 subject in the Responders in 6R-BH4 20 mg/kg/day Arm",
+   "reportingStatus": "POSTED",
+   "timeFrame": "13 weeks",
+   "title": "Number of Participants With a Score of 1 or 2 in Global Function Evaluation (CGI-I) From Baseline to Week 13.",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Number of participants with scale 1 or 2"
+  }
+ ]
+}

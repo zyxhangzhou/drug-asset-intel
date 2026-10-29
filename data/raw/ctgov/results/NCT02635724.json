@@ -1,0 +1,157 @@
+{
+ "nctId": "NCT02635724",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "17"
+        },
+        {
+         "groupId": "OG001",
+         "value": "9"
+        },
+        {
+         "groupId": "OG002",
+         "value": "1"
+        }
+       ]
+      }
+     ],
+     "title": "Subjects with at Least 1 Adverse Event"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "5"
+        },
+        {
+         "groupId": "OG001",
+         "value": "3"
+        },
+        {
+         "groupId": "OG002",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Subjects with at Least 1 Adverse Event Related to Study Drug"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        },
+        {
+         "groupId": "OG002",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Subjects with at Least 1 Adverse Event Leading to Study Discontinuation"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "1"
+        },
+        {
+         "groupId": "OG002",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Subjects with at Least 1 Severe or Life-Threatening Adverse Event"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "0"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        },
+        {
+         "groupId": "OG002",
+         "value": "0"
+        }
+       ]
+      }
+     ],
+     "title": "Subjects with at Least 1 Severe or Life-Threatening Adverse Event Related to Study Drug"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "41"
+      },
+      {
+       "groupId": "OG001",
+       "value": "25"
+      },
+      {
+       "groupId": "OG002",
+       "value": "7"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Safety was evaluated through assessment of Adverse Events (AEs).",
+   "groups": [
+    {
+     "description": "A single IV dose of peramivir was administered to adults considered at risk",
+     "id": "OG000",
+     "title": "At Risk (<65 Years)"
+    },
+    {
+     "description": "A single IV dose of peramivir was administered to adults aged 65 to 75 years",
+     "id": "OG001",
+     "title": "Elderly (65-75 Years)"
+    },
+    {
+     "description": "A single IV dose of peramivir was administered to adults aged over 75 years",
+     "id": "OG002",
+     "title": "Very Elderly (>75 Years)"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "reportingStatus": "POSTED",
+   "timeFrame": "14 days",
+   "title": "Safety and Tolerability, as Measured by the Number of Adverse Events.",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

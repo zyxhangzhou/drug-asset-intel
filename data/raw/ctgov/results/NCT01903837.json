@@ -1,0 +1,113 @@
+{
+ "nctId": "NCT01903837",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-2.0",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "2.6",
+     "dispersionType": "STANDARD_ERROR_OF_MEAN",
+     "dispersionValue": "1.17",
+     "groupIds": [
+      "OG000",
+      "OG001",
+      "OG002",
+      "OG003"
+     ],
+     "nonInferiorityComment": "Equivalence margin of 10 points",
+     "nonInferiorityType": "EQUIVALENCE",
+     "pValue": "0.3",
+     "paramType": "Least Square Mean Difference",
+     "paramValue": "0.3",
+     "statisticalMethod": "Least Square Mean Difference"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "0.82",
+         "value": "-2.9"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "0.85",
+         "value": "-1.5"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "0.79",
+         "value": "-2.7"
+        },
+        {
+         "groupId": "OG003",
+         "spread": "0.83",
+         "value": "-2.5"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "74"
+      },
+      {
+       "groupId": "OG001",
+       "value": "75"
+      },
+      {
+       "groupId": "OG002",
+       "value": "83"
+      },
+      {
+       "groupId": "OG003",
+       "value": "68"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Change from baseline (Day 8) to Day 92 (end of study Part A).\n\nThe PANSS is a 30-item scale measuring severity of schizophrenia symptoms. Symptom severity for each item is rated on a 7-point scale (1 = absent; 7 = extreme), and the total score is added together, with a minimum score of 30 and a maximum score of 210. A higher score indicates more severe symptoms, while a lower score indicates less severe symptoms.",
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Subjects who were randomized to olanzapine + placebo in study Part A, received at least one dose of study drug, and had at least one post-baseline assessment of PANSS total score",
+     "id": "OG000",
+     "title": "Part A FAS 1 - Olz + Placebo"
+    },
+    {
+     "description": "Subjects who were randomized to olanzapine + samidorphan 5mg in study Part A, received at least one dose of study drug, and had at least one post-baseline assessment of PANSS total score",
+     "id": "OG001",
+     "title": "Part A FAS 1 - Olz + Sam 5mg"
+    },
+    {
+     "description": "Subjects who were randomized to olanzapine + samidorphan 10mg in study Part A, received at least one dose of study drug, and had at least one post-baseline assessment of PANSS total score",
+     "id": "OG002",
+     "title": "Part A FAS 1- Olz+ Sam 10mg"
+    },
+    {
+     "description": "Subjects who were randomized to olanzapine + samidorphan 20mg in study Part A, received at least one dose of study drug, and had at least one post-baseline assessment of PANSS total score",
+     "id": "OG003",
+     "title": "Part A FAS 1- Olz+ Sam 20mg"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Full Analysis Set (FAS) 1 efficacy analysis population included all randomized subjects who received at least one dose of study drug and had at least one postbaseline assessment of Positive and Negative Syndrome Scale (PANSS) total score.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline (Day 8) to Day 92 (end of study Part A)",
+   "title": "Absolute Change in Total Positive and Negative Syndrome Scale (PANSS) Score",
+   "type": "PRIMARY",
+   "unitOfMeasure": "units on a scale"
+  }
+ ]
+}

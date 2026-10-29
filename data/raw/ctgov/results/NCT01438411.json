@@ -1,0 +1,139 @@
+{
+ "nctId": "NCT01438411",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "25"
+        }
+       ]
+      }
+     ],
+     "title": "Baseline score: normal"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "6"
+        }
+       ]
+      }
+     ],
+     "title": "Baseline score: slight"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "10"
+        }
+       ]
+      }
+     ],
+     "title": "Baseline score: significant"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "10"
+        }
+       ]
+      }
+     ],
+     "title": "Baseline score: marked"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "25"
+        }
+       ]
+      }
+     ],
+     "title": "Worst-post-BL score: normal"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "11"
+        }
+       ]
+      }
+     ],
+     "title": "Worst-post-BL score: slight"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "6"
+        }
+       ]
+      }
+     ],
+     "title": "Worst-post-BL score: significant"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "9"
+        }
+       ]
+      }
+     ],
+     "title": "Worst-post-BL score: marked"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "51"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The level of atypical urinary bile acid secretion was scored using a scale of: 0, normal; 1, slight; 2, significant; or 3, marked. A Cochran-Mantel-Haenszel (CMH) test with modified ridit scoring was used to compare the difference between the score at baseline and the worst post-baseline score during treatment with cholic acid in this single-arm trial.",
+   "groups": [
+    {
+     "description": "Cholic acid capsules, each containing 50 mg or 250 mg of cholic acid to be administered orally at a daily dose of 10-15 mg/kg body weight",
+     "id": "OG000",
+     "title": "Cholic Acid"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Patients with values",
+   "reportingStatus": "POSTED",
+   "timeFrame": "At baseline, then every 12 months for an average of 3.5 years",
+   "title": "Change in Atypical Urinary Bile Acid Excretion by FAB-MS (Fast-Atom-Bombardment Ionization-Mass Spectrometry)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

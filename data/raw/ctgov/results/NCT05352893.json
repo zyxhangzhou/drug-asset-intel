@@ -1,0 +1,79 @@
+{
+ "nctId": "NCT05352893",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "lowerLimit": "8.27",
+         "upperLimit": "70.57",
+         "value": "8"
+        },
+        {
+         "groupId": "OG001",
+         "lowerLimit": "8.66",
+         "upperLimit": "71.47",
+         "value": "8"
+        },
+        {
+         "groupId": "OG002",
+         "lowerLimit": "NA",
+         "upperLimit": "NA",
+         "value": "2"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "15"
+      },
+      {
+       "groupId": "OG001",
+       "value": "15"
+      },
+      {
+       "groupId": "OG002",
+       "value": "15"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "The Generalized Pustular Psoriasis Physician's Global Assessment (GPPPGA) is a physician-based assessment of the overall disease severity of GPP at the time of evaluation (specifically pustules, erythema, and scaling/crusting of pustular psoriasis lesions). The GPPPGA is graded on a 5-point scale, ranging from 0 (clear) to 4 (severe).\n\nGPPPGA Scale: 0 = Clear, 1 = Almost clear, 2 = Mild, 3 = Moderate, 4 = Severe.",
+   "groups": [
+    {
+     "description": "Intravenous Imsidolimab",
+     "id": "OG000",
+     "title": "Imsidolimab 750 mg"
+    },
+    {
+     "description": "Intravenous Imsidolimab",
+     "id": "OG001",
+     "title": "Imsidolimab 300 mg"
+    },
+    {
+     "description": "Intravenous Placebo",
+     "id": "OG002",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "All participants randomized (1:1:1) to 750 mg imsidolimab, 300 mg imsidolimab , or placebo.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Week 4",
+   "title": "Percentage of Patients Achieving a GPPPGA Score of 0 (Clear) or 1 (Almost Clear)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

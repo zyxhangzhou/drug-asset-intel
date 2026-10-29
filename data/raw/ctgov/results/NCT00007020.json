@@ -1,0 +1,139 @@
+{
+ "nctId": "NCT00007020",
+ "primaryOutcomeMeasures": [
+  {
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "10"
+        }
+       ]
+      }
+     ],
+     "title": "Baseline, no atypical bile acid excretion"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "51"
+        }
+       ]
+      }
+     ],
+     "title": "On treatment, no atypical bile acid excretion"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "11"
+        }
+       ]
+      }
+     ],
+     "title": "Baseline, slight atypical bile acid excretion"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "9"
+        }
+       ]
+      }
+     ],
+     "title": "On treatment, slight atypical bile acid excretion"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "16"
+        }
+       ]
+      }
+     ],
+     "title": "Baseline, significant atypical bile acid excretion"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "4"
+        }
+       ]
+      }
+     ],
+     "title": "OT, significant atypical bile acid excretion"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "33"
+        }
+       ]
+      }
+     ],
+     "title": "Baseline, marked atypical bile acid excretion"
+    },
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "6"
+        }
+       ]
+      }
+     ],
+     "title": "On treatment, marked atypical bile acid excretion"
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "70"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Patients with excretion of atypical bile acids in urine by category, from worst status before treatment (baseline, BL) to best status on treatment (OT)",
+   "groups": [
+    {
+     "description": "Patients treated",
+     "id": "OG000",
+     "title": "Cholic Acid"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "Patients treated and with at least 1 pre-treatment and 1 post-treatment assessment",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, then every 1, 3, or 6 months (depending on protocol version) for an average of 2.8 years",
+   "title": "Number of Participants With Excretion of Atypical Bile Acids in Urine by Category",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

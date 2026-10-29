@@ -1,0 +1,80 @@
+{
+ "nctId": "NCT04684914",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.3029",
+     "statisticalMethod": "Chi-squared"
+    },
+    {
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "0.4881",
+     "statisticalMethod": "Fisher Exact"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "value": "1"
+        },
+        {
+         "groupId": "OG001",
+         "value": "0"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "41"
+      },
+      {
+       "groupId": "OG001",
+       "value": "43"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "description": "Virologic response is defined as a 1.0-log reduction in quantitative hepatitis B surface antigen (HBsAg) or serologic clearance of HBsAg from Baseline to Day 169",
+   "groups": [
+    {
+     "description": "Dose administered at intervals of 4 weeks for 6 doses\n\nHepTcell: Intramuscular injection",
+     "id": "OG000",
+     "title": "HepTcell"
+    },
+    {
+     "description": "Dose administered at intervals of 4 weeks for 6 doses\n\nPlacebo: Intramuscular injection",
+     "id": "OG001",
+     "title": "Placebo"
+    }
+   ],
+   "paramType": "COUNT_OF_PARTICIPANTS",
+   "populationDescription": "mITT population",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline to Day 169",
+   "title": "The Proportion of Patients Achieving Virologic Responses",
+   "type": "PRIMARY",
+   "unitOfMeasure": "Participants"
+  }
+ ]
+}

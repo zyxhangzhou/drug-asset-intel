@@ -1,0 +1,140 @@
+{
+ "nctId": "NCT04720534",
+ "primaryOutcomeMeasures": [
+  {
+   "analyses": [
+    {
+     "ciLowerLimit": "-64.0",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-33.7",
+     "groupIds": [
+      "OG000",
+      "OG001"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "< 0.0001",
+     "pValueComment": "MMRM model includes treatment arm, study visit, and baseline value as model terms. The model also includes treatment by visit and treatment by baseline as interaction terms. Observed cases of the data from baseline through Week 48 are included.",
+     "paramType": "Difference",
+     "paramValue": "-48.8",
+     "statisticalMethod": "Mixed models repeated measures (MMRM)"
+    },
+    {
+     "ciLowerLimit": "-68.1",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-38.0",
+     "groupIds": [
+      "OG000",
+      "OG002"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "< 0.0001",
+     "pValueComment": "MMRM model includes treatment arm, study visit, and baseline value as model terms. The model also includes treatment by visit and treatment by baseline as interaction terms. Observed cases of the data from baseline through Week 48 are included.",
+     "paramType": "Difference",
+     "paramValue": "-53.1",
+     "statisticalMethod": "Mixed models repeated measures (MMRM)"
+    },
+    {
+     "ciLowerLimit": "-71.9",
+     "ciNumSides": "TWO_SIDED",
+     "ciPctValue": "95",
+     "ciUpperLimit": "-42.1",
+     "groupIds": [
+      "OG000",
+      "OG003"
+     ],
+     "nonInferiorityType": "SUPERIORITY",
+     "pValue": "< 0.0001",
+     "pValueComment": "MMRM model includes treatment arm, study visit, and baseline value as model terms. The model also includes treatment by visit and treatment by baseline as interaction terms. Observed cases of the data from baseline through Week 48 are included.",
+     "paramType": "Difference",
+     "paramValue": "-57.0",
+     "statisticalMethod": "Mixed models repeated measures (MMRM)"
+    }
+   ],
+   "classes": [
+    {
+     "categories": [
+      {
+       "measurements": [
+        {
+         "groupId": "OG000",
+         "spread": "5.27",
+         "value": "-17.2"
+        },
+        {
+         "groupId": "OG001",
+         "spread": "5.61",
+         "value": "-66.0"
+        },
+        {
+         "groupId": "OG002",
+         "spread": "5.51",
+         "value": "-70.2"
+        },
+        {
+         "groupId": "OG003",
+         "spread": "5.44",
+         "value": "-74.2"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "denoms": [
+    {
+     "counts": [
+      {
+       "groupId": "OG000",
+       "value": "59"
+      },
+      {
+       "groupId": "OG001",
+       "value": "50"
+      },
+      {
+       "groupId": "OG002",
+       "value": "54"
+      },
+      {
+       "groupId": "OG003",
+       "value": "55"
+      }
+     ],
+     "units": "Participants"
+    }
+   ],
+   "dispersionType": "Standard Error",
+   "groups": [
+    {
+     "description": "Participants received a total of 2 placebo SC injections on Day 1 and Week 12 for a total of 2 injections.",
+     "id": "OG000",
+     "title": "Placebo, Day 1 and Week 12"
+    },
+    {
+     "description": "Participants received a total of 2 ARO-APOC3 10 mg SC injections on Day 1 and Week 12 for a total of 2 injections.",
+     "id": "OG001",
+     "title": "ARO-APOC3 10 mg"
+    },
+    {
+     "description": "Participants received a total of 2 ARO-APOC3 25 mg SC injections on Day 1 and Week 12 for a total of 2 injections.",
+     "id": "OG002",
+     "title": "ARO-APOC3 25 mg"
+    },
+    {
+     "description": "Participants received a total of 2 ARO-APOC3 50 mg SC injections on Day 1 and Week 12 for a total of 2 injections.",
+     "id": "OG003",
+     "title": "ARO-APOC3 50 mg"
+    }
+   ],
+   "paramType": "LEAST_SQUARES_MEAN",
+   "populationDescription": "Full Analysis Set: All randomized participants who receive at least 1 dose of investigational product (IP). Observed cases.",
+   "reportingStatus": "POSTED",
+   "timeFrame": "Baseline, Week 24",
+   "title": "Percent Change From Baseline at Week 24 in Fasting Triglycerides (TG)",
+   "type": "PRIMARY",
+   "unitOfMeasure": "percentage change"
+  }
+ ]
+}
