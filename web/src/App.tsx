@@ -6,6 +6,8 @@ import { fetchMeta, type SnapshotMeta } from './api/client'
 const ENTITY_LABELS: Record<string, string> = {
   buyer: '买方药企',
   buyer_preference: '买方偏好',
+  buyer_financial: '买方财务',
+  buyer_product_loe: '买方专利到期产品',
   target: '标的公司',
   program: '管线',
   program_indication: '管线适应症',

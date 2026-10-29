@@ -14,6 +14,8 @@ from intel.enums import (
     CatalystType,
     ClaimKind,
     Confidence,
+    ExclusionCategory,
+    LinkStatus,
     PreferenceDimension,
     ProducedBy,
     SourceType,
@@ -26,10 +28,16 @@ class Source(SQLModel, table=True):
     url: str | None = None
     source_type: SourceType
     title: str | None = None
+    publisher: str | None = None
+    doc_kind: str | None = None
+    note: str | None = None
     published_date: date | None = None
+    published_date_text: str | None = None
     fetched_at: datetime
     local_path: str | None = None
     content_hash: str | None = None
+    link_status: LinkStatus = LinkStatus.unchecked
+    link_checked_at: datetime | None = None
 
 
 class Claim(SQLModel, table=True):
@@ -46,6 +54,16 @@ class Claim(SQLModel, table=True):
     produced_by: ProducedBy
     model: str | None = None
     note: str | None = None
+
+
+class MethodNote(SQLModel, table=True):
+    """Methodology notes shipped with the MNC material; documentation, not business data."""
+
+    __tablename__ = "method_note"
+    id: int | None = Field(default=None, primary_key=True)
+    source_id: str = Field(foreign_key="source.source_id")
+    item: str
+    text: str
 
 
 class SnapshotMeta(SQLModel, table=True):
@@ -77,21 +95,93 @@ class Buyer(SQLModel, table=True):
     confidence: Confidence | None = None
 
     preferences: list["BuyerPreference"] = Relationship(back_populates="buyer")
+    financials: list["BuyerFinancial"] = Relationship(back_populates="buyer")
+    products: list["BuyerProductLoe"] = Relationship(back_populates="buyer")
     matches: list["Match"] = Relationship(back_populates="buyer")
 
 
 class BuyerPreference(SQLModel, table=True):
     __tablename__ = "buyer_preference"
-    BUSINESS_FIELDS: ClassVar[tuple[str, ...]] = ("label", "detail")
+    BUSINESS_FIELDS: ClassVar[tuple[str, ...]] = (
+        "label",
+        "need_type",
+        "target_profile",
+        "evidence",
+        "analysis",
+        "ideal_stage",
+        "deal_form",
+    )
     id: int | None = Field(default=None, primary_key=True)
     buyer_id: int = Field(foreign_key="buyer.id", index=True)
     dimension: PreferenceDimension
     rank: int
     label: str | None = None
-    detail: str | None = None
+    need_type: str | None = None
+    target_profile: str | None = None
+    evidence: str | None = None
+    analysis: str | None = None
+    ideal_stage: str | None = None
+    deal_form: str | None = None
     confidence: Confidence | None = None
 
     buyer: Buyer = Relationship(back_populates="preferences")
+
+
+class BuyerFinancial(SQLModel, table=True):
+    """Buyer capacity row from the MNC overview sheet; amounts in billions, local currency."""
+
+    __tablename__ = "buyer_financial"
+    BUSINESS_FIELDS: ClassVar[tuple[str, ...]] = (
+        "revenue_total",
+        "revenue_us",
+        "cash_and_short_term_investments",
+        "total_debt",
+        "net_debt",
+        "free_cash_flow",
+        "capital_allocation_note",
+        "recent_deals",
+        "focus_areas",
+    )
+    id: int | None = Field(default=None, primary_key=True)
+    buyer_id: int = Field(foreign_key="buyer.id", index=True)
+    fiscal_year: str
+    currency: str
+    revenue_total: float | None = None
+    revenue_us: float | None = None
+    cash_and_short_term_investments: float | None = None
+    total_debt: float | None = None
+    net_debt: float | None = None
+    free_cash_flow: float | None = None
+    capital_allocation_note: str | None = None
+    recent_deals: str | None = None
+    focus_areas: str | None = None
+
+    buyer: Buyer = Relationship(back_populates="financials")
+
+
+class BuyerProductLoe(SQLModel, table=True):
+    """A buyer product facing US loss of exclusivity; revenue in billions, local currency."""
+
+    __tablename__ = "buyer_product_loe"
+    BUSINESS_FIELDS: ClassVar[tuple[str, ...]] = (
+        "revenue_global",
+        "revenue_us",
+        "us_loe",
+        "generic_status",
+        "defense",
+        "basis_note",
+    )
+    id: int | None = Field(default=None, primary_key=True)
+    buyer_id: int = Field(foreign_key="buyer.id", index=True)
+    product: str
+    revenue_global: float | None = None
+    revenue_us: float | None = None
+    us_loe: str | None = None
+    generic_status: str | None = None
+    defense: str | None = None
+    basis_note: str | None = None
+
+    buyer: Buyer = Relationship(back_populates="products")
 
 
 class Target(SQLModel, table=True):
@@ -101,6 +191,7 @@ class Target(SQLModel, table=True):
     name: str
     cik: str | None = None
     excluded: bool = False
+    exclusion_category: ExclusionCategory | None = None
     exclusion_reason: str | None = None
     shortlisted: bool = False
     deep_dive: bool = False
@@ -245,6 +336,8 @@ class Match(SQLModel, table=True):
 DOMAIN_TABLES: tuple[type[SQLModel], ...] = (
     Buyer,
     BuyerPreference,
+    BuyerFinancial,
+    BuyerProductLoe,
     Target,
     Program,
     ProgramIndication,

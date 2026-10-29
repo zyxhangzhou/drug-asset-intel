@@ -58,3 +58,17 @@ class SourceType(StrEnum):
     publication = "publication"
     market_data = "market_data"
     other = "other"
+
+
+class ExclusionCategory(StrEnum):
+    acquired = "acquired"
+    buyer_scale = "buyer_scale"
+    non_therapeutic = "non_therapeutic"
+
+
+class LinkStatus(StrEnum):
+    unchecked = "unchecked"
+    ok = "ok"
+    blocked = "blocked"
+    broken = "broken"
+    local_file = "local_file"

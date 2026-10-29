@@ -12,9 +12,13 @@ from intel.db import (
     provenance_gaps,
     rw_engine,
 )
-from intel.enums import ClaimKind, Confidence, ProducedBy, SourceType, Stage
+from intel.enums import ClaimKind, Confidence, PreferenceDimension, ProducedBy, SourceType, Stage
 from intel.models import (
     DOMAIN_TABLES,
+    Buyer,
+    BuyerFinancial,
+    BuyerPreference,
+    BuyerProductLoe,
     Claim,
     Program,
     ProgramIndication,
@@ -66,6 +70,24 @@ def test_pipeline_hierarchy_is_navigable(session):
     assert session.exec(select(Trial)).one().indication.program.target.ticker == "ABCD"
 
 
+def test_buyer_detail_is_navigable(session):
+    buyer = Buyer(ticker="MRK", name="Merck")
+    session.add_all(
+        [
+            BuyerPreference(
+                buyer=buyer, dimension=PreferenceDimension.therapeutic_area, rank=1, label="肿瘤"
+            ),
+            BuyerFinancial(buyer=buyer, fiscal_year="FY2025", currency="USD", revenue_total=65.01),
+            BuyerProductLoe(buyer=buyer, product="Keytruda", us_loe="2028"),
+        ]
+    )
+    session.commit()
+    loaded = session.exec(select(Buyer)).one()
+    assert loaded.preferences[0].label == "肿瘤"
+    assert loaded.financials[0].revenue_total == 65.01
+    assert loaded.products[0].product == "Keytruda"
+
+
 # --- sources --------------------------------------------------------------------------
 
 
@@ -88,6 +110,20 @@ def test_unknown_publish_date_still_requires_fetch_time(session):
     session.commit()
     src = session.get(Source, "X-1")
     assert src.published_date is None and src.fetched_at is not None
+
+
+def test_partial_publish_date_keeps_text_only(session):
+    session.add(
+        Source(
+            source_id="MRK-1",
+            source_type=SourceType.mnc_material,
+            published_date_text="2026-08",
+            fetched_at=datetime.now(UTC),
+        )
+    )
+    session.commit()
+    src = session.get(Source, "MRK-1")
+    assert src.published_date is None and src.published_date_text == "2026-08"
 
 
 def test_archived_document_hash_is_verifiable(tmp_path, session):
@@ -149,6 +185,12 @@ def test_out_of_vocabulary_stage_is_rejected(session):
     program = Program(target=target, name="ABC-101")
     session.add(ProgramIndication(program=program, indication="NSCLC", stage="Ph III"))
     with pytest.raises(IntegrityViolation, match="phase3"):
+        session.commit()
+
+
+def test_out_of_vocabulary_exclusion_category_is_rejected(session):
+    session.add(Target(ticker="ABCD", name="Abcd", excluded=True, exclusion_category="too_big"))
+    with pytest.raises(IntegrityViolation, match="buyer_scale"):
         session.commit()
 
 
