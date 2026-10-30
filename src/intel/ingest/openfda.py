@@ -30,7 +30,12 @@ GENERIC_TAIL = {
     "pharmaceuticals",
     "pharmaceutical",
     "pharma",
+    "pharms",  # openFDA abbreviations: "ACADIA PHARMS", "BIOMARIN PHARM", "PRIOVANT THERAP"
+    "pharm",
     "therapeutics",
+    "theraps",
+    "therap",
+    "operation",  # "ARS PHARMS OPERATION"
     "biosciences",
     "bioscience",
     "biopharma",

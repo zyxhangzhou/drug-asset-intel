@@ -140,7 +140,11 @@ def test_outputs_and_provenance(auto):
 
 def test_unverified_map_means_no_buyer(tmp_path):
     m = manual_dir(tmp_path)
-    shutil.copy(MANUAL / "buyer_preference_map.csv", m)  # verified_by empty
+    rows = list(csv.DictReader((MANUAL / "buyer_preference_map.csv").open(encoding="utf-8")))
+    with (m / "buyer_preference_map.csv").open("w", encoding="utf-8", newline="") as fh:
+        writer = csv.DictWriter(fh, fieldnames=list(rows[0]))
+        writer.writeheader()
+        writer.writerows({**r, "verified_by": ""} for r in rows)
     db, _ = build(tmp_path, m)
     with Session(rw_engine(db)) as s:
         rec = primary(s, "VKTX")

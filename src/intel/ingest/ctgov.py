@@ -344,7 +344,7 @@ def normalize_intervention(name: str) -> str:
     name = re.sub(r"\b\d+(\.\d+)?\s*(mg|µg|ug|mcg|g|ml|mg/kg|iu)\b", " ", name, flags=re.I)
     name = re.sub(
         r"\b(oral|tablets?|capsules?|injections?|infusion|subcutaneous|sc|iv|intravenous|"
-        r"high dose|low dose|dose|solution|suspension|drug)\b",
+        r"po|qd|bid|tid|high dose|low dose|dose|solution|suspension|drug)\b",
         " ",
         name,
         flags=re.I,

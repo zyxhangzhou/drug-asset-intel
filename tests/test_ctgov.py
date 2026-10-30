@@ -244,6 +244,20 @@ def test_salt_form_matches_base_ingredient():
     assert openfda.sponsor_core("Madrigal Pharmaceuticals, Inc.") == "madrigal"
 
 
+@pytest.mark.parametrize(
+    ("fda", "company"),
+    [
+        ("PRIOVANT THERAP", "Priovant Therapeutics"),
+        ("ACADIA PHARMS", "ACADIA Pharmaceuticals Inc."),
+        ("BIOMARIN PHARM", "BioMarin Pharmaceutical Inc."),
+        ("SAREPTA THERAPS", "Sarepta Therapeutics, Inc."),
+        ("ARS PHARMS OPERATION", "ARS Pharmaceuticals, Inc."),
+    ],
+)
+def test_abbreviated_fda_sponsor_matches_company(fda, company):
+    assert openfda.sponsor_core(fda) == openfda.sponsor_core(company)
+
+
 def test_openfda_fetch_keeps_nda_bla_only(tmp_path):
     export = {
         "meta": {"last_updated": "2026-10-28"},
@@ -323,3 +337,8 @@ def test_ctgov_fetch_paginates_and_dedupes(tmp_path):
 )
 def test_generic_therapy_is_not_a_program(name, generic):
     assert bool(ctgov.GENERIC_THERAPY.search(name)) is generic
+
+
+def test_dosing_words_do_not_split_a_program():
+    assert ctgov.normalize_intervention("Brepocitinib PO QD") == "BREPOCITINIB"
+    assert ctgov.normalize_intervention("Oral Brepocitinib") == "BREPOCITINIB"
