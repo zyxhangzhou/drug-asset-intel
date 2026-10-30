@@ -36,7 +36,7 @@
 | 2 | B | 基础材料导入与 Stage 0 排除 | 代码 + 研究 | `baseline-ingest` | A | archived（`openspec/changes/archive/2026-10-29-baseline-ingest`） |
 | 3 | C | 官方结构化数据拉取（CT.gov + EDGAR + openFDA） | 代码 | `public-data-ingest` | B | archived（`openspec/changes/archive/2026-10-29-public-data-ingest`） |
 | 3 | D | 文档获取存档与 LLM 抽取管道 | 代码 | `llm-extraction` | A | planned |
-| 4 | E | 评分、买方匹配与候选名单 | 代码 + 研究 | `scoring-shortlist` | B, C | in progress（45 家复核签字，入选 30 家；待归档） |
+| 4 | E | 评分、买方匹配与候选名单 | 代码 + 研究 | `scoring-shortlist` | B, C | archived（`openspec/changes/archive/2026-10-30-scoring-shortlist`；45 家复核签字，入选 30 家） |
 | 5 | F | 深度填充 3–5 家 | 研究 | — | D, E | planned |
 | 5 | G | Web 应用样板 | 代码 | `web-app` | B, C, E | planned |
 | 6 | H | Excel 导出与抽样核验 | 代码 + 研究 | `export-verify` | F, G | planned |
@@ -52,7 +52,7 @@
 | 题面 | 要求 | 由哪些变更完成 | 收尾变更 | 进度 |
 |---|---|---|---|---|
 | 二·第一部分 | 学习 10 家买方偏好 | B（导入对方材料，逐格保留来源与事实 / 推断口径） | B | 已完成 |
-| 二·第一部分 | 结合 149 家最新公开信息筛出 20–30 家 | B（Stage 0 排除）→ C（试验、财务、审批数据）→ E（五维评分、买方匹配） | E | Stage 0 完成（候选池 133 家）；C 已归档（试验、财务、审批数据就绪）；E 完成：复核池 45 家全部复核签字，入选 30 家（`data/processed/shortlist.csv`） |
+| 二·第一部分 | 结合 149 家最新公开信息筛出 20–30 家 | B（Stage 0 排除）→ C（试验、财务、审批数据）→ E（五维评分、买方匹配） | E | Stage 0 完成（候选池 133 家）；C 已归档（试验、财务、审批数据就绪）；E 已归档：复核池 45 家全部复核签字，入选 30 家（`data/processed/shortlist.csv`）——第一部分完成 |
 | 二·第一部分 | 说明筛选逻辑、评价维度、判断依据，区分事实与推断 | E（方法文档初稿）→ I（定稿） | I | 初稿：`docs/scoring-rules.md`（含样例检验与已知限制） |
 | 二·第二部分 1 | 公司基本信息及入选理由 | B（公司名、CIK）+ E（入选理由） | E | 已完成：30 家入选公司均有两句话论点及来源 |
 | 二·第二部分 2–3 | 核心管线、作用机制、适应症、各适应症研发阶段 | C（CT.gov 试验 → 适应症与阶段）+ D / F（文档抽取：作用机制、核心管线） | F | C 部分完成：132 家 3205 项试验、推导管线 1392 条（推断） |
@@ -179,3 +179,4 @@
 - 2026-10-30 · 69dd30f7-bc86-4fc2-b36d-dea57ab87358 · E：首批 10 家复核签字生效（入选名单 10 家）；样例检验完成，权重暂不调整（待全部复核后重测敏感性）；开始其余 35 家复核
 - 2026-10-30 · 69dd30f7-bc86-4fc2-b36d-dea57ab87358 · E：45 家复核草稿完成，按用户确认统一权益口径并修正 MPLT、CMPX、NRIX、CABA；人工债务调整与说明书回退检索；临时入选 30 家，待用户确认签字
 - 2026-10-30 · 69dd30f7-bc86-4fc2-b36d-dea57ab87358 · v3：D 加费用记录与预算上限；F 定 5 家；H 改分层随机抽样并加用户抽查 5 份复核；I 按题面 AI 使用 5 问成文
+- 2026-10-30 · 69dd30f7-bc86-4fc2-b36d-dea57ab87358 · E 归档：20/20 任务完成；新增主 spec asset-scoring、analyst-review，同步 app-runtime、company-financials、fda-approvals、intel-data-model、snapshot-build、trial-registry；第一部分完成
