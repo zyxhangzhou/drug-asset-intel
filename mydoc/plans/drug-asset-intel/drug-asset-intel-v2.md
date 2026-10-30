@@ -1,3 +1,5 @@
+> Superseded by [v3](drug-asset-intel-v3.md) (2026-10-30): D/F/H/I re-scoped for the AI-usage write-up.
+
 # 全球创新药资产情报平台 — v2
 
 - Status: confirmed

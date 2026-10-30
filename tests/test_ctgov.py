@@ -12,7 +12,7 @@ from sqlmodel import Session, select
 from intel.build import build_snapshot
 from intel.db import rw_engine
 from intel.enums import ClaimKind, Stage
-from intel.fetch import Throttled, meta_path
+from intel.fetch import Throttled, meta_path, write_cache
 from intel.ingest import Inputs, ctgov, openfda
 from intel.models import (
     ApprovedProduct,
@@ -360,3 +360,56 @@ def test_label_covers_trial_indication():
     assert openfda.label_covers("Mucopolysaccharidosis II", text)
     assert not openfda.label_covers("Myelofibrosis", text)
     assert openfda.label_covers("Myelodysplastic Syndromes", "lower-risk myelodysplastic syndrome")
+
+
+def test_label_marks_listed_indication_approved(tmp_path):
+    raw = raw_with(tmp_path)
+    label = openfda.label_cache(Inputs(raw_dir=raw), "NDA217785")
+    write_cache(
+        label,
+        {
+            "application_number": "NDA217785",
+            "label": {
+                "set_id": "x",
+                "effective_time": "20260101",
+                "matched_by": "application_number",
+                "indications_and_usage": "REZDIFFRA is indicated for noncirrhotic nonalcoholic "
+                "steatohepatitis (NASH) with moderate to advanced liver fibrosis",
+            },
+        },
+        [],
+    )
+    inputs = Inputs(
+        assignment_dir=ROOT / "docs" / "assignment", raw_dir=raw, manual_dir=tmp_path / "m"
+    )
+    build_snapshot(tmp_path / "intel.db", inputs)
+    with Session(rw_engine(tmp_path / "intel.db")) as s:
+        rows = {
+            pi.indication: pi
+            for p in target(s, "MDGL").programs
+            if "RESMETIROM" in p.name
+            for pi in p.indications
+        }
+        nash = rows["NASH - Nonalcoholic Steatohepatitis"]
+        assert nash.stage == Stage.approved
+        (c,) = s.exec(
+            select(Claim).where(
+                Claim.entity_type == "program_indication",
+                Claim.entity_id == str(nash.id),
+                Claim.field == "stage",
+            )
+        ).all()
+        assert c.source_id == "FDA-LABEL-NDA217785"
+        assert rows["Heterozygous Familial Hypercholesterolemia"].stage != Stage.approved
+
+
+def test_manual_program_alias_merges_names(tmp_path):
+    (tmp_path / "program_aliases.csv").write_text(
+        "ticker,name,same_as,note\nRLAY,RLY-2608,Zovegalisib,10-K\n", encoding="utf-8"
+    )
+    pairs = ctgov._program_aliases(Inputs(manual_dir=tmp_path))
+    assert pairs["RLAY"] == [("RLY-2608", "ZOVEGALISIB")]
+    names = ctgov._Names()
+    names.union(*pairs["RLAY"][0])
+    names.uses["RLY-2608"] = names.uses["ZOVEGALISIB"] = 1
+    assert names.find("RLY-2608") == names.find("ZOVEGALISIB")
