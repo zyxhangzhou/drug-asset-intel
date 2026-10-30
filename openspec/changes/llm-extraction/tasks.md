@@ -33,7 +33,7 @@
 ## 6. 样例运行与文档
 
 - [x] 6.1 [人工] 选一份样例文档（MAN-VKTX-4，2026-09-22 维持期研究顶线新闻稿；5 次空闲时段运行，见 `docs/ai-log.md`）（深度对象的一份 8-K Exhibit 99.1 新闻稿）写入 `data/manual/documents.csv`，抓取后先 `--dry-run` 报告预估费用，再在 DeepSeek 空闲时段做一次真实抽取（含 Qwen 核验）。验证：账本有记录，复核文件生成，`intel extract report` 输出命中率、一致率与费用。
-- [ ] 6.2 [人工] 复核样例文档的复核文件并签字，重建快照。验证：`intel build` 成功，`intel check-provenance` 为 0，快照中出现 `produced_by = llm` 的声明。
+- [x] 6.2 [人工] 复核样例文档的复核文件并签字（2026-10-30 用户确认 4 条全部接受，签字 zyxhangzhou；3 条机制入库，1 条临床结果无 NCT 编号记缺口），重建快照。验证：`intel build` 成功，`intel check-provenance` 为 0，快照中出现 `produced_by = llm` 的声明。
 - [x] 6.3 文档：`CLAUDE.md` 命令与人工文件清单、`docs/scoring-rules.md` 时间表述换算规则、`docs/ai-log.md` 记录样例运行的命中率、一致率、拒收原因与费用。验证：文档包含以上内容；`uv run pytest` 与 `uv run ruff check .` 通过。
 
 ## Workflow follow-up

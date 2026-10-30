@@ -1,7 +1,7 @@
 # LLM extraction review. Set decision per item (accept / reject), then sign verified_by.
 # Only accepted items of a signed file enter the snapshot; quotes are rechecked at build.
 ticker = "VKTX"
-verified_by = ""
+verified_by = "zyxhangzhou"
 
 [[items]]
 id = "p-9db1bbfb"
@@ -46,7 +46,7 @@ quotes = ["the company’s dual agonist of the glucagon-like peptide 1 (GLP-1) a
 model = "qwen3.7-plus-2026-05-26"
 returned_model = "qwen3.7-plus-2026-05-26"
 check = "disputed"
-decision = ""
+decision = "accept"
 note = ""
 
 [[items]]
@@ -68,5 +68,5 @@ returned_model = "deepseek-v4-pro"
 check = "disputed"
 verify = { asset = "VK2735", trial = "VK2735-102", indication = "obesity", endpoint = "Proportion of participants demonstrating 5%, 10%, 15%, and 20% weight loss at Week 21", result = "Combined VK2735: 98% (≥5%), 90% (≥10%), 65% (≥15%), 32% (≥20%); Placebo: 13% (≥5%), 0% (≥10%), 0% (≥15%), 0% (≥20%)", analysis = "p<0.01 vs. placebo for each threshold", comparator = "placebo", advantage_vs_soc = "" }
 verify_quotes = ["At 21 weeks in the combined VK2735 treatment groups, the proportion of participants demonstrating 5%, 10%, 15%, and 20% weight loss were 98%, 90%, 65%, and 32% as compared with 13%, 0%, 0%, and 0% for placebo", "(p<0.01 vs. placebo for each)"]
-decision = ""
+decision = "accept"
 note = ""
