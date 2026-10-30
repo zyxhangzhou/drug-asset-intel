@@ -555,6 +555,10 @@ def ingest(ctx: BuildContext) -> None:
     # A company without any derived asset has nothing to research toward a pair.
     with_asset = [id(p) for p, _ in by_optimistic if p.pi is not None]
     longlist = set(with_asset[: cfg.longlist_size])
+    # Analysts can pull a company in by hand, e.g. when its primary pair hides a stronger asset.
+    longlist |= {
+        id(p) for p, _ in primaries if p.pi is not None and p.target.ticker in cfg.longlist_extra
+    }
 
     rows = [LONGLIST_HEADER]
     short_rows = [["rank", "ticker", "name", "conservative", "optimistic", "coverage",

@@ -175,3 +175,4 @@
 - 2026-10-30 · 69dd30f7-bc86-4fc2-b36d-dea57ab87358 · E 开始：评分细则经用户批准（docs/scoring-rules.md），OpenSpec `scoring-shortlist` 已建
 - 2026-10-30 · 69dd30f7-bc86-4fc2-b36d-dea57ab87358 · E 自动初筛完成：用户确认买方偏好映射 30 行；全量构建长名单 40 家（Merck 18、AbbVie 11），check-provenance 0、check-scoring 通过；下一步首批 10 家复核
 - 2026-10-30 · 69dd30f7-bc86-4fc2-b36d-dea57ab87358 · E 修复：openFDA 申请人缩写导致 18 家漏关联获批产品、ROIV 无管线；修复后长名单 SPRY、SRPT 进，IONS、VNDA 出
+- 2026-10-30 · 69dd30f7-bc86-4fc2-b36d-dea57ab87358 · E：用户确认 IONS、VNDA 手工加入复核池（config longlist_extra）；首批复核 10 家：CLDX、GERN、NTLA、OLMA、VKTX、RLAY、ALT、BHVN、DNLI、VIR；来源限 SEC 申报、论文 / 学会摘要、FDA（另含公司公告）

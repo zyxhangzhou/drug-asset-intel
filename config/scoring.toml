@@ -28,5 +28,7 @@ score = 1
 [screening]
 catalyst_window_months = 24
 longlist_size = 40
+# 人工加入复核池：主组合按保守分选出已上市产品，乐观分下降而掉出前 40（2026-10-30 用户确认）
+longlist_extra = ["IONS", "VNDA"]
 shortlist_max = 30
 funding_pressure_months = 12

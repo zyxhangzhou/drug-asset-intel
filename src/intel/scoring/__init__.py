@@ -43,6 +43,7 @@ class ScoringConfig:
     ev_tiers: list[tuple[float, int]]
     catalyst_window_months: int
     longlist_size: int
+    longlist_extra: tuple[str, ...]
     shortlist_max: int
     funding_pressure_months: float
 
@@ -55,6 +56,7 @@ class ScoringConfig:
             ev_tiers=sorted((t["below"], t["score"]) for t in data["ev_tiers"]),
             catalyst_window_months=s["catalyst_window_months"],
             longlist_size=s["longlist_size"],
+            longlist_extra=tuple(s.get("longlist_extra", ())),
             shortlist_max=s["shortlist_max"],
             funding_pressure_months=s["funding_pressure_months"],
         )

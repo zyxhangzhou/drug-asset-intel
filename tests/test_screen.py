@@ -255,3 +255,21 @@ def test_no_registered_event_in_window_scores_zero(tmp_path):
     with Session(rw_engine(tmp_path / "x.db")) as s:
         rec = primary(s, "VKTX")
         assert rec.catalyst == 0 and rec.next_event is None
+
+
+def test_longlist_extra_pulls_company_in(tmp_path):
+    cfg = (ROOT / "config" / "scoring.toml").read_text(encoding="utf-8")
+    cfg = cfg.replace("longlist_size = 40", "longlist_size = 0")
+    cfg = cfg.replace('longlist_extra = ["IONS", "VNDA"]', 'longlist_extra = ["VKTX"]')
+    (tmp_path / "scoring.toml").write_text(cfg, encoding="utf-8")
+    raw = raw_with(tmp_path, {"VKTX": SYNTHETIC})
+    write_company(raw, "VKTX", "1607678", facts({}, shares=SHARES), PRICE_ROWS)
+    inputs = Inputs(
+        assignment_dir=ROOT / "docs" / "assignment",
+        raw_dir=raw,
+        manual_dir=manual_dir(tmp_path),
+        scoring_config=tmp_path / "scoring.toml",
+    )
+    build_snapshot(tmp_path / "intel.db", inputs)
+    rows = csv.DictReader((tmp_path / "longlist.csv").open(encoding="utf-8"))
+    assert {r["ticker"] for r in rows if r["in_longlist"] == "True"} == {"VKTX"}
