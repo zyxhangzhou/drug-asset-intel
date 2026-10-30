@@ -35,7 +35,7 @@
 | 1 | A | 项目骨架与数据模型 | 代码 | `project-skeleton` | — | archived（`openspec/changes/archive/2026-10-29-project-skeleton`，主 spec：`app-runtime`、`intel-data-model`） |
 | 2 | B | 基础材料导入与 Stage 0 排除 | 代码 + 研究 | `baseline-ingest` | A | archived（`openspec/changes/archive/2026-10-29-baseline-ingest`） |
 | 3 | C | 官方结构化数据拉取（CT.gov + EDGAR + openFDA） | 代码 | `public-data-ingest` | B | archived（`openspec/changes/archive/2026-10-29-public-data-ingest`） |
-| 3 | D | 文档获取存档与 LLM 抽取管道 | 代码 | `llm-extraction` | A | planned |
+| 3 | D | 文档获取存档与 LLM 抽取管道 | 代码 | `llm-extraction` | A | specced（待用户确认后实现） |
 | 4 | E | 评分、买方匹配与候选名单 | 代码 + 研究 | `scoring-shortlist` | B, C | archived（`openspec/changes/archive/2026-10-30-scoring-shortlist`；45 家复核签字，入选 30 家） |
 | 5 | F | 深度填充 3–5 家 | 研究 | — | D, E | planned |
 | 5 | G | Web 应用样板 | 代码 | `web-app` | B, C, E | planned |
@@ -180,3 +180,4 @@
 - 2026-10-30 · 69dd30f7-bc86-4fc2-b36d-dea57ab87358 · E：45 家复核草稿完成，按用户确认统一权益口径并修正 MPLT、CMPX、NRIX、CABA；人工债务调整与说明书回退检索；临时入选 30 家，待用户确认签字
 - 2026-10-30 · 69dd30f7-bc86-4fc2-b36d-dea57ab87358 · v3：D 加费用记录与预算上限；F 定 5 家；H 改分层随机抽样并加用户抽查 5 份复核；I 按题面 AI 使用 5 问成文
 - 2026-10-30 · 69dd30f7-bc86-4fc2-b36d-dea57ab87358 · E 归档：20/20 任务完成；新增主 spec asset-scoring、analyst-review，同步 app-runtime、company-financials、fda-approvals、intel-data-model、snapshot-build、trial-registry；第一部分完成
+- 2026-10-30 · 69dd30f7-bc86-4fc2-b36d-dea57ab87358 · D：建 OpenSpec 变更 `llm-extraction`（提案、4 份规格、设计、18 项任务）；核实 DeepSeek 官方价格与高峰时段；待用户确认后实现
