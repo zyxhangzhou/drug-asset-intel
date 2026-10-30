@@ -24,7 +24,8 @@
 - `tests/` pytest
 - `web/` 前端（Vite + React + TS + Ant Design），开发时代理 `/api` 到 8000 端口
 - `data/raw/` 抓取的原始响应与文档快照（带抓取时间）
-- `data/manual/` 人工核实文件（如 Stage 0 排除名单，`verified_by` 非空才生效）
+- `data/manual/` 人工核实文件（`verified_by` 非空才生效）：Stage 0 排除名单、`buyer_preference_map.csv`（买方偏好 → 治疗领域与阶段）、`ta_keywords.csv`、`reviews/<TICKER>.toml`（复核文件，同名 `.md` 为研究说明）、`sources.csv`（`MAN-` 人工来源）、`debt_adjustments.csv`；管线推导修正：`sponsor_aliases.csv`、`sponsor_code_prefixes.csv`、`program_aliases.csv`、`intervention_excludes.csv`
+- `config/scoring.toml` 评分权重、EV 档位、长名单家数与人工加入（`longlist_extra`）
 - `data/processed/intel.db` 数据快照，提交进仓库；应用只读它，管道重建它
 - `docs/` 方案、架构、筛选方法、AI 使用说明、核验记录、已知限制
 
@@ -56,10 +57,11 @@ uv run intel fetch ctgov                  # 候选池试验（约 30 分钟，CT
 uv run intel fetch xbrl                   # SEC XBRL companyfacts（裁剪为所需标签）
 uv run intel fetch prices                 # Nasdaq 快照日收盘价（非官方来源）
                                           # 批量抓取均支持 --only VKTX,MDGL 与 --refresh
-uv run intel build                        # 离线从材料 + 缓存 + data/manual/ 重建快照，输出 gaps.csv
+uv run intel build                        # 离线从材料 + 缓存 + data/manual/ 重建快照，输出 gaps.csv、longlist.csv、shortlist.csv
 uv run intel init-db                      # 建空库（可重复执行）
 uv run intel check-provenance             # 溯源完整性检查
-uv run intel serve                        # API，http://127.0.0.1:8000
+uv run intel check-scoring                # 评分检验：高分有事实支撑、前 10 覆盖率、权重敏感性
+uv run intel serve                        # API，http://127.0.0.1:8000；/api/shortlist?weights=30,20,20,15,15 按权重重排
 cd web && npm install && npm run dev      # 前端开发服务器（代理 /api）
 cd web && npm run build                   # 构建前端，intel serve 会托管 web/dist
 docker compose up --build                 # 一条命令启动完整应用，http://localhost:8000
