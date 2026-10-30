@@ -20,7 +20,7 @@ confidence = "medium_high"
 
 [scores.stage_match]
 score = 0
-reason = "资产实际阶段为已上市（美国加速批准），原文：\"received accelerated approval from the U.S. Food and Drug Administration\"、\"on March 24, 2026 and is approved for the treatment of neurologic manifestations\"（SEC-0001714899-26-000097）；Drugs@FDA 记录 BLA761485 \"submission_status\": \"AP\"，日期 20260324（MAN-DNLI-3）。AstraZeneca 该偏好行理想阶段为「早期平台至Phase 3」（AZ-1），已上市与 3 期相差两个阶段（3 期 < 注册申请 < 已上市），按 §3.2 计 0 分。注：数据包推导阶段 phase2_3 有误。"
+reason = "资产实际阶段为已上市（美国加速批准），原文：\"received accelerated approval from the U.S. Food and Drug Administration\"、\"on March 24, 2026 and is approved for the treatment of neurologic manifestations\"（SEC-0001714899-26-000097）；Drugs@FDA 记录 BLA761485 \"submission_status\": \"AP\"，日期 20260324（MAN-DNLI-3）。AstraZeneca 该偏好行理想阶段为「早期平台至Phase 3」（AZ-1），已上市与 3 期相差两个阶段（3 期 < 注册申请 < 已上市），按 §3.2 计 0 分。卡片注明：已上市，超出买方偏好阶段（规则有意不默认越晚越好，2026-10-30 用户确认保留）。"
 sources = ["SEC-0001714899-26-000097", "MAN-DNLI-3", "AZ-1"]
 confidence = "high"
 

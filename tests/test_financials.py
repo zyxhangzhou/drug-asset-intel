@@ -297,3 +297,32 @@ def test_stale_shares_skip_market_cap(tmp_path):
     with Session(rw_engine(tmp_path / "x.db")) as s:
         target = s.exec(select(Target).where(Target.ticker == "ANNX")).one()
         assert target.financials[0].market_cap is None
+
+
+def test_runway_uses_the_worse_of_ytd_and_last_fiscal_year():
+    gaap = facts(
+        {
+            fin.OCF: [
+                duration(-9_000_000.0),  # H1 boosted by a one-off upfront
+                duration(
+                    -390_000_000.0,
+                    start="2025-01-01",
+                    end="2025-12-31",
+                    form="10-K",
+                    filed="2026-02-20",
+                ),
+            ]
+        }
+    )["us-gaap"]
+    end = date.fromisoformat(END)
+    ytd = fin.operating_cash_flow(gaap, end)
+    year = fin.full_year_operating_cash_flow(gaap, end)
+    assert fin.burn_basis(ytd, year) is year
+    assert fin.burn_basis(ytd, None) is ytd
+    assert fin.burn_basis(None, None) is None
+
+
+def test_notes_payable_counts_as_debt():
+    gaap = facts({"LongTermNotesPayable": [instant(259_480_000.0)]})["us-gaap"]
+    (debt,) = fin.total_debt(gaap, date.fromisoformat(END))
+    assert debt.value == 259_480_000.0

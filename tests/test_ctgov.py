@@ -1,5 +1,6 @@
 import io
 import json
+import re
 import shutil
 import zipfile
 from pathlib import Path
@@ -241,6 +242,7 @@ def test_company_without_approvals_is_fine(s):
 
 def test_salt_form_matches_base_ingredient():
     assert "RIBOCICLIB" in openfda.ingredient_keys("RIBOCICLIB SUCCINATE")
+    assert "TIVIDENOFUSP ALFA" in openfda.ingredient_keys("TIVIDENOFUSP ALFA-EKNM")
     assert openfda.sponsor_core("Madrigal Pharmaceuticals, Inc.") == "madrigal"
 
 
@@ -342,3 +344,19 @@ def test_generic_therapy_is_not_a_program(name, generic):
 def test_dosing_words_do_not_split_a_program():
     assert ctgov.normalize_intervention("Brepocitinib PO QD") == "BREPOCITINIB"
     assert ctgov.normalize_intervention("Oral Brepocitinib") == "BREPOCITINIB"
+
+
+def test_partner_code_is_not_own_program_unless_own_prefix():
+    prefixes = ((re.compile(r"^PF- ?-?\d"), "pfizer"), (re.compile(r"^INCB ?-?\d"), "incyte"))
+    keep = ctgov.ProgramFilter(set(), {}, {}, {"relay"}, prefixes)
+    assert keep.is_foreign_code("PF-07220060")
+    assert not keep.is_foreign_code("RLY-2608")
+    incyte = ctgov.ProgramFilter(set(), {}, {}, {"incyte"}, prefixes)
+    assert not incyte.is_foreign_code("INCB123667")
+
+
+def test_label_covers_trial_indication():
+    text = "AVLAYAH is indicated for Hunter syndrome (Mucopolysaccharidosis type II, MPS II)"
+    assert openfda.label_covers("Mucopolysaccharidosis II", text)
+    assert not openfda.label_covers("Myelofibrosis", text)
+    assert openfda.label_covers("Myelodysplastic Syndromes", "lower-risk myelodysplastic syndrome")

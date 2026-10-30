@@ -61,7 +61,17 @@ INVEST_TOTAL = (
 )
 DEBT_TOTAL = ("LongTermDebt",)
 DEBT_SPLIT = ("LongTermDebtNoncurrent", "LongTermDebtCurrent")
-DEBT_CONVERTIBLE = ("ConvertibleNotesPayable", "ConvertibleDebtNoncurrent")
+# Single-tag fallbacks, first hit wins: filers that never tag LongTermDebt use one of these.
+DEBT_SINGLE = (
+    "ConvertibleNotesPayable",
+    "ConvertibleDebtNoncurrent",
+    "ConvertibleLongTermNotesPayable",
+    "LongTermNotesPayable",
+    "LongTermLoansPayable",
+    "SecuredLongTermDebt",
+    "NotesPayable",
+    "LoansPayable",
+)
 OCF = "NetCashProvidedByUsedInOperatingActivities"
 SHARES = "EntityCommonStockSharesOutstanding"  # dei, cover page
 BALANCE_SHARES = "CommonStockSharesOutstanding"  # us-gaap, balance sheet
@@ -74,7 +84,7 @@ US_GAAP_TAGS = {
     *INVEST_TOTAL,
     *DEBT_TOTAL,
     *DEBT_SPLIT,
-    *DEBT_CONVERTIBLE,
+    *DEBT_SINGLE,
     OCF,
     BALANCE_SHARES,
 }
@@ -213,7 +223,7 @@ def total_debt(gaap: dict, end: date) -> list[Fact]:
         parts = [p for p in (_first_at(gaap, (t,), end) for t in group) if p]
         if parts:
             return parts
-    single = _first_at(gaap, DEBT_CONVERTIBLE, end)
+    single = _first_at(gaap, DEBT_SINGLE, end)
     return [single] if single else []
 
 
@@ -227,6 +237,27 @@ def operating_cash_flow(gaap: dict, end: date) -> Fact | None:
     if not hits:
         return None
     return max(hits, key=lambda f: ((f.end - f.start).days, f.filed))
+
+
+def full_year_operating_cash_flow(gaap: dict, end: date) -> Fact | None:
+    """The latest fiscal-year figure ending on or before `end` and less than 15 months old."""
+    hits = [
+        f
+        for f in _facts(gaap, OCF, "USD")
+        if f.start and 350 <= (f.end - f.start).days <= 370 and 0 <= (end - f.end).days <= 460
+    ]
+    return max(hits, key=lambda f: (f.end, f.filed)) if hits else None
+
+
+def burn_basis(ytd: Fact | None, year: Fact | None) -> Fact | None:
+    """The period with the higher monthly cash burn, or None when neither burns cash.
+
+    A one-off inflow (a licence upfront) can make a year-to-date figure look nearly
+    self-funding; taking the worse of year-to-date and last fiscal year keeps the runway
+    a conservative estimate.
+    """
+    burning = [f for f in (ytd, year) if f and f.value < 0]
+    return max(burning, key=lambda f: -f.value / months(f)) if burning else None
 
 
 def months(fact: Fact) -> int:
@@ -383,16 +414,20 @@ def _snapshot_for(ctx: BuildContext, company: Company, target: Target) -> None:
             f"{ns}:{shares.tag}；{label} {shares.end}；{shares.form} 申报于 {shares.filed}",
         )
 
-    if cash and ocf and ocf.value < 0:
-        burn = -ocf.value / months(ocf)
+    year = full_year_operating_cash_flow(gaap, end)
+    basis = burn_basis(ocf, year)
+    if cash and basis:
+        burn = -basis.value / months(basis)
         runway = round(snap.cash_and_investments / burn, 1)
         snap.runway_months = runway
+        period = "年初至今" if basis is ocf else "最近一个完整财年"
         formula = (
             f"{RUNWAY_NOTE}：{snap.cash_and_investments:,.0f} ÷ "
-            f"({-ocf.value:,.0f} ÷ {months(ocf)}) = {runway}"
+            f"({-basis.value:,.0f} ÷ {months(basis)}) = {runway}；消耗按{period}"
+            f"（{basis.start} 至 {basis.end}），取年初至今与最近完整财年中月均消耗较高者"
         )
         for source_id in dict.fromkeys(
-            _filing_source(ctx, f, company.cik, path) for f in (*cash, ocf)
+            _filing_source(ctx, f, company.cik, path) for f in (*cash, basis)
         ):
             ctx.claim(
                 "financial_snapshot",
@@ -411,7 +446,7 @@ def _snapshot_for(ctx: BuildContext, company: Company, target: Target) -> None:
             company.ticker,
             "runway_months",
             "operating_cash_flow_positive",
-            f"经营现金流 {ocf.value:,.0f} ≥ 0，不计算资金可支撑时间",
+            f"经营现金流 {ocf.value:,.0f} ≥ 0（最近完整财年亦无现金消耗），不计算资金可支撑时间",
         )
 
     price = _price(ctx, company)

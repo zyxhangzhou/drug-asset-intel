@@ -362,6 +362,35 @@ def _manual_excludes(inputs: Inputs) -> set[str]:
         return {normalize_intervention(r["name"]) for r in csv.DictReader(fh)}
 
 
+def _code_prefixes(inputs: Inputs) -> list[tuple[re.Pattern, str]]:
+    """Other companies' research-code prefixes ("PF-" -> Pfizer), from a manual file."""
+    path = inputs.manual_dir / "sponsor_code_prefixes.csv"
+    if not path.exists():
+        return []
+    import csv
+
+    with path.open(newline="", encoding="utf-8") as fh:
+        return [
+            (re.compile(rf"^{re.escape(r['prefix'].strip())} ?-?\d"), sponsor_core(r["owner"]))
+            for r in csv.DictReader(fh)
+        ]
+
+
+def _program_aliases(inputs: Inputs) -> dict[str, list[tuple[str, str]]]:
+    """Ticker -> (name, same_as) pairs the registry never links (code name vs INN)."""
+    path = inputs.manual_dir / "program_aliases.csv"
+    out: dict[str, list[tuple[str, str]]] = defaultdict(list)
+    if path.exists():
+        import csv
+
+        with path.open(newline="", encoding="utf-8") as fh:
+            for r in csv.DictReader(fh):
+                out[r["ticker"].strip()].append(
+                    (normalize_intervention(r["name"]), normalize_intervention(r["same_as"]))
+                )
+    return out
+
+
 @dataclass(frozen=True)
 class ProgramFilter:
     """Decides which trial interventions are the sponsor's own programs."""
@@ -370,6 +399,10 @@ class ProgramFilter:
     approved: dict[str, set[str]]  # approved ingredient/brand key -> holder sponsor cores
     brands: dict[str, set[str]]  # brand key -> ingredient keys
     own: set[str]  # this company's sponsor cores
+    prefixes: tuple[tuple[re.Pattern, str], ...] = ()  # other companies' code prefixes
+
+    def is_foreign_code(self, key: str) -> bool:
+        return any(rx.match(key) and owner not in self.own for rx, owner in self.prefixes)
 
     def is_program(self, key: str) -> bool:
         if not key or key in self.excludes:
@@ -399,6 +432,10 @@ def _eligible_interventions(study: dict, keep: ProgramFilter) -> list[list[str]]
             continue
         others = [normalize_intervention(n) for n in i.get("otherNames") or []]
         keys = list(dict.fromkeys([primary, *(k for k in others if k)]))
+        # A partner's coded compound ("PF-07220060") is theirs unless the registration also
+        # names it with a code or INN of its own.
+        if all(keep.is_foreign_code(k) for k in keys):
+            continue
         out.append(keys)
     return out
 
@@ -444,8 +481,11 @@ def _derive_pipeline(
     studies: list[dict],
     trials: dict[str, Trial],
     keep: ProgramFilter,
+    aliases: list[tuple[str, str]] = (),
 ) -> None:
     names = _Names()
+    for name, same_as in aliases:
+        names.union(name, same_as)
     per_study: dict[str, list[str]] = {}
     for study in studies:
         primaries = []
@@ -513,6 +553,8 @@ def ingest(ctx: BuildContext) -> None:
 
     targets = {t.ticker: t for t in ctx.session.exec(select(Target)).all()}
     excludes = _manual_excludes(ctx.inputs)
+    prefixes = tuple(_code_prefixes(ctx.inputs))
+    program_aliases = _program_aliases(ctx.inputs)
     approved = approved_ingredients(ctx.inputs)
     brands = brand_ingredients(ctx.inputs)
     seen: set[str] = set()
@@ -542,5 +584,10 @@ def ingest(ctx: BuildContext) -> None:
                 _add_results(ctx, trial, f"CTG-{trial.nct_id}")
         own = {sponsor_core(a) for a in company.aliases}
         _derive_pipeline(
-            ctx, target, studies, trials, ProgramFilter(excludes, approved, brands, own)
+            ctx,
+            target,
+            studies,
+            trials,
+            ProgramFilter(excludes, approved, brands, own, prefixes),
+            program_aliases.get(company.ticker, []),
         )

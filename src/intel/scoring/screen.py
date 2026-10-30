@@ -265,12 +265,12 @@ class Scorer:
             cells["dealability"] = Cell(
                 score, sources, note=f"EV {ev / 1e8:,.1f} 亿美元；资产权益待核实"
             )
-        if fin.operating_cash_flow_ytd is not None and fin.operating_cash_flow_ytd >= 0:
-            flag = "自给"
-        elif fin.runway_months is not None and fin.runway_months < self.cfg.funding_pressure_months:
+        if fin.runway_months is not None and fin.runway_months < self.cfg.funding_pressure_months:
             flag = "融资压力"
         elif fin.runway_months is not None:
             flag = f"可支撑约 {fin.runway_months:.0f} 个月"
+        elif fin.operating_cash_flow_ytd is not None and fin.operating_cash_flow_ytd >= 0:
+            flag = "自给"
         else:
             flag = None
         if flag:
@@ -559,6 +559,7 @@ def ingest(ctx: BuildContext) -> None:
     longlist |= {
         id(p) for p, _ in primaries if p.pi is not None and p.target.ticker in cfg.longlist_extra
     }
+    longlist |= {id(p) for p, _ in primaries if p.status != ResearchStatus.auto}
 
     rows = [LONGLIST_HEADER]
     short_rows = [["rank", "ticker", "name", "conservative", "optimistic", "coverage",

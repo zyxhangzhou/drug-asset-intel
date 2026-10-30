@@ -64,7 +64,7 @@ def cmd_check_scoring(db: Path) -> int:
 
 
 BATCH_SOURCES = ("ctgov", "xbrl", "prices")
-SINGLE_SOURCES = ("openfda",)
+SINGLE_SOURCES = ("openfda", "labels")
 
 
 def cmd_fetch(what: str, refresh: bool, only: list[str] | None) -> int:
@@ -84,6 +84,17 @@ def cmd_fetch(what: str, refresh: bool, only: list[str] | None) -> int:
                 from intel.ingest import openfda
 
                 print(f"saved: {openfda.fetch(inputs, fetch.Throttled(client))}")
+                return 0
+            if what == "labels":
+                from intel.ingest import openfda
+
+                result = openfda.fetch_labels(inputs, fetch.Throttled(client), refresh)
+                print(
+                    f"labels: fetched {len(result.fetched)}, cached {len(result.skipped)}, "
+                    f"failed {len(result.failed)}"
+                )
+                for number, reason in result.failed.items():
+                    print(f"  failed {number}: {reason}")
                 return 0
             return _fetch_batch(what, inputs, client, refresh, only)
     except fetch.MissingConfig as exc:

@@ -25,6 +25,7 @@ def default_steps() -> list[Step]:
         universe.ingest,
         openfda.ingest,
         ctgov.ingest,
+        openfda.approved_stage,
         financials.ingest,
         taxonomy.ingest,
         screen.ingest,

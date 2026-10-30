@@ -51,6 +51,7 @@ uv run ruff check . && uv run ruff format .
 uv run intel fetch sec-tickers            # 联网抓取，只写 data/raw/（需 .env 中 SEC_USER_AGENT）
 uv run intel fetch links                  # 检查对方来源链接，结果写 data/raw/links/
 uv run intel fetch openfda                # openFDA drugsfda 全量导出（裁剪为 NDA / BLA）
+uv run intel fetch labels                 # 候选公司获批产品的 FDA 说明书适应症（openFDA drug label）
 uv run intel fetch ctgov                  # 候选池试验（约 30 分钟，CT.gov 限速）；已缓存的公司跳过
 uv run intel fetch xbrl                   # SEC XBRL companyfacts（裁剪为所需标签）
 uv run intel fetch prices                 # Nasdaq 快照日收盘价（非官方来源）
