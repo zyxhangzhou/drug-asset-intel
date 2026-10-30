@@ -30,8 +30,9 @@ TASKS = {
             instruction=(
                 "For each drug candidate of the company named in the text, give its mechanism of "
                 "action (e.g. 'dual GLP-1/GIP receptor agonist') and modality (e.g. small "
-                "molecule, monoclonal antibody, ADC, AAV gene therapy, siRNA, cell therapy), "
-                "worded as the text words them."
+                "molecule, peptide, monoclonal antibody, ADC, AAV gene therapy, siRNA, cell "
+                "therapy), worded as the text words them. Modality is the drug class, not the "
+                "route of administration: 'oral' or 'subcutaneous' is not a modality."
             ),
         ),
         Task(

@@ -146,8 +146,22 @@ def ingest(ctx: BuildContext) -> None:
             problem = quote_problem(item.quotes, item.values, texts[item.source_id])
             if problem:
                 raise ExtractionLoadError(f"{where}: {problem}")
+            problem = _value_problem(item)
+            if problem:
+                raise ExtractionLoadError(f"{where}: {problem}")
             loaded += _write(ctx, path, target, item, source)
     ctx.notes.append(f"extractions: {loaded} accepted item(s) loaded, {undecided} not reviewed")
+
+
+def _value_problem(item) -> str | None:
+    """Controlled values a reviewer may have edited by hand."""
+    v = item.values
+    if item.type == "catalyst" and v.get("event_type") not in {t.value for t in CatalystType}:
+        return f"event_type {v.get('event_type')!r} is not one of {[t.value for t in CatalystType]}"
+    if item.type == "clinical_result" and v.get("advantage_vs_soc"):
+        if v.get("confidence") not in {c.value for c in Confidence}:
+            return "advantage_vs_soc needs confidence high, medium_high, medium or low"
+    return None
 
 
 def _write(ctx: BuildContext, path: Path, target: Target, item, source: Source) -> int:

@@ -212,3 +212,12 @@ def test_build_needs_no_model_keys(tmp_path, monkeypatch):
         s.flush()
         ctx = run(s, make_inputs(tmp_path, [PROGRAM]))
     assert ctx.notes[0].startswith("extractions: 1 accepted")
+
+
+def test_hand_edited_controlled_values_fail_with_location(world, tmp_path):
+    bad_type = item("catalyst", CATALYST.values | {"event_type": "launch"}, CATALYST.quotes)
+    with pytest.raises(ExtractionLoadError, match=r"VKTX.toml item c-64: event_type"):
+        run(world, make_inputs(tmp_path / "a", [bad_type]))
+    no_conf = item("clinical_result", RESULT.values | {"advantage_vs_soc": "better"}, RESULT.quotes)
+    with pytest.raises(ExtractionLoadError, match="needs confidence"):
+        run(world, make_inputs(tmp_path / "b", [no_conf]))

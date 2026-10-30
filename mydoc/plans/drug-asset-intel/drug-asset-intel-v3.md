@@ -181,4 +181,4 @@
 - 2026-10-30 · 69dd30f7-bc86-4fc2-b36d-dea57ab87358 · v3：D 加费用记录与预算上限；F 定 5 家；H 改分层随机抽样并加用户抽查 5 份复核；I 按题面 AI 使用 5 问成文
 - 2026-10-30 · 69dd30f7-bc86-4fc2-b36d-dea57ab87358 · E 归档：20/20 任务完成；新增主 spec asset-scoring、analyst-review，同步 app-runtime、company-financials、fda-approvals、intel-data-model、snapshot-build、trial-registry；第一部分完成
 - 2026-10-30 · 69dd30f7-bc86-4fc2-b36d-dea57ab87358 · D：建 OpenSpec 变更 `llm-extraction`（提案、4 份规格、设计、18 项任务）；核实 DeepSeek 官方价格与高峰时段；待用户确认后实现
-- 2026-10-30 · 69dd30f7-bc86-4fc2-b36d-dea57ab87358 · D：实现完成 17/18 任务；VKTX 样例 4 次运行累计 0.66 元，关闭思考模式、逐字段一致判定、按片段配对；待用户复核签字样例（任务 6.2）
+- 2026-10-30 · 69dd30f7-bc86-4fc2-b36d-dea57ab87358 · D：实现完成 17/18 任务；VKTX 样例 5 次运行累计 0.76 元，关闭思考模式、逐字段一致判定、按片段配对、空条目与无年份时间拒收；待用户复核签字样例（任务 6.2）

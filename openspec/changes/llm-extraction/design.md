@@ -59,7 +59,7 @@ HTML：沿用 `sec_doc.py` 的规则（去 `script`、`style`、`ix:header`；�
 
 ### 5. 规范化
 
-`normalize(s)`：NFKC → 弯引号 `‘’“”` 转 `'"` → `‐‑‒–—―−` 转 `-` → 空白（含 NBSP）折叠为单个空格 → `casefold()`。片段校验：`normalize(quote) in normalize(doc_text)`，且 `normalize(quote)` 至少 20 字符（防止「42%」这类过短片段到处命中）。数字校验：从取值提取数字（去千分位逗号，保留小数点与负号），每个数字须出现在片段提取的数字集合中。
+`normalize(s)`：NFKC → 弯引号 `‘’“”` 转 `'"` → `‐‑‒–—―−` 转 `-` → 空白（含 NBSP）折叠为单个空格 → `casefold()`。每个条目带 1–4 段片段（`quotes`）。片段校验：每段 `normalize(quote) in normalize(doc_text)`，且至少 20 字符（防止「42%」这类过短片段到处命中）。数字校验：从取值提取数字（去千分位逗号与小数末尾的 0，不计正负号），每个数字须出现在全部片段的数字集合中；资产代号所含数字（VK2735 的 2735）除外。另有字段规则：管线条目机制与技术类型不能都为空；催化事件的时间表述须含年份。
 
 ### 6. 切块与检索
 
@@ -98,7 +98,7 @@ DeepSeek 预算上限 15 元：账户余额 20 元，留 5 元余量。
 
 ### 9. 盲抽与配对
 
-主模型与核验模型收到相同的块与提示词。配对键：管线条目为规范化资产名；临床结果为（资产名，试验 ID 或规范化终点）；催化事件为（资产名，事件类型，时间表述中的年份）。一致判定：数字集合相同（都无数字时比较文本），且文本取值规范化后相同，或两边片段在原文中的位置区间重叠。只有一边抽出的条目为「分歧」。
+主模型与核验模型收到相同的块与提示词。配对键：管线条目为规范化资产名；临床结果为（资产名，试验 ID 或规范化终点）；催化事件为（资产名，事件类型，时间表述中的年份）。键不同时，同一资产且片段位置区间重叠的条目也配对（样例运行中两边终点措辞不同）。一致判定逐字段：两边都为空；或两边都有值、数字集合相同，且规范化后相同或片段位置重叠。只有一边抽出的条目为「分歧」。
 
 ### 10. 抽取复核文件
 
@@ -107,7 +107,7 @@ ticker = "VKTX"
 verified_by = ""
 
 [[items]]
-id = "c-3f9a12"            # sha256(source_id|type|配对键)[:6]
+id = "r-c6903ab3"          # 前缀 p- / r- / e- 加 sha256(source_id|type|配对键)[:8]
 type = "clinical_result"   # program | clinical_result | catalyst
 source_id = "MAN-VKTX-2"
 asset = "VK2735"
@@ -117,12 +117,12 @@ endpoint = "mean percent change in body weight from baseline at week 13"
 result = "up to 14.7%"
 analysis = "p<0.0001"
 comparator = "placebo"
-quote = "…逐字片段…"
+quotes = ["…逐字片段…", "…表头或小标题行…"]   # 1–4 段
 model = "deepseek-v4-pro"
 returned_model = "…"
 check = "agreed"           # agreed | disputed | single
-verify_value = "…"
-verify_quote = "…"
+verify = { asset = "…", endpoint = "…", result = "…" }   # 核验模型配对条目的取值
+verify_quotes = ["…"]
 decision = "accept"        # accept | reject | ""
 note = ""
 ```

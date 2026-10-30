@@ -1,0 +1,39 @@
+{
+ "request_meta": {
+  "task": "clinical_result",
+  "ticker": "VKTX",
+  "source_id": "MAN-VKTX-4",
+  "chunks": [
+   0,
+   1,
+   2,
+   3
+  ]
+ },
+ "response": {
+  "id": "chatcmpl-c30546fe-2495-9f7a-8110-82edb5e091a6",
+  "object": "chat.completion",
+  "created": 1793366487,
+  "model": "qwen3.7-plus-2026-05-26",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"VK2735\",\n      \"trial\": \"VK2735-102\",\n      \"indication\": \"obesity\",\n      \"endpoint\": \"Mean percent change from baseline body weight at Week 21\",\n      \"result\": \"Placebo: -0.1%; VK2735 15 mg QW: -16.3%; VK2735 17.5 mg QW: -17.8%; VK2735 20 mg QW: -18.7%; VK2735 22.5 mg QW: -17.1%\",\n      \"analysis\": \"p-value vs. placebo <0.0001 for all cohorts; Two-sided t-test using mixed model for repeated measures\",\n      \"comparator\": \"placebo\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"Change in Body Weight Following 21 Weeks of Once-Weekly Dosing with VK2735\",\n        \"Mean percent change from baseline 4,5 | -0.1% | -16.3% | -17.8% | -18.7% | -17.1%\",\n        \"p-value vs. placebo 5 | - | <0.0001 | <0.0001 | <0.0001 | <0.0001\",\n        \"Two-sided t-test using mixed model for repeated measures\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"VK2735\",\n      \"trial\": \"VK2735-102\",\n      \"indication\": \"obesity\",\n      \"endpoint\": \"Proportion of participants demonstrating 5%, 10%, 15%, and 20% weight loss at Week 21\",\n      \"result\": \"Combined VK2735: 98% (≥5%), 90% (≥10%), 65% (≥15%), 32% (≥20%); Placebo: 13% (≥5%), 0% (≥10%), 0% (≥15%), 0% (≥20%)\",\n      \"analysis\": \"p<0.01 vs. placebo for each threshold\",\n      \"comparator\": \"placebo\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"At 21 weeks in the combined VK2735 treatment groups, the proportion of participants demonstrating 5%, 10%, 15%, and 20% weight loss were 98%, 90%, 65%, and 32% as compared with 13%, 0%, 0%, and 0% for placebo\",\n        \"(p<0.01 vs. placebo for each)\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"VK2735\",\n      \"trial\": \"VK2735-102\",\n      \"indication\": \"obesity\",\n      \"endpoint\": \"Mean percentage of Week 21 weight loss maintained at Week 33 (Every-Other-Week Dosing)\",\n      \"result\": \"Placebo: 61%; Combined QOW: 90%; 17.5 mg QW to 5.0 mg QOW: 83%; 15.0 mg QW to 7.5 mg QOW: 90%; 17.5 mg QW to 10.0 mg QOW: 97%\",\n      \"analysis\": \"p-value vs. placebo: Combined QOW p<0.0001; 5.0 mg QOW 0.004; 7.5 mg QOW <0.0001; 10.0 mg QOW <0.0001\",\n      \"comparator\": \"placebo\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"Weight Loss Maintenance Following Transition from Weekly to Every-Other-Week Dosing for 12 Weeks\",\n        \"Mean percentage of Week 21 weight loss maintained at Week 33 (%) 4,5 | 61% | 90% | 83% | 90% | 97%\",\n        \"p-value vs. placebo 5 | - | p<0.0001 | 0.004 | <0.0001 | <0.0001\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"VK2735\",\n      \"trial\": \"VK2735-102\",\n      \"indication\": \"obesity\",\n      \"endpoint\": \"Mean percentage of Week 21 weight loss maintained at Week 33 (Monthly Dosing)\",\n      \"result\": \"Placebo: 61%; Combined QM: 85%; 10 mg QM: 82%; 15 mg QM: 84%; 17.5 mg QM: 90%; 20 mg QM: 86%; 22.5 mg QM: 85%\",\n      \"analysis\": \"p-value vs. placebo: Combined QM <0.0001; 10 mg QM 0.0016; 15 mg QM 0.0012; 17.5 mg QM 0.0002; 20 mg QM 0.0005; 22.5 mg QM 0.0024\",\n      \"comparator\": \"placebo\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"Weight Loss Maintenance Following Transition from Weekly to Monthly Dosing For 12 Weeks\",\n        \"Mean percentage of Week 21 weight loss maintained at Week 33 (%) 4,5 | 61% | 85% | 82% | 84% | 90% | 86% | 85%\",\n        \"p-value vs. placebo 5 | - | <0.0001 | 0.0016 | 0.0012 | 0.0002 | 0.0005 | 0.0024\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"VK2735\",\n      \"trial\": \"VK2735-102\",\n      \"indication\": \"obesity\",\n      \"endpoint\": \"Mean weight loss from baseline at Week 33 (Exploratory control arm continuing weekly dosing)\",\n      \"result\": \"VK2735 17.5 mg weekly: 21.7% weight loss; Placebo: 0.3% weight gain\",\n      \"analysis\": \"p<0.0001 vs. baseline for VK2735; p<0.0001 vs. placebo\",\n      \"comparator\": \"placebo\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"An exploratory control arm in the study evaluated weight change in a cohort of participants who continued receiving weekly VK2735 doses of 17.5 mg (n=13).\",\n        \"This cohort demonstrated mean weight loss of 21.7% from baseline (Week 0) (p<0.0001 vs. baseline), compared with 0.3% weight gain for placebo (p<0.0001 vs. placebo).\"\n      ],\n      \"confidence\": \"\"\n    }\n  ]\n}"
+    },
+    "finish_reason": "stop",
+    "logprobs": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 8286,
+   "total_tokens": 10042,
+   "completion_tokens": 1756,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 8286
+   }
+  }
+ }
+}
