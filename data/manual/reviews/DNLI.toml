@@ -1,0 +1,50 @@
+verified_by = ""
+program = "TIVIDENOFUSP ALFA"
+indication = "Mucopolysaccharidosis II"
+buyer = "AstraZeneca"
+preference_rank = 2
+deal_form = "收购"
+need_item = "基因疗法、体内细胞疗法、补体/酶替代和遗传性疾病药物。（AZ-1、AZ-3，对方材料 AstraZeneca 罕见病偏好行「目标资产画像」）"
+match_note = "需求条目「补体/酶替代和遗传性疾病药物」→ tividenofusp alfa（AVLAYAH）是可穿越血脑屏障的酶替代疗法，适应症为遗传性溶酶体贮积病 MPS II；原文：\"an enzyme replacement therapy designed to systemically deliver iduronate 2-sulfatase (IDS) throughout the body, including the brain\"（MAN-DNLI-2）；\"MPS II is caused by mutations in the iduronate-2-sulfatase\"（MAN-DNLI-1）。未核查组合冲突（未打开 AstraZeneca 管线文件，无法确认其是否已有同机制 MPS II 资产）。"
+thesis = [
+  "AstraZeneca 需要「补体/酶替代和遗传性疾病药物」（AZ-1、AZ-3）；Denali 的 tividenofusp alfa（AVLAYAH，ETV 转铁蛋白受体介导的入脑酶替代疗法，MPS II / Hunter 综合征，美国已获加速批准）对应这一需求，因为它是酶替代疗法且针对遗传性溶酶体贮积病，原文：\"an enzyme replacement therapy designed to systemically deliver iduronate 2-sulfatase (IDS) throughout the body, including the brain\"（MAN-DNLI-2），\"received accelerated approval from the U.S. Food and Drug Administration\"、\"on March 24, 2026 and is approved for the treatment of neurologic manifestations\"（SEC-0001714899-26-000097）。",
+  "证据是 1/2 期单臂研究中脑脊液硫酸乙酰肝素（替代终点）\"reduced from baseline by 91% (95% CI, 90% to 92%; N=44) at Week 24\"（MAN-DNLI-1），尚无与 idursulfase 的直接对比结果；下一事件是 2/3 期 COMPASS 确证性试验（随机对照 idursulfase）主要完成（2027-12，估算，CTG-NCT05371613）；主要障碍是权益负担：Royalty Pharma 收取 \"a 9.25 % royalty on worldwide net sales of AVLAYAH\"，F-star 尚有 \"up to $ 150.0 million in commercial contingent payments\"，均随资产转移（SEC-0001714899-26-000097；另注：资产已上市，超出 AstraZeneca 该偏好行「早期平台至Phase 3」的理想阶段）。",
+]
+thesis_sources = ["AZ-1", "AZ-3", "MAN-DNLI-1", "MAN-DNLI-2", "SEC-0001714899-26-000097", "CTG-NCT05371613"]
+
+[scores.buyer_fit]
+score = 4
+reason = "资产对应 AstraZeneca 罕见病偏好行目标画像中的具体描述「补体/酶替代和遗传性疾病药物」（AZ-1、AZ-3）：tividenofusp alfa 为酶替代疗法，原文：\"an enzyme replacement therapy designed to systemically deliver iduronate 2-sulfatase (IDS)\"（MAN-DNLI-2）；MPS II 为遗传病，原文：\"MPS II is caused by mutations in the iduronate-2-sulfatase\"（MAN-DNLI-1）。未核查组合冲突。"
+sources = ["AZ-1", "AZ-3", "MAN-DNLI-1", "MAN-DNLI-2"]
+confidence = "medium_high"
+
+[scores.stage_match]
+score = 0
+reason = "资产实际阶段为已上市（美国加速批准），原文：\"received accelerated approval from the U.S. Food and Drug Administration\"、\"on March 24, 2026 and is approved for the treatment of neurologic manifestations\"（SEC-0001714899-26-000097）；Drugs@FDA 记录 BLA761485 \"submission_status\": \"AP\"，日期 20260324（MAN-DNLI-3）。AstraZeneca 该偏好行理想阶段为「早期平台至Phase 3」（AZ-1），已上市与 3 期相差两个阶段（3 期 < 注册申请 < 已上市），按 §3.2 计 0 分。注：数据包推导阶段 phase2_3 有误。"
+sources = ["SEC-0001714899-26-000097", "MAN-DNLI-3", "AZ-1"]
+confidence = "high"
+
+[scores.clinical]
+score = 3
+reason = "1/2 期开放标签单臂研究，替代终点（脑脊液 HS）显著下降并作为 FDA 加速批准依据，原文：\"reduced from baseline by 91% (95% CI, 90% to 92%; N=44) at Week 24\"（MAN-DNLI-1）、\"AVLAYAH's accelerated approval was based on a surrogate endpoint (reduction in CSF HS)\"（SEC-0001714899-26-000097）。属单臂数据可作注册依据的领域，替代终点封顶 3 分；无与标准治疗的直接对比结果。"
+sources = ["MAN-DNLI-1", "SEC-0001714899-26-000097"]
+confidence = "medium_high"
+
+[clinical]
+design = "多中心 1/2 期开放标签单臂研究，47 例 MPS II 儿童（ERT 初治 15 例、既往治疗 32 例）；主要目的为安全性与耐受性，次要终点为脑脊液与尿液 HS、适应行为、肝脏体积。原文：\"The study evaluated treatment in 47 ERT-naïve (n=15) and previously treated (n=32) study participants\"（MAN-DNLI-1）。确证性 2/3 期 COMPASS 为 2:1 随机对照 idursulfase，原文：\"The participants are randomized 2:1 to receive either tividenofusp alfa or idursulfase, respectively\"（MAN-DNLI-1）。"
+comparability = "无直接对比：1/2 期为单臂，与 idursulfase 的随机对比（COMPASS）尚未读出；当前疗效证据为与基线比较的替代终点。原文：\"continued approval is contingent upon confirmation of clinical benefit in the ongoing global Phase 2/3 COMPASS trial\"（SEC-0001714899-26-000097）。"
+result = "脑脊液 HS 第 24 周较基线下降 91%，原文：\"reduced from baseline by 91% (95% CI, 90% to 92%; N=44) at Week 24\"；93% 受试者达非 MPS II 儿童范围，原文：\"At Week 24, 93% of study participants reached levels within the range of children without MPS II\"；血清 NfL 第 153 周下降 76%，原文：\"At Week 153, NfL was reduced by 76% (95% CI, 68% to 82%; N=13)\"（MAN-DNLI-1；10-K 引述 Muenzer et al., NEJM, 2026）。"
+limitation = "替代终点（加速批准）；单臂、样本量小；长期数据 N 递减（第 153 周 N=16 / 13）；贫血与输注反应需关注，原文：\"The most common treatment-related adverse events were infusion-related reactions\"（MAN-DNLI-1）。获批人群限于儿童，原文：\"pediatric patients weighing at least 5 kg prior to advanced neurologic impairment\"（SEC-0001714899-26-000097）。"
+sources = ["MAN-DNLI-1", "SEC-0001714899-26-000097"]
+
+[event]
+text = "2/3 期 COMPASS 确证性试验（tividenofusp alfa 对比 idursulfase）主要完成，CT.gov 登记预计主要完成日期 2027-12（估算）；该试验用于确认临床获益、扩展美国成人标签及全球申报，原文：\"The ongoing global Phase 2/3 COMPASS study is intended to support generation of confirmatory evidence, expansion of the U.S. label to adult patients and future global regulatory submissions\"（MAN-DNLI-2）。公司文件未披露读出季度；欧盟审批时间亦未披露（10-Q 仅提及 \"$ 24.0 million due upon regulatory approval of AVLAYAH in the European Union\"）。"
+timing = "2027-12"
+importance = "high"
+certainty = "estimated"
+sources = ["CTG-NCT05371613", "MAN-DNLI-2", "SEC-0001714899-26-000097"]
+
+[rights]
+status = "full"
+note = "公司持有全球权益，原文：\"The Company retains all worldwide development and commercialization rights to AVLAYAH.\"（SEC-0001714899-26-000097，Note 9）。合作方核查：Biogen 的 ROFN/期权协议已终止，原文：\"The side letter also effected the immediate termination of the ROFN and Option Agreement\"（MAN-DNLI-1）；Sanofi 合作仅限 RIPK1 抑制剂；Takeda 仅涉及 PTV:PGRN（已终止并归还）与 ATV:TREM2，均不涉及 ETV:IDS（MAN-DNLI-1、SEC-0001714899-26-000097）。随资产转移的负担：Royalty Pharma 合成特许权使用费，原文：\"a 9.25 % royalty on worldwide net sales of AVLAYAH\"（SEC-0001714899-26-000097）；F-star Gamma 收购产生的或有付款，原文：\"$ 24.0 million due upon regulatory approval of AVLAYAH in the European Union, and up to $ 150.0 million in commercial contingent payments\"（SEC-0001714899-26-000097）；TV 平台部分专利与 F-star 共有（MAN-DNLI-1）。"
+sources = ["SEC-0001714899-26-000097", "MAN-DNLI-1"]

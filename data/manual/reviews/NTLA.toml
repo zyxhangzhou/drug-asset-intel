@@ -1,0 +1,50 @@
+verified_by = ""
+program = "NTLA-2002"
+indication = "Hereditary Angioedema"
+buyer = "AstraZeneca"
+preference_rank = 2
+deal_form = "收购"
+need_item = "基因疗法、体内细胞疗法、补体/酶替代和遗传性疾病药物（AstraZeneca 罕见病偏好行，理想阶段「早期平台至Phase 3」）"
+match_note = "lonvo-z 是体内 CRISPR 基因编辑、一次性给药，针对遗传性血管性水肿（遗传病），对应「基因疗法……遗传性疾病药物」；原文：\"Lonvo-z is a wholly owned, investigational in vivo CRISPR-based therapeutic candidate designed to inactivate the kallikrein B1\"（SEC-0001193125-26-337952）。未核查组合冲突：10-K 列出的 HAE 竞争公司中没有 AstraZeneca（\"products used to treat HAE, including ADARx Therapeutics\"，MAN-NTLA-1），但该名单不是完整核查。"
+thesis = [
+  "AstraZeneca 需要「基因疗法、体内细胞疗法、补体/酶替代和遗传性疾病药物」；Intellia 的 lonvo-z（NTLA-2002，体内 CRISPR 敲除 KLKB1 基因的一次性疗法，遗传性血管性水肿，BLA 已获受理）对应这一需求，因为它是针对遗传病的体内基因编辑疗法且为公司全资拥有。",
+  "证据是 3 期随机双盲安慰剂对照 HAELO 达到主要终点，第 5–28 周发作减少 87%（0.26 vs 2.10 次/月，p<0.0001），但只与安慰剂比较、无与标准预防治疗的直接对比；下一事件是 FDA 对 BLA 的审评决定（PDUFA 目标日 2027-03-10，明确披露）；主要障碍是权益层面的 OrbiMed 有担保贷款：以全部资产（含知识产权）作第一顺位担保，控制权变更构成违约事件，收购时需一并处理。"
+]
+thesis_sources = ["AZ-1", "AZ-3", "SEC-0001193125-26-337952", "CTG-NCT06634420", "MAN-NTLA-2", "MAN-NTLA-3"]
+
+[scores.buyer_fit]
+score = 4
+confidence = "medium"
+reason = "需求条目「基因疗法、体内细胞疗法、补体/酶替代和遗传性疾病药物」（AZ-1、AZ-3）→ lonvo-z 为体内 CRISPR 基因编辑、针对遗传性血管性水肿；原文：\"investigational in vivo CRISPR-based therapeutic candidate designed to inactivate the kallikrein B1\"（SEC-0001193125-26-337952）。10-K 的 HAE 竞争公司名单（\"products used to treat HAE, including ADARx Therapeutics\"，MAN-NTLA-1）不含 AstraZeneca，未发现组合冲突，但未做完整核查（未核查组合冲突）。注意：自动初筛把 HAE 归入 immunology，不在 AstraZeneca #2 的 ta_codes（rare_genetic;hematology;attr）中，此配对属人工判断。"
+sources = ["AZ-1", "AZ-3", "SEC-0001193125-26-337952", "MAN-NTLA-1"]
+
+[scores.stage_match]
+score = 2
+confidence = "high"
+reason = "AstraZeneca #2 理想阶段为「早期平台至Phase 3」；公司最新披露资产已到注册申请（BLA 已获受理），比区间上限高一个阶段，按 §3.2 得 2 分。原文：\"the U.S. Food and Drug Administration (“FDA”) has accepted the Biologics License Application (“BLA”) for lonvoguran ziclumeran\"（MAN-NTLA-2）。数据包中的阶段 phase3 已过时。"
+sources = ["AZ-1", "MAN-NTLA-2"]
+
+[scores.clinical]
+score = 3
+confidence = "medium_high"
+reason = "随机双盲安慰剂对照 3 期达到主要终点，效应大；原文：\"The trial met its primary endpoint.\"、\"reduced attacks by 87% versus placebo\"（SEC-0001193125-26-337952）。没有与标准预防治疗的直接对比，也没有有来源的同终点间接比较，按 §3.3 不到 4 分。"
+sources = ["SEC-0001193125-26-337952", "CTG-NCT06634420"]
+
+[clinical]
+design = "HAELO：全球、随机、双盲、安慰剂对照 3 期，2:1 随机，单次 50 mg 输注 lonvo-z 或安慰剂，主要终点为第 5–28 周 HAE 发作次数，共入组 80 例。原文：\"global, randomized, double-blind, placebo-controlled study\"、\"Patients were randomized 2:1 to receive a single 50 mg infusion of lonvo-z or placebo\"、\"In total, 80 patients were enrolled in the trial\"（SEC-0001193125-26-337952）"
+comparability = "只与安慰剂比较，未与现有长期预防药物（如 10-K 所列 HAE 竞争公司的产品）直接对比；与其他 HAE 预防药的任何比较都是跨试验比较，人群与终点定义可能不同。"
+result = "第 5–28 周发作减少 87%，月均发作 0.26 vs 2.10（p<0.0001）；全部关键次要终点达到统计学显著；lonvo-z 组 62% 完全无发作且无需治疗（安慰剂 11%）。原文：\"reduced attacks by 87% versus placebo, with a mean monthly attack rate of 0.26 in the lonvo-z arm compared with 2.10 in the placebo arm (p<0.0001)\"、\"62% of patients were entirely attack free and therapy free\"（SEC-0001193125-26-337952）"
+limitation = "有效性评估期仅 6 个月，长期持久性与长期安全性待更长随访；HAELO 报告 \"there were no serious adverse events observed in the lonvo-z arm\"，但同平台（LNP 递送体内 CRISPR）的 nex-z 曾因 4 级转氨酶升高被临床暂停，原文：\"On October 29, 2025, the FDA placed a clinical hold\"，并发现 \"the highest observed liver transaminase elevations were in patients carrying one specific human leukocyte antigen\"（SEC-0001193125-26-337952），平台肝脏安全性是审评与买方尽调的关注点。"
+sources = ["SEC-0001193125-26-337952", "CTG-NCT06634420"]
+
+[event]
+text = "FDA 对 lonvo-z 治疗遗传性血管性水肿 BLA 的审评决定（优先审评，FDA 目前不计划召开咨询委员会）。原文：\"target action date of March 10, 2027\"、\"not currently planning to hold an advisory committee\"（MAN-NTLA-2）"
+timing = "2027-03-10"
+importance = "high"
+certainty = "disclosed"
+sources = ["MAN-NTLA-2"]
+
+[rights]
+status = "full"
+note = "最新 10-Q 写明 lonvo-z 为全资资产，原文：\"Lonvo-z is a wholly owned, investigational in vivo CRISPR-based therapeutic candidate\"（SEC-0001193125-26-337952）；未见授权出去的区域或他方选择权。对许可方的义务：CRISPR/Cas9 底层专利来自 Caribou 独家许可，10-K 提到 \"low- to mid-single-digit royalty obligations under its in-license agreement with Caribou Biosciences, Inc.\"（MAN-NTLA-1，是否适用于 lonvo-z 待核实），10-Q 提到可能需向 \"Caribou and Rewrite Therapeutics, Inc.\" 支付里程碑与特许权使用费。交易障碍（不改变权益状态）：OrbiMed 贷款 \"secured on a first-priority basis, subject to certain exceptions, by security interests in substantially all assets of the Company, including its intellectual property\"，契约限制 \"effectuate mergers or consolidations, engage in asset sales and licensing transactions\"，且违约事件含 \"change of control\"（MAN-NTLA-3）。"
+sources = ["SEC-0001193125-26-337952", "MAN-NTLA-1", "MAN-NTLA-3"]

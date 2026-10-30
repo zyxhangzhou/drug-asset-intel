@@ -1,0 +1,50 @@
+verified_by = ""
+program = "BHV-1300"
+indication = "Graves Disease"
+buyer = "Johnson & Johnson"
+preference_rank = 2
+deal_form = "许可"
+need_item = "FcRn、IL-23、自身抗体清除和慢性炎症疾病的长效生物药（JNJ-1、JNJ-3）"
+match_note = "需求条目「自身抗体清除」→ BHV-1300 是清除致病 IgG 自身抗体的细胞外降解剂，原文：\"Targeted removal of disease-causing IgG has the potential to eliminate the pathogenic thyroid-stimulating antibody\"（MAN-BHVN-1）。两点保留：(a) 该行写的是「长效生物药」，而 BHV-1300 是小分子，原文：\"investigational small-molecule extracellular IgG degrader\"（MAN-BHVN-2），每周皮下给药；(b) J&J 本行证据列出 IMAAVY/nipocalimab（FcRn，同样降低 IgG），机制不同，适应症列为 gMG、溶血性贫血、SLE，未见 Graves 病；未打开 J&J 一手来源，未核查组合冲突。"
+thesis = [
+  "强生（免疫炎症，第 2 优先）需要「FcRn、IL-23、自身抗体清除和慢性炎症疾病的长效生物药」；Biohaven 的 BHV-1300（MoDE 细胞外 IgG 降解剂，Graves 病，3 期）对应这一需求，因为它通过清除致病 IgG1 自身抗体治疗 Graves 病，原文：\"BHV-1300 MoDE has entered Phase 3\"。",
+  "证据是 1b 期患者中 TSHR-IgG1 自身抗体平均下降超过 80%、游离 T4 中位 3 周恢复正常（替代指标，无对照组，无与标准治疗的比较）；下一事件是 3 期试验 NCT07661056 主要终点完成（2028-01，估算）；主要障碍是权益：日本、韩国、台湾和东盟已独家授权给 Ono，且 Oberland 票据在控制权变更时可要求回购。"
+]
+thesis_sources = ["JNJ-1", "JNJ-3", "MAN-BHVN-1", "MAN-BHVN-2", "CTG-NCT07661056"]
+
+[scores.buyer_fit]
+score = 4
+confidence = "medium"
+reason = "命中强生免疫行目标资产画像中的「自身抗体清除」；BHV-1300 原文：\"Targeted removal of disease-causing IgG has the potential to eliminate the pathogenic thyroid-stimulating antibody\"（MAN-BHVN-1）。扣分风险：该行要求「长效生物药」，BHV-1300 为 \"small-molecule extracellular IgG degrader\"（MAN-BHVN-2）；J&J 已有 FcRn 抗体 nipocalimab（不同机制）。未核查组合冲突。若复核认定形式不符，降为 3。"
+sources = ["JNJ-1", "JNJ-3", "MAN-BHVN-1", "MAN-BHVN-2"]
+
+[scores.stage_match]
+score = 4
+confidence = "high"
+reason = "公司 10-Q 确认已进入 3 期，原文：\"BHV-1300 MoDE has entered Phase 3\"（MAN-BHVN-1）；8-K 原文：\"Continue enrolling patients in ongoing Phase 3 study in Graves' disease following June 2026 study initiation\"（MAN-BHVN-2）。强生免疫行理想阶段 Phase 2-3，落在区间内。"
+sources = ["MAN-BHVN-1", "MAN-BHVN-2", "CTG-NCT07661056", "JNJ-1"]
+
+[scores.clinical]
+score = 2
+confidence = "medium_high"
+reason = "只有 1b 期患者数据，终点为自身抗体与甲状腺激素等替代指标，无对照，看不出相对标准治疗（抗甲状腺药物）的优势。原文：\"mean reductions of pathogenic TSHR-IgG1 autoantibodies of greater than 80% by week 12\"（MAN-BHVN-1）。"
+sources = ["MAN-BHVN-1"]
+
+[clinical]
+design = "1b 期，Graves 病患者，BHV-1300 1000 mg 每周皮下给药，部分患者同时使用抗甲状腺药物；10-Q 未列明随机或对照设计。原文：\"weekly administration of BHV-1300 1000 mg subcutaneously\"（MAN-BHVN-1）。关键 3 期为随机双盲安慰剂对照，约 300 例，原文：\"randomized, double-blind, placebo-controlled study in approximately 300 adults with Graves’ hyperthyroidism\"（MAN-BHVN-1）。"
+comparability = "无对照组，无与标准治疗的直接或间接比较。"
+result = "原文：\"mean reductions of pathogenic TSHR-IgG1 autoantibodies of greater than 80% by week 12\"；\"normalization of free T4 occurred at a median of 3 weeks and normalization of free T3 occurred at a median of 5 weeks\"；安全性原文：\"no serious adverse events\"（MAN-BHVN-1）。"
+limitation = "替代终点（自身抗体、游离 T3/T4），样本量未披露，12 周短期数据；3 期主要终点为停用抗甲状腺药物后 26 周 T3、T4、TSH 正常化，尚无读出。"
+sources = ["MAN-BHVN-1"]
+
+[event]
+text = "3 期试验 NCT07661056（\"Study to Determine if BHV-1300 is Effective and Safe in Adults With Graves' Disease\"）主要终点完成，CT.gov 预计主要完成日期 2028-01；公司未披露读出时间。"
+timing = "2028-01"
+importance = "high"
+certainty = "estimated"
+sources = ["CTG-NCT07661056"]
+
+[rights]
+status = "partial"
+note = "BHV-1300 所在 MoDE pan IgG 降解剂组合已独家授权 Ono（日本、韩国、台湾、东盟），原文：\"The Company retains all rights to the licensed portfolio outside the Ono Licensed Territory, including in the United States, Europe and China.\"。可能加重限制的条款：Ono \"sharing specified costs of global clinical studies\"；Ono 对 Ono 区域内部分后续化合物有 \"right of first negotiation with respect to certain follow-on compounds in the Ono Licensed Territory\"（不含 BHV-1300 本身）；双方 \"specified restrictions on each party’s activities involving competing IgG degraders\"。引进许可：Yale MoDE 平台 \"worldwide, exclusive license agreement with Yale\"，须付 \"low single digit royalties on the net sales of licensed products\"，剩余里程碑开发 1.063 百万美元、商业 4.988 百万美元（原文单位千美元：\"$ 1,063 and $ 4,988\"），另付 Yale 分许可收入的 \"low single-digit percentage of sublicense income\"；Moda 顾问协议剩余里程碑开发 27.995、监管 22.0、商业 104.612 百万美元（原文：\"$ 27,995 , $ 22,000 , and $ 104,612\"）。融资负担：Oberland 票据 2.5 亿美元，产品获 FDA/EMA 批准时付里程碑，原文：\"equal to 35 % of the Total Funded Amount upon the approval by the FDA or European Medicines Agency (“EMA”) of troriluzole or other Company products\"；控制权变更触发持有人回购权（\"Put Option\" … \"a change of control\"）；契约限制 \"merge or consolidate\"。（均见 MAN-BHVN-1）"
+sources = ["MAN-BHVN-1", "MAN-BHVN-2"]

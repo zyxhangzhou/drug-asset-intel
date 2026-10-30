@@ -1,0 +1,50 @@
+verified_by = ""
+program = "PALAZESTRANT"
+indication = "Breast Cancer"
+buyer = "Novartis"
+preference_rank = 3
+deal_form = "许可"
+need_item = "Novartis 第 3 偏好（神经科学及精准肿瘤）目标资产画像：\"神经退行性疾病遗传药物、放射性配体、ADC或新payload肿瘤药\"（NVS-3）"
+match_note = "仅治疗领域标签匹配：palazestrant 是口服小分子 ER 拮抗剂/降解剂，原文：\"orally available complete estrogen receptor antagonist (CERAN) and a selective estrogen receptor degrader (SERD)\"（MAN-OLMA-2），不属于画像所列的放射性配体、ADC 或新 payload，故买方契合度只给 2。选 Novartis 的理由是交易结构而非需求条目：10-Q 原文 \"The Company granted Novartis a right of first negotiation with respect to (a) the grant to any person or entity any right, license or sublicense to exploit palazestrant\"（SEC-0001193125-26-342383），且 Novartis 为 OPERA-02 供应 ribociclib，原文 \"Novartis will provide the Company with ribociclib drug supply for the Company’s Phase 3 OPERA-02 clinical trial\"（MAN-OLMA-1）。画像匹配更好的 Pfizer、Roche、AstraZeneca 均有同靶点同适应症资产（组合冲突，见 10-K 竞品清单）。Novartis 自身是否有同机制乳腺癌资产：未核查组合冲突。"
+thesis = [
+  "Novartis 需要精准肿瘤资产（画像原文为\"神经退行性疾病遗传药物、放射性配体、ADC或新payload肿瘤药\"，与 SERD 仅领域匹配）；Olema 的 palazestrant（口服 CERAN/SERD，ER+/HER2- 晚期或转移性乳腺癌，3 期）对应这一需求，因为 Novartis 已为其 3 期联用试验 OPERA-02 供应 Kisqali（ribociclib），并持有该资产交易的优先谈判权。",
+  "证据是单臂 2 期单药数据（86 例全人群中位 PFS 4.6 个月，二/三线亚组 7.2 个月）与单臂 1b/2 期联用 ribociclib 数据（中位 PFS 15.5 个月），均为跨试验比较、无随机对照；下一事件是 3 期 OPERA-01 顶线数据（2027 年第一季度，明确披露）；主要障碍是权益受限：Novartis 对任何 palazestrant 许可或转让持有优先谈判权，第三方交易还须按已供应比例向 Novartis 偿付约 2.75 亿美元中的相应部分。",
+]
+thesis_sources = ["NVS-3", "MAN-OLMA-1", "MAN-OLMA-2", "SEC-0001193125-26-342383"]
+
+[scores.buyer_fit]
+score = 2
+reason = "只符合治疗领域：Novartis 第 3 偏好为\"神经科学及精准肿瘤\"，画像要求放射性配体、ADC 或新 payload（NVS-3）；palazestrant 为口服小分子，原文 \"orally available small molecule with dual activity as both a complete estrogen receptor antagonist (CERAN) and selective estrogen receptor degrader (SERD)\"（MAN-OLMA-2）。Novartis 的优先谈判权是权益事实，不计入需求匹配。未核查组合冲突（Novartis 是否持有同机制乳腺癌资产）。"
+sources = ["NVS-3", "MAN-OLMA-2"]
+confidence = "medium_high"
+
+[scores.stage_match]
+score = 4
+reason = "Novartis 第 3 偏好理想阶段为\"早期平台至Phase 3\"（NVS-3；映射表 preclinical–phase3）；palazestrant 处于 3 期，原文 \"currently in two Phase 3 clinical trials\"（MAN-OLMA-2），落在区间内。"
+sources = ["NVS-3", "MAN-OLMA-2", "CTG-NCT06016738", "CTG-NCT07085767"]
+confidence = "high"
+
+[scores.clinical]
+score = 2
+reason = "早期单臂阳性信号，尚无随机对照结果：2 期单药原文 \"Across all 86 patients, the median progression-free survival (PFS) was 4.6 months\"，1b/2 期联用 ribociclib 原文 \"Median PFS was 15.5 months for all patients\"（MAN-OLMA-1）；ER+ 乳腺癌不以单臂数据注册，随机 3 期 OPERA-01 尚未读出，原文 \"top-line data are now expected in the first quarter of 2027\"（MAN-OLMA-2）。"
+sources = ["MAN-OLMA-1", "MAN-OLMA-2"]
+confidence = "medium_high"
+
+[clinical]
+design = "单臂 2 期单药（RP2D 120 mg，86 例重度预治疗 ER+/HER2- 晚期乳腺癌），原文 \"86 patients with recurrent, locally advanced or metastatic ER+/HER2- breast cancer were treated at the recommended Phase 2 dose (RP2D) of 120 mg\"；另有单臂 1b/2 期联用 ribociclib，原文 \"72 patients were enrolled across the 90 mg and 120 mg palazestrant dose cohorts\"（MAN-OLMA-1）。"
+comparability = "跨试验比较，人群与终点定义可能不同；无对照组。2 期人群重度预治疗，原文 \"42% of patients being fourth-line or later at study entry\"（MAN-OLMA-1）。"
+result = "单药全人群中位 PFS 4.6 个月、CBR 40%，原文 \"the median progression-free survival (PFS) was 4.6 months and the clinical benefit rate (CBR), was 40%\"；二/三线亚组原文 \"the median PFS was 7.2 months and the CBR was 48%\"；联用 ribociclib 120 mg 队列原文 \"Median PFS was 15.5 months for all patients\"（MAN-OLMA-1）。"
+limitation = "均为单臂数据；随机 3 期 OPERA-01（对照为标准内分泌治疗，原文 \"randomized one-to-one with either palazestrant or standard-of-care endocrine therapy\"）尚未读出（MAN-OLMA-1）。安全性：原文 \"events of Grade 4 neutropenia were observed in six patients\"（MAN-OLMA-1）。"
+sources = ["MAN-OLMA-1"]
+
+[event]
+text = "关键 3 期 OPERA-01（palazestrant 单药 vs 标准内分泌治疗，二/三线 ER+/HER2- 转移性乳腺癌）顶线数据；原文 \"Report top-line data from the pivotal Phase 3 OPERA-01 trial in the first quarter of 2027\"（MAN-OLMA-2）。10-K 原计划为 \"fall of 2026\"（MAN-OLMA-1），已推迟。"
+timing = "2027Q1"
+importance = "high"
+certainty = "disclosed"
+sources = ["MAN-OLMA-2", "MAN-OLMA-1", "CTG-NCT06016738"]
+
+[rights]
+status = "restricted"
+note = "公司拥有全球权益，原文 \"We own full worldwide development and commercialization rights to both palazestrant and OP-3136\"（MAN-OLMA-1）；但 2024 Novartis Agreement 给予 Novartis 优先谈判权，覆盖任何区域的许可与资产转让，原文 \"The Company granted Novartis a right of first negotiation with respect to (a) the grant to any person or entity any right, license or sublicense to exploit palazestrant, in any field or territory\"（SEC-0001193125-26-342383；10-K 同段为 \"We granted Novartis a right of first negotiation\"，MAN-OLMA-1），并在公司主动寻求出售时享有排他尽调与谈判期（\"Novartis will have the exclusive right (but no obligation) to conduct due diligence\"，MAN-OLMA-1）；与 Novartis 以外第三方完成交易须偿付 \"the proportion of approximately $ 275 million that is represented by the number of units of ribociclib actually supplied\"（SEC-0001193125-26-342383）。上述权利持续至 \"the date that is 120 days after filing of the New Drug Application for the Olema Combination\" 等较早者（MAN-OLMA-1）。Pfizer 两项协议为非排他临床供应协议，原文 \"non-exclusive, royalty-free license\"（MAN-OLMA-1），不影响权益。Aurigene 许可（里程碑与特许权使用费）只覆盖 OP-3136，原文 \"Aurigene has provided to us an exclusive license to Aurigene's rights to patents and applications related to OP-3136\"（MAN-OLMA-1），palazestrant 未见对外许可方付费义务。"
+sources = ["MAN-OLMA-1", "SEC-0001193125-26-342383"]

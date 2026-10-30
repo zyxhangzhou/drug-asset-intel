@@ -1,0 +1,50 @@
+verified_by = ""
+program = "BARZOLVOLIMAB"
+indication = "Chronic Spontaneous Urticaria"
+buyer = "Bristol Myers Squibb"
+preference_rank = 2
+deal_form = "收购"
+need_item = "能带来持久缓解、组织修复或免疫重置的自身免疫药物，覆盖皮肤、胃肠和风湿病（BMY-1、BMY-2）"
+match_note = "barzolvolimab 是抗 KIT 单抗，清除/抑制肥大细胞，用于皮肤疾病慢性自发性荨麻疹（CSU），并有停药后持续获益数据，对应 BMS 画像中的「持久缓解」「免疫重置」「覆盖皮肤」；原文：\"binding with high specificity to a unique part of the KIT receptor and potently inhibiting its activity\"（MAN-CLDX-1）；\"sustained off-treatment improvement in patients with CSU\"、\"Seven months after the completion of dosing (Week 76), up to 64% of patients treated with barzolvolimab who had angioedema at baseline remained angioedema-free\"、\"shift treatment goals from symptom control to disease modification\"（MAN-CLDX-2）。停药后数据来自 2 期长期随访（EAACI 会议），属公司表述。组合冲突仅按 10-K 竞争表（只列已启动 3 期或已上市的竞品）核查：表中 CSU 竞品无 BMS 产品（Novartis 有 Xolair 与 remibrutinib），未核查 BMS 早期管线。"
+thesis = [
+  "Bristol Myers Squibb 需要「能带来持久缓解、组织修复或免疫重置的自身免疫药物，覆盖皮肤」；Celldex 的 barzolvolimab（抗 KIT 单抗、抑制肥大细胞，慢性自发性荨麻疹，3 期已读出）对应这一需求，因为它在 CSU 中显示停药 7 个月后仍有最多 64% 基线伴血管性水肿患者无血管性水肿，公司称可能把治疗目标从症状控制转向疾病修饰。",
+  "证据是两项随机双盲安慰剂对照 3 期 EMBARQ-CSU1/2（共 1,939 例）均达到第 12 周 UAS7 主要终点（150 mg Q4W 较基线 -20.2 对安慰剂 -10.7/-11.4，p<.00001），但无与 omalizumab 等标准治疗的直接对比；下一事件是向 FDA 提交 BLA（2027 年，公司只披露年份，按估算处理）；主要障碍是成本：快照 EV 约 16.1 亿美元（<20 亿档），获批时另须付 Kolltan 原股东 5,250 万美元，并向 Yale 支付低个位数销售特许权使用费。",
+]
+thesis_sources = ["BMY-1", "BMY-2", "MAN-CLDX-1", "MAN-CLDX-2", "MAN-CLDX-3", "SEC-0001104659-26-091984", "NASDAQ-CLDX-2026-10-28", "CTG-NCT06445023", "CTG-NCT06455202"]
+
+[scores.buyer_fit]
+score = 4
+confidence = "medium"
+reason = "BMS 第 2 治疗领域（免疫炎症）画像点名「持久缓解…或免疫重置」「覆盖皮肤」；barzolvolimab 为皮肤病 CSU 的抗体，并有停药后持续获益数据；原文：\"sustained off-treatment improvement in patients with CSU\"、\"shift treatment goals from symptom control to disease modification\"（MAN-CLDX-2）。持久缓解证据来自 2 期长期随访而非 3 期；组合冲突只按 10-K 竞争表核查（BMS 不在 CSU 竞品中，原文表头：\"competitors of which we are aware that have initiated a Phase 3 study or have obtained marketing approval\"，MAN-CLDX-3），故置信度取中。"
+sources = ["BMY-1", "BMY-2", "MAN-CLDX-1", "MAN-CLDX-2", "MAN-CLDX-3"]
+
+[scores.stage_match]
+score = 4
+confidence = "high"
+reason = "BMS 该行 ideal_stage 为「Phase 1b-3」；barzolvolimab 在 CSU 处于 3 期且已读出顶线，原文：\"positive topline results from the Company’s Phase 3 EMBARQ-CSU1 and EMBARQ-CSU2 trials\"（MAN-CLDX-1）。"
+sources = ["BMY-1", "MAN-CLDX-1", "CTG-NCT06445023", "CTG-NCT06455202"]
+
+[scores.clinical]
+score = 3
+confidence = "high"
+reason = "两项随机、双盲、安慰剂对照 3 期均达到主要终点（第 12 周 UAS7 较基线变化，CSU 注册终点，非替代终点）及全部关键次要终点；原文：\"Both Phase 3 trials met the primary endpoint of mean change from baseline in weekly urticaria activity score (UAS7) at Week 12, and all key secondary endpoints\"（MAN-CLDX-1）。只有安慰剂对照，无与 omalizumab 等标准治疗的直接对比；公司「best-in-disease」为跨试验表述，故不给 4 分。"
+sources = ["MAN-CLDX-1", "CTG-NCT06445023", "CTG-NCT06455202"]
+
+[clinical]
+design = "EMBARQ-CSU1/2：随机、双盲、安慰剂对照、平行组、全球 3 期，H1 抗组胺药控制不佳的成人 CSU（含既往高级治疗经治/难治者），1,939 例按 1:1:1 随机到 150 mg Q4W、300 mg Q8W 或安慰剂 24 周；原文：\"randomized, double-blind, placebo-controlled, parallel group, global studies. 1,939 patients were randomized (n=963 EMBARQ-CSU1; n=976 EMBARQ-CSU2)\"、\"barzolvolimab 300 mg every 8 weeks (following 450 mg loading dose)\"（MAN-CLDX-1）。"
+comparability = "只有安慰剂对照；与 omalizumab、remibrutinib、dupilumab 等无直接对比。omalizumab 难治亚组是亚组分析，不是头对头。任何与已上市药的比较都是跨试验比较，人群与终点定义可能不同；公司「best-in-disease」为公司表述。"
+result = "第 12 周 UAS7 LS 均值变化：CSU1 150 mg Q4W -20.2、300 mg Q8W -20.5、安慰剂 -10.7；CSU2 分别 -20.2、-19.7、-11.4，均 p<.00001；原文：\"-20.2 (0.64) (p<.00001)\"、\"-10.7 (0.65)\"（MAN-CLDX-1）。第 12 周完全缓解（UAS7=0）42.1%–45.7% 对安慰剂 9.3%/12.6%：\"42.4% (p<.00001)\"、\"45.7% (p<.00001)\"（MAN-CLDX-1）。"
+limitation = "仅为公司顶线新闻稿，尚无同行评议全文；52 周治疗仍在进行：\"treatment continuing through 52 weeks\"（MAN-CLDX-1）。同一资产在结节性痒疹 2 期失败：\"the trial did not meet primary or key secondary endpoints\"（MAN-CLDX-2）。KIT 抑制类效应：\"hair color changes\"、\"taste changes\"（MAN-CLDX-3）；非人灵长类毒理 \"a profound impact on spermatogenesis, an expected and well understood effect of KIT inhibition\"（MAN-CLDX-3）。"
+sources = ["MAN-CLDX-1", "MAN-CLDX-2", "MAN-CLDX-3", "CTG-NCT06445023", "CTG-NCT06455202"]
+
+[event]
+text = "向 FDA 提交 barzolvolimab CSU 的 BLA；原文：\"plans to submit a Biologics License Application (BLA) to the FDA in 2027\"（MAN-CLDX-1）、\"BLA submission planned for 2027\"（MAN-CLDX-2）。公司只披露年份，未给季度或半年，故确定性按估算处理。"
+timing = "2027"
+importance = "high"
+certainty = "estimated"
+sources = ["MAN-CLDX-1", "MAN-CLDX-2"]
+
+[rights]
+status = "full"
+note = "推断（中高）：10-K 未逐字写「全球权益」。10-K 只列一项重要许可协议（Yale，引进方向），无对外授权、选择权或共同开发：\"Summarized below is our significant research collaboration and license agreement for our current clinical drug candidates.\"；公司自有专利：\"We own a portfolio of patents and patent applications directed to barzolvolimab and other anti-KIT receptor antibodies.\"（MAN-CLDX-3）；10-K 附件清单「License, Collaboration」类只有 Yale 协议。引进义务：Yale \"a one-time payment to Yale of $3.0 million with respect to barzolvolimab upon achievement of a specified commercial milestone\"、\"a low single-digit royalty on annual worldwide net sales of barzolvolimab\"（MAN-CLDX-3）。资产来自 2016 年收购 Kolltan，获批时应付原股东：\"The Company shall pay $ 52.5 million upon the first United States Food and Drug Administration or European Medicines Agency ... regulatory approval\"（SEC-0001104659-26-091984）。"
+sources = ["MAN-CLDX-3", "SEC-0001104659-26-091984"]

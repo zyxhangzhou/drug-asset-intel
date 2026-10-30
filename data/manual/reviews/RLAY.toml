@@ -1,0 +1,50 @@
+verified_by = ""
+program = "zovegalisib"
+indication = "PIK3CA Mutation"
+buyer = "Pfizer"
+preference_rank = 2
+deal_form = "收购"
+need_item = '''Pfizer 肿瘤偏好（第 2 位，补缺）目标画像：“ADC、双特异抗体、靶向小分子或放射性药物，覆盖乳腺、肺癌、泌尿和血液肿瘤”；理想阶段“Phase 2b-注册期”（PFE-1、PFE-3）。买方 LOE：Ibrance（palbociclib）美国 LOE“2027”（MNC-WB）。'''
+match_note = '''zovegalisib 是口服靶向小分子（变构、突变选择性 PI3Kα 抑制剂），关键 3 期针对 PI3Kα 突变 HR+/HER2- 晚期乳腺癌，对应画像中的“靶向小分子……覆盖乳腺”；原文："the first known allosteric, pan-mutant and isoform-selective phosphoinositide 3 kinase alpha, or PI3Kα, inhibitor"（SEC-0001193125-26-338056）。该人群为 CDK4/6 抑制剂治疗后患者，与 Ibrance（palbociclib，LOE 2027）同一乳腺癌领域；双方已有合作："Pfizer has agreed to supply atirmociclib and palbociclib for use in our planned Phase 3 trial"（SEC-0001193125-26-338056）。组合冲突检查：10-K 竞争段列出 Novartis（Piqray）、AstraZeneca（Truqap）、Roche（Itovebi），未列 Pfizer 的 PI3Kα 资产（MAN-RLAY-1）；10-K 竞争段不是买方管线的完整清单，未逐一核查 Pfizer 自有管线。'''
+thesis = [
+  '''Pfizer 需要覆盖乳腺癌的靶向小分子以接替 2027 年 LOE 的 Ibrance（PFE-1、PFE-3、MNC-WB）；Relay Therapeutics 的 zovegalisib（变构、突变选择性 PI3Kα 抑制剂，PI3Kα 突变 HR+/HER2- 晚期乳腺癌，3 期）对应这一需求，因为它针对 CDK4/6 抑制剂治疗后人群，且 Pfizer 已为其 3 期联合试验供应 atirmociclib 与 palbociclib（SEC-0001193125-26-338056、MAN-RLAY-1）。''',
+  '''证据是 1/2 期单臂 ReDiscover 中 400mg BID 进食剂量组 57 例可评估患者中位 PFS 11.1 个月、确认 ORR 43%，并获 FDA 突破性疗法认定，但为单臂中期数据、无与标准治疗的直接对比（MAN-RLAY-2、MAN-RLAY-4）；下一事件是对照 capivasertib + fulvestrant 的 3 期 ReDiscover-2 主要终点数据（2028-04，估算）（CTG-NCT06982521）；主要障碍是成本，EV 约 34 亿美元，另需承担对 D. E. Shaw Research 的低个位数特许权使用费与里程碑（SEC-0001193125-26-338056、MAN-RLAY-1）。''',
+]
+thesis_sources = ["PFE-1", "PFE-3", "MNC-WB", "SEC-0001193125-26-338056", "MAN-RLAY-1", "MAN-RLAY-2", "MAN-RLAY-4", "CTG-NCT06982521"]
+
+[scores.buyer_fit]
+score = 4
+confidence = "medium"
+reason = '''资产对应 Pfizer 肿瘤偏好的具体需求条目“靶向小分子……覆盖乳腺”（PFE-1、PFE-3），并落在 Ibrance（palbociclib，LOE 2027，MNC-WB）所在的 HR+/HER2- 乳腺癌领域。资产属性原文："evaluate the safety and efficacy of zovegalisib plus fulvestrant in PI3Kα-mutated, HR+/HER2- advanced breast cancer patients previously treated with a cyclin dependent kinase 4/6, or CDK4/6, inhibitor"（SEC-0001193125-26-338056）。已有合作原文："Pfizer has agreed to supply atirmociclib and palbociclib"（SEC-0001193125-26-338056）。10-K 竞争段只点名 "Piqray (alpelisib) ... marketed by Novartis"、"Truqap (capivasertib) ... marketed by AstraZeneca"、"Itovebi (inavolisib) ... marketed by Roche"（MAN-RLAY-1），未见 Pfizer 同机制同适应症资产；未逐一核查 Pfizer 自有管线，置信度取中。'''
+sources = ["PFE-1", "PFE-3", "MNC-WB", "SEC-0001193125-26-338056", "MAN-RLAY-1"]
+
+[scores.stage_match]
+score = 4
+confidence = "high"
+reason = '''Pfizer 肿瘤偏好行理想阶段为“Phase 2b-注册期”（PFE-1、PFE-3）；zovegalisib 处于 3 期，原文："In the second quarter of 2025, we initiated a global Phase 3 registrational study, or the ReDiscover-2 Trial"（SEC-0001193125-26-338056），落在区间内。'''
+sources = ["PFE-1", "PFE-3", "SEC-0001193125-26-338056", "CTG-NCT06982521"]
+
+[scores.clinical]
+score = 2
+confidence = "medium"
+reason = '''现有疗效数据来自 1/2 期单臂 ReDiscover 中期分析：原文 "Median progression-free survival (PFS) was 11.1 months (95% CI: 7.3–13.0)"、"confirmed objective response rate (ORR) was 43% (15/35)"（MAN-RLAY-2）；FDA 原文 "granted Breakthrough Therapy designation to zovegalisib (RLY-2608) in combination with fulvestrant"（MAN-RLAY-4）。HR+/HER2- 晚期乳腺癌的注册依据是随机试验（公司自身 3 期为随机对照 capivasertib："randomized, open-label, multicenter clinical trial"，MAN-RLAY-1），单臂数据不属于可作注册依据的领域，按 §3.3 取 2 分（早期单臂阳性信号）。'''
+sources = ["MAN-RLAY-2", "MAN-RLAY-4", "MAN-RLAY-1"]
+
+[clinical]
+design = '''1/2 期、单臂、开放标签 ReDiscover 试验的 zovegalisib 400mg BID 进食 + fulvestrant 队列（3 期推荐剂量）；数据截止 2026-01-13，60 例接受治疗，57 例无 PTEN/AKT 共突变者为疗效人群，全部既往接受 CDK4/6 抑制剂及至少一线内分泌治疗。原文："As of the January 13, 2026 data cut-off date, 60 patients had received the 400mg BID fed regimen"；"All patients had previously received a CDK4/6 inhibitor and at least one prior endocrine therapy in the advanced setting"（MAN-RLAY-2）。'''
+comparability = '''无对照组；与标准治疗无直接对比。任何与 capivasertib、alpelisib、inavolisib 关键试验的比较都是跨试验比较，人群与终点定义可能不同。直接对比将来自 3 期 ReDiscover-2，原文："The comparator arm in the ReDiscover-2 Trial is capivasertib plus fulvestrant"（MAN-RLAY-1）。'''
+result = '''57 例疗效可评估患者中位 PFS 11.1 个月（95% CI 7.3–13.0），激酶区突变 11.2 个月、非激酶区突变 11.0 个月；35 例可测量病灶患者确认 ORR 43%，二线患者 ORR 52%（11/21）。原文："Median progression-free survival (PFS) was 11.1 months (95% CI: 7.3–13.0)"；"confirmed objective response rate (ORR) was 43% (15/35)"（MAN-RLAY-2）。安全性："no Grade 4-5 hyperglycemia observed"；"Only four patients discontinued due to TRAEs"（MAN-RLAY-2）。'''
+limitation = '''单臂、中期、剂量队列数据，样本量 57 例，中位随访 12.0 个月（原文："Median follow-up was 12.0 months"，MAN-RLAY-2）；公司公告数据，未见同行评议全文（会议报告为 ESMO TAT 2026）；公司自述："the clinical data from the ReDiscover Trial disclosed to date are preliminary"（SEC-0001193125-26-338056）。'''
+sources = ["MAN-RLAY-2", "MAN-RLAY-1", "SEC-0001193125-26-338056"]
+
+[event]
+text = '''3 期 ReDiscover-2（NCT06982521，zovegalisib + fulvestrant 对比 capivasertib + fulvestrant，CDK4/6 治疗后 PI3Kα 突变 HR+/HER2- 晚期乳腺癌）主要终点数据；CT.gov 预计主要完成日期 2028-04-30（估算，公司未披露读出时间）（CTG-NCT06982521）。此前公司披露的近期节点：原文 "Enrollment update for ongoing Phase 3 ReDiscover-2 trial in 2L breast cancer by year-end 2026"；一线 3 期 "expected to initiate in early 2027, subject to regulatory feedback"（MAN-RLAY-3）。'''
+timing = "2028-04-30"
+importance = "high"
+certainty = "estimated"
+sources = ["CTG-NCT06982521", "MAN-RLAY-3"]
+
+[rights]
+status = "full"
+note = '''10-Q / 10-K 未披露任何第三方持有 zovegalisib 的许可、选择权、优先谈判权或共同开发 / 共同商业化权利。唯一对外授权是 lirafugratinib（RLY-4008）给 Elevar，与 zovegalisib 无关："Elevar was granted exclusive global development and commercialization rights for lirafugratinib (RLY-4008)"（SEC-0001193125-26-338056）。Pfizer 只是临床试验合作与供药："entered into a clinical trial collaboration with Pfizer to evaluate atirmociclib"；"entered into a supply agreement with Pfizer pursuant to which Pfizer has agreed to supply atirmociclib and palbociclib"（SEC-0001193125-26-338056）。对许可方 D. E. Shaw Research 的义务：PI3K 靶点属 Category 1，"D. E. Shaw Research has no involvement with the clinical development or potential commercialization of these compounds and products ... and instead receives solely milestone and royalty payments"；"royalties in the low single digits on worldwide net sales"；每个产品开发与监管里程碑 "up to $7.3 million"、销售里程碑 "up to $36.0 million"；若向第三方授权，需分享 "a percentage of the proceeds of such transactions ranging from the low- to high-single digits"（MAN-RLAY-1）。专利归属 10-K 前后表述不一："we co-own with D.E. Shaw Research granted patents ... covering the composition of matter of zovegalisib"，同时 "have subsequently obtained sole ownership of intellectual property rights relating to it"（MAN-RLAY-1），收购尽调需核实。全球权益在公司手中为根据上述披露的推断。'''
+sources = ["SEC-0001193125-26-338056", "MAN-RLAY-1"]

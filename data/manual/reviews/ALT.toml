@@ -1,0 +1,51 @@
+verified_by = ""
+program = "PEMVIDUTIDE"
+indication = "MASH"
+buyer = "Novo Nordisk"
+preference_rank = 2
+deal_form = "收购"
+need_item = "FGF21、甲状腺激素受体、抗纤维化或联合减重的MASH资产（NVO-1）"
+match_note = "Novo Nordisk 第 2 治疗领域偏好写明需要「联合减重的MASH资产」（NVO-1）；pemvidutide 是 glucagon/GLP-1 双受体激动剂，MASH 2b 期同时显示组织学 MASH 缓解与减重。原文：\"balanced 1:1 glucagon/GLP-1 dual receptor agonist activity\"（MAN-ALT-1）；\"Participants receiving pemvidutide 1.2 mg and 1.8 mg achieved weight loss of 5.0% and\"（MAN-ALT-2）。组合冲突核查：Novo 已持有 MASH 获批的 GLP-1 单激动剂 Wegovy，原文：\"The Wegovy approval for the treatment of MASH with moderate-to-advanced scarring was granted to Novo Nordisk.\"（MAN-ALT-6）；机制不同（单 GLP-1 vs glucagon/GLP-1 双激动），不按同机制冲突处理，但存在适应症重叠。"
+thesis = [
+  "Novo Nordisk 需要「联合减重的MASH资产」（NVO-1）；Altimmune 的 pemvidutide（glucagon/GLP-1 双受体激动剂，MASH，3 期）对应这一需求，因为它在随机 2b 期中同时达到 MASH 缓解终点并带来减重（\"balanced 1:1 glucagon/GLP-1 dual receptor agonist activity\"，MAN-ALT-1；\"initiation of the global PERFORMA Phase 3 MASH trial\"，MAN-ALT-4）。",
+  "证据是 IMPACT 2b 期 24 周 MASH 缓解 59.1% / 52.1% 对安慰剂 19.1%（p<0.0001），但纤维化改善终点无统计学差异，且无与标准治疗的直接对比（MAN-ALT-2）；下一事件是 RESTORE 2 期（ALD 适应症）顶线数据（2027 年下半年，明确披露；MASH 3 期 52 周读出预计 2029 年，在 24 个月窗口外，MAN-ALT-4）；主要障碍是权益：核心化合物专利为从 Mederis 独家许可引入，附带里程碑与特许权使用费义务，另欠 Spitfire 原股东最高 8000 万美元销售里程碑（MAN-ALT-1，SEC-0001326190-26-000052）。"
+]
+thesis_sources = ["NVO-1", "MAN-ALT-1", "MAN-ALT-2", "MAN-ALT-4", "SEC-0001326190-26-000052"]
+
+[scores.buyer_fit]
+score = 3
+confidence = "medium"
+reason = "资产对应 Novo 第 2 偏好的具体需求条目「联合减重的MASH资产」（NVO-1），原文：\"balanced 1:1 glucagon/GLP-1 dual receptor agonist activity\"（MAN-ALT-1）、\"mean weight loss in pemvidutide-treated participants was 5.0% and 6.2%\"（MAN-ALT-2）。但 Novo 已有 MASH 获批的 GLP-1 产品 Wegovy，原文：\"The Wegovy approval for the treatment of MASH with moderate-to-advanced scarring was granted to Novo Nordisk.\"（MAN-ALT-6）；买方材料也写明已收购 efruxifermin（NVO-1）。机制不完全相同，未构成同机制冲突，但 GLP-1 成分与适应症重叠，4 分条件不干净满足，降一档给 3 分。"
+sources = ["NVO-1", "MAN-ALT-1", "MAN-ALT-2", "MAN-ALT-6"]
+
+[scores.stage_match]
+score = 4
+confidence = "high"
+reason = "Novo 第 2 偏好 ideal_stage 为 Phase 2b-3（NVO-1）；pemvidutide 的 MASH 3 期已启动，原文：\"initiation of the global PERFORMA Phase 3 MASH trial\"（MAN-ALT-4）；CT.gov 登记 NCT07795164 为 phase3、RECRUITING；2026-10-27 公告仍确认，原文：\"With our Phase 3 MASH trial\"（MAN-ALT-5）。落在理想区间内。"
+sources = ["NVO-1", "MAN-ALT-4", "MAN-ALT-5", "CTG-NCT07795164"]
+
+[scores.clinical]
+score = 3
+confidence = "medium_high"
+reason = "随机双盲安慰剂对照 2b 期 IMPACT 达到 MASH 缓解主要终点，原文：\"59.1% and 52.1%, for pemvidutide 1.2 mg and 1.8 mg, respectively versus 19.1% for placebo (p< 0.0001 both doses)\"（MAN-ALT-2）；但另一主要终点纤维化改善未达统计学差异（\"differences not statistically significant\"），组织学属替代终点，且无与标准治疗的直接对比，按规则最高 3 分。"
+sources = ["MAN-ALT-2", "MAN-ALT-3", "CTG-NCT05989711"]
+
+[clinical]
+design = "IMPACT 2b 期（NCT05989711），随机、安慰剂对照、双盲，212 例活检确诊 MASH 且纤维化 F2/F3 患者，1:2:2 随机至 pemvidutide 1.2 mg、1.8 mg 或安慰剂，每周皮下注射 48 周，主要终点在第 24 周评估。原文：\"The randomized, placebo-controlled, double-blind IMPACT Phase 2b trial ( NCT05989711 ) enrolled 212 participants with biopsy-confirmed\"（MAN-ALT-3）；\"endpoints, measured at 24 weeks, were MASH resolution without worsening of fibrosis, or fibrosis improvement without worsening of MASH.\"（MAN-ALT-3）"
+comparability = "只与安慰剂比较，无与标准治疗（如已获批 MASH 药物）的头对头数据；与其他 MASH 资产只能跨试验比较，人群与终点定义可能不同。"
+result = "24 周 ITT：MASH 缓解且纤维化不恶化 59.1%（1.2 mg）/ 52.1%（1.8 mg）对安慰剂 19.1%，原文：\"59.1% and 52.1%, for pemvidutide 1.2 mg and 1.8 mg, respectively versus 19.1% for placebo (p< 0.0001 both doses)\"（MAN-ALT-2）；24 周体重下降 5.0% / 6.2% 对 1.0%（\"mean weight loss in pemvidutide-treated participants was 5.0% and 6.2%\"，MAN-ALT-2）。48 周非侵入性纤维化指标改善：\"ELF: 1.2 mg and 1.8 mg doses achieved a mean reduction from\"基线 -0.49 / -0.58 对 +0.16（p<0.0001，MAN-ALT-3）。"
+limitation = "纤维化改善主要终点未达统计学显著，原文：\"compared with 25.9% for placebo (differences not statistically significant)\"（MAN-ALT-2）；48 周数据为非侵入性指标（ELF、LSM），非组织学；仅为公司新闻稿顶线数据，未见同行评议全文（待核实）。"
+sources = ["MAN-ALT-2", "MAN-ALT-3", "CTG-NCT05989711"]
+
+[event]
+text = "RESTORE 2 期（酒精相关肝病 ALD，与主推荐适应症 MASH 不同，同一资产）顶线数据。原文：\"The Company expects to report topline data in the second half of 2027\"（MAN-ALT-4）。MASH 3 期 PERFORMA 52 周读出原文为 \"52-week data readout anticipated in 2029\"（MAN-ALT-4），在 24 个月窗口外。"
+timing = "2027H2"
+importance = "medium"
+certainty = "disclosed"
+sources = ["MAN-ALT-4", "CTG-NCT07009860"]
+
+[rights]
+status = "full"
+confidence = "medium_high"
+note = "10-K 与最新 10-Q 未披露任何对外授权、选择权、优先谈判权或共同开发/共同商业化安排；10-K 无「worldwide rights」字面表述，判断为推断。来源：自有（收购 Spitfire 获得）——原文：\"We obtained pemvidutide as part of the acquisition Spitfire Pharma Inc., in July of 2019.\"（MAN-ALT-1）。引进许可：Mederis EuPort 专利独家许可，原文：\"we are the exclusive licensee of patent rights owned by Mederis to develop and commercialize surfactant functionalized\"……\"including pemvidutide, for any indication\"（MAN-ALT-1）；许可义务含里程碑与特许权使用费，原文：\"Our existing license agreements impose, and we expect that future license agreements will impose, various diligence, milestone payment, royalty and other of our obligations.\"（MAN-ALT-1），费率未披露。Adocia 协议为公司获得口服制剂知识产权的独家权利（\"the Company has exclusive rights to intellectual property pertaining to oral administration of pemvidutide\"，MAN-ALT-1）。Spitfire 原股东销售里程碑：\"obligated to make payments of up to $ 80.0 million upon the achievement of specified worldwide net sales\"（SEC-0001326190-26-000052）。"
+sources = ["MAN-ALT-1", "SEC-0001326190-26-000052"]

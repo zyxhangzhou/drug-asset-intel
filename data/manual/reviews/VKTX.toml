@@ -1,0 +1,50 @@
+verified_by = ""
+program = "VK2735"
+indication = "Weight Loss"
+buyer = "Pfizer"
+preference_rank = 1
+deal_form = "收购"
+need_item = "GLP-1之外的口服非肽、胰淀素或双/三重激动剂，兼具减重、维持体重和肌肉保留（PFE-1、PFE-3）"
+match_note = "VK2735 是 GLP-1/GIP 双激动剂，皮下与口服两种剂型均在 3 期，并有维持体重数据，对应 Pfizer 画像中的「双/三重激动剂」「减重、维持体重」；原文：\"VK2735 is a wholly owned long-acting dual agonist of the glucagon like peptide-1, or GLP-1 receptor, and the glucose dependent insulinotropic polypeptide, or GIP receptor\"（MAN-VKTX-3）；\"Up to 97% of Weight Loss Maintained\"（MAN-VKTX-4）。「口服非肽」与「肌肉保留」两点无来源支持，未计入。未核查组合冲突（Pfizer 是否已有 GLP-1/GIP 双激动剂肥胖资产）。"
+thesis = [
+  "Pfizer 需要「GLP-1之外的口服非肽、胰淀素或双/三重激动剂，兼具减重、维持体重」；Viking 的 VK2735（GLP-1/GIP 双激动剂，肥胖减重，3 期）对应这一需求，因为它是双激动剂，皮下与口服剂型均已进入 3 期，并在维持研究中显示减量/低频给药可保持大部分减重效果。",
+  "证据是 2 期 VENTURE 随机对照试验 13 周相对安慰剂减重最高 13.1%（与已上市药物无直接对比，跨试验比较）；下一事件是 VANQUISH-1/2 皮下 3 期 78 周主要终点完成（2027 年，CT.gov 预计主要完成日 2027-07-01，估算）；主要障碍是成本：快照 EV 约 24.6 亿美元（20–50 亿档；按 2026-06-30 现金计，未计 2026 年 9 月发行的 2.588 亿美元 2032 年到期可转债与同期增发）。",
+]
+thesis_sources = ["SEC-0001193125-26-324219", "NASDAQ-VKTX-2026-10-28", "PFE-1", "PFE-3", "MAN-VKTX-1", "MAN-VKTX-2", "MAN-VKTX-3", "MAN-VKTX-4", "CTG-NCT06068946", "CTG-NCT07104500", "CTG-NCT07104383"]
+
+[scores.buyer_fit]
+score = 4
+confidence = "medium"
+reason = "Pfizer 第 1 治疗领域偏好的画像点名「双/三重激动剂」「减重、维持体重」；VK2735 是 GLP-1/GIP 双激动剂并有维持给药阳性数据；原文：\"long-acting dual agonist of the glucagon like peptide-1\"（MAN-VKTX-3）、\"Up to 90% of Weight Loss Maintained Following Transition to Monthly Dosing for Three Months\"（MAN-VKTX-4）。未核查组合冲突，故置信度取中。"
+sources = ["PFE-1", "PFE-3", "MAN-VKTX-3", "MAN-VKTX-4"]
+
+[scores.stage_match]
+score = 4
+confidence = "high"
+reason = "Pfizer 该行 ideal_stage 为「Phase 2-3」；VK2735 皮下剂型处于 3 期，原文：\"VK2735 subcutaneous and VK2735 oral, which are in Phase 3 development\"（MAN-VKTX-2）。"
+sources = ["PFE-1", "MAN-VKTX-2", "CTG-NCT07104500", "CTG-NCT07104383"]
+
+[scores.clinical]
+score = 3
+confidence = "medium_high"
+reason = "随机、双盲、安慰剂对照 2 期 VENTURE 达到主要终点（13 周体重变化百分比）；原文：\"successfully achieved its primary endpoint and all secondary endpoints\"、\"statistically significant reductions in mean body weight relative to placebo, ranging up to 13.1%\"（MAN-VKTX-1）。无与标准治疗的直接对比，3 期尚未读出，故不给 4 分。"
+sources = ["MAN-VKTX-1", "CTG-NCT06068946"]
+
+[clinical]
+design = "2 期 VENTURE：随机、双盲、安慰剂对照，皮下每周一次，13 周，肥胖（BMI≥30）或超重伴合并症成人；原文：\"The Phase 2 VENTURE study was a randomized, double-blind placebo-controlled study\"、\"The 13-week study enrolled adults who were obese\"（MAN-VKTX-1）。"
+comparability = "仅有安慰剂对照；与 semaglutide、tirzepatide 等没有直接对比。任何与已上市药的比较都是跨试验比较，人群与终点定义可能不同；13 周疗程远短于注册试验的 78 周。"
+result = "13 周体重较基线下降最高 14.7%，相对安慰剂最高 13.1%，所有剂量自第 1 周起显著；原文：\"ranging up to 14.7% from baseline\"、\"relative to placebo, ranging up to 13.1%\"（MAN-VKTX-1）。口服剂型 2 期 13 周较基线最高 12.2%：\"ranging up to 12.2% from baseline\"（MAN-VKTX-3）。"
+limitation = "2 期疗程仅 13 周，长期疗效与安全性待 3 期 78 周数据；数据来自公司披露的顶线结果，未打开同行评议全文；维持研究（MAN-VKTX-4）为探索性剂量范围研究。"
+sources = ["MAN-VKTX-1", "MAN-VKTX-3", "MAN-VKTX-4", "CTG-NCT06068946"]
+
+[event]
+text = "VANQUISH-1（肥胖）与 VANQUISH-2（肥胖伴 2 型糖尿病）皮下 3 期 78 周主要终点完成；公司只披露年份，原文：\"The company expects these studies to be completed in 2027.\"（MAN-VKTX-3）；季度/日期取 CT.gov 预计主要完成日 2027-07-01。"
+timing = "2027-07"
+importance = "high"
+certainty = "estimated"
+sources = ["MAN-VKTX-3", "CTG-NCT07104500", "CTG-NCT07104383"]
+
+[rights]
+status = "full"
+note = "最新 10-Q 写明无合作：\"We currently do not have strategic collaborations in place for clinical development of any of our current drug candidates.\"（MAN-VKTX-2）；公司称 VK2735 \"wholly owned\"（MAN-VKTX-3）。Ligand 主许可协议只覆盖 TRß、SARM、FBPase、DGAT-1、EPOR 化合物（\"Ligand granted to us and our affiliates an exclusive, perpetual, irrevocable, worldwide, royalty-bearing right and license\"，MAN-VKTX-1），未列 GLP-1/GIP；10-K 专利段写明 GLP-1 项目专利为公司自有：\"for our GLP-1 program, we own three U.S. patents\"（MAN-VKTX-1）。故推断 VK2735 不是自 Ligand 引进，不欠 Ligand 里程碑或个位数特许权使用费（推断，中高；文件未逐字写明 VK2735 不在许可内）。注意 10-K 风险因素泛称 \"Most of the intellectual property related to our drug candidates is currently owned by Ligand\"（MAN-VKTX-1），与上述按项目的表述有张力，签核时请人工确认。Ligand 于 2026-04-24 主张终止 TR-Beta 项目（VK2809、VK0214）许可并起诉，只涉及 VK2809/VK0214：\"The TR-Beta Program includes our VK2809 and VK0214 product candidates.\"（MAN-VKTX-2）。"
+sources = ["MAN-VKTX-1", "MAN-VKTX-2", "MAN-VKTX-3"]

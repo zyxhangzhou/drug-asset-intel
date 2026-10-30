@@ -1,0 +1,50 @@
+verified_by = ""
+program = "VIR-3434 (TOBEVIBART)"
+indication = "Viral Hepatitis"
+buyer = "Merck & Co."
+preference_rank = 2
+deal_form = "许可"
+need_item = "长效预防或治疗性抗病毒、真菌/呼吸道感染资产，能减少给药频率或扩大高风险人群覆盖。（MRK-2、MRK-4）"
+match_note = "需求条目「长效…治疗性抗病毒」→ 资产属性：tobevibart 为长效工程化抗体，原文：\"neonatal Fc receptor technology, which extends its half-life\"（MAN-VIR-1）；与 elebsiran 联合方案按月给药，原文：\"administered monthly as two separate sequential subcutaneous injections\"（MAN-VIR-2）；适应症为慢性丁型肝炎（CHD），原文：\"There is no approved CHD treatment in the U.S.\"（MAN-VIR-1）。「能减少给药频率」相对标准治疗的比较未找到允许范围内的来源，未作为匹配依据。未核查组合冲突（未打开 Merck 管线来源）。"
+thesis = [
+  "Merck 需要长效预防或治疗性抗病毒资产（MRK-2）；Vir 的 tobevibart + elebsiran（抗 HBsAg 长半衰期单抗 + HBV siRNA，慢性丁型肝炎，3 期注册项目 ECLIPSE）对应这一需求，因为 tobevibart 含延长半衰期的 Xtend Fc 技术、联合方案每月皮下给药一次，且美国尚无获批 CHD 疗法（MAN-VIR-1、MAN-VIR-2）。",
+  "证据是随机开放 2 期 SOLSTICE：联合组第 96 周 HDV RNA 检测不到 88%（28/32），但第 24 周复合主要终点联合组 47% 低于单药组 70%，且无标准治疗对照，属替代终点（MAN-VIR-2、MAN-VIR-3）；下一事件是 3 期 ECLIPSE 1 顶线数据（2026 年第四季度，明确披露）（SEC-0001628280-26-053549）；主要障碍是权益：欧洲 / 澳新已独家授权 Norgine、大中华区已授权 Brii，且 elebsiran 自 Alnylam 引进、需付里程碑与两位数提成（MAN-VIR-1）。",
+]
+thesis_sources = ["MRK-2", "MAN-VIR-1", "MAN-VIR-2", "MAN-VIR-3", "SEC-0001628280-26-053549"]
+
+[scores.buyer_fit]
+score = 3
+confidence = "medium"
+reason = "资产落在 Merck 第 2 治疗领域（抗感染与长效抗病毒），并对应画像中「长效…治疗性抗病毒」一项：tobevibart 原文 \"neonatal Fc receptor technology, which extends its half-life\"（MAN-VIR-1），联合方案原文 \"administered monthly as two separate sequential subcutaneous injections\"（MAN-VIR-2）。未给 4 分：一是未核查 Merck 是否已有同机制同适应症资产（未核查组合冲突）；二是画像强调的「减少给药频率」缺少相对标准治疗给药频率的来源。组合冲突核查无冲突且补到给药频率对比来源后可升 4 分。"
+sources = ["MRK-2", "MRK-4", "MAN-VIR-1", "MAN-VIR-2"]
+
+[scores.stage_match]
+score = 4
+confidence = "high"
+reason = "Merck 偏好行 ideal_stage 为 Phase 2-3；资产处于 3 期注册项目，原文：\"ECLIPSE 1 (NCT06903338) is a Phase 3 trial evaluating the safety and efficacy of elebsiran in combination with tobevibart\"（MAN-VIR-2），落在区间内。"
+sources = ["MRK-2", "MAN-VIR-2", "CTG-NCT06903338"]
+
+[scores.clinical]
+score = 2
+confidence = "medium"
+reason = "随机开放 2 期 SOLSTICE 显示病毒学信号强：\"undetectable HDV RNA (also known as target not detected, or TND\"…\"in 66% (21 of 32) and 48% (16 of 33)\"（第 48 周，MAN-VIR-3），第 96 周 \"88% (28/32) of participants treated with the combination\"（MAN-VIR-2）。但第 24 周复合主要终点联合组低于单药组：\"a combined response was observed in 47% of participants (15 of 32)\" 对 \"70% of participants (23 of 33)\"（MAN-VIR-3）；试验无标准治疗对照；HDV RNA 为替代终点。按 §3.3 不满足 3 分「随机 2 期达到主要终点」，落 2 分（阳性信号，看不出相对标准治疗的优势）。"
+sources = ["MAN-VIR-3", "MAN-VIR-2"]
+
+[clinical]
+design = "SOLSTICE（NCT05461170），2 期、开放标签、随机：联合组 tobevibart + elebsiran 每 4 周 vs tobevibart 单药每 2 周；原文：\"In this ongoing, phase 2, open-label trial, we randomly assigned participants\"；主要终点为第 24 周复合应答（HDV RNA 检测不到或下降 ≥2 log10，且 ALT 复常），原文：\"The primary end point was a combined response\"（MAN-VIR-3）。"
+comparability = "试验内对照为 tobevibart 单药，不是标准治疗；与 bulevirtide 的比较只能跨试验，人群与终点定义可能不同。头对头对比 bulevirtide 的是 ECLIPSE 3，原文：\"ECLIPSE 3 (NCT07142811) is a Phase 2b head-to-head trial\"（MAN-VIR-2），尚未读出。"
+result = "第 24 周复合应答联合组 47%（15/32）、单药组 70%（23/33），原文：\"a combined response was observed in 47% of participants (15 of 32)\"；第 48 周 HDV RNA 检测不到 66% vs 48%，HBsAg <10 IU/mL 91% vs 21%，原文：\"an HBsAg level below 10 IU per milliliter in 91% (29 of 32)\"（MAN-VIR-3）；第 96 周 ITT 联合组 HDV RNA 检测不到 88%，原文：\"88% (28/32) of participants treated with the combination\"（MAN-VIR-2）。"
+limitation = "主要终点上联合组数值低于单药组（ALT 复常率较低：\"normalization of the ALT level in 47% (15 of 32) and 76% (25 of 33)\"，MAN-VIR-3）；开放标签、样本小（每组约 32 人）；HDV RNA、ALT 为替代终点；第 96 周数据来自公司新闻稿，未见同行评审全文。"
+sources = ["MAN-VIR-3", "MAN-VIR-2"]
+
+[event]
+text = "3 期 ECLIPSE 1（NCT06903338，联合方案 vs 延迟治疗）顶线数据；原文：\"Topline data from the Phase 3 ECLIPSE 1 trial are expected in the fourth quarter of 2026.\"（SEC-0001628280-26-053549、MAN-VIR-2）。其后 ECLIPSE 2、3 顶线数据，原文：\"Topline data from the ECLIPSE 2 and ECLIPSE 3 trials are expected in the first quarter of 2027.\"（MAN-VIR-2）。"
+timing = "2026Q4"
+importance = "high"
+certainty = "disclosed"
+sources = ["SEC-0001628280-26-053549", "MAN-VIR-2", "CTG-NCT06903338"]
+
+[rights]
+status = "partial"
+note = "联合方案已部分对外授权：(1) Norgine 持欧洲、澳大利亚、新西兰独家商业权及部分开发权，原文：\"Norgine holds exclusive license for the commercial rights to the combination of tobevibart and elebsiran in Europe, Australia and New Zealand\"（MAN-VIR-1）；Vir 保留美国及其他市场，原文：\"while Vir Bio will retain commercial rights for the Licensed Product in the United States\"（SEC-0001628280-26-053549）；Norgine 分担 ECLIPSE 外部费用约 25%，原文：\"Norgine contributing approximately 25 % of external costs\"（SEC-0001628280-26-053549）。(2) Brii 已对两个成分行使大中华区选择权，原文：\"exercise of its option to obtain exclusive rights to develop and commercialize compounds and products arising from tobevibart in the Greater China Territory\"（MAN-VIR-1，elebsiran 于 2020 年 6 月行使）。引进与付费义务：elebsiran 自 Alnylam 引进，原文：\"we obtained a worldwide, exclusive license to develop, manufacture and commercialize siRNA product candidates directed to HBV, including elebsiran\"，Alnylam 未选择利润分成（\"Alnylam elected to not opt-in to the profit-sharing arrangement\"），Vir 仍需付 \"up to $145.0 million for remaining development and regulatory milestones for elebsiran\"、销售里程碑最高 2.5 亿美元及 \"low double-digits to mid-teens\" 提成，并分享转授权收入（MAN-VIR-1）。tobevibart 为自研（\"Tobevibart was identified using our proprietary antibody discovery platform\"），但使用 Xencor（非独占，HBV 项目里程碑最高 7,780 万美元，低至中个位数提成）、Rockefeller（低个位数提成）、IRB（低个位数提成）许可技术，后两者同样分享转授权收入（MAN-VIR-1）。判为 partial 而非 restricted：Norgine 的开发权与联合委员会限于其授权区域，美国权益在 Vir 手中；该判断待签核人确认。"
+sources = ["MAN-VIR-1", "SEC-0001628280-26-053549"]

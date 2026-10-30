@@ -1,0 +1,50 @@
+verified_by = ""
+program = "imetelstat"
+indication = "Myelodysplastic Syndromes"
+buyer = "AbbVie"
+preference_rank = 3
+deal_form = "收购"
+need_item = "AbbVie 肿瘤偏好（第 3 位）：\"血液瘤和实体瘤ADC、抗体药物或靶向小分子，要求明确差异化和可扩适应症\"，理想阶段\"Phase 2-3或上市\"（ABBV-1、ABBV-5）"
+match_note = "推断（中）：RYTELO（imetelstat）是已在美国与欧盟获批的血液瘤（低危 MDS）药物，落在 AbbVie 血液瘤领域与\"或上市\"阶段区间内；但它是寡核苷酸端粒酶抑制剂（原文：\"an oligonucleotide telomerase inhibitor\"，MAN-GERN-3），不属于画像列出的 ADC、抗体或靶向小分子；\"可扩适应症\"一项因 IMpactMF 停止而转弱（原文：\"decision to discontinue the Phase 3 IMpactMF trial\"，MAN-GERN-2）。只到标签匹配。未核查组合冲突（已读 10-K 竞争段落，未见 AbbVie 同机制资产，但未读 AbbVie 自身管线）。"
+thesis = [
+  "AbbVie 需要\"血液瘤和实体瘤ADC、抗体药物或靶向小分子，要求明确差异化和可扩适应症\"的 Phase 2-3 或已上市资产（ABBV-1）；Geron 的 RYTELO（imetelstat，寡核苷酸端粒酶抑制剂，输血依赖的低危骨髓增生异常综合征，已上市：FDA 2024-06-06 批准，EC 2025-03 批准）对应这一需求，因为它是\"the first and only FDA approved telomerase inhibitor\"、机制差异化明确，但给药形式不在画像列出的三类技术内（MAN-GERN-1、MAN-GERN-5）。",
+  "证据是 3 期 IMerge 随机双盲安慰剂对照试验达到主要终点，≥8 周输血独立率 40% 对 15%（p=0·0008），对照为安慰剂而非 luspatercept 等现行疗法（MAN-GERN-4）；下一事件是 IMproveMF（imetelstat + ruxolitinib 一线骨髓纤维化）1 期主要完成（2027-02，估算，CTG-NCT05371964），而原定的 IMpactMF 骨髓纤维化 3 期已于 2026-10-28 因预计无法达到总生存终点而停止（MAN-GERN-2）；主要障碍是成本：EV 约 4.2 亿美元本身不高，但收购方还需按控制权变更条款一次性买断 Royalty Pharma 的美国销售分成（1.65 倍或 2.0 倍 1.25 亿美元减已付金额，MAN-GERN-1）；另一风险是资产目前只有一个获批适应症。",
+]
+thesis_sources = ["ABBV-1", "ABBV-5", "MAN-GERN-1", "MAN-GERN-2", "MAN-GERN-4", "MAN-GERN-5", "CTG-NCT05371964"]
+
+[scores.buyer_fit]
+score = 2
+reason = "推断：治疗领域匹配（AbbVie 肿瘤偏好写明\"血液瘤\"，ABBV-1），技术类型不匹配：imetelstat 是\"an oligonucleotide telomerase inhibitor\"（MAN-GERN-3），AbbVie 技术偏好为\"ADC与靶向肿瘤药\"（ABBV-1、ABBV-5）。未对应到一条具体需求；不用 Venclexta / Imbruvica 的 LOE 论证，因为现有来源未给出其适应症与 MDS 的关系。"
+sources = ["ABBV-1", "ABBV-5", "MAN-GERN-3"]
+confidence = "medium"
+
+[scores.stage_match]
+score = 4
+reason = "资产已上市：Drugs@FDA NDA217779 原始申请 2024-06-06 批准，类别\"Type 1 - New Molecular Entity\"（MAN-GERN-5）；10-K 原文：\"approval by the U.S. Food and Drug Administration, or FDA, on June 6, 2024\"（MAN-GERN-1）。AbbVie 肿瘤偏好理想阶段\"Phase 2-3或上市\"（ABBV-1），已上市落在区间内。"
+sources = ["MAN-GERN-5", "MAN-GERN-1", "ABBV-1"]
+confidence = "high"
+
+[scores.clinical]
+score = 3
+reason = "随机双盲 3 期达到注册主要终点（原文：\"47 (40% [95% CI 30·9-49·3]) patients had an RBC-TI of at least 8 weeks versus nine (15% [7·1-26·6]) in the placebo group\"，MAN-GERN-4），效应有临床意义，并据此获批；但对照为安慰剂，没有与 luspatercept 等现行疗法的直接或同终点间接比较，按 §3.3 不到 4 分。"
+sources = ["MAN-GERN-4", "MAN-GERN-1", "CTG-NCT02598661"]
+confidence = "medium_high"
+
+[clinical]
+design = "IMerge 3 期：多国、随机（2:1）、双盲、安慰剂对照；ESA 复发 / 难治 / 不适用的输血依赖低危 MDS，n=178（118 vs 60），imetelstat 7.5 mg/kg 静脉每 4 周；原文：\"a multinational, randomised, double-blind, placebo-controlled, phase 3 trial\"（MAN-GERN-4）"
+comparability = "对照为安慰剂，非现行疗法；10-K 列出的同人群竞品为 luspatercept（原文：\"Reblozyl (luspatercept), a TGF-beta ligand trap , by BMS\"，MAN-GERN-1）。与 luspatercept 无头对头数据；任何比较都是跨试验比较，人群与终点定义可能不同。"
+result = "主要终点 ≥8 周 RBC 输血独立率 40% 对 15%，率差 25%（原文：\"rate difference 25% [9·9 to 36·9]; p=0·0008\"，MAN-GERN-4）；关键次要终点 ≥24 周输血独立也达到（原文：\"a key secondary endpoint of ≥ 24-week red blood cell transfusion independence rate\"，MAN-GERN-1）。"
+limitation = "血液学毒性高：原文\"neutropenia (80 [68%] patients who received imetelstat vs two [3%] who received placebo) and thrombocytopenia (73 [62%] vs five [8%])\"（MAN-GERN-4）。扩展适应症受挫：骨髓纤维化 3 期 IMpactMF 停止，原文\"the trial was unlikely to meet its primary endpoint of overall survival\"（MAN-GERN-2）。"
+sources = ["MAN-GERN-4", "MAN-GERN-1", "MAN-GERN-2"]
+
+[event]
+text = "IMproveMF（imetelstat 联合 ruxolitinib，一线骨髓纤维化）1 期 CT.gov 预计主要完成日期 2027-02；10-K 原文：\"Part 2 of the study, which is currently enrolling patients\"（MAN-GERN-1）。属同一资产的 1 期事件，重要性低；IMpactMF 停止后该项目是否继续，公司未说明。低危 MDS 适应症在 24 个月内未找到公司披露日期的事件。"
+timing = "2027-02"
+importance = "low"
+certainty = "estimated"
+sources = ["CTG-NCT05371964", "MAN-GERN-1"]
+
+[rights]
+status = "full"
+note = "10-K 原文：\"We have no material license agreements. We have global rights to imetelstat, which was discovered and developed at Geron.\"；\"RYTELO, which was developed internally and is exclusively owned by Geron\"；与 Janssen 的原合作 2018 年终止，原文\"without any economic obligations to Janssen with respect to such license\"（MAN-GERN-1）。义务：Royalty Pharma 按美国 RYTELO 净销售收取 7.75% / 3.0% / 1.0% 分级分成，上限 1.65 倍（2031-06-30 前）或 2.0 倍 1.25 亿美元；控制权变更时可一次性清偿（原文\"may be discharged in connection with a change of control of Geron\"）；该协议含\"restrictions on intellectual property transfers and out-licenses\"，不利于许可交易。Pharmakon 定期贷款 1.25 亿美元 2029-11-01 到期（SEC-0000886744-26-000037）。欧盟：公司\"do not plan to commercialize RYTELO independently in the EU\"，计划找第三方，10-Q 未披露已签协议（SEC-0000886744-26-000037）。待核实：10-Q 提到\"certain in-license agreements that require us to pay milestones\"，与 10-K\"no material license agreements\"的关系。"
+sources = ["MAN-GERN-1", "SEC-0000886744-26-000037"]
