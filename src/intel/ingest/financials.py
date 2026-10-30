@@ -37,6 +37,9 @@ CASH_COMBINED = (
     "CashCashEquivalentsAndMarketableSecuritiesCurrent",
 )
 CASH = "CashAndCashEquivalentsAtCarryingValue"
+# Some filers (ARWR since 2024) tag only the cash-flow statement total, which includes a usually
+# small restricted-cash amount; used only when CASH is not filed for the period.
+CASH_WITH_RESTRICTED = "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents"
 INVEST_CURRENT = (
     "ShortTermInvestments",
     "MarketableSecuritiesCurrent",
@@ -79,6 +82,7 @@ STALE_SHARES_DAYS = 120
 US_GAAP_TAGS = {
     *CASH_COMBINED,
     CASH,
+    CASH_WITH_RESTRICTED,
     *INVEST_CURRENT,
     *INVEST_NONCURRENT,
     *INVEST_TOTAL,
@@ -204,7 +208,10 @@ def _first_at(gaap: dict, tags: tuple[str, ...], end: date) -> Fact | None:
 
 def _anchor(gaap: dict) -> date | None:
     ends = [
-        f.end for tag in (*CASH_COMBINED, CASH) for f in _facts(gaap, tag, "USD") if f.start is None
+        f.end
+        for tag in (*CASH_COMBINED, CASH, CASH_WITH_RESTRICTED)
+        for f in _facts(gaap, tag, "USD")
+        if f.start is None
     ]
     return max(ends) if ends else None
 
@@ -215,7 +222,7 @@ def cash_and_investments(gaap: dict, end: date) -> list[Fact]:
         return [combined]  # never add a combined tag to its components
     split = [_first_at(gaap, INVEST_CURRENT, end), _first_at(gaap, INVEST_NONCURRENT, end)]
     investments = [p for p in split if p] or [_first_at(gaap, INVEST_TOTAL, end)]
-    return [p for p in (_first_at(gaap, (CASH,), end), *investments) if p]
+    return [p for p in (_first_at(gaap, (CASH, CASH_WITH_RESTRICTED), end), *investments) if p]
 
 
 def total_debt(gaap: dict, end: date) -> list[Fact]:

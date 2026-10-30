@@ -326,3 +326,11 @@ def test_notes_payable_counts_as_debt():
     gaap = facts({"LongTermNotesPayable": [instant(259_480_000.0)]})["us-gaap"]
     (debt,) = fin.total_debt(gaap, date.fromisoformat(END))
     assert debt.value == 259_480_000.0
+
+
+def test_cash_with_restricted_is_a_fallback():
+    gaap = facts({fin.CASH_WITH_RESTRICTED: [instant(54_759_000.0)]})["us-gaap"]
+    end = date.fromisoformat(END)
+    assert fin._anchor(gaap) == end
+    (cash,) = fin.cash_and_investments(gaap, end)
+    assert cash.tag == fin.CASH_WITH_RESTRICTED
