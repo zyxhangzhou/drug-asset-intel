@@ -285,3 +285,16 @@ def test_differently_worded_endpoints_pair_by_passage(tmp_path):
 def test_program_without_values_rejected():
     raw = PROGRAM | {"mechanism": "", "modality": ""}
     assert check_item(TASKS["program"], raw, DOC_NORM)[1] == "no_value"
+
+
+def test_document_without_text_is_skipped(tmp_path):
+    ex, doc, sent = setup(tmp_path, {"program": [PROGRAM]}, {})
+    doc.meta_path(tmp_path / "docs").write_text(json.dumps({"status": "no_text"}))
+    assert ex.run_document(doc, ["program"]) == [] and sent == []
+    assert ex.summary.skipped_docs == ["DOC-VKTX-aaaa: not archived or no text"]
+
+
+def test_ledger_records_chunks_sent(tmp_path):
+    ex, doc, _ = setup(tmp_path, {"program": [PROGRAM]}, {}, with_verify=False)
+    ex.run_document(doc, ["program"])
+    assert ex.primary.ledger.entries()[0]["chunks"] == [0]

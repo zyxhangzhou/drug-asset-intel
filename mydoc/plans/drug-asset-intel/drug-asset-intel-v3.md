@@ -35,7 +35,7 @@
 | 1 | A | 项目骨架与数据模型 | 代码 | `project-skeleton` | — | archived（`openspec/changes/archive/2026-10-29-project-skeleton`，主 spec：`app-runtime`、`intel-data-model`） |
 | 2 | B | 基础材料导入与 Stage 0 排除 | 代码 + 研究 | `baseline-ingest` | A | archived（`openspec/changes/archive/2026-10-29-baseline-ingest`） |
 | 3 | C | 官方结构化数据拉取（CT.gov + EDGAR + openFDA） | 代码 | `public-data-ingest` | B | archived（`openspec/changes/archive/2026-10-29-public-data-ingest`） |
-| 3 | D | 文档获取存档与 LLM 抽取管道 | 代码 | `llm-extraction` | A | in progress（18/18 任务完成，待核验与归档） |
+| 3 | D | 文档获取存档与 LLM 抽取管道 | 代码 | `llm-extraction` | A | archived（`openspec/changes/archive/2026-10-30-llm-extraction`；主 spec：`document-archive`、`llm-extraction`、`extraction-review`，同步 `snapshot-build`） |
 | 4 | E | 评分、买方匹配与候选名单 | 代码 + 研究 | `scoring-shortlist` | B, C | archived（`openspec/changes/archive/2026-10-30-scoring-shortlist`；45 家复核签字，入选 30 家） |
 | 5 | F | 深度填充 3–5 家 | 研究 | — | D, E | planned |
 | 5 | G | Web 应用样板 | 代码 | `web-app` | B, C, E | planned |
@@ -183,3 +183,4 @@
 - 2026-10-30 · 69dd30f7-bc86-4fc2-b36d-dea57ab87358 · D：建 OpenSpec 变更 `llm-extraction`（提案、4 份规格、设计、18 项任务）；核实 DeepSeek 官方价格与高峰时段；待用户确认后实现
 - 2026-10-30 · 69dd30f7-bc86-4fc2-b36d-dea57ab87358 · D：实现完成 17/18 任务；VKTX 样例 5 次运行累计 0.76 元，关闭思考模式、逐字段一致判定、按片段配对、空条目与无年份时间拒收；待用户复核签字样例（任务 6.2）
 - 2026-10-30 · 69dd30f7-bc86-4fc2-b36d-dea57ab87358 · D：用户确认 VKTX 样例 4 条并签字；快照新增 3 条 LLM 机制声明，1 条临床结果记缺口；18/18 任务完成
+- 2026-10-30 · 69dd30f7-bc86-4fc2-b36d-dea57ab87358 · D 核验并归档：17 条需求、28 个场景对照测试（补 3 个测试，共 236 项通过）；新增主 spec document-archive、llm-extraction、extraction-review，同步 snapshot-build

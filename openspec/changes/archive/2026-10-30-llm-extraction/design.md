@@ -44,7 +44,7 @@
 ### 3. 存档布局
 
 ```
-data/raw/docs/<TICKER>/<source_id>.<html|pdf|txt 原文扩展名>
+data/raw/docs/<TICKER>/<source_id>.orig.<html|pdf|raw>  # 原始字节
 data/raw/docs/<TICKER>/<source_id>.txt          # 转换后的文本，首行不加 URL 头
 data/raw/docs/<TICKER>/<source_id>.meta.json    # url、fetched_at、raw_sha256、text_sha256、status
 data/raw/docs/fetch_log.jsonl
@@ -82,7 +82,7 @@ currency = "CNY"
 price_source = "https://api-docs.deepseek.com/zh-cn/quick_start/pricing (2026-10-30)"
 offpeak = { input_hit = 0.15, input_miss = 4.5, output = 13.5 }  # 元 / 百万 token
 peak    = { input_hit = 0.30, input_miss = 9.0, output = 27.0 }
-peak_windows = ["Mon-Fri 09:00-12:00", "Mon-Fri 14:00-18:00"]  # Asia/Shanghai
+peak_windows = ["09:00-12:00", "14:00-18:00"]  # Asia/Shanghai，仅周一至周五
 budget_cny = 15.0
 refuse_peak = true
 

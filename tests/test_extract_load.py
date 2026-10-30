@@ -1,6 +1,6 @@
 import hashlib
 import json
-from datetime import date
+from datetime import UTC, date, datetime
 
 import httpx
 import pytest
@@ -221,3 +221,22 @@ def test_hand_edited_controlled_values_fail_with_location(world, tmp_path):
     no_conf = item("clinical_result", RESULT.values | {"advantage_vs_soc": "better"}, RESULT.quotes)
     with pytest.raises(ExtractionLoadError, match="needs confidence"):
         run(world, make_inputs(tmp_path / "b", [no_conf]))
+
+
+def test_existing_manual_source_gets_archive_fields(world, tmp_path):
+    inputs = make_inputs(tmp_path, [PROGRAM])
+    text = (inputs.manual_dir / "documents.csv").read_text().replace(SID, "MAN-VKTX-9")
+    (inputs.manual_dir / "documents.csv").write_text(text)
+    for suffix in (".txt", ".meta.json"):
+        (inputs.docs_dir / "VKTX" / f"{SID}{suffix}").rename(
+            inputs.docs_dir / "VKTX" / f"MAN-VKTX-9{suffix}"
+        )
+    ext = inputs.extractions_dir / "VKTX.toml"
+    ext.write_text(ext.read_text().replace(SID, "MAN-VKTX-9"))
+    world.add(Source(source_id="MAN-VKTX-9", source_type=SourceType.press_release,
+                     fetched_at=datetime(2026, 10, 30, tzinfo=UTC)))  # fmt: skip
+    world.flush()
+    run(world, inputs)
+    sources = world.exec(select(Source).where(Source.source_id == "MAN-VKTX-9")).all()
+    assert len(sources) == 1 and sources[0].local_path.endswith("MAN-VKTX-9.txt")
+    assert len(sources[0].content_hash) == 64
