@@ -1,9 +1,13 @@
 {
-  "fetched_at": "2026-10-30T08:28:51.070540+00:00",
+  "fetched_at": "2026-10-30T09:36:37.111890+00:00",
   "requests": [
     {
       "url": "https://api.fda.gov/drug/label.json?search=openfda.application_number%3A%22NDA219908%22&limit=1",
       "sha256": "57b1e7534d003e4246182162fd2469cdf038de39405056f44fc006715e5496da"
+    },
+    {
+      "url": "https://api.fda.gov/drug/label.json?search=spl_product_data_elements%3A%22REVTORPYK%22&limit=1",
+      "sha256": "10cdd7837824c275378354d9007d1f8d1babfefc81d23306c0fa20dd58649581"
     }
   ]
 }

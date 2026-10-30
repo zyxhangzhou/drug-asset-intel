@@ -234,25 +234,32 @@ def fetch_labels(inputs: Inputs, http: Throttled, refresh: bool = False) -> Batc
             if path.exists() and not refresh:
                 result.skipped.append(number)
                 continue
-            resp = http.get(
-                LABEL_URL,
-                params={"search": f'openfda.application_number:"{number}"', "limit": 1},
-            )
-            if resp.status_code == 404:  # openFDA answers "no matches" with 404
-                label = None
-            elif resp.status_code != 200:
-                result.failed[number] = f"{ticker}: HTTP {resp.status_code}"
-                continue
-            else:
+            # New labels often lack the harmonized openfda block, so fall back to the brand
+            # name in the label's product text.
+            brands = sorted({p["brand_name"] for p in app["products"] if p["brand_name"]})
+            queries = [(f'openfda.application_number:"{number}"', "application_number")]
+            queries += [(f'spl_product_data_elements:"{b.split()[0]}"', "brand") for b in brands]
+            label, requests, failed = None, [], False
+            for search, matched_by in queries:
+                resp = http.get(LABEL_URL, params={"search": search, "limit": 1})
+                requests.append(request_record(resp))
+                if resp.status_code == 404:  # openFDA answers "no matches" with 404
+                    continue
+                if resp.status_code != 200:
+                    result.failed[number] = f"{ticker}: HTTP {resp.status_code}"
+                    failed = True
+                    break
                 hit = resp.json()["results"][0]
                 label = {
                     "set_id": hit.get("set_id"),
                     "effective_time": hit.get("effective_time"),
+                    "matched_by": matched_by,
                     "indications_and_usage": " ".join(hit.get("indications_and_usage") or []),
                 }
-            write_cache(
-                path, {"application_number": number, "label": label}, [request_record(resp)]
-            )
+                break
+            if failed:
+                continue
+            write_cache(path, {"application_number": number, "label": label}, requests)
             result.fetched.append(number)
     return result
 
@@ -346,6 +353,13 @@ def approved_stage(ctx: BuildContext) -> None:
             data = json.loads(path.read_text())
             label = data["label"]
             if not label or not label["indications_and_usage"]:
+                ctx.gap(
+                    "approved_product",
+                    target.ticker,
+                    "label",
+                    "label_unavailable",
+                    f"{product.application_number} 在 openFDA 说明书接口中无记录，已上市阶段未修正",
+                )
                 continue
             source_id = f"FDA-LABEL-{product.application_number}"
             names = [product.brand_name or "", *(product.active_ingredients or "").split("; ")]

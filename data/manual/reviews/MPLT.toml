@@ -25,9 +25,9 @@ reason = "J&J 该行 ideal_stage 为「Phase 2b-上市」（映射表按 2 期�
 sources = ["JNJ-1", "SEC-0001193125-26-349554", "MAN-MPLT-3", "CTG-NCT07038876", "NASDAQ-MPLT-2026-10-28"]
 
 [scores.clinical]
-score = 3
+score = 2
 confidence = "medium"
-reason = "随机双盲安慰剂对照 2 期 ZEPHYR 唯一主要终点（第 5 周 PANSS 总分变化）在 210/3 mg BID 组达标，原文：\"met its primary endpoint, with the 210/3 mg twice-daily (BID) dose demonstrating a statistically significant and clinically meaningful reduction in Positive and Negative Syndrome Scale\"、\"effect size of 0.37 ( Cohen’s d ) and these participants experienced a mean 4.5-point improvement in PANSS total score versus placebo (p=0.015)\"（MAN-MPLT-2）。按 §3.3 为「随机 2 期达到主要终点」= 3 分。不给 4 分：只有安慰剂对照，无与标准治疗的直接对比，任何与 Cobenfy 的比较都是跨试验比较（最高 3 分）。另一剂量组未达显著（见 limitation），多重性校正方案未披露。"
+reason = "随机双盲安慰剂对照 2 期 ZEPHYR 唯一主要终点（第 5 周 PANSS 总分变化）在 210/3 mg BID 组达标，原文：\"met its primary endpoint, with the 210/3 mg twice-daily (BID) dose demonstrating a statistically significant and clinically meaningful reduction in Positive and Negative Syndrome Scale\"、\"effect size of 0.37 ( Cohen’s d ) and these participants experienced a mean 4.5-point improvement in PANSS total score versus placebo (p=0.015)\"（MAN-MPLT-2）。按 §3.3 为「随机 2 期达到主要终点」= 3 分。不给 4 分：只有安慰剂对照，无与标准治疗的直接对比，任何与 Cobenfy 的比较都是跨试验比较（最高 3 分）。另一剂量组未达显著（见 limitation），多重性校正方案未披露。两个剂量组中 QD 组未达到主要终点，按 §3.3「所有主要终点都达到才给 3 分」计 2 分（2026-10-30 用户确认）。"
 sources = ["MAN-MPLT-2", "MAN-MPLT-3", "CTG-NCT07038876", "NASDAQ-MPLT-2026-10-28"]
 
 [clinical]

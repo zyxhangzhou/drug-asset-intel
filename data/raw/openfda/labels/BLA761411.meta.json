@@ -1,9 +1,13 @@
 {
-  "fetched_at": "2026-10-30T08:28:57.622504+00:00",
+  "fetched_at": "2026-10-30T09:36:44.533083+00:00",
   "requests": [
     {
       "url": "https://api.fda.gov/drug/label.json?search=openfda.application_number%3A%22BLA761411%22&limit=1",
       "sha256": "57b1e7534d003e4246182162fd2469cdf038de39405056f44fc006715e5496da"
+    },
+    {
+      "url": "https://api.fda.gov/drug/label.json?search=spl_product_data_elements%3A%22NIKTIMVO%22&limit=1",
+      "sha256": "626c5a8998af418e64247ad412c8af14cdd8cac8b54017dbfcdd220c36c4c36e"
     }
   ]
 }

@@ -1,9 +1,13 @@
 {
-  "fetched_at": "2026-10-30T08:29:18.642830+00:00",
+  "fetched_at": "2026-10-30T09:37:12.250451+00:00",
   "requests": [
     {
       "url": "https://api.fda.gov/drug/label.json?search=openfda.application_number%3A%22NDA213176%22&limit=1",
       "sha256": "57b1e7534d003e4246182162fd2469cdf038de39405056f44fc006715e5496da"
+    },
+    {
+      "url": "https://api.fda.gov/drug/label.json?search=spl_product_data_elements%3A%22UKONIQ%22&limit=1",
+      "sha256": "7e541c2b0616880ac85bed3cfe6c8ebf1952adc8548f19c6d809efc0bbd51d0d"
     }
   ]
 }

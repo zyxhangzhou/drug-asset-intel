@@ -37,6 +37,11 @@ result = "主要终点 ORR 18.0%（20/111）对 5.3%，p=0.0228（终版分析�
 limitation = "OS 次要终点未达统计学意义：\"did not meet statistical significance\"（SEC-0001171843-26-005295）；交叉校正分析不可解释：\"its results here are largely uninterpretable\"（MAN-CMPX-3）。FDA 建议先做证明生存获益的试验：\"The FDA recommended that Compass conduct a trial to demonstrate a survival benefit prior to submitting a BLA for tovecimig.\"（MAN-CMPX-2）。数据来自公司新闻稿与 10-Q，尚未打开同行评议全文或 ESMO 2026 摘要。"
 sources = ["SEC-0001171843-26-005295", "MAN-CMPX-1", "MAN-CMPX-2", "MAN-CMPX-3", "CTG-NCT05506943"]
 
+[scores.catalyst]
+score = 0
+reason = "24 个月窗口内没有可定时间的关键事件：FDA 已建议先做证明生存获益的试验再提交 BLA，公司未披露 BLA 或新试验时间，按 §3.4 窗口内无事件计 0 分（2026-10-30 用户确认）。"
+sources = ["MAN-CMPX-2", "MAN-CMPX-4"]
+
 [event]
 text = "二线胆道癌 BLA 提交（公司意向，时间未披露）。FDA 反馈后公司仍表示：\"Compass intends to further engage with the FDA as we continue to prepare a BLA submission for tovecimig.\"，但 FDA \"recommended that Compass conduct a trial to demonstrate a survival benefit prior to submitting a BLA\"（MAN-CMPX-2）。此前的 \"prior to a potential BLA filing later this year\"（MAN-CMPX-4）已被 9 月 22 日公告取代。无季度或日期，按估算处理；若公司接受 FDA 建议，24 个月窗口内可能没有高重要性事件。"
 timing = "未披露"

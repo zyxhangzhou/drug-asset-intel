@@ -4,10 +4,12 @@ Rules: docs/scoring-rules.md. Auto screening uses structured snapshot data only;
 review file replaces the auto values for its company.
 """
 
+import csv
 import re
 from collections import defaultdict
 from dataclasses import dataclass, field
 from datetime import date
+from pathlib import Path
 
 from sqlmodel import select
 
@@ -118,10 +120,33 @@ def months_after(start: date, text: str | None) -> float | None:
     return (year - start.year) * 12 + (month - start.month)
 
 
+@dataclass(frozen=True)
+class DebtAdjustment:
+    amount: float
+    source_id: str
+    note: str
+
+
+def load_debt_adjustments(path: Path) -> dict[str, DebtAdjustment]:
+    """Debt-like liabilities XBRL companyfacts cannot show (company-specific tags)."""
+    if not path.exists():
+        return {}
+    with path.open(encoding="utf-8", newline="") as fh:
+        return {
+            r["ticker"].strip(): DebtAdjustment(
+                float(r["amount_usd"]), r["source_id"].strip(), r["note"].strip()
+            )
+            for r in csv.DictReader(fh)
+            if r["verified_by"].strip()
+        }
+
+
 class Scorer:
     def __init__(self, ctx: BuildContext, cfg: scoring.ScoringConfig):
         self.ctx, self.cfg = ctx, cfg
         self.src = Sources(ctx.session)
+        adjustments = ctx.inputs.manual_dir / "debt_adjustments.csv"
+        self.debt_adjustments = load_debt_adjustments(adjustments)
         self.trials: dict[int, list[Trial]] = defaultdict(list)
         for trial in ctx.session.exec(select(Trial).where(Trial.indication_id.is_not(None))):
             self.trials[trial.indication_id].append(trial)
@@ -254,11 +279,16 @@ class Scorer:
         cells: dict[str, Cell] = {}
         if fin.market_cap is not None and fin.cash_and_investments is not None:
             debt = fin.total_debt or 0.0
-            ev = fin.market_cap + debt - fin.cash_and_investments
             sources = self.src.of(
                 "financial_snapshot", fin.id, "market_cap", "cash_and_investments", "total_debt"
             )
             debt_note = "" if fin.total_debt is not None else "；未申报债务，按 0 计"
+            adj = self.debt_adjustments.get(pair.target.ticker)
+            if adj:
+                debt += adj.amount
+                sources = [*sources, adj.source_id]
+                debt_note += f"；另计 {adj.amount / 1e8:,.2f} 亿美元（{adj.note}）"
+            ev = fin.market_cap + debt - fin.cash_and_investments
             cells["enterprise_value"] = Cell(
                 round(ev), sources, note=f"EV = 市值 + 债务 − 现金及投资{debt_note}"
             )

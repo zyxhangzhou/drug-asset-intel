@@ -68,3 +68,10 @@
 #### Scenario: Unsupported high score fails the check
 - **WHEN** 某组合的买方契合度为 4 分，但没有任何事实声明支撑
 - **THEN** 检验命令列出该组合并以非零状态退出
+
+### Requirement: Manual debt adjustments
+系统 SHALL 读取 `data/manual/debt_adjustments.csv`（ticker、金额、来源 ID、说明、`verified_by`），把已签字的金额计入该公司 EV 的债务部分，EV 声明增加该来源，备注写明金额与说明。用于 XBRL companyfacts 接口缺失的债务类负债（如公司自定义标签的特许权出售负债）。
+
+#### Scenario: Royalty liability raises EV
+- **WHEN** 已签字的调整行为某公司加 1 亿美元，市值 18 亿、现金 5 亿、无申报债务
+- **THEN** 该公司 EV 为 14 亿美元，声明引用调整行的来源

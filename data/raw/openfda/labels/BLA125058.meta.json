@@ -1,9 +1,13 @@
 {
-  "fetched_at": "2026-10-30T08:28:47.080859+00:00",
+  "fetched_at": "2026-10-30T09:36:32.605523+00:00",
   "requests": [
     {
       "url": "https://api.fda.gov/drug/label.json?search=openfda.application_number%3A%22BLA125058%22&limit=1",
       "sha256": "57b1e7534d003e4246182162fd2469cdf038de39405056f44fc006715e5496da"
+    },
+    {
+      "url": "https://api.fda.gov/drug/label.json?search=spl_product_data_elements%3A%22ALDURAZYME%22&limit=1",
+      "sha256": "a58d3c8679715deea67fccd4fd5a78308b2b3df464b9e126575f95d3145322c7"
     }
   ]
 }

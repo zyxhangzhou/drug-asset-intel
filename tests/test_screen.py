@@ -302,3 +302,17 @@ def test_review_can_exclude_from_shortlist(tmp_path):
     (vktx,) = [r for r in rows if r["ticker"] == "VKTX"]
     assert vktx["shortlisted"] == "False"
     assert vktx["not_shortlisted_reason"] == "复核建议不入选：资产已授权给合作方"
+
+
+def test_manual_debt_adjustment_enters_ev(tmp_path):
+    m = manual_dir(tmp_path)
+    (m / "debt_adjustments.csv").write_text(
+        "ticker,amount_usd,source_id,note,verified_by\n"
+        "VKTX,100000000,MAN-VKTX-1,royalty liability,tester\n",
+        encoding="utf-8",
+    )
+    db, _ = build(tmp_path, m)
+    with Session(rw_engine(db)) as s:
+        rec = primary(s, "VKTX")
+        assert rec.enterprise_value == 1_400_000_000  # 1.8B + 0.1B − 0.5B
+        assert provenance_gaps(s) == []

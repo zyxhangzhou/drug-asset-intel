@@ -1,9 +1,13 @@
 {
-  "fetched_at": "2026-10-30T08:29:21.551162+00:00",
+  "fetched_at": "2026-10-30T09:37:14.307946+00:00",
   "requests": [
     {
       "url": "https://api.fda.gov/drug/label.json?search=openfda.application_number%3A%22NDA208276%22&limit=1",
       "sha256": "57b1e7534d003e4246182162fd2469cdf038de39405056f44fc006715e5496da"
+    },
+    {
+      "url": "https://api.fda.gov/drug/label.json?search=spl_product_data_elements%3A%22REMODULIN%22&limit=1",
+      "sha256": "043e978fd31decb915704ff1df1e42b6c13e4becaa790318b248b39cf000a8bb"
     }
   ]
 }

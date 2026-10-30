@@ -1,9 +1,13 @@
 {
-  "fetched_at": "2026-10-30T08:28:44.079182+00:00",
+  "fetched_at": "2026-10-30T09:36:27.594044+00:00",
   "requests": [
     {
       "url": "https://api.fda.gov/drug/label.json?search=openfda.application_number%3A%22NDA217242%22&limit=1",
       "sha256": "57b1e7534d003e4246182162fd2469cdf038de39405056f44fc006715e5496da"
+    },
+    {
+      "url": "https://api.fda.gov/drug/label.json?search=spl_product_data_elements%3A%22ZORYVE%22&limit=1",
+      "sha256": "72bac0d81465e35c1bc6c831dbc4c8e1dda3e9c16a0fbb48218dfbbe9538c734"
     }
   ]
 }

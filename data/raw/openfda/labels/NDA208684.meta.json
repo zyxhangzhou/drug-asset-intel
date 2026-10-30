@@ -1,9 +1,13 @@
 {
-  "fetched_at": "2026-10-30T08:29:10.290445+00:00",
+  "fetched_at": "2026-10-30T09:37:00.856210+00:00",
   "requests": [
     {
       "url": "https://api.fda.gov/drug/label.json?search=openfda.application_number%3A%22NDA208684%22&limit=1",
       "sha256": "57b1e7534d003e4246182162fd2469cdf038de39405056f44fc006715e5496da"
+    },
+    {
+      "url": "https://api.fda.gov/drug/label.json?search=spl_product_data_elements%3A%22EMFLAZA%22&limit=1",
+      "sha256": "0c2662a3224e7acf7d0af86a0d1a9165714641f22120a5ab50f350d10afb1e1c"
     }
   ]
 }
