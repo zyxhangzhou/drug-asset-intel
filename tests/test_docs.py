@@ -256,3 +256,7 @@ def test_html_text_appends_table_records_after_body():
     text = to_text((FIXTURES / "vktx_ex991.html").read_bytes(), "text/html")
     body, records = text.split("[Table records", 1)
     assert "met" in body.lower() and "-16.3%" in records
+
+
+def test_damaged_pdf_gives_empty_text():
+    assert to_text(b"%PDF-1.4 truncated", "application/pdf") == ""

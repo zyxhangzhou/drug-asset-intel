@@ -198,7 +198,10 @@ def pdf_to_text(data: bytes) -> str:
 def to_text(data: bytes, content_type: str, url: str = "") -> str:
     """Plain text of a fetched document; empty when nothing can be extracted (scanned PDF)."""
     if "pdf" in content_type or url.lower().endswith(".pdf") or data[:5] == b"%PDF-":
-        return pdf_to_text(data)
+        try:
+            return pdf_to_text(data)
+        except Exception:  # a damaged or truncated PDF has no usable text
+            return ""
     decoded = data.decode("utf-8", errors="replace")
     if "html" in content_type or re.search(r"(?i)<(html|body|div|p)\b", decoded[:5000]):
         text = html_to_text(decoded)

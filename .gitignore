@@ -13,3 +13,7 @@ secret/
 
 # Rebuildable full-text index of archived documents
 data/raw/docs/index.sqlite
+
+# Original bytes of archived documents: re-downloadable, sha256 kept in each .meta.json;
+# the converted .txt (what quotes are checked against) is committed.
+data/raw/docs/**/*.orig.*

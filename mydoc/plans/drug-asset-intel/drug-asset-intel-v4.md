@@ -1,3 +1,5 @@
+> Superseded by [v5](drug-asset-intel-v5.md) — 新增 L（试验名称对照）
+
 # 全球创新药资产情报平台 — v4
 
 - Status: confirmed

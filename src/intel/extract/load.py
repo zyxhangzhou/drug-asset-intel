@@ -12,9 +12,10 @@ from intel.docs.documents import Document, read_documents
 from intel.docs.text import normalize
 from intel.enums import CatalystType, ClaimKind, Confidence, ProducedBy
 from intel.extract import review
+from intel.extract.trials import TrialMatcher, matcher_for
 from intel.extract.validate import quote_problem
 from intel.ingest import BuildContext
-from intel.models import Catalyst, Program, Source, Target, Trial, TrialResult
+from intel.models import Catalyst, Program, Source, Target, TrialResult
 
 NOTE = "LLM 抽取，经人工复核接受；原文片段在构建时重新校验"
 
@@ -130,6 +131,7 @@ def ingest(ctx: BuildContext) -> None:
         return
     docs = {d.source_id: d for d in read_documents(ctx.inputs.documents)[0]}
     texts: dict[str, str] = {}
+    trials = matcher_for(ctx, docs)
     undecided = loaded = 0
     for path, rev in signed:
         target = ctx.session.exec(select(Target).where(Target.ticker == rev.ticker)).first()
@@ -149,7 +151,7 @@ def ingest(ctx: BuildContext) -> None:
             problem = _value_problem(item)
             if problem:
                 raise ExtractionLoadError(f"{where}: {problem}")
-            loaded += _write(ctx, path, target, item, source)
+            loaded += _write(ctx, path, target, item, source, trials)
     ctx.notes.append(f"extractions: {loaded} accepted item(s) loaded, {undecided} not reviewed")
 
 
@@ -164,7 +166,9 @@ def _value_problem(item) -> str | None:
     return None
 
 
-def _write(ctx: BuildContext, path: Path, target: Target, item, source: Source) -> int:
+def _write(
+    ctx: BuildContext, path: Path, target: Target, item, source: Source, trials: TrialMatcher
+) -> int:
     v = item.values
     claim = dict(
         produced_by=ProducedBy.llm,
@@ -191,22 +195,15 @@ def _write(ctx: BuildContext, path: Path, target: Target, item, source: Source) 
             ctx.claim("program", program.id, fld, v[fld], source.source_id, **claim)
         return 1
     if item.type == "clinical_result":
-        nct = re.search(r"NCT\d{8}", v.get("trial", "").upper())
-        trial = (
-            nct
-            and ctx.session.exec(
-                select(Trial).where(Trial.nct_id == nct.group(), Trial.target_id == target.id)
-            ).first()
-        )
-        if not trial:
+        found = trials.match(target, v.get("trial", ""))
+        if found.trial is None:
             ctx.gap(
-                "trial_result",
-                target.ticker,
-                v.get("trial") or "trial",
-                "extraction_unmatched",
-                location,
+                "trial_result", target.ticker, v.get("trial") or "trial", found.reason, location
             )
             return 0
+        trial = found.trial
+        if found.basis:
+            claim["note"] = f"{NOTE}；{found.basis}"
         fields = ("endpoint", "result", "analysis", "comparator", "advantage_vs_soc")
         row = TrialResult(trial_id=trial.id, **{f: v.get(f) or None for f in fields})
         ctx.session.add(row)

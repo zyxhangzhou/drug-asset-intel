@@ -63,6 +63,10 @@ class Inputs:
         return self.manual_dir / "sources.csv"
 
     @property
+    def trial_aliases(self) -> Path:
+        return self.manual_dir / "trial_aliases.csv"
+
+    @property
     def documents(self) -> Path:
         return self.manual_dir / "documents.csv"
 

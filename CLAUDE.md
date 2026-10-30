@@ -24,7 +24,7 @@
 - `tests/` pytest
 - `web/` 前端（Vite + React + TS + Ant Design），开发时代理 `/api` 到 8000 端口
 - `data/raw/` 抓取的原始响应与文档快照（带抓取时间）
-- `data/manual/` 人工核实文件（`verified_by` 非空才生效）：Stage 0 排除名单、`buyer_preference_map.csv`（买方偏好 → 治疗领域与阶段）、`ta_keywords.csv`、`reviews/<TICKER>.toml`（复核文件，同名 `.md` 为研究说明）、`sources.csv`（`MAN-` 人工来源）、`debt_adjustments.csv`、`documents.csv`（待抓取的一手文档清单）、`extractions/<TICKER>.toml`（LLM 抽取复核文件，逐条 accept / reject 后签字）；管线推导修正：`sponsor_aliases.csv`、`sponsor_code_prefixes.csv`、`program_aliases.csv`、`intervention_excludes.csv`
+- `data/manual/` 人工核实文件（`verified_by` 非空才生效）：Stage 0 排除名单、`buyer_preference_map.csv`（买方偏好 → 治疗领域与阶段）、`ta_keywords.csv`、`reviews/<TICKER>.toml`（复核文件，同名 `.md` 为研究说明）、`sources.csv`（`MAN-` 人工来源）、`debt_adjustments.csv`、`documents.csv`（待抓取的一手文档清单）、`extractions/<TICKER>.toml`（LLM 抽取复核文件，逐条 accept / reject 后签字）；`trial_aliases.csv`（CT.gov 未登记的研究名 → NCT 编号，带来源）；管线推导修正：`sponsor_aliases.csv`、`sponsor_code_prefixes.csv`、`program_aliases.csv`、`intervention_excludes.csv`
 - `config/scoring.toml` 评分权重、EV 档位、长名单家数与人工加入（`longlist_extra`）
 - `config/llm.toml` LLM 价格表（注明官方来源）、DeepSeek 高峰时段、各服务商预算上限；账本在 `data/raw/llm/ledger.jsonl`
 - `data/processed/intel.db` 数据快照，提交进仓库；应用只读它，管道重建它
