@@ -59,6 +59,7 @@ class Review:
     event_certainty: EventCertainty | None = None
     rights: RightsStatus | None = None
     rights_cited: Cited | None = None
+    exclude: str | None = None  # analyst's reason to keep the company off the shortlist
 
     def all_sources(self) -> set[str]:
         ids = set(self.thesis_sources)
@@ -124,6 +125,7 @@ def parse(path: Path) -> Review | None:
             event_certainty=EventCertainty(event["certainty"]) if "certainty" in event else None,
             rights=RightsStatus(rights["status"]) if rights.get("status") else None,
             rights_cited=_cited(rights, ("note",)),
+            exclude=str(data["exclude"]).strip() or None if "exclude" in data else None,
         )
     except (KeyError, ValueError) as exc:
         if isinstance(exc, ReviewError):

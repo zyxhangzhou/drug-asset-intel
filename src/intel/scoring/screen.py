@@ -90,6 +90,7 @@ class Pair:
     conservative: float = 0.0
     optimistic: float = 0.0
     coverage: float = 0.0
+    exclude: str | None = None
 
     def score(self, dim: str) -> int | None:
         cell = self.cells.get(dim)
@@ -382,6 +383,7 @@ def reviewed_pair(review: Review, target, prefs, financial, scorer) -> Pair:
         pref, pmap = found[0]
     pair = scorer.auto(Pair(target, pi, pref, pmap), financial)
     pair.status = review.status
+    pair.exclude = review.exclude
     for dim, scored in review.scores.items():
         pair.cells[dim] = Cell(
             scored.score, scored.sources, confidence=scored.confidence, note=scored.reason
@@ -448,6 +450,8 @@ def reviewed_pair(review: Review, target, prefs, financial, scorer) -> Pair:
 def shortlist_blocker(pair: Pair) -> str | None:
     if pair.status == ResearchStatus.auto:
         return "未复核"
+    if pair.exclude:
+        return f"复核建议不入选：{pair.exclude}"
     rights = (pair.cells.get("rights_status") or Cell(None, [])).value
     if rights is None:
         return "资产权益待核实"

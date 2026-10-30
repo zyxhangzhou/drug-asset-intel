@@ -39,6 +39,8 @@
 - [x] 7.4 合作方研发代号排除、人工管线合并文件、人工排除 ATIRMOCICLIB 与错误干预名。测试：合作方代号、本公司前缀例外。
 - [x] 7.5 openFDA 说明书适应症抓取（`intel fetch labels`），已上市阶段修正。测试：说明书覆盖适应症匹配、生物制品后缀。
 
+- [x] 7.6 复核文件 `exclude` 字段：分析人员可写明理由，使公司不入选。测试：签字后不入选并写原因。
+
 ## Workflow follow-up
 
 - `/opsx:verify` 后归档；在 change plan 中勾选 E（第一部分完成）。

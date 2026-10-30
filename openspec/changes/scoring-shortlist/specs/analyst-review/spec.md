@@ -35,3 +35,10 @@
 #### Scenario: Matrix row per buyer
 - **WHEN** 公司的资产与两家买方的偏好匹配
 - **THEN** 匹配表中这两家买方各有一行该公司的分数与理由
+
+### Requirement: Analyst exclusion
+复核文件 SHALL 可以写 `exclude = "<理由>"`。签字生效后，该公司不进入入选名单，长名单的未入选原因写「复核建议不入选：<理由>」。用于资产已授权给他方、主资产失败等规则门槛未覆盖的情形。
+
+#### Scenario: Excluded by the analyst
+- **WHEN** 已签字的复核文件写明 exclude = "资产已授权给合作方"
+- **THEN** 该公司不入选，未入选原因为「复核建议不入选：资产已授权给合作方」

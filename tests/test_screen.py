@@ -291,3 +291,14 @@ def test_reviewed_company_stays_in_review_pool(tmp_path):
     build_snapshot(tmp_path / "intel.db", inputs)
     rows = csv.DictReader((tmp_path / "longlist.csv").open(encoding="utf-8"))
     assert {r["ticker"] for r in rows if r["in_longlist"] == "True"} == {"VKTX"}
+
+
+def test_review_can_exclude_from_shortlist(tmp_path):
+    review = REVIEW.replace("{rights}", "full").replace(
+        'verified_by = "tester"', 'verified_by = "tester"\nexclude = "资产已授权给合作方"', 1
+    )
+    build(tmp_path, manual_dir(tmp_path, review))
+    rows = list(csv.DictReader((tmp_path / "longlist.csv").open(encoding="utf-8")))
+    (vktx,) = [r for r in rows if r["ticker"] == "VKTX"]
+    assert vktx["shortlisted"] == "False"
+    assert vktx["not_shortlisted_reason"] == "复核建议不入选：资产已授权给合作方"
