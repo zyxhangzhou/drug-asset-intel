@@ -69,7 +69,7 @@ HTML：沿用 `sec_doc.py` 的规则（去 `script`、`style`、`ix:header`；�
 
 `httpx` 直接 POST `{base_url}/chat/completions`，不加 `openai` 依赖。参数：`temperature = 0`、`response_format = {"type": "json_object"}`、`max_tokens` 取配置值（默认 4,000）。系统提示要求只输出 JSON、每个条目带逐字片段、原文没有就留空。返回的 `model` 字段与 `usage` 原样存入账本；原始响应写 `data/raw/llm/responses/<call_id>.json`。超时或 5xx 重试 2 次；JSON 解析失败的响应记账本并计为失败，不重试第二次以免重复计费。
 
-DeepSeek v4-pro 若默认输出思考内容，思考 token 计入输出用量；预算预估按 `max_tokens` 计，已覆盖这部分。
+DeepSeek v4-pro 与 Qwen 3.7-plus 默认开启思考模式。样例运行中，DeepSeek 的临床结果任务把 4,000 个输出 token 全部用于思考，没有给出答案；思考模式也忽略 `temperature`。实现时调整：`config/llm.toml` 按服务商配置额外请求字段 `request_extra`，DeepSeek 设 `thinking = {type = "disabled"}`，Qwen 设 `enable_thinking = false`。
 
 ### 8. 账本、价格与预算
 
@@ -131,7 +131,7 @@ note = ""
 
 ### 11. 构建载入
 
-新步骤 `extract.load`，插在 `financials` 之后、`screen` 之前。逐个读取已签字文件：
+新步骤 `extract.load`，插在 `screen` 之后（实现时调整：`screen` 负责登记 `MAN-` 人工来源，抽取条目可能复用这些来源；评分不读抽取结果，所以放在后面不影响评分）。逐个读取已签字文件：
 
 1. 来源须在快照中且有 `local_path`；`archive_matches` 失败或文件缺失 → 构建失败。
 2. 重跑片段与数字校验；失败 → 构建失败（规格要求，人工改动后的片段也要过）。

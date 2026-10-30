@@ -1,0 +1,29 @@
+# LLM providers for `intel extract`: prices, billing windows and budget caps. No secrets here;
+# endpoints, model names and keys live in .env (LLM_* and LLM_VERIFY_*).
+# A provider is picked by a substring of its base URL. Prices are CNY per million tokens.
+# A provider without prices is refused, so an unknown price never turns into an unbounded bill.
+
+max_tokens = 4000          # output cap per call; also the worst case the budget check assumes
+chars_per_token = 2.5      # conservative input estimate before a call (English runs nearer 4)
+timezone = "Asia/Shanghai"
+
+[providers.deepseek]
+match_base_url = "api.deepseek.com"
+price_source = "https://api-docs.deepseek.com/zh-cn/quick_start/pricing (accessed 2026-10-30)"
+offpeak = { input_hit = 0.15, input_miss = 4.5, output = 13.5 }
+peak = { input_hit = 0.30, input_miss = 9.0, output = 27.0 }
+# Beijing time, Monday to Friday. Public holidays are off-peak at DeepSeek, but we keep no
+# holiday calendar: treating them as peak only overestimates cost.
+peak_windows = ["09:00-12:00", "14:00-18:00"]
+refuse_peak = true
+budget_cny = 15.0          # account balance 20 CNY; 5 CNY kept as margin
+# Thinking mode is on by default and ignores temperature; a first sample run spent the whole
+# 4,000-token output cap on reasoning. Verbatim extraction needs no chain of thought.
+request_extra = { thinking = { type = "disabled" } }
+
+[providers.qwen]
+match_base_url = "aliyuncs.com"
+price_source = "https://help.aliyun.com/zh/model-studio/qwen3-7-plus (accessed 2026-10-30; list price, input <= 256k tokens, region cn-beijing; promotions ignored)"
+offpeak = { input_hit = 0.4, input_miss = 2.0, output = 8.0 }
+budget_cny = 5.0
+request_extra = { enable_thinking = false }

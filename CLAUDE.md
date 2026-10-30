@@ -24,8 +24,9 @@
 - `tests/` pytest
 - `web/` 前端（Vite + React + TS + Ant Design），开发时代理 `/api` 到 8000 端口
 - `data/raw/` 抓取的原始响应与文档快照（带抓取时间）
-- `data/manual/` 人工核实文件（`verified_by` 非空才生效）：Stage 0 排除名单、`buyer_preference_map.csv`（买方偏好 → 治疗领域与阶段）、`ta_keywords.csv`、`reviews/<TICKER>.toml`（复核文件，同名 `.md` 为研究说明）、`sources.csv`（`MAN-` 人工来源）、`debt_adjustments.csv`；管线推导修正：`sponsor_aliases.csv`、`sponsor_code_prefixes.csv`、`program_aliases.csv`、`intervention_excludes.csv`
+- `data/manual/` 人工核实文件（`verified_by` 非空才生效）：Stage 0 排除名单、`buyer_preference_map.csv`（买方偏好 → 治疗领域与阶段）、`ta_keywords.csv`、`reviews/<TICKER>.toml`（复核文件，同名 `.md` 为研究说明）、`sources.csv`（`MAN-` 人工来源）、`debt_adjustments.csv`、`documents.csv`（待抓取的一手文档清单）、`extractions/<TICKER>.toml`（LLM 抽取复核文件，逐条 accept / reject 后签字）；管线推导修正：`sponsor_aliases.csv`、`sponsor_code_prefixes.csv`、`program_aliases.csv`、`intervention_excludes.csv`
 - `config/scoring.toml` 评分权重、EV 档位、长名单家数与人工加入（`longlist_extra`）
+- `config/llm.toml` LLM 价格表（注明官方来源）、DeepSeek 高峰时段、各服务商预算上限；账本在 `data/raw/llm/ledger.jsonl`
 - `data/processed/intel.db` 数据快照，提交进仓库；应用只读它，管道重建它
 - `docs/` 方案、架构、筛选方法、AI 使用说明、核验记录、已知限制
 
@@ -56,6 +57,11 @@ uv run intel fetch labels                 # 候选公司获批产品的 FDA 说�
 uv run intel fetch ctgov                  # 候选池试验（约 30 分钟，CT.gov 限速）；已缓存的公司跳过
 uv run intel fetch xbrl                   # SEC XBRL companyfacts（裁剪为所需标签）
 uv run intel fetch prices                 # Nasdaq 快照日收盘价（非官方来源）
+uv run intel docs filings VKTX            # 列出 EDGAR 近期申报及附件 URL，挑选后写入 documents.csv
+uv run intel fetch docs                   # 抓取 documents.csv 中的文档，存原文、文本与哈希到 data/raw/docs/
+uv run intel extract --dry-run            # 预估抽取费用，不调用模型
+uv run intel extract                      # DeepSeek 抽取 + Qwen 盲抽核验，写 data/manual/extractions/；高峰时段默认拒绝
+uv run intel extract report               # 费用、片段 / 数字校验通过率、双模型一致率
                                           # 批量抓取均支持 --only VKTX,MDGL 与 --refresh
 uv run intel build                        # 离线从材料 + 缓存 + data/manual/ 重建快照，输出 gaps.csv、longlist.csv、shortlist.csv
 uv run intel init-db                      # 建空库（可重复执行）

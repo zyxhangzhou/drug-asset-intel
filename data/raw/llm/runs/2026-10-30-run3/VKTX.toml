@@ -1,0 +1,108 @@
+# LLM extraction review. Set decision per item (accept / reject), then sign verified_by.
+# Only accepted items of a signed file enter the snapshot; quotes are rechecked at build.
+ticker = "VKTX"
+verified_by = ""
+
+[[items]]
+id = "p-7338e338"
+type = "program"
+source_id = "MAN-VKTX-4"
+asset = "VK2735"
+mechanism = "dual agonist of the glucagon-like peptide 1 (GLP-1) and glucose-dependent insulinotropic polypeptide (GIP) receptors"
+modality = ""
+quotes = ["VK2735, the company’s dual agonist of the glucagon-like peptide 1 (GLP-1) and glucose-dependent insulinotropic polypeptide (GIP) receptors", "VK2735 is being developed in both subcutaneous and oral formulations for the potential treatment of various metabolic disorders such as obesity"]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "agreed"
+verify = { asset = "VK2735", mechanism = "dual glucagon-like peptide 1 (GLP-1) and glucose-dependent insulinotropic polypeptide (GIP) receptor agonist", modality = "" }
+verify_quotes = ["the company’s dual agonist of the glucagon-like peptide 1 (GLP-1) and glucose-dependent insulinotropic polypeptide (GIP) receptors.", "The company's lead program, VK2735, is a dual glucagon-like peptide 1 (GLP-1) and glucose-dependent insulinotropic polypeptide (GIP) receptor agonist"]
+decision = "accept"
+note = ""
+
+[[items]]
+id = "p-9db1bbfb"
+type = "program"
+source_id = "MAN-VKTX-4"
+asset = "VK3019"
+mechanism = "amylin receptor agonist"
+modality = ""
+quotes = ["VK3019, an amylin receptor agonist"]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "agreed"
+verify = { asset = "VK3019", mechanism = "amylin receptor agonist", modality = "" }
+verify_quotes = ["Viking is also advancing additional obesity programs, including VK3019, an amylin receptor agonist,"]
+decision = "accept"
+note = ""
+
+[[items]]
+id = "p-e9f2664f"
+type = "program"
+source_id = "MAN-VKTX-4"
+asset = "VK2809"
+mechanism = "thyroid hormone receptor beta agonist"
+modality = "orally available"
+quotes = ["VK2809, an orally available thyroid hormone receptor beta agonist for metabolic and liver disease"]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "disputed"
+verify = { asset = "VK2809", mechanism = "thyroid hormone receptor beta agonist", modality = "" }
+verify_quotes = ["VK2809, an orally available thyroid hormone receptor beta agonist for metabolic and liver disease,"]
+decision = ""
+note = ""
+
+[[items]]
+id = "p-f2bec790"
+type = "program"
+source_id = "MAN-VKTX-4"
+asset = "VK0214"
+mechanism = ""
+modality = ""
+quotes = ["VK0214 for the rare genetic disorder X-linked adrenoleukodystrophy (X-ALD)"]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "agreed"
+verify = { asset = "VK0214", mechanism = "", modality = "" }
+verify_quotes = ["and VK0214 for the rare genetic disorder X-linked adrenoleukodystrophy (X-ALD)."]
+decision = "accept"
+note = ""
+
+[[items]]
+id = "r-c6903ab3"
+type = "clinical_result"
+source_id = "MAN-VKTX-4"
+asset = "VK2735"
+trial = "VK2735-102 Maintenance Study"
+indication = "obesity"
+endpoint = "Proportion of participants achieving ≥5%, ≥10%, ≥15%, ≥20% weight loss at Week 21"
+result = "Combined VK2735: 98%, 90%, 65%, 32%; Placebo: 13%, 0%, 0%, 0%"
+analysis = "p<0.01 vs. placebo for each threshold"
+comparator = "placebo"
+advantage_vs_soc = ""
+confidence = ""
+quotes = ["At 21 weeks in the combined VK2735 treatment groups, the proportion of participants demonstrating 5%, 10%, 15%, and 20% weight loss were 98%, 90%, 65%, and 32% as compared with 13%, 0%, 0%, and 0% for placebo (p<0.01 vs. placebo for each)."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "disputed"
+decision = ""
+note = ""
+
+[[items]]
+id = "r-bfbbf644"
+type = "clinical_result"
+source_id = "MAN-VKTX-4"
+asset = "VK2735"
+trial = "VK2735-102 maintenance trial"
+indication = "obesity"
+endpoint = "Proportion of participants demonstrating 5%, 10%, 15%, and 20% weight loss at Week 21"
+result = "Combined VK2735: 98% (≥5%), 90% (≥10%), 65% (≥15%), 32% (≥20%); Placebo: 13% (≥5%), 0% (≥10%), 0% (≥15%), 0% (≥20%)"
+analysis = "p<0.01 vs. placebo for each"
+comparator = "placebo"
+advantage_vs_soc = ""
+confidence = ""
+quotes = ["At 21 weeks in the combined VK2735 treatment groups, the proportion of participants demonstrating 5%, 10%, 15%, and 20% weight loss were 98%, 90%, 65%, and 32% as compared with 13%, 0%, 0%, and 0% for placebo", "(p<0.01 vs. placebo for each)"]
+model = "qwen3.7-plus-2026-05-26"
+returned_model = "qwen3.7-plus-2026-05-26"
+check = "disputed"
+decision = ""
+note = ""

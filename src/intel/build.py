@@ -17,6 +17,7 @@ Step = Callable[[BuildContext], None]
 
 
 def default_steps() -> list[Step]:
+    from intel.extract import load as extractions
     from intel.ingest import ctgov, financials, mnc, openfda, universe
     from intel.scoring import screen, taxonomy
 
@@ -29,6 +30,7 @@ def default_steps() -> list[Step]:
         financials.ingest,
         taxonomy.ingest,
         screen.ingest,
+        extractions.ingest,  # after screen, which registers the manual MAN- sources
     ]
 
 

@@ -1,0 +1,38 @@
+{
+ "request_meta": {
+  "task": "program",
+  "ticker": "VKTX",
+  "source_id": "MAN-VKTX-4",
+  "chunks": [
+   0,
+   3,
+   4
+  ]
+ },
+ "response": {
+  "id": "chatcmpl-b2beb951-0c12-9326-a924-3d830d298bb1",
+  "object": "chat.completion",
+  "created": 1793365922,
+  "model": "qwen3.7-plus-2026-05-26",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"VK2735\",\n      \"mechanism\": \"dual glucagon-like peptide 1 (GLP-1) and glucose-dependent insulinotropic polypeptide (GIP) receptor agonist\",\n      \"modality\": \"\",\n      \"quotes\": [\n        \"the company’s dual agonist of the glucagon-like peptide 1 (GLP-1) and glucose-dependent insulinotropic polypeptide (GIP) receptors.\",\n        \"The company's lead program, VK2735, is a dual glucagon-like peptide 1 (GLP-1) and glucose-dependent insulinotropic polypeptide (GIP) receptor agonist\"\n      ]\n    },\n    {\n      \"asset\": \"VK3019\",\n      \"mechanism\": \"amylin receptor agonist\",\n      \"modality\": \"\",\n      \"quotes\": [\n        \"Viking is also advancing additional obesity programs, including VK3019, an amylin receptor agonist,\"\n      ]\n    },\n    {\n      \"asset\": \"VK2809\",\n      \"mechanism\": \"thyroid hormone receptor beta agonist\",\n      \"modality\": \"\",\n      \"quotes\": [\n        \"VK2809, an orally available thyroid hormone receptor beta agonist for metabolic and liver disease,\"\n      ]\n    },\n    {\n      \"asset\": \"VK0214\",\n      \"mechanism\": \"\",\n      \"modality\": \"\",\n      \"quotes\": [\n        \"and VK0214 for the rare genetic disorder X-linked adrenoleukodystrophy (X-ALD).\"\n      ]\n    }\n  ]\n}"
+    },
+    "finish_reason": "stop",
+    "logprobs": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 4203,
+   "total_tokens": 4584,
+   "completion_tokens": 381,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 4203
+   }
+  }
+ }
+}

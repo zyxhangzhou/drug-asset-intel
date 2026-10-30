@@ -24,6 +24,7 @@ class Inputs:
     raw_dir: Path = Path("data/raw")
     manual_dir: Path = Path("data/manual")
     scoring_config: Path = Path("config/scoring.toml")
+    llm_config: Path = Path("config/llm.toml")
 
     @property
     def mnc_workbook(self) -> Path:
@@ -60,6 +61,22 @@ class Inputs:
     @property
     def manual_sources(self) -> Path:
         return self.manual_dir / "sources.csv"
+
+    @property
+    def documents(self) -> Path:
+        return self.manual_dir / "documents.csv"
+
+    @property
+    def extractions_dir(self) -> Path:
+        return self.manual_dir / "extractions"
+
+    @property
+    def docs_dir(self) -> Path:
+        return self.raw_dir / "docs"
+
+    @property
+    def llm_dir(self) -> Path:
+        return self.raw_dir / "llm"
 
 
 @dataclass(frozen=True)
@@ -99,6 +116,8 @@ class BuildContext:
         produced_by: ProducedBy = ProducedBy.manual,
         as_of: date | None = None,
         note: str | None = None,
+        quote: str | None = None,
+        model: str | None = None,
     ) -> None:
         self.session.add(
             Claim(
@@ -112,6 +131,8 @@ class BuildContext:
                 produced_by=produced_by,
                 as_of=as_of,
                 note=note,
+                quote=quote,
+                model=model,
             )
         )
 

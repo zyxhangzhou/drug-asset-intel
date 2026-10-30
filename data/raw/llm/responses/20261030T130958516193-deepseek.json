@@ -1,0 +1,40 @@
+{
+ "request_meta": {
+  "task": "program",
+  "ticker": "VKTX",
+  "source_id": "MAN-VKTX-4",
+  "chunks": [
+   0,
+   3,
+   4
+  ]
+ },
+ "response": {
+  "id": "c8fc3bfc-5e62-4377-a324-fa65e803623a",
+  "object": "chat.completion",
+  "created": 1793365798,
+  "model": "deepseek-v4-pro",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"VK2735\",\n      \"mechanism\": \"dual agonist of the glucagon-like peptide 1 (GLP-1) and glucose-dependent insulinotropic polypeptide (GIP) receptors\",\n      \"modality\": \"\",\n      \"quotes\": [\n        \"VK2735, the company’s dual agonist of the glucagon-like peptide 1 (GLP-1) and glucose-dependent insulinotropic polypeptide (GIP) receptors\",\n        \"VK2735 is being developed in both subcutaneous and oral formulations for the potential treatment of various metabolic disorders such as obesity\"\n      ]\n    },\n    {\n      \"asset\": \"VK3019\",\n      \"mechanism\": \"amylin receptor agonist\",\n      \"modality\": \"\",\n      \"quotes\": [\n        \"VK3019, an amylin receptor agonist\"\n      ]\n    },\n    {\n      \"asset\": \"VK2809\",\n      \"mechanism\": \"thyroid hormone receptor beta agonist\",\n      \"modality\": \"orally available\",\n      \"quotes\": [\n        \"VK2809, an orally available thyroid hormone receptor beta agonist for metabolic and liver disease\"\n      ]\n    },\n    {\n      \"asset\": \"VK0214\",\n      \"mechanism\": \"\",\n      \"modality\": \"\",\n      \"quotes\": [\n        \"VK0214 for the rare genetic disorder X-linked adrenoleukodystrophy (X-ALD)\"\n      ]\n    }\n  ]\n}"
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 3714,
+   "completion_tokens": 314,
+   "total_tokens": 4028,
+   "prompt_tokens_details": {
+    "cached_tokens": 0
+   },
+   "prompt_cache_hit_tokens": 0,
+   "prompt_cache_miss_tokens": 3714
+  },
+  "system_fingerprint": "a307abda487cd1b463329ccb945ce396"
+ }
+}
