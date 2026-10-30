@@ -7,7 +7,7 @@
 ## 2. 治疗领域映射
 
 - [x] 2.1 `data/manual/ta_keywords.csv` 与 `buyer_preference_map.csv`（AI 起草，30 条偏好全部覆盖）；构建步骤写 `ProgramIndication.therapeutic_area` 及推断声明。测试：关键词命中多个领域；未确认的映射行不生效。
-- [ ] 2.2 [人工] 确认 `buyer_preference_map.csv` 30 行，填 `verified_by`；抽查 50 条适应症的领域映射并记错误率到 `docs/ai-log.md`。
+- [x] 2.2 [人工] 确认 `buyer_preference_map.csv` 30 行，填 `verified_by`；抽查 50 条适应症的领域映射并记错误率到 `docs/ai-log.md`。
 
 ## 3. 自动初筛
 
@@ -25,7 +25,7 @@
 
 ## 6. 真实数据
 
-- [ ] 6.1 全量构建，生成长名单；`check-provenance` 退出码 0；把长名单前 40 家汇报给用户。
+- [x] 6.1 全量构建，生成长名单；`check-provenance` 退出码 0；把长名单前 40 家汇报给用户。
 - [ ] 6.2 [人工] 首批 10 家复核文件（AI 起草材料与来源，用户确认 `verified_by`）；记录每家耗时。
 - [ ] 6.3 [人工] 样例检验四项（含用户独立分档），结果写入 `docs/scoring-rules.md` 与 `docs/ai-log.md`；决定是否调权重。
 - [ ] 6.4 [人工] 复核其余长名单公司，产出 20–30 家入选名单与 3–5 家深度对象建议；用户确认。
