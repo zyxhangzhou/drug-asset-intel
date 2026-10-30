@@ -1,0 +1,50 @@
+verified_by = ""
+program = "4D-710"
+indication = "Cystic Fibrosis"
+buyer = "AstraZeneca"
+preference_rank = 2
+deal_form = "许可"
+need_item = "基因疗法、体内细胞疗法、补体/酶替代和遗传性疾病药物（AstraZeneca 罕见病偏好行，理想阶段「早期平台至Phase 3」）"
+match_note = "4D-710 是雾化吸入的 AAV 基因疗法（A101 载体递送 CFTR 转基因），治疗遗传病囊性纤维化（CF）肺病，对应「基因疗法……遗传性疾病药物」；原文：\"the first known genetic medicine to demonstrate successful delivery and durable expression of the cystic fibrosis transmembrane conductance regulator (“CFTR”) transgene in the lungs of people with cystic fibrosis\"、\"an inherited disorder that causes disease in the pulmonary airways\"、\"orphan drug designation in the United States for 4D-710 for the treatment of cystic fibrosis\"（SEC-0001193125-26-349173）。10-Q 竞争段落列出的在研大药企为 \"AbbVie Inc., Astellas Pharma Inc., Eli Lilly and Company, Johnson & Johnson, Merck & Company Inc., Regeneron Pharmaceuticals Inc., Roche, Sanofi and Vertex\"，不含 AstraZeneca；10-K 称 4D-710 最直接竞争者为 Vertex（MAN-FDMT-1）。该名单不是完整核查（未核查组合冲突）。注意：公司真正的主导资产是眼科 4D-150（3 期），但买方偏好图中没有眼科治疗领域，故改推 4D-710。"
+thesis = [
+  "AstraZeneca 需要「基因疗法、体内细胞疗法、补体/酶替代和遗传性疾病药物」；4DMT 的 4D-710（雾化吸入 AAV 基因疗法、A101 载体递送 CFTR 转基因，囊性纤维化肺病，AEROW 1/2 期已进入 2 期阶段）对应这一需求，因为它是不依赖 CFTR 突变类型、针对遗传病的基因疗法，并已获美国孤儿药与罕见儿科疾病认定。",
+  "证据是开放标签 1 期剂量递增 16 例的中期数据：全部剂量组 CFTR 转基因表达持续至少 1 年，2.5E14 vg 剂量组 ppFEV1、LCI2.5 与 CFQ-R 呈临床意义改善信号，主要终点为安全性、无对照；下一事件是 AEROW 2 期部分主要终点数据（2027-06，CT.gov 估算；公司另披露 2026 年第四季度给出 AEROW 与项目更新）；主要障碍是权益附带义务：CFF 对许可/出售收入收取中个位数分成并在控制权变更时获付款，UC Regents 对转授权收取中十几至二十几百分比对价，且 Hercules 贷款以含知识产权的几乎全部资产作担保。"
+]
+thesis_sources = ["AZ-1", "AZ-3", "SEC-0001193125-26-349173", "MAN-FDMT-1", "MAN-FDMT-2", "CTG-NCT05248230"]
+
+[scores.buyer_fit]
+score = 4
+confidence = "medium"
+reason = "需求条目「基因疗法、体内细胞疗法、补体/酶替代和遗传性疾病药物」（AZ-1、AZ-3）→ 4D-710 为治疗遗传病 CF 的 AAV 基因疗法；原文：\"first known genetic medicine to demonstrate successful delivery and durable expression of the cystic fibrosis transmembrane conductance regulator\"、\"an inherited disorder\"（SEC-0001193125-26-349173）。10-Q 竞争段落 \"Companies that we are aware are developing therapeutics in the retina and pulmonology disease areas include large companies\" 所列公司不含 AstraZeneca，未发现组合冲突，但未做完整核查（未核查组合冲突）。数据包把 4D-710 标为 respiratory，未与 AZ #2 的 ta_codes（rare_genetic）相交；CF 属遗传性罕见病（孤儿药认定），按画像文字匹配。"
+sources = ["AZ-1", "AZ-3", "SEC-0001193125-26-349173", "MAN-FDMT-1"]
+
+[scores.stage_match]
+score = 4
+confidence = "high"
+reason = "AstraZeneca #2 理想阶段为「早期平台至Phase 3」；4D-710 处于 2 期，落在区间内。原文：\"is currently in Phase 2 development\"（SEC-0001193125-26-349173）、\"We are currently enrolling the Phase 2 portion of the AEROW Phase 1/2 clinical trial\"（MAN-FDMT-1）。"
+sources = ["AZ-1", "SEC-0001193125-26-349173", "MAN-FDMT-1", "CTG-NCT05248230"]
+
+[scores.clinical]
+score = 2
+confidence = "medium_high"
+reason = "只有开放标签 1 期剂量递增中期数据，主要终点为安全性（\"The primary endpoint of the trial is safety and tolerability\"），疗效指标为次要终点且仅在 2.5E14 vg 一个剂量组报告（\"In 2.5E14 vg dose cohort, consistent evidence of clinically meaningful activity detected in all endpoints\"，MAN-FDMT-1）；无对照、无与标准治疗比较，按 §3.3 定为早期阳性信号 2 分。"
+sources = ["MAN-FDMT-1", "CTG-NCT05248230"]
+
+[clinical]
+design = "AEROW 多中心、开放标签、剂量递增与剂量扩展 1/2 期，入组不适合或因不良反应停用 CFTR 调节剂的 CF 患者；1 期 4 个剂量组共 16 例。原文：\"multicenter, open-label, dose-escalation and dose-expansion trial of 4D-710 in people with cystic fibrosis who are ineligible for CFTR modulator therapy\"、\"16 participants enrolled across four Phase 1 dose cohorts (2E15, 1E15, 5E14 and 2.5E14 vg)\"（MAN-FDMT-1）"
+comparability = "单臂、无对照，与 CFTR 调节剂或其他在研基因疗法无直接比较；任何比较都是跨试验比较，人群与终点定义可能不同。入组人群为不适合调节剂的约 15% 患者。"
+result = "全部剂量组 CFTR 转基因表达达到或高于非 CF 对照的生理水平并持续至少 1 年；2.5E14 vg 组 ppFEV1、LCI2.5 与生活质量（CFQ-R-R）1 年内均显示临床意义改善，选为 2 期剂量。原文：\"Durable CFTR transgene expression within or above target therapeutic range through at least 1 year across all dose levels\"、\"In 2.5E14 vg dose cohort, consistent evidence of clinically meaningful activity detected in all endpoints, including ppFEV 1 , LCI 2.5 and quality of life (CFQ-R-R) through 1 year\"、\"2.5E14 vg was selected as the Phase 2 dose\"（MAN-FDMT-1，数据截至 2025-12-01）"
+limitation = "小样本、单臂、主要终点为安全性；疗效数据只来自一个剂量组，各组例数未在 10-K 中给出；10-K 未给出 ppFEV1 等的具体数值（待核实，需会议摘要或 2025-12 新闻稿原文）。安全性原文：\"4D-710-related adverse events were generally mild, transient and resolved by 2 months, with no 4D-710-related severe adverse events\"（低剂量组，MAN-FDMT-1）。"
+sources = ["MAN-FDMT-1"]
+
+[event]
+text = "4D-710 治疗囊性纤维化的 AEROW 1/2 期试验（NCT05248230）2 期部分主要终点数据；时间只有 CT.gov 预计主要完成日期。公司另披露 2026 年第四季度给出项目更新，原文：\"AEROW Phase 1/2 clinical trial and program update expected in Q4 2026\"（MAN-FDMT-2），但未说明是否含 2 期数据。"
+timing = "2027-06"
+importance = "medium"
+certainty = "estimated"
+sources = ["CTG-NCT05248230", "MAN-FDMT-2"]
+
+[rights]
+status = "full"
+note = "4D-710 未许可给任何第三方：原文 \"it has not licensed, sold or otherwise transferred to another party the product developed under the CFF Agreement or the underlying technology\"（SEC-0001193125-26-349173）；产品专利申请 \"all owned by us\"，但 A101 载体为引进许可 \"We have also licensed several non-provisional patent applications, granted patents and international patent applications relating to our targeted and evolved vector, A101, which is used in 4D-710\"（MAN-FDMT-1），来自 UC Regents 独家全球许可，义务含 \"low single digit royalties on the net sales\" 与 \"sublicense consideration in the mid-teens to the mid-twenties-range on any future sublicensing arrangements\"（SEC-0001193125-26-349173）。CFF 义务：首次商业销售后付 \"six times the actual award received\"，对许可/出售收入付 \"royalties of a mid-single digit percentage, up to six times the actual award received\"，且 \"In the event of a change of control of the Company, CFF will receive certain payments\"；若连续 180 天停止开发则须授予 CFF \"irrevocable, exclusive worldwide interruption license\"（条件性，非现有权利）；2025-10 与 CFF 成立 \"Joint Steering Committee\" 用于 \"coordination of 4D-710’s development\"，我们判断为资助方治理安排，不属共同开发或期权（推断，中）。交易障碍（不改变权益状态）：Hercules 贷款已提取 \"$20.0 million was funded at closing\"，\"secured by a security interest in substantially all of our assets, including our intellectual property\"，并限制 \"merge with other companies or consummate certain changes of control\"（SEC-0001193125-26-349173）。对比：主导资产 4D-150 为部分权益，Otsuka 持有 \"Japan, Korea, China, Australia, and certain other Asia-Pacific markets\"，公司 \"retains full development and commercialization rights for 4D-150 outside the Otsuka Territory\"。"
+sources = ["SEC-0001193125-26-349173", "MAN-FDMT-1"]

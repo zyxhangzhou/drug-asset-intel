@@ -1,0 +1,50 @@
+verified_by = ""
+program = "OBUDANERSEN"
+indication = "Angelman Syndrome"
+buyer = "Novartis"
+preference_rank = 3
+deal_form = "许可"
+need_item = "Novartis 治疗领域第 3 位「神经科学及精准肿瘤」：「神经退行性疾病遗传药物、放射性配体、ADC或新payload肿瘤药」（NVS-3、NVS-4、NVS-6，ideal_stage「早期平台至Phase 3」）；技术类型第 1 位「xRNA/siRNA及递送」：「递送、组织靶向或可重复给药平台，配套临床资产更佳」（NVS-4、NVS-7）"
+match_note = "obudanersen（原 ION582）是鞘内给药的 RNA 靶向反义药物，针对遗传性神经疾病 Angelman 综合征（AS）；原文：\"Obudanersen (formerly ION582) is an investigational RNA-targeted medicine we designed to inhibit the expression of the UBE3A antisense transcript\"、\"AS is a rare, genetic neurological disease caused by the loss of function of the maternally inherited UBE3A gene\"（MAN-IONS-1）。对应 Novartis「遗传药物」与「xRNA」两条偏好。但 AS 属神经发育障碍，不是画像所写的「神经退行性疾病」，故只算治疗领域 + 技术类型匹配，不算一条具体需求。组合冲突：Ionis 10-K 竞争表列出的 AS 竞品为 Ultragenyx、\"Oak Hill Bio / Roche\"、Roche（alogabat）、Neuren、MavriX Bio，未见 Novartis（MAN-IONS-1）；未打开 Novartis 自身文件，未核查组合冲突。Roche 因持有同机制同适应症的 rugonersen（\"A locked nucleic acid that targets UBE3A gene\"）被排除。"
+thesis = [
+  "Novartis 需要「神经退行性疾病遗传药物」，并偏好「xRNA/siRNA及递送」平台配套临床资产；Ionis 的 obudanersen（ION582，抑制 UBE3A 反义转录本的鞘内反义寡核苷酸，Angelman 综合征，3 期）对应这一需求，因为它是针对单基因遗传神经疾病的 RNA 靶向药，已获 FDA 突破性疗法认定，且是 Ionis 全资持有的晚期资产；但 Angelman 属神经发育而非神经退行性疾病，匹配属领域 + 技术类型层面。",
+  "证据是开放标签 1/2 期 HALOS 在沟通、认知、运动各功能领域显示改善且各剂量安全性良好（无对照，无与标准治疗的比较）；下一事件是安慰剂对照 3 期 REVEAL 数据读出（2027 年下半年，明确披露）；主要障碍是成本与形式：Ionis 是拥有 7 个上市产品的商业化公司，快照 EV 约 61 亿美元（50–150 亿档）并有 13.45 亿美元可转债，整体收购代价高，更现实的是 obudanersen 单资产全球或区域许可。",
+]
+thesis_sources = ["NVS-3", "NVS-4", "NVS-6", "NVS-7", "MAN-IONS-1", "MAN-IONS-2", "SEC-0000874015-26-000251", "NASDAQ-IONS-2026-10-28", "CTG-NCT06914609"]
+
+[scores.buyer_fit]
+score = 3
+confidence = "medium"
+reason = "资产落在 Novartis 第 3 治疗领域（神经科学，画像含「神经退行性疾病遗传药物」），技术类型符合其第 1 位「xRNA/siRNA及递送」；原文：\"an investigational RNA-targeted medicine\"、\"a rare, genetic neurological disease\"（MAN-IONS-1）。AS 是神经发育障碍而非神经退行性疾病，未对应到一条具体需求，故不给 4 分。Ionis 10-K 竞争表未列 Novartis 的 AS 资产（MAN-IONS-1）；未打开 Novartis 文件，未核查组合冲突。"
+sources = ["NVS-3", "NVS-4", "NVS-6", "NVS-7", "MAN-IONS-1"]
+
+[scores.stage_match]
+score = 4
+confidence = "high"
+reason = "Novartis 该行 ideal_stage 为「早期平台至Phase 3」；obudanersen 处于 3 期且已完成入组，原文：\"In July 2026, we completed enrollment of the Phase 3 study, REVEAL\"（SEC-0000874015-26-000251）。"
+sources = ["NVS-3", "SEC-0000874015-26-000251", "CTG-NCT06914609"]
+
+[scores.clinical]
+score = 2
+confidence = "medium_high"
+reason = "现有疗效数据只来自开放标签多剂量递增 1/2 期 HALOS，无对照组；原文：\"the open label Phase 1/2 study, HALOS\"、\"demonstrating consistent and encouraging clinical improvement on measures assessing all functional domains including communication, cognition and motor function\"（MAN-IONS-1）。属早期阳性信号，按 §3.3 给 2 分；安慰剂对照 3 期 REVEAL 尚未读出。"
+sources = ["MAN-IONS-1", "SEC-0000874015-26-000251", "CTG-NCT05127226"]
+
+[clinical]
+design = "1/2 期 HALOS（NCT05127226）：开放标签、多剂量递增、鞘内给药；原文：\"the open label Phase 1/2 study, HALOS, of obudanersen in patients with AS designed to assess the safety, tolerability and activity of multiple ascending doses of obudanersen administered intrathecally\"（SEC-0000874015-26-000251）。注册研究为安慰剂对照 3 期 REVEAL（NCT06914609）：\"the ongoing placebo-controlled Phase 3 REVEAL study of obudanersen designed to assess the efficacy, safety and tolerability of obudanersen administered intrathecally in children and adults with AS who have a maternal UBE3A gene deletion or mutation\"（MAN-IONS-1）。"
+comparability = "HALOS 无对照组，无法与安慰剂或标准治疗比较；AS 目前没有获批的疾病修饰疗法（\"there are no approved disease modifying therapies\"，MAN-IONS-1），同机制竞品 apazunersen（Ultragenyx）、rugonersen（Oak Hill Bio / Roche）均在 3 期，任何比较都是跨试验比较，人群与终点定义可能不同。"
+result = "MAD 部分：\"demonstrating consistent and encouraging clinical improvement on measures assessing all functional domains including communication, cognition and motor function\"；安全性：\"Obudanersen showed favorable safety and tolerability at all dose levels in the study.\"；长期扩展：\"we also presented positive 12- and 18-month long-term extension data from the HALOS study, which supports continued development\"（MAN-IONS-1）。监管认定：\"the FDA granted Breakthrough Therapy, Fast Track and Rare Pediatric designations to obudanersen\"（MAN-IONS-1）。"
+limitation = "开放标签、无对照，各量表的具体数值未在本次打开的文件中出现（公司 IR 新闻稿与会议摘要未能打开）；1/2 期结果不能确定 3 期在安慰剂对照下的效应量。鞘内给药负担较高。"
+sources = ["MAN-IONS-1", "SEC-0000874015-26-000251", "CTG-NCT05127226", "CTG-NCT06914609"]
+
+[event]
+text = "obudanersen 3 期 REVEAL（Angelman 综合征，NCT06914609，CT.gov 预计主要完成 2027-08）数据读出；原文：\"Obudanersen, a potential treatment for Angelman syndrome, completed enrollment in the Phase 3 REVEAL study, with data anticipated in the second half of 2027\"（MAN-IONS-2）。另一项 3 期 CHAMPION（NCT07782827）预计 2028-05 完成。"
+timing = "2027H2"
+importance = "high"
+certainty = "disclosed"
+sources = ["MAN-IONS-2", "CTG-NCT06914609", "CTG-NCT07782827"]
+
+[rights]
+status = "full"
+note = "推断（中高）：10-K 原文：\"We currently have three wholly owned medicines in late-stage development, including obudanersen (formerly ION582) for Angelman syndrome\"；Biogen 原有选择权已失效：\"In 2024, Biogen’s option to license obudanersen, an investigational antisense medicine for the potential treatment of Angelman syndrome, or AS, expired unexercised.\"（MAN-IONS-1）。最新 10-Q（2026-06-30）：\"We currently have two wholly owned medicines and eight partnered medicines in Phase 3 development, including obudanersen\"，并把 obudanersen 列在 \"Our Innovative Late-Stage Pipeline of Ionis-Owned Investigational Medicines\" 下（SEC-0000874015-26-000251）。10-Q 合作附注（Biogen、GSK、Ono、Otsuka、Recordati、Roche）未出现 obudanersen 的新许可；2026-07 至 2026-10 的 8-K 新闻稿也未见。未发现 obudanersen 的引进许可或对许可方的特许权使用费义务；Biogen 选择权失效后是否残留付款义务，文件未写明。债务：\"we completed a $ 770.0 million offering of our 0 % Notes due 2030\"（2030-12 到期）、\"we completed a $ 575.0 million offering of our 1.75 % Notes due 2028\"（2028-06 到期），两笔于 2026-06-30 仍全额未偿（SEC-0000874015-26-000251）；另有 Royalty Pharma 特许权出售负债 562,574 千美元（10-Q 资产负债表 \"Liability related to sale of future royalties, net\"），对应 \"we sold a minority interest in our future SPINRAZA and pelacarsen royalties to Royalty Pharma\"（MAN-IONS-1），与 obudanersen 无关。资金：\"will be sufficient to fund our planned operations and these obligations\"（SEC-0000874015-26-000251）。"
+sources = ["MAN-IONS-1", "SEC-0000874015-26-000251", "MAN-IONS-2"]

@@ -1,0 +1,50 @@
+verified_by = ""
+program = "BEAM-302"
+indication = "Alpha 1-Antitrypsin Deficiency"
+buyer = "AstraZeneca"
+preference_rank = 2
+deal_form = "收购"
+need_item = "基因疗法、体内细胞疗法、补体/酶替代和遗传性疾病药物（AstraZeneca 罕见病偏好行，理想阶段「早期平台至Phase 3」）"
+match_note = "BEAM-302 是体内 LNP 递送的碱基编辑疗法，一次性给药纠正 AATD 致病点突变，对应「基因疗法……遗传性疾病药物」；原文：\"BEAM-302 is a liver-targeting LNP formulation of base editing reagents designed to offer a one-time treatment to correct the E342K point mutation\"、\"AATD is an inherited genetic disorder that can cause early onset emphysema and liver disease\"（SEC-0001193125-26-331541）。10-K 的 AATD 竞争公司名单不含 AstraZeneca（\"For our AATD targeted therapies, these include Wave Life Sciences, YolTech Therapeutics, Prime Medicine, CRISPR Therapeutics, Moderna, Korro Bio, Tessera Therapeutics and Arrowhead Pharmaceuticals\"，MAN-BEAM-1），但该名单不是完整核查（未核查组合冲突）。"
+thesis = [
+  "AstraZeneca 需要「基因疗法、体内细胞疗法、补体/酶替代和遗传性疾病药物」；Beam 的 BEAM-302（肝靶向 LNP 递送的体内碱基编辑、一次性纠正 SERPINA1 E342K 突变，α1-抗胰蛋白酶缺乏症 AATD，1/2 期试验已开始关键性扩展队列）对应这一需求，因为它是针对遗传病的体内基因编辑疗法，且是公司自己推进注册开发的主导遗传病项目。",
+  "证据是开放标签、单臂 1/2 期剂量探索数据：60 mg 单剂稳态总 AAT 均值 16.1 µM、突变 Z-AAT 降低 84%、校正后 M-AAT 占 94%，属替代指标，无对照、无与标准治疗的比较，未找到有来源的保护阈值；下一事件是关键性扩展队列（约 50 例 AATD 肺病患者，以 12 个月 AAT 生物标志物为主要终点，拟走加速批准）的主要终点数据（2028-05，CT.gov 估算）；主要障碍是 Sixth Street 有担保信贷：以含知识产权在内的几乎全部资产作第一顺位担保，控制权变更构成违约事件，收购时需一并处理。"
+]
+thesis_sources = ["AZ-1", "AZ-3", "SEC-0001193125-26-331541", "CTG-NCT06389877", "MAN-BEAM-1", "MAN-BEAM-2", "MAN-BEAM-3"]
+
+[scores.buyer_fit]
+score = 4
+confidence = "medium"
+reason = "需求条目「基因疗法、体内细胞疗法、补体/酶替代和遗传性疾病药物」（AZ-1、AZ-3）→ BEAM-302 为体内碱基编辑、一次性治疗遗传病 AATD；原文：\"designed to offer a one-time treatment to correct the E342K point mutation\"、\"AATD is an inherited genetic disorder\"（SEC-0001193125-26-331541）。10-K 的 AATD 竞争公司名单（\"For our AATD targeted therapies, these include Wave Life Sciences\"，MAN-BEAM-1）不含 AstraZeneca，未发现组合冲突，但未做完整核查（未核查组合冲突）。AstraZeneca #2 的 ta_codes 含 rare_genetic，与数据包中 BEAM-302 的领域一致。"
+sources = ["AZ-1", "AZ-3", "SEC-0001193125-26-331541", "MAN-BEAM-1"]
+
+[scores.stage_match]
+score = 4
+confidence = "high"
+reason = "AstraZeneca #2 理想阶段为「早期平台至Phase 3」；BEAM-302 处于 1/2 期，关键性队列是同一 1/2 期试验内的扩展队列，阶段落在区间内，按 §3.2 得 4 分。原文：\"We are conducting a Phase 1/2 open label, dose exploration and dose expansion clinical trial of BEAM-302\"、\"In July of 2026, we dosed the first patient in the pivotal cohort.\"（SEC-0001193125-26-331541）"
+sources = ["AZ-1", "SEC-0001193125-26-331541", "CTG-NCT06389877"]
+
+[scores.clinical]
+score = 2
+confidence = "medium_high"
+reason = "只有开放标签单臂 1/2 期剂量探索数据，且为替代指标（AAT 生物标志物）；生物标志物改善明显，原文：\"was 16.1 µM in the 60 mg cohort\"、\"The steady-state mean reduction in Z-AAT was 84% in the 60 mg cohort\"（SEC-0001193125-26-331541）。FDA 已同意以生物标志物为加速批准主要终点（\"accelerated approval pathway for BEAM-302 based on a primary endpoint of AAT biomarkers evaluated over 12 months\"，SEC-0001193125-26-331541），但关键性队列尚无数据，且未找到有来源的临床意义阈值（如保护性 AAT 水平），按 §3.3 定为早期阳性信号 2 分。"
+sources = ["SEC-0001193125-26-331541", "MAN-BEAM-3", "CTG-NCT06389877"]
+
+[clinical]
+design = "开放标签、剂量探索与剂量扩展 1/2 期（NCT06389877）：A 部分为 AATD 肺病患者，B 部分为轻中度 AATD 肝病患者；截至 2026-02-10 共 29 例给药，随访最长 18 个月。原文：\"We are conducting a Phase 1/2 open label, dose exploration and dose expansion clinical trial of BEAM-302\"、\"29 patients had been treated with BEAM-302\"（SEC-0001193125-26-331541）"
+comparability = "单臂、无对照，与 AAT 静脉补充治疗或其他在研药物无直接比较；任何比较都是跨试验比较，人群与终点定义可能不同。终点为 AAT 生物标志物（替代终点），非临床结局。"
+result = "60 mg 单剂稳态总 AAT 均值 16.1 µM（75 mg 为 14.4 µM），Z-AAT 降低 84%，M-AAT 占比 94%；B 部分肝病患者疗效与 A 部分相当。原文：\"was 16.1 µM in the 60 mg cohort\"、\"The steady-state mean reduction in Z-AAT was 84% in the 60 mg cohort\"、\"The steady-state mean proportion of M-AAT was 94% in the 60 mg cohort\"（SEC-0001193125-26-331541）"
+limitation = "早期、小样本、单臂，替代终点；单剂安全性良好（\"no serious AEs reported and no dose-limiting toxicities as of the data cutoff\"），但两次给药队列中 \"one patient had Grade 4 ALT and Grade 3 AST elevations\"（SEC-0001193125-26-331541）。2026 年 9 月 ERS 更新数据未能打开原文（公司 IR 页面拒绝访问），本表数据截止 2026-02-10。"
+sources = ["SEC-0001193125-26-331541", "CTG-NCT06389877"]
+
+[event]
+text = "BEAM-302 治疗 AATD 的 1/2 期试验（含约 50 例 AATD 肺病患者的关键性扩展队列，拟以 12 个月 AAT 生物标志物支持加速批准）主要终点数据；时间只有 CT.gov 预计主要完成日期，公司文件未给出读出或 BLA 时间。原文：\"approximately 50 additional patients with AATD-associated lung disease\"、\"In July of 2026, we dosed the first patient in the pivotal cohort.\"（SEC-0001193125-26-331541）"
+timing = "2028-05"
+importance = "high"
+certainty = "estimated"
+sources = ["CTG-NCT06389877", "SEC-0001193125-26-331541"]
+
+[rights]
+status = "full"
+note = "10-K/10-Q 没有写明 BEAM-302 为公司全资资产的原句；判断依据是合作披露中没有任何协议涉及 BEAM-302 或 AATD（Pfizer、Apellis、Verve/Lilly、Orbital/BMS、Prime），且由公司自己开展试验，而 Pfizer 获许可的候选物由 Pfizer 负责全部开发（\"granting Pfizer an exclusive, worldwide license to a liver-targeted development candidate\"、\"Pfizer is responsible for all development activities\"，SEC-0001193125-26-331541），该候选物靶点未披露，置信度中。对许可方/第三方的义务：与某研究机构的和解协议对 BEAM-302 有里程碑与销售分成，原文 \"make additional payments contingent upon the development and commercialization of BEAM-102 and BEAM-302\"、\"1 % royalty on net sales through 2038\"（SEC-0001193125-26-331541）；Editas 许可需转付上游特许权使用费并另付 \"low- to mid-single digit royalty on net sales of licensed products\"（MAN-BEAM-1，是否覆盖 BEAM-302 待核实）；Harvard / Broad 按股价倍数触发的成功付款，原文 \"may owe Harvard success payments of up to an additional $ 90.0 million\"（SEC-0001193125-26-331541）。交易障碍（不改变权益状态）：Sixth Street 信贷 \"secured on a first-priority basis, subject to certain exceptions, by security interests in substantially all assets of the Company and its material subsidiaries, including its intellectual property\"，并限制 \"sales and licensing transactions with respect to its core intellectual property\"，违约事件含 \"change of control\"（SEC-0001193125-26-331541）。"
+sources = ["SEC-0001193125-26-331541", "MAN-BEAM-1"]

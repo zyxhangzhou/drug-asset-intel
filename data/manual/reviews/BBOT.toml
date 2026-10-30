@@ -1,0 +1,50 @@
+verified_by = ""
+program = "BBO-8520"
+indication = "Non-small Cell Lung Cancer"
+buyer = "GSK"
+preference_rank = 1
+deal_form = "收购"
+need_item = '''GSK 肿瘤偏好（第 1 位，增长+补缺）目标画像：“肺癌、血液瘤和实体瘤的已验证靶点小分子、ADC和免疫肿瘤资产”；理想阶段“Phase 2-3”（GSK-1、GSK-3、GSK-4）。同一买方技术类型偏好（第 1 位）“已验证靶点小分子与ADC”：“Phase 2-3，具有清晰生物标志物和注册路径”，佐证为“Nuvalent的ROS1/ALK资产”（GSK-1、GSK-3、GSK-4）。'''
+match_note = '''BBO-8520 是口服小分子 KRAS G12C 抑制剂，用于 KRAS G12C 突变 NSCLC，对应画像中的“肺癌……已验证靶点小分子”：原文 "BBO-8520 is an orally bioavailable small molecule direct inhibitor targeting both the ON and OFF states of KRAS"（SEC-0001193125-26-344661）；靶点已验证：原文 "approved KRAS G12C inhibitors Sotorasib and Adagrasib"（MAN-BBOT-1）；生物标志物明确（KRAS G12C 突变），与 GSK 的 Nuvalent（ROS1/ALK 肺癌小分子）先例同类。公司已把资源集中到 G12C 抑制剂经治 2L+ NSCLC 联合 pembrolizumab：原文 "BBO-8520 in combination with pembrolizumab in 2L+, KRAS G12C inhibitor-experienced NSCLC patients"（MAN-BBOT-2）。组合冲突检查：10-K 竞争段点名的大药企为 "AstraZeneca plc, Bristol-Myers Squibb Company, Merck, Pfizer in partnership with Merck KGaA, Regeneron Pharmaceuticals, Inc. in partnership with Sanofi Genzyme and Roche"，未列 GSK；G12C 竞品名单 "Divarasib, Glecirasib, Olomorasib, and Calderasib" 未归属 GSK（MAN-BBOT-1）；10-K、10-Q、2026-09 演示材料中均未出现 GSK。10-K 竞争段不是买方管线完整清单，未逐一核查 GSK 自有管线。排除其他买方：Roche 的 divarasib 为同靶点 G12C 抑制剂（演示材料 "Divarasib: ~$1.2 to 2.5B peak"，来源注 "Roche Q1 2026 earnings presentation"，MAN-BBOT-3），构成组合冲突；Merck 画像最贴近（KEYTRUDA 联用肺癌），但 calderasib / MK-1084 的归属在已读文件中未写明，无法排除冲突，且阶段差两档。'''
+thesis = [
+  '''GSK 需要“肺癌、血液瘤和实体瘤的已验证靶点小分子”（GSK-1、GSK-3、GSK-4）；BridgeBio Oncology Therapeutics 的 BBO-8520（口服 KRAS G12C ON/OFF 双态直接抑制剂，KRAS G12C 突变非小细胞肺癌，1 期）对应这一需求，因为 KRAS G12C 已有 sotorasib、adagrasib 获批（靶点已验证），而 BBO-8520 定位于 G12C 抑制剂经治后、目前无获批靶向药的 2L+ 人群，并获 FDA 快速通道认定（MAN-BBOT-1、MAN-BBOT-2、SEC-0001193125-26-344661）。''',
+  '''证据是 1 期单臂 ONKORAS-101 中 BBO-8520 + pembrolizumab 在 G12C 抑制剂经治患者 ORR 53%（N=17，500 mg QD 剂量 75%，含未确认缓解），单药在 G12C 抑制剂初治 2L+ 患者 ORR 63%（26/41），无对照、只能跨试验参照（MAN-BBOT-2、MAN-BBOT-3）；下一事件是 G12C 抑制剂经治 2L+ NSCLC 联合 pembrolizumab 扩展数据集（mid-2027，明确披露）（MAN-BBOT-2）；主要障碍是资金：现金 3.441 亿美元只够支撑运营到 2028 年、覆盖 1 期开发，关键性试验需另行融资或合作（SEC-0001193125-26-344661、MAN-BBOT-3）。''',
+]
+thesis_sources = ["GSK-1", "GSK-3", "GSK-4", "MAN-BBOT-1", "MAN-BBOT-2", "MAN-BBOT-3", "SEC-0001193125-26-344661"]
+
+[scores.buyer_fit]
+score = 4
+confidence = "medium"
+reason = '''资产对应 GSK 肿瘤偏好的具体需求条目“肺癌……已验证靶点小分子”（GSK-1、GSK-3、GSK-4）：BBO-8520 为口服小分子，原文 "BBO-8520 is an orally bioavailable small molecule direct inhibitor targeting both the ON and OFF states of KRAS"（SEC-0001193125-26-344661）；适应症为 KRAS G12C NSCLC，原文 "We are currently enrolling the Phase 1 ONKORAS-101 trial (NCT06343402) for patients with KRAS G12C mutant NSCLC"（SEC-0001193125-26-344661）；靶点已验证，原文 "approved KRAS G12C inhibitors Sotorasib and Adagrasib"（MAN-BBOT-1）。10-K 竞争段点名的大药企 "AstraZeneca plc, Bristol-Myers Squibb Company, Merck, Pfizer in partnership with Merck KGaA, Regeneron Pharmaceuticals, Inc. in partnership with Sanofi Genzyme and Roche" 不含 GSK（MAN-BBOT-1），已读文件中未见 GSK 同机制同适应症资产；未逐一核查 GSK 自有管线，置信度取中。'''
+sources = ["GSK-1", "GSK-3", "GSK-4", "SEC-0001193125-26-344661", "MAN-BBOT-1"]
+
+[scores.stage_match]
+score = 2
+confidence = "high"
+reason = '''GSK 肿瘤偏好行理想阶段为“Phase 2-3”（GSK-1、GSK-3、GSK-4）；BBO-8520 处于 1 期（1a/1b），原文 "ONKORAS-101 is an open-label, multi-center Phase 1a/1b study"（SEC-0001193125-26-344661）；公司演示材料 "BBOT is developing three Phase 1 programs"（MAN-BBOT-3）。与理想区间相差一个阶段，按 §3.2 取 2 分。已读文件中未见关键性试验的启动时间。'''
+sources = ["GSK-1", "GSK-3", "GSK-4", "SEC-0001193125-26-344661", "MAN-BBOT-3", "CTG-NCT06343402"]
+
+[scores.clinical]
+score = 2
+confidence = "high"
+reason = '''只有 1 期单臂、剂量递增 / 扩展队列数据：联合 pembrolizumab 在 G12C 抑制剂经治患者原文 "Objective response rate (ORR): 75% at the 500 mg once-daily (QD) dose level and 53% across all dose levels"；单药在 G12C 抑制剂初治 2L+ 患者原文 "ORR: 63% (26/41), with a disease control rate (DCR) of 100% (41/41)"（MAN-BBOT-2）。缓解率含未确认缓解："includes confirmed and unconfirmed responses"（MAN-BBOT-3）。与标准治疗无直接对比，公司自述 "no direct comparisons can be drawn"（MAN-BBOT-3）。属早期阳性信号，按 §3.3 取 2 分。'''
+sources = ["MAN-BBOT-2", "MAN-BBOT-3"]
+
+[clinical]
+design = '''1 期、开放标签、多中心 ONKORAS-101（NCT06343402），评估 BBO-8520 单药及联合 pembrolizumab 用于 KRAS G12C 突变 NSCLC。原文："ONKORAS-101 is an open-label, multi-center Phase 1a/1b study designed to evaluate the safety, tolerability, preliminary antitumor activity, and pharmacokinetics of BBO-8520 as a single agent and in combination with pembrolizumab"（SEC-0001193125-26-344661）。数据截止 "data cutoff: June 1, 2026"（MAN-BBOT-2）；疗效分析集为随访至少 12 周的患者："analysis set includes patients with at least 12 weeks of follow-up"，联合队列全部 PD-L1 TPS≥1%（MAN-BBOT-3）。'''
+comparability = '''无对照组，与标准治疗无直接对比；跨试验比较，人群与终点定义可能不同。公司演示材料以 docetaxel 历史数据为参照："Docetaxel delivers 9-13% ORR and 3.8-4.5 months"（G12C 抑制剂初治人群，来自 CodeBreaK 200 / KRYSTAL-12），并自述 "The trials shown on this slide involved different patient populations and trial designs, and no direct comparisons can be drawn"（MAN-BBOT-3）。'''
+result = '''联合 pembrolizumab（G12C 抑制剂经治，2–5 线）：原文 "Objective response rate (ORR): 75% at the 500 mg once-daily (QD) dose level and 53% across all dose levels"，N=17（MAN-BBOT-2）；安全性 "Any TRAE 17 (100%) 7 (41.2%)"（3 级及以上 TRAE 41.2%，以腹泻为主）（MAN-BBOT-3）。单药（G12C 抑制剂初治 2L+）：原文 "ORR: 63% (26/41), with a disease control rate (DCR) of 100% (41/41)"；"Among 28 patients eligible for a six-month"……"75% (21/28) remained on treatment beyond six months"；"no grade 3 liver enzyme elevations"（MAN-BBOT-2）。FDA 认定：原文 "The U.S. Food and Drug Administration (FDA) has granted Fast Track designation to BBO-8520"（SEC-0001193125-26-344661）。'''
+limitation = '''1 期单臂中期数据，重点队列样本量小（联合队列 N=17，500 mg 组 8 例）；ORR 含未确认缓解（"includes confirmed and unconfirmed responses"，MAN-BBOT-3）；联合队列 3 级及以上 TRAE 41.2%；未报告 PFS / 缓解持续时间；公司公告 / 演示材料数据，未见同行评议全文。公司已放弃一线：原文 "BBO-8520 in 1L NSCLC and BBO-10203 in breast cancer have been deprioritized"（MAN-BBOT-3）。'''
+sources = ["MAN-BBOT-2", "MAN-BBOT-3", "SEC-0001193125-26-344661"]
+
+[event]
+text = '''BBO-8520 联合 pembrolizumab 在 G12C 抑制剂经治 2L+ KRAS G12C 突变 NSCLC 的扩展数据集（1 期 ONKORAS-101，NCT06343402）。原文："Expanded BBO-8520 plus pembrolizumab dataset in 2L+ KRAS G12C inhibitor-experienced NSCLC expected in mid-2027"（MAN-BBOT-2）。公司文件给出的时间为“mid-2027”，非季度口径；属 1 期数据，重要性低。CT.gov 预计主要完成日期 2031-04（CTG-NCT06343402）。'''
+timing = "mid-2027"
+importance = "low"
+certainty = "disclosed"
+sources = ["MAN-BBOT-2", "CTG-NCT06343402"]
+
+[rights]
+status = "full"
+note = '''10-K / 10-Q 未披露任何第三方持有 BBO-8520 的许可、选择权、优先谈判权或共同开发 / 共同商业化权利；全球权益在公司手中为根据上述披露的推断。BBO-8520 相关权利为独家引进：LLNS 原文 "received a worldwide, exclusive, royalty-bearing, sublicensable (through no more than two tiers) license under certain patent rights relating to the KRAS G12C inhibitor compounds"；Leidos（Frederick National Laboratory）原文 "received a worldwide, exclusive, royalty-bearing, sublicensable (through multiple tiers) license under patent rights relating to the KRAS G12C inhibitor compounds"（MAN-BBOT-1）。专利申请与两家共有："Our patent portfolio consists of patent applications co-owned with Lawrence Livermore National Security, LLC and Frederick National Laboratory for Cancer Research"；美国政府保留非独家许可："the United States government reserves the right to a nonexclusive, royalty-free, irrevocable, nontransferable license under the licensed patent rights"（MAN-BBOT-1）。对许可方义务（KRAS G12C 协议）：LLNS "a low single-digit tiered royalty on sales of licensed products"、"up to a total of $7.0 million in regulatory and commercialization milestones based upon indication"、转授权非特许权收入 "a mid double-digit percentage in the range of 45% to 55%"、"an assignment fee of a specified amount"；Leidos PLA II "a low, single-digit royalty on sales of licensed products"、"$6.75 million in development milestones for the first indication for the first licensed product"、转授权收入 "a low double-digit percentage in the range of 5% to 15%"（MAN-BBOT-1）。10-Q 汇总口径（覆盖全部项目）：LLNS "half of the Company's sublicensing income, capped at $ 2.0 million per year for each indication"、里程碑 "totaling up to $ 21.8 million"；Leidos "$ 25.9 million upon the achievement of certain clinical and regulatory milestones"（SEC-0001193125-26-344661）。控制权变更相关争议：UCSF 主张 "the Indexed Milestone Payment in an amount less than $5.0 million will become due"，公司不认可（SEC-0001193125-26-344661）。待核实：2025-07 与关联方的研究合作协议 "to grant a license over its intellectual property with respect to the new indication being developed by the RCA Party"（SEC-0001193125-26-344661），未写明涉及哪个化合物及适应症。已读文件中未见与 Merck 的 pembrolizumab 供药或合作协议。债务：10-Q 未见票据或贷款；现金指引原文 "sufficient to enable us to fund our operating expenses and capital expenditure requirements into 2028"（SEC-0001193125-26-344661）。'''
+sources = ["MAN-BBOT-1", "SEC-0001193125-26-344661"]

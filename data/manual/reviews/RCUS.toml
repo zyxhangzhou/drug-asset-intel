@@ -1,0 +1,50 @@
+verified_by = ""
+program = "CASDATIFAN"
+indication = "Metastatic Clear Cell Renal Cell Carcinoma"
+buyer = "Pfizer"
+preference_rank = 2
+deal_form = "收购"
+need_item = "Pfizer 第 2 治疗领域（肿瘤）画像：「ADC、双特异抗体、靶向小分子或放射性药物，覆盖乳腺、肺癌、泌尿和血液肿瘤」（PFE-1、PFE-3）"
+match_note = "casdatifan 是口服小分子 HIF-2α 抑制剂（靶向小分子），适应症为透明细胞肾细胞癌（ccRCC，属泌尿系统肿瘤；「肾癌归入泌尿」是我们的归类判断），对应画像中的「靶向小分子」与「泌尿」两项；原文：\"Casdatifan is our oral, small-molecule inhibitor of HIF-2α\"（MAN-RCUS-1）。组合冲突仅按 10-K 竞争段（只列 HIF-2α 同机制药物）核查：\"Merck received approval for belzutifan in Von Hippel-Lindau disease in 2021, advanced renal cell carcinoma in 2023\"、\"Other pharmaceutical companies, including Novartis and NiKang Therapeutics, Inc., have small-molecule HIF-2α inhibitors in development\"（MAN-RCUS-1），其中无 Pfizer；Pfizer 其他 RCC 资产及早期管线未核查组合冲突。Merck（belzutifan 同机制同适应症）与 Novartis（在研 HIF-2α）因此不选。"
+thesis = [
+  "Pfizer 需要「靶向小分子…覆盖…泌尿…肿瘤」；Arcus 的 casdatifan（口服小分子 HIF-2α 抑制剂，转移性透明细胞肾细胞癌，3 期 PEAK-1 入组中）对应这一需求，因为它是靶向泌尿系统肿瘤的小分子，且 Pfizer 不在 10-K 列出的 HIF-2α 同机制竞品中。",
+  "证据是 1/1b 期单臂 ARC-20：后线单药 n=121 中位 PFS 13 个月、cORR 36%、中位 OS 35 个月，二线联合卡博替尼 n=43 中位 PFS 14.5 个月（与 belzutifan 只有跨试验比较）；下一事件是 PEAK-1（卡博替尼联合，IO 经治 ccRCC）PFS 主要终点读出（CT.gov 预计主要完成 2028-04，估算）；主要障碍是权益与股东结构：日本及部分亚洲地区（不含中国）权益已授予 Taiho，Gilead 持有约 24.7% 股份，另有 Hercules 定期贷款已提取 1 亿美元。",
+]
+thesis_sources = ["PFE-1", "PFE-3", "MAN-RCUS-1", "MAN-RCUS-2", "MAN-RCUS-3", "CTG-NCT07011719", "CTG-NCT05536141", "SEC-0001724521-26-000044"]
+
+[scores.buyer_fit]
+score = 4
+confidence = "medium"
+reason = "Pfizer 肿瘤画像点名「靶向小分子」与「泌尿」肿瘤；casdatifan 为口服小分子 HIF-2α 抑制剂，用于 ccRCC；原文：\"Casdatifan is our oral, small-molecule inhibitor of HIF-2α\"（MAN-RCUS-1）。10-K 竞争段的 HIF-2α 竞品只列 Merck、Novartis、NiKang、Arrowhead，无 Pfizer：\"Other pharmaceutical companies, including Novartis and NiKang Therapeutics, Inc., have small-molecule HIF-2α inhibitors in development\"（MAN-RCUS-1）。「肾癌属泌尿肿瘤」为归类推断，且未核查 Pfizer 早期管线，故置信度取中。"
+sources = ["PFE-1", "PFE-3", "MAN-RCUS-1"]
+
+[scores.stage_match]
+score = 4
+confidence = "high"
+reason = "Pfizer 该行 ideal_stage 为「Phase 2b-注册期」；casdatifan 在 ccRCC 处于 3 期 PEAK-1 入组中，原文：\"Our first Phase 3 clinical trial, PEAK-1, is evaluating casdatifan and cabozantinib in ccRCC patients that have received prior immunotherapy\"、\"This study has a primary endpoint of PFS and is currently enrolling\"（MAN-RCUS-1）；\"Arcus remains on track to complete enrollment by year-end 2026\"（MAN-RCUS-2）。"
+sources = ["PFE-1", "MAN-RCUS-1", "MAN-RCUS-2", "CTG-NCT07011719"]
+
+[scores.clinical]
+score = 2
+confidence = "medium_high"
+reason = "现有疗效数据全部来自 1/1b 期单臂 ARC-20，公司自述其定位为概念验证：\"ARC-20 is designed to generate safety and proof-of-concept clinical data to support and inform our registrational studies for casdatifan\"（MAN-RCUS-1）。后线单药信号阳性：\"median overall survival was 35 months, median PFS was 13 months and cORR was 36%\"（MAN-RCUS-3）。与 belzutifan 只有跨试验比较（\"relative to data reported for belzutifan in a similar patient population\"，MAN-RCUS-1），随机 3 期 PEAK-1 尚未读出，故按「早期单臂阳性信号」给 2 分。"
+sources = ["MAN-RCUS-1", "MAN-RCUS-3", "CTG-NCT05536141"]
+
+[clinical]
+design = "ARC-20：1/1b 期单臂平台研究（NCT05536141），多个队列覆盖一线、二线与后线 ccRCC；数据截止 2026-09-04，原文：\"data cutoff date of September 4, 2026\"（MAN-RCUS-3）。后线单药 4 个队列合并 n=121：\"Casdatifan monotherapy (n=121)\"；二线联合卡博替尼 n=43：\"with 21.3 months of median follow up (n=43)\"（MAN-RCUS-3）。"
+comparability = "无随机对照、无与标准治疗的直接比较。公司把后线单药数据与 belzutifan 已发表数据对比：\"relative to data reported for belzutifan in a similar patient population\"（MAN-RCUS-1）——属跨试验比较，人群与终点定义可能不同。"
+result = "后线单药（中位随访 28 个月）：\"median overall survival was 35 months, median PFS was 13 months and cORR was 36%\"。二线联合卡博替尼：\"median PFS was 14.5 months, 18-month landmark overall survival was 77%, cORR was 44% and primary progression was 5%\"。一线联合 zimberelimab（n=30，中位随访 11.5 个月）：6/12 个月无进展生存率 86%/69%，\"the rate of primary progression (progression at or before the first scan) was 6.7%\"（均 MAN-RCUS-3）。"
+limitation = "全部为单臂、公司 8-K 披露的中期数据，PFS/ORR 非随机对照结果。AstraZeneca 运营的一线 casdatifan+volrustomig 1b/3 期因免疫相关不良事件暂停入组：\"A decision was made to temporarily pause recruitment, after observing certain immune-mediated AEs\"（MAN-RCUS-1）。一线 IO/IO 三联队列中位随访仅 3 个月（MAN-RCUS-3）。"
+sources = ["MAN-RCUS-1", "MAN-RCUS-3", "CTG-NCT05536141"]
+
+[event]
+text = "3 期 PEAK-1（casdatifan+卡博替尼 对比 安慰剂+卡博替尼，IO 经治转移性 ccRCC）PFS 主要终点读出；CT.gov 预计主要完成日期 2028-04（NCT07011719）。公司只披露入组完成时间：\"Arcus remains on track to complete enrollment by year-end 2026\"（MAN-RCUS-2），未披露读出时间，故按估算处理。"
+timing = "2028-04"
+importance = "high"
+certainty = "estimated"
+sources = ["CTG-NCT07011719", "MAN-RCUS-2"]
+
+[rights]
+status = "partial"
+note = "10-K 原文：\"We currently own all of the commercial rights to casdatifan, with the exception of rights in Japan and certain other Asian countries (excluding China) which were optioned from us by Taiho Pharmaceutical Co., Ltd\"（MAN-RCUS-1）；最新 10-Q 同样：\"Taiho has development and commercial rights in Japan and other countries in Asia, excluding China, for casdatifan\"（SEC-0001724521-26-000044）。已授出区域 = Taiho Territory（日本及部分亚洲国家，不含中国）；Taiho 向 Arcus 支付里程碑及 \"royalties on net sales in Taiho’s territories ranging from high single digits to mid-teens\"（MAN-RCUS-1）。Gilead 对 HIF-2α 项目的选择权已失效：\"Gilead's time-limited exclusive option rights to our HIF-2α program, which includes casdatifan, expired\"（MAN-RCUS-1）。非引进资产：10-K 引进许可只列 \"We have in-licensed rights to anti-PD-1 and CD39 antibodies from WuXi Biologics, and to domvanalimab from Abmuno\"（MAN-RCUS-1），未见欠许可方的特许权使用费。收购障碍（非权益限制）：\"Gilead held approximately 24.7 % of our outstanding common stock\"；债务：\"$100 million has been drawn\"（Hercules 定期贷款，SEC-0001724521-26-000044）。"
+sources = ["MAN-RCUS-1", "SEC-0001724521-26-000044"]

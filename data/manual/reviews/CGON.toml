@@ -1,0 +1,50 @@
+verified_by = ""
+program = "CRETOSTIMOGENE"
+indication = "Non Muscle Invasive Bladder Cancer"
+buyer = "Pfizer"
+preference_rank = 2
+deal_form = "收购"
+need_item = "ADC、双特异抗体、靶向小分子或放射性药物，覆盖乳腺、肺癌、泌尿和血液肿瘤（PFE-1、PFE-3）"
+match_note = "Pfizer 第 2 治疗领域（肿瘤）画像点名「泌尿」肿瘤；cretostimogene 是膀胱内给药的溶瘤免疫疗法，适应症为高危 BCG 无应答 NMIBC（膀胱癌），原文：\"an investigational oncolytic immunotherapy with a dual mechanism of action\"、\"as a potential backbone therapy in a broad range of patients afflicted with bladder cancer\"（SEC-0001193125-26-336918）。匹配只在适应症一端：画像列出的技术类型（ADC、双抗、靶向小分子、放射性药物）不含溶瘤病毒。组合冲突：10-K 竞争段把 Pfizer 列为 NMIBC 开发者，\"there are numerous companies that have commercialized or are developing treatments for NMIBC, including ... Pfizer, Inc.\"（MAN-CGON-1），但未写其机制；本复核未打开 Pfizer 自身文件，未核查组合冲突（是否有同机制 NMIBC 资产）。10-K 中同适应症已上市竞品为 Merck（pembrolizumab）、Ferring（nadofaragene，非复制型腺病毒）、J&J（TAR-200）、ImmunityBio，均非 Pfizer。"
+thesis = [
+  "Pfizer 需要「ADC、双特异抗体、靶向小分子或放射性药物，覆盖乳腺、肺癌、泌尿和血液肿瘤」；CG Oncology 的 cretostimogene grenadenorepvec（膀胱内给药溶瘤腺病毒免疫疗法，高危 BCG 无应答 NMIBC 伴原位癌，单臂 3 期完成、BLA 滚动提交中）对应这一需求中的「泌尿」肿瘤，因为它是膀胱癌保膀胱治疗的后期资产；但画像列出的技术类型不含溶瘤病毒，且 10-K 把 Pfizer 列为 NMIBC 开发者（机制未写，未核查组合冲突）。",
+  "证据是单臂 3 期 BOND-003 Cohort C（Lancet Oncology 2026）：任意时间完全缓解 75%（83/110），12、24 个月 DOR 率 64.2%、60.1%，无 3/4 级治疗相关不良事件；与 pembrolizumab（41%）、TAR-200（82%）等只能跨试验比较；下一事件是该适应症 BLA 提交完成（2026 年第四季度，明确披露）；主要障碍是成本：EV 约 46 亿美元（市值约 56.7 亿美元，现金及投资 10.3 亿美元），另有 Kissei / Lepu 亚洲区域授权与付给 Kissei 的美国销售低个位数特许权使用费。",
+]
+thesis_sources = ["PFE-1", "PFE-3", "SEC-0001193125-26-336918", "MAN-CGON-1", "MAN-CGON-2", "MAN-CGON-3", "CTG-NCT04452591", "NASDAQ-CGON-2026-10-28"]
+
+[scores.buyer_fit]
+score = 3
+confidence = "medium"
+reason = "Pfizer 画像点名「泌尿」肿瘤，cretostimogene 用于膀胱癌（NMIBC），原文：\"a potential backbone therapy in a broad range of patients afflicted with bladder cancer\"（SEC-0001193125-26-336918）。按 §3.1，点名适应症可到 4 分；本复核降为 3：一是画像技术类型为 ADC、双抗、靶向小分子、放射性药物，不含溶瘤病毒；二是 10-K 把 Pfizer 列为 NMIBC 开发者：\"commercialized or are developing treatments for NMIBC, including ... Pfizer, Inc.\"（MAN-CGON-1），机制未写，同机制同适应症冲突未核查。复核人核实 Pfizer 的 NMIBC 资产机制不同后可升为 4。"
+sources = ["PFE-1", "PFE-3", "SEC-0001193125-26-336918", "MAN-CGON-1"]
+
+[scores.stage_match]
+score = 4
+confidence = "high"
+reason = "Pfizer 该行 ideal_stage 为「Phase 2b-注册期」（映射 phase2–filed）。资产处于 3 期完成、BLA 滚动提交中，原文：\"BOND-003 Cohort C, our ongoing Phase 3 clinical trial\"、\"This trial served as the basis for our Biologics License Application (BLA) submission ... which we expect to complete in the fourth quarter of 2026\"（SEC-0001193125-26-336918）。按 3 期或注册申请计，均落在区间内，得 4 分。"
+sources = ["PFE-1", "SEC-0001193125-26-336918", "CTG-NCT04452591"]
+
+[scores.clinical]
+score = 3
+confidence = "medium_high"
+reason = "单臂 3 期，唯一主要终点为任意时间中心确认 CR，原文：\"The primary endpoint was centrally confirmed complete response at any time\"、\"complete response at any time was observed in 83 (75% [95% CI 66·3-83·2]) of 110 patients\"（MAN-CGON-3）。BCG 无应答伴 CIS 的 NMIBC 属单臂数据可作注册依据的领域，原文：\"a single-arm clinical trial in patients with BCG-unresponsive NMIBC that assess CR rate as the primary endpoint, taking DOR into account, may be appropriate for full approval\"（MAN-CGON-1）。按 §3.3 得 3 分；无随机对照，与标准治疗只有跨试验比较，最高 3 分。摘要未写预设成功阈值。"
+sources = ["MAN-CGON-3", "MAN-CGON-1", "CTG-NCT04452591"]
+
+[clinical]
+design = "BOND-003 Cohort C（NCT04452591）：国际多中心、单臂、开放标签 3 期，41 个中心，入组高危 BCG 无应答、伴原位癌（CIS）±乳头状 Ta/T1 的 NMIBC；膀胱内灌注 1×10^12 病毒颗粒每周 1 次、6 周诱导后维持，3 个月未缓解可再诱导；原文：\"BOND-003 Cohort C is a single-arm, international, phase 3 study done in 41 centres\"、\"115 patients were enrolled in the study and 112 received cretostimogene\"（MAN-CGON-3）。"
+comparability = "单臂试验，无对照组；与已上市药只能跨试验比较，人群与终点定义可能不同。10-K 列出的同适应症数据：pembrolizumab \"39 of 96 patients, or 41%, had a CR at 3 months\"；nadofaragene \"51% of patients achieved a CR\"；TAR-200 \"The approval was based on a Phase 2b clinical trial showing 82% CR and 51% of patients with a CR had a DOR ≥ 12 months\"（MAN-CGON-1）。cretostimogene 的 CR 率高于 pembrolizumab、nadofaragene，但低于 TAR-200；差异化主要在安全性与缓解持久性。公司自称 \"potentially best-in-disease data\"（SEC-0001193125-26-336918），属公司表述。"
+result = "任意时间 CR 75%（83/110，95% CI 66.3–83.2），中位随访 25.8 个月；原文：\"after a median follow-up of 25·8 months (IQR 22·1-33·1), complete response at any time was observed in 83 (75% [95% CI 66·3-83·2]) of 110 patients\"（MAN-CGON-3）。缓解持久性：\"12- and 24-month duration of response (DOR) rates of 64.2% and 60.1%, respectively\"（SEC-0001193125-26-336918）。安全性：\"there were no grade 3 or 4 treatment-related adverse events and no treatment-related discontinuations or deaths\"（MAN-CGON-3）。"
+limitation = "单臂、无对照，资助方为公司：\"FUNDING: CG Oncology.\"（MAN-CGON-3）。摘要未写预设成功阈值，无法判断是否「达到」预设终点，只能看效应大小。CR 率低于 J&J 已上市的 TAR-200（跨试验）。唯一随机 3 期 PIVOT-006（中危 NMIBC）尚未读出。知识产权：\"Currently, we do not have composition of matter patents covering cretostimogene.\"（MAN-CGON-1）。"
+sources = ["MAN-CGON-3", "MAN-CGON-1", "SEC-0001193125-26-336918", "CTG-NCT04452591"]
+
+[event]
+text = "cretostimogene 在首个适应症高危 BCG 无应答 NMIBC 伴 CIS（±Ta/T1）完成 BLA 滚动提交（上市申请提交）；原文：\"Completion of BLA submission in initial indication of HR BCG-unresponsive NMIBC with CIS with or without Ta/T1 disease in 4Q’26\"（MAN-CGON-2）。另：中危 NMIBC 随机 3 期 PIVOT-006 顶线数据原定 \"now expected in 1H 2026\"（MAN-CGON-4），8 月改为 \"anticipated in the near-term\"（MAN-CGON-2），未给季度，故不作为主事件。"
+timing = "2026Q4"
+importance = "high"
+certainty = "disclosed"
+sources = ["MAN-CGON-2", "SEC-0001193125-26-336918"]
+
+[rights]
+status = "partial"
+note = "最新 10-Q：公司把 cretostimogene 的亚洲区域权益授权给两家公司，其余（含美国、欧洲）在公司手中。Lepu：\"granted to Lepu an exclusive license to develop, manufacture and commercialize cretostimogene and/or n-Dodecyl-beta-Maltoside (DDM) to treat and/or prevent cancer in mainland China, including Hong Kong and Macau (the Lepu Territory)\"。Kissei：\"granted to Kissei an exclusive license to certain intellectual property rights in Bangladesh, Bhutan, Brunei, Cambodia, India, Indonesia, Japan, South Korea, Laos, Malaysia, Myanmar, Nepal, Pakistan, Palau, Philippines, Singapore, Sri Lanka, Taiwan, Thailand and Vietnam (the Kissei Territory)\"（SEC-0001193125-26-336918）。对收购方的负担：一是公司须向 Kissei 支付区域外销售分成，\"We have also agreed to pay Kissei a royalty on net sales of Licensed Product outside the Kissei Territory and outside the Lepu Territory, including on any U.S. sales, in a low-single digit percentage\"；二是全球开发费用分担，\"Kissei is responsible for a low-double digit percentage and the Company is responsible for a high-double digit percentage of the cost of development activities that cannot be attributed solely to the Kissei Territory\"；三是全球竞品限制，\"the Company is prohibited from commercializing certain competing products worldwide\"（SEC-0001193125-26-336918）。Kissei 安排在会计上属 ASC 808 合作，但无区域外共同商业化或利润分成，故按 partial 处理，复核人可判断是否属共同开发。无引进许可：10-K 称公司是从他方购买的知识产权（\"the entity from which we purchased the intellectual property rights to cretostimogene\"，MAN-CGON-1）；原转让方 ANI 的 5% 特许权使用费诉讼公司一审胜诉，\"the Company will not owe ANI a future royalty of 5 % on commercial sales of cretostimogene\"，但 \"The Company will continue to vigorously defend any appeals brought by ANI.\"（SEC-0001193125-26-336918）。已读 10-K Business「License and Collaboration Agreements」段（MAN-CGON-1）：Kissei 与 Lepu 条款与 10-Q 一致，未见选择权、优先谈判权或控制权变更条款；Lepu 协议终止时权益回归公司，\"all rights and licenses granted to Lepu to develop and commercialize cretostimogene and DDM under the agreement will terminate\"。债务：Biovire 无担保票据，\"outstanding principal balance of $ 3.0 million\"，\"due and payable on February 28, 2028\"（SEC-0001193125-26-336918）。"
+sources = ["SEC-0001193125-26-336918", "MAN-CGON-1"]

@@ -1,0 +1,50 @@
+verified_by = ""
+program = "APITEGROMAB (SRK-015)"
+indication = "Overweight and Obesity"
+buyer = "Novo Nordisk"
+preference_rank = 3
+deal_form = "合作"
+need_item = "Novo Nordisk 第 3 治疗领域「心血管-肾脏-代谢并发症」画像：「糖尿病肾病、心衰、动脉粥样硬化、肌肉保留和代谢炎症资产」（NVO-1、NVO-2）；技术类型行第 3 位「FGF21、肌肉保留和代谢RNA」，画像「有组织学、心血管或体成分结局的中后期资产」，交易形式「资产收购或联合开发」（NVO-1）"
+match_note = "apitegromab 是选择性结合 pro- 与 latent myostatin 的全人源单抗；2 期 EMBRAZE 在 GLP-1 类药物（tirzepatide）减重背景下保留瘦体重，主要终点为 DEXA 测得的第 24 周瘦体重变化，正对画像中的「肌肉保留」与「体成分结局」。原文：\"The primary endpoint was change from baseline at Week 24 in lean mass assessed by dual-energy X-ray absorptiometry\"、\"54.9% (p=0.001) of lean mass compared to tirzepatide alone\"（MAN-SRRK-2）。公司在最新 10-Q 中主动寻求该方向的合作方：\"The Company is also seeking partners to further evaluate the potential for myostatin inhibition in combination with GLP-1 weight loss approaches\"（SEC-0001193125-26-336732）。注意：EMBRAZE 背景药是 Lilly 的 tirzepatide，不是 Novo 的 semaglutide；公司寻求合作的对象写的是「myostatin inhibition」，未限定为 apitegromab（皮下分子 SRK-439 也有肥胖临床前数据，原文：\"we have explored SRK-439 in preclinical models of obesity\"，MAN-SRRK-1）。10-K 竞争段只列 SMA 竞争者（\"including Roche, Biogen, and NMD Pharma\"），未点名 Novo 的肌肉保留资产；未核查组合冲突。Novo 与公司另有一层生产关系（灌装厂），不构成权益冲突：\"FDA inspection classification of Catalent Indiana LLC (part of Novo Nordisk) is pending\"（MAN-SRRK-3）。"
+thesis = [
+  "Novo Nordisk 需要「糖尿病肾病、心衰、动脉粥样硬化、肌肉保留和代谢炎症资产」；Scholar Rock 的 apitegromab（选择性抑制 pro-/latent myostatin 活化的全人源单抗，超重与肥胖患者 GLP-1 减重期间的瘦体重保留，2 期完成）对应这一需求，因为随机 2 期 EMBRAZE 显示它在 tirzepatide 减重期间保留了 54.9% 的瘦体重，且公司正为「myostatin inhibition in combination with GLP-1 weight loss approaches」寻找合作方。",
+  "证据是 EMBRAZE 随机双盲安慰剂对照 2 期唯一主要终点（第 24 周 DEXA 瘦体重变化）达标，组间差 1.9 kg（p=0.001），属替代终点且仅与 tirzepatide 单药对比，联合组总减重略少（12.3% 对 13.4%）；下一事件是同一资产在面肩肱型肌营养不良（FSHD）2 期 FORGE 的主要终点完成（2028-06，估算），肥胖适应症本身在 24 个月内无公司披露的事件；主要障碍是资金：Blue Owl 定期贷款已提取 2 亿美元（\"To date, the Company has received $ 200.0 million of Term Loans\"），现金指引只到 2027 年下半年（\"into the second half of 2027\"），且同时承担 ISEMBYLD 美国上市费用，肥胖方向因此只以合作推进。",
+]
+thesis_sources = ["NVO-1", "NVO-2", "MAN-SRRK-1", "MAN-SRRK-2", "MAN-SRRK-3", "SEC-0001193125-26-336732", "CTG-NCT06445075", "CTG-NCT07435129"]
+
+[scores.buyer_fit]
+score = 4
+confidence = "medium"
+reason = "资产对应 Novo 画像中的一条具体需求「肌肉保留」，且同一需求在技术行（体成分结局、中后期资产）重复出现；原文：\"Statistically Significant Preservation of Lean Mass with Apitegromab During Tirzepatide-Induced Weight Loss\"（MAN-SRRK-2）。扣信心的理由：背景药为 tirzepatide 而非 semaglutide；公司合作表述为「myostatin inhibition」而非指名 apitegromab；Novo 是否已持有同机制（myostatin/activin 通路）肌肉保留资产未核查（未打开 Novo 文件；10-K 竞争段只列 SMA 竞争者 \"including Roche, Biogen, and NMD Pharma\"，MAN-SRRK-1）。未核查组合冲突。"
+sources = ["NVO-1", "NVO-2", "MAN-SRRK-1", "MAN-SRRK-2", "SEC-0001193125-26-336732"]
+
+[scores.stage_match]
+score = 4
+confidence = "medium_high"
+reason = "Novo 该行 ideal_stage 为「Phase 2-3」；apitegromab 肥胖适应症处于 2 期（EMBRAZE 已完成）。原文：\"EMBRAZE was a randomized, double-blind, placebo-controlled, Phase 2 proof-of-concept trial\"（MAN-SRRK-2），10-Q：\"our Phase 3 SAPPHIRE and our Phase 2 EMBRAZE trials are completed\"（SEC-0001193125-26-336732）。扣信心的理由：公司没有在肥胖方向开展后续试验，只在寻求合作，资产在该适应症上属「2 期完成、未推进」。"
+sources = ["NVO-1", "MAN-SRRK-2", "SEC-0001193125-26-336732", "CTG-NCT06445075"]
+
+[scores.clinical]
+score = 3
+confidence = "medium_high"
+reason = "随机双盲安慰剂对照 2 期，唯一主要终点（第 24 周 DEXA 瘦体重变化）达标：原文 \"We are pleased that the EMBRAZE trial accomplished its objective by achieving its primary endpoint\"、\"preserved an additional 4.2 pounds (1.9 kilograms) or 54.9% (p=0.001) of lean mass compared to tirzepatide alone\"（MAN-SRRK-2）。瘦体重是替代终点（非注册终点），按 §3.3 最高 3 分；对照组是 tirzepatide 单药（标准减重治疗），但未显示功能或结局获益。"
+sources = ["MAN-SRRK-2", "CTG-NCT06445075"]
+
+[clinical]
+design = "EMBRAZE：随机、双盲、安慰剂对照 2 期概念验证，100 例 18–65 岁超重（BMI≥27 且至少一项合并症）或肥胖（BMI≥30）非糖尿病受试者，全部使用 tirzepatide，1:1 随机加用 apitegromab 10 mg/kg 或安慰剂，每 4 周静脉输注，治疗 24 周。原文：\"randomized, double-blind, placebo-controlled, Phase 2 proof-of-concept trial\"、\"The enrollment of EMBRAZE included 100 subjects aged 18-65 who were overweight or living with obesity without diabetes\"、\"The primary endpoint was change from baseline at Week 24 in lean mass assessed by dual-energy X-ray absorptiometry\"（MAN-SRRK-2）。"
+comparability = "组内对照为 tirzepatide + 安慰剂，属与标准减重药的直接加药对比，原文：\"all subjects received tirzepatide\"（MAN-SRRK-2）；未与 semaglutide 或其他肌肉保留候选药对比，任何与其他 myostatin/activin 通路药物的比较都是跨试验比较，人群与终点定义可能不同。"
+result = "瘦体重变化 -1.6 kg（联合组，n=43）对 -3.5 kg（tirzepatide 单药，n=44），差 1.9 kg，p=0.001，即保留 54.9% 瘦体重；减重中瘦体重占比 14.6% 对 30.2%；脂肪减少 8.5 kg 对 8.0 kg；体重下降 12.3% 对 13.4%。原文：\"54.9% preservation\"、\"Patients receiving apitegromab with tirzepatide over 24 weeks lost 12.3% of body weight while those on tirzepatide alone lost 13.4% of body weight\"、\"No subjects experienced serious adverse events (SAEs) or discontinuations considered to be related to apitegromab treatment\"（MAN-SRRK-2）。"
+limitation = "替代终点，无肌力、体能或心代谢结局数据；仅 24 周；分析只含完成治疗并有第 24 周 DEXA 的受试者（\"Analysis based on participants who completed treatment\"，MAN-SRRK-2），非 ITT；联合组总减重略少；静脉每 4 周给药不适合大规模肥胖人群；数据仅来自公司顶线新闻稿，未见同行评议全文；SMA 标签有骨折警示（\"Fractures occurred in 9% of patients treated with ISEMBYLD 10 mg/kg vs. 2% in placebo\"，MAN-SRRK-4），在肥胖人群中的骨安全性未知。"
+sources = ["MAN-SRRK-2", "MAN-SRRK-4", "CTG-NCT06445075"]
+
+[event]
+text = "同一资产在面肩肱型肌营养不良（FSHD）适应症：2 期 FORGE（NCT07435129）主要终点完成/读出。公司只披露试验已启动及设计：\"Phase 2 FORGE trial initiated\"、\"The primary endpoint is mean lean muscle volume (LMV) change from baseline at 12 months\"（MAN-SRRK-3），未披露读出时间；时间取 CT.gov 预计主要完成日 2028-06（估算）。肥胖适应症在 24 个月窗口内无事件（公司未在该方向开展试验）。"
+timing = "2028-06"
+importance = "medium"
+certainty = "estimated"
+sources = ["MAN-SRRK-3", "CTG-NCT07435129", "SEC-0001193125-26-336732"]
+
+[rights]
+status = "full"
+note = "事实：10-K Item 1 原文 \"We have worldwide rights to our proprietary platform and to all of our product candidates.\"（MAN-SRRK-1）。既往合作均已终止：Gilead \"agreed the option exercise period for all programs under the Gilead Agreement had been terminated as of January 6, 2022\"；Janssen 许可 \"the license agreement was terminated in July 2022\"（MAN-SRRK-1，仅涉及 GARP-TGFβ 专利族）。引进许可：Adimab 协议对行权产品收取 \"a low-to-mid single-digit percentage of annual worldwide net sales\" 及每产品不超过 \"mid-teen millions\" 的里程碑，10-K 只点名 \"SRK-181 is subject to the terms of the Adimab Agreement\"，apitegromab 是否受其约束待核实；10-K 附件清单另有 \"Exclusive License Agreement by and between the Registrant, and Children’s Medical Center, dated as December 16, 2013\"，正文未描述，是否涉及 apitegromab 及其许可费待核实（MAN-SRRK-1）。最新 10-Q 检索 worldwide / royalt / license agreement 未见新的授权出去条款（SEC-0001193125-26-336732）。债务：Blue Owl 定期贷款，\"To date, the Company has received $ 200.0 million of Term Loans\"，\"The maturity date of the Term Loan is the earlier of February 26, 2032\"，获批后另有不超过 1.5 亿美元延迟提款额度（SEC-0001193125-26-336732）。资金指引：\"will enable us to fund our operating expenses and capital expenditure requirements into the second half of 2027\"（SEC-0001193125-26-336732）；另有 2 亿美元 ATM：\"aggregate offering price of up to $200,000,000\"（MAN-SRRK-5）。"
+sources = ["MAN-SRRK-1", "SEC-0001193125-26-336732", "MAN-SRRK-5"]

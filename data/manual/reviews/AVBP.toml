@@ -1,0 +1,50 @@
+verified_by = ""
+program = "MRG007"
+indication = "Solid Tumors"
+buyer = "Merck & Co."
+preference_rank = 1
+deal_form = "许可"
+need_item = '''Merck 肿瘤/血液肿瘤偏好（第 1 位，补缺+增长）目标画像：“能在KEYTRUDA单药/联用之外形成新标准治疗的肺癌、胃肠癌、妇科癌或血液肿瘤资产”；理想阶段“Phase 2b-注册期”（MRK-1、MRK-3）。技术偏好第 1 位：“双特异/多特异免疫肿瘤与ADC”，画像“已有人体疗效和可验证生物标志物的Phase 2b-3资产”（MRK-1、MRK-2）。买方 LOE：Keytruda（pembrolizumab）“2028（美国核心专利到期）”（MNC-WB）。'''
+match_note = '''ARR-217（MRG007）是 CDH17 靶向 ADC，首要开发方向为经治结直肠癌及其他胃肠道肿瘤，对应画像中的“胃肠癌”与技术偏好“ADC”；原文："a cadherin-17 (CDH17)-targeting antibody-drug conjugate (ADC)"、"with an initial clinical development focus in colorectal, pancreatic, and other gastrointestinal (GI) cancers"（MAN-AVBP-2）。CDH17 为可检测的膜靶点："CDH17 is a membranous cell adhesion molecule frequently overexpressed in colorectal cancer"（MAN-AVBP-2）。阶段不匹配：资产处于 1 期（1b 剂量优化），低于 Merck 理想阶段“Phase 2b-注册期”。组合冲突：AVBP 10-K 竞争段只覆盖 EGFR 突变 NSCLC（MAN-AVBP-1），未涉及 CDH17 / 胃肠道 ADC；未核查组合冲突（未查 Merck 自有管线）。'''
+thesis = [
+  '''Merck 需要能在 KEYTRUDA 之外形成新标准治疗的胃肠癌资产，并偏好 ADC 模式（MRK-1、MRK-2、MRK-3）；ArriVent 的 ARR-217（MRG007，CDH17 靶向、exatecan 载荷 ADC，经治结直肠癌等胃肠道肿瘤，1 期 / 1b 剂量优化）对应这一需求，因为它的首要适应症正是胃肠道肿瘤，且在多线经治结直肠癌中已出现客观缓解（MAN-AVBP-2、CTG-NCT07066657）。''',
+  '''证据是 1 期剂量递增中 6 mg/kg Q3W 组 29 例经治结直肠癌患者 ORR 44.8%（其中确认 PR 7 例，其余待确认或未确认），单臂、无对照、未见同行评议全文（MAN-AVBP-2）；下一事件是 1b 剂量优化数据（2027 年，公司只给年份，按估算处理）（MAN-AVBP-2）；主要障碍是权益：大中华区权益在 Lepu 手中，且需向 Lepu 支付最高约 11.7 亿美元里程碑及高个位数至低双位数特许权使用费（SEC-0001104659-26-094902）。''',
+]
+thesis_sources = ["MRK-1", "MRK-2", "MRK-3", "MAN-AVBP-2", "CTG-NCT07066657", "SEC-0001104659-26-094902"]
+
+[scores.buyer_fit]
+score = 4
+confidence = "medium"
+reason = '''资产对应 Merck 肿瘤偏好的具体需求条目“胃肠癌”（MRK-1、MRK-3），模式对应技术偏好“ADC”（MRK-1、MRK-2）。资产属性原文："with an initial clinical development focus in colorectal, pancreatic, and other gastrointestinal (GI) cancers"；"a cadherin-17 (CDH17)-targeting antibody-drug conjugate (ADC)"（MAN-AVBP-2）。AVBP 10-K 竞争段只列 EGFR 突变 NSCLC 竞争者（"Companies that compete with us directly on the level of commercialization or development of product candidates targeting EGFR mutation-positive NSCLC include"，MAN-AVBP-1），未提及胃肠道 ADC，因此未发现也未核查 Merck 同机制同适应症资产，置信度取中。'''
+sources = ["MRK-1", "MRK-2", "MRK-3", "MAN-AVBP-2", "MAN-AVBP-1"]
+
+[scores.stage_match]
+score = 2
+confidence = "high"
+reason = '''Merck 肿瘤偏好行理想阶段为“Phase 2b-注册期”（MRK-1、MRK-3），按 2 期计下限；ARR-217 处于 1 期，原文："ARR-217 has advanced into Phase 1b dose optimization at doses of 5 and 6 mg/kg Q3W"（MAN-AVBP-2）；10-Q 原文："We are also conducting a Phase 1 clinical trial of ARR-217 in patients with unresectable locally advanced or metastatic solid tumors"（SEC-0001104659-26-094902）。与理想区间相差一个阶段，取 2 分。'''
+sources = ["MRK-1", "MRK-3", "MAN-AVBP-2", "SEC-0001104659-26-094902", "CTG-NCT07066657"]
+
+[scores.clinical]
+score = 2
+confidence = "medium"
+reason = '''只有 1 期单臂剂量递增数据：6 mg/kg Q3W 组原文 "44.8% (13/29) objective response rate (ORR) observed in pre-treated CRC patients, including 7 confirmed partial responses, 4 partial responses pending confirmation, and 2 unconfirmed partial responses"（MAN-AVBP-2）。确认缓解只有 7/29，样本小、无对照，属于早期阳性信号，按 §3.3 取 2 分。'''
+sources = ["MAN-AVBP-2"]
+
+[clinical]
+design = '''多中心、开放标签 1 期剂量递增研究（NCT07066657，美国与中国），6 个剂量水平 2–8 mg/kg；数据截止 2026-08-05 共 123 例多线经治胃肠道肿瘤患者，其中 113 例结直肠癌。原文："The ongoing multicenter, open-label Phase 1 study (NCT07066657) conducted in the US and China"；"As of the August 5, 2026 data cutoff, 123 patients with heavily pretreated GI malignancies were treated across 6 dose levels ranging from 2 mg/kg to 8 mg/kg, including 113 patients with Colorectal Cancer (CRC)"（MAN-AVBP-2）。'''
+comparability = '''无对照组，与经治结直肠癌标准治疗无直接对比；任何与其他三线及以后结直肠癌疗法的比较都是跨试验比较，人群与终点定义可能不同。缓解中含未确认 / 待确认 PR，ORR 口径与关键试验的确认 ORR 不可直接比较。'''
+result = '''6 mg/kg Q3W：ORR 44.8%（13/29），其中确认 PR 7 例、待确认 PR 4 例、未确认 PR 2 例；DCR 93.1%（27/29）。≥4 mg/kg：ORR 34.2%（25/73），确认 PR 15 例。原文："44.8% (13/29) objective response rate (ORR) observed in pre-treated CRC patients, including 7 confirmed partial responses, 4 partial responses pending confirmation, and 2 unconfirmed partial responses"；"34.2% (25/73) ORR observed in CRC patients, including 15 confirmed partial responses"（MAN-AVBP-2）。安全性：全剂量 ≥3 级 TRAE 30.1%（37/123），6 mg/kg 组 20.4%（10/49）；原文："No grade 5 TRAE or ILD observed"（MAN-AVBP-2）。'''
+limitation = '''1 期、单臂、剂量递增中期数据；6 mg/kg 组仅 29 例 CRC 可评估，13 例缓解中 6 例尚未确认；公司公告数据（ESMO 2026 口头报告），摘要原文与同行评议全文未打开；无 PFS / DoR 数据。原文："Majority of the responding patients remained on study treatment as of the August 5, 2026 data cutoff"（MAN-AVBP-2）。'''
+sources = ["MAN-AVBP-2", "CTG-NCT07066657"]
+
+[event]
+text = '''ARR-217 1b 剂量优化数据（5 与 6 mg/kg Q3W，经治胃肠道肿瘤 / 结直肠癌）。原文："ARR-217 has advanced into Phase 1b dose optimization at doses of 5 and 6 mg/kg Q3W with further dose optimization data expected in 2027"（MAN-AVBP-2）。公司只给出年份，未给季度或半年，按估算处理；属 1 期数据，重要性低。CT.gov 预计主要完成日期为 2028-03（CTG-NCT07066657）。'''
+timing = "2027"
+importance = "low"
+certainty = "estimated"
+sources = ["MAN-AVBP-2", "CTG-NCT07066657"]
+
+[rights]
+status = "partial"
+note = '''ARR-217 为自 Lepu Biopharma 引进的资产，公司只持有大中华区以外权益；大中华区（中国大陆、香港、澳门、台湾）权益在 Lepu。10-Q 原文："Lepu granted to the Company: (i) an exclusive, royalty-bearing, sublicensable license under certain intellectual property owned or controlled by Lepu, to develop, manufacture and commercialize any product containing ARR-217 for all uses in all countries and territories other than Greater China (the “ArriVent Territory”)"（SEC-0001104659-26-094902）；10-K 同义表述 "outside greater China, which is mainland China, Hong Kong, Macau and Taiwan"（MAN-AVBP-1）。10-K / 10-Q 的 Lepu 段未见选择权、优先谈判权、联合委员会或利润分成条款；但 10-K 风险因素写 "are collaborating with Lepu Biopharma with respect to ARR-217"，新闻稿写 "developed in partnership with Lepu Biopharma Co., Ltd."（MAN-AVBP-1、MAN-AVBP-2），协议原文未打开。对许可方义务：10-Q 原文 "obligated to pay Lepu milestone payments up to an aggregate of approximately $1.17 billion"；"tiered royalties in high single-digit to low-teen percentages on net sales in the ArriVent Territory"；"During the six months ended June 30, 2026, Lepu earned $ 12.0 million developmental milestone payments, of which $ 6.0 million has been paid as of June 30, 2026"（SEC-0001104659-26-094902）。终止条款：Lepu 可因 "our failure to carry out certain diligence obligations" 终止（MAN-AVBP-1）。债务：SVB 7,500 万美元贷款额度未提取，原文 "No amounts have been drawn on this Term Loan as of June 30, 2026"（SEC-0001104659-26-094902）。'''
+sources = ["SEC-0001104659-26-094902", "MAN-AVBP-1", "MAN-AVBP-2"]

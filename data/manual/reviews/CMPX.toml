@@ -1,0 +1,50 @@
+verified_by = ""
+program = "CTX-009"
+indication = "Biliary Tract Cancer"
+buyer = "Merck & Co."
+preference_rank = 1
+deal_form = "收购"
+need_item = "能在KEYTRUDA单药/联用之外形成新标准治疗的肺癌、胃肠癌、妇科癌或血液肿瘤资产（MRK-1、MRK-3）"
+match_note = "tovecimig（原 CTX-009）是 DLL4×VEGF-A 双特异抗体，用于二线胆道癌（BTC，胃肠道肿瘤）；Keytruda 已用于一线 BTC，而二线没有公认标准治疗，tovecimig 瞄准的正是 Keytruda 联用方案之后的空白。原文：\"bispecific antibody targeting Delta-like ligand 4 (“DLL4”), a ligand of Notch-1, and vascular endothelial growth factor A (“VEGF-A”)\"（SEC-0001171843-26-005295）；\"Biliary tract cancers are aggressive gastrointestinal cancers\"、\"Merck received FDA approval of pembrolizumab in combination with gemcitabine/cisplatin for the first line treatment of BTC\"、\"there is no generally accepted standard of care in later lines of treatment\"（MAN-CMPX-1）。组合冲突只按 10-K 竞争段核查：该段列出的 Merck 产品只有 Keytruda（PD-1，机制不同）：\"to PD-1/PD-L1, such as BMS’s Opdivo, Merck & Co.’s Keytruda\"（MAN-CMPX-1）；未核查 Merck 早期管线。"
+thesis = [
+  "Merck & Co. 需要「能在KEYTRUDA单药/联用之外形成新标准治疗的…胃肠癌…资产」；Compass Therapeutics 的 tovecimig（CTX-009，DLL4×VEGF-A 双特异抗体，二线胆道癌，2/3 期已读出）对应这一需求，因为胆道癌一线已用 Keytruda 联合化疗，而二线没有公认标准治疗，tovecimig 在 Keytruda 方案之后的二线 BTC 中做了随机对照研究。",
+  "证据是随机 2/3 期 COMPANION-002 达到主要终点 ORR（18.0% 对紫杉醇单药 5.3%，p=0.0228），PFS 4.7 对 2.6 个月（HR=0.44），但 ITT 总生存无差异（HR=1.05），2026 年 9 月 FDA 建议先做证明生存获益的试验再提交 BLA；下一事件是公司仍计划的 BLA 提交（时间未披露，估算）；主要障碍是监管路径：FDA 要求生存数据，此外 10-K 写明韩国权益归 Handok、中国权益已授权给 Elpiscience，并须向 ABL Bio 支付至多 9,600 万美元开发/监管里程碑、3.03 亿美元商业里程碑和单位数分级特许权使用费。",
+]
+thesis_sources = ["MRK-1", "MRK-3", "MAN-CMPX-1", "MAN-CMPX-2", "MAN-CMPX-4", "SEC-0001171843-26-005295", "CTG-NCT05506943", "NASDAQ-CMPX-2026-10-28"]
+
+[scores.buyer_fit]
+score = 4
+confidence = "medium"
+reason = "Merck 第 1 治疗领域画像点名「在KEYTRUDA单药/联用之外形成新标准治疗」的「胃肠癌」资产；tovecimig 用于二线胆道癌（胃肠道肿瘤），一线 BTC 已用 Keytruda，二线无标准治疗；原文：\"Biliary tract cancers are aggressive gastrointestinal cancers\"、\"there is no generally accepted standard of care in later lines of treatment\"（MAN-CMPX-1）。10-K 竞争段未发现 Merck 有同机制（DLL4×VEGF-A）、同适应症资产，只列 Keytruda：\"Merck & Co.’s Keytruda\"（MAN-CMPX-1）；未核查 Merck 早期管线。FDA 已要求生存获益试验，「形成新标准治疗」的前景不确定，故置信度取中。"
+sources = ["MRK-1", "MRK-3", "MAN-CMPX-1"]
+
+[scores.stage_match]
+score = 4
+confidence = "medium_high"
+reason = "Merck 该行 ideal_stage 为「Phase 2b-注册期」；tovecimig 在 BTC 处于随机 2/3 期且已读出：\"our Phase 2/3 randomized trial of tovecimig in combination with paclitaxel in patients with biliary tract cancer\"（SEC-0001171843-26-005295）。FDA 建议再做生存获益试验，该 2/3 期能否作为注册依据存疑：\"recommended that Compass conduct a trial demonstrating a survival benefit before proceeding with a Biologics License Application (BLA) submission\"（MAN-CMPX-2），但阶段本身仍落在区间内。"
+sources = ["MRK-1", "SEC-0001171843-26-005295", "MAN-CMPX-2", "CTG-NCT05506943"]
+
+[scores.clinical]
+score = 3
+confidence = "medium"
+reason = "随机 2/3 期达到唯一主要终点 ORR（OS 为次要终点，见 \"Secondary endpoint analyses of overall survival (OS)\"），原文：\"The study met the primary endpoint of overall response rate (“ORR”) with 18.0% in the tovecimig combination arm compared to 5.3% in the paclitaxel control arm\"（SEC-0001171843-26-005295）。ORR 为替代终点，最高 3 分；ITT 总生存无差异（\"HR=1.05, p=0.78\"，MAN-CMPX-3），FDA 认为需证明生存获益（MAN-CMPX-2），复核人可考虑降为 2。"
+sources = ["SEC-0001171843-26-005295", "MAN-CMPX-2", "MAN-CMPX-3", "CTG-NCT05506943"]
+
+[clinical]
+design = "COMPANION-002：随机、对照 2/3 期，二线（既往一种方案）不可切除晚期、转移或复发胆道癌，tovecimig + 紫杉醇（n=111）对紫杉醇单药（n=57），允许对照组交叉；疗效由盲态独立中心评估（BICR）；原文：\"evaluated tovecimig plus paclitaxel versus paclitaxel alone in patients with unresectable advanced, metastatic or recurrent biliary tract cancer (BTC) treated in the second-line setting\"、\"All responses were assessed by blinded independent central review (BICR).\"（MAN-CMPX-3）。"
+comparability = "对照组为紫杉醇单药，是同一试验内随机对照，不是跨试验比较；但紫杉醇单药并非公认二线标准治疗（10-K：\"there is no generally accepted standard of care in later lines of treatment\"，MAN-CMPX-1）。对照组 54% 交叉到 tovecimig，OS 比较被交叉干扰；公司引用的交叉/非交叉亚组 OS 为事后分析：\"Post Hoc Subset Analyses\"（MAN-CMPX-3）。"
+result = "主要终点 ORR 18.0%（20/111）对 5.3%，p=0.0228（终版分析）：\"the ORR improved to 18.0% (20/111 patients)\"、\"the p-value also improved to 0.0228\"（SEC-0001171843-26-005295）。次要终点 PFS 中位 4.7 对 2.6 个月：\"median progression-free survival (PFS) of 4.7 months versus 2.6 months, providing a 56% reduction in the risk of progression (hazard ratio=0.44, p<0.0001)\"（SEC-0001171843-26-005295）。ITT OS 8.9 对 9.4 个月：\"tovecimig in combination with paclitaxel had a median OS of 8.9 months compared to 9.4 months for the control arm\"、\"(HR=1.05, p=0.78)\"（MAN-CMPX-3）。"
+limitation = "OS 次要终点未达统计学意义：\"did not meet statistical significance\"（SEC-0001171843-26-005295）；交叉校正分析不可解释：\"its results here are largely uninterpretable\"（MAN-CMPX-3）。FDA 建议先做证明生存获益的试验：\"The FDA recommended that Compass conduct a trial to demonstrate a survival benefit prior to submitting a BLA for tovecimig.\"（MAN-CMPX-2）。数据来自公司新闻稿与 10-Q，尚未打开同行评议全文或 ESMO 2026 摘要。"
+sources = ["SEC-0001171843-26-005295", "MAN-CMPX-1", "MAN-CMPX-2", "MAN-CMPX-3", "CTG-NCT05506943"]
+
+[event]
+text = "二线胆道癌 BLA 提交（公司意向，时间未披露）。FDA 反馈后公司仍表示：\"Compass intends to further engage with the FDA as we continue to prepare a BLA submission for tovecimig.\"，但 FDA \"recommended that Compass conduct a trial to demonstrate a survival benefit prior to submitting a BLA\"（MAN-CMPX-2）。此前的 \"prior to a potential BLA filing later this year\"（MAN-CMPX-4）已被 9 月 22 日公告取代。无季度或日期，按估算处理；若公司接受 FDA 建议，24 个月窗口内可能没有高重要性事件。"
+timing = "未披露"
+importance = "high"
+certainty = "estimated"
+sources = ["MAN-CMPX-2", "MAN-CMPX-4"]
+
+[rights]
+status = "partial"
+note = "事实（10-K）：公司从 ABL Bio 引进除韩国外的全球独家权益，韩国权益在 Handok，中国权益已对外授权给 Elpiscience：\"We have licensed exclusive global rights to tovecimig, outside of South Korea, from ABL Bio\"、\"South Korean rights are held by Handok Pharmaceuticals, Inc. (“Handok”) and China rights were out-licensed to Elpiscience Biopharmaceuticals Co., Limited (“Elpiscience”).\"、\"We hold worldwide rights to all of our product candidates (with the exception of limited countries for tovecimig)\"（MAN-CMPX-1）。协议写有「共同开发」字样，但分工为 ABL Bio 负责至 1 期结束、公司负责 2 期起：\"ABL Bio responsible for development of tovecimig throughout the end of Phase 1 clinical trials and TRIGR responsible for the development of tovecimig from Phase 2 and onward\"（MAN-CMPX-1）；未见选择权、优先谈判权、共同商业化或利润分成条款。引进义务：\"up to $96 million of development and regulatory milestone payments, up to $303 million of commercial milestone payments and tiered single-digit royalties on net sales of tovecimig in oncology\"（MAN-CMPX-1）。债务：10-Q 资产负债表负债只有应付账款、应计费用和经营租赁（\"Total liabilities\" 24,124 千美元），未见借款；资金指引：\"the Company expects such cash resources will fund operating expenses and capital expenditure requirements into 2028\"（SEC-0001171843-26-005295）。"
+sources = ["MAN-CMPX-1", "SEC-0001171843-26-005295"]

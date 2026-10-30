@@ -1,0 +1,50 @@
+verified_by = ""
+program = "CLN-978"
+indication = "SLE"
+buyer = "Bristol Myers Squibb"
+preference_rank = 2
+deal_form = "收购"
+need_item = "能带来持久缓解、组织修复或免疫重置的自身免疫药物，覆盖皮肤、胃肠和风湿病（BMY-1、BMY-2）"
+match_note = "CLN-978 是皮下给药的 CD19xCD3 T 细胞衔接器，定位于 B 细胞驱动的风湿病（SLE、RA、干燥综合征），公司把 1 期数据表述为「免疫重置」与「无治疗缓解」潜力，对应 BMS 画像中的「免疫重置」「持久缓解」「风湿病」；原文：\"CD19xCD3 T cell engager that we are developing for rheumatic diseases driven by pathogenic B cells\"（SEC-0001193125-26-336717）；\"achieved clinical remissions and deep B cell depletion, including indicators of immune reset\"、\"support the potential for CLN-978 to deliver durable, treatment-free remissions in the community out-patient setting\"（MAN-CGEM-2）。「免疫重置」「持久缓解」是公司基于 1 期的表述，不是已证实结论。组合冲突只按 10-K 竞争段核查：自免 CD19 TCE 竞品名单为 \"Amgen Inc., Roche Holdings AG, AstraZeneca plc, Merck & Co., Inc., Novartis AG, GSK plc., and Xencor, Inc.\"（SEC-0001193125-26-099362），不含 BMS；BMS 自身的 CD19 细胞疗法在 SLE 的布局未核查（未核查组合冲突）。"
+thesis = [
+  "Bristol Myers Squibb 需要「能带来持久缓解、组织修复或免疫重置的自身免疫药物，覆盖…风湿病」；Cullinan 的 CLN-978（CD19xCD3 T 细胞衔接器，皮下给药，系统性红斑狼疮，1 期）对应这一需求，因为公司报告单次目标剂量后难治 SLE 患者出现 DORIS 缓解与深度 B 细胞清除，并称有「免疫重置」迹象，且该资产为公司自研、全资持有。",
+  "证据是 1 期 OUTRACE SLE 单臂剂量递增数据（≥4 周随访的 14 例中 10 例 hSLEDAI 下降≥4 分、5 例达 DORIS 缓解），无对照、无与 CAR-T 或其他 CD19 TCE 的直接比较，45 µg 剂量出现 1 例 3 级 CRS；下一事件是 SLE、RA 与干燥综合征的多剂量方案数据（2026 年 12 月，明确披露），SLE 与狼疮肾炎 2 期扩展计划 2027 年初启动；主要障碍是权益结构：CLN-978 本身权益完整、无债务、快照 EV 约 6.7 亿美元，但整体收购须同时承接 zipalertinib（Taiho 持有知识产权、美国利润五五分成）和 CLN-049（98% 控股子公司，少数股东有领售等权利）。",
+]
+thesis_sources = ["BMY-1", "BMY-2", "MAN-CGEM-1", "MAN-CGEM-2", "MAN-CGEM-3", "MAN-CGEM-4", "SEC-0001193125-26-336717", "SEC-0001193125-26-099362", "NASDAQ-CGEM-2026-10-28", "CTG-NCT06613360"]
+
+[scores.buyer_fit]
+score = 4
+confidence = "medium"
+reason = "BMS 第 2 治疗领域（免疫炎症）画像点名「免疫重置」「持久缓解」「风湿病」；CLN-978 定位 B 细胞驱动的风湿病，公司称 1 期显示免疫重置迹象；原文：\"developing for rheumatic diseases driven by pathogenic B cells\"（SEC-0001193125-26-336717）、\"including indicators of immune reset\"（MAN-CGEM-2）。10-K 竞争段列出的自免 CD19 TCE 竞品不含 BMS（原文：\"multiple companies with development-stage CD19 T cell engager programs for the treatment of autoimmune diseases\"，SEC-0001193125-26-099362）。置信度取中：免疫重置只是 1 期公司表述；BMS 的 CD19 细胞疗法是否已在 SLE 开发未核查。"
+sources = ["BMY-1", "BMY-2", "MAN-CGEM-2", "SEC-0001193125-26-336717", "SEC-0001193125-26-099362"]
+
+[scores.stage_match]
+score = 4
+confidence = "high"
+reason = "BMS 该行 ideal_stage 为「Phase 1b-3」（人工映射 phase1–phase3）；CLN-978 在 SLE 处于全球 1 期，原文：\"The OUTRACE SLE Study is an ongoing global Phase 1 clinical trial in patients with treatment-refractory moderate to severe SLE\"（SEC-0001193125-26-336717）。"
+sources = ["BMY-1", "SEC-0001193125-26-336717", "CTG-NCT06613360"]
+
+[scores.clinical]
+score = 2
+confidence = "high"
+reason = "1 期单臂剂量递增，早期阳性信号：原文：\"a ≥4‑point reduction in hSLEDAI was observed in 10 patients (71%), with 5 achieving a DORIS remission\"（MAN-CGEM-1）。无对照组、样本小、单次目标剂量，看不出相对标准治疗的优势，按 §3.3 给 2 分。"
+sources = ["MAN-CGEM-1", "MAN-CGEM-2", "CTG-NCT06613360"]
+
+[clinical]
+design = "OUTRACE SLE：全球 1 期、单臂剂量递增，入组既往至少一种生物制剂或免疫抑制剂治疗、血清阳性的活动性 SLE（hSLEDAI≥6），入组前停用背景免疫抑制治疗；EULAR 2026 报告截至 2026-05-15 的 SLE 18 例（单次目标剂量 10–45 µg）；原文：\"OUTRACE SLE enrolls patients with active systemic lupus erythematosus (hSLEDAI ≥6)\"、\"all of whom discontinued background immunosuppressive therapies prior to study entry\"（MAN-CGEM-2）；\"This presentation is based on data from 29 patients evaluated as of May 15, 2026\"（MAN-CGEM-1）。"
+comparability = "无对照组，无与标准治疗、CD19 CAR-T 或其他 CD19 T 细胞衔接器的直接比较；任何与它们的比较都是跨试验比较，人群与终点定义可能不同。公司「most comprehensive clinical data set to date for a CD19 T cell engager」为公司表述（MAN-CGEM-4）。"
+result = "≥4 周随访的 14 例中 10 例（71%）hSLEDAI 下降≥4 分，5 例达 DORIS 缓解；单次目标剂量后 17 例中 14 例（82%）外周 B 细胞较基线下降>80%；原文：\"Among 14 patients with ≥4 weeks follow up\"、\"with 5 achieving a DORIS remission\"、\"peripheral B cell counts were reduced by >80% from baseline in 14 of 17 patients (82%)\"（MAN-CGEM-1）。"
+limitation = "样本小、随访短（≥4 周）、单次目标剂量为主，多剂量方案 SLE 数据尚未公布；只有公司新闻稿与会议海报，无同行评议全文。安全性：\"A single case of Grade 3 CRS was observed following administration of the 45 μg target dose; enrollment to this cohort was discontinued\"（MAN-CGEM-1）。B 细胞为「dose-dependent recovery」，缓解持久性未知（MAN-CGEM-1）。"
+sources = ["MAN-CGEM-1", "MAN-CGEM-2", "MAN-CGEM-4", "CTG-NCT06613360"]
+
+[event]
+text = "CLN-978 在 SLE、RA 与干燥综合征（SjD）的多剂量及单次目标剂量方案数据（1 期）；原文：\"Multi-dose and single target dose regimen data in SLE, RA, and SjD in December\"（MAN-CGEM-4）。其后 SLE 与狼疮肾炎 2 期扩展计划 2027 年初启动：\"begin Phase 2 expansion in early 2027 in patients with SLE and in patients with lupus nephritis\"（MAN-CGEM-3）。"
+timing = "2026-12"
+importance = "low"
+certainty = "disclosed"
+sources = ["MAN-CGEM-4", "MAN-CGEM-3"]
+
+[rights]
+status = "full"
+note = "事实：10-Q：\"We hold worldwide intellectual property rights for CLN-978.\"（SEC-0001193125-26-336717）；10-K：\"We hold the worldwide intellectual property rights for CLN-978.\"（SEC-0001193125-26-099362）；公司新闻稿：\"CLN-978 was developed by an internal Cullinan team and is a wholly owned asset.\"（MAN-CGEM-1）。10-K 许可协议段只列 Genrix（velinotamig）、DKFZ/Tübingen（CLN-049）等，未见 CLN-978 的引进许可或对外授权，故无特许权使用费 / 里程碑义务（推断，中高）。CLN-978 组成物专利仍为申请：\"which, if issued, are expected to expire in 2040\"（SEC-0001193125-26-099362）。无借款：10-Q 资产负债表负债只有应付账款、应计费用与经营租赁负债（SEC-0001193125-26-336717）。整体收购时的公司层面负担：zipalertinib \"We are co-developing zipalertinib, for which Taiho holds intellectual property rights\"、\"each party will receive 50% of any future potential pre-tax profits from U.S. sales of zipalertinib\"；CLN-049 \"through a development subsidiary in which we had a 98% ownership interest\"（SEC-0001193125-26-336717）；10-K：\"rights such as drag-along rights in agreements with shareholders of the subsidiary\"（SEC-0001193125-26-099362）。"
+sources = ["SEC-0001193125-26-336717", "SEC-0001193125-26-099362", "MAN-CGEM-1"]

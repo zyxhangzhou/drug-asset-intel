@@ -1,0 +1,50 @@
+verified_by = ""
+program = "TRADIPITANT"
+indication = "Nausea and Vomiting"
+buyer = "Novo Nordisk"
+preference_rank = 1
+deal_form = "许可"
+need_item = "更高减重、更少胃肠道副作用、更低频给药或可口服的GLP-1、胰淀素/胰高血糖素组合（NVO-1、NVO-2）；技术偏好行「口服非肽和长效制剂」画像「给药频率和胃肠耐受性明显改善」（NVO-1、NVO-2）"
+match_note = "tradipitant（NEREUS）是口服 NK-1 受体拮抗剂，在 3 期 Study 3601 中用于预防 GLP-1 受体激动剂引起的呕吐；原文：\"a Phase III randomized, placebo-controlled study evaluating NEREUS™ (tradipitant), an oral neurokinin-1 (NK-1) receptor antagonist, for the prevention of vomiting associated with GLP-1 receptor agonist therapy\"（MAN-VNDA-4）。2 期研究直接以 Novo 的 Wegovy 为诱发药：\"prevention of nausea and vomiting induced by GLP-1 receptor agonist Wegovy\"（MAN-VNDA-1），3 期用 semaglutide 1 mg：\"Participants received a single 1 mg dose of semaglutide without the gradual titration used in clinical practice\"（MAN-VNDA-4）。对应点：Novo 画像要求「更少胃肠道副作用」，本资产针对的正是 Novo GLP-1 产品的胃肠道副作用（呕吐）。差距：画像描述的是自身胃肠耐受性更好的新一代 GLP-1/胰淀素分子，本资产是联用的止吐药，不是 GLP-1 本身；因此给 3 分不给 4 分。10-K 竞争段未点名任何买方产品；未核查组合冲突（Novo 是否已有同机制止吐联用资产）。"
+thesis = [
+  "Novo Nordisk 需要「更少胃肠道副作用」的 GLP-1 肥胖/糖尿病方案；Vanda 的 tradipitant（NEREUS，口服 NK-1 受体拮抗剂，预防 GLP-1 受体激动剂引起的呕吐，3 期已完成）对应这一需求，因为 2 期与 3 期都以 semaglutide（Wegovy）为诱发药，直接降低 Novo 核心产品的呕吐发生率，公司称恶心呕吐是 GLP-1 停药的主要原因之一（\"among the most common reasons patients discontinue\"）。",
+  "证据是 3 期 Study 3601 随机对照试验主要终点达标（任何呕吐 43.0% 对安慰剂 58.5%，p=0.006，相对降低 27%），只有安慰剂对照、且为未滴定的单次 1 mg 激发设计；下一事件是就 Study 3601 与 FDA 讨论并提交 GLP-1 相关呕吐 sNDA（2027，估算：公司只写 FDA 讨论 \"proposed sNDA submission during 2027\"，未给季度）；主要障碍是权益结构：资产引进自 Novo 的主要竞争对手 Lilly，需付 \"up to the low double digits\" 特许权使用费与最高 8,000 万美元销售里程碑，且协议终止时权益回归 Lilly，转授权条款未披露。",
+]
+thesis_sources = ["NVO-1", "NVO-2", "MAN-VNDA-1", "MAN-VNDA-2", "MAN-VNDA-4", "CTG-NCT07446439"]
+
+[scores.buyer_fit]
+score = 3
+confidence = "medium"
+reason = "资产落在 Novo 第 1 治疗领域（肥胖/糖尿病），画像点名「更少胃肠道副作用」，技术行「口服非肽和长效制剂」点名「胃肠耐受性明显改善」；tradipitant 为口服小分子，针对 GLP-1 引起的呕吐，原文：\"for the prevention of vomiting associated with GLP-1 receptor agonist therapy\"（MAN-VNDA-4），2 期用 \"GLP-1 receptor agonist Wegovy\"（MAN-VNDA-1）。但画像要求的是本身胃肠耐受更好的 GLP-1/胰淀素分子，本资产是联用止吐药，需求条目只能间接对上，故给 3 分。未核查组合冲突。"
+sources = ["NVO-1", "NVO-2", "MAN-VNDA-1", "MAN-VNDA-4"]
+
+[scores.stage_match]
+score = 4
+confidence = "high"
+reason = "Novo 该行 ideal_stage 为「Phase 2-3」。tradipitant 在 GLP-1 相关呕吐适应症上已完成 3 期、尚未提交 sNDA：原文 \"we announced positive results from the Phase III clinical study, VP-VLY-686-3601\"、\"plan to submit a supplemental New Drug Application (sNDA)\"（MAN-VNDA-2）。NEREUS 已获批的是晕动病呕吐（\"approved in December of 2025 for the prevention of motion-induced vomiting\"，MAN-VNDA-4），不是本适应症；本适应症阶段按 3 期计。"
+sources = ["NVO-1", "MAN-VNDA-2", "MAN-VNDA-4", "CTG-NCT07446439"]
+
+[scores.clinical]
+score = 3
+confidence = "medium"
+reason = "随机、安慰剂对照 3 期 Study 3601 唯一主要终点（任何呕吐）达标，原文：\"Vomiting occurred in 43.0% of NEREUS™-treated participants (61/142) compared with 58.5% on placebo (96/164) (p=0.006, adjusted for site), a 27% relative reduction\"（MAN-VNDA-4）；2 期亦 \"met its primary and secondary endpoints\"（MAN-VNDA-1）。该适应症无已批准标准治疗，无直接或同终点间接比较，按 §3.3 不到 4 分。激发模型（未滴定单次 1 mg semaglutide）与临床实际用法不同，效应量 27% 属中等。"
+sources = ["MAN-VNDA-4", "MAN-VNDA-1", "CTG-NCT07446439", "CTG-NCT06804603"]
+
+[clinical]
+design = "3 期 Study 3601（VP-VLY-686-3601，NCT07446439）：随机、安慰剂对照，tradipitant 对比安慰剂，受试者接受单次 1 mg semaglutide 激发；原文：\"a Phase III randomized, placebo-controlled study\"、\"Participants received a single 1 mg dose of semaglutide without the gradual titration used in clinical practice\"（MAN-VNDA-4）。CT.gov 主要终点：\"Proportion of participants with at least 1 vomiting episode per week in the tradipitant group compared to the placebo group\"（CTG-NCT07446439）。前置 2 期（VP-VLY-686-2601，NCT06804603）以 Wegovy 1 mg 激发：\"pre-treated patients with either NEREUS TM or placebo before administering a 1 mg injection of Wegovy\"（MAN-VNDA-1）。"
+comparability = "只有安慰剂对照。GLP-1 相关呕吐没有已批准药物，无标准治疗可作直接对比；与其他止吐药（如其他 NK-1 拮抗剂、5-HT3 拮抗剂）的任何比较都是跨试验比较，人群与终点定义可能不同。"
+result = "主要终点：任何呕吐 43.0%（61/142）对 58.5%（96/164），p=0.006（按中心校正），相对降低 27%；关键次要终点（任何呕吐且最重恶心 ≥3）33.1% 对 50.6%，p=0.002；安全性无新信号。原文：\"Vomiting occurred in 43.0% of NEREUS™-treated participants (61/142) compared with 58.5% on placebo (96/164) (p=0.006, adjusted for site), a 27% relative reduction\"、\"occurred in 33.1% of participants on NEREUS™ (47/142) versus 50.6% on placebo (83/164) (p=0.002, adjusted for site)\"、\"No new safety signals were observed\"（MAN-VNDA-4）。2 期：\"showed a 50% relative reduction in symptoms\"（MAN-VNDA-1）。"
+limitation = "激发设计不同于临床滴定用法，公司以暴露-效应分析外推：\"supporting extrapolation of the effect to real-world dosing of semaglutide\"（MAN-VNDA-4），外推是否被 FDA 接受未知。频繁/极端呕吐的大幅降低（60%、81%）为事后分析：\"These analyses are post hoc\"（MAN-VNDA-4）。数据只来自公司新闻稿，无同行评议全文；未证明能减少 GLP-1 停药。CT.gov 记录仍为 RECRUITING、预计入组 280，与新闻稿分析人数 306 不一致（记录未更新）。"
+sources = ["MAN-VNDA-4", "MAN-VNDA-1", "CTG-NCT07446439", "CTG-NCT06804603"]
+
+[event]
+text = "GLP-1 受体激动剂相关呕吐适应症：就 Study 3601 结果与 FDA 讨论并提交 NEREUS sNDA。公司原文：\"intends to submit an sNDA for NEREUS™ for the prevention of vomiting associated with GLP-1 receptor agonist therapy\"、\"the FDA's willingness to meet with Vanda to discuss and provide feedback on Vanda's proposed sNDA submission during 2027\"（MAN-VNDA-4）；10-Q 只写 \"plan to submit a supplemental New Drug Application (sNDA)\"（MAN-VNDA-2）。公司只给年份 2027（且主要指 FDA 讨论），未给季度或半年，sNDA 提交落在 2027 为推断，故标「估算」。"
+timing = "2027"
+importance = "high"
+certainty = "estimated"
+sources = ["MAN-VNDA-4", "MAN-VNDA-2"]
+
+[rights]
+status = "full"
+note = "最新 10-Q 原文：\"the Company entered into a license agreement with Lilly under which it acquired an exclusive worldwide license under certain patents and patent applications, and other licenses to intellectual property, to develop and commercialize NEREUS TM for all human indications\"（MAN-VNDA-2）。为引进资产：Lilly 收阶梯特许权使用费，\"percentage rates up to the low double digits\"，剩余 \"a $ 5.0 million milestone for the first approval of an application for marketing authorization for NEREUS TM in the E.U. and up to $ 80.0 million for sales milestones\"（MAN-VNDA-2）；协议终止时 \"all rights licensed and developed by us under the agreement will revert or otherwise be licensed back to Lilly on an exclusive basis\"（MAN-VNDA-1）。10-K 与 10-Q 中检索 right of first / option to license / co-commerciali / profit shar 均未见与 NEREUS 相关的条款；Lilly 协议是否允许转授权未披露（许可方案需核实）。债务：Q3 资产负债表无借款或票据，只有融资租赁负债（\"Finance lease non-current liabilities | 2,345\" 千美元，流动部分 \"Finance lease liabilities | 4,022\" 千美元列于应计负债）（MAN-VNDA-3、MAN-VNDA-2）。资金：\"will be sufficient for at least the next 12 months\"（MAN-VNDA-2）；Q3 末现金 \"totaled $140.5 million as of September 30, 2026\"（MAN-VNDA-3）。"
+sources = ["MAN-VNDA-2", "MAN-VNDA-1", "MAN-VNDA-3"]

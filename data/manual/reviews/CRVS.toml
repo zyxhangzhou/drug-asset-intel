@@ -1,0 +1,50 @@
+verified_by = ""
+program = "SOQUELITINIB"
+indication = "Atopic Dermatitis"
+buyer = "Novartis"
+preference_rank = 2
+deal_form = "收购"
+need_item = "过敏、哮喘、皮炎和自身免疫的抗体或免疫调节剂，强调长效及生物标志物分层（NVS-3、NVS-5）"
+match_note = "soquelitinib 是口服、选择性、共价 ITK 抑制剂，通过阻断 Th2/Th17 并增加 Treg 来调节免疫，对应 Novartis 画像中的「皮炎」「哮喘」「免疫调节剂」「生物标志物」；原文：\"an investigational selective, orally bioavailable, covalent inhibitor of ITK\"、\"Soquelitinib is also being evaluated in a randomized, placebo-controlled Phase 2 trial in patients with atopic dermatitis\"、\"a Phase 2 clinical trial in asthma\"、\"Reduction in serum IL-4 cytokine was observed in cohorts 3 and 4\"、\"potential for drug-free remissions\"（SEC-0001104659-26-091975）。不符项：画像强调「长效」，soquelitinib 为每日一次或两次口服，长效只有停药后随访的初步信号（\"The disease control continued in the 30-day post treatment follow up period\"，同上）。生物标志物目前用于机制验证，未用于患者分层。组合冲突只按 10-K 竞争段核查：AD 竞品公司名单为 \"Abbvie, Pfizer, Sanofi, Amgen, GSK and Lilly\"，不含 Novartis（MAN-CRVS-1）；未核查 Novartis 自身早期管线中是否有 ITK 或同类口服 T 细胞调节剂。"
+thesis = [
+  "Novartis 需要「过敏、哮喘、皮炎和自身免疫的抗体或免疫调节剂，强调长效及生物标志物分层」；Corvus 的 soquelitinib（口服选择性共价 ITK 抑制剂，特应性皮炎，2 期）对应这一需求，因为它通过阻断 Th2/Th17、增加 Treg 来调节免疫，已在 AD 开展随机安慰剂对照 2 期，并计划启动哮喘 2 期，1 期中观察到 IL-4、IL-5 等血清标志物下降。",
+  "证据是随机、盲法、安慰剂对照 1 期第 4 队列（n=12 对 10）第 56 天 EASI 平均降幅 72% 对 40%（p=0.035），EASI-75 为 75% 对 20%，样本小，且无与 dupilumab 等标准治疗的直接对比；下一事件是同一资产在复发/难治外周 T 细胞淋巴瘤（PTCL）3 期主要终点数据（2027-11，CT.gov 估算；AD 2 期 CT.gov 估算主要完成 2027-06）；主要障碍是权益：大中华区权益已授权给 Corvus 持股约 49% 的 Angel Pharmaceuticals，全资收购需同时处理该区域（快照 EV 约 6.7 亿美元，<20 亿档）。",
+]
+thesis_sources = ["NVS-3", "NVS-5", "SEC-0001104659-26-091975", "MAN-CRVS-1", "MAN-CRVS-2", "CTG-NCT06345404", "CTG-NCT07441395", "CTG-NCT06561048", "NASDAQ-CRVS-2026-10-28"]
+
+[scores.buyer_fit]
+score = 4
+confidence = "medium"
+reason = "Novartis 第 2 治疗领域（免疫）画像点名「皮炎」「哮喘」「免疫调节剂」；soquelitinib 为口服 ITK 免疫调节剂，在 AD 处于 2 期，并计划哮喘 2 期；原文：\"randomized, placebo-controlled Phase 2 trial in patients with atopic dermatitis\"、\"a Phase 2 clinical trial in asthma\"（SEC-0001104659-26-091975）。10-K 竞争段的 AD 竞品公司为 \"Abbvie, Pfizer, Sanofi, Amgen, GSK and Lilly\"，不含 Novartis（MAN-CRVS-1）。画像中的「长效」不符（每日口服），生物标志物尚未用于分层，且未核查 Novartis 早期管线，故置信度取中。"
+sources = ["NVS-3", "NVS-5", "SEC-0001104659-26-091975", "MAN-CRVS-1"]
+
+[scores.stage_match]
+score = 4
+confidence = "high"
+reason = "Novartis 该行 ideal_stage 为「Phase 1-3」；soquelitinib 的 AD 2 期已于 2026 年 3 月启动并在入组，原文：\"In March 2026, we initiated a Phase 2 clinical trial of soquelitinib for the treatment of atopic dermatitis\"（SEC-0001104659-26-091975）、\"Corvus is enrolling patients in the SIERRA1 Phase 2 randomized, blinded, placebo-controlled atopic dermatitis clinical trial\"（MAN-CRVS-2）。"
+sources = ["NVS-3", "SEC-0001104659-26-091975", "MAN-CRVS-2", "CTG-NCT07441395"]
+
+[scores.clinical]
+score = 2
+confidence = "high"
+reason = "AD 人体疗效数据只来自随机、盲法、安慰剂对照的 1 期（主要终点含安全性与 EASI 等疗效指标），第 4 队列每组仅 10–12 例；原文：\"randomized, double-blind, placebo-controlled Phase 1 clinical trial\"、\"72%, compared to 40% for patients receiving placebo (n=10)\"、\"statistically significant, p=0.035\"（SEC-0001104659-26-091975）。按 §3.3 属早期（1 期）阳性信号，2 期 SIERRA1 尚未读出，故 2 分。"
+sources = ["SEC-0001104659-26-091975", "MAN-CRVS-2", "CTG-NCT06345404"]
+
+[clinical]
+design = "随机、双盲、安慰剂对照 1 期，既往至少一种外用或系统治疗失败的中重度 AD；4 个剂量队列（100 mg BID、200 mg QD、200 mg BID、400 mg QD），队列 1–3 按 3:1 随机、治疗 28 天；队列 4 扩为 24 例 1:1 随机 200 mg BID 或安慰剂、治疗 56 天；原文：\"randomized, double-blind, placebo-controlled Phase 1 clinical trial with soquelitinib in patients with moderate to severe atopic dermatitis\"、\"Cohort 4 was expanded to enroll 24 patients randomized 1:1 to receive soquelitinib 200 mg BID (the same dose as cohort 3) or placebo\"（SEC-0001104659-26-091975）。"
+comparability = "只有安慰剂对照，与 dupilumab、JAK 抑制剂、IL-13 抗体等无直接对比；任何与已上市药的比较都是跨试验比较，人群与终点定义可能不同。队列 4 每组样本量小（12 对 10，2 例安慰剂缺第 56 天访视）。"
+result = "队列 4 第 56 天 EASI 平均降幅 72% 对 40%，p=0.035；EASI-75 / EASI-90 / IGA 0-1 分别为 75%/25%/33% 对 20%/0%/0%；原文：\"the mean percent reduction in EASI for patients receiving soquelitinib in cohort 4 (n=12) was 72%, compared to 40% for patients receiving placebo (n=10)\"、\"achieved in 75%, 25% and 33% of patients receiving soquelitinib, respectively, compared to 20%, 0% and 0%, respectively, for the placebo group\"（SEC-0001104659-26-091975）。队列 3（200 mg BID，28 天）EASI 降幅 71.1% 对 42.1%：\"71.1% for patients receiving soquelitinib and 42.1% for patients receiving placebo\"（同上）。安全性：\"all were Grade 1-2\"（同上）。"
+limitation = "1 期、小样本，只有队列 4 一项 p 值；EASI-75 等为描述性比例，未见统计检验。数据为公司在 10-Q 与 SID 会议上的表述，本次未打开 SID 摘要或同行评议全文。生物标志物与「drug-free remissions」为探索性结果：\"potential for drug-free remissions\"（SEC-0001104659-26-091975）。2 期 SIERRA1（约 200 例，12 周，主要终点 EASI 较基线变化百分比）尚未读出：\"The primary endpoint of the trial is the percent change from baseline in EASI score at week 12\"（同上）。"
+sources = ["SEC-0001104659-26-091975", "MAN-CRVS-2", "CTG-NCT06345404"]
+
+[event]
+text = "同一资产在复发/难治外周 T 细胞淋巴瘤（PTCL）的注册性 3 期（soquelitinib 对 belinostat 或 pralatrexate，主要终点 PFS）主要终点数据；CT.gov 预计主要完成 2027-11，读出时间为估算。原文：\"Corvus continues to enroll patients in a registrational Phase 3 clinical trial of soquelitinib in patients with relapsed/refractory PTCL\"、\"The primary endpoint of the trial is progression free survival\"（MAN-CRVS-2）。此前有中期无效性分析：\"It is anticipated that this will occur sometime in early 2027\"（SEC-0001104659-26-091975），公司未给季度。AD 适应症本身的下一事件是 2 期 SIERRA1 读出（CT.gov NCT07441395 预计主要完成 2027-06，估算，重要性中）。"
+timing = "2027-11"
+importance = "high"
+certainty = "estimated"
+sources = ["CTG-NCT06561048", "MAN-CRVS-2", "SEC-0001104659-26-091975", "CTG-NCT07441395"]
+
+[rights]
+status = "partial"
+note = "事实：大中华区（中国大陆、台湾、澳门、香港）权益已授权给 Angel Pharmaceuticals，其余全球权益归 Corvus。原文：\"Except for Greater China, we own the world-wide rights to these product candidates.\"（SEC-0001104659-26-091975；10-K 同句，MAN-CRVS-1）、\"hold exclusive worldwide rights (except for greater China) for all indications\"（MAN-CRVS-1）、\"develop, manufacture, and commercialize soquelitinib, ciforadenant and mupadolimab compounds for distribution within the countries of China, Taiwan, Macao, and Hong Kong\"（SEC-0001104659-26-091975）。Angel 为 Corvus 持股约 48.6% 的权益法投资对象：\"the Company’s ownership interest in Angel Pharmaceuticals was approximately 48.6 %\"（同上）。10-K 与 10-Q 中未检索到 right of first negotiation、option、co-commercialization 或 profit share 条款。soquelitinib 无引进许可：10-Q 附注 7 只列 Vernalis（ciforadenant）、Scripps（抗 CD73）、Monash（CXCR2）三项，ITK 专利为自有：\"We have issued patents covering composition of matter and uses of our ITK inhibitors\"（同上）。债务：10-Q 未检索到借款或票据；融资来源为增发与 ATM：\"$200.0 million remained available for sale under the Amended Sales Agreement\"（同上）。"
+sources = ["SEC-0001104659-26-091975", "MAN-CRVS-1"]

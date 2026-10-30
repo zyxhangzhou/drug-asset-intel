@@ -1,0 +1,50 @@
+verified_by = ""
+program = "ERAS-0015"
+indication = "Metastatic Solid Tumors"
+buyer = "AstraZeneca"
+preference_rank = 1
+deal_form = "收购"
+need_item = "肺癌、乳腺癌、血液瘤的ADC、双抗、多特异和靶向小分子（AZ-1、AZ-2）"
+match_note = "ERAS-0015 是 pan-RAS 分子胶，在 1 期中以 2L+ KRAS G12X 非小细胞肺癌（NSCLC）为主要数据适应症之一，公司计划在 2L+ NSCLC 和 RAS 突变 NSCLC 启动潜在注册试验，对应 AZ 画像中的「肺癌」「靶向小分子」；原文：\"ERAS-0015 is a potential best-in-class, next-generation pan-RAS molecular glue in clinical development for the treatment of patients with RAS-mutated solid tumors\"、\"Potentially registration-enabling trial in 2L+ NSCLC expected to initiate in the first half of 2027\"（SEC-0001193125-26-344611）。把分子胶归为「靶向小分子」是推断（中高）：10-K 称其为 \"pan-RAS molecular glue\"，并提及 \"improved potency and oral bioavailability\"（MAN-ERAS-2），未直接写 small molecule。组合冲突只按 10-K 竞争段核查：RAS/MAPK 通路在研公司名单为 \"Adlai Nortye, Amgen, Boehringer Ingelheim, BridgeBio Oncology Therapeutics, Bristol Myers Squibb, Eli Lilly, GenFleet Therapeutics, Jacobio Pharmaceuticals, Merck, Pfizer, Revolution Medicines, and Roche/Genentech\"（MAN-ERAS-2），不含 AstraZeneca；AZ 自身 RAS 管线未用一手来源核查（未核查组合冲突）。"
+thesis = [
+  "AstraZeneca 需要「肺癌、乳腺癌、血液瘤的…靶向小分子」；Erasca 的 ERAS-0015（pan-RAS 分子胶，RAS 突变实体瘤，重点为 2L+ KRAS G12X 非小细胞肺癌与胰腺癌，1 期）对应这一需求，因为公司报告 2L+ KRAS G12X NSCLC 在药理活性剂量下 62% uORR（N=37），并计划 2027 年上半年在 2L+ NSCLC 启动潜在注册试验，且 ERAS-0015 已通过行使 Joyo 期权取得全球独占许可。",
+  "证据是 1 期剂量递增的初步数据（美国 AURORAS-1 与 Joyo 中国 JYP0015M101 合并，含未确认缓解，与 RMC-6236 只有跨试验比较，另有 1 例 5 级肺炎死亡）；下一事件是 2L+ NSCLC 潜在注册试验启动（2027 年上半年，明确披露）；主要障碍是知识产权纠纷：Revolution Medicines 来函指控 ERAS-0015 等同侵犯其美国专利并涉及商业秘密，同时快照 EV 约 49 亿美元（按 6 月 30 日现金，未计 7 月 5.935 亿美元增发净额），收购还须承接 Joyo 里程碑与特许权使用费。",
+]
+thesis_sources = ["AZ-1", "AZ-2", "SEC-0001193125-26-344611", "MAN-ERAS-1", "MAN-ERAS-2", "CTG-NCT06983743", "NASDAQ-ERAS-2026-10-28"]
+
+[scores.buyer_fit]
+score = 4
+confidence = "medium"
+reason = "AZ 第 1 治疗领域（肿瘤）画像点名「肺癌」「靶向小分子」；ERAS-0015 的主要人体数据和首个潜在注册试验都在 2L+ KRAS G12X NSCLC；原文：\"62% uORR 8wk (N=37) in second line or greater (2L+) KRAS G12X NSCLC\"、\"Potentially registration-enabling trial in 2L+ NSCLC expected to initiate in the first half of 2027\"（SEC-0001193125-26-344611）。10-K 竞争段 RAS/MAPK 通路在研公司名单不含 AstraZeneca（原文：\"target the nodes involving the RAS/MAPK pathway\"，MAN-ERAS-2）。置信度取中：分子胶归为靶向小分子是推断；AZ 自身 RAS 管线未核查。未选 Roche #1（画像点名 KRAS，文字最贴近），因为 Roche/Genentech 在该 10-K 竞争名单中，同机制冲突无法排除，最高只能给 3 分。"
+sources = ["AZ-1", "AZ-2", "SEC-0001193125-26-344611", "MAN-ERAS-2"]
+
+[scores.stage_match]
+score = 2
+confidence = "high"
+reason = "AZ 该行 ideal_stage 为「Phase 2-3」（人工映射 phase2–phase3）；ERAS-0015 在公司自有试验中处于 1 期，差一个阶段；原文：\"We initiated monotherapy expansion cohorts and combination dose escalation cohorts, including a panitumumab combination cohort, as part of the AURORAS-1 trial\"（SEC-0001193125-26-344611）。注意：许可方 Joyo 已在中国启动 2 期，原文：\"based upon feedback from Joyo that Joyo had dosed the first patient in a Phase 2 clinical trial\"（SEC-0001193125-26-344611）；该试验未在 pack 中，设计与数据未见，故不据此升档。"
+sources = ["AZ-1", "SEC-0001193125-26-344611", "CTG-NCT06983743"]
+
+[scores.clinical]
+score = 2
+confidence = "medium_high"
+reason = "1 期剂量递增的早期阳性信号：原文：\"62% uORR 8wk (N=37) in second line or greater (2L+) KRAS G12X NSCLC, which exceeded comparator by 24 percentage points\"（SEC-0001193125-26-344611）。缓解含未确认缓解（\"ORR (confirmed and unconfirmed responses)\"），为中美两项试验合并数据，与 RMC-6236 只有跨试验比较，且有 1 例 5 级肺炎死亡；按 §3.3 给 2 分，不足以认定单臂注册级别的明显效应。"
+sources = ["SEC-0001193125-26-344611", "CTG-NCT06983743"]
+
+[clinical]
+design = "美国 AURORAS-1（NCT06983743，1 期剂量递增 + 扩展）与 Joyo 在中国的 JYP0015M101 1 期合并分析，入组 RAS 突变实体瘤（CRC、NSCLC、PDAC），单臂、无对照；原文：\"include patients with RAS-mutant solid tumors, including colorectal cancer (CRC), non-small-cell lung cancer (NSCLC), and pancreatic adenocarcinoma (PDAC)\"、\"AURORAS-1 data cutoff (DCO) 4Apr2026; JYP0015M101 DCO 27Feb2026\"；RDE 选定 \"24 mg and 32 mg QD were selected as the go-forward monotherapy RDEs\"（SEC-0001193125-26-344611）。"
+comparability = "无对照组，无与标准治疗的直接比较。公司把结果与 RevMed 的 RMC-6236 已发表数据对比（\"Comparator as used in this report, RMC-6236\"，SEC-0001193125-26-344611），属跨试验比较，人群与终点定义可能不同；RevMed 已来函指控公司不当比较（\"improperly compared preclinical data of ERAS-0015 and RMC-6236\"）。"
+result = "2L+ KRAS G12X NSCLC：药理活性剂量 16–32 mg QD 下 \"62% uORR 8wk (N=37)\"，RDE 24–32 mg QD 下 \"64% uORR 8wk (N=25) in 2L+ KRAS G12X NSCLC\"；2L KRAS G12X PDAC：\"40% uORR 14wk (N=20) in 2L KRAS G12X PDAC\"；7 月更新（美国试验，DCO 2026-05-25）：\"57% uORR 8wk (N=7) at RDE of 32 mg QD\"（2L+ PDAC）；药效学：\"100% of patients (14/14) showing at least 75% reduction in KRAS G12X variant allele fraction\"（SEC-0001193125-26-344611）。"
+limitation = "缓解率含未确认缓解：\"The uORR 8wk is the ORR (confirmed and unconfirmed responses)\"；样本小（RDE 下 PDAC 只有 N=2 或 N=7），随访短，无 PFS / OS 数据；中国数据来自 Joyo 主办的试验。安全性：\"One Grade 3 TRAE of pneumonitis progressed to Grade 5 after withdrawal of supportive care per patient decision\"（SEC-0001193125-26-344611）。只有公司披露，无同行评议全文。"
+sources = ["SEC-0001193125-26-344611", "MAN-ERAS-1", "CTG-NCT06983743"]
+
+[event]
+text = "ERAS-0015 在 2L+ 非小细胞肺癌（2L+ NSCLC）启动潜在注册试验；原文：\"Potentially registration-enabling trial in 2L+ NSCLC expected to initiate in the first half of 2027\"（MAN-ERAS-1、SEC-0001193125-26-344611）。同期还计划在 1L 胰腺癌启动 3 期，只披露年份：\"Phase 3 pivotal trial in 1L PDAC expected to initiate in 2027\"；1 期扩展与联合数据 \"expected in the first half of 2027\"。"
+timing = "2027H1"
+importance = "medium"
+certainty = "disclosed"
+sources = ["MAN-ERAS-1", "SEC-0001193125-26-344611"]
+
+[rights]
+status = "full"
+note = "事实：ERAS-0015 从 Guangzhou Joyo Pharmatech 引进。原许可为 \"exclusive, worldwide (except mainland China, Hong Kong, and Macau), royalty-bearing license\"；2026 年 3 月公司 \"was exercising its option to expand its territory under the Joyo License Agreement to include mainland China, Hong Kong, and Macau\"，并支付 \"$ 150.0 million\"，因此现为全球独占许可；可分许可：\"The Company has the right to sublicense (through multiple tiers)\"（SEC-0001193125-26-344611）。对许可方的义务：\"development and regulatory milestone payments of up to $ 57.5 million and commercial milestone payments of up to $ 125.0 million\"，\"tiered royalties on net sales of all licensed products, in the low- to mid-single digit percentages\"（SEC-0001193125-26-344611）。终止时 \"Joyo has an option to negotiate a license\"（MAN-ERAS-2）。10-K / 10-Q 未见 ERAS-0015 的对外授权、选择权或共同开发；与 Tango、Merck 的协议只是临床试验合作与供药（\"we are providing ERAS-0015 to Tango at no cost\"、\"Merck is providing its anti-PD-1 therapy, KEYTRUDA ® (pembrolizumab), at no cost\"）。Joyo 主办的中国试验数据归属未披露（待核实）。知识产权风险：2026-04-24 \"we received a letter from legal counsel for Revolution Medicines, Inc. (RevMed)\"，指控 ERAS-0015 \"under the doctrine of equivalents\" 侵权，并称 \"a third party misappropriated RevMed\" 的商业秘密（SEC-0001193125-26-344611）。另有证券集体诉讼与股东派生诉讼（\"a purported securities class action complaint was filed against us\"）。无借款：10-Q 资产负债表负债只有应付账款、应计费用、经营租赁负债与其他负债（SEC-0001193125-26-344611）。"
+sources = ["SEC-0001193125-26-344611", "MAN-ERAS-2"]

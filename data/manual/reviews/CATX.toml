@@ -1,0 +1,50 @@
+verified_by = ""
+program = "VMT-Α-NET"
+indication = "Neuroendocrine Tumors"
+buyer = "Johnson & Johnson"
+preference_rank = 1
+deal_form = "许可"
+need_item = "BCMA及下一代血液瘤靶点、双特异抗体、ADC和放射性靶向药（JNJ-1、JNJ-2）"
+match_note = "[212Pb]VMT-α-NET（bamzireotide navoxetan）是靶向 SSTR2、递送 α 核素 212Pb 的放射性靶向药，对应 J&J 第 1 治疗领域画像中的「放射性靶向药」；原文：\"to target somatostatin receptor type 2 (SSTR2), a protein that is overexpressed in neuroendocrine tumors (NETs) and other cancers, and to deliver the alpha-emitting radioisotope 212 Pb to tumor sites expressing SSTR2\"（SEC-0001193125-26-342512）。组合冲突按 10-K 竞争段核查：NET 放射性配体竞品只列 Novartis（Lutathera）与 \"ITM, Bristol Myers Squibb (through its acquisition of RayzeBio), Eli Lilly (through its acquisition of POINT Biopharma) and Sanofi\"，无 J&J；J&J 只出现在 α 放射性药物开发者的泛列名单中（\"Convergent Therapeutics, Johnson & Johnson, ARTBIO and Abdera\"，未写适应症）（MAN-CATX-2）。J&J 画像列出的适应症以血液瘤为主，未点名 NET；10-K 之外的 J&J 管线未核查组合冲突。"
+thesis = [
+  "Johnson & Johnson 需要「BCMA及下一代血液瘤靶点、双特异抗体、ADC和放射性靶向药」；Perspective 的 VMT-α-NET（SSTR2 靶向 212Pb α 放射性配体，SSTR2 阳性神经内分泌肿瘤，1/2a 期、计划 2027 年启动 3 期）对应这一需求，因为它是放射性靶向药，且 10-K 列出的 NET 放射性配体竞品（Novartis、BMS、Lilly、Sanofi、ITM）中没有 J&J。",
+  "证据是单臂 1/2a 期剂量递增/扩展试验的中期数据：ORR（含未确认缓解）队列 2 为 33%（n=46）、队列 3 为 50%（n=20），全体 18 个月 PFS 率 72%，无 DLT 与 4/5 级 TEAE，但无对照组，与 Lutathera 等标准治疗无直接比较；下一事件是 NET 3 期启动（2027 年，公司只披露年份，按估算处理）；主要障碍是权益：Lantheus 持有就 VMT-α-NET 全球独家许可进行独家谈判的选择权，第三方报价时还可在一年内重新进入谈判。",
+]
+thesis_sources = ["JNJ-1", "JNJ-2", "MAN-CATX-1", "MAN-CATX-2", "SEC-0001193125-26-342512", "CTG-NCT05636618"]
+
+[scores.buyer_fit]
+score = 4
+confidence = "medium"
+reason = "J&J 第 1 治疗领域（肿瘤/血液肿瘤）画像点名「放射性靶向药」；VMT-α-NET 是 SSTR2 靶向 α 放射性配体，原文：\"deliver the alpha-emitting radioisotope 212 Pb to tumor sites expressing SSTR2\"（SEC-0001193125-26-342512）。10-K NET 竞品段未列 J&J：\"We are aware of the following companies with neuroendocrine tumor, radioligand preclinical and clinical development programs: ITM, Bristol Myers Squibb (through its acquisition of RayzeBio), Eli Lilly (through its acquisition of POINT Biopharma) and Sanofi.\"（MAN-CATX-2）。置信度取中：画像的适应症以血液瘤为主、未点名 NET；J&J 在 10-K 中被列为 α 放射性药物开发者（适应症未写），其早期管线未核查。复核人可降为 3。"
+sources = ["JNJ-1", "JNJ-2", "SEC-0001193125-26-342512", "MAN-CATX-2"]
+
+[scores.stage_match]
+score = 2
+confidence = "high"
+reason = "J&J 该行 ideal_stage 为「Phase 2-3」；VMT-α-NET 在 1/2a 期，3 期尚未启动，原文：\"ongoing Phase 1/2a clinical trial\"、\"Phase 3 initiation expected in 2027\"（MAN-CATX-1）。1/2 期与理想区间差一个阶段，得 2 分。"
+sources = ["JNJ-1", "MAN-CATX-1", "CTG-NCT05636618"]
+
+[scores.clinical]
+score = 2
+confidence = "medium_high"
+reason = "只有单臂、开放标签剂量递增/扩展 1/2a 期的中期阳性信号；ORR 含未确认缓解，各队列随访长度不同，原文：\"the objective response rate (ORR), including unconfirmed responses, was 33% in Cohort 2 (5.0 mCi, n=46) and 50% in Cohort 3 (6.0 mCi, n=20, as of September 10, 2026)\"、\"Cohort size and follow-up differ across cohorts.\"（MAN-CATX-1）。无随机对照，与标准治疗无比较，按 §3.3 得 2 分。"
+sources = ["MAN-CATX-1", "CTG-NCT05636618"]
+
+[clinical]
+design = "多中心、开放标签、剂量递增与剂量扩展 1/2a 期（NCT05636618），入组未接受过放射性药物治疗的不可切除或转移性 SSTR2 阳性肿瘤患者；ESMO 2026 分析 68 例（队列 1 2.5 mCi n=2、队列 2 5.0 mCi n=46、队列 3 6.0 mCi n=20，每 8 周最多 4 次）；原文：\"multi-center, open-label, dose-escalation and dose-expansion study (clinicaltrials.gov identifier NCT05636618)\"、\"ESMO presentation based on analysis of 68 patients across three dose cohorts\"（MAN-CATX-1）。"
+comparability = "单臂试验，无对照组；与 Lutathera（177Lu，SSTR2 阳性 GEP-NET 已上市）等标准治疗无直接比较。任何与已上市药的比较都是跨试验比较，人群与终点定义可能不同；本复核未打开 Lutathera 标签，不给比较数值。公司「best-in-class」为公司表述：\"reinforce the potential of VMT-α-NET to achieve a best-in-class profile\"（MAN-CATX-1）。"
+result = "ORR（含未确认）队列 2 为 33%（15/46）、队列 3 为 50%（10/20）；全部 SSTR2 阳性靶病灶的 GEP-NET 亚组 37%（14/38）与 47%（8/17）；DCR 89% 与 95%；全体 PFS 率 6 个月 86%、12 个月 74%、18 个月 72%；原文：\"15 of 46 (33%)\"、\"10 of 20 (50%)*\"、\"PFS rate was 86% at six months, 74% at 12 months, and 72% at 18 months across Cohorts 1, 2, and 3\"（MAN-CATX-1）。安全性：\"No dose-limiting toxicities (DLTs), Grade 4 or 5 treatment-emergent adverse events (TEAEs), or adverse event-related treatment discontinuations were reported\"；3 级 TEAE \"20 out of 68 patients, or 29%\"（MAN-CATX-1）。"
+limitation = "公司新闻稿中期数据，尚无同行评议全文；队列 3 的 10 例缓解中只有 6 例确认：\"Five of those responses were confirmed as of September 2, 2026, and an additional response was confirmed as of September 10, 2026\"（MAN-CATX-1）。ORR 与 PFS 率为单臂结果，NET 注册终点需 3 期验证。肾脏安全性仍在随访：\"Two patients (2.9%) had Grade 3 renal events, and renal function continues to be characterized over longer follow-up\"（MAN-CATX-1）。"
+sources = ["MAN-CATX-1", "CTG-NCT05636618"]
+
+[event]
+text = "VMT-α-NET 在 SSTR2 阳性神经内分泌肿瘤（NET）中启动 3 期（关键性试验启动），前提是与 FDA 召开 2 期结束会议；原文：\"positioning us to rapidly activate clinical sites following an End-of-Phase 2 meeting with the FDA, with Phase 3 initiation expected in 2027\"（MAN-CATX-1）。公司只披露年份，未给季度或半年，故确定性按估算处理。"
+timing = "2027"
+importance = "medium"
+certainty = "estimated"
+sources = ["MAN-CATX-1"]
+
+[rights]
+status = "restricted"
+note = "最新 10-Q 写明 Lantheus 持有 VMT-α-NET 全球独家许可的独家谈判选择权，谈判失败后第三方报价时仍有一年重新进入谈判权：\"Lantheus was granted an exclusive option to negotiate an exclusive, worldwide, royalty- and milestone-bearing right and license to [ 212 Pb]VMT-α-NET\"、\"Lantheus has a one-year right to reenter negotiations if a third party offers to purchase or license\"（SEC-0001193125-26-342512）。该选择权未见到期：资产负债表 \"Deferred Income (Note 3)\" 在 2026-06-30 与 2025-12-31 均为 26,600 千美元，期权负债\"will be recognized as income ... as the various options expire\"；已到期的只有公司层面的优先要约与最后一看权：\"right of first offer and last look protections ... which expired on January 8, 2025\"（SEC-0001193125-26-342512）。因此全资收购方案不成立，推荐交易形式取许可，且第三方许可本身会触发 Lantheus 的重新谈判权。引进义务：资产专利由 University of Iowa 独家许可：\"we have exclusively in-licensed from the University of Iowa patents and patent applications\"；\"The UIRF License is a royalty-bearing license\"，并须分成再许可收入：\"share a percentage of our proceeds that we derive from other agreements, like sublicense agreements\"（MAN-CATX-2）。其他：Lantheus 2024 年认购 \"19.99 % of the outstanding shares of Common Stock as of January 8, 2024\"，并有 ATM 参与权；债务为 Coralville 房产抵押票据，\"a balloon payment of approximately $ 1.5 million is due on December 29, 2027\"（SEC-0001193125-26-342512）。"
+sources = ["SEC-0001193125-26-342512", "MAN-CATX-2"]

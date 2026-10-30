@@ -1,0 +1,50 @@
+verified_by = ""
+program = "RP2"
+indication = "Metastatic Uveal Melanoma"
+buyer = "GSK"
+preference_rank = 1
+deal_form = "收购"
+need_item = "肺癌、血液瘤和实体瘤的已验证靶点小分子、ADC和免疫肿瘤资产（GSK-1、GSK-3、GSK-4；ideal_stage「Phase 2-3」）"
+match_note = "GSK 第 1 治疗领域（肿瘤）画像点名「实体瘤的…免疫肿瘤资产」；RP2 是溶瘤免疫疗法（HSV-1 骨架，表达抗 CTLA-4 抗体样分子），用于实体瘤转移性葡萄膜黑色素瘤（mUM），注册导向随机 2/3 期 REVEAL 正在入组。原文：\"Our proprietary RPx platform is based on a novel, engineered strain of herpes simplex virus 1\"、\"RP2 has been engineered to express an antibody-like molecule intended to block the activity of CTLA-4\"（SEC-0001628280-26-045886）；\"registration-directed study of RP2 in mUM patients who are immune checkpoint inhibitor-naïve\"（SEC-0001628280-26-067722）。画像只到「免疫肿瘤 + 实体瘤」层级，未点名葡萄膜黑色素瘤或溶瘤病毒，故只对应到领域 + 技术类型。同平台 RP1（TUDRIQEV）已获 FDA 加速批准：\"granted accelerated approval for TUDRIQEV\"（MAN-REPL-1）。未核查组合冲突：10-K 竞争段只列竞品类别（\"oncolytic immunotherapies, including T-Vec and other oncolytic immunotherapies in clinical trials\"），未列 GSK 产品；GSK 自身管线未查。"
+thesis = [
+  "GSK 需要「肺癌、血液瘤和实体瘤的…免疫肿瘤资产」（Phase 2-3）；Replimune 的 RP2（HSV-1 溶瘤免疫疗法、表达抗 CTLA-4 抗体样分子，转移性葡萄膜黑色素瘤，注册导向随机 2/3 期 REVEAL 入组中）对应这一需求，因为它是实体瘤免疫肿瘤资产，且同一 RPx 平台的 RP1（TUDRIQEV）已于 2026-08-06 获 FDA 加速批准。",
+  "证据是 1 期单臂 mUM 队列 ORR 29.4%（5/17）、中位 DOR 11.47 个月、DCR 58.8%，样本小且多为免疫治疗经治人群，与 REVEAL 的免疫检查点抑制剂初治人群不同，只能跨试验参照；下一事件是 REVEAL 由 2 期转入 3 期（2027 年第一季度，明确披露）；主要障碍是资金与债务：Hercules 有担保定期贷款未来应付本金 1.0245 亿美元（附契约限制），公司指引现金仅「greater than twelve months」，快照 EV 约 13.1 亿美元（<20 亿档），且收购标的价值主要在已上市的 TUDRIQEV 而非 RP2。",
+]
+thesis_sources = ["GSK-1", "GSK-3", "GSK-4", "SEC-0001628280-26-045886", "SEC-0001628280-26-067722", "MAN-REPL-1", "MAN-REPL-2", "CTG-NCT06581406", "NASDAQ-REPL-2026-10-28"]
+
+[scores.buyer_fit]
+score = 3
+confidence = "medium"
+reason = "RP2 落在 GSK 第 1 治疗领域（肿瘤），技术类型也符合画像中的「免疫肿瘤资产」「实体瘤」；但画像未点名葡萄膜黑色素瘤、溶瘤病毒或 CTLA-4，没有对应到一条具体需求，按 §3.1 给 3 分。原文：\"RP2 has been engineered to express an antibody-like molecule intended to block the activity of CTLA-4\"（SEC-0001628280-26-045886）。未核查组合冲突（10-K 竞争段只列类别：\"oncolytic immunotherapies, including T-Vec\"）。"
+sources = ["GSK-1", "GSK-3", "GSK-4", "SEC-0001628280-26-045886"]
+
+[scores.stage_match]
+score = 4
+confidence = "high"
+reason = "GSK 该行 ideal_stage 为「Phase 2-3」；RP2 mUM 处于随机 2/3 期 REVEAL（2 期部分入组中，2027Q1 转入 3 期），落在区间内。原文：\"The REVEAL study is a randomized, Phase 2/3 open label study expected to enroll approximately 280 patients\"（SEC-0001628280-26-045886）；\"The Phase 2/3 transition is expected to occur in the first quarter of 2027\"（SEC-0001628280-26-067722）。"
+sources = ["GSK-1", "SEC-0001628280-26-045886", "SEC-0001628280-26-067722", "CTG-NCT06581406"]
+
+[scores.clinical]
+score = 2
+confidence = "high"
+reason = "只有 1 期单臂 mUM 队列的早期阳性信号（17 例，单药与联合 nivolumab 混合），按 §3.3 给 2 分。原文：\"RP2 led to an ORR of 29.4% (5 of 17 patients\"、\"The median DOR at the data cutoff was 11.47 months\"（SEC-0001628280-26-045886）。REVEAL 尚无疗效数据。"
+sources = ["SEC-0001628280-26-045886"]
+
+[clinical]
+design = "RP2 1 期剂量递增/扩展试验中的 mUM 队列，单臂，RP2 单药或联合 nivolumab，17 例；原文：\"from our Phase 1 clinical trial of RP2 alone and in combination with nivolumab\"、\"one of the responding patients was treated with RP2 monotherapy and four of the responding patients were treated with RP2 combined with nivolumab\"（SEC-0001628280-26-045886）。"
+comparability = "单臂，无对照。人群多为免疫治疗经治：\"Nearly all patients (15 of 17, 88.2%) in the study had progressed on or after immunotherapy\"（SEC-0001628280-26-045886）；而 REVEAL 入组免疫检查点抑制剂初治患者，对照为 ipilimumab+nivolumab：\"RP2 in combination with nivolumab vs. ipilimumab in combination with nivolumab in immune checkpoint inhibitor naïve adult patients with metastatic uveal melanoma\"（SEC-0001628280-26-045886）。与任何标准治疗的比较都是跨试验比较，人群与终点定义可能不同。"
+result = "ORR 29.4%（5/17），中位 DOR 11.47 个月，DCR 58.8%；原文：\"RP2 led to an ORR of 29.4% (5 of 17 patients\"、\"The median DOR at the data cutoff was 11.47 months\"、\"the disease control rate for this cohort of mUM patients was 58.8%\"（SEC-0001628280-26-045886）。安全性：\"There were no grade 4 or 5 TRAEs\"（SEC-0001628280-26-045886）。"
+limitation = "样本 17 例；单药与联合混合；数据为 2023 年 11 月会议更新（\"In November 2023, we presented updated data from a cohort of mUM patients\"）与 2024 年 6 月 DCR 更新，10-K 未给出更新的疗效数据；未打开会议摘要或同行评议原文。REVEAL 主要终点为 OS 与 PFS：\"The primary endpoints of the trial are overall survival and progression free survival\"（SEC-0001628280-26-045886），尚未读出。"
+sources = ["SEC-0001628280-26-045886"]
+
+[event]
+text = "RP2 转移性葡萄膜黑色素瘤 REVEAL 试验由 2 期转入 3 期（关键性部分启动）；原文：\"The Phase 2/3 transition is expected to occur in the first quarter of 2027\"（SEC-0001628280-26-067722）。公司未说明转期时是否公布 2 期数据。"
+timing = "2027Q1"
+importance = "medium"
+certainty = "disclosed"
+sources = ["SEC-0001628280-26-067722", "CTG-NCT06581406"]
+
+[rights]
+status = "full"
+note = "推断（中高）：10-K 与 10-Q 未逐字写「全球权益」。RPx 平台为公司自有：\"Our proprietary RPx platform is based on a novel, engineered strain of herpes simplex virus 1\"，专利为公司申请：\"For the core technology in our RPx platform and each of our product candidates, we initially filed six patent applications under the Patent Cooperation Treaty\"（SEC-0001628280-26-045886）。10-K 附件清单中协议类只有 BMS（RP1、RP2）与 Regeneron 的临床试验合作及供药协议，无许可协议。BMS 只供药并授予 nivolumab 使用许可：\"BMS granted us a non-exclusive, non-transferrable, royalty-free license (with a right to sublicense) under its intellectual property to use nivolumab in the clinical trial\"、\"Both parties will own the study data produced in the clinical trial\"（SEC-0001628280-26-045886）；\"BMS supplied nivolumab is being used in the conduct of the REVEAL clinical trial\"（SEC-0001628280-26-067722）。数据共有，但不是选择权、优先谈判权或共同开发。Roche（RP2 HCC 供药）：\"retaining all the rights to the development and commercialization of our product candidates\"（SEC-0001628280-26-045886）。未见对许可方的特许权使用费或里程碑义务；风险因素中有模板句 \"our licensed patents\"，未找到对应许可协议，列入待核实。债务：Hercules 有担保定期贷款，\"aggregate maximum principal amount of up to $ 200.0 million\"，2026 年 9 月 \"drew down the initial tranche 4 amount of $ 15.0 million\"，未来应付本金合计 \"102,453\"（千美元），契约 \"could prevent us from taking certain actions without the consent of our lenders\"（SEC-0001628280-26-067722）。控制权变更时的提前还款条款未核查。"
+sources = ["SEC-0001628280-26-045886", "SEC-0001628280-26-067722"]

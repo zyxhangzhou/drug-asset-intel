@@ -1,0 +1,50 @@
+verified_by = ""
+program = "NX-5948"
+indication = "Chronic Lymphocytic Leukemia"
+buyer = "Roche"
+preference_rank = 1
+deal_form = "合作"
+need_item = "KRAS、ER、肺癌和血液瘤的精准小分子、ADC、双抗及伴随诊断（ROCHE-1、ROCHE-2、ROCHE-4）；技术偏好行「ADC、双特异和精准靶向小分子」"
+match_note = "bexobrutideg（NX-5948）是口服、可入脑的 BTK 降解剂小分子，用于复发/难治 CLL/SLL；原文：\"an investigational oral CNS-penetrant BTK degrader\"（MAN-NRIX-2）。它对应 Roche 第 1 治疗领域画像中的「血液瘤的精准小分子」。但 Roche 已是该资产的全球独家被许可方，原文：\"the Company granted Roche an exclusive, worldwide license\"（SEC-0001549595-26-000049）。因此本组合不是新交易机会，只是记录现有合作；其他买方无可交易的 bexobrutideg 权益。10-K 竞争段只写 \"We are also aware of clinical-staged BTK degraders currently in development by multiple companies\"（SEC-0001549595-26-000016），未点名买方产品；未核查组合冲突。建议不入选。"
+thesis = [
+  "Roche 需要「血液瘤的精准小分子」；Nurix 的 bexobrutideg（NX-5948，口服 BTK 降解剂，复发/难治 CLL/SLL，3 期）对应这一需求，因为它在 BTK 抑制剂经治、高危突变患者中显示缓解，原文：\"Responses were observed across patients with BTK inhibitor resistance mutations\"（MAN-NRIX-3）。",
+  "证据是 1a 期单臂剂量递增数据（n=48，ORR 83.0%，中位 PFS 22.1 个月，跨试验比较，无随机对照）；下一事件是关键单臂 2 期 DAYBreak CLL-201 主要终点完成（2028-01，估算）；主要障碍是权益：Nurix 已授予 Roche 全球独家许可，美国 50/50 共同开发与共同商业化、美国以外由 Roche 商业化，原文：\"granted Roche an exclusive, worldwide license\"（SEC-0001549595-26-000049）。",
+]
+thesis_sources = ["ROCHE-1", "ROCHE-2", "ROCHE-4", "MAN-NRIX-2", "MAN-NRIX-3", "SEC-0001549595-26-000049", "CTG-NCT07221500"]
+
+[scores.buyer_fit]
+score = 3
+confidence = "medium"
+reason = "资产落在 Roche 第 1 治疗领域（肿瘤/精准医疗，画像点名「血液瘤的精准小分子」），技术类型符合「精准靶向小分子」行；原文：\"an investigational oral CNS-penetrant BTK degrader\"（MAN-NRIX-2）。不给 4 分：Roche 已持有该资产全球独家许可（\"the Company granted Roche an exclusive, worldwide license\"，SEC-0001549595-26-000049），按 §3.1 买方已持有同机制、同适应症资产的条款，本组合不能算新需求的满足；签核人可据此改为 0。未核查 Roche 其他组合冲突。"
+sources = ["ROCHE-1", "ROCHE-2", "ROCHE-4", "MAN-NRIX-2", "SEC-0001549595-26-000049", "SEC-0001549595-26-000016"]
+
+[scores.stage_match]
+score = 4
+confidence = "high"
+reason = "Roche 该行 ideal_stage 为「Phase 2-3」；bexobrutideg 在 CLL 有关键单臂 2 期与 3 期在进行，原文：\"This Phase 3 study, the DAYBreak CLL-306 trial, enrolled its first patient in August 2026.\"（SEC-0001549595-26-000049），以及 \"Enrolled the first patient in DAYBreak CLL-306 (NCT07516093)\"（MAN-NRIX-3）。"
+sources = ["ROCHE-1", "SEC-0001549595-26-000049", "MAN-NRIX-3", "CTG-NCT07516093", "CTG-NCT07221500"]
+
+[scores.clinical]
+score = 2
+confidence = "medium"
+reason = "只有 1 期单臂数据：1a 期剂量递增（50–600 mg）在重度经治 R/R CLL/SLL 中 \"Objective response rate (ORR) was 83.0% (95% CI: 69.2–92.4)\"、\"Median progression-free survival (PFS) was 22.1 months (95% CI: 14.0–NR)\"（MAN-NRIX-2）。按 §3.3 为早期（1 期 / 单臂）阳性信号，2 分。关键单臂 2 期 CLL-201 与随机 3 期 CLL-306 尚无数据；与 pirtobrutinib 等标准治疗只能跨试验比较。"
+sources = ["MAN-NRIX-2", "CTG-NCT05131022"]
+
+[clinical]
+design = "NX-5948-301 1a/1b 期、开放标签、单臂。1a 期剂量递增：\"The Phase 1a dose escalation study enrolled 48 patients with relapsed/refractory CLL/SLL treated with bexobrutideg at doses ranging from 50 mg to 600 mg once daily\"；患者 \"having received a median of four prior lines of therapy (range 2–12)\"。1b 期较早线队列：Cohort 5（BTKi 经治、BCL2i 未治，n=19）与 Cohort 15（BTKi 未治含初治，n=20）（MAN-NRIX-2）。"
+comparability = "无对照组。与 pirtobrutinib 或其他 BTK 抑制剂的任何比较都是跨试验比较，人群与终点定义可能不同；1a 期合并了 50–600 mg 多个剂量，注册剂量为 600 mg。头对头比较在 3 期 CLL-306 中进行：\"designed to evaluate the potential superiority of bexobrutideg versus pirtobrutinib in approximately 620 patients\"（MAN-NRIX-3），尚无结果。"
+result = "1a 期（n=48，中位随访 22.4 个月）：\"Objective response rate (ORR) was 83.0% (95% CI: 69.2–92.4)\"，\"Median progression-free survival (PFS) was 22.1 months (95% CI: 14.0–NR)\"。1b 期：Cohort 5 \"ORR was 92.9% (95% CI: 66.1–99.8) among evaluable patients (n=14)\"；Cohort 15 \"ORR was 84.2% (95% CI: 60.4–96.6) among evaluable patients (n=19)\"。安全性（n=142）：\"No dose-limiting toxicities were observed\"，\"Treatment discontinuations due to adverse events occurred in only 5.6% of patients\"（MAN-NRIX-2）。"
+limitation = "单臂 1 期，样本小；1b 期中位随访只有约 5 个月（\"Median follow-up was 5.2 months\"，MAN-NRIX-2），较早线队列 ORR 置信区间宽；数据截止 2026-01-01，来自公司新闻稿与 EHA 报告，未见同行评议全文；关键单臂 2 期与随机 3 期尚无读出。"
+sources = ["MAN-NRIX-2", "MAN-NRIX-3", "CTG-NCT05131022"]
+
+[event]
+text = "CLL：关键单臂 2 期 DAYBreak CLL-201（NCT07221500）主要终点完成，用于可能的加速批准申请；原文：\"the pivotal single-arm Phase 2 trial designed to support a potential Accelerated Approval submission\"（MAN-NRIX-3）。公司文件未披露读出或申报的季度；时间取 CT.gov 预计主要完成日 2028-01，读出时间为推断。"
+timing = "2028-01"
+importance = "high"
+certainty = "estimated"
+sources = ["MAN-NRIX-3", "CTG-NCT07221500"]
+
+[rights]
+status = "restricted"
+note = "最新 10-Q（截至 2026-08-31）合作附注：\"the Company granted Roche an exclusive, worldwide license, including with respect to the Company and its affiliates, to develop, manufacture, commercialize and otherwise exploit bexobrutideg\"；\"The Company and Roche will co-develop and co-commercialize bexobrutideg in the United States across all indications, and Roche will commercialize bexobrutideg outside the United States.\"；\"The parties will equally share net profits and net losses from commercialization in the United States.\"；美国以外 Nurix 收 \"tiered royalties at rates ranging from the low teens to the high teens\"；成本分摊 \"Global development costs will be shared 40 % by the Company and 60 % by Roche\"。Roche 可随时终止：\"each of Gilead, Sanofi, Pfizer and Roche can terminate its agreement with us in its entirety\"（SEC-0001549595-26-000049）。bexobrutideg 为自有发现（10-K：\"Our wholly owned pipeline of drug candidates comprises three clinical stage oncology programs\"，SEC-0001549595-26-000016），未见对第三方许可方的特许权使用费或里程碑义务。债务：10-Q 资产负债表负债只有应付账款、应计负债、经营租赁、递延收入与递延合作资金（\"Total liabilities | 226,987\" 千美元），无票据或贷款。资金：\"runway into the second half of 2029\"（MAN-NRIX-3）；10-Q：\"sufficient to fund our operations for at least the next 12 months\"。结论：受限；收购方案不成立，仅与 Roche 的现有合作兼容。"
+sources = ["SEC-0001549595-26-000049", "SEC-0001549595-26-000016", "MAN-NRIX-1", "MAN-NRIX-3"]

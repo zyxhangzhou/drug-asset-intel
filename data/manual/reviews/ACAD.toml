@@ -1,0 +1,50 @@
+verified_by = ""
+program = "ACP-204"
+indication = "Alzheimer's Disease Psychosis"
+buyer = "AbbVie"
+preference_rank = 2
+deal_form = "收购"
+need_item = "抑郁、精神分裂症、阿尔茨海默病/抗tau、偏头痛等可形成新神经平台的资产（ABBV-1、ABBV-5）；技术偏好行「口服中枢小分子」（ABBV-1、ABBV-5）"
+match_note = "remlifanserin（原 ACP-204）是高选择性 5-HT2A 反向激动剂，用于阿尔茨海默病精神病（幻觉与妄想），每日一次给药；原文：\"Remlifanserin is a novel, highly selective 5HT2A receptor inverse agonist being developed to treat Alzheimer’s disease psychosis and Lewy body dementia psychosis.\"（MAN-ACAD-2）。它落在 AbbVie 第 2 治疗领域（神经科学）画像中的「阿尔茨海默病」，但画像写的是「阿尔茨海默病/抗tau」，偏疾病修饰；ADP 是症状治疗，故不按「具体需求条目」计 4 分。技术类型对应「口服中枢小分子」：公司称其为 \"a new chemical entity\"（MAN-ACAD-1），CT.gov 写 \"Administration once daily at approximately the same time of day, with or without food\"（CTG-NCT06159673），口服为推断（中高）。AbbVie 技术行要求「有明确认知/情绪疗效」，本资产不针对认知/情绪，此点不满足。10-K 竞争段未点名任何买方产品；未核查组合冲突。"
+thesis = [
+  "AbbVie 需要「抑郁、精神分裂症、阿尔茨海默病/抗tau……可形成新神经平台的资产」；Acadia 的 remlifanserin（原 ACP-204，高选择性 5-HT2A 反向激动剂，阿尔茨海默病精神病，3 期）对应这一需求，因为它是针对阿尔茨海默病幻觉与妄想的每日一次中枢小分子，而该适应症目前没有 FDA 批准药物。",
+  "证据是 2 期 RADIANT 随机对照试验 60 mg 组主要终点 SAPS-H+D 未达统计学显著（p=0.0603），关键次要终点 CGI-S-ADP 名义显著（p=0.0077），仅有安慰剂对照；下一事件是 RADIANT 3 期主要终点完成（2028-01，估算，CT.gov 主方案预计主要完成日）；主要障碍是成本：快照 EV 约 25.4 亿美元（20–50 亿档），且收购需连同 NUPLAZID 与 DAYBUE 两个上市业务一并定价。",
+]
+thesis_sources = ["ABBV-1", "ABBV-5", "MAN-ACAD-1", "MAN-ACAD-2", "SEC-0001193125-26-333243", "CTG-NCT06159673", "NASDAQ-ACAD-2026-10-28"]
+
+[scores.buyer_fit]
+score = 3
+confidence = "medium"
+reason = "资产落在 AbbVie 第 2 治疗领域（神经科学，画像点名「阿尔茨海默病」），技术类型符合「口服中枢小分子」行（每日一次小分子，口服为推断）；但画像中的阿尔茨海默病限定为「/抗tau」方向，技术行要求「有明确认知/情绪疗效」，均不能逐条对上，故给 3 分不给 4 分。原文：\"highly selective 5HT2A receptor inverse agonist being developed to treat Alzheimer’s disease psychosis\"（MAN-ACAD-2）。未核查组合冲突（10-K 竞争段未点名买方产品）。"
+sources = ["ABBV-1", "ABBV-5", "MAN-ACAD-1", "MAN-ACAD-2", "CTG-NCT06159673"]
+
+[scores.stage_match]
+score = 4
+confidence = "high"
+reason = "AbbVie 该行 ideal_stage 为「Phase 2b-3」；remlifanserin ADP 已进入 3 期入组，原文：\"initiated screening and enrollment in the Phase 3 portion\"（SEC-0001193125-26-333243），并在 2 期读出后 \"plans to continue enrolling its two ongoing Phase 3 studies\"（MAN-ACAD-2）。"
+sources = ["ABBV-1", "SEC-0001193125-26-333243", "MAN-ACAD-2", "CTG-NCT06159673"]
+
+[scores.clinical]
+score = 0
+confidence = "medium"
+reason = "2 期 RADIANT 唯一主要终点（第 6 周 SAPS-H+D 较基线变化）未达统计学显著，原文：\"Narrowly missed primary endpoint of SAPS H+D (p=0.0603)\"（MAN-ACAD-2）。按 §3.3，主要终点失败且尚无后续数据解释时为 0 分。公司提供的支持性信息（关键次要终点名义显著 \"[p=0.0077 (nominal)]\"、剂量效应）来自同一份顶线公告，不算后续数据；详细数据将于 CTAD（2026 年 11 月 16–19 日）口头报告，届时可复核本分。"
+sources = ["MAN-ACAD-2", "CTG-NCT06159673"]
+
+[clinical]
+design = "RADIANT 2 期部分：全球多中心、随机、双盲、安慰剂对照，remlifanserin 30 mg 与 60 mg 每日一次对比安慰剂，6 周，计划入组约 318 例；原文：\"global, multi-center, randomized, double-blind, placebo-controlled trial that will enroll approximately 318 patients\"、\"The primary endpoint is change from baseline to week 6 on the Scale for the Assessment of Positive Symptoms–Hallucinations and Delusions subscales (SAPS-H+D) total score\"（MAN-ACAD-1）。2 期与两项 3 期在同一主方案下无缝入组：\"A Master Protocol for Three Independent, Seamlessly Enrolling, Double-blind, Placebo-controlled Efficacy and Safety Studies\"（CTG-NCT06159673）。"
+comparability = "仅安慰剂对照。ADP 无已批准药物可作直接对比：\"There is no FDA-approved drug for the treatment of Alzheimer’s disease psychosis.\"（MAN-ACAD-2）。与超说明书抗精神病药或 pimavanserin 既往试验的任何比较都是跨试验比较，人群与终点定义可能不同。"
+result = "60 mg 组 SAPS-H+D 变化 -12.6 对安慰剂 -10.4，标准化效应量 0.26，p=0.0603（未达显著）；关键次要终点 CGI-S-ADP -1.3 对 -0.9，效应量 0.37，名义 p=0.0077；30 mg 组几乎无改善；安全性与安慰剂相近，无 QT 延长信号。原文：\"demonstrated a change of -12.6 versus a -10.4 change for placebo at week 6, yielding a standardized effect size of 0.26 (p=0.0603)\"、\"The 30 mg dose showed minimal improvement across endpoints compared to placebo\"、\"There was no signal of QT prolongation versus placebo\"（MAN-ACAD-2）。"
+limitation = "主要终点未达标；次要终点 p 值为名义值（未经多重性校正）；分析人群为预设 mFAS，未见 ITT 结果；数据只来自公司顶线公告，同行评议全文与 CTAD 报告尚未发布；公司随后修改 3 期方案（\"removing the 30 mg dosage arm\"，MAN-ACAD-2），3 期设计与样本量变更细节未披露。"
+sources = ["MAN-ACAD-1", "MAN-ACAD-2", "CTG-NCT06159673"]
+
+[event]
+text = "阿尔茨海默病精神病 RADIANT 3 期部分（两项 3 期研究）主要终点完成/读出。公司在 2 期读出后只写 \"plans to continue enrolling its two ongoing Phase 3 studies evaluating remlifanserin in ADP while implementing amendments to the Phase 3 program\"（MAN-ACAD-2），未披露 3 期读出时间；时间取 CT.gov 主方案 NCT06159673（\"A Master Protocol for Three Independent, Seamlessly Enrolling\"）预计主要完成日 2028-01（2026-10-16 更新），该日期覆盖整个主方案，是否即 3 期读出为推断。"
+timing = "2028-01"
+importance = "high"
+certainty = "estimated"
+sources = ["MAN-ACAD-2", "CTG-NCT06159673"]
+
+[rights]
+status = "full"
+note = "推断（中高）：10-K 写明 remlifanserin 是公司自行发现与开发的新化合物，原文：\"Remlifanserin is a new chemical entity that we discovered and developed\"；专利为公司持有：\"We currently hold two U.S. patents that relate to remlifanserin and methods of use of remlifanserin\"，物质组成专利 \"currently has an expiration date in 2038\"（MAN-ACAD-1）。10-K 列出的引进许可只涉及其他资产：trofinetide 与 ACP-2591（Neuren）、ACP-711（\"exclusive worldwide license agreement with Saniona A/S\"）、Stoke RNA 合作，均不含 remlifanserin。10-K 与最新 10-Q 中检索 right of first / option to license / co-develop / co-commercial / profit shar 均无结果。文件没有逐字写「全球权益」，故为推断。债务：最新 10-Q 资产负债表负债只有应付账款、应计负债、经营租赁及其他长期负债（\"Total liabilities\" 436,291 千美元），无票据或贷款；资金：\"will be sufficient to fund our planned operations through and beyond the next 12 months\"（SEC-0001193125-26-333243），经营现金流为正（自给）。"
+sources = ["MAN-ACAD-1", "SEC-0001193125-26-333243"]

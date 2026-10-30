@@ -1,0 +1,50 @@
+verified_by = ""
+program = "MRT-2359"
+indication = "Castration-Resistant Prostate Cancer"
+buyer = "Pfizer"
+preference_rank = 2
+deal_form = "收购"
+need_item = "ADC、双特异抗体、靶向小分子或放射性药物，覆盖乳腺、肺癌、泌尿和血液肿瘤（PFE-1、PFE-3）；并有 Xtandi（enzalutamide）美国 LOE 2027（MNC-WB）"
+match_note = "MRT-2359 是口服小分子 GSPT1 分子胶降解剂，聚焦转移性去势抵抗性前列腺癌（泌尿肿瘤），对应 Pfizer 第 2 治疗领域画像中的「靶向小分子」「泌尿」；原文：\"MRT-2359 is an orally bioavailable MGD targeting the translation termination factor protein GSPT1\"、\"with a focus on metastatic castration-resistant prostate cancer\"（MAN-GLUE-1）。其 1/2 期数据来自与 enzalutamide（Pfizer 的 Xtandi，美国 LOE 2027，MNC-WB 标注「第三方引 10-K」）联用：\"MRT-2359 in combination with enzalutamide led to a 100% PSA response rate\"（MAN-GLUE-1），可作为 Xtandi 失去独占后在 AR 突变 mCRPC 的后续资产（推断，中）。组合冲突只按 10-K 竞争段核查：Pfizer 被列为 GSPT1/NEK7/CCNE1 各适应症的竞争者之一，原文：\"programs from AstraZeneca, Roche, Novo Nordisk, Novartis, Ventyx Biosciences, BioAge Labs, NodThera, Pfizer, Merck, BeOne Medicines, and Incyte Corporation\"（MAN-GLUE-1），未写明 Pfizer 有 GSPT1 降解剂；10-K 另提到 mCRPC 新兴联用药 \"including EZH2 inhibitors\"，未点名公司。未核查组合冲突（Pfizer 自有 mCRPC 联用项目未逐一核查）。"
+thesis = [
+  "Pfizer 需要「ADC、双特异抗体、靶向小分子或放射性药物，覆盖乳腺、肺癌、泌尿和血液肿瘤」，且 Xtandi（enzalutamide）美国 LOE 约 2027；Monte Rosa 的 MRT-2359（口服 GSPT1 分子胶降解剂，AR 突变转移性去势抵抗性前列腺癌，2 期）对应这一需求，因为它是靶向小分子、适应症属泌尿肿瘤，且 1/2 期正是与 enzalutamide 联用在重度经治 AR 突变患者中显示 PSA 与影像学缓解，资产为公司全资持有。",
+  "证据是 1/2 期单臂联用数据（15 例可评估患者 DCR 67%，AR 突变亚组 5/5 PSA 应答、2 例 RECIST PR 其中 1 例未确认），无对照、样本小、PSA 为替代终点；下一事件是 MODeFIRe-1 2 期（联用 apalutamide，最多 25 例 AR 突变 mCRPC）数据更新（公司称 2027 年，CT.gov 预计主要完成 2027-10，估算），此前 2026 年底更新 enzalutamide 联用组；主要障碍是公司层面权益：MRT-2359 本身全资、无债务、快照 EV 约 3.0 亿美元，但整体收购须一并承接 Novartis 的 MRT-6160 美国 30% 损益分担与 3 期共同出资义务、Novartis 两个免疫项目的期权以及持续到 2028 年 10 月的 Roche 合作。",
+]
+thesis_sources = ["PFE-1", "PFE-3", "MNC-WB", "MAN-GLUE-1", "MAN-GLUE-2", "MAN-GLUE-3", "SEC-0001193125-26-336711", "NASDAQ-GLUE-2026-10-28", "CTG-NCT07745361", "CTG-NCT05546268"]
+
+[scores.buyer_fit]
+score = 4
+confidence = "medium"
+reason = "Pfizer 第 2 治疗领域（肿瘤，补缺）画像点名「靶向小分子」与「泌尿」肿瘤；MRT-2359 为口服小分子 GSPT1 降解剂，适应症 mCRPC；原文：\"MRT-2359 is an orally bioavailable MGD targeting the translation termination factor protein GSPT1\"（MAN-GLUE-1）。并对应 Pfizer LOE 产品 Xtandi（enzalutamide，美国 LOE 2027，MNC-WB）所在领域，1/2 期正是联用 enzalutamide：\"MRT-2359 in combination with enzalutamide led to a 100% PSA response rate\"（MAN-GLUE-1）。10-K 竞争段把 Pfizer 列为适应症竞争者（\"NodThera, Pfizer, Merck\"，MAN-GLUE-1），但未写明同机制（GSPT1 降解）产品。置信度取中：分子胶降解剂归入「靶向小分子」是我们的判断；Pfizer 自有 mCRPC 管线未核查（未核查组合冲突）；Xtandi LOE 来源为对方材料转引。"
+sources = ["PFE-1", "PFE-3", "MNC-WB", "MAN-GLUE-1"]
+
+[scores.stage_match]
+score = 4
+confidence = "medium_high"
+reason = "Pfizer 该行 ideal_stage 为「Phase 2b-注册期」（人工映射 phase2–filed，Phase 2b 按 2 期处理）；MRT-2359 已有 1/2 期中的 2 期扩展组数据，并已启动 2 期 MODeFIRe-1；原文：\"the Phase 2 arm of our Phase 1/2 study\"（MAN-GLUE-1）、\"Monte Rosa has activated the MODeFIRe-1 Phase 2 study of MRT-2359\"（MAN-GLUE-2）。首例给药（公司计划 \"in Q3 2026\"，MAN-GLUE-2）未在已读文件中确认，故置信度取中高。"
+sources = ["PFE-1", "MAN-GLUE-1", "MAN-GLUE-2", "CTG-NCT07745361"]
+
+[scores.clinical]
+score = 2
+confidence = "high"
+reason = "1/2 期单臂联用 enzalutamide，早期阳性信号：原文：\"the overall disease control rate was 67% (10 of 15)\"、\"led to a 100% PSA response rate in patients identified as having AR mutations (5 out of 5 patients)\"（MAN-GLUE-1）。无对照组、可评估 15 例、AR 突变亚组 5 例，PSA 应答与 DCR 为替代终点，看不出相对标准治疗的优势，按 §3.3 给 2 分。"
+sources = ["MAN-GLUE-1", "CTG-NCT05546268"]
+
+[clinical]
+design = "1/2 期（NCT05546268）2 期扩展组：MRT-2359 0.5 mg 每日（21 天给药 / 7 天停药）联用 enzalutamide，入组重度经治、RECIST 可测量病灶的转移性 CRPC；截至 2026-01-30 入组 23 例、可评估 15 例；原文：\"reported results for 23 patients that had been enrolled as of the January 30 2026 data cut-off\"、\"Of the 23 patients enrolled as of the data cutoff, 15 were evaluable for efficacy\"、\"78% of patients had been previously treated with second generation androgen receptor inhibitors, 83% with chemotherapy, and 57% with Pluvicto\"（MAN-GLUE-1）。后续 2 期 MODeFIRe-1 为 Simon 两阶段设计、联用 apalutamide：\"The study is expected to enroll up to 25 patients with metastatic CRPC harboring AR mutations\"（MAN-GLUE-1）。"
+comparability = "单臂、无对照，无与标准治疗（如二代 AR 抑制剂单药、化疗、Pluvicto）的直接比较；10-K 中安全性与 EZH2 抑制剂等的比较为公司对第三方数据的跨试验比较，人群与终点定义可能不同；原文：\"the safety profile observed was favorable when our data was compared with third-party data on other drugs emerging as combination agents for metastatic CRPC\"（MAN-GLUE-1）。"
+result = "15 例可评估患者 DCR 67%、10/15 靶病灶缩小；AR 突变亚组 5/5 PSA 应答（2 例 PSA90、3 例 PSA50），2 例 RECIST PR（1 例确认、1 例未确认）、3 例 SD；原文：\"Across those 15 evaluable patients, the overall disease control rate was 67% (10 of 15)\"、\"This includes 2 PSA90 responses and 3 PSA50 responses\"、\"Two of the 5 AR mutant patients achieved a RECIST partial response (PR), one confirmed and one unconfirmed\"（MAN-GLUE-1）。安全性：\"One patient had a dose-limiting toxicity (DLT) (grade 3 stomatitis associated with pain)\"、\"No dose discontinuations were observed due to AEs\"（MAN-GLUE-1）。"
+limitation = "样本小（AR 突变亚组 5 例），疗效分析排除了 3 例神经内分泌转化患者：\"3 patients were excluded from data analysis based on molecular profiling of their baseline biopsies showing transformation to neuroendocrine differentiation\"（MAN-GLUE-1）；10-K 只对 AR 突变亚组报告全部 PSA 应答，AR 野生型 / AR-V7 患者的应答数未在文字中给出（图表未抽取）；PSA 与 DCR 为替代终点，无 rPFS / OS 数据；只有公司 10-K 与新闻稿，无同行评议全文。8-K 称该组 AR 突变患者最终入组 6 例（\"A total of 6 patients with AR mutation were enrolled\"，MAN-GLUE-2），第 6 例数据未公布。"
+sources = ["MAN-GLUE-1", "MAN-GLUE-2", "CTG-NCT05546268"]
+
+[event]
+text = "MODeFIRe-1 2 期（MRT-2359 联用 apalutamide，AR 突变 mCRPC）数据更新；原文：\"Ph 1/2 update in 2026; Ph 2 update in 2027\"（MAN-GLUE-3），公司只披露年份，时间取 CT.gov 预计主要完成日期 2027-10（CTG-NCT07745361），故为估算。此前公司明确披露 2026 年底更新 1/2 期 enzalutamide 联用组：\"Update on the initial Phase 1/2 expansion arm exploring MRT-2359 in combination with enzalutamide in advanced CRPC by the end of the year\"（MAN-GLUE-2）。"
+timing = "2027-10"
+importance = "medium"
+certainty = "estimated"
+sources = ["MAN-GLUE-3", "MAN-GLUE-2", "CTG-NCT07745361"]
+
+[rights]
+status = "full"
+note = "事实：10-K：\"worldwide rights to the programs shown in Figure 1 below, except for MGDs directed against VAV1 including MRT-6160, which we licensed to Novartis in October 2024, and the targets included in the Roche and Novartis relationships\"（MAN-GLUE-1），GSPT1 专利列在「Wholly Owned Product Candidates」下：\"With respect to our GSPT1 program, as of December 31, 2025, our portfolio included two granted US patents\"，最早到期 \"would be 2040\"（MAN-GLUE-1）。10-K 与 10-Q 的合作协议段只有 Roche（肿瘤 / 神经靶点，由 Roche 选定）与 Novartis（VAV1、免疫项目），未见 MRT-2359 的对外授权或引进许可，故无特许权使用费 / 里程碑义务（推断，中高）。Roche 靶点清单未公开，GSPT1 是否在内只能由「Wholly Owned」归类推断不在内。J&J 仅为 apalutamide 临床供药方：\"Monte Rosa has a clinical supply agreement with Johnson & Johnson to support the Phase 2 trial\"（MAN-GLUE-2），条款未披露，10-Q 未提及。无借款：10-Q 资产负债表负债只有应付账款、应计费用、递延收入、设定受益计划负债与经营租赁负债，无借款科目（SEC-0001193125-26-336711）。资金：\"support our cash runway into 2029\"（SEC-0001193125-26-336711）。整体收购时的公司层面负担：MRT-6160 \"will share 30% of any profits and losses associated with the manufacturing and commercialization of the licensed products in the U.S.\"；2025 Novartis 协议 \"the exclusive option to obtain exclusive, royalty-bearing, sublicensable and transferable licenses with respect to two programs\"；Roche 合作 \"at the conclusion of the Roche Agreement in October 2028\"（SEC-0001193125-26-336711）。"
+sources = ["MAN-GLUE-1", "MAN-GLUE-2", "SEC-0001193125-26-336711"]

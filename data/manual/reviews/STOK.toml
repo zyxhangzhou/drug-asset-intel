@@ -1,0 +1,50 @@
+verified_by = ""
+program = "ZOREVUNERSEN"
+indication = "Dravet Syndrome"
+buyer = "Novartis"
+preference_rank = 3
+deal_form = "许可"
+need_item = "神经退行性疾病遗传药物、放射性配体、ADC或新payload肿瘤药（NVS-3、NVS-4、NVS-6）；技术偏好行「xRNA/siRNA及递送」：递送、组织靶向或可重复给药平台，配套临床资产更佳（NVS-4、NVS-7）"
+match_note = "zorevunersen 是针对 SCN1A 单倍剂量不足的反义寡核苷酸（ASO），属遗传病 RNA 药物；原文：\"an antisense oligonucleotide designed to up-regulate NaV1.1 sodium channels\"（MAN-STOK-3）、\"Zorevunersen is designed to upregulate Na v 1.1 protein expression by leveraging the non-mutant (wild-type) copy of the SCN1A gene\"（MAN-STOK-1）。它对应 Novartis 第 3 治疗领域画像中的「遗传药物」，以及技术偏好行「xRNA/siRNA及递送」中的「可重复给药」（鞘内给药，维持期每 4 个月一次：\"Patients in these studies receive maintenance dosing of zorevunersen every 4 months (45mg)\"，MAN-STOK-1）。但画像限定为「神经退行性疾病」，Dravet 综合征是发育性癫痫性脑病：\"Dravet syndrome is a severe developmental and epileptic encephalopathy\"（MAN-STOK-1），不是神经退行性疾病，故不按「具体需求条目」计 4 分。组合冲突：10-K 竞争段点名的 Dravet 在研公司为 \"Ionis Pharmaceuticals, Lundbeck, Xenon Pharmaceuticals and Harmony Biosciences\" 及 Encoded Therapeutics，未出现 Novartis（MAN-STOK-1）；未见 Novartis 同机制同适应症资产。"
+thesis = [
+  "Novartis 需要「神经退行性疾病遗传药物」及「xRNA/siRNA及递送……可重复给药平台，配套临床资产更佳」；Stoke 的 zorevunersen（上调 NaV1.1 的 SCN1A 反义寡核苷酸，Dravet 综合征，3 期）对应这一需求，因为它是针对遗传病因的鞘内 RNA 药物、维持期每 4 个月给药一次，且已在关键 3 期中；但 Dravet 属发育性癫痫性脑病而非神经退行性疾病，对应度为中。",
+  "证据是 1/2a 期开放标签研究及其延伸研究（NEJM 2026）：70 mg 组在延伸期前 20 个月惊厥发作频率中位变化 -58.82% 至 -90.91%，无对照组，与自然史队列的倾向评分比较属跨试验比较；下一事件是 3 期 EMPEROR 主要分析读出（2027 年第 3 季度，明确披露），随后 2027 年下半年提交 NDA；主要障碍是权益：美国、加拿大、墨西哥以外权益已独家许可给 Biogen，且双方共同开发、开发费用 70/30 分摊，全资收购须连同 Biogen 合作一并承接，故推荐北美区域许可。",
+]
+thesis_sources = ["NVS-3", "NVS-4", "NVS-6", "NVS-7", "MAN-STOK-1", "MAN-STOK-2", "MAN-STOK-3", "SEC-0001193125-26-330557", "CTG-NCT06872125"]
+
+[scores.buyer_fit]
+score = 3
+confidence = "medium"
+reason = "资产落在 Novartis 第 3 治疗领域（神经科学，画像点名「遗传药物」），技术类型符合其第 1 技术偏好「xRNA/siRNA及递送」中的「可重复给药」；但画像限定「神经退行性疾病」，Dravet 是发育性癫痫性脑病，不能逐条对上，故给 3 分不给 4 分。原文：\"an antisense oligonucleotide designed to up-regulate NaV1.1 sodium channels\"（MAN-STOK-3）；\"Dravet syndrome is a severe developmental and epileptic encephalopathy\"（MAN-STOK-1）。10-K 竞争段未点名 Novartis，未见组合冲突。"
+sources = ["NVS-3", "NVS-4", "NVS-6", "NVS-7", "MAN-STOK-1", "MAN-STOK-3"]
+
+[scores.stage_match]
+score = 4
+confidence = "high"
+reason = "Novartis 该行 ideal_stage 为「早期平台至Phase 3」；zorevunersen 处于关键 3 期且入组完成，原文：\"Pivotal Phase 3 EMPEROR Study Progress: Global enrollment is now complete.\"（MAN-STOK-2）；10-K：\"initiated the global Phase 3 EMPEROR study in May 2025\"（MAN-STOK-1）。尚未提交 NDA，阶段仍为 3 期，落在区间内。"
+sources = ["NVS-3", "MAN-STOK-1", "MAN-STOK-2", "CTG-NCT06872125"]
+
+[scores.clinical]
+score = 2
+confidence = "high"
+reason = "现有人体疗效数据只来自 1/2a 期开放标签研究及延伸研究，主要分析为安全性与药代：\"two phase 1-2a, open-label, multicenter studies\"、\"The safety and pharmacokinetics of zorevunersen were assessed in the primary analysis\"（MAN-STOK-3）。疗效信号阳性但无对照：\"median change from baseline in convulsive-seizure frequency ranging from -58.82% to -90.91%\"（MAN-STOK-3）。按 §3.3 属「早期（1 期或单臂）阳性信号」，2 分。随机 3 期 EMPEROR 尚未读出。"
+sources = ["MAN-STOK-1", "MAN-STOK-3", "CTG-NCT04442295", "CTG-NCT04740476"]
+
+[clinical]
+design = "已完成：MONARCH（美国）与 ADMIRAL（英国）两项 1/2a 期开放标签多中心研究，单次及多次递增剂量鞘内给药，入组 81 例 2–18 岁患者，之后进入 SWALLOWTAIL / LONGWING 延伸研究；原文：\"two phase 1-2a, open-label, multicenter studies (MONARCH and ADMIRAL)\"、\"A total of 81 patients were enrolled in the phase 1-2a studies\"（MAN-STOK-3）。进行中：3 期 EMPEROR，原文：\"The pivotal Phase 3 study is a global, randomized, double-blind, sham controlled trial\"，主要终点 \"percent change from baseline in major motor seizure frequency in patients receiving zorevunersen as compared with sham\"（MAN-STOK-1）。"
+comparability = "1/2a 期无对照组，叠加在标准抗癫痫药之上（\"receiving standard antiseizure medications\"，MAN-STOK-3）。公司另做了与 BUTTERFLY 自然史队列的倾向评分加权比较：\"a propensity score weighted analysis comparing the effects of zorevunersen to the BUTTERFLY natural history study\"（MAN-STOK-1），属跨试验比较，人群与终点定义可能不同。与 Epidiolex、Fintepla 等已批准药物无直接对比。"
+result = "接受 70 mg（1–3 剂）后进入延伸期（≤45 mg）的患者，延伸期前 20 个月惊厥发作频率中位变化 -58.82% 至 -90.91%；原文：\"had a median change from baseline in convulsive-seizure frequency ranging from -58.82% to -90.91% across 1-month intervals during the first 20 months of the extension studies\"（MAN-STOK-3）。认知行为：\"The data supported improvements in overall clinical status, quality of life, and adaptive behavior\"（MAN-STOK-3）。"
+limitation = "开放标签、无对照、样本小；疗效为次要/探索性分析。安全性：\"2 died from sudden unexpected death in epilepsy\"、延伸期 \"an elevated protein level in cerebrospinal fluid (in 45%)\"、\"One patient had suspected unexpected serious adverse reactions\"（MAN-STOK-3）。3 期认知行为关键次要终点的分析方法刚与 FDA 对齐改为四个 Vineland-3 子域的多组分评估（\"a multicomponent assessment of four Vineland-3 subdomains\"，MAN-STOK-2），尚无随机对照数据验证。"
+sources = ["MAN-STOK-1", "MAN-STOK-2", "MAN-STOK-3", "CTG-NCT04442295", "CTG-NCT04740476", "CTG-NCT06872125"]
+
+[event]
+text = "Dravet 综合征 3 期 EMPEROR 主要分析（美国、英国、日本 162 例）数据读出，随后计划 2027 年下半年完成美国 NDA 提交。原文：\"data readout anticipated in Q3 2027 followed by the planned U.S. NDA submission in H2 2027\"（MAN-STOK-2）。CT.gov 预计主要完成日为 2027-03（CTG-NCT06872125），与公司披露的读出时间不同，以公司披露为准。"
+timing = "2027Q3"
+importance = "high"
+certainty = "disclosed"
+sources = ["MAN-STOK-2", "CTG-NCT06872125"]
+
+[rights]
+status = "restricted"
+note = "事实（10-Q 合作附注）：美国、加拿大、墨西哥以外权益已独家许可给 Biogen，双方共同开发并分摊费用，Biogen 另持有后续 SCN1A ASO 的许可选择权。原文：\"the Company granted Biogen an exclusive, royalty bearing license to develop, manufacture and commercialize licensed products outside the United States, Canada and Mexico\"、\"Biogen also has an option to exercise an exclusive, royalty-bearing, sublicensable and transferable license to certain future follow on antisense oligonucleotides\"、\"The parties are jointly developing zorevunersen, with the Company leading global development, and development costs are shared pursuant to an agreed budget, with the Company responsible for 70 % and Biogen responsible for 30 %.\"（SEC-0001193125-26-330557；10-K 同款，MAN-STOK-1）。按简报规则（共同开发 / 他方持有选择权即为受限）记 restricted；但选择权只涉及后续化合物，共同开发只是费用分摊、北美商业化权益仍在 Stoke，形态接近 BHVN / IDYA 的「区域许可 + 费用分摊」（判为 partial），复核人可改判为 partial（区域：美国、加拿大、墨西哥以外归 Biogen）。推荐交易形式为北美区域许可，与两种判法都兼容。引进许可：TANGO 平台及 zorevunersen 专利来自南安普顿大学，原文：\"we in-license key patents and patent applications for our proprietary protein upregulation platform, zorevunersen, STK-002\"（SEC-0001193125-26-330557），须付里程碑与销售特许权使用费，转授权收入需付 \"a mid-single digit percentage of the sublicense revenue to the University of Southampton\"，Biogen 交易已计提 \"a liability of $8.2 million for a sublicense fee expense\"（MAN-STOK-1）。债务：最新 10-Q 负债仅应付账款、应计负债、递延收入及其他长期负债，无票据或贷款。资金：\"This cash position is expected to fund operations into early 2028.\"（MAN-STOK-2，现金 $358.8M，截至 2026-09-30）。"
+sources = ["SEC-0001193125-26-330557", "MAN-STOK-1", "MAN-STOK-2"]

@@ -1,0 +1,50 @@
+verified_by = ""
+program = "PLOZASIRAN"
+indication = "Severe Hypertriglyceridemia"
+buyer = "Novartis"
+preference_rank = 1
+deal_form = "收购"
+need_item = "心血管-肾脏-代谢：「Lp(a)、心肾保护、肥胖并发症、血脂及代谢炎症资产」（NVS-1、NVS-3、NVS-4）；技术偏好第 1 位「xRNA/siRNA及递送」（NVS-4、NVS-7）"
+match_note = "plozasiran 是靶向 APOC3 的 siRNA，用于降低甘油三酯（血脂），同时对应 Novartis 治疗领域第 1 位中的「血脂」与技术偏好第 1 位「xRNA/siRNA」；原文：\"designed to suppress the production of apolipoprotein C-III (APOC3)\"（MAN-ARWR-2）。Novartis 与 Arrowhead 已有合作关系（ARO-SNCA，中枢神经领域，非组合冲突）：\"Novartis received an exclusive sublicensable worldwide license to the Company’s ARO-SNCA preclinical stage program\"（SEC-0000879407-26-000057）。组合冲突：已打开的文件中未见 Novartis 持有 APOC3 或 sHTG 产品；买方材料提到的 Leqvio 为 siRNA 血脂产品，其靶点与适应症未在已打开文件中核实，记为「未核查组合冲突」。"
+thesis = [
+  "Novartis 需要「血脂及代谢炎症资产」并把「xRNA/siRNA及递送」列为首位技术偏好；Arrowhead 的 plozasiran（APOC3 siRNA，重度高甘油三酯血症 sHTG，3 期已读出、FCS 适应症已获 FDA 批准）对应这一需求，因为它是已上市验证的 siRNA 降甘油三酯药物，正向更大的 sHTG 人群扩展。",
+  "证据是两项全球 3 期 SHASTA-3/SHASTA-4 均达到「相对安慰剂降低甘油三酯」的主要终点，甘油三酯中位降幅 79% 和 81%，汇总人群急性胰腺炎事件相对安慰剂减少 78%（只有安慰剂对照，与已上市 APOC3 药物无直接对比）；下一事件是 sHTG 适应症 sNDA 提交并使用优先审评券（公司称 2026 年底前，明确披露）；主要障碍是成本：EV 约 78–82 亿美元（市值按快照，现金与债务按 2026-06-30）（50–150 亿档），另有大中华区权益已归 Sanofi、Ionis 专利诉讼、7 亿美元可转债与 Sixth Street 信贷协议对资产出售和许可的限制条款。",
+]
+thesis_sources = ["NVS-1", "NVS-3", "NVS-4", "NVS-7", "MAN-ARWR-1", "MAN-ARWR-2", "SEC-0000879407-26-000057", "NASDAQ-ARWR-2026-10-28", "CTG-NCT06347003", "CTG-NCT06347016"]
+
+[scores.buyer_fit]
+score = 4
+confidence = "medium"
+reason = "Novartis 第 1 治疗领域画像点名「血脂」，第 1 技术偏好为「xRNA/siRNA及递送」；plozasiran 是 APOC3 siRNA 降甘油三酯药物，两端同时对应；原文：\"designed to suppress the production of apolipoprotein C-III (APOC3)\"（MAN-ARWR-2）。已打开的 10-K/10-Q 中未见 Novartis 同机制、同适应症产品，但未专门核查 Novartis 管线（Leqvio 靶点未在已打开文件中核实），故置信度取中。"
+sources = ["NVS-1", "NVS-3", "NVS-4", "NVS-7", "MAN-ARWR-2"]
+
+[scores.stage_match]
+score = 4
+confidence = "high"
+reason = "Novartis 该行 ideal_stage 为「Phase 2-3」；plozasiran 的 sHTG 适应症处于 3 期、尚未提交 sNDA：10-Q 管线表 \"plozasiran | Phase 3 | Arrowhead (1)\"（SEC-0000879407-26-000057），8-K 称 \"upcoming plozasiran sNDA submission, anticipated before the end of 2026\"（MAN-ARWR-2）。同一分子的 FCS 适应症已上市，不影响 sHTG 阶段判断。"
+sources = ["NVS-1", "SEC-0000879407-26-000057", "MAN-ARWR-2", "CTG-NCT06347003", "CTG-NCT06347016"]
+
+[scores.clinical]
+score = 3
+confidence = "medium_high"
+reason = "两项全球 3 期 SHASTA-3、SHASTA-4 均达到主要终点（相对安慰剂降低甘油三酯）及全部预设次要终点；原文：\"SHASTA-3 and SHASTA-4 successfully met the primary endpoint of triglyceride reduction versus placebo\"（MAN-ARWR-2）。主要终点为甘油三酯（替代终点）且只有安慰剂对照、无与标准治疗的直接对比，按 §3.3 最高 3 分。"
+sources = ["MAN-ARWR-2", "CTG-NCT06347003", "CTG-NCT06347016"]
+
+[clinical]
+design = "全球 3 期 SHASTA-3 与 SHASTA-4，sHTG 患者，plozasiran 对比安慰剂，主要终点为甘油三酯降低；原文：\"global Phase 3 SHASTA-3 and SHASTA-4 clinical studies of plozasiran in patients with severe hypertriglyceridemia (sHTG)\"、\"primary endpoint of triglyceride reduction versus placebo\"（MAN-ARWR-2）。随机、盲法等设计细节未在已打开文件中写明（CT.gov 登记见 NCT06347003、NCT06347016）。"
+comparability = "只有安慰剂对照；与 Ionis 的 APOC3 药物或贝特类、鱼油等无直接对比。任何比较都是跨试验比较，人群与终点定义可能不同。"
+result = "甘油三酯中位降幅 79%（SHASTA-3）与 81%（SHASTA-4）；汇总 sHTG 人群急性胰腺炎事件相对安慰剂减少 78%，具统计学意义；无新的安全性信号。原文：\"median triglyceride reductions of 79% and 81% from baseline\"、\"Statistically significant 78% reduction in acute pancreatitis (AP) events versus placebo\"、\"no new safety signals\"（MAN-ARWR-2）。"
+limitation = "仅为公司顶线新闻稿数据，详细结果在 ESC 2026 公布（\"Detailed results will be presented as a HOT LINE Late Breaker\"，MAN-ARWR-2），未打开会议摘要或同行评议论文；急性胰腺炎减少为汇总分析，是否为预设终点及其统计层级未核实；主要终点是替代终点。"
+sources = ["MAN-ARWR-2", "CTG-NCT06347003", "CTG-NCT06347016"]
+
+[event]
+text = "plozasiran 用于重度高甘油三酯血症（sHTG）的 sNDA 提交，并使用已购入的优先审评券；原文：\"upcoming plozasiran sNDA submission, anticipated before the end of 2026\"（MAN-ARWR-2）。截至 2026-10-30，EDGAR 全文检索未见 2026-08-05 之后 Arrowhead 提及 plozasiran 的 8-K/10-Q，提交与否待核实。"
+timing = "2026Q4"
+importance = "high"
+certainty = "disclosed"
+sources = ["MAN-ARWR-2"]
+
+[rights]
+status = "partial"
+note = "大中华区权益已归 Sanofi，其余地区由 Arrowhead 持有。10-Q 原文：\"Greater China rights for plozasiran are out-licensed to Sanofi\"（SEC-0000879407-26-000057）；8-K 原文：\"Arrowhead retaining rights to REDEMPLO in all geographies, outside of Greater China\"（MAN-ARWR-2）。该授权经 Arrowhead 控股的 VIE Visirna（持股 \"decreased from 66.25 % to 56.38 %\"）转让给 Sanofi，Arrowhead 收取大中华区特许权使用费：\"the Company is eligible to receive royalties from Sanofi on net commercial product sales in Greater China\"（SEC-0000879407-26-000057）。引进与对外义务：10-K 记载经 Novartis 受让的 Alnylam 许可为 \"royalty-bearing, exclusive license with limited sublicensing rights\"，覆盖 \"30 undisclosed gene targets\"（MAN-ARWR-1），APOC3 是否在内、plozasiran 是否欠特许权使用费未核实。其他交易障碍：Ionis 专利诉讼，\"planned commercialization of investigational plozasiran\"（SEC-0000879407-26-000057）；债务：\"aggregate principal amount of 0.00% Notes due January 15, 2032\"（7 亿美元可转债）、Sixth Street 信贷余额 1.814 亿美元（\"Credit Facility | 181,366\"，MAN-ARWR-2），其条款限制 \"asset sales and licensing transactions\"（SEC-0000879407-26-000057）。"
+sources = ["SEC-0000879407-26-000057", "MAN-ARWR-1", "MAN-ARWR-2"]

@@ -1,0 +1,50 @@
+verified_by = ""
+program = "TELITACICEPT"
+indication = "Generalized Myasthenia Gravis"
+buyer = "Johnson & Johnson"
+preference_rank = 2
+deal_form = "收购"
+need_item = "FcRn、IL-23、自身抗体清除和慢性炎症疾病的长效生物药（JNJ-1、JNJ-3）"
+match_note = "telitacicept 是 TACI-Fc 融合蛋白，同时抑制 BAFF（BLyS）与 APRIL，作用是减少自身反应性 B 细胞和自身抗体的产生，对应 J&J 画像中的「自身抗体清除」；适应症全身型重症肌无力（gMG）是自身抗体介导的慢性自身免疫病。原文：\"This dual-target mechanism reduces autoreactive B cells and autoantibody production\"（MAN-VOR-1）；\"constructed with the extracellular domain of the human transmembrane activator and calcium modulator and cyclophilin ligand interactor\"、\"resulting from pathogenic autoantibodies\"（SEC-0001193125-26-130451）。机制差异：画像点名的是 FcRn（加速 IgG 清除），telitacicept 作用在上游（减少抗体产生），不是同机制。组合重叠：10-K 竞争段列出 J&J 已有 gMG 产品 \"Johnson & Johnson (Imaavy/Myasthenia Gravis)\"（SEC-0001193125-26-130451），为同适应症、不同机制（FcRn），不构成 §3.1 组合冲突，但会与 Imaavy 形成同适应症竞争/互补关系；未核查 J&J 早期管线中是否有 BAFF/APRIL 资产。"
+thesis = [
+  "Johnson & Johnson 需要「FcRn、IL-23、自身抗体清除和慢性炎症疾病的长效生物药」；Vor Bio 的 telitacicept（TACI-Fc 融合蛋白、BAFF/APRIL 双靶抑制剂，全身型重症肌无力，全球 3 期进行中）对应这一需求，因为它通过抑制 BAFF/APRIL 减少自身反应性 B 细胞和自身抗体的产生，作用在 J&J 已上市 FcRn 抗体 Imaavy 的上游，且同一分子已在中国获批 gMG、SLE、RA、干燥病和 IgA 肾病等多个适应症。",
+  "证据是中国随机双盲安慰剂对照 3 期（n=114，RemeGen 主导）达到主要终点，24 周 MG-ADL 较安慰剂改善 4.8 分，相对已上市药物的优势只有跨试验比较；下一事件是全球 3 期 gMG 顶线数据（2027 年上半年，明确披露）；主要障碍是权益与成本结构：大中华区权益归 RemeGen，公司须向 RemeGen 支付至多 3.3 亿美元监管里程碑、37.75 亿美元销售里程碑和高个位数至十几百分比的分级特许权使用费，且 FDA 是否接受中国数据不确定。",
+]
+thesis_sources = ["JNJ-1", "JNJ-3", "MAN-VOR-1", "MAN-VOR-2", "SEC-0001193125-26-130451", "SEC-0001193125-26-343607", "CTG-NCT06456580"]
+
+[scores.buyer_fit]
+score = 3
+confidence = "medium"
+reason = "J&J 第 2 治疗领域（免疫炎症）画像点名「自身抗体清除」；telitacicept 减少自身抗体产生：\"reduces autoreactive B cells and autoantibody production\"（MAN-VOR-1），gMG 由致病性自身抗体驱动：\"resulting from pathogenic autoantibodies\"（SEC-0001193125-26-130451）。不给 4 分的原因：(1) 画像强调 FcRn 与「长效」，telitacicept 为每周皮下给药：\"subcutaneous telitacicept 240 mg or placebo once a week\"（SEC-0001193125-26-130451），不属长效；(2) J&J 已在同一适应症上市 FcRn 抗体：\"Johnson & Johnson (Imaavy/Myasthenia Gravis)\"（SEC-0001193125-26-130451），机制不同不构成冲突，但会削弱「补缺」逻辑。未核查 J&J 早期管线。"
+sources = ["JNJ-1", "JNJ-3", "MAN-VOR-1", "SEC-0001193125-26-130451"]
+
+[scores.stage_match]
+score = 4
+confidence = "medium_high"
+reason = "J&J 该行 ideal_stage 为「Phase 2-3」；telitacicept 在 gMG 处于全球 3 期：\"Telitacicept is currently being evaluated for the treatment of gMG in a global Phase 3 clinical trial\"（SEC-0001193125-26-343607），落在区间内。中国已获批 gMG（\"Telitacicept is approved in China for the treatment of generalized myasthenia gravis\"，SEC-0001193125-26-343607），但美欧日尚未提交上市申请。"
+sources = ["JNJ-3", "SEC-0001193125-26-343607", "CTG-NCT06456580"]
+
+[scores.clinical]
+score = 3
+confidence = "medium"
+reason = "随机、双盲、安慰剂对照 3 期（中国，n=114）达到唯一主要终点 24 周 MG-ADL 变化：\"telitacicept demonstrated a 4.8-point improvement in MG-ADL (Myasthenia Gravis Activities of Daily Living scale) vs. placebo at 24 weeks, the primary endpoint of the trial\"（MAN-VOR-1）；\"Statistically significant and clinically meaningful improvement in MG-ADL score\"（MAN-VOR-2）。MG-ADL 是 gMG 常用的注册终点，但对照为安慰剂，相对已上市药物的优势只有公司自己的跨试验比较（\"not a head-to-head trial\"，MAN-VOR-2），按 §3.3 最高 3 分。数据只来自中国人群、由 RemeGen 主导，p 值与置信区间未在已打开的文件中找到。"
+sources = ["MAN-VOR-1", "MAN-VOR-2", "SEC-0001193125-26-130451"]
+
+[clinical]
+design = "RemeGen 在中国完成的随机、双盲、安慰剂对照 3 期：114 例 gMG 患者 1:1 随机接受每周皮下 telitacicept 240 mg 或安慰剂 24 周（Part A），之后全部进入开放标签期（Part B）再用 24 周；原文：\"The trial enrolled 114 patients and consisted of a double-blind treatment period\"、\"patients were randomized 1:1 to receive either subcutaneous telitacicept 240 mg or placebo once a week for 24 doses\"、\"The primary endpoint of the trial was change from baseline in the Myasthenia Gravis Activities of Daily Living\"（SEC-0001193125-26-130451）。全球 3 期（NCT06456580）设计相同的主要终点：\"The primary endpoint is change from baseline in MG-ADL at week 24.\"（SEC-0001193125-26-130451）。"
+comparability = "试验内对照为安慰剂，不是与标准治疗直接比较。公司把安慰剂校正 MG-ADL 与 efgartigimod、nipocalimab、rozanolixizumab 等关键试验并列，属跨试验比较，人群与终点定义可能不同：\"Based on historical clinical data; not a head-to-head trial\"（MAN-VOR-2）。中国单一国家人群，能否外推到美欧人群未知。"
+result = "主要终点：24 周 MG-ADL 较安慰剂改善 4.8 分：\"a 4.8-point improvement in MG-ADL\"（MAN-VOR-1）；公司称统计学显著：\"Statistically significant and clinically meaningful improvement in MG-ADL score\"（MAN-VOR-2）。48 周开放标签期：\"Patients on telitacicept throughout the trial achieved a -7.5 mean MG-ADL change from baseline, while placebo crossover patients achieved -6.3\"、\"Patients on telitacicept throughout the trial achieved a -9.8 mean QMG change\"（SEC-0001193125-26-130451）。安全性：\"No new safety signals were observed.\"（SEC-0001193125-26-130451）。"
+limitation = "p 值、置信区间、各组绝对变化值未在已打开的文件中找到（待核实）；未找到该 3 期的同行评议全文（PubMed 检索只见 2 期与真实世界研究）。48 周开放标签数据为描述性分析：\"The efficacy analysis was based on descriptive statistical analysis of the actual data in the full analysis set (FAS), and missing data were not filled.\"（MAN-VOR-3）。中国数据能否被 FDA 接受不确定：\"there is no assurance that the clinical data from any such trials will be accepted or considered by the FDA\"（SEC-0001193125-26-343607）。"
+sources = ["SEC-0001193125-26-130451", "SEC-0001193125-26-343607", "MAN-VOR-1", "MAN-VOR-2", "MAN-VOR-3"]
+
+[event]
+text = "全身型重症肌无力（gMG）全球 3 期（NCT06456580）顶线数据，2027 年上半年。原文：\"Topline data from the trial is anticipated in the first half of 2027.\"（SEC-0001193125-26-343607）。该试验是支持美欧日上市的关键性试验：\"to support potential approval in the United States, Europe, Japan and other countries\"（SEC-0001193125-26-343607）。"
+timing = "2027H1"
+importance = "high"
+certainty = "disclosed"
+sources = ["SEC-0001193125-26-343607", "MAN-VOR-3", "CTG-NCT06456580"]
+
+[rights]
+status = "partial"
+note = "事实（10-Q 附注 10）：公司从 RemeGen 引进大中华区以外的独家权益，大中华区（中国大陆、香港、澳门、台湾）权益仍归 RemeGen：\"granting the Company exclusive rights to develop and commercialize RemeGen’s proprietary fusion protein compound, telitacicept (the “Licensed Compound”), outside of the People’s Republic of China, Hong Kong, Macau and Taiwan\"、\"RemeGen retains all rights to the Licensed Compound in Greater China.\"；许可区域内对 RemeGen 也排他、可再许可：\"exclusive (even as to RemeGen) license\"、\"with the right to grant sublicenses\"。设有对等人数的联合指导委员会，但区域内最终决定权归公司：\"final decision-making authority as it relates to the development and commercialization of the Licensed Compound outside Greater China lies with the Company\"。10-Q 与 10-K 未检索到选择权、优先谈判权、共同商业化或利润分成条款。引进义务：\"up to $ 330 million in regulatory milestone payments and up to $ 3.775 billion in sales milestone payments\"、\"ranging from high single digit to mid-teen percentages of net sales\"；若在特定开发事件前对外再许可或出售权益（控制权变更除外），RemeGen 分取个位数比例收益：\"RemeGen is entitled to receive a single digit percentage of certain net proceeds from such transactions\"——全资收购不触发该条款，故交易形式取收购。终止时区域权益回归 RemeGen：\"all rights and licenses in the terminated region will revert to RemeGen\"。债务：资产负债表未见借款，非流动负债为经营租赁与认股权证负债（\"Warrant liabilities\" 653,894 千美元，非债务），总负债 681,250 千美元。资金指引：\"we expect that our cash, cash equivalents and marketable securities will enable us to fund our operating expenses and capital expenditure requirements into early 2029\"（均见 SEC-0001193125-26-343607）。"
+sources = ["SEC-0001193125-26-343607", "SEC-0001193125-26-130451"]

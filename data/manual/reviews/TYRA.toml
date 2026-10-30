@@ -1,0 +1,50 @@
+verified_by = ""
+program = "TYRA-300 (DABOGRATINIB)"
+indication = "Low-grade NMIBC"
+buyer = "Pfizer"
+preference_rank = 2
+deal_form = "收购"
+need_item = "ADC、双特异抗体、靶向小分子或放射性药物，覆盖乳腺、肺癌、泌尿和血液肿瘤（PFE-1、PFE-3）"
+match_note = "dabogratinib 是口服 FGFR3 选择性小分子抑制剂，在 FGFR3 突变的低级别中危非肌层浸润性膀胱癌（LG IR NMIBC）做 2 期，对应 Pfizer 画像中的「靶向小分子」+「泌尿」两项；原文：\"Our lead program, oral dabogratinib, was designed to be more selective for FGFR3 over FGFR1, FGFR2, and FGFR4\"（SEC-0001193125-26-332995）、\"in participants with FGFR3-altered low-grade IR NMIBC\"（MAN-TYRA-3）。组合冲突只按 Tyra 10-K 竞争段核查：该段列出的 NMIBC / FGFR 竞品为 J&J 的 TAR-210 与 Balversa 等，未出现 Pfizer（原文：\"Johnson & Johnson has initiated a Phase 3 trial for TAR-210 in low grade IR NMIBC patients\"，MAN-TYRA-1）；Pfizer 自身在 NMIBC 的在研管线未打开来源核查（未核查组合冲突）。"
+thesis = [
+  "Pfizer 需要「靶向小分子……覆盖……泌尿……肿瘤」；Tyra 的 dabogratinib（TYRA-300，口服 FGFR3 选择性抑制剂，FGFR3 突变低级别中危非肌层浸润性膀胱癌，2 期 SURF302）对应这一需求，因为它是针对已验证驱动靶点 FGFR3 的口服靶向小分子，公司称约 70% 的 LG IR NMIBC 由 FGFR3 驱动，且该资产为公司自研、全资持有、无引进许可。",
+  "证据是 SURF302 单臂 2 期中期数据（截至 2026-08-31，60 mg QD 组仅 14 例疗效可评估，3 个月 CR 57%（8/14）、ORR 79%，60 mg 组无剂量下调或治疗相关停药；主要终点尚未正式读出，无对照组，与 J&J TAR-210 等只能跨试验比较）；下一事件是同一资产在软骨发育不全（BEACH301 安全哨兵队列）的 2 期初步数据（2027 年第一季度末，明确披露），NMIBC 注册性辅助治疗研究计划 2027 年启动（只披露年份）；主要障碍是成本：整体收购要为 14 例疗效数据支付约 13 亿美元快照市值（EV 约 9.4 亿美元），且 2026 年 9 月约 4 亿美元增发后股本扩大约 1,800 万股（含预融资认股权证），快照未计入，权益完整、无借款不构成障碍。",
+]
+thesis_sources = ["PFE-1", "PFE-3", "SEC-0001193125-26-332995", "MAN-TYRA-1", "MAN-TYRA-2", "MAN-TYRA-3", "MAN-TYRA-4", "NASDAQ-TYRA-2026-10-28", "CTG-NCT06995677", "CTG-NCT06842355"]
+
+[scores.buyer_fit]
+score = 4
+confidence = "medium"
+reason = "Pfizer 第 2 治疗领域（肿瘤）画像点名「靶向小分子」与「泌尿」肿瘤；dabogratinib 为口服 FGFR3 选择性小分子，适应症为 FGFR3 突变 LG IR NMIBC（泌尿系肿瘤）；原文：\"oral dabogratinib, was designed to be more selective for FGFR3 over FGFR1, FGFR2, and FGFR4\"（SEC-0001193125-26-332995）。10-K 竞争段未提及 Pfizer，同机制同适应症竞品是 J&J：\"Johnson & Johnson has initiated a Phase 3 trial for TAR-210 in low grade IR NMIBC patients\"（MAN-TYRA-1）。置信度取中：Pfizer 自身泌尿肿瘤 / FGFR 管线未打开来源核查（未核查组合冲突）。"
+sources = ["PFE-1", "PFE-3", "SEC-0001193125-26-332995", "MAN-TYRA-1"]
+
+[scores.stage_match]
+score = 4
+confidence = "high"
+reason = "Pfizer 该行 ideal_stage 为「Phase 2b-注册期」（人工映射 phase2–filed，Phase 2b 按 2 期处理）；dabogratinib 在 IR NMIBC 处于 2 期，原文：\"SURF302 is a Phase 2, multicenter, open-label clinical study\"（MAN-TYRA-3）；注册性研究尚未启动：\"a planned registrational adjuvant study expected to be initiated in 2027\"（MAN-TYRA-2）。"
+sources = ["PFE-1", "MAN-TYRA-3", "MAN-TYRA-2", "CTG-NCT06995677"]
+
+[scores.clinical]
+score = 2
+confidence = "high"
+reason = "单臂 2 期中期数据，早期阳性信号：60 mg QD 组 3 个月 CR 57%（8/14），原文：\"57% (8/14)\"、\"The study provided clinical proof of concept for selective oral FGFR3 inhibition\"（MAN-TYRA-2）。主要终点为 3 个月 CR 率（\"The primary endpoint is CR rate at three months\"，MAN-TYRA-1），但公司未声明主要终点达到，数据为中期且 \"All responses below are subject to change with continued treatment and follow-up\"（MAN-TYRA-2）；无对照，与 TAR-210 等只能跨试验比较，按 §3.3 给 2 分。"
+sources = ["MAN-TYRA-1", "MAN-TYRA-2", "CTG-NCT06995677"]
+
+[clinical]
+design = "SURF302：2 期、多中心、开放标签、单臂（两个剂量组随机分配），FGFR3 突变 LG IR NMIBC，口服 dabogratinib 50 mg 或 60 mg QD；主要终点 3 个月 CR 率；原文：\"Up to 30 participants are being randomized initially to treatment with oral dabogratinib at 50 mg QD or treatment with oral dabogratinib at 60 mg QD\"、\"The primary endpoint is CR rate at three months\"（MAN-TYRA-1）。中期数据截至 2026-08-31：安全性 44 例，疗效可评估 26 例（60 mg 14 例、50 mg 12 例）；原文：\"26 participants were evaluable for efficacy across the 60 mg QD (n=14) and 50 mg QD (n=12) cohorts\"（MAN-TYRA-2）。"
+comparability = "无对照组，剂量组之间不是与标准治疗的比较。与 J&J TAR-210（\"demonstrated a 90% CR rate in IR patients\"，MAN-TYRA-1）或其他膀胱内治疗的任何比较都是跨试验比较，人群与终点定义可能不同；SURF302 入组人群约 61% 未接受过膀胱内治疗（\"Approximately 61% of the enrolled patients had no prior lines of intravesical treatment\"，MAN-TYRA-2）。"
+result = "60 mg QD：3 个月 ORR 79%（11/14）、CR 57%（8/14），最佳总缓解 CR 64%（9/14）；50 mg QD：ORR 67%（8/12）、CR 33%（4/12）；原文：\"79% (11/14)\"、\"57% (8/14)\"、\"33% (4/12)\"（MAN-TYRA-2）。安全性：\"Grade 3 treatment-related AEs occurred in 2 of 44 participants (4.5%) across both cohorts, both at 50 mg QD, with none at 60 mg QD\"、\"At 60 mg QD, there were no dose reductions or treatment-related discontinuations\"（MAN-TYRA-2）。"
+limitation = "样本小（60 mg 疗效可评估 14 例），随访短：只有 5 例 3 个月 CR 有 6 个月评估（\"All 3-month CRs with 6-month assessments remained in response at 6 months (n=5)\"，MAN-TYRA-2）；中期数据可能变化；只有公司 8-K，无同行评议全文或会议摘要。注册路径为辅助治疗设定，与本试验的消融设定不同，剂量与 3 期设计待 FDA 反馈（\"subject to that feedback\"，MAN-TYRA-2）。"
+sources = ["MAN-TYRA-1", "MAN-TYRA-2", "CTG-NCT06995677"]
+
+[event]
+text = "dabogratinib 在软骨发育不全（achondroplasia，ACH）的 2 期 BEACH301 安全哨兵队列初步数据（6 个月年化身高增速与 5 个剂量水平安全性，约 25 名儿童）；原文：\"Initial results from the safety sentinel cohort, including 6-month annualized height velocity and safety data for dose levels 1-5\"、\"are expected to be reported at the end of Q1 2027\"（MAN-TYRA-3）。同期 NMIBC 注册性辅助治疗研究计划 2027 年启动（\"a planned registrational adjuvant study expected to be initiated in 2027\"，MAN-TYRA-2），LG-UTUC 的 SURF303 初步结果预计 2027 年（\"Initial results from this study are expected in 2027\"，MAN-TYRA-3），二者只披露年份。"
+timing = "2027Q1"
+importance = "medium"
+certainty = "disclosed"
+sources = ["MAN-TYRA-3", "MAN-TYRA-2", "SEC-0001193125-26-332995", "CTG-NCT06842355"]
+
+[rights]
+status = "full"
+note = "事实：10-K：\"all of which are solely owned by us. We do not license any material patent rights from any third party.\"、\"We currently solely own intellectual property covering our product candidates.\"（MAN-TYRA-1）；10-Q：\"we have built a wholly-owned pipeline of oral small molecule product candidates\"（SEC-0001193125-26-332995）。10-K 全文检索未见对外授权、优先谈判权、共同开发或共同商业化条款，10-Q 未见合作附注，因此无应付许可方的特许权使用费 / 里程碑（推断，中高）。专利：\"expected to expire on dates ranging from 2040 to 2046\"（MAN-TYRA-1）。无借款：10-Q 资产负债表负债只有应付账款、租赁负债与应计费用（总负债 29,698 千美元）。资金：10-Q：\"will be sufficient to fund our operating expenses and capital expenditures into the second half of 2028\"（SEC-0001193125-26-332995），该指引早于 2026 年 9 月约 4 亿美元增发（\"gross proceeds to Tyra from the offering\"，MAN-TYRA-4）。"
+sources = ["MAN-TYRA-1", "SEC-0001193125-26-332995", "MAN-TYRA-4"]

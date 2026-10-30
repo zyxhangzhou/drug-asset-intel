@@ -1,0 +1,50 @@
+verified_by = ""
+program = "RGX-202"
+indication = "Duchenne Muscular Dystrophy"
+buyer = "AstraZeneca"
+preference_rank = 2
+deal_form = "收购"
+need_item = "基因疗法、体内细胞疗法、补体/酶替代和遗传性疾病药物（AstraZeneca 罕见病偏好行，理想阶段「早期平台至Phase 3」）"
+match_note = "RGX-202 是一次性静脉给药的 AAV8 基因疗法，递送含 C 端结构域的新型 microdystrophin，治疗遗传病杜氏肌营养不良（DMD），对应「基因疗法……遗传性疾病药物」；原文：\"using the NAV AAV8 vector to deliver a transgene for a novel microdystrophin\"（SEC-0001193125-26-336725）、\"one of the most common fatal genetic disorders affecting children\"（MAN-RGNX-1）。另与 AZ 技术偏好 #2「递送和制造优势明显、可重复生产的临床平台」相符：公司自建悬浮工艺产线，原文 \"in-house, state-of-the-art manufacturing that has demonstrated leading purity levels in Duchenne (>80% full capsids)\"（SEC-0001193125-26-336725）。10-K 的 DMD 竞争段落点名 Sarepta/Roche（Elevidys）与 Novartis，不含 AstraZeneca（MAN-RGNX-1），但该名单不是完整核查（未核查组合冲突）。"
+thesis = [
+  "AstraZeneca 需要「基因疗法、体内细胞疗法、补体/酶替代和遗传性疾病药物」；REGENXBIO 的 RGX-202（AAV8 递送含 C 端结构域的 microdystrophin 的一次性基因疗法，杜氏肌营养不良，关键性 3 期已达主要终点、公司计划 2026 年三季度启动加速批准 BLA 提交）对应这一需求，因为它是针对致死性遗传病的基因疗法，且是公司未对外授权、自主开发并自建商业化产能的主导项目。",
+  "证据是开放标签单臂关键性试验的替代终点：30 例中 93% 患者第 12 周 microdystrophin 表达超过 10%（p<0.0001），12 个月功能数据仅 9 例且只与预期病程（外部对照）比较，FDA 仍建议随机对照试验，与 Elevidys 无直接比较；下一事件是 DMD 适应症 BLA 的 FDA 加速批准决定（2027H2，公司明确披露，以 BLA 按计划提交为前提）；主要障碍是资金：6 月末现金 1.055 亿美元，靠 7 月 AbbVie 里程碑与增发才把现金跑道延至 2027 年四季度，另有按债务核算的 HCR 特许权货币化负债 1.815 亿美元。"
+]
+thesis_sources = ["AZ-1", "AZ-3", "SEC-0001193125-26-336725", "CTG-NCT05693142", "MAN-RGNX-1", "MAN-RGNX-2", "MAN-RGNX-3"]
+
+[scores.buyer_fit]
+score = 4
+confidence = "medium"
+reason = "需求条目「基因疗法、体内细胞疗法、补体/酶替代和遗传性疾病药物」（AZ-1、AZ-3）→ RGX-202 为 AAV 基因疗法，适应症 DMD 为遗传病；原文：\"using the NAV AAV8 vector to deliver a transgene for a novel microdystrophin\"（SEC-0001193125-26-336725）、\"one of the most common fatal genetic disorders affecting children\"（MAN-RGNX-1）。10-K DMD 竞争段落 \"The principal marketed competition for the treatment of DMD is a gene therapy marketed by Sarepta/Roche (Elevidys)\" 及早期开发公司名单（\"Ultragenyx, Huidagene, and Novartis\"）均不含 AstraZeneca（MAN-RGNX-1）；名单不完整，未核查组合冲突。Roche 与 Novartis 因同领域在研/在售资产不选。"
+sources = ["AZ-1", "AZ-3", "SEC-0001193125-26-336725", "MAN-RGNX-1"]
+
+[scores.stage_match]
+score = 4
+confidence = "medium"
+reason = "AstraZeneca #2 理想阶段「早期平台至Phase 3」；RGX-202 关键性 3 期已读出、尚未见 BLA 完成提交的公告，按 3 期计，落在区间内得 4 分。原文：\"the Phase III AFFINITY DUCHENNE ® trial met its primary endpoint\"、\"The Company is on track to initiate a BLA submission in Q3 2026 under the accelerated approval pathway\"（MAN-RGNX-2）；8 月 24 日仍称 \"the planned submission of the Duchenne BLA this quarter\"（MAN-RGNX-3）。若 BLA 已提交则阶段为注册申请，超出区间一档，应降为 2 分（待核实）。"
+sources = ["AZ-1", "MAN-RGNX-2", "MAN-RGNX-3", "CTG-NCT05693142"]
+
+[scores.clinical]
+score = 3
+confidence = "medium"
+reason = "唯一主要终点（第 12 周 microdystrophin 表达 ≥10% 的比例）达到，原文：\"The primary endpoint was achieved with high statistical significance; 93% of patients achieved RGX-202 microdystrophin expression above 10% (p<0.0001).\"（SEC-0001193125-26-336725）。该终点为替代终点、试验为开放标签单臂，按 §3.3 封顶 3 分；FDA 表示替代终点可用于加速批准且外部对照可能足够（\"externally controlled trials may be adequate for demonstrating substantial evidence of effectiveness\"），按「单臂数据可作注册依据的领域」给 3 分。功能获益仅为与预期病程的比较（跨试验），不加分。签核人如认为 FDA 未明确接受单臂注册，可降为 2 分。"
+sources = ["SEC-0001193125-26-336725", "MAN-RGNX-1", "CTG-NCT05693142"]
+
+[clinical]
+design = "多中心、开放标签 1/2/3 期 AFFINITY DUCHENNE（NCT05693142），一次性静脉给药，关键性部分剂量 2x10^14 GC/kg、约 30 例 1–11 岁可行走患者，主要终点为第 12 周 microdystrophin 表达 ≥10% 的比例。原文：\"AFFINITY DUCHENNE ® is an ongoing multicenter, open-label Phase I/II/III trial\"（SEC-0001193125-26-336725）、\"the primary endpoint of the pivotal trial is the proportion of participants whose RGX-202 microdystrophin expression is ≥ 10% at Week 12\"（MAN-RGNX-1）"
+comparability = "单臂、无同期对照；功能数据与「预期病程」（外部自然史估计）比较，与已上市的 Sarepta/Roche Elevidys 无直接比较，任何比较都是跨试验比较，人群与终点定义可能不同。主要终点为 microdystrophin 表达（替代终点）。原文：\"using multiple validated methods to estimate expected disease progression without treatment\"（SEC-0001193125-26-336725）"
+result = "2026 年 5 月关键性 3 期 topline：主要终点达到，93% 患者 microdystrophin 表达超过 10%（p<0.0001，n=30）；耐受性良好；12 个月 NSAA 与定时功能测试显示改善（n=9），表达量与功能改善显著相关。原文：\"93% of patients achieved RGX-202 microdystrophin expression above 10% (p<0.0001)\"、\"Statistically significant correlation between RGX-202 microdystrophin expression level and functional improvement, supporting validity of surrogate endpoint.\"（SEC-0001193125-26-336725）"
+limitation = "替代终点、单臂、功能数据样本小（\"interim functional data (n=9 at 12 months)\"）；FDA 仍建议随机对照试验（\"While the FDA has recommended a randomized controlled trial\"），公司计划 2027 上半年启动海外随机安慰剂对照研究 AFFINITY RISE（\"a new, ex-U.S. randomized, placebo-controlled study to support RGX-202 global regulatory submissions\"）（SEC-0001193125-26-336725）。安全性为中期数据；未打开 topline 新闻稿与会议摘要原文，具体功能评分差值未取得。"
+sources = ["SEC-0001193125-26-336725", "MAN-RGNX-1", "CTG-NCT05693142"]
+
+[event]
+text = "RGX-202 杜氏肌营养不良（DMD）BLA 的 FDA 加速批准决定；公司称 2026 年三季度启动 BLA 提交、可能于 2027 年下半年获批（以按计划提交为前提，截至 10-16 的 8-K 未见提交完成公告）。原文：\"The Company is on track to initiate a BLA submission in Q3 2026 under the accelerated approval pathway, supporting potential approval in 2H 2027.\"（MAN-RGNX-2）"
+timing = "2027H2"
+importance = "high"
+certainty = "disclosed"
+sources = ["MAN-RGNX-2", "SEC-0001193125-26-336725", "MAN-RGNX-3"]
+
+[rights]
+status = "full"
+note = "10-K/10-Q 没有「RGX-202 为全资资产」的原句；判断依据是合作披露的穷尽（推断，置信度中）：10-Q 只把 sura-vec 列给 AbbVie、RGX-121/RGX-111 列给 Nippon Shinyaku，原文 \"Sura-vec is being developed and commercialized in collaboration with AbbVie\"、\"RGX-121 and RGX-111 are being developed and commercialized in collaboration with Nippon Shinyaku\"，RGX-202 不在其中，且由公司自建产能生产商业供货（\"We have completed manufacturing the first batches of RGX-202 intended for commercial supply\"）（SEC-0001193125-26-336725）。上游许可义务：NAV 平台来自 Penn 与 GSK 独家许可，须付 Penn \"low- to mid-single digit royalties on net sales of licensed pharmaceutical products sold by us or our affiliates\" 及 \"up to $20.5 million upon the achievement of various development and sales-based milestones\"；GSK 许可的销售分成转付 Penn；GSK 保留 \"AAV9 for the treatment of Muscular Dystrophy\" 的权利（RGX-202 用 AAV8，判断不冲突）；与 GSK 存在分许可费争议（\"We have been notified of a dispute with GSK over the amount of sublicense fees\"）（MAN-RGNX-1）。债务（数据包 total_debt 为空）：\"Royalty monetization liabilities are accounted for as debt\"，2026-06-30 合计 181,511 千美元（2020 HCR 协议 11,807、2025 Royalty Bond 169,704）；Royalty Bond 以 Novartis、Nippon Shinyaku、Rocket、Ultragenyx 许可的特许权收入为担保（\"The 2025 Royalty Bond is collateralized by a security interest and lien on the Royalty Interest.\"），不涉及 RGX-202，且 \"may not be prepaid prior to maturity\"（SEC-0001193125-26-336725）。10-Q/10-K 未见控制权变更条款。"
+sources = ["SEC-0001193125-26-336725", "MAN-RGNX-1"]

@@ -1,0 +1,43 @@
+verified_by = ""
+program = "SEPIAPTERIN"
+indication = "Phenylketonuria"
+buyer = "AstraZeneca"
+preference_rank = 2
+deal_form = "收购"
+need_item = "基因疗法、体内细胞疗法、补体/酶替代和遗传性疾病药物（AZ-1、AZ-3）"
+match_note = "Sephience（sepiapterin）是口服 PAH 激活剂，治疗苯丙酮尿症（PKU），一种遗传性代谢病；原文：\"SEPHIENCE is a phenylalanine hydroxylase (PAH) activator\"（FDA-LABEL-NDA219666），10-K 称 PKU 为 \"a rare, inherited metabolic disease\"（MAN-PTCT-1）。它落在 AstraZeneca 第 2 治疗领域（罕见病）画像中的「遗传性疾病药物」。但该画像条目很宽（同句还列基因疗法、细胞疗法、补体/酶替代），没有点名 PKU、PAH 或口服小分子；AZ 的技术类型行（ADC/双抗/靶向小分子；基因疗法与体内 CAR-NK；长效生物药与心肾代谢小分子）均不对应。按 §3.1：只符合治疗领域（标签匹配）计 2 分；「遗传性疾病药物」正是 buyer_preference_map 中 rare_genetic 标签的来源短语，按字面匹配它等于匹配标签，不按「具体需求条目」计 4 分（此判断留给签核人）。组合冲突：10-K 竞争段列出的 PKU 竞品为 \"Sephience faces competition from Kuvan (sapropterin dihydrochloride), including generic versions, and Palynziq (pegvaliase-pqpz)\" 及 Otsuka、SOM Biotech、Maze、Agios 的在研药，未出现 AstraZeneca 产品（MAN-PTCT-1）；未在其他来源核查 AZ 管线。"
+thesis = [
+  "AstraZeneca 需要「基因疗法、体内细胞疗法、补体/酶替代和遗传性疾病药物」；PTC Therapeutics 的 Sephience（sepiapterin，口服 PAH 激活剂，苯丙酮尿症，已在美国、欧洲经济区和日本上市）对应这一需求，因为 PKU 是遗传性代谢病，而 Sephience 2026 年第三季度单季净销售 1.819 亿美元，是 PTC 的核心收入资产。",
+  "证据是 3 期 APHENITY 随机双盲安慰剂对照试验 6 周血 Phe 降低 63%（安慰剂 +1%，p<0.0001），以及 3 期 AMPLIPHY 随机交叉开放标签直接对比最高批准剂量 sapropterin 的优效结果（差值 -180.4 μmol/L，p<0.0001）；下一事件是待核实（24 个月窗口内公司未披露 Sephience 的关键试验读出或监管决定）；主要障碍是成本：快照 EV 约 36.2 亿美元（20–50 亿档），且收购会连带 votoplam（Novartis 持全球权益、PTC 分享 40% 美国损益）、5.5 亿美元 2031 年到期可转债，以及约 23 亿美元 Royalty Pharma 特许权融资负债（未计入快照 EV）。",
+]
+thesis_sources = ["AZ-1", "AZ-3", "FDA-LABEL-NDA219666", "MAN-PTCT-1", "MAN-PTCT-2", "MAN-PTCT-5", "MAN-PTCT-6", "NASDAQ-PTCT-2026-10-28", "SEC-0001070081-26-000017"]
+
+[scores.buyer_fit]
+score = 2
+confidence = "medium"
+reason = "资产落在 AstraZeneca 第 2 治疗领域（罕见病，画像含「遗传性疾病药物」），PKU 是遗传性代谢病，原文：\"a rare, inherited metabolic disease\"（MAN-PTCT-1）；但画像未点名 PKU、PAH 机制或口服小分子，AZ 三条技术类型偏好均不对应，按 §3.1 只符合治疗领域计 2 分（3 分需技术类型也符合）。10-K 竞争段未出现 AZ 产品（\"Sephience faces competition from Kuvan (sapropterin dihydrochloride)\"，MAN-PTCT-1）。"
+sources = ["AZ-1", "AZ-3", "FDA-LABEL-NDA219666", "MAN-PTCT-1"]
+
+[scores.stage_match]
+score = 2
+confidence = "high"
+reason = "AstraZeneca 该行 ideal_stage 为「早期平台至Phase 3」；Sephience 已上市，原文：\"Sephience is approved in the United States, European Economic Area, or EEA, Japan and additional geographies.\"（MAN-PTCT-1）。按 §3.2 示例（偏好 Phase 2-3 时已上市资产只得 2 分）计 2 分。"
+sources = ["AZ-1", "AZ-3", "MAN-PTCT-1", "FDA-LABEL-NDA219666"]
+
+[scores.clinical]
+score = 4
+confidence = "medium_high"
+reason = "两项 3 期随机试验均达主要终点：APHENITY 为 \"phase 3, randomised, double-blind, placebo-controlled study\"，6 周血 Phe 降低 \"(-63%, SD 20) compared with placebo (1%, 29\"（MAN-PTCT-5）；AMPLIPHY 与标准治疗 sapropterin 随机交叉直接对比，原文：\"Sepiapterin was superior to the highest approved dose of sapropterin in lowering blood Phe.\"（MAN-PTCT-6）。血 Phe 是 FDA 批准所用的注册终点（FDA-LABEL-NDA219666 第 14 节），不按替代终点封顶。置信度不取 high：AMPLIPHY 为开放标签、4 周短期、只纳入 sepiapterin 应答者。"
+sources = ["MAN-PTCT-5", "MAN-PTCT-6", "FDA-LABEL-NDA219666", "CTG-NCT05099640"]
+
+[clinical]
+design = "APHENITY（NCT05099640）：3 期、随机、双盲、安慰剂对照；第 1 部分 14 天开放标签应答评估，第 2 部分应答者 1:1 随机接受 6 周 sepiapterin（20/40/60 mg/kg 强制递增）或安慰剂；原文：\"phase 3, randomised, double-blind, placebo-controlled study\"、\"The primary endpoint for part 2, mean change from baseline in blood Phe after 6 weeks\"（MAN-PTCT-5）。AMPLIPHY：3 期、两部分、开放标签；第 2 部分随机交叉，sepiapterin 60 mg/kg/day 对 sapropterin 20 mg/kg/day 各 4 周；原文：\"randomized 1:1 to alternative treatment sequences of sepiapterin (60 mg/kg/day, licensed dosage) and sapropterin (20 mg/kg/day, maximum licensed dosage)\"（MAN-PTCT-6）。"
+comparability = "AMPLIPHY 是与标准治疗 sapropterin（Kuvan 及仿制药）的随机交叉直接对比，同一人群、同一终点（血 Phe 较基线变化）。与 Palynziq（pegvaliase）没有直接对比，任何比较都是跨试验比较，人群与终点定义可能不同。"
+result = "APHENITY：sepiapterin 组血 Phe 降低 63%，安慰剂组 +1%，原文：\"There was a significant reduction of blood Phe concentration after 6 weeks of sepiapterin (-63%, SD 20) compared with placebo (1%, 29\"（MAN-PTCT-5）；说明书表 7 治疗差异 \"Treatment difference (95% CI) in adjusted mean -64.2 (-74.1, -54.4)\"（FDA-LABEL-NDA219666）。AMPLIPHY：最小二乘均值差 -180.4 μmol/L，原文：\"least-squares mean difference of -180.4 μmol/L (95% CI: -229.5, -131.4; p < 0.0001)\"（MAN-PTCT-6）。安全性：\"Most treatment-emergent adverse events were mild gastrointestinal events\"（MAN-PTCT-5）。"
+limitation = "两项试验都只把第 1 部分应答者（血 Phe 降低 ≥30%）纳入主要分析，结论限于 sepiapterin 应答人群，说明书适应症也限定为 \"sepiapterin-responsive phenylketonuria (PKU)\"（FDA-LABEL-NDA219666）；AMPLIPHY 为开放标签、每期 4 周；两项研究均由 PTC 资助（\"FUNDING: PTC Therapeutics.\"，MAN-PTCT-5）；长期认知与生活质量获益只见公司演示材料引用（\"Improved cognitive function and mood\"，MAN-PTCT-4），原文献未读。"
+sources = ["MAN-PTCT-5", "MAN-PTCT-6", "MAN-PTCT-4", "FDA-LABEL-NDA219666", "CTG-NCT05099640"]
+
+[rights]
+status = "full"
+note = "推断（中高）：10-K 写明 \"We do not license any material patent rights relating to sepiapterin to unaffiliated parties.\"，物质组成专利 \"The last issued U.S. patent relating to composition of matter is currently scheduled to expire in September of 2038.\"（MAN-PTCT-1）。10-K 与最新 10-Q 未出现 sepiapterin 的对外许可、选择权或共同商业化；文件没有逐字写「全球权益」，故为推断。引进与付款义务：(1) Shiratori 制造工艺许可，\"we are obligated to pay to Shiratori a low single digit percentage of annual net sales of the Sepiapterin Products\"（MAN-PTCT-1）；(2) Censa 并购或有对价，第三季度又触发 \"net sales milestone payment to the former Censa securityholders\"（5,000 万美元），且 \"The former Censa securityholders may also be entitled to receive other contingent payments\"（MAN-PTCT-2）。公司在美、欧、拉美、日本自行商业化：\"our commercialization efforts in the United States, the EEA, Latin America, Japan and other territories\"（MAN-PTCT-2）；10-K 所述第三方仅为经销商（\"Our third-party distributors act as intermediaries between us and end-users\"，MAN-PTCT-1），不是区域许可。公司层面：votoplam 已许可 Novartis，PTC 保留 \"a 40% share of U.S. profits and losses\"（MAN-PTCT-2）；债务为 2031 年到期 0% 可转债 5.5 亿美元，\"The 2031 Convertible Notes will mature on June 15, 2031\"（MAN-PTCT-2）；另有 Royalty Pharma 特许权使用费融资按债务入账，2026-09-30 余额约 23.06 亿美元，原文：\"these fundings should be classified as debt\"，PTC 已出售 \"100 % of the Company's rights to receive sales-based royalty payments on worldwide net sales of Roche’s Evrysdi\"（MAN-PTCT-2），收购方拿不到 Evrysdi 特许权现金流；该负债未计入 pack 的 total_debt（5.91 亿美元）。资金：\"will be sufficient to fund its operations for at least the next twelve months\"（MAN-PTCT-2），公司称 \"on track to achieve our cash flow breakeven milestone this year\"（MAN-PTCT-3）。"
+sources = ["MAN-PTCT-1", "MAN-PTCT-2", "MAN-PTCT-3", "SEC-0001070081-26-000017"]

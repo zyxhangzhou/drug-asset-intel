@@ -1,0 +1,50 @@
+verified_by = ""
+program = "FICERAFUSP ALFA"
+indication = "Metastatic Head and Neck Squamous Cell Carcinoma"
+buyer = "Merck & Co."
+preference_rank = 1
+deal_form = "收购"
+need_item = "能在KEYTRUDA单药/联用之外形成新标准治疗的肺癌、胃肠癌、妇科癌或血液肿瘤资产（MRK-1、MRK-3）；另：Keytruda 美国核心专利约 2028 年到期（MNC-WB）"
+match_note = "推断（中）：ficerafusp alfa 是 EGFR 单抗与 TGF-β 配体陷阱的双功能分子，与 pembrolizumab 联用于 1L R/M HPV 阴性 HNSCC，目标是在 Keytruda 现有方案之上形成新的一线标准治疗；原文：\"a bifunctional epidermal growth factor receptor (EGFR) directed monoclonal antibody bound to a human transforming growth factor beta (TGF-β) ligand trap\"、\"currently evaluating ficerafusp alfa at 1500mg QW in combination with pembrolizumab in the Phase 3 portion of the ongoing FORTIFI-HN01 pivotal study\"（MAN-BCAX-2）。不足：Merck 画像点名的是肺癌、胃肠癌、妇科癌、血液肿瘤，不含头颈癌；胃肠方向只有 1b 期 mCRC 扩展队列：\"Present data from Phase 1b expansion cohort evaluating ficerafusp alfa both as monotherapy and in combination with pembrolizumab in patients with 3L+ mCRC (RAS/BRAF wild type MSS) in the second half of 2026\"（MAN-BCAX-3）。现有关系：Bicara 与 MSD 签有临床试验合作与供药协议，联用部分数据双方共有：\"all clinical data resulting from the portion of the clinical trial involving the combination of ficerafusp alfa and pembrolizumab is jointly owned by both us and MSD\"（MAN-BCAX-1）。组合冲突：10-K 竞争段只把 Merck 列为已上市 Keytruda 的持有方（不同机制、为联用骨架）：\"including pembrolizumab (marketed as Keytruda by Merck & Co)\"（MAN-BCAX-1）；未核查 Merck 早期管线中是否有 EGFR/TGF-β 类在研药，未核查组合冲突。"
+thesis = [
+  "Merck & Co. 需要「能在KEYTRUDA单药/联用之外形成新标准治疗」的肿瘤资产，且 Keytruda 美国核心专利约 2028 年到期；Bicara 的 ficerafusp alfa（EGFR 单抗 + TGF-β 配体陷阱双功能分子，联合 pembrolizumab 一线治疗 R/M HPV 阴性头颈鳞癌，FORTIFI-HN01 已进入 3 期部分）对应这一需求，因为它以 Keytruda 为联用骨架、有望在一线头颈癌形成新方案并获 FDA 突破性疗法认定，但 Merck 画像列出的瘤种不含头颈癌，匹配为中等置信度推断。",
+  "证据是 1/1b 期单臂扩展队列（1500 mg QW，n=28）确认 ORR 54%、CR 25%、中位 OS 21.3 个月、3 年估计 OS 31%，公司称约为标准治疗回顾性数据的两倍，但属跨试验比较且无头对头；下一事件是 FORTIFI-HN01 期中分析顶线结果（公司称 2027 年年中，未给季度，按估算），可支持基于 ORR 的加速批准申请；主要障碍是权益与知识产权：资产自 Biocon 引进（无里程碑、无特许权使用费），但 Y-Trap 对相关专利发起发明人更正诉讼、驳回动议已被法院拒绝；成本不构成障碍（快照 EV 约 1.49 亿美元）。",
+]
+thesis_sources = ["MRK-1", "MRK-3", "MNC-WB", "MAN-BCAX-1", "MAN-BCAX-2", "MAN-BCAX-3", "MAN-BCAX-4", "SEC-0001628280-26-055765", "NASDAQ-BCAX-2026-10-28", "CTG-NCT06788990"]
+
+[scores.buyer_fit]
+score = 3
+confidence = "medium"
+reason = "推断：资产在 Merck 第 1 治疗领域（肿瘤）内，且为双功能免疫肿瘤抗体，符合 Merck 技术偏好「双特异/多特异免疫肿瘤」；与 pembrolizumab 联用、Merck 共有联用数据：\"jointly owned by both us and MSD\"（MAN-BCAX-1）。不给 4 分：Merck 画像点名「肺癌、胃肠癌、妇科癌或血液肿瘤」，头颈癌不在其中；以 Keytruda 2028 年 LOE 补缺论证属分析判断，且资产本身依赖 pembrolizumab 联用：\"in combination with pembrolizumab\"（MAN-BCAX-2）。Merck 早期管线未核查，未核查组合冲突。"
+sources = ["MRK-1", "MRK-3", "MNC-WB", "MAN-BCAX-1", "MAN-BCAX-2"]
+
+[scores.stage_match]
+score = 4
+confidence = "high"
+reason = "Merck 该行 ideal_stage 为「Phase 2b-注册期」；FORTIFI-HN01 已于 2026 年 2 月完成向 3 期部分的过渡，原文：\"In February 2026, the transition to the Phase 3 portion of the FORTIFI-HN01 trial was completed.\"（MAN-BCAX-1）；8 月仍在入组 3 期：\"Continued to enroll Phase 3 of the FORTIFI-HN01 pivotal trial\"（MAN-BCAX-3）。"
+sources = ["MRK-1", "MAN-BCAX-1", "MAN-BCAX-3", "CTG-NCT06788990"]
+
+[scores.clinical]
+score = 2
+confidence = "medium_high"
+reason = "现有疗效数据全部来自 1/1b 期开放标签单臂扩展队列（约 90 例，三个剂量组），属早期阳性信号；原文：\"Phase 1b dataset of ~90 patients in 1L R/M HPV-negative HNSCC across all three doses\"、1500 mg QW 组确认 ORR \"54%\"、CR \"25%\"（MAN-BCAX-2）。与标准治疗的比较是跨试验比较（对照为回顾性分析）：\"No head-to-head studies have been conducted\"（MAN-BCAX-2）。FORTIFI-HN01 的随机 2 期部分只用于选剂量，未公布疗效数据：\"Selected 1500 mg QW of ficerafusp alfa in combination with pembrolizumab as the optimal dose for Phase 3 FORTIFI-HN01 pivotal study\"（MAN-BCAX-4）；注册路径依赖随机试验期中 ORR，而非单臂数据：\"a path to accelerated approval using an ORR-based interim endpoint with confirmatory approval based on an OS endpoint\"（MAN-BCAX-1），故不按单臂可注册条款给 3 分。"
+sources = ["MAN-BCAX-1", "MAN-BCAX-2", "MAN-BCAX-4"]
+
+[clinical]
+design = "1/1b 期、首次人体、开放标签、多中心研究的 1L R/M HPV 阴性 HNSCC 扩展队列，ficerafusp alfa 750 mg QW（n=30）、1500 mg QW（n=28）、2000 mg Q2W（n=27）联合 pembrolizumab，非随机、无对照；原文：\"a First-in-Human, Phase 1/1b, Open-label, Multicenter Study\"（MAN-BCAX-1）、\"which included the 750mg weekly (QW), 1500mg QW, and 2000mg every-other-week (Q2W) expansion cohorts\"（MAN-BCAX-2）。数据截点 2026-03-31。"
+comparability = "跨试验比较，人群与终点定义可能不同：公司把 3 年 OS 与 pembrolizumab 在 HPV 阴性患者中的回顾性分析比较，原文：\"approximately doubling the survival rate observed in retrospective analysis with standard of care pembrolizumab in HPV-negative patients\"、\"No head-to-head studies have been conducted\"（MAN-BCAX-2）。随机、双盲、安慰剂对照的 FORTIFI-HN01（ficerafusp 或安慰剂 + pembrolizumab，约 650 例）尚无疗效读出：\"The total trial will enroll approximately 650 patients\"（MAN-BCAX-1）。"
+result = "1500 mg QW 组（关键研究剂量）：确认 ORR 54%，CR 25%，深度缓解（≥80% 缩瘤）80%，中位 DOR 21.7 个月，中位 PFS 9.9 个月，中位 OS 21.3 个月；原文表格值 \"54%\"、\"25%\"、\"80%\"、\"21.7 months\"、\"9.9 months\"、\"21.3 months\"（MAN-BCAX-2）。3 年估计 OS 率 31%：\"showed an estimated OS rate of 31%\"（MAN-BCAX-2）。ORR、CR、深度缓解为替代终点。"
+limitation = "单臂、小样本（关键剂量组 n=28），无随机对照疗效数据；会议海报与公司新闻稿，尚无同行评议全文。公司自述安全性：\"a generally well-tolerated safety profile and no new safety signals\"（MAN-BCAX-2），未逐项核查不良事件发生率。深度缓解与长期结局的关联为探索性合并分析：\"Exploratory analyses from multiple expansion cohorts\"（MAN-BCAX-2）。"
+sources = ["MAN-BCAX-1", "MAN-BCAX-2"]
+
+[event]
+text = "1L R/M HPV 阴性 HNSCC 关键研究 FORTIFI-HN01 期中分析顶线结果（公司称可支持基于 ORR 的加速批准）；原文：\"enabling topline results from interim analysis in mid-2027\"（MAN-BCAX-3）、\"to enable an interim analysis in the middle of 2027\"（MAN-BCAX-4）。公司只说「2027 年年中」，未给季度或半年，故确定性按估算处理；前提是 2026 年底前基本完成入组：\"expect to be substantially enrolled by the end of the year\"（MAN-BCAX-3）。"
+timing = "2027"
+importance = "high"
+certainty = "estimated"
+sources = ["MAN-BCAX-3", "MAN-BCAX-4", "CTG-NCT06788990"]
+
+[rights]
+status = "full"
+note = "推断（中高）：10-K 与 10-Q 均未逐字写「全球权益」，也未披露任何对外授权、选择权、优先谈判权或共同开发 / 共同商业化。引进：Biocon 授予含再许可权的许可，原文：\"Biocon would grant us a license, with the right to grant and authorize sublicenses to make, use, sell, offer to sell, import, and otherwise exploit certain fusion protein products of which ficerafusp alfa was the most advanced program\"、\"We have an exclusive license from Biocon Limited to one patent family directed to ficerafusp alfa\"（MAN-BCAX-1）；无后续付款义务：\"there are no future milestone payments, royalty terms or any additional payments required\"（MAN-BCAX-1）；收购时 Biocon 交付义务终止：\"In the event of an acquisition of all or substantially all of our assets and business by a third party, this obligation shall terminate\"（MAN-BCAX-1）。专利：\"Each of the U.S. and foreign patents is expected to expire in 2033\"（MAN-BCAX-1）。MSD 协议仅为 1/1b 期供药合作，联用数据共有：\"jointly owned by both us and MSD\"（MAN-BCAX-1），不构成选择权或共同开发。风险：Y-Trap 发明人更正诉讼涉及许可专利：\"correction of inventorship of a number of patents, including patents alleged to be licensed to us relating to ficerafusp alfa\"、\"On September 30, 2025, the court denied our motion.\"（MAN-BCAX-1）；公司对相关专利发起复审：\"instituted a post-grant review petition brought by the Company against The John Hopkins University\"（SEC-0001628280-26-055765）。债务：10-Q 资产负债表无借款，负债仅应计费用与经营租赁，\"Total liabilities | 43,475\"（千美元，SEC-0001628280-26-055765）；现金跑道：\"sufficient to fund our operations and capital expenditure requirements into the first half of 2029\"（SEC-0001628280-26-055765）。"
+sources = ["MAN-BCAX-1", "SEC-0001628280-26-055765"]

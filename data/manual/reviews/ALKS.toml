@@ -1,0 +1,50 @@
+verified_by = ""
+program = "ALKS 2680"
+indication = "Narcolepsy Type 1"
+buyer = "AbbVie"
+preference_rank = 2
+deal_form = "收购"
+need_item = "抑郁、精神分裂症、阿尔茨海默病/抗tau、偏头痛等可形成新神经平台的资产（ABBV-1、ABBV-5，治疗领域第 2 位，Phase 2b-3）；技术类型第 2 位「口服中枢小分子」：「Phase 2b-3，有明确认知/情绪疗效」"
+match_note = "alixorexton（ALKS 2680）是每日一次口服的选择性 OX2R 激动剂，属 AbbVie 技术偏好中的「口服中枢小分子」，已在 3 期；原文：\"Alixorexton is a novel, investigational, oral, selective orexin 2 receptor agonist\"（SEC-0001193125-26-319022）。Vibrance-1 的认知障碍量表（BC-CCI）相对安慰剂改善，但属探索性终点：\"Alixorexton drove statistically significant and clinically meaningful improvements from baseline compared to placebo in disease severity, fatigue and cognitive impairment\"（MAN-ALKS-2）。公司把 OX2R 激动剂扩展到其他神经精神适应症，可视为新神经平台：\"orexin 2 receptor agonists in early clinical development for other neurological disorders\"（MAN-ALKS-6）。AbbVie 画像列举的适应症（抑郁、精神分裂症、阿尔茨海默病、偏头痛）不含发作性睡病，故只算治疗领域 + 技术类型匹配，未对应到一条具体需求。未核查组合冲突（未打开 AbbVie 文件；Alkermes 10-K 竞争段未点名任何 OX2R 激动剂竞品公司）。"
+thesis = [
+  "AbbVie 需要「可形成新神经平台的资产」，并偏好「口服中枢小分子，Phase 2b-3，有明确认知/情绪疗效」；Alkermes 的 alixorexton（ALKS 2680，口服选择性 OX2R 激动剂，1 型发作性睡病，3 期）对应这一需求，因为它是每日一次口服中枢小分子，2 期在清醒度与认知、疲劳量表上相对安慰剂改善，公司并在把 OX2R 激动剂扩展到 ADHD 等其他神经精神适应症；但 AbbVie 画像未点名发作性睡病，匹配属领域 + 技术类型层面。",
+  "证据是 2 期 Vibrance-1（随机、双盲、安慰剂对照，n=92）在 4/6/8 mg 全部剂量达到主要终点（MWT 平均睡眠潜伏期第 6 周较安慰剂延长 22.2–26.0 分钟，无与标准治疗的直接对比）；下一事件是 Brilliance NT1 3 期主要终点完成（2027-05，CT.gov 预计日期，估算）；主要障碍是成本：快照 EV 约 84.2 亿美元（50–150 亿档），收购须买下含 LUMRYZ 等上市产品与 15.25 亿美元定期贷款的整个公司。",
+]
+thesis_sources = ["ABBV-1", "ABBV-5", "SEC-0001193125-26-319022", "NASDAQ-ALKS-2026-10-28", "MAN-ALKS-1", "MAN-ALKS-2", "MAN-ALKS-5", "MAN-ALKS-6", "CTG-NCT06358950", "CTG-NCT07455383"]
+
+[scores.buyer_fit]
+score = 3
+confidence = "medium"
+reason = "资产落在 AbbVie 第 2 治疗领域（神经科学），技术类型符合其「口服中枢小分子」偏好；原文：\"Alixorexton is a novel, investigational, oral, selective orexin 2 receptor agonist\"（SEC-0001193125-26-319022）。画像列举的适应症不含发作性睡病，认知改善只是探索性终点（\"cognitive impairment\"，MAN-ALKS-2），故不给 4 分。未核查组合冲突。"
+sources = ["ABBV-1", "ABBV-5", "SEC-0001193125-26-319022", "MAN-ALKS-2"]
+
+[scores.stage_match]
+score = 4
+confidence = "high"
+reason = "AbbVie 该行 ideal_stage 为「Phase 2b-3」；alixorexton 已进入 3 期，原文：\"On April 1, 2026, we announced the initiation of the Brilliance Studies, a phase 3 program evaluating the safety and efficacy of alixorexton compared to placebo in adults with NT1 and NT2.\"（SEC-0001193125-26-319022）。"
+sources = ["ABBV-1", "SEC-0001193125-26-319022", "CTG-NCT07455383", "CTG-NCT07540897"]
+
+[scores.clinical]
+score = 3
+confidence = "medium_high"
+reason = "随机、双盲、安慰剂对照 2 期 Vibrance-1（NT1）唯一主要终点（第 6 周 MWT 平均睡眠潜伏期）在全部剂量达到；原文：\"Once-daily alixorexton met the primary endpoint across all doses tested\"（MAN-ALKS-2）。无与标准治疗的直接对比，3 期未读出，故不给 4 分。"
+sources = ["MAN-ALKS-2", "CTG-NCT06358950"]
+
+[clinical]
+design = "2 期 Vibrance-1（NCT06358950）：随机、双盲、安慰剂对照、剂量探索，NT1 成人 92 例，每日一次 4/6/8 mg 或安慰剂，6 周；原文：\"The randomized, placebo-controlled, six-week, double-blind phase 2 study conducted in 92 patients with NT1\"（MAN-ALKS-2）。"
+comparability = "仅有安慰剂对照；与 sodium oxybate、pitolisant、solriamfetol 等现有疗法没有直接对比。任何与其他药物（含其他 OX2R 激动剂）的比较都是跨试验比较，人群与终点定义可能不同；6 周疗程短于注册试验。"
+result = "主要终点在全部剂量达到：第 6 周 MWT 平均睡眠潜伏期较安慰剂（LSM 差）4 mg 22.2 分钟（p=0.01）、6 mg 24.1、8 mg 26.0 分钟（p<0.0001，见新闻稿终点表）；原文：\"Once-daily alixorexton met the primary endpoint across all doses tested\"、\"All alixorexton dose groups achieved normative wakefulness on the MWT (mean sleep latency ≥20 minutes)\"（MAN-ALKS-2）。关键次要终点 ESS 改善；猝倒率只在 6 mg 显著：\"achieved statistical significance at the 6 mg dose\"（MAN-ALKS-2）。安全性：\"No serious treatment-emergent adverse events (TEAEs) were reported.\"（MAN-ALKS-2）。"
+limitation = "2 期疗程仅 6 周、样本 92 例；数据来自公司新闻稿（World Sleep 2025 口头报告），未打开同行评议全文。NT2 的 Vibrance-2 两个主要终点只在部分剂量达到统计学显著：\"Based on the pre-specified analysis, the 14 mg and 18 mg doses achieved statistical significance\"（MWT）、\"the 18 mg dose achieved statistical significance\"（ESS）（MAN-ALKS-3）。常见不良事件含尿频、失眠、视物模糊：\"were pollakiuria, insomnia, salivary hypersecretion, urinary urgency and blurred vision\"（MAN-ALKS-2）。"
+sources = ["MAN-ALKS-2", "MAN-ALKS-3", "CTG-NCT06358950"]
+
+[event]
+text = "Brilliance NT1 3 期（1 型发作性睡病，Study 302：NCT07455383；另一项 NT1 3 期 NCT07540897 预计 2027-06）主要终点完成；公司文件未给读出季度，时间取 CT.gov 预计主要完成日 2027-05。研究已启动：\"we announced the initiation of the Brilliance Studies, a phase 3 program\"（SEC-0001193125-26-319022）；\"Brilliance NT1 – Study 302: NCT07455383\"（MAN-ALKS-5）。"
+timing = "2027-05"
+importance = "high"
+certainty = "estimated"
+sources = ["SEC-0001193125-26-319022", "MAN-ALKS-5", "CTG-NCT07455383", "CTG-NCT07540897"]
+
+[rights]
+status = "full"
+note = "推断（中高）：10-K 与最新 10-Q（2026-06-30）均未写明 alixorexton 有合作方、选择权或引进许可。10-K「Collaborative Arrangements」只列 Janssen（NANOCRYSTAL 技术，INVEGA 产品）与 Biogen（VUMERITY），均为对外许可，与 alixorexton 无关；但该段引语有保留：\"including the arrangements described below\"（MAN-ALKS-1）。10-K 专利段：\"We have U.S. patent protection that extends to 2041, several U.S. patent applications, and a number of corresponding non-U.S. counterparts that cover alixorexton.\"（MAN-ALKS-1）；紧接的泛称句 \"We have exclusive rights through licensing agreements with third parties to issued U.S. patents\"（MAN-ALKS-1）未指明产品，未发现 alixorexton 对任何许可方负有里程碑或特许权使用费义务。文件没有逐字写「全资 / 全球权益」，签核时请人工确认。债务：Avadel 收购时借入定期贷款 A/B：\"borrowed the full $ 1.525 billion available under the Facilities\"（SEC-0001193125-26-319022），分别于 2031-02-12 与 2031-08-12 到期。"
+sources = ["MAN-ALKS-1", "SEC-0001193125-26-319022"]

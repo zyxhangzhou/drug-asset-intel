@@ -1,0 +1,50 @@
+verified_by = ""
+program = "RINZIMETOSTAT"
+indication = "Metastatic Castration Resistant Prostate Cancer"
+buyer = "AbbVie"
+preference_rank = 3
+deal_form = "收购"
+need_item = "血液瘤和实体瘤ADC、抗体药物或靶向小分子，要求明确差异化和可扩适应症（ABBV-1、ABBV-5）"
+match_note = "rinzimetostat 是口服 PRC2（EED 亚基）变构抑制剂，属实体瘤靶向小分子；公司称其安全性有明确差异，并列出前列腺癌以外的扩展方向，对应 AbbVie 画像中的「靶向小分子」「明确差异化」「可扩适应症」；原文：\"an allosteric inhibitor of the polycomb repressive complex 2 (PRC2) via the EED subunit, being developed for prostate cancer\"（MAN-ORIC-2）；\"demonstrates a clearly differentiated safety profile\"、\"Several Development Opportunities in Other Solid Tumors\"（MAN-ORIC-3）。「差异化」是公司基于 1b 期跨试验比较的表述，不是已证实结论。买方选择：Pfizer（第 2 治疗领域，画像含「泌尿」，Xtandi 2027 LOE）文字契合度最高，但存在组合冲突：10-K 竞争段 \"we are aware of several companies developing inhibitors against PRC2 via EZH2 inhibition that are currently in clinical trials, including Ipsen, Novartis, Daiichi Sankyo, Pfizer\"（MAN-ORIC-1）；MEVPRO-1 为 mevrometostat（EZH2 抑制剂）联合 enzalutamide 的 3 期，入组 \"≥12 weeks of prior abiraterone treatment\"，主要终点 rPFS，作者含 \"Employee of and shareholder in Pfizer Inc.\"（MAN-ORIC-4），与 Himalayas-1 同机制通路、同人群，故排除 Pfizer；Novartis 同在 10-K 竞品名单中，亦排除。AbbVie 不在 10-K 竞品名单中；AbbVie 自身前列腺癌 / PRC2 布局未核查（未核查组合冲突）。"
+thesis = [
+  "AbbVie 需要「血液瘤和实体瘤…靶向小分子，要求明确差异化和可扩适应症」；ORIC 的 rinzimetostat（PRC2/EED 变构抑制剂，口服每日一次，阿比特龙治疗后的转移性去势抵抗性前列腺癌 mCRPC，3 期 Himalayas-1 已启动）对应这一需求，因为公司 1b 期数据显示 400 mg 联合 darolutamide 的 3 级以上治疗相关不良事件 6%，并规划向其他实体瘤扩展。",
+  "证据是 1b 期剂量优化数据（阿比特龙治疗后 400 mg + darolutamide：确认 PSA50 5/15、33%，5 个月 rPFS 里程碑率 84%，中位随访 4.9 个月，rPFS 尚不成熟，与 mevrometostat 等的比较均为跨试验比较）；下一事件是 Himalayas-1 主要终点 rPFS 读出（2028-03，估算；公司另披露 2026 下半年项目更新）；主要障碍不突出：公司持有全球权益（Mirati 引进许可免特许权使用费、无里程碑），无借款，快照 EV 约 5.8 亿美元，现金预计支撑至 2028 下半年，主要风险在于 Pfizer 的同通路 EZH2 抑制剂已在同一人群做 3 期。",
+]
+thesis_sources = ["ABBV-1", "ABBV-5", "MAN-ORIC-1", "MAN-ORIC-2", "MAN-ORIC-3", "MAN-ORIC-4", "SEC-0001193125-26-330631", "NASDAQ-ORIC-2026-10-28", "CTG-NCT07723248"]
+
+[scores.buyer_fit]
+score = 3
+confidence = "medium"
+reason = "rinzimetostat 落在 AbbVie 第 3 治疗领域（肿瘤）内，技术类型为实体瘤靶向小分子，符合 AbbVie 画像「靶向小分子」；原文：\"allosteric inhibitor of the polycomb repressive complex 2 (PRC2)\"（MAN-ORIC-2）。画像未点名前列腺癌或 PRC2 机制，buyers.json 中 AbbVie 也无前列腺癌 LOE 产品，故不给 4 分。AbbVie 不在 10-K rinzimetostat 竞品名单（\"including Ipsen, Novartis, Daiichi Sankyo, Pfizer\"，MAN-ORIC-1）中；AbbVie 自身管线未核查。"
+sources = ["ABBV-1", "ABBV-5", "MAN-ORIC-1", "MAN-ORIC-2", "MAN-ORIC-3"]
+
+[scores.stage_match]
+score = 4
+confidence = "high"
+reason = "AbbVie 该行 ideal_stage 为「Phase 2-3或上市」（人工映射 phase2–approved）；rinzimetostat 已启动 3 期，原文：\"initiated the Himalayas-1 global Phase 3 registrational trial\"（MAN-ORIC-2）；CT.gov NCT07723248 为 phase3、RECRUITING。"
+sources = ["ABBV-1", "MAN-ORIC-2", "CTG-NCT07723248"]
+
+[scores.clinical]
+score = 2
+confidence = "high"
+reason = "只有 1b 期开放标签剂量优化数据，主要终点为安全性与推荐 3 期剂量，疗效为次要 / 探索性终点且 rPFS 不成熟；原文：\"Primary endpoints: Safety and Recommended Phase 3 Dose\"、\"Radiographic Progression-Free Survival Data Are Immature\"（MAN-ORIC-3）。与 mevrometostat、enzalutamide 的比较均为跨试验比较（\"Cross-trial comparison in previously treated mCRPC patients shown\"，MAN-ORIC-3），按 §3.3 早期阳性信号给 2 分。"
+sources = ["MAN-ORIC-3", "CTG-NCT05413421"]
+
+[clinical]
+design = "1b 期、多中心、开放标签试验（NCT05413421），rinzimetostat 每日一次联合 darolutamide 或 apalutamide，入组既往接受过 AR 通路抑制剂的 mCRPC；剂量优化部分阿比特龙治疗后患者 400 mg QD + darolutamide n=18；原文：\"Phase 1b, Multicenter, Open-Label Trial (in Collaboration with Bayer and Johnson & Johnson)\"、\"Primary endpoints: Safety and Recommended Phase 3 Dose\"（MAN-ORIC-3）。"
+comparability = "无对照组；公司幻灯片把 rinzimetostat 与 mevrometostat + enzalutamide、enzalutamide 单药的已发表数据并列，属跨试验比较，人群与终点定义可能不同；原文：\"Cross-trial comparison in previously treated mCRPC patients shown\"、\"Competitor rPFS percentages estimated from published data\"（MAN-ORIC-3）。"
+result = "阿比特龙治疗后 400 mg QD + darolutamide：PSA50 未确认 7/15（47%）、确认 5/15（33%）；rPFS 里程碑率 3 个月 93%、4 个月 84%、5 个月 84%（中位随访 4.9 个月）；3 级以上治疗相关不良事件 6%，无剂量下调；原文：\"PSA50 7/15 (47%) 5/15 (33%)\"、\"3-Month 93%\"、\"Grade ≥3 TRAEs 36% 49% 6%\"（MAN-ORIC-3）。疗效数据截止 2026-03-06：\"ORIC data on file as of March 6, 2026\"（MAN-ORIC-3）。"
+limitation = "样本小（n=18），随访短，rPFS 不成熟（\"Radiographic Progression-Free Survival Data Are Immature\"），PSA 为替代指标；数据仅见公司幻灯片（8-K 附件），无同行评议全文。竞争：Pfizer 的 EZH2 抑制剂 mevrometostat 在同一阿比特龙治疗后 mCRPC 人群做 3 期 MEVPRO-1（\"MEVPRO-1 will include ~600 patients with ≥12 weeks of prior abiraterone treatment\"，MAN-ORIC-4），进度可能领先。"
+sources = ["MAN-ORIC-3", "MAN-ORIC-4", "CTG-NCT05413421"]
+
+[event]
+text = "Himalayas-1（mCRPC，阿比特龙治疗后）3 期主要终点 rPFS 读出；CT.gov 预计主要完成时间 2028-03（估算）；公司表述：\"beyond anticipated primary endpoint readout from first Phase 3 trial for rinzimetostat\"、\"The primary endpoint is radiographic progression-free survival\"（MAN-ORIC-2），未给出季度。较近的已披露事件：\"Rinzimetostat in mCRPC\" \"2H 2026: Program update\"（MAN-ORIC-2）。"
+timing = "2028-03"
+importance = "high"
+certainty = "estimated"
+sources = ["CTG-NCT07723248", "MAN-ORIC-2"]
+
+[rights]
+status = "full"
+note = "事实：10-Q：\"The Company will conduct and sponsor the Himalayas-1 trial and maintain full economic ownership and control of rinzimetostat.\"（SEC-0001193125-26-330631）；10-K：\"We own or license full worldwide development and commercialization rights to each of our programs (other than with respect to our brain-penetrant EGFR program, enozertinib\"（MAN-ORIC-1）；Bayer 供药协议 \"does not grant Bayer any license, option, or other rights to\" rinzimetostat（MAN-ORIC-2）。引进许可：rinzimetostat 由 Mirati（现为 BMS 子公司）许可，\"Mirati granted the Company a worldwide, exclusive, sublicensable, royalty-free license\"、\"The Company is not obligated to pay Mirati milestones or royalties.\"、\"The Mirati License Agreement continued in effect upon consummation of the transaction\"（SEC-0001193125-26-330631）。终止时须返还：\"obligated to assign to Mirati, or grant an exclusive license to Mirati\"（MAN-ORIC-1）；Mirati 可在 \"discontinues development of licensed products for a specified period of time\" 时终止（SEC-0001193125-26-330631）。许可协议是否含控制权变更 / 转让限制条款未见披露（待核实）。J&J 与 Bayer 协议仅为供药合作。无借款：10-Q 资产负债表负债只有应付账款、应计负债与其他长期负债，\"Total liabilities 23,429\"（千美元，SEC-0001193125-26-330631）。"
+sources = ["SEC-0001193125-26-330631", "MAN-ORIC-1", "MAN-ORIC-2"]

@@ -1,0 +1,50 @@
+verified_by = ""
+program = "CEMACABTAGENE ANSEGEDLEUCEL"
+indication = "Large B-cell Lymphoma"
+buyer = "Merck & Co."
+preference_rank = 1
+deal_form = "收购"
+need_item = "Merck 肿瘤/血液肿瘤偏好（第 1 位）：\"能在KEYTRUDA单药/联用之外形成新标准治疗的肺癌、胃肠癌、妇科癌或血液肿瘤资产\"，理想阶段\"Phase 2b-注册期\"（MRK-1、MRK-3）"
+match_note = "推断（中，只到标签匹配）：cema-cel 是同种异体抗 CD19 CAR-T，在关键性 2 期 ALPHA3 中用于一线治疗后 MRD 阳性的大 B 细胞淋巴瘤巩固治疗，对照组为观察（原文：\"the first pivotal, randomized Phase 2 trial in LBCL designed to assess whether MRD-guided treatment following first-line therapy can delay or prevent clinical relapse\"，MAN-ALLO-2）。这对应画像中\"血液肿瘤\"与\"新标准治疗\"两点：该场景目前的对照是观察，若 EFS 阳性即为新的一线巩固标准；但\"新标准\"尚未被主要终点证实。Merck 的技术偏好行不含细胞治疗。组合冲突：Allogene 10-K 竞争段落只把 Merck 列为双特异 T 细胞衔接器开发方（原文：\"Merck & Co. Inc.\" 列于 \"pursuing bispecific T cell engagers\" 一句，SEC-0001628280-26-017242），未列出 Merck 的 CD19 CAR-T；未读 Merck 自身管线，记为未核查组合冲突。另：BMS 第 3 位画像（CAR-T/细胞疗法、降低制造复杂度）文字更贴合，但 10-K 原文\"BMS obtained FDA approval for its anti-CD19 autologous T cell therapy, Breyanzi® for the treatment of adults with 3rd-line LBCL\"（SEC-0001628280-26-017242），属同机制同适应症，按 §3.1 不选。"
+thesis = [
+  "Merck 需要\"能在KEYTRUDA单药/联用之外形成新标准治疗的…血液肿瘤资产\"（Phase 2b-注册期，MRK-1）；Allogene 的 cema-cel（cemacabtagene ansegedleucel，同种异体抗 CD19 CAR-T，一线治疗后 MRD 阳性的大 B 细胞淋巴瘤巩固治疗，关键性 2 期）对应这一需求，因为 ALPHA3 是\"the first pivotal, randomized Phase 2 trial in LBCL designed to assess whether MRD-guided treatment following first-line therapy can delay or prevent clinical relapse\"，该场景目前只有观察，且现货型产品多数患者可门诊给药（MAN-ALLO-2、MAN-ALLO-1）。",
+  "证据是 ALPHA3 中期无效性分析（每组 12 例）MRD 转阴 58.3% 对观察组 16.7%，属替代指标，主要终点 EFS 仍\"remains blinded\"（MAN-ALLO-1）；下一事件是 ALPHA3 中期 EFS 分析（2027 年中，公司称\"mid-2027\"，按估算记），主要 EFS 分析在 2028 年中（MAN-ALLO-1、MAN-ALLO-2）；主要障碍是权益：cema-cel 经 Servier 转授（源自 Cellectis），Allogene 只持有美国、欧盟与英国权益，并已放弃转为全球许可的权利，美国销售需付 Servier \"low tens to the mid teen percentages\" 的分级提成，且 Cellectis 的 TALEN 上游许可正与 LTC 仲裁（SEC-0001628280-26-056213）；成本不是障碍，EV 约 0.26 亿美元（市值按 2026-10-28 收盘价）。",
+]
+thesis_sources = ["MRK-1", "MAN-ALLO-1", "MAN-ALLO-2", "SEC-0001628280-26-056213", "SEC-0001628280-26-017242", "CTG-NCT06500273", "NASDAQ-ALLO-2026-10-28"]
+
+[scores.buyer_fit]
+score = 2
+reason = "推断：只到标签匹配。Merck 第 1 位画像（MRK-1）中与本资产相关的只有治疗领域\"血液肿瘤\"与结果要求\"新标准治疗\"，未描述具体适应症、机制或给药方式，不满足 §3.1 的 4 分；Merck 技术偏好不含细胞治疗，不满足 3 分。适配点：ALPHA3 对照为观察（原文：\"randomize approximately 220 MRD+ patients to either cema-cel consolidation or close observation\"，MAN-ALLO-2），若成功可能成为一线巩固新标准。组合冲突：10-K 竞争段落只把 Merck 列为双特异开发方（原文：\"pursuing bispecific T cell engagers\"，SEC-0001628280-26-017242），未见其 CD19 CAR-T；未读 Merck 自身管线，未核查组合冲突。"
+sources = ["MRK-1", "MAN-ALLO-2", "SEC-0001628280-26-017242"]
+confidence = "medium"
+
+[scores.stage_match]
+score = 4
+reason = "资产处于关键性 2 期：10-Q 原文\"In June 2024, we initiated a pivotal Phase 2 clinical trial (ALPHA3)\"（SEC-0001628280-26-056213）；pack 阶段 phase2（CTG-NCT06500273）一致。Merck 第 1 位理想阶段\"Phase 2b-注册期\"（MRK-1），2 期落在区间内。未见 BLA 已提交；8-K 原文\"If positive, these results could support a Biologics License Application\"（MAN-ALLO-1）。"
+sources = ["SEC-0001628280-26-056213", "CTG-NCT06500273", "MRK-1", "MAN-ALLO-1"]
+confidence = "high"
+
+[scores.clinical]
+score = 2
+reason = "随机对照关键性 2 期的中期无效性分析只给出替代指标：原文\"58.3% (7/12) of patients in the cema-cel arm achieved MRD negativity compared to 16.7% (2/12) in the observation arm\"（MAN-ALLO-1）；主要终点 EFS 未揭盲（原文：\"remains blinded\"，MAN-ALLO-1）。没有主要终点结果，样本仅 24 例，属早期阳性信号，按 §3.3 给 2。"
+sources = ["MAN-ALLO-1", "MAN-ALLO-2", "CTG-NCT06500273"]
+confidence = "medium_high"
+
+[clinical]
+design = "ALPHA3 关键性 2 期：随机、对照为观察，一线治疗后 MRD 阳性 LBCL，计划约 220 例，主要终点 EFS；中期无效性分析基于开放组的前 24 例（12 vs 12）；原文：\"first 24 patients randomized in the two study arms still open to enrollment\"，\"The study is powered to detect a 50% reduction in the risk of EFS events.\"（MAN-ALLO-1）"
+comparability = "对照为观察，是该场景的现行处理；同场景没有获批疗法可比。10-K 认为自体 CAR-T 不适用于一线巩固（原文：\"We do not, however, believe that autologous CAR T therapy will be a viable option in the 1L consolidation setting\"，SEC-0001628280-26-017242），这是公司观点。MRD 清除差异能否转化为 EFS 获益，公司只引用文献与跨研究基准（原文：\"Published literature and cross-study benchmarks suggest\"，MAN-ALLO-2），属跨试验推断，人群与终点定义可能不同。"
+result = "MRD 转阴 58.3% 对 16.7%，绝对差 41.6%（原文：\"This represents a 41.6% absolute difference in MRD clearance between the two arms\"，MAN-ALLO-1）；Day 45 ctDNA 中位下降 97.7%（原文：\"decreased from baseline by a median of 97.7% in the cema-cel arm\"，MAN-ALLO-1）。安全性：无 CRS、ICANS、GvHD（原文：\"There were no cases of cytokine release syndrome\"，MAN-ALLO-1），12 例中 10 例全程门诊（原文：\"Ten of 12 patients who received cema-cel were managed entirely outpatient post-infusion\"，MAN-ALLO-1）。FDA 授予 RMAT 与 Fast Track（原文：\"granted Regenerative Medicine Advanced Therapy (RMAT) and Fast Track designations\"，MAN-ALLO-2）。"
+limitation = "中期分析、样本小（每组 12 例）、替代终点；主要终点 EFS 未揭盲（MAN-ALLO-1）。基线不平衡，公司自述\"a numerically greater number of patients in the cema-cel arm had more aggressive disease features\"（MAN-ALLO-1）。入组依赖 Natera 的 CLARITY MRD 检测，商业化受检测可及性与报销影响（原文：\"the commercial success of cema-cel will depend in part on the assay’s commercial availability\"，SEC-0001628280-26-056213）。"
+sources = ["MAN-ALLO-1", "MAN-ALLO-2", "SEC-0001628280-26-017242", "SEC-0001628280-26-056213"]
+
+[event]
+text = "ALPHA3（cema-cel，一线治疗后 MRD 阳性 LBCL 巩固）中期 EFS 分析，公司披露 2027 年中；主要 EFS 分析 2028 年中，阳性可支持 BLA。原文：\"The Company anticipates an interim EFS analysis in mid-2027 and the primary EFS analysis in mid-2028.\"（MAN-ALLO-1）；Q2 新闻稿原文：\"The next program update tied to the interim event-free survival (EFS) analysis is expected in mid-2027.\"（MAN-ALLO-2）。注：\"mid-2027\"不是明确季度或半年，按规则记为估算；复核人可改为明确披露。CT.gov 2027-12 是预计主要完成日期，与公司所说入组完成\"by year-end 2027\"一致，不是读出时间。"
+timing = "2027 年中"
+importance = "high"
+certainty = "estimated"
+sources = ["MAN-ALLO-1", "MAN-ALLO-2", "CTG-NCT06500273"]
+
+[rights]
+status = "partial"
+note = "cema-cel 为转授权引进资产，Allogene 不持有全球权益。10-Q 原文：\"expanded our territory under the Original Servier Agreement to include the European Union and the United Kingdom, and provided for an option to further expand our territory to include China and Japan\"，并\"waived certain of our rights to elect to convert certain of our license rights to a worldwide license\"（SEC-0001628280-26-056213）；Q2 新闻稿原文：\"Servier has granted Allogene exclusive rights to cema-cel in the U.S., all EU Member States and the United Kingdom.\"（MAN-ALLO-2）。推断：文件只写 Allogene 的许可区域；其余地区（含中国、日本，Allogene 仅有扩展选择权）的权利按许可方推断仍在 Servier。上游：Servier 的权利来自 Cellectis（10-K 原文：\"We also rely on Cellectis, through our agreement with Servier, for exclusive rights to cema-cel.\"，SEC-0001628280-26-017242）；2025-12 仲裁\"affirmed continued licensing rights relating to cema-cel\"；2026-04 LTC（Thermo Fisher 子公司）声称终止与 Cellectis 的 TALEN 许可，10-Q 原文\"could also affect the Company’s rights with respect to CD19 Products\"（SEC-0001628280-26-056213）。对许可方的义务：Servier 美国提成\"low tens to the mid teen percentages and the ex-U.S. royalty rate is 10 %\"；首个适应症里程碑\"€ 60.0 million remains for the initial indication for cema-cel\"，另有后续适应症与销售里程碑；Pfizer 资产转让协议下另有里程碑与提成（原文：\"pay royalties on certain net sales pursuant to the Pfizer Agreement\"）（SEC-0001628280-26-056213）。债务：10-Q 未列票据或贷款；CIRM 资助只在公司选择时可转为贷款（原文：\"the right, upon its election, to convert the award into a loan\"，SEC-0001628280-26-056213）。10-Q 未披露控制权变更时需许可方同意的条款。"
+sources = ["SEC-0001628280-26-056213", "SEC-0001628280-26-017242", "MAN-ALLO-2"]

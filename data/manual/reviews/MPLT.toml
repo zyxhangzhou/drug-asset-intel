@@ -1,0 +1,50 @@
+verified_by = ""
+program = "ML-007C-MA"
+indication = "Schizophrenia"
+buyer = "Johnson & Johnson"
+preference_rank = 3
+deal_form = "收购"
+need_item = "抑郁、精神分裂症、神经退行性疾病的快速起效、长效或新机制药物（JNJ-1、JNJ-2）；技术偏好行「快速起效或长效中枢小分子」：「Phase 2b-上市、依从性或安全性差异明确」，交易形式「资产收购」（JNJ-1、JNJ-2）"
+match_note = "ML-007C-MA 是口服 M1/M4 毒蕈碱受体激动剂与外周抗胆碱药的固定剂量复方，用于精神分裂症；原文：\"an oral M1/M4 muscarinic agonist (betovumeline) co-formulated with a peripherally acting anticholinergic (fesoterodine)\"（MAN-MPLT-2）。对应 J&J 画像「精神分裂症的……新机制药物」：10-K 写明现有抗精神病药 \"work primarily by inhibiting dopamine receptors\"（MAN-MPLT-1），本资产走毒蕈碱通路，相对 J&J 现有多巴胺 / 5-HT 类精神分裂症产品为新机制（推断，中）。对应技术行「依从性或安全性差异明确」：原文 \"No fasting requirement and a one-dose titration support a tolerability profile expected to translate into real-world adherence\"（MAN-MPLT-2）、\"99% of patients reaching the target dose\"（MAN-MPLT-3）。组合冲突：10-K 竞争段点名的同类毒蕈碱资产属于 BMS（\"Cobenfy (also known as KarXT), which is currently marketed by Bristol Myers Squibb Company\"）、AbbVie（\"emraclidine, which is being developed by AbbVie Inc.\"）和 Neurocrine；10-K 只在 ASD 易激惹段提到 J&J 的 \"RISPERDAL, marketed by Johnson & Johnson\"（多巴胺拮抗剂，非同机制）（MAN-MPLT-1）。因 AbbVie 已有同适应症毒蕈碱资产，未选 AbbVie。J&J 自有管线未逐项核查，仅以 10-K 竞争段为准。"
+thesis = [
+  "Johnson & Johnson 需要「抑郁、精神分裂症、神经退行性疾病的快速起效、长效或新机制药物」；MapLight 的 ML-007C-MA（口服 M1/M4 毒蕈碱激动剂 betovumeline + 外周抗胆碱药 fesoterodine 复方，精神分裂症，2 期完成、计划 3 期）对应这一需求，因为它以非多巴胺的毒蕈碱机制起效，且无需空腹、只需一步滴定，契合 J&J「依从性或安全性差异明确」的中枢小分子偏好。",
+  "证据是随机双盲安慰剂对照 2 期 ZEPHYR（307 例）210/3 mg BID 组达到主要终点，第 5 周 PANSS 总分较安慰剂改善 4.5 分（效应量 0.37，p=0.015），但 330/6 mg QD 组未达显著，且仅有安慰剂对照，与 Cobenfy 等只能跨试验比较；下一事件是同一资产在阿尔茨海默病精神病适应症上的 2 期 VISTA 顶线结果（2027 年下半年，明确披露）；主要障碍是资金：公司无收入，资金指引只到 2028 年且依赖 2026 年私募款，而精神分裂症注册还需 3 期 ZEPHYR-2；成本不突出（快照 EV < 20 亿美元），权益为公司自有专利，Vanderbilt 引进许可的覆盖范围与许可方义务待确认。",
+]
+thesis_sources = ["JNJ-1", "JNJ-2", "MAN-MPLT-1", "MAN-MPLT-2", "MAN-MPLT-3", "SEC-0001193125-26-349554", "CTG-NCT07038876", "NASDAQ-MPLT-2026-10-28"]
+
+[scores.buyer_fit]
+score = 4
+confidence = "medium"
+reason = "资产对应 J&J 第 3 治疗领域（神经精神疾病）画像中的具体需求条目「精神分裂症的……新机制药物」，技术类型也符合「快速起效或长效中枢小分子 / 依从性或安全性差异明确」。原文：\"an oral M1/M4 muscarinic agonist (betovumeline) co-formulated with a peripherally acting anticholinergic (fesoterodine)\"、\"No fasting requirement and a one-dose titration\"（MAN-MPLT-2）。10-K 竞争段点名的毒蕈碱同类资产属于 BMS、AbbVie、Neurocrine，J&J 仅以 \"RISPERDAL, marketed by Johnson & Johnson\" 出现在 ASD 段（MAN-MPLT-1），未发现 J&J 同机制同适应症资产；J&J 自有管线未逐项核查，故置信度为中。「新机制」是相对 J&J 现有组合而言；毒蕈碱机制已有 BMS 的 Cobenfy 上市，并非全新靶点。"
+sources = ["JNJ-1", "JNJ-2", "MAN-MPLT-1", "MAN-MPLT-2"]
+
+[scores.stage_match]
+score = 4
+confidence = "high"
+reason = "J&J 该行 ideal_stage 为「Phase 2b-上市」（映射表按 2 期起算）；ML-007C-MA 精神分裂症已完成 2 期 ZEPHYR、计划注册性 3 期，原文：\"we intend to engage with the FDA in an end-of-Phase 2 meeting to discuss the path forward for ML-007C-MA in schizophrenia, including the design of a Phase 3 trial\"（SEC-0001193125-26-349554），\"supporting advancement into a Phase 3 ZEPHYR-2 trial\"（MAN-MPLT-3）。阶段落在区间内。"
+sources = ["JNJ-1", "SEC-0001193125-26-349554", "MAN-MPLT-3", "CTG-NCT07038876", "NASDAQ-MPLT-2026-10-28"]
+
+[scores.clinical]
+score = 3
+confidence = "medium"
+reason = "随机双盲安慰剂对照 2 期 ZEPHYR 唯一主要终点（第 5 周 PANSS 总分变化）在 210/3 mg BID 组达标，原文：\"met its primary endpoint, with the 210/3 mg twice-daily (BID) dose demonstrating a statistically significant and clinically meaningful reduction in Positive and Negative Syndrome Scale\"、\"effect size of 0.37 ( Cohen’s d ) and these participants experienced a mean 4.5-point improvement in PANSS total score versus placebo (p=0.015)\"（MAN-MPLT-2）。按 §3.3 为「随机 2 期达到主要终点」= 3 分。不给 4 分：只有安慰剂对照，无与标准治疗的直接对比，任何与 Cobenfy 的比较都是跨试验比较（最高 3 分）。另一剂量组未达显著（见 limitation），多重性校正方案未披露。"
+sources = ["MAN-MPLT-2", "MAN-MPLT-3", "CTG-NCT07038876", "NASDAQ-MPLT-2026-10-28"]
+
+[clinical]
+design = "ZEPHYR：2 期、随机、双盲、安慰剂对照，美国 25 个中心，住院急性加重成人精神分裂症患者 307 例按 1:1:1 随机至安慰剂、210/3 mg BID、330/6 mg QD；主要终点第 5 周 PANSS 总分较基线变化。原文：\"randomized, double-blind, placebo-controlled trial at 25 US sites\"、\"A total of 307 participants were randomized 1:1:1 to receive either placebo, ML-007C-MA 210/3 mg twice daily, or ML-007C-MA 330/6 mg once daily. The primary endpoint for the trial was the change in PANSS total score from baseline to Week 5.\"（MAN-MPLT-2）。公司称该试验 \"designed and sized to support registration\"（MAN-MPLT-2）。"
+comparability = "仅安慰剂对照，无活性对照。与 Cobenfy（BMS）或其他抗精神病药的比较只能是跨试验比较，人群与终点定义可能不同。"
+result = "BID 组（mITT）PANSS 总分较安慰剂 -4.5 分，效应量 0.37，p=0.015；完成 5 周者预设分析效应量 0.50（-6.0，p=0.002）；关键次要终点 CGI-S 效应量 0.48（p=0.002）、PANSS 阳性 Marder 因子 0.39（p=0.012）；基线认知受损者认知终点效应量 0.51（p=0.041）。安全性：BID 组 TEAE 74.7% 对安慰剂 48.1%，无严重或药物相关重度不良事件，GI 相关停药 2 例（2.0%）。原文：\"the effect size was 0.50 (LS mean difference from placebo -6.0, p=0.002)\"、\"Clinical Global Impression of Severity (CGI-S) (effect size=0.48; p=0.002)\"、\"TEAEs were reported in 74.7% of participants compared with 48.1% receiving placebo\"、\"rarely associated with discontinuation (two participants, 2.0%)\"（MAN-MPLT-2）。"
+limitation = "330/6 mg QD 组主要终点未达显著：\"did not achieve statistical significance on the primary endpoint\"（MAN-MPLT-2）；两个剂量组的多重性校正方案未披露。主要分析为 mITT，非 ITT；完成者分析无缺失值建模但存在选择偏倚。认知终点只在基线认知受损亚组评估，为次要终点。心率小幅升高：\"Small increases in heart rate were observed\"（MAN-MPLT-2）。只有一项阳性 2 期，需 ZEPHYR-2 复制（\"topline results expected in 2028\"，MAN-MPLT-3）。数据只来自公司顶线公告，未见同行评议全文。"
+sources = ["MAN-MPLT-2", "MAN-MPLT-3", "CTG-NCT07038876", "NASDAQ-MPLT-2026-10-28"]
+
+[event]
+text = "同一资产 ML-007C-MA 在阿尔茨海默病精神病（ADP）适应症上的 2 期 VISTA 顶线结果。原文：\"Topline results from VISTA are expected in the second half of 2027.\"（MAN-MPLT-3）；10-Q：\"we expect to report topline results in the second half of 2027\"（SEC-0001193125-26-349554）。VISTA 为随机双盲安慰剂对照，约 300 例：\"randomized, double-blind, placebo-controlled study evaluating ML-007C-MA in approximately 300 participants with ADP\"（MAN-MPLT-3）。按 2 期读出计为「中」；公司称其 \"designed to support registration\"（MAN-MPLT-2），复核人可考虑升为「高」。精神分裂症 ZEPHYR-2 只披露 \"topline results expected in 2028\"（MAN-MPLT-3），无季度或半年，未选。"
+timing = "2027H2"
+importance = "medium"
+certainty = "disclosed"
+sources = ["MAN-MPLT-3", "MAN-MPLT-2", "SEC-0001193125-26-349554"]
+
+[rights]
+status = "full"
+note = "推断（中高）：10-K 写明公司自有 ML-007 物质组成专利，原文：\"we own three issued U.S. patents covering the composition of matter of ML-007\"，以及复方相关申请 \"directed to the combination of ML-007 and a PAC to treat, among other things, schizophrenia and ADP\"（MAN-MPLT-1）。ML-007 来源于 NeuroSolis 资产购买（非许可）：\"NeuroSolis sold us its assets related to both its proprietary M 1 /M 4 agonist molecules\"；剩余义务为或有发股：\"the additional 35,476 shares of the Company's common stock would be required to be issued\"（SEC-0001193125-26-349554）。另有 Vanderbilt 独家全球许可（\"exclusive, royalty-bearing, worldwide sublicensable license\"，标的为 \"certain compounds and licensed products\"，里程碑最高 \"$ 52.4 million\"、\"royalties at a low single digit percentage\"），文件未说明涵盖哪些化合物，是否涉及 ML-007C-MA 待核实（MAN-MPLT-1）；该协议是引进许可（权利流向 MapLight），即使覆盖本资产，也只增加对许可方的里程碑与特许权使用费义务，不改变 full 状态。10-K 与最新 10-Q 中检索 right of first / option to / co-commerc / profit shar 均无与本资产相关结果；10-K 仅表示将来 \"opportunistically explore commercialization partnerships, particularly with entities that have strong capabilities in geographies outside the United States\"（意向，非现有限制）。文件没有逐字写「全球权益」，故为推断。债务：10-Q 资产负债表负债只有应付账款、应计费用与租赁负债，负债合计 20,049 千美元（10-Q 资产负债表 \"Total liabilities\" 行），无票据或贷款。资金：\"together with the expected proceeds from our 2026 Private Placement, will be sufficient to fund our operations through 2028\"（SEC-0001193125-26-349554）。"
+sources = ["MAN-MPLT-1", "SEC-0001193125-26-349554"]

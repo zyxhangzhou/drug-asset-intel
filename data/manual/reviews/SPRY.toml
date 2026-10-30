@@ -1,0 +1,50 @@
+verified_by = ""
+program = "EPINEPHRINE (NEFFY)"
+indication = "Urticaria Chronic"
+buyer = "Novartis"
+preference_rank = 2
+deal_form = "收购"
+need_item = "过敏、哮喘、皮炎和自身免疫的抗体或免疫调节剂，强调长效及生物标志物分层（NVS-3、NVS-5）"
+match_note = "ARS-2 是鼻喷肾上腺素（与已上市 neffy 同一鼻内给药技术），用于慢性自发性荨麻疹（CSU）急性发作的按需救急治疗；原文：\"we are evaluating our intranasal epinephrine technology known as ARS-2, as a potential needle-free, on-demand rescue treatment option for acute flares in chronic spontaneous urticaria\"（SEC-0001193125-26-349140）。它落在 Novartis 第 2 治疗领域「免疫」，画像点名「过敏」，适应症属过敏/免疫皮肤病范畴；但画像限定「抗体或免疫调节剂」「长效及生物标志物分层」，ARS-2 是小分子肾上腺素能激动剂、单次按需给药，均不满足，Novartis 三条技术偏好行（xRNA、放射性配体/ADC、基因细胞/长效抗体）也都不对应。故只算治疗领域标签匹配。10-K 在 CSU 段点名 Xolair（\"treated with antihistamines or biologic treatments, such as Xolair, that still experience frequent flares\"，MAN-SPRY-1），未写其上市方；Xolair 与 ARS-2 机制不同、定位为维持治疗 vs 急性救急，未核查组合冲突。"
+thesis = [
+  "Novartis 需要「过敏、哮喘、皮炎和自身免疫的抗体或免疫调节剂」；ARS Pharmaceuticals 的 ARS-2（鼻喷肾上腺素，慢性自发性荨麻疹急性发作，2b 期）只在治疗领域上对应这一需求，因为它针对过敏/免疫皮肤病中目前没有 FDA 批准按需疗法的 CSU 急性发作（\"There are currently no FDA-approved, on-demand products to manage acute flares in patients with CSU\"），但它不是抗体或免疫调节剂。",
+  "证据是 21 例随机、安慰剂对照交叉 2 期单剂量研究中 1 mg 与 2 mg 组患者报告风团与瘙痒评分均低于安慰剂（\"P < .05\"），但 CT.gov 登记为非盲（masking NONE）、样本小，仅有安慰剂对照；下一事件是 CSU 2b 期中期数据（2027Q1，明确披露）；主要障碍是权益：ALK 已持有美国、日本、大中华区与澳新以外全球的鼻内肾上腺素产品独占许可（字段明确含 urticaria），收购方只能拿到美国权益加海外特许权使用费，且 RA Capital 有担保定期贷款在控制权变更时构成违约事件。",
+]
+thesis_sources = ["NVS-3", "NVS-5", "SEC-0001193125-26-349140", "MAN-SPRY-1", "MAN-SPRY-2", "MAN-SPRY-3", "CTG-NCT05496465", "CTG-NCT06927999"]
+
+[scores.buyer_fit]
+score = 2
+confidence = "medium"
+reason = "只符合治疗领域：Novartis 第 2 治疗领域「免疫」画像点名「过敏」，CSU 急性发作属过敏/免疫皮肤病；但画像要求「抗体或免疫调节剂，强调长效及生物标志物分层」，ARS-2 是按需单次鼻喷肾上腺素（\"needle-free, on-demand rescue treatment option for acute flares in chronic spontaneous urticaria\"，SEC-0001193125-26-349140），机制与技术类型都不对应，Novartis 技术偏好行也无一对应，故 2 分。10 家买方中无其他治疗领域行点名肾上腺素、鼻内给药或荨麻疹。未核查组合冲突（10-K 点名 Xolair 但未写上市方，MAN-SPRY-1）。"
+sources = ["NVS-3", "NVS-5", "SEC-0001193125-26-349140", "MAN-SPRY-1"]
+
+[scores.stage_match]
+score = 4
+confidence = "high"
+reason = "Novartis 该行 ideal_stage 为「Phase 1-3」；ARS-2 CSU 处于 2b 期，按 2 期计，落在区间内。原文：\"In the second quarter of 2025, we initiated a Phase 2b randomized, placebo-controlled outpatient clinical trial in CSU patients\"（SEC-0001193125-26-349140）；CT.gov NCT06927999 登记 \"An Outpatient Study of the Efficacy of ARS-2 in Patients With Chronic Spontaneous Urticaria\"，phase PHASE2，状态 RECRUITING（CTG-NCT06927999）。注意 neffy 本身已上市（过敏反应），若按 neffy 过敏反应适应症配对则与 Phase 1-3 相差两档。"
+sources = ["NVS-3", "NVS-5", "SEC-0001193125-26-349140", "CTG-NCT06927999"]
+
+[scores.clinical]
+score = 3
+confidence = "medium"
+reason = "随机 2 期（交叉、单剂量、n=21）达到唯一主要终点（给药后 120 分钟患者报告 UAS 风团/瘙痒评分对比安慰剂）：原文 \"Relative to placebo, both 1- and 2-mg doses of ARS-2 resulted in lower patient-reported hive and pruritus scores (P < .05)\"（MAN-SPRY-3）。按 §3.3「随机 2 期达到主要终点」为 3 分；只有安慰剂对照、无跨试验比较。可降为 2 分的理由：CT.gov 登记 \"masking\": \"NONE\"（CTG-NCT05496465）而终点为患者自报，样本小、单剂量院内急性发作模型，CT.gov 未登记统计分析；复核人可据此改为 2。"
+sources = ["MAN-SPRY-3", "CTG-NCT05496465", "SEC-0001193125-26-349140"]
+
+[clinical]
+design = "2 期、单剂量、随机、安慰剂对照交叉研究，成人急性荨麻疹发作患者 21 例，分别接受 ARS-2 1 mg、2 mg 与安慰剂；原文：\"This was a phase 2, single-dose, randomized, placebo-controlled crossover efficacy study in which adult patients (n = 21) experiencing an acute flare or exacerbation of urticaria symptoms were treated with ARS-2 (1 or 2 mg) or placebo\"（MAN-SPRY-3）。CT.gov 登记：\"Each subject received all three treatments in a randomized sequence\"，主要终点 \"Effect of ARS-1 Versus Placebo Based on a Patient Reported Pruritus/Hive Score\"，时间点 120 分钟（CTG-NCT05496465）。10-Q 称其为 \"Phase 2 inpatient trial in 18 treatment-refractory CSU patients\"（SEC-0001193125-26-349140）。"
+comparability = "仅安慰剂对照（交叉设计，受试者自身对照）。没有与抗组胺药或生物制剂的直接或间接比较；公司称 CSU 急性发作无获批按需疗法：\"There are currently no FDA-approved, on-demand products to manage acute flares in patients with CSU\"（MAN-SPRY-2），故无同终点可比的标准治疗关键试验。"
+result = "主要终点达到：1 mg 与 2 mg 两剂量组患者报告风团与瘙痒评分均低于安慰剂（P < .05），研究者评估的荨麻疹范围与红斑评分亦更低；原文 \"Relative to placebo, both 1- and 2-mg doses of ARS-2 resulted in lower patient-reported hive and pruritus scores (P < .05)\"、\"Only minor adverse events were reported\"（MAN-SPRY-3）。CT.gov 发布结果（每组 18 例，均值±标准误，UAS 0–3）：风团 1 mg 1.1、2 mg 0.8、安慰剂 1.8；瘙痒 1 mg 0.4、2 mg 0.3、安慰剂 1.5（CTG-NCT05496465，\"UAS score 0 to 3\"）。"
+limitation = "样本小（入组 21，结果分析 18）；单剂量、院内急性发作模型，与 2b 期门诊多次发作设计不同；CT.gov 登记 \"masking\": \"NONE\"，与论文「placebo-controlled」并存，患者自报终点在非盲下易偏倚；CT.gov 结果未登记统计分析，P 值只见于论文摘要；第一作者以外两位作者为公司员工（\"ARS Pharmaceuticals Operations, San Diego\"，MAN-SPRY-3）；2b 期剂量（\"ARS-2 (0.5 mg or 1 mg)\"，CTG-NCT06927999）与 2 期不同。"
+sources = ["MAN-SPRY-3", "CTG-NCT05496465", "CTG-NCT06927999", "MAN-SPRY-2", "SEC-0001193125-26-349140"]
+
+[event]
+text = "慢性自发性荨麻疹（CSU）ARS-2 2b 期中期数据读出（2 期读出，重要性中）。原文：\"We currently expect to report interim Phase 2b data in the first quarter of 2027\"（SEC-0001193125-26-349140）；\"ARS Pharma expects interim Phase 2b data in the first quarter of 2027\"（MAN-SPRY-2）。时间已从 10-K 的 \"Interim data from this clinical trial is anticipated in the second half of 2026, followed by the potential initiation of a single pivotal efficacy study in mid-2027\"（MAN-SPRY-1）推迟一个季度；关键性研究启动（mid-2027）在 10-Q 中未再重申。CT.gov 预计主要完成日 2027-06（CTG-NCT06927999）。"
+timing = "2027Q1"
+importance = "medium"
+certainty = "disclosed"
+sources = ["SEC-0001193125-26-349140", "MAN-SPRY-2", "MAN-SPRY-1", "CTG-NCT06927999"]
+
+[rights]
+status = "partial"
+note = "公司持有美国权益；美国以外已分区域授出（最新 10-Q，SEC-0001193125-26-349140）：(1) ALK-Abelló 持有除美国、日本、大中华区、澳新以外全球的鼻内肾上腺素产品独占许可，字段明确包含荨麻疹：\"exclusive license under certain of the Company’s patents and know-how to develop, manufacture and commercialize products containing epinephrine administered intranasally\"、\"for all human uses, including the immediate or emergency treatment of allergic reactions (including Type I) and anaphylaxis and urticaria\"；且新产品条款 \"upon ALK’s request such New Product will be included as a Product under the ALK Collaboration Agreement\"——ARS-2 若另立 NDA，ALK 可要求纳入（复核人可据此判为 restricted，见报告）。(2) 日本 Alfresa、(3) 中国大陆/香港/澳门/台湾 Pediatrix（\"for the exclusive license and sublicensable right to develop, import\"）、(4) 澳新 Seqirus（\"for the exclusive license to commercialize neffy in Australia and New Zealand\"）。ALK EEA 权益另有公司回购选择权：\"Prior to a change of control and outside of a set period of time after which the Company commences change of control negotiations, the Company may terminate the ALK Collaboration Agreement with respect to all countries in the European Economic Area\"（MAN-SPRY-1）。美国 neffy 与 ALK U.S. 有共同推广协议（服务商性质，\"The Company is the principal of all sales transactions of neffy in the U.S.\"，MAN-SPRY-1），\"Either party may terminate the ALK Co-Promotion Agreement in the event of an uncured material breach of the other party or for either party’s change of control\"。引进许可：Aegis 的 Intravail 技术 \"exclusive, worldwide, royalty-bearing, sublicensable\"，现向 OrbiMed 关联方支付 \"royalty payments to OrbiMed based on a mid-single-digit percentage of net product sales\"，剩余里程碑 \"totaled $9.0 million as of June 30, 2026\"。债务：RA Capital 牵头定期贷款 \"aggregate principal amount up to $250.0 million of term loans\"，已提取 Term A \"$ 100.0 million\"，\"secured by substantially all of the respective Credit Parties’ tangible and intangible assets and property, including intellectual property\"，违约事件含 \"the occurrence of a change in control\"。资金：10-Q 称 \"sufficient to meet its anticipated cash requirements for at least the 12 months following the date these financial statements are issued\"，8-K 称 \"anticipates a path to reaching cash flow breakeven by the end of 2027\"（MAN-SPRY-2）；快照 runway 8.2 个月按上半年烧钱计算，上半年含已削减的消费者广告。"
+sources = ["SEC-0001193125-26-349140", "MAN-SPRY-1", "MAN-SPRY-2"]

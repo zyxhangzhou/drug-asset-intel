@@ -1,0 +1,50 @@
+verified_by = ""
+program = "DAROVASERTIB"
+indication = "Metastatic Uveal Melanoma"
+buyer = "Pfizer"
+preference_rank = 2
+deal_form = "收购"
+need_item = "ADC、双特异抗体、靶向小分子或放射性药物，覆盖乳腺、肺癌、泌尿和血液肿瘤（PFE-1、PFE-3）"
+match_note = "需求条目中的「靶向小分子」→ darovasertib 是口服、选择性 PKC 抑制剂，按 GNAQ/11 驱动机制开发；原文：\"Darovasertib is an oral, potent and selective small molecule inhibitor of protein kinase C\"（SEC-0001193125-26-332774）。联用药 crizotinib 是 Pfizer 自有产品，双方有临床供药协议；原文：\"darovasertib in combination with crizotinib, Pfizer’s oral c-MET inhibitor\"、\"Pfizer supplies the Company with their MEK inhibitor, binimetinib, and their cMET inhibitor, crizotinib\"（SEC-0001193125-26-332774）。不足：葡萄膜黑色素瘤不在 Pfizer 画像点名的乳腺、肺、泌尿、血液肿瘤之列，也不对应 Pfizer 的 LOE 产品，因此只算治疗领域 + 技术类型匹配。组合冲突只按 IDEAYA 10-K 竞争段核查：mUM 竞品名单为 Replimune、iOnctura、Novartis（DYP688）、Immatics、Aura、Immunocore，不含 Pfizer；原文：\"we are not aware of other companies actively developing clinical-stage therapeutics directed to PKC as a target for solid tumors\"（MAN-IDYA-1）。"
+thesis = [
+  "Pfizer 需要「ADC、双特异抗体、靶向小分子或放射性药物」类肿瘤资产（Phase 2b-注册期）；IDEAYA 的 darovasertib（口服 PKC 抑制剂，与 Pfizer 的 crizotinib 联用，一线 HLA-A*02:01 阴性转移性葡萄膜黑色素瘤，注册性 2/3 期已达主要终点、NDA 滚动提交中）对应这一需求，因为它是生物标志物明确的口服靶向小分子，且联用药就是 Pfizer 自有的 crizotinib；但该适应症不在 Pfizer 画像点名的瘤种内。",
+  "证据是随机 2/3 期 OptimUM-02（n=313，2:1）BICR 评估 PFS 6.9 个月 vs 3.1 个月（HR 0.42，p<0.0001），对照为真实世界的研究者选择治疗（约 76% ipi+nivo、24% pembrolizumab），3 期部分的主要终点总生存尚不成熟；下一事件是完成 NDA 提交（2026 年下半年，明确披露），总生存预设中期分析在 2027 年年中；主要障碍是权益：美国以外权益已独家许可给 Servier（并享有美国单独许可 / 出售的优先谈判权，但不适用于公司整体并购），且需向 Novartis 支付中至高个位数特许权使用费；快照 EV 约 20.3 亿美元，无借款，现金指引可支撑至 2030 年。",
+]
+thesis_sources = ["PFE-1", "PFE-3", "SEC-0001193125-26-332774", "MAN-IDYA-1", "MAN-IDYA-2", "MAN-IDYA-3", "MAN-IDYA-4", "MAN-IDYA-5", "MAN-IDYA-6", "NASDAQ-IDYA-2026-10-28", "CTG-NCT05987332"]
+
+[scores.buyer_fit]
+score = 3
+confidence = "medium_high"
+reason = "Pfizer 第 2 治疗领域（肿瘤）画像点名「靶向小分子」，Pfizer 技术偏好第 2 行也是「ADC、双特异和靶向小分子」；darovasertib 是口服靶向小分子，原文：\"oral, potent and selective small molecule inhibitor of protein kinase C\"（SEC-0001193125-26-332774）。联用药为 Pfizer 的 crizotinib：\"crizotinib, Pfizer’s oral c-MET inhibitor\"（SEC-0001193125-26-332774）。不给 4 分：画像点名瘤种为乳腺、肺癌、泌尿和血液肿瘤，不含葡萄膜黑色素瘤，也不对应 Pfizer LOE 产品，属 §3.1 的 3 分档（领域 + 技术类型匹配，无具体需求条目）。10-K 竞争段 mUM 竞品名单不含 Pfizer（\"Other programs in development for mUM include Novartis’ DYP688\"，MAN-IDYA-1）。"
+sources = ["PFE-1", "PFE-3", "SEC-0001193125-26-332774", "MAN-IDYA-1"]
+
+[scores.stage_match]
+score = 4
+confidence = "high"
+reason = "Pfizer 该行 ideal_stage 为「Phase 2b-注册期」（人工映射 phase2–filed）；darovasertib 联合方案的注册性 2/3 期已达主要终点、NDA 正在 RTOR 下滚动提交，落在区间内；原文：\"we reported positive topline data from the OptimUM-02, which met its primary endpoint\"、\"We plan to complete a new drug application (NDA) submission in the second half of 2026\"（SEC-0001193125-26-332774）；\"expects to complete the NDA submission in the second half of 2026\"（MAN-IDYA-5）。"
+sources = ["PFE-1", "SEC-0001193125-26-332774", "MAN-IDYA-5", "CTG-NCT05987332"]
+
+[scores.clinical]
+score = 3
+confidence = "high"
+reason = "随机 2/3 期（2b 部分）达到主要终点，直接对比真实世界标准治疗（ipi+nivo 或 pembrolizumab）：\"met the trial’s primary endpoint of a statistically significant improvement in median progression-free survival\"、\"Hazard Ratio of 0.42; 95% CI: 0.30, 0.59; p-value: <0.0001\"（MAN-IDYA-2）。效应大，但按 §3.3 取 3 分不取 4 分：PFS 用于支持首次 NDA（公司提及\"the potential for accelerated approval in the United States\"，MAN-IDYA-2），3 期部分的主要终点是总生存，尚未成熟：\"Primary: Overall Survival (to be presented at later date when data matures)\"（MAN-IDYA-3）；\"The overall survival (“OS”) data is not mature\"（MAN-IDYA-2）。OS 未失败，只是未读出，不触发「主要终点失败」规则。"
+sources = ["MAN-IDYA-2", "MAN-IDYA-3", "MAN-IDYA-4", "CTG-NCT05987332"]
+
+[clinical]
+design = "OptimUM-02：全球、多中心、开放标签、随机 2/3 期，一线 HLA-A*02:01 阴性转移性葡萄膜黑色素瘤；2b 部分 darovasertib 300 mg BID + crizotinib 200 mg BID（n=210）对研究者选择治疗（n=103），按 2:1 随机，主要终点为 BICR 评估的 PFS，3 期部分主要终点为 OS；原文：\"Phase 2/3, multi-center, multi-arm, multi-stage, open-label study\"、\"Primary: PFS by BICR\"（MAN-IDYA-3）；\"randomized 2:1 to darovasertib in combination with crizotinib\"（MAN-IDYA-4）。"
+comparability = "与标准治疗直接随机对照：对照臂 76%（n=78）ipilimumab+nivolumab、24%（n=25）pembrolizumab，无患者接受 dacarbazine；原文：\"The ICT arm was composed of 76% (n=78) ipilimumab plus nivolumab (anti-CTLA-4/PD-1) and 24% (n=25) pembrolizumab (anti-PD-1)\"（MAN-IDYA-2）。该人群无获批疗法：\"Currently no FDA-approved treatments for HLA-A*02:01 negative mUM patients\"（MAN-IDYA-3）。与 tebentafusp（Kimmtrak，仅限 HLA-A*02:01 阳性）没有直接比较，人群不同。"
+result = "BICR 评估中位 PFS 6.9 个月 vs 3.1 个月，HR 0.42（95% CI 0.30–0.59，p<0.0001）；ORR 37.1% vs 5.8%；中位 DOR 6.8 个月；原文：\"achieved a statistically significant improvement in median PFS of 6.9 months versus 3.1 months in the ICT arm\"、\"ORR by BICR in the darovasertib combination and ICT arm was 37.1% and 5.8%\"、\"The median DOR in the darovasertib combination arm was 6.8 months\"（MAN-IDYA-2）。"
+limitation = "开放标签；中位随访仅 7.4 个月（\"Median follow-up for the population was 7.4 months\"，MAN-IDYA-3）；OS 未成熟，预设中期分析在 2027 年年中（\"pre-specified interim analysis expected in mid-2027\"，MAN-IDYA-4）。只覆盖 HLA-A*02:01 阴性人群；阳性人群为单臂 2 期 OptimUM-01。毒性负担较高：腹泻 84.9%、3/4 级 TRAE 40.6%，crizotinib 因 TRAE 停药 10.0%；原文：\"Diarrhea 203 ( 84.9)\"、\"Grade 3 or 4 97 (40.6) 37 (37.0)\"、\"Leading to crizotinib withdrawn 24 (10.0)\"（MAN-IDYA-3）。只有新闻稿与会议海报，未见同行评议全文。"
+sources = ["MAN-IDYA-2", "MAN-IDYA-3", "MAN-IDYA-4", "CTG-NCT05987332"]
+
+[event]
+text = "darovasertib + crizotinib 一线 HLA-A*02:01 阴性转移性葡萄膜黑色素瘤 NDA 完成提交（RTOR 滚动提交中）；原文：\"expects to complete the NDA submission in the second half of 2026\"（MAN-IDYA-5）。其后 OptimUM-02 总生存预设中期分析：\"IDEAYA plans to provide an update on the OS data as part of the pre-specified interim analysis expected in mid-2027\"（MAN-IDYA-4）。"
+timing = "2026H2"
+importance = "high"
+certainty = "disclosed"
+sources = ["MAN-IDYA-5", "MAN-IDYA-4", "SEC-0001193125-26-332774"]
+
+[rights]
+status = "partial"
+note = "事实：美国以外全部区域已独家许可给 Servier，IDEAYA 保留美国全部权益；10-Q 原文：\"to develop and commercialize products in all countries worldwide except for the United States\"、\"The Company retains all rights to darovasertib in the United States.\"（SEC-0001193125-26-332774）；10-K 原文：\"We retain all rights to darovasertib in the United States.\"（MAN-IDYA-1）。Servier 方面另有：\"The Company and Servier will collaborate on the development of darovasertib and share the associated costs\"（SEC-0001193125-26-332774），本草稿把它读作区域许可下的共同开发分担，不是美国共同商业化（推断，中）。许可协议正文（MAN-IDYA-6，10-Q/10-K 正文未披露）：Servier 对美国区域的单独许可 / 出售持有优先谈判权（ROFN），原文：\"grant a license under the Licensed IP to a Third Party to Develop, Manufacture, Commercialize or otherwise Exploit the Licensed Compound or any Licensed Product outside the Territory ( i.e. in the U.S.)\"；但并购 / 控制权变更除外：\"other than (x) in connection with any merger, consolidation, sale of substantially all of IDEAYA’s assets or business\"；控制权变更只需通知并设防火墙：\"IDEAYA shall promptly notify Licensee in writing upon the execution of a definitive agreement providing for a Change of Control of IDEAYA\"；\"Post-ROFN Protection . [***]\" 内容被涂黑，未知。因此整体收购不受 ROFN 阻挡，但单独许可美国权益会触发 ROFN（推断，中高）。引进义务：darovasertib 从 Novartis 引进，\"subject to certain economic obligations pursuant to its exclusive, worldwide license to darovasertib with Novartis\"；剩余里程碑 \"up to $ 8.0 million\"（开发 / 监管）与 \"up to $ 20.0 million\"（销售），另付 \"mid to high single-digit tiered royalty payments\"（SEC-0001193125-26-332774）。联用药 crizotinib 只有临床供药协议，无商业权益安排。无借款：10-Q 资产负债表负债只有应付账款、应计费用与经营租赁负债，总负债 110,794 千美元（SEC-0001193125-26-332774）。"
+sources = ["SEC-0001193125-26-332774", "MAN-IDYA-1", "MAN-IDYA-6"]

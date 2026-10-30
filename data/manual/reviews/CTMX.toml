@@ -1,0 +1,50 @@
+verified_by = ""
+program = "VARSETATUG MASETECAN"
+indication = "Colo-rectal Cancer"
+buyer = "Bristol Myers Squibb"
+preference_rank = 1
+deal_form = "许可"
+need_item = "肺癌、乳腺癌、消化道癌、骨髓瘤和淋巴瘤的双抗、ADC或新靶点资产（BMY-1、BMY-3、BMY-4、BMY-5）"
+match_note = "varsetatug masetecan（Varseta-M，CX-2051）是遮蔽式、条件激活的 EpCAM ADC（Topo-1 抑制剂载荷），首个适应症为转移性结直肠癌（消化道癌），并扩展到胃/胃食管结合部、胰腺癌、胆道癌，同时对应 BMS 画像中的「消化道癌」「ADC」「新靶点」三项；原文：\"the only EpCAM-directed antibody drug conjugate (ADC) in clinical development\"、\"initiating in Q3 2026 in gastric and gastroesophageal junction (GEJ), EpCAM-selected pancreatic ductal adenocarcinoma (PDAC), and EpCAM-selected biliary tract cancer (BTC)\"（MAN-CTMX-1）；\"EpCAM is a highly expressed tumor antigen that has previously been undruggable due to expression on normal tissues\"（MAN-CTMX-1）。组合冲突只按 10-K 的 CRC 竞品段核查：段中点名 \"AbbVie, Janssen, Merck KGaA, Pfizer, Exelixis, Revolution Medicines, Summit Therapeutics\" 等，无 BMS（MAN-CTMX-2）；BMS 只在泛 ADC 开发者名单中出现。未核查 BMS 早期管线是否有 EpCAM 或 CRC ADC。另：BMS 曾是 CytomX 平台合作方，已于 2026 年 5 月终止合作：\"Bristol Myers Squibb subsequently terminated the collaboration in May 2026 after electing not to advance the remaining preclinical programs\"（SEC-0001193125-26-337950），该合作不涉及 Varseta-M。"
+thesis = [
+  "Bristol Myers Squibb 需要「肺癌、乳腺癌、消化道癌…的双抗、ADC或新靶点资产」；CytomX 的 varsetatug masetecan（遮蔽式 EpCAM Topo-1 ADC，转移性结直肠癌，1 期）对应这一需求，因为它同时是消化道癌、ADC 和新靶点：公司称其为临床开发中唯一的 EpCAM ADC，并已向胃/胃食管结合部、胰腺癌、胆道癌扩展。",
+  "证据是 1 期剂量扩展的单臂中期数据（3L+ CRC，10 mg/kg 组确认 ORR 32%（6/19）、中位 PFS 7.1 个月，数据截止 2026-01-16），与晚线标准治疗「个位数缓解率」只能做跨试验比较，且有 1 例治疗相关 5 级急性肾损伤；下一事件是首个单药注册研究启动（2027 年上半年，明确披露，取决于与 FDA 对齐）；主要障碍是许可方义务：资产从 ImmunoGen（现 AbbVie）引进，尚欠 1 千万 / 2 千万美元的 2 期 / 3 期启动里程碑、最高 3.2 亿美元监管与商业里程碑及中至高个位数销售提成，而 AbbVie 自身也有 CRC 3 期 ADC（ABBV-400）；成本不构成障碍（快照 EV 约 1.84 亿美元）。",
+]
+thesis_sources = ["BMY-1", "BMY-3", "BMY-4", "BMY-5", "MAN-CTMX-1", "MAN-CTMX-2", "SEC-0001193125-26-337950", "NASDAQ-CTMX-2026-10-28", "CTG-NCT06265688"]
+
+[scores.buyer_fit]
+score = 4
+confidence = "medium"
+reason = "BMS 第 1 治疗领域（肿瘤/血液肿瘤）画像点名「消化道癌」「ADC或新靶点资产」；Varseta-M 是结直肠癌及其他胃肠道肿瘤的 EpCAM ADC，且 EpCAM 此前无法成药；原文：\"the only EpCAM-directed antibody drug conjugate (ADC) in clinical development\"、\"previously been undruggable due to expression on normal tissues\"（MAN-CTMX-1）。10-K 的 CRC 竞品段未列 BMS（\"being studied by AbbVie, Janssen, Merck KGaA, Pfizer\"，MAN-CTMX-2）；BMS 早期管线未核查，且临床数据仅为 1 期，故置信度取中。"
+sources = ["BMY-1", "BMY-3", "BMY-4", "BMY-5", "MAN-CTMX-1", "MAN-CTMX-2"]
+
+[scores.stage_match]
+score = 2
+confidence = "high"
+reason = "BMS 该行 ideal_stage 为「Phase 2-3」；Varseta-M 仍处 1 期，差一个阶段；原文：\"Varseta-M, which is currently in Phase 1 development, is covered under the ImmunoGen License Agreement.\"（SEC-0001193125-26-337950）。pack 中该程序的 phase1_2 来自尚未入组的联合用药试验 NCT07900165，不代表已进入 2 期。"
+sources = ["BMY-1", "SEC-0001193125-26-337950", "CTG-NCT06265688", "CTG-NCT07900165"]
+
+[scores.clinical]
+score = 2
+confidence = "medium_high"
+reason = "只有 1 期单臂剂量扩展的中期阳性信号（确认 ORR，替代终点），无随机对照，与标准治疗只能跨试验比较；原文：\"we announced positive interim results from the ongoing Phase 1 dose expansions as of a January 16, 2026 data cutoff date\"、\"at the 10 mg/kg dose, the confirmed response rate was 32% with an estimated median PFS of 7.1 months\"（MAN-CTMX-2）。每个剂量组 17–20 例，PFS 置信区间上限不可估计，且有 1 例治疗相关 5 级 AKI，故不给 3 分。"
+sources = ["MAN-CTMX-2", "CTG-NCT06265688"]
+
+[clinical]
+design = "CTMX-2051-101 首次人体 1 期（NCT06265688）：剂量递增 + 剂量扩展 + 剂量优化，单臂、开放标签，晚线转移性结直肠癌，每 3 周给药；数据截止 2026-01-16 时 CRC 入组 93 例，其中扩展剂量 7.2/8.6/10 mg/kg 共 60 例、可评估疗效 56 例；原文：\"a total of 93 patients with late-line metastatic CRC had been enrolled in the study\"（MAN-CTMX-2）。2025 年 4 月首批数据人群：\"Patients enrolled in the study at the time of data cutoff had previously received a median of 4 prior lines of therapy and all patients had previously been treated with irinotecan\"（MAN-CTMX-2）。1 期已入组完毕：\"Enrollment into the Varseta-M Phase 1 clinical study is complete with 113 total patients enrolled\"（MAN-CTMX-1）。"
+comparability = "单臂，无对照组。公司把晚线 CRC 标准治疗描述为 \"single digit percentage response rates, median progression free survival of 2 to 5.6 months\"（MAN-CTMX-2），这是跨试验比较，人群与终点定义可能不同；1 期人群为重度预治疗（中位 4 线、全部用过伊立替康），与标准治疗关键试验人群不一定一致。"
+result = "确认 ORR：7.2 mg/kg 6%（1/17）、8.6 mg/kg 20%（4/20）、10 mg/kg 32%（6/19）；中位 PFS 分别 5.5、6.8、7.1 个月；DCR 88%（49/56）；原文：\"At the 8.6 mg/kg dose, the confirmed response rate was 20% with an estimated median PFS of 6.8 months and at the 10 mg/kg dose, the confirmed response rate was 32% with an estimated median PFS of 7.1 months. The disease control rate was 88% (49/56)\"（MAN-CTMX-2）。安全性：\"The most common TRAE was diarrhea which was generally manageable and reversible.\"，采用更新的预防方案后 \"Grade 3 diarrhea was 10%\"（MAN-CTMX-2）。"
+limitation = "中期数据、样本小、中位随访约 8 个月（\"Median duration of follow-up across the efficacy-evaluable patient population was approximately 8 months\"），PFS 95% CI 上限为 NE（MAN-CTMX-2）。有 1 例治疗相关死亡：\"there was one treatment-related grade 5 acute kidney injury (AKI) in a patient treated at the 7.2 mg/kg dose\"（MAN-CTMX-2）。剂量优化组数据（8.6 / 10 mg/kg，按调整理想体重给药）尚未公布：\"A Phase 1 data update is expected by the end of 2026 with a focus on dose selection for late phase development.\"（MAN-CTMX-1）。无同行评议全文；未打开会议摘要原文。"
+sources = ["MAN-CTMX-1", "MAN-CTMX-2", "CTG-NCT06265688"]
+
+[event]
+text = "启动 Varseta-M 首个单药注册研究（晚线 CRC），前提是与 FDA 就设计达成一致；原文：\"FDA interactions are planned towards alignment on the first monotherapy Varseta-M registrational study in CRC which the company aims to initiate in the first half of 2027\"（MAN-CTMX-1）。此前还有 1 期数据更新（低重要性）：\"A Phase 1 data update is expected by the end of 2026\"（MAN-CTMX-1）。"
+timing = "2027H1"
+importance = "medium"
+certainty = "disclosed"
+sources = ["MAN-CTMX-1"]
+
+[rights]
+status = "full"
+note = "事实：资产从 ImmunoGen（2024 年被 AbbVie 收购）独家引进，CytomX 拥有全球开发与商业化权：\"The license gives the Company the sole ability to develop, manufacture, use and commercialize any licensed product that incorporates, is comprised of, or otherwise derived from PROBODY technology that targets EpCAM in any human therapeutic field on a worldwide basis.\"（SEC-0001193125-26-337950）；10-K 同述 \"we obtained a worldwide, exclusive, sublicensable license to the EpCAM conditionally activated ADC program from ImmunoGen\"（MAN-CTMX-2）。未见对外授权、选择权或共同开发。对许可方的义务：剩余开发里程碑 \"expected to be triggered by the start of the first Phase 2 study and first Phase 3 study for an EpCAM program (e.g. Varseta-M)\"（各 1,000 万 / 2,000 万美元）、最高 3.2 亿美元监管与商业里程碑，\"ImmunoGen is also entitled to royalties on product sales ranging from the mid-to-high single digits percentages\"（SEC-0001193125-26-337950）。载荷同样来自 AbbVie：\"The Varseta-M payload is a topoisomerase-1 inhibitor licensed from AbbVie (formerly ImmunoGen)\"（MAN-CTMX-2）。平台层面另有 UCSB 独家许可（低个位数提成，\"annual minimum royalty obligations\"，SEC-0001193125-26-337950），是否适用于 Varseta-M 待核实。债务：10-Q 文本检索 loan / borrow / notes payable 未见借款，仅有可售债务证券投资。现金跑道：\"we expect our existing capital resources will be sufficient to fund operations into at least the second half of 2028\"（SEC-0001193125-26-337950）。"
+sources = ["SEC-0001193125-26-337950", "MAN-CTMX-2"]

@@ -1,0 +1,50 @@
+verified_by = ""
+program = "CABA-201"
+indication = "Systemic Sclerosis"
+buyer = "Bristol Myers Squibb"
+preference_rank = 2
+deal_form = "合作"
+need_item = "能带来持久缓解、组织修复或免疫重置的自身免疫药物，覆盖皮肤、胃肠和风湿病（BMY-1、BMY-2）"
+match_note = "CABA-201 现名 rese-cel（resecabtagene autoleucel），全人源 CD19-CAR T，单次输注后深度清除 B 细胞以实现「免疫重置」，系统性硬化症（SSc）属风湿病，对应 BMS 画像中的「免疫重置」「风湿病」；原文：\"Resecabtagene autoleucel (rese-cel), formerly referred to as CABA-201, is a 4-1BB co-stimulatory domain-containing fully human CD19-CAR T construct\"、\"This approach has demonstrated the potential to reset the immune system\"（SEC-0001759138-26-000039）；\"designed to reset the immune system in patients living with autoimmune diseases\"、\"ongoing company-sponsored trials in rheumatology, neurology, and dermatology\"（MAN-CABA-2）。未核查组合冲突：10-K 竞争段把 BMS 列为已上市 CAR T 公司，并称其中「一部分」已宣布自身免疫 CD19 疗法（含 SSc），但未点名是哪几家：\"A subset of these companies along with other biopharmaceutical companies have announced CD19-targeting therapies and other methods of engineering T cells in development for the treatment of autoimmune diseases with B cell involvement, including SLE, myositis, SSc and MG\"（MAN-CABA-1）。"
+thesis = [
+  "Bristol Myers Squibb 需要「能带来持久缓解、组织修复或免疫重置的自身免疫药物，覆盖…风湿病」；Cabaletta 的 rese-cel（CABA-201，全人源 CD19-CAR T，系统性硬化症，1/2 期完成、单臂注册研究计划 2026 年第四季度启动）对应这一需求，因为它单次输注后深度清除 B 细胞，公司称可「重置免疫系统」，患者在停用全部免疫调节剂后仍有临床应答。",
+  "证据是开放标签单臂 1/2 期 RESET-SSc 数据（36 周 rCRISS-25 为 5/6、rCRISS-50 为 4/6，ILD 患者 FVC 预测值中位改善 7.5%），无对照、样本小，与标准治疗只能跨试验比较；下一事件是同一资产在肌炎（DM/ASyS）注册队列的顶线数据（2027 年年中，公司只说 mid-2027，按估算处理），成功则 2027 年下半年提交 BLA；主要障碍是权益受限：许可方 IASO 对 rese-cel 在大中华区的独家再许可持有优先谈判权，且须向 IASO 支付里程碑、中个位数特许权使用费和低两位数比例的再许可收入。",
+]
+thesis_sources = ["BMY-1", "BMY-2", "SEC-0001759138-26-000039", "MAN-CABA-1", "MAN-CABA-2", "CTG-NCT06328777"]
+
+[scores.buyer_fit]
+score = 3
+confidence = "medium"
+reason = "BMS 第 2 治疗领域（免疫炎症）画像点名「免疫重置」「风湿病」；rese-cel 为 CD19-CAR T，公司表述其可重置免疫系统，SSc 为风湿病；原文：\"This approach has demonstrated the potential to reset the immune system\"（SEC-0001759138-26-000039）、\"designed to reset the immune system in patients living with autoimmune diseases\"（MAN-CABA-2）。需求条目已对上，但不给 4 分：10-K 竞争段把 BMS 列入已上市 CAR T 公司，并称 \"A subset of these companies along with other biopharmaceutical companies have announced CD19-targeting therapies\" 用于含 SSc 的自身免疫病（MAN-CABA-1），未点名公司，无法排除 BMS 已有同机制同适应症资产（未核查组合冲突）。复核人若核实 BMS 无自身免疫 CD19 CAR-T SSc 项目，可升为 4。"
+sources = ["BMY-1", "BMY-2", "SEC-0001759138-26-000039", "MAN-CABA-1", "MAN-CABA-2"]
+
+[scores.stage_match]
+score = 4
+confidence = "medium_high"
+reason = "BMS 该行 ideal_stage 为「Phase 1b-3」。SSc 的 1/2 期已完成，单臂注册研究计划 2026 年第四季度启动，无论按 2 期还是 3 期均在区间内；原文：\"Complete Phase 1/2 data from both cohorts were presented at EULAR in June 2026\"、\"We anticipate initiating this study in the fourth quarter of 2026\"（SEC-0001759138-26-000039）。pack 的 phase2_3 来自 CT.gov 登记（CTG-NCT06328777）；截至 2026-09-14 的 8-K 未见注册研究已启动的公告。"
+sources = ["BMY-1", "SEC-0001759138-26-000039", "CTG-NCT06328777"]
+
+[scores.clinical]
+score = 2
+confidence = "medium_high"
+reason = "SSc 只有开放标签、单臂 1/2 期数据，样本小（15 例可评估，rCRISS 只报 6 例），无对照；属早期阳性信号；原文：\"83% (5/6) of patients achieved revised Composite Response Index in Systemic Sclerosis (rCRISS)-25 and 67% (4/6) of patients achieved rCRISS-50 at 36 weeks\"（SEC-0001759138-26-000039）。FDA 同意以单臂研究做注册（\"Based on the complete Phase 1/2 cohort data and FDA feedback, we are conducting a single-arm registrational study\"），但注册队列尚未启动，不足以给 3 分。"
+sources = ["SEC-0001759138-26-000039", "MAN-CABA-2", "CTG-NCT06328777"]
+
+[clinical]
+design = "RESET-SSc：开放标签 1/2 期，皮肤严重型与器官受累型各约 6 例平行队列，单次按体重给药 1.0 x 10^6 cells/kg，含氟达拉滨 + 环磷酰胺预处理；原文：\"designed to treat six patients with severe skin manifestations and six patients with severe organ involvement associated with SSc, each in separate parallel cohorts, with a single weight-based dose\"（SEC-0001759138-26-000039）；\"Our RESET TM trials in SLE, myositis, SSc, gMG and PV are designed as open-label trials\"（SEC-0001759138-26-000039）。下一步为约 25 例 SSc 相关 ILD 单臂注册研究，主要终点为 52 周 FVC：\"a single-arm registrational study of approximately 25 patients with SSc-associated ILD using a forced vital capacity (FVC)-based primary endpoint at 52 weeks\"（SEC-0001759138-26-000039）。"
+comparability = "无对照组，与标准治疗（免疫抑制剂、对症治疗）无直接或同终点间接比较；任何与已上市药的比较都是跨试验比较，人群与终点定义可能不同。rCRISS 为复合应答指数，注册研究改用 FVC 终点。"
+result = "截至 2026-04-16：36 周 rCRISS-25 为 5/6（83%）、rCRISS-50 为 4/6（67%），均在停用全部免疫调节剂、停用或减量激素下；ILD 患者 FVC 预测值中位改善 7.5%（36 周随访者）；原文：\"83% (5/6) of patients achieved revised Composite Response Index in Systemic Sclerosis (rCRISS)-25\"、\"median improvement of 7.5% in patients with 36 weeks of follow-up\"（SEC-0001759138-26-000039）。安全性：\"87% (13/15) of patients experienced either no CRS or transient fever (Grade 1 CRS)\"（SEC-0001759138-26-000039）。"
+limitation = "样本极小（rCRISS 6 例），开放标签，会议数据（EULAR 2026），未打开同行评议全文；公司提示早期数据可能不可外推：\"the results from such clinical trials, once completed, may be less reliable than results achieved in larger clinical trials\"（SEC-0001759138-26-000039）。安全性信号：\"93% (14/15) of patients experienced no ICANS (one Grade 3 ICANS previously reported March 2025)\"（SEC-0001759138-26-000039）。需氟达拉滨 + 环磷酰胺预处理，无预处理（PC-free）方案在 SSc 未见数据。"
+sources = ["SEC-0001759138-26-000039", "MAN-CABA-2", "CTG-NCT06328777"]
+
+[event]
+text = "同一资产 rese-cel 在肌炎（皮肌炎 DM / 抗合成酶综合征 ASyS，17 例单臂注册队列）的顶线数据，成功则 2027 年下半年提交首个 BLA；原文：\"anticipate reporting BLA-enabling topline data in mid-2027 to support a potential BLA submission in the second half of 2027\"（SEC-0001759138-26-000039）、\"Registrational RESET-Myositis ® clinical data on track to be reported in mid-2027 to support 2H27 BLA submission for rese-cel\"（MAN-CABA-2）。公司只说 mid-2027，未给季度或半年，确定性按估算处理。SSc 本身窗口内的事件是注册研究启动（2026 年第四季度，中等重要性）。"
+timing = "2027"
+importance = "high"
+certainty = "estimated"
+sources = ["SEC-0001759138-26-000039", "MAN-CABA-2"]
+
+[rights]
+status = "restricted"
+note = "按简报规则（他方持有 ROFN 即为受限）记为 restricted；范围很窄，复核人可改判。rese-cel 的 CD19 结合域为从 IASO 独家引进的全球许可，未见对外授权任何区域；但 IASO 对大中华区独家再许可持有优先谈判权，原文：\"IASO has the right of first negotiation if the Company desires to grant a third party an exclusive license to develop, manufacture, commercialize or otherwise exploit the licensed products in the Greater China region\"（SEC-0001759138-26-000039；10-K 同段 \"IASO has the right of first negotiation if we desire to grant a third party an exclusive license\"，MAN-CABA-1）。全球许可原文：\"we received an exclusive, worldwide license under certain IASO intellectual property to use a novel clinical-stage anti-CD19 binder\"（MAN-CABA-1）。对 IASO 的义务：\"for a total consideration, inclusive of the upfront payment, of up to $162 million, along with tiered mid-single digit royalties on future net sales\"；再许可分成 \"we must pay IASO a low double-digit percentage of any revenue obtained from sublicenses or options to third parties\"；竞业限制 \"agreed, subject to certain exceptions, to refrain from engaging in certain competitive activities\"；IASO 控制专利维护 \"IASO controls such activities for the patent rights licensed to us\"（SEC-0001759138-26-000039 / MAN-CABA-1）；2026 年已付 \"$2.5 million milestone payment to IASO and $0.5 million milestone payment to Oxford after the first patient in a rese-cel pivotal trial was dosed\"（SEC-0001759138-26-000039）。Penn/CHOP 许可：\"total milestone payments could be approximately $21.0 million\"、\"tiered royalties at percentage rates in the low single-digits\"（MAN-CABA-1）。类债务：pack total_debt 为空，但 10-Q 资产负债表有 Lonza 嵌入式融资租赁负债 15,238 + 4,738 千美元（\"Finance lease liabilities, current portion\"，SEC-0001759138-26-000039）。"
+sources = ["SEC-0001759138-26-000039", "MAN-CABA-1"]

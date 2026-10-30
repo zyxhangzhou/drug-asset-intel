@@ -1,0 +1,50 @@
+verified_by = ""
+program = "VS-7375"
+indication = "Pancreatic Ductal Adenocarcinoma (PDAC)"
+buyer = "Merck & Co."
+preference_rank = 1
+deal_form = "收购"
+need_item = '''Merck 肿瘤/血液肿瘤偏好（第 1 位）目标画像：“能在KEYTRUDA单药/联用之外形成新标准治疗的肺癌、胃肠癌、妇科癌或血液肿瘤资产”；理想阶段“Phase 2b-注册期”；佐证“Keytruda/Qlex为核心收入，2028年美国专利悬崖”（MRK-1、MRK-3）。买方 LOE：Keytruda（pembrolizumab）“2028（美国核心专利到期）”（MNC-WB）。'''
+match_note = '''VS-7375 是口服 KRAS G12D（ON/OFF）选择性小分子抑制剂，原文 "VS-7375 is a potential best-in-class, potent, and selective oral KRAS G12D dual ON/OFF inhibitor"（MAN-VSTM-1）；主攻 KRAS G12D 突变转移性胰腺导管腺癌（mPDAC），属画像中的“胃肠癌”（消化道肿瘤；把胰腺癌归入此类是我们的判断）。对应“KEYTRUDA单药/联用之外形成新标准治疗”：1L mPDAC 3 期设计含无化疗方案，原文 "The three-arm study will evaluate a chemotherapy-free regimen of VS-7375 900 mg QD in combination with anti-EGFR"（MAN-VSTM-3）；目前无 G12D 获批药物，原文 "Currently, no therapies are approved by the U.S. Food and Drug Administration (FDA) specifically targeting KRAS G12D mutations in cancer"（MAN-VSTM-3）。另有 1L NSCLC 联合 pembrolizumab 早期数据（"75% ORR (6/8) in 1L KRAS G12D adenocarcinoma of the lung"，MAN-VSTM-3），可作 KEYTRUDA 联用的补充论点。组合冲突检查：10-K 竞争段 G12D / pan-KRAS 竞争者名单为 "Astellas Pharma Inc., AstraZeneca, Bayer, BeOne, Boehringer Ingelheim, Chugai, D3 Bio, Eli Lilly, GenFleet, Genentech, Incyte Corporation, Jacobio, Jiangsu Hengrui Pharmaceuticals Company Ltd, Quanta Therapeutics, Ranok Therapeutics, Revolution Medicine, and Tyligand Bioscience"（MAN-VSTM-1），不含 Merck；10-K 风险因素竞争者名单同样不含 Merck。10-K 竞争段不是买方管线完整清单，未逐一核查 Merck 自有管线（置信度中）。排除其他买方：Roche 画像点名“KRAS”，但 Genentech、AstraZeneca 在上述 G12D / pan-KRAS 竞争者名单中，构成潜在组合冲突；BMS 第 1 位（“消化道癌……新靶点资产”）为备选。'''
+thesis = [
+  '''Merck 需要“能在KEYTRUDA单药/联用之外形成新标准治疗的肺癌、胃肠癌、妇科癌或血液肿瘤资产”，以应对 Keytruda 2028 年美国专利到期（MRK-1、MRK-3、MNC-WB）；Verastem 的 VS-7375（口服 KRAS G12D ON/OFF 双态选择性抑制剂，KRAS G12D 突变转移性胰腺导管腺癌，注册导向 2 期 TARGET-D 201 进行中、1L 3 期已与 FDA 就设计达成一致）对应这一需求，因为 KRAS G12D 尚无 FDA 获批药物，而胰腺癌是 G12D 占比最高的瘤种，公司计划以无化疗联合方案进入一线（MAN-VSTM-1、MAN-VSTM-3、CTG-NCT07644559）。''',
+  '''证据是 1/2 期单臂 TARGET-D 101 中 900 mg QD 单药在 2L+ mPDAC 确认 ORR 41%（9/22）、2L 确认 ORR 50%（4/8）、6 个月 PFS 率 67%，无对照，与其他 RAS 抑制剂只能跨试验比较（MAN-VSTM-3、MAN-VSTM-4）；下一事件是 2 期 TARGET-D 201（2L PDAC）初步数据（2027Q2，明确披露）（MAN-VSTM-3）；主要障碍是权益与债务：大中华区权益归 GenFleet，公司需付里程碑与中至高个位数特许权使用费，且 Oberland 票据在控制权变更时可要求按本金 135%–195% 赎回、对 GenFleet 相关知识产权设有负面质押（SEC-0001104659-26-092007）。''',
+]
+thesis_sources = ["MRK-1", "MRK-3", "MNC-WB", "MAN-VSTM-1", "MAN-VSTM-3", "MAN-VSTM-4", "CTG-NCT07644559", "SEC-0001104659-26-092007"]
+
+[scores.buyer_fit]
+score = 4
+confidence = "medium"
+reason = '''资产对应 Merck 肿瘤偏好第 1 位的具体需求条目“能在KEYTRUDA单药/联用之外形成新标准治疗的……胃肠癌……资产”（MRK-1、MRK-3）：VS-7375 为 KRAS G12D 选择性口服抑制剂，原文 "selective oral KRAS G12D dual ON/OFF inhibitor"（MAN-VSTM-1）；1L mPDAC 3 期含无化疗组，原文 "chemotherapy-free regimen of VS-7375 900 mg QD in combination with anti-EGFR"（MAN-VSTM-3）；该靶点尚无获批药物，原文 "Currently, no therapies are approved by the U.S. Food and Drug Administration (FDA) specifically targeting KRAS G12D mutations in cancer"（MAN-VSTM-3）。同时承接 Keytruda 2028 LOE（MNC-WB）。10-K 竞争段 G12D / pan-KRAS 竞争者名单不含 Merck（MAN-VSTM-1），已读文件中未见 Merck 同机制同适应症资产；未逐一核查 Merck 自有管线，且胰腺癌归入“胃肠癌”属我们的解释，置信度取中。'''
+sources = ["MRK-1", "MRK-3", "MNC-WB", "MAN-VSTM-1", "MAN-VSTM-3"]
+
+[scores.stage_match]
+score = 4
+confidence = "high"
+reason = '''Merck 肿瘤偏好行理想阶段“Phase 2b-注册期”（映射为 phase2–filed）（MRK-1、MRK-3）。VS-7375 在 PDAC 处于注册导向 2 期：原文 "Verastem has further expanded the VS-7375 clinical program with the initiation of three Phase 2 registration-directed, open-label clinical trials: TARGET-D 201 ( NCT07644559 ) in second-line advanced or metastatic pancreatic ductal carcinoma"，"On June 16, 2026 , the first patient was dosed in the TARGET-D 201 trial"（MAN-VSTM-3）；1L 3 期尚未开启，原文 "The Company plans to open the trial by year-end 2026"（MAN-VSTM-2）。阶段落在区间内，按 §3.2 取 4 分。'''
+sources = ["MRK-1", "MRK-3", "MAN-VSTM-2", "MAN-VSTM-3", "CTG-NCT07644559"]
+
+[scores.clinical]
+score = 3
+confidence = "medium"
+reason = '''单臂 1/2 期数据，确认缓解率口径：原文 "a confirmed objective response rate (ORR) of 50% (4/8) in second line (2L) PDAC, a 41% confirmed ORR (9/22) in the 2L+ setting, including two complete responses"，"the six-month landmark progression free survival (PFS) rate was 67%"（MAN-VSTM-3）。晚线胰腺癌属单臂缓解率可作注册依据的肿瘤领域，且公司已把 2 期定为注册导向（"Phase 2 registration-directed"，MAN-VSTM-3），按 §3.3 取 3 分。只有跨试验比较，最高 3 分：原文 "no head - to - head studies have been conducted and cross - trial comparisons may not be reliable"（MAN-VSTM-4）。样本小、随访短，置信度取中。'''
+sources = ["MAN-VSTM-3", "MAN-VSTM-4"]
+
+[clinical]
+design = '''1/2 期、多中心、开放标签 TARGET-D 101（剂量递增 + 扩展 + 联合），原文 "The TARGET-D 101 Phase 1/2 trial is a multi-center, open-label, dose-escalation and dose-expansion study evaluating the safety and efficacy of VS-7375, both as monotherapy and in combination, in patients with advanced KRAS G12D-mutatedsolid tumors"（MAN-VSTM-3）。PDAC 疗效集为 mITT：原文 "A total of 22 patients that met the mITT criteria were included in the efficacy analysis and were treated with VS-7375 900 mg QD monotherapy with a median follow-up of 6.4 (0.8-10.9) months"；既往治疗 "a median of two prior lines of therapy (range 1–3)"（MAN-VSTM-3）。数据截止 "As of the data cutoff date of October 7, 2026"（MAN-VSTM-3）。'''
+comparability = '''无对照组，与标准治疗无直接对比；跨试验比较，人群与终点定义可能不同。公司演示材料把 VS-7375 与 setidegrasib、INCB161734、zoldonrasib、daraxonrasib 的历史数据并列，并注明 "no head - to - head studies have been conducted and cross - trial comparisons may not be reliable due to differences in trial design and patient population/characteristics"；且部分对照药 ORR 含未确认缓解（"Reported unconfirmed response rate"）（MAN-VSTM-4）。'''
+result = '''900 mg QD 单药 mPDAC：原文 "a confirmed objective response rate (ORR) of 50% (4/8) in second line (2L) PDAC, a 41% confirmed ORR (9/22) in the 2L+ setting, including two complete responses, one confirmed and one unconfirmed (treatment ongoing), and a 36% confirmed ORR (5/14) in the 3L/4L setting"；"The disease control rate (DCR) was 86% (n=22) in 2L+, the six-month landmark progression free survival (PFS) rate was 67%, and the landmark six-month overall survival (OS) rate was 80%"（MAN-VSTM-3）。生物标志物："15 of 17 patients with mPDAC treated with VS-7375 900 mg QD that had elevated baseline CA19-9 achieved greater than 50% reduction in the tumor marker"（MAN-VSTM-3）。安全性（900 mg，n=48）："The discontinuation rate due to adverse events (AEs) was 2%."；"Grade 3 TRAEs occurred in 10% of patients"（MAN-VSTM-3）。监管："Fast Track Designation (FTD) to VS-7375 for the first-line treatment of patients with KRAS G12D-mutated locally advanced or metastatic adenocarcinoma of the pancreas"（MAN-VSTM-3）。'''
+limitation = '''单臂、样本小（2L 仅 8 例，2L+ 22 例），中位随访 6.4 个月，未达中位 PFS / OS；mITT 含 2 例不可评估（"Two patients were non-evaluable but included in the mITT"，MAN-VSTM-3）；数据来自公司新闻稿与投资者演示（8-K 附件），未见同行评议全文或会议摘要；与其他 G12D / pan-RAS 抑制剂只能跨试验比较。1L 3 期以 PFS 和 ORR 为双主要终点："PFS and ORR will serve as dual-primary endpoints, with OS as the secondary endpoint"（MAN-VSTM-3），尚未开启。'''
+sources = ["MAN-VSTM-3", "MAN-VSTM-4"]
+
+[event]
+text = '''VS-7375 在 2L PDAC 的注册导向 2 期 TARGET-D 201（NCT07644559）初步数据。原文："Plan to report initial data from Phase 2 TARGET-D 201 2L PDAC in Q2 2027"（MAN-VSTM-3）。属 2 期读出，重要性中。更近的同适应症事件：1L mPDAC 3 期 TARGET-D 301 开启，原文 "Plan to open the TARGET-D 301 1L mPDAC trial by year-end 2026"（关键性试验启动，同为中）（MAN-VSTM-3）。CT.gov 预计主要完成日期 2027-06（CTG-NCT07644559）。'''
+timing = "2027Q2"
+importance = "medium"
+certainty = "disclosed"
+sources = ["MAN-VSTM-3", "CTG-NCT07644559"]
+
+[rights]
+status = "partial"
+note = '''VS-7375 为从 GenFleet 引进，公司权益不含大中华区（mainland China、Hong Kong、Macau、Taiwan）：10-Q 原文 "GenFleet granted the Company the option to obtain exclusive development and commercialization rights worldwide outside of mainland China, Hong Kong, Macau, and Taiwan (the “Territory”)"，"In January 2025, the Company exercised its GenFleet Option with respect to VS-7375"（SEC-0001104659-26-092007）；GenFleet 在中国自行开发："GenFleet is developing VS-7375 as GFH375 in greater China"（MAN-VSTM-1）。区域不是公司授出，而是许可方保留，按“部分”处理。10-K / 10-Q 未见第三方对 VS-7375 持有选择权、优先谈判权或共同开发 / 共同商业化权利。对许可方义务：里程碑 "GenFleet will be entitled to receive payments of up to $ 622.0 million"（含开发与商业化 "up to $ 154.0 million"、销售 "up to $ 450.0 million"）；特许权使用费 "royalties on net sales of licensed products in the Territory ranging from the mid to high single digits"（SEC-0001104659-26-092007）。供货依赖："GenFleet agreed to provide us with compound and licensed product for development use for VS-7375"（MAN-VSTM-1）。债务与产权负担（Oberland 票据）："On the Closing Date, the Company issued and sold an initial Note in an aggregate principal amount of $ 75.0 million"；新增收入票据 "an initial tranche of $ 50.0 million in Revenue Notes will be issued on August 28, 2026"（快照 total_debt 7377.4 万美元未含此笔）；控制权变更赎回 "The Purchasers may demand redemption of the Notes prior to the Maturity Date in the event of a Change of Control"，赎回额 "135 % of the principal amount of the Notes if redemption occurs before the second anniversary of the Closing Date upon a Change of Control"，其后 "175 %" / "195 %"；收入分成覆盖全部产品 "all other compounds, chemical entities or pharmaceutical products being designed, developed, licensed, manufactured or commercialized by the Company"；担保 "a negative pledge on intellectual property related to the Company’s collaboration and option agreement with GenFleet"（SEC-0001104659-26-092007）。Erasca 协议仅为临床前评估："In July, the companies executed an agreement enabling the planned preclinical evaluation"（SEC-0001104659-26-092007）。资金：10-Q 无跑道指引，只有持续经营疑虑 "these conditions raise substantial doubt about the Company’s ability to continue as a going concern"（SEC-0001104659-26-092007）；其后 2026-10 增发 "net proceeds from the Offering, after deducting underwriting discounts and commissions and estimated offering expenses, of approximately $234.7 million"（MAN-VSTM-5），9 月末初步现金 "Cash, cash equivalents and investments as of September 30, 2026 is estimated to be $172.8 million"（MAN-VSTM-2，未经审计）。'''
+sources = ["SEC-0001104659-26-092007", "MAN-VSTM-1", "MAN-VSTM-2", "MAN-VSTM-5"]
