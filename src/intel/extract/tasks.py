@@ -100,10 +100,14 @@ NUMBER_CHECKED = (
 SYSTEM_PROMPT = """You extract facts from biotech company documents for an investment database.
 Rules:
 - Use only the document text you are given. Never add knowledge from memory.
-- Every item carries "quotes": 1 to 4 snippets copied verbatim from the text (exact words and \
+- Every item carries "quotes": snippets copied verbatim from the text (exact words and \
 characters, at least 20 characters each). Together the quotes must contain every number that \
 appears in any field of the item: values, time points (e.g. week 21), doses and units. When a \
 number comes from a table header, column label or section heading, quote that line as well.
+- Tables are also given as table records, one line per cell: \
+"[table N] <title> — <row> | <column>: <value>". For values from a table, quote the table record \
+line of every cell you use, one quote per line, with no limit on the number of quotes: each line \
+already carries the title, dose and time point. For running text, 1 to 4 quotes are enough.
 - If the text does not state a field, leave it as an empty string. Do not guess, round or \
 convert units.
 - Reply with one JSON object: {"items": [...]}. Return {"items": []} when nothing qualifies."""

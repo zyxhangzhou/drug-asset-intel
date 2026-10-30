@@ -199,3 +199,60 @@ def test_every_task_query_is_valid_fts5():
     index.add("S", "Phase 3 data expected by year-end; primary endpoint met.", "h")
     for task in TASKS.values():
         index.search("S", task.query)  # raises on a syntax error
+
+
+# --- table records --------------------------------------------------------------------
+
+
+def test_table_cell_carries_its_headers():
+    from intel.docs.text import table_records
+
+    lines = table_records((FIXTURES / "vktx_ex991.html").read_text(encoding="utf-8"))
+    assert (
+        "[table 2] Change in Body Weight Following 21 Weeks of Once-Weekly Dosing with VK2735 — "
+        "Mean percent change from baseline^4,5 | VK2735 15 mg QW (n=14): -16.3%"
+    ) in lines
+    assert table_records((FIXTURES / "vktx_ex991.html").read_text(encoding="utf-8")) == lines
+
+
+def test_split_table_keeps_header_and_title():
+    from intel.docs.text import table_records
+
+    lines = table_records((FIXTURES / "vktx_ex991.html").read_text(encoding="utf-8"))
+    vomiting = [x for x in lines if x.startswith("[table 7]") and "Vomiting" in x]
+    assert vomiting and all("Monthly Dosing" in x for x in vomiting)
+    assert any("| VK2735 20 mg QM (n=14): " in x for x in vomiting)
+    assert not any("Exhibit 99.1 —" in x for x in lines)  # page header is not a title
+
+
+def test_table_symbols_superscripts_and_spans():
+    from intel.docs.text import table_records
+
+    raw = (
+        "<p>Dose response</p><table>"
+        "<tr><td></td><td><p>Arm A</p><p>(n=10)</p></td><td>Arm B</td></tr>"
+        "<tr><td>ORR<sup>a</sup></td><td>40</td><td>%</td><td>25%</td></tr>"
+        "<tr><td>Cost</td><td>$</td><td>1,200</td><td>(5</td><td>)</td></tr>"
+        "</table>"
+    )
+    assert table_records(raw) == [
+        "[table 1] Dose response — ORR^a | Arm A (n=10): 40%",
+        "[table 1] Dose response — ORR^a | Arm B: 25%",
+        "[table 1] Dose response — Cost | Arm A (n=10): $1,200",
+        "[table 1] Dose response — Cost | Arm B: (5)",
+    ]
+
+
+def test_unrecognized_table_left_as_rows():
+    from intel.docs.text import table_records
+
+    raw = "<table><tr><td>2024</td><td>12</td></tr><tr><td>2025</td><td>15</td></tr></table>"
+    assert table_records(raw) == []
+    text = to_text(raw.encode(), "text/html")
+    assert "2024 | 12 |" in text and "Table records" not in text
+
+
+def test_html_text_appends_table_records_after_body():
+    text = to_text((FIXTURES / "vktx_ex991.html").read_bytes(), "text/html")
+    body, records = text.split("[Table records", 1)
+    assert "met" in body.lower() and "-16.3%" in records

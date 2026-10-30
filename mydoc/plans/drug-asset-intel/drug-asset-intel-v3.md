@@ -1,3 +1,5 @@
+> Superseded by [v4](drug-asset-intel-v4.md) — 新增 K（HTML 表格逐格展开）
+
 # 全球创新药资产情报平台 — v3
 
 - Status: confirmed

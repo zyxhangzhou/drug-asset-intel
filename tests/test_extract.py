@@ -298,3 +298,40 @@ def test_ledger_records_chunks_sent(tmp_path):
     ex, doc, _ = setup(tmp_path, {"program": [PROGRAM]}, {}, with_verify=False)
     ex.run_document(doc, ["program"])
     assert ex.primary.ledger.entries()[0]["chunks"] == [0]
+
+
+def test_prompt_explains_table_records():
+    assert "[table N]" in SYSTEM_PROMPT and "table record line" in SYSTEM_PROMPT
+
+
+def test_table_record_quote_passes_number_check():
+    doc = normalize(
+        "[table 2] Change in Body Weight Following 21 Weeks of Once-Weekly Dosing with VK2735 — "
+        "Mean percent change from baseline^4,5 | VK2735 15 mg QW (n=14): -16.3%"
+    )
+    raw = result_item(
+        endpoint="mean percent change from baseline at week 21",
+        result="15 mg QW: -16.3%",
+        analysis="",
+        quotes=["Mean percent change from baseline^4,5 | VK2735 15 mg QW (n=14): -16.3%",
+                "Change in Body Weight Following 21 Weeks"],
+    )  # fmt: skip
+    assert check_item(TASKS["clinical_result"], raw, doc)[1] is None
+
+
+def test_multi_arm_table_value_with_one_quote_per_cell():
+    arms = [
+        ("Placebo (n=15)", "-0.1%"),
+        ("VK2735 15 mg QW (n=14)", "-16.3%"),
+        ("VK2735 17.5 mg QW (n=118)", "-17.8%"),
+        ("VK2735 20 mg QW (n=15)", "-18.7%"),
+        ("VK2735 22.5 mg QW (n=14)", "-17.1%"),
+    ]
+    lines = [f"[table 2] Body Weight at 21 Weeks — Mean percent change | {a}: {v}" for a, v in arms]
+    raw = result_item(
+        endpoint="mean percent change at week 21",
+        analysis="",
+        result="placebo -0.1%; 15 mg -16.3%; 17.5 mg -17.8%; 20 mg -18.7%; 22.5 mg -17.1%",
+        quotes=lines,
+    )
+    assert check_item(TASKS["clinical_result"], raw, normalize("\n".join(lines)))[1] is None

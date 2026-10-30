@@ -70,3 +70,107 @@ verify = { asset = "VK2735", trial = "VK2735-102", indication = "obesity", endpo
 verify_quotes = ["At 21 weeks in the combined VK2735 treatment groups, the proportion of participants demonstrating 5%, 10%, 15%, and 20% weight loss were 98%, 90%, 65%, and 32% as compared with 13%, 0%, 0%, and 0% for placebo", "(p<0.01 vs. placebo for each)"]
 decision = "accept"
 note = ""
+
+[[items]]
+id = "r-87477c0a"
+type = "clinical_result"
+source_id = "MAN-VKTX-4"
+asset = "VK2735"
+trial = "Maintenance Study of GLP-1/GIP Agonist VK2735"
+indication = "obesity"
+endpoint = "Mean percent change from baseline body weight at Week 21"
+result = "Placebo: -0.1%; VK2735 15 mg QW: -16.3%; VK2735 17.5 mg QW: -17.8%; VK2735 20 mg QW: -18.7%; VK2735 22.5 mg QW: -17.1%"
+analysis = "p<0.0001 vs. baseline for all VK2735 doses; p<0.0001 vs. placebo for all VK2735 doses"
+comparator = "placebo"
+advantage_vs_soc = ""
+confidence = ""
+quotes = ["[table 2] Change in Body Weight Following 21 Weeks of Once-Weekly Dosing with VK2735 — Mean percent change from baseline^4,5 | Placebo (n=15): -0.1%", "[table 2] Change in Body Weight Following 21 Weeks of Once-Weekly Dosing with VK2735 — Mean percent change from baseline^4,5 | VK2735 15 mg QW (n=14): -16.3%", "[table 2] Change in Body Weight Following 21 Weeks of Once-Weekly Dosing with VK2735 — Mean percent change from baseline^4,5 | VK2735 17.5 mg QW (n=118): -17.8%", "[table 2] Change in Body Weight Following 21 Weeks of Once-Weekly Dosing with VK2735 — Mean percent change from baseline^4,5 | VK2735 20 mg QW (n=15): -18.7%", "[table 2] Change in Body Weight Following 21 Weeks of Once-Weekly Dosing with VK2735 — Mean percent change from baseline^4,5 | VK2735 22.5 mg QW (n=14): -17.1%", "[table 2] Change in Body Weight Following 21 Weeks of Once-Weekly Dosing with VK2735 — p-value vs. baseline^5 | VK2735 15 mg QW (n=14): <0.0001", "[table 2] Change in Body Weight Following 21 Weeks of Once-Weekly Dosing with VK2735 — p-value vs. baseline^5 | VK2735 17.5 mg QW (n=118): <0.0001", "[table 2] Change in Body Weight Following 21 Weeks of Once-Weekly Dosing with VK2735 — p-value vs. baseline^5 | VK2735 20 mg QW (n=15): <0.0001", "[table 2] Change in Body Weight Following 21 Weeks of Once-Weekly Dosing with VK2735 — p-value vs. baseline^5 | VK2735 22.5 mg QW (n=14): <0.0001", "[table 2] Change in Body Weight Following 21 Weeks of Once-Weekly Dosing with VK2735 — p-value vs. placebo^5 | VK2735 15 mg QW (n=14): <0.0001", "[table 2] Change in Body Weight Following 21 Weeks of Once-Weekly Dosing with VK2735 — p-value vs. placebo^5 | VK2735 17.5 mg QW (n=118): <0.0001", "[table 2] Change in Body Weight Following 21 Weeks of Once-Weekly Dosing with VK2735 — p-value vs. placebo^5 | VK2735 20 mg QW (n=15): <0.0001", "[table 2] Change in Body Weight Following 21 Weeks of Once-Weekly Dosing with VK2735 — p-value vs. placebo^5 | VK2735 22.5 mg QW (n=14): <0.0001"]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "disputed"
+decision = ""
+note = ""
+
+[[items]]
+id = "r-00516e21"
+type = "clinical_result"
+source_id = "MAN-VKTX-4"
+asset = "VK2735"
+trial = "Maintenance Study of GLP-1/GIP Agonist VK2735"
+indication = "obesity"
+endpoint = "Placebo-adjusted mean percent change from baseline body weight at Week 21"
+result = "VK2735 15 mg QW: -16.2%; VK2735 17.5 mg QW: -17.7%; VK2735 20 mg QW: -18.6%; VK2735 22.5 mg QW: -17.0%"
+analysis = "p<0.0001 vs. placebo for all VK2735 doses"
+comparator = "placebo"
+advantage_vs_soc = ""
+confidence = ""
+quotes = ["[table 2] Change in Body Weight Following 21 Weeks of Once-Weekly Dosing with VK2735 — Placebo-adjusted mean percent change from baseline^4,5 | VK2735 15 mg QW (n=14): -16.2%", "[table 2] Change in Body Weight Following 21 Weeks of Once-Weekly Dosing with VK2735 — Placebo-adjusted mean percent change from baseline^4,5 | VK2735 17.5 mg QW (n=118): -17.7%", "[table 2] Change in Body Weight Following 21 Weeks of Once-Weekly Dosing with VK2735 — Placebo-adjusted mean percent change from baseline^4,5 | VK2735 20 mg QW (n=15): -18.6%", "[table 2] Change in Body Weight Following 21 Weeks of Once-Weekly Dosing with VK2735 — Placebo-adjusted mean percent change from baseline^4,5 | VK2735 22.5 mg QW (n=14): -17.0%", "[table 2] Change in Body Weight Following 21 Weeks of Once-Weekly Dosing with VK2735 — p-value vs. placebo^5 | VK2735 15 mg QW (n=14): <0.0001", "[table 2] Change in Body Weight Following 21 Weeks of Once-Weekly Dosing with VK2735 — p-value vs. placebo^5 | VK2735 17.5 mg QW (n=118): <0.0001", "[table 2] Change in Body Weight Following 21 Weeks of Once-Weekly Dosing with VK2735 — p-value vs. placebo^5 | VK2735 20 mg QW (n=15): <0.0001", "[table 2] Change in Body Weight Following 21 Weeks of Once-Weekly Dosing with VK2735 — p-value vs. placebo^5 | VK2735 22.5 mg QW (n=14): <0.0001"]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "disputed"
+decision = ""
+note = ""
+
+[[items]]
+id = "r-3b23ee8b"
+type = "clinical_result"
+source_id = "MAN-VKTX-4"
+asset = "VK2735"
+trial = "Maintenance Study of GLP-1/GIP Agonist VK2735"
+indication = "obesity"
+endpoint = "Mean percentage of Week 21 weight loss maintained at Week 33 (every-other-week dosing)"
+result = "Placebo: 61%; VK2735 Combined QOW: 90%; VK2735 17.5 mg QW to 5.0 mg QOW: 83%; VK2735 15.0 mg QW to 7.5 mg QOW: 90%; VK2735 17.5 mg QW to 10.0 mg QOW: 97%"
+analysis = "p<0.0001 vs. placebo for Combined QOW, 7.5 mg QOW, 10.0 mg QOW; p=0.004 for 5.0 mg QOW"
+comparator = "placebo"
+advantage_vs_soc = ""
+confidence = ""
+quotes = ["[table 3] Weight Loss Maintenance Following Transition from Weekly to Every-Other-Week Dosing for 12 Weeks — Mean percentage of Week 21 weight loss maintained at Week 33 (%)^4,5 | Placebo (n=27): 61%", "[table 3] Weight Loss Maintenance Following Transition from Weekly to Every-Other-Week Dosing for 12 Weeks — Mean percentage of Week 21 weight loss maintained at Week 33 (%)^4,5 | VK2735 Combined QOW (n=37): 90%", "[table 3] Weight Loss Maintenance Following Transition from Weekly to Every-Other-Week Dosing for 12 Weeks — Mean percentage of Week 21 weight loss maintained at Week 33 (%)^4,5 | VK2735 17.5 mg QW to 5.0 mg QOW (n=12): 83%", "[table 3] Weight Loss Maintenance Following Transition from Weekly to Every-Other-Week Dosing for 12 Weeks — Mean percentage of Week 21 weight loss maintained at Week 33 (%)^4,5 | VK2735 15.0 mg QW to 7.5 mg QOW (n=13): 90%", "[table 3] Weight Loss Maintenance Following Transition from Weekly to Every-Other-Week Dosing for 12 Weeks — Mean percentage of Week 21 weight loss maintained at Week 33 (%)^4,5 | VK2735 17.5 mg QW to 10.0 mg QOW (n=12): 97%", "[table 3] Weight Loss Maintenance Following Transition from Weekly to Every-Other-Week Dosing for 12 Weeks — p-value vs. placebo^5 | VK2735 Combined QOW (n=37): p<0.0001", "[table 3] Weight Loss Maintenance Following Transition from Weekly to Every-Other-Week Dosing for 12 Weeks — p-value vs. placebo^5 | VK2735 17.5 mg QW to 5.0 mg QOW (n=12): 0.004", "[table 3] Weight Loss Maintenance Following Transition from Weekly to Every-Other-Week Dosing for 12 Weeks — p-value vs. placebo^5 | VK2735 15.0 mg QW to 7.5 mg QOW (n=13): <0.0001", "[table 3] Weight Loss Maintenance Following Transition from Weekly to Every-Other-Week Dosing for 12 Weeks — p-value vs. placebo^5 | VK2735 17.5 mg QW to 10.0 mg QOW (n=12): <0.0001"]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "agreed"
+verify = { asset = "VK2735", trial = "", indication = "obesity", endpoint = "Mean percentage of Week 21 weight loss maintained at Week 33 (Every-Other-Week Dosing)", result = "Placebo: 61%; VK2735 Combined QOW: 90%; VK2735 17.5 mg QW to 5.0 mg QOW: 83%; VK2735 15.0 mg QW to 7.5 mg QOW: 90%; VK2735 17.5 mg QW to 10.0 mg QOW: 97%", analysis = "p-value vs. placebo: Combined QOW p<0.0001; 5.0 mg QOW 0.004; 7.5 mg QOW <0.0001; 10.0 mg QOW <0.0001", comparator = "placebo", advantage_vs_soc = "" }
+verify_quotes = ["[table 3] Weight Loss Maintenance Following Transition from Weekly to Every-Other-Week Dosing for 12 Weeks — Mean percentage of Week 21 weight loss maintained at Week 33 (%)^4,5 | Placebo (n=27): 61%", "[table 3] Weight Loss Maintenance Following Transition from Weekly to Every-Other-Week Dosing for 12 Weeks — Mean percentage of Week 21 weight loss maintained at Week 33 (%)^4,5 | VK2735 Combined QOW (n=37): 90%", "[table 3] Weight Loss Maintenance Following Transition from Weekly to Every-Other-Week Dosing for 12 Weeks — Mean percentage of Week 21 weight loss maintained at Week 33 (%)^4,5 | VK2735 17.5 mg QW to 5.0 mg QOW (n=12): 83%", "[table 3] Weight Loss Maintenance Following Transition from Weekly to Every-Other-Week Dosing for 12 Weeks — Mean percentage of Week 21 weight loss maintained at Week 33 (%)^4,5 | VK2735 15.0 mg QW to 7.5 mg QOW (n=13): 90%", "[table 3] Weight Loss Maintenance Following Transition from Weekly to Every-Other-Week Dosing for 12 Weeks — Mean percentage of Week 21 weight loss maintained at Week 33 (%)^4,5 | VK2735 17.5 mg QW to 10.0 mg QOW (n=12): 97%", "[table 3] Weight Loss Maintenance Following Transition from Weekly to Every-Other-Week Dosing for 12 Weeks — p-value vs. placebo^5 | VK2735 Combined QOW (n=37): p<0.0001", "[table 3] Weight Loss Maintenance Following Transition from Weekly to Every-Other-Week Dosing for 12 Weeks — p-value vs. placebo^5 | VK2735 17.5 mg QW to 5.0 mg QOW (n=12): 0.004", "[table 3] Weight Loss Maintenance Following Transition from Weekly to Every-Other-Week Dosing for 12 Weeks — p-value vs. placebo^5 | VK2735 15.0 mg QW to 7.5 mg QOW (n=13): <0.0001", "[table 3] Weight Loss Maintenance Following Transition from Weekly to Every-Other-Week Dosing for 12 Weeks — p-value vs. placebo^5 | VK2735 17.5 mg QW to 10.0 mg QOW (n=12): <0.0001"]
+decision = "accept"
+note = ""
+
+[[items]]
+id = "r-15c966cc"
+type = "clinical_result"
+source_id = "MAN-VKTX-4"
+asset = "VK2735"
+trial = "Maintenance Study of GLP-1/GIP Agonist VK2735"
+indication = "obesity"
+endpoint = "Mean percentage of Week 21 weight loss maintained at Week 33 (monthly dosing)"
+result = "Placebo: 61%; VK2735 Combined QM: 85%; VK2735 17.5 mg QW to 10 mg QM: 82%; VK2735 17.5 mg QW to 15 mg QM: 84%; VK2735 17.5 mg QW to 17.5 mg QM: 90%; VK2735 20 mg QW to 20 mg QM: 86%; VK2735 22.5 mg QW to 22.5 mg QM: 85%"
+analysis = "p<0.0001 vs. placebo for Combined QM; p=0.0016 for 10 mg QM; p=0.0012 for 15 mg QM; p=0.0002 for 17.5 mg QM; p=0.0005 for 20 mg QM; p=0.0024 for 22.5 mg QM"
+comparator = "placebo"
+advantage_vs_soc = ""
+confidence = ""
+quotes = ["[table 4] Weight Loss Maintenance Following Transition from Weekly to Monthly Dosing For 12 Weeks — Mean percentage of Week 21 weight loss maintained at Week 33 (%)^4,5 | Placebo (n=27): 61%", "[table 4] Weight Loss Maintenance Following Transition from Weekly to Monthly Dosing For 12 Weeks — Mean percentage of Week 21 weight loss maintained at Week 33 (%)^4,5 | VK2735 Combined QM (n=65): 85%", "[table 4] Weight Loss Maintenance Following Transition from Weekly to Monthly Dosing For 12 Weeks — Mean percentage of Week 21 weight loss maintained at Week 33 (%)^4,5 | VK2735 17.5 mg QW to 10 mg QM (n=16): 82%", "[table 4] Weight Loss Maintenance Following Transition from Weekly to Monthly Dosing For 12 Weeks — Mean percentage of Week 21 weight loss maintained at Week 33 (%)^4,5 | VK2735 17.5 mg QW to 15 mg QM (n=14): 84%", "[table 4] Weight Loss Maintenance Following Transition from Weekly to Monthly Dosing For 12 Weeks — Mean percentage of Week 21 weight loss maintained at Week 33 (%)^4,5 | VK2735 17.5 mg QW to 17.5 mg QM (n=11): 90%", "[table 4] Weight Loss Maintenance Following Transition from Weekly to Monthly Dosing For 12 Weeks — Mean percentage of Week 21 weight loss maintained at Week 33 (%)^4,5 | VK2735 20 mg QW to 20 mg QM (n=14): 86%", "[table 4] Weight Loss Maintenance Following Transition from Weekly to Monthly Dosing For 12 Weeks — Mean percentage of Week 21 weight loss maintained at Week 33 (%)^4,5 | VK2735 22.5 mg QW to 22.5 mg QM (n=10)^6: 85%", "[table 4] Weight Loss Maintenance Following Transition from Weekly to Monthly Dosing For 12 Weeks — p-value vs. placebo^5 | VK2735 Combined QM (n=65): <0.0001", "[table 4] Weight Loss Maintenance Following Transition from Weekly to Monthly Dosing For 12 Weeks — p-value vs. placebo^5 | VK2735 17.5 mg QW to 10 mg QM (n=16): 0.0016", "[table 4] Weight Loss Maintenance Following Transition from Weekly to Monthly Dosing For 12 Weeks — p-value vs. placebo^5 | VK2735 17.5 mg QW to 15 mg QM (n=14): 0.0012", "[table 4] Weight Loss Maintenance Following Transition from Weekly to Monthly Dosing For 12 Weeks — p-value vs. placebo^5 | VK2735 17.5 mg QW to 17.5 mg QM (n=11): 0.0002", "[table 4] Weight Loss Maintenance Following Transition from Weekly to Monthly Dosing For 12 Weeks — p-value vs. placebo^5 | VK2735 20 mg QW to 20 mg QM (n=14): 0.0005", "[table 4] Weight Loss Maintenance Following Transition from Weekly to Monthly Dosing For 12 Weeks — p-value vs. placebo^5 | VK2735 22.5 mg QW to 22.5 mg QM (n=10)^6: 0.0024"]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "agreed"
+verify = { asset = "VK2735", trial = "", indication = "obesity", endpoint = "Mean percentage of Week 21 weight loss maintained at Week 33 (Monthly Dosing)", result = "Placebo: 61%; VK2735 Combined QM: 85%; VK2735 17.5 mg QW to 10 mg QM: 82%; VK2735 17.5 mg QW to 15 mg QM: 84%; VK2735 17.5 mg QW to 17.5 mg QM: 90%; VK2735 20 mg QW to 20 mg QM: 86%; VK2735 22.5 mg QW to 22.5 mg QM: 85%", analysis = "p-value vs. placebo: Combined QM <0.0001; 10 mg QM 0.0016; 15 mg QM 0.0012; 17.5 mg QM 0.0002; 20 mg QM 0.0005; 22.5 mg QM 0.0024", comparator = "placebo", advantage_vs_soc = "" }
+verify_quotes = ["[table 4] Weight Loss Maintenance Following Transition from Weekly to Monthly Dosing For 12 Weeks — Mean percentage of Week 21 weight loss maintained at Week 33 (%)^4,5 | Placebo (n=27): 61%", "[table 4] Weight Loss Maintenance Following Transition from Weekly to Monthly Dosing For 12 Weeks — Mean percentage of Week 21 weight loss maintained at Week 33 (%)^4,5 | VK2735 Combined QM (n=65): 85%", "[table 4] Weight Loss Maintenance Following Transition from Weekly to Monthly Dosing For 12 Weeks — Mean percentage of Week 21 weight loss maintained at Week 33 (%)^4,5 | VK2735 17.5 mg QW to 10 mg QM (n=16): 82%", "[table 4] Weight Loss Maintenance Following Transition from Weekly to Monthly Dosing For 12 Weeks — Mean percentage of Week 21 weight loss maintained at Week 33 (%)^4,5 | VK2735 17.5 mg QW to 15 mg QM (n=14): 84%", "[table 4] Weight Loss Maintenance Following Transition from Weekly to Monthly Dosing For 12 Weeks — Mean percentage of Week 21 weight loss maintained at Week 33 (%)^4,5 | VK2735 17.5 mg QW to 17.5 mg QM (n=11): 90%", "[table 4] Weight Loss Maintenance Following Transition from Weekly to Monthly Dosing For 12 Weeks — Mean percentage of Week 21 weight loss maintained at Week 33 (%)^4,5 | VK2735 20 mg QW to 20 mg QM (n=14): 86%", "[table 4] Weight Loss Maintenance Following Transition from Weekly to Monthly Dosing For 12 Weeks — Mean percentage of Week 21 weight loss maintained at Week 33 (%)^4,5 | VK2735 22.5 mg QW to 22.5 mg QM (n=10)^6: 85%", "[table 4] Weight Loss Maintenance Following Transition from Weekly to Monthly Dosing For 12 Weeks — p-value vs. placebo^5 | VK2735 Combined QM (n=65): <0.0001", "[table 4] Weight Loss Maintenance Following Transition from Weekly to Monthly Dosing For 12 Weeks — p-value vs. placebo^5 | VK2735 17.5 mg QW to 10 mg QM (n=16): 0.0016", "[table 4] Weight Loss Maintenance Following Transition from Weekly to Monthly Dosing For 12 Weeks — p-value vs. placebo^5 | VK2735 17.5 mg QW to 15 mg QM (n=14): 0.0012", "[table 4] Weight Loss Maintenance Following Transition from Weekly to Monthly Dosing For 12 Weeks — p-value vs. placebo^5 | VK2735 17.5 mg QW to 17.5 mg QM (n=11): 0.0002", "[table 4] Weight Loss Maintenance Following Transition from Weekly to Monthly Dosing For 12 Weeks — p-value vs. placebo^5 | VK2735 20 mg QW to 20 mg QM (n=14): 0.0005", "[table 4] Weight Loss Maintenance Following Transition from Weekly to Monthly Dosing For 12 Weeks — p-value vs. placebo^5 | VK2735 22.5 mg QW to 22.5 mg QM (n=10)^6: 0.0024"]
+decision = "accept"
+note = ""
+
+[[items]]
+id = "r-0a771c44"
+type = "clinical_result"
+source_id = "MAN-VKTX-4"
+asset = "VK2735"
+trial = ""
+indication = "obesity"
+endpoint = "Proportion of participants demonstrating 5%, 10%, 15%, and 20% weight loss at Week 21"
+result = "Combined VK2735: 98% (≥5%), 90% (≥10%), 65% (≥15%), 32% (≥20%); Placebo: 13% (≥5%), 0% (≥10%), 0% (≥15%), 0% (≥20%)"
+analysis = "p<0.01 vs. placebo for each threshold"
+comparator = "placebo"
+advantage_vs_soc = ""
+confidence = ""
+quotes = ["At 21 weeks in the combined VK2735 treatment groups, the proportion of participants demonstrating 5%, 10%, 15%, and 20% weight loss were 98%, 90%, 65%, and 32% as compared with 13%, 0%, 0%, and 0% for placebo (p<0.01 vs. placebo for each)."]
+model = "qwen3.7-plus-2026-05-26"
+returned_model = "qwen3.7-plus-2026-05-26"
+check = "disputed"
+decision = ""
+note = ""
