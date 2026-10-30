@@ -35,7 +35,7 @@
 | 3 | C | 官方结构化数据拉取（CT.gov + EDGAR + openFDA） | 代码 | `public-data-ingest` | B | archived（`openspec/changes/archive/2026-10-29-public-data-ingest`） |
 | 3 | D | 文档获取存档与 LLM 抽取管道 | 代码 | `llm-extraction` | A | archived（`openspec/changes/archive/2026-10-30-llm-extraction`；主 spec：`document-archive`、`llm-extraction`、`extraction-review`，同步 `snapshot-build`） |
 | 4 | E | 评分、买方匹配与候选名单 | 代码 + 研究 | `scoring-shortlist` | B, C | archived（`openspec/changes/archive/2026-10-30-scoring-shortlist`；45 家复核签字，入选 30 家） |
-| 4 | K | HTML 表格逐格展开 | 代码 | `table-records` | D | in progress |
+| 4 | K | HTML 表格逐格展开 | 代码 | `table-records` | D | archived（`openspec/changes/archive/2026-10-30-table-records`；修改主 spec `document-archive`、`llm-extraction`） |
 | 5 | F | 深度填充 3–5 家 | 研究 | — | D, E, K | planned |
 | 5 | G | Web 应用样板 | 代码 | `web-app` | B, C, E | planned |
 | 6 | H | Excel 导出与抽样核验 | 代码 + 研究 | `export-verify` | F, G | planned |
@@ -185,3 +185,4 @@
 - 2026-10-30 · 69dd30f7-bc86-4fc2-b36d-dea57ab87358 · D 核验并归档：17 条需求、28 个场景对照测试（补 3 个测试，共 236 项通过）；新增主 spec document-archive、llm-extraction、extraction-review，同步 snapshot-build
 - 2026-10-30 · 69dd30f7-bc86-4fc2-b36d-dea57ab87358 · v4：新增 K（表格逐格展开），F 改为依赖 K；建 OpenSpec 变更 `table-records`
 - 2026-10-30 · 69dd30f7-bc86-4fc2-b36d-dea57ab87358 · K：表格逐格展开实现（4/4 任务）；VKTX 临床结果表格取值通过校验 DeepSeek 4/5、Qwen 3/5；待用户复核新增 5 条后核验归档
+- 2026-10-30 · 69dd30f7-bc86-4fc2-b36d-dea57ab87358 · K：用户按建议签字 5 条（4 接受、1 重复拒绝）；5 条临床结果因研究名无 NCT 编号记缺口；核验并归档。F 可以开始

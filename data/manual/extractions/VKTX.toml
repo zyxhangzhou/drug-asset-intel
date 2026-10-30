@@ -88,7 +88,7 @@ quotes = ["[table 2] Change in Body Weight Following 21 Weeks of Once-Weekly Dos
 model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
-decision = ""
+decision = "accept"
 note = ""
 
 [[items]]
@@ -108,7 +108,7 @@ quotes = ["[table 2] Change in Body Weight Following 21 Weeks of Once-Weekly Dos
 model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
-decision = ""
+decision = "accept"
 note = ""
 
 [[items]]
@@ -172,5 +172,5 @@ quotes = ["At 21 weeks in the combined VK2735 treatment groups, the proportion o
 model = "qwen3.7-plus-2026-05-26"
 returned_model = "qwen3.7-plus-2026-05-26"
 check = "disputed"
-decision = ""
-note = ""
+decision = "reject"
+note = "与 r-c6903ab3 重复（同一句原文）"
