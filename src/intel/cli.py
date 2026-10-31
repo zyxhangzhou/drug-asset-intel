@@ -42,6 +42,16 @@ def cmd_build(db: Path) -> int:
     return 0
 
 
+def cmd_export(db: Path, out: Path) -> int:
+    from intel.db import ro_engine
+    from intel.export import export
+
+    with Session(ro_engine(db)) as session:
+        path = export(session, out, outputs_dir=db.parent)
+    print(f"wrote {path}")
+    return 0
+
+
 def cmd_check_scoring(db: Path) -> int:
     from intel.scoring import ScoringConfig, checks
 
@@ -302,6 +312,9 @@ def main(argv: list[str] | None = None) -> int:
         "--replay", action="store_true", help="re-pair saved replies of the same prompts, no calls"
     )
     extract.add_argument("--db", type=Path, default=settings.db_path)
+    exp = sub.add_parser("export", help="write the candidate list Excel from the snapshot")
+    exp.add_argument("--db", type=Path, default=settings.db_path)
+    exp.add_argument("--out", type=Path, default=Path("deliverables") / "候选生物制药公司列表.xlsx")
     serve = sub.add_parser("serve")
     serve.add_argument("--host", default="127.0.0.1")
     serve.add_argument("--port", type=int, default=8000)
@@ -322,6 +335,8 @@ def main(argv: list[str] | None = None) -> int:
             return cmd_filings(args.ticker, args.forms, args.limit)
         case "extract":
             return cmd_extract(args)
+        case "export":
+            return cmd_export(args.db, args.out)
         case "serve":
             return cmd_serve(args.host, args.port)
     return 2
