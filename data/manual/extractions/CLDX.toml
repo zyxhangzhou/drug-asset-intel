@@ -47,7 +47,7 @@ quotes = ["In 2025, we initiated the Process Performance Qualification (PPQ) man
 model = "qwen3.7-plus-2026-05-26"
 returned_model = "qwen3.7-plus-2026-05-26"
 check = "disputed"
-decision = ""
+decision = "accept"
 note = "[Claude 初筛] 建议接受：10-Q 原文称原料药 PPQ 生产批次预计 2026 年完成，属未来事件且有年份；仅为 CMC 生产节点，重要性较低，人工可酌情保留。"
 
 [[items]]
@@ -62,7 +62,7 @@ quotes = ["We are currently preparing for the DP PPQ activities and expect to co
 model = "qwen3.7-plus-2026-05-26"
 returned_model = "qwen3.7-plus-2026-05-26"
 check = "disputed"
-decision = ""
+decision = "accept"
 note = "[Claude 初筛] 建议接受：10-Q 原文称制剂 PPQ 预计 2026 年完成，未来事件有年份；同为 CMC 节点，重要性较低。"
 
 [[items]]
@@ -146,7 +146,7 @@ quotes = ["1,939 patients were enrolled—the largest program conducted in antih
 model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
-decision = ""
+decision = "reject"
 note = "[Claude 初筛] 建议拒绝：仅为 EMBARQ-CSU1/2 入组 1,939 例的入组人数，不是临床结果。"
 
 [[items]]
@@ -190,7 +190,7 @@ returned_model = "deepseek-v4-pro"
 check = "disputed"
 verify = { asset = "BARZOLVOLIMAB", trial = "long-term barzolvolimab results", indication = "chronic spontaneous urticaria (CSU)", endpoint = "angioedema-free status", result = "up to 64% of patients treated with barzolvolimab who had angioedema at baseline remained angioedema-free", analysis = "", comparator = "none", advantage_vs_soc = "" }
 verify_quotes = ["In June 2026, Celldex presented long-term barzolvolimab results that demonstrated sustained off-treatment improvement in patients with CSU at the European Academy of Allergy and Clinical Immunology (EAACI) Annual Meeting.", "Seven months after the completion of dosing (Week 76), up to 64% of patients treated with barzolvolimab who had angioedema at baseline remained angioedema-free."]
-decision = ""
+decision = "accept"
 note = "[Claude 初筛] 建议接受：EAACI 公布的长期随访结果：停药七个月后（第 76 周）基线有血管性水肿者最高 64% 无血管性水肿，数值与引文一致；主版本适应症与终点比 verify 更具体。"
 
 [[items]]
@@ -210,7 +210,7 @@ quotes = ["Topline data from the Phase 2 study in prurigo nodularis (PN) were pr
 model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
-decision = ""
+decision = "accept"
 note = "[Claude 初筛] 建议接受：结节性痒疹 2 期 2026 年 7 月顶线数据未达主要及关键次要终点，属人体阴性结果，如实陈述。"
 
 [[items]]
@@ -230,7 +230,7 @@ quotes = ["Positive results from Phase 1 trial of bispecific CDX-622 showed rapi
 model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
-decision = ""
+decision = "accept"
 note = "[Claude 初筛] 建议接受：CDX-622 一期人体试验显示血清类胰蛋白酶快速、显著、剂量依赖下降，属人体药效学结果（定性，无数值）。"
 
 [[items]]
@@ -247,7 +247,7 @@ returned_model = "deepseek-v4-pro"
 check = "disputed"
 verify = { asset = "BARZOLVOLIMAB (CDX-0159)", event = "BLA submission planned", event_type = "regulatory_filing", timing = "2027" }
 verify_quotes = ["Barzolvolimab Phase 3 chronic spontaneous urticaria studies (EMBARQ-CSU 1 and 2) ongoing, topline data expected in Sept/Oct 2026; BLA submission planned for 2027"]
-decision = ""
+decision = "reject"
 note = "[Claude 初筛] 建议拒绝：与已接受的 e-1fb017a7 重复，同为 2027 年提交 barzolvolimab BLA。；保留 e-1fb017a7"
 
 [[items]]
@@ -262,23 +262,23 @@ quotes = ["Barzolvolimab Phase 3 chronic spontaneous urticaria studies (EMBARQ-C
 model = "qwen3.7-plus-2026-05-26"
 returned_model = "qwen3.7-plus-2026-05-26"
 check = "disputed"
-decision = ""
+decision = "reject"
 note = "[Claude 初筛] 建议拒绝：EMBARQ-CSU 顶线数据已于 2026-09-22 公布（MAN-CLDX-1），事件在快照日前已完成。"
 
 [[items]]
 id = "e-336715e6-2"
 type = "catalyst"
 source_id = "MAN-CLDX-2"
-asset = "BARZOLVOLIMAB (CDX-0159)"
-event = "Phase 2 topline data in AD expected"
+asset = "BARZOLVOLIMAB"
+event = "Phase 2 atopic dermatitis (AD) topline data"
 event_type = "data_readout"
 timing = "late 2026"
 quotes = ["Phase 3 barzolvolimab cold urticaria and symptomatic dermographism study (EMBARQ-ColdU and -SD) actively enrolling; Phase 2 topline data in AD expected in late 2026"]
 model = "qwen3.7-plus-2026-05-26"
 returned_model = "qwen3.7-plus-2026-05-26"
 check = "disputed"
-decision = ""
-note = "[Claude 初筛] 建议修改后接受：特应性皮炎 2 期顶线数据预计 2026 年底，属未来事件；事件描述补全适应症名称。；改为 event = Phase 2 atopic dermatitis (AD) topline data；asset = BARZOLVOLIMAB"
+decision = "accept"
+note = "[Claude 初筛] 建议修改后接受：特应性皮炎 2 期顶线数据预计 2026 年底，属未来事件；事件描述补全适应症名称。；改为 event = Phase 2 atopic dermatitis (AD) topline data；asset = BARZOLVOLIMAB\n[复核] 人工修改：event 原为 'Phase 2 topline data in AD expected'；asset 原为 'BARZOLVOLIMAB (CDX-0159)'"
 
 [[items]]
 id = "p-f069d017"
@@ -313,7 +313,7 @@ quotes = ["EMBARQ-CSU1 |\nEMBARQ-CSU2 |\n|\nBaseline UAS7 |\nLS Mean Change (SE)
 model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
-decision = ""
+decision = "accept"
 note = "[Claude 初筛] 建议接受：EMBARQ-CSU1 第 12 周 UAS7 LS 均值变化：安慰剂 -10.7、150 mg -20.2、300 mg -20.5，两剂量 p<.00001，与表格一致。"
 
 [[items]]
@@ -333,7 +333,7 @@ quotes = ["EMBARQ-CSU1 |\nEMBARQ-CSU2 |\n|\nBaseline UAS7 |\nLS Mean Change (SE)
 model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
-decision = ""
+decision = "accept"
 note = "[Claude 初筛] 建议接受：EMBARQ-CSU2 第 12 周 UAS7 LS 均值变化：安慰剂 -11.4、150 mg -20.2、300 mg -19.7，两剂量 p<.00001，与表格一致。"
 
 [[items]]
@@ -355,7 +355,7 @@ returned_model = "deepseek-v4-pro"
 check = "disputed"
 verify = { asset = "BARZOLVOLIMAB (CDX-0159)", trial = "EMBARQ-CSU1; NCT06445023 and EMBARQ-CSU2; NCT06455202", indication = "chronic spontaneous urticaria (CSU)", endpoint = "Proportion of Patients with Complete Response (UAS7=0) at Week 12", result = "Placebo: 9.3% in EMBARQ-CSU1, 12.6% in EMBARQ-CSU2; 150 mg Q4W: 42.4% in EMBARQ-CSU1, 45.7% in EMBARQ-CSU2; 300 mg Q8W: 42.1% in EMBARQ-CSU1, 44.0% in EMBARQ-CSU2", analysis = "p<.00001 for all active arms vs placebo", comparator = "placebo", advantage_vs_soc = "" }
 verify_quotes = ["[table 10] Proportion of Patients with Complete Response (UAS7=0) at Weeks 12 and 24 — 12 Weeks / Placebo | EMBARQ-CSU1: 9.3%", "[table 10] Proportion of Patients with Complete Response (UAS7=0) at Weeks 12 and 24 — 12 Weeks / Placebo | EMBARQ-CSU2: 12.6%", "[table 10] Proportion of Patients with Complete Response (UAS7=0) at Weeks 12 and 24 — 12 Weeks / 150 mg Q4W | EMBARQ-CSU1: 42.4% (p<.00001)", "[table 10] Proportion of Patients with Complete Response (UAS7=0) at Weeks 12 and 24 — 12 Weeks / 150 mg Q4W | EMBARQ-CSU2: 45.7% (p<.00001)", "[table 10] Proportion of Patients with Complete Response (UAS7=0) at Weeks 12 and 24 — 12 Weeks / 300 mg Q8W | EMBARQ-CSU1: 42.1% (p<.00001)", "[table 10] Proportion of Patients with Complete Response (UAS7=0) at Weeks 12 and 24 — 12 Weeks / 300 mg Q8W | EMBARQ-CSU2: 44.0% (p<.00001)", "P-values are based on adjusted odds ratio of logistic regression models."]
-decision = ""
+decision = "accept"
 note = "[Claude 初筛] 建议接受：EMBARQ-CSU1 第 12 周完全缓解率 9.3%/42.4%/42.1% 与表格一致；verify 把两项试验合并，会与 r-28d922d9 重复，保留按试验拆分的主版本。"
 
 [[items]]
@@ -375,7 +375,7 @@ quotes = ["[table 10] Proportion of Patients with Complete Response (UAS7=0) at 
 model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
-decision = ""
+decision = "accept"
 note = "[Claude 初筛] 建议接受：EMBARQ-CSU2 第 12 周完全缓解率 12.6%/45.7%/44.0%，两剂量 p<.00001，与表格一致。"
 
 [[items]]
@@ -397,7 +397,7 @@ returned_model = "deepseek-v4-pro"
 check = "disputed"
 verify = { asset = "BARZOLVOLIMAB (CDX-0159)", trial = "EMBARQ-CSU1; NCT06445023 and EMBARQ-CSU2; NCT06455202", indication = "chronic spontaneous urticaria (CSU)", endpoint = "Proportion of Patients with Complete Response (UAS7=0) at Week 24", result = "Placebo: 15.4% in EMBARQ-CSU1, 17.6% in EMBARQ-CSU2; 150 mg Q4W: 49.0% in EMBARQ-CSU1, 54.0% in EMBARQ-CSU2; 300 mg Q8W: 45.1% in EMBARQ-CSU1, 48.4% in EMBARQ-CSU2", analysis = "p<.00001 for all active arms vs placebo", comparator = "placebo", advantage_vs_soc = "" }
 verify_quotes = ["[table 10] Proportion of Patients with Complete Response (UAS7=0) at Weeks 12 and 24 — 24 Weeks / Placebo | EMBARQ-CSU1: 15.4%", "[table 10] Proportion of Patients with Complete Response (UAS7=0) at Weeks 12 and 24 — 24 Weeks / Placebo | EMBARQ-CSU2: 17.6%", "[table 10] Proportion of Patients with Complete Response (UAS7=0) at Weeks 12 and 24 — 24 Weeks / 150 mg Q4W | EMBARQ-CSU1: 49.0% (p<.00001)", "[table 10] Proportion of Patients with Complete Response (UAS7=0) at Weeks 12 and 24 — 24 Weeks / 150 mg Q4W | EMBARQ-CSU2: 54.0% (p<.00001)", "[table 10] Proportion of Patients with Complete Response (UAS7=0) at Weeks 12 and 24 — 24 Weeks / 300 mg Q8W | EMBARQ-CSU1: 45.1% (p<.00001)", "[table 10] Proportion of Patients with Complete Response (UAS7=0) at Weeks 12 and 24 — 24 Weeks / 300 mg Q8W | EMBARQ-CSU2: 48.4% (p<.00001)", "P-values are based on adjusted odds ratio of logistic regression models."]
-decision = ""
+decision = "accept"
 note = "[Claude 初筛] 建议接受：EMBARQ-CSU1 第 24 周完全缓解率 15.4%/49.0%/45.1% 与表格一致；verify 合并两试验会与 r-727d238d 重复。"
 
 [[items]]
@@ -417,7 +417,7 @@ quotes = ["[table 10] Proportion of Patients with Complete Response (UAS7=0) at 
 model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
-decision = ""
+decision = "accept"
 note = "[Claude 初筛] 建议接受：EMBARQ-CSU2 第 24 周完全缓解率 17.6%/54.0%/48.4%，两剂量 p<.00001，与表格一致。"
 
 [[items]]
@@ -439,7 +439,7 @@ returned_model = "deepseek-v4-pro"
 check = "disputed"
 verify = { asset = "BARZOLVOLIMAB (CDX-0159)", trial = "EMBARQ-CSU1; NCT06445023 and EMBARQ-CSU2; NCT06455202", indication = "Omalizumab-Refractory CSU", endpoint = "Proportion of Patients with Complete Response (UAS7=0) at Week 12", result = "Placebo: 9.3% in EMBARQ-CSU1, 15.1% in EMBARQ-CSU2; 150 mg Q4W: 55.3% in EMBARQ-CSU1, 41.7% in EMBARQ-CSU2; 300 mg Q8W: 44.3% in EMBARQ-CSU1, 46.4% in EMBARQ-CSU2", analysis = "p<.00001 for 150 mg in EMBARQ-CSU1; p=.0089 for 150 mg in EMBARQ-CSU2; p=.00017 for 300 mg in EMBARQ-CSU1; p=.0036 for 300 mg in EMBARQ-CSU2", comparator = "placebo", advantage_vs_soc = "" }
 verify_quotes = ["[table 12] Proportion of Patients with Complete Response (UAS7=0) at Week 12 in Omalizumab-Refractory CSU — Placebo | EMBARQ-CSU1: 9.3%", "[table 12] Proportion of Patients with Complete Response (UAS7=0) at Week 12 in Omalizumab-Refractory CSU — Placebo | EMBARQ-CSU2: 15.1%", "[table 12] Proportion of Patients with Complete Response (UAS7=0) at Week 12 in Omalizumab-Refractory CSU — 150 mg Q4W | EMBARQ-CSU1: 55.3% (p<.00001)", "[table 12] Proportion of Patients with Complete Response (UAS7=0) at Week 12 in Omalizumab-Refractory CSU — 150 mg Q4W | EMBARQ-CSU2: 41.7% (p=.0089)", "[table 12] Proportion of Patients with Complete Response (UAS7=0) at Week 12 in Omalizumab-Refractory CSU — 300 mg Q8W | EMBARQ-CSU1: 44.3% (p=.00017)", "[table 12] Proportion of Patients with Complete Response (UAS7=0) at Week 12 in Omalizumab-Refractory CSU — 300 mg Q8W | EMBARQ-CSU2: 46.4% (p=.0036)", "P-values are based on adjusted odds ratio of logistic regression models."]
-decision = ""
+decision = "accept"
 note = "[Claude 初筛] 建议接受：EMBARQ-CSU1 奥马珠单抗难治亚组第 12 周完全缓解率 9.3%/55.3%/44.3%，p<.00001 与 p=.00017 与表格一致；verify 合并两试验会与 r-28d922d9-2 重复。"
 
 [[items]]
@@ -459,7 +459,7 @@ quotes = ["[table 12] Proportion of Patients with Complete Response (UAS7=0) at 
 model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
-decision = ""
+decision = "accept"
 note = "[Claude 初筛] 建议接受：EMBARQ-CSU2 奥马珠单抗难治亚组第 12 周完全缓解率 15.1%/41.7%/46.4%，p=.0089 与 p=.0036 与表格一致。"
 
 [[items]]
@@ -481,7 +481,7 @@ returned_model = "deepseek-v4-pro"
 check = "disputed"
 verify = { asset = "BARZOLVOLIMAB (CDX-0159)", trial = "EMBARQ-CSU1; NCT06445023 and EMBARQ-CSU2; NCT06455202", indication = "chronic spontaneous urticaria (CSU) in patients with baseline AAS7>0", endpoint = "Proportion of Patients with AAS7=0 at Week 12", result = "Placebo: 33.8% in EMBARQ-CSU1, 33.7% in EMBARQ-CSU2; 150 mg Q4W: 62.7% in EMBARQ-CSU1, 74.3% in EMBARQ-CSU2; 300 mg Q8W: 66.3% in EMBARQ-CSU1, 66.2% in EMBARQ-CSU2", analysis = "p<.00001 for all active arms vs placebo", comparator = "placebo", advantage_vs_soc = "" }
 verify_quotes = ["[table 14] Proportion of Patients with AAS7=0 at Week 12 in Patients with Baseline AAS7>0 — Placebo | EMBARQ-CSU1: 33.8%", "[table 14] Proportion of Patients with AAS7=0 at Week 12 in Patients with Baseline AAS7>0 — Placebo | EMBARQ-CSU2: 33.7%", "[table 14] Proportion of Patients with AAS7=0 at Week 12 in Patients with Baseline AAS7>0 — 150 mg Q4W | EMBARQ-CSU1: 62.7% (p<.00001)", "[table 14] Proportion of Patients with AAS7=0 at Week 12 in Patients with Baseline AAS7>0 — 150 mg Q4W | EMBARQ-CSU2: 74.3% (p<.00001)", "[table 14] Proportion of Patients with AAS7=0 at Week 12 in Patients with Baseline AAS7>0 — 300 mg Q8W | EMBARQ-CSU1: 66.3% (p<.00001)", "[table 14] Proportion of Patients with AAS7=0 at Week 12 in Patients with Baseline AAS7>0 — 300 mg Q8W | EMBARQ-CSU2: 66.2% (p<.00001)", "P-values are based on adjusted odds ratio of logistic regression models."]
-decision = ""
+decision = "accept"
 note = "[Claude 初筛] 建议接受：EMBARQ-CSU1 基线 AAS7>0 患者第 12 周 AAS7=0 比例 33.8%/62.7%/66.3% 与表格一致；verify 合并两试验会与 r-3e8d7d50 重复。"
 
 [[items]]
@@ -501,7 +501,7 @@ quotes = ["[table 14] Proportion of Patients with AAS7=0 at Week 12 in Patients 
 model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
-decision = ""
+decision = "accept"
 note = "[Claude 初筛] 建议接受：EMBARQ-CSU2 基线 AAS7>0 患者第 12 周 AAS7=0 比例 33.7%/74.3%/66.2%，p<.00001，与表格一致。"
 
 [[items]]
@@ -544,9 +544,9 @@ source_id = "DOC-CLDX-cd22c3e6"
 asset = "BARZOLVOLIMAB"
 trial = "NCT05368285"
 indication = "chronic spontaneous urticaria"
-endpoint = "UAS7 change from baseline to week 12"
-result = "75 mg every 4 weeks: -6.60; 150 mg every 4 weeks: -12.55; 300 mg every 8 weeks: -13.41; placebo: not reported"
-analysis = "75 mg every 4 weeks: P = .0017; 150 mg every 4 weeks: P < .0001; 300 mg every 8 weeks: P < .0001"
+endpoint = "UAS7 change from baseline to week 12, barzolvolimab vs placebo"
+result = "improvement vs placebo: 75 mg every 4 weeks: -6.60; 150 mg every 4 weeks: -12.55; 300 mg every 8 weeks: -13.41"
+analysis = "75 mg every 4 weeks: 95% CI [-10.71, -2.49], P = .0017; 150 mg every 4 weeks: 95% CI [-16.56, -8.55], P < .0001; 300 mg every 8 weeks: 95% CI [-17.47, -9.34], P < .0001"
 comparator = "placebo"
 advantage_vs_soc = ""
 confidence = ""
@@ -556,8 +556,8 @@ returned_model = "deepseek-v4-pro"
 check = "disputed"
 verify = { asset = "BARZOLVOLIMAB (CDX-0159)", trial = "NCT05368285", indication = "chronic spontaneous urticaria", endpoint = "UAS7 change from baseline to week 12", result = "75 mg every 4 weeks: -6.60; 150 mg every 4 weeks: -12.55; 300 mg every 8 weeks: -13.41; placebo: not explicitly stated as a single number but implied in comparison", analysis = "75 mg every 4 weeks: 95% confidence interval [-10.71, -2.49] P = .0017; 150 mg every 4 weeks: 95% confidence interval [-16.56, -8.55] P < .0001; 300 mg every 8 weeks: 95% confidence interval [-17.47, -9.34] P < .0001", comparator = "placebo", advantage_vs_soc = "" }
 verify_quotes = ["randomized 1:1:1:1 to receive barzolvolimab 75 mg every 4 weeks (n = 53); 150 mg every 4 weeks (n = 52); 300 mg every 8 weeks (n = 51); or placebo (n = 51).", "The primary end point was UAS7 change from baseline to week 12.", "There was significant improvement in mean (95% confidence interval) change from baseline to week 12 in UAS7 in barzolvolimab-treated patients compared to patients who received placebo (75 mg every 4 weeks: -6.60 [-10.71, -2.49] P = .0017; 150 mg every 4 weeks: -12.55 [-16.56, -8.55] P < .0001; 300 mg every 8 weeks: -13.41 [-17.47, -9.34] P < .0001)."]
-decision = ""
-note = "[Claude 初筛] 建议修改后接受：摘要中 -6.60/-12.55/-13.41 是各剂量组相对安慰剂的 UAS7 改善（附 95% CI），不是各组自身的变化值，“placebo: not reported”有误导；改为相对安慰剂差值并补 CI（人工可复核摘要措辞）。；改为 endpoint = UAS7 change from baseline to week 12, barzolvolimab vs placebo；result = improvement vs placebo: 75 mg every 4 weeks: -6.60; 150 mg every 4 weeks: -12.55; 300 mg every 8 weeks: -13.41；analysis = 75 mg every 4 weeks: 95% CI [-10.71, -2.49], P = .0017; 150 mg every 4 weeks: 95% CI [-16.56, -8.55], P < .0001; 300 mg every 8 weeks: 95% CI [-17.47, -9.34], P < .0001"
+decision = "accept"
+note = "[Claude 初筛] 建议修改后接受：摘要中 -6.60/-12.55/-13.41 是各剂量组相对安慰剂的 UAS7 改善（附 95% CI），不是各组自身的变化值，“placebo: not reported”有误导；改为相对安慰剂差值并补 CI（人工可复核摘要措辞）。；改为 endpoint = UAS7 change from baseline to week 12, barzolvolimab vs placebo；result = improvement vs placebo: 75 mg every 4 weeks: -6.60; 150 mg every 4 weeks: -12.55; 300 mg every 8 weeks: -13.41；analysis = 75 mg every 4 weeks: 95% CI [-10.71, -2.49], P = .0017; 150 mg every 4 weeks: 95% CI [-16.56, -8.55], P < .0001; 300 mg every 8 weeks: 95% CI [-17.47, -9.34], P < .0001\n[复核] 人工修改：endpoint 原为 'UAS7 change from baseline to week 12'；result 原为 '75 mg every 4 weeks: -6.60; 150 mg every 4 weeks: -12.55; 300 mg every 8 weeks: -13.41; placebo: not reported'；analysis 原为 '75 mg every 4 weeks: P = .0017; 150 mg every 4 weeks: P < .0001; 300 mg every 8 weeks: P < .0001'"
 
 [[items]]
 id = "r-b9335aef"

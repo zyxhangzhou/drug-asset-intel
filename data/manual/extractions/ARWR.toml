@@ -80,7 +80,7 @@ returned_model = "deepseek-v4-pro"
 check = "disputed"
 verify = { asset = "ARO-ALK7", mechanism = "adipocyte gene target silencing", modality = "RNAi-therapeutic" }
 verify_quotes = ["ARO-ALK7, the first RNAi-therapeutic to show adipocyte gene target silencing in a clinical trial"]
-decision = ""
+decision = "accept"
 note = "[Claude 初筛] 建议接受：ARO-ALK7 为 RNAi 疗法，原文支持；机制留空可接受（verify 的“adipocyte gene target silencing”是声明而非机制，具体机制 ACVR1C/ALK7 仅见 MAN-ARWR-1 第 213 行，未抽取）。"
 
 [[items]]
@@ -132,7 +132,7 @@ quotes = ["The data presented at the European Association for the Study of the L
 model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
-decision = ""
+decision = "reject"
 note = "[Claude 初筛] 建议拒绝：EASL 2026 仅有“clinically meaningful reductions in liver fat”定性表述、无数值，被 r-51d07673（单药肝脂降 44%）与 r-f2b93f64（联用肝脂约三倍降幅）覆盖。；保留 r-51d07673"
 
 [[items]]
@@ -152,7 +152,7 @@ quotes = ["Patients with severe hypertriglyceridemia (sHTG) achieved an 83% medi
 model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
-decision = ""
+decision = "accept"
 note = "[Claude 初筛] 建议接受：ACC 2026 长期数据：sHTG 患者 TG 中位降 83%，与同组下一条 2 年 Phase 2b OLE 要点并列，数值与原文一致。"
 
 [[items]]
@@ -172,7 +172,7 @@ quotes = ["Patients with severe hypertriglyceridemia (sHTG) achieved an 83% medi
 model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
-decision = ""
+decision = "accept"
 note = "[Claude 初筛] 建议接受：同句另一终点：96% 患者 TG 低于 500 mg/dL，数值与原文一致，与 83% 条目不重复。"
 
 [[items]]
@@ -192,7 +192,7 @@ quotes = ["No adjudicated acute pancreatitis events occurred in any patient rece
 model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
-decision = ""
+decision = "accept"
 note = "[Claude 初筛] 建议接受：原文明确 2 年 Phase 2b OLE 期间无经裁定急性胰腺炎事件，属人体临床结果。"
 
 [[items]]
@@ -214,7 +214,7 @@ returned_model = "deepseek-v4-pro"
 check = "disputed"
 verify = { asset = "ARO-INHBE", trial = "Phase 1/2a clinical trials of ARO-INHBE", indication = "obesity and metabolic dysfunction-associated steatohepatitis (MASH)", endpoint = "weight loss", result = "ARO-INHBE in combination with tirzepatide, a GLP-1/GIP receptor co-agonist, nearly doubled weight loss at week 16", analysis = "", comparator = "tirzepatide alone", advantage_vs_soc = "" }
 verify_quotes = ["Announced interim results from two Phase 1/2a clinical trials of ARO-INHBE and ARO-ALK7, the", "Company’s investigational RNAi therapeutics being developed as potential treatments for obesity and metabolic dysfunction-associated steatohepatitis (MASH), showing for patients enrolled in the study that:", "ARO-INHBE in combination with tirzepatide, a GLP-1/GIP receptor co-agonist, nearly doubled weight loss at week 16 and roughly tripled reductions in visceral fat, total fat, and liver fat versus tirzepatide alone in obese patients with type 2 diabetes mellitus at those same endpoints at week 12."]
-decision = ""
+decision = "accept"
 note = "[Claude 初筛] 建议接受：ARO-INHBE 联用替尔泊肽第 16 周减重近翻倍（对照替尔泊肽单药），与原文一致。"
 
 [[items]]
@@ -236,7 +236,7 @@ returned_model = "deepseek-v4-pro"
 check = "disputed"
 verify = { asset = "ARO-INHBE", trial = "Phase 1/2a clinical trials of ARO-INHBE", indication = "obesity and metabolic dysfunction-associated steatohepatitis (MASH)", endpoint = "reductions in visceral fat, total fat, and liver fat", result = "roughly tripled reductions in visceral fat, total fat, and liver fat versus tirzepatide alone in obese patients with type 2 diabetes mellitus at those same endpoints at week 12", analysis = "", comparator = "tirzepatide alone", advantage_vs_soc = "" }
 verify_quotes = ["Announced interim results from two Phase 1/2a clinical trials of ARO-INHBE and ARO-ALK7, the", "Company’s investigational RNAi therapeutics being developed as potential treatments for obesity and metabolic dysfunction-associated steatohepatitis (MASH), showing for patients enrolled in the study that:", "ARO-INHBE in combination with tirzepatide, a GLP-1/GIP receptor co-agonist, nearly doubled weight loss at week 16 and roughly tripled reductions in visceral fat, total fat, and liver fat versus tirzepatide alone in obese patients with type 2 diabetes mellitus at those same endpoints at week 12."]
-decision = ""
+decision = "accept"
 note = "[Claude 初筛] 建议接受：ARO-INHBE 联用第 12 周内脏脂肪、总脂肪、肝脂肪降幅约为替尔泊肽单药三倍，与原文一致，与减重条目为不同终点。"
 
 [[items]]
@@ -258,7 +258,7 @@ returned_model = "deepseek-v4-pro"
 check = "disputed"
 verify = { asset = "ARO-ALK7", trial = "Phase 1/2a clinical trials of ARO-ALK7", indication = "obesity and metabolic dysfunction-associated steatohepatitis (MASH)", endpoint = "adipose ALK7 messenger (mRNA)", result = "mean reduction of -88% at the 200 mg dose at week 8 with a maximum reduction of -94%", analysis = "", comparator = "none", advantage_vs_soc = "" }
 verify_quotes = ["Announced interim results from two Phase 1/2a clinical trials of ARO-INHBE and ARO-ALK7, the", "Company’s investigational RNAi therapeutics being developed as potential treatments for obesity and metabolic dysfunction-associated steatohepatitis (MASH), showing for patients enrolled in the study that:", "ARO-ALK7, the first RNAi-therapeutic to show adipocyte gene target silencing in a clinical trial, achieved dose dependent reductions in adipose ALK7 messenger (mRNA) with a mean reduction of -88% at the 200 mg dose at week 8 with a maximum reduction of -94%."]
-decision = ""
+decision = "accept"
 note = "[Claude 初筛] 建议接受：ARO-ALK7 人体试验 200 mg 第 8 周脂肪组织 ALK7 mRNA 平均降 88%、最大降 94%，为人体药效学结果，数值正确。"
 
 [[items]]
@@ -280,7 +280,7 @@ returned_model = "deepseek-v4-pro"
 check = "disputed"
 verify = { asset = "ARO-INHBE", trial = "Phase 1/2a clinical trials of ARO-INHBE", indication = "obesity", endpoint = "liver fat content (LFC)", result = "ARO-INHBE monotherapy at 200mg or greater reduced liver fat content (LFC) by 44% compared to placebo in subjects with obesity and baseline liver fat content greater than 8%.", analysis = "", comparator = "placebo", advantage_vs_soc = "" }
 verify_quotes = ["Announced interim results from two Phase 1/2a clinical trials of ARO-INHBE and ARO-ALK7, the", "Company’s investigational RNAi therapeutics being developed as potential treatments for obesity and metabolic dysfunction-associated steatohepatitis (MASH), showing for patients enrolled in the study that:", "ARO-INHBE monotherapy at 200mg or greater reduced liver fat content (LFC) by 44% compared to placebo in subjects with obesity and baseline liver fat content greater than 8%."]
-decision = ""
+decision = "accept"
 note = "[Claude 初筛] 建议接受：ARO-INHBE 单药 ≥200mg 在基线肝脂 >8% 肥胖受试者中肝脂较安慰剂降 44%，与原文一致。"
 
 [[items]]
@@ -346,7 +346,7 @@ returned_model = "deepseek-v4-pro"
 check = "disputed"
 verify = { asset = "PLOZASIRAN (ARO-APOC3)", trial = "SHASTA-3", indication = "severe hypertriglyceridemia (sHTG)", endpoint = "triglyceride reduction", result = "Deep, durable, and consistent median triglyceride reductions of 79% from baseline in SHASTA-3", analysis = "", comparator = "placebo", advantage_vs_soc = "" }
 verify_quotes = ["Announced topline results for the global Phase 3 SHASTA-3 and SHASTA-4 clinical studies of plozasiran in patients with severe hypertriglyceridemia (sHTG).", "SHASTA-3 and SHASTA-4 successfully met the primary endpoint of triglyceride reduction versus placebo", "Deep, durable, and consistent median triglyceride reductions of 79% and 81% from baseline in SHASTA-3 and SHASTA-4, respectively."]
-decision = ""
+decision = "reject"
 note = "[Claude 初筛] 建议拒绝：与已接受的 r-222d43e4（SHASTA-3 降 79%）和 r-97f8e646（SHASTA-4 降 81%）重复，同一 topline 数据。；保留 r-222d43e4"
 
 [[items]]
@@ -366,7 +366,7 @@ quotes = ["Announced topline results for the global Phase 3 SHASTA-3 and SHASTA-
 model = "qwen3.7-plus-2026-05-26"
 returned_model = "qwen3.7-plus-2026-05-26"
 check = "disputed"
-decision = ""
+decision = "reject"
 note = "[Claude 初筛] 建议拒绝：与已接受的 r-97f8e646 重复，同为 SHASTA-4 TG 中位降 81%。；保留 r-97f8e646"
 
 [[items]]
@@ -386,7 +386,7 @@ quotes = ["Announced topline results for the global Phase 3 SHASTA-3 and SHASTA-
 model = "qwen3.7-plus-2026-05-26"
 returned_model = "qwen3.7-plus-2026-05-26"
 check = "disputed"
-decision = ""
+decision = "reject"
 note = "[Claude 初筛] 建议拒绝：与已接受的 r-ac527b89 重复，同为 SHASTA-3/4 急性胰腺炎事件降 78%、TG>880 且有既往 AP 者降 100%。；保留 r-ac527b89"
 
 [[items]]
@@ -406,7 +406,7 @@ quotes = ["In a Phase 1 single-ascending dose clinical study, ARO-PNPLA3 achieve
 model = "qwen3.7-plus-2026-05-26"
 returned_model = "qwen3.7-plus-2026-05-26"
 check = "disputed"
-decision = ""
+decision = "reject"
 note = "[Claude 初筛] 建议拒绝：与 r-ca1a3354 重复，同为 ARO-PNPLA3 Phase 1 SAD 肝脂最多降 40%（I148M 纯合）；本条 comparator 填“none”不准确，且引用被拆成两段。；保留 r-ca1a3354"
 
 [[items]]
@@ -438,7 +438,7 @@ returned_model = "deepseek-v4-pro"
 check = "disputed"
 verify = { asset = "ZODASIRAN (ARO-ANG3)", mechanism = "reduce production of angiopoietin-like protein 3 (ANGPTL3)", modality = "siRNA" }
 verify_quotes = ["Zodasiran (formerly ARO-ANG3) is designed to reduce production of angiopoietin-like protein 3 (ANGPTL3)"]
-decision = ""
+decision = "accept"
 note = "[Claude 初筛] 建议接受：zodasiran 机制（降低 ANGPTL3 生成）与原文一致，补充了已接受 p-90d5aacd 缺失的机制；verify 的 modality“siRNA”在其引用中无依据，保持留空。"
 
 [[items]]
@@ -446,16 +446,16 @@ id = "p-547a0902"
 type = "program"
 source_id = "MAN-ARWR-1"
 asset = "ARO-DUX4"
-mechanism = "designed to target the gene that encodes human double homeobox 4 (DUX4) protein"
-modality = ""
-quotes = ["ARO-DUX4 is designed to target the gene that encodes human double homeobox 4 (DUX4) protein as a potential treatment for patients with facioscapulohumeral muscular dystrophy."]
-model = "deepseek-v4-pro"
-returned_model = "deepseek-v4-pro"
+mechanism = "target the gene that encodes human double homeobox 4 (DUX4) protein"
+modality = "RNAi"
+quotes = ["ARO-DUX4 is designed to target the gene that encodes human double homeobox 4 (DUX4) protein", "selective targeting and knockdown of DUX4 using RNAi"]
+model = "qwen3.7-plus-2026-05-26"
+returned_model = "qwen3.7-plus-2026-05-26"
 check = "disputed"
 verify = { asset = "ARO-DUX4", mechanism = "target the gene that encodes human double homeobox 4 (DUX4) protein", modality = "RNAi" }
 verify_quotes = ["ARO-DUX4 is designed to target the gene that encodes human double homeobox 4 (DUX4) protein", "selective targeting and knockdown of DUX4 using RNAi"]
-decision = ""
-note = "[Claude 初筛] 建议接受核验模型版本（verify）：verify 的 modality“RNAi”有原文支持（“knockdown of DUX4 using RNAi”），优于主值留空；注意该资产已授权 Sarepta（SRP-1001）。"
+decision = "accept"
+note = "[Claude 初筛] 建议接受核验模型版本（verify）：verify 的 modality“RNAi”有原文支持（“knockdown of DUX4 using RNAi”），优于主值留空；注意该资产已授权 Sarepta（SRP-1001）。\n[复核] 采用核验模型版本：取值与片段替换为 verify，模型名改为核验模型"
 
 [[items]]
 id = "p-eb8d3d89"
@@ -477,15 +477,15 @@ note = ""
 id = "p-caa1c757"
 type = "program"
 source_id = "MAN-ARWR-1"
-asset = "ARO-MMP7"
+asset = "ARO-MMP7 INHALATION"
 mechanism = "designed to reduce expression of matrix metalloproteinase 7 (MMP7)"
 modality = ""
 quotes = ["ARO-MMP7 is designed to reduce expression of matrix metalloproteinase 7 (MMP7) as a potential treatment for IPF."]
 model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
-decision = ""
-note = "[Claude 初筛] 建议修改后接受：机制正确且引用更完整（含 IPF 适应症），但资产名应与库中程序名“ARO-MMP7 INHALATION”（program 330）对齐；该资产已授权 Sarepta（SRP-1002）。；改为 asset = ARO-MMP7 INHALATION"
+decision = "accept"
+note = "[Claude 初筛] 建议修改后接受：机制正确且引用更完整（含 IPF 适应症），但资产名应与库中程序名“ARO-MMP7 INHALATION”（program 330）对齐；该资产已授权 Sarepta（SRP-1002）。；改为 asset = ARO-MMP7 INHALATION\n[复核] 人工修改：asset 原为 'ARO-MMP7'"
 
 [[items]]
 id = "p-5f3dcddd"
@@ -530,7 +530,7 @@ quotes = ["ARO-MMP7 is designed to reduce expression of matrix metalloproteinase
 model = "qwen3.7-plus-2026-05-26"
 returned_model = "qwen3.7-plus-2026-05-26"
 check = "disputed"
-decision = ""
+decision = "reject"
 note = "[Claude 初筛] 建议拒绝：与 p-caa1c757 重复，同一句 MMP7 机制描述，引用更短。；保留 p-caa1c757"
 
 [[items]]
@@ -552,7 +552,7 @@ returned_model = "deepseek-v4-pro"
 check = "disputed"
 verify = { asset = "PLOZASIRAN (ARO-APOC3)", trial = "PALISADE", indication = "Familial Chylomicronemia Syndrome (FCS)", endpoint = "median change from baseline in triglycerides", result = "-80% versus -17% in the pooled placebo group", analysis = "", comparator = "placebo", advantage_vs_soc = "" }
 verify_quotes = ["The FDA approved the Company's New Drug Application (NDA) for REDEMPLO (plozasiran) injection for Familial Chylomicronemia Syndrome (FCS), on November 18, 2025.", "This approval was supported by clinical data from the Phase 3 PALISADE study, a randomized, double-blind, placebo-controlled trial in adults with clinically diagnosed or genetically confirmed FCS.", "In PALISADE, 25 mg REDEMPLO achieved deep and durable reductions in triglycerides, with a median change from baseline of -80% versus -17% in the pooled placebo group"]
-decision = ""
+decision = "reject"
 note = "[Claude 初筛] 建议拒绝：与已接受的 r-6a96c755 重复，同为 PALISADE 25 mg TG 中位变化 -80% 对安慰剂 -17%。；保留 r-6a96c755"
 
 [[items]]
@@ -702,7 +702,7 @@ quotes = ["In a Phase 1 single-ascending dose clinical study, ARO-PNPLA3 achieve
 model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
-decision = ""
+decision = "accept"
 note = "[Claude 初筛] 建议接受：ARO-PNPLA3 Phase 1 SAD 肝脂剂量依赖性最多降 40%，与原文一致；注意该资产已于 2026-05-04 全球独家授权给 Madrigal。"
 
 [[items]]
@@ -728,7 +728,7 @@ type = "catalyst"
 source_id = "MAN-ARWR-2"
 asset = "ZODASIRAN (ARO-ANG3)"
 event = "Completion of Phase 3 YOSEMITE clinical trial"
-event_type = "data_readout"
+event_type = "other"
 timing = "mid-2027"
 quotes = ["The Company anticipates that YOSEMITE will be completed in mid-2027 and, pending successful clinical results, intends to seek regulatory approval in multiple geographies thereafter."]
 model = "deepseek-v4-pro"
@@ -736,8 +736,8 @@ returned_model = "deepseek-v4-pro"
 check = "disputed"
 verify = { asset = "ZODASIRAN (ARO-ANG3)", event = "YOSEMITE will be completed", event_type = "other", timing = "mid-2027" }
 verify_quotes = ["The Company anticipates that YOSEMITE will be completed in mid-2027 and, pending successful clinical results, intends to seek regulatory approval in multiple geographies thereafter."]
-decision = ""
-note = "[Claude 初筛] 建议修改后接受：原文为 YOSEMITE 预计 2027 年中“完成”，未说数据读出，event_type 应为 other（与 verify 一致），事件描述保留主值。；改为 event_type = other"
+decision = "accept"
+note = "[Claude 初筛] 建议修改后接受：原文为 YOSEMITE 预计 2027 年中“完成”，未说数据读出，event_type 应为 other（与 verify 一致），事件描述保留主值。；改为 event_type = other\n[复核] 人工修改：event_type 原为 'data_readout'"
 
 [[items]]
 id = "e-41feb07b"
@@ -751,7 +751,7 @@ quotes = ["Detailed results will be presented as a HOT LINE Late Breaker at the 
 model = "qwen3.7-plus-2026-05-26"
 returned_model = "qwen3.7-plus-2026-05-26"
 check = "disputed"
-decision = ""
+decision = "reject"
 note = "[Claude 初筛] 建议拒绝：ESC 发布日期为 2026-08-30，早于快照日 2026-10-28，事件已完成。"
 
 [[items]]
@@ -789,7 +789,7 @@ returned_model = "deepseek-v4-pro"
 check = "disputed"
 verify = { asset = "PLOZASIRAN (ARO-APOC3)", trial = "PALISADE (NCT05089084)", indication = "Familial Chylomicronemia Syndrome (FCS)", endpoint = "percent change from baseline in fasting TG", result = "25 mg REDEMPLO achieved a median change from baseline of -80% versus -17% in the pooled placebo group", analysis = "", comparator = "placebo", advantage_vs_soc = "" }
 verify_quotes = ["The PALISADE study (NCT05089084) was a Phase 3 placebo-controlled study", "The primary endpoint of the study was percent change from baseline in fasting TG versus placebo at Month 10.", "In PALISADE, 25 mg REDEMPLO achieved deep and durable reductions in triglycerides, with a median change from baseline of -80% versus -17% in the pooled placebo group"]
-decision = ""
+decision = "reject"
 note = "[Claude 初筛] 建议拒绝：与已接受的 r-6a96c755 重复，同为 PALISADE -80% 对 -17%；且原文并未直接把该数值对应到第 10 个月主要终点。；保留 r-6a96c755"
 
 [[items]]
@@ -835,7 +835,7 @@ id = "r-73d0858d"
 type = "clinical_result"
 source_id = "DOC-ARWR-9b18cae6"
 asset = "PLOZASIRAN (ARO-APOC3)"
-trial = "NCT05089084"
+trial = "PALISADE (NCT05089084) post hoc analysis of patients with prior acute pancreatitis"
 indication = "very severe hypertriglyceridemia with history of pancreatitis"
 endpoint = "incidence of expert-adjudicated acute pancreatitis"
 result = "Incident AP occurred in 5 of 22 in the placebo group versus 2 of 45 in the pooled plozasiran group"
@@ -849,5 +849,5 @@ returned_model = "deepseek-v4-pro"
 check = "disputed"
 verify = { asset = "PLOZASIRAN (ARO-APOC3)", trial = "NCT05089084", indication = "severe hypertriglyceridemia and history of pancreatitis", endpoint = "incidence of expert-adjudicated AP", result = "Incident AP occurred in 5 of 22 in the placebo group versus 2 of 45 in the pooled plozasiran group, representing an 83% reduction in risk for recurrent AP in the plozasiran group", analysis = "HR, 0.17; 95% CI [0.03, 0.87], p < 0.017", comparator = "placebo", advantage_vs_soc = "" }
 verify_quotes = ["Clinicaltrials.gov identifier: NCT05089084.", "Patients with extreme hypertriglyceridemia were randomised 2:1:2:1 to receive subcutaneous plozasiran (25- or 50-mg) or volume-matched placebo, quarterly for 12 months.", "Primary and alpha-controlled secondary endpoints included the incidence of expert-adjudicated AP and pancreatitis-related hospitalisations.", "Incident AP occurred in 5 of 22 in the placebo group versus 2 of 45 in the pooled plozasiran group, representing an 83% (HR, 0.17; 95% CI [0.03, 0.87], p < 0.017) reduction in risk for recurrent AP in the plozasiran group."]
-decision = ""
-note = "[Claude 初筛] 建议修改后接受：数值正确（AP 5/22 对 2/45，风险降 83%，HR 0.17），但来源是 PALISADE 中既往有 AP 患者（n=67）的事后分析，trial 应注明 post hoc，免得被当作整体主要终点。；改为 trial = PALISADE (NCT05089084) post hoc analysis of patients with prior acute pancreatitis"
+decision = "accept"
+note = "[Claude 初筛] 建议修改后接受：数值正确（AP 5/22 对 2/45，风险降 83%，HR 0.17），但来源是 PALISADE 中既往有 AP 患者（n=67）的事后分析，trial 应注明 post hoc，免得被当作整体主要终点。；改为 trial = PALISADE (NCT05089084) post hoc analysis of patients with prior acute pancreatitis\n[复核] 人工修改：trial 原为 'NCT05089084'"

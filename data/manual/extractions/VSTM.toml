@@ -266,7 +266,7 @@ quotes = ["Overall, 94% of patients experienced tumor shrinkage, and 11 of 16 pa
 model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
-decision = ""
+decision = "accept"
 note = "[Claude 初筛] 建议接受：RAMP 201J 日本研究 16 例可评估患者中 94% 出现肿瘤缩小，原文直接支持，且与已接受的 ORR/DCR 条目不重复。"
 
 [[items]]
@@ -300,7 +300,7 @@ returned_model = "deepseek-v4-pro"
 check = "agreed"
 verify = { asset = "VS-7375", event = "complete enrollment across all three TARGET-D phase 2 trials", event_type = "other", timing = "end of 2026" }
 verify_quotes = ["We expect to complete enrollment across all three TARGET-D phase 2 trials by end of 2026"]
-decision = "accept"
+decision = "reject"
 note = "[Claude 初筛] 注意：此条已预填接受，但较新的来源把 TARGET-D 202（NSCLC）完成入组推迟到 2027 年第二季度，10-Q 的说法已过时，建议拒绝或改写"
 
 [[items]]
@@ -317,7 +317,7 @@ returned_model = "deepseek-v4-pro"
 check = "disputed"
 verify = { asset = "VS-7375", event = "meet with the FDA before the end of 2026 to review Phase 3 pivotal trial designs", event_type = "other", timing = "before the end of 2026" }
 verify_quotes = ["We expect to meet with the FDA before the end of 2026 to review Phase 3 pivotal trial designs in first-line (“1L”) metastatic PDAC, 1L metastatic CRC, and 1L advanced NSCLC"]
-decision = ""
+decision = "reject"
 note = "[Claude 初筛] 建议拒绝：10-Q 旧口径：10/14 公告已就 1L mPDAC 三期设计与 FDA 达成一致，剩余 NSCLC/CRC 的 FDA 会议由更新来源的 e-460608ad 表述；且会议并非 regulatory_filing。；保留 e-460608ad"
 
 [[items]]
@@ -389,111 +389,111 @@ note = ""
 id = "r-85d33afe"
 type = "clinical_result"
 source_id = "MAN-VSTM-1"
-asset = "avutometinib and defactinib"
+asset = "AVUTOMETINIB DEFACTINIB"
 trial = "RAMP 205"
 indication = "front-line metastatic PDAC"
-endpoint = "confirmed overall response rate (ORR)"
-result = "83% (10/12) patients"
+endpoint = "confirmed overall response rate in dose level 1"
+result = "83% (10/12)"
 analysis = ""
-comparator = ""
+comparator = "none"
 advantage_vs_soc = ""
 confidence = ""
 quotes = ["In May 2025, we reported that we selected the recommended Phase 2 dose (“RP2D”) known as “dose level 1” in our RAMP 205 trial, which is evaluating avutometinib plus defactinib and in combination with standard of care chemotherapy (gemcitabine and Nab-paclitaxel) in front-line metastatic PDAC.", "In the study, dose level 1 demonstrated a confirmed overall response rate (“ORR”) of 83% (10/12) patients."]
-model = "deepseek-v4-pro"
-returned_model = "deepseek-v4-pro"
+model = "qwen3.7-plus-2026-05-26"
+returned_model = "qwen3.7-plus-2026-05-26"
 check = "disputed"
 verify = { asset = "AVUTOMETINIB DEFACTINIB", trial = "RAMP 205", indication = "front-line metastatic PDAC", endpoint = "confirmed overall response rate in dose level 1", result = "83% (10/12)", analysis = "", comparator = "none", advantage_vs_soc = "" }
 verify_quotes = ["In May 2025, we reported that we selected the recommended Phase 2 dose (“RP2D”) known as “dose level 1” in our RAMP 205 trial, which is evaluating avutometinib plus defactinib and in combination with standard of care chemotherapy (gemcitabine and Nab-paclitaxel) in front-line metastatic PDAC.", "In the study, dose level 1 demonstrated a confirmed overall response rate (“ORR”) of 83% (10/12) patients."]
-decision = ""
-note = "[Claude 初筛] 建议接受核验模型版本（verify）：83% (10/12) 是 2025 年 5 月 dose level 1（RP2D）的早期数据，核验版在终点中注明 dose level 1，避免与 29 例扩展队列的 52% cORR 混淆。"
+decision = "accept"
+note = "[Claude 初筛] 建议接受核验模型版本（verify）：83% (10/12) 是 2025 年 5 月 dose level 1（RP2D）的早期数据，核验版在终点中注明 dose level 1，避免与 29 例扩展队列的 52% cORR 混淆。\n[复核] 采用核验模型版本：取值与片段替换为 verify，模型名改为核验模型"
 
 [[items]]
 id = "r-cefc7c75"
 type = "clinical_result"
 source_id = "MAN-VSTM-1"
-asset = "avutometinib and defactinib"
-trial = "RAMP 201 (ENGOTov60/GOG3052)"
+asset = "AVUTOMETINIB DEFACTINIB"
+trial = "RAMP 201"
 indication = "recurrent low-grade serous ovarian cancer"
-endpoint = "confirmed ORR by BICR"
-result = "31% (34/109; 95% CI: 23-41) in all evaluable patients; 44% (25/57; 95% CI: 31-58) in KRAS-mutated; 17% (9/52; 95% CI: 8-30) in KRAS wild-type"
-analysis = "95% CI: 23-41; 95% CI: 31-58; 95% CI: 8-30"
-comparator = ""
+endpoint = "confirmed overall response rate by BICR in all evaluable patients with measurable disease"
+result = "31% (34/109)"
+analysis = "95% CI: 23-41"
+comparator = "none"
 advantage_vs_soc = ""
 confidence = ""
-quotes = ["In October 2024, we announced the primary analysis of the RAMP 201 study with a data cutoff of June 30, 2024, that was presented at the IGCS 2025 Annual Meeting.", "The study showed a confirmed ORR by BICR of 31% (34/109; 95% CI: 23-41) in all evaluable patients with measurable disease with approximately 12 months of follow up.", "Among patients with KRAS-mutated LGSOC, the confirmed ORR was 44% (25/57; 95% CI: 31-58), and for patients with KRAS wild-type LGSOC the confirmed ORR was 17% (9/52; 95% CI: 8-30)."]
-model = "deepseek-v4-pro"
-returned_model = "deepseek-v4-pro"
+quotes = ["RAMP 201 (ENGOTov60/GOG3052) was a Phase 2 adaptive, two-part multicenter, parallel cohort, randomized, open-label trial to evaluate the efficacy and safety of avutometinib alone and in combination with defactinib in patients with recurrent low-grade serous ovarian cancer.", "The study showed a confirmed ORR by BICR of 31% (34/109; 95% CI: 23-41) in all evaluable patients with measurable disease with approximately 12 months of follow up."]
+model = "qwen3.7-plus-2026-05-26"
+returned_model = "qwen3.7-plus-2026-05-26"
 check = "disputed"
 verify = { asset = "AVUTOMETINIB DEFACTINIB", trial = "RAMP 201", indication = "recurrent low-grade serous ovarian cancer", endpoint = "confirmed overall response rate by BICR in all evaluable patients with measurable disease", result = "31% (34/109)", analysis = "95% CI: 23-41", comparator = "none", advantage_vs_soc = "" }
 verify_quotes = ["RAMP 201 (ENGOTov60/GOG3052) was a Phase 2 adaptive, two-part multicenter, parallel cohort, randomized, open-label trial to evaluate the efficacy and safety of avutometinib alone and in combination with defactinib in patients with recurrent low-grade serous ovarian cancer.", "The study showed a confirmed ORR by BICR of 31% (34/109; 95% CI: 23-41) in all evaluable patients with measurable disease with approximately 12 months of follow up."]
-decision = ""
-note = "[Claude 初筛] 建议接受核验模型版本（verify）：主版本把总体、KRAS 突变、野生型三组塞进一条；核验版只保留全部可评估患者 31% (34/109; 95% CI 23-41)，两个亚组已由 r-8d62cbca、r-dc716dbb 单独记录。"
+decision = "accept"
+note = "[Claude 初筛] 建议接受核验模型版本（verify）：主版本把总体、KRAS 突变、野生型三组塞进一条；核验版只保留全部可评估患者 31% (34/109; 95% CI 23-41)，两个亚组已由 r-8d62cbca、r-dc716dbb 单独记录。\n[复核] 采用核验模型版本：取值与片段替换为 verify，模型名改为核验模型"
 
 [[items]]
 id = "r-92084595"
 type = "clinical_result"
 source_id = "MAN-VSTM-1"
-asset = "avutometinib and defactinib"
-trial = "RAMP 201 (ENGOTov60/GOG3052)"
+asset = "AVUTOMETINIB DEFACTINIB"
+trial = "RAMP 201"
 indication = "recurrent low-grade serous ovarian cancer"
-endpoint = "median duration of response (mDOR)"
-result = "31.1 months (95% CI: 14.8-31.1) in all evaluable patients; 31.1 months (95% CI: 14.8-31.1) in KRAS mutant; 9.2 months (95% CI: 5.5-NEi) in KRAS wild-type"
-analysis = "95% CI: 14.8-31.1; 95% CI: 14.8-31.1; 95% CI: 5.5-NEi"
-comparator = ""
+endpoint = "median duration of response in all evaluable patients"
+result = "31.1 months"
+analysis = "95% CI: 14.8-31.1"
+comparator = "none"
 advantage_vs_soc = ""
 confidence = ""
-quotes = ["The median duration of response (“mDOR”) was 31.1 months (95% CI: 14.8-31.1) in all evaluable patients, with 31.1 months (95% CI: 14.8-31.1) in the KRAS mutant population and 9.2 months (95% CI: 5.5-NEi) in the KRAS wild-type population."]
-model = "deepseek-v4-pro"
-returned_model = "deepseek-v4-pro"
+quotes = ["The median duration of response (“mDOR”) was 31.1 months (95% CI: 14.8-31.1) in all evaluable patients"]
+model = "qwen3.7-plus-2026-05-26"
+returned_model = "qwen3.7-plus-2026-05-26"
 check = "disputed"
 verify = { asset = "AVUTOMETINIB DEFACTINIB", trial = "RAMP 201", indication = "recurrent low-grade serous ovarian cancer", endpoint = "median duration of response in all evaluable patients", result = "31.1 months", analysis = "95% CI: 14.8-31.1", comparator = "none", advantage_vs_soc = "" }
 verify_quotes = ["The median duration of response (“mDOR”) was 31.1 months (95% CI: 14.8-31.1) in all evaluable patients"]
-decision = ""
-note = "[Claude 初筛] 建议接受核验模型版本（verify）：核验版只记全部可评估患者 mDOR 31.1 个月 (95% CI 14.8-31.1)，亚组已由 r-0ce94d91、r-a55de95a 单独记录，避免重复。"
+decision = "accept"
+note = "[Claude 初筛] 建议接受核验模型版本（verify）：核验版只记全部可评估患者 mDOR 31.1 个月 (95% CI 14.8-31.1)，亚组已由 r-0ce94d91、r-a55de95a 单独记录，避免重复。\n[复核] 采用核验模型版本：取值与片段替换为 verify，模型名改为核验模型"
 
 [[items]]
 id = "r-29ee1531"
 type = "clinical_result"
 source_id = "MAN-VSTM-1"
-asset = "avutometinib and defactinib"
-trial = "RAMP 201 (ENGOTov60/GOG3052)"
+asset = "AVUTOMETINIB DEFACTINIB"
+trial = "RAMP 201"
 indication = "recurrent low-grade serous ovarian cancer"
-endpoint = "median progression-free survival"
-result = "12.9 months (95% CI: 10.9-20.2) in all evaluable patients; 22 months (95% CI: 11.1-36.6) in KRAS mutant; 12.8 months (95% CI: 7.4-18.4) in KRAS wild-type"
-analysis = "95% CI: 10.9-20.2; 95% CI: 11.1-36.6; 95% CI: 7.4-18.4"
-comparator = ""
+endpoint = "median progression-free survival in all evaluable patients"
+result = "12.9 months"
+analysis = "95% CI: 10.9-20.2"
+comparator = "none"
 advantage_vs_soc = ""
 confidence = ""
-quotes = ["The median progression-free survival was 12.9 months (95% CI: 10.9-20.2) in all evaluable patients, with 22 months (95% CI: 11.1-36.6) in the KRAS mutant population and 12.8 months (95% CI: 7.4-18.4) in the KRAS wild-type population."]
-model = "deepseek-v4-pro"
-returned_model = "deepseek-v4-pro"
+quotes = ["The median progression-free survival was 12.9 months (95% CI: 10.9-20.2) in all evaluable patients"]
+model = "qwen3.7-plus-2026-05-26"
+returned_model = "qwen3.7-plus-2026-05-26"
 check = "disputed"
 verify = { asset = "AVUTOMETINIB DEFACTINIB", trial = "RAMP 201", indication = "recurrent low-grade serous ovarian cancer", endpoint = "median progression-free survival in all evaluable patients", result = "12.9 months", analysis = "95% CI: 10.9-20.2", comparator = "none", advantage_vs_soc = "" }
 verify_quotes = ["The median progression-free survival was 12.9 months (95% CI: 10.9-20.2) in all evaluable patients"]
-decision = ""
-note = "[Claude 初筛] 建议接受核验模型版本（verify）：核验版只记全部可评估患者 mPFS 12.9 个月 (95% CI 10.9-20.2)，亚组 22 个月与 12.8 个月已由 r-c17695ef、r-7b3130ef 单独记录。"
+decision = "accept"
+note = "[Claude 初筛] 建议接受核验模型版本（verify）：核验版只记全部可评估患者 mPFS 12.9 个月 (95% CI 10.9-20.2)，亚组 22 个月与 12.8 个月已由 r-c17695ef、r-7b3130ef 单独记录。\n[复核] 采用核验模型版本：取值与片段替换为 verify，模型名改为核验模型"
 
 [[items]]
 id = "r-da272da1"
 type = "clinical_result"
 source_id = "MAN-VSTM-1"
-asset = "avutometinib and defactinib"
-trial = "RAMP 201 (ENGOTov60/GOG3052)"
+asset = "AVUTOMETINIB DEFACTINIB"
+trial = "RAMP 201"
 indication = "recurrent low-grade serous ovarian cancer"
-endpoint = "disease control rate (DCR) at six or more months"
-result = "61% in total evaluable population; 70% in KRAS mutant; 50% in KRAS wild-type"
+endpoint = "disease control rate at six or more months in the total evaluable population"
+result = "61%"
 analysis = ""
-comparator = ""
+comparator = "none"
 advantage_vs_soc = ""
 confidence = ""
-quotes = ["The disease control rate (“DCR”) at six or more months was 61% in the total evaluable population, 70% in KRAS mutant population and 50% in KRAS wild-type population."]
-model = "deepseek-v4-pro"
-returned_model = "deepseek-v4-pro"
+quotes = ["The disease control rate (“DCR”) at six or more months was 61% in the total evaluable population"]
+model = "qwen3.7-plus-2026-05-26"
+returned_model = "qwen3.7-plus-2026-05-26"
 check = "disputed"
 verify = { asset = "AVUTOMETINIB DEFACTINIB", trial = "RAMP 201", indication = "recurrent low-grade serous ovarian cancer", endpoint = "disease control rate at six or more months in the total evaluable population", result = "61%", analysis = "", comparator = "none", advantage_vs_soc = "" }
 verify_quotes = ["The disease control rate (“DCR”) at six or more months was 61% in the total evaluable population"]
-decision = ""
-note = "[Claude 初筛] 建议接受核验模型版本（verify）：核验版只记总体人群 ≥6 个月 DCR 61%，亚组 70% 与 50% 已由 r-43c813b2、r-d38c905c 单独记录。"
+decision = "accept"
+note = "[Claude 初筛] 建议接受核验模型版本（verify）：核验版只记总体人群 ≥6 个月 DCR 61%，亚组 70% 与 50% 已由 r-43c813b2、r-d38c905c 单独记录。\n[复核] 采用核验模型版本：取值与片段替换为 verify，模型名改为核验模型"
 
 [[items]]
 id = "r-8d62cbca"
@@ -512,7 +512,7 @@ quotes = ["Among patients with KRAS-mutated LGSOC, the confirmed ORR was 44% (25
 model = "qwen3.7-plus-2026-05-26"
 returned_model = "qwen3.7-plus-2026-05-26"
 check = "disputed"
-decision = ""
+decision = "accept"
 note = "[Claude 初筛] 建议接受：RAMP 201 主要分析 KRAS 突变亚组 cORR 44% (25/57; 95% CI 31-58)，与 10-K 原文一致。"
 
 [[items]]
@@ -532,7 +532,7 @@ quotes = ["and for patients with KRAS wild-type LGSOC the confirmed ORR was 17% 
 model = "qwen3.7-plus-2026-05-26"
 returned_model = "qwen3.7-plus-2026-05-26"
 check = "disputed"
-decision = ""
+decision = "accept"
 note = "[Claude 初筛] 建议接受：RAMP 201 KRAS 野生型亚组 cORR 17% (9/52; 95% CI 8-30)，与 10-K 原文一致。"
 
 [[items]]
@@ -552,7 +552,7 @@ quotes = ["with 31.1 months (95% CI: 14.8-31.1) in the KRAS mutant population"]
 model = "qwen3.7-plus-2026-05-26"
 returned_model = "qwen3.7-plus-2026-05-26"
 check = "disputed"
-decision = ""
+decision = "accept"
 note = "[Claude 初筛] 建议接受：RAMP 201 KRAS 突变亚组 mDOR 31.1 个月 (95% CI 14.8-31.1)，与原文一致。"
 
 [[items]]
@@ -572,7 +572,7 @@ quotes = ["and 9.2 months (95% CI: 5.5-NEi) in the KRAS wild-type population."]
 model = "qwen3.7-plus-2026-05-26"
 returned_model = "qwen3.7-plus-2026-05-26"
 check = "disputed"
-decision = ""
+decision = "accept"
 note = "[Claude 初筛] 建议接受：RAMP 201 KRAS 野生型亚组 mDOR 9.2 个月 (95% CI 5.5-NE)，与原文一致。"
 
 [[items]]
@@ -592,7 +592,7 @@ quotes = ["with 22 months (95% CI: 11.1-36.6) in the KRAS mutant population"]
 model = "qwen3.7-plus-2026-05-26"
 returned_model = "qwen3.7-plus-2026-05-26"
 check = "disputed"
-decision = ""
+decision = "accept"
 note = "[Claude 初筛] 建议接受：RAMP 201 KRAS 突变亚组 mPFS 22 个月 (95% CI 11.1-36.6)，与原文一致。"
 
 [[items]]
@@ -612,7 +612,7 @@ quotes = ["and 12.8 months (95% CI: 7.4-18.4) in the KRAS wild-type population."
 model = "qwen3.7-plus-2026-05-26"
 returned_model = "qwen3.7-plus-2026-05-26"
 check = "disputed"
-decision = ""
+decision = "accept"
 note = "[Claude 初筛] 建议接受：RAMP 201 KRAS 野生型亚组 mPFS 12.8 个月 (95% CI 7.4-18.4)，与原文一致。"
 
 [[items]]
@@ -632,7 +632,7 @@ quotes = ["70% in KRAS mutant population"]
 model = "qwen3.7-plus-2026-05-26"
 returned_model = "qwen3.7-plus-2026-05-26"
 check = "disputed"
-decision = ""
+decision = "accept"
 note = "[Claude 初筛] 建议接受：RAMP 201 KRAS 突变亚组 ≥6 个月 DCR 70%，原文同句明确为该指标。"
 
 [[items]]
@@ -652,7 +652,7 @@ quotes = ["and 50% in KRAS wild-type population."]
 model = "qwen3.7-plus-2026-05-26"
 returned_model = "qwen3.7-plus-2026-05-26"
 check = "disputed"
-decision = ""
+decision = "accept"
 note = "[Claude 初筛] 建议接受：RAMP 201 KRAS 野生型亚组 ≥6 个月 DCR 50%，原文同句明确为该指标。"
 
 [[items]]
@@ -720,7 +720,7 @@ quotes = ["As of May 29, 2026, 16 efficacy-evaluable patients with recurrent low
 model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
-decision = ""
+decision = "reject"
 note = "[Claude 初筛] 建议拒绝：与 r-55982fff 重复（RAMP 201J 同一 5/29 截止数据 ORR 44%），亚组 71%/22% 也已由 r-8c56e6f6、r-4a630a7d 接受。；保留 r-55982fff"
 
 [[items]]
@@ -740,7 +740,7 @@ quotes = ["As of May 29, 2026, 16 efficacy-evaluable patients with recurrent low
 model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
-decision = ""
+decision = "reject"
 note = "[Claude 初筛] 建议拒绝：与 r-fb6f8b9a 重复（RAMP 201J DCR 94%），亚组 100%/89% 已由 r-e25662c4、r-dcca7085 接受。；保留 r-fb6f8b9a"
 
 [[items]]
@@ -1044,7 +1044,7 @@ returned_model = "deepseek-v4-pro"
 check = "disputed"
 verify = { asset = "VS-7375", trial = "TARGET-D 101", indication = "metastatic colorectal cancer (mCRC)", endpoint = "objective response rate (ORR) in 3L+ setting with anti-EGFR combination", result = "33% (2/6; with one confirmed and one unconfirmed response)", analysis = "", comparator = "none", advantage_vs_soc = "" }
 verify_quotes = ["patients receiving 900 mg QD in combination with anti-EGFR achieved a 33% ORR (2/6; with one confirmed and one unconfirmed response) in the 3L+ setting"]
-decision = ""
+decision = "accept"
 note = "[Claude 初筛] 建议接受：TARGET-D 101 3L+ mCRC 900 mg 联合抗 EGFR ORR 33% (2/6，1 例确认 1 例未确认)，与新闻稿原文一致。"
 
 [[items]]
@@ -1066,7 +1066,7 @@ returned_model = "deepseek-v4-pro"
 check = "disputed"
 verify = { asset = "VS-7375", trial = "TARGET-D 101", indication = "advanced non-small cell lung cancer (NSCLC)", endpoint = "confirmed objective response rate (ORR) in 2L+ NSCLC", result = "43% (10/23)", analysis = "", comparator = "none", advantage_vs_soc = "" }
 verify_quotes = ["in patients treated with VS-7375 600 mg QD monotherapy, the confirmed ORR was 43% (10/23) in 2L+ NSCLC"]
-decision = ""
+decision = "accept"
 note = "[Claude 初筛] 建议接受：TARGET-D 101 中 600 mg 单药 2L+ NSCLC 确认 ORR 43% (10/23)，新闻稿原文支持。"
 
 [[items]]
@@ -1088,7 +1088,7 @@ returned_model = "deepseek-v4-pro"
 check = "disputed"
 verify = { asset = "VS-7375", trial = "TARGET-D 101", indication = "1L KRAS G12D adenocarcinoma of the lung", endpoint = "objective response rate (ORR) in combination with SoC", result = "75% (6/8)", analysis = "", comparator = "none", advantage_vs_soc = "" }
 verify_quotes = ["patients treated with VS-7375 600 mg QD in combination with carboplatin, pemetrexed plus pembrolizumab or with pembrolizumab achieved a 75% ORR (6/8) in 1L KRAS G12D adenocarcinoma of the lung"]
-decision = ""
+decision = "accept"
 note = "[Claude 初筛] 建议接受：TARGET-D 101 中 600 mg 联合卡铂/培美曲塞/帕博利珠单抗一线 KRAS G12D 肺腺癌 ORR 75% (6/8)，原文支持（演示稿注明含未确认缓解）。"
 
 [[items]]
@@ -1108,7 +1108,7 @@ quotes = ["The six-month landmark PFS rate was 72%"]
 model = "qwen3.7-plus-2026-05-26"
 returned_model = "qwen3.7-plus-2026-05-26"
 check = "disputed"
-decision = ""
+decision = "reject"
 note = "[Claude 初筛] 建议拒绝：与已接受的 r-5c15cc00 重复（2L+ NSCLC 600 mg 6 个月 landmark PFS 72%）；注意 r-5c15cc00 的 trial 误写为 TARGET-D 202，应为 TARGET-D 101。；保留 r-5c15cc00"
 
 [[items]]
@@ -1157,7 +1157,7 @@ quotes = ["Plan to enroll the first patient in the CRC and NSCLC Phase 3 pivotal
 model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
-decision = ""
+decision = "accept"
 note = "[Claude 初筛] 建议接受：计划 2027 上半年在 CRC 与 NSCLC 三期关键试验入组首例患者，为未来事件且有年份。"
 
 [[items]]
@@ -1174,7 +1174,7 @@ returned_model = "deepseek-v4-pro"
 check = "disputed"
 verify = { asset = "VS-7375", event = "report initial data from Phase 2 TARGET-D 201 2L PDAC", event_type = "data_readout", timing = "Q2 2027" }
 verify_quotes = ["Plan to report initial data from Phase 2 TARGET-D 201 2L PDAC in Q2 2027;"]
-decision = ""
+decision = "accept"
 note = "[Claude 初筛] 建议接受：主版本正确：1L mPDAC 联合 GnP 初步数据预计 2027 年 Q1；核验版是另一条里程碑（201 二线 PDAC Q2 2027），不应替换。"
 
 [[items]]
@@ -1208,7 +1208,7 @@ returned_model = "deepseek-v4-pro"
 check = "disputed"
 verify = { asset = "VS-7375", event = "complete enrollment in TARGET-D 202 (NSCLC)", event_type = "other", timing = "Q2 2027" }
 verify_quotes = ["Expect to complete enrollment in the TARGET-D 201 (PDAC) and 203 (CRC) Phase", "2 trials by the end of 2026; TARGET-D 202 (NSCLC) expected in Q2 2027."]
-decision = ""
+decision = "reject"
 note = "[Claude 初筛] 建议拒绝：与已接受的 e-11b3a1e6 重复（TARGET-D 202 NSCLC 入组完成，2027 年 Q2）。；保留 e-11b3a1e6"
 
 [[items]]
@@ -1225,7 +1225,7 @@ returned_model = "deepseek-v4-pro"
 check = "disputed"
 verify = { asset = "VS-7375", event = "report initial data from the Phase 2 TARGET-D 202 2L NSCLC and TARGET-D 203 2L CRC trials", event_type = "data_readout", timing = "2H of 2027" }
 verify_quotes = ["expect to report initial data from the Phase 2 TARGET-D 202 2L NSCLC and TARGET-D 203 2L CRC trials in the 2H of 2027."]
-decision = ""
+decision = "accept"
 note = "[Claude 初筛] 建议接受：二期 TARGET-D 201 二线 PDAC 初步数据预计 2027 年 Q2，原文支持；核验版对应的是另一条 2H 2027 事件。"
 
 [[items]]
@@ -1240,7 +1240,7 @@ quotes = ["Plan to report initial data from Phase 2 TARGET-D 201 2L PDAC in Q2 2
 model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
-decision = ""
+decision = "accept"
 note = "[Claude 初筛] 建议接受：二期 TARGET-D 202 二线 NSCLC 与 203 二线 CRC 初步数据预计 2027 下半年，原文支持。"
 
 [[items]]
@@ -1278,7 +1278,7 @@ returned_model = "deepseek-v4-pro"
 check = "disputed"
 verify = { asset = "VS-7375", trial = "TARGET-D 101", indication = "2L+ NSCLC", endpoint = "ORR at data cutoff Oct. 7, 2026", result = "43% c ORR (10/23)", analysis = "", comparator = "none", advantage_vs_soc = "" }
 verify_quotes = ["20 VS - 7375 Demonstrates Confirmed Responses at 600 mg in 2L+ NSCLC 43% c ORR (10/23) 2L+ NSCLC, including prior taxane treated", "Data cutoff: Oct. 7, 2026"]
-decision = ""
+decision = "reject"
 note = "[Claude 初筛] 建议拒绝：与 r-a4808db2 重复（600 mg 2L+ NSCLC cORR 43% (10/23)，同一 10/7 截止数据）；且 trial 误标为 TARGET-D 202，实际为 TARGET-D 101 数据（202 仅在 900 mg 入组中）。；保留 r-a4808db2"
 
 [[items]]
@@ -1286,7 +1286,7 @@ id = "r-5c15cc00"
 type = "clinical_result"
 source_id = "MAN-VSTM-4"
 asset = "VS-7375"
-trial = "TARGET-D 202"
+trial = "TARGET-D 101"
 indication = "2L+ NSCLC"
 endpoint = "Landmark PFS rate at 6 months"
 result = "72%"
@@ -1301,16 +1301,16 @@ check = "agreed"
 verify = { asset = "VS-7375", trial = "TARGET-D 101", indication = "2L+ NSCLC", endpoint = "landmark PFS rate at 6-months", result = "72%", analysis = "", comparator = "none", advantage_vs_soc = "" }
 verify_quotes = ["21 VS - 7375 Shows Encouraging Durability at 600 mg in 2L+ NSCLC 72% landmark PFS rate at 6 - months; mPFS not reached", "Data cutoff: Oct. 7, 2026"]
 decision = "accept"
-note = "[Claude 初筛] 注意：此条已预填接受，但试验名应为 TARGET-D 101（MAN-VSTM-3 第 43、113 行：72% 6 个月 PFS 属 TARGET-D 101 600 mg 单药 2L+ NSCLC），请改 trial 后再接受"
+note = "[Claude 初筛] 注意：此条已预填接受，但试验名应为 TARGET-D 101（MAN-VSTM-3 第 43、113 行：72% 6 个月 PFS 属 TARGET-D 101 600 mg 单药 2L+ NSCLC），请改 trial 后再接受\n[复核] 人工修改：trial 原为 'TARGET-D 202'"
 
 [[items]]
 id = "r-aaaeb271"
 type = "clinical_result"
 source_id = "MAN-VSTM-4"
 asset = "VS-7375"
-trial = "TARGET-D 202"
+trial = "TARGET-D 101"
 indication = "2L+ NSCLC"
-endpoint = "mPFS"
+endpoint = "median PFS (600 mg QD monotherapy)"
 result = "not reached"
 analysis = ""
 comparator = ""
@@ -1320,8 +1320,8 @@ quotes = ["VS - 7375 Shows Encouraging Durability at 600 mg in 2L+ NSCLC 72% lan
 model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
-decision = ""
-note = "[Claude 初筛] 建议修改后接受：2L+ NSCLC 600 mg 单药 mPFS 未达到（中位随访 4.4 个月）是有效结果，但 trial 误标为 TARGET-D 202；新闻稿 MAN-VSTM-3 明确该数据来自 TARGET-D 101。；改为 trial = TARGET-D 101；endpoint = median PFS (600 mg QD monotherapy)"
+decision = "accept"
+note = "[Claude 初筛] 建议修改后接受：2L+ NSCLC 600 mg 单药 mPFS 未达到（中位随访 4.4 个月）是有效结果，但 trial 误标为 TARGET-D 202；新闻稿 MAN-VSTM-3 明确该数据来自 TARGET-D 101。；改为 trial = TARGET-D 101；endpoint = median PFS (600 mg QD monotherapy)\n[复核] 人工修改：trial 原为 'TARGET-D 202'；endpoint 原为 'mPFS'"
 
 [[items]]
 id = "r-b86c60ad-2"
@@ -1342,7 +1342,7 @@ returned_model = "deepseek-v4-pro"
 check = "disputed"
 verify = { asset = "VS-7375", trial = "TARGET-D 101", indication = "1L NSCLC combined with SoC", endpoint = "ORR*", result = "75% ORR* (6/8) in 1L NSCLC combined with SoC", analysis = "", comparator = "SoC (Platinum+Pemetrexed +/- Pembrolizumab)", advantage_vs_soc = "" }
 verify_quotes = ["23 TPS VS - 7375 at 600 mg Shows Early Antitumor Activity with First - Line Triplet SoC in NSCLC, Supporting Combination Potential", "75% ORR* (6/8) in 1L NSCLC combined with SoC mITT = 8 patients"]
-decision = ""
+decision = "reject"
 note = "[Claude 初筛] 建议拒绝：与 r-8037affc 重复（一线 NSCLC 600 mg 联合标准治疗 ORR 75% (6/8)）；且 trial 误标为 TARGET-D 202。；保留 r-8037affc"
 
 [[items]]
@@ -1384,7 +1384,7 @@ quotes = ["VS - 7375: First KRAS G12D Inhibitor to Demonstrate Favorable Monothe
 model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
-decision = ""
+decision = "reject"
 note = "[Claude 初筛] 建议拒绝：与已接受的 r-23dde010 重复（mPDAC 900 mg 6 个月 landmark PFS 67%）；且 trial 误标为 TARGET-D 201，实际为 TARGET-D 101。；保留 r-23dde010"
 
 [[items]]
@@ -1404,7 +1404,7 @@ quotes = ["VS - 7375: First KRAS G12D Inhibitor to Demonstrate Favorable Monothe
 model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
-decision = ""
+decision = "reject"
 note = "[Claude 初筛] 建议拒绝：与已接受的 r-a3a14d45 重复（mPDAC 6 个月 landmark OS 80%）；且 trial 误标为 TARGET-D 201。；保留 r-a3a14d45"
 
 [[items]]
@@ -1436,7 +1436,7 @@ source_id = "MAN-VSTM-4"
 asset = "VS-7375"
 trial = "TARGET-D 101"
 indication = "mPDAC"
-endpoint = "CA19-9 reduction >50% from baseline"
+endpoint = ">50% reduction in tumor marker (CA19-9 or CEA) from baseline, 900 mg monotherapy"
 result = "88% (15/17)"
 analysis = ""
 comparator = ""
@@ -1446,8 +1446,8 @@ quotes = ["88% of Patients with PDAC treated with 900mg VS - 7375 Monotherapy ha
 model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
-decision = ""
-note = "[Claude 初筛] 建议修改后接受：88% (15/17) 是 CA19-9 或 CEA 任一肿瘤标志物下降 >50%（含 1 例 CEA），终点写成仅 CA19-9 有误导。；改为 endpoint = >50% reduction in tumor marker (CA19-9 or CEA) from baseline, 900 mg monotherapy"
+decision = "accept"
+note = "[Claude 初筛] 建议修改后接受：88% (15/17) 是 CA19-9 或 CEA 任一肿瘤标志物下降 >50%（含 1 例 CEA），终点写成仅 CA19-9 有误导。；改为 endpoint = >50% reduction in tumor marker (CA19-9 or CEA) from baseline, 900 mg monotherapy\n[复核] 人工修改：endpoint 原为 'CA19-9 reduction >50% from baseline'"
 
 [[items]]
 id = "e-dd2d6a5e"
@@ -1463,7 +1463,7 @@ returned_model = "deepseek-v4-pro"
 check = "disputed"
 verify = { asset = "VS-7375", event = "Open 1L mPDAC Phase 3 trial", event_type = "trial_start", timing = "end of 2026" }
 verify_quotes = ["Open 1L mPDAC Phase 3 trial expected by end of 2026", "Company plans to open the TARGET - D 301 1L mPDAC trial by end of 2026."]
-decision = ""
+decision = "reject"
 note = "[Claude 初筛] 建议拒绝：与已接受的 e-2e958382 重复（TARGET-D 301 1L mPDAC 三期试验 2026 年底前开启）。；保留 e-2e958382"
 
 [[items]]
@@ -1480,7 +1480,7 @@ returned_model = "deepseek-v4-pro"
 check = "disputed"
 verify = { asset = "VS-7375", event = "Complete enrollment in Phase 2 PDAC & CRC trials", event_type = "other", timing = "end of 2026" }
 verify_quotes = ["Complete enrollment in Phase 2 PDAC & CRC trials expected by end of 2026", "Expect to complete enrollment in the Phase 2 TARGET - D 201 (PDAC) and TARGET - D 203 (CRC) trials by end of 2026."]
-decision = ""
+decision = "reject"
 note = "[Claude 初筛] 建议拒绝：与已接受的 e-d732d9ac 重复（TARGET-D 201 与 203 二期入组 2026 年底前完成）。；保留 e-d732d9ac"
 
 [[items]]
@@ -1495,7 +1495,7 @@ quotes = ["Expect to complete enrollment in the Phase 2 TARGET - D 201 (PDAC) an
 model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
-decision = ""
+decision = "reject"
 note = "[Claude 初筛] 建议拒绝：与已接受的 e-d732d9ac 重复（TARGET-D 203 CRC 入组 2026 年底前完成已含其中）。；保留 e-d732d9ac"
 
 [[items]]
@@ -1512,7 +1512,7 @@ returned_model = "deepseek-v4-pro"
 check = "disputed"
 verify = { asset = "VS-7375", event = "Report mature data from TARGET-D 101 mCRC 900mg combination cohort and initial data from the mPDAC cetuximab cohort at 600 mg", event_type = "data_readout", timing = "end of 2026" }
 verify_quotes = ["Expect to report mature data from TARGET - D 101 mCRC 900mg combination cohort and initial data from the mPDAC cetuximab cohort at 600 mg by end of 2026."]
-decision = ""
+decision = "reject"
 note = "[Claude 初筛] 建议拒绝：与已接受的 e-df3b8bdc 重复（mCRC 900 mg 联合队列成熟数据，2026 年底前）。；保留 e-df3b8bdc"
 
 [[items]]
@@ -1527,7 +1527,7 @@ quotes = ["Expect to report mature data from TARGET - D 101 mCRC 900mg combinati
 model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
-decision = ""
+decision = "reject"
 note = "[Claude 初筛] 建议拒绝：与已接受的 e-df3b8bdc 重复（mPDAC 600 mg 联合西妥昔单抗队列初步数据，2026 年底前）。；保留 e-df3b8bdc"
 
 [[items]]
@@ -1544,7 +1544,7 @@ returned_model = "deepseek-v4-pro"
 check = "disputed"
 verify = { asset = "VS-7375", event = "Report initial data from the 1L combination with Gem/NabP", event_type = "data_readout", timing = "Q1 2027" }
 verify_quotes = ["Expect to report initial data from the 1L combination with Gem/NabP in Q1 2027"]
-decision = ""
+decision = "reject"
 note = "[Claude 初筛] 建议拒绝：与 e-c1b85aa6-2 重复（TARGET-D 201 二线 PDAC 初步数据 2027 年 Q2）；核验版写成 1L GnP Q1 2027 是错配。；保留 e-c1b85aa6-2"
 
 [[items]]
@@ -1578,7 +1578,7 @@ returned_model = "deepseek-v4-pro"
 check = "disputed"
 verify = { asset = "VS-7375", event = "Report initial data from Phase 2 TARET-D 201 2L PDAC trial", event_type = "data_readout", timing = "Q2 2027" }
 verify_quotes = ["Expect to report initial data from Phase 2 TARET - D 201 2L PDAC trial in Q2 2027.", "Expect to report initial data from Phase 2 2L PDAC trial in Q2 2027"]
-decision = ""
+decision = "reject"
 note = "[Claude 初筛] 建议拒绝：与 e-c1b85aa6-3 重复（TARGET-D 202 二线 NSCLC 初步数据 2027 下半年）。；保留 e-c1b85aa6-3"
 
 [[items]]
@@ -1595,7 +1595,7 @@ returned_model = "deepseek-v4-pro"
 check = "disputed"
 verify = { asset = "VS-7375", event = "Report initial data from Phase 2 TARGET-D 202 2L NSCLC trial", event_type = "data_readout", timing = "2H of 2027" }
 verify_quotes = ["Expect to report initial data from Phase 2 TARGET - D 202 2L NSCLC trial in 2H of 2027.", "NSCLC and CRC in 2H 2027"]
-decision = ""
+decision = "reject"
 note = "[Claude 初筛] 建议拒绝：与 e-c1b85aa6-3 重复（TARGET-D 203 二线 CRC 初步数据 2027 下半年）。；保留 e-c1b85aa6-3"
 
 [[items]]
@@ -1612,7 +1612,7 @@ returned_model = "deepseek-v4-pro"
 check = "disputed"
 verify = { asset = "VS-7375", event = "CRC and NSCLC 1L Phase 3 trials expected to open", event_type = "trial_start", timing = "1H 2027" }
 verify_quotes = ["CRC and NSCLC 1L Phase 3 trials expected to open in 1H 2027", "Company plans to open the TARGET - D 302 1L NSCLC trial in the first half of 2027.", "Company plans to open the TARGET - D 303 1L mCRC trial in the first half of 2027."]
-decision = ""
+decision = "reject"
 note = "[Claude 初筛] 建议拒绝：与 e-24e9d84c 表述同一里程碑（NSCLC 一线三期 TARGET-D 302 于 2027 上半年开启/首例入组），同一 10/14 公告。；保留 e-24e9d84c"
 
 [[items]]
@@ -1627,7 +1627,7 @@ quotes = ["Company plans to open the TARGET - D 303 1L mCRC trial in the first h
 model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
-decision = ""
+decision = "reject"
 note = "[Claude 初筛] 建议拒绝：与 e-24e9d84c 表述同一里程碑（mCRC 一线三期 TARGET-D 303 于 2027 上半年开启/首例入组）。；保留 e-24e9d84c"
 
 [[items]]
@@ -1644,7 +1644,7 @@ returned_model = "deepseek-v4-pro"
 check = "disputed"
 verify = { asset = "VS-7375", event = "Report initial data from Phase 2 TARGET-D 203 2L CRC trial", event_type = "data_readout", timing = "2H of 2027" }
 verify_quotes = ["Expect to report initial data from Phase 2 TARGET - D 203 2L CRC trial in 2H of 2027."]
-decision = ""
+decision = "reject"
 note = "[Claude 初筛] 建议拒绝：与 e-c1b85aa6 重复（1L 联合吉西他滨/白蛋白紫杉醇初步数据 2027 年 Q1）。；保留 e-c1b85aa6"
 
 [[items]]
@@ -1653,11 +1653,11 @@ type = "catalyst"
 source_id = "MAN-VSTM-4"
 asset = "VS-7375"
 event = "Meet with the FDA before the end of the year to review Phase 3 pivotal trial designs in 1L advanced NSCLC (TARGET-D 302) and 1L mCRC (TARGET-D 303)"
-event_type = "regulatory_filing"
+event_type = "other"
 timing = "Q4 2026"
 quotes = ["Company plans to meet with the FDA before the end of the year to review Phase 3 pivotal trial designs in 1L advanced NSCLC (TARGET - D 302) and 1L mCRC (TARGET - D 303). Q4 2026"]
 model = "qwen3.7-plus-2026-05-26"
 returned_model = "qwen3.7-plus-2026-05-26"
 check = "disputed"
-decision = ""
-note = "[Claude 初筛] 建议修改后接受：2026 年底前与 FDA 会面审议 TARGET-D 302/303 三期设计，属未来事件，但会议不是申报，event_type 应改为 other。；改为 event_type = other"
+decision = "accept"
+note = "[Claude 初筛] 建议修改后接受：2026 年底前与 FDA 会面审议 TARGET-D 302/303 三期设计，属未来事件，但会议不是申报，event_type 应改为 other。；改为 event_type = other\n[复核] 人工修改：event_type 原为 'regulatory_filing'"
