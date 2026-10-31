@@ -27,7 +27,7 @@ function View({ d }: { d: Detail }) {
           <>
             <span>{b.name}</span>
             <span>画像置信度 {label(CONFIDENCE, b.confidence)}</span>
-            <Link to={`/targets?buyer=${b.ticker}`}>查看以其为主组合买方的候选公司 →</Link>
+            <Link to={`/targets?buyer=${b.ticker}`}>查看主推荐方向指向该买方的候选公司 →</Link>
           </>
         }
       />

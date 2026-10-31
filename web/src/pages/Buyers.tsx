@@ -34,10 +34,10 @@ export default function Buyers() {
               { title: '代码', dataIndex: 'ticker', width: 90 },
               { title: '偏好条目', dataIndex: 'preferences', align: 'right', width: 110, render: (v) => <span className="figure">{v}</span> },
               {
-                title: '以其为主组合买方的候选公司',
+                title: '主推荐方向指向该买方的候选公司',
                 dataIndex: 'primary_targets',
                 align: 'right',
-                width: 220,
+                width: 240,
                 render: (v, b) => (
                   <Link to={`/targets?buyer=${b.ticker}`} className="figure">
                     {v}

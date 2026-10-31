@@ -20,7 +20,7 @@ const ENTITY_LABELS: Record<string, string> = {
   financial_snapshot: '财务快照',
   approved_product: '获批产品',
   match: '买方×标的匹配',
-  recommendation: '资产×适应症×买方组合',
+  recommendation: '推荐方向（资产×适应症×买方）',
 }
 
 const ROUTE: [string, string, string][] = [

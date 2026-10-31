@@ -73,7 +73,7 @@ function List({ items }: { items: ShortlistItem[] }) {
         </Button>
       </div>
       <p className="note">
-        共 <b>{rows.length}</b> 家（全部 {items.length} 家）。每家公司按其主组合（资产 × 适应症 × 买方）计分：五个维度各 0–4 分，加权为 0–100。
+        共 <b>{rows.length}</b> 家（全部 {items.length} 家）。每家公司按其主推荐方向（资产 × 适应症 × 买方）计分：五个维度各 0–4 分，加权为 0–100。
         保守分把缺失维度按 0 分计，乐观分按 4 分计；两者差距越大，研究越不充分。勾选 2–4 家可对比。
       </p>
       <Table
@@ -107,7 +107,7 @@ function List({ items }: { items: ShortlistItem[] }) {
             ),
           },
           {
-            title: '主组合：资产 · 适应症',
+            title: '主推荐方向：资产 · 适应症',
             width: 180,
             render: (_, r) => (
               <div style={{ display: 'grid', gap: 2, minWidth: 0 }}>
@@ -161,7 +161,7 @@ export default function Targets() {
     <>
       <PageHead
         title="候选公司"
-        lead="每家公司一行，按主组合的保守分排序。调整评分权重只在本页重排，不修改数据快照。"
+        lead="每家公司一行，按主推荐方向的保守分排序。调整评分权重只在本页重排，不修改数据快照。"
       />
       <div className="toolbar" style={{ padding: '10px 14px', background: 'var(--panel)', border: '1px solid var(--line)', borderRadius: 8, marginBottom: 20 }}>
         <b style={{ fontSize: 13 }}>评分权重</b>

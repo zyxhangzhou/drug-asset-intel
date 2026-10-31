@@ -34,7 +34,7 @@ export default function Compare() {
   const state = useApi(() => fetchShortlist(), [])
   return (
     <>
-      <PageHead title="公司对比" lead="按默认权重比较各公司的主组合。本页链接可直接分享。" />
+      <PageHead title="公司对比" lead="按默认权重比较各公司的主推荐方向（资产 × 适应症 × 买方）。本页链接可直接分享。" />
       <Loaded state={state}>
         {(s) => {
           const items = tickers.map((t) => s.items.find((i) => i.ticker === t))

@@ -18,6 +18,9 @@ const REVIEW_FIELDS: [keyof Recommendation, string][] = [
   ['funding_flag', '资金状况'],
 ]
 
+// One recommendation direction: asset × indication × buyer.
+const direction = (r: Recommendation) => `${r.asset ?? '—'} × ${r.indication ?? '—'} × ${r.buyer ?? '—'}`
+
 // Key facts beside the thesis: the numbers a reader checks first.
 function Facts({ r }: { r: Recommendation }) {
   const s = r.sources
@@ -132,7 +135,7 @@ function View({ d }: { d: Detail }) {
             {t.excluded && <Tag color="red">已排除</Tag>}
             {primary && (
               <span>
-                主组合保守分 <b className="figure" style={{ color: 'var(--ink)' }}>{primary.conservative}</b> / 乐观分 {primary.optimistic} ·
+                主推荐方向：保守分 <b className="figure" style={{ color: 'var(--ink)' }}>{primary.conservative}</b> / 乐观分 {primary.optimistic} ·
                 覆盖率 {Math.round(primary.coverage * 100)}% · {label(RESEARCH_STATUS, primary.research_status)}
               </span>
             )}
@@ -150,15 +153,21 @@ function View({ d }: { d: Detail }) {
       )}
 
       {primary && (
-        <Card size="small" title={primary.is_primary ? '主组合复核结论' : '组合'}>
+        <Card size="small" title={`${primary.is_primary ? '主推荐方向' : '推荐方向'}：${direction(primary)}`}>
+          <p className="note">推荐方向 = 资产 × 适应症 × 买方。公司的分数与排名按主推荐方向计算。</p>
           <RecommendationView r={primary} />
           {others.length > 0 && (
-            <Collapse style={{ marginTop: 12 }} size="small"
-              items={others.map((r, i) => ({
-                key: i,
-                label: `其他组合：${r.asset ?? '—'} · ${r.indication ?? '—'} · ${r.buyer ?? '—'}（保守分 ${r.conservative}）`,
-                children: <RecommendationView r={r} />,
-              }))} />
+            <div style={{ marginTop: 24 }}>
+              <b style={{ fontSize: 15 }}>其他可能方向</b>
+              <span className="sub" style={{ marginLeft: 10 }}>不计入公司分数；点开查看各自的评分与依据</span>
+              <Collapse style={{ marginTop: 10 }} size="small"
+                items={others.map((r, i) => ({
+                  key: i,
+                  label: direction(r),
+                  extra: <span className="sub">保守分 <b className="figure" style={{ color: 'var(--ink)' }}>{r.conservative}</b></span>,
+                  children: <RecommendationView r={r} />,
+                }))} />
+            </div>
           )}
         </Card>
       )}
