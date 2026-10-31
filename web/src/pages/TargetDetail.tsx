@@ -1,8 +1,9 @@
-import { Alert, Card, Collapse, Descriptions, Table, Tabs, Tag, Typography } from 'antd'
+import { Alert, Card, Collapse, Descriptions, Table, Tabs, Tag } from 'antd'
 import { Link, useParams } from 'react-router'
 import { fetchTarget, type Recommendation, type TargetDetail as Detail, type TrialResult } from '../api/client'
 import { useApi } from '../api/useApi'
 import { Loaded } from '../components/Loaded'
+import { PageHead, Score } from '../components/Page'
 import { Legend, Sourced } from '../components/Sourced'
 import { CATALYST_TYPE, DATE_TYPE, DIMENSIONS, label, money, RESEARCH_STATUS, RIGHTS, STAGE, taLabel } from '../labels'
 
@@ -30,11 +31,11 @@ function RecommendationView({ r }: { r: Recommendation }) {
           {r.buyer_ticker ? <Link to={`/buyers/${r.buyer_ticker}`}>{r.buyer}</Link> : '—'} · {r.preference ?? '—'}
         </Descriptions.Item>
         {DIMENSIONS.map((d) => (
-          <Descriptions.Item key={d.key} label={`${d.label}（0–4）`}>
-            <Sourced sources={r.sources} field={d.key}>{r.scores[d.key] ?? '—'}</Sourced>
+          <Descriptions.Item key={d.key} label={d.label}>
+            <Sourced sources={r.sources} field={d.key}><Score value={r.scores[d.key]} /></Sourced>
           </Descriptions.Item>
         ))}
-        <Descriptions.Item label="保守分 / 乐观分 / 覆盖率">
+        <Descriptions.Item label="保守 / 乐观 / 覆盖">
           {r.conservative} / {r.optimistic} / {Math.round(r.coverage * 100)}%（{label(RESEARCH_STATUS, r.research_status)}）
         </Descriptions.Item>
         {REVIEW_FIELDS.map(([key, text]) => (
@@ -83,12 +84,23 @@ function View({ d }: { d: Detail }) {
   const f = d.financial
   return (
     <>
-      <Typography.Title level={3} style={{ marginBottom: 4 }}>
-        {t.name} <Typography.Text type="secondary">{t.ticker}</Typography.Text>{' '}
-        {t.shortlisted && <Tag color="gold">入选</Tag>}
-        {t.deep_dive && <Tag color="purple">深度研究</Tag>}
-        {t.excluded && <Tag color="red">已排除</Tag>}
-      </Typography.Title>
+      <PageHead
+        title={t.name}
+        ticker={t.ticker}
+        meta={
+          <>
+            {t.shortlisted && <Tag color="gold">入选</Tag>}
+            {t.deep_dive && <Tag color="purple">深度研究</Tag>}
+            {t.excluded && <Tag color="red">已排除</Tag>}
+            {primary && (
+              <span>
+                主组合保守分 <b className="figure" style={{ color: 'var(--ink)' }}>{primary.conservative}</b> / 乐观分 {primary.optimistic} ·
+                覆盖率 {Math.round(primary.coverage * 100)}% · {label(RESEARCH_STATUS, primary.research_status)}
+              </span>
+            )}
+          </>
+        }
+      />
       <Legend />
       {t.selection_rationale && t.selection_rationale !== primary?.thesis && (
         <Alert style={{ marginTop: 12 }} type="success" title="入选理由"
@@ -100,11 +112,11 @@ function View({ d }: { d: Detail }) {
       )}
 
       {primary && (
-        <Card size="small" style={{ marginTop: 16 }} title={primary.is_primary ? '主组合复核结论' : '组合'}>
+        <Card size="small" title={primary.is_primary ? '主组合复核结论' : '组合'}>
           {primary.thesis && (
-            <Typography.Paragraph strong>
+            <p className="thesis">
               <Sourced sources={primary.sources} field="thesis">{primary.thesis}</Sourced>
-            </Typography.Paragraph>
+            </p>
           )}
           <RecommendationView r={primary} />
           {others.length > 0 && (
@@ -119,7 +131,7 @@ function View({ d }: { d: Detail }) {
       )}
 
       {f && (
-        <Card size="small" style={{ marginTop: 16 }} title={`财务快照（截至 ${f.as_of}）`}>
+        <Card size="small" title={`财务快照（截至 ${f.as_of}）`}>
           <Descriptions column={{ xs: 1, md: 3 }} size="small" bordered>
             <Descriptions.Item label="现金及投资"><Sourced sources={f.sources} field="cash_and_investments">{money(f.cash_and_investments)}</Sourced></Descriptions.Item>
             <Descriptions.Item label="总债务"><Sourced sources={f.sources} field="total_debt">{money(f.total_debt)}</Sourced></Descriptions.Item>
@@ -138,16 +150,16 @@ function View({ d }: { d: Detail }) {
       )}
 
       <Tabs
-        style={{ marginTop: 16 }}
+        style={{ marginTop: 32 }}
         items={[
           {
             key: 'pipeline',
             label: `管线（${d.programs.length}）`,
             children: (
               <>
-                <Typography.Paragraph type="secondary" style={{ fontSize: 12 }}>
+                <p className="note">
                   管线、适应症与阶段由 ClinicalTrials.gov 登记推导（推断）；作用机制与技术类型来自签字的文档抽取或人工核实。
-                </Typography.Paragraph>
+                </p>
                 <Table
                   rowKey="name"
                   size="small"
@@ -155,7 +167,7 @@ function View({ d }: { d: Detail }) {
                   dataSource={d.programs}
                   scroll={{ x: 900 }}
                   columns={[
-                    { title: '药物', dataIndex: 'name', width: 160 },
+                    { title: '药物', dataIndex: 'name', width: 180, render: (v) => <b style={{ wordBreak: 'break-word' }}>{v}</b> },
                     { title: '作用机制', render: (_, p) => <Sourced sources={p.sources} field="mechanism">{p.mechanism ?? '—'}</Sourced> },
                     { title: '技术类型', width: 140, render: (_, p) => <Sourced sources={p.sources} field="modality">{p.modality ?? '—'}</Sourced> },
                     {
@@ -188,10 +200,10 @@ function View({ d }: { d: Detail }) {
                 size="small"
                 dataSource={d.trials}
                 pagination={d.trials.length > 20 ? { pageSize: 20 } : false}
-                scroll={{ x: 1200 }}
+                scroll={{ x: 1180 }}
                 columns={[
                   { title: 'NCT', width: 120, render: (_, r) => <Link to={`/trials/${r.nct_id}`}>{r.nct_id}</Link> },
-                  { title: '标题', dataIndex: 'title', ellipsis: true },
+                  { title: '标题', dataIndex: 'title', ellipsis: { showTitle: true } },
                   { title: '阶段', width: 70, render: (_, r) => label(STAGE, r.phase) },
                   { title: '状态', dataIndex: 'status', width: 150 },
                   { title: '入组', width: 100, render: (_, r) => (r.enrollment == null ? '—' : `${r.enrollment}（${label(DATE_TYPE, r.enrollment_type)}）`) },

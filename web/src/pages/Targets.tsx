@@ -1,9 +1,10 @@
-import { Button, Card, Input, InputNumber, Select, Space, Switch, Table, Tag, Typography } from 'antd'
+import { Button, Input, InputNumber, Select, Switch, Table, Tag, Tooltip, Typography } from 'antd'
 import { useMemo, useState } from 'react'
 import { Link, useNavigate, useSearchParams } from 'react-router'
 import { fetchShortlist, type ShortlistItem } from '../api/client'
 import { useApi } from '../api/useApi'
 import { Loaded } from '../components/Loaded'
+import { PageHead, Score } from '../components/Page'
 import { DIMENSIONS, label, money, RESEARCH_STATUS, STAGE, STAGE_ORDER, TA, taLabel } from '../labels'
 
 const DEFAULT_WEIGHTS = [30, 20, 20, 15, 15]
@@ -52,73 +53,98 @@ function List({ items }: { items: ShortlistItem[] }) {
 
   return (
     <>
-      <Space wrap style={{ marginBottom: 12 }}>
+      <div className="toolbar">
         <Input.Search placeholder="公司、代码或资产" allowClear defaultValue={get('q')} onSearch={(v) => set('q', v)} style={{ width: 220 }} />
-        <Select placeholder="买方" allowClear value={get('buyer')} onChange={(v) => set('buyer', v)} style={{ width: 180 }}
+        <Select placeholder="买方" allowClear value={get('buyer')} onChange={(v) => set('buyer', v)} style={{ width: 170 }}
           options={buyers.map(([t, n]) => ({ value: t, label: n }))} />
-        <Select placeholder="治疗领域" allowClear value={get('ta')} onChange={(v) => set('ta', v)} style={{ width: 150 }}
+        <Select placeholder="治疗领域" allowClear value={get('ta')} onChange={(v) => set('ta', v)} style={{ width: 140 }}
           options={tas.map((t) => ({ value: t, label: TA[t] ?? t }))} />
-        <Select placeholder="阶段" allowClear value={get('stage')} onChange={(v) => set('stage', v)} style={{ width: 110 }}
+        <Select placeholder="阶段" allowClear value={get('stage')} onChange={(v) => set('stage', v)} style={{ width: 100 }}
           options={stages.map((s) => ({ value: s, label: STAGE[s] }))} />
         <Select placeholder="研究状态" allowClear value={get('status')} onChange={(v) => set('status', v)} style={{ width: 120 }}
           options={Object.entries(RESEARCH_STATUS).map(([value, l]) => ({ value, label: l }))} />
-        <span>
-          只看入选 <Switch size="small" checked={!!get('shortlisted')} onChange={(on) => set('shortlisted', on ? '1' : undefined)} />
-        </span>
+        <label style={{ display: 'inline-flex', gap: 6, alignItems: 'center' }}>
+          <Switch size="small" checked={!!get('shortlisted')} onChange={(on) => set('shortlisted', on ? '1' : undefined)} />
+          只看入选
+        </label>
+        <span className="spacer" />
         <Button type="primary" disabled={selected.length < 2} onClick={() => navigate(`/compare?t=${selected.join(',')}`)}>
           对比所选（{selected.length}/{MAX_COMPARE}）
         </Button>
-      </Space>
-      <Typography.Paragraph type="secondary" style={{ fontSize: 12 }}>
-        共 {rows.length} 家（全部 {items.length} 家）。每家公司按其主组合（资产 × 适应症 × 买方）计分；分数 0–4，总分 0–100。
-      </Typography.Paragraph>
+      </div>
+      <p className="note">
+        共 <b>{rows.length}</b> 家（全部 {items.length} 家）。每家公司按其主组合（资产 × 适应症 × 买方）计分：五个维度各 0–4 分，加权为 0–100。
+        保守分把缺失维度按 0 分计，乐观分按 4 分计；两者差距越大，研究越不充分。勾选 2–4 家可对比。
+      </p>
       <Table
         rowKey="ticker"
         size="small"
         dataSource={rows}
-        pagination={{ pageSize: 50, showSizeChanger: false }}
-        scroll={{ x: 1300 }}
+        pagination={{ pageSize: 50, showSizeChanger: false, hideOnSinglePage: true }}
+        scroll={{ x: 1190 }}
         rowSelection={{
           selectedRowKeys: selected,
           onChange: (keys) => setSelected((keys as string[]).slice(0, MAX_COMPARE)),
           getCheckboxProps: (r) => ({ disabled: selected.length >= MAX_COMPARE && !selected.includes(r.ticker) }),
           hideSelectAll: true,
+          columnWidth: 36,
         }}
         columns={[
-          { title: '排名', dataIndex: 'rank', width: 60, sorter: (a, b) => a.rank - b.rank },
+          { title: '排名', dataIndex: 'rank', width: 56, align: 'right', sorter: (a, b) => a.rank - b.rank, render: (v) => <span className="figure">{v}</span> },
           {
             title: '公司',
-            width: 200,
-            fixed: 'left',
+            width: 210,
             sorter: (a, b) => a.name.localeCompare(b.name),
             render: (_, r) => (
-              <>
-                <Link to={`/targets/${r.ticker}`}>{r.name}</Link> <Typography.Text type="secondary">{r.ticker}</Typography.Text>
-                {r.shortlisted && <Tag color="gold" style={{ marginLeft: 4 }}>入选</Tag>}
-              </>
+              <div style={{ display: 'grid', gap: 2 }}>
+                <Link to={`/targets/${r.ticker}`} style={{ fontWeight: 600 }}>{r.name}</Link>
+                <span className="sub">
+                  {r.ticker} · {label(RESEARCH_STATUS, r.research_status)}
+                  {r.shortlisted && <Tag color="gold" style={{ marginLeft: 6, marginRight: 0 }}>入选</Tag>}
+                </span>
+              </div>
             ),
           },
-          { title: '资产', dataIndex: 'asset', width: 150, ellipsis: true },
-          { title: '适应症', dataIndex: 'indication', width: 180, ellipsis: true },
-          { title: '领域', render: (_, r) => taLabel(r.therapeutic_area), width: 100 },
+          {
+            title: '主组合：资产 · 适应症',
+            width: 200,
+            render: (_, r) => (
+              <div style={{ display: 'grid', gap: 2, minWidth: 0 }}>
+                <Typography.Text ellipsis={{ tooltip: r.asset }} style={{ fontWeight: 500 }}>{r.asset ?? '—'}</Typography.Text>
+                <Typography.Text ellipsis={{ tooltip: r.indication }} type="secondary" style={{ fontSize: 12 }}>
+                  {r.indication ?? '—'} · {taLabel(r.therapeutic_area)}
+                </Typography.Text>
+              </div>
+            ),
+          },
           {
             title: '阶段',
-            width: 70,
+            width: 64,
             render: (_, r) => label(STAGE, r.stage),
             sorter: (a, b) => STAGE_ORDER.indexOf(a.stage ?? 'unknown') - STAGE_ORDER.indexOf(b.stage ?? 'unknown'),
           },
-          { title: '买方', dataIndex: 'buyer', width: 130 },
+          { title: '买方', dataIndex: 'buyer', width: 110, ellipsis: true },
           ...DIMENSIONS.map((d) => ({
-            title: d.short,
-            width: 56,
-            align: 'right' as const,
-            render: (_: unknown, r: ShortlistItem) => r.scores[d.key] ?? <Typography.Text type="secondary">—</Typography.Text>,
+            title: <Tooltip title={d.label}><span style={{ whiteSpace: 'nowrap' }}>{d.short}</span></Tooltip>,
+            width: 62,
+            align: 'center' as const,
+            render: (_: unknown, r: ShortlistItem) => <Score value={r.scores[d.key]} />,
             sorter: (a: ShortlistItem, b: ShortlistItem) => (a.scores[d.key] ?? -1) - (b.scores[d.key] ?? -1),
           })),
-          { title: '保守分', dataIndex: 'conservative', width: 72, align: 'right', sorter: (a, b) => a.conservative - b.conservative, defaultSortOrder: 'descend' },
-          { title: '乐观分', dataIndex: 'optimistic', width: 72, align: 'right', sorter: (a, b) => a.optimistic - b.optimistic },
+          {
+            title: '保守 / 乐观',
+            width: 100,
+            align: 'right',
+            sorter: (a, b) => a.conservative - b.conservative,
+            defaultSortOrder: 'descend',
+            render: (_, r) => (
+              <>
+                <span className="figure" style={{ fontSize: 15 }}>{r.conservative}</span>
+                <span className="sub"> / {r.optimistic}</span>
+              </>
+            ),
+          },
           { title: '覆盖率', width: 70, align: 'right', render: (_, r) => `${Math.round(r.coverage * 100)}%`, sorter: (a, b) => a.coverage - b.coverage },
-          { title: '研究状态', width: 84, render: (_, r) => label(RESEARCH_STATUS, r.research_status) },
           { title: '企业价值', width: 90, align: 'right', render: (_, r) => money(r.enterprise_value), sorter: (a, b) => (a.enterprise_value ?? 0) - (b.enterprise_value ?? 0) },
         ]}
       />
@@ -132,25 +158,27 @@ export default function Targets() {
   const state = useApi(() => fetchShortlist(weights), [weights?.join(',')])
   return (
     <>
-      <Typography.Title level={3}>候选公司</Typography.Title>
-      <Card size="small" title="评分权重（调整后按新权重重排，不修改快照）" style={{ marginBottom: 16 }}>
-        <Space wrap>
-          {DIMENSIONS.map((d, i) => (
-            <span key={d.key}>
-              {d.label}{' '}
-              <InputNumber min={0} max={100} size="small" value={draft[i]} style={{ width: 64 }}
-                onChange={(v) => setDraft(draft.map((x, j) => (j === i ? (v ?? 0) : x)))} />
-            </span>
-          ))}
-          <Button size="small" type="primary" onClick={() => setWeights(draft)}>应用</Button>
-          <Button size="small" onClick={() => { setDraft(DEFAULT_WEIGHTS); setWeights(undefined) }}>恢复默认</Button>
-          {state.data && (
-            <Typography.Text type="secondary" style={{ fontSize: 12 }}>
-              当前：{DIMENSIONS.map((d) => `${d.short} ${Math.round(state.data!.weights[d.key] * 100)}%`).join(' · ')}
-            </Typography.Text>
-          )}
-        </Space>
-      </Card>
+      <PageHead
+        title="候选公司"
+        lead="每家公司一行，按主组合的保守分排序。调整评分权重只在本页重排，不修改数据快照。"
+      />
+      <div className="toolbar" style={{ padding: '10px 14px', background: 'var(--sheet)', border: '1px solid var(--rule)', marginBottom: 20 }}>
+        <b style={{ fontSize: 13 }}>评分权重</b>
+        {DIMENSIONS.map((d, i) => (
+          <label key={d.key} style={{ display: 'inline-flex', gap: 6, alignItems: 'center', fontSize: 13 }}>
+            {d.label}
+            <InputNumber min={0} max={100} size="small" value={draft[i]} style={{ width: 60 }}
+              onChange={(v) => setDraft(draft.map((x, j) => (j === i ? (v ?? 0) : x)))} />
+          </label>
+        ))}
+        <Button size="small" type="primary" onClick={() => setWeights(draft)}>应用</Button>
+        <Button size="small" onClick={() => { setDraft(DEFAULT_WEIGHTS); setWeights(undefined) }}>恢复默认</Button>
+        {state.data && (
+          <span className="sub">
+            当前：{DIMENSIONS.map((d) => `${d.short} ${Math.round(state.data!.weights[d.key] * 100)}%`).join(' · ')}
+          </span>
+        )}
+      </div>
       <Loaded state={state}>{(s) => <List items={s.items} />}</Loaded>
     </>
   )

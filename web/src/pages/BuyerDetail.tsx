@@ -1,8 +1,9 @@
-import { Card, Descriptions, Table, Tag, Typography } from 'antd'
+import { Card, Descriptions, Table, Tag } from 'antd'
 import { Link, useParams } from 'react-router'
 import { fetchBuyer, type BuyerDetail as Detail } from '../api/client'
 import { useApi } from '../api/useApi'
 import { Loaded } from '../components/Loaded'
+import { PageHead } from '../components/Page'
 import { Legend, Sourced } from '../components/Sourced'
 import { billions, CONFIDENCE, label, PREFERENCE_DIMENSION } from '../labels'
 
@@ -19,11 +20,19 @@ function View({ d }: { d: Detail }) {
   const b = d.buyer
   return (
     <>
-      <Typography.Title level={3}>
-        {b.name_zh ?? b.name} <Typography.Text type="secondary">{b.name} · {b.ticker}</Typography.Text>
-      </Typography.Title>
+      <PageHead
+        title={b.name_zh ?? b.name}
+        ticker={b.ticker}
+        meta={
+          <>
+            <span>{b.name}</span>
+            <span>画像置信度 {label(CONFIDENCE, b.confidence)}</span>
+            <Link to={`/targets?buyer=${b.ticker}`}>查看以其为主组合买方的候选公司 →</Link>
+          </>
+        }
+      />
       <Legend />
-      <Card title="画像" size="small" style={{ marginTop: 16 }}>
+      <Card title="画像" size="small">
         <Descriptions column={1} size="small" bordered>
           {PROFILE.map(([key, text]) => (
             <Descriptions.Item key={key} label={text}>
@@ -32,11 +41,10 @@ function View({ d }: { d: Detail }) {
               </Sourced>
             </Descriptions.Item>
           ))}
-          <Descriptions.Item label="画像置信度">{label(CONFIDENCE, b.confidence)}</Descriptions.Item>
         </Descriptions>
       </Card>
 
-      <Card title="资产偏好" size="small" style={{ marginTop: 16 }}>
+      <Card title="资产偏好" size="small">
         <Table
           rowKey="id"
           size="small"
@@ -67,7 +75,7 @@ function View({ d }: { d: Detail }) {
         />
       </Card>
 
-      <Card title="财务" size="small" style={{ marginTop: 16 }}>
+      <Card title="财务" size="small">
         {d.financials.map((f) => (
           <Descriptions key={f.fiscal_year} title={`${f.fiscal_year} 财年`} column={{ xs: 1, md: 2 }} size="small" bordered>
             {(
@@ -97,7 +105,7 @@ function View({ d }: { d: Detail }) {
         ))}
       </Card>
 
-      <Card title="专利到期产品（美国）" size="small" style={{ marginTop: 16 }}>
+      <Card title="专利到期产品（美国）" size="small">
         <Table
           rowKey="product"
           size="small"
@@ -113,10 +121,10 @@ function View({ d }: { d: Detail }) {
             { title: '防御策略', render: (_, p) => <Sourced sources={p.sources} field="defense">{p.defense ?? '—'}</Sourced> },
           ]}
         />
-        <Typography.Text type="secondary" style={{ fontSize: 12 }}>收入单位：十亿（本币）</Typography.Text>
+        <p className="note" style={{ marginTop: 8 }}>收入单位：十亿（本币）</p>
       </Card>
 
-      <Card title={`匹配分最高的候选公司（前 ${d.matches.length}）`} size="small" style={{ marginTop: 16 }}>
+      <Card title={`匹配分最高的候选公司（前 ${d.matches.length}）`} size="small">
         <Table
           rowKey="ticker"
           size="small"
@@ -127,12 +135,12 @@ function View({ d }: { d: Detail }) {
               title: '公司',
               render: (_, m) => (
                 <>
-                  <Link to={`/targets/${m.ticker}`}>{m.name}</Link> <Typography.Text type="secondary">{m.ticker}</Typography.Text>
+                  <Link to={`/targets/${m.ticker}`}>{m.name}</Link> <span className="sub">{m.ticker}</span>
                   {m.shortlisted && <Tag color="gold" style={{ marginLeft: 8 }}>入选</Tag>}
                 </>
               ),
             },
-            { title: '匹配分', render: (_, m) => <Sourced sources={m.sources} field="score">{m.score}</Sourced>, width: 90 },
+            { title: '匹配分', render: (_, m) => <Sourced sources={m.sources} field="score"><span className="figure">{m.score}</span></Sourced>, width: 90, align: 'right' as const },
             { title: '匹配理由', render: (_, m) => <Sourced sources={m.sources} field="rationale">{m.rationale}</Sourced> },
           ]}
         />

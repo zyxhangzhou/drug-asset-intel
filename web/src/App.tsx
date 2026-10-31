@@ -1,6 +1,8 @@
-import { ConfigProvider, Layout, Menu, Result, Typography } from 'antd'
+import { ConfigProvider, Result } from 'antd'
 import zhCN from 'antd/locale/zh_CN'
-import { BrowserRouter, Link, Route, Routes, useLocation } from 'react-router'
+import { BrowserRouter, Link, NavLink, Route, Routes } from 'react-router'
+import { fetchMeta } from './api/client'
+import { useApi } from './api/useApi'
 import BuyerDetail from './pages/BuyerDetail'
 import Buyers from './pages/Buyers'
 import Compare from './pages/Compare'
@@ -9,25 +11,39 @@ import SourceDetail from './pages/SourceDetail'
 import TargetDetail from './pages/TargetDetail'
 import Targets from './pages/Targets'
 import TrialDetail from './pages/TrialDetail'
+import { theme } from './theme'
 
 const NAV = [
-  { key: '/', label: <Link to="/">概览</Link> },
-  { key: '/buyers', label: <Link to="/buyers">买方</Link> },
-  { key: '/targets', label: <Link to="/targets">候选</Link> },
+  { to: '/', label: '概览', end: true },
+  { to: '/buyers', label: '买方' },
+  { to: '/targets', label: '候选' },
 ]
 
 function Shell() {
-  const { pathname } = useLocation()
-  const section = pathname === '/' ? '/' : pathname.startsWith('/buyers') ? '/buyers' : '/targets'
+  const meta = useApi(fetchMeta, [])
+  const snapshot = meta.data?.snapshot_date
   return (
-    <Layout style={{ minHeight: '100vh' }}>
-      <Layout.Header style={{ display: 'flex', alignItems: 'center', gap: 24 }}>
-        <Typography.Title level={4} style={{ color: '#fff', margin: 0, whiteSpace: 'nowrap' }}>
-          全球创新药资产情报平台
-        </Typography.Title>
-        <Menu theme="dark" mode="horizontal" selectedKeys={[section]} items={NAV} style={{ flex: 1, minWidth: 0 }} />
-      </Layout.Header>
-      <Layout.Content style={{ padding: 24, maxWidth: 1280, width: '100%', margin: '0 auto' }}>
+    <>
+      <header className="masthead">
+        <div className="frame">
+          <div className="masthead-row">
+            <Link to="/" className="brand">
+              <span className="brand-name">全球创新药资产情报平台</span>
+              <span className="brand-sub">
+                10 家大型药企 × 标普生物科技指数成分公司{snapshot ? ` · 数据截至 ${snapshot}` : ''}
+              </span>
+            </Link>
+            <nav className="nav" aria-label="主导航">
+              {NAV.map((n) => (
+                <NavLink key={n.to} to={n.to} end={n.end}>
+                  {n.label}
+                </NavLink>
+              ))}
+            </nav>
+          </div>
+        </div>
+      </header>
+      <main className="frame content">
         <Routes>
           <Route path="/" element={<Overview />} />
           <Route path="/buyers" element={<Buyers />} />
@@ -39,14 +55,17 @@ function Shell() {
           <Route path="/sources/:id" element={<SourceDetail />} />
           <Route path="*" element={<Result status="404" title="页面不存在" extra={<Link to="/">返回概览</Link>} />} />
         </Routes>
-      </Layout.Content>
-    </Layout>
+      </main>
+      <footer className="frame">
+        <div className="colophon">每个带来源的值都可追溯到一手来源。事实、推断与 LLM 抽取分开标注；找不到来源的字段留空。</div>
+      </footer>
+    </>
   )
 }
 
 export default function App() {
   return (
-    <ConfigProvider locale={zhCN}>
+    <ConfigProvider locale={zhCN} theme={theme}>
       <BrowserRouter>
         <Shell />
       </BrowserRouter>

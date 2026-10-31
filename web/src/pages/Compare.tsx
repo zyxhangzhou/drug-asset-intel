@@ -1,9 +1,10 @@
-import { Alert, Table, Typography } from 'antd'
+import { Alert, Table } from 'antd'
 import type { ReactNode } from 'react'
 import { Link, useSearchParams } from 'react-router'
 import { fetchShortlist, type ShortlistItem } from '../api/client'
 import { useApi } from '../api/useApi'
 import { Loaded } from '../components/Loaded'
+import { PageHead, Score } from '../components/Page'
 import { DIMENSIONS, label, money, RESEARCH_STATUS, RIGHTS, STAGE, taLabel } from '../labels'
 
 const ROWS: [string, (i: ShortlistItem) => ReactNode][] = [
@@ -14,9 +15,9 @@ const ROWS: [string, (i: ShortlistItem) => ReactNode][] = [
   ['阶段', (i) => label(STAGE, i.stage)],
   ['买方', (i) => i.buyer ?? '—'],
   ['对应偏好', (i) => i.preference ?? '—'],
-  ...DIMENSIONS.map((d): [string, (i: ShortlistItem) => ReactNode] => [`${d.label}（0–4）`, (i) => i.scores[d.key] ?? '—']),
-  ['保守分', (i) => i.conservative],
-  ['乐观分', (i) => i.optimistic],
+  ...DIMENSIONS.map((d): [string, (i: ShortlistItem) => ReactNode] => [`${d.label}（0–4）`, (i) => <Score value={i.scores[d.key]} />]),
+  ['保守分', (i) => <span className="figure" style={{ fontSize: 16 }}>{i.conservative}</span>],
+  ['乐观分', (i) => <span className="figure">{i.optimistic}</span>],
   ['覆盖率', (i) => `${Math.round(i.coverage * 100)}%`],
   ['研究状态', (i) => label(RESEARCH_STATUS, i.research_status)],
   ['下一事件', (i) => i.next_event ?? '—'],
@@ -24,7 +25,7 @@ const ROWS: [string, (i: ShortlistItem) => ReactNode][] = [
   ['企业价值', (i) => money(i.enterprise_value)],
   ['资产权益', (i) => (i.rights_status ? label(RIGHTS, i.rights_status) : '待核实')],
   ['资金状况', (i) => i.funding_flag ?? '—'],
-  ['两句话论点', (i) => i.thesis ?? '—'],
+  ['两句话论点', (i) => <span className="serif" style={{ lineHeight: 1.75 }}>{i.thesis ?? '—'}</span>],
 ]
 
 export default function Compare() {
@@ -33,8 +34,7 @@ export default function Compare() {
   const state = useApi(() => fetchShortlist(), [])
   return (
     <>
-      <Typography.Title level={3}>公司对比</Typography.Title>
-      <Typography.Paragraph type="secondary">按默认权重比较各公司的主组合。链接可直接分享。</Typography.Paragraph>
+      <PageHead title="公司对比" lead="按默认权重比较各公司的主组合。本页链接可直接分享。" />
       <Loaded state={state}>
         {(s) => {
           const items = tickers.map((t) => s.items.find((i) => i.ticker === t))
@@ -50,13 +50,17 @@ export default function Compare() {
                 size="small"
                 bordered
                 pagination={false}
-                scroll={{ x: 300 + found.length * 260 }}
+                scroll={{ x: 150 + found.length * 240 }}
                 dataSource={ROWS}
                 columns={[
-                  { title: '', render: (_, r) => <b>{r[0]}</b>, width: 140, fixed: 'left' },
+                  { title: '', render: (_, r) => <span className="sub" style={{ fontSize: 13 }}>{r[0]}</span>, width: 150, fixed: 'left' },
                   ...found.map((i) => ({
-                    title: <Link to={`/targets/${i.ticker}`}>{i.name}（{i.ticker}）</Link>,
-                    width: 260,
+                    title: (
+                      <Link to={`/targets/${i.ticker}`} className="serif" style={{ fontSize: 15, letterSpacing: 0 }}>
+                        {i.name} <span className="sub">{i.ticker}</span>
+                      </Link>
+                    ),
+                    width: 240,
                     render: (_: unknown, r: (typeof ROWS)[number]) => r[1](i),
                   })),
                 ]}

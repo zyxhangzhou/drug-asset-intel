@@ -5,7 +5,7 @@ import type { Claim, Sources } from '../api/client'
 import { CONFIDENCE, KIND, label, PRODUCED_BY, SOURCE_TYPE } from '../labels'
 
 // Marker colours: fact from an official interface or manual record, inference, LLM extraction.
-const COLOR = { fact: '#389e0d', inference: '#d48806', llm: '#722ed1' }
+const COLOR = { fact: 'var(--fact)', inference: 'var(--inference)', llm: 'var(--llm)' }
 
 function claimColor(c: Claim) {
   if (c.produced_by === 'llm') return COLOR.llm
@@ -19,9 +19,11 @@ function sourceLink(c: Claim) {
 
 function ClaimCard({ c }: { c: Claim }) {
   const s = c.source
+  const date = s.published_date ?? s.published_date_text
   return (
-    <div style={{ borderLeft: `3px solid ${claimColor(c)}`, paddingLeft: 8 }}>
+    <div className="claim">
       <Space size={4} wrap>
+        <span className="dot" style={{ background: claimColor(c), marginRight: 2 }} />
         <Tag color={c.kind === 'fact' ? 'green' : 'orange'}>{label(KIND, c.kind)}</Tag>
         {c.confidence && <Tag>置信度 {label(CONFIDENCE, c.confidence)}</Tag>}
         <Tag color={c.produced_by === 'llm' ? 'purple' : undefined}>
@@ -31,22 +33,22 @@ function ClaimCard({ c }: { c: Claim }) {
         {c.as_of && <Tag>截至 {c.as_of}</Tag>}
       </Space>
       {c.value && (
-        <Typography.Paragraph style={{ margin: '4px 0' }} ellipsis={{ rows: 3, expandable: true }}>
+        <Typography.Paragraph style={{ margin: 0 }} ellipsis={{ rows: 3, expandable: true }}>
           取值：{c.value}
         </Typography.Paragraph>
       )}
       {c.quote && (
-        <Typography.Paragraph type="secondary" style={{ margin: '4px 0' }} ellipsis={{ rows: 4, expandable: true }}>
-          原文：“{c.quote}”
+        <Typography.Paragraph className="claim-quote" ellipsis={{ rows: 4, expandable: true }}>
+          “{c.quote}”
         </Typography.Paragraph>
       )}
-      {c.note && <Typography.Paragraph type="secondary" style={{ margin: '4px 0' }}>说明：{c.note}</Typography.Paragraph>}
-      <div style={{ fontSize: 12 }}>
+      {c.note && <Typography.Paragraph type="secondary" style={{ margin: 0 }}>说明：{c.note}</Typography.Paragraph>}
+      <div className="claim-src">
         <Link to={sourceLink(c)}>{s.source_id}</Link>
         {' · '}
         {label(SOURCE_TYPE, s.source_type)}
         {s.title ? ` · ${s.title}` : ''}
-        {(s.published_date ?? s.published_date_text) ? ` · ${s.published_date ?? s.published_date_text}` : ''}
+        {date ? ` · ${date}` : ''}
         {s.url && (
           <>
             {' · '}
@@ -62,7 +64,7 @@ function ClaimCard({ c }: { c: Claim }) {
 
 export function ClaimList({ claims }: { claims: Claim[] }) {
   return (
-    <div style={{ display: 'grid', gap: 12, maxWidth: 520, maxHeight: 420, overflowY: 'auto' }}>
+    <div style={{ display: 'grid', gap: 12, maxWidth: 520, maxHeight: 420, overflowY: 'auto', paddingRight: 4 }}>
       {claims.map((c, i) => (
         <ClaimCard key={i} c={c} />
       ))}
@@ -75,14 +77,9 @@ function Marker({ claims }: { claims: Claim[] }) {
   const colors = [...new Set(claims.map(claimColor))]
   return (
     <Popover content={<ClaimList claims={claims} />} title={`来源声明（${claims.length}）`} trigger="click">
-      <span
-        role="button"
-        tabIndex={0}
-        aria-label="查看来源"
-        style={{ cursor: 'pointer', marginLeft: 4, whiteSpace: 'nowrap', verticalAlign: 'super', fontSize: 10 }}
-      >
+      <span role="button" tabIndex={0} aria-label="查看来源" className="marker">
         {colors.map((color) => (
-          <span key={color} style={{ display: 'inline-block', width: 7, height: 7, borderRadius: 4, background: color, marginRight: 1 }} />
+          <span key={color} className="dot" style={{ background: color }} />
         ))}
       </span>
     </Popover>
@@ -103,16 +100,18 @@ export function Sourced({ sources, field, children }: { sources: Sources; field:
 
 export function Legend() {
   const item = (color: string, text: string) => (
-    <span style={{ marginRight: 12, whiteSpace: 'nowrap' }}>
-      <span style={{ display: 'inline-block', width: 8, height: 8, borderRadius: 4, background: color, marginRight: 4 }} />
+    <span>
+      <span className="dot" style={{ background: color }} />
       {text}
     </span>
   )
   return (
-    <Typography.Text type="secondary" style={{ fontSize: 12 }}>
-      来源标记：{item(COLOR.fact, '事实')}
+    <div className="legend">
+      <span>来源标记</span>
+      {item(COLOR.fact, '事实')}
       {item(COLOR.inference, '推断')}
-      {item(COLOR.llm, 'LLM 抽取（附原文片段）')}点击标记查看来源
-    </Typography.Text>
+      {item(COLOR.llm, 'LLM 抽取（附原文片段）')}
+      <span>点击标记查看来源</span>
+    </div>
   )
 }

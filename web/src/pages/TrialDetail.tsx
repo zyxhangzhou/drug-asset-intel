@@ -1,8 +1,9 @@
-import { Card, Descriptions, Typography } from 'antd'
+import { Card, Descriptions } from 'antd'
 import { Link, useParams } from 'react-router'
 import { fetchTrial, type TrialDetail as Detail } from '../api/client'
 import { useApi } from '../api/useApi'
 import { Loaded } from '../components/Loaded'
+import { PageHead } from '../components/Page'
 import { Legend, Sourced } from '../components/Sourced'
 import { DATE_TYPE, label, STAGE, taLabel } from '../labels'
 import { ResultsTable } from './TargetDetail'
@@ -13,14 +14,18 @@ function View({ d }: { d: Detail }) {
   const dated = (v: string | null, type: string | null) => (v ? `${v}${type ? `（${label(DATE_TYPE, type)}）` : ''}` : '—')
   return (
     <>
-      <Typography.Title level={3} style={{ marginBottom: 4 }}>
-        {t.nct_id} <Typography.Text type="secondary">· <Link to={`/targets/${d.ticker}`}>{d.company}（{d.ticker}）</Link></Typography.Text>
-      </Typography.Title>
-      <Typography.Paragraph>
-        <Sourced sources={s} field="title">{t.title}</Sourced>
-      </Typography.Paragraph>
+      <PageHead
+        title={<Sourced sources={s} field="title">{t.title ?? t.nct_id}</Sourced>}
+        meta={
+          <>
+            <b style={{ color: 'var(--ink)' }}>{t.nct_id}</b>
+            <span>{label(STAGE, t.phase)} · {t.status ?? '状态未知'}</span>
+            <Link to={`/targets/${d.ticker}`}>{d.company}（{d.ticker}）</Link>
+          </>
+        }
+      />
       <Legend />
-      <Card size="small" title="方案与进度" style={{ marginTop: 12 }}>
+      <Card size="small" title="方案与进度">
         <Descriptions column={{ xs: 1, md: 2 }} size="small" bordered>
           <Descriptions.Item label="阶段"><Sourced sources={s} field="phase">{label(STAGE, t.phase)}</Sourced></Descriptions.Item>
           <Descriptions.Item label="状态"><Sourced sources={s} field="status">{t.status ?? '—'}</Sourced></Descriptions.Item>
@@ -51,8 +56,8 @@ function View({ d }: { d: Detail }) {
           </Descriptions.Item>
         </Descriptions>
       </Card>
-      <Card size="small" title={`结果（${d.results.length}）`} style={{ marginTop: 16 }}>
-        {d.results.length ? <ResultsTable results={d.results} showTrial={false} /> : <Typography.Text type="secondary">无已发布或已抽取的结果</Typography.Text>}
+      <Card size="small" title={`结果（${d.results.length}）`}>
+        {d.results.length ? <ResultsTable results={d.results} showTrial={false} /> : <p className="note">无已发布或已抽取的结果</p>}
       </Card>
     </>
   )
