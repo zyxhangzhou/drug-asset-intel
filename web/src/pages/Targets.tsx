@@ -5,7 +5,7 @@ import { fetchShortlist, type ShortlistItem } from '../api/client'
 import { useApi } from '../api/useApi'
 import { Loaded } from '../components/Loaded'
 import { PageHead, Score } from '../components/Page'
-import { DIMENSIONS, label, money, RESEARCH_STATUS, STAGE, STAGE_ORDER, TA, taLabel } from '../labels'
+import { DIMENSIONS, label, money, RESEARCH_STATUS, shortAsset, STAGE, STAGE_ORDER, TA, taLabel } from '../labels'
 
 const DEFAULT_WEIGHTS = [30, 20, 20, 15, 15]
 const MAX_COMPARE = 4
@@ -111,7 +111,7 @@ function List({ items }: { items: ShortlistItem[] }) {
             width: 180,
             render: (_, r) => (
               <div style={{ display: 'grid', gap: 2, minWidth: 0 }}>
-                <Typography.Text ellipsis={{ tooltip: r.asset }} style={{ fontWeight: 500 }}>{r.asset ?? '—'}</Typography.Text>
+                <Typography.Text ellipsis={{ tooltip: r.asset }} style={{ fontWeight: 500 }}>{shortAsset(r.asset)}</Typography.Text>
                 <Typography.Text ellipsis={{ tooltip: r.indication }} type="secondary" style={{ fontSize: 12 }}>
                   {r.indication ?? '—'} · {taLabel(r.therapeutic_area)}
                 </Typography.Text>

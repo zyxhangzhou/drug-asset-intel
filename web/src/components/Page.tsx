@@ -1,4 +1,6 @@
 import type { ReactNode } from 'react'
+import { Tooltip } from 'antd'
+import { shortAsset } from '../labels'
 
 // Page title block shared by every page: title, optional ticker, a meta line and a lead paragraph.
 export function PageHead({ title, ticker, meta, lead }: { title: ReactNode; ticker?: string; meta?: ReactNode; lead?: ReactNode }) {
@@ -18,4 +20,14 @@ export function PageHead({ title, ticker, meta, lead }: { title: ReactNode; tick
 export function Score({ value }: { value: number | null | undefined }) {
   if (value == null) return <span className="score score-none">—</span>
   return <span className={`score score-${Math.max(0, Math.min(4, Math.round(value)))}`}>{value}</span>
+}
+
+export function AssetName({ name }: { name: string | null | undefined }) {
+  const short = shortAsset(name)
+  if (!name || short === name) return <>{short}</>
+  return (
+    <Tooltip title={name}>
+      <span style={{ textDecoration: 'underline dotted', textUnderlineOffset: 3 }}>{short}</span>
+    </Tooltip>
+  )
 }

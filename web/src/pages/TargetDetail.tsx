@@ -3,9 +3,9 @@ import { Link, useParams } from 'react-router'
 import { fetchTarget, type Recommendation, type TargetDetail as Detail, type TrialResult } from '../api/client'
 import { useApi } from '../api/useApi'
 import { Loaded } from '../components/Loaded'
-import { PageHead, Score } from '../components/Page'
+import { AssetName, PageHead, Score } from '../components/Page'
 import { Legend, Sourced, SourcedText } from '../components/Sourced'
-import { CATALYST_TYPE, DATE_TYPE, DIMENSIONS, label, money, RESEARCH_STATUS, RIGHTS, STAGE, taLabel } from '../labels'
+import { CATALYST_TYPE, DATE_TYPE, DIMENSIONS, label, money, RESEARCH_STATUS, RIGHTS, shortAsset, STAGE, taLabel } from '../labels'
 
 const REVIEW_FIELDS: [keyof Recommendation, string][] = [
   ['need_item', '对应买方需求'],
@@ -19,7 +19,7 @@ const REVIEW_FIELDS: [keyof Recommendation, string][] = [
 ]
 
 // One recommendation direction: asset × indication × buyer.
-const direction = (r: Recommendation) => `${r.asset ?? '—'} × ${r.indication ?? '—'} × ${r.buyer ?? '—'}`
+const direction = (r: Recommendation) => `${shortAsset(r.asset)} × ${r.indication ?? '—'} × ${r.buyer ?? '—'}`
 
 // Key facts beside the thesis: the numbers a reader checks first.
 function Facts({ r }: { r: Recommendation }) {
@@ -160,7 +160,7 @@ function OtherDirections({ items }: { items: Recommendation[] }) {
           title: '资产 × 适应症',
           render: (_, r) => (
             <div style={{ display: 'grid', gap: 2 }}>
-              <b>{r.asset ?? '—'}</b>
+              <b><AssetName name={r.asset} /></b>
               <span className="sub">{r.indication ?? '—'} · {taLabel(r.therapeutic_area)}</span>
             </div>
           ),
@@ -307,7 +307,7 @@ function View({ d }: { d: Detail }) {
                   dataSource={d.programs}
                   scroll={{ x: 900 }}
                   columns={[
-                    { title: '药物', dataIndex: 'name', width: 180, render: (v) => <b style={{ wordBreak: 'break-word' }}>{v}</b> },
+                    { title: '药物', dataIndex: 'name', width: 180, render: (v) => <b style={{ wordBreak: 'break-word' }}><AssetName name={v} /></b> },
                     { title: '作用机制', render: (_, p) => <Sourced sources={p.sources} field="mechanism">{p.mechanism ?? '—'}</Sourced> },
                     { title: '技术类型', width: 140, render: (_, p) => <Sourced sources={p.sources} field="modality">{p.modality ?? '—'}</Sourced> },
                     {

@@ -116,3 +116,11 @@ export function money(v: number | null | undefined, currency = 'USD'): string {
 // Buyer workbook amounts are already in billions of the stated currency.
 export const billions = (v: number | null | undefined, currency: string) =>
   v == null ? '—' : `${v.toLocaleString()} ${currency === 'USD' ? '十亿美元' : `十亿 ${currency}`}`
+
+// CT.gov-derived asset names often carry every alias in brackets; show the part before the first bracket
+// and keep the full name on hover. Display only: the stored name is unchanged.
+export function shortAsset(name: string | null | undefined): string {
+  if (!name) return '—'
+  const cut = name.search(/\s*[(（]/)
+  return cut > 0 && name.length > 24 ? name.slice(0, cut) : name
+}

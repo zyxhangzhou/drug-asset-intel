@@ -3,7 +3,7 @@ import { Link, useParams } from 'react-router'
 import { fetchTrial, type TrialDetail as Detail } from '../api/client'
 import { useApi } from '../api/useApi'
 import { Loaded } from '../components/Loaded'
-import { PageHead } from '../components/Page'
+import { AssetName, PageHead } from '../components/Page'
 import { Legend, Sourced, SourcedText } from '../components/Sourced'
 import { DATE_TYPE, label, STAGE, taLabel } from '../labels'
 import { ResultsTable } from './TargetDetail'
@@ -48,7 +48,7 @@ function View({ d }: { d: Detail }) {
           <Descriptions.Item label="归入管线" span={2}>
             {d.indication ? (
               <>
-                {d.asset} · <Sourced sources={d.indication.sources} field="indication">{d.indication.indication}</Sourced>
+                <AssetName name={d.asset} /> · <Sourced sources={d.indication.sources} field="indication">{d.indication.indication}</Sourced>
                 {' · '}{taLabel(d.indication.therapeutic_area)}
                 {' · '}<Sourced sources={d.indication.sources} field="stage">{label(STAGE, d.indication.stage)}</Sourced>
               </>

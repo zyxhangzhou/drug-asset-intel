@@ -4,12 +4,12 @@ import { Link, useSearchParams } from 'react-router'
 import { fetchShortlist, type ShortlistItem } from '../api/client'
 import { useApi } from '../api/useApi'
 import { Loaded } from '../components/Loaded'
-import { PageHead, Score } from '../components/Page'
+import { AssetName, PageHead, Score } from '../components/Page'
 import { DIMENSIONS, label, money, RESEARCH_STATUS, RIGHTS, STAGE, taLabel } from '../labels'
 
 const ROWS: [string, (i: ShortlistItem) => ReactNode][] = [
   ['排名', (i) => i.rank],
-  ['资产', (i) => i.asset ?? '—'],
+  ['资产', (i) => <AssetName name={i.asset} />],
   ['适应症', (i) => i.indication ?? '—'],
   ['治疗领域', (i) => taLabel(i.therapeutic_area)],
   ['阶段', (i) => label(STAGE, i.stage)],
