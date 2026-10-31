@@ -37,6 +37,17 @@ class Cited:
     sources: list[str]
 
 
+@dataclass(frozen=True)
+class AcquisitionCost:
+    """Analyst estimate of what a buyer would pay, in USD; always an inference."""
+
+    low: float
+    high: float
+    method: str
+    sources: list[str]
+    confidence: Confidence = Confidence.medium
+
+
 @dataclass
 class Review:
     ticker: str
@@ -60,11 +71,12 @@ class Review:
     rights: RightsStatus | None = None
     rights_cited: Cited | None = None
     exclude: str | None = None  # analyst's reason to keep the company off the shortlist
+    acquisition_cost: AcquisitionCost | None = None
 
     def all_sources(self) -> set[str]:
         ids = set(self.thesis_sources)
         ids.update(s for scored in self.scores.values() for s in scored.sources)
-        for cited in (self.clinical, self.event, self.rights_cited):
+        for cited in (self.clinical, self.event, self.rights_cited, self.acquisition_cost):
             if cited:
                 ids.update(cited.sources)
         return ids
@@ -75,6 +87,27 @@ def _cited(table: dict | None, keys: tuple[str, ...]) -> Cited | None:
         return None
     values = {k: str(table[k]).strip() for k in keys if str(table.get(k, "")).strip()}
     return Cited(values, list(table.get("sources", [])))
+
+
+def _acquisition_cost(path: Path, table: dict | None) -> AcquisitionCost | None:
+    if not table:
+        return None
+    low, high = float(table["low"]), float(table["high"])
+    if not 0 < low <= high:
+        raise ReviewError(f"{path.name}: acquisition_cost needs 0 < low <= high")
+    if not table.get("sources"):
+        raise ReviewError(f"{path.name}: acquisition_cost cites no source")
+    return AcquisitionCost(
+        low,
+        high,
+        str(table["method"]).strip(),
+        list(table["sources"]),
+        Confidence(table.get("confidence", Confidence.medium)),
+    )
+
+
+# A deep-research company is the brief's "fully filled" case: these parts must all be present.
+DEEP_REQUIRES = {"clinical": "临床数据", "event": "下一事件", "acquisition_cost": "收购成本估算"}
 
 
 def parse(path: Path) -> Review | None:
@@ -100,7 +133,7 @@ def parse(path: Path) -> Review | None:
         event = data.get("event") or {}
         rights = data.get("rights") or {}
         thesis = data.get("thesis") or []
-        return Review(
+        review = Review(
             ticker=path.stem.upper(),
             path=path,
             verified_by=verified_by,
@@ -126,11 +159,17 @@ def parse(path: Path) -> Review | None:
             rights=RightsStatus(rights["status"]) if rights.get("status") else None,
             rights_cited=_cited(rights, ("note",)),
             exclude=str(data["exclude"]).strip() or None if "exclude" in data else None,
+            acquisition_cost=_acquisition_cost(path, data.get("acquisition_cost")),
         )
     except (KeyError, ValueError) as exc:
         if isinstance(exc, ReviewError):
             raise
         raise ReviewError(f"{path.name}: {exc!r}") from exc
+    if review.status == ResearchStatus.deep:
+        missing = [label for attr, label in DEEP_REQUIRES.items() if not getattr(review, attr)]
+        if missing:
+            raise ReviewError(f"{path.name}: 深度研究缺少{'、'.join(missing)}")
+    return review
 
 
 def load_reviews(reviews_dir: Path) -> dict[str, Review]:

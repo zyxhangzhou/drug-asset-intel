@@ -3,7 +3,7 @@
 ## 1. 收购成本与深度研究
 
 - [ ] 1.1 [人工] 查找公开的生物科技并购溢价研究（区间、样本期、口径），登记为 `MAN-` 来源写入 `data/manual/sources.csv`；记 `docs/ai-log.md`
-- [ ] 1.2 复核文件解析 `[acquisition_cost]`（low、high、method、confidence、sources）与「深度研究须有临床、下一事件、收购成本」校验；构建写入财务快照收购成本字段与人工推断声明；测试：带估算的复核写入两列与声明、标深度研究但缺估算时构建失败（`uv run pytest`）
+- [x] 1.2 复核文件解析 `[acquisition_cost]`（low、high、method、confidence、sources）与「深度研究须有临床、下一事件、收购成本」校验；构建写入财务快照收购成本字段与人工推断声明；测试：带估算的复核写入两列与声明、标深度研究但缺估算时构建失败（`uv run pytest`）
 - [ ] 1.3 [人工] 为 ARWR、CLDX、RGNX、VKTX、VSTM 计算估算（快照 EV × 溢价区间），写入复核文件并加 `status = "deep"`；列出差异请用户确认并重新签字
 - [ ] 1.4 快照中的「两句话论点」改为「推荐逻辑」（缺口原因、声明说明）；重建快照，`intel check-provenance` 为 0，5 家研究状态为深度研究
 

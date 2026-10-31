@@ -492,7 +492,7 @@ def shortlist_blocker(pair: Pair) -> str | None:
         return "资产权益受限，与收购方案不兼容"
     thesis = pair.cells.get("thesis")
     if thesis is None or not thesis.sources:
-        return "缺两句话论点或其来源"
+        return "缺推荐逻辑或其来源"
     return None
 
 
@@ -578,6 +578,9 @@ def ingest(ctx: BuildContext) -> None:
         review = reviews.pop(target.ticker, None)
         if review:
             primary = reviewed_pair(review, target, prefs, fin, scorer)
+            target.deep_dive = review.status == ResearchStatus.deep
+            if review.acquisition_cost:
+                _write_acquisition_cost(ctx, review, fin)
         else:
             primary = pick_primary(pairs)
         others = _best_per_buyer(pairs, primary)
@@ -678,7 +681,26 @@ def _mark_shortlisted(ctx: BuildContext, pair: Pair) -> None:
     for sid in thesis.sources:
         ctx.claim("target", pair.target.id, "selection_rationale", thesis.value, sid,
                   kind=ClaimKind.inference, confidence=Confidence.medium,
-                  produced_by=ProducedBy.manual, note="两句话入选论点（人工复核）")  # fmt: skip
+                  produced_by=ProducedBy.manual, note="推荐逻辑（人工复核）")  # fmt: skip
+
+
+def _write_acquisition_cost(
+    ctx: BuildContext, review: Review, fin: FinancialSnapshot | None
+) -> None:
+    if fin is None:
+        raise ReviewError(f"{review.path.name}: acquisition_cost but no financial snapshot")
+    cost = review.acquisition_cost
+    fin.acquisition_cost_low, fin.acquisition_cost_high = cost.low, cost.high
+    ctx.session.add(fin)
+    ctx.session.flush()
+    for field_name, value in (
+        ("acquisition_cost_low", cost.low),
+        ("acquisition_cost_high", cost.high),
+    ):
+        for sid in cost.sources:
+            ctx.claim("financial_snapshot", fin.id, field_name, value, sid,
+                      kind=ClaimKind.inference, confidence=cost.confidence,
+                      produced_by=ProducedBy.manual, note=cost.method)  # fmt: skip
 
 
 def _asset(pair: Pair) -> str:

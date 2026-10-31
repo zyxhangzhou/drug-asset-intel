@@ -341,3 +341,51 @@ def test_manual_debt_adjustment_enters_ev(tmp_path):
         rec = primary(s, "VKTX")
         assert rec.enterprise_value == 1_400_000_000  # 1.8B + 0.1B − 0.5B
         assert provenance_gaps(s) == []
+
+
+CLINICAL = """
+[clinical]
+design = "2 期随机对照"
+result = "13 周减重 13.1%"
+sources = ["MAN-VKTX-1"]
+"""
+
+COST = """
+[acquisition_cost]
+low = 2000000000
+high = 3000000000
+method = "EV × (1 + 30%–60%)"
+confidence = "low"
+sources = ["MAN-VKTX-1"]
+"""
+
+
+def deep(review: str) -> str:
+    # A top-level key must come before the first table.
+    return review.replace("preference_rank = 1\n", 'preference_rank = 1\nstatus = "deep"\n', 1)
+
+
+def test_acquisition_cost_and_deep_research(tmp_path):
+    base = REVIEW.replace("{rights}", "full")
+    review = deep(base) + CLINICAL + COST
+    db, _ = build(tmp_path, manual_dir(tmp_path, review))
+    with Session(rw_engine(db)) as s:
+        target = s.exec(select(Target).where(Target.ticker == "VKTX")).one()
+        assert target.deep_dive and primary(s, "VKTX").research_status == ResearchStatus.deep
+        fin_row = target.financials[0]
+        assert (fin_row.acquisition_cost_low, fin_row.acquisition_cost_high) == (2e9, 3e9)
+        claims = s.exec(
+            select(Claim).where(
+                Claim.entity_type == "financial_snapshot", Claim.field == "acquisition_cost_low"
+            )
+        ).all()
+        assert [(c.kind, c.confidence, c.note) for c in claims] == [
+            (ClaimKind.inference, "low", "EV × (1 + 30%–60%)")
+        ]
+        assert provenance_gaps(s) == []
+
+
+def test_deep_research_without_cost_fails(tmp_path):
+    review = deep(REVIEW.replace("{rights}", "full")) + CLINICAL
+    with pytest.raises(ReviewError, match="收购成本估算"):
+        build(tmp_path, manual_dir(tmp_path, review))
