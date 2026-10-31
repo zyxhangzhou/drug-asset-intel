@@ -458,7 +458,7 @@ h3 {
 
 .field {
   display: grid;
-  grid-template-columns: 136px minmax(0, 1fr);
+  grid-template-columns: 168px minmax(0, 1fr);
   gap: 6px 20px;
   padding-block: 14px;
   border-bottom: 1px solid var(--line);
@@ -629,5 +629,50 @@ h3 {
   }
   .ant-descriptions-bordered .ant-descriptions-item-label {
     width: 112px;
+  }
+}
+
+/* Scoring reasons: score chip and dimension name, then the rule that produced the score. */
+.reasons {
+  margin: 0;
+  display: grid;
+}
+
+.reasons > div {
+  display: grid;
+  grid-template-columns: 168px minmax(0, 1fr);
+  gap: 4px 16px;
+  padding-block: 10px;
+  border-bottom: 1px solid var(--line);
+}
+
+.reasons > div:last-child {
+  border-bottom: 0;
+}
+
+.reasons dt {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--ink-2);
+  align-self: start;
+}
+
+.reasons dd {
+  margin: 0;
+  min-width: 0;
+}
+
+.reasons .rich {
+  font-size: 13px;
+  line-height: 1.7;
+  gap: 4px;
+}
+
+@media (max-width: 640px) {
+  .reasons > div {
+    grid-template-columns: minmax(0, 1fr);
   }
 }

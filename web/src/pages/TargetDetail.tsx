@@ -1,4 +1,4 @@
-import { Alert, Card, Collapse, Descriptions, Table, Tabs, Tag } from 'antd'
+import { Alert, Card, Descriptions, Table, Tabs, Tag } from 'antd'
 import { Link, useParams } from 'react-router'
 import { fetchTarget, type Recommendation, type TargetDetail as Detail, type TrialResult } from '../api/client'
 import { useApi } from '../api/useApi'
@@ -66,34 +66,136 @@ function Facts({ r }: { r: Recommendation }) {
   )
 }
 
+// Why each dimension got its score, from the scoring claims' notes (deduplicated).
+function ScoreReasons({ r }: { r: Recommendation }) {
+  return (
+    <dl className="reasons">
+      {DIMENSIONS.map((d) => {
+        const claims = r.sources[d.key] ?? []
+        const notes = [...new Set(claims.map((c) => c.note ?? c.value).filter((n): n is string => !!n))]
+        return (
+          <div key={d.key}>
+            <dt>
+              <Score value={r.scores[d.key]} />
+              <span>{d.label}</span>
+            </dt>
+            <dd>
+              {notes.length ? (
+                <SourcedText sources={r.sources} field={d.key} text={notes.join('\n')} />
+              ) : (
+                <span className="sub">无评分依据（该维度缺少来源，保守分按 0 计）</span>
+              )}
+            </dd>
+          </div>
+        )
+      })}
+    </dl>
+  )
+}
+
+function ReviewFields({ r }: { r: Recommendation }) {
+  const fields = REVIEW_FIELDS.filter(([key]) => r[key])
+  if (!fields.length) return null
+  return (
+    <dl className="fields">
+      {fields.map(([key, text]) => (
+        <div className="field" key={key}>
+          <dt>{text}</dt>
+          <dd><SourcedText sources={r.sources} field={key} text={r[key] as string} /></dd>
+        </div>
+      ))}
+    </dl>
+  )
+}
+
 function RecommendationView({ r }: { r: Recommendation }) {
   return (
     <>
       <div className="review-top">
-        <div style={{ display: 'grid', gap: 8 }}>
-          <div>
-            <b style={{ fontSize: 15 }}>推荐逻辑</b>
-            <span className="sub" style={{ marginLeft: 10 }}>两句话：买方需求与资产的对应；证据、下一事件与主要障碍</span>
-          </div>
-          {r.thesis ? (
+        {r.thesis ? (
+          <div style={{ display: 'grid', gap: 8 }}>
+            <div>
+              <b style={{ fontSize: 15 }}>推荐逻辑</b>
+              <span className="sub" style={{ marginLeft: 10 }}>两句话：买方需求与资产的对应；证据、下一事件与主要障碍</span>
+            </div>
             <p className="thesis">
               <Sourced sources={r.sources} field="thesis">{r.thesis}</Sourced>
             </p>
-          ) : (
-            <p className="note">仅经自动初筛，尚未撰写推荐逻辑。</p>
-          )}
-        </div>
+          </div>
+        ) : (
+          <div style={{ display: 'grid', gap: 8 }}>
+            <div>
+              <b style={{ fontSize: 15 }}>评分依据</b>
+              <span className="sub" style={{ marginLeft: 10 }}>仅经自动初筛，尚未撰写推荐逻辑；以下为各维度的打分规则与依据</span>
+            </div>
+            <ScoreReasons r={r} />
+          </div>
+        )}
         <Facts r={r} />
       </div>
-      <dl className="fields">
-        {REVIEW_FIELDS.filter(([key]) => r[key]).map(([key, text]) => (
-          <div className="field" key={key}>
-            <dt>{text}</dt>
-            <dd><SourcedText sources={r.sources} field={key} text={r[key] as string} /></dd>
-          </div>
-        ))}
-      </dl>
+      <ReviewFields r={r} />
     </>
+  )
+}
+
+// Other directions as one compact table; a row expands to its scoring reasons and any review notes.
+function OtherDirections({ items }: { items: Recommendation[] }) {
+  return (
+    <Table
+      rowKey={(_, i) => String(i)}
+      size="small"
+      pagination={false}
+      dataSource={items}
+      scroll={{ x: 900 }}
+      expandable={{
+        expandedRowRender: (r) => (
+          <div style={{ padding: '4px 8px 8px' }}>
+            <ScoreReasons r={r} />
+            <ReviewFields r={r} />
+          </div>
+        ),
+      }}
+      columns={[
+        {
+          title: '资产 × 适应症',
+          render: (_, r) => (
+            <div style={{ display: 'grid', gap: 2 }}>
+              <b>{r.asset ?? '—'}</b>
+              <span className="sub">{r.indication ?? '—'} · {taLabel(r.therapeutic_area)}</span>
+            </div>
+          ),
+        },
+        { title: '阶段', width: 70, render: (_, r) => label(STAGE, r.stage) },
+        {
+          title: '买方 · 偏好',
+          width: 220,
+          render: (_, r) => (
+            <>
+              {r.buyer_ticker ? <Link to={`/buyers/${r.buyer_ticker}`}>{r.buyer}</Link> : '—'}
+              <span className="sub"> · {r.preference ?? '—'}</span>
+            </>
+          ),
+        },
+        ...DIMENSIONS.map((d) => ({
+          title: d.short,
+          width: 52,
+          align: 'center' as const,
+          render: (_: unknown, r: Recommendation) => <Score value={r.scores[d.key]} />,
+        })),
+        {
+          title: '保守 / 乐观',
+          width: 100,
+          align: 'right' as const,
+          render: (_, r) => (
+            <>
+              <span className="figure" style={{ fontSize: 15 }}>{r.conservative}</span>
+              <span className="sub"> / {r.optimistic}</span>
+            </>
+          ),
+        },
+        { title: '状态', width: 84, render: (_, r) => <span className="sub">{label(RESEARCH_STATUS, r.research_status)}</span> },
+      ]}
+    />
   )
 }
 
@@ -159,14 +261,10 @@ function View({ d }: { d: Detail }) {
           {others.length > 0 && (
             <div style={{ marginTop: 24 }}>
               <b style={{ fontSize: 15 }}>其他可能方向</b>
-              <span className="sub" style={{ marginLeft: 10 }}>不计入公司分数；点开查看各自的评分与依据</span>
-              <Collapse style={{ marginTop: 10 }} size="small"
-                items={others.map((r, i) => ({
-                  key: i,
-                  label: direction(r),
-                  extra: <span className="sub">保守分 <b className="figure" style={{ color: 'var(--ink)' }}>{r.conservative}</b></span>,
-                  children: <RecommendationView r={r} />,
-                }))} />
+              <span className="sub" style={{ marginLeft: 10 }}>不计入公司分数；点开一行查看评分依据</span>
+              <div style={{ marginTop: 10 }}>
+                <OtherDirections items={others} />
+              </div>
             </div>
           )}
         </Card>
