@@ -3,6 +3,7 @@ program = "RGX-202"
 indication = "Duchenne Muscular Dystrophy"
 buyer = "AstraZeneca"
 preference_rank = 2
+status = "deep"
 deal_form = "收购"
 need_item = "基因疗法、体内细胞疗法、补体/酶替代和遗传性疾病药物（AstraZeneca 罕见病偏好行，理想阶段「早期平台至Phase 3」）"
 match_note = "RGX-202 是一次性静脉给药的 AAV8 基因疗法，递送含 C 端结构域的新型 microdystrophin，治疗遗传病杜氏肌营养不良（DMD），对应「基因疗法……遗传性疾病药物」；原文：\"using the NAV AAV8 vector to deliver a transgene for a novel microdystrophin\"（SEC-0001193125-26-336725）、\"one of the most common fatal genetic disorders affecting children\"（MAN-RGNX-1）。另与 AZ 技术偏好 #2「递送和制造优势明显、可重复生产的临床平台」相符：公司自建悬浮工艺产线，原文 \"in-house, state-of-the-art manufacturing that has demonstrated leading purity levels in Duchenne (>80% full capsids)\"（SEC-0001193125-26-336725）。10-K 的 DMD 竞争段落点名 Sarepta/Roche（Elevidys）与 Novartis，不含 AstraZeneca（MAN-RGNX-1），但该名单不是完整核查（未核查组合冲突）。"
@@ -48,3 +49,10 @@ sources = ["MAN-RGNX-2", "SEC-0001193125-26-336725", "MAN-RGNX-3"]
 status = "full"
 note = "10-K/10-Q 没有「RGX-202 为全资资产」的原句；判断依据是合作披露的穷尽（推断，置信度中）：10-Q 只把 sura-vec 列给 AbbVie、RGX-121/RGX-111 列给 Nippon Shinyaku，原文 \"Sura-vec is being developed and commercialized in collaboration with AbbVie\"、\"RGX-121 and RGX-111 are being developed and commercialized in collaboration with Nippon Shinyaku\"，RGX-202 不在其中，且由公司自建产能生产商业供货（\"We have completed manufacturing the first batches of RGX-202 intended for commercial supply\"）（SEC-0001193125-26-336725）。上游许可义务：NAV 平台来自 Penn 与 GSK 独家许可，须付 Penn \"low- to mid-single digit royalties on net sales of licensed pharmaceutical products sold by us or our affiliates\" 及 \"up to $20.5 million upon the achievement of various development and sales-based milestones\"；GSK 许可的销售分成转付 Penn；GSK 保留 \"AAV9 for the treatment of Muscular Dystrophy\" 的权利（RGX-202 用 AAV8，判断不冲突）；与 GSK 存在分许可费争议（\"We have been notified of a dispute with GSK over the amount of sublicense fees\"）（MAN-RGNX-1）。债务（数据包 total_debt 为空）：\"Royalty monetization liabilities are accounted for as debt\"，2026-06-30 合计 181,511 千美元（2020 HCR 协议 11,807、2025 Royalty Bond 169,704）；Royalty Bond 以 Novartis、Nippon Shinyaku、Rocket、Ultragenyx 许可的特许权收入为担保（\"The 2025 Royalty Bond is collateralized by a security interest and lien on the Royalty Interest.\"），不涉及 RGX-202，且 \"may not be prepaid prior to maturity\"（SEC-0001193125-26-336725）。10-Q/10-K 未见控制权变更条款。"
 sources = ["SEC-0001193125-26-336725", "MAN-RGNX-1"]
+
+[acquisition_cost]
+low = 742000000
+high = 964000000
+method = "企业价值 553.9 百万美元 + 市值 477.9 百万美元 × 收购溢价 39.25%–85.75%；溢价区间为 2025-01 至 2026-10 宣布的 18 宗美国上市生物科技公司现金收购中，按宣布前一交易日收盘价计算的溢价（买方或标的 SEC 文件原文所载）的第 25–75 百分位，中位数 54%（明细见 data/manual/takeover_premiums.csv）；市值与企业价值取快照日（2026-10-28 行情、最近一期 10-Q 资产负债表），未计快照日后的融资、竞购与或有对价（CVR）。"
+confidence = "low"
+sources = ["MAN-RGNX-DEBT", "NASDAQ-RGNX-2026-10-28", "SEC-0001193125-26-336725", "MAN-PREM-TSVT", "MAN-PREM-RGLS", "MAN-PREM-VIGL", "MAN-PREM-BPMC", "MAN-PREM-VRNA", "MAN-PREM-TRML", "MAN-PREM-ETNB", "MAN-PREM-MRUS", "MAN-PREM-RNA", "MAN-PREM-CDTX", "MAN-PREM-FOLD", "MAN-PREM-DVAX", "MAN-PREM-RAPT", "MAN-PREM-DAWN", "MAN-PREM-SLNO", "MAN-PREM-NUVL", "MAN-PREM-APGE", "MAN-PREM-CRNX"]

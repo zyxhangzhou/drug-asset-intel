@@ -3,6 +3,7 @@ program = "BARZOLVOLIMAB"
 indication = "Chronic Spontaneous Urticaria"
 buyer = "Bristol Myers Squibb"
 preference_rank = 2
+status = "deep"
 deal_form = "收购"
 need_item = "能带来持久缓解、组织修复或免疫重置的自身免疫药物，覆盖皮肤、胃肠和风湿病（BMY-1、BMY-2）"
 match_note = "barzolvolimab 是抗 KIT 单抗，清除/抑制肥大细胞，用于皮肤疾病慢性自发性荨麻疹（CSU），并有停药后持续获益数据，对应 BMS 画像中的「持久缓解」「免疫重置」「覆盖皮肤」；原文：\"binding with high specificity to a unique part of the KIT receptor and potently inhibiting its activity\"（MAN-CLDX-1）；\"sustained off-treatment improvement in patients with CSU\"、\"Seven months after the completion of dosing (Week 76), up to 64% of patients treated with barzolvolimab who had angioedema at baseline remained angioedema-free\"、\"shift treatment goals from symptom control to disease modification\"（MAN-CLDX-2）。停药后数据来自 2 期长期随访（EAACI 会议），属公司表述。组合冲突仅按 10-K 竞争表（只列已启动 3 期或已上市的竞品）核查：表中 CSU 竞品无 BMS 产品（Novartis 有 Xolair 与 remibrutinib），未核查 BMS 早期管线。"
@@ -48,3 +49,10 @@ sources = ["MAN-CLDX-1", "MAN-CLDX-2"]
 status = "full"
 note = "推断（中高）：10-K 未逐字写「全球权益」。10-K 只列一项重要许可协议（Yale，引进方向），无对外授权、选择权或共同开发：\"Summarized below is our significant research collaboration and license agreement for our current clinical drug candidates.\"；公司自有专利：\"We own a portfolio of patents and patent applications directed to barzolvolimab and other anti-KIT receptor antibodies.\"（MAN-CLDX-3）；10-K 附件清单「License, Collaboration」类只有 Yale 协议。引进义务：Yale \"a one-time payment to Yale of $3.0 million with respect to barzolvolimab upon achievement of a specified commercial milestone\"、\"a low single-digit royalty on annual worldwide net sales of barzolvolimab\"（MAN-CLDX-3）。资产来自 2016 年收购 Kolltan，获批时应付原股东：\"The Company shall pay $ 52.5 million upon the first United States Food and Drug Administration or European Medicines Agency ... regulatory approval\"（SEC-0001104659-26-091984）。"
 sources = ["MAN-CLDX-3", "SEC-0001104659-26-091984"]
+
+[acquisition_cost]
+low = 2526000000
+high = 3609000000
+method = "企业价值 1,611.6 百万美元 + 市值 2,329.2 百万美元 × 收购溢价 39.25%–85.75%；溢价区间为 2025-01 至 2026-10 宣布的 18 宗美国上市生物科技公司现金收购中，按宣布前一交易日收盘价计算的溢价（买方或标的 SEC 文件原文所载）的第 25–75 百分位，中位数 54%（明细见 data/manual/takeover_premiums.csv）；市值与企业价值取快照日（2026-10-28 行情、最近一期 10-Q 资产负债表），未计快照日后的融资、竞购与或有对价（CVR）。"
+confidence = "low"
+sources = ["NASDAQ-CLDX-2026-10-28", "SEC-0001104659-26-091984", "MAN-PREM-TSVT", "MAN-PREM-RGLS", "MAN-PREM-VIGL", "MAN-PREM-BPMC", "MAN-PREM-VRNA", "MAN-PREM-TRML", "MAN-PREM-ETNB", "MAN-PREM-MRUS", "MAN-PREM-RNA", "MAN-PREM-CDTX", "MAN-PREM-FOLD", "MAN-PREM-DVAX", "MAN-PREM-RAPT", "MAN-PREM-DAWN", "MAN-PREM-SLNO", "MAN-PREM-NUVL", "MAN-PREM-APGE", "MAN-PREM-CRNX"]

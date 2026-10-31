@@ -3,6 +3,7 @@ program = "VK2735"
 indication = "Weight Loss"
 buyer = "Pfizer"
 preference_rank = 1
+status = "deep"
 deal_form = "收购"
 need_item = "GLP-1之外的口服非肽、胰淀素或双/三重激动剂，兼具减重、维持体重和肌肉保留（PFE-1、PFE-3）"
 match_note = "VK2735 是 GLP-1/GIP 双激动剂，皮下与口服两种剂型均在 3 期，并有维持体重数据，对应 Pfizer 画像中的「双/三重激动剂」「减重、维持体重」；原文：\"VK2735 is a wholly owned long-acting dual agonist of the glucagon like peptide-1, or GLP-1 receptor, and the glucose dependent insulinotropic polypeptide, or GIP receptor\"（MAN-VKTX-3）；\"Up to 97% of Weight Loss Maintained\"（MAN-VKTX-4）。「口服非肽」与「肌肉保留」两点无来源支持，未计入。未核查组合冲突（Pfizer 是否已有 GLP-1/GIP 双激动剂肥胖资产）。"
@@ -48,3 +49,10 @@ sources = ["MAN-VKTX-3", "CTG-NCT07104500", "CTG-NCT07104383"]
 status = "full"
 note = "最新 10-Q 写明无合作：\"We currently do not have strategic collaborations in place for clinical development of any of our current drug candidates.\"（MAN-VKTX-2）；公司称 VK2735 \"wholly owned\"（MAN-VKTX-3）。Ligand 主许可协议只覆盖 TRß、SARM、FBPase、DGAT-1、EPOR 化合物（\"Ligand granted to us and our affiliates an exclusive, perpetual, irrevocable, worldwide, royalty-bearing right and license\"，MAN-VKTX-1），未列 GLP-1/GIP；10-K 专利段写明 GLP-1 项目专利为公司自有：\"for our GLP-1 program, we own three U.S. patents\"（MAN-VKTX-1）。故推断 VK2735 不是自 Ligand 引进，不欠 Ligand 里程碑或个位数特许权使用费（推断，中高；文件未逐字写明 VK2735 不在许可内）。注意 10-K 风险因素泛称 \"Most of the intellectual property related to our drug candidates is currently owned by Ligand\"（MAN-VKTX-1），与上述按项目的表述有张力，签核时请人工确认。Ligand 于 2026-04-24 主张终止 TR-Beta 项目（VK2809、VK0214）许可并起诉，只涉及 VK2809/VK0214：\"The TR-Beta Program includes our VK2809 and VK0214 product candidates.\"（MAN-VKTX-2）。"
 sources = ["MAN-VKTX-1", "MAN-VKTX-2", "MAN-VKTX-3"]
+
+[acquisition_cost]
+low = 3618000000
+high = 4993000000
+method = "企业价值 2,456.7 百万美元 + 市值 2,958.3 百万美元 × 收购溢价 39.25%–85.75%；溢价区间为 2025-01 至 2026-10 宣布的 18 宗美国上市生物科技公司现金收购中，按宣布前一交易日收盘价计算的溢价（买方或标的 SEC 文件原文所载）的第 25–75 百分位，中位数 54%（明细见 data/manual/takeover_premiums.csv）；市值与企业价值取快照日（2026-10-28 行情、最近一期 10-Q 资产负债表），未计快照日后的融资、竞购与或有对价（CVR）。"
+confidence = "low"
+sources = ["NASDAQ-VKTX-2026-10-28", "SEC-0001193125-26-324219", "MAN-PREM-TSVT", "MAN-PREM-RGLS", "MAN-PREM-VIGL", "MAN-PREM-BPMC", "MAN-PREM-VRNA", "MAN-PREM-TRML", "MAN-PREM-ETNB", "MAN-PREM-MRUS", "MAN-PREM-RNA", "MAN-PREM-CDTX", "MAN-PREM-FOLD", "MAN-PREM-DVAX", "MAN-PREM-RAPT", "MAN-PREM-DAWN", "MAN-PREM-SLNO", "MAN-PREM-NUVL", "MAN-PREM-APGE", "MAN-PREM-CRNX"]
