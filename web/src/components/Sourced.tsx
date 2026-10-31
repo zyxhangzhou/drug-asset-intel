@@ -13,6 +13,11 @@ function claimColor(c: Claim) {
   return c.kind === 'inference' ? COLOR.inference : COLOR.fact
 }
 
+// Inference dots are drawn as rings so filled fact and LLM dots stand out where markers are dense.
+function Dot({ color }: { color: string }) {
+  return <span className={color === COLOR.inference ? 'dot ring' : 'dot'} style={{ background: color }} />
+}
+
 function sourceLink(c: Claim) {
   const q = c.quote ? `?q=${encodeURIComponent(c.quote)}` : ''
   return `/sources/${encodeURIComponent(c.source.source_id)}${q}`
@@ -24,7 +29,7 @@ function ClaimCard({ c }: { c: Claim }) {
   return (
     <div className="claim">
       <Space size={4} wrap>
-        <span className="dot" style={{ background: claimColor(c), marginRight: 2 }} />
+        <Dot color={claimColor(c)} />
         <Tag color={c.kind === 'fact' ? 'green' : 'orange'}>{label(KIND, c.kind)}</Tag>
         {c.confidence && <Tag>置信度 {label(CONFIDENCE, c.confidence)}</Tag>}
         <Tag color={c.produced_by === 'llm' ? 'purple' : undefined}>
@@ -80,7 +85,7 @@ function Marker({ claims }: { claims: Claim[] }) {
     <Popover content={<ClaimList claims={claims} />} title={`来源声明（${claims.length}）`} trigger="click">
       <span role="button" tabIndex={0} aria-label="查看来源" className="marker">
         {colors.map((color) => (
-          <span key={color} className="dot" style={{ background: color }} />
+          <Dot key={color} color={color} />
         ))}
       </span>
     </Popover>
@@ -102,7 +107,7 @@ export function Sourced({ sources, field, children }: { sources: Sources; field:
 export function Legend() {
   const item = (color: string, text: string) => (
     <span>
-      <span className="dot" style={{ background: color }} />
+      <Dot color={color} />
       {text}
     </span>
   )

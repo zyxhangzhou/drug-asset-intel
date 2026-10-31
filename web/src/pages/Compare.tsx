@@ -16,7 +16,7 @@ const ROWS: [string, (i: ShortlistItem) => ReactNode][] = [
   ['买方', (i) => i.buyer ?? '—'],
   ['对应偏好', (i) => i.preference ?? '—'],
   ...DIMENSIONS.map((d): [string, (i: ShortlistItem) => ReactNode] => [`${d.label}（0–4）`, (i) => <Score value={i.scores[d.key]} />]),
-  ['保守分', (i) => <span className="figure" style={{ fontSize: 16 }}>{i.conservative}</span>],
+  ['保守分', (i) => <span className="total">{i.conservative}</span>],
   ['乐观分', (i) => <span className="figure">{i.optimistic}</span>],
   ['覆盖率', (i) => `${Math.round(i.coverage * 100)}%`],
   ['研究状态', (i) => label(RESEARCH_STATUS, i.research_status)],
@@ -54,10 +54,10 @@ export default function Compare() {
                 scroll={{ x: 150 + found.length * 240 }}
                 dataSource={ROWS}
                 columns={[
-                  { title: '', render: (_, r) => <span className="sub" style={{ fontSize: 13 }}>{r[0]}</span>, width: 150, fixed: 'left' },
+                  { title: '', render: (_, r) => <span className="sub">{r[0]}</span>, width: 150, fixed: 'left' },
                   ...found.map((i) => ({
                     title: (
-                      <Link to={`/targets/${i.ticker}`} style={{ fontSize: 15, letterSpacing: 0 }}>
+                      <Link to={`/targets/${i.ticker}`} style={{ fontSize: 'var(--fs-body)' }}>
                         {i.name} <span className="sub">{i.ticker}</span>
                       </Link>
                     ),

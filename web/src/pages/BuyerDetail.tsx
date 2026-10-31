@@ -33,13 +33,14 @@ function View({ d }: { d: Detail }) {
       />
       <Legend />
       <Card title="画像" size="small">
-        <Descriptions column={1} size="small" bordered>
+        <dl className="fields" style={{ marginTop: 0, borderTop: 0 }}>
           {PROFILE.map(([key, text]) => (
-            <Descriptions.Item key={key} label={text}>
-              <SourcedText sources={b.sources} field={key} text={b[key] as string | null} />
-            </Descriptions.Item>
+            <div className="field" key={key}>
+              <dt>{text}</dt>
+              <dd><SourcedText sources={b.sources} field={key} text={b[key] as string | null} /></dd>
+            </div>
           ))}
-        </Descriptions>
+        </dl>
       </Card>
 
       <Card title="资产偏好" size="small">
@@ -134,7 +135,7 @@ function View({ d }: { d: Detail }) {
               render: (_, m) => (
                 <>
                   <Link to={`/targets/${m.ticker}`}>{m.name}</Link> <span className="sub">{m.ticker}</span>
-                  {m.shortlisted && <Tag color="gold" style={{ marginLeft: 8 }}>入选</Tag>}
+                  {m.shortlisted && <Tag className="tag-pick" style={{ marginLeft: 8 }}>入选</Tag>}
                 </>
               ),
             },

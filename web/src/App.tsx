@@ -1,6 +1,6 @@
 import { ConfigProvider, Result } from 'antd'
 import zhCN from 'antd/locale/zh_CN'
-import { BrowserRouter, Link, NavLink, Route, Routes } from 'react-router'
+import { BrowserRouter, Link, Route, Routes, useLocation } from 'react-router'
 import { fetchMeta } from './api/client'
 import { useApi } from './api/useApi'
 import BuyerDetail from './pages/BuyerDetail'
@@ -14,13 +14,20 @@ import TrialDetail from './pages/TrialDetail'
 import { theme } from './theme'
 
 const NAV = [
-  { to: '/', label: '概览', end: true },
+  { to: '/', label: '概览' },
   { to: '/buyers', label: '买方' },
   { to: '/targets', label: '候选' },
 ]
 
+// Company, compare, trial and source pages all sit under 候选 in the navigation.
+function section(pathname: string) {
+  if (pathname === '/') return '/'
+  return pathname.startsWith('/buyers') ? '/buyers' : '/targets'
+}
+
 function Shell() {
   const meta = useApi(fetchMeta, [])
+  const current = section(useLocation().pathname)
   const snapshot = meta.data?.snapshot_date
   return (
     <>
@@ -43,9 +50,9 @@ function Shell() {
             </Link>
             <nav className="nav" aria-label="主导航">
               {NAV.map((n) => (
-                <NavLink key={n.to} to={n.to} end={n.end}>
+                <Link key={n.to} to={n.to} aria-current={n.to === current ? 'page' : undefined}>
                   {n.label}
-                </NavLink>
+                </Link>
               ))}
             </nav>
           </div>

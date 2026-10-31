@@ -82,7 +82,7 @@ function View({ d, quote }: { d: Detail; quote: string | null }) {
           {d.url ? <a href={d.url} target="_blank" rel="noreferrer">{d.url}</a> : '—'}
         </Descriptions.Item>
         <Descriptions.Item label="文本指纹（SHA-256）" span={2}>
-          <Typography.Text code style={{ wordBreak: 'break-all' }}>{d.content_hash ?? '—'}</Typography.Text>
+          <span className="mono" style={{ wordBreak: 'break-all' }}>{d.content_hash ?? '—'}</span>
         </Descriptions.Item>
         {d.note && <Descriptions.Item label="说明" span={2}>{d.note}</Descriptions.Item>}
       </Descriptions>

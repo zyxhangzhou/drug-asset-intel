@@ -162,7 +162,9 @@ def test_buyer_detail(client):
     match = body["matches"][0]
     assert match["ticker"] == "ABCD" and match["shortlisted"]
     assert match["sources"]["score"][0]["confidence"] == "medium"
-    assert client.get("/api/buyers").json()[0]["preferences"] == 1
+    summary = client.get("/api/buyers").json()[0]
+    assert summary["preferences"] == 1 and summary["therapeutic_areas"] == ["肥胖"]
+    assert summary["loe"] == []
     assert client.get("/api/buyers/XXX").status_code == 404
 
 

@@ -12,7 +12,7 @@ export const theme: ThemeConfig = {
     colorLink: accent,
     colorText: ink,
     colorTextSecondary: '#374151',
-    colorTextTertiary: '#6b7280',
+    colorTextTertiary: '#5f6672',
     colorBorder: '#d1d5db',
     colorBorderSecondary: line,
     colorBgLayout: '#f5f6f8',

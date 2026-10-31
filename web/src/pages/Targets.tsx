@@ -1,4 +1,4 @@
-import { Button, Input, InputNumber, Select, Switch, Table, Tag, Tooltip, Typography } from 'antd'
+import { Button, Card, Input, InputNumber, Select, Switch, Table, Tag, Tooltip, Typography } from 'antd'
 import { useMemo, useState } from 'react'
 import { Link, useNavigate, useSearchParams } from 'react-router'
 import { fetchShortlist, type ShortlistItem } from '../api/client'
@@ -72,10 +72,15 @@ function List({ items }: { items: ShortlistItem[] }) {
           对比所选（{selected.length}/{MAX_COMPARE}）
         </Button>
       </div>
-      <p className="note">
-        共 <b>{rows.length}</b> 家（全部 {items.length} 家）。每家公司按其主推荐方向（资产 × 适应症 × 买方）计分：五个维度各 0–4 分，加权为 0–100。
-        保守分把缺失维度按 0 分计，乐观分按 4 分计；两者差距越大，研究越不充分。勾选 2–4 家可对比。
-      </p>
+      <details className="method">
+        <summary>
+          共 <b>{rows.length}</b> 家（全部 {items.length} 家）· 评分方法
+        </summary>
+        <p>
+          每家公司按其主推荐方向（资产 × 适应症 × 买方）计分：五个维度各 0–4 分，加权为 0–100。保守分把缺失维度按 0 分计，乐观分按 4
+          分计；两者差距越大，研究越不充分。勾选 2–4 家可对比。
+        </p>
+      </details>
       <Table
  className="table-panel"
         rowKey="ticker"
@@ -101,30 +106,30 @@ function List({ items }: { items: ShortlistItem[] }) {
                 <Link to={`/targets/${r.ticker}`} style={{ fontWeight: 600 }}>{r.name}</Link>
                 <span className="sub">
                   {r.ticker} · {label(RESEARCH_STATUS, r.research_status)}
-                  {r.shortlisted && <Tag color="gold" style={{ marginLeft: 6, marginRight: 0 }}>入选</Tag>}
+                  {r.shortlisted && <Tag className="tag-pick" style={{ marginLeft: 6, marginRight: 0 }}>入选</Tag>}
                 </span>
               </div>
             ),
           },
           {
             title: '主推荐方向：资产 · 适应症',
-            width: 180,
+            width: 170,
             render: (_, r) => (
               <div style={{ display: 'grid', gap: 2, minWidth: 0 }}>
                 <Typography.Text ellipsis={{ tooltip: r.asset }} style={{ fontWeight: 500 }}>{shortAsset(r.asset)}</Typography.Text>
-                <Typography.Text ellipsis={{ tooltip: r.indication }} type="secondary" style={{ fontSize: 12 }}>
+                <Typography.Text ellipsis={{ tooltip: r.indication }} type="secondary" style={{ fontSize: 'var(--fs-small)' }}>
                   {r.indication ?? '—'} · {taLabel(r.therapeutic_area)}
                 </Typography.Text>
               </div>
             ),
           },
           {
-            title: '阶段',
-            width: 64,
+            title: <span style={{ whiteSpace: 'nowrap' }}>研发阶段</span>,
+            width: 96,
             render: (_, r) => label(STAGE, r.stage),
             sorter: (a, b) => STAGE_ORDER.indexOf(a.stage ?? 'unknown') - STAGE_ORDER.indexOf(b.stage ?? 'unknown'),
           },
-          { title: '买方', dataIndex: 'buyer', width: 110, ellipsis: true },
+          { title: '买方', dataIndex: 'buyer', width: 104, ellipsis: true },
           ...DIMENSIONS.map((d) => ({
             title: <Tooltip title={d.label}><span style={{ whiteSpace: 'nowrap' }}>{d.short}</span></Tooltip>,
             width: 62,
@@ -140,7 +145,7 @@ function List({ items }: { items: ShortlistItem[] }) {
             defaultSortOrder: 'descend',
             render: (_, r) => (
               <>
-                <span className="figure" style={{ fontSize: 15 }}>{r.conservative}</span>
+                <span className="total">{r.conservative}</span>
                 <span className="sub"> / {r.optimistic}</span>
               </>
             ),
@@ -163,23 +168,24 @@ export default function Targets() {
         title="候选公司"
         lead="每家公司一行，按主推荐方向的保守分排序。调整评分权重只在本页重排，不修改数据快照。"
       />
-      <div className="toolbar" style={{ padding: '10px 14px', background: 'var(--panel)', border: '1px solid var(--line)', borderRadius: 8, marginBottom: 20 }}>
-        <b style={{ fontSize: 13 }}>评分权重</b>
-        {DIMENSIONS.map((d, i) => (
-          <label key={d.key} style={{ display: 'inline-flex', gap: 6, alignItems: 'center', fontSize: 13 }}>
-            {d.label}
-            <InputNumber min={0} max={100} size="small" value={draft[i]} style={{ width: 60 }}
-              onChange={(v) => setDraft(draft.map((x, j) => (j === i ? (v ?? 0) : x)))} />
-          </label>
-        ))}
-        <Button size="small" type="primary" onClick={() => setWeights(draft)}>应用</Button>
-        <Button size="small" onClick={() => { setDraft(DEFAULT_WEIGHTS); setWeights(undefined) }}>恢复默认</Button>
-        {state.data && (
-          <span className="sub">
-            当前：{DIMENSIONS.map((d) => `${d.short} ${Math.round(state.data!.weights[d.key] * 100)}%`).join(' · ')}
-          </span>
-        )}
-      </div>
+      <Card size="small" title="评分权重" style={{ marginTop: 0, marginBottom: 24 }}>
+        <div className="toolbar" style={{ marginBottom: 0 }}>
+          {DIMENSIONS.map((d, i) => (
+            <label key={d.key} style={{ display: 'inline-flex', gap: 6, alignItems: 'center' }}>
+              {d.label}
+              <InputNumber min={0} max={100} size="small" value={draft[i]} style={{ width: 60 }}
+                onChange={(v) => setDraft(draft.map((x, j) => (j === i ? (v ?? 0) : x)))} />
+            </label>
+          ))}
+          <Button size="small" type="primary" onClick={() => setWeights(draft)}>应用</Button>
+          <Button size="small" onClick={() => { setDraft(DEFAULT_WEIGHTS); setWeights(undefined) }}>恢复默认</Button>
+          {state.data && (
+            <span className="sub">
+              当前：{DIMENSIONS.map((d) => `${d.short} ${Math.round(state.data!.weights[d.key] * 100)}%`).join(' · ')}
+            </span>
+          )}
+        </div>
+      </Card>
       <Loaded state={state}>{(s) => <List items={s.items} />}</Loaded>
     </>
   )

@@ -36,7 +36,7 @@ export function Thesis({ text, sources }: { text: string; sources: Sources }) {
   const head = (
     <div className="brief-head">
       <Sourced sources={sources} field="thesis">
-        <b style={{ fontSize: 15 }}>推荐逻辑</b>
+        <b style={{ fontSize: 'var(--fs-body)' }}>推荐逻辑</b>
       </Sourced>
       <span className="sub">买方需求与资产的对应；证据、下一事件与主要障碍</span>
       {parts && (

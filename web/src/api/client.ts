@@ -73,6 +73,8 @@ export interface BuyerSummary {
   name_zh: string | null
   preferences: number
   primary_targets: number
+  therapeutic_areas: string[]
+  loe: { product: string; us_loe: string }[]
 }
 
 export interface Buyer extends Sourced {

@@ -15,6 +15,7 @@ from sqlmodel import Session, SQLModel, col, func, select
 from intel.models import (
     Buyer,
     BuyerPreference,
+    BuyerProductLoe,
     Catalyst,
     Claim,
     FinancialSnapshot,
@@ -107,6 +108,21 @@ class BuyerSummary(BaseModel):
     name_zh: str | None
     preferences: int
     primary_targets: int  # companies whose primary pair names this buyer
+    therapeutic_areas: list[str]  # therapeutic-area preference labels, by rank
+    loe: list["LoeBrief"]  # US loss-of-exclusivity dates as recorded, earliest year first
+
+
+class LoeBrief(BaseModel):
+    product: str
+    us_loe: str
+
+
+def _loe_year(text: str) -> int:
+    # Sort key only: the first four-digit year in the recorded text; the text itself is shown as is.
+    if text.startswith("已发生"):  # already lost exclusivity
+        return 0
+    digits = [text[i : i + 4] for i in range(len(text) - 3) if text[i : i + 4].isdigit()]
+    return int(digits[0]) if digits else 9999
 
 
 class BuyerOut(Sourced):
@@ -191,6 +207,18 @@ def buyers(session: Session) -> list[BuyerSummary]:
             .group_by(BuyerPreference.buyer_id)
         ).all()
     )
+    areas: dict[int, list[str]] = defaultdict(list)
+    for p in session.exec(
+        select(BuyerPreference)
+        .where(BuyerPreference.dimension == "therapeutic_area")
+        .order_by(col(BuyerPreference.rank))
+    ).all():
+        if p.label:
+            areas[p.buyer_id].append(p.label)
+    loe: dict[int, list[LoeBrief]] = defaultdict(list)
+    for item in session.exec(select(BuyerProductLoe)).all():
+        if item.us_loe:
+            loe[item.buyer_id].append(LoeBrief(product=item.product, us_loe=item.us_loe))
     return [
         BuyerSummary(
             ticker=b.ticker,
@@ -198,6 +226,8 @@ def buyers(session: Session) -> list[BuyerSummary]:
             name_zh=b.name_zh,
             preferences=prefs.get(b.id, 0),
             primary_targets=primaries.get(b.id, 0),
+            therapeutic_areas=areas[b.id],
+            loe=sorted(loe[b.id], key=lambda x: _loe_year(x.us_loe)),
         )
         for b in session.exec(select(Buyer).order_by(Buyer.ticker)).all()
     ]

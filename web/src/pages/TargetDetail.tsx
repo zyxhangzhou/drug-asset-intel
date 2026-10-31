@@ -31,7 +31,7 @@ function Facts({ r }: { r: Recommendation }) {
         <div className="sub">保守分 / 乐观分（0–100）</div>
         <div>
           <span className="big">{r.conservative}</span>
-          <span className="sub" style={{ fontSize: 14 }}> / {r.optimistic}</span>
+          <span className="sub"> / {r.optimistic}</span>
           <span className="sub" style={{ marginLeft: 10 }}>覆盖率 {Math.round(r.coverage * 100)}% · {label(RESEARCH_STATUS, r.research_status)}</span>
         </div>
         <div className="range" aria-hidden>
@@ -117,9 +117,9 @@ function RecommendationView({ r }: { r: Recommendation }) {
           <Thesis text={r.thesis} sources={r.sources} />
         ) : (
           <div style={{ display: 'grid', gap: 8 }}>
-            <div>
-              <b style={{ fontSize: 15 }}>评分依据</b>
-              <span className="sub" style={{ marginLeft: 10 }}>仅经自动初筛，尚未撰写推荐逻辑；以下为各维度的打分规则与依据</span>
+            <div className="h-sub">
+              <b>评分依据</b>
+              <span className="sub">仅经自动初筛，尚未撰写推荐逻辑；以下为各维度的打分规则与依据</span>
             </div>
             <ScoreReasons r={r} />
           </div>
@@ -153,12 +153,12 @@ function OtherDirections({ items }: { items: Recommendation[] }) {
           title: '资产 × 适应症',
           render: (_, r) => (
             <div style={{ display: 'grid', gap: 2 }}>
-              <b><AssetName name={r.asset} /></b>
+              <span style={{ fontWeight: 500 }}><AssetName name={r.asset} /></span>
               <span className="sub">{r.indication ?? '—'} · {taLabel(r.therapeutic_area)}</span>
             </div>
           ),
         },
-        { title: '阶段', width: 70, render: (_, r) => label(STAGE, r.stage) },
+        { title: '研发阶段', width: 80, render: (_, r) => label(STAGE, r.stage) },
         {
           title: '买方 · 偏好',
           width: 220,
@@ -181,7 +181,7 @@ function OtherDirections({ items }: { items: Recommendation[] }) {
           align: 'right' as const,
           render: (_, r) => (
             <>
-              <span className="figure" style={{ fontSize: 15 }}>{r.conservative}</span>
+              <span className="total">{r.conservative}</span>
               <span className="sub"> / {r.optimistic}</span>
             </>
           ),
@@ -225,15 +225,10 @@ function View({ d }: { d: Detail }) {
         ticker={t.ticker}
         meta={
           <>
-            {t.shortlisted && <Tag color="gold">入选</Tag>}
+            {t.shortlisted && <Tag className="tag-pick">入选</Tag>}
             {t.deep_dive && <Tag color="purple">深度研究</Tag>}
             {t.excluded && <Tag color="red">已排除</Tag>}
-            {primary && (
-              <span>
-                主推荐方向：保守分 <b className="figure" style={{ color: 'var(--ink)' }}>{primary.conservative}</b> / 乐观分 {primary.optimistic} ·
-                覆盖率 {Math.round(primary.coverage * 100)}% · {label(RESEARCH_STATUS, primary.research_status)}
-              </span>
-            )}
+            {primary && <span>{label(RESEARCH_STATUS, primary.research_status)}</span>}
           </>
         }
       />
@@ -253,8 +248,10 @@ function View({ d }: { d: Detail }) {
           <RecommendationView r={primary} />
           {others.length > 0 && (
             <div style={{ marginTop: 24 }}>
-              <b style={{ fontSize: 15 }}>其他可能方向</b>
-              <span className="sub" style={{ marginLeft: 10 }}>不计入公司分数；点开一行查看评分依据</span>
+              <div className="h-sub">
+                <b>其他可能方向</b>
+                <span className="sub">不计入公司分数；点开一行查看评分依据</span>
+              </div>
               <div style={{ marginTop: 10 }}>
                 <OtherDirections items={others} />
               </div>
@@ -282,8 +279,8 @@ function View({ d }: { d: Detail }) {
         </Card>
       )}
 
+      <Card size="small" className="tabs-card">
       <Tabs
-        style={{ marginTop: 32 }}
         items={[
           {
             key: 'pipeline',
@@ -309,11 +306,10 @@ function View({ d }: { d: Detail }) {
                         <div style={{ display: 'grid', gap: 2 }}>
                           {p.indications.map((i) => (
                             <span key={i.id}>
-                              <Sourced sources={i.sources} field="indication">{i.indication ?? '—'}</Sourced>
-                              {' · '}
-                              <Sourced sources={i.sources} field="therapeutic_area">{taLabel(i.therapeutic_area)}</Sourced>
-                              {' · '}
-                              <Sourced sources={i.sources} field="stage"><Tag>{label(STAGE, i.stage)}</Tag></Sourced>
+                              <Sourced sources={i.sources} field={['indication', 'therapeutic_area', 'stage']}>
+                                {i.indication ?? '—'} <span className="sub">· {taLabel(i.therapeutic_area)} ·</span>{' '}
+                                <Tag style={{ marginInlineEnd: 0 }}>{label(STAGE, i.stage)}</Tag>
+                              </Sourced>
                             </span>
                           ))}
                         </div>
@@ -396,6 +392,7 @@ function View({ d }: { d: Detail }) {
           },
         ]}
       />
+      </Card>
     </>
   )
 }
