@@ -1,4 +1,6 @@
 import csv
+import hashlib
+import json
 import shutil
 from pathlib import Path
 
@@ -9,10 +11,11 @@ from test_financials import PRICE_ROWS, SHARES, duration, facts, instant, write_
 
 from intel.build import build_snapshot
 from intel.db import provenance_gaps, rw_engine
+from intel.docs.documents import COLUMNS
 from intel.enums import ClaimKind, ResearchStatus
 from intel.ingest import Inputs
 from intel.ingest import financials as fin
-from intel.models import Claim, Match, Recommendation, Target
+from intel.models import Claim, Match, Recommendation, Source, Target
 from intel.scoring import screen
 from intel.scoring.review import ReviewError
 
@@ -176,6 +179,28 @@ def test_unknown_source_fails_build(tmp_path):
     )
     with pytest.raises(ReviewError, match="MAN-NOPE"):
         build(tmp_path, manual_dir(tmp_path, review))
+
+
+def test_review_may_cite_archived_document(tmp_path):
+    sid, text = "DOC-VKTX-0000abcd", "Topline results of the VENTURE study."
+    docs = tmp_path / "raw" / "docs" / "VKTX"
+    docs.mkdir(parents=True)
+    (docs / f"{sid}.txt").write_text(text)
+    meta = {"status": "ok", "fetched_at": "2026-10-30T10:00:00+00:00",
+            "text_sha256": hashlib.sha256(text.encode()).hexdigest()}  # fmt: skip
+    (docs / f"{sid}.meta.json").write_text(json.dumps(meta))
+    review = REVIEW.replace("{rights}", "full").replace(
+        '["MAN-VKTX-1"]\n\n[event]', f'["MAN-VKTX-1", "{sid}"]\n\n[event]'
+    )
+    manual = manual_dir(tmp_path, review)
+    (manual / "documents.csv").write_text(
+        ",".join(COLUMNS) + f"\nVKTX,https://www.sec.gov/x.htm,press_release,PR,2026-08-01,{sid},\n"
+    )
+    db, _ = build(tmp_path, manual)
+    with Session(rw_engine(db)) as s:
+        source = s.get(Source, sid)
+        assert source.content_hash == meta["text_sha256"]
+        assert provenance_gaps(s) == []
 
 
 def test_restricted_rights_block_acquisition(tmp_path):

@@ -14,6 +14,7 @@ from pathlib import Path
 from sqlmodel import select
 
 from intel import scoring
+from intel.docs.documents import read_documents
 from intel.enums import (
     ClaimKind,
     Confidence,
@@ -24,6 +25,7 @@ from intel.enums import (
     RightsStatus,
     Stage,
 )
+from intel.extract.load import document_source
 from intel.ingest import SNAPSHOT_DATE, BuildContext
 from intel.models import (
     BuyerPreference,
@@ -540,7 +542,12 @@ def _register_manual_sources(ctx: BuildContext, reviews: dict[str, Review]) -> N
         ctx.session.add(source)
     ctx.session.flush()
     known = set(ctx.session.exec(select(Source.source_id)).all())
+    docs = {d.source_id: d for d in read_documents(ctx.inputs.documents)[0]}
     for review in reviews.values():
+        # An archived document of documents.csv is registered the way extractions register it.
+        for source_id in sorted((review.all_sources() - known) & docs.keys()):
+            document_source(ctx, docs, source_id, review.path.name)
+            known.add(source_id)
         missing = sorted(review.all_sources() - known)
         if missing:
             raise ReviewError(f"{review.path.name}: unregistered source id(s) {', '.join(missing)}")

@@ -105,7 +105,9 @@ def _contains_words(hay: tuple[str, ...], needle: tuple[str, ...]) -> bool:
 # --- sources --------------------------------------------------------------------------
 
 
-def _source(ctx: BuildContext, docs: dict[str, Document], source_id: str, where: str) -> Source:
+def document_source(
+    ctx: BuildContext, docs: dict[str, Document], source_id: str, where: str
+) -> Source:
     """The archived source of an item; registers DOC- sources and fills archive fields."""
     doc = docs.get(source_id)
     if doc is None:
@@ -168,7 +170,7 @@ def ingest(ctx: BuildContext) -> None:
                 undecided += item.decision == ""
                 continue
             where = f"{path.name} item {item.id}"
-            source = _source(ctx, docs, item.source_id, where)
+            source = document_source(ctx, docs, item.source_id, where)
             if item.source_id not in texts:
                 texts[item.source_id] = normalize(Path(source.local_path).read_text("utf-8"))
             problem = quote_problem(item.quotes, item.values, texts[item.source_id])
