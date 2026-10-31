@@ -40,7 +40,7 @@
 | 4 | M | 编号与药名对照补强 | 代码 | `trial-ids` | L | archived（`openspec/changes/archive/2026-10-31-trial-ids`；修改主 spec `extraction-review`） |
 | 5 | F | 深度填充 3–5 家 | 研究 | — | D, E, K, L, M | done（5 家抽取与复核文件已签字入库） |
 | 5 | G | Web 应用样板 | 代码 | `web-app` | B, C, E | done（归档 `2026-11-01-web-app`；20 项任务，含用户评审后的视觉改版） |
-| 6 | H | Excel 导出与抽样核验 | 代码 + 研究 | `export-verify` | F, G | planned |
+| 6 | H | Excel 导出与抽样核验 | 代码 + 研究 | `export-verify` | F, G | in progress（OpenSpec 变更已建，4 组 13 项任务） |
 | 7 | I | 部署与交付文档 | 交付 | `deploy-docs` | H | planned |
 | — | J | 带引用的 RAG 问答（可选） | 代码 | `ask-platform` | D, I | planned |
 
@@ -200,3 +200,4 @@
 - 2026-10-31 · 69dd30f7-bc86-4fc2-b36d-dea57ab87358 · G：建 OpenSpec 变更 `web-app`（新增 `app-views`，修改 `app-runtime`），4 组 13 项任务，校验通过
 - 2026-10-31 · 69dd30f7-bc86-4fc2-b36d-dea57ab87358 · G：用户确认清单后实现 13 项任务。6 个只读接口 + 候选名单加治疗领域；前端 8 个路由；深链接返回首页、未知 /api 404；Docker 镜像带入存档原文（24 个 .txt）。282 项测试、ruff、npm build、oxlint 通过；Playwright 走查 6 项能力截图存 docs/screenshots/。待归档
 - 2026-11-01 · 69dd30f7-bc86-4fc2-b36d-dea57ab87358 · G：用户评审后追加视觉改版 7 项（顶栏对齐、表格不横向滚动、无衬线数据产品风格、推荐逻辑分项、长文本排版、「推荐方向」用语、设计审查后字号收为 5 级与对比度修正、概览页结论先行）；`/api/buyers` 新增治疗领域偏好与专利到期字段。规格同步：新增主 spec `app-views`，合并 `app-runtime` 两条修改；归档为 `2026-11-01-web-app`。G 完成
+- 2026-11-01 · 69dd30f7-bc86-4fc2-b36d-dea57ab87358 · H：用户按推荐确定：收购成本 = EV × 有来源的溢价区间（只填 5 家深度研究公司）；抽样每层 30。建 OpenSpec 变更 `export-verify`（新增 `baseline-export`、`data-verification`，修改 `analyst-review`），校验通过
