@@ -25,7 +25,7 @@ const ROWS: [string, (i: ShortlistItem) => ReactNode][] = [
   ['企业价值', (i) => money(i.enterprise_value)],
   ['资产权益', (i) => (i.rights_status ? label(RIGHTS, i.rights_status) : '待核实')],
   ['资金状况', (i) => i.funding_flag ?? '—'],
-  ['两句话论点', (i) => <span style={{ lineHeight: 1.75 }}>{i.thesis ?? '—'}</span>],
+  ['推荐逻辑', (i) => <span style={{ lineHeight: 1.75 }}>{i.thesis ?? '—'}</span>],
 ]
 
 export default function Compare() {

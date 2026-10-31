@@ -67,13 +67,19 @@ function RecommendationView({ r }: { r: Recommendation }) {
   return (
     <>
       <div className="review-top">
-        {r.thesis ? (
-          <p className="thesis">
-            <Sourced sources={r.sources} field="thesis">{r.thesis}</Sourced>
-          </p>
-        ) : (
-          <p className="note">尚无两句话论点（未复核）。</p>
-        )}
+        <div style={{ display: 'grid', gap: 8 }}>
+          <div>
+            <b style={{ fontSize: 15 }}>推荐逻辑</b>
+            <span className="sub" style={{ marginLeft: 10 }}>两句话：买方需求与资产的对应；证据、下一事件与主要障碍</span>
+          </div>
+          {r.thesis ? (
+            <p className="thesis">
+              <Sourced sources={r.sources} field="thesis">{r.thesis}</Sourced>
+            </p>
+          ) : (
+            <p className="note">仅经自动初筛，尚未撰写推荐逻辑。</p>
+          )}
+        </div>
         <Facts r={r} />
       </div>
       <dl className="fields">

@@ -42,7 +42,7 @@
 
 #### Scenario: Deep-dive company
 - **WHEN** 打开 VKTX 的公司详情
-- **THEN** 页面显示 VK2735 的适应症与阶段、复核结论与两句话论点、催化事件与财务快照
+- **THEN** 页面显示 VK2735 的适应症与阶段、复核结论与推荐逻辑、催化事件与财务快照
 
 #### Scenario: Unknown company
 - **WHEN** 请求不存在的公司代码
