@@ -53,18 +53,28 @@ def test_every_cited_source_is_listed(book):
 
 def test_status_counts_cover_every_company(book):
     sheets, _ = book
-    companies = rows_of(sheets["候选公司"])
+    companies = rows_of(sheets["候选公司"]) + rows_of(sheets["其余评估公司"])
     counts = [
         int(re.search(r"(\d+) 家", r[0]).group(1)) for r in sheets["说明"] if r[0] and "家" in r[0]
     ]
     assert len(counts) == 3 and sum(counts) == len(companies)
 
 
+def test_main_sheet_holds_only_the_shortlist(book):
+    sheets, _ = book
+    picked = {r["代码"] for r in rows_of(sheets["候选公司"])}
+    rest = rows_of(sheets["其余评估公司"])
+    assert 20 <= len(picked) <= 30 and not picked & {r["代码"] for r in rest}
+    assert all(r["未入选原因"] for r in rest)
+    for title in ("管线", "临床数据", "催化事件"):
+        assert {r["代码"] for r in rows_of(sheets[title])} <= picked
+
+
 def test_shortlisted_row_has_thesis_and_financials(book):
     sheets, _ = book
     vktx = next(r for r in rows_of(sheets["候选公司"]) if r["代码"] == "VKTX")
-    assert vktx["入选"] == "是" and vktx["推荐逻辑（入选理由）"] and vktx["推荐逻辑来源"]
+    assert vktx["推荐逻辑（入选理由）"] and vktx["推荐逻辑来源"]
     assert vktx["市值（百万美元）"] and "NASDAQ-VKTX" in vktx["市值来源"]
-    assert vktx["未入选原因"] is None
+    assert vktx["收购成本下限（百万美元）"] and "MAN-PREM-" in vktx["收购成本来源"]
     catalysts = [r for r in rows_of(sheets["催化事件"]) if r["代码"] == "VKTX"]
     assert {r["出处"] for r in catalysts} >= {"推荐方向的下一事件", "CT.gov 预计主要完成日（推断）"}

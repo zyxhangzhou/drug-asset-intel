@@ -120,13 +120,22 @@ def export(db_session: Session, out: Path, outputs_dir: Path | None = None) -> P
     wb.remove(wb.active)
     longlist = _csv(outputs_dir / "longlist.csv" if outputs_dir else None)
     reasons = {row["ticker"]: row["not_shortlisted_reason"] for row in longlist}
-    status_counts = _companies(wb, db_session, cite, reasons)
-    _pipeline(wb, db_session, cite)
-    _clinical(wb, db_session, cite)
-    _catalysts(wb, db_session, cite, snapshot)
+    status_counts, picked = _companies(wb, db_session, cite, reasons)
+    _pipeline(wb, db_session, cite, picked)
+    _clinical(wb, db_session, cite, picked)
+    _catalysts(wb, db_session, cite, snapshot, picked)
     _sources(wb, db_session, cite.ids)
     _gaps(wb, _csv(outputs_dir / "gaps.csv" if outputs_dir else None))
-    _readme(wb, meta, status_counts)
+    universe = len(db_session.exec(select(Target)).all())
+    scored = sum(status_counts.values())
+    sizes = {
+        "universe": universe,
+        "excluded": universe - scored,
+        "scored": scored,
+        "picked": len(picked),
+        "rest": scored - len(picked),
+    }
+    _readme(wb, meta, status_counts, sizes)
     wb.move_sheet("说明", offset=-(len(wb.sheetnames) - 1))
     out.parent.mkdir(parents=True, exist_ok=True)
     wb.save(out)
@@ -151,7 +160,10 @@ def _sheet(wb: Workbook, title: str, header: list[tuple[str, int]], rows: Iterab
     ws.auto_filter.ref = ws.dimensions
 
 
-def _companies(wb: Workbook, s: Session, cite: Cited, reasons: dict[str, str]) -> dict[str, int]:
+def _companies(
+    wb: Workbook, s: Session, cite: Cited, reasons: dict[str, str]
+) -> tuple[dict[str, int], set[int]]:
+    """候选公司 holds the shortlist only; every other scored company gets a row in 其余评估公司."""
     recs = s.exec(select(Recommendation).where(Recommendation.is_primary)).all()
     outs = views._recommendations(s, list(recs))
     fins = {
@@ -159,26 +171,43 @@ def _companies(wb: Workbook, s: Session, cite: Cited, reasons: dict[str, str]) -
         for f in s.exec(select(FinancialSnapshot).order_by(col(FinancialSnapshot.as_of))).all()
     }
     fin_src = views.claims_by_entity(s, "financial_snapshot", (f.id for f in fins.values()))
-    rows, counts = [], dict.fromkeys(STATUS, 0)
+    rows, rest, counts = [], [], dict.fromkeys(STATUS, 0)
     order = sorted(
         zip(recs, outs, strict=True), key=lambda x: (-x[1].conservative, x[0].target.ticker)
     )
-    for rank, (rec, o) in enumerate(order, 1):
+    for rec, o in order:
         t: Target = rec.target
+        counts[o.research_status] += 1
+        if not t.shortlisted:
+            rest.append(
+                [
+                    t.ticker,
+                    t.name,
+                    STATUS[o.research_status],
+                    o.asset,
+                    o.indication,
+                    _ta(o.therapeutic_area),
+                    STAGE.get(o.stage or "unknown"),
+                    o.buyer,
+                    *[o.scores[d] for d in DIMENSIONS],
+                    o.conservative,
+                    o.optimistic,
+                    round(o.coverage * 100),
+                    reasons.get(t.ticker),
+                ]
+            )
+            continue
         f = fins.get(t.id)
         fs = fin_src.get(f.id, {}) if f else {}
-        counts[o.research_status] += 1
         rows.append(
             [
-                rank,
+                len(rows) + 1,
                 t.ticker,
                 t.name,
                 t.cik,
                 STATUS[o.research_status],
-                "是" if t.shortlisted else "",
                 o.thesis,
                 cite(o.sources, "thesis"),
-                None if t.shortlisted else reasons.get(t.ticker),
                 o.asset,
                 o.indication,
                 _ta(o.therapeutic_area),
@@ -219,10 +248,8 @@ def _companies(wb: Workbook, s: Session, cite: Cited, reasons: dict[str, str]) -
             ("公司", 26),
             ("CIK", 11),
             ("研究状态", 9),
-            ("入选", 6),
             ("推荐逻辑（入选理由）", 60),
             ("推荐逻辑来源", 24),
-            ("未入选原因", 20),
             ("主推荐资产", 22),
             ("适应症", 26),
             ("治疗领域", 14),
@@ -255,11 +282,36 @@ def _companies(wb: Workbook, s: Session, cite: Cited, reasons: dict[str, str]) -
         ],
         rows,
     )
-    return counts
+    _sheet(
+        wb,
+        "其余评估公司",
+        [
+            ("代码", 8),
+            ("公司", 26),
+            ("研究状态", 9),
+            ("主推荐资产", 22),
+            ("适应症", 26),
+            ("治疗领域", 14),
+            ("研发阶段", 9),
+            ("主要买方", 16),
+            *[(DIMENSION_LABELS[d] + "（0–4）", 9) for d in DIMENSIONS],
+            ("保守分", 8),
+            ("乐观分", 8),
+            ("证据覆盖率（%）", 8),
+            ("未入选原因", 24),
+        ],
+        rest,
+    )
+    picked = {rec.target_id for rec in recs if rec.target.shortlisted}
+    return counts, picked
 
 
-def _pipeline(wb: Workbook, s: Session, cite: Cited) -> None:
-    programs = s.exec(select(Program).order_by(col(Program.target_id), col(Program.name))).all()
+def _pipeline(wb: Workbook, s: Session, cite: Cited, picked: set[int]) -> None:
+    programs = s.exec(
+        select(Program)
+        .where(col(Program.target_id).in_(picked))
+        .order_by(col(Program.target_id), col(Program.name))
+    ).all()
     psrc = views.claims_by_entity(s, "program", (p.id for p in programs))
     pis = [pi for p in programs for pi in p.indications]
     isrc = views.claims_by_entity(s, "program_indication", (pi.id for pi in pis))
@@ -303,11 +355,13 @@ def _pipeline(wb: Workbook, s: Session, cite: Cited) -> None:
     )
 
 
-def _clinical(wb: Workbook, s: Session, cite: Cited) -> None:
+def _clinical(wb: Workbook, s: Session, cite: Cited, picked: set[int]) -> None:
     rows = []
     reviewed = s.exec(
         select(Recommendation).where(
-            Recommendation.is_primary, col(Recommendation.result).is_not(None)
+            Recommendation.is_primary,
+            col(Recommendation.result).is_not(None),
+            col(Recommendation.target_id).in_(picked),
         )
     ).all()
     for rec, o in zip(reviewed, views._recommendations(s, list(reviewed)), strict=True):
@@ -328,7 +382,10 @@ def _clinical(wb: Workbook, s: Session, cite: Cited) -> None:
             ]
         )
     results = s.exec(
-        select(TrialResult).order_by(col(TrialResult.trial_id), col(TrialResult.id))
+        select(TrialResult)
+        .join(Trial, col(Trial.id) == col(TrialResult.trial_id))
+        .where(col(Trial.target_id).in_(picked))
+        .order_by(col(TrialResult.trial_id), col(TrialResult.id))
     ).all()
     rsrc = views.claims_by_entity(s, "trial_result", (r.id for r in results))
     for r in results:
@@ -378,9 +435,11 @@ def _clinical(wb: Workbook, s: Session, cite: Cited) -> None:
     )
 
 
-def _catalysts(wb: Workbook, s: Session, cite: Cited, snapshot: date | None) -> None:
+def _catalysts(
+    wb: Workbook, s: Session, cite: Cited, snapshot: date | None, picked: set[int]
+) -> None:
     rows = []
-    cats = s.exec(select(Catalyst)).all()
+    cats = s.exec(select(Catalyst).where(col(Catalyst.target_id).in_(picked))).all()
     csrc = views.claims_by_entity(s, "catalyst", (c.id for c in cats))
     for c in cats:
         window = f"{c.window_start or '?'} – {c.window_end or '?'}"
@@ -397,7 +456,9 @@ def _catalysts(wb: Workbook, s: Session, cite: Cited, snapshot: date | None) -> 
         )
     recs = s.exec(
         select(Recommendation).where(
-            Recommendation.is_primary, col(Recommendation.next_event).is_not(None)
+            Recommendation.is_primary,
+            col(Recommendation.next_event).is_not(None),
+            col(Recommendation.target_id).in_(picked),
         )
     ).all()
     for rec, o in zip(recs, views._recommendations(s, list(recs)), strict=True):
@@ -417,6 +478,7 @@ def _catalysts(wb: Workbook, s: Session, cite: Cited, snapshot: date | None) -> 
         trials = s.exec(
             select(Trial).where(
                 col(Trial.indication_id).is_not(None),
+                col(Trial.target_id).in_(picked),
                 col(Trial.primary_completion_date) >= snapshot.isoformat(),
                 col(Trial.primary_completion_date) <= end,
             )
@@ -498,8 +560,10 @@ README = [
     ("快照生成时间", "{generated_at}"),
     ("生成程序", "{generator}"),
     ("", ""),
-    ("候选公司", "每家公司一行，按主推荐方向的保守分排序（题面第二部分 1、6 项）"),
+    ("候选公司", "入选的 {picked} 家，每家一行，按主推荐方向的保守分排序（题面第二部分 1、6 项）"),
     ("", "主推荐方向 = 资产 × 适应症 × 买方；公司分数按它计算"),
+    ("其余评估公司", "参与打分但未入选的 {rest} 家：研究状态、分数与未入选原因"),
+    ("", "管线、临床数据、催化事件三张表只含入选公司；其余公司的数据可在应用中查看"),
     ("管线", "药物、作用机制、适应症与研发阶段（第 2、3 项）"),
     ("临床数据", "复核结论与试验结果，含相对标准治疗的优势（第 4 项）"),
     ("催化事件", "快照日起 24 个月内的事件（第 5 项）"),
@@ -515,19 +579,26 @@ README = [
     ("收购成本", "企业价值 + 市值 × 收购溢价区间，为推断"),
     ("", "只对深度研究公司填写；方法与来源见收购成本来源列"),
     ("", ""),
-    ("完成情况", "按研究状态："),
+    (
+        "完成情况",
+        "成分公司 {universe} 家，排除 {excluded} 家，{scored} 家参与打分，"
+        "入选 {picked} 家；按研究状态：",
+    ),
     ("深度研究 {deep} 家", "复核全部字段，另核对临床数据、催化事件，并估算收购成本"),
     ("已复核 {reviewed} 家", "人工复核推荐方向、五维分数、资产权益、下一事件与推荐逻辑"),
     ("自动初筛 {auto} 家", "结构化字段自动填充，五维分数按规则计算；未人工复核，不入选"),
 ]
 
 
-def _readme(wb: Workbook, meta: SnapshotMeta | None, counts: dict[str, int]) -> None:
+def _readme(
+    wb: Workbook, meta: SnapshotMeta | None, counts: dict[str, int], sizes: dict[str, int]
+) -> None:
     ws = wb.create_sheet("说明")
     ws.column_dimensions["A"].width = 22
     ws.column_dimensions["B"].width = 80
     values = {
         **counts,
+        **sizes,
         "snapshot_date": meta.snapshot_date.isoformat() if meta and meta.snapshot_date else "未知",
         "generated_at": meta.generated_at.isoformat() if meta else "未知",
         "generator": meta.generator if meta else "未知",
