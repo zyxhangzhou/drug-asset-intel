@@ -28,9 +28,17 @@ function Shell() {
         <div className="frame">
           <div className="masthead-row">
             <Link to="/" className="brand">
-              <span className="brand-name">全球创新药资产情报平台</span>
-              <span className="brand-sub">
-                10 家大型药企 × 标普生物科技指数成分公司{snapshot ? ` · 数据截至 ${snapshot}` : ''}
+              <svg className="brand-mark" width="28" height="28" viewBox="0 0 28 28" aria-hidden>
+                <rect width="28" height="28" rx="7" fill="var(--accent)" />
+                <path d="M9 9.5 19 18.5" stroke="#fff" strokeOpacity=".55" strokeWidth="1.6" />
+                <circle cx="9" cy="9.5" r="3" fill="#fff" />
+                <circle cx="19" cy="18.5" r="3" fill="none" stroke="#fff" strokeWidth="1.6" />
+              </svg>
+              <span className="brand-text">
+                <span className="brand-name">全球创新药资产情报平台</span>
+                <span className="brand-sub">
+                  10 家大型药企 × 标普生物科技指数成分公司{snapshot ? ` · 数据截至 ${snapshot}` : ''}
+                </span>
               </span>
             </Link>
             <nav className="nav" aria-label="主导航">

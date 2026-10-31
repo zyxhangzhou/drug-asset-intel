@@ -16,6 +16,7 @@ export default function Buyers() {
       <Loaded state={state}>
         {(rows) => (
           <Table
+ className="table-panel"
             rowKey="ticker"
             size="middle"
             pagination={false}
@@ -24,7 +25,7 @@ export default function Buyers() {
               {
                 title: '买方',
                 render: (_, b) => (
-                  <Link to={`/buyers/${b.ticker}`} className="serif" style={{ fontSize: 16, fontWeight: 600 }}>
+                  <Link to={`/buyers/${b.ticker}`} style={{ fontSize: 16, fontWeight: 600 }}>
                     {b.name_zh ?? b.name}
                   </Link>
                 ),

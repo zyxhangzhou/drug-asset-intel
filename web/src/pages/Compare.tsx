@@ -25,7 +25,7 @@ const ROWS: [string, (i: ShortlistItem) => ReactNode][] = [
   ['企业价值', (i) => money(i.enterprise_value)],
   ['资产权益', (i) => (i.rights_status ? label(RIGHTS, i.rights_status) : '待核实')],
   ['资金状况', (i) => i.funding_flag ?? '—'],
-  ['两句话论点', (i) => <span className="serif" style={{ lineHeight: 1.75 }}>{i.thesis ?? '—'}</span>],
+  ['两句话论点', (i) => <span style={{ lineHeight: 1.75 }}>{i.thesis ?? '—'}</span>],
 ]
 
 export default function Compare() {
@@ -46,6 +46,7 @@ export default function Compare() {
             <>
               {missing.length > 0 && <Alert type="warning" title={`未找到：${missing.join('、')}`} style={{ marginBottom: 12 }} />}
               <Table
+ className="table-panel"
                 rowKey="0"
                 size="small"
                 bordered
@@ -56,7 +57,7 @@ export default function Compare() {
                   { title: '', render: (_, r) => <span className="sub" style={{ fontSize: 13 }}>{r[0]}</span>, width: 150, fixed: 'left' },
                   ...found.map((i) => ({
                     title: (
-                      <Link to={`/targets/${i.ticker}`} className="serif" style={{ fontSize: 15, letterSpacing: 0 }}>
+                      <Link to={`/targets/${i.ticker}`} style={{ fontSize: 15, letterSpacing: 0 }}>
                         {i.name} <span className="sub">{i.ticker}</span>
                       </Link>
                     ),

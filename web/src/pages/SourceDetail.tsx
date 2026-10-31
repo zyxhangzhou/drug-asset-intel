@@ -65,7 +65,7 @@ function View({ d, quote }: { d: Detail; quote: string | null }) {
         title={d.title ?? d.source_id}
         meta={
           <>
-            <b style={{ color: 'var(--ink)' }}>{d.source_id}</b>
+            <b className="mono" style={{ color: 'var(--ink)' }}>{d.source_id}</b>
             <span>{label(SOURCE_TYPE, d.source_type)}{d.doc_kind ? ` · ${d.doc_kind}` : ''}</span>
             {d.publisher && <span>{d.publisher}</span>}
           </>

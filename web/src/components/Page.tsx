@@ -1,6 +1,6 @@
 import type { ReactNode } from 'react'
 
-// Page title block shared by every page: serif title, optional ticker, a meta line and a lead paragraph.
+// Page title block shared by every page: title, optional ticker, a meta line and a lead paragraph.
 export function PageHead({ title, ticker, meta, lead }: { title: ReactNode; ticker?: string; meta?: ReactNode; lead?: ReactNode }) {
   return (
     <header className="page-head">

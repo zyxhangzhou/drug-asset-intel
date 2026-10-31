@@ -1,56 +1,54 @@
 import type { ThemeConfig } from 'antd'
 
 // Mirrors the variables in index.css; antd cannot read CSS variables for its derived colours.
-const ink = '#1b2422'
-const accent = '#0d5257'
-const rule = '#d8d2c3'
-const paper = '#f5f2ea'
-const sheet = '#fffdf7'
+const ink = '#111827'
+const accent = '#2b50c8'
+const line = '#e5e7eb'
+const panel2 = '#f9fafb'
 
 export const theme: ThemeConfig = {
   token: {
     colorPrimary: accent,
     colorLink: accent,
     colorText: ink,
-    colorTextSecondary: '#4c5652',
-    colorTextTertiary: '#6a726e',
-    colorBorder: '#c9c2b1',
-    colorBorderSecondary: rule,
-    colorBgLayout: paper,
-    colorBgContainer: sheet,
-    colorBgElevated: sheet,
-    colorFillAlter: '#efebe0',
-    colorSuccess: '#2e7d4f',
-    colorWarning: '#b26b12',
-    colorError: '#a23b2c',
+    colorTextSecondary: '#374151',
+    colorTextTertiary: '#6b7280',
+    colorBorder: '#d1d5db',
+    colorBorderSecondary: line,
+    colorBgLayout: '#f5f6f8',
+    colorBgContainer: '#ffffff',
+    colorBgElevated: '#ffffff',
+    colorFillAlter: panel2,
+    colorSuccess: '#1f9254',
+    colorWarning: '#c27215',
+    colorError: '#c2362b',
     colorInfo: accent,
-    borderRadius: 3,
-    borderRadiusSM: 2,
-    borderRadiusLG: 4,
-    fontFamily: "'Inter Variable', 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', system-ui, sans-serif",
+    borderRadius: 6,
+    borderRadiusSM: 4,
+    borderRadiusLG: 8,
+    fontFamily: "'Inter Variable', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif",
     fontSize: 14,
-    boxShadowSecondary: '0 8px 24px -6px rgba(27, 36, 34, 0.18), 0 2px 6px rgba(27, 36, 34, 0.08)',
+    boxShadowSecondary: '0 12px 32px -8px rgba(17, 24, 39, 0.18), 0 2px 6px rgba(17, 24, 39, 0.06)',
   },
   components: {
     Table: {
-      headerBg: 'transparent',
-      headerSplitColor: 'transparent',
-      rowHoverBg: '#efebe0',
-      rowSelectedBg: '#e2ecea',
-      rowSelectedHoverBg: '#d6e5e2',
-      borderColor: rule,
-      cellPaddingBlockSM: 8,
-      cellPaddingInlineSM: 8,
-      headerSortActiveBg: '#efebe0',
-      headerSortHoverBg: '#efebe0',
+      headerBg: panel2,
+      rowHoverBg: panel2,
+      rowSelectedBg: '#eef2fd',
+      rowSelectedHoverBg: '#e3e9fb',
+      borderColor: line,
+      cellPaddingBlockSM: 9,
+      cellPaddingInlineSM: 10,
+      headerSortActiveBg: '#f1f3f6',
+      headerSortHoverBg: '#f1f3f6',
       bodySortBg: 'transparent',
-      fixedHeaderSortActiveBg: '#efebe0',
+      fixedHeaderSortActiveBg: '#f1f3f6',
     },
-    Descriptions: { labelBg: '#efebe0', titleMarginBottom: 8 },
-    Tabs: { itemColor: '#4c5652', inkBarColor: accent, titleFontSize: 15 },
-    Tag: { defaultBg: '#efebe0', defaultColor: '#4c5652' },
+    Descriptions: { labelBg: panel2, titleMarginBottom: 8 },
+    Tabs: { itemColor: '#374151', inkBarColor: accent, titleFontSize: 14 },
+    Tag: { defaultBg: '#f3f4f6', defaultColor: '#374151' },
     Popover: { titleMinWidth: 280 },
-    Collapse: { headerBg: '#efebe0', contentBg: 'transparent' },
+    Collapse: { headerBg: panel2, contentBg: '#ffffff' },
     Alert: { withDescriptionPadding: '12px 16px' },
   },
 }

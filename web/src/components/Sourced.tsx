@@ -2,6 +2,7 @@ import { Popover, Space, Tag, Typography } from 'antd'
 import type { ReactNode } from 'react'
 import { Link } from 'react-router'
 import type { Claim, Sources } from '../api/client'
+import { RichText } from './RichText'
 import { CONFIDENCE, KIND, label, PRODUCED_BY, SOURCE_TYPE } from '../labels'
 
 // Marker colours: fact from an official interface or manual record, inference, LLM extraction.
@@ -114,4 +115,11 @@ export function Legend() {
       <span>点击标记查看来源</span>
     </div>
   )
+}
+
+// Long analyst text, typeset by RichText, with the provenance marker after its last sentence.
+export function SourcedText({ sources, field, text }: { sources: Sources; field: string | string[]; text: string | null | undefined }) {
+  const fields = Array.isArray(field) ? field : [field]
+  const claims = fields.flatMap((f) => sources[f] ?? [])
+  return <RichText text={text}>{claims.length > 0 && <Marker claims={claims} />}</RichText>
 }

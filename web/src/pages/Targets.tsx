@@ -77,6 +77,7 @@ function List({ items }: { items: ShortlistItem[] }) {
         保守分把缺失维度按 0 分计，乐观分按 4 分计；两者差距越大，研究越不充分。勾选 2–4 家可对比。
       </p>
       <Table
+ className="table-panel"
         rowKey="ticker"
         size="small"
         dataSource={rows}
@@ -90,7 +91,7 @@ function List({ items }: { items: ShortlistItem[] }) {
           columnWidth: 36,
         }}
         columns={[
-          { title: '排名', dataIndex: 'rank', width: 56, align: 'right', sorter: (a, b) => a.rank - b.rank, render: (v) => <span className="figure">{v}</span> },
+          { title: '排名', dataIndex: 'rank', width: 66, align: 'right', sorter: (a, b) => a.rank - b.rank, render: (v) => <span className="figure">{v}</span> },
           {
             title: '公司',
             width: 210,
@@ -107,7 +108,7 @@ function List({ items }: { items: ShortlistItem[] }) {
           },
           {
             title: '主组合：资产 · 适应症',
-            width: 200,
+            width: 180,
             render: (_, r) => (
               <div style={{ display: 'grid', gap: 2, minWidth: 0 }}>
                 <Typography.Text ellipsis={{ tooltip: r.asset }} style={{ fontWeight: 500 }}>{r.asset ?? '—'}</Typography.Text>
@@ -144,7 +145,7 @@ function List({ items }: { items: ShortlistItem[] }) {
               </>
             ),
           },
-          { title: '覆盖率', width: 70, align: 'right', render: (_, r) => `${Math.round(r.coverage * 100)}%`, sorter: (a, b) => a.coverage - b.coverage },
+          { title: '覆盖率', width: 82, align: 'right', render: (_, r) => `${Math.round(r.coverage * 100)}%`, sorter: (a, b) => a.coverage - b.coverage },
           { title: '企业价值', width: 90, align: 'right', render: (_, r) => money(r.enterprise_value), sorter: (a, b) => (a.enterprise_value ?? 0) - (b.enterprise_value ?? 0) },
         ]}
       />
@@ -162,7 +163,7 @@ export default function Targets() {
         title="候选公司"
         lead="每家公司一行，按主组合的保守分排序。调整评分权重只在本页重排，不修改数据快照。"
       />
-      <div className="toolbar" style={{ padding: '10px 14px', background: 'var(--sheet)', border: '1px solid var(--rule)', marginBottom: 20 }}>
+      <div className="toolbar" style={{ padding: '10px 14px', background: 'var(--panel)', border: '1px solid var(--line)', borderRadius: 8, marginBottom: 20 }}>
         <b style={{ fontSize: 13 }}>评分权重</b>
         {DIMENSIONS.map((d, i) => (
           <label key={d.key} style={{ display: 'inline-flex', gap: 6, alignItems: 'center', fontSize: 13 }}>

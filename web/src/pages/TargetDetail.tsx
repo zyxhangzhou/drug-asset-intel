@@ -4,54 +4,86 @@ import { fetchTarget, type Recommendation, type TargetDetail as Detail, type Tri
 import { useApi } from '../api/useApi'
 import { Loaded } from '../components/Loaded'
 import { PageHead, Score } from '../components/Page'
-import { Legend, Sourced } from '../components/Sourced'
+import { Legend, Sourced, SourcedText } from '../components/Sourced'
 import { CATALYST_TYPE, DATE_TYPE, DIMENSIONS, label, money, RESEARCH_STATUS, RIGHTS, STAGE, taLabel } from '../labels'
 
 const REVIEW_FIELDS: [keyof Recommendation, string][] = [
   ['need_item', '对应买方需求'],
   ['match_note', '匹配说明'],
-  ['deal_form', '可能的交易形式'],
   ['design', '研究设计'],
-  ['comparability', '可比性'],
   ['result', '结果'],
+  ['comparability', '可比性'],
   ['limitation', '局限'],
   ['next_event', '下一事件'],
-  ['event_timing', '事件时间'],
   ['funding_flag', '资金状况'],
 ]
+
+// Key facts beside the thesis: the numbers a reader checks first.
+function Facts({ r }: { r: Recommendation }) {
+  const s = r.sources
+  return (
+    <aside className="facts">
+      <div style={{ display: 'grid', gap: 8 }}>
+        <div className="sub">保守分 / 乐观分（0–100）</div>
+        <div>
+          <span className="big">{r.conservative}</span>
+          <span className="sub" style={{ fontSize: 14 }}> / {r.optimistic}</span>
+          <span className="sub" style={{ marginLeft: 10 }}>覆盖率 {Math.round(r.coverage * 100)}% · {label(RESEARCH_STATUS, r.research_status)}</span>
+        </div>
+        <div className="range" aria-hidden>
+          <i style={{ left: 0, width: `${r.optimistic}%` }} />
+          <span style={{ left: 0, width: `${r.conservative}%` }} />
+        </div>
+      </div>
+      <div className="strip">
+        {DIMENSIONS.map((d) => (
+          <div key={d.key} title={d.label}>
+            <Sourced sources={s} field={d.key}><Score value={r.scores[d.key]} /></Sourced>
+            {d.short}
+          </div>
+        ))}
+      </div>
+      <dl>
+        <dt>资产</dt>
+        <dd>{r.asset ?? '—'}</dd>
+        <dt>适应症</dt>
+        <dd>{r.indication ?? '—'}（{label(STAGE, r.stage)}，{taLabel(r.therapeutic_area)}）</dd>
+        <dt>买方 · 偏好</dt>
+        <dd>{r.buyer_ticker ? <Link to={`/buyers/${r.buyer_ticker}`}>{r.buyer}</Link> : '—'} · {r.preference ?? '—'}</dd>
+        <dt>下一事件时间</dt>
+        <dd><Sourced sources={s} field="event_timing"><b>{r.event_timing ?? '—'}</b></Sourced></dd>
+        <dt>交易形式</dt>
+        <dd><Sourced sources={s} field="deal_form">{r.deal_form ?? '—'}</Sourced></dd>
+        <dt>企业价值</dt>
+        <dd><Sourced sources={s} field="enterprise_value"><span className="figure">{money(r.enterprise_value)}</span></Sourced></dd>
+        <dt>资产权益</dt>
+        <dd><Sourced sources={s} field="rights_status">{r.rights_status ? label(RIGHTS, r.rights_status) : '待核实'}</Sourced></dd>
+      </dl>
+    </aside>
+  )
+}
 
 function RecommendationView({ r }: { r: Recommendation }) {
   return (
     <>
-      <Descriptions column={{ xs: 1, md: 2 }} size="small" bordered>
-        <Descriptions.Item label="资产 × 适应症">
-          {r.asset ?? '—'} · {r.indication ?? '—'}（{label(STAGE, r.stage)}，{taLabel(r.therapeutic_area)}）
-        </Descriptions.Item>
-        <Descriptions.Item label="买方 · 偏好">
-          {r.buyer_ticker ? <Link to={`/buyers/${r.buyer_ticker}`}>{r.buyer}</Link> : '—'} · {r.preference ?? '—'}
-        </Descriptions.Item>
-        {DIMENSIONS.map((d) => (
-          <Descriptions.Item key={d.key} label={d.label}>
-            <Sourced sources={r.sources} field={d.key}><Score value={r.scores[d.key]} /></Sourced>
-          </Descriptions.Item>
+      <div className="review-top">
+        {r.thesis ? (
+          <p className="thesis">
+            <Sourced sources={r.sources} field="thesis">{r.thesis}</Sourced>
+          </p>
+        ) : (
+          <p className="note">尚无两句话论点（未复核）。</p>
+        )}
+        <Facts r={r} />
+      </div>
+      <dl className="fields">
+        {REVIEW_FIELDS.filter(([key]) => r[key]).map(([key, text]) => (
+          <div className="field" key={key}>
+            <dt>{text}</dt>
+            <dd><SourcedText sources={r.sources} field={key} text={r[key] as string} /></dd>
+          </div>
         ))}
-        <Descriptions.Item label="保守 / 乐观 / 覆盖">
-          {r.conservative} / {r.optimistic} / {Math.round(r.coverage * 100)}%（{label(RESEARCH_STATUS, r.research_status)}）
-        </Descriptions.Item>
-        {REVIEW_FIELDS.map(([key, text]) => (
-          <Descriptions.Item key={key} label={text} span={2}>
-            <Sourced sources={r.sources} field={key}>
-              <span style={{ whiteSpace: 'pre-wrap' }}>{(r[key] as string | null) ?? '—'}</span>
-            </Sourced>
-          </Descriptions.Item>
-        ))}
-        <Descriptions.Item label="企业价值">
-          <Sourced sources={r.sources} field="enterprise_value">{money(r.enterprise_value)}</Sourced>
-        </Descriptions.Item>
-        <Descriptions.Item label="资产权益">
-          <Sourced sources={r.sources} field="rights_status">{r.rights_status ? label(RIGHTS, r.rights_status) : '待核实'}</Sourced>
-        </Descriptions.Item>
-      </Descriptions>
+      </dl>
     </>
   )
 }
@@ -66,11 +98,11 @@ export function ResultsTable({ results, showTrial = true }: { results: TrialResu
       scroll={{ x: 1000 }}
       columns={[
         ...(showTrial
-          ? [{ title: '试验', width: 130, render: (_: unknown, r: TrialResult) => <Link to={`/trials/${r.nct_id}`}>{r.nct_id}</Link> }]
+          ? [{ title: '试验', width: 130, render: (_: unknown, r: TrialResult) => <Link className="mono" to={`/trials/${r.nct_id}`}>{r.nct_id}</Link> }]
           : []),
         { title: '终点', width: 240, render: (_, r) => <Sourced sources={r.sources} field="endpoint">{r.endpoint ?? '—'}</Sourced> },
-        { title: '结果', render: (_, r) => <Sourced sources={r.sources} field="result">{r.result ?? '—'}</Sourced> },
-        { title: '统计分析', width: 200, render: (_, r) => <Sourced sources={r.sources} field="analysis">{r.analysis ?? '—'}</Sourced> },
+        { title: '结果', render: (_, r) => <SourcedText sources={r.sources} field="result" text={r.result} /> },
+        { title: '统计分析', width: 220, render: (_, r) => <SourcedText sources={r.sources} field="analysis" text={r.analysis} /> },
         { title: '对照', width: 140, render: (_, r) => <Sourced sources={r.sources} field="comparator">{r.comparator ?? '—'}</Sourced> },
         { title: '相对标准治疗', width: 160, render: (_, r) => <Sourced sources={r.sources} field="advantage_vs_soc">{r.advantage_vs_soc ?? '—'}</Sourced> },
       ]}
@@ -104,20 +136,15 @@ function View({ d }: { d: Detail }) {
       <Legend />
       {t.selection_rationale && t.selection_rationale !== primary?.thesis && (
         <Alert style={{ marginTop: 12 }} type="success" title="入选理由"
-          description={<Sourced sources={t.sources} field="selection_rationale">{t.selection_rationale}</Sourced>} />
+          description={<SourcedText sources={t.sources} field="selection_rationale" text={t.selection_rationale} />} />
       )}
       {t.excluded && (
         <Alert style={{ marginTop: 12 }} type="warning" title="排除原因"
-          description={<Sourced sources={t.sources} field="exclusion_reason">{t.exclusion_reason ?? '—'}</Sourced>} />
+          description={<SourcedText sources={t.sources} field="exclusion_reason" text={t.exclusion_reason} />} />
       )}
 
       {primary && (
         <Card size="small" title={primary.is_primary ? '主组合复核结论' : '组合'}>
-          {primary.thesis && (
-            <p className="thesis">
-              <Sourced sources={primary.sources} field="thesis">{primary.thesis}</Sourced>
-            </p>
-          )}
           <RecommendationView r={primary} />
           {others.length > 0 && (
             <Collapse style={{ marginTop: 12 }} size="small"
@@ -202,7 +229,7 @@ function View({ d }: { d: Detail }) {
                 pagination={d.trials.length > 20 ? { pageSize: 20 } : false}
                 scroll={{ x: 1180 }}
                 columns={[
-                  { title: 'NCT', width: 120, render: (_, r) => <Link to={`/trials/${r.nct_id}`}>{r.nct_id}</Link> },
+                  { title: 'NCT', width: 130, render: (_, r) => <Link className="mono" to={`/trials/${r.nct_id}`}>{r.nct_id}</Link> },
                   { title: '标题', dataIndex: 'title', ellipsis: { showTitle: true } },
                   { title: '阶段', width: 70, render: (_, r) => label(STAGE, r.phase) },
                   { title: '状态', dataIndex: 'status', width: 150 },
@@ -211,7 +238,7 @@ function View({ d }: { d: Detail }) {
                   { title: '主要完成', width: 130, render: (_, r) => (r.primary_completion_date ? `${r.primary_completion_date}（${label(DATE_TYPE, r.primary_completion_type)}）` : '—') },
                   { title: '预计读出', dataIndex: 'expected_readout', width: 90, render: (v) => v ?? '—' },
                   { title: '结果', dataIndex: 'results', width: 60, align: 'right' },
-                  { title: '来源', width: 150, render: (_, r) => r.source_ids.map((s) => <Link key={s} to={`/sources/${s}`}>{s} </Link>) },
+                  { title: '来源', width: 170, render: (_, r) => r.source_ids.map((s) => <Link key={s} className="src-chip" to={`/sources/${s}`}>{s}</Link>) },
                 ]}
               />
             ),

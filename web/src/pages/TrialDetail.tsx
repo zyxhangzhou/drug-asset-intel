@@ -4,7 +4,7 @@ import { fetchTrial, type TrialDetail as Detail } from '../api/client'
 import { useApi } from '../api/useApi'
 import { Loaded } from '../components/Loaded'
 import { PageHead } from '../components/Page'
-import { Legend, Sourced } from '../components/Sourced'
+import { Legend, Sourced, SourcedText } from '../components/Sourced'
 import { DATE_TYPE, label, STAGE, taLabel } from '../labels'
 import { ResultsTable } from './TargetDetail'
 
@@ -18,7 +18,7 @@ function View({ d }: { d: Detail }) {
         title={<Sourced sources={s} field="title">{t.title ?? t.nct_id}</Sourced>}
         meta={
           <>
-            <b style={{ color: 'var(--ink)' }}>{t.nct_id}</b>
+            <b className="mono" style={{ color: 'var(--ink)' }}>{t.nct_id}</b>
             <span>{label(STAGE, t.phase)} · {t.status ?? '状态未知'}</span>
             <Link to={`/targets/${d.ticker}`}>{d.company}（{d.ticker}）</Link>
           </>
@@ -41,7 +41,7 @@ function View({ d }: { d: Detail }) {
             <Sourced sources={s} field="expected_readout">{t.expected_readout ?? '未披露（可参考主要完成日期）'}</Sourced>
           </Descriptions.Item>
           <Descriptions.Item label="方案设计" span={2}>
-            <Sourced sources={s} field="design"><span style={{ whiteSpace: 'pre-wrap' }}>{t.design ?? '—'}</span></Sourced>
+            <SourcedText sources={s} field="design" text={t.design} />
           </Descriptions.Item>
           <Descriptions.Item label="疾病" span={2}><Sourced sources={s} field="conditions">{t.conditions ?? '—'}</Sourced></Descriptions.Item>
           <Descriptions.Item label="干预" span={2}><Sourced sources={s} field="interventions">{t.interventions ?? '—'}</Sourced></Descriptions.Item>

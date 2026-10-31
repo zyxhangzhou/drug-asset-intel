@@ -4,7 +4,7 @@ import { fetchBuyer, type BuyerDetail as Detail } from '../api/client'
 import { useApi } from '../api/useApi'
 import { Loaded } from '../components/Loaded'
 import { PageHead } from '../components/Page'
-import { Legend, Sourced } from '../components/Sourced'
+import { Legend, Sourced, SourcedText } from '../components/Sourced'
 import { billions, CONFIDENCE, label, PREFERENCE_DIMENSION } from '../labels'
 
 const PROFILE: [keyof Detail['buyer'], string][] = [
@@ -36,9 +36,7 @@ function View({ d }: { d: Detail }) {
         <Descriptions column={1} size="small" bordered>
           {PROFILE.map(([key, text]) => (
             <Descriptions.Item key={key} label={text}>
-              <Sourced sources={b.sources} field={key}>
-                {(b[key] as string | null) ?? '—'}
-              </Sourced>
+              <SourcedText sources={b.sources} field={key} text={b[key] as string | null} />
             </Descriptions.Item>
           ))}
         </Descriptions>
@@ -64,10 +62,10 @@ function View({ d }: { d: Detail }) {
             expandedRowRender: (p) => (
               <Descriptions column={1} size="small">
                 <Descriptions.Item label="证据">
-                  <Sourced sources={p.sources} field="evidence">{p.evidence ?? '—'}</Sourced>
+                  <SourcedText sources={p.sources} field="evidence" text={p.evidence} />
                 </Descriptions.Item>
                 <Descriptions.Item label="分析">
-                  <Sourced sources={p.sources} field="analysis">{p.analysis ?? '—'}</Sourced>
+                  <SourcedText sources={p.sources} field="analysis" text={p.analysis} />
                 </Descriptions.Item>
               </Descriptions>
             ),
@@ -93,13 +91,13 @@ function View({ d }: { d: Detail }) {
               </Descriptions.Item>
             ))}
             <Descriptions.Item label="资本配置" span={2}>
-              <Sourced sources={f.sources} field="capital_allocation_note">{f.capital_allocation_note ?? '—'}</Sourced>
+              <SourcedText sources={f.sources} field="capital_allocation_note" text={f.capital_allocation_note} />
             </Descriptions.Item>
             <Descriptions.Item label="近期交易" span={2}>
-              <Sourced sources={f.sources} field="recent_deals">{f.recent_deals ?? '—'}</Sourced>
+              <SourcedText sources={f.sources} field="recent_deals" text={f.recent_deals} />
             </Descriptions.Item>
             <Descriptions.Item label="重点领域" span={2}>
-              <Sourced sources={f.sources} field="focus_areas">{f.focus_areas ?? '—'}</Sourced>
+              <SourcedText sources={f.sources} field="focus_areas" text={f.focus_areas} />
             </Descriptions.Item>
           </Descriptions>
         ))}
@@ -141,7 +139,7 @@ function View({ d }: { d: Detail }) {
               ),
             },
             { title: '匹配分', render: (_, m) => <Sourced sources={m.sources} field="score"><span className="figure">{m.score}</span></Sourced>, width: 90, align: 'right' as const },
-            { title: '匹配理由', render: (_, m) => <Sourced sources={m.sources} field="rationale">{m.rationale}</Sourced> },
+            { title: '匹配理由', render: (_, m) => <SourcedText sources={m.sources} field="rationale" text={m.rationale} /> },
           ]}
         />
       </Card>
