@@ -52,6 +52,24 @@ def cmd_export(db: Path, out: Path) -> int:
     return 0
 
 
+def cmd_verify(args) -> int:
+    from intel import verify
+    from intel.db import ro_engine
+    from intel.ingest import Inputs
+
+    inputs = Inputs()
+    with Session(ro_engine(args.db)) as session:
+        if args.action == "sample":
+            rows = verify.sample(session, args.n, args.seed)
+            verify.auto_check(session, rows, inputs.raw_dir)
+            path = verify.write_sheet(rows, args.out)
+        else:
+            path = args.out
+            path.write_text(verify.spot_check(inputs.reviews_dir, session, seed=args.seed), "utf-8")
+    print(f"wrote {path}")
+    return 0
+
+
 def cmd_check_scoring(db: Path) -> int:
     from intel.scoring import ScoringConfig, checks
 
@@ -315,6 +333,12 @@ def main(argv: list[str] | None = None) -> int:
     exp = sub.add_parser("export", help="write the candidate list Excel from the snapshot")
     exp.add_argument("--db", type=Path, default=settings.db_path)
     exp.add_argument("--out", type=Path, default=Path("deliverables") / "候选生物制药公司列表.xlsx")
+    ver = sub.add_parser("verify", help="sampling verification and the user spot-check list")
+    ver.add_argument("action", choices=["sample", "spot-check"])
+    ver.add_argument("--db", type=Path, default=settings.db_path)
+    ver.add_argument("--n", type=int, default=30, help="samples per layer")
+    ver.add_argument("--seed", type=int, default=20261101)
+    ver.add_argument("--out", type=Path)
     serve = sub.add_parser("serve")
     serve.add_argument("--host", default="127.0.0.1")
     serve.add_argument("--port", type=int, default=8000)
@@ -337,6 +361,14 @@ def main(argv: list[str] | None = None) -> int:
             return cmd_extract(args)
         case "export":
             return cmd_export(args.db, args.out)
+        case "verify":
+            if args.out is None:
+                args.out = (
+                    Path("docs/verification-sample.csv")
+                    if args.action == "sample"
+                    else Path("docs/spot-check.md")
+                )
+            return cmd_verify(args)
         case "serve":
             return cmd_serve(args.host, args.port)
     return 2
