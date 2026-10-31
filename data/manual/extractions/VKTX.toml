@@ -259,7 +259,7 @@ check = "disputed"
 verify = { asset = "VK2735", trial = "VENTURE study", indication = "obesity", endpoint = "percent change in body weight from baseline to week 13", result = "ranging up to 14.7% from baseline; ranging up to 13.1% relative to placebo", analysis = "statistically significant", comparator = "placebo", advantage_vs_soc = "" }
 verify_quotes = ["The Phase 2 VENTURE study was a randomized, double-blind placebo-controlled study", "The primary endpoint of the study was the percent change in body weight from baseline to week 13", "patients receiving weekly doses of VK2735 demonstrated statistically significant reductions in mean body weight after 13 weeks, ranging up to 14.7% from baseline.", "Patients receiving VK2735 also demonstrated statistically significant reductions in mean body weight relative to placebo, ranging up to 13.1%."]
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议拒绝：与 r-dee04146 重复：同为 VENTURE 13 周体重自基线最多降 14.7%，后者来自同行评议论文且含剂量区间与安慰剂 1.7%。；保留 r-dee04146"
 
 [[items]]
 id = "r-c1bf017c"
@@ -303,7 +303,7 @@ check = "disputed"
 verify = { asset = "VK2809", trial = "VOYAGE study", indication = "NASH/MASH", endpoint = "relative change in liver fat content, as assessed by magnetic resonance imaging, proton density fat fraction, or MRI-PDFF, from baseline to week 12", result = "statistically significant reductions in liver fat content from baseline to Week 12 as compared to placebo", analysis = "statistically significant", comparator = "placebo", advantage_vs_soc = "" }
 verify_quotes = ["The primary endpoint of the study evaluated the relative change in liver fat content, as assessed by magnetic resonance imaging, proton density fat fraction, or MRI-PDFF, from baseline to week 12", "the VOYAGE study successfully achieved its primary endpoint, with patients receiving VK2809 experiencing statistically significant reductions in liver fat content from baseline to Week 12 as compared to placebo."]
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议拒绝：与 r-e15d937d 重复：同为 VOYAGE 第 12 周 MRI-PDFF 肝脏脂肪显著下降（无数值），原文 10-Q 与 10-K 句子相同。；保留 r-e15d937d"
 
 [[items]]
 id = "r-54c02325"
@@ -347,7 +347,7 @@ check = "disputed"
 verify = { asset = "VK5211", trial = "Phase 2 proof-of-concept clinical trial", indication = "patients recovering from non-elective hip fracture surgery", endpoint = "total lean body mass, less head", result = "statistically significant, dose-dependent increases in total lean body mass, less head, following treatment with VK5211 as compared to placebo", analysis = "statistically significant", comparator = "placebo", advantage_vs_soc = "" }
 verify_quotes = ["Top-line data showed that the trial achieved its primary endpoint, demonstrating statistically significant, dose-dependent increases in total lean body mass, less head, following treatment with VK5211 as compared to placebo."]
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议拒绝：与已接受的 r-882b80b9 重复：同为 VK5211 髋部骨折 2 期主要终点 lean body mass less head 剂量依赖性显著增加。；保留 r-882b80b9"
 
 [[items]]
 id = "r-012593ba"
@@ -369,7 +369,7 @@ check = "disputed"
 verify = { asset = "VK5211", trial = "Phase 2 proof-of-concept clinical trial", indication = "patients recovering from non-elective hip fracture surgery", endpoint = "appendicular lean body mass and total lean body mass", result = "statistically significant increases in appendicular lean body mass and total lean body mass for all doses of VK5211, compared to placebo", analysis = "statistically significant", comparator = "placebo", advantage_vs_soc = "" }
 verify_quotes = ["The study also achieved certain secondary endpoints, demonstrating statistically significant increases in appendicular lean body mass and total lean body mass for all doses of VK5211, compared to placebo."]
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议拒绝：与已接受的 r-8a5503da 重复：同为 VK5211 2 期次要终点四肢瘦体重显著增加，原文同一句。；保留 r-8a5503da"
 
 [[items]]
 id = "r-94b23878"
@@ -389,7 +389,7 @@ model = "qwen3.7-plus-2026-05-26"
 returned_model = "qwen3.7-plus-2026-05-26"
 check = "disputed"
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议接受：10-Q 原文：VOYAGE 52 周最多 75% NASH/MASH 消退且纤维化不恶化，安慰剂 29%（p=0.0001），与 10-K 的 63%–75% vs 29% 一致。"
 
 [[items]]
 id = "r-8ad33f78"
@@ -409,7 +409,7 @@ model = "qwen3.7-plus-2026-05-26"
 returned_model = "qwen3.7-plus-2026-05-26"
 check = "disputed"
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议接受：10-Q 原文：VOYAGE 52 周最多 57% 纤维化改善≥1 期且 NASH 不恶化，安慰剂 34%（p<0.05），与 10-K 的 44%–57% vs 34% 一致。"
 
 [[items]]
 id = "r-527045dc"
@@ -429,7 +429,7 @@ model = "qwen3.7-plus-2026-05-26"
 returned_model = "qwen3.7-plus-2026-05-26"
 check = "disputed"
 decision = ""
-note = ""
+note = "[Claude 初筛] 需人工判断：10-Q 写“最多 48%，安慰剂 20%（p=0.01）”，而 10-K（MAN-VKTX-1）写“40%–50%，合并组 44%（p=0.003）”，两份申报数字不一致，需人工决定采用哪份或两者并列注明。"
 
 [[items]]
 id = "p-d689314d"
@@ -461,7 +461,7 @@ check = "disputed"
 verify = { asset = "VK0214", mechanism = "orally available, tissue and receptor-subtype selective agonist of TRß", modality = "orally available" }
 verify_quotes = ["We are also developing VK0214, which is also an orally available, tissue and receptor-subtype selective agonist of TRß for X-linked"]
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议接受：VK0214 为口服选择性 TRβ 激动剂，机制正确；与 p-a03ddcad 同资产但来源为 10-K，且 small molecule 口径与已接受的 p-d689314d 一致（属推断，原文只写 orally available）。"
 
 [[items]]
 id = "p-ae61a105"
@@ -491,7 +491,7 @@ model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议拒绝：10-K 中的 DACRA 临床前项目即后来的 VK3019（MAN-VKTX-3 称 VK3019 为 DACRA），与已接受的 p-c6cb19f7 重复；且 modality“peptide”原文片段无支撑。；保留 p-c6cb19f7"
 
 [[items]]
 id = "r-e15d937d"
@@ -511,7 +511,7 @@ model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议接受：10-K 原文：2023 年 5 月 VOYAGE 达到主要终点，VK2809 第 12 周肝脏脂肪较安慰剂显著下降；保留此条，r-7d6cacdf 作重复拒绝。"
 
 [[items]]
 id = "r-35e3bc26"
@@ -533,7 +533,7 @@ check = "disputed"
 verify = { asset = "VK2809", trial = "Phase 2 clinical trial", indication = "NAFLD and elevated LDL-C", endpoint = "liver fat content after 12 weeks of treatment", result = "Patients receiving VK2809 experienced statistically significant reductions in liver fat content, as assessed by MRI-PDFF, relative to placebo after 12 weeks of treatment", analysis = "", comparator = "placebo", advantage_vs_soc = "" }
 verify_quotes = ["Patients receiving VK2809 experienced statistically significant reductions in liver fat content, as assessed by MRI-PDFF, relative to placebo after 12 weeks of treatment."]
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议接受：10-K 原文：2018 年 VK2809 NAFLD 伴 LDL-C 升高 2 期试验 12 周 MRI-PDFF 肝脂较安慰剂显著下降，为人体临床结果，不与 VOYAGE 重复。"
 
 [[items]]
 id = "r-3d04ae3e"
@@ -555,7 +555,7 @@ check = "disputed"
 verify = { asset = "VK0214", trial = "Phase 1b clinical trial", indication = "X-linked adrenoleukodystrophy, or X-ALD", endpoint = "plasma levels of VLCFAs", result = "significant reductions were observed in plasma levels of VLCFAs and other lipids, as compared to placebo", analysis = "", comparator = "placebo", advantage_vs_soc = "" }
 verify_quotes = ["In addition, significant reductions were observed in plasma levels of VLCFAs and other lipids, as compared to placebo."]
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议拒绝：与已接受的 r-54c02325 重复：同为 VK0214 1b 期血浆 VLCFA 及其他脂质较安慰剂显著下降，原文同一句。；保留 r-54c02325"
 
 [[items]]
 id = "r-882b80b9"
@@ -619,7 +619,7 @@ model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议接受：10-K 原文：VK5211 所有剂量总瘦体重较安慰剂显著增加，属次要终点；已接受的 r-8a5503da 结果只写了四肢瘦体重，此条不重复。"
 
 [[items]]
 id = "r-0cb2b51f"
@@ -641,7 +641,7 @@ check = "disputed"
 verify = { asset = "VK2735", trial = "VENTURE study", indication = "obesity", endpoint = "percent change in body weight from baseline to week 13", result = "Patients receiving weekly doses of VK2735 demonstrated statistically significant reductions in mean body weight after 13 weeks, ranging up to 14.7% from baseline. Patients receiving VK2735 also demonstrated statistically significant reductions in mean body weight relative to placebo, ranging up to 13.1%.", analysis = "", comparator = "placebo", advantage_vs_soc = "" }
 verify_quotes = ["The primary endpoint of the study was the percent change in body weight from baseline to week 13", "Patients receiving weekly doses of VK2735 demonstrated statistically significant reductions in mean body weight after 13 weeks, ranging up to 14.7% from baseline. Patients receiving VK2735 also demonstrated statistically significant reductions in mean body weight relative to placebo, ranging up to 13.1%."]
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议修改后接受：自基线 14.7% 已由 r-dee04146（论文）覆盖，建议此条只保留 10-K 独有的较安慰剂最多降 13.1%，避免重复。；改为 endpoint = Percent change in body weight relative to placebo at week 13；result = Statistically significant reductions in mean body weight relative to placebo, ranging up to 13.1%；analysis = statistically significant vs. placebo"
 
 [[items]]
 id = "r-641b44f5"
@@ -661,7 +661,7 @@ model = "qwen3.7-plus-2026-05-26"
 returned_model = "qwen3.7-plus-2026-05-26"
 check = "disputed"
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议修改后接受：数值准确（最多 88% vs 安慰剂 4% 达≥10% 减重），但原文写明所有剂量较安慰剂均有统计学显著差异，analysis 空着，建议补上。；改为 analysis = statistically significant vs. placebo for all doses"
 
 [[items]]
 id = "r-8e765da2"
@@ -681,7 +681,7 @@ model = "qwen3.7-plus-2026-05-26"
 returned_model = "qwen3.7-plus-2026-05-26"
 check = "disputed"
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议接受：10-K 原文：2018 年 VK2809 NAFLD 2 期主要终点 LDL-C 较安慰剂显著下降 20% 或以上，表述忠实。"
 
 [[items]]
 id = "p-b71eebe1"
@@ -727,7 +727,7 @@ model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议拒绝：与已接受的 p-e9f2664f 重复（原文同一句“orally available thyroid hormone receptor beta agonist”）；且 modality 填了给药途径“orally available”，不是药物形式。；保留 p-e9f2664f"
 
 [[items]]
 id = "r-4f4c1bb3"
@@ -749,7 +749,7 @@ check = "disputed"
 verify = { asset = "VK2735", trial = "VENTURE", indication = "obesity", endpoint = "mean body weight from baseline", result = "up to 14.7%", analysis = "statistically significant", comparator = "placebo", advantage_vs_soc = "" }
 verify_quotes = ["Top-line data from the company’s prior Phase 2 VENTURE study of VK2735 in adults with obesity demonstrated statistically significant reductions in mean body weight from baseline, ranging up to 14.7% after 13 weekly doses"]
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议拒绝：与 r-dee04146 重复：同为 VENTURE 13 周自基线最多降 14.7%，且 comparator 为空，论文版本更完整。；保留 r-dee04146"
 
 [[items]]
 id = "r-60854d0e"
@@ -771,7 +771,7 @@ check = "disputed"
 verify = { asset = "VK2735", trial = "VENTURE Oral Dosing", indication = "obesity", endpoint = "mean body weight after 13 weeks", result = "ranging up to 12.2% from baseline", analysis = "statistically significant", comparator = "placebo", advantage_vs_soc = "" }
 verify_quotes = ["The Phase 2 VENTURE Oral Dosing study of VK2735 evaluated once daily doses of the tablet formulation. Top-line results demonstrated statistically significant reductions in mean body weight after 13 weeks, ranging up to 12.2% from baseline."]
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议拒绝：与已接受的 r-c1bf017c 重复：同为 VENTURE-Oral 13 周体重自基线最多降 12.2%。；保留 r-c1bf017c"
 
 [[items]]
 id = "r-377570f6"
@@ -793,7 +793,7 @@ check = "disputed"
 verify = { asset = "VK2735", trial = "VENTURE Oral Dosing", indication = "obesity", endpoint = "percentage of subjects achieving at least 10% weight loss after 13 weeks", result = "Up to 80% of subjects in VK2735 treatment groups achieved at least 10% weight loss after 13 weeks, compared with only 5% of placebo treated subjects", analysis = "", comparator = "placebo", advantage_vs_soc = "" }
 verify_quotes = ["Up to 80% of subjects in VK2735 treatment groups achieved at least 10% weight loss after 13 weeks, compared with only 5% of placebo treated subjects."]
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议接受：新闻稿原文：口服 VK2735 13 周最多 80% 受试者减重≥10%，安慰剂 5%；其他条目未覆盖该终点。"
 
 [[items]]
 id = "r-a6b685d6"
@@ -837,7 +837,7 @@ check = "disputed"
 verify = { asset = "VK2735", trial = "VK2735 Maintenance Dosing Study Part 1", indication = "obesity", endpoint = "percentage achieving 5%, 10%, 15%, and 20% weight loss at Week 21", result = "Among treated subjects, 98% achieved 5% weight loss, 90% achieved 10%, 65% achieved 15%, and 32% achieved 20% weight loss. This compares well with the placebo cohort, for which only 13% achieved 5% weight loss and none achieved 10%, 15% or 20% weight loss at Week 21.", analysis = "", comparator = "placebo", advantage_vs_soc = "" }
 verify_quotes = ["Among treated subjects, 98% achieved 5% weight loss, 90% achieved 10%, 65% achieved 15%, and 32% achieved 20% weight loss.", "This compares well with the placebo cohort, for which only 13% achieved 5% weight loss and none achieved 10%, 15% or 20% weight loss at Week 21."]
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议拒绝：与已接受的 r-c6903ab3 重复：同为维持研究第 21 周 98%/90%/65%/32% vs 安慰剂 13%/0/0/0。；保留 r-c6903ab3"
 
 [[items]]
 id = "r-fd1cc999"
@@ -930,7 +930,7 @@ model = "qwen3.7-plus-2026-05-26"
 returned_model = "qwen3.7-plus-2026-05-26"
 check = "disputed"
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议接受：2026 Q3 新闻稿：SAD 完成后预计 2027 年第一季度启动 VK3019 28 天 MAD 研究，为未来事件且有年份。"
 
 [[items]]
 id = "e-2f1b3d36"
@@ -945,7 +945,7 @@ model = "qwen3.7-plus-2026-05-26"
 returned_model = "qwen3.7-plus-2026-05-26"
 check = "disputed"
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议修改后接受：“these studies”指上一句的 VANQUISH 1 & 2 三期研究，事件名需写明；建议人工补引原文“both VANQUISH studies continued to advance on track”作片段。；改为 event = VANQUISH trials of subcutaneous VK2735 expected to be completed"
 
 [[items]]
 id = "r-6dd4f7d7"
@@ -987,7 +987,7 @@ model = "qwen3.7-plus-2026-05-26"
 returned_model = "qwen3.7-plus-2026-05-26"
 check = "disputed"
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议拒绝：与已接受的 r-87477c0a 重复：同为维持研究第 21 周各剂量体重变化 -16.3%~-18.7%，表 2 同一组数据。；保留 r-87477c0a"
 
 [[items]]
 id = "p-1c004767"
@@ -1023,7 +1023,7 @@ model = "qwen3.7-plus-2026-05-26"
 returned_model = "qwen3.7-plus-2026-05-26"
 check = "disputed"
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议接受：Obesity 期刊论文摘要：VENTURE（NCT06068946）13 周体重降 9.1%（2.5 mg）至 14.7%（15 mg），安慰剂 1.7%，数值与原文一致，作为 VENTURE 主终点的保留条。"
 
 [[items]]
 id = "r-3b86d813"
@@ -1043,4 +1043,4 @@ model = "qwen3.7-plus-2026-05-26"
 returned_model = "qwen3.7-plus-2026-05-26"
 check = "disputed"
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议接受：论文摘要：活性组 93%（130/140）减重≥5%，安慰剂 12%（4/34），为独立次要终点，表述忠实。"

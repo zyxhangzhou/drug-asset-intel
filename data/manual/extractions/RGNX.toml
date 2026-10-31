@@ -33,7 +33,7 @@ check = "disputed"
 verify = { asset = "RGX-121", mechanism = "deliver functional genes to address genetic defects in cells", modality = "gene therapy" }
 verify_quotes = ["(iii) RGX-121 (clemidsogene lanparvovec) for the treatment of Mucopolysaccharidosis Type II (MPS II)", "Our investigational gene therapies are designed to deliver functional genes to address genetic defects in cells", "The Company's investigational gene therapies use adeno-associated virus (AAV) vectors from its proprietary gene delivery platform"]
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议拒绝：与已接受的 p-0d35366b（RGX-121，AAV 基因疗法）重复；主版本引文是 CRL 内容，不支撑任何机制，verify 的机制是泛泛的平台描述（10-Q 另有“deliver the gene that encodes the iduronate-2-sulfatase enzyme”原句，如需机制应另行抽取）。；保留 p-0d35366b"
 
 [[items]]
 id = "p-db8378ef"
@@ -47,7 +47,7 @@ model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议修改后接受：引文明确 RGX-111 用 NAV AAV9 载体递送 IDUA 基因，补充了已接受 p-cd8e756b 缺失的机制；modality 统一为 AAV gene therapy。；改为 modality = AAV gene therapy"
 
 [[items]]
 id = "r-fecd49ec"
@@ -67,7 +67,7 @@ model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议拒绝：与 r-44bc1f14 重复，同一 ALTITUDE 两年数据：剂量 3 组 50% 达到 ≥2 级改善且无需补充治疗。；保留 r-44bc1f14"
 
 [[items]]
 id = "r-88761657"
@@ -89,7 +89,7 @@ check = "disputed"
 verify = { asset = "RGX-121", trial = "CAMPSIITE", indication = "Mucopolysaccharidosis Type II (MPS II)", endpoint = "reduction of cerebrospinal fluid (CSF) levels of HS D2S6", result = "82% median reduction of cerebrospinal fluid (CSF) levels of HS D2S6", analysis = "", comparator = "none", advantage_vs_soc = "" }
 verify_quotes = ["These results showed that in the pivotal phase of the CAMPSIITE trial (n=13), participants through one year sustained an 82% median reduction of cerebrospinal fluid (CSF) levels of HS D2S6."]
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议拒绝：与 r-1647d6b3 重复，同一 CAMPSIITE 关键期（n=13）一年 CSF HS D2S6 中位下降 82%；后者结果表述更完整。；保留 r-1647d6b3"
 
 [[items]]
 id = "r-d5ff55ed"
@@ -109,7 +109,7 @@ model = "qwen3.7-plus-2026-05-26"
 returned_model = "qwen3.7-plus-2026-05-26"
 check = "disputed"
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议修改后接受：2026 年 7 月 ALTITUDE 2.5 年随访，剂量 3 组 55% 达到 DRSS ≥2 级改善且无需额外治疗，属实；终点补上时间点与剂量组。；改为 endpoint = >2-step improvement on the DRSS without additional treatment through 2.5 years (dose level 3)"
 
 [[items]]
 id = "r-4a7b234e"
@@ -129,7 +129,7 @@ model = "qwen3.7-plus-2026-05-26"
 returned_model = "qwen3.7-plus-2026-05-26"
 check = "disputed"
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议修改后接受：同一 2.5 年随访中 70% 受试者无威胁视力事件，与两年数据“风险降低超过 70%”是不同指标；终点补上时间点与剂量组。；改为 endpoint = no vision-threatening events through 2.5 years (dose level 3)"
 
 [[items]]
 id = "r-4484f78f"
@@ -149,7 +149,7 @@ model = "qwen3.7-plus-2026-05-26"
 returned_model = "qwen3.7-plus-2026-05-26"
 check = "disputed"
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议拒绝：与 r-44bc1f14 重复，同一 ALTITUDE 两年数据剂量 3 组 50% ≥2 级改善。；保留 r-44bc1f14"
 
 [[items]]
 id = "r-073d8f27"
@@ -169,7 +169,7 @@ model = "qwen3.7-plus-2026-05-26"
 returned_model = "qwen3.7-plus-2026-05-26"
 check = "disputed"
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议拒绝：与 r-a2c0b724 重复，同一 AFFINITY DUCHENNE 关键期主要终点：Week 12 时 93% 表达量 >10%（p<0.0001）；后者来自原始新闻稿并含 n=30。；保留 r-a2c0b724"
 
 [[items]]
 id = "e-db057c4c"
@@ -236,7 +236,7 @@ check = "disputed"
 verify = { asset = "Surabgene lomparvovec (sura-vec, ABBV-RGX-314)", mechanism = "deliver working genes to cells using AAV vectors", modality = "AAV therapeutics" }
 verify_quotes = ["Surabgene lomparvovec (sura-vec, ABBV-RGX-314), which we are developing in collaboration with AbbVie to treat large patient populations impacted by wet age-related macular degeneration (wet AMD) and diabetic retinopathy (DR).", "Our gene therapies are designed to deliver working genes to cells using AAV vectors as the delivery “vehicles.”", "We have developed a broad pipeline of investigational AAV therapeutics using our NAV Technology Platform"]
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议拒绝：与已接受的 p-ac91eb8e 重复（sura-vec 项目），且本条机制为空。；保留 p-ac91eb8e"
 
 [[items]]
 id = "p-30ae0444"
@@ -252,7 +252,7 @@ check = "disputed"
 verify = { asset = "RGX-202", mechanism = "deliver working genes to cells using AAV vectors", modality = "AAV therapeutics" }
 verify_quotes = ["RGX-202, which we are developing to treat Duchenne muscular dystrophy (Duchenne), one of the most common fatal genetic disorders affecting children.", "Our gene therapies are designed to deliver working genes to cells using AAV vectors as the delivery “vehicles.”", "We have developed a broad pipeline of investigational AAV therapeutics using our NAV Technology Platform"]
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议拒绝：与已接受的 p-2d7c32b4 重复（RGX-202 项目），且本条机制为空。；保留 p-2d7c32b4"
 
 [[items]]
 id = "p-f4ef61ff"
@@ -268,7 +268,7 @@ check = "disputed"
 verify = { asset = "RGX-121 (clemidsogene lanparvovec)", mechanism = "deliver working genes to cells using AAV vectors", modality = "AAV therapeutics" }
 verify_quotes = ["RGX-121 (clemidsogene lanparvovec) and RGX-111, which we are developing and plan to commercialize with Nippon Shinyaku to treat Mucopolysaccharidosis type II (MPS II) and Mucopolysaccharidosis type I (MPS I)", "Our gene therapies are designed to deliver working genes to cells using AAV vectors as the delivery “vehicles.”", "We have developed a broad pipeline of investigational AAV therapeutics using our NAV Technology Platform"]
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议拒绝：与已接受的 p-0d35366b 重复（RGX-121 项目），机制为空。；保留 p-0d35366b"
 
 [[items]]
 id = "p-70e953b7"
@@ -284,7 +284,7 @@ check = "disputed"
 verify = { asset = "RGX-111", mechanism = "deliver working genes to cells using AAV vectors", modality = "AAV therapeutics" }
 verify_quotes = ["RGX-121 (clemidsogene lanparvovec) and RGX-111, which we are developing and plan to commercialize with Nippon Shinyaku to treat Mucopolysaccharidosis type II (MPS II) and Mucopolysaccharidosis type I (MPS I)", "Our gene therapies are designed to deliver working genes to cells using AAV vectors as the delivery “vehicles.”", "We have developed a broad pipeline of investigational AAV therapeutics using our NAV Technology Platform"]
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议拒绝：与已接受的 p-cd8e756b 重复（RGX-111 项目），机制为空。；保留 p-cd8e756b"
 
 [[items]]
 id = "r-0c0c9390"
@@ -304,7 +304,7 @@ model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议拒绝：与 r-5c8a4041 重复，同一 Phase I/IIa 长期随访 Cohort 3 四年 BCVA +12 字母；后者引文含研究背景（n=37）。；保留 r-5c8a4041"
 
 [[items]]
 id = "r-1c5cfe59"
@@ -324,7 +324,7 @@ model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议拒绝：与 r-38c05978 重复，同一 Phase I/IIa 长期随访 Cohort 4 三年 BCVA -5 字母。；保留 r-38c05978"
 
 [[items]]
 id = "r-22214663"
@@ -344,7 +344,7 @@ model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议拒绝：与 r-9f150199 重复，同一 fellow eye 子研究 12 个月抗 VEGF 治疗负担下降 93%。；保留 r-9f150199"
 
 [[items]]
 id = "r-4a86c55e"
@@ -364,7 +364,7 @@ model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议拒绝：与 r-bac380db 重复，同一 AAVIATE 剂量 3 组年化注射率下降 80%、50% 无需注射。；保留 r-bac380db"
 
 [[items]]
 id = "r-4bc99dd8"
@@ -384,7 +384,7 @@ model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议拒绝：与 r-44bc1f14 重复，同一 ALTITUDE 两年数据剂量 3 组 50% ≥2 级改善。；保留 r-44bc1f14"
 
 [[items]]
 id = "r-4a7f0b0f"
@@ -404,7 +404,7 @@ model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议拒绝：与 r-0efc58cc 重复，同一 ALTITUDE 剂量 3 组威胁视力事件风险较历史对照下降超过 70%。；保留 r-0efc58cc"
 
 [[items]]
 id = "r-a448b28e"
@@ -426,7 +426,7 @@ check = "disputed"
 verify = { asset = "RGX-202", trial = "AFFINITY DUCHENNE", indication = "Duchenne", endpoint = "microdystrophin expression in first nine patients", result = "all patients exceeding 10% expression", analysis = "", comparator = "external natural history controls", advantage_vs_soc = "" }
 verify_quotes = ["In November 2024, we reported positive interim safety and efficacy data from the Phase I/II portion of the trial.", "positive RGX-202 microdystrophin expression results for the first nine patients, with all patients exceeding 10% expression,"]
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议接受：2024 年 11 月 Phase I/II 前 9 例患者微肌营养不良蛋白表达均超过 10%，与引文一致；verify 把对照写成自然史对照不适用于表达量指标。"
 
 [[items]]
 id = "r-1647d6b3"
@@ -448,7 +448,7 @@ check = "disputed"
 verify = { asset = "RGX-121", trial = "CAMPSIITE", indication = "Mucopolysaccharidosis Type II (MPS II)", endpoint = "median reduction of cerebrospinal fluid (CSF) levels of HS D2S6 through one year", result = "82% median reduction of cerebrospinal fluid (CSF) levels of HS D2S6", analysis = "", comparator = "none", advantage_vs_soc = "" }
 verify_quotes = ["These results showed that in the pivotal phase of the CAMPSIITE trial (n=13), participants through one year sustained an 82% median reduction of cerebrospinal fluid (CSF) levels of HS D2S6."]
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议接受：CAMPSIITE 关键期（n=13）一年 CSF HS D2S6 中位下降 82%，与引文一致；注意 FDA 在 CRL 中质疑该替代终点。"
 
 [[items]]
 id = "r-5c8a4041"
@@ -468,7 +468,7 @@ model = "qwen3.7-plus-2026-05-26"
 returned_model = "qwen3.7-plus-2026-05-26"
 check = "disputed"
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议接受：2022 年 10 月 Phase I/IIa 长期随访（n=37）Cohort 3 四年 BCVA +12 字母，与引文一致（数据较旧，已有五年随访）。"
 
 [[items]]
 id = "r-38c05978"
@@ -488,7 +488,7 @@ model = "qwen3.7-plus-2026-05-26"
 returned_model = "qwen3.7-plus-2026-05-26"
 check = "disputed"
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议接受：同一 Phase I/IIa 长期随访 Cohort 4 三年 BCVA -5 字母，与引文一致。"
 
 [[items]]
 id = "r-bac380db"
@@ -508,7 +508,7 @@ model = "qwen3.7-plus-2026-05-26"
 returned_model = "qwen3.7-plus-2026-05-26"
 check = "disputed"
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议接受：2024 年 1 月 AAVIATE 数据剂量 3 组年化注射率下降 80%、50% 患者无需注射，与引文一致。"
 
 [[items]]
 id = "r-9f150199"
@@ -528,7 +528,7 @@ model = "qwen3.7-plus-2026-05-26"
 returned_model = "qwen3.7-plus-2026-05-26"
 check = "disputed"
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议接受：2025 年 6 月 fellow eye 子研究 12 个月抗 VEGF 治疗负担下降 93%，与引文一致。"
 
 [[items]]
 id = "r-44bc1f14"
@@ -548,7 +548,7 @@ model = "qwen3.7-plus-2026-05-26"
 returned_model = "qwen3.7-plus-2026-05-26"
 check = "disputed"
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议修改后接受：ALTITUDE 两年数据剂量 3 组 50% 达 ETDRS-DRSS ≥2 级改善且无需补充治疗，引文最完整；但“历史对照”属于另一指标（威胁视力事件），本指标无对照。；改为 comparator = none"
 
 [[items]]
 id = "r-0efc58cc"
@@ -568,7 +568,7 @@ model = "qwen3.7-plus-2026-05-26"
 returned_model = "qwen3.7-plus-2026-05-26"
 check = "disputed"
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议接受：ALTITUDE 两年数据剂量 3 组威胁视力事件风险较历史对照下降超过 70%，与引文一致。"
 
 [[items]]
 id = "r-1bfaa8d4"
@@ -588,7 +588,7 @@ model = "qwen3.7-plus-2026-05-26"
 returned_model = "qwen3.7-plus-2026-05-26"
 check = "disputed"
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议修改后接受：2025 年 6 月 Phase I/II 数据：剂量 2 组 9 和 12 个月所有功能指标均优于外部自然史对照，属实；试验名标明 Phase I/II 以区别于关键期结果。；改为 trial = AFFINITY DUCHENNE Phase I/II"
 
 [[items]]
 id = "e-b7505627"
@@ -654,7 +654,7 @@ model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议拒绝：NAAVIGATE 首例给药已于 2026 年 6 月完成（10-Q 记载并获 AbbVie 1 亿美元里程碑），不是未来事件。"
 
 [[items]]
 id = "e-52a15bd6"
@@ -669,7 +669,7 @@ model = "qwen3.7-plus-2026-05-26"
 returned_model = "qwen3.7-plus-2026-05-26"
 check = "disputed"
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议拒绝：NAAVIGATE 首例给药已于 2026 年 6 月完成，且与 e-3339fa28 重复。"
 
 [[items]]
 id = "e-e0bc3fad"
@@ -684,7 +684,7 @@ model = "qwen3.7-plus-2026-05-26"
 returned_model = "qwen3.7-plus-2026-05-26"
 check = "disputed"
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议拒绝：“2026 上半年与 FDA/EMA 的额外监管沟通”时间已过且事件模糊。"
 
 [[items]]
 id = "p-2d7c32b4"
@@ -730,7 +730,7 @@ model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议拒绝：与已接受的 p-0d35366b 重复（RGX-121，品牌名 NAVSUNLI），机制为空。；保留 p-0d35366b"
 
 [[items]]
 id = "p-b4ec58f1"
@@ -744,7 +744,7 @@ model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议拒绝：与已接受的 p-cd8e756b 重复（RGX-111 项目），机制为空。；保留 p-cd8e756b"
 
 [[items]]
 id = "r-0fc755c6"
@@ -766,7 +766,7 @@ check = "disputed"
 verify = { asset = "RGX-202", trial = "Phase III AFFINITY DUCHENNE ® trial", indication = "Duchenne muscular dystrophy", endpoint = "primary endpoint", result = "met its primary endpoint with high statistical significance (p<0.0001)", analysis = "p<0.0001", comparator = "", advantage_vs_soc = "" }
 verify_quotes = ["the Phase III AFFINITY DUCHENNE ® trial met its primary endpoint with high statistical significance (p<0.0001)."]
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议拒绝：与 r-a2c0b724 重复，同一关键期主要终点达成（p<0.0001），后者含 93% 与 n=30 具体数字。；保留 r-a2c0b724"
 
 [[items]]
 id = "r-84916838"
@@ -788,7 +788,7 @@ check = "disputed"
 verify = { asset = "RGX-202", trial = "Phase III AFFINITY DUCHENNE ® trial", indication = "Duchenne muscular dystrophy", endpoint = "correlation between RGX-202 microdystrophin expression level and functional improvement at one year (NSAA, n=9)", result = "statistically significant correlation between RGX-202 microdystrophin expression level and functional improvement at one year (NSAA, n=9)", analysis = "", comparator = "", advantage_vs_soc = "" }
 verify_quotes = ["demonstrated statistically significant correlation between RGX-202 microdystrophin expression level and functional improvement at one year (NSAA, n=9)."]
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议拒绝：与 r-e7d1ca7c 重复，同一表达量与一年 NSAA 功能改善的显著相关（n=9），后者含相关系数与 p 值。；保留 r-e7d1ca7c"
 
 [[items]]
 id = "r-9d409d4e"
@@ -808,7 +808,7 @@ model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议接受：2026 年 7 月 ASRS 公布 Phase I/IIa 五年随访视力稳定或改善（Cohort 4 一例 PCV 例外），与引文一致，但属定性结果。"
 
 [[items]]
 id = "r-9d295f54"
@@ -828,7 +828,7 @@ model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议接受：同一五年随访显示抗 VEGF 治疗负担显著下降，与引文一致，属定性结果。"
 
 [[items]]
 id = "r-1829cf85"
@@ -848,7 +848,7 @@ model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议拒绝：ALTITUDE 2.5 年“持久安全有效”只是定性概括，同一数据已由 r-d5ff55ed（55%）与 r-4a7b234e（70%）给出具体数字。；保留 r-d5ff55ed"
 
 [[items]]
 id = "e-4289b522"
@@ -897,7 +897,7 @@ model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议接受：ATMOSPHERE 与 ASCENT 关键试验顶线数据预计 2026 年第四季度公布，快照日尚未发生，有年份。"
 
 [[items]]
 id = "e-cdd83baa"
@@ -912,7 +912,7 @@ model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议修改后接受：原文在湿性 AMD 关键试验段落中写全球监管申报预计 2027 年，属未来事件；事件补上适应症以免误解。；改为 event = Global regulatory submissions (wet AMD, subretinal)"
 
 [[items]]
 id = "e-754c978e"
@@ -961,7 +961,7 @@ model = "qwen3.7-plus-2026-05-26"
 returned_model = "qwen3.7-plus-2026-05-26"
 check = "disputed"
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议拒绝：与 e-12c79bfa 重复，同一 ATMOSPHERE/ASCENT 顶线数据 2026 年第四季度。；保留 e-12c79bfa"
 
 [[items]]
 id = "e-fcc834ce"
@@ -976,7 +976,7 @@ model = "qwen3.7-plus-2026-05-26"
 returned_model = "qwen3.7-plus-2026-05-26"
 check = "disputed"
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议拒绝：与 e-cdd83baa 重复，同一 2027 年全球监管申报。；保留 e-cdd83baa"
 
 [[items]]
 id = "p-831f86ef"
@@ -1062,7 +1062,7 @@ check = "disputed"
 verify = { asset = "RGX-202", trial = "AFFINITY DUCHENNE", indication = "Duchenne Muscular Dystrophy", endpoint = "microdystrophin expression above 10% at Week 12", result = "93% of participants achieved >10% RGX-202 microdystrophin expression", analysis = "p<0.0001", comparator = "none", advantage_vs_soc = "" }
 verify_quotes = ["The pivotal portion of the Phase I/II/III AFFINITY DUCHENNE trial evaluated RGX-202", "93% of participants achieved >10% RGX-202 microdystrophin expression at Week 12 (p<0.0001)."]
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议接受：2026 年 5 月关键期主要终点：Week 12 时 93% 受试者表达量 >10%（n=30，p<0.0001），与新闻稿一致。"
 
 [[items]]
 id = "r-10c9466c"
@@ -1082,7 +1082,7 @@ model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议接受：关键期平均表达量 71.1%，8 岁以上男孩 41.6%，与引文一致。"
 
 [[items]]
 id = "r-d7548290"
@@ -1102,7 +1102,7 @@ model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议接受：关键期 80% 受试者表达量 >40%，与引文一致。"
 
 [[items]]
 id = "r-e7d1ca7c"
@@ -1124,7 +1124,7 @@ check = "disputed"
 verify = { asset = "RGX-202", trial = "AFFINITY DUCHENNE", indication = "Duchenne Muscular Dystrophy", endpoint = "NSAA change from baseline at one year post-treatment", result = "statistically significant improved performance across NSAA", analysis = "correlation= .094, p = 0.0002", comparator = "external control using propensity score weighting", advantage_vs_soc = "" }
 verify_quotes = ["Participants demonstrated statistically significant improved performance across NSAA and all timed function tests when compared to external control using propensity score weighting", "RGX-202 microdystrophin expression at Week 12 demonstrated a statistically significant correlation with functional improvement at one year as measured by NSAA change from baseline (correlation= .094, p = 0.0002)"]
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议接受：Week 12 表达量与一年 NSAA 变化显著相关（correlation= .094，p = 0.0002），忠实于原文；原文 .094 疑为排印（或应为 0.94），人工可留意。"
 
 [[items]]
 id = "r-3dbeee56"
@@ -1144,7 +1144,7 @@ model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议接受：表达量与相对 cTAP 预测模型的 NSAA 变化显著相关（correlation= .092，p = 0.0005），与引文一致。"
 
 [[items]]
 id = "r-a87fc91c"
@@ -1164,7 +1164,7 @@ model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
 decision = ""
-note = ""
+note = "[Claude 初筛] 建议接受：一年时 NSAA 与所有计时功能测试相对倾向评分加权外部对照均显著改善（SAP 主分析），与引文一致。"
 
 [[items]]
 id = "e-cecf4b47"
