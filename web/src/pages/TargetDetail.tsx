@@ -5,6 +5,7 @@ import { useApi } from '../api/useApi'
 import { Loaded } from '../components/Loaded'
 import { AssetName, PageHead, Score } from '../components/Page'
 import { Legend, Sourced, SourcedText } from '../components/Sourced'
+import { Thesis } from '../components/Thesis'
 import { CATALYST_TYPE, DATE_TYPE, DIMENSIONS, label, money, RESEARCH_STATUS, RIGHTS, shortAsset, STAGE, taLabel } from '../labels'
 
 const REVIEW_FIELDS: [keyof Recommendation, string][] = [
@@ -113,15 +114,7 @@ function RecommendationView({ r }: { r: Recommendation }) {
     <>
       <div className="review-top">
         {r.thesis ? (
-          <div style={{ display: 'grid', gap: 8 }}>
-            <div>
-              <b style={{ fontSize: 15 }}>推荐逻辑</b>
-              <span className="sub" style={{ marginLeft: 10 }}>两句话：买方需求与资产的对应；证据、下一事件与主要障碍</span>
-            </div>
-            <p className="thesis">
-              <Sourced sources={r.sources} field="thesis">{r.thesis}</Sourced>
-            </p>
-          </div>
+          <Thesis text={r.thesis} sources={r.sources} />
         ) : (
           <div style={{ display: 'grid', gap: 8 }}>
             <div>

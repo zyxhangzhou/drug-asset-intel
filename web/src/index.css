@@ -676,3 +676,77 @@ h3 {
     grid-template-columns: minmax(0, 1fr);
   }
 }
+
+/* 推荐逻辑 as a brief: two groups of labelled rows. */
+.brief {
+  display: grid;
+  gap: 14px;
+  min-width: 0;
+}
+
+.brief-head {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 4px 10px;
+}
+
+.brief-group {
+  display: grid;
+  gap: 2px;
+}
+
+.brief-title {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--muted);
+  letter-spacing: 0.04em;
+  padding-bottom: 4px;
+}
+
+.brief-row {
+  display: grid;
+  grid-template-columns: 76px minmax(0, 1fr);
+  gap: 12px;
+  align-items: start;
+  padding-block: 9px;
+  border-top: 1px solid var(--line);
+}
+
+.brief-row .rich {
+  font-size: 14.5px;
+}
+
+.brief-tag {
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 4px;
+  padding: 2px 0;
+  margin-top: 2px;
+}
+
+.tone-buyer { background: var(--accent-soft); color: var(--accent); }
+.tone-asset { background: var(--accent-soft); color: var(--accent); }
+.tone-reason { background: #f1f3f6; color: var(--ink-2); }
+.tone-evidence { background: #e8f5ee; color: #1d6b43; }
+.tone-next { background: #f0ecfd; color: #5a3cc4; }
+.tone-risk { background: #fdf1e4; color: #9a5510; }
+
+.risk-cat {
+  display: inline-block;
+  font-weight: 650;
+  color: #9a5510;
+  margin-right: 6px;
+}
+
+@media (max-width: 640px) {
+  .brief-row {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 6px;
+  }
+  .brief-tag {
+    justify-self: start;
+    padding-inline: 8px;
+  }
+}
