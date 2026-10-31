@@ -39,7 +39,7 @@
 | 4 | L | 试验名称对照 | 代码 | `trial-aliases` | D | archived（`openspec/changes/archive/2026-10-31-trial-aliases`；修改主 spec `extraction-review`） |
 | 4 | M | 编号与药名对照补强 | 代码 | `trial-ids` | L | archived（`openspec/changes/archive/2026-10-31-trial-ids`；修改主 spec `extraction-review`） |
 | 5 | F | 深度填充 3–5 家 | 研究 | — | D, E, K, L, M | done（5 家抽取与复核文件已签字入库） |
-| 5 | G | Web 应用样板 | 代码 | `web-app` | B, C, E | planned |
+| 5 | G | Web 应用样板 | 代码 | `web-app` | B, C, E | in progress（OpenSpec 规划完成，待用户确认页面与接口清单） |
 | 6 | H | Excel 导出与抽样核验 | 代码 + 研究 | `export-verify` | F, G | planned |
 | 7 | I | 部署与交付文档 | 交付 | `deploy-docs` | H | planned |
 | — | J | 带引用的 RAG 问答（可选） | 代码 | `ask-platform` | D, I | planned |
@@ -197,3 +197,4 @@
 - 2026-10-31 · 69dd30f7-bc86-4fc2-b36d-dea57ab87358 · F：用户按建议签字 5 份复核文件与 3 行人工试验对照；快照载入 123 条（LLM 声明 338 条），对不上 33 条记缺口；溯源检查 0
 - 2026-10-31 · 69dd30f7-bc86-4fc2-b36d-dea57ab87358 · F：补录图片数据。5 家已存档文档中没有 PDF；含临床图表的只有 RGNX topline 新闻稿图 1–2 与 VSTM 研发演示第 12 页，图片已存档到 `data/raw/docs/<TICKER>/<source_id>.images/`（带 SHA-256），读数写进 RGNX / VSTM 复核文件 [clinical]，标「图片读数」；发现 RGNX 新闻稿正文相关系数 .094 / .092 与图 2 的 0.94 / 0.92 不一致。复核文件可引用 documents.csv 中已存档的文档（analyst-review 主 spec 加场景，269 项测试通过）。待用户确认两份复核文件的签字
 - 2026-10-31 · 69dd30f7-bc86-4fc2-b36d-dea57ab87358 · F：用户确认 RGNX、VSTM 复核文件补录图片读数后签字继续有效；F 完成
+- 2026-10-31 · 69dd30f7-bc86-4fc2-b36d-dea57ab87358 · G：建 OpenSpec 变更 `web-app`（新增 `app-views`，修改 `app-runtime`），4 组 13 项任务，校验通过
