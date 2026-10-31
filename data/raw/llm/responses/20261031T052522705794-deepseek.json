@@ -1,0 +1,39 @@
+{
+ "request_meta": {
+  "task": "clinical_result",
+  "ticker": "VKTX",
+  "source_id": "DOC-VKTX-403794ba",
+  "chunks": [
+   0
+  ],
+  "prompt_sha256": "1e6f53d699b06d7c8c9e90aa9d5f2f1cbcef6a1a3c7f7c62d0ef620aeb610284"
+ },
+ "response": {
+  "id": "b09a43ff-de46-4e4a-aee5-a460bec066f3",
+  "object": "chat.completion",
+  "created": 1793424321,
+  "model": "deepseek-v4-pro",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"VK2735\",\n      \"trial\": \"NCT06068946\",\n      \"indication\": \"obesity or overweight with ≥1 weight-related comorbidity\",\n      \"endpoint\": \"percent change from baseline in body weight at Week 13\",\n      \"result\": \"Mean weight reduction with active treatment ranged from 9.2 kg (2.5 mg dose) to 14.6 kg (15 mg dose), corresponding to 9.1% and 14.7% weight reductions, respectively; the placebo group had a 1.8 kg (1.7%) reduction.\",\n      \"analysis\": \"\",\n      \"comparator\": \"placebo\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"The primary endpoint was percent change from baseline in body weight at Week 13.\",\n        \"Mean weight reduction with active treatment ranged from 9.2 kg (2.5 mg dose) to 14.6 kg (15 mg dose), corresponding to 9.1% and 14.7% weight reductions, respectively; the placebo group had a 1.8 kg (1.7%) reduction.\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"VK2735\",\n      \"trial\": \"NCT06068946\",\n      \"indication\": \"obesity or overweight with ≥1 weight-related comorbidity\",\n      \"endpoint\": \"proportion of participants losing ≥5% of baseline weight\",\n      \"result\": \"In the active treatment groups, 93% (130/140) of participants had a ≥5% weight reduction, compared with 12% (4/34) of participants with placebo treatment.\",\n      \"analysis\": \"\",\n      \"comparator\": \"placebo\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"Secondary efficacy endpoints were observed and change from baseline weight loss and the proportion of participants losing ≥5% and ≥10% of baseline weight.\",\n        \"In the active treatment groups, 93% (130/140) of participants had a ≥5% weight reduction, compared with 12% (4/34) of participants with placebo treatment.\"\n      ],\n      \"confidence\": \"\"\n    }\n  ]\n}"
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1325,
+   "completion_tokens": 481,
+   "total_tokens": 1806,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 813
+  },
+  "system_fingerprint": "a307abda487cd1b463329ccb945ce396"
+ }
+}

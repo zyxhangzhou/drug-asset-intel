@@ -47,7 +47,7 @@
 - **THEN** 片段校验与数字校验通过
 
 ### Requirement: Blind cross-check
-配置了核验模型时，系统 SHALL 让核验模型对同样的块、同样的指令独立抽取，不向它展示主模型的结果。两边条目按类型与关键字段配对；关键字段只是措辞不同时，按同一资产且片段在原文中位置重叠配对。一致的条件按字段逐一判断：两边都为空；或两边都有值、数字集合相同，并且规范化后文本相同或两边片段在原文中的位置重叠。配对且一致的条目标为「一致」；不一致或只有一边抽出的条目标为「分歧」。未配置核验模型时，全部条目标为「单模型」。
+配置了核验模型时，系统 SHALL 让核验模型对同样的块、同样的指令独立抽取，不向它展示主模型的结果。两边条目按类型与关键字段配对；关键字段只是措辞不同时，按同一资产且片段在原文中位置重叠配对。资产名去掉连接词（plus、and、with、combination）后比较；名称与其括号内代码任一相同即视为同一资产。一致的条件按字段逐一判断：两边都为空（「none」「n/a」「not stated」视为空）；或两边都有值、数字集合相同，并且规范化后文本相同或两边片段在原文中的位置重叠。配对且一致的条目标为「一致」；不一致或只有一边抽出的条目标为「分歧」。未配置核验模型时，全部条目标为「单模型」。
 
 #### Scenario: Models agree
 - **WHEN** 两个模型对同一终点给出相同的数字集合，且片段都通过校验
@@ -56,6 +56,25 @@
 #### Scenario: Verify model not configured
 - **WHEN** 未设置核验模型的密钥
 - **THEN** 抽取照常完成，全部条目标为单模型，命令输出提示未做交叉核验
+
+#### Scenario: Same drug spelled differently
+- **WHEN** 主模型写「BARZOLVOLIMAB」，核验模型写「BARZOLVOLIMAB (CDX-0159)」，其余字段相同
+- **THEN** 两个条目配对并标为一致
+
+#### Scenario: Empty and none comparator
+- **WHEN** 一个模型对照组留空，另一个写「none」
+- **THEN** 对照组字段视为一致
+
+### Requirement: Replay saved replies
+每次调用 SHALL 在保存的原始回复中记录提示词哈希（模型名、系统提示、用户提示）。`intel extract --replay` SHALL 用同一提示词哈希的最近一次保存回复代替调用，重新校验与配对，不发请求、不记账本、不重复写校验日志。找不到同一提示词的回复时 SHALL 报错，不得改用其他回复。
+
+#### Scenario: Re-pair after a pairing fix
+- **WHEN** 配对规则修改后以 `--replay` 重跑
+- **THEN** 条目按新规则重新配对，账本与校验日志不变
+
+#### Scenario: Prompt changed
+- **WHEN** 提示词修改后以 `--replay` 重跑
+- **THEN** 命令报错「no saved response」，提示去掉 `--replay` 重新调用
 
 ### Requirement: Cost ledger
 每次模型调用 SHALL 在账本中追加一条记录：时间、服务商、请求模型名与接口返回的模型名、任务、来源 ID、块编号、接口返回的原始用量、按价格表折算的人民币费用、所处计费时段。价格表与计费时段 SHALL 放在仓库内的配置文件，并注明价格来源 URL 与查询日期。账本 SHALL 足以在价格表更正后重新计算费用。

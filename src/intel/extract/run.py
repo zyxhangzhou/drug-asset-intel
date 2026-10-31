@@ -2,6 +2,7 @@
 
 import hashlib
 import json
+import os
 import re
 from collections import Counter
 from collections.abc import Callable
@@ -30,8 +31,12 @@ class RunSummary:
     skipped_docs: list[str] = field(default_factory=list)
 
 
+# "avutometinib plus defactinib" and "AVUTOMETINIB DEFACTINIB" name the same regimen.
+CONNECTORS = {"plus", "and", "with", "combination", "combined"}
+
+
 def _asset_key(asset: str) -> str:
-    return re.sub(r"[^0-9a-z]", "", normalize(asset))
+    return "".join(w for w in re.findall(r"[0-9a-z]+", normalize(asset)) if w not in CONNECTORS)
 
 
 def pair_key(item: Item) -> tuple:
@@ -45,22 +50,46 @@ def pair_key(item: Item) -> tuple:
     return (_asset_key(v.get("asset", "")), v["event_type"], years)
 
 
+def _asset_names(asset: str) -> set[str]:
+    """The whole name, the name without its brackets, and each bracketed code."""
+    n = normalize(asset)
+    parts = [n, re.sub(r"\([^)]*\)", " ", n), *re.findall(r"\(([^)]*)\)", n)]
+    return {k for k in map(_asset_key, parts) if k}
+
+
+def same_asset(a: Item, b: Item) -> bool:
+    """'BARZOLVOLIMAB' and 'BARZOLVOLIMAB (CDX-0159)' are one drug."""
+    x, y = _asset_names(a.values.get("asset", "")), _asset_names(b.values.get("asset", ""))
+    return bool(x & y) or not (x or y)
+
+
+def same_key(a: Item, b: Item) -> bool:
+    return same_asset(a, b) and pair_key(a)[1:] == pair_key(b)[1:]
+
+
 def overlap(a: Item, b: Item) -> bool:
     return any(s1 < e2 and s2 < e1 for s1, e1 in a.spans for s2, e2 in b.spans)
 
 
 def same_passage(a: Item, b: Item) -> bool:
     """Fallback pairing when the keys differ only in wording: same asset, overlapping quotes."""
-    return _asset_key(a.values.get("asset", "")) == _asset_key(b.values.get("asset", "")) and (
-        overlap(a, b)
-    )
+    return same_asset(a, b) and overlap(a, b)
+
+
+# Ways of saying a field is empty; the prompt offers "none" for a trial without a comparator.
+NO_VALUE = {"none", "n/a", "na", "not stated", "not reported", "-"}
+
+
+def _value(item: Item, name: str) -> str:
+    v = item.values.get(name, "")
+    return "" if normalize(v) in NO_VALUE else v
 
 
 def agree(a: Item, b: Item) -> bool:
     """Field by field: both empty, or same numbers and (same text or overlapping quotes)."""
     quotes_overlap = overlap(a, b)
     for name in NUMBER_CHECKED:
-        x, y = a.values.get(name, ""), b.values.get(name, "")
+        x, y = _value(a, name), _value(b, name)
         if not x and not y:
             continue
         if not x or not y or numbers(x) != numbers(y):
@@ -137,7 +166,9 @@ class Extractor:
         if not isinstance(raw_items, list):
             raw_items = []
         items = []
-        with self.log_path.open("a", encoding="utf-8") as fh:
+        # A replay re-pairs saved replies; their checks are already in the log.
+        log = os.devnull if result.replayed else self.log_path
+        with open(log, "a", encoding="utf-8") as fh:
             for raw in raw_items:
                 item, reason = check_item(task, raw, doc_norm)
                 fh.write(
@@ -173,7 +204,7 @@ class Extractor:
         pool = list(theirs[1]) if theirs else []
         out = []
         for item in items:
-            match = next((o for o in pool if pair_key(o) == pair_key(item)), None) or next(
+            match = next((o for o in pool if same_key(o, item)), None) or next(
                 (o for o in pool if same_passage(o, item)), None
             )
             if match:

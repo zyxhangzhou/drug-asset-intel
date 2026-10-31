@@ -1,0 +1,41 @@
+{
+ "request_meta": {
+  "task": "clinical_result",
+  "ticker": "ARWR",
+  "source_id": "DOC-ARWR-d7e7cc5b",
+  "chunks": [
+   0,
+   1,
+   2
+  ],
+  "prompt_sha256": "ea21f405e75d49ae636c64e03dc941ad0bc5c3ef2e5e1b56f99cbc5c71cb53bf"
+ },
+ "response": {
+  "id": "b0b21337-8593-4454-8762-af6c440a96f7",
+  "object": "chat.completion",
+  "created": 1793424430,
+  "model": "deepseek-v4-pro",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"PLOZASIRAN (ARO-APOC3)\",\n      \"trial\": \"PALISADE (NCT05089084)\",\n      \"indication\": \"familial chylomicronemia syndrome (FCS)\",\n      \"endpoint\": \"percent change from baseline in fasting triglycerides at Month 10\",\n      \"result\": \"25 mg REDEMPLO: median change from baseline of -80%; pooled placebo: -17%\",\n      \"analysis\": \"\",\n      \"comparator\": \"placebo\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"In PALISADE, 25 mg REDEMPLO achieved deep and durable reductions in triglycerides, with a median change from baseline of -80% versus -17% in the pooled placebo group\",\n        \"The primary endpoint of the study was percent change from baseline in fasting TG versus placebo at Month 10.\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"PLOZASIRAN (ARO-APOC3)\",\n      \"trial\": \"PALISADE (NCT05089084)\",\n      \"indication\": \"familial chylomicronemia syndrome (FCS)\",\n      \"endpoint\": \"incidence of acute pancreatitis\",\n      \"result\": \"lower numerical incidence of acute pancreatitis compared with placebo\",\n      \"analysis\": \"\",\n      \"comparator\": \"placebo\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"In PALISADE, 25 mg REDEMPLO achieved deep and durable reductions in triglycerides, with a median change from baseline of -80% versus -17% in the pooled placebo group, and a lower numerical incidence of acute pancreatitis compared with placebo.\"\n      ],\n      \"confidence\": \"\"\n    }\n  ]\n}"
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 3849,
+   "completion_tokens": 387,
+   "total_tokens": 4236,
+   "prompt_tokens_details": {
+    "cached_tokens": 640
+   },
+   "prompt_cache_hit_tokens": 640,
+   "prompt_cache_miss_tokens": 3209
+  },
+  "system_fingerprint": "a307abda487cd1b463329ccb945ce396"
+ }
+}

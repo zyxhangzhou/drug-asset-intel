@@ -1,0 +1,38 @@
+{
+ "request_meta": {
+  "task": "clinical_result",
+  "ticker": "CLDX",
+  "source_id": "MAN-CLDX-2",
+  "chunks": [
+   0,
+   2
+  ],
+  "prompt_sha256": "d674d1fbbfeea40b44ca0792eb51bb009c9e10b0c9af3ef79fdac58a9547b100"
+ },
+ "response": {
+  "id": "chatcmpl-b5e4ee17-dab2-93d4-b72d-a47d50fea8b9",
+  "object": "chat.completion",
+  "created": 1793424001,
+  "model": "qwen3.7-plus-2026-05-26",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"BARZOLVOLIMAB\",\n      \"trial\": \"Phase 2 study in cold urticaria (ColdU) and symptomatic dermographism (SD)\",\n      \"indication\": \"cold urticaria (ColdU) and symptomatic dermographism (SD)\",\n      \"endpoint\": \"primary and secondary endpoints\",\n      \"result\": \"met with high statistical significance at 12 weeks and sustained through the end of the treatment period (20 weeks)\",\n      \"analysis\": \"high statistical significance\",\n      \"comparator\": \"placebo\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"Barzolvolimab is the first drug in development to demonstrate clinical benefit in patients with ColdU and SD in a large, randomized, placebo-controlled study.\",\n        \"In the Phase 2 study, all primary and secondary endpoints were met with high statistical significance at 12 weeks and sustained through the end of the treatment period (20 weeks).\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"BARZOLVOLIMAB\",\n      \"trial\": \"long-term barzolvolimab results\",\n      \"indication\": \"chronic spontaneous urticaria (CSU)\",\n      \"endpoint\": \"angioedema-free status\",\n      \"result\": \"up to 64% of patients treated with barzolvolimab who had angioedema at baseline remained angioedema-free\",\n      \"analysis\": \"\",\n      \"comparator\": \"none\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"In June 2026, Celldex presented long-term barzolvolimab results that demonstrated sustained off-treatment improvement in patients with CSU at the European Academy of Allergy and Clinical Immunology (EAACI) Annual Meeting.\",\n        \"Seven months after the completion of dosing (Week 76), up to 64% of patients treated with barzolvolimab who had angioedema at baseline remained angioedema-free.\"\n      ],\n      \"confidence\": \"\"\n    }\n  ]\n}"
+    },
+    "finish_reason": "stop",
+    "logprobs": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 4040,
+   "total_tokens": 4525,
+   "completion_tokens": 485,
+   "prompt_tokens_details": {
+    "cached_tokens": 512,
+    "text_tokens": 4040
+   }
+  }
+ }
+}

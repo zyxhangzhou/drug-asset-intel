@@ -240,53 +240,99 @@ decision = "accept"
 note = ""
 
 [[items]]
-id = "r-23b898b9"
+id = "r-b439e470"
 type = "clinical_result"
 source_id = "DOC-VKTX-edf92b5c"
 asset = "VK2735"
-trial = "Phase 2 VENTURE study"
+trial = "VENTURE"
 indication = "obesity"
 endpoint = "percent change in body weight from baseline to week 13"
-result = "ranging up to 14.7% from baseline; relative to placebo ranging up to 13.1%"
+result = "ranging up to 14.7% from baseline"
 analysis = "statistically significant"
 comparator = "placebo"
 advantage_vs_soc = ""
 confidence = ""
-quotes = ["The primary endpoint of the study was the percent change in body weight from baseline to week 13", "patients receiving weekly doses of VK2735 demonstrated statistically significant reductions in mean body weight after 13 weeks, ranging up to 14.7% from baseline", "Patients receiving VK2735 also demonstrated statistically significant reductions in mean body weight relative to placebo, ranging up to 13.1%"]
+quotes = ["The primary endpoint of the study was the percent change in body weight from baseline to week 13", "patients receiving weekly doses of VK2735 demonstrated statistically significant reductions in mean body weight after 13 weeks, ranging up to 14.7% from baseline."]
 model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
-verify = { asset = "VK2735", trial = "Phase 2 VENTURE study", indication = "obesity", endpoint = "percent change in body weight from baseline to week 13", result = "reductions in mean body weight after 13 weeks, ranging up to 14.7% from baseline; reductions in mean body weight relative to placebo, ranging up to 13.1%", analysis = "statistically significant", comparator = "placebo", advantage_vs_soc = "" }
+verify = { asset = "VK2735", trial = "VENTURE study", indication = "obesity", endpoint = "percent change in body weight from baseline to week 13", result = "ranging up to 14.7% from baseline; ranging up to 13.1% relative to placebo", analysis = "statistically significant", comparator = "placebo", advantage_vs_soc = "" }
 verify_quotes = ["The Phase 2 VENTURE study was a randomized, double-blind placebo-controlled study", "The primary endpoint of the study was the percent change in body weight from baseline to week 13", "patients receiving weekly doses of VK2735 demonstrated statistically significant reductions in mean body weight after 13 weeks, ranging up to 14.7% from baseline.", "Patients receiving VK2735 also demonstrated statistically significant reductions in mean body weight relative to placebo, ranging up to 13.1%."]
 decision = ""
 note = ""
 
 [[items]]
-id = "r-7158b3c2"
+id = "r-c1bf017c"
 type = "clinical_result"
 source_id = "DOC-VKTX-edf92b5c"
-asset = "VK2809"
-trial = "VOYAGE study"
-indication = "NASH/MASH"
-endpoint = "relative change in liver fat content (MRI-PDFF) from baseline to week 12"
-result = "statistically significant reductions in liver fat content"
+asset = "VK2735"
+trial = "VENTURE-Oral Dosing"
+indication = "obesity"
+endpoint = "body weight compared with placebo"
+result = "ranging up to 12.2% from baseline"
 analysis = "statistically significant"
 comparator = "placebo"
 advantage_vs_soc = ""
 confidence = ""
-quotes = ["The primary endpoint of the study evaluated the relative change in liver fat content, as assessed by magnetic resonance imaging, proton density fat fraction, or MRI-PDFF, from baseline to week 12 in subjects treated with VK2809 as compared to placebo", "patients receiving VK2809 experiencing statistically significant reductions in liver fat content from baseline to Week 12 as compared to placebo"]
+quotes = ["patients receiving oral VK2735 demonstrating statistically significant reductions in body weight compared with placebo, ranging up to 12.2% from baseline."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "agreed"
+verify = { asset = "VK2735", trial = "Phase 2 VENTURE-Oral Dosing trial", indication = "obesity", endpoint = "reductions in body weight compared with placebo", result = "ranging up to 12.2% from baseline", analysis = "statistically significant", comparator = "placebo", advantage_vs_soc = "" }
+verify_quotes = ["The Phase 2 VENTURE-Oral Dosing trial successfully achieved its primary and secondary endpoints", "patients receiving oral VK2735 demonstrating statistically significant reductions in body weight compared with placebo, ranging up to 12.2% from baseline."]
+decision = "accept"
+note = ""
+
+[[items]]
+id = "r-7d6cacdf"
+type = "clinical_result"
+source_id = "DOC-VKTX-edf92b5c"
+asset = "VK2809"
+trial = "VOYAGE"
+indication = "NASH/MASH"
+endpoint = "relative change in liver fat content from baseline to week 12"
+result = "statistically significant reductions"
+analysis = "statistically significant"
+comparator = "placebo"
+advantage_vs_soc = ""
+confidence = ""
+quotes = ["The primary endpoint of the study evaluated the relative change in liver fat content, as assessed by magnetic resonance imaging, proton density fat fraction, or MRI-PDFF, from baseline to week 12 in subjects treated with VK2809 as compared to placebo.", "patients receiving VK2809 experiencing statistically significant reductions in liver fat content from baseline to Week 12 as compared to placebo."]
 model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
+verify = { asset = "VK2809", trial = "VOYAGE study", indication = "NASH/MASH", endpoint = "relative change in liver fat content, as assessed by magnetic resonance imaging, proton density fat fraction, or MRI-PDFF, from baseline to week 12", result = "statistically significant reductions in liver fat content from baseline to Week 12 as compared to placebo", analysis = "statistically significant", comparator = "placebo", advantage_vs_soc = "" }
+verify_quotes = ["The primary endpoint of the study evaluated the relative change in liver fat content, as assessed by magnetic resonance imaging, proton density fat fraction, or MRI-PDFF, from baseline to week 12", "the VOYAGE study successfully achieved its primary endpoint, with patients receiving VK2809 experiencing statistically significant reductions in liver fat content from baseline to Week 12 as compared to placebo."]
 decision = ""
 note = ""
 
 [[items]]
-id = "r-80854c12"
+id = "r-54c02325"
+type = "clinical_result"
+source_id = "DOC-VKTX-edf92b5c"
+asset = "VK0214"
+trial = "Phase 1b"
+indication = "X-ALD"
+endpoint = "plasma levels of VLCFAs and other lipids"
+result = "significant reductions were observed in plasma levels of VLCFAs and other lipids, as compared to placebo"
+analysis = ""
+comparator = "placebo"
+advantage_vs_soc = ""
+confidence = ""
+quotes = ["significant reductions were observed in plasma levels of VLCFAs and other lipids, as compared to placebo."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "agreed"
+verify = { asset = "VK0214", trial = "Phase 1b clinical trial", indication = "X-linked adrenoleukodystrophy, or X-ALD", endpoint = "plasma levels of VLCFAs", result = "significant reductions were observed in plasma levels of VLCFAs and other lipids, as compared to placebo", analysis = "", comparator = "placebo", advantage_vs_soc = "" }
+verify_quotes = ["In October 2024, we announced results from the Phase 1b clinical trial", "significant reductions were observed in plasma levels of VLCFAs and other lipids, as compared to placebo."]
+decision = "accept"
+note = ""
+
+[[items]]
+id = "r-a7fa4c74"
 type = "clinical_result"
 source_id = "DOC-VKTX-edf92b5c"
 asset = "VK5211"
-trial = "Phase 2 proof-of-concept clinical trial"
+trial = "Phase 2 proof-of-concept"
 indication = "recovering from non-elective hip fracture surgery"
 endpoint = "total lean body mass, less head"
 result = "statistically significant, dose-dependent increases"
@@ -294,7 +340,7 @@ analysis = "statistically significant"
 comparator = "placebo"
 advantage_vs_soc = ""
 confidence = ""
-quotes = ["demonstrating statistically significant, dose-dependent increases in total lean body mass, less head, following treatment with VK5211 as compared to placebo"]
+quotes = ["demonstrating statistically significant, dose-dependent increases in total lean body mass, less head, following treatment with VK5211 as compared to placebo."]
 model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
@@ -304,42 +350,24 @@ decision = ""
 note = ""
 
 [[items]]
-id = "r-69d77d31"
+id = "r-012593ba"
 type = "clinical_result"
 source_id = "DOC-VKTX-edf92b5c"
 asset = "VK5211"
-trial = "Phase 2 proof-of-concept clinical trial"
+trial = "Phase 2 proof-of-concept"
 indication = "recovering from non-elective hip fracture surgery"
-endpoint = "appendicular lean body mass and total lean body mass"
-result = "statistically significant increases for all doses"
+endpoint = "appendicular lean body mass"
+result = "statistically significant increases"
 analysis = "statistically significant"
 comparator = "placebo"
 advantage_vs_soc = ""
 confidence = ""
-quotes = ["demonstrating statistically significant increases in appendicular lean body mass and total lean body mass for all doses of VK5211, compared to placebo"]
+quotes = ["demonstrating statistically significant increases in appendicular lean body mass and total lean body mass for all doses of VK5211, compared to placebo."]
 model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
-decision = ""
-note = ""
-
-[[items]]
-id = "r-21b73a6d"
-type = "clinical_result"
-source_id = "DOC-VKTX-edf92b5c"
-asset = "VK2735"
-trial = "Phase 2 VENTURE-Oral Dosing trial"
-indication = "obesity"
-endpoint = "reductions in body weight compared with placebo"
-result = "ranging up to 12.2% from baseline"
-analysis = "statistically significant"
-comparator = "placebo"
-advantage_vs_soc = ""
-confidence = ""
-quotes = ["The Phase 2 VENTURE-Oral Dosing trial successfully achieved its primary and secondary endpoints", "patients receiving oral VK2735 demonstrating statistically significant reductions in body weight compared with placebo, ranging up to 12.2% from baseline."]
-model = "qwen3.7-plus-2026-05-26"
-returned_model = "qwen3.7-plus-2026-05-26"
-check = "disputed"
+verify = { asset = "VK5211", trial = "Phase 2 proof-of-concept clinical trial", indication = "patients recovering from non-elective hip fracture surgery", endpoint = "appendicular lean body mass and total lean body mass", result = "statistically significant increases in appendicular lean body mass and total lean body mass for all doses of VK5211, compared to placebo", analysis = "statistically significant", comparator = "placebo", advantage_vs_soc = "" }
+verify_quotes = ["The study also achieved certain secondary endpoints, demonstrating statistically significant increases in appendicular lean body mass and total lean body mass for all doses of VK5211, compared to placebo."]
 decision = ""
 note = ""
 
@@ -364,19 +392,39 @@ decision = ""
 note = ""
 
 [[items]]
-id = "r-4d6e5f2f"
+id = "r-8ad33f78"
 type = "clinical_result"
 source_id = "DOC-VKTX-edf92b5c"
-asset = "VK0214"
-trial = "Phase 1b clinical trial"
-indication = "X-linked adrenoleukodystrophy (AMN form)"
-endpoint = "plasma levels of VLCFAs"
-result = "significant reductions were observed in plasma levels of VLCFAs and other lipids, as compared to placebo"
-analysis = ""
+asset = "VK2809"
+trial = "VOYAGE study"
+indication = "NASH/MASH"
+endpoint = "≥1-stage improvement in fibrosis with no worsening of NASH/MASH at week 52"
+result = "up to 57% of VK2809-treated patients achieving ≥1-stage improvement in fibrosis with no worsening of NASH/MASH as compared to 34% for placebo"
+analysis = "p<0.05"
 comparator = "placebo"
 advantage_vs_soc = ""
 confidence = ""
-quotes = ["In October 2024, we announced results from the Phase 1b clinical trial", "significant reductions were observed in plasma levels of VLCFAs and other lipids, as compared to placebo."]
+quotes = ["In June 2024, we announced positive 52-week histologic data from the VOYAGE study", "up to 57% of VK2809-treated patients achieving ≥1-stage improvement in fibrosis with no worsening of NASH/MASH as compared to 34% for placebo (p<0.05)"]
+model = "qwen3.7-plus-2026-05-26"
+returned_model = "qwen3.7-plus-2026-05-26"
+check = "disputed"
+decision = ""
+note = ""
+
+[[items]]
+id = "r-527045dc"
+type = "clinical_result"
+source_id = "DOC-VKTX-edf92b5c"
+asset = "VK2809"
+trial = "VOYAGE study"
+indication = "NASH/MASH"
+endpoint = "both resolution of NASH/MASH and a ≥1-stage improvement in fibrosis at week 52"
+result = "up to 48% of VK2809-treated patients achieving both resolution of NASH/MASH and a ≥1-stage improvement in fibrosis as compared to 20% for placebo"
+analysis = "p=0.01"
+comparator = "placebo"
+advantage_vs_soc = ""
+confidence = ""
+quotes = ["In June 2024, we announced positive 52-week histologic data from the VOYAGE study", "and up to 48% of VK2809-treated patients achieving both resolution of NASH/MASH and a ≥1-stage improvement in fibrosis as compared to 20% for placebo (p=0.01)."]
 model = "qwen3.7-plus-2026-05-26"
 returned_model = "qwen3.7-plus-2026-05-26"
 check = "disputed"
@@ -432,7 +480,7 @@ decision = "accept"
 note = ""
 
 [[items]]
-id = "p-959e3d00"
+id = "p-c53d3dbf"
 type = "program"
 source_id = "MAN-VKTX-1"
 asset = "Dual Amylin and Calcitonin Receptor Agonist (DACRA) Program"
@@ -453,12 +501,12 @@ asset = "VK2809"
 trial = "VOYAGE"
 indication = "NASH/MASH"
 endpoint = "Relative change in liver fat content (MRI-PDFF) from baseline to week 12"
-result = "Statistically significant reductions in liver fat content"
+result = "Statistically significant reductions in liver fat content from baseline to Week 12 as compared to placebo"
 analysis = ""
 comparator = "placebo"
 advantage_vs_soc = ""
 confidence = ""
-quotes = ["The primary endpoint of the study evaluated the relative change in liver fat content, as assessed by magnetic resonance imaging, proton density fat fraction, or MRI-PDFF, from baseline to week 12 in subjects treated with VK2809 as compared to placebo.", "In May 2023 we reported that the VOYAGE study successfully achieved its primary endpoint, with patients receiving VK2809 experiencing statistically significant reductions in liver fat content from baseline to Week 12 as compared to placebo."]
+quotes = ["The primary endpoint of the study evaluated the relative change in liver fat content, as assessed by magnetic resonance imaging, proton density fat fraction, or MRI-PDFF, from baseline to week 12 in subjects treated with VK2809 as compared to placebo.", "in May 2023 we reported that the VOYAGE study successfully achieved its primary endpoint, with patients receiving VK2809 experiencing statistically significant reductions in liver fat content from baseline to Week 12 as compared to placebo."]
 model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
@@ -466,56 +514,14 @@ decision = ""
 note = ""
 
 [[items]]
-id = "r-fa335671"
-type = "clinical_result"
-source_id = "MAN-VKTX-1"
-asset = "VK2809"
-trial = "VOYAGE"
-indication = "NASH/MASH"
-endpoint = "NASH/MASH resolution with no worsening of fibrosis at week 52"
-result = "Up to 75% of patients treated with VK2809 achieving NASH/MASH resolution with no worsening of fibrosis as compared to 29% for placebo"
-analysis = "p=0.0001"
-comparator = "placebo"
-advantage_vs_soc = ""
-confidence = ""
-quotes = ["In June 2024, we announced positive 52-week histologic data from the VOYAGE study with up to 75% of patients treated with VK2809 achieving NASH/MASH resolution with no worsening of fibrosis as compared to 29% for placebo (p=0.0001)"]
-model = "deepseek-v4-pro"
-returned_model = "deepseek-v4-pro"
-check = "agreed"
-verify = { asset = "VK2809", trial = "VOYAGE study", indication = "biopsy-confirmed non-alcoholic steatohepatitis, or NASH/MASH", endpoint = "NASH/MASH resolution with no worsening of fibrosis at week 52", result = "up to 75% of patients treated with VK2809 achieving NASH/MASH resolution with no worsening of fibrosis as compared to 29% for placebo", analysis = "p=0.0001", comparator = "placebo", advantage_vs_soc = "" }
-verify_quotes = ["In June 2024, we announced positive 52-week histologic data from the VOYAGE study with up to 75% of patients treated with VK2809 achieving NASH/MASH resolution with no worsening of fibrosis as compared to 29% for placebo (p=0.0001)"]
-decision = "accept"
-note = ""
-
-[[items]]
-id = "r-b5378639"
-type = "clinical_result"
-source_id = "MAN-VKTX-1"
-asset = "VK2809"
-trial = "VOYAGE"
-indication = "NASH/MASH"
-endpoint = "Mean relative change in liver fat content from baseline to week 52"
-result = "Mean relative change from baseline ranging from 37% to 55%"
-analysis = ""
-comparator = "placebo"
-advantage_vs_soc = ""
-confidence = ""
-quotes = ["patients receiving VK2809 continued to demonstrate statistically significant reductions in liver fat content at week 52, with the mean relative change from baseline ranging from 37% to 55%."]
-model = "deepseek-v4-pro"
-returned_model = "deepseek-v4-pro"
-check = "disputed"
-decision = ""
-note = ""
-
-[[items]]
-id = "r-989ccccd"
+id = "r-35e3bc26"
 type = "clinical_result"
 source_id = "MAN-VKTX-1"
 asset = "VK2809"
 trial = "Phase 2 NAFLD trial"
 indication = "NAFLD and elevated LDL-C"
-endpoint = "Reduction in liver fat content (MRI-PDFF) from baseline to week 12"
-result = "Statistically significant reductions in liver fat content"
+endpoint = "Reduction in liver fat content (MRI-PDFF) at week 12"
+result = "Statistically significant reductions in liver fat content, as assessed by MRI-PDFF, relative to placebo after 12 weeks of treatment"
 analysis = ""
 comparator = "placebo"
 advantage_vs_soc = ""
@@ -524,42 +530,42 @@ quotes = ["Patients receiving VK2809 experienced statistically significant reduc
 model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
-verify = { asset = "VK2809", trial = "Phase 2 clinical trial", indication = "NAFLD and elevated LDL-C", endpoint = "liver fat content after 12 weeks", result = "Patients receiving VK2809 experienced statistically significant reductions in liver fat content, as assessed by MRI-PDFF, relative to placebo after 12 weeks of treatment", analysis = "", comparator = "placebo", advantage_vs_soc = "" }
+verify = { asset = "VK2809", trial = "Phase 2 clinical trial", indication = "NAFLD and elevated LDL-C", endpoint = "liver fat content after 12 weeks of treatment", result = "Patients receiving VK2809 experienced statistically significant reductions in liver fat content, as assessed by MRI-PDFF, relative to placebo after 12 weeks of treatment", analysis = "", comparator = "placebo", advantage_vs_soc = "" }
 verify_quotes = ["Patients receiving VK2809 experienced statistically significant reductions in liver fat content, as assessed by MRI-PDFF, relative to placebo after 12 weeks of treatment."]
 decision = ""
 note = ""
 
 [[items]]
-id = "r-7ec9eb58"
+id = "r-3d04ae3e"
 type = "clinical_result"
 source_id = "MAN-VKTX-1"
 asset = "VK0214"
 trial = "Phase 1b X-ALD trial"
 indication = "X-linked adrenoleukodystrophy (AMN form)"
-endpoint = "Plasma levels of VLCFAs and other lipids after 28 days"
-result = "Significant reductions were observed in plasma levels of VLCFAs and other lipids"
+endpoint = "Plasma levels of VLCFAs and other lipids at 28 days"
+result = "Significant reductions were observed in plasma levels of VLCFAs and other lipids, as compared to placebo"
 analysis = ""
 comparator = "placebo"
 advantage_vs_soc = ""
 confidence = ""
-quotes = ["In October 2024, we announced results from the Phase 1b clinical trial, which showed VK0214 to be safe and well-tolerated following once-daily dosing over the 28-day study period. In addition, significant reductions were observed in plasma levels of VLCFAs and other lipids, as compared to placebo."]
+quotes = ["In October 2024, we announced results from the Phase 1b clinical trial, which showed VK0214 to be safe and well-tolerated following once-daily dosing over the 28-day study period.", "In addition, significant reductions were observed in plasma levels of VLCFAs and other lipids, as compared to placebo."]
 model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
-check = "agreed"
-verify = { asset = "VK0214", trial = "Phase 1b clinical trial", indication = "X-linked adrenoleukodystrophy, or X-ALD", endpoint = "plasma levels of VLCFAs after 28-day dosing period", result = "significant reductions were observed in plasma levels of VLCFAs and other lipids, as compared to placebo", analysis = "", comparator = "placebo", advantage_vs_soc = "" }
-verify_quotes = ["In October 2024, we announced results from the Phase 1b clinical trial, which showed VK0214 to be safe and well-tolerated following once-daily dosing over the 28-day study period. In addition, significant reductions were observed in plasma levels of VLCFAs and other lipids, as compared to placebo."]
-decision = "accept"
+check = "disputed"
+verify = { asset = "VK0214", trial = "Phase 1b clinical trial", indication = "X-linked adrenoleukodystrophy, or X-ALD", endpoint = "plasma levels of VLCFAs", result = "significant reductions were observed in plasma levels of VLCFAs and other lipids, as compared to placebo", analysis = "", comparator = "placebo", advantage_vs_soc = "" }
+verify_quotes = ["In addition, significant reductions were observed in plasma levels of VLCFAs and other lipids, as compared to placebo."]
+decision = ""
 note = ""
 
 [[items]]
-id = "r-30df9aed"
+id = "r-882b80b9"
 type = "clinical_result"
 source_id = "MAN-VKTX-1"
 asset = "VK5211"
-trial = "Phase 2 proof-of-concept trial"
+trial = "Phase 2 proof-of-concept hip fracture trial"
 indication = "Recovering from non-elective hip fracture surgery"
-endpoint = "Lean body mass, less head (primary endpoint)"
-result = "Statistically significant, dose dependent increases in lean body mass, less head"
+endpoint = "Lean body mass (less head) change"
+result = "Statistically significant, dose dependent increases in lean body mass, less head, following treatment with VK5211 as compared to placebo"
 analysis = ""
 comparator = "placebo"
 advantage_vs_soc = ""
@@ -567,21 +573,43 @@ confidence = ""
 quotes = ["Top-line data showed that the trial achieved its primary endpoint, demonstrating statistically significant, dose dependent increases in lean body mass, less head, following treatment with VK5211 as compared to placebo."]
 model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
-check = "disputed"
+check = "agreed"
 verify = { asset = "VK5211", trial = "Phase 2 proof-of-concept clinical trial", indication = "patients recovering from non-elective hip fracture surgery", endpoint = "lean body mass, less head", result = "statistically significant, dose dependent increases in lean body mass, less head, following treatment with VK5211 as compared to placebo", analysis = "", comparator = "placebo", advantage_vs_soc = "" }
 verify_quotes = ["Top-line data showed that the trial achieved its primary endpoint, demonstrating statistically significant, dose dependent increases in lean body mass, less head, following treatment with VK5211 as compared to placebo."]
-decision = ""
+decision = "accept"
 note = ""
 
 [[items]]
-id = "r-0c3618fe"
+id = "r-8a5503da"
 type = "clinical_result"
 source_id = "MAN-VKTX-1"
 asset = "VK5211"
-trial = "Phase 2 proof-of-concept trial"
+trial = "Phase 2 proof-of-concept hip fracture trial"
 indication = "Recovering from non-elective hip fracture surgery"
-endpoint = "Appendicular lean body mass and total lean body mass (secondary endpoints)"
-result = "Statistically significant increases in appendicular lean body mass and total lean body mass for all doses"
+endpoint = "Appendicular lean body mass change"
+result = "Statistically significant increases in appendicular lean body mass for all doses of VK5211, compared to placebo"
+analysis = ""
+comparator = "placebo"
+advantage_vs_soc = ""
+confidence = ""
+quotes = ["The study also achieved certain secondary endpoints, demonstrating statistically significant increases in appendicular lean body mass and total lean body mass for all doses of VK5211, compared to placebo."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "agreed"
+verify = { asset = "VK5211", trial = "Phase 2 proof-of-concept clinical trial", indication = "patients recovering from non-elective hip fracture surgery", endpoint = "appendicular lean body mass and total lean body mass", result = "statistically significant increases in appendicular lean body mass and total lean body mass for all doses of VK5211, compared to placebo", analysis = "", comparator = "placebo", advantage_vs_soc = "" }
+verify_quotes = ["The study also achieved certain secondary endpoints, demonstrating statistically significant increases in appendicular lean body mass and total lean body mass for all doses of VK5211, compared to placebo."]
+decision = "accept"
+note = ""
+
+[[items]]
+id = "r-2105aad7"
+type = "clinical_result"
+source_id = "MAN-VKTX-1"
+asset = "VK5211"
+trial = "Phase 2 proof-of-concept hip fracture trial"
+indication = "Recovering from non-elective hip fracture surgery"
+endpoint = "Total lean body mass change"
+result = "Statistically significant increases in total lean body mass for all doses of VK5211, compared to placebo"
 analysis = ""
 comparator = "placebo"
 advantage_vs_soc = ""
@@ -590,8 +618,6 @@ quotes = ["The study also achieved certain secondary endpoints, demonstrating st
 model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
-verify = { asset = "VK5211", trial = "Phase 2 proof-of-concept clinical trial", indication = "patients recovering from non-elective hip fracture surgery", endpoint = "appendicular lean body mass and total lean body mass", result = "statistically significant increases in appendicular lean body mass and total lean body mass for all doses of VK5211, compared to placebo", analysis = "", comparator = "placebo", advantage_vs_soc = "" }
-verify_quotes = ["The study also achieved certain secondary endpoints, demonstrating statistically significant increases in appendicular lean body mass and total lean body mass for all doses of VK5211, compared to placebo."]
 decision = ""
 note = ""
 
@@ -613,7 +639,47 @@ model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
 verify = { asset = "VK2735", trial = "VENTURE study", indication = "obesity", endpoint = "percent change in body weight from baseline to week 13", result = "Patients receiving weekly doses of VK2735 demonstrated statistically significant reductions in mean body weight after 13 weeks, ranging up to 14.7% from baseline. Patients receiving VK2735 also demonstrated statistically significant reductions in mean body weight relative to placebo, ranging up to 13.1%.", analysis = "", comparator = "placebo", advantage_vs_soc = "" }
-verify_quotes = ["Patients receiving weekly doses of VK2735 demonstrated statistically significant reductions in mean body weight after 13 weeks, ranging up to 14.7% from baseline. Patients receiving VK2735 also demonstrated statistically significant reductions in mean body weight relative to placebo, ranging up to 13.1%."]
+verify_quotes = ["The primary endpoint of the study was the percent change in body weight from baseline to week 13", "Patients receiving weekly doses of VK2735 demonstrated statistically significant reductions in mean body weight after 13 weeks, ranging up to 14.7% from baseline. Patients receiving VK2735 also demonstrated statistically significant reductions in mean body weight relative to placebo, ranging up to 13.1%."]
+decision = ""
+note = ""
+
+[[items]]
+id = "r-641b44f5"
+type = "clinical_result"
+source_id = "MAN-VKTX-1"
+asset = "VK2735"
+trial = "VENTURE study"
+indication = "obesity"
+endpoint = "proportion of patients demonstrating at least 10% weight loss"
+result = "Up to 88% of patients in VK2735 treatment groups achieved ≥10% weight loss, compared with 4% for placebo"
+analysis = ""
+comparator = "placebo"
+advantage_vs_soc = ""
+confidence = ""
+quotes = ["All doses of VK2735 also demonstrated statistically significant differences relative to placebo on the key secondary endpoint assessing the proportion of patients demonstrating at least 10% weight loss. Up to 88% of patients in VK2735 treatment groups achieved ≥10% weight loss, compared with 4% for placebo."]
+model = "qwen3.7-plus-2026-05-26"
+returned_model = "qwen3.7-plus-2026-05-26"
+check = "disputed"
+decision = ""
+note = ""
+
+[[items]]
+id = "r-8e765da2"
+type = "clinical_result"
+source_id = "MAN-VKTX-1"
+asset = "VK2809"
+trial = "Phase 2 clinical trial"
+indication = "NAFLD and elevated LDL-C"
+endpoint = "LDL-C"
+result = "Patients receiving VK2809 demonstrated statistically significant reductions in LDL-C of 20% or more, compared with placebo-treated patients"
+analysis = ""
+comparator = "placebo"
+advantage_vs_soc = ""
+confidence = ""
+quotes = ["Patients receiving VK2809 demonstrated statistically significant reductions in LDL-C of 20% or more, compared with placebo-treated patients."]
+model = "qwen3.7-plus-2026-05-26"
+returned_model = "qwen3.7-plus-2026-05-26"
+check = "disputed"
 decision = ""
 note = ""
 
@@ -664,15 +730,15 @@ decision = ""
 note = ""
 
 [[items]]
-id = "r-6a18a0b9"
+id = "r-4f4c1bb3"
 type = "clinical_result"
 source_id = "MAN-VKTX-3"
 asset = "VK2735"
-trial = "VENTURE"
+trial = "Phase 2 VENTURE study"
 indication = "obesity"
 endpoint = "mean body weight reduction from baseline after 13 weekly doses"
 result = "up to 14.7%"
-analysis = ""
+analysis = "statistically significant"
 comparator = ""
 advantage_vs_soc = ""
 confidence = ""
@@ -680,21 +746,21 @@ quotes = ["Top-line data from the company’s prior Phase 2 VENTURE study of VK2
 model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
-verify = { asset = "VK2735", trial = "VENTURE", indication = "obesity", endpoint = "mean body weight from baseline after 13 weekly doses", result = "ranging up to 14.7%", analysis = "statistically significant reductions", comparator = "placebo", advantage_vs_soc = "" }
-verify_quotes = ["Top-line data from the company’s prior Phase 2 VENTURE study of VK2735 in adults with obesity demonstrated statistically significant reductions in mean body weight from baseline, ranging up to 14.7% after 13 weekly doses, with no signs of plateau."]
+verify = { asset = "VK2735", trial = "VENTURE", indication = "obesity", endpoint = "mean body weight from baseline", result = "up to 14.7%", analysis = "statistically significant", comparator = "placebo", advantage_vs_soc = "" }
+verify_quotes = ["Top-line data from the company’s prior Phase 2 VENTURE study of VK2735 in adults with obesity demonstrated statistically significant reductions in mean body weight from baseline, ranging up to 14.7% after 13 weekly doses"]
 decision = ""
 note = ""
 
 [[items]]
-id = "r-8c0033c9"
+id = "r-60854d0e"
 type = "clinical_result"
 source_id = "MAN-VKTX-3"
 asset = "VK2735"
-trial = "VENTURE Oral Dosing"
+trial = "Phase 2 VENTURE Oral Dosing study"
 indication = "obesity"
 endpoint = "mean body weight reduction from baseline after 13 weeks"
 result = "up to 12.2%"
-analysis = ""
+analysis = "statistically significant"
 comparator = ""
 advantage_vs_soc = ""
 confidence = ""
@@ -702,20 +768,20 @@ quotes = ["Top-line results demonstrated statistically significant reductions in
 model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
-verify = { asset = "VK2735", trial = "VENTURE Oral Dosing study", indication = "obesity", endpoint = "mean body weight after 13 weeks", result = "ranging up to 12.2% from baseline", analysis = "statistically significant reductions", comparator = "placebo", advantage_vs_soc = "" }
+verify = { asset = "VK2735", trial = "VENTURE Oral Dosing", indication = "obesity", endpoint = "mean body weight after 13 weeks", result = "ranging up to 12.2% from baseline", analysis = "statistically significant", comparator = "placebo", advantage_vs_soc = "" }
 verify_quotes = ["The Phase 2 VENTURE Oral Dosing study of VK2735 evaluated once daily doses of the tablet formulation. Top-line results demonstrated statistically significant reductions in mean body weight after 13 weeks, ranging up to 12.2% from baseline."]
 decision = ""
 note = ""
 
 [[items]]
-id = "r-b5d0fc8e"
+id = "r-377570f6"
 type = "clinical_result"
 source_id = "MAN-VKTX-3"
 asset = "VK2735"
-trial = "VENTURE Oral Dosing"
+trial = "Phase 2 VENTURE Oral Dosing study"
 indication = "obesity"
 endpoint = "percentage of subjects achieving at least 10% weight loss after 13 weeks"
-result = "Up to 80% of subjects in VK2735 treatment groups achieved at least 10% weight loss after 13 weeks, compared with only 5% of placebo treated subjects."
+result = "Up to 80% in VK2735 treatment groups vs 5% in placebo"
 analysis = ""
 comparator = "placebo"
 advantage_vs_soc = ""
@@ -723,21 +789,21 @@ confidence = ""
 quotes = ["Up to 80% of subjects in VK2735 treatment groups achieved at least 10% weight loss after 13 weeks, compared with only 5% of placebo treated subjects."]
 model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
-check = "agreed"
-verify = { asset = "VK2735", trial = "VENTURE Oral Dosing study", indication = "obesity", endpoint = "at least 10% weight loss after 13 weeks", result = "Up to 80% of subjects in VK2735 treatment groups achieved at least 10% weight loss after 13 weeks, compared with only 5% of placebo treated subjects", analysis = "", comparator = "placebo", advantage_vs_soc = "" }
+check = "disputed"
+verify = { asset = "VK2735", trial = "VENTURE Oral Dosing", indication = "obesity", endpoint = "percentage of subjects achieving at least 10% weight loss after 13 weeks", result = "Up to 80% of subjects in VK2735 treatment groups achieved at least 10% weight loss after 13 weeks, compared with only 5% of placebo treated subjects", analysis = "", comparator = "placebo", advantage_vs_soc = "" }
 verify_quotes = ["Up to 80% of subjects in VK2735 treatment groups achieved at least 10% weight loss after 13 weeks, compared with only 5% of placebo treated subjects."]
-decision = "accept"
+decision = ""
 note = ""
 
 [[items]]
-id = "r-16b84535"
+id = "r-a6b685d6"
 type = "clinical_result"
 source_id = "MAN-VKTX-3"
 asset = "VK2735"
-trial = "Maintenance Dosing Study Part 1"
+trial = "Part 1 of VK2735 Maintenance Dosing Study"
 indication = "obesity"
 endpoint = "weight loss at Week 21"
-result = "Week 21 weight loss ranged from approximately 16% to approximately 19% compared with approximately 0% for placebo."
+result = "ranged from approximately 16% to approximately 19% compared with approximately 0% for placebo"
 analysis = "p-values at each dosing level less than 0.0001 compared with placebo"
 comparator = "placebo"
 advantage_vs_soc = ""
@@ -745,21 +811,21 @@ confidence = ""
 quotes = ["Week 21 weight loss ranged from approximately 16% to approximately 19% compared with approximately 0% for placebo.", "All doses clearly separated from placebo starting at Week 4, with p-values at each dosing level less than 0.0001 compared with placebo."]
 model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
-check = "disputed"
+check = "agreed"
 verify = { asset = "VK2735", trial = "VK2735 Maintenance Dosing Study Part 1", indication = "obesity", endpoint = "Week 21 weight loss", result = "ranged from approximately 16% to approximately 19% compared with approximately 0% for placebo", analysis = "p-values at each dosing level less than 0.0001 compared with placebo", comparator = "placebo", advantage_vs_soc = "" }
-verify_quotes = ["Week 21 weight loss ranged from approximately 16% to approximately 19% compared with approximately 0% for placebo. All doses clearly separated from placebo starting at Week 4, with p-values at each dosing level less than 0.0001 compared with placebo."]
-decision = ""
+verify_quotes = ["Week 21 weight loss ranged from approximately 16% to approximately 19% compared with approximately 0% for placebo.", "All doses clearly separated from placebo starting at Week 4, with p-values at each dosing level less than 0.0001 compared with placebo."]
+decision = "accept"
 note = ""
 
 [[items]]
-id = "r-88944b0a"
+id = "r-6848a818"
 type = "clinical_result"
 source_id = "MAN-VKTX-3"
 asset = "VK2735"
-trial = "Maintenance Dosing Study Part 1"
+trial = "Part 1 of VK2735 Maintenance Dosing Study"
 indication = "obesity"
-endpoint = "percentage of subjects achieving weight loss thresholds at Week 21"
-result = "Among treated subjects, 98% achieved 5% weight loss, 90% achieved 10%, 65% achieved 15%, and 32% achieved 20% weight loss. This compares well with the placebo cohort, for which only 13% achieved 5% weight loss and none achieved 10%, 15% or 20% weight loss at Week 21."
+endpoint = "percentage of subjects achieving 5%, 10%, 15%, 20% weight loss at Week 21"
+result = "98% achieved 5%, 90% achieved 10%, 65% achieved 15%, 32% achieved 20%; placebo: 13% achieved 5%, none achieved 10%, 15% or 20%"
 analysis = ""
 comparator = "placebo"
 advantage_vs_soc = ""
@@ -768,19 +834,19 @@ quotes = ["Among treated subjects, 98% achieved 5% weight loss, 90% achieved 10%
 model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
-verify = { asset = "VK2735", trial = "VK2735 Maintenance Dosing Study Part 1", indication = "obesity", endpoint = "5%, 10%, 15%, and 20% weight loss at Week 21", result = "Among treated subjects, 98% achieved 5% weight loss, 90% achieved 10%, 65% achieved 15%, and 32% achieved 20% weight loss. This compares well with the placebo cohort, for which only 13% achieved 5% weight loss and none achieved 10%, 15% or 20% weight loss at Week 21", analysis = "", comparator = "placebo", advantage_vs_soc = "" }
-verify_quotes = ["Among treated subjects, 98% achieved 5% weight loss, 90% achieved 10%, 65% achieved 15%, and 32% achieved 20% weight loss. This compares well with the placebo cohort, for which only 13% achieved 5% weight loss and none achieved 10%, 15% or 20% weight loss at Week 21."]
+verify = { asset = "VK2735", trial = "VK2735 Maintenance Dosing Study Part 1", indication = "obesity", endpoint = "percentage achieving 5%, 10%, 15%, and 20% weight loss at Week 21", result = "Among treated subjects, 98% achieved 5% weight loss, 90% achieved 10%, 65% achieved 15%, and 32% achieved 20% weight loss. This compares well with the placebo cohort, for which only 13% achieved 5% weight loss and none achieved 10%, 15% or 20% weight loss at Week 21.", analysis = "", comparator = "placebo", advantage_vs_soc = "" }
+verify_quotes = ["Among treated subjects, 98% achieved 5% weight loss, 90% achieved 10%, 65% achieved 15%, and 32% achieved 20% weight loss.", "This compares well with the placebo cohort, for which only 13% achieved 5% weight loss and none achieved 10%, 15% or 20% weight loss at Week 21."]
 decision = ""
 note = ""
 
 [[items]]
-id = "r-026a3ef3"
+id = "r-fd1cc999"
 type = "clinical_result"
 source_id = "MAN-VKTX-3"
 asset = "VK2735"
-trial = "Maintenance Dosing Study Part 1"
+trial = "Part 1 of VK2735 Maintenance Dosing Study"
 indication = "obesity"
-endpoint = "mean weight loss retained at Week 33 among subjects dosed every-other-week"
+endpoint = "mean weight loss retained at Week 33 among subjects transitioned to every-other-week dosing"
 result = "ranged from 83% to 97%, compared with 61% among subjects transitioned from 17.5 mg weekly to placebo"
 analysis = "p-values less than 0.01 for each cohort vs. placebo"
 comparator = "placebo"
@@ -790,17 +856,17 @@ quotes = ["Among subjects dosed every-other-week, mean weight loss retained at W
 model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "agreed"
-verify = { asset = "VK2735", trial = "VK2735 Maintenance Dosing Study Part 1", indication = "obesity", endpoint = "mean weight loss retained at Week 33 (every-other-week dosing)", result = "ranged from 83% to 97%, compared with 61% among subjects transitioned from 17.5 mg weekly to placebo", analysis = "p-values less than 0.01 for each cohort vs. placebo", comparator = "placebo", advantage_vs_soc = "" }
+verify = { asset = "VK2735", trial = "VK2735 Maintenance Dosing Study Part 1", indication = "obesity", endpoint = "mean weight loss retained at Week 33 among subjects dosed every-other-week", result = "ranged from 83% to 97%, compared with 61% among subjects transitioned from 17.5 mg weekly to placebo", analysis = "p-values less than 0.01 for each cohort vs. placebo", comparator = "placebo", advantage_vs_soc = "" }
 verify_quotes = ["Among subjects dosed every-other-week, mean weight loss retained at Week 33 ranged from 83% to 97%, compared with 61% among subjects transitioned from 17.5 mg weekly to placebo, with p-values less than 0.01 for each cohort vs. placebo."]
 decision = "accept"
 note = ""
 
 [[items]]
-id = "r-2151d0a0"
+id = "r-4e71556e"
 type = "clinical_result"
 source_id = "MAN-VKTX-3"
 asset = "VK2735"
-trial = "Maintenance Dosing Study Part 1"
+trial = "Part 1 of VK2735 Maintenance Dosing Study"
 indication = "obesity"
 endpoint = "mean weight loss retained at Week 33 among subjects transitioned to monthly dosing"
 result = "ranged from 82% to 90%, compared with 61% for placebo"
@@ -812,7 +878,7 @@ quotes = ["Among subjects transitioned to monthly dosing, mean weight loss retai
 model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "agreed"
-verify = { asset = "VK2735", trial = "VK2735 Maintenance Dosing Study Part 1", indication = "obesity", endpoint = "mean weight loss retained at Week 33 (monthly dosing)", result = "ranged from 82% to 90%, compared with 61% for placebo", analysis = "p-values less than 0.01 for each cohort vs. placebo", comparator = "placebo", advantage_vs_soc = "" }
+verify = { asset = "VK2735", trial = "VK2735 Maintenance Dosing Study Part 1", indication = "obesity", endpoint = "mean weight loss retained at Week 33 among subjects transitioned to monthly dosing", result = "ranged from 82% to 90%, compared with 61% for placebo", analysis = "p-values less than 0.01 for each cohort vs. placebo", comparator = "placebo", advantage_vs_soc = "" }
 verify_quotes = ["Among subjects transitioned to monthly dosing, mean weight loss retained at Week 33 ranged from 82% to 90%, compared with 61% for placebo, with p-values less than 0.01 for each cohort vs. placebo."]
 decision = "accept"
 note = ""
@@ -882,59 +948,41 @@ decision = ""
 note = ""
 
 [[items]]
+id = "r-6dd4f7d7"
+type = "clinical_result"
+source_id = "MAN-VKTX-4"
+asset = "VK2735"
+trial = "Maintenance Study of GLP-1/GIP Agonist VK2735"
+indication = "obesity"
+endpoint = "Proportion of participants achieving ≥5%, ≥10%, ≥15%, ≥20% weight loss at Week 21"
+result = "Combined VK2735: 98% (≥5%), 90% (≥10%), 65% (≥15%), 32% (≥20%); Placebo: 13% (≥5%), 0% (≥10%), 0% (≥15%), 0% (≥20%)"
+analysis = "p<0.01 vs. placebo for each threshold"
+comparator = "placebo"
+advantage_vs_soc = ""
+confidence = ""
+quotes = ["At 21 weeks in the combined VK2735 treatment groups, the proportion of participants demonstrating 5%, 10%, 15%, and 20% weight loss were 98%, 90%, 65%, and 32% as compared with 13%, 0%, 0%, and 0% for placebo (p<0.01 vs. placebo for each)."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "agreed"
+verify = { asset = "VK2735", trial = "", indication = "obesity", endpoint = "Proportion of participants demonstrating 5%, 10%, 15%, and 20% weight loss at week 21", result = "Combined VK2735: 98% (≥5%), 90% (≥10%), 65% (≥15%), 32% (≥20%); Placebo: 13% (≥5%), 0% (≥10%), 0% (≥15%), 0% (≥20%)", analysis = "p<0.01 vs. placebo for each threshold", comparator = "placebo", advantage_vs_soc = "" }
+verify_quotes = ["At 21 weeks in the combined VK2735 treatment groups, the proportion of participants demonstrating 5%, 10%, 15%, and 20% weight loss were 98%, 90%, 65%, and 32% as compared with 13%, 0%, 0%, and 0% for placebo (p<0.01 vs. placebo for each)."]
+decision = "accept"
+note = ""
+
+[[items]]
 id = "r-7e551f9e"
 type = "clinical_result"
 source_id = "MAN-VKTX-4"
 asset = "VK2735"
 trial = ""
 indication = "obesity"
-endpoint = "Mean percent change from baseline body weight at Week 21"
+endpoint = "Mean percent change from baseline body weight at week 21"
 result = "Placebo: -0.1%; VK2735 15 mg QW: -16.3%; VK2735 17.5 mg QW: -17.8%; VK2735 20 mg QW: -18.7%; VK2735 22.5 mg QW: -17.1%"
-analysis = "p-value vs. baseline: <0.0001 for all VK2735 cohorts; p-value vs. placebo: <0.0001 for all VK2735 cohorts"
+analysis = "p<0.0001 vs. baseline for all VK2735 cohorts; p<0.0001 vs. placebo for all VK2735 cohorts"
 comparator = "placebo"
 advantage_vs_soc = ""
 confidence = ""
 quotes = ["[table 2] Change in Body Weight Following 21 Weeks of Once-Weekly Dosing with VK2735 — Mean percent change from baseline^4,5 | Placebo (n=15): -0.1%", "[table 2] Change in Body Weight Following 21 Weeks of Once-Weekly Dosing with VK2735 — Mean percent change from baseline^4,5 | VK2735 15 mg QW (n=14): -16.3%", "[table 2] Change in Body Weight Following 21 Weeks of Once-Weekly Dosing with VK2735 — Mean percent change from baseline^4,5 | VK2735 17.5 mg QW (n=118): -17.8%", "[table 2] Change in Body Weight Following 21 Weeks of Once-Weekly Dosing with VK2735 — Mean percent change from baseline^4,5 | VK2735 20 mg QW (n=15): -18.7%", "[table 2] Change in Body Weight Following 21 Weeks of Once-Weekly Dosing with VK2735 — Mean percent change from baseline^4,5 | VK2735 22.5 mg QW (n=14): -17.1%", "[table 2] Change in Body Weight Following 21 Weeks of Once-Weekly Dosing with VK2735 — p-value vs. baseline^5 | VK2735 15 mg QW (n=14): <0.0001", "[table 2] Change in Body Weight Following 21 Weeks of Once-Weekly Dosing with VK2735 — p-value vs. baseline^5 | VK2735 17.5 mg QW (n=118): <0.0001", "[table 2] Change in Body Weight Following 21 Weeks of Once-Weekly Dosing with VK2735 — p-value vs. baseline^5 | VK2735 20 mg QW (n=15): <0.0001", "[table 2] Change in Body Weight Following 21 Weeks of Once-Weekly Dosing with VK2735 — p-value vs. baseline^5 | VK2735 22.5 mg QW (n=14): <0.0001", "[table 2] Change in Body Weight Following 21 Weeks of Once-Weekly Dosing with VK2735 — p-value vs. placebo^5 | VK2735 15 mg QW (n=14): <0.0001", "[table 2] Change in Body Weight Following 21 Weeks of Once-Weekly Dosing with VK2735 — p-value vs. placebo^5 | VK2735 17.5 mg QW (n=118): <0.0001", "[table 2] Change in Body Weight Following 21 Weeks of Once-Weekly Dosing with VK2735 — p-value vs. placebo^5 | VK2735 20 mg QW (n=15): <0.0001", "[table 2] Change in Body Weight Following 21 Weeks of Once-Weekly Dosing with VK2735 — p-value vs. placebo^5 | VK2735 22.5 mg QW (n=14): <0.0001"]
-model = "qwen3.7-plus-2026-05-26"
-returned_model = "qwen3.7-plus-2026-05-26"
-check = "disputed"
-decision = ""
-note = ""
-
-[[items]]
-id = "r-ddc71e87"
-type = "clinical_result"
-source_id = "MAN-VKTX-4"
-asset = "VK2735"
-trial = ""
-indication = "obesity"
-endpoint = "Mean percentage of Week 21 weight loss maintained at Week 33 (Every-Other-Week Dosing)"
-result = "Placebo: 61%; VK2735 Combined QOW: 90%; VK2735 17.5 mg QW to 5.0 mg QOW: 83%; VK2735 15.0 mg QW to 7.5 mg QOW: 90%; VK2735 17.5 mg QW to 10.0 mg QOW: 97%"
-analysis = "p-value vs. placebo: Combined QOW p<0.0001; 5.0 mg QOW 0.004; 7.5 mg QOW <0.0001; 10.0 mg QOW <0.0001"
-comparator = "placebo"
-advantage_vs_soc = ""
-confidence = ""
-quotes = ["[table 3] Weight Loss Maintenance Following Transition from Weekly to Every-Other-Week Dosing for 12 Weeks — Mean percentage of Week 21 weight loss maintained at Week 33 (%)^4,5 | Placebo (n=27): 61%", "[table 3] Weight Loss Maintenance Following Transition from Weekly to Every-Other-Week Dosing for 12 Weeks — Mean percentage of Week 21 weight loss maintained at Week 33 (%)^4,5 | VK2735 Combined QOW (n=37): 90%", "[table 3] Weight Loss Maintenance Following Transition from Weekly to Every-Other-Week Dosing for 12 Weeks — Mean percentage of Week 21 weight loss maintained at Week 33 (%)^4,5 | VK2735 17.5 mg QW to 5.0 mg QOW (n=12): 83%", "[table 3] Weight Loss Maintenance Following Transition from Weekly to Every-Other-Week Dosing for 12 Weeks — Mean percentage of Week 21 weight loss maintained at Week 33 (%)^4,5 | VK2735 15.0 mg QW to 7.5 mg QOW (n=13): 90%", "[table 3] Weight Loss Maintenance Following Transition from Weekly to Every-Other-Week Dosing for 12 Weeks — Mean percentage of Week 21 weight loss maintained at Week 33 (%)^4,5 | VK2735 17.5 mg QW to 10.0 mg QOW (n=12): 97%", "[table 3] Weight Loss Maintenance Following Transition from Weekly to Every-Other-Week Dosing for 12 Weeks — p-value vs. placebo^5 | VK2735 Combined QOW (n=37): p<0.0001", "[table 3] Weight Loss Maintenance Following Transition from Weekly to Every-Other-Week Dosing for 12 Weeks — p-value vs. placebo^5 | VK2735 17.5 mg QW to 5.0 mg QOW (n=12): 0.004", "[table 3] Weight Loss Maintenance Following Transition from Weekly to Every-Other-Week Dosing for 12 Weeks — p-value vs. placebo^5 | VK2735 15.0 mg QW to 7.5 mg QOW (n=13): <0.0001", "[table 3] Weight Loss Maintenance Following Transition from Weekly to Every-Other-Week Dosing for 12 Weeks — p-value vs. placebo^5 | VK2735 17.5 mg QW to 10.0 mg QOW (n=12): <0.0001"]
-model = "qwen3.7-plus-2026-05-26"
-returned_model = "qwen3.7-plus-2026-05-26"
-check = "disputed"
-decision = ""
-note = ""
-
-[[items]]
-id = "r-5b24a344"
-type = "clinical_result"
-source_id = "MAN-VKTX-4"
-asset = "VK2735"
-trial = ""
-indication = "obesity"
-endpoint = "Mean percentage of Week 21 weight loss maintained at Week 33 (Monthly Dosing)"
-result = "Placebo: 61%; VK2735 Combined QM: 85%; VK2735 17.5 mg QW to 10 mg QM: 82%; VK2735 17.5 mg QW to 15 mg QM: 84%; VK2735 17.5 mg QW to 17.5 mg QM: 90%; VK2735 20 mg QW to 20 mg QM: 86%; VK2735 22.5 mg QW to 22.5 mg QM: 85%"
-analysis = "p-value vs. placebo: Combined QM <0.0001; 10 mg QM 0.0016; 15 mg QM 0.0012; 17.5 mg QM 0.0002; 20 mg QM 0.0005; 22.5 mg QM 0.0024"
-comparator = "placebo"
-advantage_vs_soc = ""
-confidence = ""
-quotes = ["[table 4] Weight Loss Maintenance Following Transition from Weekly to Monthly Dosing For 12 Weeks — Mean percentage of Week 21 weight loss maintained at Week 33 (%)^4,5 | Placebo (n=27): 61%", "[table 4] Weight Loss Maintenance Following Transition from Weekly to Monthly Dosing For 12 Weeks — Mean percentage of Week 21 weight loss maintained at Week 33 (%)^4,5 | VK2735 Combined QM (n=65): 85%", "[table 4] Weight Loss Maintenance Following Transition from Weekly to Monthly Dosing For 12 Weeks — Mean percentage of Week 21 weight loss maintained at Week 33 (%)^4,5 | VK2735 17.5 mg QW to 10 mg QM (n=16): 82%", "[table 4] Weight Loss Maintenance Following Transition from Weekly to Monthly Dosing For 12 Weeks — Mean percentage of Week 21 weight loss maintained at Week 33 (%)^4,5 | VK2735 17.5 mg QW to 15 mg QM (n=14): 84%", "[table 4] Weight Loss Maintenance Following Transition from Weekly to Monthly Dosing For 12 Weeks — Mean percentage of Week 21 weight loss maintained at Week 33 (%)^4,5 | VK2735 17.5 mg QW to 17.5 mg QM (n=11): 90%", "[table 4] Weight Loss Maintenance Following Transition from Weekly to Monthly Dosing For 12 Weeks — Mean percentage of Week 21 weight loss maintained at Week 33 (%)^4,5 | VK2735 20 mg QW to 20 mg QM (n=14): 86%", "[table 4] Weight Loss Maintenance Following Transition from Weekly to Monthly Dosing For 12 Weeks — Mean percentage of Week 21 weight loss maintained at Week 33 (%)^4,5 | VK2735 22.5 mg QW to 22.5 mg QM (n=10)^6: 85%", "[table 4] Weight Loss Maintenance Following Transition from Weekly to Monthly Dosing For 12 Weeks — p-value vs. placebo^5 | VK2735 Combined QM (n=65): <0.0001", "[table 4] Weight Loss Maintenance Following Transition from Weekly to Monthly Dosing For 12 Weeks — p-value vs. placebo^5 | VK2735 17.5 mg QW to 10 mg QM (n=16): 0.0016", "[table 4] Weight Loss Maintenance Following Transition from Weekly to Monthly Dosing For 12 Weeks — p-value vs. placebo^5 | VK2735 17.5 mg QW to 15 mg QM (n=14): 0.0012", "[table 4] Weight Loss Maintenance Following Transition from Weekly to Monthly Dosing For 12 Weeks — p-value vs. placebo^5 | VK2735 17.5 mg QW to 17.5 mg QM (n=11): 0.0002", "[table 4] Weight Loss Maintenance Following Transition from Weekly to Monthly Dosing For 12 Weeks — p-value vs. placebo^5 | VK2735 20 mg QW to 20 mg QM (n=14): 0.0005", "[table 4] Weight Loss Maintenance Following Transition from Weekly to Monthly Dosing For 12 Weeks — p-value vs. placebo^5 | VK2735 22.5 mg QW to 22.5 mg QM (n=10)^6: 0.0024"]
 model = "qwen3.7-plus-2026-05-26"
 returned_model = "qwen3.7-plus-2026-05-26"
 check = "disputed"
@@ -965,12 +1013,32 @@ asset = "VK2735"
 trial = "NCT06068946"
 indication = "obesity or overweight and ≥ 1 weight-related comorbidity"
 endpoint = "percent change from baseline in body weight at Week 13"
-result = "Mean weight reduction with active treatment ranged from 9.2 kg (2.5 mg dose) to 14.6 kg (15 mg dose), corresponding to 9.1% and 14.7% weight reductions, respectively; the placebo group had a 1.8 kg (1.7%) reduction. In the active treatment groups, 93% (130/140) of participants had a ≥ 5% weight reduction, compared with 12% (4/34) of participants with placebo treatment."
+result = "Mean weight reduction with active treatment ranged from 9.2 kg (2.5 mg dose) to 14.6 kg (15 mg dose), corresponding to 9.1% and 14.7% weight reductions, respectively; the placebo group had a 1.8 kg (1.7%) reduction."
 analysis = ""
 comparator = "placebo"
 advantage_vs_soc = ""
 confidence = ""
-quotes = ["TRIAL REGISTRATION: ClinicalTrials.gov identifier NCT06068946.", "adults with obesity or overweight and ≥ 1 weight-related comorbidity.", "The primary endpoint was percent change from baseline in body weight at Week 13.", "Mean weight reduction with active treatment ranged from 9.2 kg (2.5 mg dose) to 14.6 kg (15 mg dose), corresponding to 9.1% and 14.7% weight reductions, respectively; the placebo group had a 1.8 kg (1.7%) reduction. In the active treatment groups, 93% (130/140) of participants had a ≥ 5% weight reduction, compared with 12% (4/34) of participants with placebo treatment."]
+quotes = ["TRIAL REGISTRATION: ClinicalTrials.gov identifier NCT06068946.", "adults with obesity or overweight and ≥ 1 weight-related comorbidity.", "The primary endpoint was percent change from baseline in body weight at Week 13.", "Mean weight reduction with active treatment ranged from 9.2 kg (2.5 mg dose) to 14.6 kg (15 mg dose), corresponding to 9.1% and 14.7% weight reductions, respectively; the placebo group had a 1.8 kg (1.7%) reduction."]
+model = "qwen3.7-plus-2026-05-26"
+returned_model = "qwen3.7-plus-2026-05-26"
+check = "disputed"
+decision = ""
+note = ""
+
+[[items]]
+id = "r-3b86d813"
+type = "clinical_result"
+source_id = "DOC-VKTX-403794ba"
+asset = "VK2735"
+trial = "NCT06068946"
+indication = "obesity or overweight and ≥ 1 weight-related comorbidity"
+endpoint = "proportion of participants losing ≥ 5% of baseline weight"
+result = "In the active treatment groups, 93% (130/140) of participants had a ≥ 5% weight reduction, compared with 12% (4/34) of participants with placebo treatment."
+analysis = ""
+comparator = "placebo"
+advantage_vs_soc = ""
+confidence = ""
+quotes = ["TRIAL REGISTRATION: ClinicalTrials.gov identifier NCT06068946.", "adults with obesity or overweight and ≥ 1 weight-related comorbidity.", "the proportion of participants losing ≥ 5% and ≥ 10% of baseline weight.", "In the active treatment groups, 93% (130/140) of participants had a ≥ 5% weight reduction, compared with 12% (4/34) of participants with placebo treatment."]
 model = "qwen3.7-plus-2026-05-26"
 returned_model = "qwen3.7-plus-2026-05-26"
 check = "disputed"

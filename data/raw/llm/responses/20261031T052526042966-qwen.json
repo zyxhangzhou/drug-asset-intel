@@ -1,0 +1,37 @@
+{
+ "request_meta": {
+  "task": "clinical_result",
+  "ticker": "VKTX",
+  "source_id": "DOC-VKTX-403794ba",
+  "chunks": [
+   0
+  ],
+  "prompt_sha256": "cda670cd4d2a48cc2d6bf0b6f373b2347e3d05bee0cbe8e29a0ab7a55c88b43c"
+ },
+ "response": {
+  "id": "chatcmpl-66efd485-a290-9833-b4da-ecd9d2afcf62",
+  "object": "chat.completion",
+  "created": 1793424325,
+  "model": "qwen3.7-plus-2026-05-26",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"VK2735\",\n      \"trial\": \"NCT06068946\",\n      \"indication\": \"obesity or overweight and ≥ 1 weight-related comorbidity\",\n      \"endpoint\": \"percent change from baseline in body weight at Week 13\",\n      \"result\": \"Mean weight reduction with active treatment ranged from 9.2 kg (2.5 mg dose) to 14.6 kg (15 mg dose), corresponding to 9.1% and 14.7% weight reductions, respectively; the placebo group had a 1.8 kg (1.7%) reduction.\",\n      \"analysis\": \"\",\n      \"comparator\": \"placebo\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"TRIAL REGISTRATION: ClinicalTrials.gov identifier NCT06068946.\",\n        \"adults with obesity or overweight and ≥ 1 weight-related comorbidity.\",\n        \"The primary endpoint was percent change from baseline in body weight at Week 13.\",\n        \"Mean weight reduction with active treatment ranged from 9.2 kg (2.5 mg dose) to 14.6 kg (15 mg dose), corresponding to 9.1% and 14.7% weight reductions, respectively; the placebo group had a 1.8 kg (1.7%) reduction.\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"VK2735\",\n      \"trial\": \"NCT06068946\",\n      \"indication\": \"obesity or overweight and ≥ 1 weight-related comorbidity\",\n      \"endpoint\": \"proportion of participants losing ≥ 5% of baseline weight\",\n      \"result\": \"In the active treatment groups, 93% (130/140) of participants had a ≥ 5% weight reduction, compared with 12% (4/34) of participants with placebo treatment.\",\n      \"analysis\": \"\",\n      \"comparator\": \"placebo\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"TRIAL REGISTRATION: ClinicalTrials.gov identifier NCT06068946.\",\n        \"adults with obesity or overweight and ≥ 1 weight-related comorbidity.\",\n        \"the proportion of participants losing ≥ 5% and ≥ 10% of baseline weight.\",\n        \"In the active treatment groups, 93% (130/140) of participants had a ≥ 5% weight reduction, compared with 12% (4/34) of participants with placebo treatment.\"\n      ],\n      \"confidence\": \"\"\n    }\n  ]\n}"
+    },
+    "finish_reason": "stop",
+    "logprobs": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1426,
+   "total_tokens": 2048,
+   "completion_tokens": 622,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 1426
+   }
+  }
+ }
+}

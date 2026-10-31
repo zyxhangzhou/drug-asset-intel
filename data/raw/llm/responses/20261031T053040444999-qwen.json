@@ -1,0 +1,40 @@
+{
+ "request_meta": {
+  "task": "clinical_result",
+  "ticker": "VSTM",
+  "source_id": "MAN-VSTM-4",
+  "chunks": [
+   6,
+   7,
+   8,
+   11
+  ],
+  "prompt_sha256": "eb8bd0676e1ff1a1fa92025c4e55c88f92d7acccd6663a888b865d9d8711d554"
+ },
+ "response": {
+  "id": "chatcmpl-50e9ca07-7238-90b0-9fc3-482f4a8b2a29",
+  "object": "chat.completion",
+  "created": 1793424640,
+  "model": "qwen3.7-plus-2026-05-26",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"VS-7375\",\n      \"trial\": \"TARGET-D 101\",\n      \"indication\": \"2L+ NSCLC\",\n      \"endpoint\": \"ORR at data cutoff Oct. 7, 2026\",\n      \"result\": \"43% c ORR (10/23)\",\n      \"analysis\": \"\",\n      \"comparator\": \"none\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"20 VS - 7375 Demonstrates Confirmed Responses at 600 mg in 2L+ NSCLC 43% c ORR (10/23) 2L+ NSCLC, including prior taxane treated\",\n        \"Data cutoff: Oct. 7, 2026\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"VS-7375\",\n      \"trial\": \"TARGET-D 101\",\n      \"indication\": \"2L+ NSCLC\",\n      \"endpoint\": \"landmark PFS rate at 6-months\",\n      \"result\": \"72%\",\n      \"analysis\": \"\",\n      \"comparator\": \"none\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"21 VS - 7375 Shows Encouraging Durability at 600 mg in 2L+ NSCLC 72% landmark PFS rate at 6 - months; mPFS not reached\",\n        \"Data cutoff: Oct. 7, 2026\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"VS-7375\",\n      \"trial\": \"TARGET-D 101\",\n      \"indication\": \"Advanced NSCLC\",\n      \"endpoint\": \"KRAS G12D VAF Clearance\",\n      \"result\": \"100% Clearance, % (n/N) VS - 7375 600mg Monotherapy (N=5) 100 (5/5)\",\n      \"analysis\": \"\",\n      \"comparator\": \"none\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"[table 1] VS - 7375 Achieved Complete KRAS G12D VAF Clearance Even at 600 mg in Patients with Advanced NSCLC — KRAS G12D VAF Clearance 100 (5/5) 100% Clearance, % (n/N) | VS - 7375 600mg Monotherapy (N=5): 100 (5/5)\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"VS-7375\",\n      \"trial\": \"TARGET-D 101\",\n      \"indication\": \"1L NSCLC combined with SoC\",\n      \"endpoint\": \"ORR*\",\n      \"result\": \"75% ORR* (6/8) in 1L NSCLC combined with SoC\",\n      \"analysis\": \"\",\n      \"comparator\": \"SoC (Platinum+Pemetrexed +/- Pembrolizumab)\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"23 TPS VS - 7375 at 600 mg Shows Early Antitumor Activity with First - Line Triplet SoC in NSCLC, Supporting Combination Potential\",\n        \"75% ORR* (6/8) in 1L NSCLC combined with SoC mITT = 8 patients\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"VS-7375\",\n      \"trial\": \"TARGET-D 101\",\n      \"indication\": \"mPDAC\",\n      \"endpoint\": \"Confirmed Partial Response at Week 12\",\n      \"result\": \"cPR ( - 47%) (SLD: 80mm)\",\n      \"analysis\": \"\",\n      \"comparator\": \"none\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"25 Confirmed Partial Response at Week 12 with VS - 7375 900 mg Monotherapy in 55 y/o Male with mPDAC\",\n        \"Week 12: cPR ( - 47%) (SLD: 80mm) Response ongoing\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"VS-7375\",\n      \"trial\": \"TARGET-D 101\",\n      \"indication\": \"mPDAC\",\n      \"endpoint\": \"Complete Response at Week 12\",\n      \"result\": \"CR - 100% (SLD: 0mm)\",\n      \"analysis\": \"\",\n      \"comparator\": \"none\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"55 Complete Response at Week 12 with VS - 7375 900 mg QD Monotherapy in 79 y/o Female with mPDAC\",\n        \"Week 12: CR - 100% (SLD: 0mm) Response ongoing\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"VS-7375\",\n      \"trial\": \"TARGET-D 201\",\n      \"indication\": \"2L/3L/4L mPDAC\",\n      \"endpoint\": \"Landmark 6-month PFS rate\",\n      \"result\": \"67%\",\n      \"analysis\": \"\",\n      \"comparator\": \"none\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"43 VS - 7375: First KRAS G12D Inhibitor to Demonstrate Favorable Monotherapy Durability in mPDAC 67% Landmark 6 - month PFS rate\",\n        \"Data cutoff: Oct. 7, 2026\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"VS-7375\",\n      \"trial\": \"TARGET-D 201\",\n      \"indication\": \"2L/3L/4L mPDAC\",\n      \"endpoint\": \"Landmark 6-month OS\",\n      \"result\": \"80%\",\n      \"analysis\": \"\",\n      \"comparator\": \"none\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"43 VS - 7375: First KRAS G12D Inhibitor to Demonstrate Favorable Monotherapy Durability in mPDAC ... 80% Landmark 6 - month OS in 2L/3L/4L\",\n        \"Data cutoff: Oct. 7, 2026\"\n      ],\n      \"confidence\": \"\"\n    }\n  ]\n}"
+    },
+    "finish_reason": "stop",
+    "logprobs": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 8412,
+   "total_tokens": 10007,
+   "completion_tokens": 1595,
+   "prompt_tokens_details": {
+    "cached_tokens": 512,
+    "text_tokens": 8412
+   }
+  }
+ }
+}

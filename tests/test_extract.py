@@ -10,7 +10,7 @@ from intel.docs.index import ChunkIndex
 from intel.docs.text import normalize
 from intel.enums import SourceType
 from intel.extract import review
-from intel.extract.client import Endpoint, LlmClient
+from intel.extract.client import Endpoint, LlmClient, LlmError
 from intel.extract.ledger import Ledger, LlmConfig, PeakRefused
 from intel.extract.run import Extractor
 from intel.extract.tasks import SYSTEM_PROMPT, TASKS, user_prompt
@@ -348,3 +348,49 @@ def test_multi_arm_table_value_with_one_quote_per_cell():
         quotes=lines,
     )
     assert check_item(TASKS["clinical_result"], raw, normalize("\n".join(lines)))[1] is None
+
+
+def test_regimen_names_pair_across_spellings(tmp_path):
+    a = result_item(asset="VK2735 plus placebo run-in")
+    b = result_item(asset="VK2735 PLACEBO RUN-IN")
+    ex, doc, _ = setup(tmp_path, {"clinical_result": [a]}, {"clinical_result": [b]})
+    assert [i.check for i in ex.run_document(doc, ["clinical_result"])] == ["agreed"]
+
+
+def test_replay_repairs_saved_replies_without_calls(tmp_path):
+    primary = {"program": [PROGRAM]}
+    ex, doc, sent = setup(tmp_path, primary, {"program": [PROGRAM]})
+    first = ex.run_document(doc, ["program"])
+    log = tmp_path / "llm" / "validation.jsonl"
+    ledger = tmp_path / "llm" / "ledger.jsonl"
+    lines = (log.read_text(), ledger.read_text())
+    ex.primary.replay = ex.verify.replay = True
+    again = ex.run_document(doc, ["program"])
+    assert [(i.id, i.check) for i in again] == [(i.id, i.check) for i in first]
+    assert len(sent) == 2  # no new requests
+    assert (log.read_text(), ledger.read_text()) == lines  # nothing logged or billed twice
+
+
+def test_replay_needs_a_saved_reply_of_the_same_prompt(tmp_path):
+    ex, doc, _ = setup(tmp_path, {"program": [PROGRAM]}, {})
+    ex.run_document(doc, ["program"])
+    ex.primary.replay = True
+    with pytest.raises(LlmError, match="no saved response"):
+        ex.run_document(doc, ["catalyst"])
+
+
+def test_none_and_empty_comparator_agree(tmp_path):
+    a = result_item(comparator="")
+    b = result_item(comparator="none")
+    ex, doc, _ = setup(tmp_path, {"clinical_result": [a]}, {"clinical_result": [b]})
+    assert [i.check for i in ex.run_document(doc, ["clinical_result"])] == ["agreed"]
+
+
+def test_program_code_in_brackets_is_same_asset(tmp_path):
+    a = PROGRAM | {"asset": "VK2735"}
+    b = PROGRAM | {"asset": "VK2809"}  # another drug, same sentence
+    c = PROGRAM | {"asset": "VK2735 (VK-0001)"}
+    ex, doc, _ = setup(tmp_path, {"program": [a]}, {"program": [c]})
+    assert [i.check for i in ex.run_document(doc, ["program"])] == ["agreed"]
+    ex, doc, _ = setup(tmp_path / "2", {"program": [a]}, {"program": [b]})
+    assert [i.check for i in ex.run_document(doc, ["program"])] == ["disputed", "disputed"]

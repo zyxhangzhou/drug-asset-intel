@@ -1,0 +1,40 @@
+{
+ "request_meta": {
+  "task": "clinical_result",
+  "ticker": "RGNX",
+  "source_id": "MAN-RGNX-2",
+  "chunks": [
+   0,
+   1
+  ],
+  "prompt_sha256": "2a3b56724b917e116d25ea0969edd335d5c4b9431766e5a3f4af17785655af35"
+ },
+ "response": {
+  "id": "c5db4004-f558-44de-b096-b74f29d05078",
+  "object": "chat.completion",
+  "created": 1793423781,
+  "model": "deepseek-v4-pro",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"RGX-202\",\n      \"trial\": \"AFFINITY DUCHENNE\",\n      \"indication\": \"Duchenne muscular dystrophy\",\n      \"endpoint\": \"Primary endpoint\",\n      \"result\": \"met its primary endpoint\",\n      \"analysis\": \"p<0.0001\",\n      \"comparator\": \"\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"the Phase III AFFINITY DUCHENNE ® trial met its primary endpoint with high statistical significance (p<0.0001).\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"RGX-202\",\n      \"trial\": \"AFFINITY DUCHENNE\",\n      \"indication\": \"Duchenne muscular dystrophy\",\n      \"endpoint\": \"Correlation between microdystrophin expression level and functional improvement at one year (NSAA)\",\n      \"result\": \"statistically significant correlation\",\n      \"analysis\": \"\",\n      \"comparator\": \"\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"demonstrated statistically significant correlation between RGX-202 microdystrophin expression level and functional improvement at one year (NSAA, n=9).\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"surabgene lomparvovec (sura-vec, ABBV-RGX-314)\",\n      \"trial\": \"Phase I/IIa trial\",\n      \"indication\": \"wet age-related macular degeneration\",\n      \"endpoint\": \"Visual acuity through five years\",\n      \"result\": \"stable to improved visual acuity\",\n      \"analysis\": \"\",\n      \"comparator\": \"\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"Long-term follow-up data from the Phase I/IIa trial of sura-vec, presented at the ASRS 44th Annual Meeting in July 2026, showed stable to improved visual acuity and meaningful reductions in anti-VEGF treatment burden through five years at doses similar to those used in the pivotal trials, with the exception of one participant in Cohort 4 with polypoidal choroidal vasculopathy refractory to anti-VEGF therapy.\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"surabgene lomparvovec (sura-vec, ABBV-RGX-314)\",\n      \"trial\": \"Phase I/IIa trial\",\n      \"indication\": \"wet age-related macular degeneration\",\n      \"endpoint\": \"Anti-VEGF treatment burden through five years\",\n      \"result\": \"meaningful reductions in anti-VEGF treatment burden\",\n      \"analysis\": \"\",\n      \"comparator\": \"\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"Long-term follow-up data from the Phase I/IIa trial of sura-vec, presented at the ASRS 44th Annual Meeting in July 2026, showed stable to improved visual acuity and meaningful reductions in anti-VEGF treatment burden through five years at doses similar to those used in the pivotal trials, with the exception of one participant in Cohort 4 with polypoidal choroidal vasculopathy refractory to anti-VEGF therapy.\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"surabgene lomparvovec (sura-vec, ABBV-RGX-314)\",\n      \"trial\": \"ALTITUDE\",\n      \"indication\": \"diabetic retinopathy\",\n      \"endpoint\": \"Safety and efficacy through 2.5 years\",\n      \"result\": \"durable safety and efficacy profile\",\n      \"analysis\": \"\",\n      \"comparator\": \"\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"Long-term follow-up data from the ALTITUDE ® trial, also presented at ASRS in July 2026, showed a durable safety and efficacy profile through 2.5 years at the dose being evaluated in NAAVIGATE with short-course prophylactic topical steroids.\"\n      ],\n      \"confidence\": \"\"\n    }\n  ]\n}"
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 3241,
+   "completion_tokens": 880,
+   "total_tokens": 4121,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 2729
+  },
+  "system_fingerprint": "a307abda487cd1b463329ccb945ce396"
+ }
+}

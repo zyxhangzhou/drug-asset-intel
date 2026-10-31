@@ -1,0 +1,39 @@
+{
+ "request_meta": {
+  "task": "clinical_result",
+  "ticker": "VSTM",
+  "source_id": "DOC-VSTM-f45aa7ce",
+  "chunks": [
+   0,
+   1,
+   3
+  ],
+  "prompt_sha256": "947882afdcfbf3d671160aca21fce884685ceabc8b4756b3f740257efdadb070"
+ },
+ "response": {
+  "id": "chatcmpl-c71608d6-f339-9e50-8868-857f6c07fe75",
+  "object": "chat.completion",
+  "created": 1793424563,
+  "model": "qwen3.7-plus-2026-05-26",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"AVUTOMETINIB DEFACTINIB\",\n      \"trial\": \"RAMP 201 Japan study\",\n      \"indication\": \"recurrent low-grade serous ovarian cancer (LGSOC)\",\n      \"endpoint\": \"overall response rate\",\n      \"result\": \"44% overall response rate across all patients. Response rates were 71% in patients with KRAS-mutated tumors and 22% in those with KRAS wild-type tumors\",\n      \"analysis\": \"\",\n      \"comparator\": \"none\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"In July, updated data from the RAMP 201 Japan study were presented at the\",\n        \"Annual Meeting of the Japanese Society of Gynecologic Oncology (JSGO) held July 17-19, 2026, in Sapporo, Japan. As of May 29, 2026, 16\",\n        \"efficacy-evaluable patients with recurrent low-grade serous ovarian cancer (LGSOC) had received avutometinib plus defactinib, with a median\",\n        \"follow up of 12.4 months. The combination achieved a 44% overall response rate and a 94% disease control rate across all patients. Response\",\n        \"rates were 71% in patients with KRAS-mutated tumors and 22% in those with KRAS wild-type tumors, with disease control rates of 100% and\",\n        \"89%, respectively.\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"AVUTOMETINIB DEFACTINIB\",\n      \"trial\": \"RAMP 201 Japan study\",\n      \"indication\": \"recurrent low-grade serous ovarian cancer (LGSOC)\",\n      \"endpoint\": \"disease control rate\",\n      \"result\": \"94% disease control rate across all patients... disease control rates of 100% and 89%, respectively\",\n      \"analysis\": \"\",\n      \"comparator\": \"none\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"In July, updated data from the RAMP 201 Japan study were presented at the\",\n        \"Annual Meeting of the Japanese Society of Gynecologic Oncology (JSGO) held July 17-19, 2026, in Sapporo, Japan. As of May 29, 2026, 16\",\n        \"efficacy-evaluable patients with recurrent low-grade serous ovarian cancer (LGSOC) had received avutometinib plus defactinib, with a median\",\n        \"follow up of 12.4 months. The combination achieved a 44% overall response rate and a 94% disease control rate across all patients. Response\",\n        \"rates were 71% in patients with KRAS-mutated tumors and 22% in those with KRAS wild-type tumors, with disease control rates of 100% and\",\n        \"89%, respectively.\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"AVUTOMETINIB DEFACTINIB\",\n      \"trial\": \"RAMP 205 Phase 1b/2a\",\n      \"indication\": \"first-line metastatic pancreatic ductal carcinoma (PDAC)\",\n      \"endpoint\": \"confirmed objective response rate (cORR)\",\n      \"result\": \"52% confirmed objective response rate (cORR)\",\n      \"analysis\": \"\",\n      \"comparator\": \"none\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"On June 17, the Company announced positive updated results from the RAMP 205 Phase 1b/2a\",\n        \"recommended phase 2 dose cohort of 29 patients evaluating avutometinib plus defactinib in\",\n        \"combination with gemcitabine and nab-paclitaxel in first-line metastatic pancreatic ductal\",\n        \"carcinoma (PDAC). As of the June 5, 2026 data cutoff (median follow-up of 9.8 months) the\",\n        \"combination achieved a 52% confirmed objective response rate (cORR), with both an 86% overall\",\n        \"survival rate and 68% progression-free survival rate at six months.\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"AVUTOMETINIB DEFACTINIB\",\n      \"trial\": \"RAMP 205 Phase 1b/2a\",\n      \"indication\": \"first-line metastatic pancreatic ductal carcinoma (PDAC)\",\n      \"endpoint\": \"overall survival rate at six months\",\n      \"result\": \"86% overall survival rate at six months\",\n      \"analysis\": \"\",\n      \"comparator\": \"none\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"On June 17, the Company announced positive updated results from the RAMP 205 Phase 1b/2a\",\n        \"recommended phase 2 dose cohort of 29 patients evaluating avutometinib plus defactinib in\",\n        \"combination with gemcitabine and nab-paclitaxel in first-line metastatic pancreatic ductal\",\n        \"carcinoma (PDAC). As of the June 5, 2026 data cutoff (median follow-up of 9.8 months) the\",\n        \"combination achieved a 52% confirmed objective response rate (cORR), with both an 86% overall\",\n        \"survival rate and 68% progression-free survival rate at six months.\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"AVUTOMETINIB DEFACTINIB\",\n      \"trial\": \"RAMP 205 Phase 1b/2a\",\n      \"indication\": \"first-line metastatic pancreatic ductal carcinoma (PDAC)\",\n      \"endpoint\": \"progression-free survival rate at six months\",\n      \"result\": \"68% progression-free survival rate at six months\",\n      \"analysis\": \"\",\n      \"comparator\": \"none\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"On June 17, the Company announced positive updated results from the RAMP 205 Phase 1b/2a\",\n        \"recommended phase 2 dose cohort of 29 patients evaluating avutometinib plus defactinib in\",\n        \"combination with gemcitabine and nab-paclitaxel in first-line metastatic pancreatic ductal\",\n        \"carcinoma (PDAC). As of the June 5, 2026 data cutoff (median follow-up of 9.8 months) the\",\n        \"combination achieved a 52% confirmed objective response rate (cORR), with both an 86% overall\",\n        \"survival rate and 68% progression-free survival rate at six months.\"\n      ],\n      \"confidence\": \"\"\n    }\n  ]\n}"
+    },
+    "finish_reason": "stop",
+    "logprobs": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 5535,
+   "total_tokens": 7155,
+   "completion_tokens": 1620,
+   "prompt_tokens_details": {
+    "cached_tokens": 512,
+    "text_tokens": 5535
+   }
+  }
+ }
+}

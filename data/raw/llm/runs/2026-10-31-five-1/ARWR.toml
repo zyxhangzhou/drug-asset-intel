@@ -1,0 +1,779 @@
+# LLM extraction review. Set decision per item (accept / reject), then sign verified_by.
+# Only accepted items of a signed file enter the snapshot; quotes are rechecked at build.
+ticker = "ARWR"
+verified_by = ""
+
+[[items]]
+id = "p-52fa6785"
+type = "program"
+source_id = "DOC-ARWR-6a63d389"
+asset = "PLOZASIRAN (ARO-APOC3)"
+mechanism = "suppress the production of apolipoprotein C-III (APOC3)"
+modality = "small interfering RNA (siRNA)"
+quotes = ["REDEMPLO is a small interfering RNA (“siRNA”) therapeutic designed to suppress the production of apolipoprotein C-III (APOC3), a protein produced in the liver that raises triglyceride levels by slowing their breakdown and clearance."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "agreed"
+verify = { asset = "PLOZASIRAN (ARO-APOC3)", mechanism = "suppress the production of apolipoprotein C-III (APOC3)", modality = "small interfering RNA (\"siRNA\") therapeutic" }
+verify_quotes = ["REDEMPLO is a small interfering RNA (\"siRNA\") therapeutic designed to suppress the production of apolipoprotein C-III (APOC3)"]
+decision = "accept"
+note = ""
+
+[[items]]
+id = "p-aa2bbfbc"
+type = "program"
+source_id = "DOC-ARWR-6a63d389"
+asset = "ARO-PNPLA3"
+mechanism = "reduce liver expression of patatin-like phospholipase domain containing 3 (PNPLA3)"
+modality = "RNA interference (RNAi) therapeutic"
+quotes = ["Announced an exclusive worldwide license agreement with Madrigal Pharmaceuticals for ARO-PNPLA3, Arrowhead’s clinical stage RNA interference (RNAi) therapeutic designed to reduce liver expression of patatin-like phospholipase domain containing 3 (PNPLA3) as a potential treatment for patients with metabolic dysfunction-associated steatohepatitis (MASH)"]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "agreed"
+verify = { asset = "ARO-PNPLA3", mechanism = "reduce liver expression of patatin-like phospholipase domain containing 3 (PNPLA3)", modality = "RNA interference (RNAi) therapeutic" }
+verify_quotes = ["ARO-PNPLA3, Arrowhead’s clinical stage RNA interference (RNAi) therapeutic designed to reduce liver expression of patatin-like phospholipase domain containing 3 (PNPLA3)"]
+decision = "accept"
+note = ""
+
+[[items]]
+id = "p-ad24d668"
+type = "program"
+source_id = "DOC-ARWR-6a63d389"
+asset = "ARO-INHBE"
+mechanism = ""
+modality = "RNA interference (RNAi) therapeutic"
+quotes = ["Presented interim results from a Phase 1/2a clinical trial of ARO-INHBE, the Company’s investigational RNA interference (RNAi) therapeutic being developed as a potential treatment for obesity and metabolic dysfunction-associated steatohepatitis (MASH)."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "agreed"
+verify = { asset = "ARO-INHBE", mechanism = "", modality = "RNA interference (RNAi) therapeutic" }
+verify_quotes = ["ARO-INHBE, the Company’s investigational RNA interference (RNAi) therapeutic being developed as a potential treatment for obesity"]
+decision = "accept"
+note = ""
+
+[[items]]
+id = "p-fd5e9e1c"
+type = "program"
+source_id = "DOC-ARWR-6a63d389"
+asset = "ARO-DIMER-PA"
+mechanism = "silence expression of both proprotein convertase subtilisin kexin 9 (PCSK9) and apolipoprotein C3 (APOC3) genes"
+modality = "RNAi therapeutic"
+quotes = ["Initiated and dosed the first subjects in a Phase 1/2a clinical trial of ARO-DIMER-PA, the Company’s investigational RNAi therapeutic being developed as a potential treatment for atherosclerotic cardiovascular disease (ASCVD) due to mixed hyperlipidemia.", "ARO-DIMER-PA is designed to silence expression of both proprotein convertase subtilisin kexin 9 (PCSK9) and apolipoprotein C3 (APOC3) genes."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "agreed"
+verify = { asset = "ARO-DIMERPA", mechanism = "silence expression of both proprotein convertase subtilisin kexin 9 (PCSK9) and apolipoprotein C3 (APOC3) genes", modality = "RNAi therapeutic" }
+verify_quotes = ["ARO-DIMER-PA, the Company’s investigational RNAi therapeutic being developed as a potential treatment for atherosclerotic cardiovascular disease", "ARO-DIMER-PA is designed to silence expression of both proprotein convertase subtilisin kexin 9 (PCSK9) and apolipoprotein C3 (APOC3) genes"]
+decision = "accept"
+note = ""
+
+[[items]]
+id = "p-c6a6c400"
+type = "program"
+source_id = "DOC-ARWR-6a63d389"
+asset = "ARO-ALK7"
+mechanism = ""
+modality = "RNAi-therapeutic"
+quotes = ["ARO-ALK7, the first RNAi-therapeutic to show adipocyte gene target silencing in a clinical trial, achieved dose dependent reductions in adipose ALK7 messenger (mRNA) with a mean reduction of -88% at the 200 mg dose at week 8 with a maximum reduction of -94%."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "disputed"
+verify = { asset = "ARO-ALK7", mechanism = "adipocyte gene target silencing", modality = "RNAi-therapeutic" }
+verify_quotes = ["ARO-ALK7, the first RNAi-therapeutic to show adipocyte gene target silencing in a clinical trial"]
+decision = ""
+note = ""
+
+[[items]]
+id = "p-72e25676"
+type = "program"
+source_id = "DOC-ARWR-6a63d389"
+asset = "ARO-MAPT"
+mechanism = ""
+modality = "RNAi therapeutic"
+quotes = ["Initiated and dosed the first subjects in a Phase 1/2a clinical trial of ARO-MAPT, the Company’s investigational RNAi therapeutic being developed as a potential treatment for tauopathies including Alzheimer’s disease, a progressive neurodegenerative disease characterized by cognitive and functional decline."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "agreed"
+verify = { asset = "ARO-MAPT", mechanism = "", modality = "RNAi therapeutic" }
+verify_quotes = ["ARO-MAPT, the Company’s investigational RNAi therapeutic being developed as a potential treatment for tauopathies including Alzheimer’s disease"]
+decision = "accept"
+note = ""
+
+[[items]]
+id = "p-741b7716"
+type = "program"
+source_id = "DOC-ARWR-6a63d389"
+asset = "ARO-DM1"
+mechanism = ""
+modality = "RNAi therapeutic"
+quotes = ["the Company earned a $200.0 million milestone payment from Sarepta Therapeutics, Inc., which was triggered on November 20, 2025, when the Company reached the second of two prespecified enrollment targets and subsequent authorization to dose escalate in a Phase 1/2 clinical study of ARO-DM1, an investigational RNAi therapeutic for the treatment of type 1 myotonic dystrophy (DM1)."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "agreed"
+verify = { asset = "ARO-DM1", mechanism = "", modality = "RNAi therapeutic" }
+verify_quotes = ["ARO-DM1, an investigational RNAi therapeutic for the treatment of type 1 myotonic dystrophy (DM1)"]
+decision = "accept"
+note = ""
+
+[[items]]
+id = "r-a969ea17"
+type = "clinical_result"
+source_id = "DOC-ARWR-6a63d389"
+asset = "ARO-INHBE"
+trial = "Phase 1/2a clinical trial"
+indication = "obesity and metabolic dysfunction-associated steatohepatitis (MASH)"
+endpoint = "liver fat reduction"
+result = "ARO-INHBE treatment led to clinically meaningful reductions in liver fat as a monotherapy and in combination with low-dose tirzepatide"
+analysis = ""
+comparator = ""
+advantage_vs_soc = ""
+confidence = ""
+quotes = ["The data presented at the European Association for the Study of the Liver Congress (EASL 2026) demonstrate that ARO-INHBE treatment led to clinically meaningful reductions in liver fat as a monotherapy and in combination with low-dose tirzepatide, a GLP-1/GIP receptor co-agonist, in adults with obesity."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "disputed"
+decision = ""
+note = ""
+
+[[items]]
+id = "r-f1c3fc03"
+type = "clinical_result"
+source_id = "DOC-ARWR-6a63d389"
+asset = "ARO-INHBE"
+trial = "Phase 1/2a clinical trial"
+indication = "obesity and metabolic dysfunction-associated steatohepatitis (MASH)"
+endpoint = "weight loss at week 16"
+result = "ARO-INHBE in combination with tirzepatide nearly doubled weight loss at week 16 versus tirzepatide alone"
+analysis = ""
+comparator = "tirzepatide alone"
+advantage_vs_soc = ""
+confidence = ""
+quotes = ["ARO-INHBE in combination with tirzepatide, a GLP-1/GIP receptor co-agonist, nearly doubled weight loss at week 16 and roughly tripled reductions in visceral fat, total fat, and liver fat versus tirzepatide alone in obese patients with type 2 diabetes mellitus at those same endpoints at week 12."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "disputed"
+decision = ""
+note = ""
+
+[[items]]
+id = "r-c37e641e"
+type = "clinical_result"
+source_id = "DOC-ARWR-6a63d389"
+asset = "ARO-INHBE"
+trial = "Phase 1/2a clinical trial"
+indication = "obesity and metabolic dysfunction-associated steatohepatitis (MASH)"
+endpoint = "reductions in visceral fat, total fat, and liver fat at week 12"
+result = "roughly tripled reductions in visceral fat, total fat, and liver fat versus tirzepatide alone"
+analysis = ""
+comparator = "tirzepatide alone"
+advantage_vs_soc = ""
+confidence = ""
+quotes = ["ARO-INHBE in combination with tirzepatide, a GLP-1/GIP receptor co-agonist, nearly doubled weight loss at week 16 and roughly tripled reductions in visceral fat, total fat, and liver fat versus tirzepatide alone in obese patients with type 2 diabetes mellitus at those same endpoints at week 12."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "disputed"
+decision = ""
+note = ""
+
+[[items]]
+id = "r-9a710a37"
+type = "clinical_result"
+source_id = "DOC-ARWR-6a63d389"
+asset = "ARO-ALK7"
+trial = "Phase 1/2a clinical trial"
+indication = "obesity and metabolic dysfunction-associated steatohepatitis (MASH)"
+endpoint = "adipose ALK7 messenger (mRNA) reduction at week 8"
+result = "mean reduction of -88% at the 200 mg dose at week 8 with a maximum reduction of -94%"
+analysis = ""
+comparator = ""
+advantage_vs_soc = ""
+confidence = ""
+quotes = ["ARO-ALK7, the first RNAi-therapeutic to show adipocyte gene target silencing in a clinical trial, achieved dose dependent reductions in adipose ALK7 messenger (mRNA) with a mean reduction of -88% at the 200 mg dose at week 8 with a maximum reduction of -94%."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "disputed"
+decision = ""
+note = ""
+
+[[items]]
+id = "r-9f5680ab"
+type = "clinical_result"
+source_id = "DOC-ARWR-6a63d389"
+asset = "ARO-INHBE"
+trial = "Phase 1/2a clinical trial"
+indication = "obesity and metabolic dysfunction-associated steatohepatitis (MASH)"
+endpoint = "liver fat content (LFC) reduction"
+result = "ARO-INHBE monotherapy at 200mg or greater reduced liver fat content (LFC) by 44% compared to placebo"
+analysis = ""
+comparator = "placebo"
+advantage_vs_soc = ""
+confidence = ""
+quotes = ["ARO-INHBE monotherapy at 200mg or greater reduced liver fat content (LFC) by 44% compared to placebo in subjects with obesity and baseline liver fat content greater than 8%."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "disputed"
+decision = ""
+note = ""
+
+[[items]]
+id = "r-0358ee0c"
+type = "clinical_result"
+source_id = "DOC-ARWR-6a63d389"
+asset = "PLOZASIRAN (ARO-APOC3)"
+trial = "Phase 3 PALISADE study"
+indication = "familial chylomicronemia syndrome (FCS)"
+endpoint = "triglyceride reduction from baseline"
+result = "25 mg REDEMPLO achieved a median change from baseline of -80% versus -17% in the pooled placebo group"
+analysis = ""
+comparator = "placebo"
+advantage_vs_soc = ""
+confidence = ""
+quotes = ["In PALISADE, 25 mg REDEMPLO achieved deep and durable reductions in triglycerides, with a median change from baseline of -80% versus -17% in the pooled placebo group, and a lower numerical incidence of acute pancreatitis compared with placebo."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "disputed"
+verify = { asset = "PLOZASIRAN (ARO-APOC3)", trial = "Phase 3 PALISADE study", indication = "Familial Chylomicronemia Syndrome (FCS)", endpoint = "triglycerides and APOC3", result = "25 mg REDEMPLO achieved deep and durable reductions in triglycerides, with a median change from baseline of -80% versus -17% in the pooled placebo group", analysis = "", comparator = "placebo", advantage_vs_soc = "" }
+verify_quotes = ["The FDA approved the Company's New Drug Application (NDA) for REDEMPLO injection for Familial Chylomicronemia Syndrome (FCS), on November 18, 2025. This approval was supported by clinical data from the Phase 3 PALISADE study, a randomized, double-blind, placebo-controlled trial in adults with clinically diagnosed or genetically confirmed FCS.", "The PALISADE study met its primary endpoint and all multiplicity-controlled key secondary endpoints, including demonstrating significant reductions in triglycerides and APOC3.", "In PALISADE, 25 mg REDEMPLO achieved deep and durable reductions in triglycerides, with a median change from baseline of -80% versus -17% in the pooled placebo group, and a lower numerical incidence of acute pancreatitis compared with placebo."]
+decision = ""
+note = ""
+
+[[items]]
+id = "r-bb4147a9"
+type = "clinical_result"
+source_id = "DOC-ARWR-6a63d389"
+asset = "PLOZASIRAN (ARO-APOC3)"
+trial = "Phase 3 PALISADE study"
+indication = "familial chylomicronemia syndrome (FCS)"
+endpoint = "acute pancreatitis incidence"
+result = "lower numerical incidence of acute pancreatitis compared with placebo"
+analysis = ""
+comparator = "placebo"
+advantage_vs_soc = ""
+confidence = ""
+quotes = ["In PALISADE, 25 mg REDEMPLO achieved deep and durable reductions in triglycerides, with a median change from baseline of -80% versus -17% in the pooled placebo group, and a lower numerical incidence of acute pancreatitis compared with placebo."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "disputed"
+decision = ""
+note = ""
+
+[[items]]
+id = "r-c710ef7c"
+type = "clinical_result"
+source_id = "DOC-ARWR-6a63d389"
+asset = "PLOZASIRAN (ARO-APOC3)"
+trial = "Phase 2b Open-Label Expansion (OLE) Study"
+indication = "severe hypertriglyceridemia (sHTG)"
+endpoint = "triglyceride reduction"
+result = "Patients with severe hypertriglyceridemia (sHTG) achieved an 83% median reduction in triglycerides (TG), with 96% of patients achieving TG levels below 500 mg/dL"
+analysis = ""
+comparator = ""
+advantage_vs_soc = ""
+confidence = ""
+quotes = ["Patients with severe hypertriglyceridemia (sHTG) achieved an 83% median reduction in triglycerides (TG), with 96% of patients achieving TG levels below 500 mg/dL, a threshold associated with increased risk of acute pancreatitis."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "disputed"
+decision = ""
+note = ""
+
+[[items]]
+id = "r-8575eebb"
+type = "clinical_result"
+source_id = "DOC-ARWR-6a63d389"
+asset = "PLOZASIRAN (ARO-APOC3)"
+trial = "Phase 2b Open-Label Expansion (OLE) Study"
+indication = "severe hypertriglyceridemia (sHTG)"
+endpoint = "acute pancreatitis events"
+result = "No adjudicated acute pancreatitis events occurred in any patient receiving plozasiran during the 2-year Phase 2b Open-Label Expansion (OLE) Study"
+analysis = ""
+comparator = ""
+advantage_vs_soc = ""
+confidence = ""
+quotes = ["No adjudicated acute pancreatitis events occurred in any patient receiving plozasiran during the 2-year Phase 2b Open-Label Expansion (OLE) Study."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "disputed"
+decision = ""
+note = ""
+
+[[items]]
+id = "r-b4686f3e"
+type = "clinical_result"
+source_id = "DOC-ARWR-6a63d389"
+asset = "PLOZASIRAN (ARO-APOC3)"
+trial = "Phase 3 SHASTA-3 and SHASTA-4 clinical studies"
+indication = "severe hypertriglyceridemia (sHTG)"
+endpoint = "triglyceride reduction from baseline"
+result = "Deep, durable, and consistent median triglyceride reductions of 79% and 81% from baseline in SHASTA-3 and SHASTA-4, respectively"
+analysis = ""
+comparator = "placebo"
+advantage_vs_soc = ""
+confidence = ""
+quotes = ["Deep, durable, and consistent median triglyceride reductions of 79% and 81% from baseline in SHASTA-3 and SHASTA-4, respectively."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "disputed"
+decision = ""
+note = ""
+
+[[items]]
+id = "p-3a966078"
+type = "program"
+source_id = "MAN-ARWR-1"
+asset = "PLOZASIRAN (ARO-APOC3)"
+mechanism = "designed to reduce production of apolipoprotein C-III (APOC3)"
+modality = "siRNA therapeutic"
+quotes = ["REDEMPLO (plozasiran) is approved by the U.S. Food and Drug Administration as an adjunct to diet to reduce triglycerides for adults with Familial Chylomicronemia Syndrome (FCS). REDEMPLO is an siRNA therapeutic designed to suppress the production of apolipoprotein C-III (APOC3)", "Plozasiran (formerly ARO-APOC3) is designed to reduce production of apolipoprotein C-III (APOC3), a component of triglyceride rich lipoproteins (TRLs) including Very Low Density Lipoprotein (VLDL) and chylomicrons, a key regulator of triglyceride metabolism."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "agreed"
+verify = { asset = "PLOZASIRAN (ARO-APOC3)", mechanism = "suppress the production of apolipoprotein C-III (APOC3)", modality = "siRNA" }
+verify_quotes = ["REDEMPLO is an siRNA therapeutic designed to suppress the production of apolipoprotein C-III (APOC3)", "Plozasiran (formerly ARO-APOC3) is designed to reduce production of apolipoprotein C-III (APOC3)"]
+decision = "accept"
+note = ""
+
+[[items]]
+id = "p-7b06b8f5"
+type = "program"
+source_id = "MAN-ARWR-1"
+asset = "ZODASIRAN (ARO-ANG3)"
+mechanism = "designed to reduce production of angiopoietin-like protein 3 (ANGPTL3)"
+modality = ""
+quotes = ["Zodasiran (formerly ARO-ANG3) is designed to reduce production of angiopoietin-like protein 3 (ANGPTL3), a liver synthesized inhibitor of lipoprotein lipase and endothelial lipase."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "disputed"
+verify = { asset = "ZODASIRAN (ARO-ANG3)", mechanism = "reduce production of angiopoietin-like protein 3 (ANGPTL3)", modality = "siRNA" }
+verify_quotes = ["Zodasiran (formerly ARO-ANG3) is designed to reduce production of angiopoietin-like protein 3 (ANGPTL3)"]
+decision = ""
+note = ""
+
+[[items]]
+id = "p-547a0902"
+type = "program"
+source_id = "MAN-ARWR-1"
+asset = "ARO-DUX4"
+mechanism = "designed to target the gene that encodes human double homeobox 4 (DUX4) protein"
+modality = ""
+quotes = ["ARO-DUX4 is designed to target the gene that encodes human double homeobox 4 (DUX4) protein as a potential treatment for patients with facioscapulohumeral muscular dystrophy."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "disputed"
+verify = { asset = "ARO-DUX4", mechanism = "target the gene that encodes human double homeobox 4 (DUX4) protein", modality = "RNAi" }
+verify_quotes = ["ARO-DUX4 is designed to target the gene that encodes human double homeobox 4 (DUX4) protein", "selective targeting and knockdown of DUX4 using RNAi"]
+decision = ""
+note = ""
+
+[[items]]
+id = "p-eb8d3d89"
+type = "program"
+source_id = "MAN-ARWR-1"
+asset = "ARO-DM1"
+mechanism = "designed to reduce expression of the dystrophia myotonica protein kinase (DMPK) gene"
+modality = ""
+quotes = ["ARO-DM1 is designed to reduce expression of the dystrophia myotonica protein kinase (DMPK) gene."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "agreed"
+verify = { asset = "ARO-DM1", mechanism = "reduce expression of the dystrophia myotonica protein kinase (DMPK) gene", modality = "" }
+verify_quotes = ["ARO-DM1 is designed to reduce expression of the dystrophia myotonica protein kinase (DMPK) gene"]
+decision = "accept"
+note = ""
+
+[[items]]
+id = "p-caa1c757"
+type = "program"
+source_id = "MAN-ARWR-1"
+asset = "ARO-MMP7"
+mechanism = "designed to reduce expression of matrix metalloproteinase 7 (MMP7)"
+modality = ""
+quotes = ["ARO-MMP7 is designed to reduce expression of matrix metalloproteinase 7 (MMP7) as a potential treatment for IPF."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "disputed"
+decision = ""
+note = ""
+
+[[items]]
+id = "p-5f3dcddd"
+type = "program"
+source_id = "MAN-ARWR-1"
+asset = "ARO-ATXN2"
+mechanism = "designed to reduce the expression of the ATXN2 gene"
+modality = ""
+quotes = ["ARO-ATXN2 is designed to reduce the expression of the ATXN2 gene as a potential treatment for spinocerebellar ataxia 2 (SCA2)."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "agreed"
+verify = { asset = "ARO-ATXN2", mechanism = "reduce the expression of the ATXN2 gene", modality = "" }
+verify_quotes = ["ARO-ATXN2 is designed to reduce the expression of the ATXN2 gene"]
+decision = "accept"
+note = ""
+
+[[items]]
+id = "p-4fc4e857"
+type = "program"
+source_id = "MAN-ARWR-1"
+asset = "ARO-SNCA"
+mechanism = "siRNA therapy against alpha-synuclein"
+modality = "siRNA therapy"
+quotes = ["The agreement covers ARO-SNCA, Arrowhead’s preclinical stage siRNA therapy against alpha-synuclein for the treatment of synucleinopathies, such as Parkinson’s Disease"]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "agreed"
+verify = { asset = "ARO-SNCA", mechanism = "against alpha-synuclein", modality = "siRNA" }
+verify_quotes = ["The agreement covers ARO-SNCA, Arrowhead’s preclinical stage siRNA therapy against alpha-synuclein"]
+decision = "accept"
+note = ""
+
+[[items]]
+id = "p-a3ccf8df"
+type = "program"
+source_id = "MAN-ARWR-1"
+asset = "ARO-MMP7 INHALATION"
+mechanism = "reduce expression of matrix metalloproteinase 7 (MMP7)"
+modality = ""
+quotes = ["ARO-MMP7 is designed to reduce expression of matrix metalloproteinase 7 (MMP7)"]
+model = "qwen3.7-plus-2026-05-26"
+returned_model = "qwen3.7-plus-2026-05-26"
+check = "disputed"
+decision = ""
+note = ""
+
+[[items]]
+id = "r-81ff2710"
+type = "clinical_result"
+source_id = "MAN-ARWR-1"
+asset = "PLOZASIRAN (ARO-APOC3)"
+trial = "PALISADE"
+indication = "Familial Chylomicronemia Syndrome (FCS)"
+endpoint = "Median change from baseline in triglycerides"
+result = "25 mg REDEMPLO: -80%; pooled placebo: -17%"
+analysis = ""
+comparator = "placebo"
+advantage_vs_soc = ""
+confidence = ""
+quotes = ["The PALISADE study met its primary endpoint and all multiplicity-controlled key secondary endpoints, including demonstrating significant reductions in triglycerides and APOC3.", "In PALISADE, 25 mg REDEMPLO achieved deep and durable reductions in triglycerides, with a median change from baseline of -80% versus -17% in the pooled placebo group, and a lower numerical incidence of acute pancreatitis compared with placebo"]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "disputed"
+verify = { asset = "PLOZASIRAN (ARO-APOC3)", trial = "PALISADE", indication = "Familial Chylomicronemia Syndrome (FCS)", endpoint = "reductions in triglycerides and APOC3", result = "25 mg REDEMPLO achieved deep and durable reductions in triglycerides, with a median change from baseline of -80% versus -17% in the pooled placebo group", analysis = "", comparator = "placebo", advantage_vs_soc = "" }
+verify_quotes = ["The FDA approved the Company's New Drug Application (NDA) for REDEMPLO (plozasiran) injection for Familial Chylomicronemia Syndrome (FCS), on November 18, 2025.", "This approval was supported by clinical data from the Phase 3 PALISADE study, a randomized, double-blind, placebo-controlled trial in adults with clinically diagnosed or genetically confirmed FCS.", "The PALISADE study met its primary endpoint and all multiplicity-controlled key secondary endpoints, including demonstrating significant reductions in triglycerides and APOC3.", "In PALISADE, 25 mg REDEMPLO achieved deep and durable reductions in triglycerides, with a median change from baseline of -80% versus -17% in the pooled placebo group"]
+decision = ""
+note = ""
+
+[[items]]
+id = "p-85b0a50c"
+type = "program"
+source_id = "MAN-ARWR-2"
+asset = "PLOZASIRAN (ARO-APOC3)"
+mechanism = "suppress the production of apolipoprotein C-III (APOC3)"
+modality = "siRNA"
+quotes = ["REDEMPLO is designed to suppress the production of apolipoprotein C-III (APOC3), a protein produced in the liver that raises triglyceride levels by slowing their breakdown and clearance.", "REDEMPLO is the first and only siRNA treatment approved in these countries to be studied in both clinically diagnosed and genetically confirmed patients living with FCS."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "agreed"
+verify = { asset = "PLOZASIRAN (ARO-APOC3)", mechanism = "suppress the production of apolipoprotein C-III (APOC3)", modality = "siRNA" }
+verify_quotes = ["REDEMPLO is designed to suppress the production of apolipoprotein C-III (APOC3)", "REDEMPLO is the first and only siRNA treatment approved in these countries"]
+decision = "accept"
+note = ""
+
+[[items]]
+id = "p-90d5aacd"
+type = "program"
+source_id = "MAN-ARWR-2"
+asset = "ZODASIRAN (ARO-ANG3)"
+mechanism = ""
+modality = "RNA interference (RNAi) therapeutic"
+quotes = ["the Company’s investigational RNA interference (RNAi) therapeutic being developed as a potential treatment for homozygous familial hypercholesterolemia (HoFH)"]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "agreed"
+verify = { asset = "ZODASIRAN (ARO-ANG3)", mechanism = "", modality = "RNA interference (RNAi) therapeutic" }
+verify_quotes = ["zodasiran, the Company’s investigational RNA interference (RNAi) therapeutic"]
+decision = "accept"
+note = ""
+
+[[items]]
+id = "p-8bf8726f"
+type = "program"
+source_id = "MAN-ARWR-2"
+asset = "ARO-INHBE"
+mechanism = ""
+modality = "RNA interference (RNAi) therapeutic"
+quotes = ["the company’s investigational RNA interference (RNAi) therapeutic being developed as a potential treatment for obesity and metabolic dysfunction-associated steatohepatitis (MASH)"]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "agreed"
+verify = { asset = "ARO-INHBE", mechanism = "", modality = "RNA interference (RNAi) therapeutic" }
+verify_quotes = ["ARO-INHBE, the company’s investigational RNA interference (RNAi) therapeutic"]
+decision = "accept"
+note = ""
+
+[[items]]
+id = "p-3d7c682c"
+type = "program"
+source_id = "MAN-ARWR-2"
+asset = "ARO-PNPLA3"
+mechanism = "reduce liver expression of patatin-like phospholipase domain containing 3 (PNPLA3)"
+modality = "RNAi therapeutic"
+quotes = ["Arrowhead’s clinical stage RNAi therapeutic designed to reduce liver expression of patatin-like phospholipase domain containing 3 (PNPLA3) as a potential treatment for patients with metabolic dysfunction-associated steatohepatitis (MASH)"]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "agreed"
+verify = { asset = "ARO-PNPLA3", mechanism = "reduce liver expression of patatin-like phospholipase domain containing 3 (PNPLA3)", modality = "RNAi therapeutic" }
+verify_quotes = ["ARO-PNPLA3, Arrowhead’s clinical stage RNAi therapeutic designed to reduce liver expression of patatin-like phospholipase domain containing 3 (PNPLA3)"]
+decision = "accept"
+note = ""
+
+[[items]]
+id = "r-222d43e4"
+type = "clinical_result"
+source_id = "MAN-ARWR-2"
+asset = "PLOZASIRAN (ARO-APOC3)"
+trial = "SHASTA-3"
+indication = "severe hypertriglyceridemia (sHTG)"
+endpoint = "median triglyceride reduction from baseline"
+result = "79%"
+analysis = ""
+comparator = "placebo"
+advantage_vs_soc = ""
+confidence = ""
+quotes = ["Deep, durable, and consistent median triglyceride reductions of 79% and 81% from baseline were observed in SHASTA-3 and SHASTA-4, respectively."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "agreed"
+verify = { asset = "PLOZASIRAN (ARO-APOC3)", trial = "SHASTA-3", indication = "severe hypertriglyceridemia (sHTG)", endpoint = "triglyceride reduction from baseline", result = "median triglyceride reductions of 79% from baseline", analysis = "", comparator = "placebo", advantage_vs_soc = "" }
+verify_quotes = ["Announced topline results for the global Phase 3 SHASTA-3 and SHASTA-4 clinical studies of plozasiran in patients with severe hypertriglyceridemia (sHTG).", "SHASTA-3 and SHASTA-4 successfully met the primary endpoint of triglyceride reduction versus placebo and met all prespecified secondary endpoints in both studies.", "Deep, durable, and consistent median triglyceride reductions of 79% and 81% from baseline were observed in SHASTA-3 and SHASTA-4, respectively."]
+decision = "accept"
+note = ""
+
+[[items]]
+id = "r-97f8e646"
+type = "clinical_result"
+source_id = "MAN-ARWR-2"
+asset = "PLOZASIRAN (ARO-APOC3)"
+trial = "SHASTA-4"
+indication = "severe hypertriglyceridemia (sHTG)"
+endpoint = "median triglyceride reduction from baseline"
+result = "81%"
+analysis = ""
+comparator = "placebo"
+advantage_vs_soc = ""
+confidence = ""
+quotes = ["Deep, durable, and consistent median triglyceride reductions of 79% and 81% from baseline were observed in SHASTA-3 and SHASTA-4, respectively."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "agreed"
+verify = { asset = "PLOZASIRAN (ARO-APOC3)", trial = "SHASTA-4", indication = "severe hypertriglyceridemia (sHTG)", endpoint = "triglyceride reduction from baseline", result = "median triglyceride reductions of 81% from baseline", analysis = "", comparator = "placebo", advantage_vs_soc = "" }
+verify_quotes = ["Announced topline results for the global Phase 3 SHASTA-3 and SHASTA-4 clinical studies of plozasiran in patients with severe hypertriglyceridemia (sHTG).", "SHASTA-3 and SHASTA-4 successfully met the primary endpoint of triglyceride reduction versus placebo and met all prespecified secondary endpoints in both studies.", "Deep, durable, and consistent median triglyceride reductions of 79% and 81% from baseline were observed in SHASTA-3 and SHASTA-4, respectively."]
+decision = "accept"
+note = ""
+
+[[items]]
+id = "r-abbbe478"
+type = "clinical_result"
+source_id = "MAN-ARWR-2"
+asset = "PLOZASIRAN (ARO-APOC3)"
+trial = "SHASTA-3 and SHASTA-4"
+indication = "severe hypertriglyceridemia (sHTG)"
+endpoint = "reduction in acute pancreatitis (AP) events"
+result = "78% reduction"
+analysis = "Statistically significant"
+comparator = "placebo"
+advantage_vs_soc = ""
+confidence = ""
+quotes = ["Statistically significant 78% reduction in acute pancreatitis (AP) events versus placebo was observed across the entire sHTG study population"]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "disputed"
+verify = { asset = "PLOZASIRAN (ARO-APOC3)", trial = "SHASTA-3 and SHASTA-4", indication = "severe hypertriglyceridemia (sHTG)", endpoint = "acute pancreatitis (AP) events", result = "Statistically significant 78% reduction in acute pancreatitis (AP) events versus placebo was observed across the entire sHTG study population, with an unprecedented 100% event reduction in patients with triglycerides above 880 mg/dL and a prior medical history of AP", analysis = "Statistically significant", comparator = "placebo", advantage_vs_soc = "" }
+verify_quotes = ["Announced topline results for the global Phase 3 SHASTA-3 and SHASTA-4 clinical studies of plozasiran in patients with severe hypertriglyceridemia (sHTG).", "Statistically significant 78% reduction in acute pancreatitis (AP) events versus placebo was observed across the entire sHTG study population, with an unprecedented 100% event reduction in patients with triglycerides above 880 mg/dL and a prior medical history of AP, widely considered to be at the highest risk for AP."]
+decision = ""
+note = ""
+
+[[items]]
+id = "r-abbbe478-2"
+type = "clinical_result"
+source_id = "MAN-ARWR-2"
+asset = "PLOZASIRAN (ARO-APOC3)"
+trial = "SHASTA-3 and SHASTA-4"
+indication = "severe hypertriglyceridemia (sHTG) with triglycerides above 880 mg/dL and prior AP"
+endpoint = "reduction in acute pancreatitis (AP) events"
+result = "100% event reduction"
+analysis = ""
+comparator = "placebo"
+advantage_vs_soc = ""
+confidence = ""
+quotes = ["with an unprecedented 100% event reduction in patients with triglycerides above 880 mg/dL and a prior medical history of AP"]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "disputed"
+decision = ""
+note = ""
+
+[[items]]
+id = "r-a2ce958b"
+type = "clinical_result"
+source_id = "MAN-ARWR-2"
+asset = "ARO-INHBE"
+trial = "Phase 1/2a clinical trial"
+indication = "obesity and metabolic dysfunction-associated steatohepatitis (MASH)"
+endpoint = "reductions in liver fat"
+result = "clinically meaningful reductions"
+analysis = ""
+comparator = "none"
+advantage_vs_soc = ""
+confidence = ""
+quotes = ["The interim data demonstrate that ARO-INHBE treatment led to clinically meaningful reductions in liver fat as a monotherapy and in combination with low-dose tirzepatide, a GLP-1/GIP receptor co-agonist, in adults with obesity."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "disputed"
+decision = ""
+note = ""
+
+[[items]]
+id = "r-900c4fdb"
+type = "clinical_result"
+source_id = "MAN-ARWR-2"
+asset = "ARO-PNPLA3"
+trial = "Phase 1 single-ascending dose clinical study"
+indication = "metabolic dysfunction-associated steatohepatitis (MASH)"
+endpoint = "mean reduction in liver fat"
+result = "up to 40%"
+analysis = ""
+comparator = "none"
+advantage_vs_soc = ""
+confidence = ""
+quotes = ["In a Phase 1 single-ascending dose clinical study, ARO-PNPLA3 achieved encouraging results, including a dose-dependent mean reduction in liver fat of up to 40% in patients homozygous for the I148M mutation"]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "disputed"
+verify = { asset = "ARO-PNPLA3", trial = "Phase 1 single-ascending dose clinical study", indication = "metabolic dysfunction-associated steatohepatitis (MASH)", endpoint = "reduction in liver fat", result = "dose-dependent mean reduction in liver fat of up to 40% in patients homozygous for the I148M mutation", analysis = "", comparator = "none", advantage_vs_soc = "" }
+verify_quotes = ["In a Phase 1 single-ascending dose clinical study, ARO-PNPLA3 achieved encouraging results, including a dose-dependent mean reduction in liver fat of up to 40% in patients homozygous for the I148M mutation, demonstrated no apparent treatment emergent increases in triglycerides or LDL-cholesterol, and had a positive safety and tolerability profile at all doses studied."]
+decision = ""
+note = ""
+
+[[items]]
+id = "e-b74e6a64"
+type = "catalyst"
+source_id = "MAN-ARWR-2"
+asset = "PLOZASIRAN (ARO-APOC3)"
+event = "sNDA submission for severe hypertriglyceridemia"
+event_type = "regulatory_filing"
+timing = "before the end of 2026"
+quotes = ["Acquired a U.S. Food and Drug Administration (FDA) priority review voucher, which the company intends to use with its upcoming plozasiran sNDA submission, anticipated before the end of 2026, to potentially expand the approved indication to include patients with severe hypertriglyceridemia (sHTG)."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "agreed"
+verify = { asset = "PLOZASIRAN (ARO-APOC3)", event = "plozasiran sNDA submission", event_type = "regulatory_filing", timing = "before the end of 2026" }
+verify_quotes = ["Acquired a U.S. Food and Drug Administration (FDA) priority review voucher, which the company intends to use with its upcoming plozasiran sNDA submission, anticipated before the end of 2026, to potentially expand the approved indication to include patients with severe hypertriglyceridemia (sHTG)."]
+decision = "accept"
+note = ""
+
+[[items]]
+id = "e-3ae12283"
+type = "catalyst"
+source_id = "MAN-ARWR-2"
+asset = "ZODASIRAN (ARO-ANG3)"
+event = "Completion of Phase 3 YOSEMITE clinical trial"
+event_type = "data_readout"
+timing = "mid-2027"
+quotes = ["The Company anticipates that YOSEMITE will be completed in mid-2027 and, pending successful clinical results, intends to seek regulatory approval in multiple geographies thereafter."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "disputed"
+verify = { asset = "ZODASIRAN (ARO-ANG3)", event = "YOSEMITE will be completed", event_type = "other", timing = "mid-2027" }
+verify_quotes = ["The Company anticipates that YOSEMITE will be completed in mid-2027 and, pending successful clinical results, intends to seek regulatory approval in multiple geographies thereafter."]
+decision = ""
+note = ""
+
+[[items]]
+id = "e-41feb07b"
+type = "catalyst"
+source_id = "MAN-ARWR-2"
+asset = "PLOZASIRAN (ARO-APOC3)"
+event = "Detailed results will be presented as a HOT LINE Late Breaker at the European Society of Cardiology (ESC) Congress"
+event_type = "data_readout"
+timing = "August 30, 2026"
+quotes = ["Detailed results will be presented as a HOT LINE Late Breaker at the European Society of Cardiology (ESC) Congress on August 30, 2026."]
+model = "qwen3.7-plus-2026-05-26"
+returned_model = "qwen3.7-plus-2026-05-26"
+check = "disputed"
+decision = ""
+note = ""
+
+[[items]]
+id = "p-4aa87859"
+type = "program"
+source_id = "DOC-ARWR-d7e7cc5b"
+asset = "PLOZASIRAN (ARO-APOC3)"
+mechanism = "siRNA therapeutic designed to suppress the production of apoC-III"
+modality = "small interfering RNA (siRNA) medicine"
+quotes = ["REDEMPLO (plozasiran) is approved by the U.S. Food and Drug Administration as an adjunct to diet to reduce triglycerides for adults with Familial Chylomicronemia Syndrome (FCS). REDEMPLO is an siRNA therapeutic designed to suppress the production of apoC-III, a protein produced in the liver that raises triglyceride levels by slowing their breakdown and clearance.", "the U.S. Food and Drug Administration (FDA) has approved REDEMPLO (plozasiran), a small interfering RNA (siRNA) medicine, as an adjunct to diet to reduce triglycerides in adults with familial chylomicronemia syndrome (FCS)."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "agreed"
+verify = { asset = "PLOZASIRAN (ARO-APOC3)", mechanism = "suppress the production of apoC-III", modality = "small interfering RNA (siRNA) medicine" }
+verify_quotes = ["REDEMPLO (plozasiran), a small interfering RNA (siRNA) medicine", "REDEMPLO is an siRNA therapeutic designed to suppress the production of apoC-III"]
+decision = "accept"
+note = ""
+
+[[items]]
+id = "r-56d71318"
+type = "clinical_result"
+source_id = "DOC-ARWR-d7e7cc5b"
+asset = "PLOZASIRAN (ARO-APOC3)"
+trial = "PALISADE (NCT05089084)"
+indication = "Familial Chylomicronemia Syndrome (FCS)"
+endpoint = "Percent change from baseline in fasting triglycerides at Month 10"
+result = "25 mg REDEMPLO: median change from baseline of -80%; pooled placebo: -17%"
+analysis = ""
+comparator = "placebo"
+advantage_vs_soc = ""
+confidence = ""
+quotes = ["In PALISADE, 25 mg REDEMPLO achieved deep and durable reductions in triglycerides, with a median change from baseline of -80% versus -17% in the pooled placebo group", "The primary endpoint of the study was percent change from baseline in fasting TG versus placebo at Month 10."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "agreed"
+verify = { asset = "PLOZASIRAN (ARO-APOC3)", trial = "PALISADE (NCT05089084)", indication = "Familial Chylomicronemia Syndrome (FCS)", endpoint = "percent change from baseline in fasting TG versus placebo at Month 10", result = "25 mg REDEMPLO achieved deep and durable reductions in triglycerides, with a median change from baseline of -80% versus -17% in the pooled placebo group", analysis = "", comparator = "placebo", advantage_vs_soc = "" }
+verify_quotes = ["The PALISADE study (NCT05089084) was a Phase 3 placebo-controlled study", "The primary endpoint of the study was percent change from baseline in fasting TG versus placebo at Month 10.", "In PALISADE, 25 mg REDEMPLO achieved deep and durable reductions in triglycerides, with a median change from baseline of -80% versus -17% in the pooled placebo group"]
+decision = "accept"
+note = ""
+
+[[items]]
+id = "p-beac53d4"
+type = "program"
+source_id = "DOC-ARWR-9b18cae6"
+asset = "PLOZASIRAN (ARO-APOC3)"
+mechanism = "reduces hepatic apolipoprotein C-III"
+modality = "small interfering RNA"
+quotes = ["Plozasiran, a small interfering RNA, reduces hepatic apolipoprotein C-III, significantly lowers triglyceride (TG) levels and reduces risk of AP."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "agreed"
+verify = { asset = "PLOZASIRAN (ARO-APOC3)", mechanism = "reduces hepatic apolipoprotein C-III", modality = "small interfering RNA" }
+verify_quotes = ["Plozasiran, a small interfering RNA, reduces hepatic apolipoprotein C-III"]
+decision = "accept"
+note = ""
+
+[[items]]
+id = "r-28edef4f"
+type = "clinical_result"
+source_id = "DOC-ARWR-9b18cae6"
+asset = "PLOZASIRAN (ARO-APOC3)"
+trial = "NCT05089084"
+indication = "severe hypertriglyceridemia and history of pancreatitis"
+endpoint = "recurrent AP at 12 months"
+result = "Incident AP occurred in 5 of 22 in the placebo group versus 2 of 45 in the pooled plozasiran group, representing an 83% reduction in risk for recurrent AP in the plozasiran group"
+analysis = "HR, 0.17; 95% CI [0.03, 0.87], p < 0.017"
+comparator = "placebo"
+advantage_vs_soc = ""
+confidence = ""
+quotes = ["Clinicaltrials.gov identifier: NCT05089084.", "Patients with extreme hypertriglyceridemia were randomised 2:1:2:1 to receive subcutaneous plozasiran (25- or 50-mg) or volume-matched placebo, quarterly for 12 months.", "This post hoc analysis involved participants with a history of at least one prior episode of AP.", "Primary and alpha-controlled secondary endpoints included the incidence of expert-adjudicated AP and pancreatitis-related hospitalisations.", "Incident AP occurred in 5 of 22 in the placebo group versus 2 of 45 in the pooled plozasiran group, representing an 83% (HR, 0.17; 95% CI [0.03, 0.87], p < 0.017) reduction in risk for recurrent AP in the plozasiran group."]
+model = "qwen3.7-plus-2026-05-26"
+returned_model = "qwen3.7-plus-2026-05-26"
+check = "disputed"
+decision = ""
+note = ""

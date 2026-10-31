@@ -13,8 +13,10 @@ modality = "monoclonal antibody"
 quotes = ["Barzolvolimab (also referred to as CDX-0159), a monoclonal antibody that specifically binds the KIT receptor and potently inhibits its activity"]
 model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
-check = "disputed"
-decision = ""
+check = "agreed"
+verify = { asset = "BARZOLVOLIMAB (CDX-0159)", mechanism = "specifically binds the KIT receptor and potently inhibits its activity", modality = "monoclonal antibody" }
+verify_quotes = ["Barzolvolimab (also referred to as CDX-0159), a monoclonal antibody that specifically binds the KIT receptor and potently inhibits its activity"]
+decision = "accept"
 note = ""
 
 [[items]]
@@ -31,20 +33,6 @@ check = "agreed"
 verify = { asset = "CDX-622", mechanism = "potently neutralizing the alarmin thymic stromal lymphopoietin (TSLP) and depleting mast cells via stem cell factor (SCF) starvation", modality = "bispecific antibody" }
 verify_quotes = ["Our first bispecific candidate based on this science is CDX-622 (SCF & TSLP) which targets two complementary pathways that drive chronic inflammation, potently neutralizing the alarmin thymic stromal lymphopoietin (TSLP) and depleting mast cells via stem cell factor (SCF) starvation.", "CDX-622 is our first bispecific antibody based on this science and targets two complementary pathways that drive chronic inflammation, potently neutralizing the alarmin thymic stromal lymphopoietin (TSLP) and depleting mast cells via stem cell factor (SCF) starvation."]
 decision = "accept"
-note = ""
-
-[[items]]
-id = "p-f0b5f63b"
-type = "program"
-source_id = "DOC-CLDX-c86e5ab4"
-asset = "BARZOLVOLIMAB (CDX-0159)"
-mechanism = "specifically binds the KIT receptor and potently inhibits its activity"
-modality = "monoclonal antibody"
-quotes = ["Barzolvolimab (also referred to as CDX-0159), a monoclonal antibody that specifically binds the KIT receptor and potently inhibits its activity"]
-model = "qwen3.7-plus-2026-05-26"
-returned_model = "qwen3.7-plus-2026-05-26"
-check = "disputed"
-decision = ""
 note = ""
 
 [[items]]
@@ -87,8 +75,10 @@ modality = "humanized monoclonal antibody"
 quotes = ["Barzolvolimab is a humanized monoclonal antibody that specifically binds the receptor tyrosine kinase KIT and potently inhibits its activity."]
 model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
-check = "disputed"
-decision = ""
+check = "agreed"
+verify = { asset = "BARZOLVOLIMAB (CDX-0159)", mechanism = "specifically binds the receptor tyrosine kinase KIT and potently inhibits its activity", modality = "humanized monoclonal antibody" }
+verify_quotes = ["Barzolvolimab is a humanized monoclonal antibody that specifically binds the receptor tyrosine kinase KIT and potently inhibits its activity."]
+decision = "accept"
 note = ""
 
 [[items]]
@@ -108,20 +98,6 @@ decision = "accept"
 note = ""
 
 [[items]]
-id = "p-7567cbe6"
-type = "program"
-source_id = "MAN-CLDX-3"
-asset = "BARZOLVOLIMAB (CDX-0159)"
-mechanism = "specifically binds the receptor tyrosine kinase KIT and potently inhibits its activity"
-modality = "humanized monoclonal antibody"
-quotes = ["Barzolvolimab is a humanized monoclonal antibody that specifically binds the receptor tyrosine kinase KIT and potently inhibits its activity."]
-model = "qwen3.7-plus-2026-05-26"
-returned_model = "qwen3.7-plus-2026-05-26"
-check = "disputed"
-decision = ""
-note = ""
-
-[[items]]
 id = "p-38540290"
 type = "program"
 source_id = "MAN-CLDX-2"
@@ -131,8 +107,10 @@ modality = "humanized monoclonal antibody"
 quotes = ["Barzolvolimab is a humanized monoclonal antibody with a novel mechanism of action that targets mast cells by binding with high specificity to a unique part of the KIT receptor and potently inhibiting its activity."]
 model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
-check = "disputed"
-decision = ""
+check = "agreed"
+verify = { asset = "BARZOLVOLIMAB (CDX-0159)", mechanism = "targets mast cells by binding with high specificity to a unique part of the KIT receptor and potently inhibiting its activity", modality = "humanized monoclonal antibody" }
+verify_quotes = ["Barzolvolimab is a humanized monoclonal antibody with a novel mechanism of action that targets mast cells by binding with high specificity to a unique part of the KIT receptor and potently inhibiting its activity."]
+decision = "accept"
 note = ""
 
 [[items]]
@@ -152,26 +130,12 @@ decision = "accept"
 note = ""
 
 [[items]]
-id = "p-134e85b2"
-type = "program"
-source_id = "MAN-CLDX-2"
-asset = "BARZOLVOLIMAB (CDX-0159)"
-mechanism = "targets mast cells by binding with high specificity to a unique part of the KIT receptor and potently inhibiting its activity"
-modality = "humanized monoclonal antibody"
-quotes = ["Barzolvolimab is a humanized monoclonal antibody with a novel mechanism of action that targets mast cells by binding with high specificity to a unique part of the KIT receptor and potently inhibiting its activity."]
-model = "qwen3.7-plus-2026-05-26"
-returned_model = "qwen3.7-plus-2026-05-26"
-check = "disputed"
-decision = ""
-note = ""
-
-[[items]]
 id = "r-9174834c"
 type = "clinical_result"
 source_id = "MAN-CLDX-2"
 asset = "BARZOLVOLIMAB"
 trial = "EMBARQ-CSU1 and EMBARQ-CSU2"
-indication = "chronic spontaneous urticaria (CSU)"
+indication = "chronic spontaneous urticaria"
 endpoint = "enrollment"
 result = "1,939 patients were enrolled"
 analysis = ""
@@ -186,13 +150,13 @@ decision = ""
 note = ""
 
 [[items]]
-id = "r-c4bab610"
+id = "r-abe02f87"
 type = "clinical_result"
 source_id = "MAN-CLDX-2"
 asset = "BARZOLVOLIMAB"
-trial = "Phase 2 study in cold urticaria (ColdU) and symptomatic dermographism (SD)"
+trial = "Phase 2 study in cold urticaria and symptomatic dermographism"
 indication = "cold urticaria and symptomatic dermographism"
-endpoint = "primary and secondary endpoints at 12 weeks"
+endpoint = "primary and secondary endpoints"
 result = "all primary and secondary endpoints were met with high statistical significance at 12 weeks and sustained through the end of the treatment period (20 weeks)"
 analysis = "high statistical significance"
 comparator = "placebo"
@@ -201,40 +165,60 @@ confidence = ""
 quotes = ["In the Phase 2 study, all primary and secondary endpoints were met with high statistical significance at 12 weeks and sustained through the end of the treatment period (20 weeks)."]
 model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
-check = "disputed"
-verify = { asset = "BARZOLVOLIMAB", trial = "Phase 2 study in cold urticaria (ColdU) and symptomatic dermographism (SD)", indication = "cold urticaria (ColdU) and symptomatic dermographism (SD)", endpoint = "primary and secondary endpoints at 12 weeks and sustained through the end of the treatment period (20 weeks)", result = "all primary and secondary endpoints were met with high statistical significance", analysis = "high statistical significance", comparator = "placebo", advantage_vs_soc = "" }
+check = "agreed"
+verify = { asset = "BARZOLVOLIMAB", trial = "Phase 2 study in cold urticaria (ColdU) and symptomatic dermographism (SD)", indication = "cold urticaria (ColdU) and symptomatic dermographism (SD)", endpoint = "primary and secondary endpoints", result = "met with high statistical significance at 12 weeks and sustained through the end of the treatment period (20 weeks)", analysis = "high statistical significance", comparator = "placebo", advantage_vs_soc = "" }
 verify_quotes = ["Barzolvolimab is the first drug in development to demonstrate clinical benefit in patients with ColdU and SD in a large, randomized, placebo-controlled study.", "In the Phase 2 study, all primary and secondary endpoints were met with high statistical significance at 12 weeks and sustained through the end of the treatment period (20 weeks)."]
+decision = "accept"
+note = ""
+
+[[items]]
+id = "r-07ee65c8"
+type = "clinical_result"
+source_id = "MAN-CLDX-2"
+asset = "BARZOLVOLIMAB"
+trial = "long-term barzolvolimab results presented at EAACI"
+indication = "chronic spontaneous urticaria with angioedema"
+endpoint = "angioedema-free rate at Week 76"
+result = "up to 64% of patients treated with barzolvolimab who had angioedema at baseline remained angioedema-free"
+analysis = ""
+comparator = ""
+advantage_vs_soc = ""
+confidence = ""
+quotes = ["Seven months after the completion of dosing (Week 76), up to 64% of patients treated with barzolvolimab who had angioedema at baseline remained angioedema-free."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "disputed"
+verify = { asset = "BARZOLVOLIMAB", trial = "long-term barzolvolimab results", indication = "chronic spontaneous urticaria (CSU)", endpoint = "angioedema-free status", result = "up to 64% of patients treated with barzolvolimab who had angioedema at baseline remained angioedema-free", analysis = "", comparator = "none", advantage_vs_soc = "" }
+verify_quotes = ["In June 2026, Celldex presented long-term barzolvolimab results that demonstrated sustained off-treatment improvement in patients with CSU at the European Academy of Allergy and Clinical Immunology (EAACI) Annual Meeting.", "Seven months after the completion of dosing (Week 76), up to 64% of patients treated with barzolvolimab who had angioedema at baseline remained angioedema-free."]
 decision = ""
 note = ""
 
 [[items]]
-id = "r-41445a8b"
+id = "r-78a92bae"
 type = "clinical_result"
 source_id = "MAN-CLDX-2"
 asset = "BARZOLVOLIMAB"
-trial = "Phase 2 study in prurigo nodularis (PN)"
+trial = "Phase 2 study in prurigo nodularis"
 indication = "prurigo nodularis"
 endpoint = "primary or key secondary endpoints"
 result = "the trial did not meet primary or key secondary endpoints"
 analysis = ""
-comparator = "placebo"
+comparator = ""
 advantage_vs_soc = ""
 confidence = ""
 quotes = ["Topline data from the Phase 2 study in prurigo nodularis (PN) were presented in July 2026 and demonstrated that the trial did not meet primary or key secondary endpoints."]
 model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
-check = "agreed"
-verify = { asset = "BARZOLVOLIMAB", trial = "Phase 2 study in prurigo nodularis (PN)", indication = "prurigo nodularis (PN)", endpoint = "primary or key secondary endpoints", result = "the trial did not meet primary or key secondary endpoints", analysis = "", comparator = "none", advantage_vs_soc = "" }
-verify_quotes = ["Topline data from the Phase 2 study in prurigo nodularis (PN) were presented in July 2026 and demonstrated that the trial did not meet primary or key secondary endpoints."]
-decision = "accept"
+check = "disputed"
+decision = ""
 note = ""
 
 [[items]]
-id = "r-58baeed6"
+id = "r-5d4825fa"
 type = "clinical_result"
 source_id = "MAN-CLDX-2"
 asset = "CDX-622"
-trial = "Phase 1 trial of bispecific CDX-622"
+trial = "Phase 1 trial"
 indication = ""
 endpoint = "serum tryptase reduction"
 result = "rapid, profound, dose-dependent reductions in serum tryptase"
@@ -245,26 +229,6 @@ confidence = ""
 quotes = ["Positive results from Phase 1 trial of bispecific CDX-622 showed rapid, profound, dose-dependent reductions in serum tryptase and CDX-622 was well tolerated"]
 model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
-check = "disputed"
-decision = ""
-note = ""
-
-[[items]]
-id = "r-640401f6"
-type = "clinical_result"
-source_id = "MAN-CLDX-2"
-asset = "BARZOLVOLIMAB"
-trial = "long-term barzolvolimab results presented at EAACI Annual Meeting"
-indication = "chronic spontaneous urticaria (CSU) with angioedema"
-endpoint = "angioedema-free status at Week 76"
-result = "up to 64% of patients treated with barzolvolimab who had angioedema at baseline remained angioedema-free"
-analysis = ""
-comparator = "none"
-advantage_vs_soc = ""
-confidence = ""
-quotes = ["In June 2026, Celldex presented long-term barzolvolimab results that demonstrated sustained off-treatment improvement in patients with CSU at the European Academy of Allergy and Clinical Immunology (EAACI) Annual Meeting.", "Seven months after the completion of dosing (Week 76), up to 64% of patients treated with barzolvolimab who had angioedema at baseline remained angioedema-free."]
-model = "qwen3.7-plus-2026-05-26"
-returned_model = "qwen3.7-plus-2026-05-26"
 check = "disputed"
 decision = ""
 note = ""
@@ -281,6 +245,8 @@ quotes = ["Topline data are anticipated in September/October 2026, supporting a 
 model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
+verify = { asset = "BARZOLVOLIMAB (CDX-0159)", event = "BLA submission planned", event_type = "regulatory_filing", timing = "2027" }
+verify_quotes = ["Barzolvolimab Phase 3 chronic spontaneous urticaria studies (EMBARQ-CSU 1 and 2) ongoing, topline data expected in Sept/Oct 2026; BLA submission planned for 2027"]
 decision = ""
 note = ""
 
@@ -293,21 +259,6 @@ event = "topline data expected"
 event_type = "data_readout"
 timing = "Sept/Oct 2026"
 quotes = ["Barzolvolimab Phase 3 chronic spontaneous urticaria studies (EMBARQ-CSU 1 and 2) ongoing, topline data expected in Sept/Oct 2026"]
-model = "qwen3.7-plus-2026-05-26"
-returned_model = "qwen3.7-plus-2026-05-26"
-check = "disputed"
-decision = ""
-note = ""
-
-[[items]]
-id = "e-5c6c51cb"
-type = "catalyst"
-source_id = "MAN-CLDX-2"
-asset = "BARZOLVOLIMAB (CDX-0159)"
-event = "BLA submission planned"
-event_type = "regulatory_filing"
-timing = "2027"
-quotes = ["Barzolvolimab Phase 3 chronic spontaneous urticaria studies (EMBARQ-CSU 1 and 2) ongoing, topline data expected in Sept/Oct 2026; BLA submission planned for 2027"]
 model = "qwen3.7-plus-2026-05-26"
 returned_model = "qwen3.7-plus-2026-05-26"
 check = "disputed"
@@ -339,22 +290,10 @@ modality = "humanized monoclonal antibody"
 quotes = ["Barzolvolimab is a humanized monoclonal antibody with a novel mechanism of action that targets mast cells by binding with high specificity to a unique part of the KIT receptor and potently inhibiting its activity."]
 model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
-check = "disputed"
-decision = ""
-note = ""
-
-[[items]]
-id = "p-7f0e2418"
-type = "program"
-source_id = "MAN-CLDX-1"
-asset = "BARZOLVOLIMAB (CDX-0159)"
-mechanism = "targets mast cells by binding with high specificity to a unique part of the KIT receptor and potently inhibiting its activity"
-modality = "humanized monoclonal antibody"
-quotes = ["Barzolvolimab is a humanized monoclonal", "antibody with a novel mechanism of action that targets mast cells by binding with high specificity to a unique part of the KIT receptor", "and potently inhibiting its activity.", "including barzolvolimab (also referred to as CDX-0159)"]
-model = "qwen3.7-plus-2026-05-26"
-returned_model = "qwen3.7-plus-2026-05-26"
-check = "disputed"
-decision = ""
+check = "agreed"
+verify = { asset = "BARZOLVOLIMAB (CDX-0159)", mechanism = "targets mast cells by binding with high specificity to a unique part of the KIT receptor and potently inhibiting its activity", modality = "humanized monoclonal antibody" }
+verify_quotes = ["Barzolvolimab is a humanized monoclonal", "antibody with a novel mechanism of action that targets mast cells by binding with high specificity to a unique part of the KIT receptor", "and potently inhibiting its activity.", "including barzolvolimab (also referred to as CDX-0159)"]
+decision = "accept"
 note = ""
 
 [[items]]
@@ -365,7 +304,7 @@ asset = "BARZOLVOLIMAB"
 trial = "EMBARQ-CSU1"
 indication = "chronic spontaneous urticaria (CSU)"
 endpoint = "Mean Change from Baseline in UAS7 at Week 12"
-result = "Placebo: -10.7 (SE 0.65); 150 mg Q4W: -20.2 (SE 0.64); 300 mg Q8W: -20.5 (SE 0.65)"
+result = "Placebo: -10.7 (0.65); 150 mg Q4W: -20.2 (0.64); 300 mg Q8W: -20.5 (0.65)"
 analysis = "p<.00001 for both doses vs placebo"
 comparator = "placebo"
 advantage_vs_soc = ""
@@ -385,7 +324,7 @@ asset = "BARZOLVOLIMAB"
 trial = "EMBARQ-CSU2"
 indication = "chronic spontaneous urticaria (CSU)"
 endpoint = "Mean Change from Baseline in UAS7 at Week 12"
-result = "Placebo: -11.4 (SE 0.64); 150 mg Q4W: -20.2 (SE 0.63); 300 mg Q8W: -19.7 (SE 0.64)"
+result = "Placebo: -11.4 (0.64); 150 mg Q4W: -20.2 (0.63); 300 mg Q8W: -19.7 (0.64)"
 analysis = "p<.00001 for both doses vs placebo"
 comparator = "placebo"
 advantage_vs_soc = ""
@@ -414,6 +353,8 @@ quotes = ["[table 10] Proportion of Patients with Complete Response (UAS7=0) at 
 model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
+verify = { asset = "BARZOLVOLIMAB (CDX-0159)", trial = "EMBARQ-CSU1; NCT06445023 and EMBARQ-CSU2; NCT06455202", indication = "chronic spontaneous urticaria (CSU)", endpoint = "Proportion of Patients with Complete Response (UAS7=0) at Week 12", result = "Placebo: 9.3% in EMBARQ-CSU1, 12.6% in EMBARQ-CSU2; 150 mg Q4W: 42.4% in EMBARQ-CSU1, 45.7% in EMBARQ-CSU2; 300 mg Q8W: 42.1% in EMBARQ-CSU1, 44.0% in EMBARQ-CSU2", analysis = "p<.00001 for all active arms vs placebo", comparator = "placebo", advantage_vs_soc = "" }
+verify_quotes = ["[table 10] Proportion of Patients with Complete Response (UAS7=0) at Weeks 12 and 24 — 12 Weeks / Placebo | EMBARQ-CSU1: 9.3%", "[table 10] Proportion of Patients with Complete Response (UAS7=0) at Weeks 12 and 24 — 12 Weeks / Placebo | EMBARQ-CSU2: 12.6%", "[table 10] Proportion of Patients with Complete Response (UAS7=0) at Weeks 12 and 24 — 12 Weeks / 150 mg Q4W | EMBARQ-CSU1: 42.4% (p<.00001)", "[table 10] Proportion of Patients with Complete Response (UAS7=0) at Weeks 12 and 24 — 12 Weeks / 150 mg Q4W | EMBARQ-CSU2: 45.7% (p<.00001)", "[table 10] Proportion of Patients with Complete Response (UAS7=0) at Weeks 12 and 24 — 12 Weeks / 300 mg Q8W | EMBARQ-CSU1: 42.1% (p<.00001)", "[table 10] Proportion of Patients with Complete Response (UAS7=0) at Weeks 12 and 24 — 12 Weeks / 300 mg Q8W | EMBARQ-CSU2: 44.0% (p<.00001)", "P-values are based on adjusted odds ratio of logistic regression models."]
 decision = ""
 note = ""
 
@@ -454,6 +395,8 @@ quotes = ["[table 10] Proportion of Patients with Complete Response (UAS7=0) at 
 model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
+verify = { asset = "BARZOLVOLIMAB (CDX-0159)", trial = "EMBARQ-CSU1; NCT06445023 and EMBARQ-CSU2; NCT06455202", indication = "chronic spontaneous urticaria (CSU)", endpoint = "Proportion of Patients with Complete Response (UAS7=0) at Week 24", result = "Placebo: 15.4% in EMBARQ-CSU1, 17.6% in EMBARQ-CSU2; 150 mg Q4W: 49.0% in EMBARQ-CSU1, 54.0% in EMBARQ-CSU2; 300 mg Q8W: 45.1% in EMBARQ-CSU1, 48.4% in EMBARQ-CSU2", analysis = "p<.00001 for all active arms vs placebo", comparator = "placebo", advantage_vs_soc = "" }
+verify_quotes = ["[table 10] Proportion of Patients with Complete Response (UAS7=0) at Weeks 12 and 24 — 24 Weeks / Placebo | EMBARQ-CSU1: 15.4%", "[table 10] Proportion of Patients with Complete Response (UAS7=0) at Weeks 12 and 24 — 24 Weeks / Placebo | EMBARQ-CSU2: 17.6%", "[table 10] Proportion of Patients with Complete Response (UAS7=0) at Weeks 12 and 24 — 24 Weeks / 150 mg Q4W | EMBARQ-CSU1: 49.0% (p<.00001)", "[table 10] Proportion of Patients with Complete Response (UAS7=0) at Weeks 12 and 24 — 24 Weeks / 150 mg Q4W | EMBARQ-CSU2: 54.0% (p<.00001)", "[table 10] Proportion of Patients with Complete Response (UAS7=0) at Weeks 12 and 24 — 24 Weeks / 300 mg Q8W | EMBARQ-CSU1: 45.1% (p<.00001)", "[table 10] Proportion of Patients with Complete Response (UAS7=0) at Weeks 12 and 24 — 24 Weeks / 300 mg Q8W | EMBARQ-CSU2: 48.4% (p<.00001)", "P-values are based on adjusted odds ratio of logistic regression models."]
 decision = ""
 note = ""
 
@@ -478,13 +421,13 @@ decision = ""
 note = ""
 
 [[items]]
-id = "r-8d32c9b0"
+id = "r-85ab3fc0-2"
 type = "clinical_result"
 source_id = "MAN-CLDX-1"
 asset = "BARZOLVOLIMAB"
 trial = "EMBARQ-CSU1"
 indication = "omalizumab-refractory chronic spontaneous urticaria (CSU)"
-endpoint = "Proportion of Patients with Complete Response (UAS7=0) at Week 12 in Omalizumab-Refractory CSU"
+endpoint = "Proportion of Patients with Complete Response (UAS7=0) at Week 12"
 result = "Placebo: 9.3%; 150 mg Q4W: 55.3%; 300 mg Q8W: 44.3%"
 analysis = "150 mg Q4W: p<.00001; 300 mg Q8W: p=.00017"
 comparator = "placebo"
@@ -494,17 +437,19 @@ quotes = ["[table 12] Proportion of Patients with Complete Response (UAS7=0) at 
 model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
+verify = { asset = "BARZOLVOLIMAB (CDX-0159)", trial = "EMBARQ-CSU1; NCT06445023 and EMBARQ-CSU2; NCT06455202", indication = "Omalizumab-Refractory CSU", endpoint = "Proportion of Patients with Complete Response (UAS7=0) at Week 12", result = "Placebo: 9.3% in EMBARQ-CSU1, 15.1% in EMBARQ-CSU2; 150 mg Q4W: 55.3% in EMBARQ-CSU1, 41.7% in EMBARQ-CSU2; 300 mg Q8W: 44.3% in EMBARQ-CSU1, 46.4% in EMBARQ-CSU2", analysis = "p<.00001 for 150 mg in EMBARQ-CSU1; p=.0089 for 150 mg in EMBARQ-CSU2; p=.00017 for 300 mg in EMBARQ-CSU1; p=.0036 for 300 mg in EMBARQ-CSU2", comparator = "placebo", advantage_vs_soc = "" }
+verify_quotes = ["[table 12] Proportion of Patients with Complete Response (UAS7=0) at Week 12 in Omalizumab-Refractory CSU — Placebo | EMBARQ-CSU1: 9.3%", "[table 12] Proportion of Patients with Complete Response (UAS7=0) at Week 12 in Omalizumab-Refractory CSU — Placebo | EMBARQ-CSU2: 15.1%", "[table 12] Proportion of Patients with Complete Response (UAS7=0) at Week 12 in Omalizumab-Refractory CSU — 150 mg Q4W | EMBARQ-CSU1: 55.3% (p<.00001)", "[table 12] Proportion of Patients with Complete Response (UAS7=0) at Week 12 in Omalizumab-Refractory CSU — 150 mg Q4W | EMBARQ-CSU2: 41.7% (p=.0089)", "[table 12] Proportion of Patients with Complete Response (UAS7=0) at Week 12 in Omalizumab-Refractory CSU — 300 mg Q8W | EMBARQ-CSU1: 44.3% (p=.00017)", "[table 12] Proportion of Patients with Complete Response (UAS7=0) at Week 12 in Omalizumab-Refractory CSU — 300 mg Q8W | EMBARQ-CSU2: 46.4% (p=.0036)", "P-values are based on adjusted odds ratio of logistic regression models."]
 decision = ""
 note = ""
 
 [[items]]
-id = "r-8b45d446"
+id = "r-28d922d9-2"
 type = "clinical_result"
 source_id = "MAN-CLDX-1"
 asset = "BARZOLVOLIMAB"
 trial = "EMBARQ-CSU2"
 indication = "omalizumab-refractory chronic spontaneous urticaria (CSU)"
-endpoint = "Proportion of Patients with Complete Response (UAS7=0) at Week 12 in Omalizumab-Refractory CSU"
+endpoint = "Proportion of Patients with Complete Response (UAS7=0) at Week 12"
 result = "Placebo: 15.1%; 150 mg Q4W: 41.7%; 300 mg Q8W: 46.4%"
 analysis = "150 mg Q4W: p=.0089; 300 mg Q8W: p=.0036"
 comparator = "placebo"
@@ -518,13 +463,13 @@ decision = ""
 note = ""
 
 [[items]]
-id = "r-af138c24"
+id = "r-903aacb9"
 type = "clinical_result"
 source_id = "MAN-CLDX-1"
 asset = "BARZOLVOLIMAB"
 trial = "EMBARQ-CSU1"
 indication = "chronic spontaneous urticaria (CSU) with baseline AAS7>0"
-endpoint = "Proportion of Patients with AAS7=0 at Week 12 in Patients with Baseline AAS7>0"
+endpoint = "Proportion of Patients with AAS7=0 at Week 12"
 result = "Placebo: 33.8%; 150 mg Q4W: 62.7%; 300 mg Q8W: 66.3%"
 analysis = "p<.00001 for both doses vs placebo"
 comparator = "placebo"
@@ -534,17 +479,19 @@ quotes = ["[table 14] Proportion of Patients with AAS7=0 at Week 12 in Patients 
 model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
+verify = { asset = "BARZOLVOLIMAB (CDX-0159)", trial = "EMBARQ-CSU1; NCT06445023 and EMBARQ-CSU2; NCT06455202", indication = "chronic spontaneous urticaria (CSU) in patients with baseline AAS7>0", endpoint = "Proportion of Patients with AAS7=0 at Week 12", result = "Placebo: 33.8% in EMBARQ-CSU1, 33.7% in EMBARQ-CSU2; 150 mg Q4W: 62.7% in EMBARQ-CSU1, 74.3% in EMBARQ-CSU2; 300 mg Q8W: 66.3% in EMBARQ-CSU1, 66.2% in EMBARQ-CSU2", analysis = "p<.00001 for all active arms vs placebo", comparator = "placebo", advantage_vs_soc = "" }
+verify_quotes = ["[table 14] Proportion of Patients with AAS7=0 at Week 12 in Patients with Baseline AAS7>0 — Placebo | EMBARQ-CSU1: 33.8%", "[table 14] Proportion of Patients with AAS7=0 at Week 12 in Patients with Baseline AAS7>0 — Placebo | EMBARQ-CSU2: 33.7%", "[table 14] Proportion of Patients with AAS7=0 at Week 12 in Patients with Baseline AAS7>0 — 150 mg Q4W | EMBARQ-CSU1: 62.7% (p<.00001)", "[table 14] Proportion of Patients with AAS7=0 at Week 12 in Patients with Baseline AAS7>0 — 150 mg Q4W | EMBARQ-CSU2: 74.3% (p<.00001)", "[table 14] Proportion of Patients with AAS7=0 at Week 12 in Patients with Baseline AAS7>0 — 300 mg Q8W | EMBARQ-CSU1: 66.3% (p<.00001)", "[table 14] Proportion of Patients with AAS7=0 at Week 12 in Patients with Baseline AAS7>0 — 300 mg Q8W | EMBARQ-CSU2: 66.2% (p<.00001)", "P-values are based on adjusted odds ratio of logistic regression models."]
 decision = ""
 note = ""
 
 [[items]]
-id = "r-7d3ef26e"
+id = "r-3e8d7d50"
 type = "clinical_result"
 source_id = "MAN-CLDX-1"
 asset = "BARZOLVOLIMAB"
 trial = "EMBARQ-CSU2"
 indication = "chronic spontaneous urticaria (CSU) with baseline AAS7>0"
-endpoint = "Proportion of Patients with AAS7=0 at Week 12 in Patients with Baseline AAS7>0"
+endpoint = "Proportion of Patients with AAS7=0 at Week 12"
 result = "Placebo: 33.7%; 150 mg Q4W: 74.3%; 300 mg Q8W: 66.2%"
 analysis = "p<.00001 for both doses vs placebo"
 comparator = "placebo"
@@ -568,23 +515,10 @@ timing = "2027"
 quotes = ["BLA submission anticipated in 2027", "plans to submit a Biologics License Application (BLA) to the FDA in 2027", "A BLA submission is planned for 2027", "the Company’s plan to submit a BLA in 2027"]
 model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
-check = "disputed"
-decision = ""
-note = ""
-
-[[items]]
-id = "e-fbefd1b5"
-type = "catalyst"
-source_id = "MAN-CLDX-1"
-asset = "BARZOLVOLIMAB (CDX-0159)"
-event = "BLA submission"
-event_type = "regulatory_filing"
-timing = "2027"
-quotes = ["plans to submit a Biologics License Application (BLA) to the FDA in 2027.", "A BLA submission is planned for 2027."]
-model = "qwen3.7-plus-2026-05-26"
-returned_model = "qwen3.7-plus-2026-05-26"
-check = "disputed"
-decision = ""
+check = "agreed"
+verify = { asset = "BARZOLVOLIMAB (CDX-0159)", event = "BLA submission", event_type = "regulatory_filing", timing = "2027" }
+verify_quotes = ["plans to submit a Biologics License Application (BLA) to the FDA in 2027.", "A BLA submission is planned for 2027."]
+decision = "accept"
 note = ""
 
 [[items]]
@@ -597,22 +531,10 @@ modality = "antibody"
 quotes = ["barzolvolimab, a mast cell-depleting anti-KIT antibody, in patients with CSU"]
 model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
-check = "disputed"
-decision = ""
-note = ""
-
-[[items]]
-id = "p-70204284"
-type = "program"
-source_id = "DOC-CLDX-cd22c3e6"
-asset = "BARZOLVOLIMAB (CDX-0159)"
-mechanism = "mast cell-depleting anti-KIT antibody"
-modality = "antibody"
-quotes = ["barzolvolimab, a mast cell-depleting anti-KIT antibody"]
-model = "qwen3.7-plus-2026-05-26"
-returned_model = "qwen3.7-plus-2026-05-26"
-check = "disputed"
-decision = ""
+check = "agreed"
+verify = { asset = "BARZOLVOLIMAB (CDX-0159)", mechanism = "mast cell-depleting anti-KIT antibody", modality = "antibody" }
+verify_quotes = ["barzolvolimab, a mast cell-depleting anti-KIT antibody"]
+decision = "accept"
 note = ""
 
 [[items]]
@@ -632,5 +554,29 @@ quotes = ["The primary end point was UAS7 change from baseline to week 12.", "Th
 model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
+verify = { asset = "BARZOLVOLIMAB (CDX-0159)", trial = "NCT05368285", indication = "chronic spontaneous urticaria", endpoint = "UAS7 change from baseline to week 12", result = "75 mg every 4 weeks: -6.60; 150 mg every 4 weeks: -12.55; 300 mg every 8 weeks: -13.41; placebo: not explicitly stated as a single number but implied in comparison", analysis = "75 mg every 4 weeks: 95% confidence interval [-10.71, -2.49] P = .0017; 150 mg every 4 weeks: 95% confidence interval [-16.56, -8.55] P < .0001; 300 mg every 8 weeks: 95% confidence interval [-17.47, -9.34] P < .0001", comparator = "placebo", advantage_vs_soc = "" }
+verify_quotes = ["randomized 1:1:1:1 to receive barzolvolimab 75 mg every 4 weeks (n = 53); 150 mg every 4 weeks (n = 52); 300 mg every 8 weeks (n = 51); or placebo (n = 51).", "The primary end point was UAS7 change from baseline to week 12.", "There was significant improvement in mean (95% confidence interval) change from baseline to week 12 in UAS7 in barzolvolimab-treated patients compared to patients who received placebo (75 mg every 4 weeks: -6.60 [-10.71, -2.49] P = .0017; 150 mg every 4 weeks: -12.55 [-16.56, -8.55] P < .0001; 300 mg every 8 weeks: -13.41 [-17.47, -9.34] P < .0001)."]
 decision = ""
+note = ""
+
+[[items]]
+id = "r-b9335aef"
+type = "clinical_result"
+source_id = "DOC-CLDX-cd22c3e6"
+asset = "BARZOLVOLIMAB"
+trial = "NCT05368285"
+indication = "chronic spontaneous urticaria"
+endpoint = "complete response (UAS7 = 0) at 12 weeks"
+result = "75 mg: 22.9%; 150 mg: 51.1%; 300 mg: 37.5%; placebo: 6.4%"
+analysis = ""
+comparator = "placebo"
+advantage_vs_soc = ""
+confidence = ""
+quotes = ["Clinical improvement was rapid and marked, with 22.9%, 51.1%, and 37.5% (75 mg, 150 mg, and 300 mg, respectively) of barzolvolimab-treated patients who experienced complete response (UAS7 = 0) versus 6.4% for placebo at 12 weeks."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "agreed"
+verify = { asset = "BARZOLVOLIMAB (CDX-0159)", trial = "NCT05368285", indication = "chronic spontaneous urticaria", endpoint = "complete response (UAS7 = 0) at 12 weeks", result = "75 mg: 22.9%; 150 mg: 51.1%; 300 mg: 37.5%; placebo: 6.4%", analysis = "", comparator = "placebo", advantage_vs_soc = "" }
+verify_quotes = ["Clinical improvement was rapid and marked, with 22.9%, 51.1%, and 37.5% (75 mg, 150 mg, and 300 mg, respectively) of barzolvolimab-treated patients who experienced complete response (UAS7 = 0) versus 6.4% for placebo at 12 weeks."]
+decision = "accept"
 note = ""

@@ -1,0 +1,40 @@
+{
+ "request_meta": {
+  "task": "clinical_result",
+  "ticker": "ARWR",
+  "source_id": "MAN-ARWR-1",
+  "chunks": [
+   7,
+   38,
+   71,
+   74
+  ],
+  "prompt_sha256": "c2b0b57c7b648d9cdc19456a50cca772994cd72ba852ba3b04e82416bda8c0b0"
+ },
+ "response": {
+  "id": "chatcmpl-74724bdd-73d7-9675-80a8-610c51fbdb4c",
+  "object": "chat.completion",
+  "created": 1793424403,
+  "model": "qwen3.7-plus-2026-05-26",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"PLOZASIRAN (ARO-APOC3)\",\n      \"trial\": \"PALISADE\",\n      \"indication\": \"Familial Chylomicronemia Syndrome (FCS)\",\n      \"endpoint\": \"median change from baseline in triglycerides\",\n      \"result\": \"-80% versus -17% in the pooled placebo group\",\n      \"analysis\": \"\",\n      \"comparator\": \"placebo\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"The FDA approved the Company's New Drug Application (NDA) for REDEMPLO (plozasiran) injection for Familial Chylomicronemia Syndrome (FCS), on November 18, 2025.\",\n        \"This approval was supported by clinical data from the Phase 3 PALISADE study, a randomized, double-blind, placebo-controlled trial in adults with clinically diagnosed or genetically confirmed FCS.\",\n        \"In PALISADE, 25 mg REDEMPLO achieved deep and durable reductions in triglycerides, with a median change from baseline of -80% versus -17% in the pooled placebo group\"\n      ],\n      \"confidence\": \"\"\n    }\n  ]\n}"
+    },
+    "finish_reason": "stop",
+    "logprobs": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 5388,
+   "total_tokens": 5668,
+   "completion_tokens": 280,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 5388
+   }
+  }
+ }
+}

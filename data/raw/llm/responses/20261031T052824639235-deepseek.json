@@ -1,0 +1,42 @@
+{
+ "request_meta": {
+  "task": "clinical_result",
+  "ticker": "VSTM",
+  "source_id": "MAN-VSTM-1",
+  "chunks": [
+   5,
+   6,
+   9,
+   87
+  ],
+  "prompt_sha256": "b85706dd874d7b96d7c097d75e0deda97c8dae45ab83a609cc0b382c0b69adc2"
+ },
+ "response": {
+  "id": "a28c3f54-4cf3-459f-870f-fd8184adec8e",
+  "object": "chat.completion",
+  "created": 1793424503,
+  "model": "deepseek-v4-pro",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"avutometinib and defactinib\",\n      \"trial\": \"RAMP 205\",\n      \"indication\": \"front-line metastatic PDAC\",\n      \"endpoint\": \"confirmed overall response rate (ORR)\",\n      \"result\": \"83% (10/12) patients\",\n      \"analysis\": \"\",\n      \"comparator\": \"\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"In May 2025, we reported that we selected the recommended Phase 2 dose (“RP2D”) known as “dose level 1” in our RAMP 205 trial, which is evaluating avutometinib plus defactinib and in combination with standard of care chemotherapy (gemcitabine and Nab-paclitaxel) in front-line metastatic PDAC.\",\n        \"In the study, dose level 1 demonstrated a confirmed overall response rate (“ORR”) of 83% (10/12) patients.\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"avutometinib and defactinib\",\n      \"trial\": \"RAMP 201 (ENGOTov60/GOG3052)\",\n      \"indication\": \"recurrent low-grade serous ovarian cancer\",\n      \"endpoint\": \"confirmed ORR by BICR\",\n      \"result\": \"31% (34/109; 95% CI: 23-41) in all evaluable patients; 44% (25/57; 95% CI: 31-58) in KRAS-mutated; 17% (9/52; 95% CI: 8-30) in KRAS wild-type\",\n      \"analysis\": \"95% CI: 23-41; 95% CI: 31-58; 95% CI: 8-30\",\n      \"comparator\": \"\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"In October 2024, we announced the primary analysis of the RAMP 201 study with a data cutoff of June 30, 2024, that was presented at the IGCS 2025 Annual Meeting.\",\n        \"The study showed a confirmed ORR by BICR of 31% (34/109; 95% CI: 23-41) in all evaluable patients with measurable disease with approximately 12 months of follow up.\",\n        \"Among patients with KRAS-mutated LGSOC, the confirmed ORR was 44% (25/57; 95% CI: 31-58), and for patients with KRAS wild-type LGSOC the confirmed ORR was 17% (9/52; 95% CI: 8-30).\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"avutometinib and defactinib\",\n      \"trial\": \"RAMP 201 (ENGOTov60/GOG3052)\",\n      \"indication\": \"recurrent low-grade serous ovarian cancer\",\n      \"endpoint\": \"median duration of response (mDOR)\",\n      \"result\": \"31.1 months (95% CI: 14.8-31.1) in all evaluable patients; 31.1 months (95% CI: 14.8-31.1) in KRAS mutant; 9.2 months (95% CI: 5.5-NEi) in KRAS wild-type\",\n      \"analysis\": \"95% CI: 14.8-31.1; 95% CI: 14.8-31.1; 95% CI: 5.5-NEi\",\n      \"comparator\": \"\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"The median duration of response (“mDOR”) was 31.1 months (95% CI: 14.8-31.1) in all evaluable patients, with 31.1 months (95% CI: 14.8-31.1) in the KRAS mutant population and 9.2 months (95% CI: 5.5-NEi) in the KRAS wild-type population.\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"avutometinib and defactinib\",\n      \"trial\": \"RAMP 201 (ENGOTov60/GOG3052)\",\n      \"indication\": \"recurrent low-grade serous ovarian cancer\",\n      \"endpoint\": \"median progression-free survival\",\n      \"result\": \"12.9 months (95% CI: 10.9-20.2) in all evaluable patients; 22 months (95% CI: 11.1-36.6) in KRAS mutant; 12.8 months (95% CI: 7.4-18.4) in KRAS wild-type\",\n      \"analysis\": \"95% CI: 10.9-20.2; 95% CI: 11.1-36.6; 95% CI: 7.4-18.4\",\n      \"comparator\": \"\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"The median progression-free survival was 12.9 months (95% CI: 10.9-20.2) in all evaluable patients, with 22 months (95% CI: 11.1-36.6) in the KRAS mutant population and 12.8 months (95% CI: 7.4-18.4) in the KRAS wild-type population.\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"avutometinib and defactinib\",\n      \"trial\": \"RAMP 201 (ENGOTov60/GOG3052)\",\n      \"indication\": \"recurrent low-grade serous ovarian cancer\",\n      \"endpoint\": \"disease control rate (DCR) at six or more months\",\n      \"result\": \"61% in total evaluable population; 70% in KRAS mutant; 50% in KRAS wild-type\",\n      \"analysis\": \"\",\n      \"comparator\": \"\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"The disease control rate (“DCR”) at six or more months was 61% in the total evaluable population, 70% in KRAS mutant population and 50% in KRAS wild-type population.\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"VS-7375\",\n      \"trial\": \"VS-7375-101\",\n      \"indication\": \"advanced KRAS G12D mutant solid tumors\",\n      \"endpoint\": \"safety profile (no drug-related liver function test abnormalities, no drug-related neutropenia or anemia >Grade 2, no DLTs)\",\n      \"result\": \"Patients (n=23) receiving VS-7375 at either 400 mg QD, 600 mg QD or 900 mg QD with a mean duration of therapy of 1.6 months (0.7-5.6), reported no drug related liver function test abnormalities. There was no drug-related neutropenia or anemia >Grade 2 and rates of nausea, vomiting and diarrhea remained lower than those reported by our partner in China. No DLTs have been reported to date, and the maximum tolerated dose has not been reached.\",\n      \"analysis\": \"\",\n      \"comparator\": \"\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"As of the January 30, 2026 data cutoff, VS-7375 demonstrated an encouraging safety profile and was generally well-tolerated across all monotherapy dose levels evaluated to date.\",\n        \"Patients (n=23) receiving VS-7375 at either 400 mg QD, 600 mg QD or 900 mg QD with a mean duration of therapy of 1.6 months (0.7-5.6), reported no drug related liver function test abnormalities.\",\n        \"There was no drug-related neutropenia or anemia >Grade 2 and rates of nausea, vomiting and diarrhea remained lower than those reported by our partner in China.\",\n        \"No DLTs have been reported to date, and the maximum tolerated dose has not been reached.\"\n      ],\n      \"confidence\": \"\"\n    }\n  ]\n}"
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 5722,
+   "completion_tokens": 1775,
+   "total_tokens": 7497,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 5210
+  },
+  "system_fingerprint": "a307abda487cd1b463329ccb945ce396"
+ }
+}

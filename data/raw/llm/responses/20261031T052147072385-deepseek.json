@@ -1,0 +1,42 @@
+{
+ "request_meta": {
+  "task": "clinical_result",
+  "ticker": "VKTX",
+  "source_id": "DOC-VKTX-edf92b5c",
+  "chunks": [
+   18,
+   19,
+   20,
+   49
+  ],
+  "prompt_sha256": "0f46fb50f7260d625ca7b1253693c125e37eea057ab850150eda565fd0ff75aa"
+ },
+ "response": {
+  "id": "ef51e8c3-07d5-478d-95ce-a568cd28e4ae",
+  "object": "chat.completion",
+  "created": 1793424105,
+  "model": "deepseek-v4-pro",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"VK2735\",\n      \"trial\": \"VENTURE\",\n      \"indication\": \"obesity\",\n      \"endpoint\": \"percent change in body weight from baseline to week 13\",\n      \"result\": \"ranging up to 14.7% from baseline\",\n      \"analysis\": \"statistically significant\",\n      \"comparator\": \"placebo\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"The primary endpoint of the study was the percent change in body weight from baseline to week 13\",\n        \"patients receiving weekly doses of VK2735 demonstrated statistically significant reductions in mean body weight after 13 weeks, ranging up to 14.7% from baseline.\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"VK2735\",\n      \"trial\": \"VENTURE\",\n      \"indication\": \"obesity\",\n      \"endpoint\": \"percent change in body weight from baseline to week 13 relative to placebo\",\n      \"result\": \"ranging up to 13.1%\",\n      \"analysis\": \"statistically significant\",\n      \"comparator\": \"placebo\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"Patients receiving VK2735 also demonstrated statistically significant reductions in mean body weight relative to placebo, ranging up to 13.1%.\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"VK2735\",\n      \"trial\": \"Phase 1 MAD oral\",\n      \"indication\": \"obesity\",\n      \"endpoint\": \"mean body weight from baseline after 28 days\",\n      \"result\": \"ranging up to approximately 5.3%\",\n      \"analysis\": \"\",\n      \"comparator\": \"placebo\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"Cohorts receiving VK2735 demonstrated dose-dependent reductions in mean body weight from baseline, ranging up to approximately 5.3%.\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"VK2735\",\n      \"trial\": \"VENTURE-Oral Dosing\",\n      \"indication\": \"obesity\",\n      \"endpoint\": \"body weight compared with placebo\",\n      \"result\": \"ranging up to 12.2% from baseline\",\n      \"analysis\": \"statistically significant\",\n      \"comparator\": \"placebo\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"patients receiving oral VK2735 demonstrating statistically significant reductions in body weight compared with placebo, ranging up to 12.2% from baseline.\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"VK2809\",\n      \"trial\": \"VOYAGE\",\n      \"indication\": \"NASH/MASH\",\n      \"endpoint\": \"relative change in liver fat content from baseline to week 12\",\n      \"result\": \"statistically significant reductions\",\n      \"analysis\": \"statistically significant\",\n      \"comparator\": \"placebo\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"The primary endpoint of the study evaluated the relative change in liver fat content, as assessed by magnetic resonance imaging, proton density fat fraction, or MRI-PDFF, from baseline to week 12 in subjects treated with VK2809 as compared to placebo.\",\n        \"patients receiving VK2809 experiencing statistically significant reductions in liver fat content from baseline to Week 12 as compared to placebo.\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"VK2809\",\n      \"trial\": \"VOYAGE\",\n      \"indication\": \"NASH/MASH\",\n      \"endpoint\": \"NASH/MASH resolution with no worsening of fibrosis at week 52\",\n      \"result\": \"up to 75% of patients treated with VK2809 achieving NASH/MASH resolution with no worsening of fibrosis as compared to 29% for placebo\",\n      \"analysis\": \"p=0.0001\",\n      \"comparator\": \"placebo\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"up to 75% of patients treated with VK2809 achieving NASH/MASH resolution with no worsening of fibrosis as compared to 29% for placebo (p=0.0001)\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"VK2809\",\n      \"trial\": \"VOYAGE\",\n      \"indication\": \"NASH/MASH\",\n      \"endpoint\": \"≥1-stage improvement in fibrosis with no worsening of NASH/MASH at week 52\",\n      \"result\": \"up to 57% of VK2809-treated patients achieving ≥1-stage improvement in fibrosis with no worsening of NASH/MASH as compared to 34% for placebo\",\n      \"analysis\": \"p<0.05\",\n      \"comparator\": \"placebo\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"up to 57% of VK2809-treated patients achieving ≥1-stage improvement in fibrosis with no worsening of NASH/MASH as compared to 34% for placebo (p<0.05)\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"VK2809\",\n      \"trial\": \"VOYAGE\",\n      \"indication\": \"NASH/MASH\",\n      \"endpoint\": \"both resolution of NASH/MASH and a ≥1-stage improvement in fibrosis at week 52\",\n      \"result\": \"up to 48% of VK2809-treated patients achieving both resolution of NASH/MASH and a ≥1-stage improvement in fibrosis as compared to 20% for placebo\",\n      \"analysis\": \"p=0.01\",\n      \"comparator\": \"placebo\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"up to 48% of VK2809-treated patients achieving both resolution of NASH/MASH and a ≥1-stage improvement in fibrosis as compared to 20% for placebo (p=0.01)\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"VK0214\",\n      \"trial\": \"Phase 1b\",\n      \"indication\": \"X-ALD\",\n      \"endpoint\": \"plasma levels of VLCFAs and other lipids\",\n      \"result\": \"significant reductions were observed in plasma levels of VLCFAs and other lipids, as compared to placebo\",\n      \"analysis\": \"\",\n      \"comparator\": \"placebo\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"significant reductions were observed in plasma levels of VLCFAs and other lipids, as compared to placebo.\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"VK5211\",\n      \"trial\": \"Phase 2 proof-of-concept\",\n      \"indication\": \"recovering from non-elective hip fracture surgery\",\n      \"endpoint\": \"total lean body mass, less head\",\n      \"result\": \"statistically significant, dose-dependent increases\",\n      \"analysis\": \"statistically significant\",\n      \"comparator\": \"placebo\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"demonstrating statistically significant, dose-dependent increases in total lean body mass, less head, following treatment with VK5211 as compared to placebo.\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"VK5211\",\n      \"trial\": \"Phase 2 proof-of-concept\",\n      \"indication\": \"recovering from non-elective hip fracture surgery\",\n      \"endpoint\": \"appendicular lean body mass\",\n      \"result\": \"statistically significant increases\",\n      \"analysis\": \"statistically significant\",\n      \"comparator\": \"placebo\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"demonstrating statistically significant increases in appendicular lean body mass and total lean body mass for all doses of VK5211, compared to placebo.\"\n      ],\n      \"confidence\": \"\"\n    }\n  ]\n}"
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 5154,
+   "completion_tokens": 1750,
+   "total_tokens": 6904,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 4898
+  },
+  "system_fingerprint": "a307abda487cd1b463329ccb945ce396"
+ }
+}

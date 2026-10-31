@@ -1,0 +1,42 @@
+{
+ "request_meta": {
+  "task": "clinical_result",
+  "ticker": "VKTX",
+  "source_id": "MAN-VKTX-3",
+  "chunks": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "prompt_sha256": "f2cdba2a76d47ab872b63dd7cf5b659c7feb7f14a86da450a4fb6cc5a837eec5"
+ },
+ "response": {
+  "id": "4a981c27-4f89-42c3-81c6-d232f1fac676",
+  "object": "chat.completion",
+  "created": 1793424201,
+  "model": "deepseek-v4-pro",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"VK2735\",\n      \"trial\": \"Phase 2 VENTURE study\",\n      \"indication\": \"obesity\",\n      \"endpoint\": \"mean body weight reduction from baseline after 13 weekly doses\",\n      \"result\": \"up to 14.7%\",\n      \"analysis\": \"statistically significant\",\n      \"comparator\": \"\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"Top-line data from the company’s prior Phase 2 VENTURE study of VK2735 in adults with obesity demonstrated statistically significant reductions in mean body weight from baseline, ranging up to 14.7% after 13 weekly doses, with no signs of plateau.\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"VK2735\",\n      \"trial\": \"Phase 2 VENTURE Oral Dosing study\",\n      \"indication\": \"obesity\",\n      \"endpoint\": \"mean body weight reduction from baseline after 13 weeks\",\n      \"result\": \"up to 12.2%\",\n      \"analysis\": \"statistically significant\",\n      \"comparator\": \"\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"Top-line results demonstrated statistically significant reductions in mean body weight after 13 weeks, ranging up to 12.2% from baseline.\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"VK2735\",\n      \"trial\": \"Phase 2 VENTURE Oral Dosing study\",\n      \"indication\": \"obesity\",\n      \"endpoint\": \"percentage of subjects achieving at least 10% weight loss after 13 weeks\",\n      \"result\": \"Up to 80% in VK2735 treatment groups vs 5% in placebo\",\n      \"analysis\": \"\",\n      \"comparator\": \"placebo\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"Up to 80% of subjects in VK2735 treatment groups achieved at least 10% weight loss after 13 weeks, compared with only 5% of placebo treated subjects.\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"VK2735\",\n      \"trial\": \"Part 1 of VK2735 Maintenance Dosing Study\",\n      \"indication\": \"obesity\",\n      \"endpoint\": \"weight loss at Week 21\",\n      \"result\": \"ranged from approximately 16% to approximately 19% compared with approximately 0% for placebo\",\n      \"analysis\": \"p-values at each dosing level less than 0.0001 compared with placebo\",\n      \"comparator\": \"placebo\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"Week 21 weight loss ranged from approximately 16% to approximately 19% compared with approximately 0% for placebo.\",\n        \"All doses clearly separated from placebo starting at Week 4, with p-values at each dosing level less than 0.0001 compared with placebo.\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"VK2735\",\n      \"trial\": \"Part 1 of VK2735 Maintenance Dosing Study\",\n      \"indication\": \"obesity\",\n      \"endpoint\": \"percentage of subjects achieving 5%, 10%, 15%, 20% weight loss at Week 21\",\n      \"result\": \"98% achieved 5%, 90% achieved 10%, 65% achieved 15%, 32% achieved 20%; placebo: 13% achieved 5%, none achieved 10%, 15% or 20%\",\n      \"analysis\": \"\",\n      \"comparator\": \"placebo\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"Among treated subjects, 98% achieved 5% weight loss, 90% achieved 10%, 65% achieved 15%, and 32% achieved 20% weight loss.\",\n        \"This compares well with the placebo cohort, for which only 13% achieved 5% weight loss and none achieved 10%, 15% or 20% weight loss at Week 21.\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"VK2735\",\n      \"trial\": \"Part 1 of VK2735 Maintenance Dosing Study\",\n      \"indication\": \"obesity\",\n      \"endpoint\": \"mean weight loss retained at Week 33 among subjects transitioned to every-other-week dosing\",\n      \"result\": \"ranged from 83% to 97%, compared with 61% among subjects transitioned from 17.5 mg weekly to placebo\",\n      \"analysis\": \"p-values less than 0.01 for each cohort vs. placebo\",\n      \"comparator\": \"placebo\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"Among subjects dosed every-other-week, mean weight loss retained at Week 33 ranged from 83% to 97%, compared with 61% among subjects transitioned from 17.5 mg weekly to placebo, with p-values less than 0.01 for each cohort vs. placebo.\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"VK2735\",\n      \"trial\": \"Part 1 of VK2735 Maintenance Dosing Study\",\n      \"indication\": \"obesity\",\n      \"endpoint\": \"mean weight loss retained at Week 33 among subjects transitioned to monthly dosing\",\n      \"result\": \"ranged from 82% to 90%, compared with 61% for placebo\",\n      \"analysis\": \"p-values less than 0.01 for each cohort vs. placebo\",\n      \"comparator\": \"placebo\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"Among subjects transitioned to monthly dosing, mean weight loss retained at Week 33 ranged from 82% to 90%, compared with 61% for placebo, with p-values less than 0.01 for each cohort vs. placebo.\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"VK2735\",\n      \"trial\": \"Part 1 of VK2735 Maintenance Dosing Study\",\n      \"indication\": \"obesity\",\n      \"endpoint\": \"weight loss from baseline at Week 33 in exploratory cohort maintained on 17.5 mg weekly dose\",\n      \"result\": \"approximately 22%\",\n      \"analysis\": \"\",\n      \"comparator\": \"\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"These participants demonstrated continued weight loss throughout the 33 week study period, reaching approximately 22% from baseline.\"\n      ],\n      \"confidence\": \"\"\n    }\n  ]\n}"
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 5338,
+   "completion_tokens": 1455,
+   "total_tokens": 6793,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 4826
+  },
+  "system_fingerprint": "a307abda487cd1b463329ccb945ce396"
+ }
+}

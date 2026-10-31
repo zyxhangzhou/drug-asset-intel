@@ -61,7 +61,11 @@ TASKS = {
                 "comparator (placebo, active drug, or none). Fill advantage_vs_soc only when the "
                 "text itself compares the candidate with the standard of care or an approved "
                 "therapy; then also set confidence to one of high, medium_high, medium, low. "
-                "Skip preclinical results and results of other companies' drugs."
+                "Skip preclinical results and results of other companies' drugs. "
+                "One item per endpoint of a trial: a text reporting response rate and survival "
+                "gives two items; all arms or doses of one endpoint stay in that one item. Write "
+                "a time point (e.g. week 52) only when a quote states it: if it is in another "
+                "sentence, quote that sentence as well; otherwise leave the time point out."
             ),
         ),
         Task(

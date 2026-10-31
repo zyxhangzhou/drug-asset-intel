@@ -1,0 +1,40 @@
+{
+ "request_meta": {
+  "task": "clinical_result",
+  "ticker": "RGNX",
+  "source_id": "DOC-RGNX-a7b98e30",
+  "chunks": [
+   0,
+   1
+  ],
+  "prompt_sha256": "654b72eb5a88708552fd6bc40c3bd940f39cfa515faae81b6f765d0ca2171782"
+ },
+ "response": {
+  "id": "a5083f64-17fc-4a2f-97e8-018d7567af02",
+  "object": "chat.completion",
+  "created": 1793423797,
+  "model": "deepseek-v4-pro",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"RGX-202\",\n      \"trial\": \"AFFINITY DUCHENNE\",\n      \"indication\": \"Duchenne Muscular Dystrophy\",\n      \"endpoint\": \"Microdystrophin expression >10% at Week 12\",\n      \"result\": \"93% of participants achieved >10% RGX-202 microdystrophin expression at Week 12 (n=30)\",\n      \"analysis\": \"p<0.0001\",\n      \"comparator\": \"\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"93% of participants achieved >10% RGX-202 microdystrophin expression at Week 12 (p<0.0001).\",\n        \"The trial met its primary endpoint with high statistical significance (p<0.0001), with 93% of participants reaching at least 10% microdystrophin expression at Week 12 (n=30).\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"RGX-202\",\n      \"trial\": \"AFFINITY DUCHENNE\",\n      \"indication\": \"Duchenne Muscular Dystrophy\",\n      \"endpoint\": \"Microdystrophin expression averaged across all participants\",\n      \"result\": \"Microdystrophin expression averaged 71.1% across all participants, and 41.6% in older boys, aged > 8 years.\",\n      \"analysis\": \"\",\n      \"comparator\": \"\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"Microdystrophin expression averaged 71.1% across all participants, and 41.6% in older boys, aged > 8 years.\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"RGX-202\",\n      \"trial\": \"AFFINITY DUCHENNE\",\n      \"indication\": \"Duchenne Muscular Dystrophy\",\n      \"endpoint\": \"Microdystrophin expression >40%\",\n      \"result\": \"80% of participants achieved >40% microdystrophin expression.\",\n      \"analysis\": \"\",\n      \"comparator\": \"\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"Additionally, 80% of participants achieved >40% microdystrophin expression.\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"RGX-202\",\n      \"trial\": \"AFFINITY DUCHENNE\",\n      \"indication\": \"Duchenne Muscular Dystrophy\",\n      \"endpoint\": \"Correlation between microdystrophin expression and functional improvement (NSAA change from baseline)\",\n      \"result\": \"correlation= .094, p = 0.0002\",\n      \"analysis\": \"p = 0.0002\",\n      \"comparator\": \"\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"RGX-202 microdystrophin expression at Week 12 demonstrated a statistically significant correlation with functional improvement at one year as measured by NSAA change from baseline (correlation= .094, p = 0.0002)\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"RGX-202\",\n      \"trial\": \"AFFINITY DUCHENNE\",\n      \"indication\": \"Duchenne Muscular Dystrophy\",\n      \"endpoint\": \"Correlation between microdystrophin expression and functional improvement (NSAA change from baseline compared to cTAP predictive model)\",\n      \"result\": \"correlation= .092, p = 0.0005\",\n      \"analysis\": \"p = 0.0005\",\n      \"comparator\": \"\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"and NSAA change from baseline compared to the cTAP predictive model (correlation= .092, p = 0.0005).\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"RGX-202\",\n      \"trial\": \"AFFINITY DUCHENNE\",\n      \"indication\": \"Duchenne Muscular Dystrophy\",\n      \"endpoint\": \"Functional improvement at one year post-treatment (NSAA and timed function tests) compared to external control\",\n      \"result\": \"Participants demonstrated statistically significant improved performance across NSAA and all timed function tests when compared to external control using propensity score weighting\",\n      \"analysis\": \"statistically significant\",\n      \"comparator\": \"external control\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"Participants demonstrated statistically significant improved performance across NSAA and all timed function tests when compared to external control using propensity score weighting, which is the primary analysis method specified in the SAP for the pivotal trial.\"\n      ],\n      \"confidence\": \"\"\n    }\n  ]\n}"
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 3127,
+   "completion_tokens": 1057,
+   "total_tokens": 4184,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 2615
+  },
+  "system_fingerprint": "a307abda487cd1b463329ccb945ce396"
+ }
+}

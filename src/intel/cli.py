@@ -201,7 +201,7 @@ def cmd_extract(args) -> int:
 
         def client(ep):
             return LlmClient(ep, cfg, ledger, http, inputs.llm_dir / "responses",
-                             allow_peak=args.allow_peak)  # fmt: skip
+                             allow_peak=args.allow_peak, replay=args.replay)  # fmt: skip
 
         index = ChunkIndex(inputs.docs_dir / "index.sqlite")
         extractor = Extractor(
@@ -298,6 +298,9 @@ def main(argv: list[str] | None = None) -> int:
     extract.add_argument("--no-verify", action="store_true", help="skip the cross-check model")
     extract.add_argument("--allow-peak", action="store_true", help="run in peak price hours")
     extract.add_argument("--dry-run", action="store_true", help="estimate cost, call nothing")
+    extract.add_argument(
+        "--replay", action="store_true", help="re-pair saved replies of the same prompts, no calls"
+    )
     extract.add_argument("--db", type=Path, default=settings.db_path)
     serve = sub.add_parser("serve")
     serve.add_argument("--host", default="127.0.0.1")

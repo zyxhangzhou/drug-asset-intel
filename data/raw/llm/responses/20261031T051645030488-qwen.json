@@ -1,0 +1,38 @@
+{
+ "request_meta": {
+  "task": "clinical_result",
+  "ticker": "RGNX",
+  "source_id": "DOC-RGNX-a7b98e30",
+  "chunks": [
+   0,
+   1
+  ],
+  "prompt_sha256": "63206400e89c78a5a3633b815c8cf9851f2c2a1204f1f7e215751b988378fa86"
+ },
+ "response": {
+  "id": "chatcmpl-6963e3fd-af27-937b-8151-68c42059af62",
+  "object": "chat.completion",
+  "created": 1793423806,
+  "model": "qwen3.7-plus-2026-05-26",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"RGX-202\",\n      \"trial\": \"AFFINITY DUCHENNE\",\n      \"indication\": \"Duchenne Muscular Dystrophy\",\n      \"endpoint\": \"microdystrophin expression above 10% at Week 12\",\n      \"result\": \"93% of participants achieved >10% RGX-202 microdystrophin expression\",\n      \"analysis\": \"p<0.0001\",\n      \"comparator\": \"none\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"The pivotal portion of the Phase I/II/III AFFINITY DUCHENNE trial evaluated RGX-202\",\n        \"93% of participants achieved >10% RGX-202 microdystrophin expression at Week 12 (p<0.0001).\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"RGX-202\",\n      \"trial\": \"AFFINITY DUCHENNE\",\n      \"indication\": \"Duchenne Muscular Dystrophy\",\n      \"endpoint\": \"NSAA change from baseline at one year post-treatment\",\n      \"result\": \"statistically significant improved performance across NSAA\",\n      \"analysis\": \"correlation= .094, p = 0.0002\",\n      \"comparator\": \"external control using propensity score weighting\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"Participants demonstrated statistically significant improved performance across NSAA and all timed function tests when compared to external control using propensity score weighting\",\n        \"RGX-202 microdystrophin expression at Week 12 demonstrated a statistically significant correlation with functional improvement at one year as measured by NSAA change from baseline (correlation= .094, p = 0.0002)\"\n      ],\n      \"confidence\": \"\"\n    }\n  ]\n}"
+    },
+    "finish_reason": "stop",
+    "logprobs": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 3284,
+   "total_tokens": 3744,
+   "completion_tokens": 460,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 3284
+   }
+  }
+ }
+}

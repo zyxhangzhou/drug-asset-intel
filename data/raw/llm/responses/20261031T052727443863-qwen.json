@@ -1,0 +1,37 @@
+{
+ "request_meta": {
+  "task": "clinical_result",
+  "ticker": "ARWR",
+  "source_id": "DOC-ARWR-9b18cae6",
+  "chunks": [
+   0
+  ],
+  "prompt_sha256": "a2782f913a05df53596d3682a3ab543c42953e0ea4ff5c035359ca820b41ddf8"
+ },
+ "response": {
+  "id": "chatcmpl-2044e226-c4c7-9988-ae56-c990a4a75baa",
+  "object": "chat.completion",
+  "created": 1793424446,
+  "model": "qwen3.7-plus-2026-05-26",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"PLOZASIRAN (ARO-APOC3)\",\n      \"trial\": \"NCT05089084\",\n      \"indication\": \"severe hypertriglyceridemia and history of pancreatitis\",\n      \"endpoint\": \"incidence of expert-adjudicated AP\",\n      \"result\": \"Incident AP occurred in 5 of 22 in the placebo group versus 2 of 45 in the pooled plozasiran group, representing an 83% reduction in risk for recurrent AP in the plozasiran group\",\n      \"analysis\": \"HR, 0.17; 95% CI [0.03, 0.87], p < 0.017\",\n      \"comparator\": \"placebo\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"Clinicaltrials.gov identifier: NCT05089084.\",\n        \"Patients with extreme hypertriglyceridemia were randomised 2:1:2:1 to receive subcutaneous plozasiran (25- or 50-mg) or volume-matched placebo, quarterly for 12 months.\",\n        \"Primary and alpha-controlled secondary endpoints included the incidence of expert-adjudicated AP and pancreatitis-related hospitalisations.\",\n        \"Incident AP occurred in 5 of 22 in the placebo group versus 2 of 45 in the pooled plozasiran group, representing an 83% (HR, 0.17; 95% CI [0.03, 0.87], p < 0.017) reduction in risk for recurrent AP in the plozasiran group.\"\n      ],\n      \"confidence\": \"\"\n    }\n  ]\n}"
+    },
+    "finish_reason": "stop",
+    "logprobs": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1616,
+   "total_tokens": 2021,
+   "completion_tokens": 405,
+   "prompt_tokens_details": {
+    "cached_tokens": 512,
+    "text_tokens": 1616
+   }
+  }
+ }
+}

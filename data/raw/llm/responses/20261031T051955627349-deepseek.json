@@ -1,0 +1,40 @@
+{
+ "request_meta": {
+  "task": "clinical_result",
+  "ticker": "CLDX",
+  "source_id": "MAN-CLDX-2",
+  "chunks": [
+   0,
+   2
+  ],
+  "prompt_sha256": "749d1c688fb19627ac38af26ad50512506450ac3ccbb92cde14b5653cb88a335"
+ },
+ "response": {
+  "id": "d36023f1-4e0a-451e-8200-3c58be26e90a",
+  "object": "chat.completion",
+  "created": 1793423994,
+  "model": "deepseek-v4-pro",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"BARZOLVOLIMAB\",\n      \"trial\": \"EMBARQ-CSU1 and EMBARQ-CSU2\",\n      \"indication\": \"chronic spontaneous urticaria\",\n      \"endpoint\": \"enrollment\",\n      \"result\": \"1,939 patients were enrolled\",\n      \"analysis\": \"\",\n      \"comparator\": \"\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"1,939 patients were enrolled—the largest program conducted in antihistamine refractory CSU, including patients with advanced therapy experienced/refractory CSU.\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"BARZOLVOLIMAB\",\n      \"trial\": \"Phase 2 study in cold urticaria and symptomatic dermographism\",\n      \"indication\": \"cold urticaria and symptomatic dermographism\",\n      \"endpoint\": \"primary and secondary endpoints\",\n      \"result\": \"all primary and secondary endpoints were met with high statistical significance at 12 weeks and sustained through the end of the treatment period (20 weeks)\",\n      \"analysis\": \"high statistical significance\",\n      \"comparator\": \"placebo\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"In the Phase 2 study, all primary and secondary endpoints were met with high statistical significance at 12 weeks and sustained through the end of the treatment period (20 weeks).\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"BARZOLVOLIMAB\",\n      \"trial\": \"long-term barzolvolimab results presented at EAACI\",\n      \"indication\": \"chronic spontaneous urticaria with angioedema\",\n      \"endpoint\": \"angioedema-free rate at Week 76\",\n      \"result\": \"up to 64% of patients treated with barzolvolimab who had angioedema at baseline remained angioedema-free\",\n      \"analysis\": \"\",\n      \"comparator\": \"\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"Seven months after the completion of dosing (Week 76), up to 64% of patients treated with barzolvolimab who had angioedema at baseline remained angioedema-free.\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"BARZOLVOLIMAB\",\n      \"trial\": \"Phase 2 study in prurigo nodularis\",\n      \"indication\": \"prurigo nodularis\",\n      \"endpoint\": \"primary or key secondary endpoints\",\n      \"result\": \"the trial did not meet primary or key secondary endpoints\",\n      \"analysis\": \"\",\n      \"comparator\": \"\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"Topline data from the Phase 2 study in prurigo nodularis (PN) were presented in July 2026 and demonstrated that the trial did not meet primary or key secondary endpoints.\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"CDX-622\",\n      \"trial\": \"Phase 1 trial\",\n      \"indication\": \"\",\n      \"endpoint\": \"serum tryptase reduction\",\n      \"result\": \"rapid, profound, dose-dependent reductions in serum tryptase\",\n      \"analysis\": \"\",\n      \"comparator\": \"\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"Positive results from Phase 1 trial of bispecific CDX-622 showed rapid, profound, dose-dependent reductions in serum tryptase and CDX-622 was well tolerated\"\n      ],\n      \"confidence\": \"\"\n    }\n  ]\n}"
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 3663,
+   "completion_tokens": 790,
+   "total_tokens": 4453,
+   "prompt_tokens_details": {
+    "cached_tokens": 768
+   },
+   "prompt_cache_hit_tokens": 768,
+   "prompt_cache_miss_tokens": 2895
+  },
+  "system_fingerprint": "a307abda487cd1b463329ccb945ce396"
+ }
+}

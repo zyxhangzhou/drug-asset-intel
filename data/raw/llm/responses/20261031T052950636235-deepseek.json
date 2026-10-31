@@ -1,0 +1,42 @@
+{
+ "request_meta": {
+  "task": "clinical_result",
+  "ticker": "VSTM",
+  "source_id": "MAN-VSTM-3",
+  "chunks": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "prompt_sha256": "5eda65a16da831b3cde8415f33de1f0b5b9f7e2aaaac8e06a4c5dcc72e1a3cf6"
+ },
+ "response": {
+  "id": "33d624bd-be26-43e0-b0f6-10eadd41e669",
+  "object": "chat.completion",
+  "created": 1793424590,
+  "model": "deepseek-v4-pro",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"VS-7375\",\n      \"trial\": \"TARGET-D 101\",\n      \"indication\": \"metastatic pancreatic ductal adenocarcinoma (mPDAC)\",\n      \"endpoint\": \"confirmed objective response rate (ORR) in second line (2L) PDAC\",\n      \"result\": \"50% (4/8)\",\n      \"analysis\": \"\",\n      \"comparator\": \"\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"patients receiving 900 mg VS-7375 daily demonstrated a confirmed objective response rate (ORR) of 50% (4/8) in second line (2L) PDAC\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"VS-7375\",\n      \"trial\": \"TARGET-D 101\",\n      \"indication\": \"metastatic pancreatic ductal adenocarcinoma (mPDAC)\",\n      \"endpoint\": \"confirmed objective response rate (ORR) in 2L+ setting\",\n      \"result\": \"41% (9/22)\",\n      \"analysis\": \"\",\n      \"comparator\": \"\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"a 41% confirmed ORR (9/22) in the 2L+ setting, including two complete responses, one confirmed and one unconfirmed (treatment ongoing)\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"VS-7375\",\n      \"trial\": \"TARGET-D 101\",\n      \"indication\": \"metastatic pancreatic ductal adenocarcinoma (mPDAC)\",\n      \"endpoint\": \"confirmed objective response rate (ORR) in 3L/4L setting\",\n      \"result\": \"36% (5/14)\",\n      \"analysis\": \"\",\n      \"comparator\": \"\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"a 36% confirmed ORR (5/14) in the 3L/4L setting\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"VS-7375\",\n      \"trial\": \"TARGET-D 101\",\n      \"indication\": \"metastatic pancreatic ductal adenocarcinoma (mPDAC)\",\n      \"endpoint\": \"disease control rate (DCR) in 2L+\",\n      \"result\": \"86% (n=22)\",\n      \"analysis\": \"\",\n      \"comparator\": \"\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"The disease control rate (DCR) was 86% (n=22) in 2L+\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"VS-7375\",\n      \"trial\": \"TARGET-D 101\",\n      \"indication\": \"metastatic pancreatic ductal adenocarcinoma (mPDAC)\",\n      \"endpoint\": \"six-month landmark progression free survival (PFS) rate\",\n      \"result\": \"67%\",\n      \"analysis\": \"\",\n      \"comparator\": \"\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"the six-month landmark progression free survival (PFS) rate was 67%\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"VS-7375\",\n      \"trial\": \"TARGET-D 101\",\n      \"indication\": \"metastatic pancreatic ductal adenocarcinoma (mPDAC)\",\n      \"endpoint\": \"landmark six-month overall survival (OS) rate\",\n      \"result\": \"80%\",\n      \"analysis\": \"\",\n      \"comparator\": \"\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"the landmark six-month overall survival (OS) rate was 80%\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"VS-7375\",\n      \"trial\": \"TARGET-D 101\",\n      \"indication\": \"metastatic colorectal cancer (mCRC)\",\n      \"endpoint\": \"objective response rate (ORR) in 3L+ setting with 900 mg QD in combination with anti-EGFR\",\n      \"result\": \"33% (2/6; with one confirmed and one unconfirmed response)\",\n      \"analysis\": \"\",\n      \"comparator\": \"\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"patients receiving 900 mg QD in combination with anti-EGFR achieved a 33% ORR (2/6; with one confirmed and one unconfirmed response) in the 3L+ setting\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"VS-7375\",\n      \"trial\": \"TARGET-D 101\",\n      \"indication\": \"advanced non-small cell lung cancer (NSCLC)\",\n      \"endpoint\": \"confirmed objective response rate (ORR) in 2L+ NSCLC with 600 mg QD monotherapy\",\n      \"result\": \"43% (10/23)\",\n      \"analysis\": \"\",\n      \"comparator\": \"\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"in patients treated with VS-7375 600 mg QD monotherapy, the confirmed ORR was 43% (10/23) in 2L+ NSCLC\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"VS-7375\",\n      \"trial\": \"TARGET-D 101\",\n      \"indication\": \"advanced non-small cell lung cancer (NSCLC)\",\n      \"endpoint\": \"six-month landmark PFS rate with 600 mg QD monotherapy\",\n      \"result\": \"72%\",\n      \"analysis\": \"\",\n      \"comparator\": \"\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"The six-month landmark PFS rate was 72%\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"VS-7375\",\n      \"trial\": \"TARGET-D 101\",\n      \"indication\": \"1L KRAS G12D adenocarcinoma of the lung\",\n      \"endpoint\": \"objective response rate (ORR) with 600 mg QD in combination with carboplatin, pemetrexed plus pembrolizumab or with pembrolizumab\",\n      \"result\": \"75% (6/8)\",\n      \"analysis\": \"\",\n      \"comparator\": \"\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"patients treated with VS-7375 600 mg QD in combination with carboplatin, pemetrexed plus pembrolizumab or with pembrolizumab achieved a 75% ORR (6/8) in 1L KRAS G12D adenocarcinoma of the lung\"\n      ],\n      \"confidence\": \"\"\n    }\n  ]\n}"
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 6576,
+   "completion_tokens": 1465,
+   "total_tokens": 8041,
+   "prompt_tokens_details": {
+    "cached_tokens": 640
+   },
+   "prompt_cache_hit_tokens": 640,
+   "prompt_cache_miss_tokens": 5936
+  },
+  "system_fingerprint": "a307abda487cd1b463329ccb945ce396"
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "request_meta": {
+  "task": "clinical_result",
+  "ticker": "RGNX",
+  "source_id": "MAN-RGNX-2",
+  "chunks": [
+   0,
+   1
+  ],
+  "prompt_sha256": "b2c5aa7761ff43467ec8c89e7efe95acadaa23cfba804dd1d3ef7975fef8e7fe"
+ },
+ "response": {
+  "id": "chatcmpl-def73493-adfb-94a3-a558-a2322458c07f",
+  "object": "chat.completion",
+  "created": 1793423790,
+  "model": "qwen3.7-plus-2026-05-26",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"RGX-202\",\n      \"trial\": \"Phase III AFFINITY DUCHENNE ® trial\",\n      \"indication\": \"Duchenne muscular dystrophy\",\n      \"endpoint\": \"primary endpoint\",\n      \"result\": \"met its primary endpoint with high statistical significance (p<0.0001)\",\n      \"analysis\": \"p<0.0001\",\n      \"comparator\": \"\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"the Phase III AFFINITY DUCHENNE ® trial met its primary endpoint with high statistical significance (p<0.0001).\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"RGX-202\",\n      \"trial\": \"Phase III AFFINITY DUCHENNE ® trial\",\n      \"indication\": \"Duchenne muscular dystrophy\",\n      \"endpoint\": \"correlation between RGX-202 microdystrophin expression level and functional improvement at one year (NSAA, n=9)\",\n      \"result\": \"statistically significant correlation between RGX-202 microdystrophin expression level and functional improvement at one year (NSAA, n=9)\",\n      \"analysis\": \"\",\n      \"comparator\": \"\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"demonstrated statistically significant correlation between RGX-202 microdystrophin expression level and functional improvement at one year (NSAA, n=9).\"\n      ],\n      \"confidence\": \"\"\n    }\n  ]\n}"
+    },
+    "finish_reason": "stop",
+    "logprobs": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 3497,
+   "total_tokens": 3872,
+   "completion_tokens": 375,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 3497
+   }
+  }
+ }
+}

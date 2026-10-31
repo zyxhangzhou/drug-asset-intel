@@ -1,5 +1,6 @@
 """OpenAI-compatible chat client with a budget check before and a ledger entry after every call."""
 
+import hashlib
 import json
 import time
 from collections.abc import Callable
@@ -49,6 +50,7 @@ class CallResult:
     content: dict | None  # parsed JSON object, None when the reply was not valid JSON
     returned_model: str | None
     cost_cny: float
+    replayed: bool = False  # read back from a saved response; no call, no ledger entry
 
 
 @dataclass
@@ -59,6 +61,7 @@ class LlmClient:
     http: httpx.Client
     responses_dir: Path
     allow_peak: bool = False
+    replay: bool = False  # answer from saved responses of the same prompt instead of calling
     now: Callable[[], datetime] = field(default=lambda: datetime.now(UTC))
     sleep: Callable[[float], None] = time.sleep
 
@@ -71,6 +74,9 @@ class LlmClient:
 
     def complete(self, system: str, user: str, *, meta: dict) -> CallResult:
         provider = self.provider
+        meta = {**meta, "prompt_sha256": prompt_hash(self.endpoint.model, system, user)}
+        if self.replay:
+            return self._replayed(meta)
         at = self.now()
         prices = provider.prices(at)
         self.ledger.check(provider, self.estimate(system, user), at, self.allow_peak)
@@ -90,16 +96,7 @@ class LlmClient:
         )
         usage = data.get("usage") or {}
         cost = cost_cny(usage, prices)
-        content, status = None, "ok"
-        choice = (data.get("choices") or [{}])[0]
-        try:
-            if choice.get("finish_reason") == "length":
-                raise ValueError("output truncated at max_tokens")
-            content = json.loads(choice["message"]["content"])
-            if not isinstance(content, dict):
-                raise ValueError("reply is not a JSON object")
-        except (KeyError, TypeError, ValueError) as exc:
-            content, status = None, f"bad_json: {exc}"
+        content, status = parse_reply(data)
         self.ledger.append(
             {
                 "call_id": call_id,
@@ -116,6 +113,18 @@ class LlmClient:
             }
         )
         return CallResult(call_id, content, data.get("model"), cost)
+
+    def _replayed(self, meta: dict) -> CallResult:
+        """The latest saved response of this provider for exactly this model and prompt."""
+        suffix = f"-{self.provider.name}.json"
+        for path in sorted(self.responses_dir.glob(f"*{suffix}"), reverse=True):
+            saved = json.loads(path.read_text())
+            if saved.get("request_meta", {}).get("prompt_sha256") == meta["prompt_sha256"]:
+                content, _ = parse_reply(saved["response"])
+                model = saved["response"].get("model")
+                return CallResult(path.name.removesuffix(".json"), content, model, 0.0, True)
+        raise LlmError(f"{self.endpoint.role}: no saved response for {meta.get('source_id')} "
+                       f"{meta.get('task')} with this prompt; run without --replay")  # fmt: skip
 
     def _post(self, body: dict) -> dict:
         url = f"{self.endpoint.base_url}/chat/completions"
@@ -137,3 +146,21 @@ class LlmClient:
             if attempt < RETRIES:
                 self.sleep(5.0 * (attempt + 1))
         raise LlmError(f"{self.endpoint.role}: gave up after {RETRIES + 1} attempts ({last})")
+
+
+def prompt_hash(model: str, system: str, user: str) -> str:
+    return hashlib.sha256(json.dumps([model, system, user]).encode()).hexdigest()
+
+
+def parse_reply(data: dict) -> tuple[dict | None, str]:
+    """The JSON object a chat completion carries, or None and why not."""
+    choice = (data.get("choices") or [{}])[0]
+    try:
+        if choice.get("finish_reason") == "length":
+            raise ValueError("output truncated at max_tokens")
+        content = json.loads(choice["message"]["content"])
+        if not isinstance(content, dict):
+            raise ValueError("reply is not a JSON object")
+    except (KeyError, TypeError, ValueError) as exc:
+        return None, f"bad_json: {exc}"
+    return content, "ok"

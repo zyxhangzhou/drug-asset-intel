@@ -61,6 +61,7 @@ uv run intel fetch docs                   # 抓取 documents.csv 中的文档，
 uv run intel extract --dry-run            # 预估抽取费用，不调用模型
 uv run intel extract                      # DeepSeek 抽取 + Qwen 盲抽核验，写 data/manual/extractions/；高峰时段默认拒绝
 uv run intel extract report               # 费用、片段 / 数字校验通过率、双模型一致率
+uv run intel extract --replay             # 用已保存的模型回复重新校验与配对，不调用模型、不计费
                                           # 批量抓取均支持 --only VKTX,MDGL 与 --refresh
 uv run intel build                        # 离线从材料 + 缓存 + data/manual/ 重建快照，输出 gaps.csv、longlist.csv、shortlist.csv
 uv run intel init-db                      # 建空库（可重复执行）
