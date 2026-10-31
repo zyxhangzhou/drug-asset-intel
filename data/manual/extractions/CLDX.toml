@@ -16,8 +16,8 @@ returned_model = "deepseek-v4-pro"
 check = "agreed"
 verify = { asset = "BARZOLVOLIMAB (CDX-0159)", mechanism = "specifically binds the KIT receptor and potently inhibits its activity", modality = "monoclonal antibody" }
 verify_quotes = ["Barzolvolimab (also referred to as CDX-0159), a monoclonal antibody that specifically binds the KIT receptor and potently inhibits its activity"]
-decision = "accept"
-note = ""
+decision = "reject"
+note = "[Claude 复核一致条目] 拒绝：与 p-f069d017 重复，同为 barzolvolimab 抗 KIT 单抗项目；保留最新来源（2026-09-22 新闻稿）且标注人源化的版本。；保留 p-f069d017"
 
 [[items]]
 id = "p-191b8252"
@@ -32,8 +32,8 @@ returned_model = "deepseek-v4-pro"
 check = "agreed"
 verify = { asset = "CDX-622", mechanism = "potently neutralizing the alarmin thymic stromal lymphopoietin (TSLP) and depleting mast cells via stem cell factor (SCF) starvation", modality = "bispecific antibody" }
 verify_quotes = ["Our first bispecific candidate based on this science is CDX-622 (SCF & TSLP) which targets two complementary pathways that drive chronic inflammation, potently neutralizing the alarmin thymic stromal lymphopoietin (TSLP) and depleting mast cells via stem cell factor (SCF) starvation.", "CDX-622 is our first bispecific antibody based on this science and targets two complementary pathways that drive chronic inflammation, potently neutralizing the alarmin thymic stromal lymphopoietin (TSLP) and depleting mast cells via stem cell factor (SCF) starvation."]
-decision = "accept"
-note = ""
+decision = "reject"
+note = "[Claude 复核一致条目] 拒绝：与 p-d42edcd0 重复，同为 CDX-622 靶向 SCF 与 TSLP 的双特异性抗体项目。；保留 p-d42edcd0"
 
 [[items]]
 id = "e-03c7d1b5"
@@ -78,8 +78,8 @@ returned_model = "deepseek-v4-pro"
 check = "agreed"
 verify = { asset = "BARZOLVOLIMAB (CDX-0159)", mechanism = "specifically binds the receptor tyrosine kinase KIT and potently inhibits its activity", modality = "humanized monoclonal antibody" }
 verify_quotes = ["Barzolvolimab is a humanized monoclonal antibody that specifically binds the receptor tyrosine kinase KIT and potently inhibits its activity."]
-decision = "accept"
-note = ""
+decision = "reject"
+note = "[Claude 复核一致条目] 拒绝：与 p-f069d017 重复，同为 barzolvolimab 人源化抗 KIT 单抗；10-K（2026-02-25）早于保留项来源。；保留 p-f069d017"
 
 [[items]]
 id = "p-24a5d359"
@@ -94,8 +94,8 @@ returned_model = "deepseek-v4-pro"
 check = "agreed"
 verify = { asset = "CDX-622", mechanism = "targets two complementary pathways that drive chronic inflammation, potently neutralizing the alarmin thymic stromal lymphopoietin (TSLP) and depleting mast cells via stem cell factor (SCF) starvation", modality = "bispecific antibody" }
 verify_quotes = ["CDX-622 is a bispecific antibody that targets two complementary pathways that drive chronic inflammation, potently neutralizing the alarmin thymic stromal lymphopoietin (TSLP) and depleting mast cells via stem cell factor (SCF) starvation."]
-decision = "accept"
-note = ""
+decision = "reject"
+note = "[Claude 复核一致条目] 拒绝：与 p-d42edcd0 重复，同为 CDX-622 双特异性抗体（TSLP + SCF）；10-K 较旧。；保留 p-d42edcd0"
 
 [[items]]
 id = "p-38540290"
@@ -110,8 +110,8 @@ returned_model = "deepseek-v4-pro"
 check = "agreed"
 verify = { asset = "BARZOLVOLIMAB (CDX-0159)", mechanism = "targets mast cells by binding with high specificity to a unique part of the KIT receptor and potently inhibiting its activity", modality = "humanized monoclonal antibody" }
 verify_quotes = ["Barzolvolimab is a humanized monoclonal antibody with a novel mechanism of action that targets mast cells by binding with high specificity to a unique part of the KIT receptor and potently inhibiting its activity."]
-decision = "accept"
-note = ""
+decision = "reject"
+note = "[Claude 复核一致条目] 拒绝：与 p-f069d017 重复，机制与模态文字完全相同，保留更新的 2026-09-22 新闻稿版本。；保留 p-f069d017"
 
 [[items]]
 id = "p-d42edcd0"
@@ -127,7 +127,7 @@ check = "agreed"
 verify = { asset = "CDX-622", mechanism = "targets soluble SCF and the alarmin thymic stromal lymphopoietin (TSLP)", modality = "bispecific antibody" }
 verify_quotes = ["CDX-622 is a uniquely engineered novel bispecific antibody that targets soluble SCF and the alarmin thymic stromal lymphopoietin (TSLP)"]
 decision = "accept"
-note = ""
+note = "[Claude 复核一致条目] 保留：CDX-622 为公司自有双特异性抗体，靶向可溶性 SCF 与 TSLP，与原文一致；作为 CDX-622 项目的保留项。"
 
 [[items]]
 id = "r-9174834c"
@@ -169,7 +169,7 @@ check = "agreed"
 verify = { asset = "BARZOLVOLIMAB", trial = "Phase 2 study in cold urticaria (ColdU) and symptomatic dermographism (SD)", indication = "cold urticaria (ColdU) and symptomatic dermographism (SD)", endpoint = "primary and secondary endpoints", result = "met with high statistical significance at 12 weeks and sustained through the end of the treatment period (20 weeks)", analysis = "high statistical significance", comparator = "placebo", advantage_vs_soc = "" }
 verify_quotes = ["Barzolvolimab is the first drug in development to demonstrate clinical benefit in patients with ColdU and SD in a large, randomized, placebo-controlled study.", "In the Phase 2 study, all primary and secondary endpoints were met with high statistical significance at 12 weeks and sustained through the end of the treatment period (20 weeks)."]
 decision = "accept"
-note = ""
+note = "[Claude 复核一致条目] 保留：冷荨麻疹/症状性皮肤划痕症 2 期人体结果：主要与次要终点在第 12 周达到高度统计显著并持续至第 20 周；原文同段说明为安慰剂对照研究。"
 
 [[items]]
 id = "r-07ee65c8"
@@ -294,7 +294,7 @@ check = "agreed"
 verify = { asset = "BARZOLVOLIMAB (CDX-0159)", mechanism = "targets mast cells by binding with high specificity to a unique part of the KIT receptor and potently inhibiting its activity", modality = "humanized monoclonal antibody" }
 verify_quotes = ["Barzolvolimab is a humanized monoclonal", "antibody with a novel mechanism of action that targets mast cells by binding with high specificity to a unique part of the KIT receptor", "and potently inhibiting its activity.", "including barzolvolimab (also referred to as CDX-0159)"]
 decision = "accept"
-note = ""
+note = "[Claude 复核一致条目] 保留：barzolvolimab 为公司自有人源化单抗，高特异性结合 KIT 抑制其活性以靶向肥大细胞，与原文一致；来源最新，作为该项目保留项。"
 
 [[items]]
 id = "r-74e2ad11"
@@ -519,7 +519,7 @@ check = "agreed"
 verify = { asset = "BARZOLVOLIMAB (CDX-0159)", event = "BLA submission", event_type = "regulatory_filing", timing = "2027" }
 verify_quotes = ["plans to submit a Biologics License Application (BLA) to the FDA in 2027.", "A BLA submission is planned for 2027."]
 decision = "accept"
-note = ""
+note = "[Claude 复核一致条目] 保留：2026-09-22 新闻稿称计划 2027 年向 FDA 提交 BLA，快照日后的未来事件，无更新来源改变时间。"
 
 [[items]]
 id = "p-9424b362"
@@ -534,8 +534,8 @@ returned_model = "deepseek-v4-pro"
 check = "agreed"
 verify = { asset = "BARZOLVOLIMAB (CDX-0159)", mechanism = "mast cell-depleting anti-KIT antibody", modality = "antibody" }
 verify_quotes = ["barzolvolimab, a mast cell-depleting anti-KIT antibody"]
-decision = "accept"
-note = ""
+decision = "reject"
+note = "[Claude 复核一致条目] 拒绝：与 p-f069d017 重复，同为 barzolvolimab 抗 KIT 抗体项目，且模态仅写 antibody 不如保留项具体。；保留 p-f069d017"
 
 [[items]]
 id = "r-fcaa3c12"
@@ -579,4 +579,4 @@ check = "agreed"
 verify = { asset = "BARZOLVOLIMAB (CDX-0159)", trial = "NCT05368285", indication = "chronic spontaneous urticaria", endpoint = "complete response (UAS7 = 0) at 12 weeks", result = "75 mg: 22.9%; 150 mg: 51.1%; 300 mg: 37.5%; placebo: 6.4%", analysis = "", comparator = "placebo", advantage_vs_soc = "" }
 verify_quotes = ["Clinical improvement was rapid and marked, with 22.9%, 51.1%, and 37.5% (75 mg, 150 mg, and 300 mg, respectively) of barzolvolimab-treated patients who experienced complete response (UAS7 = 0) versus 6.4% for placebo at 12 weeks."]
 decision = "accept"
-note = ""
+note = "[Claude 复核一致条目] 保留：2 期剂量探索研究第 12 周完全缓解率 75/150/300 mg 分别 22.9%/51.1%/37.5%，安慰剂 6.4%，与摘要原文一致，且与 r-fcaa3c12 终点不同。"

@@ -16,8 +16,8 @@ returned_model = "deepseek-v4-pro"
 check = "agreed"
 verify = { asset = "VK3019", mechanism = "amylin receptor agonist", modality = "" }
 verify_quotes = ["Viking is also advancing additional obesity programs, including VK3019, an amylin receptor agonist,"]
-decision = "accept"
-note = ""
+decision = "reject"
+note = "[Claude 复核一致条目] 拒绝：与 p-c6cb19f7 重复：同为 VK3019，后者来自更新的 2026-10-28 新闻稿且机制更准确（DACRA，双重胰淀素/降钙素受体激动剂），本条只写 amylin receptor agonist，按文件顺序会先写入并使后者变成冲突缺口。；保留 p-c6cb19f7"
 
 [[items]]
 id = "p-e9f2664f"
@@ -33,7 +33,7 @@ check = "agreed"
 verify = { asset = "VK2809", mechanism = "thyroid hormone receptor beta agonist", modality = "" }
 verify_quotes = ["VK2809, an orally available thyroid hormone receptor beta agonist for metabolic and liver disease,"]
 decision = "accept"
-note = ""
+note = "[Claude 复核一致条目] 保留：原文“VK2809, an orally available thyroid hormone receptor beta agonist”，机制正确，modality 留空没问题；作为 VK2809 的保留条。"
 
 [[items]]
 id = "p-7338e338"
@@ -46,8 +46,8 @@ quotes = ["the company’s dual agonist of the glucagon-like peptide 1 (GLP-1) a
 model = "qwen3.7-plus-2026-05-26"
 returned_model = "qwen3.7-plus-2026-05-26"
 check = "disputed"
-decision = "accept"
-note = ""
+decision = "reject"
+note = "[Claude 复核一致条目] 拒绝：与 p-b71eebe1 重复：同为 VK2735 GLP-1/GIP 双受体激动剂，机制字符串完全相同，后者来源更新（2026-10-28），并写明 wholly owned。；保留 p-b71eebe1"
 
 [[items]]
 id = "r-c6903ab3"
@@ -69,7 +69,7 @@ check = "disputed"
 verify = { asset = "VK2735", trial = "VK2735-102", indication = "obesity", endpoint = "Proportion of participants demonstrating 5%, 10%, 15%, and 20% weight loss at Week 21", result = "Combined VK2735: 98% (≥5%), 90% (≥10%), 65% (≥15%), 32% (≥20%); Placebo: 13% (≥5%), 0% (≥10%), 0% (≥15%), 0% (≥20%)", analysis = "p<0.01 vs. placebo for each threshold", comparator = "placebo", advantage_vs_soc = "" }
 verify_quotes = ["At 21 weeks in the combined VK2735 treatment groups, the proportion of participants demonstrating 5%, 10%, 15%, and 20% weight loss were 98%, 90%, 65%, and 32% as compared with 13%, 0%, 0%, and 0% for placebo", "(p<0.01 vs. placebo for each)"]
 decision = "accept"
-note = ""
+note = "[Claude 复核一致条目] 保留：原文第 21 周合并 VK2735 组 98%/90%/65%/32% 对比安慰剂 13%/0%/0%/0%（各 p<0.01），数值忠实；trial 名 VK2735-102 与原文一致。"
 
 [[items]]
 id = "r-87477c0a"
@@ -89,7 +89,7 @@ model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
 decision = "accept"
-note = ""
+note = "[Claude 复核一致条目] 保留：表 2 第 21 周各剂量自基线体重变化 -16.3% 至 -18.7%，安慰剂 -0.1%，p 值与原文一致。"
 
 [[items]]
 id = "r-00516e21"
@@ -109,7 +109,7 @@ model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
 check = "disputed"
 decision = "accept"
-note = ""
+note = "[Claude 复核一致条目] 保留：表 2 经安慰剂校正的体重变化 -16.2% 至 -18.6%（各 p<0.0001），与原文一致，与 r-87477c0a 终点不同，不算重复。"
 
 [[items]]
 id = "r-3b23ee8b"
@@ -131,7 +131,7 @@ check = "agreed"
 verify = { asset = "VK2735", trial = "", indication = "obesity", endpoint = "Mean percentage of Week 21 weight loss maintained at Week 33 (Every-Other-Week Dosing)", result = "Placebo: 61%; VK2735 Combined QOW: 90%; VK2735 17.5 mg QW to 5.0 mg QOW: 83%; VK2735 15.0 mg QW to 7.5 mg QOW: 90%; VK2735 17.5 mg QW to 10.0 mg QOW: 97%", analysis = "p-value vs. placebo: Combined QOW p<0.0001; 5.0 mg QOW 0.004; 7.5 mg QOW <0.0001; 10.0 mg QOW <0.0001", comparator = "placebo", advantage_vs_soc = "" }
 verify_quotes = ["[table 3] Weight Loss Maintenance Following Transition from Weekly to Every-Other-Week Dosing for 12 Weeks — Mean percentage of Week 21 weight loss maintained at Week 33 (%)^4,5 | Placebo (n=27): 61%", "[table 3] Weight Loss Maintenance Following Transition from Weekly to Every-Other-Week Dosing for 12 Weeks — Mean percentage of Week 21 weight loss maintained at Week 33 (%)^4,5 | VK2735 Combined QOW (n=37): 90%", "[table 3] Weight Loss Maintenance Following Transition from Weekly to Every-Other-Week Dosing for 12 Weeks — Mean percentage of Week 21 weight loss maintained at Week 33 (%)^4,5 | VK2735 17.5 mg QW to 5.0 mg QOW (n=12): 83%", "[table 3] Weight Loss Maintenance Following Transition from Weekly to Every-Other-Week Dosing for 12 Weeks — Mean percentage of Week 21 weight loss maintained at Week 33 (%)^4,5 | VK2735 15.0 mg QW to 7.5 mg QOW (n=13): 90%", "[table 3] Weight Loss Maintenance Following Transition from Weekly to Every-Other-Week Dosing for 12 Weeks — Mean percentage of Week 21 weight loss maintained at Week 33 (%)^4,5 | VK2735 17.5 mg QW to 10.0 mg QOW (n=12): 97%", "[table 3] Weight Loss Maintenance Following Transition from Weekly to Every-Other-Week Dosing for 12 Weeks — p-value vs. placebo^5 | VK2735 Combined QOW (n=37): p<0.0001", "[table 3] Weight Loss Maintenance Following Transition from Weekly to Every-Other-Week Dosing for 12 Weeks — p-value vs. placebo^5 | VK2735 17.5 mg QW to 5.0 mg QOW (n=12): 0.004", "[table 3] Weight Loss Maintenance Following Transition from Weekly to Every-Other-Week Dosing for 12 Weeks — p-value vs. placebo^5 | VK2735 15.0 mg QW to 7.5 mg QOW (n=13): <0.0001", "[table 3] Weight Loss Maintenance Following Transition from Weekly to Every-Other-Week Dosing for 12 Weeks — p-value vs. placebo^5 | VK2735 17.5 mg QW to 10.0 mg QOW (n=12): <0.0001"]
 decision = "accept"
-note = ""
+note = "[Claude 复核一致条目] 保留：表 3 隔周给药第 33 周维持比例 83%–97%，安慰剂 61%，各 p 值与原文一致。"
 
 [[items]]
 id = "r-15c966cc"
@@ -153,7 +153,7 @@ check = "agreed"
 verify = { asset = "VK2735", trial = "", indication = "obesity", endpoint = "Mean percentage of Week 21 weight loss maintained at Week 33 (Monthly Dosing)", result = "Placebo: 61%; VK2735 Combined QM: 85%; VK2735 17.5 mg QW to 10 mg QM: 82%; VK2735 17.5 mg QW to 15 mg QM: 84%; VK2735 17.5 mg QW to 17.5 mg QM: 90%; VK2735 20 mg QW to 20 mg QM: 86%; VK2735 22.5 mg QW to 22.5 mg QM: 85%", analysis = "p-value vs. placebo: Combined QM <0.0001; 10 mg QM 0.0016; 15 mg QM 0.0012; 17.5 mg QM 0.0002; 20 mg QM 0.0005; 22.5 mg QM 0.0024", comparator = "placebo", advantage_vs_soc = "" }
 verify_quotes = ["[table 4] Weight Loss Maintenance Following Transition from Weekly to Monthly Dosing For 12 Weeks — Mean percentage of Week 21 weight loss maintained at Week 33 (%)^4,5 | Placebo (n=27): 61%", "[table 4] Weight Loss Maintenance Following Transition from Weekly to Monthly Dosing For 12 Weeks — Mean percentage of Week 21 weight loss maintained at Week 33 (%)^4,5 | VK2735 Combined QM (n=65): 85%", "[table 4] Weight Loss Maintenance Following Transition from Weekly to Monthly Dosing For 12 Weeks — Mean percentage of Week 21 weight loss maintained at Week 33 (%)^4,5 | VK2735 17.5 mg QW to 10 mg QM (n=16): 82%", "[table 4] Weight Loss Maintenance Following Transition from Weekly to Monthly Dosing For 12 Weeks — Mean percentage of Week 21 weight loss maintained at Week 33 (%)^4,5 | VK2735 17.5 mg QW to 15 mg QM (n=14): 84%", "[table 4] Weight Loss Maintenance Following Transition from Weekly to Monthly Dosing For 12 Weeks — Mean percentage of Week 21 weight loss maintained at Week 33 (%)^4,5 | VK2735 17.5 mg QW to 17.5 mg QM (n=11): 90%", "[table 4] Weight Loss Maintenance Following Transition from Weekly to Monthly Dosing For 12 Weeks — Mean percentage of Week 21 weight loss maintained at Week 33 (%)^4,5 | VK2735 20 mg QW to 20 mg QM (n=14): 86%", "[table 4] Weight Loss Maintenance Following Transition from Weekly to Monthly Dosing For 12 Weeks — Mean percentage of Week 21 weight loss maintained at Week 33 (%)^4,5 | VK2735 22.5 mg QW to 22.5 mg QM (n=10)^6: 85%", "[table 4] Weight Loss Maintenance Following Transition from Weekly to Monthly Dosing For 12 Weeks — p-value vs. placebo^5 | VK2735 Combined QM (n=65): <0.0001", "[table 4] Weight Loss Maintenance Following Transition from Weekly to Monthly Dosing For 12 Weeks — p-value vs. placebo^5 | VK2735 17.5 mg QW to 10 mg QM (n=16): 0.0016", "[table 4] Weight Loss Maintenance Following Transition from Weekly to Monthly Dosing For 12 Weeks — p-value vs. placebo^5 | VK2735 17.5 mg QW to 15 mg QM (n=14): 0.0012", "[table 4] Weight Loss Maintenance Following Transition from Weekly to Monthly Dosing For 12 Weeks — p-value vs. placebo^5 | VK2735 17.5 mg QW to 17.5 mg QM (n=11): 0.0002", "[table 4] Weight Loss Maintenance Following Transition from Weekly to Monthly Dosing For 12 Weeks — p-value vs. placebo^5 | VK2735 20 mg QW to 20 mg QM (n=14): 0.0005", "[table 4] Weight Loss Maintenance Following Transition from Weekly to Monthly Dosing For 12 Weeks — p-value vs. placebo^5 | VK2735 22.5 mg QW to 22.5 mg QM (n=10)^6: 0.0024"]
 decision = "accept"
-note = ""
+note = "[Claude 复核一致条目] 保留：表 4 每月给药第 33 周维持比例 82%–90%，安慰剂 61%，各 p 值与原文一致（22.5 mg 组按脚注 6 排除了一名离群受试者）。"
 
 [[items]]
 id = "r-0a771c44"
@@ -188,8 +188,8 @@ returned_model = "deepseek-v4-pro"
 check = "agreed"
 verify = { asset = "VK3019", mechanism = "Novel Amylin Agonist", modality = "" }
 verify_quotes = ["In April 2026, we announced that we filed an IND application for our Novel Amylin Agonist VK3019."]
-decision = "accept"
-note = ""
+decision = "reject"
+note = "[Claude 复核一致条目] 拒绝：与 p-c6cb19f7 重复：同为 VK3019 的 DACRA 机制；本条把 2024 年 DACRA 项目和 VK3019 IND 两句拼在一起，后者来源更新且原文直接写 VK3019 is a DACRA。；保留 p-c6cb19f7"
 
 [[items]]
 id = "p-df1fc606"
@@ -204,8 +204,8 @@ returned_model = "deepseek-v4-pro"
 check = "agreed"
 verify = { asset = "VK2809", mechanism = "orally available, tissue and receptor-subtype selective agonist of the thyroid hormone receptor beta, or TRß", modality = "" }
 verify_quotes = ["We are also developing VK2809, which is an orally available, tissue and receptor-subtype selective agonist of the thyroid hormone receptor beta, or TRß."]
-decision = "accept"
-note = ""
+decision = "reject"
+note = "[Claude 复核一致条目] 拒绝：与 p-e9f2664f 重复：同为 VK2809 的 TRβ 激动剂；本条机制混入给药途径“orally available”，写入时还会与保留条产生冲突缺口。；保留 p-e9f2664f"
 
 [[items]]
 id = "p-a03ddcad"
@@ -220,8 +220,8 @@ returned_model = "deepseek-v4-pro"
 check = "agreed"
 verify = { asset = "VK0214", mechanism = "orally available, tissue and receptor-subtype selective agonist of TRß", modality = "" }
 verify_quotes = ["We are also developing VK0214, which is also an orally available, tissue and receptor-subtype selective agonist of TRß for X-linked adrenoleukodystrophy, or X-ALD"]
-decision = "accept"
-note = ""
+decision = "reject"
+note = "[Claude 复核一致条目] 拒绝：与已接受的 p-a7cd5867（10-K）重复：同为 VK0214，机制字符串完全相同。；保留 p-a7cd5867"
 
 [[items]]
 id = "p-6584b7a5"
@@ -236,8 +236,8 @@ returned_model = "deepseek-v4-pro"
 check = "agreed"
 verify = { asset = "VK5211", mechanism = "non-steroidal selective androgen receptor modulator", modality = "" }
 verify_quotes = ["Other programs include VK5211, an orally available, non-steroidal selective androgen receptor modulator."]
-decision = "accept"
-note = ""
+decision = "reject"
+note = "[Claude 复核一致条目] 拒绝：与 p-ae61a105 重复：同为 VK5211 非甾体 SARM；本条机制混入给药途径“orally available”，且在文件中排在前面，会先占用机制字段。；保留 p-ae61a105"
 
 [[items]]
 id = "r-b439e470"
@@ -268,8 +268,8 @@ source_id = "DOC-VKTX-edf92b5c"
 asset = "VK2735"
 trial = "VENTURE-Oral Dosing"
 indication = "obesity"
-endpoint = "body weight compared with placebo"
-result = "ranging up to 12.2% from baseline"
+endpoint = "percent change in body weight from baseline"
+result = "statistically significant reductions in body weight ranging up to 12.2% from baseline"
 analysis = "statistically significant"
 comparator = "placebo"
 advantage_vs_soc = ""
@@ -281,7 +281,7 @@ check = "agreed"
 verify = { asset = "VK2735", trial = "Phase 2 VENTURE-Oral Dosing trial", indication = "obesity", endpoint = "reductions in body weight compared with placebo", result = "ranging up to 12.2% from baseline", analysis = "statistically significant", comparator = "placebo", advantage_vs_soc = "" }
 verify_quotes = ["The Phase 2 VENTURE-Oral Dosing trial successfully achieved its primary and secondary endpoints", "patients receiving oral VK2735 demonstrating statistically significant reductions in body weight compared with placebo, ranging up to 12.2% from baseline."]
 decision = "accept"
-note = ""
+note = "[Claude 复核一致条目] 修改后保留：数值 12.2% 正确，但 endpoint 写成“body weight compared with placebo”与结果“from baseline”口径不一致，10-K 与 Q3 新闻稿均明确 12.2% 是自基线降幅。；人工修改：endpoint 原为 'body weight compared with placebo'；result 原为 'ranging up to 12.2% from baseline'"
 
 [[items]]
 id = "r-7d6cacdf"
@@ -325,7 +325,7 @@ check = "agreed"
 verify = { asset = "VK0214", trial = "Phase 1b clinical trial", indication = "X-linked adrenoleukodystrophy, or X-ALD", endpoint = "plasma levels of VLCFAs", result = "significant reductions were observed in plasma levels of VLCFAs and other lipids, as compared to placebo", analysis = "", comparator = "placebo", advantage_vs_soc = "" }
 verify_quotes = ["In October 2024, we announced results from the Phase 1b clinical trial", "significant reductions were observed in plasma levels of VLCFAs and other lipids, as compared to placebo."]
 decision = "accept"
-note = ""
+note = "[Claude 复核一致条目] 保留：10-Q 原文：VK0214 1b 期血浆 VLCFA 及其他脂质较安慰剂显著下降，属人体临床结果（探索性终点）。"
 
 [[items]]
 id = "r-a7fa4c74"
@@ -444,8 +444,8 @@ returned_model = "deepseek-v4-pro"
 check = "agreed"
 verify = { asset = "VK2809", mechanism = "tissue and receptor-subtype selective agonist of the thyroid hormone receptor beta, or TRß", modality = "orally available" }
 verify_quotes = ["We are also developing VK2809, which is an orally available, tissue and receptor-subtype selective agonist of the thyroid hormone receptor beta, or TRß."]
-decision = "accept"
-note = ""
+decision = "reject"
+note = "[Claude 复核一致条目] 拒绝：与 p-e9f2664f 重复：同为 VK2809 的 TRβ 激动剂；本条 modality“small molecule”在所有 VKTX 源文中都找不到，机制还混入“orally available”。；保留 p-e9f2664f"
 
 [[items]]
 id = "p-a7cd5867"
@@ -453,7 +453,7 @@ type = "program"
 source_id = "MAN-VKTX-1"
 asset = "VK0214"
 mechanism = "orally available, tissue and receptor-subtype selective agonist of TRß"
-modality = "small molecule"
+modality = ""
 quotes = ["We are also developing VK0214, which is also an orally available, tissue and receptor-subtype selective agonist of TRß for X-linked adrenoleukodystrophy, or X-ALD", "VK2809 and VK0214 are novel, orally available, selective TRß agonists in development for metabolic disorders and X-ALD."]
 model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
@@ -461,7 +461,7 @@ check = "disputed"
 verify = { asset = "VK0214", mechanism = "orally available, tissue and receptor-subtype selective agonist of TRß", modality = "orally available" }
 verify_quotes = ["We are also developing VK0214, which is also an orally available, tissue and receptor-subtype selective agonist of TRß for X-linked"]
 decision = "accept"
-note = "[Claude 初筛] 建议接受：VK0214 为口服选择性 TRβ 激动剂，机制正确；与 p-a03ddcad 同资产但来源为 10-K，且 small molecule 口径与已接受的 p-d689314d 一致（属推断，原文只写 orally available）。"
+note = "[Claude 初筛] 建议接受：VK0214 为口服选择性 TRβ 激动剂，机制正确；与 p-a03ddcad 同资产但来源为 10-K，且 small molecule 口径与已接受的 p-d689314d 一致（属推断，原文只写 orally available）。\n[Claude 复核一致条目] 修改后保留：「small molecule」在 VKTX 来源中没有出现，原文只写 orally available；人工修改：modality 原为 'small molecule'"
 
 [[items]]
 id = "p-ae61a105"
@@ -469,7 +469,7 @@ type = "program"
 source_id = "MAN-VKTX-1"
 asset = "VK5211"
 mechanism = "non-steroidal selective androgen receptor modulator, or SARM"
-modality = "small molecule"
+modality = ""
 quotes = ["Other programs include VK5211, an orally available, non-steroidal selective androgen receptor modulator, or SARM."]
 model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
@@ -477,7 +477,7 @@ check = "agreed"
 verify = { asset = "VK5211", mechanism = "non-steroidal selective androgen receptor modulator, or SARM", modality = "orally available" }
 verify_quotes = ["Other programs include VK5211, an orally available, non-steroidal selective androgen receptor modulator, or SARM."]
 decision = "accept"
-note = ""
+note = "[Claude 复核一致条目] 修改后保留：机制正确（non-steroidal SARM），作为 VK5211 的保留条；但 modality“small molecule”在所有 VKTX 源文中均未出现，原文只写 orally available，应留空。；人工修改：modality 原为 'small molecule'"
 
 [[items]]
 id = "p-c53d3dbf"
@@ -577,7 +577,7 @@ check = "agreed"
 verify = { asset = "VK5211", trial = "Phase 2 proof-of-concept clinical trial", indication = "patients recovering from non-elective hip fracture surgery", endpoint = "lean body mass, less head", result = "statistically significant, dose dependent increases in lean body mass, less head, following treatment with VK5211 as compared to placebo", analysis = "", comparator = "placebo", advantage_vs_soc = "" }
 verify_quotes = ["Top-line data showed that the trial achieved its primary endpoint, demonstrating statistically significant, dose dependent increases in lean body mass, less head, following treatment with VK5211 as compared to placebo."]
 decision = "accept"
-note = ""
+note = "[Claude 复核一致条目] 保留：10-K 原文：VK5211 髋部骨折 2 期达到主要终点，去头部瘦体重剂量依赖性显著增加，表述忠实。"
 
 [[items]]
 id = "r-8a5503da"
@@ -599,7 +599,7 @@ check = "agreed"
 verify = { asset = "VK5211", trial = "Phase 2 proof-of-concept clinical trial", indication = "patients recovering from non-elective hip fracture surgery", endpoint = "appendicular lean body mass and total lean body mass", result = "statistically significant increases in appendicular lean body mass and total lean body mass for all doses of VK5211, compared to placebo", analysis = "", comparator = "placebo", advantage_vs_soc = "" }
 verify_quotes = ["The study also achieved certain secondary endpoints, demonstrating statistically significant increases in appendicular lean body mass and total lean body mass for all doses of VK5211, compared to placebo."]
 decision = "accept"
-note = ""
+note = "[Claude 复核一致条目] 保留：10-K 原文：所有剂量四肢瘦体重较安慰剂显著增加（次要终点）；总瘦体重另见 r-2105aad7，不重复。"
 
 [[items]]
 id = "r-2105aad7"
@@ -697,7 +697,7 @@ check = "agreed"
 verify = { asset = "VK2735", mechanism = "dual agonist of the glucagon like peptide-1, or GLP-1 receptor, and the glucose dependent insulinotropic polypeptide, or GIP receptor", modality = "" }
 verify_quotes = ["VK2735 is a wholly owned long-acting dual agonist of the glucagon like peptide-1, or GLP-1 receptor, and the glucose dependent insulinotropic polypeptide, or GIP receptor"]
 decision = "accept"
-note = ""
+note = "[Claude 复核一致条目] 保留：2026-10-28 新闻稿原文：VK2735 为 wholly owned 的 GLP-1/GIP 双受体激动剂，机制正确；作为 VK2735 的保留条。"
 
 [[items]]
 id = "p-c6cb19f7"
@@ -713,7 +713,7 @@ check = "agreed"
 verify = { asset = "VK3019", mechanism = "dual amylin and calcitonin receptor agonist (DACRA)", modality = "" }
 verify_quotes = ["VK3019 is an investigational dual amylin and calcitonin receptor agonist (DACRA) in development for the potential treatment of obesity."]
 decision = "accept"
-note = ""
+note = "[Claude 复核一致条目] 保留：2026-10-28 新闻稿原文：VK3019 为在研 DACRA（双重胰淀素/降钙素受体激动剂），机制最完整，作为 VK3019 的保留条。"
 
 [[items]]
 id = "p-f20998c8"
@@ -814,8 +814,8 @@ returned_model = "deepseek-v4-pro"
 check = "agreed"
 verify = { asset = "VK2735", trial = "VK2735 Maintenance Dosing Study Part 1", indication = "obesity", endpoint = "Week 21 weight loss", result = "ranged from approximately 16% to approximately 19% compared with approximately 0% for placebo", analysis = "p-values at each dosing level less than 0.0001 compared with placebo", comparator = "placebo", advantage_vs_soc = "" }
 verify_quotes = ["Week 21 weight loss ranged from approximately 16% to approximately 19% compared with approximately 0% for placebo.", "All doses clearly separated from placebo starting at Week 4, with p-values at each dosing level less than 0.0001 compared with placebo."]
-decision = "accept"
-note = ""
+decision = "reject"
+note = "[Claude 复核一致条目] 拒绝：与 r-87477c0a 重复：同为维持研究第 21 周体重降幅（约 16%–19% vs 安慰剂约 0%），后者为表 2 精确值 -16.3% 至 -18.7%。；保留 r-87477c0a"
 
 [[items]]
 id = "r-6848a818"
@@ -858,8 +858,8 @@ returned_model = "deepseek-v4-pro"
 check = "agreed"
 verify = { asset = "VK2735", trial = "VK2735 Maintenance Dosing Study Part 1", indication = "obesity", endpoint = "mean weight loss retained at Week 33 among subjects dosed every-other-week", result = "ranged from 83% to 97%, compared with 61% among subjects transitioned from 17.5 mg weekly to placebo", analysis = "p-values less than 0.01 for each cohort vs. placebo", comparator = "placebo", advantage_vs_soc = "" }
 verify_quotes = ["Among subjects dosed every-other-week, mean weight loss retained at Week 33 ranged from 83% to 97%, compared with 61% among subjects transitioned from 17.5 mg weekly to placebo, with p-values less than 0.01 for each cohort vs. placebo."]
-decision = "accept"
-note = ""
+decision = "reject"
+note = "[Claude 复核一致条目] 拒绝：与 r-3b23ee8b 重复：同为第 33 周隔周给药维持 83%–97% vs 安慰剂 61%，后者为表 3 分剂量精确值。；保留 r-3b23ee8b"
 
 [[items]]
 id = "r-4e71556e"
@@ -880,8 +880,8 @@ returned_model = "deepseek-v4-pro"
 check = "agreed"
 verify = { asset = "VK2735", trial = "VK2735 Maintenance Dosing Study Part 1", indication = "obesity", endpoint = "mean weight loss retained at Week 33 among subjects transitioned to monthly dosing", result = "ranged from 82% to 90%, compared with 61% for placebo", analysis = "p-values less than 0.01 for each cohort vs. placebo", comparator = "placebo", advantage_vs_soc = "" }
 verify_quotes = ["Among subjects transitioned to monthly dosing, mean weight loss retained at Week 33 ranged from 82% to 90%, compared with 61% for placebo, with p-values less than 0.01 for each cohort vs. placebo."]
-decision = "accept"
-note = ""
+decision = "reject"
+note = "[Claude 复核一致条目] 拒绝：与 r-15c966cc 重复：同为第 33 周每月给药维持 82%–90% vs 安慰剂 61%，后者为表 4 分剂量精确值。；保留 r-15c966cc"
 
 [[items]]
 id = "e-88820fea"
@@ -898,7 +898,7 @@ check = "agreed"
 verify = { asset = "VK2735", event = "VANQUISH extension studies, expected to begin", event_type = "trial_start", timing = "early 2027" }
 verify_quotes = ["Importantly, results from this study will help inform the selection of doses in the upcoming VANQUISH extension studies, expected to begin in early 2027."]
 decision = "accept"
-note = ""
+note = "[Claude 复核一致条目] 保留：2026-10-28 新闻稿：VANQUISH 扩展研究预计 2027 年初（同文另写 1Q27）启动，仍属未来事件，没有更新的来源。"
 
 [[items]]
 id = "e-8be959a0"
@@ -915,7 +915,7 @@ check = "agreed"
 verify = { asset = "VK2735", event = "results from Part 2 of this study to be available", event_type = "data_readout", timing = "2027" }
 verify_quotes = ["The company expects the results from Part 2 of this study to be available in 2027."]
 decision = "accept"
-note = ""
+note = "[Claude 复核一致条目] 保留：2026-10-28 新闻稿：维持研究第 2 部分已启动，结果预计 2027 年公布，仍属未来事件。"
 
 [[items]]
 id = "e-a6f06499"
@@ -966,8 +966,8 @@ returned_model = "deepseek-v4-pro"
 check = "agreed"
 verify = { asset = "VK2735", trial = "", indication = "obesity", endpoint = "Proportion of participants demonstrating 5%, 10%, 15%, and 20% weight loss at week 21", result = "Combined VK2735: 98% (≥5%), 90% (≥10%), 65% (≥15%), 32% (≥20%); Placebo: 13% (≥5%), 0% (≥10%), 0% (≥15%), 0% (≥20%)", analysis = "p<0.01 vs. placebo for each threshold", comparator = "placebo", advantage_vs_soc = "" }
 verify_quotes = ["At 21 weeks in the combined VK2735 treatment groups, the proportion of participants demonstrating 5%, 10%, 15%, and 20% weight loss were 98%, 90%, 65%, and 32% as compared with 13%, 0%, 0%, and 0% for placebo (p<0.01 vs. placebo for each)."]
-decision = "accept"
-note = ""
+decision = "reject"
+note = "[Claude 复核一致条目] 拒绝：与 r-c6903ab3 重复：原文同一句（第 21 周 98%/90%/65%/32% vs 13%/0%/0%/0%）。；保留 r-c6903ab3"
 
 [[items]]
 id = "r-7e551f9e"
@@ -1002,8 +1002,8 @@ returned_model = "deepseek-v4-pro"
 check = "agreed"
 verify = { asset = "VK2735", mechanism = "GIP/GLP-1 Receptor Dual Agonist", modality = "" }
 verify_quotes = ["Weekly Subcutaneous VK2735, a GIP/GLP-1 Receptor Dual Agonist, for Weight", "OBJECTIVE: This study aimed to determine doses of VK2735, a novel glucagon-like peptide-1/glucose-dependent insulinotropic polypeptide (GLP-1/GIP) receptor dual agonist, that are effective for weight loss over 13 weeks of treatment."]
-decision = "accept"
-note = ""
+decision = "reject"
+note = "[Claude 复核一致条目] 拒绝：与 p-b71eebe1 重复：同为 VK2735 GIP/GLP-1 双受体激动剂；措辞不同，写入时会产生机制冲突缺口。；保留 p-b71eebe1"
 
 [[items]]
 id = "r-dee04146"

@@ -17,7 +17,7 @@ check = "agreed"
 verify = { asset = "PLOZASIRAN (ARO-APOC3)", mechanism = "suppress the production of apolipoprotein C-III (APOC3)", modality = "small interfering RNA (\"siRNA\") therapeutic" }
 verify_quotes = ["REDEMPLO is a small interfering RNA (\"siRNA\") therapeutic designed to suppress the production of apolipoprotein C-III (APOC3)"]
 decision = "accept"
-note = ""
+note = "[Claude 复核一致条目] 保留：最新 10-Q 原文：REDEMPLO 为 siRNA，抑制 APOC3 生成；作为 plozasiran 机制/形式的保留条目。"
 
 [[items]]
 id = "p-aa2bbfbc"
@@ -33,7 +33,7 @@ check = "agreed"
 verify = { asset = "ARO-PNPLA3", mechanism = "reduce liver expression of patatin-like phospholipase domain containing 3 (PNPLA3)", modality = "RNA interference (RNAi) therapeutic" }
 verify_quotes = ["ARO-PNPLA3, Arrowhead’s clinical stage RNA interference (RNAi) therapeutic designed to reduce liver expression of patatin-like phospholipase domain containing 3 (PNPLA3)"]
 decision = "accept"
-note = ""
+note = "[Claude 复核一致条目] 保留：ARO-PNPLA3 为 RNAi 疗法、降低肝脏 PNPLA3 表达，与原文一致；已授权 Madrigal，仍算自有资产。"
 
 [[items]]
 id = "p-ad24d668"
@@ -49,7 +49,7 @@ check = "agreed"
 verify = { asset = "ARO-INHBE", mechanism = "", modality = "RNA interference (RNAi) therapeutic" }
 verify_quotes = ["ARO-INHBE, the Company’s investigational RNA interference (RNAi) therapeutic being developed as a potential treatment for obesity"]
 decision = "accept"
-note = ""
+note = "[Claude 复核一致条目] 保留：ARO-INHBE 为 RNAi 疗法，原文支持；机制留空可接受。"
 
 [[items]]
 id = "p-fd5e9e1c"
@@ -65,7 +65,7 @@ check = "agreed"
 verify = { asset = "ARO-DIMERPA", mechanism = "silence expression of both proprotein convertase subtilisin kexin 9 (PCSK9) and apolipoprotein C3 (APOC3) genes", modality = "RNAi therapeutic" }
 verify_quotes = ["ARO-DIMER-PA, the Company’s investigational RNAi therapeutic being developed as a potential treatment for atherosclerotic cardiovascular disease", "ARO-DIMER-PA is designed to silence expression of both proprotein convertase subtilisin kexin 9 (PCSK9) and apolipoprotein C3 (APOC3) genes"]
 decision = "accept"
-note = ""
+note = "[Claude 复核一致条目] 保留：ARO-DIMER-PA 为 RNAi 疗法，同时沉默 PCSK9 与 APOC3，与原文一致。"
 
 [[items]]
 id = "p-c6a6c400"
@@ -97,7 +97,7 @@ check = "agreed"
 verify = { asset = "ARO-MAPT", mechanism = "", modality = "RNAi therapeutic" }
 verify_quotes = ["ARO-MAPT, the Company’s investigational RNAi therapeutic being developed as a potential treatment for tauopathies including Alzheimer’s disease"]
 decision = "accept"
-note = ""
+note = "[Claude 复核一致条目] 保留：ARO-MAPT 为 RNAi 疗法，原文支持；机制留空（10-Q 另有“silence CNS expression of MAPT”一句，未在引用内）。"
 
 [[items]]
 id = "p-741b7716"
@@ -113,7 +113,7 @@ check = "agreed"
 verify = { asset = "ARO-DM1", mechanism = "", modality = "RNAi therapeutic" }
 verify_quotes = ["ARO-DM1, an investigational RNAi therapeutic for the treatment of type 1 myotonic dystrophy (DM1)"]
 decision = "accept"
-note = ""
+note = "[Claude 复核一致条目] 保留：ARO-DM1 为 RNAi 疗法，原文支持；与 p-eb8d3d89（只填机制）互补，不冲突；已授权 Sarepta 仍算自有。"
 
 [[items]]
 id = "r-dc9988fd"
@@ -303,7 +303,7 @@ check = "agreed"
 verify = { asset = "PLOZASIRAN (ARO-APOC3)", trial = "Phase 3 PALISADE study", indication = "Familial Chylomicronemia Syndrome (FCS)", endpoint = "triglycerides", result = "25 mg REDEMPLO achieved deep and durable reductions in triglycerides, with a median change from baseline of -80% versus -17% in the pooled placebo group", analysis = "", comparator = "placebo", advantage_vs_soc = "" }
 verify_quotes = ["The FDA approved the Company's New Drug Application (NDA) for REDEMPLO injection for Familial Chylomicronemia Syndrome (FCS), on November 18, 2025. This approval was supported by clinical data from the Phase 3 PALISADE study, a randomized, double-blind, placebo-controlled trial in adults with clinically diagnosed or genetically confirmed FCS.", "In PALISADE, 25 mg REDEMPLO achieved deep and durable reductions in triglycerides, with a median change from baseline of -80% versus -17% in the pooled placebo group"]
 decision = "accept"
-note = ""
+note = "[Claude 复核一致条目] 保留：PALISADE 25 mg TG 中位变化 -80% 对安慰剂 -17%，与原文一致。"
 
 [[items]]
 id = "r-98cac5cd"
@@ -325,7 +325,7 @@ check = "agreed"
 verify = { asset = "PLOZASIRAN (ARO-APOC3)", trial = "Phase 3 PALISADE study", indication = "Familial Chylomicronemia Syndrome (FCS)", endpoint = "acute pancreatitis", result = "a lower numerical incidence of acute pancreatitis compared with placebo", analysis = "", comparator = "placebo", advantage_vs_soc = "" }
 verify_quotes = ["The FDA approved the Company's New Drug Application (NDA) for REDEMPLO injection for Familial Chylomicronemia Syndrome (FCS), on November 18, 2025. This approval was supported by clinical data from the Phase 3 PALISADE study, a randomized, double-blind, placebo-controlled trial in adults with clinically diagnosed or genetically confirmed FCS.", "and a lower numerical incidence of acute pancreatitis compared with placebo."]
 decision = "accept"
-note = ""
+note = "[Claude 复核一致条目] 保留：PALISADE 急性胰腺炎发生率数值上低于安慰剂，与原文一致。"
 
 [[items]]
 id = "r-0578fc2e"
@@ -422,8 +422,8 @@ returned_model = "deepseek-v4-pro"
 check = "agreed"
 verify = { asset = "PLOZASIRAN (ARO-APOC3)", mechanism = "suppress the production of apolipoprotein C-III (APOC3)", modality = "siRNA" }
 verify_quotes = ["REDEMPLO is an siRNA therapeutic designed to suppress the production of apolipoprotein C-III (APOC3)", "Plozasiran (formerly ARO-APOC3) is designed to reduce production of apolipoprotein C-III (APOC3)"]
-decision = "accept"
-note = ""
+decision = "reject"
+note = "[Claude 复核一致条目] 拒绝：与 p-52fa6785 重复（同为 plozasiran 的 APOC3 机制与 siRNA 形式），措辞不同会在入库时触发 extraction_conflict。；保留 p-52fa6785"
 
 [[items]]
 id = "p-7b06b8f5"
@@ -471,7 +471,7 @@ check = "agreed"
 verify = { asset = "ARO-DM1", mechanism = "reduce expression of the dystrophia myotonica protein kinase (DMPK) gene", modality = "" }
 verify_quotes = ["ARO-DM1 is designed to reduce expression of the dystrophia myotonica protein kinase (DMPK) gene"]
 decision = "accept"
-note = ""
+note = "[Claude 复核一致条目] 保留：ARO-DM1 设计为降低 DMPK 基因表达，与原文一致，补充 p-741b7716 缺的机制。"
 
 [[items]]
 id = "p-caa1c757"
@@ -501,15 +501,15 @@ check = "agreed"
 verify = { asset = "ARO-ATXN2", mechanism = "reduce the expression of the ATXN2 gene", modality = "" }
 verify_quotes = ["ARO-ATXN2 is designed to reduce the expression of the ATXN2 gene"]
 decision = "accept"
-note = ""
+note = "[Claude 复核一致条目] 保留：ARO-ATXN2 设计为降低 ATXN2 基因表达，与原文一致。"
 
 [[items]]
 id = "p-4fc4e857"
 type = "program"
 source_id = "MAN-ARWR-1"
 asset = "ARO-SNCA"
-mechanism = "siRNA therapy against alpha-synuclein"
-modality = "siRNA therapy"
+mechanism = "against alpha-synuclein"
+modality = "siRNA"
 quotes = ["The agreement covers ARO-SNCA, Arrowhead’s preclinical stage siRNA therapy against alpha-synuclein for the treatment of synucleinopathies, such as Parkinson’s Disease"]
 model = "deepseek-v4-pro"
 returned_model = "deepseek-v4-pro"
@@ -517,7 +517,7 @@ check = "agreed"
 verify = { asset = "ARO-SNCA", mechanism = "against alpha-synuclein", modality = "siRNA" }
 verify_quotes = ["The agreement covers ARO-SNCA, Arrowhead’s preclinical stage siRNA therapy against alpha-synuclein"]
 decision = "accept"
-note = ""
+note = "[Claude 复核一致条目] 修改后保留：mechanism 把形式“siRNA therapy”混进去了，应只写靶点；modality 写 siRNA 即可（已授权 Novartis，仍算自有）。；人工修改：mechanism 原为 'siRNA therapy against alpha-synuclein'；modality 原为 'siRNA therapy'"
 
 [[items]]
 id = "p-a3ccf8df"
@@ -568,8 +568,8 @@ returned_model = "deepseek-v4-pro"
 check = "agreed"
 verify = { asset = "PLOZASIRAN (ARO-APOC3)", mechanism = "suppress the production of apolipoprotein C-III (APOC3)", modality = "siRNA" }
 verify_quotes = ["REDEMPLO is designed to suppress the production of apolipoprotein C-III (APOC3)", "REDEMPLO is the first and only siRNA treatment approved in these countries"]
-decision = "accept"
-note = ""
+decision = "reject"
+note = "[Claude 复核一致条目] 拒绝：与 p-52fa6785 重复（同一机制），modality“siRNA”与已入库值措辞不同会触发 extraction_conflict。；保留 p-52fa6785"
 
 [[items]]
 id = "p-90d5aacd"
@@ -585,7 +585,7 @@ check = "agreed"
 verify = { asset = "ZODASIRAN (ARO-ANG3)", mechanism = "", modality = "RNA interference (RNAi) therapeutic" }
 verify_quotes = ["zodasiran, the Company’s investigational RNA interference (RNAi) therapeutic"]
 decision = "accept"
-note = ""
+note = "[Claude 复核一致条目] 保留：原文上下文明确为 zodasiran 的 RNAi 疗法（YOSEMITE、HoFH），与 p-7b06b8f5 的机制互补。"
 
 [[items]]
 id = "p-8bf8726f"
@@ -600,8 +600,8 @@ returned_model = "deepseek-v4-pro"
 check = "agreed"
 verify = { asset = "ARO-INHBE", mechanism = "", modality = "RNA interference (RNAi) therapeutic" }
 verify_quotes = ["ARO-INHBE, the company’s investigational RNA interference (RNAi) therapeutic"]
-decision = "accept"
-note = ""
+decision = "reject"
+note = "[Claude 复核一致条目] 拒绝：与 p-ad24d668 重复，ARO-INHBE 同为 RNAi 疗法、机制留空，取值完全相同。；保留 p-ad24d668"
 
 [[items]]
 id = "p-3d7c682c"
@@ -616,8 +616,8 @@ returned_model = "deepseek-v4-pro"
 check = "agreed"
 verify = { asset = "ARO-PNPLA3", mechanism = "reduce liver expression of patatin-like phospholipase domain containing 3 (PNPLA3)", modality = "RNAi therapeutic" }
 verify_quotes = ["ARO-PNPLA3, Arrowhead’s clinical stage RNAi therapeutic designed to reduce liver expression of patatin-like phospholipase domain containing 3 (PNPLA3)"]
-decision = "accept"
-note = ""
+decision = "reject"
+note = "[Claude 复核一致条目] 拒绝：与 p-aa2bbfbc 重复（同一 PNPLA3 机制），modality“RNAi therapeutic”措辞不同会触发 extraction_conflict。；保留 p-aa2bbfbc"
 
 [[items]]
 id = "r-222d43e4"
@@ -639,7 +639,7 @@ check = "agreed"
 verify = { asset = "PLOZASIRAN (ARO-APOC3)", trial = "SHASTA-3", indication = "severe hypertriglyceridemia (sHTG)", endpoint = "triglyceride reduction from baseline", result = "median triglyceride reductions of 79% from baseline", analysis = "", comparator = "placebo", advantage_vs_soc = "" }
 verify_quotes = ["Announced topline results for the global Phase 3 SHASTA-3 and SHASTA-4 clinical studies of plozasiran in patients with severe hypertriglyceridemia (sHTG).", "SHASTA-3 and SHASTA-4 successfully met the primary endpoint of triglyceride reduction versus placebo and met all prespecified secondary endpoints in both studies.", "Deep, durable, and consistent median triglyceride reductions of 79% and 81% from baseline were observed in SHASTA-3 and SHASTA-4, respectively."]
 decision = "accept"
-note = ""
+note = "[Claude 复核一致条目] 保留：SHASTA-3 TG 较基线中位降 79%，与原文一致。"
 
 [[items]]
 id = "r-97f8e646"
@@ -661,7 +661,7 @@ check = "agreed"
 verify = { asset = "PLOZASIRAN (ARO-APOC3)", trial = "SHASTA-4", indication = "severe hypertriglyceridemia (sHTG)", endpoint = "triglyceride reduction from baseline", result = "median triglyceride reductions of 81% from baseline", analysis = "", comparator = "placebo", advantage_vs_soc = "" }
 verify_quotes = ["Announced topline results for the global Phase 3 SHASTA-3 and SHASTA-4 clinical studies of plozasiran in patients with severe hypertriglyceridemia (sHTG).", "SHASTA-3 and SHASTA-4 successfully met the primary endpoint of triglyceride reduction versus placebo and met all prespecified secondary endpoints in both studies.", "Deep, durable, and consistent median triglyceride reductions of 79% and 81% from baseline were observed in SHASTA-3 and SHASTA-4, respectively."]
 decision = "accept"
-note = ""
+note = "[Claude 复核一致条目] 保留：SHASTA-4 TG 较基线中位降 81%，与原文一致。"
 
 [[items]]
 id = "r-ac527b89"
@@ -683,7 +683,7 @@ check = "agreed"
 verify = { asset = "PLOZASIRAN (ARO-APOC3)", trial = "SHASTA-3 and SHASTA-4", indication = "severe hypertriglyceridemia (sHTG)", endpoint = "acute pancreatitis (AP) events", result = "Statistically significant 78% reduction in acute pancreatitis (AP) events versus placebo was observed across the entire sHTG study population, with an unprecedented 100% event reduction in patients with triglycerides above 880 mg/dL and a prior medical history of AP", analysis = "Statistically significant", comparator = "placebo", advantage_vs_soc = "" }
 verify_quotes = ["Announced topline results for the global Phase 3 SHASTA-3 and SHASTA-4 clinical studies of plozasiran in patients with severe hypertriglyceridemia (sHTG).", "Statistically significant 78% reduction in acute pancreatitis (AP) events versus placebo was observed across the entire sHTG study population, with an unprecedented 100% event reduction in patients with triglycerides above 880 mg/dL and a prior medical history of AP, widely considered to be at the highest risk for AP."]
 decision = "accept"
-note = ""
+note = "[Claude 复核一致条目] 保留：SHASTA-3/4 急性胰腺炎事件较安慰剂降 78%（有统计学意义），TG>880 且既往 AP 者降 100%，与原文一致。"
 
 [[items]]
 id = "r-ca1a3354"
@@ -720,7 +720,7 @@ check = "agreed"
 verify = { asset = "PLOZASIRAN (ARO-APOC3)", event = "plozasiran sNDA submission", event_type = "regulatory_filing", timing = "before the end of 2026" }
 verify_quotes = ["Acquired a U.S. Food and Drug Administration (FDA) priority review voucher, which the company intends to use with its upcoming plozasiran sNDA submission, anticipated before the end of 2026, to potentially expand the approved indication to include patients with severe hypertriglyceridemia (sHTG)."]
 decision = "accept"
-note = ""
+note = "[Claude 复核一致条目] 保留：plozasiran sHTG sNDA 预计 2026 年底前提交，截至 2026-10-28 仍属未来，文件夹内无更新来源称已提交。"
 
 [[items]]
 id = "e-3ae12283"
@@ -767,8 +767,8 @@ returned_model = "deepseek-v4-pro"
 check = "agreed"
 verify = { asset = "PLOZASIRAN (ARO-APOC3)", mechanism = "suppress the production of apoC-III", modality = "small interfering RNA (siRNA) medicine" }
 verify_quotes = ["REDEMPLO (plozasiran), a small interfering RNA (siRNA) medicine", "REDEMPLO is an siRNA therapeutic designed to suppress the production of apoC-III"]
-decision = "accept"
-note = ""
+decision = "reject"
+note = "[Claude 复核一致条目] 拒绝：与 p-52fa6785 重复（plozasiran 机制），且 mechanism 混入“siRNA therapeutic designed to”，会触发 extraction_conflict。；保留 p-52fa6785"
 
 [[items]]
 id = "r-56d71318"
@@ -811,8 +811,8 @@ returned_model = "deepseek-v4-pro"
 check = "agreed"
 verify = { asset = "PLOZASIRAN (ARO-APOC3)", trial = "PALISADE (NCT05089084)", indication = "Familial Chylomicronemia Syndrome (FCS)", endpoint = "incidence of acute pancreatitis", result = "lower numerical incidence of acute pancreatitis compared with placebo", analysis = "", comparator = "placebo", advantage_vs_soc = "" }
 verify_quotes = ["The FDA approval is based on positive results from the Phase 3 PALISADE study where REDEMPLO significantly reduced triglycerides from baseline and lowered the numerical incidence of acute pancreatitis compared to placebo", "In PALISADE, 25 mg REDEMPLO achieved deep and durable reductions in triglycerides, with a median change from baseline of -80% versus -17% in the pooled placebo group, and a lower numerical incidence of acute pancreatitis compared with placebo."]
-decision = "accept"
-note = ""
+decision = "reject"
+note = "[Claude 复核一致条目] 拒绝：与 r-98cac5cd 重复，同为 PALISADE 急性胰腺炎发生率数值上低于安慰剂的同一句话。；保留 r-98cac5cd"
 
 [[items]]
 id = "p-beac53d4"
@@ -827,8 +827,8 @@ returned_model = "deepseek-v4-pro"
 check = "agreed"
 verify = { asset = "PLOZASIRAN (ARO-APOC3)", mechanism = "reduces hepatic apolipoprotein C-III", modality = "small interfering RNA" }
 verify_quotes = ["Plozasiran, a small interfering RNA, reduces hepatic apolipoprotein C-III"]
-decision = "accept"
-note = ""
+decision = "reject"
+note = "[Claude 复核一致条目] 拒绝：与 p-52fa6785 重复（plozasiran 机制与 siRNA 形式），措辞不同会触发 extraction_conflict。；保留 p-52fa6785"
 
 [[items]]
 id = "r-73d0858d"

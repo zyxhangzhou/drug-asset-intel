@@ -17,7 +17,7 @@ check = "agreed"
 verify = { asset = "AVUTOMETINIB", mechanism = "inhibits MEK kinase activity while also blocking the compensatory reactivation of MEK by upstream RAF", modality = "small molecule" }
 verify_quotes = ["Our focus is on novel small molecule drugs developed both as monotherapy and in combination", "AVMAPKI (avutometinib) inhibits MEK kinase activity while also blocking the compensatory reactivation of MEK by upstream RAF"]
 decision = "accept"
-note = ""
+note = "[Claude 复核一致条目] 保留：10-Q 原文直接给出 avutometinib 的 RAF/MEK 机制，小分子正确；作为 avutometinib 的唯一保留条目。"
 
 [[items]]
 id = "p-632a2dc6"
@@ -33,7 +33,7 @@ check = "agreed"
 verify = { asset = "DEFACTINIB", mechanism = "FAK inhibitor", modality = "small molecule" }
 verify_quotes = ["Our focus is on novel small molecule drugs developed both as monotherapy and in combination", "FAKZYNJA (defactinib) is a FAK inhibitor"]
 decision = "accept"
-note = ""
+note = "[Claude 复核一致条目] 保留：10-Q 原文称 defactinib 为 FAK 抑制剂，小分子正确；作为 defactinib 的唯一保留条目。"
 
 [[items]]
 id = "p-0e9b225e"
@@ -48,8 +48,8 @@ returned_model = "deepseek-v4-pro"
 check = "agreed"
 verify = { asset = "VS-7375", mechanism = "selective oral KRAS G12D dual ON/OFF inhibitor", modality = "small molecule" }
 verify_quotes = ["Our focus is on novel small molecule drugs developed both as monotherapy and in combination", "VS-7375 is a potential best-in-class, potent, and selective oral KRAS G12D dual ON/OFF inhibitor"]
-decision = "accept"
-note = ""
+decision = "reject"
+note = "[Claude 复核一致条目] 拒绝：与 VS-7375 其他程序条目重复，且机制里混入给药途径 oral；保留来源更新（10/14 新闻稿）的 p-f636421a。；保留 p-f636421a"
 
 [[items]]
 id = "r-08beebb2"
@@ -58,7 +58,7 @@ source_id = "DOC-VSTM-1a4164e2"
 asset = "avutometinib plus defactinib"
 trial = "RAMP 205"
 indication = "first-line metastatic pancreatic ductal carcinoma (PDAC)"
-endpoint = "confirmed objective response rate (cORR)"
+endpoint = "confirmed objective response rate (cORR), RP2D cohort of 29 patients, June 5, 2026 data cutoff"
 result = "52%"
 analysis = ""
 comparator = ""
@@ -71,7 +71,7 @@ check = "agreed"
 verify = { asset = "AVUTOMETINIB DEFACTINIB", trial = "RAMP 205", indication = "first-line metastatic pancreatic ductal carcinoma (PDAC)", endpoint = "confirmed objective response rate (cORR)", result = "52%", analysis = "", comparator = "none", advantage_vs_soc = "" }
 verify_quotes = ["In June 2026, we announced positive updated results from the RAMP 205 Phase 1b/2a recommended phase 2 dose cohort of 29 patients evaluating avutometinib plus defactinib in combination with gemcitabine and nab-paclitaxel in first-line metastatic pancreatic ductal carcinoma (PDAC).", "As of the June 5, 2026 data cutoff (median follow-up of 9.8 months) the combination achieved a 52% confirmed objective response rate (cORR), with both an 86% overall survival rate and 68% progression-free survival rate at six months."]
 decision = "accept"
-note = ""
+note = "[Claude 复核一致条目] 修改后保留：数值正确，但同一试验已有 dose level 1 早期 83% (10/12) 条目，终点应注明是 29 例 RP2D 队列、2026-06-05 截止数据以免混淆。；人工修改：endpoint 原为 'confirmed objective response rate (cORR)'"
 
 [[items]]
 id = "r-d8a8e505"
@@ -93,7 +93,7 @@ check = "agreed"
 verify = { asset = "AVUTOMETINIB DEFACTINIB", trial = "RAMP 205", indication = "first-line metastatic pancreatic ductal carcinoma (PDAC)", endpoint = "overall survival rate at six months", result = "86%", analysis = "", comparator = "none", advantage_vs_soc = "" }
 verify_quotes = ["In June 2026, we announced positive updated results from the RAMP 205 Phase 1b/2a recommended phase 2 dose cohort of 29 patients evaluating avutometinib plus defactinib in combination with gemcitabine and nab-paclitaxel in first-line metastatic pancreatic ductal carcinoma (PDAC).", "As of the June 5, 2026 data cutoff (median follow-up of 9.8 months) the combination achieved a 52% confirmed objective response rate (cORR), with both an 86% overall survival rate and 68% progression-free survival rate at six months."]
 decision = "accept"
-note = ""
+note = "[Claude 复核一致条目] 保留：RAMP 205 RP2D 队列 6 个月 OS 率 86%，与 10-Q 原文一致。"
 
 [[items]]
 id = "r-e81815c2"
@@ -115,7 +115,7 @@ check = "agreed"
 verify = { asset = "AVUTOMETINIB DEFACTINIB", trial = "RAMP 205", indication = "first-line metastatic pancreatic ductal carcinoma (PDAC)", endpoint = "progression-free survival rate at six months", result = "68%", analysis = "", comparator = "none", advantage_vs_soc = "" }
 verify_quotes = ["In June 2026, we announced positive updated results from the RAMP 205 Phase 1b/2a recommended phase 2 dose cohort of 29 patients evaluating avutometinib plus defactinib in combination with gemcitabine and nab-paclitaxel in first-line metastatic pancreatic ductal carcinoma (PDAC).", "As of the June 5, 2026 data cutoff (median follow-up of 9.8 months) the combination achieved a 52% confirmed objective response rate (cORR), with both an 86% overall survival rate and 68% progression-free survival rate at six months."]
 decision = "accept"
-note = ""
+note = "[Claude 复核一致条目] 保留：RAMP 205 RP2D 队列 6 个月 PFS 率 68%，与 10-Q 原文一致。"
 
 [[items]]
 id = "r-55982fff"
@@ -137,7 +137,7 @@ check = "agreed"
 verify = { asset = "AVUTOMETINIB DEFACTINIB", trial = "RAMP 201 Japan study", indication = "recurrent LGSOC", endpoint = "overall response rate", result = "44%", analysis = "", comparator = "none", advantage_vs_soc = "" }
 verify_quotes = ["In July 2026, updated data from the RAMP 201 Japan study were presented at the Annual Meeting of the Japanese Society of Gynecologic Oncology (JSGO).", "As of May 29, 2026, 16 efficacy-evaluable patients with recurrent LGSOC had received avutometinib plus defactinib, with a median follow up of 12.4 months.", "The combination achieved a 44% overall response rate and a 94% disease control rate across all patients."]
 decision = "accept"
-note = ""
+note = "[Claude 复核一致条目] 保留：RAMP 201 日本研究 16 例 ORR 44%，与原文一致。"
 
 [[items]]
 id = "r-fb6f8b9a"
@@ -159,7 +159,7 @@ check = "agreed"
 verify = { asset = "AVUTOMETINIB DEFACTINIB", trial = "RAMP 201 Japan study", indication = "recurrent LGSOC", endpoint = "disease control rate", result = "94%", analysis = "", comparator = "none", advantage_vs_soc = "" }
 verify_quotes = ["In July 2026, updated data from the RAMP 201 Japan study were presented at the Annual Meeting of the Japanese Society of Gynecologic Oncology (JSGO).", "As of May 29, 2026, 16 efficacy-evaluable patients with recurrent LGSOC had received avutometinib plus defactinib, with a median follow up of 12.4 months.", "The combination achieved a 44% overall response rate and a 94% disease control rate across all patients."]
 decision = "accept"
-note = ""
+note = "[Claude 复核一致条目] 保留：RAMP 201 日本研究 DCR 94%，与原文一致。"
 
 [[items]]
 id = "r-8c56e6f6"
@@ -181,7 +181,7 @@ check = "agreed"
 verify = { asset = "AVUTOMETINIB DEFACTINIB", trial = "RAMP 201 Japan study", indication = "recurrent LGSOC with KRAS-mutated tumors", endpoint = "response rates", result = "71%", analysis = "", comparator = "none", advantage_vs_soc = "" }
 verify_quotes = ["In July 2026, updated data from the RAMP 201 Japan study were presented at the Annual Meeting of the Japanese Society of Gynecologic Oncology (JSGO).", "Response rates were 71% in patients with KRAS-mutated tumors and 22% in those with KRAS wild-type tumors, with disease control rates of 100% and 89%, respectively."]
 decision = "accept"
-note = ""
+note = "[Claude 复核一致条目] 保留：RAMP 201 日本研究 KRAS 突变亚组缓解率 71%，与原文一致。"
 
 [[items]]
 id = "r-4a630a7d"
@@ -203,7 +203,7 @@ check = "agreed"
 verify = { asset = "AVUTOMETINIB DEFACTINIB", trial = "RAMP 201 Japan study", indication = "recurrent LGSOC with KRAS wild-type tumors", endpoint = "response rates", result = "22%", analysis = "", comparator = "none", advantage_vs_soc = "" }
 verify_quotes = ["In July 2026, updated data from the RAMP 201 Japan study were presented at the Annual Meeting of the Japanese Society of Gynecologic Oncology (JSGO).", "Response rates were 71% in patients with KRAS-mutated tumors and 22% in those with KRAS wild-type tumors, with disease control rates of 100% and 89%, respectively."]
 decision = "accept"
-note = ""
+note = "[Claude 复核一致条目] 保留：RAMP 201 日本研究 KRAS 野生型亚组缓解率 22%，与原文一致。"
 
 [[items]]
 id = "r-e25662c4"
@@ -225,7 +225,7 @@ check = "agreed"
 verify = { asset = "AVUTOMETINIB DEFACTINIB", trial = "RAMP 201 Japan study", indication = "recurrent LGSOC with KRAS-mutated tumors", endpoint = "disease control rates", result = "100%", analysis = "", comparator = "none", advantage_vs_soc = "" }
 verify_quotes = ["In July 2026, updated data from the RAMP 201 Japan study were presented at the Annual Meeting of the Japanese Society of Gynecologic Oncology (JSGO).", "Response rates were 71% in patients with KRAS-mutated tumors and 22% in those with KRAS wild-type tumors, with disease control rates of 100% and 89%, respectively."]
 decision = "accept"
-note = ""
+note = "[Claude 复核一致条目] 保留：RAMP 201 日本研究 KRAS 突变亚组 DCR 100%，与原文一致。"
 
 [[items]]
 id = "r-dcca7085"
@@ -247,7 +247,7 @@ check = "agreed"
 verify = { asset = "AVUTOMETINIB DEFACTINIB", trial = "RAMP 201 Japan study", indication = "recurrent LGSOC with KRAS wild-type tumors", endpoint = "disease control rates", result = "89%", analysis = "", comparator = "none", advantage_vs_soc = "" }
 verify_quotes = ["In July 2026, updated data from the RAMP 201 Japan study were presented at the Annual Meeting of the Japanese Society of Gynecologic Oncology (JSGO).", "Response rates were 71% in patients with KRAS-mutated tumors and 22% in those with KRAS wild-type tumors, with disease control rates of 100% and 89%, respectively."]
 decision = "accept"
-note = ""
+note = "[Claude 复核一致条目] 保留：RAMP 201 日本研究 KRAS 野生型亚组 DCR 89%，与原文一致。"
 
 [[items]]
 id = "r-512fd0b7"
@@ -283,8 +283,8 @@ returned_model = "deepseek-v4-pro"
 check = "agreed"
 verify = { asset = "VS-7375", event = "report updating VS-7375 clinical data", event_type = "data_readout", timing = "October 2026" }
 verify_quotes = ["We expect to report updating VS-7375 clinical data in October 2026."]
-decision = "accept"
-note = ""
+decision = "reject"
+note = "[Claude 复核一致条目] 拒绝：“2026 年 10 月更新 VS-7375 数据”已于 2026-10-14 发生（MAN-VSTM-3/MAN-VSTM-4 即该次数据发布）。"
 
 [[items]]
 id = "e-7f311dcd"
@@ -334,8 +334,8 @@ returned_model = "deepseek-v4-pro"
 check = "agreed"
 verify = { asset = "VS-7375", event = "enroll the first patient in each of the Phase 3 pivotal trials", event_type = "trial_start", timing = "first half of 2027" }
 verify_quotes = ["We expect to enroll the first patient in each of the Phase 3 pivotal trials in the first half of 2027."]
-decision = "accept"
-note = "[Claude 初筛] 注意：此条已预填接受，但较新的来源称 PDAC 三期在 2026 年底前开放，10-Q 的说法已部分过时，请核对"
+decision = "reject"
+note = "[Claude 初筛] 注意：此条已预填接受，但较新的来源称 PDAC 三期在 2026 年底前开放，10-Q 的说法已部分过时，请核对\n[Claude 复核一致条目] 拒绝：已被 MAN-VSTM-3 取代：PDAC 三期改为 2026 年底前开放，CRC/NSCLC 三期首例见 e-24e9d84c；保留 e-24e9d84c"
 
 [[items]]
 id = "p-30fbc931"
@@ -350,8 +350,8 @@ returned_model = "deepseek-v4-pro"
 check = "agreed"
 verify = { asset = "AVUTOMETINIB", mechanism = "RAF/MEK inhibition", modality = "small molecule" }
 verify_quotes = ["Our focus is on novel small molecule drugs developed both as monotherapy and in combination, which inhibit critical signaling pathways in cancer that promote cancer cell survival and tumor growth, including targeting RAS directly with KRAS G12D inhibition, targeting the pathway downstream with RAF/MEK inhibition, and targeting the parallel pathway that drives resistance with FAK inhibition.", "Thus, there is a strong scientific rationale for combining avutometinib (to inhibit RAF and MEK to block the MAPK pathway) and defactinib"]
-decision = "accept"
-note = ""
+decision = "reject"
+note = "[Claude 复核一致条目] 拒绝：与 p-02e2f8d5 重复（avutometinib），且来自较旧的 10-K、机制措辞不同会产生冲突。；保留 p-02e2f8d5"
 
 [[items]]
 id = "p-21bede8d"
@@ -366,8 +366,8 @@ returned_model = "deepseek-v4-pro"
 check = "agreed"
 verify = { asset = "DEFACTINIB", mechanism = "FAK inhibition", modality = "small molecule" }
 verify_quotes = ["Our focus is on novel small molecule drugs developed both as monotherapy and in combination, which inhibit critical signaling pathways in cancer that promote cancer cell survival and tumor growth, including targeting RAS directly with KRAS G12D inhibition, targeting the pathway downstream with RAF/MEK inhibition, and targeting the parallel pathway that drives resistance with FAK inhibition.", "and defactinib (to inhibit FAK to reduce stromal density and adaptive resistance to avutometinib)"]
-decision = "accept"
-note = ""
+decision = "reject"
+note = "[Claude 复核一致条目] 拒绝：与 p-632a2dc6 重复（defactinib），且来自较旧的 10-K、机制措辞不同会产生冲突。；保留 p-632a2dc6"
 
 [[items]]
 id = "p-72d02667"
@@ -382,8 +382,8 @@ returned_model = "deepseek-v4-pro"
 check = "agreed"
 verify = { asset = "VS-7375", mechanism = "KRAS G12D dual ON/OFF inhibitor", modality = "small molecule" }
 verify_quotes = ["Our focus is on novel small molecule drugs developed both as monotherapy and in combination, which inhibit critical signaling pathways in cancer that promote cancer cell survival and tumor growth, including targeting RAS directly with KRAS G12D inhibition", "VS-7375 is a potential best-in-class, potent, and selective oral KRAS G12D dual ON/OFF inhibitor."]
-decision = "accept"
-note = ""
+decision = "reject"
+note = "[Claude 复核一致条目] 拒绝：与 VS-7375 其他程序条目重复，来源为较旧的 10-K；保留 p-f636421a。；保留 p-f636421a"
 
 [[items]]
 id = "r-85d33afe"
@@ -668,8 +668,8 @@ returned_model = "deepseek-v4-pro"
 check = "agreed"
 verify = { asset = "AVUTOMETINIB", mechanism = "inhibits MEK kinase activity while also blocking the compensatory reactivation of MEK by upstream RAF", modality = "small molecule" }
 verify_quotes = ["AVMAPKI (avutometinib) inhibits MEK kinase activity while also blocking", "the compensatory reactivation of MEK by upstream RAF.", "Our pipeline is focused on novel small molecule drugs that inhibit critical signaling"]
-decision = "accept"
-note = ""
+decision = "reject"
+note = "[Claude 复核一致条目] 拒绝：与 p-02e2f8d5 完全重复（avutometinib 同一机制原句）。；保留 p-02e2f8d5"
 
 [[items]]
 id = "p-4dd0dc55"
@@ -684,8 +684,8 @@ returned_model = "deepseek-v4-pro"
 check = "agreed"
 verify = { asset = "DEFACTINIB", mechanism = "FAK inhibitor", modality = "small molecule" }
 verify_quotes = ["FAKZYNJA (defactinib) is a FAK inhibitor and together, the avutometinib", "Our pipeline is focused on novel small molecule drugs that inhibit critical signaling"]
-decision = "accept"
-note = ""
+decision = "reject"
+note = "[Claude 复核一致条目] 拒绝：与 p-632a2dc6 完全重复（defactinib，FAK inhibitor）。；保留 p-632a2dc6"
 
 [[items]]
 id = "p-d2c23988"
@@ -700,8 +700,8 @@ returned_model = "deepseek-v4-pro"
 check = "agreed"
 verify = { asset = "VS-7375", mechanism = "oral KRAS G12D dual ON/OFF inhibitor", modality = "small molecule" }
 verify_quotes = ["VS-7375 is a potential best-in-class,", "potent, and selective investigational oral KRAS G12D dual ON/OFF inhibitor.", "Our pipeline is focused on novel small molecule drugs that inhibit critical signaling"]
-decision = "accept"
-note = ""
+decision = "reject"
+note = "[Claude 复核一致条目] 拒绝：与 VS-7375 其他程序条目重复；保留来源更新的 p-f636421a。；保留 p-f636421a"
 
 [[items]]
 id = "r-e3760744"
@@ -762,8 +762,8 @@ returned_model = "deepseek-v4-pro"
 check = "agreed"
 verify = { asset = "AVUTOMETINIB DEFACTINIB", trial = "RAMP 205 Phase 1b/2a", indication = "first-line metastatic pancreatic ductal carcinoma (PDAC)", endpoint = "confirmed objective response rate (cORR)", result = "52% confirmed objective response rate (cORR)", analysis = "", comparator = "none", advantage_vs_soc = "" }
 verify_quotes = ["On June 17, the Company announced positive updated results from the RAMP 205 Phase 1b/2a", "recommended phase 2 dose cohort of 29 patients evaluating avutometinib plus defactinib in", "combination with gemcitabine and nab-paclitaxel in first-line metastatic pancreatic ductal", "carcinoma (PDAC). As of the June 5, 2026 data cutoff (median follow-up of 9.8 months) the", "combination achieved a 52% confirmed objective response rate (cORR), with both an 86% overall", "survival rate and 68% progression-free survival rate at six months."]
-decision = "accept"
-note = ""
+decision = "reject"
+note = "[Claude 复核一致条目] 拒绝：与 r-08beebb2 重复（RAMP 205 同一 2026-06-05 截止数据 cORR 52%）。；保留 r-08beebb2"
 
 [[items]]
 id = "r-c6051f2e"
@@ -784,8 +784,8 @@ returned_model = "deepseek-v4-pro"
 check = "agreed"
 verify = { asset = "AVUTOMETINIB DEFACTINIB", trial = "RAMP 205 Phase 1b/2a", indication = "first-line metastatic pancreatic ductal carcinoma (PDAC)", endpoint = "overall survival rate at six months", result = "86% overall survival rate at six months", analysis = "", comparator = "none", advantage_vs_soc = "" }
 verify_quotes = ["On June 17, the Company announced positive updated results from the RAMP 205 Phase 1b/2a", "recommended phase 2 dose cohort of 29 patients evaluating avutometinib plus defactinib in", "combination with gemcitabine and nab-paclitaxel in first-line metastatic pancreatic ductal", "carcinoma (PDAC). As of the June 5, 2026 data cutoff (median follow-up of 9.8 months) the", "combination achieved a 52% confirmed objective response rate (cORR), with both an 86% overall", "survival rate and 68% progression-free survival rate at six months."]
-decision = "accept"
-note = ""
+decision = "reject"
+note = "[Claude 复核一致条目] 拒绝：与 r-d8a8e505 重复（RAMP 205 同一截止数据 6 个月 OS 86%）。；保留 r-d8a8e505"
 
 [[items]]
 id = "r-06c3a6a8"
@@ -806,8 +806,8 @@ returned_model = "deepseek-v4-pro"
 check = "agreed"
 verify = { asset = "AVUTOMETINIB DEFACTINIB", trial = "RAMP 205 Phase 1b/2a", indication = "first-line metastatic pancreatic ductal carcinoma (PDAC)", endpoint = "progression-free survival rate at six months", result = "68% progression-free survival rate at six months", analysis = "", comparator = "none", advantage_vs_soc = "" }
 verify_quotes = ["On June 17, the Company announced positive updated results from the RAMP 205 Phase 1b/2a", "recommended phase 2 dose cohort of 29 patients evaluating avutometinib plus defactinib in", "combination with gemcitabine and nab-paclitaxel in first-line metastatic pancreatic ductal", "carcinoma (PDAC). As of the June 5, 2026 data cutoff (median follow-up of 9.8 months) the", "combination achieved a 52% confirmed objective response rate (cORR), with both an 86% overall", "survival rate and 68% progression-free survival rate at six months."]
-decision = "accept"
-note = ""
+decision = "reject"
+note = "[Claude 复核一致条目] 拒绝：与 r-e81815c2 重复（RAMP 205 同一截止数据 6 个月 PFS 68%）。；保留 r-e81815c2"
 
 [[items]]
 id = "e-faed0f1a"
@@ -824,7 +824,7 @@ check = "agreed"
 verify = { asset = "AVUTOMETINIB DEFACTINIB", event = "Report a topline readout of the primary endpoint in the RAMP 301 trial", event_type = "data_readout", timing = "mid-2027" }
 verify_quotes = ["Report a topline readout of the primary endpoint in the RAMP 301 trial in mid-2027."]
 decision = "accept"
-note = ""
+note = "[Claude 复核一致条目] 保留：RAMP 301 主要终点顶线数据预计 2027 年中，仍在未来，较新来源未改动该时间。"
 
 [[items]]
 id = "e-96748a08"
@@ -840,8 +840,8 @@ returned_model = "deepseek-v4-pro"
 check = "agreed"
 verify = { asset = "VS-7375", event = "Report updated VS-7375 clinical data", event_type = "data_readout", timing = "October 2026" }
 verify_quotes = ["Report updated VS-7375 clinical data in October 2026."]
-decision = "accept"
-note = ""
+decision = "reject"
+note = "[Claude 复核一致条目] 拒绝：“2026 年 10 月报告 VS-7375 更新数据”已于 2026-10-14 发生（MAN-VSTM-3）。"
 
 [[items]]
 id = "e-91039d82"
@@ -857,8 +857,8 @@ returned_model = "deepseek-v4-pro"
 check = "agreed"
 verify = { asset = "VS-7375", event = "Complete enrollment across all three TARGET-D Phase 2 trials", event_type = "other", timing = "by the end of 2026" }
 verify_quotes = ["Complete enrollment across all three TARGET-D Phase 2 trials by the end of 2026."]
-decision = "accept"
-note = ""
+decision = "reject"
+note = "[Claude 复核一致条目] 拒绝：被 MAN-VSTM-3 取代：TARGET-D 202（NSCLC）入组完成推迟到 2027 年 Q2，201/203 年底完成另由 e-d732d9ac 和 e-11b3a1e6 记录。；保留 e-d732d9ac"
 
 [[items]]
 id = "e-a5369b69"
@@ -874,8 +874,8 @@ returned_model = "deepseek-v4-pro"
 check = "agreed"
 verify = { asset = "VS-7375", event = "Enroll the first patient in each of the Phase 3 pivotal trials", event_type = "trial_start", timing = "in the first half of 2027" }
 verify_quotes = ["Enroll the first patient in each of the Phase 3 pivotal trials in the first half of 2027."]
-decision = "accept"
-note = ""
+decision = "reject"
+note = "[Claude 复核一致条目] 拒绝：被 MAN-VSTM-3 取代：PDAC 三期改为 2026 年底前开放（e-2e958382），CRC/NSCLC 三期 2027 上半年首例入组由 e-24e9d84c 记录。；保留 e-24e9d84c"
 
 [[items]]
 id = "p-f636421a"
@@ -891,7 +891,7 @@ check = "agreed"
 verify = { asset = "VS-7375", mechanism = "oral KRAS G12D dual ON/OFF inhibitor", modality = "small molecule" }
 verify_quotes = ["VS-7375, an investigational and potential best-in-class oral KRAS G12D (ON/OFF) inhibitor", "VS-7375 is a potential best-in-class, potent, and selective investigational oral KRAS G12D dual ON/OFF inhibitor.", "Our pipeline is focused on novel small molecule drugs that inhibit critical signaling pathways in cancer"]
 decision = "accept"
-note = ""
+note = "[Claude 复核一致条目] 保留：最新新闻稿称 VS-7375 为 KRAS G12D (ON/OFF) 抑制剂、小分子，正确；作为 VS-7375 的唯一保留条目。"
 
 [[items]]
 id = "r-fa2283e2"
@@ -913,7 +913,7 @@ check = "agreed"
 verify = { asset = "VS-7375", trial = "TARGET-D 101", indication = "metastatic pancreatic ductal adenocarcinoma (mPDAC)", endpoint = "confirmed objective response rate (ORR) in second line (2L)", result = "50% (4/8)", analysis = "", comparator = "none", advantage_vs_soc = "" }
 verify_quotes = ["patients receiving 900 mg VS-7375 daily demonstrated a confirmed objective response rate (ORR) of 50% (4/8) in second line (2L) PDAC"]
 decision = "accept"
-note = ""
+note = "[Claude 复核一致条目] 保留：TARGET-D 101 900 mg 单药 2L PDAC 确认 ORR 50% (4/8)，与新闻稿一致。"
 
 [[items]]
 id = "r-38ef174e"
@@ -935,7 +935,7 @@ check = "agreed"
 verify = { asset = "VS-7375", trial = "TARGET-D 101", indication = "metastatic pancreatic ductal adenocarcinoma (mPDAC)", endpoint = "confirmed objective response rate (ORR) in 2L+ setting", result = "41% (9/22)", analysis = "", comparator = "none", advantage_vs_soc = "" }
 verify_quotes = ["a 41% confirmed ORR (9/22) in the 2L+ setting"]
 decision = "accept"
-note = ""
+note = "[Claude 复核一致条目] 保留：TARGET-D 101 2L+ mPDAC 确认 ORR 41% (9/22)，与新闻稿一致。"
 
 [[items]]
 id = "r-c13231d2"
@@ -957,7 +957,7 @@ check = "agreed"
 verify = { asset = "VS-7375", trial = "TARGET-D 101", indication = "metastatic pancreatic ductal adenocarcinoma (mPDAC)", endpoint = "confirmed objective response rate (ORR) in 3L/4L setting", result = "36% (5/14)", analysis = "", comparator = "none", advantage_vs_soc = "" }
 verify_quotes = ["a 36% confirmed ORR (5/14) in the 3L/4L setting"]
 decision = "accept"
-note = ""
+note = "[Claude 复核一致条目] 保留：TARGET-D 101 3L/4L mPDAC 确认 ORR 36% (5/14)，与新闻稿一致。"
 
 [[items]]
 id = "r-cde53e75"
@@ -979,7 +979,7 @@ check = "agreed"
 verify = { asset = "VS-7375", trial = "TARGET-D 101", indication = "metastatic pancreatic ductal adenocarcinoma (mPDAC)", endpoint = "disease control rate (DCR) in 2L+", result = "86% (n=22)", analysis = "", comparator = "none", advantage_vs_soc = "" }
 verify_quotes = ["The disease control rate (DCR) was 86% (n=22) in 2L+"]
 decision = "accept"
-note = ""
+note = "[Claude 复核一致条目] 保留：TARGET-D 101 2L+ mPDAC DCR 86% (n=22)，与新闻稿一致。"
 
 [[items]]
 id = "r-23dde010"
@@ -1001,7 +1001,7 @@ check = "agreed"
 verify = { asset = "VS-7375", trial = "TARGET-D 101", indication = "metastatic pancreatic ductal adenocarcinoma (mPDAC)", endpoint = "six-month landmark progression free survival (PFS) rate", result = "67%", analysis = "", comparator = "none", advantage_vs_soc = "" }
 verify_quotes = ["the six-month landmark progression free survival (PFS) rate was 67%"]
 decision = "accept"
-note = ""
+note = "[Claude 复核一致条目] 保留：TARGET-D 101 mPDAC 900 mg 单药 6 个月 landmark PFS 67%，与新闻稿一致。"
 
 [[items]]
 id = "r-a3a14d45"
@@ -1023,7 +1023,7 @@ check = "agreed"
 verify = { asset = "VS-7375", trial = "TARGET-D 101", indication = "metastatic pancreatic ductal adenocarcinoma (mPDAC)", endpoint = "landmark six-month overall survival (OS) rate", result = "80%", analysis = "", comparator = "none", advantage_vs_soc = "" }
 verify_quotes = ["the landmark six-month overall survival (OS) rate was 80%"]
 decision = "accept"
-note = ""
+note = "[Claude 复核一致条目] 保留：TARGET-D 101 mPDAC 6 个月 landmark OS 80%，与新闻稿一致。"
 
 [[items]]
 id = "r-62a3654a"
@@ -1126,7 +1126,7 @@ check = "agreed"
 verify = { asset = "VS-7375", event = "report mature data from the TARGET-D 101 mCRC 900 mg combination with anti-EGFR cohort and initial data from the 600 mg VS-7375 plus cetuximab combination cohort in mPDAC", event_type = "data_readout", timing = "year-end 2026" }
 verify_quotes = ["Plan to report mature data from the TARGET-D 101 mCRC 900 mg combination", "with anti-EGFR cohort and initial data from the 600 mg VS-7375 plus cetuximab combination cohort in mPDAC by year-end 2026."]
 decision = "accept"
-note = ""
+note = "[Claude 复核一致条目] 保留：2026 年底前报告 mCRC 联合抗 EGFR 成熟数据与 mPDAC 600 mg 联合西妥昔单抗初步数据，仍在未来。"
 
 [[items]]
 id = "e-2e958382"
@@ -1143,7 +1143,7 @@ check = "agreed"
 verify = { asset = "VS-7375", event = "open the TARGET-D 301 1L mPDAC trial", event_type = "trial_start", timing = "year-end 2026" }
 verify_quotes = ["Plan to open the TARGET-D 301 1L mPDAC trial by year-end 2026. Plan to enroll"]
 decision = "accept"
-note = ""
+note = "[Claude 复核一致条目] 保留：2026 年底前开放 TARGET-D 301 一线 mPDAC 三期，仍在未来，为最新口径。"
 
 [[items]]
 id = "e-24e9d84c"
@@ -1192,7 +1192,7 @@ check = "agreed"
 verify = { asset = "VS-7375", event = "complete enrollment in the TARGET-D 201 (PDAC) and 203 (CRC) Phase 2 trials", event_type = "other", timing = "end of 2026" }
 verify_quotes = ["Expect to complete enrollment in the TARGET-D 201 (PDAC) and 203 (CRC) Phase", "2 trials by the end of 2026; TARGET-D 202 (NSCLC) expected in Q2 2027."]
 decision = "accept"
-note = ""
+note = "[Claude 复核一致条目] 保留：TARGET-D 201/203 二期 2026 年底前完成入组，为最新口径且仍在未来。"
 
 [[items]]
 id = "e-cecb47fb"
@@ -1256,8 +1256,8 @@ returned_model = "deepseek-v4-pro"
 check = "agreed"
 verify = { asset = "VS-7375", mechanism = "Selective KRAS G12D targeting", modality = "small molecule" }
 verify_quotes = ["VS - 7375 : Potential Best - in - Class KRAS G12D (ON/OFF) Inhibitor R&D Update October 14, 2026", "• Selective KRAS G12D targeting", "VS - 7375 continuous oral therapy"]
-decision = "accept"
-note = ""
+decision = "reject"
+note = "[Claude 复核一致条目] 拒绝：与 p-f636421a 重复（VS-7375 KRAS G12D ON/OFF 抑制剂），大小写差异会触发机制冲突。；保留 p-f636421a"
 
 [[items]]
 id = "r-b86c60ad"
@@ -1364,8 +1364,8 @@ returned_model = "deepseek-v4-pro"
 check = "agreed"
 verify = { asset = "VS-7375", trial = "TARGET-D 101", indication = "mPDAC", endpoint = "Confirmed Partial Response at Week 12", result = "cPR ( - 47%) (SLD: 80mm)", analysis = "", comparator = "none", advantage_vs_soc = "" }
 verify_quotes = ["25 Confirmed Partial Response at Week 12 with VS - 7375 900 mg Monotherapy in 55 y/o Male with mPDAC", "Week 12: cPR ( - 47%) (SLD: 80mm) Response ongoing"]
-decision = "accept"
-note = ""
+decision = "reject"
+note = "[Claude 复核一致条目] 拒绝：单例患者个案（演示稿注明 Individual results may not be representative），不是队列终点结果，队列 ORR 已由 r-38ef174e 记录。"
 
 [[items]]
 id = "r-2732a91a"
@@ -1426,8 +1426,8 @@ returned_model = "deepseek-v4-pro"
 check = "agreed"
 verify = { asset = "VS-7375", trial = "TARGET-D 101", indication = "mPDAC", endpoint = "Complete Response at Week 12", result = "CR - 100% (SLD: 0mm)", analysis = "", comparator = "none", advantage_vs_soc = "" }
 verify_quotes = ["55 Complete Response at Week 12 with VS - 7375 900 mg QD Monotherapy in 79 y/o Female with mPDAC", "Week 12: CR - 100% (SLD: 0mm) Response ongoing"]
-decision = "accept"
-note = ""
+decision = "reject"
+note = "[Claude 复核一致条目] 拒绝：单例患者个案（79 岁女性 CR），不是队列终点结果，2L+ 完全缓解已在 r-38ef174e 原句中提及。"
 
 [[items]]
 id = "r-d51fa253"
@@ -1562,7 +1562,7 @@ check = "agreed"
 verify = { asset = "VS-7375", event = "Complete enrollment in the TARGET-D 202 (NSCLC)", event_type = "other", timing = "Q2 2027" }
 verify_quotes = ["Expect to complete enrollment in the TARGET - D 202 (NSCLC) in Q2 2027.", "NSCLC expected in Q2 2027"]
 decision = "accept"
-note = ""
+note = "[Claude 复核一致条目] 保留：TARGET-D 202（NSCLC）入组完成预计 2027 年 Q2，为最新口径且仍在未来。"
 
 [[items]]
 id = "e-9f216100-2"
