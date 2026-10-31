@@ -12,6 +12,7 @@ from intel.docs.documents import Document, read_documents
 from intel.docs.text import normalize
 from intel.enums import CatalystType, ClaimKind, Confidence, ProducedBy
 from intel.extract import review
+from intel.extract.run import asset_key, asset_names
 from intel.extract.trials import TrialMatcher, matcher_for
 from intel.extract.validate import quote_problem
 from intel.ingest import BuildContext
@@ -65,15 +66,40 @@ def _key(s: str) -> str:
     return re.sub(r"[^0-9a-z]", "", normalize(s))
 
 
+MIN_CONTAINED_CHARS = 5
+
+
 def match_program(programs: list[Program], asset: str) -> Program | None:
-    key = _key(asset)
-    if not key:
+    """By name, name without brackets or bracketed code; else a unique containment."""
+    names = asset_names(asset)
+    if not names:
         return None
-    exact = [p for p in programs if _key(p.name) == key]
-    if exact:
-        return exact[0]
+    hits = [p for p in programs if asset_names(p.name) & names]
+    if len(hits) > 1:  # "RGX-121" also names "RGX-121 (...)": prefer the same full name
+        hits = [p for p in hits if asset_key(p.name) == asset_key(asset)] or hits
+        if len({asset_key(p.name) for p in hits}) > 1:
+            return None
+    if hits:
+        return hits[0]
+    key = _key(asset)
     partial = [p for p in programs if key in _key(p.name)]
-    return partial[0] if len(partial) == 1 else None
+    if partial:
+        return partial[0] if len(partial) == 1 else None
+    # "ABBV-RGX-314 (sura-vec)" contains the program name "RGX-314" as whole words;
+    # "ARO-DUX4" does not contain "ARO-DUX".
+    words = _words(asset)
+    inside = [p for p in programs if len(_key(p.name)) >= MIN_CONTAINED_CHARS
+              and _contains_words(words, _words(p.name))]  # fmt: skip
+    return inside[0] if len(inside) == 1 else None
+
+
+def _words(s: str) -> tuple[str, ...]:
+    return tuple(re.findall(r"[0-9a-z]+", normalize(s)))
+
+
+def _contains_words(hay: tuple[str, ...], needle: tuple[str, ...]) -> bool:
+    n = len(needle)
+    return n > 0 and any(hay[i : i + n] == needle for i in range(len(hay) - n + 1))
 
 
 # --- sources --------------------------------------------------------------------------

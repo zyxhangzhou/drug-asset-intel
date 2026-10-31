@@ -35,31 +35,31 @@ class RunSummary:
 CONNECTORS = {"plus", "and", "with", "combination", "combined"}
 
 
-def _asset_key(asset: str) -> str:
+def asset_key(asset: str) -> str:
     return "".join(w for w in re.findall(r"[0-9a-z]+", normalize(asset)) if w not in CONNECTORS)
 
 
 def pair_key(item: Item) -> tuple:
     v = item.values
     if item.type == "program":
-        return (_asset_key(v["asset"]),)
+        return (asset_key(v["asset"]),)
     if item.type == "clinical_result":
         trial = re.sub(r"[^0-9a-z]", "", normalize(v.get("trial", "")))
-        return (_asset_key(v["asset"]), trial or normalize(v["endpoint"]), normalize(v["endpoint"]))
+        return (asset_key(v["asset"]), trial or normalize(v["endpoint"]), normalize(v["endpoint"]))
     years = tuple(sorted(re.findall(r"20\d\d", v["timing"])))
-    return (_asset_key(v.get("asset", "")), v["event_type"], years)
+    return (asset_key(v.get("asset", "")), v["event_type"], years)
 
 
-def _asset_names(asset: str) -> set[str]:
+def asset_names(asset: str) -> set[str]:
     """The whole name, the name without its brackets, and each bracketed code."""
     n = normalize(asset)
     parts = [n, re.sub(r"\([^)]*\)", " ", n), *re.findall(r"\(([^)]*)\)", n)]
-    return {k for k in map(_asset_key, parts) if k}
+    return {k for k in map(asset_key, parts) if k}
 
 
 def same_asset(a: Item, b: Item) -> bool:
     """'BARZOLVOLIMAB' and 'BARZOLVOLIMAB (CDX-0159)' are one drug."""
-    x, y = _asset_names(a.values.get("asset", "")), _asset_names(b.values.get("asset", ""))
+    x, y = asset_names(a.values.get("asset", "")), asset_names(b.values.get("asset", ""))
     return bool(x & y) or not (x or y)
 
 

@@ -37,7 +37,7 @@ def _contains(hay: tuple[str, ...], needle: tuple[str, ...]) -> bool:
 
 
 def registry_names(study: dict, acronyms: frozenset[str] = frozenset()) -> list[str]:
-    """Names a CT.gov record gives a trial: acronym, parenthesised names, the title's prefix.
+    """Names a CT.gov record gives a trial: acronym, parenthesised names, title prefix, org id.
 
     Parenthesised names and title prefixes count only when they look like a study name
     (VANQUISH 2, AFFINITY DUCHENNE, or "Venture Oral Dosing" where VENTURE is another trial's
@@ -54,6 +54,10 @@ def registry_names(study: dict, acronyms: frozenset[str] = frozenset()) -> list[
         words = tokens(c)
         if NAME_LIKE.search(c) or (words and words[0] in acronyms):
             names.append(c)
+    # The sponsor's protocol number (VK2735-102), which press releases also use.
+    org_id = (ident.get("orgStudyIdInfo") or {}).get("id") or ""
+    if re.search(r"\d", org_id):
+        names.append(org_id)
     return names
 
 

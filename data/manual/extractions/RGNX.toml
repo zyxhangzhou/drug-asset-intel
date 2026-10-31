@@ -864,8 +864,8 @@ returned_model = "deepseek-v4-pro"
 check = "agreed"
 verify = { asset = "RGX-202", event = "BLA submission initiation", event_type = "regulatory_filing", timing = "Q3 2026" }
 verify_quotes = ["RGX-202 BLA submission for Duchenne muscular dystrophy on track for Q3 2026 initiation", "The Company is on track to initiate a BLA submission in Q3 2026 under the accelerated approval pathway"]
-decision = "accept"
-note = "[Claude 复核一致条目] 需人工判断（暂保留）：计划窗口 2026 Q3 已于 2026-09-30 结束，早于快照日；文件夹内没有更新来源，需人工查 2026-09-30 之后的公司公告，确认 BLA 是否已启动提交或已延期。"
+decision = "reject"
+note = "[Claude 复核一致条目] 需人工判断（暂保留）：计划窗口 2026 Q3 已于 2026-09-30 结束，早于快照日；文件夹内没有更新来源，需人工查 2026-09-30 之后的公司公告，确认 BLA 是否已启动提交或已延期。\n[复核] 拒绝（用户 2026-10-31 决定）：时间窗 2026 年第三季度已在快照日前结束，手头最新文档为 2026-08-06，无法确认是否完成，不作为未来催化剂"
 
 [[items]]
 id = "e-c1dffdb4"
@@ -928,8 +928,8 @@ returned_model = "deepseek-v4-pro"
 check = "agreed"
 verify = { asset = "RGX-121", event = "resubmission", event_type = "regulatory_filing", timing = "Q3 2026" }
 verify_quotes = ["resubmission on track for Q3 2026", "REGENXBIO plans to resubmit the BLA in Q3 2026."]
-decision = "accept"
-note = "[Claude 复核一致条目] 需人工判断（暂保留）：RGX-121 BLA 重新提交计划在 2026 Q3，该窗口已早于快照日结束；需人工查 2026-09-30 之后的公告，确认是否已重新提交。"
+decision = "reject"
+note = "[Claude 复核一致条目] 需人工判断（暂保留）：RGX-121 BLA 重新提交计划在 2026 Q3，该窗口已早于快照日结束；需人工查 2026-09-30 之后的公告，确认是否已重新提交。\n[复核] 拒绝（用户 2026-10-31 决定）：时间窗 2026 年第三季度已在快照日前结束，手头最新文档为 2026-08-06，无法确认是否完成，不作为未来催化剂"
 
 [[items]]
 id = "e-b7b83468"

@@ -245,8 +245,10 @@ def test_existing_manual_source_gets_archive_fields(world, tmp_path):
 # --- trial name matching ---------------------------------------------------------------
 
 
-def study(nct, title, acronym=None):
+def study(nct, title, acronym=None, org_id=None):
     ident = {"nctId": nct, "briefTitle": title} | ({"acronym": acronym} if acronym else {})
+    if org_id:
+        ident["orgStudyIdInfo"] = {"id": org_id}
     return {"protocolSection": {"identificationModule": ident}}
 
 
@@ -270,6 +272,7 @@ def with_registry(inputs):
         study("NCT06347016", "Study of Plozasiran in Adults With sHTG", "SHASTA-4"),
         study("NCT07104383", "VK2735 for Weight Management Phase 3 (VANQUISH 2)"),
         study("NCT05693142", "AFFINITY DUCHENNE: RGX-202 Gene Therapy in DMD"),
+        study("NCT00000002", "A Phase 1 Study of VK2735 in Obese Adults", org_id="VK2735-103"),
         study("NCT09999999", "Another trial (VANQUISH 2)"),  # not in the snapshot
     ]
     path.write_text(json.dumps({"studies": studies}))
@@ -286,6 +289,7 @@ def result_with_trial(trial, iid):
         ("SHASTA-3 study", "NCT06347003", "CT.gov 登记名称对照：「SHASTA-3」"),
         ("the Phase 3 VANQUISH-2 trial", "NCT07104383", "「VANQUISH 2」"),
         ("Affinity Duchenne", "NCT05693142", "「AFFINITY DUCHENNE」"),
+        ("VK2735-103 Maintenance Study", "NCT00000002", "「VK2735-103」"),
     ],
 )
 def test_trial_matched_by_registry_name(shasta, tmp_path, trial, nct, basis):
@@ -371,3 +375,37 @@ def test_most_specific_name_wins_and_acronym_led_names(session, tmp_path):
     assert m.match(target, "MUIR").trial.nct_id == "NCT1"
     assert m.match(target, "VENTURE-Oral Dosing study").trial.nct_id == "NCT4"
     assert m.match(target, "VENTURE").trial.nct_id == "NCT3"
+
+
+def test_registry_names_include_sponsor_study_id():
+    from intel.extract.trials import registry_names
+
+    assert registry_names(study("NCT1", "A Study", org_id="VK2735-102")) == ["VK2735-102"]
+    assert registry_names(study("NCT1", "A Study", org_id="PROTOCOL")) == []  # no digit
+
+
+@pytest.mark.parametrize(
+    ("asset", "names", "expected"),
+    [
+        ("clemidsogene lanparvovec (RGX-121)", ["RGX-121-3102", "RGX-121"], "RGX-121"),
+        (
+            "defactinib",
+            ["AVUTOMETINIB AND DEFACTINIB", "DEFACTINIB (PART A - VS-6063, VS-6063)"],
+            "DEFACTINIB (PART A - VS-6063, VS-6063)",
+        ),
+        ("ABBV-RGX-314 (sura-vec)", ["RGX-314", "RGX-121"], "RGX-314"),
+        (
+            "avutometinib plus defactinib",
+            ["AVUTOMETINIB DEFACTINIB", "AVUTOMETINIB"],
+            "AVUTOMETINIB DEFACTINIB",
+        ),
+        ("VK2735", ["VK2735 (A)", "VK2735 (B)"], None),  # two programs, neither more exact
+        ("ARO-DUX4", ["ARO-DUX", "ARO-HBV"], None),
+    ],
+)
+def test_match_program_by_name_brackets_and_containment(asset, names, expected):
+    from intel.extract.load import match_program
+
+    programs = [Program(name=n) for n in names]
+    found = match_program(programs, asset)
+    assert (found.name if found else None) == expected
