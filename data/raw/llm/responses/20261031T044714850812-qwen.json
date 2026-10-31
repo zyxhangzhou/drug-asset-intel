@@ -1,0 +1,36 @@
+{
+ "request_meta": {
+  "task": "catalyst",
+  "ticker": "CLDX",
+  "source_id": "DOC-CLDX-cd22c3e6",
+  "chunks": [
+   0
+  ]
+ },
+ "response": {
+  "id": "chatcmpl-0bd97a2a-6f01-9b1d-84c4-086fab6845bd",
+  "object": "chat.completion",
+  "created": 1793422033,
+  "model": "qwen3.7-plus-2026-05-26",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"items\": []}"
+    },
+    "finish_reason": "stop",
+    "logprobs": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 2439,
+   "total_tokens": 2444,
+   "completion_tokens": 5,
+   "prompt_tokens_details": {
+    "cached_tokens": 512,
+    "text_tokens": 2439
+   }
+  }
+ }
+}

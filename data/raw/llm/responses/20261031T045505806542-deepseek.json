@@ -1,0 +1,40 @@
+{
+ "request_meta": {
+  "task": "program",
+  "ticker": "ARWR",
+  "source_id": "DOC-ARWR-d7e7cc5b",
+  "chunks": [
+   0,
+   1,
+   2
+  ]
+ },
+ "response": {
+  "id": "f7fbeb4d-f4e4-4771-8553-4c613f1608e2",
+  "object": "chat.completion",
+  "created": 1793422505,
+  "model": "deepseek-v4-pro",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"PLOZASIRAN (ARO-APOC3)\",\n      \"mechanism\": \"siRNA therapeutic designed to suppress the production of apoC-III\",\n      \"modality\": \"small interfering RNA (siRNA) medicine\",\n      \"quotes\": [\n        \"REDEMPLO (plozasiran) is approved by the U.S. Food and Drug Administration as an adjunct to diet to reduce triglycerides for adults with Familial Chylomicronemia Syndrome (FCS). REDEMPLO is an siRNA therapeutic designed to suppress the production of apoC-III, a protein produced in the liver that raises triglyceride levels by slowing their breakdown and clearance.\",\n        \"the U.S. Food and Drug Administration (FDA) has approved REDEMPLO (plozasiran), a small interfering RNA (siRNA) medicine, as an adjunct to diet to reduce triglycerides in adults with familial chylomicronemia syndrome (FCS).\"\n      ]\n    }\n  ]\n}"
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 3710,
+   "completion_tokens": 211,
+   "total_tokens": 3921,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 3198
+  },
+  "system_fingerprint": "a307abda487cd1b463329ccb945ce396"
+ }
+}

@@ -1,0 +1,39 @@
+{
+ "request_meta": {
+  "task": "catalyst",
+  "ticker": "VKTX",
+  "source_id": "MAN-VKTX-1",
+  "chunks": [
+   22,
+   29,
+   35,
+   97
+  ]
+ },
+ "response": {
+  "id": "chatcmpl-9e7a8c8a-9c16-9cf3-ae15-22f23f1d5dc1",
+  "object": "chat.completion",
+  "created": 1793422157,
+  "model": "qwen3.7-plus-2026-05-26",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": []\n}"
+    },
+    "finish_reason": "stop",
+    "logprobs": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 4697,
+   "total_tokens": 4706,
+   "completion_tokens": 9,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 4697
+   }
+  }
+ }
+}

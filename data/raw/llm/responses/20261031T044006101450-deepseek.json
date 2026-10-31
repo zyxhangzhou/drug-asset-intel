@@ -1,0 +1,40 @@
+{
+ "request_meta": {
+  "task": "catalyst",
+  "ticker": "RGNX",
+  "source_id": "MAN-RGNX-2",
+  "chunks": [
+   0,
+   1,
+   2
+  ]
+ },
+ "response": {
+  "id": "bb9a0d60-99be-4f99-8564-1b6f71ecc490",
+  "object": "chat.completion",
+  "created": 1793421605,
+  "model": "deepseek-v4-pro",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"RGX-202\",\n      \"event\": \"BLA submission initiation\",\n      \"event_type\": \"regulatory_filing\",\n      \"timing\": \"Q3 2026\",\n      \"quotes\": [\n        \"RGX-202 BLA submission for Duchenne muscular dystrophy on track for Q3 2026 initiation\",\n        \"The Company is on track to initiate a BLA submission in Q3 2026 under the accelerated approval pathway\"\n      ]\n    },\n    {\n      \"asset\": \"RGX-202\",\n      \"event\": \"Potential accelerated approval\",\n      \"event_type\": \"regulatory_decision\",\n      \"timing\": \"2H 2027\",\n      \"quotes\": [\n        \"with potential accelerated approval in 2H 2027\",\n        \"supporting potential approval in 2H 2027\"\n      ]\n    },\n    {\n      \"asset\": \"surabgene lomparvovec (sura-vec, ABBV-RGX-314)\",\n      \"event\": \"Topline data from pivotal subretinal wet AMD studies ATMOSPHERE and ASCENT\",\n      \"event_type\": \"data_readout\",\n      \"timing\": \"Q4 2026\",\n      \"quotes\": [\n        \"Topline data from pivotal subretinal wet AMD studies, ATMOSPHERE ® and ASCENT ® , expected in Q4 2026\",\n        \"REGENXBIO expects to announce topline data with AbbVie from the ATMOSPHERE ® and ASCENT ® pivotal trials of sura-vec using subretinal delivery in Q4 2026\"\n      ]\n    },\n    {\n      \"asset\": \"surabgene lomparvovec (sura-vec, ABBV-RGX-314)\",\n      \"event\": \"Global regulatory submissions\",\n      \"event_type\": \"regulatory_filing\",\n      \"timing\": \"2027\",\n      \"quotes\": [\n        \"Global regulatory submissions are expected in 2027.\"\n      ]\n    },\n    {\n      \"asset\": \"RGX-121\",\n      \"event\": \"BLA resubmission\",\n      \"event_type\": \"regulatory_filing\",\n      \"timing\": \"Q3 2026\",\n      \"quotes\": [\n        \"resubmission on track for Q3 2026\",\n        \"REGENXBIO plans to resubmit the BLA in Q3 2026\"\n      ]\n    },\n    {\n      \"asset\": \"RGX-202\",\n      \"event\": \"Initiation of AFFINITY RISE ex-U.S. randomized-controlled trial\",\n      \"event_type\": \"trial_start\",\n      \"timing\": \"1H 2027\",\n      \"quotes\": [\n        \"proceeds will support the initiation of the planned AFFINITY ® RISE ex-U.S. randomized-controlled trial in 1H 2027\",\n        \"REGENXBIO expects to initiate AFFINITY ® RISE, a new, ex-U.S. randomized, placebo-controlled study to support RGX-202 global regulatory submissions, in 1H 2027\"\n      ]\n    }\n  ]\n}"
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 4450,
+   "completion_tokens": 681,
+   "total_tokens": 5131,
+   "prompt_tokens_details": {
+    "cached_tokens": 384
+   },
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 4066
+  },
+  "system_fingerprint": "a307abda487cd1b463329ccb945ce396"
+ }
+}

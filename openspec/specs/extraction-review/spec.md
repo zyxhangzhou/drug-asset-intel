@@ -23,6 +23,10 @@
 - **WHEN** 复核文件 `verified_by` 为空
 - **THEN** 构建不载入其中任何条目
 
+#### Scenario: New items clear the signature
+- **WHEN** 已签字的复核文件在重新抽取时追加了新条目
+- **THEN** `verified_by` 被清空，人工复核新条目后重新签字才生效
+
 #### Scenario: Undecided items counted
 - **WHEN** 已签字的文件中有 3 个条目决定为空
 - **THEN** 这 3 个条目不进入快照，构建输出报告「未复核 3」

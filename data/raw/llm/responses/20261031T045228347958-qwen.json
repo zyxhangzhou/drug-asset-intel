@@ -1,0 +1,39 @@
+{
+ "request_meta": {
+  "task": "program",
+  "ticker": "ARWR",
+  "source_id": "DOC-ARWR-6a63d389",
+  "chunks": [
+   3,
+   24,
+   26,
+   27
+  ]
+ },
+ "response": {
+  "id": "chatcmpl-810ff9d6-1c59-93b9-b385-288dbca20116",
+  "object": "chat.completion",
+  "created": 1793422348,
+  "model": "qwen3.7-plus-2026-05-26",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"PLOZASIRAN (ARO-APOC3)\",\n      \"mechanism\": \"suppress the production of apolipoprotein C-III (APOC3)\",\n      \"modality\": \"small interfering RNA (\\\"siRNA\\\") therapeutic\",\n      \"quotes\": [\n        \"REDEMPLO is a small interfering RNA (\\\"siRNA\\\") therapeutic designed to suppress the production of apolipoprotein C-III (APOC3)\"\n      ]\n    },\n    {\n      \"asset\": \"ARO-PNPLA3\",\n      \"mechanism\": \"reduce liver expression of patatin-like phospholipase domain containing 3 (PNPLA3)\",\n      \"modality\": \"RNA interference (RNAi) therapeutic\",\n      \"quotes\": [\n        \"ARO-PNPLA3, Arrowhead’s clinical stage RNA interference (RNAi) therapeutic designed to reduce liver expression of patatin-like phospholipase domain containing 3 (PNPLA3)\"\n      ]\n    },\n    {\n      \"asset\": \"ARO-INHBE\",\n      \"mechanism\": \"\",\n      \"modality\": \"RNA interference (RNAi) therapeutic\",\n      \"quotes\": [\n        \"ARO-INHBE, the Company’s investigational RNA interference (RNAi) therapeutic being developed as a potential treatment for obesity\"\n      ]\n    },\n    {\n      \"asset\": \"ARO-DIMERPA\",\n      \"mechanism\": \"silence expression of both proprotein convertase subtilisin kexin 9 (PCSK9) and apolipoprotein C3 (APOC3) genes\",\n      \"modality\": \"RNAi therapeutic\",\n      \"quotes\": [\n        \"ARO-DIMER-PA, the Company’s investigational RNAi therapeutic being developed as a potential treatment for atherosclerotic cardiovascular disease\",\n        \"ARO-DIMER-PA is designed to silence expression of both proprotein convertase subtilisin kexin 9 (PCSK9) and apolipoprotein C3 (APOC3) genes\"\n      ]\n    },\n    {\n      \"asset\": \"ARO-ALK7\",\n      \"mechanism\": \"adipocyte gene target silencing\",\n      \"modality\": \"RNAi-therapeutic\",\n      \"quotes\": [\n        \"ARO-ALK7, the first RNAi-therapeutic to show adipocyte gene target silencing in a clinical trial\"\n      ]\n    },\n    {\n      \"asset\": \"ARO-MAPT\",\n      \"mechanism\": \"\",\n      \"modality\": \"RNAi therapeutic\",\n      \"quotes\": [\n        \"ARO-MAPT, the Company’s investigational RNAi therapeutic being developed as a potential treatment for tauopathies including Alzheimer’s disease\"\n      ]\n    },\n    {\n      \"asset\": \"ARO-DM1\",\n      \"mechanism\": \"\",\n      \"modality\": \"RNAi therapeutic\",\n      \"quotes\": [\n        \"ARO-DM1, an investigational RNAi therapeutic for the treatment of type 1 myotonic dystrophy (DM1)\"\n      ]\n    }\n  ]\n}"
+    },
+    "finish_reason": "stop",
+    "logprobs": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 6091,
+   "total_tokens": 6790,
+   "completion_tokens": 699,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 6091
+   }
+  }
+ }
+}

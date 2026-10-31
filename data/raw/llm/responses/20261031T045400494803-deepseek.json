@@ -1,0 +1,41 @@
+{
+ "request_meta": {
+  "task": "clinical_result",
+  "ticker": "ARWR",
+  "source_id": "MAN-ARWR-1",
+  "chunks": [
+   7,
+   38,
+   71,
+   74
+  ]
+ },
+ "response": {
+  "id": "a446e4e9-e1a2-437a-9743-3de256d928e6",
+  "object": "chat.completion",
+  "created": 1793422440,
+  "model": "deepseek-v4-pro",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"PLOZASIRAN (ARO-APOC3)\",\n      \"trial\": \"PALISADE\",\n      \"indication\": \"Familial Chylomicronemia Syndrome (FCS)\",\n      \"endpoint\": \"Median change from baseline in triglycerides\",\n      \"result\": \"25 mg REDEMPLO: -80%; pooled placebo: -17%\",\n      \"analysis\": \"\",\n      \"comparator\": \"placebo\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"The PALISADE study met its primary endpoint and all multiplicity-controlled key secondary endpoints, including demonstrating significant reductions in triglycerides and APOC3.\",\n        \"In PALISADE, 25 mg REDEMPLO achieved deep and durable reductions in triglycerides, with a median change from baseline of -80% versus -17% in the pooled placebo group, and a lower numerical incidence of acute pancreatitis compared with placebo\"\n      ],\n      \"confidence\": \"\"\n    }\n  ]\n}"
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 5117,
+   "completion_tokens": 215,
+   "total_tokens": 5332,
+   "prompt_tokens_details": {
+    "cached_tokens": 384
+   },
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 4733
+  },
+  "system_fingerprint": "a307abda487cd1b463329ccb945ce396"
+ }
+}

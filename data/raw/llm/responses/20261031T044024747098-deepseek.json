@@ -1,0 +1,40 @@
+{
+ "request_meta": {
+  "task": "program",
+  "ticker": "RGNX",
+  "source_id": "DOC-RGNX-a7b98e30",
+  "chunks": [
+   0,
+   1,
+   2
+  ]
+ },
+ "response": {
+  "id": "cda5b5db-55ae-466f-8be6-17ecd2a64a4a",
+  "object": "chat.completion",
+  "created": 1793421624,
+  "model": "deepseek-v4-pro",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"RGX-202\",\n      \"mechanism\": \"designed to address the underlying cause of Duchenne by enabling targeted expression of a novel microdystrophin that is closest to naturally occurring dystrophin\",\n      \"modality\": \"gene therapy\",\n      \"quotes\": [\n        \"RGX-202 is designed to address the underlying cause of Duchenne by enabling targeted expression of a novel microdystrophin that is closest to naturally occurring dystrophin.\",\n        \"RGX-202, a potential best-in-class gene therapy for Duchenne Muscular Dystrophy.\"\n      ]\n    },\n    {\n      \"asset\": \"clemidsogene lanparvovec (RGX-121)\",\n      \"mechanism\": \"\",\n      \"modality\": \"AAV gene therapy\",\n      \"quotes\": [\n        \"REGENXBIO is advancing a late-stage pipeline of one-time treatments for rare and retinal diseases, including RGX-202 for the treatment of Duchenne; clemidsogene lanparvovec (RGX-121) for the treatment of MPS II and RGX-111 for the treatment of MPS I, both in partnership with Nippon Shinyaku; and surabgene lomparvovec (ABBV-RGX-314) for the treatment of wet AMD and diabetic retinopathy, in collaboration with AbbVie.\",\n        \"REGENXBIO has pioneered the field of AAV gene therapy.\"\n      ]\n    },\n    {\n      \"asset\": \"RGX-111\",\n      \"mechanism\": \"\",\n      \"modality\": \"AAV gene therapy\",\n      \"quotes\": [\n        \"REGENXBIO is advancing a late-stage pipeline of one-time treatments for rare and retinal diseases, including RGX-202 for the treatment of Duchenne; clemidsogene lanparvovec (RGX-121) for the treatment of MPS II and RGX-111 for the treatment of MPS I, both in partnership with Nippon Shinyaku; and surabgene lomparvovec (ABBV-RGX-314) for the treatment of wet AMD and diabetic retinopathy, in collaboration with AbbVie.\",\n        \"REGENXBIO has pioneered the field of AAV gene therapy.\"\n      ]\n    },\n    {\n      \"asset\": \"surabgene lomparvovec (ABBV-RGX-314)\",\n      \"mechanism\": \"\",\n      \"modality\": \"AAV gene therapy\",\n      \"quotes\": [\n        \"REGENXBIO is advancing a late-stage pipeline of one-time treatments for rare and retinal diseases, including RGX-202 for the treatment of Duchenne; clemidsogene lanparvovec (RGX-121) for the treatment of MPS II and RGX-111 for the treatment of MPS I, both in partnership with Nippon Shinyaku; and surabgene lomparvovec (ABBV-RGX-314) for the treatment of wet AMD and diabetic retinopathy, in collaboration with AbbVie.\",\n        \"REGENXBIO has pioneered the field of AAV gene therapy.\"\n      ]\n    }\n  ]\n}"
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 4023,
+   "completion_tokens": 685,
+   "total_tokens": 4708,
+   "prompt_tokens_details": {
+    "cached_tokens": 384
+   },
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 3639
+  },
+  "system_fingerprint": "a307abda487cd1b463329ccb945ce396"
+ }
+}

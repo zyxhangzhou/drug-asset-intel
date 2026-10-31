@@ -1,0 +1,41 @@
+{
+ "request_meta": {
+  "task": "catalyst",
+  "ticker": "RGNX",
+  "source_id": "MAN-RGNX-1",
+  "chunks": [
+   21,
+   24,
+   48,
+   84
+  ]
+ },
+ "response": {
+  "id": "ed8ac47a-901b-4a06-ac62-80e2ae5ada38",
+  "object": "chat.completion",
+  "created": 1793421567,
+  "model": "deepseek-v4-pro",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"RGX-202\",\n      \"event\": \"share topline data\",\n      \"event_type\": \"data_readout\",\n      \"timing\": \"early second quarter of 2026\",\n      \"quotes\": [\n        \"We expect to share topline data in the early second quarter of 2026 and request a pre-Biologics License Application (BLA) meeting with the FDA in mid-2026.\"\n      ]\n    },\n    {\n      \"asset\": \"RGX-202\",\n      \"event\": \"request a pre-Biologics License Application (BLA) meeting with the FDA\",\n      \"event_type\": \"regulatory_filing\",\n      \"timing\": \"mid-2026\",\n      \"quotes\": [\n        \"We expect to share topline data in the early second quarter of 2026 and request a pre-Biologics License Application (BLA) meeting with the FDA in mid-2026.\"\n      ]\n    },\n    {\n      \"asset\": \"RGX-121\",\n      \"event\": \"PDUFA goal date\",\n      \"event_type\": \"regulatory_decision\",\n      \"timing\": \"February 8, 2026\",\n      \"quotes\": [\n        \"The Prescription Drug User Fee Act (PDUFA) goal date was extended from November 9, 2025 to February 8, 2026.\"\n      ]\n    },\n    {\n      \"asset\": \"ABBV-RGX-314\",\n      \"event\": \"dose the first patient in NAAVIGATE\",\n      \"event_type\": \"trial_start\",\n      \"timing\": \"second quarter of 2026\",\n      \"quotes\": [\n        \"We expect to dose the first patient in NAAVIGATE in the second quarter of 2026.\"\n      ]\n    }\n  ]\n}"
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 4549,
+   "completion_tokens": 398,
+   "total_tokens": 4947,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 4293
+  },
+  "system_fingerprint": "a307abda487cd1b463329ccb945ce396"
+ }
+}

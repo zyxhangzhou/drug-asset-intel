@@ -104,11 +104,17 @@ def dumps(review: ExtractionReview) -> str:
 
 
 def merge_write(path: Path, ticker: str, new_items: list[ReviewItem]) -> tuple[int, int]:
-    """Append items whose id is new; existing items keep every field. Returns (added, kept)."""
+    """Append items whose id is new; existing items keep every field. Returns (added, kept).
+
+    A signature covers the items it was given for: new items clear it, so prefilled accepts
+    never enter the snapshot under an earlier sign-off.
+    """
     review = parse(path) if path.exists() else ExtractionReview(ticker)
     known = {i.id for i in review.items}
     added = [i for i in new_items if i.id not in known]
     review.items.extend(added)
+    if added:
+        review.verified_by = ""
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(dumps(review), encoding="utf-8")
     return len(added), len(known)

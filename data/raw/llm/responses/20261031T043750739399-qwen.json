@@ -1,0 +1,39 @@
+{
+ "request_meta": {
+  "task": "clinical_result",
+  "ticker": "RGNX",
+  "source_id": "MAN-RGNX-DEBT",
+  "chunks": [
+   27,
+   28,
+   29,
+   30
+  ]
+ },
+ "response": {
+  "id": "chatcmpl-ae7f51a7-d176-98e4-9a47-c4777c0e3298",
+  "object": "chat.completion",
+  "created": 1793421471,
+  "model": "qwen3.7-plus-2026-05-26",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"RGX-314\",\n      \"trial\": \"ALTITUDE\",\n      \"indication\": \"non-proliferative diabetic retinopathy (NPDR)\",\n      \"endpoint\": \">2-step improvement on the Diabetic Retinopathy Severity Scale (DRSS) at two years\",\n      \"result\": \"50% of dose level 3 patients achieved at least a two-step improvement without need for any supplemental treatment\",\n      \"analysis\": \"\",\n      \"comparator\": \"none\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"Concurrent with the August 2025 announcement, we announced positive two-year data from the Phase II ALTITUDE ® trial.\",\n        \"The ALTITUDE trial is a multi-center, open label, randomized, controlled, dose-escalation Phase II trial to evaluate the efficacy, safety and tolerability of sura-vec using suprachoroidal delivery for the treatment of DR.\",\n        \"Additionally, 50% of dose level 3 patients achieved at least a two-step improvement without need for any supplemental treatment.\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"RGX-314\",\n      \"trial\": \"ALTITUDE\",\n      \"indication\": \"non-proliferative diabetic retinopathy (NPDR)\",\n      \"endpoint\": \">2-step improvement on the DRSS at 2.5 years\",\n      \"result\": \"55% of participants achieved >2-step improvement on the DRSS without additional treatment, and 70% of participants experienced no vision-threatening events\",\n      \"analysis\": \"\",\n      \"comparator\": \"none\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"In July 2026, we presented long-term follow-up data from the Phase II ALTITUDE trial that showed, among other findings, that participants at dose level 3 (1.0×10¹² GC/eye) with short-course prophylactic topical steroids, the same dose being evaluated in the Phase IIb/III NAAVIGATE trial, maintained a durable safety and efficacy profile through 2.5 years.\",\n        \"55% of participants achieved >2-step improvement on the DRSS without additional treatment, and 70% of participants experienced no vision-threatening events.\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"RGX-202\",\n      \"trial\": \"AFFINITY DUCHENNE\",\n      \"indication\": \"Duchenne muscular dystrophy\",\n      \"endpoint\": \"RGX-202 microdystrophin expression above 10% at Week 12\",\n      \"result\": \"93% of patients achieved RGX-202 microdystrophin expression above 10%\",\n      \"analysis\": \"p<0.0001\",\n      \"comparator\": \"none\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"In May 2026, we announced positive topline results from the pivotal Phase III AFFINITY DUCHENNE trial of RGX-202, including primary endpoint (n=30 at Week 12), interim safety (n=31) and interim functional data (n=9 at 12 months):\",\n        \"• The primary endpoint was achieved with high statistical significance; 93% of patients achieved RGX-202 microdystrophin expression above 10% (p<0.0001).\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"RGX-121\",\n      \"trial\": \"CAMPSIITE\",\n      \"indication\": \"Mucopolysaccharidosis Type II (MPS II)\",\n      \"endpoint\": \"reduction of cerebrospinal fluid (CSF) levels of HS D2S6 at one year\",\n      \"result\": \"82% median reduction of cerebrospinal fluid (CSF) levels of HS D2S6\",\n      \"analysis\": \"\",\n      \"comparator\": \"none\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"These results showed that in the pivotal phase of the CAMPSIITE trial (n=13), participants through one year sustained an 82% median reduction of cerebrospinal fluid (CSF) levels of HS D2S6.\"\n      ],\n      \"confidence\": \"\"\n    }\n  ]\n}"
+    },
+    "finish_reason": "stop",
+    "logprobs": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 5667,
+   "total_tokens": 6680,
+   "completion_tokens": 1013,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 5667
+   }
+  }
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "request_meta": {
+  "task": "catalyst",
+  "ticker": "CLDX",
+  "source_id": "MAN-CLDX-1",
+  "chunks": [
+   0,
+   1,
+   2
+  ]
+ },
+ "response": {
+  "id": "chatcmpl-3a1151c4-57ed-9b25-a3dd-5ff921843b0b",
+  "object": "chat.completion",
+  "created": 1793422009,
+  "model": "qwen3.7-plus-2026-05-26",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"BARZOLVOLIMAB (CDX-0159)\",\n      \"event\": \"BLA submission\",\n      \"event_type\": \"regulatory_filing\",\n      \"timing\": \"2027\",\n      \"quotes\": [\n        \"plans to submit a Biologics License Application (BLA) to the FDA in 2027.\",\n        \"A BLA submission is planned for 2027.\"\n      ]\n    }\n  ]\n}"
+    },
+    "finish_reason": "stop",
+    "logprobs": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 6228,
+   "total_tokens": 6351,
+   "completion_tokens": 123,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 6228
+   }
+  }
+ }
+}

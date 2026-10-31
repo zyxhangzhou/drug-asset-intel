@@ -1,0 +1,39 @@
+{
+ "request_meta": {
+  "task": "catalyst",
+  "ticker": "ARWR",
+  "source_id": "DOC-ARWR-6a63d389",
+  "chunks": [
+   5,
+   8,
+   18,
+   24
+  ]
+ },
+ "response": {
+  "id": "chatcmpl-64099b61-6937-9229-8aa2-9fc6cf4783b5",
+  "object": "chat.completion",
+  "created": 1793422417,
+  "model": "qwen3.7-plus-2026-05-26",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"PLOZASIRAN (ARO-APOC3)\",\n      \"event\": \"Supplemental New Drug Application\",\n      \"event_type\": \"regulatory_filing\",\n      \"timing\": \"upcoming\",\n      \"quotes\": [\n        \"The Company currently expects to use the PRV in connection with its upcoming Supplemental New Drug Application for plozasiran to seek approval for the treatment of patients with severe hypertriglyceridemia.\"\n      ]\n    }\n  ]\n}"
+    },
+    "finish_reason": "stop",
+    "logprobs": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 6231,
+   "total_tokens": 6353,
+   "completion_tokens": 122,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 6231
+   }
+  }
+ }
+}

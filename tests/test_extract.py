@@ -230,6 +230,19 @@ def test_review_file_prefill_and_rerun_keeps_decisions(tmp_path):
     assert (kept.decision, kept.note) == ("reject", "wrong drug")
 
 
+def test_new_items_clear_signature(tmp_path):
+    primary = {"program": [PROGRAM], "catalyst": [CATALYST]}
+    ex, doc, _ = setup(tmp_path, primary, {"program": [PROGRAM]})
+    items = ex.run_document(doc, ["program", "catalyst"])
+    path = tmp_path / "VKTX.toml"
+    review.merge_write(path, "VKTX", items[:1])
+    path.write_text(path.read_text().replace('verified_by = ""', 'verified_by = "reviewer"'))
+    review.merge_write(path, "VKTX", items[:1])  # nothing new: signature stays
+    assert review.parse(path).verified_by == "reviewer"
+    review.merge_write(path, "VKTX", items)
+    assert review.parse(path).verified_by == ""
+
+
 def test_review_rejects_bad_decision(tmp_path):
     path = tmp_path / "X.toml"
     path.write_text('ticker = "X"\nverified_by = ""\n[[items]]\nid = "p-1"\ntype = "program"\n'

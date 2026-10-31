@@ -1,0 +1,40 @@
+{
+ "request_meta": {
+  "task": "catalyst",
+  "ticker": "VKTX",
+  "source_id": "MAN-VKTX-4",
+  "chunks": [
+   0,
+   3,
+   4
+  ]
+ },
+ "response": {
+  "id": "8f455e59-da1f-4236-8a83-5abdb0f83158",
+  "object": "chat.completion",
+  "created": 1793422318,
+  "model": "deepseek-v4-pro",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"VK2735\",\n      \"event\": \"The company plans to explore oral maintenance dosing regimens in an upcoming part 2 to the current study.\",\n      \"event_type\": \"trial_start\",\n      \"timing\": \"upcoming\",\n      \"quotes\": [\n        \"The company plans to explore oral maintenance dosing regimens in an upcoming part 2 to the current study.\"\n      ]\n    }\n  ]\n}"
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 4903,
+   "completion_tokens": 97,
+   "total_tokens": 5000,
+   "prompt_tokens_details": {
+    "cached_tokens": 384
+   },
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 4519
+  },
+  "system_fingerprint": "a307abda487cd1b463329ccb945ce396"
+ }
+}

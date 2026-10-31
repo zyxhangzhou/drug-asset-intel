@@ -1,0 +1,39 @@
+{
+ "request_meta": {
+  "task": "program",
+  "ticker": "VSTM",
+  "source_id": "MAN-VSTM-4",
+  "chunks": [
+   0,
+   3,
+   7,
+   8
+  ]
+ },
+ "response": {
+  "id": "chatcmpl-4c0975ac-39fb-94f5-8d90-c465475155bc",
+  "object": "chat.completion",
+  "created": 1793422814,
+  "model": "qwen3.7-plus-2026-05-26",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"VS-7375\",\n      \"mechanism\": \"Selective KRAS G12D targeting\",\n      \"modality\": \"small molecule\",\n      \"quotes\": [\n        \"VS - 7375 : Potential Best - in - Class KRAS G12D (ON/OFF) Inhibitor R&D Update October 14, 2026\",\n        \"• Selective KRAS G12D targeting\",\n        \"VS - 7375 continuous oral therapy\"\n      ]\n    }\n  ]\n}"
+    },
+    "finish_reason": "stop",
+    "logprobs": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 5720,
+   "total_tokens": 5859,
+   "completion_tokens": 139,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 5720
+   }
+  }
+ }
+}

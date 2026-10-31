@@ -1,0 +1,36 @@
+{
+ "request_meta": {
+  "task": "clinical_result",
+  "ticker": "CLDX",
+  "source_id": "DOC-CLDX-cd22c3e6",
+  "chunks": [
+   0
+  ]
+ },
+ "response": {
+  "id": "chatcmpl-b1cc4a7e-2a1b-9112-ba63-dc1c2b41a483",
+  "object": "chat.completion",
+  "created": 1793422021,
+  "model": "qwen3.7-plus-2026-05-26",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"BARZOLVOLIMAB (CDX-0159)\",\n      \"trial\": \"NCT05368285\",\n      \"indication\": \"chronic spontaneous urticaria\",\n      \"endpoint\": \"UAS7 change from baseline to week 12\",\n      \"result\": \"75 mg every 4 weeks: -6.60; 150 mg every 4 weeks: -12.55; 300 mg every 8 weeks: -13.41; placebo: not explicitly stated as a mean but complete response 6.4%\",\n      \"analysis\": \"75 mg every 4 weeks: 95% confidence interval [-10.71, -2.49] P = .0017; 150 mg every 4 weeks: 95% confidence interval [-16.56, -8.55] P < .0001; 300 mg every 8 weeks: 95% confidence interval [-17.47, -9.34] P < .0001\",\n      \"comparator\": \"placebo\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"Randomized dose-finding study of anti-KIT barzolvolimab in patients with chronic spontaneous urticaria.\",\n        \"TRIAL REGISTRATION INFORMATION: ClinicalTrials.gov NCT05368285.\",\n        \"Adults with antihistamine-refractory CSU (urticaria activity score over 7 days [UAS7] ≥ 16) in a phase 2 double-blind placebo-controlled trial were randomized 1:1:1:1 to receive barzolvolimab 75 mg every 4 weeks (n = 53); 150 mg every 4 weeks (n = 52); 300 mg every 8 weeks (n = 51); or placebo (n = 51).\",\n        \"The primary end point was UAS7 change from baseline to week 12.\",\n        \"There was significant improvement in mean (95% confidence interval) change from baseline to week 12 in UAS7 in barzolvolimab-treated patients compared to patients who received placebo (75 mg every 4 weeks: -6.60 [-10.71, -2.49] P = .0017; 150 mg every 4 weeks: -12.55 [-16.56, -8.55] P < .0001; 300 mg every 8 weeks: -13.41 [-17.47, -9.34] P < .0001).\"\n      ],\n      \"confidence\": \"\"\n    }\n  ]\n}"
+    },
+    "finish_reason": "stop",
+    "logprobs": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 2496,
+   "total_tokens": 3144,
+   "completion_tokens": 648,
+   "prompt_tokens_details": {
+    "cached_tokens": 512,
+    "text_tokens": 2496
+   }
+  }
+ }
+}

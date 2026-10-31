@@ -1,0 +1,41 @@
+{
+ "request_meta": {
+  "task": "catalyst",
+  "ticker": "ARWR",
+  "source_id": "DOC-ARWR-6a63d389",
+  "chunks": [
+   5,
+   8,
+   18,
+   24
+  ]
+ },
+ "response": {
+  "id": "60692479-4f92-4589-a104-70672f428932",
+  "object": "chat.completion",
+  "created": 1793422415,
+  "model": "deepseek-v4-pro",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": []\n}"
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 5630,
+   "completion_tokens": 7,
+   "total_tokens": 5637,
+   "prompt_tokens_details": {
+    "cached_tokens": 384
+   },
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 5246
+  },
+  "system_fingerprint": "a307abda487cd1b463329ccb945ce396"
+ }
+}

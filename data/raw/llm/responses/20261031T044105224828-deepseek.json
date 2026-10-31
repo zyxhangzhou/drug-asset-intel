@@ -1,0 +1,39 @@
+{
+ "request_meta": {
+  "task": "catalyst",
+  "ticker": "RGNX",
+  "source_id": "DOC-RGNX-a7b98e30",
+  "chunks": [
+   0,
+   2
+  ]
+ },
+ "response": {
+  "id": "8ef9e4fc-aba6-4ca4-8a23-0da7256e7676",
+  "object": "chat.completion",
+  "created": 1793421664,
+  "model": "deepseek-v4-pro",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"RGX-202\",\n      \"event\": \"Company preparing for potential accelerated approval\",\n      \"event_type\": \"regulatory_filing\",\n      \"timing\": \"2027\",\n      \"quotes\": [\n        \"Company preparing for potential accelerated approval in 2027\"\n      ]\n    },\n    {\n      \"asset\": \"RGX-202\",\n      \"event\": \"Completed dosing in all 60 patients across the pivotal and confirmatory trials\",\n      \"event_type\": \"other\",\n      \"timing\": \"mid-year\",\n      \"quotes\": [\n        \"the Company expects to have completed dosing in all 60 patients across the pivotal and confirmatory trials by mid-year\"\n      ]\n    }\n  ]\n}"
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 2845,
+   "completion_tokens": 160,
+   "total_tokens": 3005,
+   "prompt_tokens_details": {
+    "cached_tokens": 384
+   },
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 2461
+  },
+  "system_fingerprint": "a307abda487cd1b463329ccb945ce396"
+ }
+}

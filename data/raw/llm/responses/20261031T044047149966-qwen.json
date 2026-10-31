@@ -1,0 +1,37 @@
+{
+ "request_meta": {
+  "task": "clinical_result",
+  "ticker": "RGNX",
+  "source_id": "DOC-RGNX-a7b98e30",
+  "chunks": [
+   0,
+   1
+  ]
+ },
+ "response": {
+  "id": "chatcmpl-b64ae850-77f6-9e30-a5a2-7ad1b11585bd",
+  "object": "chat.completion",
+  "created": 1793421649,
+  "model": "qwen3.7-plus-2026-05-26",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"RGX-202\",\n      \"trial\": \"AFFINITY DUCHENNE\",\n      \"indication\": \"Duchenne Muscular Dystrophy\",\n      \"endpoint\": \"microdystrophin expression at Week 12\",\n      \"result\": \"93% of participants achieved >10% RGX-202 microdystrophin expression at Week 12 (n=30). Microdystrophin expression averaged 71.1% across all participants, and 41.6% in older boys, aged > 8 years. Additionally, 80% of participants achieved >40% microdystrophin expression.\",\n      \"analysis\": \"p<0.0001\",\n      \"comparator\": \"none\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"REGENXBIO Announces Positive Topline Results from Pivotal Phase III AFFINITY DUCHENNE ® Study of RGX-202\",\n        \"The pivotal portion of the Phase I/II/III AFFINITY DUCHENNE trial evaluated RGX-202 at 2x10 14 GC/kg in 31 ambulatory boys aged 1 year of age and older.\",\n        \"93% of participants achieved >10% RGX-202 microdystrophin expression at Week 12 (p<0.0001). Microdystrophin expression averaged 71.1% across all participants, and 41.6% in older boys, aged > 8 years. Additionally, 80% of participants achieved >40% microdystrophin expression.\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"RGX-202\",\n      \"trial\": \"AFFINITY DUCHENNE\",\n      \"indication\": \"Duchenne Muscular Dystrophy\",\n      \"endpoint\": \"functional improvement at one year as measured by NSAA change from baseline\",\n      \"result\": \"correlation= .094\",\n      \"analysis\": \"p = 0.0002\",\n      \"comparator\": \"external control using propensity score weighting\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"Participants demonstrated statistically significant improved performance across NSAA and all timed function tests when compared to external control using propensity score weighting\",\n        \"RGX-202 microdystrophin expression at Week 12 demonstrated a statistically significant correlation with functional improvement at one year as measured by NSAA change from baseline (correlation= .094, p = 0.0002)\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"RGX-202\",\n      \"trial\": \"AFFINITY DUCHENNE\",\n      \"indication\": \"Duchenne Muscular Dystrophy\",\n      \"endpoint\": \"NSAA change from baseline compared to the cTAP predictive model\",\n      \"result\": \"correlation= .092\",\n      \"analysis\": \"p = 0.0005\",\n      \"comparator\": \"cTAP predictive model\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"RGX-202 microdystrophin expression at Week 12 demonstrated a statistically significant correlation with functional improvement at one year as measured by NSAA change from baseline (correlation= .094, p = 0.0002) and NSAA change from baseline compared to the cTAP predictive model (correlation= .092, p = 0.0005).\"\n      ],\n      \"confidence\": \"\"\n    }\n  ]\n}"
+    },
+    "finish_reason": "stop",
+    "logprobs": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 3212,
+   "total_tokens": 4067,
+   "completion_tokens": 855,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 3212
+   }
+  }
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "request_meta": {
+  "task": "catalyst",
+  "ticker": "VSTM",
+  "source_id": "MAN-VSTM-1",
+  "chunks": [
+   5,
+   46,
+   82,
+   143
+  ]
+ },
+ "response": {
+  "id": "bf4f4eb4-b63a-49dc-acf7-671d82deb2f7",
+  "object": "chat.completion",
+  "created": 1793422677,
+  "model": "deepseek-v4-pro",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"AVUTOMETINIB AND DEFACTINIB (AVUTOMETINIB DEFACTININB COMBINATION)\",\n      \"event\": \"topline readout of the primary endpoint for RAMP 301\",\n      \"event_type\": \"data_readout\",\n      \"timing\": \"mid-2027\",\n      \"quotes\": [\n        \"We expect to report a topline readout of the primary endpoint in mid-2027.\"\n      ]\n    }\n  ]\n}"
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 5396,
+   "completion_tokens": 114,
+   "total_tokens": 5510,
+   "prompt_tokens_details": {
+    "cached_tokens": 384
+   },
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 5012
+  },
+  "system_fingerprint": "a307abda487cd1b463329ccb945ce396"
+ }
+}

@@ -1,0 +1,41 @@
+{
+ "request_meta": {
+  "task": "catalyst",
+  "ticker": "VSTM",
+  "source_id": "DOC-VSTM-f45aa7ce",
+  "chunks": [
+   0,
+   1,
+   2,
+   4
+  ]
+ },
+ "response": {
+  "id": "ab143954-ce64-4949-90e3-8cacdbabecb5",
+  "object": "chat.completion",
+  "created": 1793422715,
+  "model": "deepseek-v4-pro",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"AVUTOMETINIB AND DEFACTINIB (AVUTOMETINIB DEFACTININB COMBINATION)\",\n      \"event\": \"Report a topline readout of the primary endpoint in the RAMP 301 trial\",\n      \"event_type\": \"data_readout\",\n      \"timing\": \"mid-2027\",\n      \"quotes\": [\n        \"Report a topline readout of the primary endpoint in the RAMP 301 trial in mid-2027.\"\n      ]\n    },\n    {\n      \"asset\": \"VS-7375\",\n      \"event\": \"Report updated VS-7375 clinical data\",\n      \"event_type\": \"data_readout\",\n      \"timing\": \"October 2026\",\n      \"quotes\": [\n        \"Report updated VS-7375 clinical data in October 2026.\"\n      ]\n    },\n    {\n      \"asset\": \"VS-7375\",\n      \"event\": \"Complete enrollment across all three TARGET-D Phase 2 trials\",\n      \"event_type\": \"trial_start\",\n      \"timing\": \"by the end of 2026\",\n      \"quotes\": [\n        \"Complete enrollment across all three TARGET-D Phase 2 trials by the end of 2026.\"\n      ]\n    },\n    {\n      \"asset\": \"VS-7375\",\n      \"event\": \"Meet with the FDA to review Phase 3 pivotal trial designs in 1L mPDAC, 1L mCRC, and 1L advanced NSCLC\",\n      \"event_type\": \"other\",\n      \"timing\": \"before the end of the year\",\n      \"quotes\": [\n        \"Meet with the FDA before the end of the year to review Phase 3 pivotal trial designs in 1L mPDAC, 1L mCRC, and 1L advanced NSCLC.\"\n      ]\n    },\n    {\n      \"asset\": \"VS-7375\",\n      \"event\": \"Enroll the first patient in each of the Phase 3 pivotal trials\",\n      \"event_type\": \"trial_start\",\n      \"timing\": \"first half of 2027\",\n      \"quotes\": [\n        \"Enroll the first patient in each of the Phase 3 pivotal trials in the first half of 2027.\"\n      ]\n    }\n  ]\n}"
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 6120,
+   "completion_tokens": 493,
+   "total_tokens": 6613,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 5608
+  },
+  "system_fingerprint": "a307abda487cd1b463329ccb945ce396"
+ }
+}

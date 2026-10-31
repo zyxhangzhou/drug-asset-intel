@@ -1,0 +1,41 @@
+{
+ "request_meta": {
+  "task": "catalyst",
+  "ticker": "VSTM",
+  "source_id": "MAN-VSTM-3",
+  "chunks": [
+   0,
+   2,
+   3,
+   4
+  ]
+ },
+ "response": {
+  "id": "6b3e275f-0d28-4ddd-83ff-1718f077b333",
+  "object": "chat.completion",
+  "created": 1793422784,
+  "model": "deepseek-v4-pro",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"VS-7375\",\n      \"event\": \"Report mature data from the TARGET-D 101 mCRC 900 mg combination with anti-EGFR cohort and initial data from the 600 mg VS-7375 plus cetuximab combination cohort in mPDAC\",\n      \"event_type\": \"data_readout\",\n      \"timing\": \"by year-end 2026\",\n      \"quotes\": [\n        \"Plan to report mature data from the TARGET-D 101 mCRC 900 mg combination with anti-EGFR cohort and initial data from the 600 mg VS-7375 plus cetuximab combination cohort in mPDAC by year-end 2026.\"\n      ]\n    },\n    {\n      \"asset\": \"VS-7375\",\n      \"event\": \"Meet with the FDA to review Phase 3 pivotal trial designs in 1L mCRC (TARGET-D 303) and 1L advanced NSCLC (TARGET-D 302)\",\n      \"event_type\": \"other\",\n      \"timing\": \"before the end of the year\",\n      \"quotes\": [\n        \"Plan to meet with the FDA before the end of the year to review Phase 3 pivotal trial designs in 1L mCRC (TARGET-D 303) and 1L advanced NSCLC (TARGET-D 302).\"\n      ]\n    },\n    {\n      \"asset\": \"VS-7375\",\n      \"event\": \"Open the TARGET-D 301 1L mPDAC trial\",\n      \"event_type\": \"trial_start\",\n      \"timing\": \"by year-end 2026\",\n      \"quotes\": [\n        \"Plan to open the TARGET-D 301 1L mPDAC trial by year-end 2026.\"\n      ]\n    },\n    {\n      \"asset\": \"VS-7375\",\n      \"event\": \"Enroll the first patient in the CRC and NSCLC Phase 3 pivotal trials\",\n      \"event_type\": \"trial_start\",\n      \"timing\": \"first half of 2027\",\n      \"quotes\": [\n        \"Plan to enroll the first patient in the CRC and NSCLC Phase 3 pivotal trials in the first half of 2027.\"\n      ]\n    },\n    {\n      \"asset\": \"VS-7375\",\n      \"event\": \"Report initial data from the 1L mPDAC combination with GnP\",\n      \"event_type\": \"data_readout\",\n      \"timing\": \"Q1 2027\",\n      \"quotes\": [\n        \"Expect to report initial data from the 1L mPDAC combination with GnP in Q1 2027.\"\n      ]\n    },\n    {\n      \"asset\": \"VS-7375\",\n      \"event\": \"Complete enrollment in the TARGET-D 201 (PDAC) and 203 (CRC) Phase 2 trials\",\n      \"event_type\": \"other\",\n      \"timing\": \"by the end of 2026\",\n      \"quotes\": [\n        \"Expect to complete enrollment in the TARGET-D 201 (PDAC) and 203 (CRC) Phase 2 trials by the end of 2026; TARGET-D 202 (NSCLC) expected in Q2 2027.\"\n      ]\n    },\n    {\n      \"asset\": \"VS-7375\",\n      \"event\": \"Complete enrollment in the TARGET-D 202 (NSCLC) Phase 2 trial\",\n      \"event_type\": \"other\",\n      \"timing\": \"Q2 2027\",\n      \"quotes\": [\n        \"Expect to complete enrollment in the TARGET-D 201 (PDAC) and 203 (CRC) Phase 2 trials by the end of 2026; TARGET-D 202 (NSCLC) expected in Q2 2027.\"\n      ]\n    },\n    {\n      \"asset\": \"VS-7375\",\n      \"event\": \"Report initial data from Phase 2 TARGET-D 201 2L PDAC\",\n      \"event_type\": \"data_readout\",\n      \"timing\": \"Q2 2027\",\n      \"quotes\": [\n        \"Plan to report initial data from Phase 2 TARGET-D 201 2L PDAC in Q2 2027; expect to report initial data from the Phase 2 TARGET-D 202 2L NSCLC and TARGET-D 203 2L CRC trials in the 2H of 2027.\"\n      ]\n    },\n    {\n      \"asset\": \"VS-7375\",\n      \"event\": \"Report initial data from the Phase 2 TARGET-D 202 2L NSCLC and TARGET-D 203 2L CRC trials\",\n      \"event_type\": \"data_readout\",\n      \"timing\": \"2H of 2027\",\n      \"quotes\": [\n        \"Plan to report initial data from Phase 2 TARGET-D 201 2L PDAC in Q2 2027; expect to report initial data from the Phase 2 TARGET-D 202 2L NSCLC and TARGET-D 203 2L CRC trials in the 2H of 2027.\"\n      ]\n    }\n  ]\n}"
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 5950,
+   "completion_tokens": 1093,
+   "total_tokens": 7043,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 5438
+  },
+  "system_fingerprint": "a307abda487cd1b463329ccb945ce396"
+ }
+}

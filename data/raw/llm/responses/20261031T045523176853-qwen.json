@@ -1,0 +1,37 @@
+{
+ "request_meta": {
+  "task": "catalyst",
+  "ticker": "ARWR",
+  "source_id": "DOC-ARWR-d7e7cc5b",
+  "chunks": [
+   0,
+   2
+  ]
+ },
+ "response": {
+  "id": "chatcmpl-1aac8c14-974c-98bb-b1a3-e3971a588253",
+  "object": "chat.completion",
+  "created": 1793422523,
+  "model": "qwen3.7-plus-2026-05-26",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"PLOZASIRAN (ARO-APOC3)\",\n      \"event\": \"U.S. availability\",\n      \"event_type\": \"other\",\n      \"timing\": \"before the end of the year\",\n      \"quotes\": [\n        \"REDEMPLO will be available in the U.S. before the end of the year.\"\n      ]\n    }\n  ]\n}"
+    },
+    "finish_reason": "stop",
+    "logprobs": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 2630,
+   "total_tokens": 2730,
+   "completion_tokens": 100,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 2630
+   }
+  }
+ }
+}

@@ -1,0 +1,39 @@
+{
+ "request_meta": {
+  "task": "catalyst",
+  "ticker": "VKTX",
+  "source_id": "MAN-VKTX-3",
+  "chunks": [
+   0,
+   2,
+   3,
+   4
+  ]
+ },
+ "response": {
+  "id": "chatcmpl-4de27abe-55b0-92d6-8123-6328145a1cd7",
+  "object": "chat.completion",
+  "created": 1793422213,
+  "model": "qwen3.7-plus-2026-05-26",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"VK3019\",\n      \"event\": \"initiate a 28-day multiple ascending dose study of VK3019\",\n      \"event_type\": \"trial_start\",\n      \"timing\": \"first quarter of 2027\",\n      \"quotes\": [\n        \"Upon completion, we expect to initiate a 28-day multiple ascending dose study of VK3019 in the first quarter of 2027.\"\n      ]\n    },\n    {\n      \"asset\": \"VK2735\",\n      \"event\": \"VANQUISH extension studies, expected to begin\",\n      \"event_type\": \"trial_start\",\n      \"timing\": \"early 2027\",\n      \"quotes\": [\n        \"Importantly, results from this study will help inform the selection of doses in the upcoming VANQUISH extension studies, expected to begin in early 2027.\"\n      ]\n    },\n    {\n      \"asset\": \"VK2735\",\n      \"event\": \"results from Part 2 of this study to be available\",\n      \"event_type\": \"data_readout\",\n      \"timing\": \"2027\",\n      \"quotes\": [\n        \"The company expects the results from Part 2 of this study to be available in 2027.\"\n      ]\n    },\n    {\n      \"asset\": \"VK3019\",\n      \"event\": \"initiate a 4 week multiple ascending dose (MAD) study of VK3019\",\n      \"event_type\": \"trial_start\",\n      \"timing\": \"1Q27\",\n      \"quotes\": [\n        \"The company expects to complete the SAD study later this quarter and initiate a 4 week multiple ascending dose (MAD) study of VK3019 in 1Q27.\"\n      ]\n    },\n    {\n      \"asset\": \"VK2735\",\n      \"event\": \"these studies to be completed\",\n      \"event_type\": \"other\",\n      \"timing\": \"2027\",\n      \"quotes\": [\n        \"The company expects these studies to be completed in 2027.\"\n      ]\n    }\n  ]\n}"
+    },
+    "finish_reason": "stop",
+    "logprobs": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 5801,
+   "total_tokens": 6313,
+   "completion_tokens": 512,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 5801
+   }
+  }
+ }
+}

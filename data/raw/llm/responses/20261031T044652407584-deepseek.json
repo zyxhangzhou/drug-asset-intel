@@ -1,0 +1,38 @@
+{
+ "request_meta": {
+  "task": "program",
+  "ticker": "CLDX",
+  "source_id": "DOC-CLDX-cd22c3e6",
+  "chunks": [
+   0
+  ]
+ },
+ "response": {
+  "id": "5ae16e94-a147-4260-8beb-8a3324f35b27",
+  "object": "chat.completion",
+  "created": 1793422012,
+  "model": "deepseek-v4-pro",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"BARZOLVOLIMAB\",\n      \"mechanism\": \"mast cell-depleting anti-KIT antibody\",\n      \"modality\": \"antibody\",\n      \"quotes\": [\n        \"barzolvolimab, a mast cell-depleting anti-KIT antibody, in patients with CSU\"\n      ]\n    }\n  ]\n}"
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 2262,
+   "completion_tokens": 84,
+   "total_tokens": 2346,
+   "prompt_tokens_details": {
+    "cached_tokens": 640
+   },
+   "prompt_cache_hit_tokens": 640,
+   "prompt_cache_miss_tokens": 1622
+  },
+  "system_fingerprint": "a307abda487cd1b463329ccb945ce396"
+ }
+}

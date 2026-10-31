@@ -1,0 +1,39 @@
+{
+ "request_meta": {
+  "task": "program",
+  "ticker": "RGNX",
+  "source_id": "MAN-RGNX-1",
+  "chunks": [
+   3,
+   4,
+   32,
+   39
+  ]
+ },
+ "response": {
+  "id": "chatcmpl-a768696a-7ef7-9aa4-88c9-fb3efb5de45e",
+  "object": "chat.completion",
+  "created": 1793421509,
+  "model": "qwen3.7-plus-2026-05-26",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"Surabgene lomparvovec (sura-vec, ABBV-RGX-314)\",\n      \"mechanism\": \"deliver working genes to cells using AAV vectors\",\n      \"modality\": \"AAV therapeutics\",\n      \"quotes\": [\n        \"Surabgene lomparvovec (sura-vec, ABBV-RGX-314), which we are developing in collaboration with AbbVie to treat large patient populations impacted by wet age-related macular degeneration (wet AMD) and diabetic retinopathy (DR).\",\n        \"Our gene therapies are designed to deliver working genes to cells using AAV vectors as the delivery “vehicles.”\",\n        \"We have developed a broad pipeline of investigational AAV therapeutics using our NAV Technology Platform\"\n      ]\n    },\n    {\n      \"asset\": \"RGX-202\",\n      \"mechanism\": \"deliver working genes to cells using AAV vectors\",\n      \"modality\": \"AAV therapeutics\",\n      \"quotes\": [\n        \"RGX-202, which we are developing to treat Duchenne muscular dystrophy (Duchenne), one of the most common fatal genetic disorders affecting children.\",\n        \"Our gene therapies are designed to deliver working genes to cells using AAV vectors as the delivery “vehicles.”\",\n        \"We have developed a broad pipeline of investigational AAV therapeutics using our NAV Technology Platform\"\n      ]\n    },\n    {\n      \"asset\": \"RGX-121 (clemidsogene lanparvovec)\",\n      \"mechanism\": \"deliver working genes to cells using AAV vectors\",\n      \"modality\": \"AAV therapeutics\",\n      \"quotes\": [\n        \"RGX-121 (clemidsogene lanparvovec) and RGX-111, which we are developing and plan to commercialize with Nippon Shinyaku to treat Mucopolysaccharidosis type II (MPS II) and Mucopolysaccharidosis type I (MPS I)\",\n        \"Our gene therapies are designed to deliver working genes to cells using AAV vectors as the delivery “vehicles.”\",\n        \"We have developed a broad pipeline of investigational AAV therapeutics using our NAV Technology Platform\"\n      ]\n    },\n    {\n      \"asset\": \"RGX-111\",\n      \"mechanism\": \"deliver working genes to cells using AAV vectors\",\n      \"modality\": \"AAV therapeutics\",\n      \"quotes\": [\n        \"RGX-121 (clemidsogene lanparvovec) and RGX-111, which we are developing and plan to commercialize with Nippon Shinyaku to treat Mucopolysaccharidosis type II (MPS II) and Mucopolysaccharidosis type I (MPS I)\",\n        \"Our gene therapies are designed to deliver working genes to cells using AAV vectors as the delivery “vehicles.”\",\n        \"We have developed a broad pipeline of investigational AAV therapeutics using our NAV Technology Platform\"\n      ]\n    }\n  ]\n}"
+    },
+    "finish_reason": "stop",
+    "logprobs": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 4774,
+   "total_tokens": 5484,
+   "completion_tokens": 710,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 4774
+   }
+  }
+ }
+}

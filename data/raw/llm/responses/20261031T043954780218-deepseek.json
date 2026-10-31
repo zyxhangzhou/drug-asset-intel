@@ -1,0 +1,39 @@
+{
+ "request_meta": {
+  "task": "clinical_result",
+  "ticker": "RGNX",
+  "source_id": "MAN-RGNX-2",
+  "chunks": [
+   0,
+   1
+  ]
+ },
+ "response": {
+  "id": "63208278-a19e-47ce-bca2-bc84ee7f4abb",
+  "object": "chat.completion",
+  "created": 1793421594,
+  "model": "deepseek-v4-pro",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"RGX-202\",\n      \"trial\": \"AFFINITY DUCHENNE\",\n      \"indication\": \"Duchenne muscular dystrophy\",\n      \"endpoint\": \"primary endpoint\",\n      \"result\": \"met its primary endpoint\",\n      \"analysis\": \"p<0.0001\",\n      \"comparator\": \"\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"the Phase III AFFINITY DUCHENNE ® trial met its primary endpoint with high statistical significance (p<0.0001).\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"RGX-202\",\n      \"trial\": \"AFFINITY DUCHENNE\",\n      \"indication\": \"Duchenne muscular dystrophy\",\n      \"endpoint\": \"correlation between RGX-202 microdystrophin expression level and functional improvement at one year (NSAA)\",\n      \"result\": \"statistically significant correlation\",\n      \"analysis\": \"\",\n      \"comparator\": \"\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"demonstrated statistically significant correlation between RGX-202 microdystrophin expression level and functional improvement at one year (NSAA, n=9).\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"surabgene lomparvovec\",\n      \"trial\": \"Phase I/IIa trial\",\n      \"indication\": \"wet age-related macular degeneration\",\n      \"endpoint\": \"visual acuity and anti-VEGF treatment burden through five years\",\n      \"result\": \"stable to improved visual acuity and meaningful reductions in anti-VEGF treatment burden through five years\",\n      \"analysis\": \"\",\n      \"comparator\": \"\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"Long-term follow-up data from the Phase I/IIa trial of sura-vec, presented at the ASRS 44th Annual Meeting in July 2026, showed stable to improved visual acuity and meaningful reductions in anti-VEGF treatment burden through five years at doses similar to those used in the pivotal trials, with the exception of one participant in Cohort 4 with polypoidal choroidal vasculopathy refractory to anti-VEGF therapy.\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"surabgene lomparvovec\",\n      \"trial\": \"ALTITUDE\",\n      \"indication\": \"diabetic retinopathy\",\n      \"endpoint\": \"safety and efficacy profile through 2.5 years\",\n      \"result\": \"durable safety and efficacy profile through 2.5 years\",\n      \"analysis\": \"\",\n      \"comparator\": \"\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"Long-term follow-up data from the ALTITUDE ® trial, also presented at ASRS in July 2026, showed a durable safety and efficacy profile through 2.5 years at the dose being evaluated in NAAVIGATE with short-course prophylactic topical steroids.\"\n      ],\n      \"confidence\": \"\"\n    }\n  ]\n}"
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 3170,
+   "completion_tokens": 672,
+   "total_tokens": 3842,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 2658
+  },
+  "system_fingerprint": "a307abda487cd1b463329ccb945ce396"
+ }
+}

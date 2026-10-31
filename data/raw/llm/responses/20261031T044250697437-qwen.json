@@ -1,0 +1,39 @@
+{
+ "request_meta": {
+  "task": "catalyst",
+  "ticker": "CLDX",
+  "source_id": "DOC-CLDX-c86e5ab4",
+  "chunks": [
+   2,
+   9,
+   22,
+   26
+  ]
+ },
+ "response": {
+  "id": "chatcmpl-6f6c7335-a05c-9f62-abfe-5288e2634d3b",
+  "object": "chat.completion",
+  "created": 1793421771,
+  "model": "qwen3.7-plus-2026-05-26",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"BARZOLVOLIMAB\",\n      \"event\": \"completion of Process Performance Qualification (PPQ) manufacturing runs for Drug Substance (DS)\",\n      \"event_type\": \"other\",\n      \"timing\": \"2026\",\n      \"quotes\": [\n        \"In 2025, we initiated the Process Performance Qualification (PPQ) manufacturing runs for DS and anticipate the completion of those activities in 2026.\"\n      ]\n    },\n    {\n      \"asset\": \"BARZOLVOLIMAB\",\n      \"event\": \"completion of Drug Product (DP) PPQ activities\",\n      \"event_type\": \"other\",\n      \"timing\": \"2026\",\n      \"quotes\": [\n        \"We are currently preparing for the DP PPQ activities and expect to complete these activities in 2026.\"\n      ]\n    }\n  ]\n}"
+    },
+    "finish_reason": "stop",
+    "logprobs": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 5660,
+   "total_tokens": 5874,
+   "completion_tokens": 214,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 5660
+   }
+  }
+ }
+}

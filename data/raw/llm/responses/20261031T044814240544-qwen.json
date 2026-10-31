@@ -1,0 +1,39 @@
+{
+ "request_meta": {
+  "task": "program",
+  "ticker": "VKTX",
+  "source_id": "MAN-VKTX-1",
+  "chunks": [
+   3,
+   6,
+   7,
+   8
+  ]
+ },
+ "response": {
+  "id": "chatcmpl-bbd0269f-57dd-9dab-bcba-90d1fc48bc40",
+  "object": "chat.completion",
+  "created": 1793422094,
+  "model": "qwen3.7-plus-2026-05-26",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"VK2735\",\n      \"mechanism\": \"\",\n      \"modality\": \"\",\n      \"quotes\": []\n    },\n    {\n      \"asset\": \"VK2809\",\n      \"mechanism\": \"tissue and receptor-subtype selective agonist of the thyroid hormone receptor beta, or TRß\",\n      \"modality\": \"orally available\",\n      \"quotes\": [\n        \"We are also developing VK2809, which is an orally available, tissue and receptor-subtype selective agonist of the thyroid hormone receptor beta, or TRß.\"\n      ]\n    },\n    {\n      \"asset\": \"VK0214\",\n      \"mechanism\": \"orally available, tissue and receptor-subtype selective agonist of TRß\",\n      \"modality\": \"orally available\",\n      \"quotes\": [\n        \"We are also developing VK0214, which is also an orally available, tissue and receptor-subtype selective agonist of TRß for X-linked\"\n      ]\n    },\n    {\n      \"asset\": \"VK5211\",\n      \"mechanism\": \"non-steroidal selective androgen receptor modulator, or SARM\",\n      \"modality\": \"orally available\",\n      \"quotes\": [\n        \"Other programs include VK5211, an orally available, non-steroidal selective androgen receptor modulator, or SARM.\"\n      ]\n    }\n  ]\n}"
+    },
+    "finish_reason": "stop",
+    "logprobs": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 5604,
+   "total_tokens": 5944,
+   "completion_tokens": 340,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 5604
+   }
+  }
+ }
+}

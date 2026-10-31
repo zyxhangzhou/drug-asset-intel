@@ -1,0 +1,36 @@
+{
+ "request_meta": {
+  "task": "program",
+  "ticker": "VKTX",
+  "source_id": "DOC-VKTX-403794ba",
+  "chunks": [
+   0
+  ]
+ },
+ "response": {
+  "id": "chatcmpl-9f39d325-1269-9751-a0de-d4ee63f331e4",
+  "object": "chat.completion",
+  "created": 1793422324,
+  "model": "qwen3.7-plus-2026-05-26",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"VK2735\",\n      \"mechanism\": \"GIP/GLP-1 Receptor Dual Agonist\",\n      \"modality\": \"\",\n      \"quotes\": [\n        \"Weekly Subcutaneous VK2735, a GIP/GLP-1 Receptor Dual Agonist, for Weight\",\n        \"OBJECTIVE: This study aimed to determine doses of VK2735, a novel glucagon-like peptide-1/glucose-dependent insulinotropic polypeptide (GLP-1/GIP) receptor dual agonist, that are effective for weight loss over 13 weeks of treatment.\"\n      ]\n    }\n  ]\n}"
+    },
+    "finish_reason": "stop",
+    "logprobs": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1299,
+   "total_tokens": 1457,
+   "completion_tokens": 158,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 1299
+   }
+  }
+ }
+}

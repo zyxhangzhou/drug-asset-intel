@@ -1,0 +1,41 @@
+{
+ "request_meta": {
+  "task": "program",
+  "ticker": "VKTX",
+  "source_id": "MAN-VKTX-3",
+  "chunks": [
+   0,
+   1,
+   3,
+   4
+  ]
+ },
+ "response": {
+  "id": "0d4c798d-b584-41bd-9627-034fce391f8b",
+  "object": "chat.completion",
+  "created": 1793422158,
+  "model": "deepseek-v4-pro",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"VK2735\",\n      \"mechanism\": \"dual glucagon-like peptide 1 (GLP-1) and glucose-dependent insulinotropic polypeptide (GIP) receptor agonist\",\n      \"modality\": \"\",\n      \"quotes\": [\n        \"VK2735 is a wholly owned long-acting dual agonist of the glucagon like peptide-1, or GLP-1 receptor, and the glucose dependent insulinotropic polypeptide, or GIP receptor\",\n        \"The company's lead program, VK2735, is a dual glucagon-like peptide 1 (GLP-1) and glucose-dependent insulinotropic polypeptide (GIP) receptor agonist in development in both subcutaneous and oral formulations for obesity.\"\n      ]\n    },\n    {\n      \"asset\": \"VK3019\",\n      \"mechanism\": \"dual amylin and calcitonin receptor agonist (DACRA)\",\n      \"modality\": \"\",\n      \"quotes\": [\n        \"VK3019 is an investigational dual amylin and calcitonin receptor agonist (DACRA) in development for the potential treatment of obesity.\",\n        \"Viking is also advancing additional obesity programs, including VK3019, an amylin receptor agonist\"\n      ]\n    },\n    {\n      \"asset\": \"VK2809\",\n      \"mechanism\": \"thyroid hormone receptor beta agonist\",\n      \"modality\": \"orally available\",\n      \"quotes\": [\n        \"VK2809, an orally available thyroid hormone receptor beta agonist for metabolic and liver disease\"\n      ]\n    },\n    {\n      \"asset\": \"VK0214\",\n      \"mechanism\": \"\",\n      \"modality\": \"\",\n      \"quotes\": [\n        \"VK0214 for the rare genetic disorder X-linked adrenoleukodystrophy (X-ALD)\"\n      ]\n    }\n  ]\n}"
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 5292,
+   "completion_tokens": 391,
+   "total_tokens": 5683,
+   "prompt_tokens_details": {
+    "cached_tokens": 384
+   },
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 4908
+  },
+  "system_fingerprint": "a307abda487cd1b463329ccb945ce396"
+ }
+}

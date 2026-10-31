@@ -1,0 +1,40 @@
+{
+ "request_meta": {
+  "task": "program",
+  "ticker": "ARWR",
+  "source_id": "MAN-ARWR-2",
+  "chunks": [
+   0,
+   1,
+   2
+  ]
+ },
+ "response": {
+  "id": "e21003bf-23bb-45fd-b0fa-eb8a44bcd307",
+  "object": "chat.completion",
+  "created": 1793422456,
+  "model": "deepseek-v4-pro",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"PLOZASIRAN (ARO-APOC3)\",\n      \"mechanism\": \"suppress the production of apolipoprotein C-III (APOC3)\",\n      \"modality\": \"siRNA\",\n      \"quotes\": [\n        \"REDEMPLO is designed to suppress the production of apolipoprotein C-III (APOC3), a protein produced in the liver that raises triglyceride levels by slowing their breakdown and clearance.\",\n        \"REDEMPLO is the first and only siRNA treatment approved in these countries to be studied in both clinically diagnosed and genetically confirmed patients living with FCS.\"\n      ]\n    },\n    {\n      \"asset\": \"ZODASIRAN (ARO-ANG3)\",\n      \"mechanism\": \"\",\n      \"modality\": \"RNA interference (RNAi) therapeutic\",\n      \"quotes\": [\n        \"the Company’s investigational RNA interference (RNAi) therapeutic being developed as a potential treatment for homozygous familial hypercholesterolemia (HoFH)\"\n      ]\n    },\n    {\n      \"asset\": \"ARO-INHBE\",\n      \"mechanism\": \"\",\n      \"modality\": \"RNA interference (RNAi) therapeutic\",\n      \"quotes\": [\n        \"the company’s investigational RNA interference (RNAi) therapeutic being developed as a potential treatment for obesity and metabolic dysfunction-associated steatohepatitis (MASH)\"\n      ]\n    },\n    {\n      \"asset\": \"ARO-PNPLA3\",\n      \"mechanism\": \"reduce liver expression of patatin-like phospholipase domain containing 3 (PNPLA3)\",\n      \"modality\": \"RNAi therapeutic\",\n      \"quotes\": [\n        \"Arrowhead’s clinical stage RNAi therapeutic designed to reduce liver expression of patatin-like phospholipase domain containing 3 (PNPLA3) as a potential treatment for patients with metabolic dysfunction-associated steatohepatitis (MASH)\"\n      ]\n    }\n  ]\n}"
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 4653,
+   "completion_tokens": 414,
+   "total_tokens": 5067,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 4141
+  },
+  "system_fingerprint": "a307abda487cd1b463329ccb945ce396"
+ }
+}

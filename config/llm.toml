@@ -16,7 +16,7 @@ peak = { input_hit = 0.30, input_miss = 9.0, output = 27.0 }
 # holiday calendar: treating them as peak only overestimates cost.
 peak_windows = ["09:00-12:00", "14:00-18:00"]
 refuse_peak = true
-budget_cny = 15.0          # account balance 20 CNY; 5 CNY kept as margin
+budget_cny = 15.0          # project spending cap; account balance 27 CNY on 2026-10-31
 # Thinking mode is on by default and ignores temperature; a first sample run spent the whole
 # 4,000-token output cap on reasoning. Verbatim extraction needs no chain of thought.
 request_extra = { thinking = { type = "disabled" } }
@@ -25,5 +25,5 @@ request_extra = { thinking = { type = "disabled" } }
 match_base_url = "aliyuncs.com"
 price_source = "https://help.aliyun.com/zh/model-studio/qwen3-7-plus (accessed 2026-10-30; list price, input <= 256k tokens, region cn-beijing; promotions ignored)"
 offpeak = { input_hit = 0.4, input_miss = 2.0, output = 8.0 }
-budget_cny = 5.0
+budget_cny = 5.0           # project spending cap; account balance 80+ CNY on 2026-10-31
 request_extra = { enable_thinking = false }

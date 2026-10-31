@@ -1,0 +1,39 @@
+{
+ "request_meta": {
+  "task": "program",
+  "ticker": "VSTM",
+  "source_id": "DOC-VSTM-f45aa7ce",
+  "chunks": [
+   1,
+   2,
+   3,
+   4
+  ]
+ },
+ "response": {
+  "id": "chatcmpl-efdfa644-f391-9e82-adcc-4abd47d46b0f",
+  "object": "chat.completion",
+  "created": 1793422688,
+  "model": "qwen3.7-plus-2026-05-26",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"AVUTOMETINIB\",\n      \"mechanism\": \"inhibits MEK kinase activity while also blocking the compensatory reactivation of MEK by upstream RAF\",\n      \"modality\": \"small molecule\",\n      \"quotes\": [\n        \"AVMAPKI (avutometinib) inhibits MEK kinase activity while also blocking\",\n        \"the compensatory reactivation of MEK by upstream RAF.\",\n        \"Our pipeline is focused on novel small molecule drugs that inhibit critical signaling\"\n      ]\n    },\n    {\n      \"asset\": \"DEFACTINIB\",\n      \"mechanism\": \"FAK inhibitor\",\n      \"modality\": \"small molecule\",\n      \"quotes\": [\n        \"FAKZYNJA (defactinib) is a FAK inhibitor and together, the avutometinib\",\n        \"Our pipeline is focused on novel small molecule drugs that inhibit critical signaling\"\n      ]\n    },\n    {\n      \"asset\": \"VS-7375\",\n      \"mechanism\": \"oral KRAS G12D dual ON/OFF inhibitor\",\n      \"modality\": \"small molecule\",\n      \"quotes\": [\n        \"VS-7375 is a potential best-in-class,\",\n        \"potent, and selective investigational oral KRAS G12D dual ON/OFF inhibitor.\",\n        \"Our pipeline is focused on novel small molecule drugs that inhibit critical signaling\"\n      ]\n    }\n  ]\n}"
+    },
+    "finish_reason": "stop",
+    "logprobs": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 6596,
+   "total_tokens": 6935,
+   "completion_tokens": 339,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 6596
+   }
+  }
+ }
+}

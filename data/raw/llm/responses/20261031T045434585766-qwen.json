@@ -1,0 +1,38 @@
+{
+ "request_meta": {
+  "task": "clinical_result",
+  "ticker": "ARWR",
+  "source_id": "MAN-ARWR-2",
+  "chunks": [
+   0,
+   1,
+   2
+  ]
+ },
+ "response": {
+  "id": "chatcmpl-13abafe3-50f3-9902-9c38-392020f8f459",
+  "object": "chat.completion",
+  "created": 1793422475,
+  "model": "qwen3.7-plus-2026-05-26",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"PLOZASIRAN (ARO-APOC3)\",\n      \"trial\": \"SHASTA-3\",\n      \"indication\": \"severe hypertriglyceridemia (sHTG)\",\n      \"endpoint\": \"triglyceride reduction from baseline\",\n      \"result\": \"median triglyceride reductions of 79% from baseline\",\n      \"analysis\": \"\",\n      \"comparator\": \"placebo\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"Announced topline results for the global Phase 3 SHASTA-3 and SHASTA-4 clinical studies of plozasiran in patients with severe hypertriglyceridemia (sHTG).\",\n        \"SHASTA-3 and SHASTA-4 successfully met the primary endpoint of triglyceride reduction versus placebo and met all prespecified secondary endpoints in both studies.\",\n        \"Deep, durable, and consistent median triglyceride reductions of 79% and 81% from baseline were observed in SHASTA-3 and SHASTA-4, respectively.\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"PLOZASIRAN (ARO-APOC3)\",\n      \"trial\": \"SHASTA-4\",\n      \"indication\": \"severe hypertriglyceridemia (sHTG)\",\n      \"endpoint\": \"triglyceride reduction from baseline\",\n      \"result\": \"median triglyceride reductions of 81% from baseline\",\n      \"analysis\": \"\",\n      \"comparator\": \"placebo\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"Announced topline results for the global Phase 3 SHASTA-3 and SHASTA-4 clinical studies of plozasiran in patients with severe hypertriglyceridemia (sHTG).\",\n        \"SHASTA-3 and SHASTA-4 successfully met the primary endpoint of triglyceride reduction versus placebo and met all prespecified secondary endpoints in both studies.\",\n        \"Deep, durable, and consistent median triglyceride reductions of 79% and 81% from baseline were observed in SHASTA-3 and SHASTA-4, respectively.\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"PLOZASIRAN (ARO-APOC3)\",\n      \"trial\": \"SHASTA-3 and SHASTA-4\",\n      \"indication\": \"severe hypertriglyceridemia (sHTG)\",\n      \"endpoint\": \"acute pancreatitis (AP) events\",\n      \"result\": \"Statistically significant 78% reduction in acute pancreatitis (AP) events versus placebo was observed across the entire sHTG study population, with an unprecedented 100% event reduction in patients with triglycerides above 880 mg/dL and a prior medical history of AP\",\n      \"analysis\": \"Statistically significant\",\n      \"comparator\": \"placebo\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"Announced topline results for the global Phase 3 SHASTA-3 and SHASTA-4 clinical studies of plozasiran in patients with severe hypertriglyceridemia (sHTG).\",\n        \"Statistically significant 78% reduction in acute pancreatitis (AP) events versus placebo was observed across the entire sHTG study population, with an unprecedented 100% event reduction in patients with triglycerides above 880 mg/dL and a prior medical history of AP, widely considered to be at the highest risk for AP.\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"ARO-PNPLA3\",\n      \"trial\": \"Phase 1 single-ascending dose clinical study\",\n      \"indication\": \"metabolic dysfunction-associated steatohepatitis (MASH)\",\n      \"endpoint\": \"reduction in liver fat\",\n      \"result\": \"dose-dependent mean reduction in liver fat of up to 40% in patients homozygous for the I148M mutation\",\n      \"analysis\": \"\",\n      \"comparator\": \"none\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"In a Phase 1 single-ascending dose clinical study, ARO-PNPLA3 achieved encouraging results, including a dose-dependent mean reduction in liver fat of up to 40% in patients homozygous for the I148M mutation, demonstrated no apparent treatment emergent increases in triglycerides or LDL-cholesterol, and had a positive safety and tolerability profile at all doses studied.\"\n      ],\n      \"confidence\": \"\"\n    }\n  ]\n}"
+    },
+    "finish_reason": "stop",
+    "logprobs": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 5221,
+   "total_tokens": 6284,
+   "completion_tokens": 1063,
+   "prompt_tokens_details": {
+    "cached_tokens": 512,
+    "text_tokens": 5221
+   }
+  }
+ }
+}

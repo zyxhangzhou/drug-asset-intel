@@ -1,0 +1,39 @@
+{
+ "request_meta": {
+  "task": "clinical_result",
+  "ticker": "RGNX",
+  "source_id": "DOC-RGNX-a7b98e30",
+  "chunks": [
+   0,
+   1
+  ]
+ },
+ "response": {
+  "id": "733ccddd-57dd-4fef-9f08-7c0d1f76c31e",
+  "object": "chat.completion",
+  "created": 1793421638,
+  "model": "deepseek-v4-pro",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"RGX-202\",\n      \"trial\": \"AFFINITY DUCHENNE\",\n      \"indication\": \"Duchenne Muscular Dystrophy\",\n      \"endpoint\": \"Microdystrophin expression >10% at Week 12\",\n      \"result\": \"93% of participants achieved >10% RGX-202 microdystrophin expression at Week 12 (n=30)\",\n      \"analysis\": \"p<0.0001\",\n      \"comparator\": \"\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"93% of participants achieved >10% RGX-202 microdystrophin expression at Week 12 (p<0.0001).\",\n        \"The trial met its primary endpoint with high statistical significance (p<0.0001), with 93% of participants reaching at least 10% microdystrophin expression at Week 12 (n=30).\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"RGX-202\",\n      \"trial\": \"AFFINITY DUCHENNE\",\n      \"indication\": \"Duchenne Muscular Dystrophy\",\n      \"endpoint\": \"Microdystrophin expression averaged across all participants\",\n      \"result\": \"Microdystrophin expression averaged 71.1% across all participants, and 41.6% in older boys, aged > 8 years.\",\n      \"analysis\": \"\",\n      \"comparator\": \"\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"Microdystrophin expression averaged 71.1% across all participants, and 41.6% in older boys, aged > 8 years.\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"RGX-202\",\n      \"trial\": \"AFFINITY DUCHENNE\",\n      \"indication\": \"Duchenne Muscular Dystrophy\",\n      \"endpoint\": \"Microdystrophin expression >40%\",\n      \"result\": \"80% of participants achieved >40% microdystrophin expression.\",\n      \"analysis\": \"\",\n      \"comparator\": \"\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"Additionally, 80% of participants achieved >40% microdystrophin expression.\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"RGX-202\",\n      \"trial\": \"AFFINITY DUCHENNE\",\n      \"indication\": \"Duchenne Muscular Dystrophy\",\n      \"endpoint\": \"Correlation between microdystrophin expression and functional improvement (NSAA change from baseline)\",\n      \"result\": \"correlation= .094, p = 0.0002\",\n      \"analysis\": \"p = 0.0002\",\n      \"comparator\": \"\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"RGX-202 microdystrophin expression at Week 12 demonstrated a statistically significant correlation with functional improvement at one year as measured by NSAA change from baseline (correlation= .094, p = 0.0002)\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"RGX-202\",\n      \"trial\": \"AFFINITY DUCHENNE\",\n      \"indication\": \"Duchenne Muscular Dystrophy\",\n      \"endpoint\": \"Correlation between microdystrophin expression and functional improvement (NSAA change from baseline compared to cTAP predictive model)\",\n      \"result\": \"correlation= .092, p = 0.0005\",\n      \"analysis\": \"p = 0.0005\",\n      \"comparator\": \"\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"and NSAA change from baseline compared to the cTAP predictive model (correlation= .092, p = 0.0005).\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"RGX-202\",\n      \"trial\": \"AFFINITY DUCHENNE\",\n      \"indication\": \"Duchenne Muscular Dystrophy\",\n      \"endpoint\": \"Functional improvement at one year post-treatment (NSAA and timed function tests) compared to external control\",\n      \"result\": \"Participants demonstrated statistically significant improved performance across NSAA and all timed function tests when compared to external control using propensity score weighting\",\n      \"analysis\": \"statistically significant (propensity score weighting)\",\n      \"comparator\": \"external control\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"Participants demonstrated statistically significant improved performance across NSAA and all timed function tests when compared to external control using propensity score weighting, which is the primary analysis method specified in the SAP for the pivotal trial.\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"RGX-202\",\n      \"trial\": \"AFFINITY DUCHENNE\",\n      \"indication\": \"Duchenne Muscular Dystrophy\",\n      \"endpoint\": \"Safety: serious adverse events\",\n      \"result\": \"Two serious adverse events were reported; both were easily managed and resolved within weeks without sequelae. One case of subacute myocarditis in an 8-year-old; one case of asymptomatic liver injury in a 10-year-old (GGT peak elevation 123 U/L).\",\n      \"analysis\": \"\",\n      \"comparator\": \"\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"Two serious adverse events were reported; both were easily managed and resolved within weeks without sequelae.\",\n        \"One case of subacute myocarditis was reported in an 8-year-old participant.\",\n        \"One case of asymptomatic liver injury was reported in a 10-year-old participant. This patient’s GGT peak elevation was 123 U/L\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"RGX-202\",\n      \"trial\": \"AFFINITY DUCHENNE\",\n      \"indication\": \"Duchenne Muscular Dystrophy\",\n      \"endpoint\": \"Safety: liver inflammation markers (GGT and total bilirubin) up to one year post-treatment\",\n      \"result\": \"Mean gamma-glutamyl transferase (GGT) and total bilirubin did not exceed the upper limit of normal up to one year post-treatment (n=9).\",\n      \"analysis\": \"\",\n      \"comparator\": \"\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"Mean gamma-glutamyl transferase (GGT) and total bilirubin, recognized markers of liver inflammation in Duchenne, did not exceed the upper limit of normal up to one year post-treatment (n=9).\"\n      ],\n      \"confidence\": \"\"\n    }\n  ]\n}"
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 3056,
+   "completion_tokens": 1479,
+   "total_tokens": 4535,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 2544
+  },
+  "system_fingerprint": "a307abda487cd1b463329ccb945ce396"
+ }
+}

@@ -1,0 +1,39 @@
+{
+ "request_meta": {
+  "task": "catalyst",
+  "ticker": "VSTM",
+  "source_id": "MAN-VSTM-3",
+  "chunks": [
+   0,
+   2,
+   3,
+   4
+  ]
+ },
+ "response": {
+  "id": "chatcmpl-d2d35ac1-552d-9a29-881b-230160bcdda9",
+  "object": "chat.completion",
+  "created": 1793422791,
+  "model": "qwen3.7-plus-2026-05-26",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"VS-7375\",\n      \"event\": \"report mature data from the TARGET-D 101 mCRC 900 mg combination with anti-EGFR cohort and initial data from the 600 mg VS-7375 plus cetuximab combination cohort in mPDAC\",\n      \"event_type\": \"data_readout\",\n      \"timing\": \"year-end 2026\",\n      \"quotes\": [\n        \"Plan to report mature data from the TARGET-D 101 mCRC 900 mg combination\",\n        \"with anti-EGFR cohort and initial data from the 600 mg VS-7375 plus cetuximab combination cohort in mPDAC by year-end 2026.\"\n      ]\n    },\n    {\n      \"asset\": \"VS-7375\",\n      \"event\": \"meet with the FDA before the end of the year to review Phase 3 pivotal trial designs in 1L mCRC (TARGET-D 303) and 1L advanced NSCLC (TARGET-D 302)\",\n      \"event_type\": \"other\",\n      \"timing\": \"before the end of the year\",\n      \"quotes\": [\n        \"Plan to meet with the FDA before the end of the year to review Phase 3 pivotal\",\n        \"trial designs in 1L mCRC (TARGET-D 303) and 1L advanced NSCLC (TARGET-D 302).\"\n      ]\n    },\n    {\n      \"asset\": \"VS-7375\",\n      \"event\": \"open the TARGET-D 301 1L mPDAC trial\",\n      \"event_type\": \"trial_start\",\n      \"timing\": \"year-end 2026\",\n      \"quotes\": [\n        \"Plan to open the TARGET-D 301 1L mPDAC trial by year-end 2026. Plan to enroll\"\n      ]\n    },\n    {\n      \"asset\": \"VS-7375\",\n      \"event\": \"enroll the first patient in the CRC and NSCLC Phase 3 pivotal trials\",\n      \"event_type\": \"trial_start\",\n      \"timing\": \"first half of 2027\",\n      \"quotes\": [\n        \"Plan to enroll\",\n        \"the first patient in the CRC and NSCLC Phase 3 pivotal trials in the first half of 2027.\"\n      ]\n    },\n    {\n      \"asset\": \"VS-7375\",\n      \"event\": \"report initial data from the 1L mPDAC combination with GnP\",\n      \"event_type\": \"data_readout\",\n      \"timing\": \"Q1 2027\",\n      \"quotes\": [\n        \"Expect to report initial data from the 1L mPDAC combination with GnP in Q1\",\n        \"2027.\"\n      ]\n    },\n    {\n      \"asset\": \"VS-7375\",\n      \"event\": \"complete enrollment in the TARGET-D 201 (PDAC) and 203 (CRC) Phase 2 trials\",\n      \"event_type\": \"other\",\n      \"timing\": \"end of 2026\",\n      \"quotes\": [\n        \"Expect to complete enrollment in the TARGET-D 201 (PDAC) and 203 (CRC) Phase\",\n        \"2 trials by the end of 2026; TARGET-D 202 (NSCLC) expected in Q2 2027.\"\n      ]\n    },\n    {\n      \"asset\": \"VS-7375\",\n      \"event\": \"complete enrollment in TARGET-D 202 (NSCLC)\",\n      \"event_type\": \"other\",\n      \"timing\": \"Q2 2027\",\n      \"quotes\": [\n        \"Expect to complete enrollment in the TARGET-D 201 (PDAC) and 203 (CRC) Phase\",\n        \"2 trials by the end of 2026; TARGET-D 202 (NSCLC) expected in Q2 2027.\"\n      ]\n    },\n    {\n      \"asset\": \"VS-7375\",\n      \"event\": \"report initial data from Phase 2 TARGET-D 201 2L PDAC\",\n      \"event_type\": \"data_readout\",\n      \"timing\": \"Q2 2027\",\n      \"quotes\": [\n        \"Plan to report initial data from Phase 2 TARGET-D 201 2L PDAC in Q2 2027;\"\n      ]\n    },\n    {\n      \"asset\": \"VS-7375\",\n      \"event\": \"report initial data from the Phase 2 TARGET-D 202 2L NSCLC and TARGET-D 203 2L CRC trials\",\n      \"event_type\": \"data_readout\",\n      \"timing\": \"2H of 2027\",\n      \"quotes\": [\n        \"expect to report initial data from the Phase 2 TARGET-D 202 2L NSCLC and TARGET-D 203 2L CRC trials in the 2H of 2027.\"\n      ]\n    }\n  ]\n}"
+    },
+    "finish_reason": "stop",
+    "logprobs": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 6516,
+   "total_tokens": 7735,
+   "completion_tokens": 1219,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 6516
+   }
+  }
+ }
+}

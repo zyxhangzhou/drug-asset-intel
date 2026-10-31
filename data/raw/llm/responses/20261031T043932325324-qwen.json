@@ -1,0 +1,39 @@
+{
+ "request_meta": {
+  "task": "catalyst",
+  "ticker": "RGNX",
+  "source_id": "MAN-RGNX-1",
+  "chunks": [
+   21,
+   24,
+   48,
+   84
+  ]
+ },
+ "response": {
+  "id": "chatcmpl-32fb0403-40a8-9ae8-8337-083ba3c725f5",
+  "object": "chat.completion",
+  "created": 1793421572,
+  "model": "qwen3.7-plus-2026-05-26",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"sura-vec\",\n      \"event\": \"dose the first patient in NAAVIGATE\",\n      \"event_type\": \"trial_start\",\n      \"timing\": \"second quarter of 2026\",\n      \"quotes\": [\n        \"We expect to dose the first patient in NAAVIGATE in the second quarter of 2026.\"\n      ]\n    },\n    {\n      \"asset\": \"RGX-202\",\n      \"event\": \"share topline data\",\n      \"event_type\": \"data_readout\",\n      \"timing\": \"early second quarter of 2026\",\n      \"quotes\": [\n        \"We expect to share topline data in the early second quarter of 2026 and request a pre-Biologics License Application (BLA) meeting with the FDA in mid-2026.\"\n      ]\n    },\n    {\n      \"asset\": \"RGX-202\",\n      \"event\": \"request a pre-Biologics License Application (BLA) meeting with the FDA\",\n      \"event_type\": \"regulatory_filing\",\n      \"timing\": \"mid-2026\",\n      \"quotes\": [\n        \"We expect to share topline data in the early second quarter of 2026 and request a pre-Biologics License Application (BLA) meeting with the FDA in mid-2026.\"\n      ]\n    },\n    {\n      \"asset\": \"RGX-202\",\n      \"event\": \"Additional regulatory interactions with the FDA and the EMA\",\n      \"event_type\": \"other\",\n      \"timing\": \"1H 2026\",\n      \"quotes\": [\n        \"Additional regulatory interactions with the FDA and the EMA are planned for 1H 2026.\"\n      ]\n    },\n    {\n      \"asset\": \"RGX-121\",\n      \"event\": \"PDUFA goal date\",\n      \"event_type\": \"regulatory_decision\",\n      \"timing\": \"February 8, 2026\",\n      \"quotes\": [\n        \"The Prescription Drug User Fee Act (PDUFA) goal date was extended from November 9, 2025 to February 8, 2026.\"\n      ]\n    }\n  ]\n}"
+    },
+    "finish_reason": "stop",
+    "logprobs": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 4695,
+   "total_tokens": 5236,
+   "completion_tokens": 541,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 4695
+   }
+  }
+ }
+}

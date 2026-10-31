@@ -1,0 +1,39 @@
+{
+ "request_meta": {
+  "task": "catalyst",
+  "ticker": "RGNX",
+  "source_id": "MAN-RGNX-DEBT",
+  "chunks": [
+   1,
+   29,
+   36,
+   37
+  ]
+ },
+ "response": {
+  "id": "chatcmpl-cd5b116b-1e7d-9fed-8a13-5dcae8ef2b51",
+  "object": "chat.completion",
+  "created": 1793421494,
+  "model": "qwen3.7-plus-2026-05-26",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"RGX-202\",\n      \"event\": \"Biologics License Application (BLA) submission\",\n      \"event_type\": \"regulatory_filing\",\n      \"timing\": \"third quarter of 2026\",\n      \"quotes\": [\n        \"we plan to initiate a Biologics License Application (BLA) submission in the third quarter of 2026 under the accelerated approval pathway\"\n      ]\n    },\n    {\n      \"asset\": \"RGX-202\",\n      \"event\": \"potential FDA approval\",\n      \"event_type\": \"regulatory_decision\",\n      \"timing\": \"second half of 2027\",\n      \"quotes\": [\n        \"to support potential FDA approval in the second half of 2027.\"\n      ]\n    },\n    {\n      \"asset\": \"RGX-202\",\n      \"event\": \"initiate AFFINITY ® RISE, a new, ex-U.S. randomized, placebo-controlled study\",\n      \"event_type\": \"trial_start\",\n      \"timing\": \"first half of 2027\",\n      \"quotes\": [\n        \"We expect to initiate AFFINITY ® RISE, a new, ex-U.S. randomized, placebo-controlled study to support RGX-202 global regulatory submissions, in the first half of 2027.\"\n      ]\n    }\n  ]\n}"
+    },
+    "finish_reason": "stop",
+    "logprobs": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 5597,
+   "total_tokens": 5928,
+   "completion_tokens": 331,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 5597
+   }
+  }
+ }
+}

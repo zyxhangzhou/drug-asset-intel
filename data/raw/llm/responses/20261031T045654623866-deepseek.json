@@ -1,0 +1,41 @@
+{
+ "request_meta": {
+  "task": "program",
+  "ticker": "VSTM",
+  "source_id": "MAN-VSTM-1",
+  "chunks": [
+   5,
+   7,
+   11,
+   82
+  ]
+ },
+ "response": {
+  "id": "5496d77d-03e7-42aa-8ff6-65621556a30d",
+  "object": "chat.completion",
+  "created": 1793422614,
+  "model": "deepseek-v4-pro",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"AVMAPKI FAKZYNJA CO-PACK\",\n      \"mechanism\": \"\",\n      \"modality\": \"\",\n      \"quotes\": [\n        \"AVMAPKI FAKZYNJA CO-PACK (avutometinib capsules; defactinib tablets)\"\n      ]\n    },\n    {\n      \"asset\": \"avutometinib\",\n      \"mechanism\": \"inhibit RAF and MEK to block the MAPK pathway\",\n      \"modality\": \"small molecule\",\n      \"quotes\": [\n        \"avutometinib (to inhibit RAF and MEK to block the MAPK pathway)\",\n        \"Our focus is on novel small molecule drugs developed both as monotherapy and in combination, which inhibit critical signaling pathways in cancer that promote cancer cell survival and tumor growth, including targeting RAS directly with KRAS G12D inhibition, targeting the pathway downstream with RAF/MEK inhibition, and targeting the parallel pathway that drives resistance with FAK inhibition.\"\n      ]\n    },\n    {\n      \"asset\": \"defactinib\",\n      \"mechanism\": \"inhibit FAK to reduce stromal density and adaptive resistance to avutometinib\",\n      \"modality\": \"small molecule\",\n      \"quotes\": [\n        \"defactinib (to inhibit FAK to reduce stromal density and adaptive resistance to avutometinib)\",\n        \"Our focus is on novel small molecule drugs developed both as monotherapy and in combination, which inhibit critical signaling pathways in cancer that promote cancer cell survival and tumor growth, including targeting RAS directly with KRAS G12D inhibition, targeting the pathway downstream with RAF/MEK inhibition, and targeting the parallel pathway that drives resistance with FAK inhibition.\"\n      ]\n    },\n    {\n      \"asset\": \"VS-7375\",\n      \"mechanism\": \"KRAS G12D dual ON/OFF inhibitor\",\n      \"modality\": \"small molecule\",\n      \"quotes\": [\n        \"VS-7375 is a potential best-in-class, potent, and selective oral KRAS G12D dual ON/OFF inhibitor.\",\n        \"Our focus is on novel small molecule drugs developed both as monotherapy and in combination, which inhibit critical signaling pathways in cancer that promote cancer cell survival and tumor growth, including targeting RAS directly with KRAS G12D inhibition, targeting the pathway downstream with RAF/MEK inhibition, and targeting the parallel pathway that drives resistance with FAK inhibition.\"\n      ]\n    }\n  ]\n}"
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 5380,
+   "completion_tokens": 511,
+   "total_tokens": 5891,
+   "prompt_tokens_details": {
+    "cached_tokens": 384
+   },
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 4996
+  },
+  "system_fingerprint": "a307abda487cd1b463329ccb945ce396"
+ }
+}

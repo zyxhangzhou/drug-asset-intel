@@ -1,0 +1,41 @@
+{
+ "request_meta": {
+  "task": "program",
+  "ticker": "VKTX",
+  "source_id": "MAN-VKTX-1",
+  "chunks": [
+   3,
+   6,
+   7,
+   8
+  ]
+ },
+ "response": {
+  "id": "7358c2f0-82c5-4964-996c-e41bcf1f573b",
+  "object": "chat.completion",
+  "created": 1793422088,
+  "model": "deepseek-v4-pro",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"VK2809\",\n      \"mechanism\": \"orally available, tissue and receptor-subtype selective agonist of the thyroid hormone receptor beta, or TRß\",\n      \"modality\": \"small molecule\",\n      \"quotes\": [\n        \"We are also developing VK2809, which is an orally available, tissue and receptor-subtype selective agonist of the thyroid hormone receptor beta, or TRß.\",\n        \"VK2809 and VK0214 are novel, orally available, selective TRß agonists in development for metabolic disorders and X-ALD.\"\n      ]\n    },\n    {\n      \"asset\": \"VK0214\",\n      \"mechanism\": \"orally available, tissue and receptor-subtype selective agonist of TRß\",\n      \"modality\": \"small molecule\",\n      \"quotes\": [\n        \"We are also developing VK0214, which is also an orally available, tissue and receptor-subtype selective agonist of TRß for X-linked adrenoleukodystrophy, or X-ALD\",\n        \"VK2809 and VK0214 are novel, orally available, selective TRß agonists in development for metabolic disorders and X-ALD.\"\n      ]\n    },\n    {\n      \"asset\": \"VK5211\",\n      \"mechanism\": \"non-steroidal selective androgen receptor modulator, or SARM\",\n      \"modality\": \"small molecule\",\n      \"quotes\": [\n        \"Other programs include VK5211, an orally available, non-steroidal selective androgen receptor modulator, or SARM.\"\n      ]\n    },\n    {\n      \"asset\": \"VK2735\",\n      \"mechanism\": \"\",\n      \"modality\": \"\",\n      \"quotes\": []\n    },\n    {\n      \"asset\": \"Dual Amylin and Calcitonin Receptor Agonist (DACRA) Program\",\n      \"mechanism\": \"dual amylin and calcitonin receptor agonists, or DACRA\",\n      \"modality\": \"peptide\",\n      \"quotes\": [\n        \"We have a preclinical program focused on developing dual amylin and calcitonin receptor agonists, or DACRA, for the potential treatment of obesity.\",\n        \"Dual amylin and calcitonin receptor agonists are the most potent amylin receptor agonists.\"\n      ]\n    }\n  ]\n}"
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 5169,
+   "completion_tokens": 487,
+   "total_tokens": 5656,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 4913
+  },
+  "system_fingerprint": "a307abda487cd1b463329ccb945ce396"
+ }
+}

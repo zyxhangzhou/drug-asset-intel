@@ -1,0 +1,38 @@
+{
+ "request_meta": {
+  "task": "catalyst",
+  "ticker": "CLDX",
+  "source_id": "MAN-CLDX-2",
+  "chunks": [
+   0,
+   1,
+   2
+  ]
+ },
+ "response": {
+  "id": "chatcmpl-f8b8beec-8039-93bd-9f15-2ca9bd37b340",
+  "object": "chat.completion",
+  "created": 1793421909,
+  "model": "qwen3.7-plus-2026-05-26",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"BARZOLVOLIMAB (CDX-0159)\",\n      \"event\": \"topline data expected\",\n      \"event_type\": \"data_readout\",\n      \"timing\": \"Sept/Oct 2026\",\n      \"quotes\": [\n        \"Barzolvolimab Phase 3 chronic spontaneous urticaria studies (EMBARQ-CSU 1 and 2) ongoing, topline data expected in Sept/Oct 2026\"\n      ]\n    },\n    {\n      \"asset\": \"BARZOLVOLIMAB (CDX-0159)\",\n      \"event\": \"BLA submission planned\",\n      \"event_type\": \"regulatory_filing\",\n      \"timing\": \"2027\",\n      \"quotes\": [\n        \"Barzolvolimab Phase 3 chronic spontaneous urticaria studies (EMBARQ-CSU 1 and 2) ongoing, topline data expected in Sept/Oct 2026; BLA submission planned for 2027\"\n      ]\n    },\n    {\n      \"asset\": \"BARZOLVOLIMAB (CDX-0159)\",\n      \"event\": \"Phase 2 topline data in AD expected\",\n      \"event_type\": \"data_readout\",\n      \"timing\": \"late 2026\",\n      \"quotes\": [\n        \"Phase 3 barzolvolimab cold urticaria and symptomatic dermographism study (EMBARQ-ColdU and -SD) actively enrolling; Phase 2 topline data in AD expected in late 2026\"\n      ]\n    }\n  ]\n}"
+    },
+    "finish_reason": "stop",
+    "logprobs": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 5095,
+   "total_tokens": 5482,
+   "completion_tokens": 387,
+   "prompt_tokens_details": {
+    "cached_tokens": 512,
+    "text_tokens": 5095
+   }
+  }
+ }
+}

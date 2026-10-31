@@ -1,0 +1,38 @@
+{
+ "request_meta": {
+  "task": "program",
+  "ticker": "CLDX",
+  "source_id": "MAN-CLDX-2",
+  "chunks": [
+   0,
+   1,
+   2
+  ]
+ },
+ "response": {
+  "id": "chatcmpl-76dbdce1-774d-9b61-b6d2-2c0d828fe345",
+  "object": "chat.completion",
+  "created": 1793421881,
+  "model": "qwen3.7-plus-2026-05-26",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"BARZOLVOLIMAB (CDX-0159)\",\n      \"mechanism\": \"targets mast cells by binding with high specificity to a unique part of the KIT receptor and potently inhibiting its activity\",\n      \"modality\": \"humanized monoclonal antibody\",\n      \"quotes\": [\n        \"Barzolvolimab is a humanized monoclonal antibody with a novel mechanism of action that targets mast cells by binding with high specificity to a unique part of the KIT receptor and potently inhibiting its activity.\"\n      ]\n    },\n    {\n      \"asset\": \"CDX-622\",\n      \"mechanism\": \"targets soluble SCF and the alarmin thymic stromal lymphopoietin (TSLP)\",\n      \"modality\": \"bispecific antibody\",\n      \"quotes\": [\n        \"CDX-622 is a uniquely engineered novel bispecific antibody that targets soluble SCF and the alarmin thymic stromal lymphopoietin (TSLP)\"\n      ]\n    }\n  ]\n}"
+    },
+    "finish_reason": "stop",
+    "logprobs": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 5097,
+   "total_tokens": 5349,
+   "completion_tokens": 252,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 5097
+   }
+  }
+ }
+}

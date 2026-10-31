@@ -1,0 +1,41 @@
+{
+ "request_meta": {
+  "task": "program",
+  "ticker": "CLDX",
+  "source_id": "DOC-CLDX-c86e5ab4",
+  "chunks": [
+   10,
+   11,
+   22,
+   23
+  ]
+ },
+ "response": {
+  "id": "7f449ca9-0f70-47ff-ae11-73511e136fcf",
+  "object": "chat.completion",
+  "created": 1793421669,
+  "model": "deepseek-v4-pro",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"Barzolvolimab\",\n      \"mechanism\": \"specifically binds the KIT receptor and potently inhibits its activity\",\n      \"modality\": \"monoclonal antibody\",\n      \"quotes\": [\n        \"Barzolvolimab (also referred to as CDX-0159), a monoclonal antibody that specifically binds the KIT receptor and potently inhibits its activity\"\n      ]\n    },\n    {\n      \"asset\": \"CDX-622\",\n      \"mechanism\": \"potently neutralizing the alarmin thymic stromal lymphopoietin (TSLP) and depleting mast cells via stem cell factor (SCF) starvation\",\n      \"modality\": \"bispecific antibody\",\n      \"quotes\": [\n        \"CDX-622 is our first bispecific antibody based on this science and targets two complementary pathways that drive chronic inflammation, potently neutralizing the alarmin thymic stromal lymphopoietin (TSLP) and depleting mast cells via stem cell factor (SCF) starvation.\"\n      ]\n    }\n  ]\n}"
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 6006,
+   "completion_tokens": 227,
+   "total_tokens": 6233,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 5750
+  },
+  "system_fingerprint": "a307abda487cd1b463329ccb945ce396"
+ }
+}

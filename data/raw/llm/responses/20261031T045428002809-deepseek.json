@@ -1,0 +1,40 @@
+{
+ "request_meta": {
+  "task": "clinical_result",
+  "ticker": "ARWR",
+  "source_id": "MAN-ARWR-2",
+  "chunks": [
+   0,
+   1,
+   2
+  ]
+ },
+ "response": {
+  "id": "f78d714b-f152-4f53-8399-8793cbc52826",
+  "object": "chat.completion",
+  "created": 1793422467,
+  "model": "deepseek-v4-pro",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"PLOZASIRAN (ARO-APOC3)\",\n      \"trial\": \"SHASTA-3\",\n      \"indication\": \"severe hypertriglyceridemia (sHTG)\",\n      \"endpoint\": \"median triglyceride reduction from baseline\",\n      \"result\": \"79%\",\n      \"analysis\": \"\",\n      \"comparator\": \"placebo\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"Deep, durable, and consistent median triglyceride reductions of 79% and 81% from baseline were observed in SHASTA-3 and SHASTA-4, respectively.\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"PLOZASIRAN (ARO-APOC3)\",\n      \"trial\": \"SHASTA-4\",\n      \"indication\": \"severe hypertriglyceridemia (sHTG)\",\n      \"endpoint\": \"median triglyceride reduction from baseline\",\n      \"result\": \"81%\",\n      \"analysis\": \"\",\n      \"comparator\": \"placebo\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"Deep, durable, and consistent median triglyceride reductions of 79% and 81% from baseline were observed in SHASTA-3 and SHASTA-4, respectively.\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"PLOZASIRAN (ARO-APOC3)\",\n      \"trial\": \"SHASTA-3 and SHASTA-4\",\n      \"indication\": \"severe hypertriglyceridemia (sHTG)\",\n      \"endpoint\": \"reduction in acute pancreatitis (AP) events\",\n      \"result\": \"78% reduction\",\n      \"analysis\": \"Statistically significant\",\n      \"comparator\": \"placebo\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"Statistically significant 78% reduction in acute pancreatitis (AP) events versus placebo was observed across the entire sHTG study population\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"PLOZASIRAN (ARO-APOC3)\",\n      \"trial\": \"SHASTA-3 and SHASTA-4\",\n      \"indication\": \"severe hypertriglyceridemia (sHTG) with triglycerides above 880 mg/dL and prior AP\",\n      \"endpoint\": \"reduction in acute pancreatitis (AP) events\",\n      \"result\": \"100% event reduction\",\n      \"analysis\": \"\",\n      \"comparator\": \"placebo\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"with an unprecedented 100% event reduction in patients with triglycerides above 880 mg/dL and a prior medical history of AP\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"ARO-INHBE\",\n      \"trial\": \"Phase 1/2a clinical trial\",\n      \"indication\": \"obesity and metabolic dysfunction-associated steatohepatitis (MASH)\",\n      \"endpoint\": \"reductions in liver fat\",\n      \"result\": \"clinically meaningful reductions\",\n      \"analysis\": \"\",\n      \"comparator\": \"none\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"The interim data demonstrate that ARO-INHBE treatment led to clinically meaningful reductions in liver fat as a monotherapy and in combination with low-dose tirzepatide, a GLP-1/GIP receptor co-agonist, in adults with obesity.\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"ARO-PNPLA3\",\n      \"trial\": \"Phase 1 single-ascending dose clinical study\",\n      \"indication\": \"metabolic dysfunction-associated steatohepatitis (MASH)\",\n      \"endpoint\": \"mean reduction in liver fat\",\n      \"result\": \"up to 40%\",\n      \"analysis\": \"\",\n      \"comparator\": \"none\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"In a Phase 1 single-ascending dose clinical study, ARO-PNPLA3 achieved encouraging results, including a dose-dependent mean reduction in liver fat of up to 40% in patients homozygous for the I148M mutation\"\n      ],\n      \"confidence\": \"\"\n    }\n  ]\n}"
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 4721,
+   "completion_tokens": 943,
+   "total_tokens": 5664,
+   "prompt_tokens_details": {
+    "cached_tokens": 640
+   },
+   "prompt_cache_hit_tokens": 640,
+   "prompt_cache_miss_tokens": 4081
+  },
+  "system_fingerprint": "a307abda487cd1b463329ccb945ce396"
+ }
+}

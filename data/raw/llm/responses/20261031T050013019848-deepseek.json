@@ -1,0 +1,41 @@
+{
+ "request_meta": {
+  "task": "program",
+  "ticker": "VSTM",
+  "source_id": "MAN-VSTM-4",
+  "chunks": [
+   0,
+   3,
+   7,
+   8
+  ]
+ },
+ "response": {
+  "id": "61c719d1-0ccb-4d9f-b647-32ca570d4e2b",
+  "object": "chat.completion",
+  "created": 1793422812,
+  "model": "deepseek-v4-pro",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"VS-7375\",\n      \"mechanism\": \"KRAS G12D (ON/OFF) Inhibitor\",\n      \"modality\": \"small molecule\",\n      \"quotes\": [\n        \"VS - 7375 : Potential Best - in - Class KRAS G12D (ON/OFF) Inhibitor\",\n        \"Selective KRAS G12D targeting\",\n        \"Potent, equal ON/OFF inhibition\",\n        \"VS - 7375 is an investigational agent\"\n      ]\n    }\n  ]\n}"
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 5209,
+   "completion_tokens": 121,
+   "total_tokens": 5330,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 4697
+  },
+  "system_fingerprint": "a307abda487cd1b463329ccb945ce396"
+ }
+}

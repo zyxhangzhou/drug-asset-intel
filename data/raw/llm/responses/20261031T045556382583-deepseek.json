@@ -1,0 +1,41 @@
+{
+ "request_meta": {
+  "task": "clinical_result",
+  "ticker": "VSTM",
+  "source_id": "DOC-VSTM-1a4164e2",
+  "chunks": [
+   0,
+   1,
+   25,
+   26
+  ]
+ },
+ "response": {
+  "id": "799ed81f-a28d-4db9-b83f-0e4089a20d02",
+  "object": "chat.completion",
+  "created": 1793422556,
+  "model": "deepseek-v4-pro",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"avutometinib and defactinib\",\n      \"trial\": \"RAMP 201\",\n      \"indication\": \"recurrent low-grade serous ovarian cancer (LGSOC)\",\n      \"endpoint\": \"durable benefit (two-year median follow-up)\",\n      \"result\": \"durable benefit across both KRAS-mutant and KRAS wild-type recurrent LGSOC patients\",\n      \"analysis\": \"\",\n      \"comparator\": \"none\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"In April 2026, we announced new two-year median follow up data from the Phase 2 RAMP 201 trial that demonstrated durable benefit of avutometinib plus defactinib across both KRAS-mutant and KRAS wild-type recurrent LGSOC patients, with discontinuation rates due to adverse events remaining consistent with the primary analysis, presented at the Society of Gynecologic Oncology 2026 Annual Meeting on Women’s Cancers.\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"avutometinib and defactinib\",\n      \"trial\": \"RAMP 205\",\n      \"indication\": \"first-line metastatic pancreatic ductal carcinoma (PDAC)\",\n      \"endpoint\": \"confirmed objective response rate (cORR) as of June 5, 2026 data cutoff (median follow-up 9.8 months)\",\n      \"result\": \"52% confirmed objective response rate (cORR); 86% overall survival rate at six months; 68% progression-free survival rate at six months\",\n      \"analysis\": \"\",\n      \"comparator\": \"none\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"In June 2026, we announced positive updated results from the RAMP 205 Phase 1b/2a recommended phase 2 dose cohort of 29 patients evaluating avutometinib plus defactinib in combination with gemcitabine and nab-paclitaxel in first-line metastatic pancreatic ductal carcinoma (PDAC). As of the June 5, 2026 data cutoff (median follow-up of 9.8 months) the combination achieved a 52% confirmed objective response rate (cORR), with both an 86% overall survival rate and 68% progression-free survival rate at six months.\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"avutometinib and defactinib\",\n      \"trial\": \"RAMP 201 Japan study\",\n      \"indication\": \"recurrent low-grade serous ovarian cancer (LGSOC)\",\n      \"endpoint\": \"overall response rate (ORR) and disease control rate (DCR) as of May 29, 2026 (median follow-up 12.4 months)\",\n      \"result\": \"44% overall response rate; 94% disease control rate across all patients; 71% ORR in KRAS-mutated; 22% ORR in KRAS wild-type; DCR 100% and 89% respectively; 94% tumor shrinkage; 11 of 16 patients remained on treatment\",\n      \"analysis\": \"\",\n      \"comparator\": \"none\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"In July 2026, updated data from the RAMP 201 Japan study were presented at the Annual Meeting of the Japanese Society of Gynecologic Oncology (JSGO). As of May 29, 2026, 16 efficacy-evaluable patients with recurrent LGSOC had received avutometinib plus defactinib, with a median follow up of 12.4 months. The combination achieved a 44% overall response rate and a 94% disease control rate across all patients. Response rates were 71% in patients with KRAS-mutated tumors and 22% in those with KRAS wild-type tumors, with disease control rates of 100% and 89%, respectively. Overall, 94% of patients experienced tumor shrinkage, and 11 of 16 patients remained on treatment at the data cutoff.\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"VS-7375\",\n      \"trial\": \"TARGET-D 101 (VS-7375-101)\",\n      \"indication\": \"advanced KRAS G12D mutant solid tumors, including PDAC, NSCLC, CRC\",\n      \"endpoint\": \"dose escalation safety (dose-limiting toxicities) and preliminary anti-tumor activity\",\n      \"result\": \"cleared multiple monotherapy dose levels, including 1200 mg QD with no DLTs; cleared multiple dose levels in combination with cetuximab with no DLTs; encouraging anti-tumor activity across multiple KRAS G12D-driven tumor types\",\n      \"analysis\": \"\",\n      \"comparator\": \"none\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"In the TARGET-D 101 Phase 1/2 study, the Company cleared multiple monotherapy dose levels, including the 1200 mg QD dose with no dose-limiting toxicities (“DLTs”) and no major toxicities.\",\n        \"The Company also cleared multiple dose levels in combination with cetuximab with no DLTs.\",\n        \"In June 2026, we announced during an R&D event preliminary update and progress from the VS-7375 TARGET-D clinical development program. Data presented in June continued to support a differentiated profile of VS-7375, demonstrating encouraging anti-tumor activity across multiple KRAS G12D-driven tumor types, including metastatic PDAC, metastatic CRC and advanced NSCLC, with evidence of dose-dependent activity, favorable pharmacokinetics (“PK”) supporting target exposure, and a favorable and manageable safety and tolerability profile.\"\n      ],\n      \"confidence\": \"\"\n    }\n  ]\n}"
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 5035,
+   "completion_tokens": 1231,
+   "total_tokens": 6266,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 4779
+  },
+  "system_fingerprint": "a307abda487cd1b463329ccb945ce396"
+ }
+}

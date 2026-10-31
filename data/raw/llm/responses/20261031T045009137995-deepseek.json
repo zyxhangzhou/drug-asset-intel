@@ -1,0 +1,41 @@
+{
+ "request_meta": {
+  "task": "catalyst",
+  "ticker": "VKTX",
+  "source_id": "MAN-VKTX-3",
+  "chunks": [
+   0,
+   2,
+   3,
+   4
+  ]
+ },
+ "response": {
+  "id": "c9d934bc-ec55-4317-b4e5-64b8aa464a7a",
+  "object": "chat.completion",
+  "created": 1793422209,
+  "model": "deepseek-v4-pro",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"VK2735\",\n      \"event\": \"VANQUISH Phase 3 trials completion\",\n      \"event_type\": \"data_readout\",\n      \"timing\": \"2027\",\n      \"quotes\": [\n        \"The company expects these studies to be completed in 2027.\"\n      ]\n    },\n    {\n      \"asset\": \"VK2735\",\n      \"event\": \"VANQUISH extension studies initiation\",\n      \"event_type\": \"trial_start\",\n      \"timing\": \"early 2027\",\n      \"quotes\": [\n        \"results from this study will help inform the selection of doses in the upcoming VANQUISH extension studies, expected to begin in early 2027.\"\n      ]\n    },\n    {\n      \"asset\": \"VK2735\",\n      \"event\": \"Part 2 maintenance dosing study results\",\n      \"event_type\": \"data_readout\",\n      \"timing\": \"2027\",\n      \"quotes\": [\n        \"The company expects the results from Part 2 of this study to be available in 2027.\"\n      ]\n    },\n    {\n      \"asset\": \"VK3019\",\n      \"event\": \"Initiate 4-week multiple ascending dose study\",\n      \"event_type\": \"trial_start\",\n      \"timing\": \"1Q27\",\n      \"quotes\": [\n        \"The company expects to complete the SAD study later this quarter and initiate a 4 week multiple ascending dose (MAD) study of VK3019 in 1Q27.\"\n      ]\n    }\n  ]\n}"
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 5321,
+   "completion_tokens": 339,
+   "total_tokens": 5660,
+   "prompt_tokens_details": {
+    "cached_tokens": 384
+   },
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 4937
+  },
+  "system_fingerprint": "a307abda487cd1b463329ccb945ce396"
+ }
+}

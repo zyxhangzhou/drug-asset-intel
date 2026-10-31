@@ -1,0 +1,38 @@
+{
+ "request_meta": {
+  "task": "program",
+  "ticker": "VSTM",
+  "source_id": "MAN-VSTM-3",
+  "chunks": [
+   0,
+   2,
+   3
+  ]
+ },
+ "response": {
+  "id": "chatcmpl-cc530b8b-43b2-9d56-84c0-0c5310c1345e",
+  "object": "chat.completion",
+  "created": 1793422733,
+  "model": "qwen3.7-plus-2026-05-26",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"VS-7375\",\n      \"mechanism\": \"oral KRAS G12D dual ON/OFF inhibitor\",\n      \"modality\": \"small molecule\",\n      \"quotes\": [\n        \"VS-7375, an investigational and potential best-in-class oral KRAS G12D (ON/OFF) inhibitor\",\n        \"VS-7375 is a potential best-in-class, potent, and selective investigational oral KRAS G12D dual ON/OFF inhibitor.\",\n        \"Our pipeline is focused on novel small molecule drugs that inhibit critical signaling pathways in cancer\"\n      ]\n    }\n  ]\n}"
+    },
+    "finish_reason": "stop",
+    "logprobs": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 5472,
+   "total_tokens": 5629,
+   "completion_tokens": 157,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 5472
+   }
+  }
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "request_meta": {
+  "task": "catalyst",
+  "ticker": "RGNX",
+  "source_id": "DOC-RGNX-a7b98e30",
+  "chunks": [
+   0,
+   2
+  ]
+ },
+ "response": {
+  "id": "chatcmpl-e8b0110b-25fc-9c6a-bc27-92fa778f4b41",
+  "object": "chat.completion",
+  "created": 1793421666,
+  "model": "qwen3.7-plus-2026-05-26",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"RGX-202\",\n      \"event\": \"potential accelerated approval\",\n      \"event_type\": \"regulatory_decision\",\n      \"timing\": \"2027\",\n      \"quotes\": [\n        \"Company preparing for potential accelerated approval in 2027\"\n      ]\n    }\n  ]\n}"
+    },
+    "finish_reason": "stop",
+    "logprobs": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 2959,
+   "total_tokens": 3047,
+   "completion_tokens": 88,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 2959
+   }
+  }
+ }
+}

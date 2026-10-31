@@ -1,0 +1,39 @@
+{
+ "request_meta": {
+  "task": "program",
+  "ticker": "ARWR",
+  "source_id": "MAN-ARWR-1",
+  "chunks": [
+   2,
+   3,
+   7,
+   31
+  ]
+ },
+ "response": {
+  "id": "chatcmpl-e8d902c6-b66f-907e-91bd-8996c864dc72",
+  "object": "chat.completion",
+  "created": 1793422427,
+  "model": "qwen3.7-plus-2026-05-26",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"PLOZASIRAN (ARO-APOC3)\",\n      \"mechanism\": \"suppress the production of apolipoprotein C-III (APOC3)\",\n      \"modality\": \"siRNA\",\n      \"quotes\": [\n        \"REDEMPLO is an siRNA therapeutic designed to suppress the production of apolipoprotein C-III (APOC3)\",\n        \"Plozasiran (formerly ARO-APOC3) is designed to reduce production of apolipoprotein C-III (APOC3)\"\n      ]\n    },\n    {\n      \"asset\": \"ZODASIRAN (ARO-ANG3)\",\n      \"mechanism\": \"reduce production of angiopoietin-like protein 3 (ANGPTL3)\",\n      \"modality\": \"siRNA\",\n      \"quotes\": [\n        \"Zodasiran (formerly ARO-ANG3) is designed to reduce production of angiopoietin-like protein 3 (ANGPTL3)\"\n      ]\n    },\n    {\n      \"asset\": \"ARO-DIMERPA\",\n      \"mechanism\": \"\",\n      \"modality\": \"\",\n      \"quotes\": []\n    },\n    {\n      \"asset\": \"ARO-DUX4\",\n      \"mechanism\": \"target the gene that encodes human double homeobox 4 (DUX4) protein\",\n      \"modality\": \"RNAi\",\n      \"quotes\": [\n        \"ARO-DUX4 is designed to target the gene that encodes human double homeobox 4 (DUX4) protein\",\n        \"selective targeting and knockdown of DUX4 using RNAi\"\n      ]\n    },\n    {\n      \"asset\": \"ARO-DM1\",\n      \"mechanism\": \"reduce expression of the dystrophia myotonica protein kinase (DMPK) gene\",\n      \"modality\": \"\",\n      \"quotes\": [\n        \"ARO-DM1 is designed to reduce expression of the dystrophia myotonica protein kinase (DMPK) gene\"\n      ]\n    },\n    {\n      \"asset\": \"ARO-MMP7 INHALATION\",\n      \"mechanism\": \"reduce expression of matrix metalloproteinase 7 (MMP7)\",\n      \"modality\": \"\",\n      \"quotes\": [\n        \"ARO-MMP7 is designed to reduce expression of matrix metalloproteinase 7 (MMP7)\"\n      ]\n    },\n    {\n      \"asset\": \"ARO-ATXN2\",\n      \"mechanism\": \"reduce the expression of the ATXN2 gene\",\n      \"modality\": \"\",\n      \"quotes\": [\n        \"ARO-ATXN2 is designed to reduce the expression of the ATXN2 gene\"\n      ]\n    },\n    {\n      \"asset\": \"ARO-SNCA\",\n      \"mechanism\": \"against alpha-synuclein\",\n      \"modality\": \"siRNA\",\n      \"quotes\": [\n        \"The agreement covers ARO-SNCA, Arrowhead’s preclinical stage siRNA therapy against alpha-synuclein\"\n      ]\n    }\n  ]\n}"
+    },
+    "finish_reason": "stop",
+    "logprobs": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 5533,
+   "total_tokens": 6244,
+   "completion_tokens": 711,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 5533
+   }
+  }
+ }
+}

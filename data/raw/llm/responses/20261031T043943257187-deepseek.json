@@ -1,0 +1,39 @@
+{
+ "request_meta": {
+  "task": "program",
+  "ticker": "RGNX",
+  "source_id": "MAN-RGNX-2",
+  "chunks": [
+   0,
+   2
+  ]
+ },
+ "response": {
+  "id": "bf16fb08-db6c-41cc-9311-179e7230d7ec",
+  "object": "chat.completion",
+  "created": 1793421582,
+  "model": "deepseek-v4-pro",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"RGX-202\",\n      \"mechanism\": \"designed to address the underlying cause of Duchenne by enabling targeted expression of a novel microdystrophin that is closest to naturally occurring dystrophin\",\n      \"modality\": \"gene therapy\",\n      \"quotes\": [\n        \"RGX-202 is a potential best-in-class gene therapy for Duchenne muscular dystrophy (Duchenne).\",\n        \"RGX-202 is designed to address the underlying cause of Duchenne by enabling targeted expression of a novel microdystrophin that is closest to naturally occurring dystrophin.\"\n      ]\n    },\n    {\n      \"asset\": \"surabgene lomparvovec (sura-vec, ABBV-RGX-314)\",\n      \"mechanism\": \"\",\n      \"modality\": \"gene therapy\",\n      \"quotes\": [\n        \"Surabgene lomparvovec (sura-vec, ABBV-RGX-314), developed in collaboration with AbbVie, is potentially the first-in-class gene therapy treatment for wet age-related macular degeneration (wet AMD) and diabetic retinopathy (DR).\"\n      ]\n    },\n    {\n      \"asset\": \"NAVSUNLI™ (clemidsogene lanparvovec-sngl, RGX-121)\",\n      \"mechanism\": \"\",\n      \"modality\": \"gene therapy\",\n      \"quotes\": [\n        \"NAVSUNLI™ (clemidsogene lanparvovec-sngl, RGX-121) for the treatment of MPS II\"\n      ]\n    },\n    {\n      \"asset\": \"RGX-111\",\n      \"mechanism\": \"\",\n      \"modality\": \"gene therapy\",\n      \"quotes\": [\n        \"RGX-111 for the treatment of MPS I\"\n      ]\n    }\n  ]\n}"
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 3232,
+   "completion_tokens": 403,
+   "total_tokens": 3635,
+   "prompt_tokens_details": {
+    "cached_tokens": 384
+   },
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 2848
+  },
+  "system_fingerprint": "a307abda487cd1b463329ccb945ce396"
+ }
+}

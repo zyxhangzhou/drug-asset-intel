@@ -1,0 +1,41 @@
+{
+ "request_meta": {
+  "task": "program",
+  "ticker": "ARWR",
+  "source_id": "DOC-ARWR-6a63d389",
+  "chunks": [
+   3,
+   24,
+   26,
+   27
+  ]
+ },
+ "response": {
+  "id": "fb1f017f-3884-4c56-b9dd-0e151e964bd9",
+  "object": "chat.completion",
+  "created": 1793422341,
+  "model": "deepseek-v4-pro",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"PLOZASIRAN (ARO-APOC3)\",\n      \"mechanism\": \"suppress the production of apolipoprotein C-III (APOC3)\",\n      \"modality\": \"small interfering RNA (siRNA)\",\n      \"quotes\": [\n        \"REDEMPLO is a small interfering RNA (“siRNA”) therapeutic designed to suppress the production of apolipoprotein C-III (APOC3), a protein produced in the liver that raises triglyceride levels by slowing their breakdown and clearance.\"\n      ]\n    },\n    {\n      \"asset\": \"ARO-PNPLA3\",\n      \"mechanism\": \"reduce liver expression of patatin-like phospholipase domain containing 3 (PNPLA3)\",\n      \"modality\": \"RNA interference (RNAi) therapeutic\",\n      \"quotes\": [\n        \"Announced an exclusive worldwide license agreement with Madrigal Pharmaceuticals for ARO-PNPLA3, Arrowhead’s clinical stage RNA interference (RNAi) therapeutic designed to reduce liver expression of patatin-like phospholipase domain containing 3 (PNPLA3) as a potential treatment for patients with metabolic dysfunction-associated steatohepatitis (MASH)\"\n      ]\n    },\n    {\n      \"asset\": \"ARO-INHBE\",\n      \"mechanism\": \"\",\n      \"modality\": \"RNA interference (RNAi) therapeutic\",\n      \"quotes\": [\n        \"Presented interim results from a Phase 1/2a clinical trial of ARO-INHBE, the Company’s investigational RNA interference (RNAi) therapeutic being developed as a potential treatment for obesity and metabolic dysfunction-associated steatohepatitis (MASH).\"\n      ]\n    },\n    {\n      \"asset\": \"ARO-DIMER-PA\",\n      \"mechanism\": \"silence expression of both proprotein convertase subtilisin kexin 9 (PCSK9) and apolipoprotein C3 (APOC3) genes\",\n      \"modality\": \"RNAi therapeutic\",\n      \"quotes\": [\n        \"Initiated and dosed the first subjects in a Phase 1/2a clinical trial of ARO-DIMER-PA, the Company’s investigational RNAi therapeutic being developed as a potential treatment for atherosclerotic cardiovascular disease (ASCVD) due to mixed hyperlipidemia.\",\n        \"ARO-DIMER-PA is designed to silence expression of both proprotein convertase subtilisin kexin 9 (PCSK9) and apolipoprotein C3 (APOC3) genes.\"\n      ]\n    },\n    {\n      \"asset\": \"ARO-ALK7\",\n      \"mechanism\": \"\",\n      \"modality\": \"RNAi-therapeutic\",\n      \"quotes\": [\n        \"ARO-ALK7, the first RNAi-therapeutic to show adipocyte gene target silencing in a clinical trial, achieved dose dependent reductions in adipose ALK7 messenger (mRNA) with a mean reduction of -88% at the 200 mg dose at week 8 with a maximum reduction of -94%.\"\n      ]\n    },\n    {\n      \"asset\": \"ARO-MAPT\",\n      \"mechanism\": \"\",\n      \"modality\": \"RNAi therapeutic\",\n      \"quotes\": [\n        \"Initiated and dosed the first subjects in a Phase 1/2a clinical trial of ARO-MAPT, the Company’s investigational RNAi therapeutic being developed as a potential treatment for tauopathies including Alzheimer’s disease, a progressive neurodegenerative disease characterized by cognitive and functional decline.\"\n      ]\n    },\n    {\n      \"asset\": \"ARO-DM1\",\n      \"mechanism\": \"\",\n      \"modality\": \"RNAi therapeutic\",\n      \"quotes\": [\n        \"the Company earned a $200.0 million milestone payment from Sarepta Therapeutics, Inc., which was triggered on November 20, 2025, when the Company reached the second of two prespecified enrollment targets and subsequent authorization to dose escalate in a Phase 1/2 clinical study of ARO-DM1, an investigational RNAi therapeutic for the treatment of type 1 myotonic dystrophy (DM1).\"\n      ]\n    }\n  ]\n}"
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 5597,
+   "completion_tokens": 884,
+   "total_tokens": 6481,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 5341
+  },
+  "system_fingerprint": "a307abda487cd1b463329ccb945ce396"
+ }
+}

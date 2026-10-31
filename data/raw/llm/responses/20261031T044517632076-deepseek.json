@@ -1,0 +1,38 @@
+{
+ "request_meta": {
+  "task": "program",
+  "ticker": "CLDX",
+  "source_id": "MAN-CLDX-1",
+  "chunks": [
+   1
+  ]
+ },
+ "response": {
+  "id": "1227e10c-5fd6-418d-b8de-868de9c27443",
+  "object": "chat.completion",
+  "created": 1793421916,
+  "model": "deepseek-v4-pro",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"BARZOLVOLIMAB\",\n      \"mechanism\": \"targets mast cells by binding with high specificity to a unique part of the KIT receptor and potently inhibiting its activity\",\n      \"modality\": \"humanized monoclonal antibody\",\n      \"quotes\": [\n        \"Barzolvolimab is a humanized monoclonal antibody with a novel mechanism of action that targets mast cells by binding with high specificity to a unique part of the KIT receptor and potently inhibiting its activity.\"\n      ]\n    }\n  ]\n}"
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 2085,
+   "completion_tokens": 119,
+   "total_tokens": 2204,
+   "prompt_tokens_details": {
+    "cached_tokens": 640
+   },
+   "prompt_cache_hit_tokens": 640,
+   "prompt_cache_miss_tokens": 1445
+  },
+  "system_fingerprint": "a307abda487cd1b463329ccb945ce396"
+ }
+}

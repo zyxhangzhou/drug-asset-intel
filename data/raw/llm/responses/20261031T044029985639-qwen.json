@@ -1,0 +1,38 @@
+{
+ "request_meta": {
+  "task": "program",
+  "ticker": "RGNX",
+  "source_id": "DOC-RGNX-a7b98e30",
+  "chunks": [
+   0,
+   1,
+   2
+  ]
+ },
+ "response": {
+  "id": "chatcmpl-de710b1c-8711-917a-a66b-571cf4d259a3",
+  "object": "chat.completion",
+  "created": 1793421629,
+  "model": "qwen3.7-plus-2026-05-26",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"RGX-202\",\n      \"mechanism\": \"enabling targeted expression of a novel microdystrophin that is closest to naturally occurring dystrophin\",\n      \"modality\": \"gene therapy\",\n      \"quotes\": [\n        \"RGX-202, a potential best-in-class gene therapy for Duchenne Muscular Dystrophy.\",\n        \"RGX-202 is designed to address the underlying cause of Duchenne by enabling targeted expression of a novel microdystrophin that is closest to naturally occurring dystrophin.\"\n      ]\n    },\n    {\n      \"asset\": \"RGX-121\",\n      \"mechanism\": \"\",\n      \"modality\": \"AAV gene therapy\",\n      \"quotes\": [\n        \"REGENXBIO has pioneered the field of AAV gene therapy.\",\n        \"clemidsogene lanparvovec (RGX-121) for the treatment of MPS II\"\n      ]\n    },\n    {\n      \"asset\": \"RGX-111\",\n      \"mechanism\": \"\",\n      \"modality\": \"AAV gene therapy\",\n      \"quotes\": [\n        \"REGENXBIO has pioneered the field of AAV gene therapy.\",\n        \"RGX-111 for the treatment of MPS I,\"\n      ]\n    },\n    {\n      \"asset\": \"ABBV-RGX-314\",\n      \"mechanism\": \"\",\n      \"modality\": \"AAV gene therapy\",\n      \"quotes\": [\n        \"REGENXBIO has pioneered the field of AAV gene therapy.\",\n        \"surabgene lomparvovec (ABBV-RGX-314) for the treatment of wet AMD and diabetic retinopathy\"\n      ]\n    }\n  ]\n}"
+    },
+    "finish_reason": "stop",
+    "logprobs": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 4213,
+   "total_tokens": 4629,
+   "completion_tokens": 416,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 4213
+   }
+  }
+ }
+}

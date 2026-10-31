@@ -1,0 +1,39 @@
+{
+ "request_meta": {
+  "task": "clinical_result",
+  "ticker": "ARWR",
+  "source_id": "MAN-ARWR-1",
+  "chunks": [
+   7,
+   38,
+   71,
+   74
+  ]
+ },
+ "response": {
+  "id": "chatcmpl-165e6d2f-a853-9eef-86b8-4eb986edbd9c",
+  "object": "chat.completion",
+  "created": 1793422443,
+  "model": "qwen3.7-plus-2026-05-26",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"PLOZASIRAN (ARO-APOC3)\",\n      \"trial\": \"PALISADE\",\n      \"indication\": \"Familial Chylomicronemia Syndrome (FCS)\",\n      \"endpoint\": \"reductions in triglycerides and APOC3\",\n      \"result\": \"25 mg REDEMPLO achieved deep and durable reductions in triglycerides, with a median change from baseline of -80% versus -17% in the pooled placebo group\",\n      \"analysis\": \"\",\n      \"comparator\": \"placebo\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"The FDA approved the Company's New Drug Application (NDA) for REDEMPLO (plozasiran) injection for Familial Chylomicronemia Syndrome (FCS), on November 18, 2025.\",\n        \"This approval was supported by clinical data from the Phase 3 PALISADE study, a randomized, double-blind, placebo-controlled trial in adults with clinically diagnosed or genetically confirmed FCS.\",\n        \"The PALISADE study met its primary endpoint and all multiplicity-controlled key secondary endpoints, including demonstrating significant reductions in triglycerides and APOC3.\",\n        \"In PALISADE, 25 mg REDEMPLO achieved deep and durable reductions in triglycerides, with a median change from baseline of -80% versus -17% in the pooled placebo group\"\n      ],\n      \"confidence\": \"\"\n    }\n  ]\n}"
+    },
+    "finish_reason": "stop",
+    "logprobs": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 5316,
+   "total_tokens": 5660,
+   "completion_tokens": 344,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 5316
+   }
+  }
+ }
+}

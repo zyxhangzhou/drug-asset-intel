@@ -1,0 +1,41 @@
+{
+ "request_meta": {
+  "task": "catalyst",
+  "ticker": "CLDX",
+  "source_id": "DOC-CLDX-c86e5ab4",
+  "chunks": [
+   2,
+   9,
+   22,
+   26
+  ]
+ },
+ "response": {
+  "id": "37692fbd-0208-44f8-a556-0765516fb8cb",
+  "object": "chat.completion",
+  "created": 1793421768,
+  "model": "deepseek-v4-pro",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": []\n}"
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 5331,
+   "completion_tokens": 7,
+   "total_tokens": 5338,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 4819
+  },
+  "system_fingerprint": "a307abda487cd1b463329ccb945ce396"
+ }
+}

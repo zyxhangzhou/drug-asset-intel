@@ -1,0 +1,38 @@
+{
+ "request_meta": {
+  "task": "program",
+  "ticker": "ARWR",
+  "source_id": "DOC-ARWR-d7e7cc5b",
+  "chunks": [
+   0,
+   1,
+   2
+  ]
+ },
+ "response": {
+  "id": "chatcmpl-93c5cdc6-433f-9001-9393-bab08c275119",
+  "object": "chat.completion",
+  "created": 1793422508,
+  "model": "qwen3.7-plus-2026-05-26",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"PLOZASIRAN (ARO-APOC3)\",\n      \"mechanism\": \"suppress the production of apoC-III\",\n      \"modality\": \"small interfering RNA (siRNA) medicine\",\n      \"quotes\": [\n        \"REDEMPLO (plozasiran), a small interfering RNA (siRNA) medicine\",\n        \"REDEMPLO is an siRNA therapeutic designed to suppress the production of apoC-III\"\n      ]\n    }\n  ]\n}"
+    },
+    "finish_reason": "stop",
+    "logprobs": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 3924,
+   "total_tokens": 4046,
+   "completion_tokens": 122,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 3924
+   }
+  }
+ }
+}

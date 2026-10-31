@@ -1,0 +1,39 @@
+{
+ "request_meta": {
+  "task": "catalyst",
+  "ticker": "VSTM",
+  "source_id": "MAN-VSTM-1",
+  "chunks": [
+   5,
+   46,
+   82,
+   143
+  ]
+ },
+ "response": {
+  "id": "chatcmpl-f9463fe2-4319-97de-8674-79a79a7eab54",
+  "object": "chat.completion",
+  "created": 1793422680,
+  "model": "qwen3.7-plus-2026-05-26",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"AVUTOMETINIB DEFACTINIB\",\n      \"event\": \"topline readout of the primary endpoint of the RAMP 301 trial\",\n      \"event_type\": \"data_readout\",\n      \"timing\": \"mid-2027\",\n      \"quotes\": [\n        \"We expect to report a topline readout of the primary endpoint in mid-2027.\"\n      ]\n    }\n  ]\n}"
+    },
+    "finish_reason": "stop",
+    "logprobs": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 5713,
+   "total_tokens": 5828,
+   "completion_tokens": 115,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 5713
+   }
+  }
+ }
+}

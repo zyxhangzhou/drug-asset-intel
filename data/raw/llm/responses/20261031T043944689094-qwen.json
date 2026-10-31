@@ -1,0 +1,37 @@
+{
+ "request_meta": {
+  "task": "program",
+  "ticker": "RGNX",
+  "source_id": "MAN-RGNX-2",
+  "chunks": [
+   0,
+   2
+  ]
+ },
+ "response": {
+  "id": "chatcmpl-abda6e9d-f432-9275-85ab-ad30b5466fbb",
+  "object": "chat.completion",
+  "created": 1793421585,
+  "model": "qwen3.7-plus-2026-05-26",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"RGX-202\",\n      \"mechanism\": \"enabling targeted expression of a novel microdystrophin that is closest to naturally occurring dystrophin\",\n      \"modality\": \"gene therapy\",\n      \"quotes\": [\n        \"RGX-202 is a potential best-in-class gene therapy for Duchenne muscular dystrophy (Duchenne).\",\n        \"RGX-202 is designed to address the underlying cause of Duchenne by enabling targeted expression of a novel microdystrophin that is closest to naturally occurring dystrophin.\"\n      ]\n    },\n    {\n      \"asset\": \"surabgene lomparvovec\",\n      \"mechanism\": \"\",\n      \"modality\": \"gene therapy\",\n      \"quotes\": [\n        \"Surabgene lomparvovec (sura-vec, ABBV-RGX-314), developed in collaboration with AbbVie, is potentially the first-in-class gene therapy treatment for wet age-related macular degeneration (wet AMD) and diabetic retinopathy (DR).\"\n      ]\n    },\n    {\n      \"asset\": \"NAVSUNLI™\",\n      \"mechanism\": \"\",\n      \"modality\": \"AAV gene therapy\",\n      \"quotes\": [\n        \"REGENXBIO has pioneered the field of AAV gene therapy.\",\n        \"REGENXBIO is advancing a late-stage pipeline of one-time treatments for rare and retinal diseases, including ... NAVSUNLI™ (clemidsogene lanparvovec-sngl, RGX-121) for the treatment of MPS II\"\n      ]\n    },\n    {\n      \"asset\": \"RGX-111\",\n      \"mechanism\": \"\",\n      \"modality\": \"AAV gene therapy\",\n      \"quotes\": [\n        \"REGENXBIO has pioneered the field of AAV gene therapy.\",\n        \"REGENXBIO is advancing a late-stage pipeline of one-time treatments for rare and retinal diseases, including ... and RGX-111 for the treatment of MPS I\"\n      ]\n    }\n  ]\n}"
+    },
+    "finish_reason": "stop",
+    "logprobs": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 3500,
+   "total_tokens": 3986,
+   "completion_tokens": 486,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 3500
+   }
+  }
+ }
+}

@@ -1,0 +1,38 @@
+{
+ "request_meta": {
+  "task": "catalyst",
+  "ticker": "VKTX",
+  "source_id": "DOC-VKTX-403794ba",
+  "chunks": [
+   0
+  ]
+ },
+ "response": {
+  "id": "712d34e1-2b69-4b88-b711-8bc7234b6e64",
+  "object": "chat.completion",
+  "created": 1793422339,
+  "model": "deepseek-v4-pro",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": []\n}"
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1190,
+   "completion_tokens": 7,
+   "total_tokens": 1197,
+   "prompt_tokens_details": {
+    "cached_tokens": 384
+   },
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 806
+  },
+  "system_fingerprint": "a307abda487cd1b463329ccb945ce396"
+ }
+}

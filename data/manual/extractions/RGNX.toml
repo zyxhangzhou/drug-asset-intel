@@ -1,0 +1,1180 @@
+# LLM extraction review. Set decision per item (accept / reject), then sign verified_by.
+# Only accepted items of a signed file enter the snapshot; quotes are rechecked at build.
+ticker = "RGNX"
+verified_by = ""
+
+[[items]]
+id = "p-ac91eb8e"
+type = "program"
+source_id = "MAN-RGNX-DEBT"
+asset = "ABBV-RGX-314 (surabgene lomparvovec, sura-vec)"
+mechanism = "deliver a gene encoding a therapeutic antibody fragment to inhibit vascular endothelial growth factor (VEGF)"
+modality = "gene therapy"
+quotes = ["Sura-vec uses the NAV ® AAV8 vector to deliver a gene encoding a therapeutic antibody fragment to inhibit vascular endothelial growth factor (VEGF).", "We are developing ABBV-RGX-314 (surabgene lomparvovec, sura-vec) in collaboration with AbbVie as a potential one-time treatment for chronic retinal conditions that cause total or partial vision loss, including wet age-related macular degeneration (wet AMD) and diabetic retinopathy (DR)."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "disputed"
+decision = ""
+note = ""
+
+[[items]]
+id = "p-ee6c22cf"
+type = "program"
+source_id = "MAN-RGNX-DEBT"
+asset = "RGX-121 (clemidsogene lanparvovec)"
+mechanism = ""
+modality = "gene therapy"
+quotes = ["The FDA stated in the CRL that it had agreed to the study protocol in principle and outlined several reasons for not approving the gene therapy, including uncertainty regarding the study eligibility criteria to adequately define a population with neuronopathic disease (vs. attenuated disease), the comparability of the natural history external control to the study population, and the appropriateness of CSF HS D2S6 as a surrogate endpoint reasonably likely to predict clinical benefit.", "If approved, RGX-121 would be the first approved gene therapy and one-time treatment for MPS II."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "disputed"
+decision = ""
+note = ""
+
+[[items]]
+id = "p-db8378ef"
+type = "program"
+source_id = "MAN-RGNX-DEBT"
+asset = "RGX-111"
+mechanism = "deliver the IDUA gene"
+modality = "AAV therapeutic"
+quotes = ["We are developing RGX-111 in collaboration with Nippon Shinyaku in the United States and certain countries in Asia as an investigational one-time AAV therapeutic for the treatment of Mucopolysaccharidosis Type I (MPS I), also known as Hurler syndrome, using the NAV AAV9 vector to deliver the IDUA gene."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "disputed"
+decision = ""
+note = ""
+
+[[items]]
+id = "p-ddffb1bf"
+type = "program"
+source_id = "MAN-RGNX-DEBT"
+asset = "ABBV-RGX-314"
+mechanism = "deliver a gene encoding a therapeutic antibody fragment to inhibit vascular endothelial growth factor (VEGF)"
+modality = "AAV gene therapy"
+quotes = ["Sura-vec uses the NAV ® AAV8 vector to deliver a gene encoding a therapeutic antibody fragment to inhibit vascular endothelial growth factor (VEGF).", "We have developed a broad pipeline of gene therapy programs using our proprietary adeno-associated virus (AAV) gene therapy delivery platform"]
+model = "qwen3.7-plus-2026-05-26"
+returned_model = "qwen3.7-plus-2026-05-26"
+check = "disputed"
+decision = ""
+note = ""
+
+[[items]]
+id = "p-9cbc4330"
+type = "program"
+source_id = "MAN-RGNX-DEBT"
+asset = "RGX-121"
+mechanism = "deliver functional genes to address genetic defects in cells"
+modality = "gene therapy"
+quotes = ["(iii) RGX-121 (clemidsogene lanparvovec) for the treatment of Mucopolysaccharidosis Type II (MPS II)", "Our investigational gene therapies are designed to deliver functional genes to address genetic defects in cells", "The Company's investigational gene therapies use adeno-associated virus (AAV) vectors from its proprietary gene delivery platform"]
+model = "qwen3.7-plus-2026-05-26"
+returned_model = "qwen3.7-plus-2026-05-26"
+check = "disputed"
+decision = ""
+note = ""
+
+[[items]]
+id = "r-fecd49ec"
+type = "clinical_result"
+source_id = "MAN-RGNX-DEBT"
+asset = "sura-vec"
+trial = "ALTITUDE"
+indication = "diabetic retinopathy (DR)"
+endpoint = "at least a two-step improvement without need for any supplemental treatment at two years"
+result = "50% of dose level 3 patients achieved at least a two-step improvement without need for any supplemental treatment"
+analysis = ""
+comparator = "none"
+advantage_vs_soc = ""
+confidence = ""
+quotes = ["Additionally, 50% of dose level 3 patients achieved at least a two-step improvement without need for any supplemental treatment."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "disputed"
+decision = ""
+note = ""
+
+[[items]]
+id = "r-88761657"
+type = "clinical_result"
+source_id = "MAN-RGNX-DEBT"
+asset = "RGX-121"
+trial = "CAMPSIITE"
+indication = "Mucopolysaccharidosis Type II (MPS II)"
+endpoint = "median reduction of cerebrospinal fluid (CSF) levels of HS D2S6 at one year"
+result = "82% median reduction of cerebrospinal fluid (CSF) levels of HS D2S6"
+analysis = ""
+comparator = "none"
+advantage_vs_soc = ""
+confidence = ""
+quotes = ["These results showed that in the pivotal phase of the CAMPSIITE trial (n=13), participants through one year sustained an 82% median reduction of cerebrospinal fluid (CSF) levels of HS D2S6."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "agreed"
+verify = { asset = "RGX-121", trial = "CAMPSIITE", indication = "Mucopolysaccharidosis Type II (MPS II)", endpoint = "reduction of cerebrospinal fluid (CSF) levels of HS D2S6 at one year", result = "82% median reduction of cerebrospinal fluid (CSF) levels of HS D2S6", analysis = "", comparator = "none", advantage_vs_soc = "" }
+verify_quotes = ["These results showed that in the pivotal phase of the CAMPSIITE trial (n=13), participants through one year sustained an 82% median reduction of cerebrospinal fluid (CSF) levels of HS D2S6."]
+decision = "accept"
+note = ""
+
+[[items]]
+id = "r-66596e07"
+type = "clinical_result"
+source_id = "MAN-RGNX-DEBT"
+asset = "RGX-314"
+trial = "ALTITUDE"
+indication = "non-proliferative diabetic retinopathy (NPDR)"
+endpoint = ">2-step improvement on the DRSS at 2.5 years"
+result = "55% of participants achieved >2-step improvement on the DRSS without additional treatment, and 70% of participants experienced no vision-threatening events"
+analysis = ""
+comparator = "none"
+advantage_vs_soc = ""
+confidence = ""
+quotes = ["In July 2026, we presented long-term follow-up data from the Phase II ALTITUDE trial that showed, among other findings, that participants at dose level 3 (1.0×10¹² GC/eye) with short-course prophylactic topical steroids, the same dose being evaluated in the Phase IIb/III NAAVIGATE trial, maintained a durable safety and efficacy profile through 2.5 years.", "55% of participants achieved >2-step improvement on the DRSS without additional treatment, and 70% of participants experienced no vision-threatening events."]
+model = "qwen3.7-plus-2026-05-26"
+returned_model = "qwen3.7-plus-2026-05-26"
+check = "disputed"
+decision = ""
+note = ""
+
+[[items]]
+id = "r-74164530"
+type = "clinical_result"
+source_id = "MAN-RGNX-DEBT"
+asset = "RGX-202"
+trial = "AFFINITY DUCHENNE"
+indication = "Duchenne muscular dystrophy"
+endpoint = "RGX-202 microdystrophin expression above 10% at Week 12"
+result = "93% of patients achieved RGX-202 microdystrophin expression above 10%"
+analysis = "p<0.0001"
+comparator = "none"
+advantage_vs_soc = ""
+confidence = ""
+quotes = ["In May 2026, we announced positive topline results from the pivotal Phase III AFFINITY DUCHENNE trial of RGX-202, including primary endpoint (n=30 at Week 12), interim safety (n=31) and interim functional data (n=9 at 12 months):", "• The primary endpoint was achieved with high statistical significance; 93% of patients achieved RGX-202 microdystrophin expression above 10% (p<0.0001)."]
+model = "qwen3.7-plus-2026-05-26"
+returned_model = "qwen3.7-plus-2026-05-26"
+check = "disputed"
+decision = ""
+note = ""
+
+[[items]]
+id = "e-db057c4c"
+type = "catalyst"
+source_id = "MAN-RGNX-DEBT"
+asset = "RGX-202"
+event = "Biologics License Application (BLA) submission"
+event_type = "regulatory_filing"
+timing = "third quarter of 2026"
+quotes = ["we plan to initiate a Biologics License Application (BLA) submission in the third quarter of 2026 under the accelerated approval pathway"]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "agreed"
+verify = { asset = "RGX-202", event = "Biologics License Application (BLA) submission", event_type = "regulatory_filing", timing = "third quarter of 2026" }
+verify_quotes = ["we plan to initiate a Biologics License Application (BLA) submission in the third quarter of 2026 under the accelerated approval pathway"]
+decision = "accept"
+note = ""
+
+[[items]]
+id = "e-130ed2b3"
+type = "catalyst"
+source_id = "MAN-RGNX-DEBT"
+asset = "RGX-202"
+event = "Potential FDA approval"
+event_type = "regulatory_decision"
+timing = "second half of 2027"
+quotes = ["to support potential FDA approval in the second half of 2027"]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "agreed"
+verify = { asset = "RGX-202", event = "potential FDA approval", event_type = "regulatory_decision", timing = "second half of 2027" }
+verify_quotes = ["to support potential FDA approval in the second half of 2027."]
+decision = "accept"
+note = ""
+
+[[items]]
+id = "e-16644e13"
+type = "catalyst"
+source_id = "MAN-RGNX-DEBT"
+asset = "RGX-202"
+event = "Initiate AFFINITY RISE study"
+event_type = "trial_start"
+timing = "first half of 2027"
+quotes = ["We expect to initiate AFFINITY ® RISE, a new, ex-U.S. randomized, placebo-controlled study to support RGX-202 global regulatory submissions, in the first half of 2027."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "agreed"
+verify = { asset = "RGX-202", event = "initiate AFFINITY ® RISE, a new, ex-U.S. randomized, placebo-controlled study", event_type = "trial_start", timing = "first half of 2027" }
+verify_quotes = ["We expect to initiate AFFINITY ® RISE, a new, ex-U.S. randomized, placebo-controlled study to support RGX-202 global regulatory submissions, in the first half of 2027."]
+decision = "accept"
+note = ""
+
+[[items]]
+id = "p-2f7a033b"
+type = "program"
+source_id = "MAN-RGNX-1"
+asset = "Surabgene lomparvovec (sura-vec, ABBV-RGX-314)"
+mechanism = ""
+modality = "AAV gene therapy"
+quotes = ["Surabgene lomparvovec (sura-vec, ABBV-RGX-314), which we are developing in collaboration with AbbVie to treat large patient populations impacted by wet age-related macular degeneration (wet AMD) and diabetic retinopathy (DR).", "Our investigational gene therapies include:"]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "disputed"
+verify = { asset = "Surabgene lomparvovec (sura-vec, ABBV-RGX-314)", mechanism = "deliver working genes to cells using AAV vectors", modality = "AAV therapeutics" }
+verify_quotes = ["Surabgene lomparvovec (sura-vec, ABBV-RGX-314), which we are developing in collaboration with AbbVie to treat large patient populations impacted by wet age-related macular degeneration (wet AMD) and diabetic retinopathy (DR).", "Our gene therapies are designed to deliver working genes to cells using AAV vectors as the delivery “vehicles.”", "We have developed a broad pipeline of investigational AAV therapeutics using our NAV Technology Platform"]
+decision = ""
+note = ""
+
+[[items]]
+id = "p-30ae0444"
+type = "program"
+source_id = "MAN-RGNX-1"
+asset = "RGX-202"
+mechanism = ""
+modality = "AAV gene therapy"
+quotes = ["RGX-202, which we are developing to treat Duchenne muscular dystrophy (Duchenne), one of the most common fatal genetic disorders affecting children.", "Our investigational gene therapies include:"]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "disputed"
+verify = { asset = "RGX-202", mechanism = "deliver working genes to cells using AAV vectors", modality = "AAV therapeutics" }
+verify_quotes = ["RGX-202, which we are developing to treat Duchenne muscular dystrophy (Duchenne), one of the most common fatal genetic disorders affecting children.", "Our gene therapies are designed to deliver working genes to cells using AAV vectors as the delivery “vehicles.”", "We have developed a broad pipeline of investigational AAV therapeutics using our NAV Technology Platform"]
+decision = ""
+note = ""
+
+[[items]]
+id = "p-f4ef61ff"
+type = "program"
+source_id = "MAN-RGNX-1"
+asset = "RGX-121 (clemidsogene lanparvovec)"
+mechanism = ""
+modality = "AAV gene therapy"
+quotes = ["RGX-121 (clemidsogene lanparvovec) and RGX-111, which we are developing and plan to commercialize with Nippon Shinyaku to treat Mucopolysaccharidosis type II (MPS II) and Mucopolysaccharidosis type I (MPS I), both of which are progressive, neurodegenerative lysosomal storage disorders.", "Our investigational gene therapies include:"]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "disputed"
+verify = { asset = "RGX-121 (clemidsogene lanparvovec)", mechanism = "deliver working genes to cells using AAV vectors", modality = "AAV therapeutics" }
+verify_quotes = ["RGX-121 (clemidsogene lanparvovec) and RGX-111, which we are developing and plan to commercialize with Nippon Shinyaku to treat Mucopolysaccharidosis type II (MPS II) and Mucopolysaccharidosis type I (MPS I)", "Our gene therapies are designed to deliver working genes to cells using AAV vectors as the delivery “vehicles.”", "We have developed a broad pipeline of investigational AAV therapeutics using our NAV Technology Platform"]
+decision = ""
+note = ""
+
+[[items]]
+id = "p-70e953b7"
+type = "program"
+source_id = "MAN-RGNX-1"
+asset = "RGX-111"
+mechanism = ""
+modality = "AAV gene therapy"
+quotes = ["RGX-121 (clemidsogene lanparvovec) and RGX-111, which we are developing and plan to commercialize with Nippon Shinyaku to treat Mucopolysaccharidosis type II (MPS II) and Mucopolysaccharidosis type I (MPS I), both of which are progressive, neurodegenerative lysosomal storage disorders.", "Our investigational gene therapies include:"]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "disputed"
+verify = { asset = "RGX-111", mechanism = "deliver working genes to cells using AAV vectors", modality = "AAV therapeutics" }
+verify_quotes = ["RGX-121 (clemidsogene lanparvovec) and RGX-111, which we are developing and plan to commercialize with Nippon Shinyaku to treat Mucopolysaccharidosis type II (MPS II) and Mucopolysaccharidosis type I (MPS I)", "Our gene therapies are designed to deliver working genes to cells using AAV vectors as the delivery “vehicles.”", "We have developed a broad pipeline of investigational AAV therapeutics using our NAV Technology Platform"]
+decision = ""
+note = ""
+
+[[items]]
+id = "r-11f77fb3"
+type = "clinical_result"
+source_id = "MAN-RGNX-1"
+asset = "sura-vec"
+trial = "Phase I/IIa long-term follow-up study"
+indication = "wet AMD"
+endpoint = "Mean BCVA change from baseline at four years (Cohort 3) and three years (Cohort 4)"
+result = "Cohort 3: +12 letters; Cohort 4: -5 letters"
+analysis = ""
+comparator = "none"
+advantage_vs_soc = ""
+confidence = ""
+quotes = ["patients treated with sura-vec demonstrated a durable treatment effect up to four years in Cohort 3 and up to three years in Cohort 4. Stable to improved visual acuity was observed, with a mean BCVA of +12 letters from baseline at four years for Cohort 3 patients and -5 letters from baseline at three years for Cohort 4 patients following sura-vec administration."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "disputed"
+decision = ""
+note = ""
+
+[[items]]
+id = "r-172172e2"
+type = "clinical_result"
+source_id = "MAN-RGNX-1"
+asset = "sura-vec"
+trial = "Phase II fellow eye sub-study"
+indication = "wet AMD"
+endpoint = "Reduction in anti-VEGF treatment burden at 12 months post-administration"
+result = "93% reduction"
+analysis = ""
+comparator = "none"
+advantage_vs_soc = ""
+confidence = ""
+quotes = ["At 12 months post-administration, patients saw a 93% reduction in anti-VEGF treatment burden and sustained vision and anatomy."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "disputed"
+decision = ""
+note = ""
+
+[[items]]
+id = "r-4a86c55e"
+type = "clinical_result"
+source_id = "MAN-RGNX-1"
+asset = "sura-vec"
+trial = "AAVIATE"
+indication = "wet AMD"
+endpoint = "Reduction in annualized injection rate at dose level 3"
+result = "80% reduction; 50% of patients remaining injection-free"
+analysis = ""
+comparator = "none"
+advantage_vs_soc = ""
+confidence = ""
+quotes = ["The highest reduction was seen in dose level 3, demonstrating an 80% reduction in annualized injection rate with 50% of patients remaining injection-free."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "disputed"
+decision = ""
+note = ""
+
+[[items]]
+id = "r-20e1e859"
+type = "clinical_result"
+source_id = "MAN-RGNX-1"
+asset = "sura-vec"
+trial = "ALTITUDE"
+indication = "non-proliferative DR (NPDR)"
+endpoint = "Proportion of dose level 3 patients achieving at least a two-step improvement on ETDRS-DRSS without supplemental treatment"
+result = "50%"
+analysis = ""
+comparator = "none"
+advantage_vs_soc = ""
+confidence = ""
+quotes = ["Sura-vec demonstrated a dose-dependent increased rate of meaningful improvement as measured by the Early Treatment Diabetic Retinopathy Study-Diabetic Retinopathy Severity Scale, with 50% of dose level 3 patients achieving at least a two-step improvement without the need for any supplemental treatment."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "disputed"
+decision = ""
+note = ""
+
+[[items]]
+id = "r-e7313d43"
+type = "clinical_result"
+source_id = "MAN-RGNX-1"
+asset = "sura-vec"
+trial = "ALTITUDE"
+indication = "non-proliferative DR (NPDR)"
+endpoint = "Reduction in risk of vision threatening events compared to historical control at dose level 3"
+result = "over 70% reduction"
+analysis = ""
+comparator = "historical control"
+advantage_vs_soc = ""
+confidence = ""
+quotes = ["We also reported that dose level 3 patients achieved an over 70% reduction in the risk of vision threatening events compared to historical control."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "disputed"
+decision = ""
+note = ""
+
+[[items]]
+id = "r-1fde9876"
+type = "clinical_result"
+source_id = "MAN-RGNX-1"
+asset = "RGX-202"
+trial = "AFFINITY DUCHENNE Phase I/II"
+indication = "Duchenne muscular dystrophy"
+endpoint = "RGX-202 microdystrophin expression >10% among first nine patients"
+result = "all patients exceeding 10% expression"
+analysis = ""
+comparator = "none"
+advantage_vs_soc = ""
+confidence = ""
+quotes = ["positive RGX-202 microdystrophin expression results for the first nine patients, with all patients exceeding 10% expression"]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "disputed"
+decision = ""
+note = ""
+
+[[items]]
+id = "r-2b39ba96"
+type = "clinical_result"
+source_id = "MAN-RGNX-1"
+asset = "RGX-202"
+trial = "AFFINITY DUCHENNE Phase I/II"
+indication = "Duchenne muscular dystrophy"
+endpoint = "Functional results from all dose level 2 recipients at 9 and 12 months"
+result = "all dose level 2 participants exceeded external natural history controls on all functional measures"
+analysis = ""
+comparator = "external natural history controls"
+advantage_vs_soc = ""
+confidence = ""
+quotes = ["positive interim functional results from all dose level 2 recipients at 9 and 12 months (all dose level 2 participants exceeded external natural history controls on all functional measures)"]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "disputed"
+decision = ""
+note = ""
+
+[[items]]
+id = "r-edfb5c17"
+type = "clinical_result"
+source_id = "MAN-RGNX-1"
+asset = "RGX-121"
+trial = "CAMPSIITE pivotal phase"
+indication = "Mucopolysaccharidosis Type II (MPS II)"
+endpoint = "Median reduction of cerebrospinal fluid (CSF) levels of HS D2S6 through one year"
+result = "82% median reduction"
+analysis = ""
+comparator = "none"
+advantage_vs_soc = ""
+confidence = ""
+quotes = ["These results showed that in the pivotal phase of the CAMPSIITE trial (n=13), participants through one year sustained an 82% median reduction of cerebrospinal fluid (CSF) levels of HS D2S6."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "disputed"
+verify = { asset = "RGX-121", trial = "CAMPSIITE", indication = "Mucopolysaccharidosis Type II (MPS II)", endpoint = "cerebrospinal fluid (CSF) levels of HS D2S6 at one year", result = "82% median reduction of cerebrospinal fluid (CSF) levels of HS D2S6", analysis = "", comparator = "none", advantage_vs_soc = "" }
+verify_quotes = ["These results showed that in the pivotal phase of the CAMPSIITE trial (n=13), participants through one year sustained an 82% median reduction of cerebrospinal fluid (CSF) levels of HS D2S6."]
+decision = ""
+note = ""
+
+[[items]]
+id = "r-5c8a4041"
+type = "clinical_result"
+source_id = "MAN-RGNX-1"
+asset = "RGX-314"
+trial = "Phase I/IIa long-term follow-up study"
+indication = "wet AMD"
+endpoint = "mean BCVA from baseline at four years for Cohort 3"
+result = "+12 letters"
+analysis = ""
+comparator = "none"
+advantage_vs_soc = ""
+confidence = ""
+quotes = ["In October 2022, we announced data from the Phase I/IIa long-term follow-up study of sura-vec for the treatment of wet AMD using subretinal delivery (n=37).", "Stable to improved visual acuity was observed, with a mean BCVA of +12 letters from baseline at four years for Cohort 3 patients"]
+model = "qwen3.7-plus-2026-05-26"
+returned_model = "qwen3.7-plus-2026-05-26"
+check = "disputed"
+decision = ""
+note = ""
+
+[[items]]
+id = "r-38c05978"
+type = "clinical_result"
+source_id = "MAN-RGNX-1"
+asset = "RGX-314"
+trial = "Phase I/IIa long-term follow-up study"
+indication = "wet AMD"
+endpoint = "mean BCVA from baseline at three years for Cohort 4"
+result = "-5 letters"
+analysis = ""
+comparator = "none"
+advantage_vs_soc = ""
+confidence = ""
+quotes = ["In October 2022, we announced data from the Phase I/IIa long-term follow-up study of sura-vec for the treatment of wet AMD using subretinal delivery (n=37).", "and -5 letters from baseline at three years for Cohort 4 patients following sura-vec administration."]
+model = "qwen3.7-plus-2026-05-26"
+returned_model = "qwen3.7-plus-2026-05-26"
+check = "disputed"
+decision = ""
+note = ""
+
+[[items]]
+id = "r-8efc82de"
+type = "clinical_result"
+source_id = "MAN-RGNX-1"
+asset = "RGX-314"
+trial = "AAVIATE"
+indication = "wet AMD"
+endpoint = "annualized injection rate at six months"
+result = "80% reduction in annualized injection rate with 50% of patients remaining injection-free"
+analysis = ""
+comparator = "none"
+advantage_vs_soc = ""
+confidence = ""
+quotes = ["Clinical Development of Sura-vec Suprachoroidal Delivery for the Treatment of Wet AMD", "We are also evaluating the efficacy, safety and tolerability of suprachoroidal delivery of sura-vec through AAVIATE ® , a multi-center, open label, randomized, controlled, dose-escalation Phase II trial of sura-vec for the treatment of wet AMD.", "The highest reduction was seen in dose level 3, demonstrating an 80% reduction in annualized injection rate with 50% of patients remaining injection-free."]
+model = "qwen3.7-plus-2026-05-26"
+returned_model = "qwen3.7-plus-2026-05-26"
+check = "disputed"
+decision = ""
+note = ""
+
+[[items]]
+id = "r-4e06ce71"
+type = "clinical_result"
+source_id = "MAN-RGNX-1"
+asset = "RGX-314"
+trial = "ALTITUDE"
+indication = "non-proliferative DR (NPDR)"
+endpoint = "two-step improvement on the Early Treatment Diabetic Retinopathy Study-Diabetic Retinopathy Severity Scale without supplemental treatment at two years"
+result = "50% of dose level 3 patients achieving at least a two-step improvement without the need for any supplemental treatment"
+analysis = ""
+comparator = "historical control"
+advantage_vs_soc = ""
+confidence = ""
+quotes = ["In August 2025, we announced 2-year results from ALTITUDE ® , a multi-center, open label, randomized, controlled, dose-escalation Phase II trial evaluating patients with non-proliferative DR (NPDR) who received a single, in-office injection of sura-vec.", "Sura-vec demonstrated a dose-dependent increased rate of meaningful improvement as measured by the Early Treatment Diabetic Retinopathy Study-Diabetic Retinopathy Severity Scale, with 50% of dose level 3 patients achieving at least a two-step improvement without the need for any supplemental treatment."]
+model = "qwen3.7-plus-2026-05-26"
+returned_model = "qwen3.7-plus-2026-05-26"
+check = "disputed"
+decision = ""
+note = ""
+
+[[items]]
+id = "r-a9c11a03"
+type = "clinical_result"
+source_id = "MAN-RGNX-1"
+asset = "RGX-314"
+trial = "ALTITUDE"
+indication = "non-proliferative DR (NPDR)"
+endpoint = "risk of vision threatening events at two years"
+result = "over 70% reduction in the risk of vision threatening events compared to historical control"
+analysis = ""
+comparator = "historical control"
+advantage_vs_soc = ""
+confidence = ""
+quotes = ["In August 2025, we announced 2-year results from ALTITUDE ® , a multi-center, open label, randomized, controlled, dose-escalation Phase II trial evaluating patients with non-proliferative DR (NPDR) who received a single, in-office injection of sura-vec.", "We also reported that dose level 3 patients achieved an over 70% reduction in the risk of vision threatening events compared to historical control."]
+model = "qwen3.7-plus-2026-05-26"
+returned_model = "qwen3.7-plus-2026-05-26"
+check = "disputed"
+decision = ""
+note = ""
+
+[[items]]
+id = "e-b7505627"
+type = "catalyst"
+source_id = "MAN-RGNX-1"
+asset = "RGX-202"
+event = "share topline data"
+event_type = "data_readout"
+timing = "early second quarter of 2026"
+quotes = ["We expect to share topline data in the early second quarter of 2026 and request a pre-Biologics License Application (BLA) meeting with the FDA in mid-2026."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "agreed"
+verify = { asset = "RGX-202", event = "share topline data", event_type = "data_readout", timing = "early second quarter of 2026" }
+verify_quotes = ["We expect to share topline data in the early second quarter of 2026 and request a pre-Biologics License Application (BLA) meeting with the FDA in mid-2026."]
+decision = "accept"
+note = ""
+
+[[items]]
+id = "e-e6068382"
+type = "catalyst"
+source_id = "MAN-RGNX-1"
+asset = "RGX-202"
+event = "request a pre-Biologics License Application (BLA) meeting with the FDA"
+event_type = "regulatory_filing"
+timing = "mid-2026"
+quotes = ["We expect to share topline data in the early second quarter of 2026 and request a pre-Biologics License Application (BLA) meeting with the FDA in mid-2026."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "agreed"
+verify = { asset = "RGX-202", event = "request a pre-Biologics License Application (BLA) meeting with the FDA", event_type = "regulatory_filing", timing = "mid-2026" }
+verify_quotes = ["We expect to share topline data in the early second quarter of 2026 and request a pre-Biologics License Application (BLA) meeting with the FDA in mid-2026."]
+decision = "accept"
+note = ""
+
+[[items]]
+id = "e-72dbf48d"
+type = "catalyst"
+source_id = "MAN-RGNX-1"
+asset = "RGX-121"
+event = "PDUFA goal date"
+event_type = "regulatory_decision"
+timing = "February 8, 2026"
+quotes = ["The Prescription Drug User Fee Act (PDUFA) goal date was extended from November 9, 2025 to February 8, 2026."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "agreed"
+verify = { asset = "RGX-121", event = "PDUFA goal date", event_type = "regulatory_decision", timing = "February 8, 2026" }
+verify_quotes = ["The Prescription Drug User Fee Act (PDUFA) goal date was extended from November 9, 2025 to February 8, 2026."]
+decision = "accept"
+note = ""
+
+[[items]]
+id = "e-3339fa28"
+type = "catalyst"
+source_id = "MAN-RGNX-1"
+asset = "ABBV-RGX-314"
+event = "dose the first patient in NAAVIGATE"
+event_type = "trial_start"
+timing = "second quarter of 2026"
+quotes = ["We expect to dose the first patient in NAAVIGATE in the second quarter of 2026."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "disputed"
+decision = ""
+note = ""
+
+[[items]]
+id = "e-52a15bd6"
+type = "catalyst"
+source_id = "MAN-RGNX-1"
+asset = "sura-vec"
+event = "dose the first patient in NAAVIGATE"
+event_type = "trial_start"
+timing = "second quarter of 2026"
+quotes = ["We expect to dose the first patient in NAAVIGATE in the second quarter of 2026."]
+model = "qwen3.7-plus-2026-05-26"
+returned_model = "qwen3.7-plus-2026-05-26"
+check = "disputed"
+decision = ""
+note = ""
+
+[[items]]
+id = "e-e0bc3fad"
+type = "catalyst"
+source_id = "MAN-RGNX-1"
+asset = "RGX-202"
+event = "Additional regulatory interactions with the FDA and the EMA"
+event_type = "other"
+timing = "1H 2026"
+quotes = ["Additional regulatory interactions with the FDA and the EMA are planned for 1H 2026."]
+model = "qwen3.7-plus-2026-05-26"
+returned_model = "qwen3.7-plus-2026-05-26"
+check = "disputed"
+decision = ""
+note = ""
+
+[[items]]
+id = "p-2d7c32b4"
+type = "program"
+source_id = "MAN-RGNX-2"
+asset = "RGX-202"
+mechanism = "designed to address the underlying cause of Duchenne by enabling targeted expression of a novel microdystrophin that is closest to naturally occurring dystrophin"
+modality = "gene therapy"
+quotes = ["RGX-202 is a potential best-in-class gene therapy for Duchenne muscular dystrophy (Duchenne).", "RGX-202 is designed to address the underlying cause of Duchenne by enabling targeted expression of a novel microdystrophin that is closest to naturally occurring dystrophin."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "agreed"
+verify = { asset = "RGX-202", mechanism = "enabling targeted expression of a novel microdystrophin that is closest to naturally occurring dystrophin", modality = "gene therapy" }
+verify_quotes = ["RGX-202 is a potential best-in-class gene therapy for Duchenne muscular dystrophy (Duchenne).", "RGX-202 is designed to address the underlying cause of Duchenne by enabling targeted expression of a novel microdystrophin that is closest to naturally occurring dystrophin."]
+decision = "accept"
+note = ""
+
+[[items]]
+id = "p-1e06037c"
+type = "program"
+source_id = "MAN-RGNX-2"
+asset = "surabgene lomparvovec (sura-vec, ABBV-RGX-314)"
+mechanism = ""
+modality = "gene therapy"
+quotes = ["Surabgene lomparvovec (sura-vec, ABBV-RGX-314), developed in collaboration with AbbVie, is potentially the first-in-class gene therapy treatment for wet age-related macular degeneration (wet AMD) and diabetic retinopathy (DR)."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "disputed"
+decision = ""
+note = ""
+
+[[items]]
+id = "p-70564945"
+type = "program"
+source_id = "MAN-RGNX-2"
+asset = "NAVSUNLI™ (clemidsogene lanparvovec-sngl, RGX-121)"
+mechanism = ""
+modality = "gene therapy"
+quotes = ["NAVSUNLI™ (clemidsogene lanparvovec-sngl, RGX-121) for the treatment of MPS II"]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "disputed"
+decision = ""
+note = ""
+
+[[items]]
+id = "p-b4ec58f1"
+type = "program"
+source_id = "MAN-RGNX-2"
+asset = "RGX-111"
+mechanism = ""
+modality = "gene therapy"
+quotes = ["RGX-111 for the treatment of MPS I"]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "disputed"
+decision = ""
+note = ""
+
+[[items]]
+id = "p-46cf5c88"
+type = "program"
+source_id = "MAN-RGNX-2"
+asset = "surabgene lomparvovec"
+mechanism = ""
+modality = "gene therapy"
+quotes = ["Surabgene lomparvovec (sura-vec, ABBV-RGX-314), developed in collaboration with AbbVie, is potentially the first-in-class gene therapy treatment for wet age-related macular degeneration (wet AMD) and diabetic retinopathy (DR)."]
+model = "qwen3.7-plus-2026-05-26"
+returned_model = "qwen3.7-plus-2026-05-26"
+check = "disputed"
+decision = ""
+note = ""
+
+[[items]]
+id = "r-0fc755c6"
+type = "clinical_result"
+source_id = "MAN-RGNX-2"
+asset = "RGX-202"
+trial = "AFFINITY DUCHENNE"
+indication = "Duchenne muscular dystrophy"
+endpoint = "primary endpoint"
+result = "met its primary endpoint"
+analysis = "p<0.0001"
+comparator = ""
+advantage_vs_soc = ""
+confidence = ""
+quotes = ["the Phase III AFFINITY DUCHENNE ® trial met its primary endpoint with high statistical significance (p<0.0001)."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "disputed"
+verify = { asset = "RGX-202", trial = "AFFINITY DUCHENNE", indication = "Duchenne muscular dystrophy", endpoint = "primary endpoint at one year (NSAA)", result = "met its primary endpoint with high statistical significance (p<0.0001); demonstrated statistically significant correlation between RGX-202 microdystrophin expression level and functional improvement at one year (NSAA, n=9)", analysis = "p<0.0001", comparator = "", advantage_vs_soc = "" }
+verify_quotes = ["the Phase III AFFINITY DUCHENNE ® trial met its primary endpoint with high statistical significance (p<0.0001).", "demonstrated statistically significant correlation between RGX-202 microdystrophin expression level and functional improvement at one year (NSAA, n=9)."]
+decision = ""
+note = ""
+
+[[items]]
+id = "r-8bb4c0c4"
+type = "clinical_result"
+source_id = "MAN-RGNX-2"
+asset = "RGX-202"
+trial = "AFFINITY DUCHENNE"
+indication = "Duchenne muscular dystrophy"
+endpoint = "correlation between RGX-202 microdystrophin expression level and functional improvement at one year (NSAA)"
+result = "statistically significant correlation"
+analysis = ""
+comparator = ""
+advantage_vs_soc = ""
+confidence = ""
+quotes = ["demonstrated statistically significant correlation between RGX-202 microdystrophin expression level and functional improvement at one year (NSAA, n=9)."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "disputed"
+decision = ""
+note = ""
+
+[[items]]
+id = "r-a7a2c1bb"
+type = "clinical_result"
+source_id = "MAN-RGNX-2"
+asset = "surabgene lomparvovec"
+trial = "Phase I/IIa trial"
+indication = "wet age-related macular degeneration"
+endpoint = "visual acuity and anti-VEGF treatment burden through five years"
+result = "stable to improved visual acuity and meaningful reductions in anti-VEGF treatment burden through five years"
+analysis = ""
+comparator = ""
+advantage_vs_soc = ""
+confidence = ""
+quotes = ["Long-term follow-up data from the Phase I/IIa trial of sura-vec, presented at the ASRS 44th Annual Meeting in July 2026, showed stable to improved visual acuity and meaningful reductions in anti-VEGF treatment burden through five years at doses similar to those used in the pivotal trials, with the exception of one participant in Cohort 4 with polypoidal choroidal vasculopathy refractory to anti-VEGF therapy."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "disputed"
+decision = ""
+note = ""
+
+[[items]]
+id = "r-2e502fdc"
+type = "clinical_result"
+source_id = "MAN-RGNX-2"
+asset = "surabgene lomparvovec"
+trial = "ALTITUDE"
+indication = "diabetic retinopathy"
+endpoint = "safety and efficacy profile through 2.5 years"
+result = "durable safety and efficacy profile through 2.5 years"
+analysis = ""
+comparator = ""
+advantage_vs_soc = ""
+confidence = ""
+quotes = ["Long-term follow-up data from the ALTITUDE ® trial, also presented at ASRS in July 2026, showed a durable safety and efficacy profile through 2.5 years at the dose being evaluated in NAAVIGATE with short-course prophylactic topical steroids."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "disputed"
+decision = ""
+note = ""
+
+[[items]]
+id = "e-4289b522"
+type = "catalyst"
+source_id = "MAN-RGNX-2"
+asset = "RGX-202"
+event = "BLA submission initiation"
+event_type = "regulatory_filing"
+timing = "Q3 2026"
+quotes = ["RGX-202 BLA submission for Duchenne muscular dystrophy on track for Q3 2026 initiation", "The Company is on track to initiate a BLA submission in Q3 2026 under the accelerated approval pathway"]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "agreed"
+verify = { asset = "RGX-202", event = "BLA submission initiation", event_type = "regulatory_filing", timing = "Q3 2026" }
+verify_quotes = ["RGX-202 BLA submission for Duchenne muscular dystrophy on track for Q3 2026 initiation", "The Company is on track to initiate a BLA submission in Q3 2026 under the accelerated approval pathway"]
+decision = "accept"
+note = ""
+
+[[items]]
+id = "e-c1dffdb4"
+type = "catalyst"
+source_id = "MAN-RGNX-2"
+asset = "RGX-202"
+event = "Potential accelerated approval"
+event_type = "regulatory_decision"
+timing = "2H 2027"
+quotes = ["with potential accelerated approval in 2H 2027", "supporting potential approval in 2H 2027"]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "agreed"
+verify = { asset = "RGX-202", event = "potential accelerated approval", event_type = "regulatory_decision", timing = "2H 2027" }
+verify_quotes = ["with potential accelerated approval in 2H 2027", "supporting potential approval in 2H 2027."]
+decision = "accept"
+note = ""
+
+[[items]]
+id = "e-12c79bfa"
+type = "catalyst"
+source_id = "MAN-RGNX-2"
+asset = "surabgene lomparvovec (sura-vec, ABBV-RGX-314)"
+event = "Topline data from pivotal subretinal wet AMD studies ATMOSPHERE and ASCENT"
+event_type = "data_readout"
+timing = "Q4 2026"
+quotes = ["Topline data from pivotal subretinal wet AMD studies, ATMOSPHERE ® and ASCENT ® , expected in Q4 2026", "REGENXBIO expects to announce topline data with AbbVie from the ATMOSPHERE ® and ASCENT ® pivotal trials of sura-vec using subretinal delivery in Q4 2026"]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "disputed"
+decision = ""
+note = ""
+
+[[items]]
+id = "e-cdd83baa"
+type = "catalyst"
+source_id = "MAN-RGNX-2"
+asset = "surabgene lomparvovec (sura-vec, ABBV-RGX-314)"
+event = "Global regulatory submissions"
+event_type = "regulatory_filing"
+timing = "2027"
+quotes = ["Global regulatory submissions are expected in 2027."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "disputed"
+decision = ""
+note = ""
+
+[[items]]
+id = "e-754c978e"
+type = "catalyst"
+source_id = "MAN-RGNX-2"
+asset = "RGX-121"
+event = "BLA resubmission"
+event_type = "regulatory_filing"
+timing = "Q3 2026"
+quotes = ["resubmission on track for Q3 2026", "REGENXBIO plans to resubmit the BLA in Q3 2026"]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "agreed"
+verify = { asset = "RGX-121", event = "resubmission", event_type = "regulatory_filing", timing = "Q3 2026" }
+verify_quotes = ["resubmission on track for Q3 2026", "REGENXBIO plans to resubmit the BLA in Q3 2026."]
+decision = "accept"
+note = ""
+
+[[items]]
+id = "e-b7b83468"
+type = "catalyst"
+source_id = "MAN-RGNX-2"
+asset = "RGX-202"
+event = "Initiation of AFFINITY RISE ex-U.S. randomized-controlled trial"
+event_type = "trial_start"
+timing = "1H 2027"
+quotes = ["proceeds will support the initiation of the planned AFFINITY ® RISE ex-U.S. randomized-controlled trial in 1H 2027", "REGENXBIO expects to initiate AFFINITY ® RISE, a new, ex-U.S. randomized, placebo-controlled study to support RGX-202 global regulatory submissions, in 1H 2027"]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "agreed"
+verify = { asset = "RGX-202", event = "initiation of the planned AFFINITY ® RISE ex-U.S. randomized-controlled trial", event_type = "trial_start", timing = "1H 2027" }
+verify_quotes = ["proceeds will support the initiation of the planned AFFINITY ® RISE ex-U.S. randomized-controlled trial in 1H 2027", "REGENXBIO expects to initiate AFFINITY ® RISE, a new, ex-U.S. randomized, placebo-controlled study to support RGX-202 global regulatory submissions, in 1H 2027."]
+decision = "accept"
+note = ""
+
+[[items]]
+id = "e-54aca2e2"
+type = "catalyst"
+source_id = "MAN-RGNX-2"
+asset = "sura-vec"
+event = "Topline data from pivotal subretinal wet AMD studies, ATMOSPHERE ® and ASCENT ®"
+event_type = "data_readout"
+timing = "Q4 2026"
+quotes = ["Topline data from pivotal subretinal wet AMD studies, ATMOSPHERE ® and ASCENT ® , expected in Q4 2026", "REGENXBIO expects to announce topline data with AbbVie from the ATMOSPHERE ® and ASCENT ® pivotal trials of sura-vec using subretinal delivery in Q4 2026."]
+model = "qwen3.7-plus-2026-05-26"
+returned_model = "qwen3.7-plus-2026-05-26"
+check = "disputed"
+decision = ""
+note = ""
+
+[[items]]
+id = "e-fcc834ce"
+type = "catalyst"
+source_id = "MAN-RGNX-2"
+asset = "sura-vec"
+event = "Global regulatory submissions"
+event_type = "regulatory_filing"
+timing = "2027"
+quotes = ["Global regulatory submissions are expected in 2027."]
+model = "qwen3.7-plus-2026-05-26"
+returned_model = "qwen3.7-plus-2026-05-26"
+check = "disputed"
+decision = ""
+note = ""
+
+[[items]]
+id = "p-831f86ef"
+type = "program"
+source_id = "DOC-RGNX-a7b98e30"
+asset = "RGX-202"
+mechanism = "designed to address the underlying cause of Duchenne by enabling targeted expression of a novel microdystrophin that is closest to naturally occurring dystrophin"
+modality = "gene therapy"
+quotes = ["RGX-202 is designed to address the underlying cause of Duchenne by enabling targeted expression of a novel microdystrophin that is closest to naturally occurring dystrophin.", "RGX-202, a potential best-in-class gene therapy for Duchenne Muscular Dystrophy."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "agreed"
+verify = { asset = "RGX-202", mechanism = "enabling targeted expression of a novel microdystrophin that is closest to naturally occurring dystrophin", modality = "gene therapy" }
+verify_quotes = ["RGX-202, a potential best-in-class gene therapy for Duchenne Muscular Dystrophy.", "RGX-202 is designed to address the underlying cause of Duchenne by enabling targeted expression of a novel microdystrophin that is closest to naturally occurring dystrophin."]
+decision = "accept"
+note = ""
+
+[[items]]
+id = "p-0d35366b"
+type = "program"
+source_id = "DOC-RGNX-a7b98e30"
+asset = "clemidsogene lanparvovec (RGX-121)"
+mechanism = ""
+modality = "AAV gene therapy"
+quotes = ["REGENXBIO is advancing a late-stage pipeline of one-time treatments for rare and retinal diseases, including RGX-202 for the treatment of Duchenne; clemidsogene lanparvovec (RGX-121) for the treatment of MPS II and RGX-111 for the treatment of MPS I, both in partnership with Nippon Shinyaku; and surabgene lomparvovec (ABBV-RGX-314) for the treatment of wet AMD and diabetic retinopathy, in collaboration with AbbVie.", "REGENXBIO has pioneered the field of AAV gene therapy."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "disputed"
+decision = ""
+note = ""
+
+[[items]]
+id = "p-cd8e756b"
+type = "program"
+source_id = "DOC-RGNX-a7b98e30"
+asset = "RGX-111"
+mechanism = ""
+modality = "AAV gene therapy"
+quotes = ["REGENXBIO is advancing a late-stage pipeline of one-time treatments for rare and retinal diseases, including RGX-202 for the treatment of Duchenne; clemidsogene lanparvovec (RGX-121) for the treatment of MPS II and RGX-111 for the treatment of MPS I, both in partnership with Nippon Shinyaku; and surabgene lomparvovec (ABBV-RGX-314) for the treatment of wet AMD and diabetic retinopathy, in collaboration with AbbVie.", "REGENXBIO has pioneered the field of AAV gene therapy."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "agreed"
+verify = { asset = "RGX-111", mechanism = "", modality = "AAV gene therapy" }
+verify_quotes = ["REGENXBIO has pioneered the field of AAV gene therapy.", "RGX-111 for the treatment of MPS I,"]
+decision = "accept"
+note = ""
+
+[[items]]
+id = "p-121d43da"
+type = "program"
+source_id = "DOC-RGNX-a7b98e30"
+asset = "surabgene lomparvovec (ABBV-RGX-314)"
+mechanism = ""
+modality = "AAV gene therapy"
+quotes = ["REGENXBIO is advancing a late-stage pipeline of one-time treatments for rare and retinal diseases, including RGX-202 for the treatment of Duchenne; clemidsogene lanparvovec (RGX-121) for the treatment of MPS II and RGX-111 for the treatment of MPS I, both in partnership with Nippon Shinyaku; and surabgene lomparvovec (ABBV-RGX-314) for the treatment of wet AMD and diabetic retinopathy, in collaboration with AbbVie.", "REGENXBIO has pioneered the field of AAV gene therapy."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "disputed"
+decision = ""
+note = ""
+
+[[items]]
+id = "p-1cd094a2"
+type = "program"
+source_id = "DOC-RGNX-a7b98e30"
+asset = "RGX-121"
+mechanism = ""
+modality = "AAV gene therapy"
+quotes = ["REGENXBIO has pioneered the field of AAV gene therapy.", "clemidsogene lanparvovec (RGX-121) for the treatment of MPS II"]
+model = "qwen3.7-plus-2026-05-26"
+returned_model = "qwen3.7-plus-2026-05-26"
+check = "disputed"
+decision = ""
+note = ""
+
+[[items]]
+id = "p-7f8fda96"
+type = "program"
+source_id = "DOC-RGNX-a7b98e30"
+asset = "ABBV-RGX-314"
+mechanism = ""
+modality = "AAV gene therapy"
+quotes = ["REGENXBIO has pioneered the field of AAV gene therapy.", "surabgene lomparvovec (ABBV-RGX-314) for the treatment of wet AMD and diabetic retinopathy"]
+model = "qwen3.7-plus-2026-05-26"
+returned_model = "qwen3.7-plus-2026-05-26"
+check = "disputed"
+decision = ""
+note = ""
+
+[[items]]
+id = "r-a2c0b724"
+type = "clinical_result"
+source_id = "DOC-RGNX-a7b98e30"
+asset = "RGX-202"
+trial = "AFFINITY DUCHENNE"
+indication = "Duchenne Muscular Dystrophy"
+endpoint = "Microdystrophin expression >10% at Week 12"
+result = "93% of participants achieved >10% RGX-202 microdystrophin expression at Week 12 (n=30)"
+analysis = "p<0.0001"
+comparator = ""
+advantage_vs_soc = ""
+confidence = ""
+quotes = ["93% of participants achieved >10% RGX-202 microdystrophin expression at Week 12 (p<0.0001).", "The trial met its primary endpoint with high statistical significance (p<0.0001), with 93% of participants reaching at least 10% microdystrophin expression at Week 12 (n=30)."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "disputed"
+decision = ""
+note = ""
+
+[[items]]
+id = "r-10c9466c"
+type = "clinical_result"
+source_id = "DOC-RGNX-a7b98e30"
+asset = "RGX-202"
+trial = "AFFINITY DUCHENNE"
+indication = "Duchenne Muscular Dystrophy"
+endpoint = "Microdystrophin expression averaged across all participants"
+result = "Microdystrophin expression averaged 71.1% across all participants, and 41.6% in older boys, aged > 8 years."
+analysis = ""
+comparator = ""
+advantage_vs_soc = ""
+confidence = ""
+quotes = ["Microdystrophin expression averaged 71.1% across all participants, and 41.6% in older boys, aged > 8 years."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "disputed"
+decision = ""
+note = ""
+
+[[items]]
+id = "r-d7548290"
+type = "clinical_result"
+source_id = "DOC-RGNX-a7b98e30"
+asset = "RGX-202"
+trial = "AFFINITY DUCHENNE"
+indication = "Duchenne Muscular Dystrophy"
+endpoint = "Microdystrophin expression >40%"
+result = "80% of participants achieved >40% microdystrophin expression."
+analysis = ""
+comparator = ""
+advantage_vs_soc = ""
+confidence = ""
+quotes = ["Additionally, 80% of participants achieved >40% microdystrophin expression."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "disputed"
+decision = ""
+note = ""
+
+[[items]]
+id = "r-e7d1ca7c"
+type = "clinical_result"
+source_id = "DOC-RGNX-a7b98e30"
+asset = "RGX-202"
+trial = "AFFINITY DUCHENNE"
+indication = "Duchenne Muscular Dystrophy"
+endpoint = "Correlation between microdystrophin expression and functional improvement (NSAA change from baseline)"
+result = "correlation= .094, p = 0.0002"
+analysis = "p = 0.0002"
+comparator = ""
+advantage_vs_soc = ""
+confidence = ""
+quotes = ["RGX-202 microdystrophin expression at Week 12 demonstrated a statistically significant correlation with functional improvement at one year as measured by NSAA change from baseline (correlation= .094, p = 0.0002)"]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "disputed"
+verify = { asset = "RGX-202", trial = "AFFINITY DUCHENNE", indication = "Duchenne Muscular Dystrophy", endpoint = "functional improvement at one year as measured by NSAA change from baseline", result = "correlation= .094", analysis = "p = 0.0002", comparator = "external control using propensity score weighting", advantage_vs_soc = "" }
+verify_quotes = ["Participants demonstrated statistically significant improved performance across NSAA and all timed function tests when compared to external control using propensity score weighting", "RGX-202 microdystrophin expression at Week 12 demonstrated a statistically significant correlation with functional improvement at one year as measured by NSAA change from baseline (correlation= .094, p = 0.0002)"]
+decision = ""
+note = ""
+
+[[items]]
+id = "r-3dbeee56"
+type = "clinical_result"
+source_id = "DOC-RGNX-a7b98e30"
+asset = "RGX-202"
+trial = "AFFINITY DUCHENNE"
+indication = "Duchenne Muscular Dystrophy"
+endpoint = "Correlation between microdystrophin expression and functional improvement (NSAA change from baseline compared to cTAP predictive model)"
+result = "correlation= .092, p = 0.0005"
+analysis = "p = 0.0005"
+comparator = ""
+advantage_vs_soc = ""
+confidence = ""
+quotes = ["and NSAA change from baseline compared to the cTAP predictive model (correlation= .092, p = 0.0005)."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "disputed"
+verify = { asset = "RGX-202", trial = "AFFINITY DUCHENNE", indication = "Duchenne Muscular Dystrophy", endpoint = "NSAA change from baseline compared to the cTAP predictive model", result = "correlation= .092", analysis = "p = 0.0005", comparator = "cTAP predictive model", advantage_vs_soc = "" }
+verify_quotes = ["RGX-202 microdystrophin expression at Week 12 demonstrated a statistically significant correlation with functional improvement at one year as measured by NSAA change from baseline (correlation= .094, p = 0.0002) and NSAA change from baseline compared to the cTAP predictive model (correlation= .092, p = 0.0005)."]
+decision = ""
+note = ""
+
+[[items]]
+id = "r-a87fc91c"
+type = "clinical_result"
+source_id = "DOC-RGNX-a7b98e30"
+asset = "RGX-202"
+trial = "AFFINITY DUCHENNE"
+indication = "Duchenne Muscular Dystrophy"
+endpoint = "Functional improvement at one year post-treatment (NSAA and timed function tests) compared to external control"
+result = "Participants demonstrated statistically significant improved performance across NSAA and all timed function tests when compared to external control using propensity score weighting"
+analysis = "statistically significant (propensity score weighting)"
+comparator = "external control"
+advantage_vs_soc = ""
+confidence = ""
+quotes = ["Participants demonstrated statistically significant improved performance across NSAA and all timed function tests when compared to external control using propensity score weighting, which is the primary analysis method specified in the SAP for the pivotal trial."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "disputed"
+decision = ""
+note = ""
+
+[[items]]
+id = "r-dff5621e"
+type = "clinical_result"
+source_id = "DOC-RGNX-a7b98e30"
+asset = "RGX-202"
+trial = "AFFINITY DUCHENNE"
+indication = "Duchenne Muscular Dystrophy"
+endpoint = "Safety: serious adverse events"
+result = "Two serious adverse events were reported; both were easily managed and resolved within weeks without sequelae. One case of subacute myocarditis in an 8-year-old; one case of asymptomatic liver injury in a 10-year-old (GGT peak elevation 123 U/L)."
+analysis = ""
+comparator = ""
+advantage_vs_soc = ""
+confidence = ""
+quotes = ["Two serious adverse events were reported; both were easily managed and resolved within weeks without sequelae.", "One case of subacute myocarditis was reported in an 8-year-old participant.", "One case of asymptomatic liver injury was reported in a 10-year-old participant. This patient’s GGT peak elevation was 123 U/L"]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "disputed"
+decision = ""
+note = ""
+
+[[items]]
+id = "r-eba76c00"
+type = "clinical_result"
+source_id = "DOC-RGNX-a7b98e30"
+asset = "RGX-202"
+trial = "AFFINITY DUCHENNE"
+indication = "Duchenne Muscular Dystrophy"
+endpoint = "Safety: liver inflammation markers (GGT and total bilirubin) up to one year post-treatment"
+result = "Mean gamma-glutamyl transferase (GGT) and total bilirubin did not exceed the upper limit of normal up to one year post-treatment (n=9)."
+analysis = ""
+comparator = ""
+advantage_vs_soc = ""
+confidence = ""
+quotes = ["Mean gamma-glutamyl transferase (GGT) and total bilirubin, recognized markers of liver inflammation in Duchenne, did not exceed the upper limit of normal up to one year post-treatment (n=9)."]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "disputed"
+decision = ""
+note = ""
+
+[[items]]
+id = "e-cecf4b47"
+type = "catalyst"
+source_id = "DOC-RGNX-a7b98e30"
+asset = "RGX-202"
+event = "Company preparing for potential accelerated approval"
+event_type = "regulatory_filing"
+timing = "2027"
+quotes = ["Company preparing for potential accelerated approval in 2027"]
+model = "deepseek-v4-pro"
+returned_model = "deepseek-v4-pro"
+check = "agreed"
+verify = { asset = "RGX-202", event = "potential accelerated approval", event_type = "regulatory_decision", timing = "2027" }
+verify_quotes = ["Company preparing for potential accelerated approval in 2027"]
+decision = "accept"
+note = ""

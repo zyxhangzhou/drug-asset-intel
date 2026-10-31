@@ -1,0 +1,36 @@
+{
+ "request_meta": {
+  "task": "catalyst",
+  "ticker": "ARWR",
+  "source_id": "DOC-ARWR-9b18cae6",
+  "chunks": [
+   0
+  ]
+ },
+ "response": {
+  "id": "chatcmpl-73b323c6-8fed-934e-891f-7b06dae528d5",
+  "object": "chat.completion",
+  "created": 1793422543,
+  "model": "qwen3.7-plus-2026-05-26",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\"items\": []}"
+    },
+    "finish_reason": "stop",
+    "logprobs": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1487,
+   "total_tokens": 1492,
+   "completion_tokens": 5,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 1487
+   }
+  }
+ }
+}

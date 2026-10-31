@@ -1,0 +1,38 @@
+{
+ "request_meta": {
+  "task": "clinical_result",
+  "ticker": "VKTX",
+  "source_id": "DOC-VKTX-403794ba",
+  "chunks": [
+   0
+  ]
+ },
+ "response": {
+  "id": "39f5f6e2-a2ca-4799-9383-5221bdbdd4a3",
+  "object": "chat.completion",
+  "created": 1793422327,
+  "model": "deepseek-v4-pro",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"VK2735\",\n      \"trial\": \"NCT06068946\",\n      \"indication\": \"obesity or overweight with ≥1 weight-related comorbidity\",\n      \"endpoint\": \"percent change from baseline in body weight at Week 13\",\n      \"result\": \"Mean weight reduction with active treatment ranged from 9.2 kg (2.5 mg dose) to 14.6 kg (15 mg dose), corresponding to 9.1% and 14.7% weight reductions, respectively; the placebo group had a 1.8 kg (1.7%) reduction.\",\n      \"analysis\": \"\",\n      \"comparator\": \"placebo\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"Mean weight reduction with active treatment ranged from 9.2 kg (2.5 mg dose) to 14.6 kg (15 mg dose), corresponding to 9.1% and 14.7% weight reductions, respectively; the placebo group had a 1.8 kg (1.7%) reduction.\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"VK2735\",\n      \"trial\": \"NCT06068946\",\n      \"indication\": \"obesity or overweight with ≥1 weight-related comorbidity\",\n      \"endpoint\": \"proportion of participants losing ≥5% of baseline weight\",\n      \"result\": \"In the active treatment groups, 93% (130/140) of participants had a ≥5% weight reduction, compared with 12% (4/34) of participants with placebo treatment.\",\n      \"analysis\": \"\",\n      \"comparator\": \"placebo\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"In the active treatment groups, 93% (130/140) of participants had a ≥5% weight reduction, compared with 12% (4/34) of participants with placebo treatment.\"\n      ],\n      \"confidence\": \"\"\n    }\n  ]\n}"
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1254,
+   "completion_tokens": 433,
+   "total_tokens": 1687,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 742
+  },
+  "system_fingerprint": "a307abda487cd1b463329ccb945ce396"
+ }
+}

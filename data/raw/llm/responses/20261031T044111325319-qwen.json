@@ -1,0 +1,39 @@
+{
+ "request_meta": {
+  "task": "program",
+  "ticker": "CLDX",
+  "source_id": "DOC-CLDX-c86e5ab4",
+  "chunks": [
+   10,
+   11,
+   22,
+   23
+  ]
+ },
+ "response": {
+  "id": "chatcmpl-69f8f089-8678-9b3c-8655-254a8a4bb0ba",
+  "object": "chat.completion",
+  "created": 1793421672,
+  "model": "qwen3.7-plus-2026-05-26",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"BARZOLVOLIMAB (CDX-0159)\",\n      \"mechanism\": \"specifically binds the KIT receptor and potently inhibits its activity\",\n      \"modality\": \"monoclonal antibody\",\n      \"quotes\": [\n        \"Barzolvolimab (also referred to as CDX-0159), a monoclonal antibody that specifically binds the KIT receptor and potently inhibits its activity\"\n      ]\n    },\n    {\n      \"asset\": \"CDX-622\",\n      \"mechanism\": \"potently neutralizing the alarmin thymic stromal lymphopoietin (TSLP) and depleting mast cells via stem cell factor (SCF) starvation\",\n      \"modality\": \"bispecific antibody\",\n      \"quotes\": [\n        \"Our first bispecific candidate based on this science is CDX-622 (SCF & TSLP) which targets two complementary pathways that drive chronic inflammation, potently neutralizing the alarmin thymic stromal lymphopoietin (TSLP) and depleting mast cells via stem cell factor (SCF) starvation.\",\n        \"CDX-622 is our first bispecific antibody based on this science and targets two complementary pathways that drive chronic inflammation, potently neutralizing the alarmin thymic stromal lymphopoietin (TSLP) and depleting mast cells via stem cell factor (SCF) starvation.\"\n      ]\n    }\n  ]\n}"
+    },
+    "finish_reason": "stop",
+    "logprobs": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 6421,
+   "total_tokens": 6772,
+   "completion_tokens": 351,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 6421
+   }
+  }
+ }
+}

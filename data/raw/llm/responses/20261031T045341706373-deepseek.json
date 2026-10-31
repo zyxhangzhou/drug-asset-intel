@@ -1,0 +1,41 @@
+{
+ "request_meta": {
+  "task": "program",
+  "ticker": "ARWR",
+  "source_id": "MAN-ARWR-1",
+  "chunks": [
+   2,
+   3,
+   7,
+   31
+  ]
+ },
+ "response": {
+  "id": "c1c9c6e0-1a26-475d-b2e7-12292d492598",
+  "object": "chat.completion",
+  "created": 1793422421,
+  "model": "deepseek-v4-pro",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"PLOZASIRAN (ARO-APOC3)\",\n      \"mechanism\": \"designed to reduce production of apolipoprotein C-III (APOC3)\",\n      \"modality\": \"siRNA therapeutic\",\n      \"quotes\": [\n        \"REDEMPLO (plozasiran) is approved by the U.S. Food and Drug Administration as an adjunct to diet to reduce triglycerides for adults with Familial Chylomicronemia Syndrome (FCS). REDEMPLO is an siRNA therapeutic designed to suppress the production of apolipoprotein C-III (APOC3)\",\n        \"Plozasiran (formerly ARO-APOC3) is designed to reduce production of apolipoprotein C-III (APOC3), a component of triglyceride rich lipoproteins (TRLs) including Very Low Density Lipoprotein (VLDL) and chylomicrons, a key regulator of triglyceride metabolism.\"\n      ]\n    },\n    {\n      \"asset\": \"ZODASIRAN (ARO-ANG3)\",\n      \"mechanism\": \"designed to reduce production of angiopoietin-like protein 3 (ANGPTL3)\",\n      \"modality\": \"\",\n      \"quotes\": [\n        \"Zodasiran (formerly ARO-ANG3) is designed to reduce production of angiopoietin-like protein 3 (ANGPTL3), a liver synthesized inhibitor of lipoprotein lipase and endothelial lipase.\"\n      ]\n    },\n    {\n      \"asset\": \"ARO-DUX4\",\n      \"mechanism\": \"designed to target the gene that encodes human double homeobox 4 (DUX4) protein\",\n      \"modality\": \"\",\n      \"quotes\": [\n        \"ARO-DUX4 is designed to target the gene that encodes human double homeobox 4 (DUX4) protein as a potential treatment for patients with facioscapulohumeral muscular dystrophy.\"\n      ]\n    },\n    {\n      \"asset\": \"ARO-DM1\",\n      \"mechanism\": \"designed to reduce expression of the dystrophia myotonica protein kinase (DMPK) gene\",\n      \"modality\": \"\",\n      \"quotes\": [\n        \"ARO-DM1 is designed to reduce expression of the dystrophia myotonica protein kinase (DMPK) gene.\"\n      ]\n    },\n    {\n      \"asset\": \"ARO-MMP7\",\n      \"mechanism\": \"designed to reduce expression of matrix metalloproteinase 7 (MMP7)\",\n      \"modality\": \"\",\n      \"quotes\": [\n        \"ARO-MMP7 is designed to reduce expression of matrix metalloproteinase 7 (MMP7) as a potential treatment for IPF.\"\n      ]\n    },\n    {\n      \"asset\": \"ARO-ATXN2\",\n      \"mechanism\": \"designed to reduce the expression of the ATXN2 gene\",\n      \"modality\": \"\",\n      \"quotes\": [\n        \"ARO-ATXN2 is designed to reduce the expression of the ATXN2 gene as a potential treatment for spinocerebellar ataxia 2 (SCA2).\"\n      ]\n    },\n    {\n      \"asset\": \"ARO-SNCA\",\n      \"mechanism\": \"siRNA therapy against alpha-synuclein\",\n      \"modality\": \"siRNA therapy\",\n      \"quotes\": [\n        \"The agreement covers ARO-SNCA, Arrowhead’s preclinical stage siRNA therapy against alpha-synuclein for the treatment of synucleinopathies, such as Parkinson’s Disease\"\n      ]\n    }\n  ]\n}"
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 5238,
+   "completion_tokens": 768,
+   "total_tokens": 6006,
+   "prompt_tokens_details": {
+    "cached_tokens": 384
+   },
+   "prompt_cache_hit_tokens": 384,
+   "prompt_cache_miss_tokens": 4854
+  },
+  "system_fingerprint": "a307abda487cd1b463329ccb945ce396"
+ }
+}

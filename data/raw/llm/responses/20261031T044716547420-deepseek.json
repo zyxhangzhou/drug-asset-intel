@@ -1,0 +1,41 @@
+{
+ "request_meta": {
+  "task": "program",
+  "ticker": "VKTX",
+  "source_id": "DOC-VKTX-edf92b5c",
+  "chunks": [
+   19,
+   20,
+   30,
+   42
+  ]
+ },
+ "response": {
+  "id": "33b4518b-71f9-4977-ab4d-8cdf3cbf3983",
+  "object": "chat.completion",
+  "created": 1793422035,
+  "model": "deepseek-v4-pro",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"VK2735\",\n      \"mechanism\": \"\",\n      \"modality\": \"\",\n      \"quotes\": []\n    },\n    {\n      \"asset\": \"VK3019\",\n      \"mechanism\": \"Dual Amylin and Calcitonin Receptor Agonist\",\n      \"modality\": \"\",\n      \"quotes\": [\n        \"In 2024, we announced a new, internally developed Dual Amylin and Calcitonin Receptor Agonist, or DACRA, program for the treatment of obesity\",\n        \"In April 2026, we announced that we filed an IND application for our Novel Amylin Agonist VK3019.\"\n      ]\n    },\n    {\n      \"asset\": \"VK2809\",\n      \"mechanism\": \"orally available, tissue and receptor-subtype selective agonist of the thyroid hormone receptor beta, or TRß\",\n      \"modality\": \"\",\n      \"quotes\": [\n        \"We are also developing VK2809, which is an orally available, tissue and receptor-subtype selective agonist of the thyroid hormone receptor beta, or TRß.\"\n      ]\n    },\n    {\n      \"asset\": \"VK0214\",\n      \"mechanism\": \"orally available, tissue and receptor-subtype selective agonist of TRß\",\n      \"modality\": \"\",\n      \"quotes\": [\n        \"We are also developing VK0214, which is also an orally available, tissue and receptor-subtype selective agonist of TRß for X-linked adrenoleukodystrophy, or X-ALD\"\n      ]\n    },\n    {\n      \"asset\": \"VK5211\",\n      \"mechanism\": \"orally available, non-steroidal selective androgen receptor modulator\",\n      \"modality\": \"\",\n      \"quotes\": [\n        \"Other programs include VK5211, an orally available, non-steroidal selective androgen receptor modulator.\"\n      ]\n    }\n  ]\n}"
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 5518,
+   "completion_tokens": 410,
+   "total_tokens": 5928,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 5262
+  },
+  "system_fingerprint": "a307abda487cd1b463329ccb945ce396"
+ }
+}

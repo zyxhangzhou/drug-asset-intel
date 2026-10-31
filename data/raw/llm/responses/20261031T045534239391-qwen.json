@@ -1,0 +1,36 @@
+{
+ "request_meta": {
+  "task": "clinical_result",
+  "ticker": "ARWR",
+  "source_id": "DOC-ARWR-9b18cae6",
+  "chunks": [
+   0
+  ]
+ },
+ "response": {
+  "id": "chatcmpl-1beee913-4196-9b9d-a2a7-c8dab7c49137",
+  "object": "chat.completion",
+  "created": 1793422534,
+  "model": "qwen3.7-plus-2026-05-26",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"PLOZASIRAN (ARO-APOC3)\",\n      \"trial\": \"NCT05089084\",\n      \"indication\": \"severe hypertriglyceridemia and history of pancreatitis\",\n      \"endpoint\": \"recurrent AP at 12 months\",\n      \"result\": \"Incident AP occurred in 5 of 22 in the placebo group versus 2 of 45 in the pooled plozasiran group, representing an 83% reduction in risk for recurrent AP in the plozasiran group\",\n      \"analysis\": \"HR, 0.17; 95% CI [0.03, 0.87], p < 0.017\",\n      \"comparator\": \"placebo\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"Clinicaltrials.gov identifier: NCT05089084.\",\n        \"Patients with extreme hypertriglyceridemia were randomised 2:1:2:1 to receive subcutaneous plozasiran (25- or 50-mg) or volume-matched placebo, quarterly for 12 months.\",\n        \"This post hoc analysis involved participants with a history of at least one prior episode of AP.\",\n        \"Primary and alpha-controlled secondary endpoints included the incidence of expert-adjudicated AP and pancreatitis-related hospitalisations.\",\n        \"Incident AP occurred in 5 of 22 in the placebo group versus 2 of 45 in the pooled plozasiran group, representing an 83% (HR, 0.17; 95% CI [0.03, 0.87], p < 0.017) reduction in risk for recurrent AP in the plozasiran group.\"\n      ],\n      \"confidence\": \"\"\n    }\n  ]\n}"
+    },
+    "finish_reason": "stop",
+    "logprobs": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1544,
+   "total_tokens": 1970,
+   "completion_tokens": 426,
+   "prompt_tokens_details": {
+    "cached_tokens": 512,
+    "text_tokens": 1544
+   }
+  }
+ }
+}

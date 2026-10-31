@@ -1,0 +1,40 @@
+{
+ "request_meta": {
+  "task": "clinical_result",
+  "ticker": "VSTM",
+  "source_id": "DOC-VSTM-f45aa7ce",
+  "chunks": [
+   0,
+   1,
+   3
+  ]
+ },
+ "response": {
+  "id": "a45e7080-007f-4cb8-905d-5ff21f4d63a6",
+  "object": "chat.completion",
+  "created": 1793422695,
+  "model": "deepseek-v4-pro",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"AVUTOMETINIB AND DEFACTINIB (AVUTOMETINIB DEFACTININB COMBINATION)\",\n      \"trial\": \"RAMP 201 Japan study\",\n      \"indication\": \"recurrent low-grade serous ovarian cancer (LGSOC)\",\n      \"endpoint\": \"overall response rate\",\n      \"result\": \"44% overall response rate across all patients; 71% in KRAS-mutated tumors; 22% in KRAS wild-type tumors\",\n      \"analysis\": \"\",\n      \"comparator\": \"none\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"As of May 29, 2026, 16 efficacy-evaluable patients with recurrent low-grade serous ovarian cancer (LGSOC) had received avutometinib plus defactinib, with a median follow up of 12.4 months.\",\n        \"The combination achieved a 44% overall response rate and a 94% disease control rate across all patients.\",\n        \"Response rates were 71% in patients with KRAS-mutated tumors and 22% in those with KRAS wild-type tumors, with disease control rates of 100% and 89%, respectively.\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"AVUTOMETINIB AND DEFACTINIB (AVUTOMETINIB DEFACTININB COMBINATION)\",\n      \"trial\": \"RAMP 201 Japan study\",\n      \"indication\": \"recurrent low-grade serous ovarian cancer (LGSOC)\",\n      \"endpoint\": \"disease control rate\",\n      \"result\": \"94% disease control rate across all patients; 100% in KRAS-mutated tumors; 89% in KRAS wild-type tumors\",\n      \"analysis\": \"\",\n      \"comparator\": \"none\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"The combination achieved a 44% overall response rate and a 94% disease control rate across all patients.\",\n        \"Response rates were 71% in patients with KRAS-mutated tumors and 22% in those with KRAS wild-type tumors, with disease control rates of 100% and 89%, respectively.\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"AVUTOMETINIB AND DEFACTINIB (AVUTOMETINIB DEFACTININB COMBINATION)\",\n      \"trial\": \"RAMP 205 Phase 1b/2a\",\n      \"indication\": \"first-line metastatic pancreatic ductal carcinoma (PDAC)\",\n      \"endpoint\": \"confirmed objective response rate (cORR)\",\n      \"result\": \"52% confirmed objective response rate\",\n      \"analysis\": \"\",\n      \"comparator\": \"none\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"As of the June 5, 2026 data cutoff (median follow-up of 9.8 months) the combination achieved a 52% confirmed objective response rate (cORR), with both an 86% overall survival rate and 68% progression-free survival rate at six months.\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"AVUTOMETINIB AND DEFACTINIB (AVUTOMETINIB DEFACTININB COMBINATION)\",\n      \"trial\": \"RAMP 205 Phase 1b/2a\",\n      \"indication\": \"first-line metastatic pancreatic ductal carcinoma (PDAC)\",\n      \"endpoint\": \"overall survival rate at six months\",\n      \"result\": \"86% overall survival rate at six months\",\n      \"analysis\": \"\",\n      \"comparator\": \"none\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"As of the June 5, 2026 data cutoff (median follow-up of 9.8 months) the combination achieved a 52% confirmed objective response rate (cORR), with both an 86% overall survival rate and 68% progression-free survival rate at six months.\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"AVUTOMETINIB AND DEFACTINIB (AVUTOMETINIB DEFACTININB COMBINATION)\",\n      \"trial\": \"RAMP 205 Phase 1b/2a\",\n      \"indication\": \"first-line metastatic pancreatic ductal carcinoma (PDAC)\",\n      \"endpoint\": \"progression-free survival rate at six months\",\n      \"result\": \"68% progression-free survival rate at six months\",\n      \"analysis\": \"\",\n      \"comparator\": \"none\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"As of the June 5, 2026 data cutoff (median follow-up of 9.8 months) the combination achieved a 52% confirmed objective response rate (cORR), with both an 86% overall survival rate and 68% progression-free survival rate at six months.\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"VS-7375\",\n      \"trial\": \"TARGET-D 101\",\n      \"indication\": \"advanced KRAS G12D mutant solid tumors\",\n      \"endpoint\": \"dose escalation - cleared 1200 mg daily (QD) dose with no dose-limiting toxicities\",\n      \"result\": \"cleared the 1200 mg daily (QD) dose of VS-7375 with no dose-limiting toxicities (DLTs) observed\",\n      \"analysis\": \"\",\n      \"comparator\": \"none\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"The Company has also cleared the 1200 mg daily (QD) dose of VS-7375 with no dose-limiting toxicities (DLTs) observed.\"\n      ],\n      \"confidence\": \"\"\n    }\n  ]\n}"
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 5021,
+   "completion_tokens": 1265,
+   "total_tokens": 6286,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 4509
+  },
+  "system_fingerprint": "a307abda487cd1b463329ccb945ce396"
+ }
+}

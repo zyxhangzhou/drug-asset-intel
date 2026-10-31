@@ -1,0 +1,39 @@
+{
+ "request_meta": {
+  "task": "catalyst",
+  "ticker": "VSTM",
+  "source_id": "DOC-VSTM-1a4164e2",
+  "chunks": [
+   0,
+   1,
+   24,
+   27
+  ]
+ },
+ "response": {
+  "id": "chatcmpl-a7b47597-4c33-9655-b2e2-cf70cade3153",
+  "object": "chat.completion",
+  "created": 1793422605,
+  "model": "qwen3.7-plus-2026-05-26",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"VS-7375\",\n      \"event\": \"report updating VS-7375 clinical data\",\n      \"event_type\": \"data_readout\",\n      \"timing\": \"October 2026\",\n      \"quotes\": [\n        \"We expect to report updating VS-7375 clinical data in October 2026.\"\n      ]\n    },\n    {\n      \"asset\": \"VS-7375\",\n      \"event\": \"complete enrollment across all three TARGET-D phase 2 trials\",\n      \"event_type\": \"other\",\n      \"timing\": \"end of 2026\",\n      \"quotes\": [\n        \"We expect to complete enrollment across all three TARGET-D phase 2 trials by end of 2026\"\n      ]\n    },\n    {\n      \"asset\": \"VS-7375\",\n      \"event\": \"meet with the FDA before the end of 2026 to review Phase 3 pivotal trial designs\",\n      \"event_type\": \"other\",\n      \"timing\": \"before the end of 2026\",\n      \"quotes\": [\n        \"We expect to meet with the FDA before the end of 2026 to review Phase 3 pivotal trial designs in first-line (“1L”) metastatic PDAC, 1L metastatic CRC, and 1L advanced NSCLC\"\n      ]\n    },\n    {\n      \"asset\": \"VS-7375\",\n      \"event\": \"enroll the first patient in each of the Phase 3 pivotal trials\",\n      \"event_type\": \"trial_start\",\n      \"timing\": \"first half of 2027\",\n      \"quotes\": [\n        \"We expect to enroll the first patient in each of the Phase 3 pivotal trials in the first half of 2027.\"\n      ]\n    }\n  ]\n}"
+    },
+    "finish_reason": "stop",
+    "logprobs": null
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 5305,
+   "total_tokens": 5745,
+   "completion_tokens": 440,
+   "prompt_tokens_details": {
+    "cached_tokens": 0,
+    "text_tokens": 5305
+   }
+  }
+ }
+}

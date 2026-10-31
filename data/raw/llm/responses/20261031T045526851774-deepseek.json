@@ -1,0 +1,38 @@
+{
+ "request_meta": {
+  "task": "program",
+  "ticker": "ARWR",
+  "source_id": "DOC-ARWR-9b18cae6",
+  "chunks": [
+   0
+  ]
+ },
+ "response": {
+  "id": "379407ef-1bf6-4134-bbf9-1296c11a441f",
+  "object": "chat.completion",
+  "created": 1793422526,
+  "model": "deepseek-v4-pro",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"PLOZASIRAN (ARO-APOC3)\",\n      \"mechanism\": \"reduces hepatic apolipoprotein C-III\",\n      \"modality\": \"small interfering RNA\",\n      \"quotes\": [\n        \"Plozasiran, a small interfering RNA, reduces hepatic apolipoprotein C-III, significantly lowers triglyceride (TG) levels and reduces risk of AP.\"\n      ]\n    }\n  ]\n}"
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 1375,
+   "completion_tokens": 100,
+   "total_tokens": 1475,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 863
+  },
+  "system_fingerprint": "a307abda487cd1b463329ccb945ce396"
+ }
+}

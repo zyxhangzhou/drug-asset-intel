@@ -1,0 +1,40 @@
+{
+ "request_meta": {
+  "task": "catalyst",
+  "ticker": "ARWR",
+  "source_id": "MAN-ARWR-2",
+  "chunks": [
+   0,
+   1,
+   2
+  ]
+ },
+ "response": {
+  "id": "47bfbd3e-9915-42a3-99d3-6bde7517c04c",
+  "object": "chat.completion",
+  "created": 1793422494,
+  "model": "deepseek-v4-pro",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"PLOZASIRAN (ARO-APOC3)\",\n      \"event\": \"sNDA submission for severe hypertriglyceridemia\",\n      \"event_type\": \"regulatory_filing\",\n      \"timing\": \"before the end of 2026\",\n      \"quotes\": [\n        \"Acquired a U.S. Food and Drug Administration (FDA) priority review voucher, which the company intends to use with its upcoming plozasiran sNDA submission, anticipated before the end of 2026, to potentially expand the approved indication to include patients with severe hypertriglyceridemia (sHTG).\"\n      ]\n    },\n    {\n      \"asset\": \"ZODASIRAN (ARO-ANG3)\",\n      \"event\": \"Completion of Phase 3 YOSEMITE clinical trial\",\n      \"event_type\": \"data_readout\",\n      \"timing\": \"mid-2027\",\n      \"quotes\": [\n        \"The Company anticipates that YOSEMITE will be completed in mid-2027 and, pending successful clinical results, intends to seek regulatory approval in multiple geographies thereafter.\"\n      ]\n    }\n  ]\n}"
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 4657,
+   "completion_tokens": 255,
+   "total_tokens": 4912,
+   "prompt_tokens_details": {
+    "cached_tokens": 512
+   },
+   "prompt_cache_hit_tokens": 512,
+   "prompt_cache_miss_tokens": 4145
+  },
+  "system_fingerprint": "a307abda487cd1b463329ccb945ce396"
+ }
+}

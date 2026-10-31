@@ -1,0 +1,41 @@
+{
+ "request_meta": {
+  "task": "clinical_result",
+  "ticker": "RGNX",
+  "source_id": "MAN-RGNX-1",
+  "chunks": [
+   7,
+   8,
+   9,
+   84
+  ]
+ },
+ "response": {
+  "id": "9ad55895-0081-4ee3-b523-36570cc6fc2f",
+  "object": "chat.completion",
+  "created": 1793421522,
+  "model": "deepseek-v4-pro",
+  "choices": [
+   {
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "content": "{\n  \"items\": [\n    {\n      \"asset\": \"sura-vec\",\n      \"trial\": \"Phase I/IIa long-term follow-up study\",\n      \"indication\": \"wet AMD\",\n      \"endpoint\": \"Mean BCVA change from baseline at four years (Cohort 3) and three years (Cohort 4)\",\n      \"result\": \"Cohort 3: +12 letters; Cohort 4: -5 letters\",\n      \"analysis\": \"\",\n      \"comparator\": \"none\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"patients treated with sura-vec demonstrated a durable treatment effect up to four years in Cohort 3 and up to three years in Cohort 4. Stable to improved visual acuity was observed, with a mean BCVA of +12 letters from baseline at four years for Cohort 3 patients and -5 letters from baseline at three years for Cohort 4 patients following sura-vec administration.\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"sura-vec\",\n      \"trial\": \"Phase II fellow eye sub-study\",\n      \"indication\": \"wet AMD\",\n      \"endpoint\": \"Reduction in anti-VEGF treatment burden at 12 months post-administration\",\n      \"result\": \"93% reduction\",\n      \"analysis\": \"\",\n      \"comparator\": \"none\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"At 12 months post-administration, patients saw a 93% reduction in anti-VEGF treatment burden and sustained vision and anatomy.\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"sura-vec\",\n      \"trial\": \"AAVIATE\",\n      \"indication\": \"wet AMD\",\n      \"endpoint\": \"Reduction in annualized injection rate at dose level 3\",\n      \"result\": \"80% reduction; 50% of patients remaining injection-free\",\n      \"analysis\": \"\",\n      \"comparator\": \"none\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"The highest reduction was seen in dose level 3, demonstrating an 80% reduction in annualized injection rate with 50% of patients remaining injection-free.\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"sura-vec\",\n      \"trial\": \"ALTITUDE\",\n      \"indication\": \"non-proliferative DR (NPDR)\",\n      \"endpoint\": \"Proportion of dose level 3 patients achieving at least a two-step improvement on ETDRS-DRSS without supplemental treatment\",\n      \"result\": \"50%\",\n      \"analysis\": \"\",\n      \"comparator\": \"none\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"Sura-vec demonstrated a dose-dependent increased rate of meaningful improvement as measured by the Early Treatment Diabetic Retinopathy Study-Diabetic Retinopathy Severity Scale, with 50% of dose level 3 patients achieving at least a two-step improvement without the need for any supplemental treatment.\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"sura-vec\",\n      \"trial\": \"ALTITUDE\",\n      \"indication\": \"non-proliferative DR (NPDR)\",\n      \"endpoint\": \"Reduction in risk of vision threatening events compared to historical control at dose level 3\",\n      \"result\": \"over 70% reduction\",\n      \"analysis\": \"\",\n      \"comparator\": \"historical control\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"We also reported that dose level 3 patients achieved an over 70% reduction in the risk of vision threatening events compared to historical control.\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"RGX-202\",\n      \"trial\": \"AFFINITY DUCHENNE Phase I/II\",\n      \"indication\": \"Duchenne muscular dystrophy\",\n      \"endpoint\": \"RGX-202 microdystrophin expression >10% among first nine patients\",\n      \"result\": \"all patients exceeding 10% expression\",\n      \"analysis\": \"\",\n      \"comparator\": \"none\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"positive RGX-202 microdystrophin expression results for the first nine patients, with all patients exceeding 10% expression\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"RGX-202\",\n      \"trial\": \"AFFINITY DUCHENNE Phase I/II\",\n      \"indication\": \"Duchenne muscular dystrophy\",\n      \"endpoint\": \"Functional outcomes (NSAA and timed function tests) at 12 months for dose level 1 and 9 months for dose level 2\",\n      \"result\": \"stable or improved function on NSAA and timed function tests including time to stand, 10 meter walk/run and time to climb\",\n      \"analysis\": \"\",\n      \"comparator\": \"external natural history controls matched for age and baseline function\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"In all five participants, across both dose levels, RGX-202 demonstrated evidence of positively impacting disease trajectory, with patients demonstrating stable or improved function on NSAA and timed function tests including time to stand, 10 meter walk/run and time to climb. Results were measured against external natural history controls matched for age and baseline function.\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"RGX-202\",\n      \"trial\": \"AFFINITY DUCHENNE Phase I/II\",\n      \"indication\": \"Duchenne muscular dystrophy\",\n      \"endpoint\": \"Functional results from all dose level 2 recipients at 9 and 12 months\",\n      \"result\": \"all dose level 2 participants exceeded external natural history controls on all functional measures\",\n      \"analysis\": \"\",\n      \"comparator\": \"external natural history controls\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"positive interim functional results from all dose level 2 recipients at 9 and 12 months (all dose level 2 participants exceeded external natural history controls on all functional measures)\"\n      ],\n      \"confidence\": \"\"\n    },\n    {\n      \"asset\": \"RGX-121\",\n      \"trial\": \"CAMPSIITE pivotal phase\",\n      \"indication\": \"Mucopolysaccharidosis Type II (MPS II)\",\n      \"endpoint\": \"Median reduction of cerebrospinal fluid (CSF) levels of HS D2S6 through one year\",\n      \"result\": \"82% median reduction\",\n      \"analysis\": \"\",\n      \"comparator\": \"none\",\n      \"advantage_vs_soc\": \"\",\n      \"quotes\": [\n        \"These results showed that in the pivotal phase of the CAMPSIITE trial (n=13), participants through one year sustained an 82% median reduction of cerebrospinal fluid (CSF) levels of HS D2S6.\"\n      ],\n      \"confidence\": \"\"\n    }\n  ]\n}"
+    },
+    "logprobs": null,
+    "finish_reason": "stop"
+   }
+  ],
+  "usage": {
+   "prompt_tokens": 5192,
+   "completion_tokens": 1523,
+   "total_tokens": 6715,
+   "prompt_tokens_details": {
+    "cached_tokens": 256
+   },
+   "prompt_cache_hit_tokens": 256,
+   "prompt_cache_miss_tokens": 4936
+  },
+  "system_fingerprint": "a307abda487cd1b463329ccb945ce396"
+ }
+}
