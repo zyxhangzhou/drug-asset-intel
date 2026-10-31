@@ -1,66 +1,55 @@
-import { Alert, Card, ConfigProvider, Descriptions, Layout, Spin, Statistic, Typography } from 'antd'
+import { ConfigProvider, Layout, Menu, Result, Typography } from 'antd'
 import zhCN from 'antd/locale/zh_CN'
-import { useEffect, useState } from 'react'
-import { fetchMeta, type SnapshotMeta } from './api/client'
+import { BrowserRouter, Link, Route, Routes, useLocation } from 'react-router'
+import BuyerDetail from './pages/BuyerDetail'
+import Buyers from './pages/Buyers'
+import Compare from './pages/Compare'
+import Overview from './pages/Overview'
+import SourceDetail from './pages/SourceDetail'
+import TargetDetail from './pages/TargetDetail'
+import Targets from './pages/Targets'
+import TrialDetail from './pages/TrialDetail'
 
-const ENTITY_LABELS: Record<string, string> = {
-  buyer: '买方药企',
-  buyer_preference: '买方偏好',
-  buyer_financial: '买方财务',
-  buyer_product_loe: '买方专利到期产品',
-  target: '标的公司',
-  program: '管线',
-  program_indication: '管线适应症',
-  trial: '临床试验',
-  trial_result: '试验结果',
-  catalyst: '催化事件',
-  financial_snapshot: '财务快照',
-  approved_product: '获批产品',
-  match: '买方×标的匹配',
-}
+const NAV = [
+  { key: '/', label: <Link to="/">概览</Link> },
+  { key: '/buyers', label: <Link to="/buyers">买方</Link> },
+  { key: '/targets', label: <Link to="/targets">候选</Link> },
+]
 
-function SnapshotOverview({ meta }: { meta: SnapshotMeta }) {
-  const generated = meta.generated_at ? new Date(meta.generated_at).toLocaleString('zh-CN') : '未知'
+function Shell() {
+  const { pathname } = useLocation()
+  const section = pathname === '/' ? '/' : pathname.startsWith('/buyers') ? '/buyers' : '/targets'
   return (
-    <>
-      <Descriptions size="small" column={1} style={{ marginBottom: 24 }}>
-        <Descriptions.Item label="快照日（行情与财务截至）">{meta.snapshot_date ?? '未知'}</Descriptions.Item>
-        <Descriptions.Item label="数据快照时间">{generated}</Descriptions.Item>
-        <Descriptions.Item label="生成程序">{meta.generator ?? '未知'}</Descriptions.Item>
-      </Descriptions>
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(160px, 1fr))', gap: 16 }}>
-        {Object.entries(meta.counts).map(([entity, count]) => (
-          <Card key={entity} size="small">
-            <Statistic title={ENTITY_LABELS[entity] ?? entity} value={count} />
-          </Card>
-        ))}
-      </div>
-    </>
+    <Layout style={{ minHeight: '100vh' }}>
+      <Layout.Header style={{ display: 'flex', alignItems: 'center', gap: 24 }}>
+        <Typography.Title level={4} style={{ color: '#fff', margin: 0, whiteSpace: 'nowrap' }}>
+          全球创新药资产情报平台
+        </Typography.Title>
+        <Menu theme="dark" mode="horizontal" selectedKeys={[section]} items={NAV} style={{ flex: 1, minWidth: 0 }} />
+      </Layout.Header>
+      <Layout.Content style={{ padding: 24, maxWidth: 1280, width: '100%', margin: '0 auto' }}>
+        <Routes>
+          <Route path="/" element={<Overview />} />
+          <Route path="/buyers" element={<Buyers />} />
+          <Route path="/buyers/:ticker" element={<BuyerDetail />} />
+          <Route path="/targets" element={<Targets />} />
+          <Route path="/targets/:ticker" element={<TargetDetail />} />
+          <Route path="/compare" element={<Compare />} />
+          <Route path="/trials/:nct" element={<TrialDetail />} />
+          <Route path="/sources/:id" element={<SourceDetail />} />
+          <Route path="*" element={<Result status="404" title="页面不存在" extra={<Link to="/">返回概览</Link>} />} />
+        </Routes>
+      </Layout.Content>
+    </Layout>
   )
 }
 
 export default function App() {
-  const [meta, setMeta] = useState<SnapshotMeta | null>(null)
-  const [error, setError] = useState<string | null>(null)
-
-  useEffect(() => {
-    fetchMeta().then(setMeta).catch((e: Error) => setError(e.message))
-  }, [])
-
   return (
     <ConfigProvider locale={zhCN}>
-      <Layout style={{ minHeight: '100vh' }}>
-        <Layout.Header style={{ display: 'flex', alignItems: 'center' }}>
-          <Typography.Title level={4} style={{ color: '#fff', margin: 0 }}>
-            全球创新药资产情报平台
-          </Typography.Title>
-        </Layout.Header>
-        <Layout.Content style={{ padding: 24, maxWidth: 1200, width: '100%', margin: '0 auto' }}>
-          {error && <Alert type="error" title="无法读取数据快照" description={error} showIcon />}
-          {!error && !meta && <Spin />}
-          {meta && <SnapshotOverview meta={meta} />}
-        </Layout.Content>
-      </Layout>
+      <BrowserRouter>
+        <Shell />
+      </BrowserRouter>
     </ConfigProvider>
   )
 }

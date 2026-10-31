@@ -210,7 +210,8 @@ def buyer_detail(session: Session, ticker: str) -> BuyerDetail | None:
     prefs = session.exec(
         select(BuyerPreference)
         .where(BuyerPreference.buyer_id == buyer.id)
-        .order_by(BuyerPreference.dimension, BuyerPreference.rank)
+        # Therapeutic-area rows first, as in the buyer material.
+        .order_by(col(BuyerPreference.dimension).desc(), BuyerPreference.rank)
     ).all()
     matches = session.exec(
         select(Match)

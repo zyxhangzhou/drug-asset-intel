@@ -20,7 +20,7 @@
 
 ## 目录
 
-- `src/intel/` Python 包：数据模型与溯源规则（`models.py`、`db.py`）、API（`api.py`）、命令行（`cli.py`）；后续管道加子包
+- `src/intel/` Python 包：数据模型与溯源规则（`models.py`、`db.py`）、API 路由（`api.py`）与页面查询（`views.py`）、命令行（`cli.py`）；后续管道加子包
 - `tests/` pytest
 - `web/` 前端（Vite + React + TS + Ant Design），开发时代理 `/api` 到 8000 端口
 - `data/raw/` 抓取的原始响应与文档快照（带抓取时间）
@@ -69,7 +69,7 @@ uv run intel check-provenance             # 溯源完整性检查
 uv run intel check-scoring                # 评分检验：高分有事实支撑、前 10 覆盖率、权重敏感性
 uv run intel serve                        # API，http://127.0.0.1:8000；/api/shortlist?weights=30,20,20,15,15 按权重重排
 cd web && npm install && npm run dev      # 前端开发服务器（代理 /api）
-cd web && npm run build                   # 构建前端，intel serve 会托管 web/dist
+cd web && npm run build                   # 构建前端，intel serve 会托管 web/dist；前端路由（如 /targets/VKTX）可直接打开
 docker compose up --build                 # 一条命令启动完整应用，http://localhost:8000
 ```
 
