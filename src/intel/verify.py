@@ -317,6 +317,16 @@ def write_sheet(rows: list[Row], out: Path) -> Path:
 # --- user spot check ----------------------------------------------------------------------------
 
 
+RIGHTS = {"full": "全部权益", "partial": "部分地区已授出", "restricted": "受限"}
+
+
+def _rights(rights: dict) -> str | None:
+    if not rights.get("status"):
+        return None
+    label = RIGHTS.get(rights["status"], rights["status"])
+    return f"{label}。{rights['note']}" if rights.get("note") else label
+
+
 def spot_check(reviews_dir: Path, session: Session, n: int = 5, seed: int = SEED) -> str:
     """Markdown checklist for the user: n signed review files picked with the fixed seed."""
     signed = []
@@ -347,7 +357,7 @@ def spot_check(reviews_dir: Path, session: Session, n: int = 5, seed: int = SEED
             f"- 推荐方向：{data.get('program')} × {data.get('indication')} × {data.get('buyer')}",
         ]
         checks = [
-            ("资产权益", (data.get("rights") or {}).get("status"), data.get("rights")),
+            ("资产权益", _rights(data.get("rights") or {}), data.get("rights")),
             ("关键临床结果", (data.get("clinical") or {}).get("result"), data.get("clinical")),
             ("下一事件", (data.get("event") or {}).get("text"), data.get("event")),
         ]
