@@ -213,6 +213,7 @@ def test_deep_link_serves_index_but_unknown_api_is_404(seeded, tmp_path):
     client = TestClient(create_app(db_path=seeded, web_dist=dist))
     assert "root" in client.get("/targets/ABCD").text
     assert "console" in client.get("/assets/app.js").text
+    assert client.get("/api").status_code == 404
     unknown = client.get("/api/nope")
     assert unknown.status_code == 404 and "root" not in unknown.text
 

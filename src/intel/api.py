@@ -184,8 +184,9 @@ def create_app(
         return PlainTextResponse(text, media_type="text/plain; charset=utf-8")
 
     # Registered after every API route: an unknown /api path is a 404, never the frontend.
+    @app.api_route("/api", methods=["GET", "POST", "PUT", "PATCH", "DELETE"])
     @app.api_route("/api/{rest:path}", methods=["GET", "POST", "PUT", "PATCH", "DELETE"])
-    def unknown_api(rest: str):
+    def unknown_api(rest: str = ""):
         raise HTTPException(status_code=404, detail="unknown API path")
 
     if web_dist.is_dir():

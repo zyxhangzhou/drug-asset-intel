@@ -16,6 +16,7 @@ COPY src/ src/
 COPY config/ config/
 RUN uv sync --frozen --no-dev
 COPY data/processed/intel.db data/processed/intel.db
+COPY data/raw/docs/ data/raw/docs/
 COPY --from=web /web/dist web/dist
 ENV PATH="/app/.venv/bin:$PATH"
 EXPOSE 8000

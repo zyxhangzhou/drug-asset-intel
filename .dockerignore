@@ -3,7 +3,16 @@
 .env
 **/node_modules
 web/dist
-data/raw
+# Only the archived document texts are served (source page); other raw responses stay out.
+data/raw/*
+!data/raw/docs
+data/raw/docs/**/*.html
+data/raw/docs/**/*.json
+data/raw/docs/**/*.jsonl
+data/raw/docs/**/*.raw
+data/raw/docs/**/*.sqlite
+data/raw/docs/*.sqlite
+data/raw/docs/**/*.jpg
 docs
 mydoc
 openspec
