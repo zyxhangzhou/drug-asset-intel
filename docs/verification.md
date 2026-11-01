@@ -60,7 +60,7 @@
 
 修正后重建快照（提交 `9af8b18`）：
 
-- `intel check-provenance`：0 个溯源缺口。
+- `intel check-provenance`：0 个有值但没有来源的字段。
 - IONS：EV 61.0 亿美元，可交易性 3 → 2，保守分 78.8 → 75.0，仍入选，名次 21 → 30。入选的 30 家公司不变。
 - CLDX：两条终点名称含 "in Patients with Baseline AAS7>0"。
 - 对照组为占位值的 LLM 声明：15 → 0。

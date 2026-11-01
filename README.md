@@ -36,7 +36,7 @@
 | 数据模型及系统架构 | 业务表 + 声明表（每个值挂来源）；抓取、离线构建、只读使用三段分离；单文件 SQLite 快照 | [`architecture.md`](docs/architecture.md) 第 1、2、6 节 |
 | 权威信息源与来源追溯 | 结构化字段只走 CT.gov、SEC XBRL、openFDA 官方接口；文档原文存档并记 SHA-256；页面可点开原文并高亮引用片段 | [`data-sources.md`](docs/data-sources.md) 第 2、3 节 |
 | AI 工具的实际应用效果 | 分工、用量与费用（LLM 226 次调用 5.88 元）；分层抽样错误率；拦下的幻觉与修正 | [`ai-usage.md`](docs/ai-usage.md)、[`ai-log.md`](docs/ai-log.md) |
-| 数据抽取、归一化和质量控制 | 抽取附原文并逐字校验、双模型比对、人工签字；公司、药物、阶段、领域、财务口径归一化；溯源检查为 0、评分检验、分层抽样 | [`data-sources.md`](docs/data-sources.md) 第 5、6 节、[`verification.md`](docs/verification.md) |
+| 数据抽取、归一化和质量控制 | 抽取附原文并逐字校验、双模型比对、人工签字；公司、药物、阶段、领域、财务口径归一化；溯源检查（有值但没有来源的字段 0 个）、评分检验、分层抽样 | [`data-sources.md`](docs/data-sources.md) 第 5、6 节、[`verification.md`](docs/verification.md) |
 | 事实、推断和不确定性 | 每个值标事实或推断，推断带四档置信度；保守分与乐观分区间反映研究充分程度；找不到来源留空，记入缺口清单 | [`data-sources.md`](docs/data-sources.md) 第 4 节、[`scoring-rules.md`](docs/scoring-rules.md) 第 4 节 |
 | 应用的可用性和扩展性 | 已部署可访问，支持手机；权重可调并实时重排；复核与抽取文件按公司独立，扩到全部公司不改代码 | [`architecture.md`](docs/architecture.md) 第 5、7 节、[`demo.md`](docs/demo.md) |
 | 代码质量、文档质量及工程完整度 | 302 项测试；OpenSpec 规格驱动（11 个变更、16 份主规格）；一条命令启动；交付文档齐全 | 本文件「运行」「测试与检查」、`openspec/` |
