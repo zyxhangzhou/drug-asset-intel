@@ -37,9 +37,11 @@ function Shell() {
             <Link to="/" className="brand">
               <svg className="brand-mark" width="28" height="28" viewBox="0 0 28 28" aria-hidden>
                 <rect width="28" height="28" rx="7" fill="var(--accent)" />
-                <path d="M9 9.5 19 18.5" stroke="#fff" strokeOpacity=".55" strokeWidth="1.6" />
-                <circle cx="9" cy="9.5" r="3" fill="#fff" />
-                <circle cx="19" cy="18.5" r="3" fill="none" stroke="#fff" strokeWidth="1.6" />
+                {/* A capsule, half filled and half outlined: drug assets, facts and inferences. */}
+                <g transform="rotate(-45 14 14)">
+                  <rect x="5" y="10" width="18" height="8" rx="4" fill="none" stroke="#fff" strokeWidth="2" />
+                  <path d="M9 10h5v8H9a4 4 0 0 1 0-8z" fill="#fff" />
+                </g>
               </svg>
               <span className="brand-text">
                 <span className="brand-name">全球创新药资产情报平台</span>
