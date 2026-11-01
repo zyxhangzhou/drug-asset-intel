@@ -1,3 +1,4 @@
+import base64
 from datetime import UTC, datetime
 
 import pytest
@@ -48,3 +49,41 @@ def test_frontend_is_served_same_origin(db_path, tmp_path):
     client = TestClient(create_app(db_path=db_path, web_dist=dist))
     assert "root" in client.get("/").text
     assert client.get("/api/health").status_code == 200
+
+
+def _auth(password: str) -> dict[str, str]:
+    return {"Authorization": "Basic " + base64.b64encode(f"anyone:{password}".encode()).decode()}
+
+
+def test_no_password_configured(db_path, tmp_path, monkeypatch):
+    monkeypatch.setenv("INTEL_ACCESS_PASSWORD", "")
+    client = TestClient(create_app(db_path=db_path, web_dist=tmp_path / "no-dist"))
+    assert client.get("/api/shortlist").status_code == 200
+
+
+@pytest.fixture
+def locked(db_path, tmp_path):
+    dist = tmp_path / "dist"
+    dist.mkdir()
+    (dist / "index.html").write_text("<!doctype html><title>app</title>")
+    app = create_app(db_path=db_path, web_dist=dist, access_password="s3cret")
+    return TestClient(app)
+
+
+@pytest.mark.parametrize("path", ["/", "/targets/VKTX", "/api/shortlist", "/api/meta"])
+def test_password_required(locked, path):
+    resp = locked.get(path)
+    assert resp.status_code == 401
+    assert resp.headers["www-authenticate"].startswith("Basic")
+    assert locked.get(path, headers=_auth("wrong")).status_code == 401
+    assert locked.get(path, headers={"Authorization": "Basic !!!"}).status_code == 401
+
+
+def test_correct_password(locked):
+    assert locked.get("/api/shortlist", headers=_auth("s3cret")).status_code == 200
+    page = locked.get("/", headers=_auth("s3cret"))
+    assert page.status_code == 200 and "app" in page.text
+
+
+def test_health_open_with_password(locked):
+    assert locked.get("/api/health").status_code == 200

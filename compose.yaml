@@ -3,3 +3,6 @@ services:
     build: .
     ports:
       - "8000:8000"
+    environment:
+      # Optional site password; unset or empty serves without one.
+      INTEL_ACCESS_PASSWORD: ${INTEL_ACCESS_PASSWORD:-}

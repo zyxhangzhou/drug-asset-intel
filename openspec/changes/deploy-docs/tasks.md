@@ -2,8 +2,8 @@
 
 ## 1. 访问密码与部署配置
 
-- [ ] 1.1 新增配置项 `INTEL_ACCESS_PASSWORD`（`config.py`、`.env.example`）；`create_app` 在配置了密码时加基本认证中间件，豁免 `/api/health`；测试覆盖规格 4 个场景（`uv run pytest`）
-- [ ] 1.2 新增 `render.yaml`（Docker 运行时、健康检查 `/api/health`、密码 `sync: false`）；本地 `docker compose up --build` 带与不带密码各验证一次
+- [x] 1.1 新增配置项 `INTEL_ACCESS_PASSWORD`（`config.py`、`.env.example`）；`create_app` 在配置了密码时加基本认证中间件，豁免 `/api/health`；测试覆盖规格 4 个场景（`uv run pytest`）
+- [x] 1.2 新增 `render.yaml`（Docker 运行时、健康检查 `/api/health`、密码 `sync: false`）；本地 `docker compose up --build` 带与不带密码各验证一次
 - [ ] 1.3 [人工] 用户在 Render 连接仓库、填写密码并部署；记录访问地址，带密码打开首页与一个公司详情页确认可用
 
 ## 2. README 与 AI 使用说明

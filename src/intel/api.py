@@ -1,10 +1,13 @@
 """Read-only HTTP API over the snapshot; also serves the built frontend."""
 
+import base64
+import binascii
+import secrets
 from datetime import UTC, date, datetime
 from pathlib import Path
 from typing import Annotated
 
-from fastapi import Depends, FastAPI, HTTPException, Query
+from fastapi import Depends, FastAPI, HTTPException, Query, Request
 from fastapi.middleware.gzip import GZipMiddleware
 from fastapi.responses import PlainTextResponse
 from fastapi.staticfiles import StaticFiles
@@ -79,10 +82,25 @@ def _found[T](value: T | None, what: str) -> T:
     return value
 
 
+def _password_ok(header: str | None, password: str) -> bool:
+    scheme, _, encoded = (header or "").partition(" ")
+    if scheme.lower() != "basic":
+        return False
+    try:
+        _, _, given = base64.b64decode(encoded).decode().partition(":")
+    except (binascii.Error, UnicodeDecodeError):
+        return False
+    return secrets.compare_digest(given.encode(), password.encode())
+
+
 def create_app(
-    db_path: Path | None = None, web_dist: Path | None = None, raw_dir: Path | None = None
+    db_path: Path | None = None,
+    web_dist: Path | None = None,
+    raw_dir: Path | None = None,
+    access_password: str | None = None,
 ) -> FastAPI:
     settings = load_settings()
+    access_password = access_password or settings.access_password
     engine = ro_engine(db_path or settings.db_path)
     web_dist = web_dist or settings.web_dist
     raw_dir = raw_dir or Inputs().raw_dir
@@ -94,6 +112,20 @@ def create_app(
     app = FastAPI(title="Drug Asset Intel", version="0.1.0")
     # Company detail with every claim runs to ~1 MB for the largest pipelines.
     app.add_middleware(GZipMiddleware, minimum_size=4096)
+
+    if access_password:
+        # One shared password for the deployed site; the platform health check stays open.
+        @app.middleware("http")
+        async def require_password(request: Request, call_next):
+            if request.url.path == "/api/health" or _password_ok(
+                request.headers.get("authorization"), access_password
+            ):
+                return await call_next(request)
+            return PlainTextResponse(
+                "password required",
+                status_code=401,
+                headers={"WWW-Authenticate": 'Basic realm="Drug Asset Intel", charset="UTF-8"'},
+            )
 
     @app.get("/api/health", response_model=Health)
     def health() -> Health:

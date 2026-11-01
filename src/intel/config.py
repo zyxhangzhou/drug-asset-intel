@@ -12,6 +12,7 @@ from dotenv import load_dotenv
 CONFIG_KEYS = (
     "INTEL_DB_PATH",
     "INTEL_WEB_DIST",
+    "INTEL_ACCESS_PASSWORD",
     "SEC_USER_AGENT",
     "LLM_BASE_URL",
     "LLM_MODEL",
@@ -29,6 +30,7 @@ DEFAULT_WEB_DIST = "web/dist"
 class Settings:
     db_path: Path
     web_dist: Path
+    access_password: str | None
     sec_user_agent: str | None
     llm_base_url: str | None
     llm_model: str | None
@@ -44,6 +46,7 @@ def load_settings() -> Settings:
     return Settings(
         db_path=Path(env["INTEL_DB_PATH"] or DEFAULT_DB_PATH),
         web_dist=Path(env["INTEL_WEB_DIST"] or DEFAULT_WEB_DIST),
+        access_password=env["INTEL_ACCESS_PASSWORD"],
         sec_user_agent=env["SEC_USER_AGENT"],
         llm_base_url=env["LLM_BASE_URL"],
         llm_model=env["LLM_MODEL"],
