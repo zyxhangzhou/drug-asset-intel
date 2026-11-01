@@ -98,13 +98,13 @@ strong {
   justify-content: space-between;
   gap: 8px 32px;
   flex-wrap: wrap;
-  min-height: 60px;
+  min-height: 76px;
 }
 
 .brand {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
   color: var(--ink);
   text-decoration: none;
   min-width: 0;
@@ -112,22 +112,25 @@ strong {
 
 .brand-mark {
   flex: none;
+  width: 36px;
+  height: 36px;
 }
 
 .brand-text {
   display: grid;
-  gap: 1px;
+  gap: 2px;
   min-width: 0;
 }
 
 .brand-name {
   font-weight: 600;
-  font-size: var(--fs-title);
+  font-size: 20px;
   line-height: 1.3;
+  letter-spacing: 0.02em;
 }
 
 .brand-sub {
-  font-size: 12px;
+  font-size: var(--fs-small);
   color: var(--muted);
 }
 
@@ -140,8 +143,8 @@ strong {
 .nav a {
   color: var(--ink-2);
   text-decoration: none;
-  font-size: 14px;
-  padding: 6px 12px;
+  font-size: 15px;
+  padding: 8px 14px;
   border-radius: 6px;
   transition: background-color 150ms ease-out, color 150ms ease-out;
 }
@@ -699,8 +702,20 @@ strong {
   .brand-sub {
     display: none;
   }
+  .brand-mark {
+    width: 30px;
+    height: 30px;
+  }
+  .brand-name {
+    font-size: 17px;
+  }
   .masthead-row {
+    min-height: 0;
     padding-block: 10px;
+  }
+  .nav a {
+    font-size: 14px;
+    padding: 6px 12px;
   }
   .field {
     grid-template-columns: minmax(0, 1fr);
