@@ -24,7 +24,7 @@
 
 ## 5. 收尾
 
-- [ ] 5.1 `CLAUDE.md` 更新目录与配置说明；`uv run pytest`、`uv run ruff check .`、`npm run build` 通过；交付清单逐项有对应文件；`docs/ai-log.md` 记一条
+- [x] 5.1 `CLAUDE.md` 更新目录与配置说明；`uv run pytest`、`uv run ruff check .`、`npm run build` 通过；交付清单逐项有对应文件；`docs/ai-log.md` 记一条
 
 ## Workflow follow-up
 

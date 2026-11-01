@@ -28,7 +28,9 @@
 - `config/scoring.toml` 评分权重、EV 档位、长名单家数与人工加入（`longlist_extra`）
 - `config/llm.toml` LLM 价格表（注明官方来源）、DeepSeek 高峰时段、各服务商预算上限；账本在 `data/raw/llm/ledger.jsonl`
 - `data/processed/intel.db` 数据快照，提交进仓库；应用只读它，管道重建它
-- `docs/` 方案、架构、筛选方法、AI 使用说明、核验记录、已知限制
+- `docs/` 交付文档：`architecture.md`、`scoring-rules.md`（筛选方法）、`data-sources.md`、`ai-usage.md`（按 `ai-log.md` 成文）、`verification.md`、`limitations-roadmap.md`、`demo.md`；`plan.md` 是开工前方案，不再更新。`README.md` 面向评审，交付物索引在那里
+- `deliverables/` Excel 交付文件（`intel export` 生成）
+- `render.yaml` Render 部署；网站访问密码来自环境变量 `INTEL_ACCESS_PASSWORD`（空则不需要密码，`/api/health` 始终开放）
 
 ## 数据模型要点
 
@@ -74,7 +76,7 @@ uv run intel verify spot-check            # 用户抽查清单（5 份复核文�
 uv run intel serve                        # API，http://127.0.0.1:8000；/api/shortlist?weights=30,20,20,15,15 按权重重排
 cd web && npm install && npm run dev      # 前端开发服务器（代理 /api）
 cd web && npm run build                   # 构建前端，intel serve 会托管 web/dist；前端路由（如 /targets/VKTX）可直接打开
-docker compose up --build                 # 一条命令启动完整应用，http://localhost:8000
+docker compose up --build                 # 一条命令启动完整应用，http://localhost:8000（INTEL_ACCESS_PASSWORD=... 时需密码）
 ```
 
 ## 工作流

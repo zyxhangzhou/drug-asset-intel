@@ -126,7 +126,7 @@ flowchart LR
 ## 5. 应用
 
 - **后端**：FastAPI，只读打开快照；接口返回值时同时返回支撑它的声明与来源，前端据此标出来源圆点（实心 = 事实，空心 = 推断）并跳转。
-- **接口**：`/api/health`、`/api/meta`、`/api/shortlist`（可带五维权重重排，不改快照）、`/api/buyers`、`/api/buyers/{ticker}`、`/api/targets/{ticker}`、`/api/trials/{nct_id}`、`/api/sources/{source_id}`（含存档原文与片段位置）。
+- **接口**：`/api/health`、`/api/meta`、`/api/shortlist`（可带五维权重重排，不改快照）、`/api/buyers`、`/api/buyers/{ticker}`、`/api/targets/{ticker}`、`/api/trials/{nct_id}`、`/api/sources/{source_id}` 与 `/api/sources/{source_id}/text`（来源登记、存档原文与片段位置）。
 - **前端**：Vite + React 19 + TypeScript + Ant Design 6；概览、候选列表与对比、公司详情（管线、试验、临床结果、推荐方向）、买方、试验、来源原文（高亮引用片段）共 8 类页面。
 - **部署**：一个 Docker 镜像同时托管 API 与前端（`Dockerfile`、`compose.yaml`）；Render 用 `render.yaml`。可选访问密码（`INTEL_ACCESS_PASSWORD`，HTTP 基本认证，健康检查除外）。
 
