@@ -7,6 +7,7 @@ import { AssetName, PageHead, Score } from '../components/Page'
 import { Legend, Sourced, SourcedText } from '../components/Sourced'
 import { Thesis } from '../components/Thesis'
 import { CATALYST_TYPE, DATE_TYPE, DIMENSIONS, label, money, RESEARCH_STATUS, RIGHTS, shortAsset, STAGE, taLabel } from '../labels'
+import { stack } from '../lib/stack'
 
 const REVIEW_FIELDS: [keyof Recommendation, string][] = [
   ['need_item', '对应买方需求'],
@@ -135,6 +136,7 @@ function RecommendationView({ r }: { r: Recommendation }) {
 function OtherDirections({ items }: { items: Recommendation[] }) {
   return (
     <Table
+      className="stack"
       rowKey={(_, i) => String(i)}
       size="small"
       pagination={false}
@@ -148,9 +150,10 @@ function OtherDirections({ items }: { items: Recommendation[] }) {
           </div>
         ),
       }}
-      columns={[
+      columns={stack<Recommendation>([
         {
           title: '资产 × 适应症',
+          className: 'stack-head',
           render: (_, r) => (
             <div style={{ display: 'grid', gap: 2 }}>
               <span style={{ fontWeight: 500 }}><AssetName name={r.asset} /></span>
@@ -171,6 +174,7 @@ function OtherDirections({ items }: { items: Recommendation[] }) {
         },
         ...DIMENSIONS.map((d) => ({
           title: d.short,
+          className: 'stack-inline',
           width: 52,
           align: 'center' as const,
           render: (_: unknown, r: Recommendation) => <Score value={r.scores[d.key]} />,
@@ -187,7 +191,7 @@ function OtherDirections({ items }: { items: Recommendation[] }) {
           ),
         },
         { title: '状态', width: 84, render: (_, r) => <span className="sub">{label(RESEARCH_STATUS, r.research_status)}</span> },
-      ]}
+      ])}
     />
   )
 }
@@ -195,21 +199,22 @@ function OtherDirections({ items }: { items: Recommendation[] }) {
 export function ResultsTable({ results, showTrial = true }: { results: TrialResult[]; showTrial?: boolean }) {
   return (
     <Table
+      className="stack"
       rowKey={(r, i) => `${r.nct_id}-${i}`}
       size="small"
       dataSource={results}
       pagination={results.length > 20 ? { pageSize: 20 } : false}
       scroll={{ x: 1000 }}
-      columns={[
+      columns={stack<TrialResult>([
         ...(showTrial
           ? [{ title: '试验', width: 130, render: (_: unknown, r: TrialResult) => <Link className="mono" to={`/trials/${r.nct_id}`}>{r.nct_id}</Link> }]
           : []),
-        { title: '终点', width: 240, render: (_, r) => <Sourced sources={r.sources} field="endpoint">{r.endpoint ?? '—'}</Sourced> },
+        { title: '终点', className: 'stack-head', width: 240, render: (_, r) => <Sourced sources={r.sources} field="endpoint">{r.endpoint ?? '—'}</Sourced> },
         { title: '结果', render: (_, r) => <SourcedText sources={r.sources} field="result" text={r.result} /> },
         { title: '统计分析', width: 220, render: (_, r) => <SourcedText sources={r.sources} field="analysis" text={r.analysis} /> },
         { title: '对照', width: 140, render: (_, r) => <Sourced sources={r.sources} field="comparator">{r.comparator ?? '—'}</Sourced> },
         { title: '相对标准治疗', width: 160, render: (_, r) => <Sourced sources={r.sources} field="advantage_vs_soc">{r.advantage_vs_soc ?? '—'}</Sourced> },
-      ]}
+      ])}
     />
   )
 }
@@ -291,17 +296,19 @@ function View({ d }: { d: Detail }) {
                   管线、适应症与阶段由 ClinicalTrials.gov 登记推导（推断）；作用机制与技术类型来自签字的文档抽取或人工核实。
                 </p>
                 <Table
+                  className="stack"
                   rowKey="name"
                   size="small"
                   pagination={d.programs.length > 20 ? { pageSize: 20 } : false}
                   dataSource={d.programs}
                   scroll={{ x: 900 }}
-                  columns={[
-                    { title: '药物', dataIndex: 'name', width: 180, render: (v) => <b style={{ wordBreak: 'break-word' }}><AssetName name={v} /></b> },
+                  columns={stack<(typeof d.programs)[number]>([
+                    { title: '药物', className: 'stack-head', dataIndex: 'name', width: 180, render: (v) => <b style={{ wordBreak: 'break-word' }}><AssetName name={v} /></b> },
                     { title: '作用机制', render: (_, p) => <Sourced sources={p.sources} field="mechanism">{p.mechanism ?? '—'}</Sourced> },
                     { title: '技术类型', width: 140, render: (_, p) => <Sourced sources={p.sources} field="modality">{p.modality ?? '—'}</Sourced> },
                     {
                       title: '适应症 · 领域 · 阶段',
+                      stackLabel: '适应症',
                       render: (_, p) => (
                         <div style={{ display: 'grid', gap: 2 }}>
                           {p.indications.map((i) => (
@@ -315,7 +322,7 @@ function View({ d }: { d: Detail }) {
                         </div>
                       ),
                     },
-                  ]}
+                  ])}
                 />
               </>
             ),
@@ -325,23 +332,24 @@ function View({ d }: { d: Detail }) {
             label: `试验（${d.trials.length}）`,
             children: (
               <Table
+                className="stack"
                 rowKey="nct_id"
                 size="small"
                 dataSource={d.trials}
                 pagination={d.trials.length > 20 ? { pageSize: 20 } : false}
                 scroll={{ x: 1180 }}
-                columns={[
-                  { title: 'NCT', width: 130, render: (_, r) => <Link className="mono" to={`/trials/${r.nct_id}`}>{r.nct_id}</Link> },
+                columns={stack<(typeof d.trials)[number]>([
+                  { title: 'NCT', className: 'stack-head', width: 130, render: (_, r) => <Link className="mono" to={`/trials/${r.nct_id}`}>{r.nct_id}</Link> },
                   { title: '标题', dataIndex: 'title', ellipsis: { showTitle: true } },
                   { title: '阶段', width: 70, render: (_, r) => label(STAGE, r.phase) },
                   { title: '状态', dataIndex: 'status', width: 150 },
                   { title: '入组', width: 100, render: (_, r) => (r.enrollment == null ? '—' : `${r.enrollment}（${label(DATE_TYPE, r.enrollment_type)}）`) },
-                  { title: '开始', dataIndex: 'start_date', width: 90 },
+                  { title: '开始', className: 'stack-hide', dataIndex: 'start_date', width: 90 },
                   { title: '主要完成', width: 130, render: (_, r) => (r.primary_completion_date ? `${r.primary_completion_date}（${label(DATE_TYPE, r.primary_completion_type)}）` : '—') },
                   { title: '预计读出', dataIndex: 'expected_readout', width: 90, render: (v) => v ?? '—' },
                   { title: '结果', dataIndex: 'results', width: 60, align: 'right' },
                   { title: '来源', width: 170, render: (_, r) => r.source_ids.map((s) => <Link key={s} className="src-chip" to={`/sources/${s}`}>{s}</Link>) },
-                ]}
+                ])}
               />
             ),
           },
@@ -351,16 +359,17 @@ function View({ d }: { d: Detail }) {
             label: `获批产品（${d.approvals.length}）`,
             children: (
               <Table
+                className="stack"
                 rowKey={(a, i) => `${a.application_number}-${i}`}
                 size="small"
                 pagination={false}
                 dataSource={d.approvals}
-                columns={[
+                columns={stack<(typeof d.approvals)[number]>([
                   { title: '申请号', render: (_, a) => <Sourced sources={a.sources} field="application_number">{a.application_number ?? '—'}</Sourced> },
                   { title: '商品名', render: (_, a) => <Sourced sources={a.sources} field="brand_name">{a.brand_name ?? '—'}</Sourced> },
                   { title: '活性成分', render: (_, a) => <Sourced sources={a.sources} field="active_ingredients">{a.active_ingredients ?? '—'}</Sourced> },
                   { title: '首次批准', render: (_, a) => <Sourced sources={a.sources} field="first_approval_date">{a.first_approval_date ?? '—'}</Sourced> },
-                ]}
+                ])}
               />
             ),
           },
@@ -369,12 +378,13 @@ function View({ d }: { d: Detail }) {
             label: `催化事件（${d.catalysts.length}）`,
             children: (
               <Table
+                className="stack"
                 rowKey={(c, i) => `${c.event}-${i}`}
                 size="small"
                 pagination={false}
                 dataSource={d.catalysts}
-                columns={[
-                  { title: '事件', render: (_, c) => <Sourced sources={c.sources} field="event">{c.event ?? '—'}</Sourced> },
+                columns={stack<(typeof d.catalysts)[number]>([
+                  { title: '事件', className: 'stack-head', render: (_, c) => <Sourced sources={c.sources} field="event">{c.event ?? '—'}</Sourced> },
                   { title: '药物', dataIndex: 'program', width: 120, render: (v) => v ?? '—' },
                   { title: '类型', width: 100, render: (_, c) => label(CATALYST_TYPE, c.event_type) },
                   {
@@ -386,7 +396,7 @@ function View({ d }: { d: Detail }) {
                       </Sourced>
                     ),
                   },
-                ]}
+                ])}
               />
             ),
           },

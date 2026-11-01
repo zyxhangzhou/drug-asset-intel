@@ -1,9 +1,10 @@
 import { Table, Tag } from 'antd'
 import { Link } from 'react-router'
-import { fetchBuyers } from '../api/client'
+import { fetchBuyers, type BuyerSummary } from '../api/client'
 import { useApi } from '../api/useApi'
 import { Loaded } from '../components/Loaded'
 import { PageHead } from '../components/Page'
+import { stack } from '../lib/stack'
 
 export default function Buyers() {
   const state = useApi(fetchBuyers, [])
@@ -16,14 +17,15 @@ export default function Buyers() {
       <Loaded state={state}>
         {(rows) => (
           <Table
- className="table-panel"
+            className="table-panel stack"
             rowKey="ticker"
             size="middle"
             pagination={false}
             dataSource={rows}
-            columns={[
+            columns={stack<BuyerSummary>([
               {
                 title: '买方',
+                className: 'stack-head',
                 width: 220,
                 render: (_, b) => (
                   <div style={{ display: 'grid', gap: 2 }}>
@@ -38,6 +40,7 @@ export default function Buyers() {
               },
               {
                 title: '治疗领域偏好（按优先级）',
+                stackLabel: '领域偏好',
                 render: (_, b) => (
                   <div style={{ display: 'flex', flexWrap: 'wrap', gap: 4 }}>
                     {b.therapeutic_areas.map((t, i) => (
@@ -48,6 +51,7 @@ export default function Buyers() {
               },
               {
                 title: '专利到期压力（美国，最近两项）',
+                stackLabel: '专利到期',
                 width: 360,
                 render: (_, b) =>
                   b.loe.length ? (
@@ -64,6 +68,7 @@ export default function Buyers() {
               },
               {
                 title: '主推荐方向指向该买方的候选公司',
+                stackLabel: '候选公司',
                 dataIndex: 'primary_targets',
                 align: 'right',
                 width: 200,
@@ -73,7 +78,7 @@ export default function Buyers() {
                   </Link>
                 ),
               },
-            ]}
+            ])}
           />
         )}
       </Loaded>

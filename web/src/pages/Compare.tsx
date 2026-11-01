@@ -1,4 +1,4 @@
-import { Alert, Table } from 'antd'
+import { Alert, Table, Grid } from 'antd'
 import type { ReactNode } from 'react'
 import { Link, useSearchParams } from 'react-router'
 import { fetchShortlist, type ShortlistItem } from '../api/client'
@@ -32,6 +32,10 @@ export default function Compare() {
   const [params] = useSearchParams()
   const tickers = (params.get('t') ?? '').split(',').map((t) => t.trim().toUpperCase()).filter(Boolean).slice(0, 4)
   const state = useApi(() => fetchShortlist(), [])
+  // Phones: a narrower label column and company columns so two companies fit side by side.
+  const phone = !Grid.useBreakpoint().md
+  const labelW = phone ? 84 : 150
+  const colW = phone ? 150 : 240
   return (
     <>
       <PageHead title="公司对比" lead="按默认权重比较各公司的主推荐方向（资产 × 适应症 × 买方）。本页链接可直接分享。" />
@@ -46,22 +50,22 @@ export default function Compare() {
             <>
               {missing.length > 0 && <Alert type="warning" title={`未找到：${missing.join('、')}`} style={{ marginBottom: 12 }} />}
               <Table
- className="table-panel"
                 rowKey="0"
                 size="small"
                 bordered
                 pagination={false}
-                scroll={{ x: 150 + found.length * 240 }}
+                className="table-panel compare"
+                scroll={{ x: labelW + found.length * colW }}
                 dataSource={ROWS}
                 columns={[
-                  { title: '', render: (_, r) => <span className="sub">{r[0]}</span>, width: 150, fixed: 'left' },
+                  { title: '', render: (_, r) => <span className="sub">{r[0]}</span>, width: labelW, fixed: 'left' },
                   ...found.map((i) => ({
                     title: (
                       <Link to={`/targets/${i.ticker}`} style={{ fontSize: 'var(--fs-body)' }}>
                         {i.name} <span className="sub">{i.ticker}</span>
                       </Link>
                     ),
-                    width: 240,
+                    width: colW,
                     render: (_: unknown, r: (typeof ROWS)[number]) => r[1](i),
                   })),
                 ]}

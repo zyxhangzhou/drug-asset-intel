@@ -6,6 +6,7 @@ import { Loaded } from '../components/Loaded'
 import { PageHead } from '../components/Page'
 import { Legend, Sourced, SourcedText } from '../components/Sourced'
 import { billions, CONFIDENCE, label, PREFERENCE_DIMENSION } from '../labels'
+import { stack } from '../lib/stack'
 
 const PROFILE: [keyof Detail['buyer'], string][] = [
   ['financial_signals', '财务信号'],
@@ -45,20 +46,21 @@ function View({ d }: { d: Detail }) {
 
       <Card title="资产偏好" size="small">
         <Table
+          className="stack"
           rowKey="id"
           size="small"
           pagination={false}
           scroll={{ x: 900 }}
           dataSource={d.preferences}
-          columns={[
+          columns={stack<Detail['preferences'][number]>([
             { title: '维度', render: (_, p) => `${label(PREFERENCE_DIMENSION, p.dimension)} #${p.rank}`, width: 110 },
-            { title: '偏好', render: (_, p) => <Sourced sources={p.sources} field="label">{p.label}</Sourced>, width: 140 },
+            { title: '偏好', className: 'stack-head', render: (_, p) => <Sourced sources={p.sources} field="label">{p.label}</Sourced>, width: 140 },
             { title: '需求类型', render: (_, p) => <Sourced sources={p.sources} field="need_type">{p.need_type}</Sourced> },
             { title: '目标资产画像', render: (_, p) => <Sourced sources={p.sources} field="target_profile">{p.target_profile}</Sourced> },
             { title: '理想阶段', render: (_, p) => <Sourced sources={p.sources} field="ideal_stage">{p.ideal_stage}</Sourced> },
             { title: '交易形式', render: (_, p) => <Sourced sources={p.sources} field="deal_form">{p.deal_form}</Sourced> },
             { title: '置信度', render: (_, p) => label(CONFIDENCE, p.confidence), width: 70 },
-          ]}
+          ])}
           expandable={{
             expandedRowRender: (p) => (
               <Descriptions column={1} size="small">
@@ -106,32 +108,35 @@ function View({ d }: { d: Detail }) {
 
       <Card title="专利到期产品（美国）" size="small">
         <Table
+          className="stack"
           rowKey="product"
           size="small"
           pagination={false}
           scroll={{ x: 800 }}
           dataSource={d.products}
-          columns={[
-            { title: '产品', dataIndex: 'product' },
+          columns={stack<Detail['products'][number]>([
+            { title: '产品', className: 'stack-head', dataIndex: 'product' },
             { title: '全球收入', render: (_, p) => <Sourced sources={p.sources} field="revenue_global">{p.revenue_global ?? '—'}</Sourced> },
             { title: '美国收入', render: (_, p) => <Sourced sources={p.sources} field="revenue_us">{p.revenue_us ?? '—'}</Sourced> },
             { title: '美国 LOE', render: (_, p) => <Sourced sources={p.sources} field="us_loe">{p.us_loe ?? '—'}</Sourced> },
             { title: '仿制药状态', render: (_, p) => <Sourced sources={p.sources} field="generic_status">{p.generic_status ?? '—'}</Sourced> },
             { title: '防御策略', render: (_, p) => <Sourced sources={p.sources} field="defense">{p.defense ?? '—'}</Sourced> },
-          ]}
+          ])}
         />
         <p className="note" style={{ marginTop: 8 }}>收入单位：十亿（本币）</p>
       </Card>
 
       <Card title={`匹配分最高的候选公司（前 ${d.matches.length}）`} size="small">
         <Table
+          className="stack"
           rowKey="ticker"
           size="small"
           pagination={false}
           dataSource={d.matches}
-          columns={[
+          columns={stack<Detail['matches'][number]>([
             {
               title: '公司',
+              className: 'stack-head',
               render: (_, m) => (
                 <>
                   <Link to={`/targets/${m.ticker}`}>{m.name}</Link> <span className="sub">{m.ticker}</span>
@@ -141,7 +146,7 @@ function View({ d }: { d: Detail }) {
             },
             { title: '匹配分', render: (_, m) => <Sourced sources={m.sources} field="score"><span className="figure">{m.score}</span></Sourced>, width: 90, align: 'right' as const },
             { title: '匹配理由', render: (_, m) => <SourcedText sources={m.sources} field="rationale" text={m.rationale} /> },
-          ]}
+          ])}
         />
       </Card>
     </>

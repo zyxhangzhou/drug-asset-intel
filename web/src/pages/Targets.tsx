@@ -6,6 +6,7 @@ import { useApi } from '../api/useApi'
 import { Loaded } from '../components/Loaded'
 import { PageHead, Score } from '../components/Page'
 import { DIMENSIONS, label, money, RESEARCH_STATUS, shortAsset, STAGE, STAGE_ORDER, TA, taLabel } from '../labels'
+import { stack } from '../lib/stack'
 
 const DEFAULT_WEIGHTS = [30, 20, 20, 15, 15]
 const MAX_COMPARE = 4
@@ -82,7 +83,7 @@ function List({ items }: { items: ShortlistItem[] }) {
         </p>
       </details>
       <Table
- className="table-panel"
+        className="table-panel stack"
         rowKey="ticker"
         size="small"
         dataSource={rows}
@@ -95,10 +96,11 @@ function List({ items }: { items: ShortlistItem[] }) {
           hideSelectAll: true,
           columnWidth: 36,
         }}
-        columns={[
-          { title: '排名', dataIndex: 'rank', width: 66, align: 'right', sorter: (a, b) => a.rank - b.rank, render: (v) => <span className="figure">{v}</span> },
+        columns={stack<ShortlistItem>([
+          { title: '排名', className: 'stack-inline', stackLabel: '#', dataIndex: 'rank', width: 66, align: 'right', sorter: (a, b) => a.rank - b.rank, render: (v) => <span className="figure">{v}</span> },
           {
             title: '公司',
+            className: 'stack-head',
             width: 210,
             sorter: (a, b) => a.name.localeCompare(b.name),
             render: (_, r) => (
@@ -113,6 +115,7 @@ function List({ items }: { items: ShortlistItem[] }) {
           },
           {
             title: '主推荐方向：资产 · 适应症',
+            stackLabel: '推荐方向',
             width: 170,
             render: (_, r) => (
               <div style={{ display: 'grid', gap: 2, minWidth: 0 }}>
@@ -125,6 +128,7 @@ function List({ items }: { items: ShortlistItem[] }) {
           },
           {
             title: <span style={{ whiteSpace: 'nowrap' }}>研发阶段</span>,
+            stackLabel: '研发阶段',
             width: 96,
             render: (_, r) => label(STAGE, r.stage),
             sorter: (a, b) => STAGE_ORDER.indexOf(a.stage ?? 'unknown') - STAGE_ORDER.indexOf(b.stage ?? 'unknown'),
@@ -132,6 +136,8 @@ function List({ items }: { items: ShortlistItem[] }) {
           { title: '买方', dataIndex: 'buyer', width: 104, ellipsis: true },
           ...DIMENSIONS.map((d) => ({
             title: <Tooltip title={d.label}><span style={{ whiteSpace: 'nowrap' }}>{d.short}</span></Tooltip>,
+            stackLabel: d.short,
+            className: 'stack-inline',
             width: 62,
             align: 'center' as const,
             render: (_: unknown, r: ShortlistItem) => <Score value={r.scores[d.key]} />,
@@ -150,9 +156,9 @@ function List({ items }: { items: ShortlistItem[] }) {
               </>
             ),
           },
-          { title: '覆盖率', width: 82, align: 'right', render: (_, r) => `${Math.round(r.coverage * 100)}%`, sorter: (a, b) => a.coverage - b.coverage },
+          { title: '覆盖率', className: 'stack-hide', width: 82, align: 'right', render: (_, r) => `${Math.round(r.coverage * 100)}%`, sorter: (a, b) => a.coverage - b.coverage },
           { title: '企业价值', width: 90, align: 'right', render: (_, r) => money(r.enterprise_value), sorter: (a, b) => (a.enterprise_value ?? 0) - (b.enterprise_value ?? 0) },
-        ]}
+        ])}
       />
     </>
   )

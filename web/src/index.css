@@ -1002,3 +1002,107 @@ strong {
     display: none;
   }
 }
+
+/* Phones: tables marked "stack" become one card per row; each cell shows its column label. */
+@media (max-width: 640px) {
+  .stack .ant-table-container,
+  .stack .ant-table-content,
+  .stack .ant-table-body {
+    overflow: visible !important;
+  }
+  .stack table {
+    width: 100% !important;
+    min-width: 0 !important;
+    table-layout: auto !important;
+  }
+  .stack colgroup,
+  .stack .ant-table-thead,
+  .stack .ant-table-measure-row {
+    display: none;
+  }
+  .stack .ant-table-tbody {
+    display: block;
+  }
+  .stack .ant-table-tbody > tr.ant-table-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px 12px;
+    padding: 12px;
+    border-bottom: 1px solid var(--line);
+  }
+  /* The label sits in a fixed left gutter so a cell's own inline content wraps normally beside it. */
+  .stack .ant-table-tbody > tr > td.ant-table-cell {
+    display: block;
+    flex: 1 1 100%;
+    min-width: 0;
+    padding: 0 0 0 6.5em !important;
+    border: 0 !important;
+    background: transparent !important;
+    text-align: left !important;
+    white-space: normal;
+    position: relative !important;
+    left: auto !important;
+    right: auto !important;
+  }
+  .stack td.ant-table-cell[data-label]::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 0;
+    top: 0.15em;
+    width: 6em;
+    color: var(--muted);
+    font-size: var(--fs-label);
+    line-height: 1.6;
+  }
+  .stack .ant-table-tbody > tr > td.ant-table-cell:not([data-label]) {
+    padding-left: 0 !important;
+  }
+  .stack .ant-table-tbody > tr > td.stack-head {
+    flex: 1 1 0;
+    padding-left: 0 !important;
+  }
+  .stack .ant-table-tbody > tr > td.stack-head::before {
+    display: none;
+  }
+  .stack .ant-table-tbody > tr > td.stack-inline,
+  .stack .ant-table-tbody > tr > td.ant-table-selection-column,
+  .stack .ant-table-tbody > tr > td.ant-table-row-expand-icon-cell {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    flex: 0 0 auto;
+    width: auto !important;
+    padding-left: 0 !important;
+  }
+  .stack td.stack-inline[data-label]::before {
+    position: static;
+    width: auto;
+  }
+  .stack .ant-table-tbody > tr > td.stack-hide {
+    display: none !important;
+  }
+  .stack .ant-table-tbody > tr.ant-table-expanded-row {
+    display: block;
+  }
+  .stack .ant-table-tbody > tr.ant-table-expanded-row > td {
+    display: block;
+    padding: 4px 12px 12px !important;
+  }
+  .toolbar > .ant-input-search,
+  .toolbar > .ant-select {
+    flex: 1 1 40%;
+    width: auto !important;
+    min-width: 0;
+  }
+  .toolbar > .ant-input-search {
+    flex-basis: 100%;
+  }
+  .toolbar .spacer {
+    display: none;
+  }
+}
+
+.compare .ant-table-tbody > tr > td {
+  vertical-align: top;
+}
