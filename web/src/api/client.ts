@@ -318,7 +318,18 @@ async function get(path: string): Promise<Response> {
   return resp
 }
 
-const getJson = async <T,>(path: string): Promise<T> => (await get(path)).json() as Promise<T>
+// The server answers from a read-only snapshot, so one response per path is reused for the
+// session; revisiting a page skips the network. A failed request is dropped so it can retry.
+const responses = new Map<string, Promise<unknown>>()
+const getJson = <T,>(path: string): Promise<T> => {
+  let hit = responses.get(path)
+  if (!hit) {
+    hit = get(path).then((r) => r.json())
+    hit.catch(() => responses.delete(path))
+    responses.set(path, hit)
+  }
+  return hit as Promise<T>
+}
 const enc = encodeURIComponent
 
 export const fetchMeta = () => getJson<SnapshotMeta>('/api/meta')

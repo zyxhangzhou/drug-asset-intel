@@ -131,8 +131,18 @@ def create_app(
     def health() -> Health:
         return Health(status="ok")
 
+    # The snapshot is read-only for the life of the process, so computed responses never go stale.
+    # Shortlists are keyed by normalized weights; the cap bounds memory under arbitrary what-ifs.
+    cache: dict[object, BaseModel] = {}
+    shortlist_cache_max = 64
+
     @app.get("/api/meta", response_model=Meta)
     def meta(session: Annotated[Session, Depends(get_session)]) -> Meta:
+        if "meta" not in cache:
+            cache["meta"] = _meta(session)
+        return cache["meta"]
+
+    def _meta(session: Session) -> Meta:
         row = session.get(SnapshotMeta, 1)
         return Meta(
             # SQLite drops tzinfo; snapshot times are always written in UTC.
@@ -157,6 +167,14 @@ def create_app(
                 w = normalize_weights(dict(zip(DIMENSIONS, values, strict=True)))
             except ValueError as exc:
                 raise HTTPException(status_code=422, detail=str(exc)) from exc
+        key = ("shortlist", *(round(w[d], 9) for d in DIMENSIONS))
+        if key not in cache:
+            if len(cache) > shortlist_cache_max:
+                cache.clear()
+            cache[key] = _shortlist(session, w)
+        return cache[key]
+
+    def _shortlist(session: Session, w: dict[str, float]) -> Shortlist:
         items = []
         for i, r in enumerate(checks.rank(checks.primaries(session), w), 1):
             rec, pi, pref = r.rec, r.rec.indication, r.rec.preference
