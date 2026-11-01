@@ -7,7 +7,7 @@
 - 命令：`uv run intel verify sample`（默认每层 30 条、种子 20261101）。同一快照与种子得到相同样本（`tests/test_verify.py` 覆盖）。
 - 抽样对象：快照中的声明（`Claim`），每条对应一个实体字段的取值及其来源。
 - 抽样快照：提交 `95a5712` 时的 `data/processed/intel.db`（修正前）。
-- 三层：
+- 三层：按声明的产生方式（`produced_by`：api / manual / llm）划分，各字段属于哪层见 [`data-sources.md`](data-sources.md) 第 5 节。
 
 | 层 | 抽样范围 | 样本数 |
 |---|---|---|

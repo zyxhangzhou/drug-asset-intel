@@ -84,6 +84,8 @@ erDiagram
 
 `intel check-provenance` 在构建后再扫一遍：有值而没有声明的字段数必须为 0。
 
+每条声明还记录值的产生方式（`produced_by`：接口 / 人工 / LLM），抽样核验按它分层。各字段由谁产生、LLM 写了哪些字段，见 [`data-sources.md`](data-sources.md) 第 5 节。
+
 ## 3. 构建流程
 
 `intel build` 按固定顺序执行以下步骤（`build.py`），每步可以登记缺口（找不到来源的字段），最终写出 `gaps.csv`：
