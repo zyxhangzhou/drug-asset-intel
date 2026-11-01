@@ -203,3 +203,4 @@
 - 2026-11-01 · 69dd30f7-bc86-4fc2-b36d-dea57ab87358 · H：用户按推荐确定：收购成本 = EV × 有来源的溢价区间（只填 5 家深度研究公司）；抽样每层 30。建 OpenSpec 变更 `export-verify`（新增 `baseline-export`、`data-verification`，修改 `analyst-review`），校验通过
 - 2026-11-01 · 69dd30f7-bc86-4fc2-b36d-dea57ab87358 · H：Excel 导出（主表只列入选 30 家，其余 103 家单独成表）与抽样核验完成。错误率：结构化 0/30、复核 4/30、LLM 2/30；修正交易形式来源、LLM 占位对照组，经用户确认补登 IONS 可转换票据（保守分 78.8→75.0，仍入选）与 CLDX 终点限定语；入选公司中 17 家 XBRL 无债务标签的已逐家核对 10-Q，均无借款。报告 `docs/verification.md`。用户抽查 5 份复核文件 0 错误，核对 Excel 无问题。规格同步后归档为 `2026-11-01-export-verify`。H 完成
 - 2026-11-01 · 69dd30f7-bc86-4fc2-b36d-dea57ab87358 · I：用户确定部署加访问密码、仓库保留 mydoc/ 与 .claude/ 作为 AI 工作流证据。建 OpenSpec 变更 `deploy-docs`（修改 `app-runtime`：可选访问密码），校验通过
+- 2026-11-01 · 69dd30f7-bc86-4fc2-b36d-dea57ab87358 · I：交付文档全部起草，独立子代理事实核对后修正 12 处；Render 部署完成（https://drug-asset-intel.onrender.com，需密码），用户的大陆朋友实测可访问。待用户通读文档与彩排后归档
