@@ -409,3 +409,10 @@ def test_match_program_by_name_brackets_and_containment(asset, names, expected):
     programs = [Program(name=n) for n in names]
     found = match_program(programs, asset)
     assert (found.name if found else None) == expected
+
+
+def test_none_comparator_is_left_empty(world, tmp_path):
+    single_arm = item("clinical_result", RESULT.values | {"comparator": "none"}, RESULT.quotes)
+    run(world, make_inputs(tmp_path, [single_arm]))
+    assert world.exec(select(TrialResult)).one().comparator is None
+    assert not world.exec(select(Claim).where(Claim.field == "comparator")).all()

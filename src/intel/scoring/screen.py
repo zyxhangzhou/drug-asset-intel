@@ -421,14 +421,16 @@ def reviewed_pair(review: Review, target, prefs, financial, scorer) -> Pair:
             scored.score, scored.sources, confidence=scored.confidence, note=scored.reason
         )
     fit_sources = review.scores["buyer_fit"].sources if "buyer_fit" in review.scores else []
-    for name, text, kind in (
-        ("need_item", review.need_item, ClaimKind.fact),
-        ("match_note", review.match_note, ClaimKind.inference),
-        ("deal_form", review.deal_form, ClaimKind.inference),
+    # The deal form follows from who holds the asset rights, so it cites the rights sources.
+    rights_sources = review.rights_cited.sources if review.rights_cited else []
+    for name, text, kind, sources in (
+        ("need_item", review.need_item, ClaimKind.fact, fit_sources),
+        ("match_note", review.match_note, ClaimKind.inference, fit_sources),
+        ("deal_form", review.deal_form, ClaimKind.inference, rights_sources or fit_sources),
     ):
         if text:
             pair.cells[name] = Cell(
-                text, fit_sources, kind, None if kind == ClaimKind.fact else Confidence.medium
+                text, sources, kind, None if kind == ClaimKind.fact else Confidence.medium
             )
     if review.clinical:
         for name in ("design", "comparability", "result", "limitation"):

@@ -163,6 +163,14 @@ def test_review_shortlists_with_verified_rights(tmp_path):
         assert rec.preference.buyer.name == "Novo Nordisk"
         target = s.exec(select(Target).where(Target.ticker == "VKTX")).one()
         assert target.shortlisted and target.selection_rationale.startswith("诺和诺德")
+        deal_form = s.exec(
+            select(Claim).where(
+                Claim.entity_type == "recommendation",
+                Claim.entity_id == str(primary(s, "VKTX").id),
+                Claim.field == "deal_form",
+            )
+        ).all()
+        assert {c.source_id for c in deal_form} == {"MAN-VKTX-1"}  # the rights sources
         assert provenance_gaps(s) == []
 
 

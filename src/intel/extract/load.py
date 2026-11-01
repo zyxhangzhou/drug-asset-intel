@@ -183,6 +183,9 @@ def ingest(ctx: BuildContext) -> None:
     ctx.notes.append(f"extractions: {loaded} accepted item(s) loaded, {undecided} not reviewed")
 
 
+PLACEHOLDERS = {"", "none", "n/a", "na", "not reported", "not stated"}
+
+
 def _value_problem(item) -> str | None:
     """Controlled values a reviewer may have edited by hand."""
     v = item.values
@@ -233,11 +236,14 @@ def _write(
         if found.basis:
             claim["note"] = f"{NOTE}；{found.basis}"
         fields = ("endpoint", "result", "analysis", "comparator", "advantage_vs_soc")
-        row = TrialResult(trial_id=trial.id, **{f: v.get(f) or None for f in fields})
+        # "none" means the model found nothing to quote; a quote cannot show a comparator is absent.
+        given = {f: v.get(f) if (v.get(f) or "").strip().lower() not in PLACEHOLDERS else None
+                 for f in fields}  # fmt: skip
+        row = TrialResult(trial_id=trial.id, **{f: given[f] or None for f in fields})
         ctx.session.add(row)
         ctx.session.flush()
         for fld in fields:
-            if not v.get(fld):
+            if not given[fld]:
                 continue
             if fld == "advantage_vs_soc":
                 ctx.claim("trial_result", row.id, fld, v[fld], source.source_id,
