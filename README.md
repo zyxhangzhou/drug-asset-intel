@@ -32,7 +32,7 @@
 
 | 题面考察点 | 做法 | 证据 |
 |---|---|---|
-| 业务目标和问题边界 | 回答「10 家买方要什么、谁有、凭什么相信」；只评估指数成分公司，规则排除 16 家；深度研究限 5 家 | [`scoring-rules.md`](docs/scoring-rules.md) 第 0、1 节 |
+| 业务目标和问题边界 | 回答「10 家买方要什么、谁有、凭什么相信」；只评估指数成分公司，规则排除 16 家；深度研究限 5 家。需求拆解：题面逐项对应到负责的变更，并列出明确不做的范围 | [`scoring-rules.md`](docs/scoring-rules.md) 第 0、1 节；需求拆解计划 [`mydoc/plans/drug-asset-intel/`](mydoc/plans/drug-asset-intel/README.md)（「题面覆盖与进度」「Out of scope」两节） |
 | 数据模型及系统架构 | 业务表 + 声明表（每个值挂来源）；抓取、离线构建、只读使用三段分离；单文件 SQLite 快照 | [`architecture.md`](docs/architecture.md) 第 1、2、6 节 |
 | 权威信息源与来源追溯 | 结构化字段只走 CT.gov、SEC XBRL、openFDA 官方接口；文档原文存档并记 SHA-256；页面可点开原文并高亮引用片段 | [`data-sources.md`](docs/data-sources.md) 第 2、3 节 |
 | AI 工具的实际应用效果 | 分工、用量与费用（LLM 226 次调用 5.88 元）；分层抽样错误率；拦下的幻觉与修正 | [`ai-usage.md`](docs/ai-usage.md)、[`ai-log.md`](docs/ai-log.md) |
@@ -40,7 +40,7 @@
 | 事实、推断和不确定性 | 每个值标事实或推断，推断带四档置信度；保守分与乐观分区间反映研究充分程度；找不到来源留空，记入缺口清单 | [`data-sources.md`](docs/data-sources.md) 第 4 节、[`scoring-rules.md`](docs/scoring-rules.md) 第 4 节 |
 | 应用的可用性和扩展性 | 已部署可访问，支持手机；权重可调并实时重排；复核与抽取文件按公司独立，扩到全部公司不改代码 | [`architecture.md`](docs/architecture.md) 第 5、7 节、[`demo.md`](docs/demo.md) |
 | 代码质量、文档质量及工程完整度 | 302 项测试；OpenSpec 规格驱动（11 个变更、16 份主规格）；一条命令启动；交付文档齐全 | 本文件「运行」「测试与检查」、`openspec/` |
-| 一周内的优先级与取舍 | 先保证可追溯再追求覆盖面：结构化数据全量、复核 45 家、深度 5 家；问答与多人审核移入四周计划 | [`limitations-roadmap.md`](docs/limitations-roadmap.md) |
+| 一周内的优先级与取舍 | 先保证可追溯再追求覆盖面：结构化数据全量、复核 45 家、深度 5 家；问答与多人审核移入四周计划。拆成 13 个变更按依赖排序，计划随发现修订 6 版，每版写明原因 | [`limitations-roadmap.md`](docs/limitations-roadmap.md)；计划版本链 [`mydoc/plans/drug-asset-intel/README.md`](mydoc/plans/drug-asset-intel/README.md) |
 
 ## 结果一览
 
