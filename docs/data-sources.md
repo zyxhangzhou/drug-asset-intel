@@ -85,7 +85,28 @@
 
 条数按当前快照统计：`sqlite3 data/processed/intel.db "select produced_by, entity_type, field, count(*) from claim group by 1, 2, 3"`。
 
-## 6. 没有使用的来源
+## 6. 归一化
+
+不同来源对同一事物写法不同，配对、比较与计数前先统一。规则都在代码或 `data/manual/` 下可审阅的表格中。
+
+| 对象 | 原始数据的问题 | 处理 | 代码 / 文件 |
+|---|---|---|---|
+| 公司 | 同一公司在 SEC、CT.gov、openFDA 中名称不同（openFDA 写作「ACADIA PHARMS」等缩写） | 先映射到 SEC CIK；名称转小写、去掉股份类别与 Inc、Corp 等后缀；补 openFDA 缩写规则 | `ingest/universe.py`、`ingest/pool.py`、`ingest/openfda.py`；修正后获批产品 51 → 105 |
+| 试验归属 | 申办方写作子公司或曾用名 | 申办方别名表（20 条），每条注明依据 | `sponsor_aliases.csv` |
+| 别家公司的药 | 试验中出现大型药企的研发代号（如 PF-、MK-、AZD），不是标的公司的资产 | 研发代号前缀表（22 条）识别所属公司，不计入标的管线 | `sponsor_code_prefixes.csv` |
+| 药物（资产） | 同一药物在不同试验中带剂量、给药途径、括号说明，或用品牌名 | 去掉剂量、途径与括号后统一大写；合并 openFDA 品牌名；人工别名表 | `ingest/ctgov.py` 的 `normalize_intervention`、`program_aliases.csv` |
+| 非资产干预 | 对照药、安慰剂、背景疗法被当成资产 | 通用疗法过滤，另加人工排除表 | `ingest/ctgov.py`、`intervention_excludes.csv` |
+| 研发阶段 | CT.gov 以组合登记（如 `PHASE1, PHASE2`） | 统一为 9 个受控取值（临床前、1 期、1/2 期、2 期、2/3 期、3 期、已申报、已上市、未知）；已上市以 FDA 说明书适应症为准 | `enums.py` 的 `Stage`、`ingest/ctgov.py` |
+| 治疗领域 | 适应症为自由文本 | 关键词表（251 条）归入 14 个治疗领域；固定抽样 50 条检验，漏判率 12%，已补关键词 | `ta_keywords.csv` |
+| 买方偏好 | 对方材料以文字描述偏好 | 映射表（30 行）对应到治疗领域与理想阶段，用户签字 | `buyer_preference_map.csv` |
+| 财务 | 各公司使用的 XBRL 标签不同；合计与分项同时申报，直接相加会重复 | 按标签优先级取值，只取美元；统一取最近一期资产负债表日；年初至今经营现金流按月数折算后计算资金可支撑月数 | `ingest/financials.py`（RLAY 现金少算约 8 亿美元即在此修正） |
+| 事件时间 | 「Q4 2026」「second half of 2027」等写法 | 换算为时间窗口起止日期；无法换算的留空 | `extract/load.py` |
+| 原文核对 | 引号、横线、空格、大小写与千分位写法不一 | 比对前统一为 NFKC、直引号、ASCII 横线、单空格、小写；数字去掉千分位与小数末尾的 0 | `docs/text.py` 的 `normalize`、`numbers` |
+| 空值 | LLM 返回「none」「n/a」等占位词 | 视为空值，不建声明 | `extract/load.py` |
+
+枚举字段（研发阶段、置信度、资产权益、技术类型等）只收受控取值，由写入检查（`db.py` 的 `before_flush`）强制执行。
+
+## 7. 没有使用的来源
 
 | 来源 | 原因 |
 |---|---|
