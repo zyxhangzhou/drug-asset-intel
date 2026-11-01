@@ -40,3 +40,20 @@ def test_catalyst_matrix():
     assert scoring.catalyst_score(EventImportance.high, EventCertainty.estimated) == 3
     assert scoring.catalyst_score(EventImportance.medium, EventCertainty.disclosed) == 3
     assert scoring.catalyst_score(None, None) == 0
+
+
+def test_ties_compare_dimensions_by_weight():
+    # Same conservative score: the heavier dimension decides before the ticker does.
+    a = {"buyer_fit": 3, "stage_match": 4, "clinical": 2, "catalyst": 4, "dealability": 2}
+    b = {"buyer_fit": 3, "stage_match": 4, "clinical": 2, "catalyst": 3, "dealability": 3}
+    total = scoring.conservative(a, CFG.weights)
+    assert total == scoring.conservative(b, CFG.weights)
+    keys = [
+        scoring.rank_key(total, a, CFG.weights, "ZZZ"),
+        scoring.rank_key(total, b, CFG.weights, "AAA"),
+    ]
+    assert keys[0] < keys[1]
+    # A missing dimension ranks below a scored 0.
+    assert scoring.rank_key(50, {"buyer_fit": 0}, CFG.weights, "B") < scoring.rank_key(
+        50, {"buyer_fit": None}, CFG.weights, "A"
+    )

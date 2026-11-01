@@ -87,6 +87,26 @@ def optimistic(scores: Mapping[str, int | None], weights: Mapping[str, float]) -
     return total(scores, weights, missing=4)
 
 
+def rank_key(
+    conservative: float,
+    scores: Mapping[str, int | None],
+    weights: Mapping[str, float],
+    ticker: str,
+) -> tuple:
+    """Sort key for the conservative ranking, shared by the shortlist, the API and the export.
+
+    Ties on the conservative score compare the dimensions one by one, heaviest weight first
+    (equal weights keep DIMENSIONS order); a missing dimension ranks below 0; the ticker
+    decides last.
+    """
+    dims = sorted(DIMENSIONS, key=lambda d: (-weights[d], DIMENSIONS.index(d)))
+    return (
+        -conservative,
+        *(-(-1 if scores.get(d) is None else scores[d]) for d in dims),
+        ticker,
+    )
+
+
 def stage_match(stage: Stage, lo: Stage, hi: Stage) -> int | None:
     if stage not in STAGE_ORDER:
         return None

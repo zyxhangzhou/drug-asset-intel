@@ -27,7 +27,7 @@ from intel.models import (
     Trial,
     TrialResult,
 )
-from intel.scoring import DIMENSIONS
+from intel.scoring import DIMENSIONS, ScoringConfig, rank_key
 
 FILE_NAME = "候选生物制药公司列表.xlsx"
 CATALYST_WINDOW_DAYS = 730  # the brief's 12–24 months, counted from the snapshot date
@@ -172,8 +172,10 @@ def _companies(
     }
     fin_src = views.claims_by_entity(s, "financial_snapshot", (f.id for f in fins.values()))
     rows, rest, counts = [], [], dict.fromkeys(STATUS, 0)
+    weights = ScoringConfig.load().weights
     order = sorted(
-        zip(recs, outs, strict=True), key=lambda x: (-x[1].conservative, x[0].target.ticker)
+        zip(recs, outs, strict=True),
+        key=lambda x: rank_key(x[1].conservative, x[1].scores, weights, x[0].target.ticker),
     )
     for rec, o in order:
         t: Target = rec.target

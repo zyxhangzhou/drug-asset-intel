@@ -263,3 +263,11 @@ def test_rgnx_llm_result_quote_is_in_archived_text(snap):
     assert llm
     text = snap.get(f"/api/sources/{llm[0]['source']['source_id']}/text").text
     assert " ".join(llm[0]["quote"].split())[:40] in " ".join(text.split())
+
+
+@needs_snapshot
+def test_shortlisted_companies_hold_the_top_ranks(snap):
+    # The page ranking and the shortlist must agree, ties included.
+    items = snap.get("/api/shortlist").json()["items"]
+    picked = sorted(i["rank"] for i in items if i["shortlisted"])
+    assert picked == list(range(1, len(picked) + 1))

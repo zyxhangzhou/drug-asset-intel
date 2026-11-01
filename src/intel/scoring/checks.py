@@ -36,7 +36,15 @@ def rank(recs: list[Recommendation], weights: dict[str, float]) -> list[Ranked]:
         rows.append(
             Ranked(rec, scoring.conservative(scores, weights), scoring.optimistic(scores, weights))
         )
-    return sorted(rows, key=lambda r: (-r.conservative, -r.optimistic, r.rec.target.ticker))
+    return sorted(
+        rows,
+        key=lambda r: scoring.rank_key(
+            r.conservative,
+            {d: getattr(r.rec, d) for d in scoring.DIMENSIONS},
+            weights,
+            r.rec.target.ticker,
+        ),
+    )
 
 
 def unsupported_high_scores(session: Session, recs: list[Recommendation]) -> list[str]:

@@ -592,7 +592,8 @@ def ingest(ctx: BuildContext) -> None:
 
     blockers = {id(p): shortlist_blocker(p) for p, _ in primaries}
     eligible = sorted(
-        (p for p, _ in primaries if blockers[id(p)] is None), key=lambda p: -p.conservative
+        (p for p, _ in primaries if blockers[id(p)] is None),
+        key=lambda p: scoring.rank_key(p.conservative, p.scores(), cfg.weights, p.target.ticker),
     )
     shortlisted = {id(p) for p in eligible[: cfg.shortlist_max]}
     by_optimistic = sorted(
