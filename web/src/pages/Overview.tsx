@@ -125,7 +125,7 @@ export default function Overview() {
             title="候选资产概览"
             meta={
               <>
-                <span>数据截至 {m.snapshot_date ?? '未知'}</span>
+                <span>快照日（股价） {m.snapshot_date ?? '未知'}</span>
                 <span>快照生成于 {m.generated_at ? new Date(m.generated_at).toLocaleString('zh-CN') : '未知'}</span>
               </>
             }

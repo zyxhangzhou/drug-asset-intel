@@ -44,7 +44,7 @@ function Shell() {
               <span className="brand-text">
                 <span className="brand-name">全球创新药资产情报平台</span>
                 <span className="brand-sub">
-                  10 家大型药企 × 标普生物科技指数成分公司{snapshot ? ` · 数据截至 ${snapshot}` : ''}
+                  10 家大型药企 × 标普生物科技指数成分公司{snapshot ? ` · 快照日 ${snapshot}` : ''}
                 </span>
               </span>
             </Link>
