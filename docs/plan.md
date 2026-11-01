@@ -1,6 +1,6 @@
 # 应用开发方案（v1 草案）
 
-> 状态：草案，2026-10-28。本文同时是交付物 3「应用开发方案或架构说明」的底稿，随实施更新。
+> 状态：开工前方案（2026-10-28），保留作历史记录，未随实施更新。建成后的系统见 [`architecture.md`](architecture.md)，筛选方法见 [`scoring-rules.md`](scoring-rules.md)。
 > 术语解释见 [`docs/glossary.md`](glossary.md)。
 
 ## 1. 目标与边界

@@ -13,8 +13,8 @@
 
 ## 3. 架构、方法与数据来源
 
-- [ ] 3.1 写 `docs/architecture.md`：组件与数据流、数据模型与溯源规则、构建与核验流程、扩展方式；`docs/plan.md` 顶部注明为开工前方案
-- [ ] 3.2 `docs/scoring-rules.md` 定稿（统一「推荐逻辑」「推荐方向」用语，去掉初稿标记）；写 `docs/data-sources.md`（来源类型、接口、口径、更新时间、来源 ID 规则）
+- [x] 3.1 写 `docs/architecture.md`：组件与数据流、数据模型与溯源规则、构建与核验流程、扩展方式；`docs/plan.md` 顶部注明为开工前方案
+- [x] 3.2 `docs/scoring-rules.md` 定稿（统一「推荐逻辑」「推荐方向」用语，去掉初稿标记）；写 `docs/data-sources.md`（来源类型、接口、口径、更新时间、来源 ID 规则）
 
 ## 4. 限制、计划与演示
 
