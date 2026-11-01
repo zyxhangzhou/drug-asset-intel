@@ -6,6 +6,7 @@ import { useApi } from './api/useApi'
 import BuyerDetail from './pages/BuyerDetail'
 import Buyers from './pages/Buyers'
 import Compare from './pages/Compare'
+import Guide from './pages/Guide'
 import Overview from './pages/Overview'
 import SourceDetail from './pages/SourceDetail'
 import TargetDetail from './pages/TargetDetail'
@@ -17,11 +18,13 @@ const NAV = [
   { to: '/', label: '概览' },
   { to: '/buyers', label: '买方' },
   { to: '/targets', label: '候选' },
+  { to: '/guide', label: '流程说明' },
 ]
 
 // Company, compare, trial and source pages all sit under 候选 in the navigation.
 function section(pathname: string) {
   if (pathname === '/') return '/'
+  if (pathname === '/guide') return '/guide'
   return pathname.startsWith('/buyers') ? '/buyers' : '/targets'
 }
 
@@ -70,6 +73,7 @@ function Shell() {
           <Route path="/compare" element={<Compare />} />
           <Route path="/trials/:nct" element={<TrialDetail />} />
           <Route path="/sources/:id" element={<SourceDetail />} />
+          <Route path="/guide" element={<Guide />} />
           <Route path="*" element={<Result status="404" title="页面不存在" extra={<Link to="/">返回概览</Link>} />} />
         </Routes>
       </main>

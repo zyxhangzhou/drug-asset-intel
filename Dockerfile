@@ -5,6 +5,7 @@ WORKDIR /web
 COPY web/package.json web/package-lock.json ./
 RUN npm ci
 COPY web/ ./
+COPY ["docs/流程说明.html", "/docs/流程说明.html"]
 RUN npm run build
 
 FROM ghcr.io/astral-sh/uv:python3.12-bookworm-slim AS app
