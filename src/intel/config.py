@@ -30,7 +30,6 @@ DEFAULT_WEB_DIST = "web/dist"
 class Settings:
     db_path: Path
     web_dist: Path
-    access_password: str | None
     sec_user_agent: str | None
     llm_base_url: str | None
     llm_model: str | None
@@ -38,6 +37,7 @@ class Settings:
     llm_verify_base_url: str | None
     llm_verify_model: str | None
     llm_verify_api_key: str | None
+    access_password: str | None = None
 
 
 def load_settings() -> Settings:
