@@ -151,6 +151,6 @@ flowchart LR
 
 ## 8. 开发方式
 
-- **规格驱动**：每个代码变更先在 `openspec/changes/<name>/` 写提案、规格（需求 + 场景）、设计与任务，实现后逐条核对再归档；主规格在 `openspec/specs/`（16 份）。已完成 10 个变更。
+- **规格驱动**：每个代码变更先在 `openspec/changes/<name>/` 写提案、规格（需求 + 场景）、设计与任务，实现后逐条核对再归档；主规格在 `openspec/specs/`（16 份）。已完成 11 个变更。
 - **变更计划**：`mydoc/plans/drug-asset-intel/` 记录需求拆分（v1–v6）与每次状态变化。
 - **测试**：302 项 pytest 用例，对应规格中的场景；`ruff` 检查代码风格。

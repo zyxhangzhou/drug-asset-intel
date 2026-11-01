@@ -41,7 +41,7 @@
 | 5 | F | 深度填充 3–5 家 | 研究 | — | D, E, K, L, M | done（5 家抽取与复核文件已签字入库） |
 | 5 | G | Web 应用样板 | 代码 | `web-app` | B, C, E | done（归档 `2026-11-01-web-app`；20 项任务，含用户评审后的视觉改版） |
 | 6 | H | Excel 导出与抽样核验 | 代码 + 研究 | `export-verify` | F, G | done（归档 `2026-11-01-export-verify`；新增主 spec `baseline-export`、`data-verification`，修改 `analyst-review`） |
-| 7 | I | 部署与交付文档 | 交付 | `deploy-docs` | H | in progress（OpenSpec 变更已建，5 组 11 项任务） |
+| 7 | I | 部署与交付文档 | 交付 | `deploy-docs` | H | done（已归档 `2026-11-01-deploy-docs`） |
 | — | J | 带引用的 RAG 问答（可选） | 代码 | `ask-platform` | D, I | planned |
 
 同一 Order 的变更可并行。
@@ -204,3 +204,4 @@
 - 2026-11-01 · 69dd30f7-bc86-4fc2-b36d-dea57ab87358 · H：Excel 导出（主表只列入选 30 家，其余 103 家单独成表）与抽样核验完成。错误率：结构化 0/30、复核 4/30、LLM 2/30；修正交易形式来源、LLM 占位对照组，经用户确认补登 IONS 可转换票据（保守分 78.8→75.0，仍入选）与 CLDX 终点限定语；入选公司中 17 家 XBRL 无债务标签的已逐家核对 10-Q，均无借款。报告 `docs/verification.md`。用户抽查 5 份复核文件 0 错误，核对 Excel 无问题。规格同步后归档为 `2026-11-01-export-verify`。H 完成
 - 2026-11-01 · 69dd30f7-bc86-4fc2-b36d-dea57ab87358 · I：用户确定部署加访问密码、仓库保留 mydoc/ 与 .claude/ 作为 AI 工作流证据。建 OpenSpec 变更 `deploy-docs`（修改 `app-runtime`：可选访问密码），校验通过
 - 2026-11-01 · 69dd30f7-bc86-4fc2-b36d-dea57ab87358 · I：交付文档全部起草，独立子代理事实核对后修正 12 处；Render 部署完成（https://drug-asset-intel.onrender.com，需密码），用户的大陆朋友实测可访问。待用户通读文档与彩排后归档
+- 2026-11-01 · 69dd30f7-bc86-4fc2-b36d-dea57ab87358 · I：部署后按用户反馈完成手机版适配、同分排序规则（按权重逐维比较，页面 / 入选名单 / Excel 共用）、接口与前端缓存、胶囊品牌标志与顶栏放大；另做演示台词页（私有 Artifact）。用户通读文档并彩排后确认归档；`app-runtime` 规格同步（新增可选访问密码），归档为 `2026-11-01-deploy-docs`。I 完成
