@@ -68,6 +68,9 @@ uv run intel build                        # 离线从材料 + 缓存 + data/manu
 uv run intel init-db                      # 建空库（可重复执行）
 uv run intel check-provenance             # 溯源完整性检查
 uv run intel check-scoring                # 评分检验：高分有事实支撑、前 10 覆盖率、权重敏感性
+uv run intel export                       # 从快照导出 deliverables/候选生物制药公司列表.xlsx
+uv run intel verify sample                # 三层抽样核对表（种子 20261101，每层 30），写 docs/verification-sample.csv
+uv run intel verify spot-check            # 用户抽查清单（5 份复核文件），写 docs/spot-check.md
 uv run intel serve                        # API，http://127.0.0.1:8000；/api/shortlist?weights=30,20,20,15,15 按权重重排
 cd web && npm install && npm run dev      # 前端开发服务器（代理 /api）
 cd web && npm run build                   # 构建前端，intel serve 会托管 web/dist；前端路由（如 /targets/VKTX）可直接打开

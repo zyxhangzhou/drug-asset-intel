@@ -11,7 +11,7 @@
 
 - [x] 2.1 新增 `intel export`：说明、候选公司、管线、临床数据、催化事件（三个出处）、来源、缺口七张表，关键字段带来源列；写到 `deliverables/候选生物制药公司列表.xlsx`
 - [x] 2.2 测试：同一快照两次导出内容相同；来源列中的每个 ID 都在来源表；说明表各状态公司数之和等于候选公司行数；入选公司行有推荐逻辑与财务列
-- [ ] 2.3 [人工] 打开 Excel 检查 VKTX、RGNX 两行与对应管线、临床、催化事件行，与公司详情页一致
+- [x] 2.3 [人工] 打开 Excel 检查 VKTX、RGNX 两行与对应管线、临床、催化事件行，与公司详情页一致
 
 ## 3. 抽样核验
 
@@ -23,7 +23,7 @@
 
 ## 4. 收尾
 
-- [ ] 4.1 `CLAUDE.md` 补 `intel export`、`intel verify sample` 命令；`uv run pytest`、`uv run ruff check .` 通过；`docs/ai-log.md` 记一条
+- [x] 4.1 `CLAUDE.md` 补 `intel export`、`intel verify sample` 命令；`uv run pytest`、`uv run ruff check .` 通过；`docs/ai-log.md` 记一条
 
 ## Workflow follow-up
 
