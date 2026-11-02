@@ -42,6 +42,13 @@
 | 代码质量、文档质量及工程完整度 | 302 项测试；OpenSpec 规格驱动（11 个变更、16 份主规格）；一条命令启动；交付文档齐全 | 本文件「运行」「测试与检查」、`openspec/` |
 | 一周内的优先级与取舍 | 先保证可追溯再追求覆盖面：结构化数据全量、复核 45 家、深度 5 家；问答与多人审核移入四周计划。拆成 13 个变更按依赖排序，计划随发现修订 6 版，每版写明原因 | [`limitations-roadmap.md`](docs/limitations-roadmap.md)；计划版本链 [`mydoc/plans/drug-asset-intel/README.md`](mydoc/plans/drug-asset-intel/README.md) |
 
+## 开发方式
+
+两层流程，记录都保存在仓库中：
+
+1. **需求拆解**：用我编写的 Claude Code 技能 change-plan（[`.claude/skills/change-plan/`](.claude/skills/change-plan/SKILL.md)），把题面拆成 13 个变更，写明依赖和顺序，题面每一项都对应到负责的变更。开发中有新发现就出新版本，共 6 版，原因记在版本表里。计划见 [`mydoc/plans/drug-asset-intel/`](mydoc/plans/drug-asset-intel/README.md)。
+2. **单个变更**：代码类变更用 OpenSpec（[`openspec/`](openspec/)）：先写提案、规格和验收场景，AI 按规格实现，完成后逐条核对再归档。共归档 11 个变更，形成 16 份主规格。研究类变更不写规格，只在计划里写数据验收标准。
+
 ## 结果一览
 
 | 环节 | 数量 |
@@ -137,6 +144,6 @@ uv run intel verify sample       # 分层抽样核对表
 | `docs/` | 交付文档；`docs/assignment/` 为对方原始附件（只读） |
 | `openspec/` | 规格驱动开发：每个代码变更的提案、规格、设计与任务，已完成的在 `archive/` |
 | `mydoc/plans/` | 变更拆分计划（v1–v6）及状态日志 |
-| `.claude/` | AI 编码助手（Claude Code）使用的技能与项目配置 |
+| `.claude/` | AI 编码助手（Claude Code）使用的技能与项目配置，含需求拆解技能 change-plan 与 OpenSpec 技能 |
 
 `openspec/`、`mydoc/` 与 `.claude/` 保留在仓库中，作为 AI 辅助开发流程的原始记录，说明见 [`docs/ai-usage.md`](docs/ai-usage.md)。

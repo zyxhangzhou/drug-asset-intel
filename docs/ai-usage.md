@@ -15,6 +15,7 @@
 | 通义千问 `qwen3.7-plus-2026-05-26`（阿里云百炼） | 对同一文档盲抽，与 DeepSeek 逐字段交叉核验 | 113 次调用，2.14 元 |
 | WebSearch / WebFetch | 查找一手来源（公司公告、SEC 文件、FDA 页面）、核实价格表与接口文档 | 研究与设计阶段 |
 | Playwright（无头 Chromium） | 前端走查截图，桌面与手机宽度检查版面 | 每轮界面修改后 |
+| change-plan（自己编写的 Claude Code 技能，`.claude/skills/change-plan/`） | 需求拆解：把题面拆成多个变更，写明依赖、顺序和题面覆盖；计划变化时出新版本并记录原因；变更完成时更新状态 | 计划 6 版（v1–v6）、13 个变更，`mydoc/plans/drug-asset-intel/` |
 | OpenSpec | 规格驱动开发：每个代码变更先写提案、规格、设计与任务，AI 按规格实现，完成后核对并归档 | 11 个已归档变更、16 份主规格 |
 
 LLM 抽取合计 226 次调用、5.88 元（预算上限 DeepSeek 15 元、千问 5 元，超限自动停止）。DeepSeek 只在非高峰时段运行。
